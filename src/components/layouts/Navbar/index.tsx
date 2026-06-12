@@ -27,7 +27,7 @@ export const Navbar = () => {
     if (!mounted) {
         return (
             <nav className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur">
-                <div className="container flex h-14 items-center">
+                <div className="container mx-auto flex h-14 items-center">
                     <div className="mr-4 flex">
                         <span className="font-bold">Fe</span>
                     </div>
@@ -38,7 +38,7 @@ export const Navbar = () => {
 
     return (
         <nav className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur">
-            <div className="container flex h-14 items-center justify-between">
+            <div className="container mx-auto flex h-14 items-center justify-between">
                 <div className="flex items-center gap-6">
                     <span className="font-bold text-lg">Fe</span>
                     <div className="hidden md:flex items-center gap-4 text-sm">
