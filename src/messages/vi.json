@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "title": "Fe Project",
+    "description": "Dự án frontend scaffold"
+  },
+  "home": {
+    "title": "Trang chủ",
+    "welcome": "Chào mừng đến với Fe Project"
+  },
+  "navbar": {
+    "home": "Trang chủ",
+    "courses": "Khóa học",
+    "programs": "Chương trình",
+    "login": "Đăng nhập"
+  },
+  "programs": {
+    "title": "Chương trình đào tạo",
+    "subtitle": "Khám phá danh sách các ngành học từ các trường đại học hàng đầu Việt Nam",
+    "searchPlaceholder": "Tìm kiếm ngành học...",
+    "allDegrees": "Tất cả bậc đào tạo",
+    "sort": "Sắp xếp",
+    "sortNewest": "Mới nhất",
+    "sortName": "Tên A-Z",
+    "sortCredits": "Số tín chỉ",
+    "results": "Hiển thị {count} kết quả",
+    "resultsOfTotal": "Hiển thị {count} kết quả trong tổng số {total} ngành",
+    "clearFilters": "Xóa bộ lọc",
+    "loadMore": "Tải thêm ({loaded}/{total})",
+    "loading": "Đang tải...",
+    "viewProgram": "Xem chương trình đào tạo",
+    "credits": "{count} tín chỉ",
+    "courses": "{count} môn học",
+    "emptyTitle": "Không tìm thấy ngành học",
+    "emptyDescription": "Thử thay đổi từ khóa tìm kiếm hoặc bộ lọc",
+    "errorTitle": "Không thể tải danh sách chương trình đào tạo",
+    "retry": "Thử lại"
+  },
+  "theme": {
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống"
+  }
+}

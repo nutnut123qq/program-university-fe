@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "title": "Fe Project",
+    "description": "Frontend project scaffold"
+  },
+  "home": {
+    "title": "Home",
+    "welcome": "Welcome to Fe Project"
+  },
+  "navbar": {
+    "home": "Home",
+    "courses": "Courses",
+    "programs": "Programs",
+    "login": "Login"
+  },
+  "programs": {
+    "title": "Training Programs",
+    "subtitle": "Explore programs from top Vietnamese universities",
+    "searchPlaceholder": "Search programs...",
+    "allDegrees": "All degree levels",
+    "sort": "Sort",
+    "sortNewest": "Newest",
+    "sortName": "Name A-Z",
+    "sortCredits": "Credits",
+    "results": "Showing {count} results",
+    "resultsOfTotal": "Showing {count} of {total} programs",
+    "clearFilters": "Clear filters",
+    "loadMore": "Load more ({loaded}/{total})",
+    "loading": "Loading...",
+    "viewProgram": "View training program",
+    "credits": "{count} credits",
+    "courses": "{count} courses",
+    "emptyTitle": "No programs found",
+    "emptyDescription": "Try changing your search or filters",
+    "errorTitle": "Failed to load training programs",
+    "retry": "Try again"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}
