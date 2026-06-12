@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { GraduationCap, Building2, BookOpen, ExternalLink, Clock, Award } from "lucide-react"
+import { GraduationCap, Building2, BookOpen, ExternalLink, Clock, Award, Eye } from "lucide-react"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { buttonVariants } from "@/components/ui/button"
@@ -12,9 +12,10 @@ import { Program } from "../types"
 interface ProgramCardProps {
     program: Program
     index: number
+    onViewDetail?: (program: Program) => void
 }
 
-export function ProgramCard({ program, index }: ProgramCardProps) {
+export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) {
     const t = useTranslations("programs")
 
     return (
@@ -77,20 +78,34 @@ export function ProgramCard({ program, index }: ProgramCardProps) {
                         )}
                     </div>
 
-                    {program.sourceUrl && (
-                        <a
-                            href={program.sourceUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className={cn(
-                                buttonVariants({ variant: "ghost", size: "sm" }),
-                                "w-full group/btn flex items-center justify-center gap-2"
-                            )}
-                        >
-                            {t("viewProgram")}
-                            <ExternalLink className="h-3.5 w-3.5 transition-transform group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
-                        </a>
-                    )}
+                    <div className="flex gap-2">
+                        {onViewDetail && (
+                            <button
+                                onClick={() => onViewDetail(program)}
+                                className={cn(
+                                    buttonVariants({ variant: "default", size: "sm" }),
+                                    "flex-1 group/btn flex items-center justify-center gap-2"
+                                )}
+                            >
+                                <Eye className="h-3.5 w-3.5" />
+                                {t("viewCourses")}
+                            </button>
+                        )}
+                        {program.sourceUrl && (
+                            <a
+                                href={program.sourceUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={cn(
+                                    buttonVariants({ variant: "ghost", size: "sm" }),
+                                    "group/btn flex items-center justify-center gap-2"
+                                )}
+                            >
+                                {t("viewProgram")}
+                                <ExternalLink className="h-3.5 w-3.5 transition-transform group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
+                            </a>
+                        )}
+                    </div>
                 </CardContent>
             </Card>
         </motion.div>

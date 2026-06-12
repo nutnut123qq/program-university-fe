@@ -1,10 +1,11 @@
-import { Program, ProgramsResponse } from "./types"
+import { Curriculum, Program, ProgramsResponse } from "./types"
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001/api"
 const USE_MOCK = process.env.NEXT_PUBLIC_USE_MOCK === "true"
 
 let mockProgramsCache: Program[] | null = null
 let mockDegreeTypesCache: string[] | null = null
+let mockCurriculaCache: Curriculum[] | null = null
 
 async function loadMockPrograms(): Promise<Program[]> {
     if (mockProgramsCache) return mockProgramsCache
@@ -21,6 +22,15 @@ async function loadMockDegreeTypes(): Promise<string[]> {
     if (!res.ok) throw new Error("Failed to load mock degree types")
     const data: string[] = await res.json()
     mockDegreeTypesCache = data
+    return data
+}
+
+async function loadMockCurricula(): Promise<Curriculum[]> {
+    if (mockCurriculaCache) return mockCurriculaCache
+    const res = await fetch("/mock/curricula.json")
+    if (!res.ok) throw new Error("Failed to load mock curricula")
+    const data: Curriculum[] = await res.json()
+    mockCurriculaCache = data
     return data
 }
 
@@ -132,6 +142,21 @@ export async function fetchDegreeTypes(): Promise<string[]> {
     const res = await fetch(`${API_BASE_URL}/programs/degree-types`)
     if (!res.ok) {
         throw new Error(`Failed to fetch degree types: ${res.status}`)
+    }
+    return res.json()
+}
+
+export async function fetchCurricula(programId: string): Promise<Curriculum[]> {
+    if (USE_MOCK) {
+        const all = await loadMockCurricula()
+        return all
+            .filter((c) => c.programId === programId)
+            .sort((a, b) => a.courseName.localeCompare(b.courseName))
+    }
+
+    const res = await fetch(`${API_BASE_URL}/curricula/program/${programId}`)
+    if (!res.ok) {
+        throw new Error(`Failed to fetch curricula: ${res.status}`)
     }
     return res.json()
 }

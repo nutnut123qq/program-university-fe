@@ -21,6 +21,24 @@ export interface Program {
     courseCount: number
 }
 
+export interface Curriculum {
+    id: string
+    programId: string
+    programName: string
+    year: number | null
+    courseName: string
+    courseCode: string | null
+    credits: number | null
+    mandatory: boolean
+    semester: number | null
+    hoursTheory: number | null
+    hoursPractice: number | null
+    description: string | null
+    prerequisites: string | null
+    createdAt: string
+    updatedAt: string
+}
+
 export interface PagedResult<T> {
     items: T[]
     totalCount: number

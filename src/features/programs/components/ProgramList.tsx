@@ -9,6 +9,7 @@ import { Skeleton } from "@/components/ui/skeleton"
 import { Button } from "@/components/ui/button"
 import { ProgramCard } from "./ProgramCard"
 import { ProgramFilters } from "./ProgramFilters"
+import { ProgramDetailDialog } from "./ProgramDetailDialog"
 import { fetchDegreeTypes, fetchPrograms } from "../api"
 import { Program, ProgramFilters as ProgramFiltersType } from "../types"
 
@@ -24,6 +25,7 @@ export function ProgramList() {
     })
     const [page, setPage] = useState(1)
     const [allPrograms, setAllPrograms] = useState<Program[]>([])
+    const [selectedProgram, setSelectedProgram] = useState<Program | null>(null)
 
     const { data, error, isLoading } = useSWR(
         ["programs", filters, page],
@@ -69,7 +71,7 @@ export function ProgramList() {
     }
 
     return (
-        <div className="container mx-auto py-8 space-y-8">
+        <div className="container py-8 space-y-8">
             {/* Hero */}
             <motion.section
                 initial={{ opacity: 0, y: 20 }}
@@ -153,6 +155,7 @@ export function ProgramList() {
                             key={program.id}
                             program={program}
                             index={index}
+                            onViewDetail={setSelectedProgram}
                         />
                     ))}
                 </div>
@@ -178,6 +181,12 @@ export function ProgramList() {
                     </Button>
                 </div>
             )}
+
+            <ProgramDetailDialog
+                program={selectedProgram}
+                open={!!selectedProgram}
+                onClose={() => setSelectedProgram(null)}
+            />
         </div>
     )
 }
