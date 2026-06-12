@@ -69,7 +69,7 @@ export function ProgramList() {
     }
 
     return (
-        <div className="container py-8 space-y-8">
+        <div className="container mx-auto py-8 space-y-8">
             {/* Hero */}
             <motion.section
                 initial={{ opacity: 0, y: 20 }}
