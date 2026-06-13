@@ -1,7 +1,7 @@
 import { Curriculum, Program, ProgramsResponse } from "./types"
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001/api"
-const USE_MOCK = process.env.NEXT_PUBLIC_USE_MOCK === "true"
+const USE_MOCK = process.env.NEXT_PUBLIC_USE_MOCK !== "false"
 
 let mockProgramsCache: Program[] | null = null
 let mockDegreeTypesCache: string[] | null = null
@@ -9,27 +9,40 @@ let mockCurriculaCache: Curriculum[] | null = null
 
 async function loadMockPrograms(): Promise<Program[]> {
     if (mockProgramsCache) return mockProgramsCache
-    const res = await fetch("/mock/programs.json")
-    if (!res.ok) throw new Error("Failed to load mock programs")
-    const data: ProgramsResponse = await res.json()
-    mockProgramsCache = data.items
-    return data.items
+    const res = await fetch("/mock/programs.json", { cache: "no-store" })
+    if (!res.ok) throw new Error(`Failed to load mock programs: ${res.status}`)
+    const raw: ProgramsResponse | Program[] = await res.json()
+    const items = Array.isArray(raw) ? raw : raw.items
+    if (!Array.isArray(items)) {
+        console.error("Invalid mock programs response:", raw)
+        throw new Error("Invalid mock programs response: items is not an array")
+    }
+    mockProgramsCache = items
+    return items
 }
 
 async function loadMockDegreeTypes(): Promise<string[]> {
     if (mockDegreeTypesCache) return mockDegreeTypesCache
-    const res = await fetch("/mock/degree-types.json")
-    if (!res.ok) throw new Error("Failed to load mock degree types")
+    const res = await fetch("/mock/degree-types.json", { cache: "no-store" })
+    if (!res.ok) throw new Error(`Failed to load mock degree types: ${res.status}`)
     const data: string[] = await res.json()
+    if (!Array.isArray(data)) {
+        console.error("Invalid mock degree types response:", data)
+        throw new Error("Invalid mock degree types response")
+    }
     mockDegreeTypesCache = data
     return data
 }
 
 async function loadMockCurricula(): Promise<Curriculum[]> {
     if (mockCurriculaCache) return mockCurriculaCache
-    const res = await fetch("/mock/curricula.json")
-    if (!res.ok) throw new Error("Failed to load mock curricula")
+    const res = await fetch("/mock/curricula.json", { cache: "no-store" })
+    if (!res.ok) throw new Error(`Failed to load mock curricula: ${res.status}`)
     const data: Curriculum[] = await res.json()
+    if (!Array.isArray(data)) {
+        console.error("Invalid mock curricula response:", data)
+        throw new Error("Invalid mock curricula response")
+    }
     mockCurriculaCache = data
     return data
 }
