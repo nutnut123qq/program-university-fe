@@ -45,11 +45,8 @@ export const Navbar = () => {
                         <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
                             {t("home")}
                         </Link>
-                        <Link href="/courses" className="text-muted-foreground hover:text-foreground transition-colors">
-                            {t("courses")}
-                        </Link>
                         <Link href="/programs" className="text-muted-foreground hover:text-foreground transition-colors">
-                            {t("programs")}
+                            {t("courses")}
                         </Link>
                     </div>
                 </div>

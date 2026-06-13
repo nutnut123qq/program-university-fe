@@ -48,7 +48,7 @@ export function ProgramFilters({
                         placeholder={t("allDegrees")}
                     >
                         <SelectItem value="">{t("allDegrees")}</SelectItem>
-                        {degreeTypes.map((type) => (
+                        {(degreeTypes || []).map((type) => (
                             <SelectItem key={type} value={type}>
                                 {type}
                             </SelectItem>
