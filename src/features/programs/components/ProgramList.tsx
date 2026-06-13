@@ -71,7 +71,7 @@ export function ProgramList() {
     }
 
     return (
-        <div className="container py-8 space-y-8">
+        <div className="container mx-auto py-8 space-y-8">
             {/* Hero */}
             <motion.section
                 initial={{ opacity: 0, y: 20 }}
@@ -101,7 +101,7 @@ export function ProgramList() {
 
             {/* Loading */}
             {isLoading && allPrograms.length === 0 && (
-                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 min-w-0">
                     {Array.from({ length: PAGE_SIZE }).map((_, i) => (
                         <div key={i} className="space-y-3">
                             <Skeleton className="h-[180px] w-full rounded-xl" />

@@ -25,8 +25,8 @@ export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) 
             transition={{ duration: 0.4, delay: index * 0.05 }}
         >
             <Card className="group h-full overflow-hidden border bg-card hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1">
-                <CardHeader className="pb-3">
-                    <div className="flex items-start justify-between gap-3">
+                <CardHeader className="pb-3 min-w-0">
+                    <div className="flex items-start justify-between gap-3 min-w-0">
                         <div className="flex-1 min-w-0">
                             <h3 className="font-semibold text-lg leading-tight line-clamp-2 group-hover:text-primary transition-colors">
                                 {program.name}
@@ -44,7 +44,7 @@ export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) 
                     </div>
                 </CardHeader>
 
-                <CardContent className="pt-0 space-y-4">
+                <CardContent className="pt-0 space-y-4 min-w-0">
                     {program.description && (
                         <p className="text-sm text-muted-foreground line-clamp-2">
                             {program.description}
@@ -78,17 +78,17 @@ export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) 
                         )}
                     </div>
 
-                    <div className="flex gap-2">
+                    <div className="flex flex-col sm:flex-row gap-2">
                         {onViewDetail && (
                             <button
                                 onClick={() => onViewDetail(program)}
                                 className={cn(
                                     buttonVariants({ variant: "default", size: "sm" }),
-                                    "flex-1 group/btn flex items-center justify-center gap-2"
+                                    "flex-1 group/btn flex items-center justify-center gap-2 min-w-0"
                                 )}
                             >
-                                <Eye className="h-3.5 w-3.5" />
-                                {t("viewCourses")}
+                                <Eye className="h-3.5 w-3.5 shrink-0" />
+                                <span className="truncate">{t("viewCourses")}</span>
                             </button>
                         )}
                         {program.sourceUrl && (
@@ -98,11 +98,11 @@ export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) 
                                 rel="noopener noreferrer"
                                 className={cn(
                                     buttonVariants({ variant: "ghost", size: "sm" }),
-                                    "group/btn flex items-center justify-center gap-2"
+                                    "flex-1 group/btn flex items-center justify-center gap-1 min-w-0 px-2"
                                 )}
                             >
-                                {t("viewProgram")}
-                                <ExternalLink className="h-3.5 w-3.5 transition-transform group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
+                                <span className="text-xs text-center leading-tight whitespace-normal">{t("viewProgram")}</span>
+                                <ExternalLink className="h-3 w-3 shrink-0 transition-transform group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
                             </a>
                         )}
                     </div>
