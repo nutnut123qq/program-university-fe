@@ -15,6 +15,17 @@ const Select = ({ value, onValueChange, placeholder, children }: SelectProps) =>
     const [open, setOpen] = React.useState(false)
     const ref = React.useRef<HTMLDivElement>(null)
 
+    const selectedLabel = React.useMemo(() => {
+        if (value === undefined || value === null || value === "") return null
+        let label: React.ReactNode = null
+        React.Children.forEach(children, (child) => {
+            if (React.isValidElement<{ value?: string; children?: React.ReactNode }>(child) && child.props.value === value) {
+                label = child.props.children
+            }
+        })
+        return label
+    }, [children, value])
+
     React.useEffect(() => {
         const handleClick = (e: MouseEvent) => {
             if (ref.current && !ref.current.contains(e.target as Node)) {
@@ -33,7 +44,7 @@ const Select = ({ value, onValueChange, placeholder, children }: SelectProps) =>
                     onClick={() => setOpen(!open)}
                     className="flex h-9 w-full items-center justify-between rounded-md border border-input bg-transparent px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
                 >
-                    <span>{value || placeholder || "Select..."}</span>
+                    <span>{selectedLabel || value || placeholder || "Select..."}</span>
                     <ChevronDown className="h-4 w-4 opacity-50" />
                 </button>
                 {open && (

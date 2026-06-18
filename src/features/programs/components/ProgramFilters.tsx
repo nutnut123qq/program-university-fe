@@ -1,5 +1,6 @@
 "use client"
 
+import * as React from "react"
 import { Search } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
@@ -26,6 +27,12 @@ export function ProgramFilters({
 }: ProgramFiltersProps) {
     const t = useTranslations("programs")
 
+    const visibleUniversities = React.useMemo(() => {
+        if (filters.universityType === "all") return universities
+        const isPublic = filters.universityType === "public"
+        return universities.filter((u) => u.isPublic === isPublic)
+    }, [universities, filters.universityType])
+
     const hasActiveFilters =
         filters.search ||
         filters.degreeType !== "all" ||
@@ -40,6 +47,20 @@ export function ProgramFilters({
             universityType: "all",
             sortBy: "newest",
         })
+    }
+
+    const handleTypeChange = (value: ProgramFiltersType["universityType"]) => {
+        const newFilters: ProgramFiltersType = { ...filters, universityType: value }
+        if (filters.universityId) {
+            const isPublic = value === "public"
+            const stillVisible =
+                value === "all" ||
+                universities.some((u) => u.id === filters.universityId && u.isPublic === isPublic)
+            if (!stillVisible) {
+                newFilters.universityId = ""
+            }
+        }
+        onChange(newFilters)
     }
 
     return (
@@ -66,7 +87,7 @@ export function ProgramFilters({
                         placeholder={t("allUniversities")}
                     >
                         <SelectItem value="">{t("allUniversities")}</SelectItem>
-                        {universities.map((uni) => (
+                        {visibleUniversities.map((uni) => (
                             <SelectItem key={uni.id} value={uni.id}>
                                 {uni.name}
                             </SelectItem>
@@ -76,10 +97,7 @@ export function ProgramFilters({
                     <Select
                         value={filters.universityType}
                         onValueChange={(value) =>
-                            onChange({
-                                ...filters,
-                                universityType: value as ProgramFiltersType["universityType"],
-                            })
+                            handleTypeChange(value as ProgramFiltersType["universityType"])
                         }
                         placeholder={t("allUniversityTypes")}
                     >
