@@ -1,7 +1,14 @@
+export interface University {
+    id: string
+    name: string
+    isPublic: boolean
+}
+
 export interface Program {
     id: string
     universityId: string
     universityName: string
+    universityIsPublic: boolean
     name: string
     code: string | null
     degreeType: string | null
@@ -55,5 +62,6 @@ export interface ProgramFilters {
     search: string
     degreeType: string
     universityId: string
+    universityType: "all" | "public" | "private"
     sortBy: "newest" | "name" | "credits"
 }

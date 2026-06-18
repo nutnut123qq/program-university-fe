@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button"
 import { ProgramCard } from "./ProgramCard"
 import { ProgramFilters } from "./ProgramFilters"
 import { ProgramDetailDialog } from "./ProgramDetailDialog"
-import { fetchDegreeTypes, fetchPrograms } from "../api"
+import { fetchDegreeTypes, fetchPrograms, fetchUniversities } from "../api"
 import { Program, ProgramFilters as ProgramFiltersType } from "../types"
 
 const PAGE_SIZE = 12
@@ -21,6 +21,7 @@ export function ProgramList() {
         search: "",
         degreeType: "all",
         universityId: "",
+        universityType: "all",
         sortBy: "newest",
     })
     const [page, setPage] = useState(1)
@@ -35,6 +36,8 @@ export function ProgramList() {
                 pageSize: PAGE_SIZE,
                 search: filters.search || undefined,
                 degreeType: filters.degreeType === "all" ? undefined : filters.degreeType,
+                universityId: filters.universityId || undefined,
+                universityType: filters.universityType,
                 sortBy: filters.sortBy === "newest" ? "createdAt" : filters.sortBy,
                 sortDesc: filters.sortBy === "newest" || filters.sortBy === "credits",
             }),
@@ -44,6 +47,7 @@ export function ProgramList() {
     )
 
     const { data: degreeTypes } = useSWR("degree-types", fetchDegreeTypes)
+    const { data: universities } = useSWR("universities", fetchUniversities)
 
     useEffect(() => {
         setPage(1)
@@ -93,6 +97,7 @@ export function ProgramList() {
             {/* Filters */}
             <ProgramFilters
                 filters={filters}
+                universities={universities || []}
                 degreeTypes={degreeTypes || []}
                 onChange={setFilters}
                 resultCount={allPrograms.length}

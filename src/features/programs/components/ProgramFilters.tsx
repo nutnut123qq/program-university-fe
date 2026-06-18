@@ -1,14 +1,15 @@
 "use client"
 
-import { Search, GraduationCap } from "lucide-react"
+import { Search } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Select, SelectItem } from "@/components/ui/select"
 import { useTranslations } from "next-intl"
-import { ProgramFilters as ProgramFiltersType } from "../types"
+import { ProgramFilters as ProgramFiltersType, University } from "../types"
 
 interface ProgramFiltersProps {
     filters: ProgramFiltersType
+    universities: University[]
     degreeTypes: string[]
     onChange: (filters: ProgramFiltersType) => void
     resultCount: number
@@ -17,6 +18,7 @@ interface ProgramFiltersProps {
 
 export function ProgramFilters({
     filters,
+    universities,
     degreeTypes,
     onChange,
     resultCount,
@@ -24,9 +26,25 @@ export function ProgramFilters({
 }: ProgramFiltersProps) {
     const t = useTranslations("programs")
 
+    const hasActiveFilters =
+        filters.search ||
+        filters.degreeType !== "all" ||
+        filters.universityId ||
+        filters.universityType !== "all"
+
+    const handleClear = () => {
+        onChange({
+            search: "",
+            degreeType: "all",
+            universityId: "",
+            universityType: "all",
+            sortBy: "newest",
+        })
+    }
+
     return (
         <div className="space-y-4">
-            <div className="flex flex-col sm:flex-row gap-3">
+            <div className="flex flex-col gap-3">
                 <div className="relative flex-1">
                     <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                     <Input
@@ -39,7 +57,37 @@ export function ProgramFilters({
                     />
                 </div>
 
-                <div className="flex gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                    <Select
+                        value={filters.universityId}
+                        onValueChange={(value) =>
+                            onChange({ ...filters, universityId: value })
+                        }
+                        placeholder={t("allUniversities")}
+                    >
+                        <SelectItem value="">{t("allUniversities")}</SelectItem>
+                        {universities.map((uni) => (
+                            <SelectItem key={uni.id} value={uni.id}>
+                                {uni.name}
+                            </SelectItem>
+                        ))}
+                    </Select>
+
+                    <Select
+                        value={filters.universityType}
+                        onValueChange={(value) =>
+                            onChange({
+                                ...filters,
+                                universityType: value as ProgramFiltersType["universityType"],
+                            })
+                        }
+                        placeholder={t("allUniversityTypes")}
+                    >
+                        <SelectItem value="all">{t("allUniversityTypes")}</SelectItem>
+                        <SelectItem value="public">{t("publicUniversity")}</SelectItem>
+                        <SelectItem value="private">{t("privateUniversity")}</SelectItem>
+                    </Select>
+
                     <Select
                         value={filters.degreeType === "all" ? "" : filters.degreeType}
                         onValueChange={(value) =>
@@ -78,19 +126,8 @@ export function ProgramFilters({
                         ? t("resultsOfTotal", { count: resultCount, total: totalCount })
                         : t("results", { count: resultCount })}
                 </p>
-                {(filters.search || filters.degreeType !== "all") && (
-                    <Button
-                        variant="ghost"
-                        size="sm"
-                        onClick={() =>
-                            onChange({
-                                search: "",
-                                degreeType: "all",
-                                universityId: "",
-                                sortBy: "newest",
-                            })
-                        }
-                    >
+                {hasActiveFilters && (
+                    <Button variant="ghost" size="sm" onClick={handleClear}>
                         {t("clearFilters")}
                     </Button>
                 )}

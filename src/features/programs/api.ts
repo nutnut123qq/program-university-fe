@@ -1,9 +1,10 @@
-import { Curriculum, Program, ProgramsResponse } from "./types"
+import { Curriculum, Program, ProgramsResponse, University, PagedResult } from "./types"
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001/api"
 const USE_MOCK = process.env.NEXT_PUBLIC_USE_MOCK !== "false"
 
 let mockProgramsCache: Program[] | null = null
+let mockUniversitiesCache: University[] | null = null
 let mockDegreeTypesCache: string[] | null = null
 let mockCurriculaCache: Curriculum[] | null = null
 
@@ -19,6 +20,19 @@ async function loadMockPrograms(): Promise<Program[]> {
     }
     mockProgramsCache = items
     return items
+}
+
+async function loadMockUniversities(): Promise<University[]> {
+    if (mockUniversitiesCache) return mockUniversitiesCache
+    const res = await fetch("/mock/universities.json", { cache: "no-store" })
+    if (!res.ok) throw new Error(`Failed to load mock universities: ${res.status}`)
+    const data: University[] = await res.json()
+    if (!Array.isArray(data)) {
+        console.error("Invalid mock universities response:", data)
+        throw new Error("Invalid mock universities response")
+    }
+    mockUniversitiesCache = data
+    return data
 }
 
 async function loadMockDegreeTypes(): Promise<string[]> {
@@ -58,7 +72,8 @@ function applyFiltersAndSort(
         result = result.filter(
             (p) =>
                 p.name.toLowerCase().includes(search) ||
-                (p.code?.toLowerCase().includes(search) ?? false)
+                (p.code?.toLowerCase().includes(search) ?? false) ||
+                p.universityName.toLowerCase().includes(search)
         )
     }
 
@@ -68,6 +83,11 @@ function applyFiltersAndSort(
 
     if (params?.universityId) {
         result = result.filter((p) => p.universityId === params.universityId)
+    }
+
+    if (params?.universityType && params.universityType !== "all") {
+        const isPublic = params.universityType === "public"
+        result = result.filter((p) => p.universityIsPublic === isPublic)
     }
 
     const sortBy = params?.sortBy?.toLowerCase()
@@ -116,6 +136,7 @@ export async function fetchPrograms(params?: {
     search?: string
     degreeType?: string
     universityId?: string
+    universityType?: string
     sortBy?: string
     sortDesc?: boolean
 }): Promise<ProgramsResponse> {
@@ -131,6 +152,9 @@ export async function fetchPrograms(params?: {
     if (params?.search) query.set("search", params.search)
     if (params?.degreeType) query.set("degreeType", params.degreeType)
     if (params?.universityId) query.set("universityId", params.universityId)
+    if (params?.universityType && params.universityType !== "all") {
+        query.set("isPublic", params.universityType === "public" ? "true" : "false")
+    }
 
     if (params?.sortBy) {
         query.set("sortBy", params.sortBy)
@@ -145,6 +169,20 @@ export async function fetchPrograms(params?: {
     }
 
     return res.json()
+}
+
+export async function fetchUniversities(): Promise<University[]> {
+    if (USE_MOCK) {
+        return loadMockUniversities()
+    }
+
+    const res = await fetch(`${API_BASE_URL}/universities`)
+    if (!res.ok) {
+        throw new Error(`Failed to fetch universities: ${res.status}`)
+    }
+    const data: PagedResult<University> | University[] = await res.json()
+    const items = Array.isArray(data) ? data : data.items
+    return items
 }
 
 export async function fetchDegreeTypes(): Promise<string[]> {
