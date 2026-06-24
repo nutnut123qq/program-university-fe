@@ -1,62 +1,194 @@
 [
   {
-    "id": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "name": "Đại học Kinh tế Quốc dân",
-    "isPublic": true
-  },
-  {
-    "id": "ea7bf305-296c-487e-92c7-6125d2c8fc17",
-    "name": "Đại học Quốc gia Hà Nội",
-    "isPublic": true
-  },
-  {
-    "id": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "name": "Trường Đại học Bách khoa - ĐHQG-HCM",
-    "isPublic": true
-  },
-  {
-    "id": "2058f711-80c5-4b89-b1a4-a93814baa029",
-    "name": "Trường Đại học Bách khoa Hà Nội",
-    "isPublic": true
-  },
-  {
-    "id": "879c3e1d-46f8-48f1-9c0e-a0511bc3021a",
-    "name": "Trường Đại học Công nghệ - ĐHQGHN",
-    "isPublic": true
-  },
-  {
-    "id": "ac07a5b8-f12e-4657-abd0-c8d1a88944ae",
-    "name": "Trường Đại học Công nghệ Thông tin - ĐHQG-HCM",
-    "isPublic": true
-  },
-  {
     "id": "d123a6e9-b768-4c70-b8e9-6ea96e91f7a2",
     "name": "Trường Đại học Duy Tân",
-    "isPublic": false
-  },
-  {
-    "id": "ae635684-2839-4d4e-905a-c5808f24b5f9",
-    "name": "Trường Đại học FPT",
-    "isPublic": false
-  },
-  {
-    "id": "b5e96a23-0889-40f6-a1dd-e147aed2d716",
-    "name": "Trường Đại học Khoa học Tự nhiên - ĐHQG-HCM",
-    "isPublic": true
-  },
-  {
-    "id": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
-    "name": "Trường Đại học Kinh tế TP.HCM",
-    "isPublic": true
-  },
-  {
-    "id": "855acc63-4fb4-48c3-8d2c-4f3eec4255af",
-    "name": "Trường Đại học Ngoại thương",
-    "isPublic": true
+    "code": "DTU",
+    "website": "https://tuyensinh.duytan.edu.vn",
+    "region": "Miền Trung",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "description": null,
+    "foundedYear": null,
+    "isPublic": true,
+    "createdAt": "2026-06-18T08:51:18.754763Z",
+    "updatedAt": "2026-06-18T08:51:18.754763Z",
+    "programCount": 71
   },
   {
     "id": "07fb803e-d15f-4898-9950-7293d08a0757",
     "name": "Trường Đại học Tôn Đức Thắng",
-    "isPublic": true
+    "code": "TDTU",
+    "website": "https://admission.tdtu.edu.vn",
+    "region": "Miền Nam",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "description": null,
+    "foundedYear": null,
+    "isPublic": true,
+    "createdAt": "2026-06-18T08:40:16.084493Z",
+    "updatedAt": "2026-06-18T08:40:16.084494Z",
+    "programCount": 104
+  },
+  {
+    "id": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "name": "Trường Đại học Kinh tế TP.HCM",
+    "code": "UEH",
+    "website": "https://tuyensinh.ueh.edu.vn",
+    "region": "Miền Nam",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "description": null,
+    "foundedYear": null,
+    "isPublic": true,
+    "createdAt": "2026-06-18T08:38:34.127499Z",
+    "updatedAt": "2026-06-18T08:38:34.127499Z",
+    "programCount": 60
+  },
+  {
+    "id": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
+    "name": "Đại học Kinh tế Quốc dân",
+    "code": "NEU",
+    "website": "https://neu.edu.vn",
+    "region": "Miền Bắc",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "description": null,
+    "foundedYear": null,
+    "isPublic": true,
+    "createdAt": "2026-06-18T08:18:39.240704Z",
+    "updatedAt": "2026-06-18T08:18:39.240704Z",
+    "programCount": 87
+  },
+  {
+    "id": "879c3e1d-46f8-48f1-9c0e-a0511bc3021a",
+    "name": "Trường Đại học Công nghệ - ĐHQGHN",
+    "code": "UET",
+    "website": "https://tuyensinh.uet.vnu.edu.vn",
+    "region": "Miền Bắc",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "description": null,
+    "foundedYear": null,
+    "isPublic": true,
+    "createdAt": "2026-06-18T08:14:41.041273Z",
+    "updatedAt": "2026-06-18T08:14:41.041273Z",
+    "programCount": 20
+  },
+  {
+    "id": "ac07a5b8-f12e-4657-abd0-c8d1a88944ae",
+    "name": "Trường Đại học Công nghệ Thông tin - ĐHQG-HCM",
+    "code": "UIT",
+    "website": "https://tuyensinh.uit.edu.vn",
+    "region": "Miền Nam",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "description": null,
+    "foundedYear": null,
+    "isPublic": true,
+    "createdAt": "2026-06-18T08:10:31.814379Z",
+    "updatedAt": "2026-06-18T08:10:31.814379Z",
+    "programCount": 20
+  },
+  {
+    "id": "b5e96a23-0889-40f6-a1dd-e147aed2d716",
+    "name": "Trường Đại học Khoa học Tự nhiên - ĐHQG-HCM",
+    "code": "HCMUS",
+    "website": "https://tuyensinh.hcmus.edu.vn",
+    "region": "Miền Nam",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "description": null,
+    "foundedYear": null,
+    "isPublic": true,
+    "createdAt": "2026-06-16T03:58:11.947336Z",
+    "updatedAt": "2026-06-16T03:58:11.947337Z",
+    "programCount": 38
+  },
+  {
+    "id": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
+    "name": "Trường Đại học Bách khoa - ĐHQG-HCM",
+    "code": "HCMUT",
+    "website": "https://hcmut.edu.vn",
+    "region": "Miền Nam",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "description": null,
+    "foundedYear": null,
+    "isPublic": true,
+    "createdAt": "2026-06-16T03:52:00.117842Z",
+    "updatedAt": "2026-06-16T03:52:00.117843Z",
+    "programCount": 373
+  },
+  {
+    "id": "2058f711-80c5-4b89-b1a4-a93814baa029",
+    "name": "Trường Đại học Bách khoa Hà Nội",
+    "code": "HUST",
+    "website": "https://www.hust.edu.vn",
+    "region": "Miền Bắc",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "description": null,
+    "foundedYear": null,
+    "isPublic": true,
+    "createdAt": "2026-06-16T03:44:00.075621Z",
+    "updatedAt": "2026-06-16T03:44:00.075621Z",
+    "programCount": 64
+  },
+  {
+    "id": "855acc63-4fb4-48c3-8d2c-4f3eec4255af",
+    "name": "Trường Đại học Ngoại thương",
+    "code": "FTU",
+    "website": "https://ftu.edu.vn",
+    "region": "Miền Bắc",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "description": null,
+    "foundedYear": null,
+    "isPublic": true,
+    "createdAt": "2026-06-16T03:12:48.970558Z",
+    "updatedAt": "2026-06-16T03:12:48.970558Z",
+    "programCount": 33
+  },
+  {
+    "id": "ae635684-2839-4d4e-905a-c5808f24b5f9",
+    "name": "Trường Đại học FPT",
+    "code": "FPT",
+    "website": "https://daihoc.fpt.edu.vn",
+    "region": "Miền Bắc",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "description": null,
+    "foundedYear": null,
+    "isPublic": true,
+    "createdAt": "2026-06-15T09:57:53.45682Z",
+    "updatedAt": "2026-06-15T09:57:53.45682Z",
+    "programCount": 39
+  },
+  {
+    "id": "ea7bf305-296c-487e-92c7-6125d2c8fc17",
+    "name": "Đại học Quốc gia Hà Nội",
+    "code": "VNU",
+    "website": "https://vnu.edu.vn",
+    "region": "Miền Bắc",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "description": null,
+    "foundedYear": null,
+    "isPublic": true,
+    "createdAt": "2026-06-11T17:12:51.572878Z",
+    "updatedAt": "2026-06-11T17:12:51.572878Z",
+    "programCount": 137
   }
 ]
