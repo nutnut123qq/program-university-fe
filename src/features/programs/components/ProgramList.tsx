@@ -1,7 +1,8 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useCallback, useMemo, useState } from "react"
 import useSWR from "swr"
+import useSWRInfinite from "swr/infinite"
 import { motion } from "framer-motion"
 import { GraduationCap, SearchX, Loader2 } from "lucide-react"
 import { useTranslations } from "next-intl"
@@ -11,7 +12,7 @@ import { ProgramCard } from "./ProgramCard"
 import { ProgramFilters } from "./ProgramFilters"
 import { ProgramDetailDialog } from "./ProgramDetailDialog"
 import { fetchDegreeTypes, fetchPrograms, fetchUniversities } from "../api"
-import { Program, ProgramFilters as ProgramFiltersType } from "../types"
+import { Program, ProgramFilters as ProgramFiltersType, ProgramsResponse } from "../types"
 
 const PAGE_SIZE = 12
 
@@ -24,53 +25,57 @@ export function ProgramList() {
         universityType: "all",
         sortBy: "newest",
     })
-    const [page, setPage] = useState(1)
-    const [allPrograms, setAllPrograms] = useState<Program[]>([])
     const [selectedProgram, setSelectedProgram] = useState<Program | null>(null)
+    const [lastViewedProgram, setLastViewedProgram] = useState<Program | null>(null)
 
-    const { data, error, isLoading } = useSWR(
-        ["programs", filters, page],
-        () =>
+    const displayProgram = selectedProgram || lastViewedProgram
+
+    const handleSelectProgram = (program: Program | null) => {
+        if (program) {
+            setLastViewedProgram(program)
+        }
+        setSelectedProgram(program)
+    }
+
+    const getKey = useCallback(
+        (pageIndex: number, previousPageData: ProgramsResponse | null) => {
+            if (previousPageData && !previousPageData.hasNextPage) return null
+            return ["programs", filters, pageIndex + 1] as const
+        },
+        [filters]
+    )
+
+    const { data, error, isLoading, isValidating, size, setSize } = useSWRInfinite(
+        getKey,
+        ([, currentFilters, page]) =>
             fetchPrograms({
                 page,
                 pageSize: PAGE_SIZE,
-                search: filters.search || undefined,
-                degreeType: filters.degreeType === "all" ? undefined : filters.degreeType,
-                universityId: filters.universityId || undefined,
-                universityType: filters.universityType,
-                sortBy: filters.sortBy === "newest" ? "createdAt" : filters.sortBy,
-                sortDesc: filters.sortBy === "newest" || filters.sortBy === "credits",
+                search: currentFilters.search || undefined,
+                degreeType: currentFilters.degreeType === "all" ? undefined : currentFilters.degreeType,
+                universityId: currentFilters.universityId || undefined,
+                universityType: currentFilters.universityType,
+                sortBy: currentFilters.sortBy === "newest" ? "createdAt" : currentFilters.sortBy,
+                sortDesc: currentFilters.sortBy === "newest" || currentFilters.sortBy === "credits",
             }),
-        {
-            keepPreviousData: true,
-        }
+        { revalidateFirstPage: false }
     )
+
+    const allPrograms = useMemo(() => (data ? data.flatMap((page) => page.items) : []), [data])
+    const totalCount = data?.[0]?.totalCount ?? 0
+    const hasNextPage = data?.[data.length - 1]?.hasNextPage ?? false
 
     const { data: degreeTypes } = useSWR("degree-types", fetchDegreeTypes)
     const { data: universities } = useSWR("universities", fetchUniversities)
 
-    useEffect(() => {
-        setPage(1)
-        setAllPrograms([])
-    }, [filters])
-
-    useEffect(() => {
-        if (data?.items) {
-            if (page === 1) {
-                setAllPrograms(data.items)
-            } else {
-                setAllPrograms((prev) => {
-                    const existingIds = new Set(prev.map((p) => p.id))
-                    const newItems = data.items.filter((p) => !existingIds.has(p.id))
-                    return [...prev, ...newItems]
-                })
-            }
-        }
-    }, [data, page])
+    const handleFiltersChange = (newFilters: ProgramFiltersType) => {
+        setFilters(newFilters)
+        setSize(1)
+    }
 
     const handleLoadMore = () => {
-        if (data?.hasNextPage) {
-            setPage((p) => p + 1)
+        if (hasNextPage) {
+            setSize(size + 1)
         }
     }
 
@@ -99,9 +104,9 @@ export function ProgramList() {
                 filters={filters}
                 universities={universities || []}
                 degreeTypes={degreeTypes || []}
-                onChange={setFilters}
+                onChange={handleFiltersChange}
                 resultCount={allPrograms.length}
-                totalCount={data?.totalCount || 0}
+                totalCount={totalCount}
             />
 
             {/* Loading */}
@@ -160,35 +165,35 @@ export function ProgramList() {
                             key={program.id}
                             program={program}
                             index={index}
-                            onViewDetail={setSelectedProgram}
+                            onViewDetail={handleSelectProgram}
                         />
                     ))}
                 </div>
             )}
 
             {/* Load more */}
-            {data?.hasNextPage && (
+            {hasNextPage && (
                 <div className="flex justify-center pt-4">
                     <Button
                         size="lg"
                         onClick={handleLoadMore}
-                        disabled={isLoading}
+                        disabled={isValidating}
                         className="min-w-[200px]"
                     >
-                        {isLoading ? (
+                        {isValidating ? (
                             <>
                                 <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                                 {t("loading")}
                             </>
                         ) : (
-                            t("loadMore", { loaded: allPrograms.length, total: data.totalCount })
+                            t("loadMore", { loaded: allPrograms.length, total: totalCount })
                         )}
                     </Button>
                 </div>
             )}
 
             <ProgramDetailDialog
-                program={selectedProgram}
+                program={displayProgram}
                 open={!!selectedProgram}
                 onClose={() => setSelectedProgram(null)}
             />

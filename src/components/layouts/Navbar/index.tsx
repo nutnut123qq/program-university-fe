@@ -1,6 +1,6 @@
 "use client"
 
-import React from "react"
+import React, { useSyncExternalStore } from "react"
 import { useTheme } from "next-themes"
 import { useRouter, usePathname, Link } from "@/i18n/navigation"
 import { Button } from "@/components/ui/button"
@@ -13,11 +13,11 @@ export const Navbar = () => {
     const pathname = usePathname()
     const locale = useLocale()
     const t = useTranslations("navbar")
-    const [mounted, setMounted] = React.useState(false)
-
-    React.useEffect(() => {
-        setMounted(true)
-    }, [])
+    const mounted = useSyncExternalStore(
+        () => () => {},
+        () => true,
+        () => false
+    )
 
     const toggleLocale = () => {
         const next = locale === "vi" ? "en" : "vi"

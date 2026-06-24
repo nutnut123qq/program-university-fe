@@ -85,6 +85,7 @@ export function ProgramFilters({
                             onChange({ ...filters, universityId: value })
                         }
                         placeholder={t("allUniversities")}
+                        aria-label={t("allUniversities")}
                     >
                         <SelectItem value="">{t("allUniversities")}</SelectItem>
                         {visibleUniversities.map((uni) => (
@@ -100,6 +101,7 @@ export function ProgramFilters({
                             handleTypeChange(value as ProgramFiltersType["universityType"])
                         }
                         placeholder={t("allUniversityTypes")}
+                        aria-label={t("allUniversityTypes")}
                     >
                         <SelectItem value="all">{t("allUniversityTypes")}</SelectItem>
                         <SelectItem value="public">{t("publicUniversity")}</SelectItem>
@@ -112,6 +114,7 @@ export function ProgramFilters({
                             onChange({ ...filters, degreeType: value || "all" })
                         }
                         placeholder={t("allDegrees")}
+                        aria-label={t("allDegrees")}
                     >
                         <SelectItem value="">{t("allDegrees")}</SelectItem>
                         {(degreeTypes || []).map((type) => (
@@ -130,6 +133,7 @@ export function ProgramFilters({
                             })
                         }
                         placeholder={t("sort")}
+                        aria-label={t("sort")}
                     >
                         <SelectItem value="newest">{t("sortNewest")}</SelectItem>
                         <SelectItem value="name">{t("sortName")}</SelectItem>
