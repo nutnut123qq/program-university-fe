@@ -1,12 +1,16 @@
-import { Curriculum, Program, ProgramsResponse, University, PagedResult } from "./types"
+import { Curriculum, Program, ProgramsResponse, University, PagedResult, RawDocument } from "./types"
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001/api"
-const USE_MOCK = process.env.NEXT_PUBLIC_USE_MOCK !== "false"
+const isProduction = process.env.NODE_ENV === "production"
+const USE_MOCK = isProduction
+    ? process.env.NEXT_PUBLIC_USE_MOCK === "true"
+    : process.env.NEXT_PUBLIC_USE_MOCK !== "false"
 
 let mockProgramsCache: Program[] | null = null
 let mockUniversitiesCache: University[] | null = null
 let mockDegreeTypesCache: string[] | null = null
 let mockCurriculaCache: Curriculum[] | null = null
+let mockRawDocumentsCache: RawDocument[] | null = null
 
 async function loadMockPrograms(): Promise<Program[]> {
     if (mockProgramsCache) return mockProgramsCache
@@ -58,6 +62,19 @@ async function loadMockCurricula(): Promise<Curriculum[]> {
         throw new Error("Invalid mock curricula response")
     }
     mockCurriculaCache = data
+    return data
+}
+
+async function loadMockRawDocuments(): Promise<RawDocument[]> {
+    if (mockRawDocumentsCache) return mockRawDocumentsCache
+    const res = await fetch("/mock/raw-documents.json", { cache: "no-store" })
+    if (!res.ok) throw new Error(`Failed to load mock raw documents: ${res.status}`)
+    const data: RawDocument[] = await res.json()
+    if (!Array.isArray(data)) {
+        console.error("Invalid mock raw documents response:", data)
+        throw new Error("Invalid mock raw documents response")
+    }
+    mockRawDocumentsCache = data
     return data
 }
 
@@ -210,4 +227,30 @@ export async function fetchCurricula(programId: string): Promise<Curriculum[]> {
         throw new Error(`Failed to fetch curricula: ${res.status}`)
     }
     return res.json()
+}
+
+export async function fetchRawDocuments(programId: string): Promise<RawDocument[]> {
+    if (USE_MOCK) {
+        const all = await loadMockRawDocuments()
+        return all.filter((d) => d.programId === programId)
+    }
+
+    const res = await fetch(`${API_BASE_URL}/rawdocuments?programId=${programId}&pageSize=1000`)
+    if (!res.ok) {
+        throw new Error(`Failed to fetch raw documents: ${res.status}`)
+    }
+    const data: PagedResult<RawDocument> = await res.json()
+    return data.items
+}
+
+export async function fetchRawDocumentText(documentId: string): Promise<string> {
+    if (USE_MOCK) {
+        return "[Mock] Raw text is not available in mock mode."
+    }
+
+    const res = await fetch(`${API_BASE_URL}/rawdocuments/${documentId}/text`)
+    if (!res.ok) {
+        throw new Error(`Failed to fetch raw document text: ${res.status}`)
+    }
+    return res.text()
 }

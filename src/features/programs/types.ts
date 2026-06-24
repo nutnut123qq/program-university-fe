@@ -22,6 +22,7 @@ export interface Program {
     description: string | null
     goals: string | null
     careerOutlook: string | null
+    learningOutcomes: string | null
     isActive: boolean
     createdAt: string
     updatedAt: string
@@ -56,7 +57,24 @@ export interface PagedResult<T> {
     hasPreviousPage: boolean
 }
 
-export interface ProgramsResponse extends PagedResult<Program> {}
+export type ProgramsResponse = PagedResult<Program>
+
+export interface RawDocument {
+    id: string
+    programId: string | null
+    url: string
+    docType: string
+    storagePath: string
+    fileSize: number
+    textPath: string | null
+    contentHash: string | null
+    extractedTextLength: number | null
+    status: string
+    errorMessage: string | null
+    crawledAt: string
+    createdAt: string
+    updatedAt: string
+}
 
 export interface ProgramFilters {
     search: string

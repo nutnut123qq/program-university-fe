@@ -88,7 +88,7 @@ export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) 
                                 )}
                             >
                                 <Eye className="h-3.5 w-3.5 shrink-0" />
-                                <span className="truncate">{t("viewCourses")}</span>
+                                <span className="truncate">{t("viewDetail")}</span>
                             </button>
                         )}
                         {program.sourceUrl && (
