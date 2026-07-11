@@ -6,33 +6,63 @@ const USE_MOCK = isProduction
     ? process.env.NEXT_PUBLIC_USE_MOCK === "true"
     : process.env.NEXT_PUBLIC_USE_MOCK !== "false"
 
-let mockProgramsCache: Program[] | null = null
+// Mock data caches
 let mockUniversitiesCache: University[] | null = null
 let mockDegreeTypesCache: string[] | null = null
-let mockCurriculaCache: Curriculum[] | null = null
-let mockRawDocumentsCache: RawDocument[] | null = null
+let mockProgramsIndexCache: { totalCount: number; pageSize: number; totalPages: number; chunks: string[] } | null = null
+const mockProgramChunksCache = new Map<string, Program[]>()
+const mockProgramByIdCache = new Map<string, Program>()
+const mockCurriculaCache = new Map<string, Curriculum[]>()
+const mockRawDocumentsCache = new Map<string, RawDocument[]>()
 
-async function loadMockPrograms(): Promise<Program[]> {
-    if (mockProgramsCache) return mockProgramsCache
-    const res = await fetch("/mock/programs.json", { cache: "no-store" })
-    if (!res.ok) throw new Error(`Failed to load mock programs: ${res.status}`)
-    const raw: ProgramsResponse | Program[] = await res.json()
-    const items = Array.isArray(raw) ? raw : raw.items
-    if (!Array.isArray(items)) {
-        console.error("Invalid mock programs response:", raw)
-        throw new Error("Invalid mock programs response: items is not an array")
+async function loadMockIndex() {
+    if (mockProgramsIndexCache) return mockProgramsIndexCache
+    const res = await fetch("/mock/index.json")
+    if (!res.ok) throw new Error(`Failed to load mock index: ${res.status}`)
+    mockProgramsIndexCache = await res.json()
+    return mockProgramsIndexCache!
+}
+
+async function loadMockProgramsChunk(chunkNumber: number): Promise<Program[]> {
+    const index = await loadMockIndex()
+    const chunkSize = index.pageSize
+    const cacheKey = `${chunkNumber}-${chunkSize}`
+
+    if (mockProgramChunksCache.has(cacheKey)) {
+        return mockProgramChunksCache.get(cacheKey)!
     }
-    mockProgramsCache = items
+
+    const chunkFile = index.chunks[chunkNumber - 1]
+    if (!chunkFile) return []
+
+    const res = await fetch(`/mock/programs/${chunkFile}`)
+    if (!res.ok) throw new Error(`Failed to load mock programs chunk ${chunkFile}: ${res.status}`)
+    const items: Program[] = await res.json()
+    if (!Array.isArray(items)) {
+        throw new Error(`Invalid mock programs chunk: ${chunkFile}`)
+    }
+    mockProgramChunksCache.set(cacheKey, items)
     return items
+}
+
+async function loadMockProgramById(id: string): Promise<Program | null> {
+    if (mockProgramByIdCache.has(id)) return mockProgramByIdCache.get(id)!
+    const res = await fetch(`/mock/programs-by-id/${id}.json`)
+    if (!res.ok) {
+        if (res.status === 404) return null
+        throw new Error(`Failed to load mock program ${id}: ${res.status}`)
+    }
+    const item: Program = await res.json()
+    mockProgramByIdCache.set(id, item)
+    return item
 }
 
 async function loadMockUniversities(): Promise<University[]> {
     if (mockUniversitiesCache) return mockUniversitiesCache
-    const res = await fetch("/mock/universities.json", { cache: "no-store" })
+    const res = await fetch("/mock/universities.json")
     if (!res.ok) throw new Error(`Failed to load mock universities: ${res.status}`)
     const data: University[] = await res.json()
     if (!Array.isArray(data)) {
-        console.error("Invalid mock universities response:", data)
         throw new Error("Invalid mock universities response")
     }
     mockUniversitiesCache = data
@@ -41,41 +71,58 @@ async function loadMockUniversities(): Promise<University[]> {
 
 async function loadMockDegreeTypes(): Promise<string[]> {
     if (mockDegreeTypesCache) return mockDegreeTypesCache
-    const res = await fetch("/mock/degree-types.json", { cache: "no-store" })
+    const res = await fetch("/mock/degree-types.json")
     if (!res.ok) throw new Error(`Failed to load mock degree types: ${res.status}`)
     const data: string[] = await res.json()
     if (!Array.isArray(data)) {
-        console.error("Invalid mock degree types response:", data)
         throw new Error("Invalid mock degree types response")
     }
     mockDegreeTypesCache = data
     return data
 }
 
-async function loadMockCurricula(): Promise<Curriculum[]> {
-    if (mockCurriculaCache) return mockCurriculaCache
-    const res = await fetch("/mock/curricula.json", { cache: "no-store" })
-    if (!res.ok) throw new Error(`Failed to load mock curricula: ${res.status}`)
+async function loadMockCurricula(programId: string): Promise<Curriculum[]> {
+    if (mockCurriculaCache.has(programId)) return mockCurriculaCache.get(programId)!
+    const res = await fetch(`/mock/curricula/${programId}.json`)
+    if (!res.ok) {
+        if (res.status === 404) {
+            mockCurriculaCache.set(programId, [])
+            return []
+        }
+        throw new Error(`Failed to load mock curricula for ${programId}: ${res.status}`)
+    }
     const data: Curriculum[] = await res.json()
     if (!Array.isArray(data)) {
-        console.error("Invalid mock curricula response:", data)
-        throw new Error("Invalid mock curricula response")
+        throw new Error(`Invalid mock curricula response for ${programId}`)
     }
-    mockCurriculaCache = data
+    mockCurriculaCache.set(programId, data)
     return data
 }
 
-async function loadMockRawDocuments(): Promise<RawDocument[]> {
-    if (mockRawDocumentsCache) return mockRawDocumentsCache
-    const res = await fetch("/mock/raw-documents.json", { cache: "no-store" })
-    if (!res.ok) throw new Error(`Failed to load mock raw documents: ${res.status}`)
+async function loadMockRawDocuments(programId: string): Promise<RawDocument[]> {
+    if (mockRawDocumentsCache.has(programId)) return mockRawDocumentsCache.get(programId)!
+    const res = await fetch(`/mock/raw-documents/${programId}.json`)
+    if (!res.ok) {
+        if (res.status === 404) {
+            mockRawDocumentsCache.set(programId, [])
+            return []
+        }
+        throw new Error(`Failed to load mock raw documents for ${programId}: ${res.status}`)
+    }
     const data: RawDocument[] = await res.json()
     if (!Array.isArray(data)) {
-        console.error("Invalid mock raw documents response:", data)
-        throw new Error("Invalid mock raw documents response")
+        throw new Error(`Invalid mock raw documents response for ${programId}`)
     }
-    mockRawDocumentsCache = data
+    mockRawDocumentsCache.set(programId, data)
     return data
+}
+
+async function loadAllMockPrograms(): Promise<Program[]> {
+    const index = await loadMockIndex()
+    const chunks: Program[][] = await Promise.all(
+        index.chunks.map((_, i) => loadMockProgramsChunk(i + 1))
+    )
+    return chunks.flat()
 }
 
 function applyFiltersAndSort(
@@ -158,7 +205,53 @@ export async function fetchPrograms(params?: {
     sortDesc?: boolean
 }): Promise<ProgramsResponse> {
     if (USE_MOCK) {
-        const all = await loadMockPrograms()
+        const needsAll = !!(
+            params?.search ||
+            params?.degreeType ||
+            params?.universityId ||
+            (params?.universityType && params.universityType !== "all")
+        )
+
+        if (!needsAll) {
+            // Simple pagination/sort: load only the chunk(s) covering the requested page
+            const page = params?.page ?? 1
+            const pageSize = params?.pageSize ?? 20
+            const index = await loadMockIndex()
+            const chunkSize = index.pageSize
+            const startOffset = (page - 1) * pageSize
+            const endOffset = startOffset + pageSize
+
+            const startChunk = Math.floor(startOffset / chunkSize)
+            const endChunk = Math.floor((endOffset - 1) / chunkSize)
+
+            const chunks: Program[][] = []
+            for (let i = startChunk; i <= endChunk; i++) {
+                chunks.push(await loadMockProgramsChunk(i + 1))
+            }
+
+            const allItems = chunks.flat()
+            const sliceStart = startOffset - startChunk * chunkSize
+            const sliceEnd = sliceStart + pageSize
+            const items = allItems.slice(sliceStart, sliceEnd)
+
+            // For totalCount we still need the index; if we don't know exact total, estimate
+            const totalCount = index.totalCount
+            const totalPages = Math.max(1, Math.ceil(totalCount / pageSize))
+            const safePage = Math.min(Math.max(1, page), totalPages)
+
+            return {
+                items,
+                totalCount,
+                page: safePage,
+                pageSize,
+                totalPages,
+                hasNextPage: safePage < totalPages,
+                hasPreviousPage: safePage > 1,
+            }
+        }
+
+        // Search/filter across all programs: load everything once
+        const all = await loadAllMockPrograms()
         return applyFiltersAndSort(all, params)
     }
 
@@ -214,12 +307,23 @@ export async function fetchDegreeTypes(): Promise<string[]> {
     return res.json()
 }
 
+export async function fetchProgramById(id: string): Promise<Program | null> {
+    if (USE_MOCK) {
+        return loadMockProgramById(id)
+    }
+
+    const res = await fetch(`${API_BASE_URL}/programs/${id}`)
+    if (!res.ok) {
+        if (res.status === 404) return null
+        throw new Error(`Failed to fetch program ${id}: ${res.status}`)
+    }
+    return res.json()
+}
+
 export async function fetchCurricula(programId: string): Promise<Curriculum[]> {
     if (USE_MOCK) {
-        const all = await loadMockCurricula()
-        return all
-            .filter((c) => c.programId === programId)
-            .sort((a, b) => a.courseName.localeCompare(b.courseName))
+        const courses = await loadMockCurricula(programId)
+        return [...courses].sort((a, b) => a.courseName.localeCompare(b.courseName))
     }
 
     const res = await fetch(`${API_BASE_URL}/curricula/program/${programId}`)
@@ -231,8 +335,7 @@ export async function fetchCurricula(programId: string): Promise<Curriculum[]> {
 
 export async function fetchRawDocuments(programId: string): Promise<RawDocument[]> {
     if (USE_MOCK) {
-        const all = await loadMockRawDocuments()
-        return all.filter((d) => d.programId === programId)
+        return loadMockRawDocuments(programId)
     }
 
     const res = await fetch(`${API_BASE_URL}/rawdocuments?programId=${programId}&pageSize=1000`)
