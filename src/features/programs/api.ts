@@ -348,7 +348,16 @@ export async function fetchRawDocuments(programId: string): Promise<RawDocument[
 
 export async function fetchRawDocumentText(documentId: string): Promise<string> {
     if (USE_MOCK) {
-        return "[Mock] Raw text is not available in mock mode."
+        for (const docs of mockRawDocumentsCache.values()) {
+            const doc = docs.find((d) => d.id === documentId)
+            if (doc) {
+                if (doc.extractedText) {
+                    return doc.extractedText
+                }
+                return "[Mock] Nội dung văn bản thô chưa được trích xuất cho tài liệu này."
+            }
+        }
+        return "[Mock] Nội dung văn bản thô không có sẵn trong chế độ tĩnh (mock)."
     }
 
     const res = await fetch(`${API_BASE_URL}/rawdocuments/${documentId}/text`)

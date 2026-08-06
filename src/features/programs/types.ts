@@ -74,6 +74,7 @@ export interface RawDocument {
     crawledAt: string
     createdAt: string
     updatedAt: string
+    extractedText?: string | null
 }
 
 export interface ProgramFilters {
