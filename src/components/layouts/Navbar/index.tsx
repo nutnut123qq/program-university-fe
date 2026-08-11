@@ -4,7 +4,7 @@ import React, { useSyncExternalStore } from "react"
 import { useTheme } from "next-themes"
 import { useRouter, usePathname, Link } from "@/i18n/navigation"
 import { Button } from "@/components/ui/button"
-import { Sun, Moon, Monitor, Globe } from "lucide-react"
+import { Sun, Moon, Monitor, Globe, Sparkles } from "lucide-react"
 import { useLocale, useTranslations } from "next-intl"
 
 export const Navbar = () => {
@@ -29,7 +29,7 @@ export const Navbar = () => {
             <nav className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur">
                 <div className="container mx-auto flex h-14 items-center">
                     <div className="mr-4 flex">
-                        <span className="font-bold">Fe</span>
+                        <span className="font-bold">Tedo</span>
                     </div>
                 </div>
             </nav>
@@ -40,7 +40,7 @@ export const Navbar = () => {
         <nav className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur">
             <div className="container mx-auto flex h-14 items-center justify-between">
                 <div className="flex items-center gap-6">
-                    <span className="font-bold text-lg">Fe</span>
+                    <span className="font-bold text-lg text-primary">Tedo</span>
                     <div className="hidden md:flex items-center gap-4 text-sm">
                         <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
                             {t("home")}
@@ -48,6 +48,10 @@ export const Navbar = () => {
                         <Link href="/programs" className="text-muted-foreground hover:text-foreground transition-colors">
                             {t("courses")}
                         </Link>
+                        <div className="flex items-center gap-1 text-xs px-2.5 py-1 rounded-full bg-blue-500/10 text-blue-500 font-medium border border-blue-500/20">
+                            <Sparkles className="w-3 h-3 animate-pulse text-amber-400" />
+                            <span>SLM Assistant Ready</span>
+                        </div>
                     </div>
                 </div>
                 <div className="flex items-center gap-2">

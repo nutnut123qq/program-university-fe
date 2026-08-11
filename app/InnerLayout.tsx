@@ -5,6 +5,7 @@ import { NextThemesProvider, SwrProvider } from "@/components/providers"
 import { ReduxProvider } from "@/redux"
 import { UseEffects } from "@/hooks"
 import { Navbar } from "@/components/layouts"
+import { AIChatWidget } from "@/components/common"
 
 export const InnerLayout = ({ children }: PropsWithChildren) => {
     return (
@@ -22,6 +23,7 @@ export const InnerLayout = ({ children }: PropsWithChildren) => {
                         <main className="min-h-screen">
                             {children}
                         </main>
+                        <AIChatWidget />
                     </ReduxProvider>
                 </SwrProvider>
             </NextThemesProvider>
