@@ -23,6 +23,7 @@ import { Card, CardContent } from "@/components/ui/card"
 
 import { fetchCurricula, fetchRawDocuments, fetchRawDocumentText } from "../api"
 import { Program, RawDocument } from "../types"
+import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 
 interface ProgramDetailDialogProps {
     program: Program | null
@@ -422,7 +423,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                     {t("evalTitle")}
                                                 </h3>
                                                 <p className="text-xs text-muted-foreground">
-                                                    Đánh giá tự động theo chuẩn AUN-QA v4.0 & Thông tư 04/2016/TT-BGDĐT
+                                                    Đánh giá toàn diện theo 11 Tiêu chí AUN-QA v4.0 & Thông tư 04/2016/TT-BGDĐT
                                                 </p>
                                             </div>
                                             <div className="flex items-center gap-2">
@@ -431,6 +432,29 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 </Badge>
                                             </div>
                                         </div>
+
+                                        {/* SVG Radar Chart Visualizer */}
+                                        <Card className="p-4 bg-muted/20 border flex flex-col items-center">
+                                            <h4 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-2">
+                                                Biểu đồ Mạng nhện Radar 11 Tiêu chí AUN-QA v4.0
+                                            </h4>
+                                            <AunRadarChart
+                                                size={320}
+                                                scores={[
+                                                    { id: "1", name: "1. PLO/ELO", score: 5 },
+                                                    { id: "2", name: "2. Program Spec", score: 5 },
+                                                    { id: "3", name: "3. Structure", score: 4 },
+                                                    { id: "4", name: "4. Teaching", score: 4 },
+                                                    { id: "5", name: "5. Assessment", score: 5 },
+                                                    { id: "6", name: "6. Faculty", score: 4 },
+                                                    { id: "7", name: "7. Support Staff", score: 4 },
+                                                    { id: "8", name: "8. Student Support", score: 5 },
+                                                    { id: "9", name: "9. Facilities", score: 4 },
+                                                    { id: "10", name: "10. Quality Enh", score: 5 },
+                                                    { id: "11", name: "11. Output/Career", score: 5 },
+                                                ]}
+                                            />
+                                        </Card>
 
                                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                             <Card className="border-l-4 border-l-emerald-500">
