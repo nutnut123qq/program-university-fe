@@ -5,7 +5,7 @@ import { NextThemesProvider, SwrProvider } from "@/components/providers"
 import { ReduxProvider } from "@/redux"
 import { UseEffects } from "@/hooks"
 import { Navbar } from "@/components/layouts"
-import { AIChatWidget } from "@/components/common"
+import { AIChatWidget, SlmChatModal } from "@/components/common"
 
 export const InnerLayout = ({ children }: PropsWithChildren) => {
     return (
@@ -24,6 +24,7 @@ export const InnerLayout = ({ children }: PropsWithChildren) => {
                             {children}
                         </main>
                         <AIChatWidget />
+                        <SlmChatModal />
                     </ReduxProvider>
                 </SwrProvider>
             </NextThemesProvider>
