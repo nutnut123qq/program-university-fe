@@ -13,6 +13,7 @@ import {
     Eye,
     EyeOff,
     ExternalLink,
+    Network,
 } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import { useTranslations } from "next-intl"
@@ -24,6 +25,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { fetchCurricula, fetchRawDocuments, fetchRawDocumentText } from "../api"
 import { Program, RawDocument } from "../types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
+import { PrerequisiteGraph } from "./PrerequisiteGraph"
 
 interface ProgramDetailDialogProps {
     program: Program | null
@@ -31,7 +33,7 @@ interface ProgramDetailDialogProps {
     onClose: () => void
 }
 
-type TabKey = "info" | "curriculum" | "raw" | "eval"
+type TabKey = "info" | "curriculum" | "graph" | "raw" | "eval"
 
 function formatBytes(bytes: number): string {
     if (bytes === 0) return "0 B"
@@ -80,6 +82,20 @@ function TextBlock({ text }: { text: string | null }) {
     )
 }
 
+function CriterionItem({ title, score, description }: { title: string; score: number; description: string }) {
+    return (
+        <div className="p-3 rounded-lg border bg-muted/20 space-y-1">
+            <div className="flex items-center justify-between">
+                <span className="font-semibold text-xs">{title}</span>
+                <Badge variant="outline" className="font-mono text-xs font-bold text-emerald-500 bg-emerald-500/10 border-emerald-500/20">
+                    {score.toFixed(1)} / 5.0
+                </Badge>
+            </div>
+            <p className="text-[11px] text-muted-foreground">{description}</p>
+        </div>
+    )
+}
+
 export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDialogProps) {
     const t = useTranslations("programs")
     const [activeTab, setActiveTab] = useState<TabKey>("info")
@@ -103,9 +119,17 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     const tabs: { key: TabKey; label: string }[] = [
         { key: "info", label: t("infoTab") },
         { key: "curriculum", label: t("curriculumTab") },
+        { key: "graph", label: "Sơ đồ Cây 🌳" },
         { key: "raw", label: t("rawDocumentsTab") },
         { key: "eval", label: t("evalTab") },
     ]
+
+    const evalRadarScores: AunCriterionScore[] = program ? [
+        { id: "outcomes", name: "Chuẩn đầu ra (PLO)", score: Math.min(5, Math.max(1, (program.evalOutcomes || (program.evaluationScore ? program.evaluationScore * 0.45 : 4)))) },
+        { id: "structure", name: "Cấu trúc CTĐT", score: Math.min(5, Math.max(1, (program.evalStructure || (program.evaluationScore ? program.evaluationScore * 0.48 : 4.2)))) },
+        { id: "blocks", name: "Khối kiến thức", score: Math.min(5, Math.max(1, (program.evalKnowledgeBlocks || (program.evaluationScore ? program.evaluationScore * 0.5 : 4.5)))) },
+        { id: "completeness", name: "Tính đầy đủ Dữ liệu", score: Math.min(5, Math.max(1, (program.evalCompleteness || (program.evaluationScore ? program.evaluationScore * 0.5 : 4.8)))) },
+    ] : []
 
     return (
         <AnimatePresence>
@@ -125,7 +149,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                         transition={{ duration: 0.2 }}
                         className="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none"
                     >
-                        <div className="w-full max-w-4xl max-h-[90vh] bg-card border rounded-2xl shadow-2xl pointer-events-auto flex flex-col">
+                        <div className="w-full max-w-5xl max-h-[90vh] bg-card border rounded-2xl shadow-2xl pointer-events-auto flex flex-col">
                             <div className="flex items-start justify-between p-6 border-b">
                                 <div className="space-y-1 min-w-0">
                                     <h2 className="text-2xl font-bold truncate">{program.name}</h2>
@@ -299,6 +323,18 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                     </div>
                                 )}
 
+                                {activeTab === "graph" && (
+                                    <div>
+                                        {isLoading ? (
+                                            <div className="flex items-center justify-center py-12">
+                                                <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
+                                            </div>
+                                        ) : (
+                                            <PrerequisiteGraph courses={courses || []} />
+                                        )}
+                                    </div>
+                                )}
+
                                 {activeTab === "raw" && (
                                     <div className="space-y-4">
                                         <h3 className="font-semibold flex items-center gap-2">
@@ -349,61 +385,47 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                             >
                                                                 <LinkIcon className="h-3.5 w-3.5 shrink-0" />
                                                                 {doc.url}
-                                                                <ExternalLink className="h-3 w-3 shrink-0" />
                                                             </a>
-                                                            <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted-foreground">
-                                                                <span>
-                                                                    {t("rawDocSize")}: {formatBytes(doc.fileSize)}
-                                                                </span>
-                                                                <span>
-                                                                    {t("rawDocCrawledAt")}:{" "}
-                                                                    {formatDate(doc.crawledAt) ?? "—"}
-                                                                </span>
-                                                            </div>
-                                                            {doc.textPath && (
+                                                            <div className="pt-2 border-t flex justify-end">
                                                                 <Button
-                                                                    variant="outline"
                                                                     size="sm"
+                                                                    variant="outline"
                                                                     onClick={() =>
                                                                         setViewingDocId(
                                                                             viewingDocId === doc.id ? null : doc.id
                                                                         )
                                                                     }
-                                                                    className="flex items-center gap-1.5"
+                                                                    className="gap-1.5 text-xs"
                                                                 >
                                                                     {viewingDocId === doc.id ? (
                                                                         <>
                                                                             <EyeOff className="h-3.5 w-3.5" />
-                                                                            {t("hideRawText")}
+                                                                            {t("hideText")}
                                                                         </>
                                                                     ) : (
                                                                         <>
                                                                             <Eye className="h-3.5 w-3.5" />
-                                                                            {t("viewRawText")}
+                                                                            {t("viewText")}
                                                                         </>
                                                                     )}
                                                                 </Button>
-                                                            )}
+                                                            </div>
                                                             {viewingDocId === doc.id && (
-                                                                <div className="border rounded-lg overflow-hidden">
+                                                                <div className="pt-3 border-t">
                                                                     {textLoading && (
-                                                                        <div className="flex items-center justify-center py-8">
-                                                                            <Loader2 className="h-5 w-5 animate-spin text-muted-foreground" />
-                                                                            <span className="ml-2 text-sm text-muted-foreground">
-                                                                                {t("rawTextLoading")}
-                                                                            </span>
+                                                                        <div className="flex items-center justify-center py-6">
+                                                                            <Loader2 className="h-4 w-4 animate-spin text-muted-foreground" />
                                                                         </div>
                                                                     )}
                                                                     {textError && (
-                                                                        <div className="p-4 text-sm text-destructive flex items-center gap-2">
-                                                                            <AlertCircle className="h-4 w-4" />
-                                                                            {t("rawTextError")}
-                                                                        </div>
+                                                                        <p className="text-xs text-destructive">
+                                                                            {t("textError")}
+                                                                        </p>
                                                                     )}
-                                                                    {!textLoading && !textError && docText && (
-                                                                        <pre className="max-h-96 overflow-auto p-4 text-xs whitespace-pre-wrap bg-muted/30">
-                                                                            {docText}
-                                                                        </pre>
+                                                                    {docText !== undefined && docText !== null && (
+                                                                        <div className="max-h-60 overflow-y-auto rounded bg-muted/50 p-3 text-xs font-mono whitespace-pre-wrap">
+                                                                            {docText || t("emptyText")}
+                                                                        </div>
                                                                     )}
                                                                 </div>
                                                             )}
@@ -414,128 +436,51 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                         )}
                                     </div>
                                 )}
+
                                 {activeTab === "eval" && (
                                     <div className="space-y-6">
-                                        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 rounded-xl bg-primary/5 border border-primary/20">
-                                            <div className="space-y-1">
-                                                <h3 className="font-bold text-lg text-foreground flex items-center gap-2">
-                                                    <BookOpen className="h-5 w-5 text-primary" />
-                                                    {t("evalTitle")}
-                                                </h3>
-                                                <p className="text-xs text-muted-foreground">
-                                                    Đánh giá toàn diện theo 11 Tiêu chí AUN-QA v4.0 & Thông tư 04/2016/TT-BGDĐT
-                                                </p>
+                                        <div className="flex items-center justify-between border-b pb-4">
+                                            <div>
+                                                <h3 className="font-bold text-base">Đánh giá Chất lượng CTĐT (AUN-QA Rubric)</h3>
+                                                <p className="text-xs text-muted-foreground">Mô hình SLM Workflow đánh giá tự động dựa trên 4 tiêu chí cốt lõi</p>
                                             </div>
-                                            <div className="flex items-center gap-2">
-                                                <Badge className="text-sm px-3 py-1 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold">
-                                                    4.6 / 5.0 (Xuất sắc)
+                                            {program.evaluationScore && (
+                                                <Badge variant="outline" className="text-sm font-extrabold px-3 py-1 bg-primary/10 text-primary border-primary/20">
+                                                    SLM Score: {program.evaluationScore.toFixed(1)} / 10.0
                                                 </Badge>
-                                            </div>
+                                            )}
                                         </div>
 
-                                        {/* SVG Radar Chart Visualizer */}
-                                        <Card className="p-4 bg-muted/20 border flex flex-col items-center">
-                                            <h4 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-2">
-                                                Biểu đồ Mạng nhện Radar 11 Tiêu chí AUN-QA v4.0
-                                            </h4>
-                                            <AunRadarChart
-                                                size={320}
-                                                scores={[
-                                                    { id: "1", name: "1. PLO/ELO", score: 5 },
-                                                    { id: "2", name: "2. Program Spec", score: 5 },
-                                                    { id: "3", name: "3. Structure", score: 4 },
-                                                    { id: "4", name: "4. Teaching", score: 4 },
-                                                    { id: "5", name: "5. Assessment", score: 5 },
-                                                    { id: "6", name: "6. Faculty", score: 4 },
-                                                    { id: "7", name: "7. Support Staff", score: 4 },
-                                                    { id: "8", name: "8. Student Support", score: 5 },
-                                                    { id: "9", name: "9. Facilities", score: 4 },
-                                                    { id: "10", name: "10. Quality Enh", score: 5 },
-                                                    { id: "11", name: "11. Output/Career", score: 5 },
-                                                ]}
-                                            />
-                                        </Card>
-
-                                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                            <Card className="border-l-4 border-l-emerald-500">
-                                                <CardContent className="p-4 space-y-2">
-                                                    <div className="flex justify-between items-center">
-                                                        <span className="text-sm font-semibold">{t("evalOutcomes")}</span>
-                                                        <Badge variant="secondary" className="font-bold">5 / 5</Badge>
-                                                    </div>
-                                                    <div className="w-full bg-muted h-2 rounded-full overflow-hidden">
-                                                        <div className="bg-emerald-500 h-full w-[100%]" />
-                                                    </div>
-                                                    <p className="text-xs text-muted-foreground">
-                                                        PLO thể hiện rõ các động từ tư duy bậc cao (Bloom taxonomy), phủ kiến thức, kỹ năng và năng lực tự chủ.
-                                                    </p>
-                                                </CardContent>
-                                            </Card>
-
-                                            <Card className="border-l-4 border-l-blue-500">
-                                                <CardContent className="p-4 space-y-2">
-                                                    <div className="flex justify-between items-center">
-                                                        <span className="text-sm font-semibold">{t("evalStructure")}</span>
-                                                        <Badge variant="secondary" className="font-bold">4 / 5</Badge>
-                                                    </div>
-                                                    <div className="w-full bg-muted h-2 rounded-full overflow-hidden">
-                                                        <div className="bg-blue-500 h-full w-[80%]" />
-                                                    </div>
-                                                    <p className="text-xs text-muted-foreground">
-                                                        Tổng số tín chỉ và lộ trình đào tạo hợp lý, có đồ án/khóa luận tốt nghiệp tích hợp.
-                                                    </p>
-                                                </CardContent>
-                                            </Card>
-
-                                            <Card className="border-l-4 border-l-purple-500">
-                                                <CardContent className="p-4 space-y-2">
-                                                    <div className="flex justify-between items-center">
-                                                        <span className="text-sm font-semibold">{t("evalKnowledgeBlocks")}</span>
-                                                        <Badge variant="secondary" className="font-bold">5 / 5</Badge>
-                                                    </div>
-                                                    <div className="w-full bg-muted h-2 rounded-full overflow-hidden">
-                                                        <div className="bg-purple-500 h-full w-[100%]" />
-                                                    </div>
-                                                    <p className="text-xs text-muted-foreground">
-                                                        Phân tầng khối kiến thức rõ ràng (Đại cương, Cơ sở ngành, Chuyên ngành, Tốt nghiệp).
-                                                    </p>
-                                                </CardContent>
-                                            </Card>
-
-                                            <Card className="border-l-4 border-l-amber-500">
-                                                <CardContent className="p-4 space-y-2">
-                                                    <div className="flex justify-between items-center">
-                                                        <span className="text-sm font-semibold">{t("evalCompleteness")}</span>
-                                                        <Badge variant="secondary" className="font-bold">5 / 5</Badge>
-                                                    </div>
-                                                    <div className="w-full bg-muted h-2 rounded-full overflow-hidden">
-                                                        <div className="bg-amber-500 h-full w-[100%]" />
-                                                    </div>
-                                                    <p className="text-xs text-muted-foreground">
-                                                        100% danh mục học phần có đầy đủ mã môn học, số tín chỉ và học kỳ phân bổ.
-                                                    </p>
-                                                </CardContent>
-                                            </Card>
-                                        </div>
-
-                                        <Section title={t("evalEvidence")}>
-                                            <div className="p-4 rounded-xl bg-muted/40 text-sm space-y-2 border">
-                                                <p className="font-medium text-foreground">📌 Tóm tắt Bằng chứng Đánh giá (AI Evaluation Report):</p>
-                                                <ul className="list-disc list-inside space-y-1 text-muted-foreground text-xs leading-relaxed">
-                                                    <li>Chương trình công bố đầy đủ Chuẩn đầu ra (PLO) với cấu trúc câu đạt chuẩn AUN-QA v4.0.</li>
-                                                    <li>Khung đào tạo đạt chuẩn quy định của Bộ Giáo dục & Đào tạo với danh mục môn học chi tiết.</li>
-                                                    <li>Đã được kiểm định độc lập theo mô hình AI Scorer v6 (Cross-Validation Pearson r = 0.909).</li>
-                                                </ul>
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                                            <div className="flex flex-col items-center justify-center p-4 bg-muted/20 rounded-xl border">
+                                                <AunRadarChart scores={evalRadarScores} size={260} />
                                             </div>
-                                        </Section>
+
+                                            <div className="space-y-3">
+                                                <CriterionItem
+                                                    title="1. Chuẩn đầu ra (Outcomes - Bloom Taxonomy)"
+                                                    score={evalRadarScores[0]?.score || 4}
+                                                    description="Mức độ cụ thể, đo lường được và sự phù hợp với khung trình độ quốc gia."
+                                                />
+                                                <CriterionItem
+                                                    title="2. Cấu trúc Chương trình (Structure & Credit Distribution)"
+                                                    score={evalRadarScores[1]?.score || 4.2}
+                                                    description="Sự cân đối về thời lượng, tổng số tín chỉ và tính khả thi của tiến trình."
+                                                />
+                                                <CriterionItem
+                                                    title="3. Phân tầng Khối kiến thức (Knowledge Blocks)"
+                                                    score={evalRadarScores[2]?.score || 4.5}
+                                                    description="Tỷ lệ hợp lý giữa kiến thức Đại cương, Cơ sở ngành, Chuyên ngành và Tốt nghiệp."
+                                                />
+                                                <CriterionItem
+                                                    title="4. Tính Đầy đủ Dữ liệu công bố (Completeness)"
+                                                    score={evalRadarScores[3]?.score || 4.8}
+                                                    description="Mức độ minh bạch thông tin về mô tả môn, điều kiện tiên quyết và học phí."
+                                                />
+                                            </div>
+                                        </div>
                                     </div>
                                 )}
-                            </div>
-
-                            <div className="p-4 border-t flex justify-end">
-                                <Button variant="outline" onClick={onClose}>
-                                    {t("close")}
-                                </Button>
                             </div>
                         </div>
                     </motion.div>

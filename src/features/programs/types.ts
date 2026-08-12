@@ -27,6 +27,11 @@ export interface Program {
     createdAt: string
     updatedAt: string
     courseCount: number
+    evaluationScore?: number
+    evalOutcomes?: number
+    evalStructure?: number
+    evalKnowledgeBlocks?: number
+    evalCompleteness?: number
 }
 
 export interface Curriculum {
@@ -39,6 +44,7 @@ export interface Curriculum {
     credits: number | null
     mandatory: boolean
     semester: number | null
+    knowledgeBlock?: string | null
     hoursTheory: number | null
     hoursPractice: number | null
     description: string | null
