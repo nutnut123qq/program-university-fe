@@ -4,7 +4,7 @@ import React, { useSyncExternalStore } from "react"
 import { useTheme } from "next-themes"
 import { useRouter, usePathname, Link } from "@/i18n/navigation"
 import { Button } from "@/components/ui/button"
-import { Sun, Moon, Monitor, Globe, Sparkles } from "lucide-react"
+import { Sun, Moon, Globe, Sparkles, BarChart3 } from "lucide-react"
 import { useLocale, useTranslations } from "next-intl"
 
 export const Navbar = () => {
@@ -47,6 +47,10 @@ export const Navbar = () => {
                         </Link>
                         <Link href="/programs" className="text-muted-foreground hover:text-foreground transition-colors">
                             {t("courses")}
+                        </Link>
+                        <Link href="/analytics" className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors font-medium">
+                            <BarChart3 className="w-3.5 h-3.5 text-primary" />
+                            <span>Thống kê</span>
                         </Link>
                         <div className="flex items-center gap-1 text-xs px-2.5 py-1 rounded-full bg-blue-500/10 text-blue-500 font-medium border border-blue-500/20">
                             <Sparkles className="w-3 h-3 animate-pulse text-amber-400" />
