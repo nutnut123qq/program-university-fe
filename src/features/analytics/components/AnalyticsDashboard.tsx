@@ -4,7 +4,9 @@ import React from "react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
-import { Award, BookOpen, GraduationCap, Building2, TrendingUp, CheckCircle2, ShieldCheck, Sparkles } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { Award, BookOpen, GraduationCap, Building2, TrendingUp, CheckCircle2, ShieldCheck, Sparkles, Download, FileSpreadsheet, FileJson } from "lucide-react"
+import { exportAnalyticsDatasetToCsv, exportAnalyticsDatasetToJson } from "@/lib/exportUtils"
 
 const UNI_STATS = [
     { code: "NEU", name: "ĐH Kinh tế Quốc dân", count: 86, score: 8.77, status: "Xuất sắc", color: "bg-emerald-500 text-white" },
@@ -49,6 +51,28 @@ export const AnalyticsDashboard = () => {
                     <p className="text-muted-foreground text-sm mt-1">
                         Hệ thống thống kê toàn diện chất lượng 1.093 chương trình đào tạo & 57.935 môn học trên Thang điểm 10.0 SLM Strict Rubric.
                     </p>
+                </div>
+
+                {/* Export Action Buttons */}
+                <div className="flex items-center gap-2">
+                    <Button
+                        size="sm"
+                        variant="outline"
+                        onClick={() => exportAnalyticsDatasetToCsv(UNI_STATS, DISTRIBUTIONS)}
+                        className="gap-1.5 text-xs"
+                    >
+                        <FileSpreadsheet className="w-4 h-4 text-emerald-500" />
+                        <span>Tải Dataset (CSV)</span>
+                    </Button>
+                    <Button
+                        size="sm"
+                        variant="outline"
+                        onClick={() => exportAnalyticsDatasetToJson(UNI_STATS, DISTRIBUTIONS)}
+                        className="gap-1.5 text-xs"
+                    >
+                        <FileJson className="w-4 h-4 text-blue-500" />
+                        <span>Tải Dataset (JSON)</span>
+                    </Button>
                 </div>
             </div>
 

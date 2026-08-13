@@ -52,6 +52,9 @@ export const Navbar = () => {
                             <BarChart3 className="w-3.5 h-3.5 text-primary" />
                             <span>Thống kê</span>
                         </Link>
+                        <Link href="/compare" className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors font-medium">
+                            <span>So sánh Ngành ⚖️</span>
+                        </Link>
                         <div className="flex items-center gap-1 text-xs px-2.5 py-1 rounded-full bg-blue-500/10 text-blue-500 font-medium border border-blue-500/20">
                             <Sparkles className="w-3 h-3 animate-pulse text-amber-400" />
                             <span>SLM Assistant Ready</span>

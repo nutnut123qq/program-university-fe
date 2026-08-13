@@ -14,6 +14,9 @@ import {
     EyeOff,
     ExternalLink,
     Network,
+    FileSpreadsheet,
+    FileJson,
+    Download,
 } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import { useTranslations } from "next-intl"
@@ -26,6 +29,7 @@ import { fetchCurricula, fetchRawDocuments, fetchRawDocumentText } from "../api"
 import { Program, RawDocument } from "../types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 import { PrerequisiteGraph } from "./PrerequisiteGraph"
+import { exportProgramToCsv, exportProgramToJson } from "@/lib/exportUtils"
 
 interface ProgramDetailDialogProps {
     program: Program | null
@@ -170,9 +174,33 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                         )}
                                     </div>
                                 </div>
-                                <Button variant="ghost" size="icon" onClick={onClose}>
-                                    <X className="h-4 w-4" />
-                                </Button>
+                                <div className="flex items-center gap-2">
+                                    {courses && courses.length > 0 && (
+                                        <>
+                                            <Button
+                                                size="sm"
+                                                variant="outline"
+                                                onClick={() => exportProgramToCsv(program, courses)}
+                                                className="gap-1.5 text-xs h-8"
+                                            >
+                                                <FileSpreadsheet className="w-3.5 h-3.5 text-emerald-500" />
+                                                <span className="hidden sm:inline">Xuất Excel</span>
+                                            </Button>
+                                            <Button
+                                                size="sm"
+                                                variant="outline"
+                                                onClick={() => exportProgramToJson(program, courses)}
+                                                className="gap-1.5 text-xs h-8"
+                                            >
+                                                <FileJson className="w-3.5 h-3.5 text-blue-500" />
+                                                <span className="hidden sm:inline">Xuất JSON</span>
+                                            </Button>
+                                        </>
+                                    )}
+                                    <Button variant="ghost" size="icon" onClick={onClose} className="h-8 w-8">
+                                        <X className="h-4 w-4" />
+                                    </Button>
+                                </div>
                             </div>
 
                             <div className="border-b px-6 pt-2">
@@ -265,10 +293,17 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
 
                                 {activeTab === "curriculum" && (
                                     <div className="space-y-3">
-                                        <h3 className="font-semibold flex items-center gap-2">
-                                            <BookOpen className="h-4 w-4" />
-                                            {t("curriculumTitle")}
-                                        </h3>
+                                        <div className="flex items-center justify-between">
+                                            <h3 className="font-semibold flex items-center gap-2">
+                                                <BookOpen className="h-4 w-4" />
+                                                {t("curriculumTitle")}
+                                            </h3>
+                                            {courses && courses.length > 0 && (
+                                                <span className="text-xs text-muted-foreground font-mono">
+                                                    Tổng số: {courses.length} môn học ({program.credits || 135} TC)
+                                                </span>
+                                            )}
+                                        </div>
 
                                         {isLoading && (
                                             <div className="flex items-center justify-center py-12">
