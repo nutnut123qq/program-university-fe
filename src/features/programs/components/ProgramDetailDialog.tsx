@@ -13,10 +13,9 @@ import {
     Eye,
     EyeOff,
     ExternalLink,
-    Network,
     FileSpreadsheet,
     FileJson,
-    Download,
+    Printer,
 } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import { useTranslations } from "next-intl"
@@ -29,6 +28,7 @@ import { fetchCurricula, fetchRawDocuments, fetchRawDocumentText } from "../api"
 import { Program, RawDocument } from "../types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 import { PrerequisiteGraph } from "./PrerequisiteGraph"
+import { GpaPlanner } from "./GpaPlanner"
 import { exportProgramToCsv, exportProgramToJson } from "@/lib/exportUtils"
 
 interface ProgramDetailDialogProps {
@@ -37,7 +37,7 @@ interface ProgramDetailDialogProps {
     onClose: () => void
 }
 
-type TabKey = "info" | "curriculum" | "graph" | "raw" | "eval"
+type TabKey = "info" | "curriculum" | "graph" | "gpa" | "raw" | "eval"
 
 function formatBytes(bytes: number): string {
     if (bytes === 0) return "0 B"
@@ -123,7 +123,8 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     const tabs: { key: TabKey; label: string }[] = [
         { key: "info", label: t("infoTab") },
         { key: "curriculum", label: t("curriculumTab") },
-        { key: "graph", label: "Sơ đồ Cây 🌳" },
+        { key: "graph", label: t("graphTab") },
+        { key: "gpa", label: t("gpaTab") },
         { key: "raw", label: t("rawDocumentsTab") },
         { key: "eval", label: t("evalTab") },
     ]
@@ -175,6 +176,15 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-2">
+                                    <Button
+                                        size="sm"
+                                        variant="outline"
+                                        onClick={() => window.print()}
+                                        className="gap-1.5 text-xs h-8"
+                                    >
+                                        <Printer className="w-3.5 h-3.5 text-indigo-500" />
+                                        <span className="hidden sm:inline">In PDF</span>
+                                    </Button>
                                     {courses && courses.length > 0 && (
                                         <>
                                             <Button
@@ -204,12 +214,12 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                             </div>
 
                             <div className="border-b px-6 pt-2">
-                                <div className="flex gap-2 -mb-px">
+                                <div className="flex gap-2 -mb-px overflow-x-auto">
                                     {tabs.map((tab) => (
                                         <button
                                             key={tab.key}
                                             onClick={() => setActiveTab(tab.key)}
-                                            className={`px-4 py-2 text-sm font-medium border-b-2 transition-colors ${
+                                            className={`px-4 py-2 text-sm font-medium border-b-2 transition-colors whitespace-nowrap ${
                                                 activeTab === tab.key
                                                     ? "border-primary text-primary"
                                                     : "border-transparent text-muted-foreground hover:text-foreground"
@@ -366,6 +376,18 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                             </div>
                                         ) : (
                                             <PrerequisiteGraph courses={courses || []} />
+                                        )}
+                                    </div>
+                                )}
+
+                                {activeTab === "gpa" && (
+                                    <div>
+                                        {isLoading ? (
+                                            <div className="flex items-center justify-center py-12">
+                                                <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
+                                            </div>
+                                        ) : (
+                                            <GpaPlanner courses={courses || []} />
                                         )}
                                     </div>
                                 )}
