@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useMemo } from "react"
 import dayjs from "dayjs"
 import {
     BookOpen,
@@ -16,6 +16,8 @@ import {
     FileSpreadsheet,
     FileJson,
     Printer,
+    Search,
+    Filter,
 } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import { useTranslations } from "next-intl"
@@ -29,6 +31,7 @@ import { Program, RawDocument } from "../types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 import { PrerequisiteGraph } from "./PrerequisiteGraph"
 import { GpaPlanner } from "./GpaPlanner"
+import { KnowledgeBlockBreakdown } from "./KnowledgeBlockBreakdown"
 import { exportProgramToCsv, exportProgramToJson } from "@/lib/exportUtils"
 
 interface ProgramDetailDialogProps {
@@ -104,6 +107,8 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     const t = useTranslations("programs")
     const [activeTab, setActiveTab] = useState<TabKey>("info")
     const [viewingDocId, setViewingDocId] = useState<string | null>(null)
+    const [courseSearch, setCourseSearch] = useState("")
+    const [semesterFilter, setSemesterFilter] = useState<string>("all")
 
     const { data: courses, error, isLoading } = useSWR(
         program ? ["curricula", program.id] : null,
@@ -119,6 +124,21 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         viewingDocId ? ["raw-document-text", viewingDocId] : null,
         () => (viewingDocId ? fetchRawDocumentText(viewingDocId) : null)
     )
+
+    // Instant Course Search & Semester Filter
+    const filteredCourses = useMemo(() => {
+        if (!courses) return []
+        return courses.filter((c) => {
+            const matchesQuery =
+                !courseSearch ||
+                (c.courseName || "").toLowerCase().includes(courseSearch.toLowerCase()) ||
+                (c.courseCode || "").toLowerCase().includes(courseSearch.toLowerCase())
+
+            const matchesSem = semesterFilter === "all" || String(c.semester || 1) === semesterFilter
+
+            return matchesQuery && matchesSem
+        })
+    }, [courses, courseSearch, semesterFilter])
 
     const tabs: { key: TabKey; label: string }[] = [
         { key: "info", label: t("infoTab") },
@@ -231,7 +251,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                 </div>
                             </div>
 
-                            <div className="flex-1 p-6 overflow-y-auto">
+                            <div className="flex-1 p-6 overflow-y-auto space-y-6">
                                 {activeTab === "info" && (
                                     <div className="space-y-6">
                                         <Card>
@@ -302,17 +322,47 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                 )}
 
                                 {activeTab === "curriculum" && (
-                                    <div className="space-y-3">
-                                        <div className="flex items-center justify-between">
-                                            <h3 className="font-semibold flex items-center gap-2">
-                                                <BookOpen className="h-4 w-4" />
-                                                {t("curriculumTitle")}
-                                            </h3>
-                                            {courses && courses.length > 0 && (
-                                                <span className="text-xs text-muted-foreground font-mono">
-                                                    Tổng số: {courses.length} môn học ({program.credits || 135} TC)
-                                                </span>
-                                            )}
+                                    <div className="space-y-4">
+                                        {/* Knowledge Block Percentages Chart Component */}
+                                        {courses && courses.length > 0 && (
+                                            <KnowledgeBlockBreakdown courses={courses} totalCredits={program.credits || undefined} />
+                                        )}
+
+                                        {/* Search & Filter Header Bar */}
+                                        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-2">
+                                            <div className="flex items-center gap-2">
+                                                <BookOpen className="h-4 w-4 text-primary" />
+                                                <h3 className="font-semibold">{t("curriculumTitle")}</h3>
+                                                {courses && (
+                                                    <Badge variant="outline" className="font-mono text-xs">
+                                                        {filteredCourses.length} / {courses.length} môn
+                                                    </Badge>
+                                                )}
+                                            </div>
+
+                                            {/* Search Input & Semester Select */}
+                                            <div className="flex items-center gap-2">
+                                                <div className="relative">
+                                                    <Search className="w-3.5 h-3.5 text-muted-foreground absolute left-2.5 top-2.5" />
+                                                    <input
+                                                        type="text"
+                                                        value={courseSearch}
+                                                        onChange={(e) => setCourseSearch(e.target.value)}
+                                                        placeholder="Tìm môn học..."
+                                                        className="pl-8 pr-3 py-1.5 text-xs border rounded-lg bg-background focus:ring-1 focus:ring-primary focus:outline-none w-44"
+                                                    />
+                                                </div>
+                                                <select
+                                                    value={semesterFilter}
+                                                    onChange={(e) => setSemesterFilter(e.target.value)}
+                                                    className="py-1.5 px-2 text-xs border rounded-lg bg-background font-medium focus:ring-1 focus:ring-primary focus:outline-none"
+                                                >
+                                                    <option value="all">Tất cả Học kỳ</option>
+                                                    {[1, 2, 3, 4, 5, 6, 7, 8].map((s) => (
+                                                        <option key={s} value={String(s)}>Học kỳ {s}</option>
+                                                    ))}
+                                                </select>
+                                            </div>
                                         </div>
 
                                         {isLoading && (
@@ -344,20 +394,30 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                             <th className="text-left px-4 py-2 font-medium">
                                                                 {t("courseName")}
                                                             </th>
+                                                            <th className="text-center px-4 py-2 font-medium">Học kỳ</th>
+                                                            <th className="text-left px-4 py-2 font-medium">Khối kiến thức</th>
                                                             <th className="text-right px-4 py-2 font-medium">
                                                                 {t("courseCredits")}
                                                             </th>
                                                         </tr>
                                                     </thead>
                                                     <tbody className="divide-y">
-                                                        {courses.map((course) => (
+                                                        {filteredCourses.map((course) => (
                                                             <tr key={course.id} className="hover:bg-muted/30">
-                                                                <td className="px-4 py-2 text-muted-foreground">
+                                                                <td className="px-4 py-2 text-muted-foreground font-mono text-xs">
                                                                     {course.courseCode || "—"}
                                                                 </td>
-                                                                <td className="px-4 py-2">{course.courseName}</td>
-                                                                <td className="px-4 py-2 text-right">
-                                                                    {course.credits ?? "—"}
+                                                                <td className="px-4 py-2 font-medium">{course.courseName}</td>
+                                                                <td className="px-4 py-2 text-center font-mono text-xs">
+                                                                    HK{course.semester || 1}
+                                                                </td>
+                                                                <td className="px-4 py-2">
+                                                                    <Badge variant="outline" className="text-[10px] font-mono">
+                                                                        {course.knowledgeBlock || "Chuyên ngành"}
+                                                                    </Badge>
+                                                                </td>
+                                                                <td className="px-4 py-2 text-right font-mono font-bold text-primary">
+                                                                    {course.credits ?? 3} TC
                                                                 </td>
                                                             </tr>
                                                         ))}
