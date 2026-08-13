@@ -4,9 +4,9 @@ import React, { useState } from "react"
 import useSWR from "swr"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Scale, GraduationCap, ArrowRightLeft } from "lucide-react"
+import { Scale, GraduationCap, ArrowRightLeft, CheckCircle2, Layers, HelpCircle } from "lucide-react"
 import { fetchPrograms, fetchCurricula } from "@/features/programs/api"
-import { Program } from "@/features/programs/types"
+import { Program, Curriculum } from "@/features/programs/types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 
 export const ProgramComparison = () => {
@@ -26,8 +26,13 @@ export const ProgramComparison = () => {
     const courses2 = c2 || []
 
     // Calculate common courses overlap
-    const codes1 = new Set(courses1.map(c => (c.courseName || "").toLowerCase().trim()))
-    const commonCourses = courses2.filter(c => codes1.has((c.courseName || "").toLowerCase().trim()))
+    const names1 = new Set(courses1.map(c => (c.courseName || "").toLowerCase().trim()))
+    const names2 = new Set(courses2.map(c => (c.courseName || "").toLowerCase().trim()))
+
+    const commonCourses = courses2.filter(c => names1.has((c.courseName || "").toLowerCase().trim()))
+    const uniqueCourses1 = courses1.filter(c => !names2.has((c.courseName || "").toLowerCase().trim()))
+    const uniqueCourses2 = courses2.filter(c => !names1.has((c.courseName || "").toLowerCase().trim()))
+
     const overlapPct = courses1.length > 0 ? Math.round((commonCourses.length / Math.max(courses1.length, courses2.length)) * 100) : 0
 
     const getRadarScores = (prog?: Program): AunCriterionScore[] => {
@@ -48,7 +53,7 @@ export const ProgramComparison = () => {
                 <div className="flex items-center gap-2">
                     <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20 gap-1">
                         <Scale className="w-3.5 h-3.5" />
-                        <span>Công cụ So sánh Trực quan</span>
+                        <span>Công cụ So sánh Trực quan Deep-Dive</span>
                     </Badge>
                 </div>
                 <h1 className="text-3xl font-extrabold tracking-tight">So sánh Trực tiếp 2 Chương trình Đào tạo</h1>
@@ -125,7 +130,7 @@ export const ProgramComparison = () => {
                 </CardContent>
             </Card>
 
-            {/* Detailed Comparison Table */}
+            {/* Detailed Side-by-Side Cards */}
             {p1 && p2 && (
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     {/* Program 1 Details */}
@@ -196,6 +201,31 @@ export const ProgramComparison = () => {
                         </CardContent>
                     </Card>
                 </div>
+            )}
+
+            {/* Common Courses Overlap Breakdown */}
+            {commonCourses.length > 0 && (
+                <Card className="border-border/60">
+                    <CardHeader>
+                        <div className="flex items-center gap-2">
+                            <CheckCircle2 className="w-5 h-5 text-emerald-500" />
+                            <div>
+                                <CardTitle className="text-base font-bold">Danh sách {commonCourses.length} Môn học Trùng lặp giữa 2 Ngành</CardTitle>
+                                <CardDescription className="text-xs">Các môn học có nội dung & khối kiến thức tương đồng mà sinh viên đều phải học ở cả 2 trường</CardDescription>
+                            </div>
+                        </div>
+                    </CardHeader>
+                    <CardContent>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5">
+                            {commonCourses.slice(0, 15).map((c, i) => (
+                                <div key={i} className="p-2.5 rounded-lg border bg-muted/20 flex items-center justify-between text-xs">
+                                    <span className="font-medium truncate">{c.courseName}</span>
+                                    <Badge variant="outline" className="font-mono text-[10px] ml-2 shrink-0">{c.credits || 3} TC</Badge>
+                                </div>
+                            ))}
+                        </div>
+                    </CardContent>
+                </Card>
             )}
         </div>
     )

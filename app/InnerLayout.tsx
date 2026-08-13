@@ -7,6 +7,8 @@ import { UseEffects } from "@/hooks"
 import { Navbar } from "@/components/layouts"
 import { AIChatWidget, SlmChatModal } from "@/components/common"
 
+import { SlmChatAssistant } from "@/features/programs/components/SlmChatAssistant"
+
 export const InnerLayout = ({ children }: PropsWithChildren) => {
     return (
         <Suspense>
@@ -23,8 +25,7 @@ export const InnerLayout = ({ children }: PropsWithChildren) => {
                         <main className="min-h-screen">
                             {children}
                         </main>
-                        <AIChatWidget />
-                        <SlmChatModal />
+                        <SlmChatAssistant />
                     </ReduxProvider>
                 </SwrProvider>
             </NextThemesProvider>
