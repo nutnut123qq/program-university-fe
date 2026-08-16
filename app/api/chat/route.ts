@@ -15,13 +15,52 @@ export async function POST(req: NextRequest) {
             return NextResponse.json({ error: "Query is required" }, { status: 400 });
         }
 
+        const openRouterKey = process.env.OPENROUTER_API_KEY || process.env.OPEN_ROUTER_API_KEY;
         const openAiKey = process.env.OPENAI_API_KEY;
         const geminiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
         const anthropicKey = process.env.ANTHROPIC_API_KEY;
         const deepseekKey = process.env.DEEPSEEK_API_KEY;
         const groqKey = process.env.GROQ_API_KEY;
 
-        // 1. OpenAI Integration
+        // 1. OpenRouter Integration (Supports all models via unified OpenRouter gateway)
+        if (openRouterKey) {
+            try {
+                const model = process.env.OPENROUTER_MODEL || "deepseek/deepseek-chat";
+                const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        Authorization: `Bearer ${openRouterKey}`,
+                        "HTTP-Referer": "https://program-university-fe.vercel.app",
+                        "X-Title": "Tedo AI Assistant",
+                    },
+                    body: JSON.stringify({
+                        model,
+                        messages: [
+                            { role: "system", content: TEDO_SYSTEM_PROMPT },
+                            { role: "user", content: query },
+                        ],
+                        temperature: 0.3,
+                        max_tokens: 600,
+                    }),
+                });
+
+                if (res.ok) {
+                    const data = await res.json();
+                    const reply = data.choices?.[0]?.message?.content?.trim();
+                    if (reply) {
+                        return NextResponse.json({ reply, provider: `openrouter (${model})` });
+                    }
+                } else {
+                    const errData = await res.json().catch(() => ({}));
+                    console.error("OpenRouter API Error:", res.status, errData);
+                }
+            } catch (e) {
+                console.error("OpenRouter Fetch Exception:", e);
+            }
+        }
+
+        // 2. OpenAI Integration
         if (openAiKey) {
             try {
                 const res = await fetch("https://api.openai.com/v1/chat/completions", {
@@ -56,7 +95,7 @@ export async function POST(req: NextRequest) {
             }
         }
 
-        // 2. Google Gemini Integration
+        // 3. Google Gemini Integration
         if (geminiKey) {
             try {
                 const model = process.env.GEMINI_MODEL || "gemini-1.5-flash";
@@ -95,7 +134,7 @@ export async function POST(req: NextRequest) {
             }
         }
 
-        // 3. Anthropic Claude Integration
+        // 4. Anthropic Claude Integration
         if (anthropicKey) {
             try {
                 const res = await fetch("https://api.anthropic.com/v1/messages", {
@@ -129,7 +168,7 @@ export async function POST(req: NextRequest) {
             }
         }
 
-        // 4. DeepSeek Integration
+        // 5. DeepSeek Integration
         if (deepseekKey) {
             try {
                 const res = await fetch("https://api.deepseek.com/v1/chat/completions", {
@@ -161,7 +200,7 @@ export async function POST(req: NextRequest) {
             }
         }
 
-        // 5. Groq Integration
+        // 6. Groq Integration
         if (groqKey) {
             try {
                 const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
@@ -193,7 +232,7 @@ export async function POST(req: NextRequest) {
             }
         }
 
-        // 6. Diagnostics Fallback
+        // 7. Diagnostics Fallback
         return NextResponse.json({
             reply: null,
             fallback: true,
