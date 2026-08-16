@@ -1,10 +1,11 @@
 "use client"
 
 import React, { useState } from "react"
-import { MessageSquare, Sparkles, X, Send, Bot, User, ShieldCheck, Copy, Check } from "lucide-react"
+import { MessageSquare, Sparkles, X, Send, Bot, User, ShieldCheck, Copy, Check, Loader2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
+import { querySlmRag } from "@/lib/slmRagEngine"
 
 interface Message {
     id: string
@@ -14,28 +15,29 @@ interface Message {
 }
 
 const QUICK_PROMPTS = [
+    "Ở FPT có môn Triết học Mác - Lênin không?",
     "Ngành Công nghệ Thông tin học mấy năm và bao nhiêu tín chỉ?",
     "Sơ đồ cây môn học tiên quyết hoạt động như thế nào?",
-    "Khác biệt giữa Khối kiến thức Cơ sở ngành và Chuyên ngành?",
     "Thang điểm 10.0 SLM Strict Rubric được tính ra sao?",
 ]
 
 export const SlmChatAssistant = () => {
     const [isOpen, setIsOpen] = useState(false)
     const [input, setInput] = useState("")
+    const [isLoading, setIsLoading] = useState(false)
     const [copiedId, setCopiedId] = useState<string | null>(null)
     const [messages, setMessages] = useState<Message[]>([
         {
             id: "msg-1",
             sender: "bot",
-            text: "Xin chào! Tôi là Trợ lý AI SLM RAG của hệ thống Tedo. Tôi có thể giúp gì cho bạn về thông tin 1.093 chương trình đào tạo & 57.935 môn học?",
+            text: "Xin chào! Tôi là Trợ lý AI SLM RAG của hệ thống Tedo. Tôi có thể giúp gì cho bạn về thông tin 1.093 chương trình đào tạo & 57.935 môn học của 12 trường đại học?",
             timestamp: "Vừa xong",
         },
     ])
 
-    const handleSend = (textToSend?: string) => {
+    const handleSend = async (textToSend?: string) => {
         const query = textToSend || input
-        if (!query.trim()) return
+        if (!query.trim() || isLoading) return
 
         const userMsg: Message = {
             id: `user-${Date.now()}`,
@@ -46,17 +48,11 @@ export const SlmChatAssistant = () => {
 
         setMessages((prev) => [...prev, userMsg])
         if (!textToSend) setInput("")
+        setIsLoading(true)
 
-        // Simulated RAG Response
-        setTimeout(() => {
-            let reply = "Dữ liệu chính xác 100% từ CSDL Tedo: Toàn bộ 1.093 chương trình đào tạo hiện đều có danh mục môn học đầy đủ, phân bổ 8 học kỳ và đạt mốc 8.03/10.0 điểm SLM Rubric."
-            if (query.includes("tín chỉ") || query.includes("mấy năm")) {
-                reply = "Các chương trình đào tạo Cử nhân Đại học thường kéo dài 4 năm (8 học kỳ) với tổng số tín chỉ trung bình từ 120 - 140 tín chỉ. Với hệ Kỹ sư (HUST/HCMUT), chương trình là 5 năm (150 - 180 tín chỉ)."
-            } else if (query.includes("Sơ đồ cây") || query.includes("tiên quyết")) {
-                reply = "Sơ đồ Cây Tiên quyết (DAG Graph) sắp xếp các môn theo 8 học kỳ. Khi bạn nhấp vào 1 môn học, hệ thống sẽ tự động sáng bật các môn màu vàng (Cần học trước) và các môn màu xanh lá (Được mở khóa sau)."
-            } else if (query.includes("Khối kiến thức")) {
-                reply = "CTĐT được chuẩn hóa theo 4 khối kiến thức: 1. Đại cương (Toán/Lý/Triết), 2. Cơ sở ngành (Nền tảng kỹ thuật/kinh tế), 3. Chuyên ngành (Kiến thức hẹp/Chuyên sâu) và 4. Tốt nghiệp (Thực tập/Khóa luận)."
-            }
+        try {
+            // Real grounded query to RAG knowledge base
+            const reply = await querySlmRag(query)
 
             const botMsg: Message = {
                 id: `bot-${Date.now()}`,
@@ -65,7 +61,17 @@ export const SlmChatAssistant = () => {
                 timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
             }
             setMessages((prev) => [...prev, botMsg])
-        }, 600)
+        } catch (err) {
+            const errorMsg: Message = {
+                id: `bot-${Date.now()}`,
+                sender: "bot",
+                text: "Xin lỗi, đã xảy ra lỗi khi truy vấn cơ sở tri thức Tedo. Vui lòng thử lại!",
+                timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
+            }
+            setMessages((prev) => [...prev, errorMsg])
+        } finally {
+            setIsLoading(false)
+        }
     }
 
     const copyText = (text: string, id: string) => {
@@ -92,7 +98,7 @@ export const SlmChatAssistant = () => {
 
             {/* Chat Modal Box */}
             {isOpen && (
-                <Card className="w-[380px] sm:w-[420px] h-[540px] shadow-2xl border-primary/30 flex flex-col animate-in slide-in-from-bottom-5 duration-300">
+                <Card className="w-[380px] sm:w-[440px] h-[560px] shadow-2xl border-primary/30 flex flex-col animate-in slide-in-from-bottom-5 duration-300">
                     <CardHeader className="p-4 border-b bg-gradient-to-r from-primary/10 via-background to-indigo-500/10 flex flex-row items-center justify-between">
                         <div className="flex items-center gap-2">
                             <div className="p-2 bg-primary/20 text-primary rounded-xl">
@@ -103,7 +109,7 @@ export const SlmChatAssistant = () => {
                                     <span>AI SLM RAG Assistant</span>
                                     <ShieldCheck className="w-4 h-4 text-emerald-500" />
                                 </CardTitle>
-                                <p className="text-[11px] text-muted-foreground">10.0 Gold Standard • 0% ảo giác</p>
+                                <p className="text-[11px] text-muted-foreground">Truy vấn CSDL 12 Trường • 0% ảo giác</p>
                             </div>
                         </div>
                         <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)} className="h-8 w-8">
@@ -121,7 +127,7 @@ export const SlmChatAssistant = () => {
                                 <div className={`p-1.5 rounded-full ${m.sender === "user" ? "bg-primary text-primary-foreground" : "bg-muted"}`}>
                                     {m.sender === "user" ? <User className="w-3.5 h-3.5" /> : <Bot className="w-3.5 h-3.5" />}
                                 </div>
-                                <div className={`group relative max-w-[80%] p-3 rounded-2xl ${m.sender === "user" ? "bg-primary text-primary-foreground rounded-tr-none" : "bg-muted/60 border rounded-tl-none"}`}>
+                                <div className={`group relative max-w-[85%] p-3 rounded-2xl ${m.sender === "user" ? "bg-primary text-primary-foreground rounded-tr-none" : "bg-muted/60 border rounded-tl-none"}`}>
                                     <p className="leading-relaxed whitespace-pre-wrap">{m.text}</p>
                                     <button
                                         onClick={() => copyText(m.text, m.id)}
@@ -132,6 +138,12 @@ export const SlmChatAssistant = () => {
                                 </div>
                             </div>
                         ))}
+                        {isLoading && (
+                            <div className="flex items-center gap-2 text-muted-foreground italic text-[11px]">
+                                <Loader2 className="w-3.5 h-3.5 animate-spin text-primary" />
+                                <span>Đang truy xuất CSDL Tedo...</span>
+                            </div>
+                        )}
                     </CardContent>
 
                     {/* Quick Suggestions */}
@@ -157,7 +169,12 @@ export const SlmChatAssistant = () => {
                             placeholder="Hỏi về 1.093 ngành & môn học..."
                             className="flex-1 bg-muted/40 border rounded-xl px-3 py-2 text-xs focus:outline-none focus:ring-1 focus:ring-primary"
                         />
-                        <Button size="icon" onClick={() => handleSend()} className="h-8 w-8 rounded-xl shrink-0">
+                        <Button
+                            size="icon"
+                            onClick={() => handleSend()}
+                            disabled={isLoading}
+                            className="h-8 w-8 rounded-xl shrink-0"
+                        >
                             <Send className="w-3.5 h-3.5" />
                         </Button>
                     </div>
