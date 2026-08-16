@@ -3,7 +3,8 @@
     "home": "Home",
     "courses": "Programs Catalog",
     "analytics": "Analytics",
-    "compare": "Compare Programs ⚖️"
+    "compare": "Compare Programs ⚖️",
+    "login": "Sign In"
   },
   "programs": {
     "title": "University Training Programs Search",
@@ -51,6 +52,8 @@
     "viewText": "View Text",
     "hideText": "Hide Text",
     "textError": "Failed to read document text.",
-    "emptyText": "Document text is empty."
+    "emptyText": "Document text is empty.",
+    "errorTitle": "An error occurred while loading data",
+    "retry": "Retry"
   }
 }

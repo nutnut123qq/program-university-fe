@@ -19,7 +19,15 @@ async function loadMockIndex() {
     if (mockProgramsIndexCache) return mockProgramsIndexCache
     const res = await fetch("/mock/index.json")
     if (!res.ok) throw new Error(`Failed to load mock index: ${res.status}`)
-    mockProgramsIndexCache = await res.json()
+    const data = await res.json()
+    const totalPages = data.totalPages || Math.ceil((data.totalCount || 1093) / (data.pageSize || 20))
+    const chunks = data.chunks || Array.from({ length: totalPages }, (_, i) => `page-${i + 1}.json`)
+    mockProgramsIndexCache = {
+        totalCount: data.totalCount || 1093,
+        pageSize: data.pageSize || 20,
+        totalPages,
+        chunks
+    }
     return mockProgramsIndexCache!
 }
 
@@ -32,15 +40,13 @@ async function loadMockProgramsChunk(chunkNumber: number): Promise<Program[]> {
         return mockProgramChunksCache.get(cacheKey)!
     }
 
-    const chunkFile = index.chunks[chunkNumber - 1]
+    const chunkFile = (index.chunks && index.chunks[chunkNumber - 1]) || `page-${chunkNumber}.json`
     if (!chunkFile) return []
 
     const res = await fetch(`/mock/programs/${chunkFile}`)
     if (!res.ok) throw new Error(`Failed to load mock programs chunk ${chunkFile}: ${res.status}`)
-    const items: Program[] = await res.json()
-    if (!Array.isArray(items)) {
-        throw new Error(`Invalid mock programs chunk: ${chunkFile}`)
-    }
+    const resData = await res.json()
+    const items: Program[] = Array.isArray(resData) ? resData : (resData.items || [])
     mockProgramChunksCache.set(cacheKey, items)
     return items
 }
