@@ -4,7 +4,7 @@ import React, { useSyncExternalStore } from "react"
 import { useTheme } from "next-themes"
 import { useRouter, usePathname, Link } from "@/i18n/navigation"
 import { Button } from "@/components/ui/button"
-import { Sun, Moon, Globe, Sparkles, BarChart3 } from "lucide-react"
+import { Sun, Moon, Globe, BarChart3, GitCompare } from "lucide-react"
 import { useLocale, useTranslations } from "next-intl"
 
 export const Navbar = () => {
@@ -41,24 +41,21 @@ export const Navbar = () => {
             <div className="container mx-auto flex h-14 items-center justify-between">
                 <div className="flex items-center gap-6">
                     <span className="font-bold text-lg text-primary">Tedo</span>
-                    <div className="hidden md:flex items-center gap-4 text-sm">
+                    <div className="hidden md:flex items-center gap-5 text-sm">
                         <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
                             {t("home")}
                         </Link>
                         <Link href="/programs" className="text-muted-foreground hover:text-foreground transition-colors">
                             {t("courses")}
                         </Link>
-                        <Link href="/analytics" className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors font-medium">
-                            <BarChart3 className="w-3.5 h-3.5 text-primary" />
-                            <span>Thống kê</span>
+                        <Link href="/analytics" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors">
+                            <BarChart3 className="w-4 h-4 text-muted-foreground" />
+                            <span>{t("analytics")}</span>
                         </Link>
-                        <Link href="/compare" className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors font-medium">
-                            <span>So sánh Ngành ⚖️</span>
+                        <Link href="/compare" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors">
+                            <GitCompare className="w-4 h-4 text-muted-foreground" />
+                            <span>{t("compare")}</span>
                         </Link>
-                        <div className="flex items-center gap-1 text-xs px-2.5 py-1 rounded-full bg-blue-500/10 text-blue-500 font-medium border border-blue-500/20">
-                            <Sparkles className="w-3 h-3 animate-pulse text-amber-400" />
-                            <span>SLM Assistant Ready</span>
-                        </div>
                     </div>
                 </div>
                 <div className="flex items-center gap-2">
