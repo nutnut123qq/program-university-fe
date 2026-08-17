@@ -16,7 +16,7 @@ export const QUICK_PROMPTS = [
 ]
 
 export const SlmChatAssistant = () => {
-    const { messages, isLoading, sendMessage, clearMessages, isOpen, setIsOpen } = useChat()
+    const { messages, isLoading, sendMessage, createSession, isOpen, setIsOpen } = useChat()
     const [input, setInput] = useState("")
     const [copiedId, setCopiedId] = useState<string | null>(null)
     const messagesEndRef = useRef<HTMLDivElement>(null)
@@ -71,7 +71,7 @@ export const SlmChatAssistant = () => {
                             <CardTitle className="text-sm font-semibold">{t("title") || "AI Hỏi đáp"}</CardTitle>
                         </div>
                         <div className="flex items-center gap-1">
-                            <Button variant="ghost" size="icon" onClick={clearMessages} className="h-7 w-7 text-muted-foreground hover:text-foreground" title={t("newChat") || "Cuộc trò chuyện mới"}>
+                            <Button variant="ghost" size="icon" onClick={() => createSession()} className="h-7 w-7 text-muted-foreground hover:text-foreground" title={t("newChat") || "Cuộc trò chuyện mới"}>
                                 <Plus className="w-4 h-4" />
                             </Button>
                             <Button variant="ghost" size="icon" onClick={handleExpand} className="h-7 w-7 text-muted-foreground hover:text-foreground" title={t("expand") || "Mở rộng"}>
