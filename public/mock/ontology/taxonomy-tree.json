@@ -1,0 +1,563 @@
+{
+  "academicFields": [
+    {
+      "id": "aa8dc07b-fa22-4dbe-9add-846e6dee82d4",
+      "name": "Công nghệ Thông tin",
+      "nameEn": "Information and Communication Technologies",
+      "level": 0,
+      "iscedCode": "06",
+      "programCount": 9,
+      "children": [
+        {
+          "id": "5b52611b-cfdd-481b-b31f-0e28076c328d",
+          "name": "An toàn Thông tin",
+          "nameEn": "Information Security",
+          "level": 1,
+          "iscedCode": "0612",
+          "programCount": 8,
+          "children": []
+        },
+        {
+          "id": "f3690057-3d92-49db-ad15-ac6aaf7c90e9",
+          "name": "Hệ thống Thông tin",
+          "nameEn": "Information Systems",
+          "level": 1,
+          "iscedCode": "0611",
+          "programCount": 9,
+          "children": []
+        },
+        {
+          "id": "5ca1b2ff-0e9c-4a5e-a160-f02577cbfe8e",
+          "name": "Khoa học Dữ liệu",
+          "nameEn": "Data Science",
+          "level": 1,
+          "iscedCode": "0613",
+          "programCount": 0,
+          "children": []
+        },
+        {
+          "id": "5b8620e0-5e11-48e8-b19f-3af3e236ff93",
+          "name": "Khoa học Máy tính",
+          "nameEn": "Computer Science",
+          "level": 1,
+          "iscedCode": "0613",
+          "programCount": 52,
+          "children": []
+        },
+        {
+          "id": "17daf1e7-cba2-45fd-852b-1dcc3042f7b8",
+          "name": "Kỹ thuật Phần mềm",
+          "nameEn": "Software Engineering",
+          "level": 1,
+          "iscedCode": "0613",
+          "programCount": 15,
+          "children": []
+        },
+        {
+          "id": "947d5a42-ff13-4384-9537-2837d8758f39",
+          "name": "Mạng và Truyền thông",
+          "nameEn": "Networks and Communications",
+          "level": 1,
+          "iscedCode": "0612",
+          "programCount": 14,
+          "children": []
+        },
+        {
+          "id": "ef996ebd-379f-4606-a66e-91c3de05d5b2",
+          "name": "Trí tuệ Nhân tạo",
+          "nameEn": "Artificial Intelligence",
+          "level": 1,
+          "iscedCode": "0613",
+          "programCount": 4,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "bc2708c6-73a9-4272-a456-2dadf8f9d343",
+      "name": "Giáo dục",
+      "nameEn": "Education",
+      "level": 0,
+      "iscedCode": "01",
+      "programCount": 16,
+      "children": []
+    },
+    {
+      "id": "d059ff79-2eb3-484f-8ef3-399fdf10a93e",
+      "name": "Khoa học Tự nhiên",
+      "nameEn": "Natural Sciences",
+      "level": 0,
+      "iscedCode": "05",
+      "programCount": 17,
+      "children": [
+        {
+          "id": "8391675e-853c-4980-8e82-0844c5a336da",
+          "name": "Hóa học",
+          "nameEn": "Chemistry",
+          "level": 1,
+          "iscedCode": "051",
+          "programCount": 2,
+          "children": []
+        },
+        {
+          "id": "c6a5438b-bd8d-47ee-9ecb-da194c7f6377",
+          "name": "Khoa học Môi trường",
+          "nameEn": "Environmental Sciences",
+          "level": 1,
+          "iscedCode": "052",
+          "programCount": 29,
+          "children": []
+        },
+        {
+          "id": "ca9e9783-38c1-4673-b3c4-8baa2019ebfd",
+          "name": "Sinh học và Sinh hóa",
+          "nameEn": "Biological and Related Sciences",
+          "level": 1,
+          "iscedCode": "051",
+          "programCount": 15,
+          "children": []
+        },
+        {
+          "id": "f90217ee-f572-4f4a-bc47-5000c3154b9c",
+          "name": "Toán học và Thống kê",
+          "nameEn": "Mathematics and Statistics",
+          "level": 1,
+          "iscedCode": "054",
+          "programCount": 21,
+          "children": []
+        },
+        {
+          "id": "2aa0ebdc-41ca-4593-a7a1-2edabc27a110",
+          "name": "Vật lý",
+          "nameEn": "Physics",
+          "level": 1,
+          "iscedCode": "053",
+          "programCount": 12,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "eb1b7cd6-d897-4a96-892d-4f854d8db13a",
+      "name": "Khoa học Xã hội",
+      "nameEn": "Social Sciences",
+      "level": 0,
+      "iscedCode": "03",
+      "programCount": 22,
+      "children": [
+        {
+          "id": "696cc8ac-7509-44d6-bf92-3f99ad0a1387",
+          "name": "Ngôn ngữ và Văn hóa",
+          "nameEn": "Languages and Culture",
+          "level": 1,
+          "iscedCode": "023",
+          "programCount": 26,
+          "children": []
+        },
+        {
+          "id": "c583e1a8-109d-436a-93a7-d9c9d09f83f1",
+          "name": "Tâm lý học",
+          "nameEn": "Psychology",
+          "level": 1,
+          "iscedCode": "0313",
+          "programCount": 1,
+          "children": []
+        },
+        {
+          "id": "26853008-0e24-4a48-96f8-201e6ccbefb2",
+          "name": "Truyền thông và Báo chí",
+          "nameEn": "Media and Communication",
+          "level": 1,
+          "iscedCode": "0321",
+          "programCount": 10,
+          "children": []
+        },
+        {
+          "id": "a8d7b934-f423-440d-9a1b-5e7a9443cf7c",
+          "name": "Xã hội học",
+          "nameEn": "Sociology",
+          "level": 1,
+          "iscedCode": "0314",
+          "programCount": 1,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "355a02d8-59c6-48d8-b43a-295da46a92aa",
+      "name": "Kinh doanh và Quản lý",
+      "nameEn": "Business and Administration",
+      "level": 0,
+      "iscedCode": "04",
+      "programCount": 443,
+      "children": [
+        {
+          "id": "adf00f6b-778d-43a1-87c2-eed9e68d92e8",
+          "name": "Bảo hiểm",
+          "nameEn": "Insurance",
+          "level": 1,
+          "iscedCode": "0412",
+          "programCount": 2,
+          "children": []
+        },
+        {
+          "id": "8b7e1a96-e5f8-4a3c-bc14-f4a8fe504620",
+          "name": "Bất động sản",
+          "nameEn": "Real Estate",
+          "level": 1,
+          "iscedCode": "0413",
+          "programCount": 3,
+          "children": []
+        },
+        {
+          "id": "75171ab3-8c71-44b3-9007-81baa91003fa",
+          "name": "Kế toán và Kiểm toán",
+          "nameEn": "Accounting and Auditing",
+          "level": 1,
+          "iscedCode": "0411",
+          "programCount": 29,
+          "children": []
+        },
+        {
+          "id": "c1f46e78-766e-49c9-a9bf-f4529b09cce9",
+          "name": "Kinh tế học",
+          "nameEn": "Economics",
+          "level": 1,
+          "iscedCode": "0311",
+          "programCount": 17,
+          "children": []
+        },
+        {
+          "id": "2dcd7adf-214d-479e-ba67-d126a23a3f54",
+          "name": "Kinh tế Quốc tế",
+          "nameEn": "International Economics",
+          "level": 1,
+          "iscedCode": "0311",
+          "programCount": 17,
+          "children": []
+        },
+        {
+          "id": "b4c60ec4-d33f-4bc5-883e-6f8df409ad9f",
+          "name": "Logistics",
+          "nameEn": "Logistics and Supply Chain",
+          "level": 1,
+          "iscedCode": "0413",
+          "programCount": 13,
+          "children": []
+        },
+        {
+          "id": "e17c07de-0bfd-42d7-bc1e-f2c18c7aa0e2",
+          "name": "Marketing",
+          "nameEn": "Marketing",
+          "level": 1,
+          "iscedCode": "0414",
+          "programCount": 17,
+          "children": []
+        },
+        {
+          "id": "194d7cf3-a92e-436d-aa06-5d87e5f94887",
+          "name": "Quản trị Kinh doanh",
+          "nameEn": "Business Administration",
+          "level": 1,
+          "iscedCode": "0413",
+          "programCount": 36,
+          "children": []
+        },
+        {
+          "id": "20cd6065-fcc9-4ea9-ad10-523c33e76672",
+          "name": "Tài chính và Ngân hàng",
+          "nameEn": "Finance and Banking",
+          "level": 1,
+          "iscedCode": "0412",
+          "programCount": 40,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "86c0e981-d9e2-44d6-9a65-a8443cdc276f",
+      "name": "Kỹ thuật",
+      "nameEn": "Engineering",
+      "level": 0,
+      "iscedCode": "07",
+      "programCount": 49,
+      "children": [
+        {
+          "id": "274b763b-3c72-42d4-9b5a-984917673c99",
+          "name": "Kỹ thuật Cơ khí",
+          "nameEn": "Mechanical Engineering",
+          "level": 1,
+          "iscedCode": "0715",
+          "programCount": 13,
+          "children": []
+        },
+        {
+          "id": "e9aa3e66-a142-4c32-bea2-7b261ae28ff0",
+          "name": "Kỹ thuật Dệt may",
+          "nameEn": "Textile Engineering",
+          "level": 1,
+          "iscedCode": "0723",
+          "programCount": 1,
+          "children": []
+        },
+        {
+          "id": "f07ed5b2-fe00-491d-b920-ca53e06c7df5",
+          "name": "Kỹ thuật Điện - Điện tử",
+          "nameEn": "Electrical and Electronic Engineering",
+          "level": 1,
+          "iscedCode": "0713",
+          "programCount": 8,
+          "children": []
+        },
+        {
+          "id": "65041077-075b-4098-8f1f-4ec69183324c",
+          "name": "Kỹ thuật Hóa học",
+          "nameEn": "Chemical Engineering",
+          "level": 1,
+          "iscedCode": "0711",
+          "programCount": 16,
+          "children": []
+        },
+        {
+          "id": "d23f24d7-e2ec-4c30-9574-2e417270f0e2",
+          "name": "Kỹ thuật Ô tô",
+          "nameEn": "Automotive Engineering",
+          "level": 1,
+          "iscedCode": "0716",
+          "programCount": 12,
+          "children": []
+        },
+        {
+          "id": "cf7f3093-5a01-4891-b4c0-d66a98732f5c",
+          "name": "Kỹ thuật Vật liệu",
+          "nameEn": "Materials Engineering",
+          "level": 1,
+          "iscedCode": "0721",
+          "programCount": 19,
+          "children": []
+        },
+        {
+          "id": "248c0e20-0caf-4dba-a9a6-787936ae1c1a",
+          "name": "Kỹ thuật Xây dựng",
+          "nameEn": "Civil Engineering",
+          "level": 1,
+          "iscedCode": "0732",
+          "programCount": 59,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "94c448b5-8f3f-4eb1-b30d-75d9cf512bd2",
+      "name": "Luật",
+      "nameEn": "Law",
+      "level": 0,
+      "iscedCode": "042",
+      "programCount": 12,
+      "children": [
+        {
+          "id": "dec20f15-c08a-4f77-a9b2-4a70dba4ca74",
+          "name": "Luật Kinh tế",
+          "nameEn": "Economic Law",
+          "level": 1,
+          "iscedCode": "0421",
+          "programCount": 4,
+          "children": []
+        },
+        {
+          "id": "e2755a5c-45f5-410b-809f-54dfd99bd885",
+          "name": "Luật Quốc tế",
+          "nameEn": "International Law",
+          "level": 1,
+          "iscedCode": "0421",
+          "programCount": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "1a2e895c-b41e-4eee-88ef-427176244ff8",
+      "name": "Nông nghiệp",
+      "nameEn": "Agriculture",
+      "level": 0,
+      "iscedCode": "08",
+      "programCount": 0,
+      "children": []
+    },
+    {
+      "id": "6b516ae4-e9b7-463d-9247-fc225cce5ea6",
+      "name": "Y Dược",
+      "nameEn": "Health and Medicine",
+      "level": 0,
+      "iscedCode": "09",
+      "programCount": 0,
+      "children": []
+    }
+  ],
+  "knowledgeBlocks": [
+    {
+      "id": "b18d8126-e0a6-4086-8ff1-c1f6991019ad",
+      "name": "Kiến thức chuyên ngành",
+      "nameEn": "Specialized Knowledge",
+      "level": 0,
+      "courseCount": 26512,
+      "children": [
+        {
+          "id": "4ab118d3-45dd-4258-8863-4f445e32370f",
+          "name": "Chuyên ngành bắt buộc",
+          "nameEn": "Required Specialization",
+          "level": 1,
+          "courseCount": 0,
+          "children": []
+        },
+        {
+          "id": "e5d4fbe4-2e7d-4d5b-a7d4-c0c8222816e3",
+          "name": "Chuyên ngành tự chọn",
+          "nameEn": "Elective Specialization",
+          "level": 1,
+          "courseCount": 720,
+          "children": []
+        },
+        {
+          "id": "6320a2e5-ceb5-40f9-93a7-979db749b7da",
+          "name": "Chuyên sâu",
+          "nameEn": "Advanced Specialization",
+          "level": 1,
+          "courseCount": 373,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "ed4b5732-1431-4582-8afe-f074c60d415d",
+      "name": "Kiến thức cơ sở ngành",
+      "nameEn": "Foundation Knowledge",
+      "level": 0,
+      "courseCount": 0,
+      "children": [
+        {
+          "id": "c4955aea-0eec-4012-b892-34b239f528aa",
+          "name": "Cơ sở khối ngành",
+          "nameEn": "Discipline Foundation",
+          "level": 1,
+          "courseCount": 0,
+          "children": []
+        },
+        {
+          "id": "3615707c-6e3f-4a6a-b169-281756f4efe6",
+          "name": "Cơ sở ngành",
+          "nameEn": "Major Foundation",
+          "level": 1,
+          "courseCount": 8531,
+          "children": []
+        },
+        {
+          "id": "d2a9cbfd-1d05-4e1e-aab3-73b0ee574e40",
+          "name": "Nhập môn chuyên ngành",
+          "nameEn": "Introduction to Major",
+          "level": 1,
+          "courseCount": 1008,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "04d1beae-2d71-4d2f-a40e-9ad61cd91abf",
+      "name": "Kiến thức giáo dục đại cương",
+      "nameEn": "General Education",
+      "level": 0,
+      "courseCount": 1735,
+      "children": [
+        {
+          "id": "052b5606-73bc-41c1-be3a-93deaefd15a7",
+          "name": "Giáo dục quốc phòng",
+          "nameEn": "National Defense Education",
+          "level": 1,
+          "courseCount": 665,
+          "children": []
+        },
+        {
+          "id": "40fc23df-5939-477e-8dc8-b99de5d355f6",
+          "name": "Giáo dục thể chất",
+          "nameEn": "Physical Education",
+          "level": 1,
+          "courseCount": 3423,
+          "children": []
+        },
+        {
+          "id": "1729f9e4-6db9-490c-8612-55e04dbb67ad",
+          "name": "Khoa học xã hội và Nhân văn",
+          "nameEn": "Social Sciences and Humanities",
+          "level": 1,
+          "courseCount": 46,
+          "children": []
+        },
+        {
+          "id": "825bcad4-62c3-4ea7-88a6-65a77e4a32f3",
+          "name": "Lý luận chính trị",
+          "nameEn": "Political Theory",
+          "level": 1,
+          "courseCount": 4139,
+          "children": []
+        },
+        {
+          "id": "f37f295d-6d7d-41bc-a48c-806e072597f5",
+          "name": "Ngoại ngữ",
+          "nameEn": "Foreign Languages",
+          "level": 1,
+          "courseCount": 2824,
+          "children": []
+        },
+        {
+          "id": "7051621d-8e62-4e28-8293-c1697294f566",
+          "name": "Tin học và Kỹ năng",
+          "nameEn": "IT and Soft Skills",
+          "level": 1,
+          "courseCount": 665,
+          "children": []
+        },
+        {
+          "id": "38f942a9-1c86-472a-af20-88ec1b60aa6e",
+          "name": "Toán và Khoa học cơ bản",
+          "nameEn": "Mathematics and Basic Sciences",
+          "level": 1,
+          "courseCount": 4034,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "9579217d-2c49-4f0f-b922-8e7007d4ab56",
+      "name": "Kiến thức tốt nghiệp",
+      "nameEn": "Graduation Requirements",
+      "level": 0,
+      "courseCount": 109,
+      "children": [
+        {
+          "id": "1f23c6d0-e5df-44ae-a240-4eb6a64792e2",
+          "name": "Đồ án và Khóa luận",
+          "nameEn": "Thesis and Capstone",
+          "level": 1,
+          "courseCount": 1789,
+          "children": []
+        },
+        {
+          "id": "384cf403-2aa4-4c1b-89c6-997d329612c2",
+          "name": "Thực tập",
+          "nameEn": "Internship",
+          "level": 1,
+          "courseCount": 1362,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "f5b957a8-f60b-4ced-9461-fb67057e5173",
+      "name": "Tự chọn tự do",
+      "nameEn": "Free Electives",
+      "level": 0,
+      "courseCount": 0,
+      "children": []
+    }
+  ]
+}
