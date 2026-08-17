@@ -4,7 +4,7 @@
  * 2. Seamlessly falls back to local grounded CSDL search if offline / no key.
  */
 
-export async function querySlmRag(userQuery: string): Promise<string> {
+export async function querySlmRag(userQuery: string, history?: Array<{role: string, content: string}>): Promise<string> {
     const q = userQuery.trim()
     if (!q) return "Xin chào! Bạn có thể đặt câu hỏi về ngành học, môn học, tín chỉ hoặc quy định đào tạo của các trường đại học."
 
@@ -13,7 +13,7 @@ export async function querySlmRag(userQuery: string): Promise<string> {
         const res = await fetch("/api/chat", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ query: q }),
+            body: JSON.stringify({ messages: [...(history || []), { role: 'user', content: q }] }),
         })
 
         if (res.ok) {

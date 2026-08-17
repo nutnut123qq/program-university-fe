@@ -8,6 +8,7 @@ import { Navbar } from "@/components/layouts"
 import { AIChatWidget, SlmChatModal } from "@/components/common"
 
 import { SlmChatAssistant } from "@/features/programs/components/SlmChatAssistant"
+import { ChatProvider } from "@/hooks/ChatProvider"
 
 export const InnerLayout = ({ children }: PropsWithChildren) => {
     return (
@@ -20,12 +21,14 @@ export const InnerLayout = ({ children }: PropsWithChildren) => {
             >
                 <SwrProvider>
                     <ReduxProvider>
-                        <UseEffects />
-                        <Navbar />
-                        <main className="min-h-screen">
-                            {children}
-                        </main>
-                        <SlmChatAssistant />
+                        <ChatProvider>
+                            <UseEffects />
+                            <Navbar />
+                            <main className="min-h-screen">
+                                {children}
+                            </main>
+                            <SlmChatAssistant />
+                        </ChatProvider>
                     </ReduxProvider>
                 </SwrProvider>
             </NextThemesProvider>

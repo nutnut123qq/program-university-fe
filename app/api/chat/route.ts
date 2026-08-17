@@ -86,7 +86,20 @@ function buildRagContext(query: string): string {
 export async function POST(req: NextRequest) {
     try {
         const body = await req.json();
-        const query = body?.query || body?.message || "";
+        
+        let query = "";
+        let historyMessages: Array<{role: string, content: string}> = [];
+        
+        if (body?.messages && Array.isArray(body.messages) && body.messages.length > 0) {
+            const msgs = body.messages;
+            query = msgs[msgs.length - 1].content;
+            if (msgs.length > 1) {
+                // Slice up to last 20 messages, excluding the current query
+                historyMessages = msgs.slice(0, -1).slice(-20);
+            }
+        } else {
+            query = body?.query || body?.message || "";
+        }
 
         if (!query || typeof query !== "string" || !query.trim()) {
             return NextResponse.json({ error: "Query is required" }, { status: 400 });
@@ -129,6 +142,7 @@ NGUYÊN TẮC TRẢ LỜI:
                         model,
                         messages: [
                             { role: "system", content: systemPrompt },
+                            ...historyMessages,
                             { role: "user", content: query },
                         ],
                         temperature: 0.2,
@@ -164,6 +178,7 @@ NGUYÊN TẮC TRẢ LỜI:
                         model: process.env.OPENAI_MODEL || "gpt-4o-mini",
                         messages: [
                             { role: "system", content: systemPrompt },
+                            ...historyMessages,
                             { role: "user", content: query },
                         ],
                         temperature: 0.2,
@@ -187,6 +202,16 @@ NGUYÊN TẮC TRẢ LỜI:
         if (geminiKey) {
             try {
                 const model = process.env.GEMINI_MODEL || "gemini-1.5-flash";
+                let geminiConversation = `${systemPrompt}\n\n`;
+                if (historyMessages.length > 0) {
+                    geminiConversation += `Lịch sử hội thoại:\n`;
+                    historyMessages.forEach(m => {
+                        geminiConversation += `${m.role === 'user' ? 'Người dùng' : 'Trợ lý'}: ${m.content}\n`;
+                    });
+                    geminiConversation += `\n`;
+                }
+                geminiConversation += `Câu hỏi hiện tại: ${query}`;
+
                 const res = await fetch(
                     `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${geminiKey}`,
                     {
@@ -196,7 +221,7 @@ NGUYÊN TẮC TRẢ LỜI:
                             contents: [
                                 {
                                     role: "user",
-                                    parts: [{ text: `${systemPrompt}\n\nCâu hỏi: ${query}` }],
+                                    parts: [{ text: geminiConversation }],
                                 },
                             ],
                             generationConfig: {
@@ -232,7 +257,13 @@ NGUYÊN TẮC TRẢ LỜI:
                     body: JSON.stringify({
                         model: process.env.ANTHROPIC_MODEL || "claude-3-5-sonnet-20241022",
                         system: systemPrompt,
-                        messages: [{ role: "user", content: query }],
+                        messages: [
+                            ...historyMessages.map(m => ({
+                                role: m.role === 'assistant' ? 'assistant' : 'user',
+                                content: m.content
+                            })),
+                            { role: "user", content: query }
+                        ],
                         max_tokens: 600,
                         temperature: 0.2,
                     }),
@@ -263,6 +294,7 @@ NGUYÊN TẮC TRẢ LỜI:
                         model: "deepseek-chat",
                         messages: [
                             { role: "system", content: systemPrompt },
+                            ...historyMessages,
                             { role: "user", content: query },
                         ],
                         temperature: 0.2,
@@ -295,6 +327,7 @@ NGUYÊN TẮC TRẢ LỜI:
                         model: "llama-3.1-8b-instant",
                         messages: [
                             { role: "system", content: systemPrompt },
+                            ...historyMessages,
                             { role: "user", content: query },
                         ],
                         temperature: 0.2,
