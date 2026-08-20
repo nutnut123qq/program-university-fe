@@ -1,0 +1,60 @@
+{
+  "code": "SSC102",
+  "subjectName": "Business Communication_Kỹ năng giao tiếp",
+  "directPrereqs": [
+    "ENT503",
+    "ENT403",
+    "ENT303",
+    "ENT203"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "SSC102",
+      "to": "ENT503"
+    },
+    {
+      "from": "SSC102",
+      "to": "ENT403"
+    },
+    {
+      "from": "SSC102",
+      "to": "ENT303"
+    },
+    {
+      "from": "SSC102",
+      "to": "ENT203"
+    },
+    {
+      "from": "ENT503",
+      "to": "ENT403"
+    },
+    {
+      "from": "ENT503",
+      "to": "ENT303"
+    },
+    {
+      "from": "ENT503",
+      "to": "ENT203"
+    },
+    {
+      "from": "ENT403",
+      "to": "ENT303"
+    },
+    {
+      "from": "ENT403",
+      "to": "ENT203"
+    },
+    {
+      "from": "ENT303",
+      "to": "ENT203"
+    }
+  ],
+  "names": {
+    "ENT203": "English 3 (Top Notch 2)_Tiếng Anh 3",
+    "ENT403": "English 5 (Summit 1)_Tiếng Anh 5",
+    "SSC102": "Business Communication_Kỹ năng giao tiếp",
+    "ENT303": "English 4 (Top Notch 3)_Tiếng Anh 4",
+    "ENT503": "English 6 (Summit 2)_Tiếng Anh 6"
+  }
+}

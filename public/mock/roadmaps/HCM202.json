@@ -1,0 +1,24 @@
+{
+  "code": "HCM202",
+  "subjectName": "Ho Chi Minh Ideology_Tư tưởng Hồ Chí Minh",
+  "directPrereqs": [
+    "MLN111",
+    "MLN122"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "HCM202",
+      "to": "MLN111"
+    },
+    {
+      "from": "HCM202",
+      "to": "MLN122"
+    }
+  ],
+  "names": {
+    "MLN111": "Philosophy of Marxism – Leninism_Triết học Mác - Lê-nin",
+    "HCM202": "Ho Chi Minh Ideology_Tư tưởng Hồ Chí Minh",
+    "MLN122": "Political economics of Marxism – Leninism_Kinh tế chính trị Mác - Lê-nin"
+  }
+}

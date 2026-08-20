@@ -1,0 +1,35 @@
+{
+  "code": "CPV301",
+  "subjectName": "Computer Vision_Thị giác máy tính",
+  "directPrereqs": [
+    "CSD203",
+    "PFP191"
+  ],
+  "unlocks": [
+    "DAT301m",
+    "IMP302",
+    "IMP302m"
+  ],
+  "edges": [
+    {
+      "from": "CPV301",
+      "to": "CSD203"
+    },
+    {
+      "from": "CPV301",
+      "to": "PFP191"
+    },
+    {
+      "from": "CSD203",
+      "to": "PFP191"
+    }
+  ],
+  "names": {
+    "PFP191": "Programming Fundamentals with Python_Cơ sở lập trình với Python",
+    "CSD203": "Data Structures and Algorithm with Python_Cấu trúc dữ liệu và giải thuật với Python",
+    "CPV301": "Computer Vision_Thị giác máy tính",
+    "IMP302": "Image and Video processing_Xử lý hình ảnh và video",
+    "DAT301m": "AI Development with TensorFlow_Phát triển UDTTNT với TensorFlow",
+    "IMP302m": "Image & Video processing_Xử lý hình ảnh và video"
+  }
+}

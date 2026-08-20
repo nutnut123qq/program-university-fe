@@ -1,0 +1,35 @@
+{
+  "code": "ECO201",
+  "subjectName": "International Economics_Kinh tế quốc tế",
+  "directPrereqs": [
+    "ECO121",
+    "ECO111"
+  ],
+  "unlocks": [
+    "GRA496",
+    "GRI491",
+    "GRP490"
+  ],
+  "edges": [
+    {
+      "from": "ECO201",
+      "to": "ECO121"
+    },
+    {
+      "from": "ECO201",
+      "to": "ECO111"
+    },
+    {
+      "from": "ECO121",
+      "to": "ECO111"
+    }
+  ],
+  "names": {
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "ECO111": "Microeconomics_Kinh tế vi mô",
+    "ECO201": "International Economics_Kinh tế quốc tế",
+    "GRA496": "Graduation Thesis (For International Business)",
+    "ECO121": "Macroeconomics_Kinh tế vĩ mô",
+    "GRI491": "Graduation Thesis - International Business_Khóa luận tốt nghiệp - Kinh doanh quốc tế"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "code": "IEI301",
+  "subjectName": "Import Export_Xuất nhập khẩu",
+  "directPrereqs": [
+    "IBI101"
+  ],
+  "unlocks": [
+    "LOG311"
+  ],
+  "edges": [
+    {
+      "from": "IEI301",
+      "to": "IBI101"
+    }
+  ],
+  "names": {
+    "IBI101": "Introduction to International Business_Nhập môn kinh doanh quốc tế",
+    "IEI301": "Import Export_Xuất nhập khẩu",
+    "LOG311": "Customs Operations_Nghiệp vụ Hải quan"
+  }
+}

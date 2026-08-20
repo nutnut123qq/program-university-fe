@@ -1,0 +1,23 @@
+{
+  "code": "ACC305",
+  "subjectName": "Financial Statement Analysis_Phân tích báo cáo tài chính",
+  "directPrereqs": [
+    "ACC101"
+  ],
+  "unlocks": [
+    "GRF491",
+    "GRP490"
+  ],
+  "edges": [
+    {
+      "from": "ACC305",
+      "to": "ACC101"
+    }
+  ],
+  "names": {
+    "ACC101": "Principles of Accounting_Nguyên lý kế toán",
+    "GRF491": "Graduation Thesis - Finance_Khóa luận tốt nghiệp -Tài chính",
+    "ACC305": "Financial Statement Analysis_Phân tích báo cáo tài chính",
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)"
+  }
+}

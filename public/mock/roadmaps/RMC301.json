@@ -1,0 +1,27 @@
+{
+  "code": "RMC301",
+  "subjectName": "Research methods in Communication_Phương pháp nghiên cứu trong truyền thông",
+  "directPrereqs": [
+    "MMP101",
+    "MMP201"
+  ],
+  "unlocks": [
+    "GRA497"
+  ],
+  "edges": [
+    {
+      "from": "RMC301",
+      "to": "MMP101"
+    },
+    {
+      "from": "RMC301",
+      "to": "MMP201"
+    }
+  ],
+  "names": {
+    "MMP201": "Media Psychology_Tâm lý học truyền thông",
+    "GRA497": "Capstone Project Multimedia Communications_Đồ án tốt nghiệp_Truyền thông đa phương tiện",
+    "MMP101": "Media Psychology",
+    "RMC301": "Research methods in Communication_Phương pháp nghiên cứu trong truyền thông"
+  }
+}

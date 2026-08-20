@@ -1,0 +1,28 @@
+{
+  "code": "DRD201",
+  "subjectName": "Drawing - Speed drawing",
+  "directPrereqs": [
+    "AFA201",
+    "DRP101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "DRD201",
+      "to": "AFA201"
+    },
+    {
+      "from": "DRD201",
+      "to": "DRP101"
+    },
+    {
+      "from": "AFA201",
+      "to": "DRP101"
+    }
+  ],
+  "names": {
+    "DRP101": "Drawing plaster stature - portrait_Hình họa - Vẽ đầu tượng, chân dung",
+    "DRD201": "Drawing - Speed drawing",
+    "AFA201": "Human Anatomy for Artis_Giải phẫu tạo hình"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "code": "GRA497",
+  "subjectName": "Capstone Project Multimedia Communications_Đồ án tốt nghiệp_Truyền thông đa phương tiện",
+  "directPrereqs": [
+    "ADP201",
+    "BRA301",
+    "CSP201m",
+    "DMA301m",
+    "DTG111",
+    "DTG121",
+    "DTG302",
+    "DTG304",
+    "EPR301",
+    "MEP201",
+    "MEP301",
+    "MKT328",
+    "MKT328m",
+    "MPL201",
+    "PRE202",
+    "PRE301",
+    "RMC201",
+    "RMC301",
+    "SDP201",
+    "VDE301",
+    "VDP201",
+    "VDP301",
+    "WMC201",
+    "CCO201",
+    "MKG101",
+    "MKT101",
+    "MMK101",
+    "DMS301m",
+    "MKT318",
+    "MKT318m",
+    "MED201",
+    "MMP101",
+    "MMP201"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "GRA497",
+      "to": "ADP201"
+    },
+    {
+      "from": "GRA497",
+      "to": "BRA301"
+    },
+    {
+      "from": "GRA497",
+      "to": "CSP201m"
+    },
+    {
+      "from": "GRA497",
+      "to": "DMA301m"
+    },
+    {
+      "from": "GRA497",
+      "to": "DTG111"
+    },
+    {
+      "from": "GRA497",
+      "to": "DTG121"
+    },
+    {
+      "from": "GRA497",
+      "to": "DTG302"
+    },
+    {
+      "from": "GRA497",
+      "to": "DTG304"
+    },
+    {
+      "from": "GRA497",
+      "to": "EPR301"
+    },
+    {
+      "from": "GRA497",
+      "to": "MEP201"
+    },
+    {
+      "from": "GRA497",
+      "to": "MEP301"
+    },
+    {
+      "from": "GRA497",
+      "to": "MKT328"
+    },
+    {
+      "from": "GRA497",
+      "to": "MKT328m"
+    },
+    {
+      "from": "GRA497",
+      "to": "MPL201"
+    },
+    {
+      "from": "GRA497",
+      "to": "PRE202"
+    },
+    {
+      "from": "GRA497",
+      "to": "PRE301"
+    },
+    {
+      "from": "GRA497",
+      "to": "RMC201"
+    },
+    {
+      "from": "GRA497",
+      "to": "RMC301"
+    },
+    {
+      "from": "GRA497",
+      "to": "SDP201"
+    },
+    {
+      "from": "GRA497",
+      "to": "VDE301"
+    },
+    {
+      "from": "GRA497",
+      "to": "VDP201"
+    },
+    {
+      "from": "GRA497",
+      "to": "VDP301"
+    },
+    {
+      "from": "GRA497",
+      "to": "WMC201"
+    },
+    {
+      "from": "GRA497",
+      "to": "CCO201"
+    },
+    {
+      "from": "GRA497",
+      "to": "MKG101"
+    },
+    {
+      "from": "GRA497",
+      "to": "MKT101"
+    },
+    {
+      "from": "GRA497",
+      "to": "MMK101"
+    },
+    {
+      "from": "GRA497",
+      "to": "DMS301m"
+    },
+    {
+      "from": "GRA497",
+      "to": "MKT318"
+    },
+    {
+      "from": "GRA497",
+      "to": "MKT318m"
+    },
+    {
+      "from": "GRA497",
+      "to": "MED201"
+    },
+    {
+      "from": "GRA497",
+      "to": "MMP101"
+    },
+    {
+      "from": "GRA497",
+      "to": "MMP201"
+    },
+    {
+      "from": "BRA301",
+      "to": "CCO201"
+    },
+    {
+      "from": "BRA301",
+      "to": "MKG101"
+    },
+    {
+      "from": "BRA301",
+      "to": "MKT101"
+    },
+    {
+      "from": "BRA301",
+      "to": "MMK101"
+    },
+    {
+      "from": "DMA301m",
+      "to": "DMS301m"
+    },
+    {
+      "from": "DMA301m",
+      "to": "MKT318"
+    },
+    {
+      "from": "DMA301m",
+      "to": "MKT318m"
+    },
+    {
+      "from": "DMA301m",
+      "to": "MKG101"
+    },
+    {
+      "from": "DMA301m",
+      "to": "MKT101"
+    },
+    {
+      "from": "DMA301m",
+      "to": "MMK101"
+    },
+    {
+      "from": "DTG121",
+      "to": "DTG111"
+    },
+    {
+      "from": "MEP201",
+      "to": "ADP201"
+    },
+    {
+      "from": "MEP201",
+      "to": "MED201"
+    },
+    {
+      "from": "MEP201",
+      "to": "SDP201"
+    },
+    {
+      "from": "MEP201",
+      "to": "VDP201"
+    },
+    {
+      "from": "MEP301",
+      "to": "ADP201"
+    },
+    {
+      "from": "MEP301",
+      "to": "MED201"
+    },
+    {
+      "from": "MEP301",
+      "to": "SDP201"
+    },
+    {
+      "from": "MEP301",
+      "to": "VDP201"
+    },
+    {
+      "from": "MEP301",
+      "to": "VDP301"
+    },
+    {
+      "from": "MKT328",
+      "to": "MKT318"
+    },
+    {
+      "from": "MKT328m",
+      "to": "MKT318"
+    },
+    {
+      "from": "MKT328m",
+      "to": "MKT318m"
+    },
+    {
+      "from": "MKT328m",
+      "to": "MKT101"
+    },
+    {
+      "from": "MPL201",
+      "to": "MKT101"
+    },
+    {
+      "from": "MPL201",
+      "to": "MMK101"
+    },
+    {
+      "from": "PRE202",
+      "to": "CCO201"
+    },
+    {
+      "from": "PRE301",
+      "to": "CCO201"
+    },
+    {
+      "from": "RMC201",
+      "to": "MMP101"
+    },
+    {
+      "from": "RMC201",
+      "to": "MMP201"
+    },
+    {
+      "from": "RMC301",
+      "to": "MMP101"
+    },
+    {
+      "from": "RMC301",
+      "to": "MMP201"
+    },
+    {
+      "from": "VDE301",
+      "to": "VDP201"
+    },
+    {
+      "from": "VDE301",
+      "to": "VDP301"
+    },
+    {
+      "from": "DMS301m",
+      "to": "MKG101"
+    },
+    {
+      "from": "DMS301m",
+      "to": "MKT101"
+    },
+    {
+      "from": "DMS301m",
+      "to": "MMK101"
+    },
+    {
+      "from": "MKT318m",
+      "to": "MKT101"
+    }
+  ],
+  "names": {
+    "DTG121": "Visual Design Tools 2_Công cụ thiết kế trực quan 2",
+    "VDP201": "Video Production_Sản xuất Video",
+    "RMC201": "Research methods in Communication_Phương pháp nghiên cứu trong truyền thông",
+    "RMC301": "Research methods in Communication_Phương pháp nghiên cứu trong truyền thông",
+    "DMS301m": "Digital Marketing Strategy_Chiến lược marketing số",
+    "MKT318m": "Digital Marketing 1_Marketing số 1",
+    "GRA497": "Capstone Project Multimedia Communications_Đồ án tốt nghiệp_Truyền thông đa phương tiện",
+    "BRA301": "Brand Management_Quản trị thương hiệu",
+    "MMP201": "Media Psychology_Tâm lý học truyền thông",
+    "WMC201": "Media Writing_Viết cho truyền thông đa phương tiện",
+    "DTG302": "Principles of Compositing_Thiết kế hình ảnh và âm thanh trong làm phim",
+    "MKT318": "Digital marketing 1",
+    "MMP101": "Media Psychology",
+    "DTG304": "Principles of Compositing _Thiết kế hình ảnh và âm thanh",
+    "MMK101": "Management and Marketing_Nhập môn Quản trị và Marketing",
+    "ADP201": "Audio Production",
+    "MED201": "New Media Technology_Các loại hình Truyền thông đương đại",
+    "VDP301": "Video Production_Sản xuất Video",
+    "MKT328": "Digital marketing 2",
+    "VDE301": "Digital Video Editing_Dựng phim kỹ thuật số",
+    "PRE202": "Public Relations principles and strategies_Chiến lược quan hệ công chúng",
+    "DTG111": "Visual Design Tools 1_Công cụ thiết kế trực quan 1",
+    "MKT328m": "Digital Marketing 2_Marketing số 2",
+    "CSP201m": "Xây dựng chiến lược nội dung_Content Strategy for Professionals",
+    "CCO201": "Corporate Communication_Truyền thông doanh nghiệp",
+    "SDP201": "Sound Production_Sản xuất âm thanh",
+    "MKT101": "Marketing Principles_Nguyên lý Marketing",
+    "DMA301m": "Digital Marketing Analytics_Phân tích marketing số",
+    "MEP301": "Multimedia Production Project_Dự án sản xuất sản phẩm TTĐPT",
+    "PRE301": "Public Relations principles and strategies_Chiến lược quan hệ công chúng",
+    "MEP201": "Multimedia Production Project_Dự án sản xuất sản phẩm TTĐPT",
+    "MKG101": "Management and Marketing Principles_Nguyên lý Quản trị và Marketing",
+    "EPR301": "Entertainment Public Relation_Quan hệ công chúng ngành Giải trí",
+    "MPL201": "Media Planning _ Lập kế hoạch truyền thông"
+  }
+}

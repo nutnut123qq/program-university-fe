@@ -1,0 +1,49 @@
+{
+  "code": "DRD204",
+  "subjectName": "Drawing - Speed drawing _Hình họa -Vẽ tốc họa",
+  "directPrereqs": [
+    "AFA201",
+    "AFA201m",
+    "DRP101"
+  ],
+  "unlocks": [
+    "ADE301",
+    "DID301",
+    "GDP493",
+    "GDP494",
+    "GDP495"
+  ],
+  "edges": [
+    {
+      "from": "DRD204",
+      "to": "AFA201"
+    },
+    {
+      "from": "DRD204",
+      "to": "AFA201m"
+    },
+    {
+      "from": "DRD204",
+      "to": "DRP101"
+    },
+    {
+      "from": "AFA201",
+      "to": "DRP101"
+    },
+    {
+      "from": "AFA201m",
+      "to": "DRP101"
+    }
+  ],
+  "names": {
+    "GDP494": "Capstone Project Graphic Design - Communication Design_ Đồ án tốt nghiệp ngành thiết kế mỹ thuật số - Thiết kế truyền thông",
+    "DRP101": "Drawing plaster stature - portrait_Hình họa - Vẽ đầu tượng, chân dung",
+    "DID301": "Data visualization & Infographic design_Thiết kế đồ hoạ dữ liệu & thông tin",
+    "AFA201m": "Human Anatomy for Artis_Giải phẫu tạo hình",
+    "AFA201": "Human Anatomy for Artis_Giải phẫu tạo hình",
+    "ADE301": "Exhibition Display & Event Design_Thiết kế cho sự kiện và triển lãm",
+    "DRD204": "Drawing - Speed drawing _Hình họa -Vẽ tốc họa",
+    "GDP493": "Capstone Project Graphic Design - Interaction Design_ Đồ án tốt nghiệp ngành thiết kế mỹ thuật số - Thiết kế tương tác",
+    "GDP495": "Capstone Project Graphic Design - Multimedia Communication Design _  Đồ án tốt nghiệp ngành Thiết kế mỹ thuật số - Thiết kế truyền thông đa phương tiện"
+  }
+}

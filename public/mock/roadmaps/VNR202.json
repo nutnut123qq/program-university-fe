@@ -1,0 +1,24 @@
+{
+  "code": "VNR202",
+  "subjectName": "History of Communist Party of Vietnam_Lịch sử Đảng Cộng sản Việt Nam",
+  "directPrereqs": [
+    "MLN111",
+    "MLN122"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "VNR202",
+      "to": "MLN111"
+    },
+    {
+      "from": "VNR202",
+      "to": "MLN122"
+    }
+  ],
+  "names": {
+    "VNR202": "History of Communist Party of Vietnam_Lịch sử Đảng Cộng sản Việt Nam",
+    "MLN111": "Philosophy of Marxism – Leninism_Triết học Mác - Lê-nin",
+    "MLN122": "Political economics of Marxism – Leninism_Kinh tế chính trị Mác - Lê-nin"
+  }
+}

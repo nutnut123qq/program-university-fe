@@ -1,0 +1,77 @@
+{
+  "code": "EMP301",
+  "subjectName": "Hình thái học tiếng Anh\nEnglish Morphology",
+  "directPrereqs": [
+    "LTG202",
+    "LTG301",
+    "ENG302",
+    "ENG302c",
+    "ENG303",
+    "ENP102",
+    "ENP203"
+  ],
+  "unlocks": [
+    "ECL301"
+  ],
+  "edges": [
+    {
+      "from": "EMP301",
+      "to": "LTG202"
+    },
+    {
+      "from": "EMP301",
+      "to": "LTG301"
+    },
+    {
+      "from": "EMP301",
+      "to": "ENG302"
+    },
+    {
+      "from": "EMP301",
+      "to": "ENG302c"
+    },
+    {
+      "from": "EMP301",
+      "to": "ENG303"
+    },
+    {
+      "from": "EMP301",
+      "to": "ENP102"
+    },
+    {
+      "from": "EMP301",
+      "to": "ENP203"
+    },
+    {
+      "from": "LTG301",
+      "to": "ENG302"
+    },
+    {
+      "from": "LTG301",
+      "to": "ENG302c"
+    },
+    {
+      "from": "LTG301",
+      "to": "ENG303"
+    },
+    {
+      "from": "LTG301",
+      "to": "ENP102"
+    },
+    {
+      "from": "LTG301",
+      "to": "ENP203"
+    }
+  ],
+  "names": {
+    "ENG302": "Advanced English Grammar_Ngữ pháp tiếng Anh nâng cao",
+    "ENG303": "Ngữ pháp tiếng Anh nâng cao",
+    "ENP102": "English phonetics and phonology in use_Thực hành ngữ âm và âm vị học tiếng Anh",
+    "EMP301": "Hình thái học tiếng Anh\nEnglish Morphology",
+    "LTG301": "Dẫn luận ngôn ngữ\nIntroduction to Linguistics",
+    "ENP203": "Ngữ âm và âm vị học tiếng Anh\nEnglish phonetics and phonology",
+    "ENG302c": "Advanced English Grammar_Ngữ pháp tiếng Anh nâng cao",
+    "ECL301": "Corpus Linguistics_Ngôn ngữ học ngữ liệu",
+    "LTG202": "Introduction to Linguistics_Dẫn luận ngôn ngữ"
+  }
+}

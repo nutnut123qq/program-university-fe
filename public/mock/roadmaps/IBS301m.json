@@ -1,0 +1,23 @@
+{
+  "code": "IBS301m",
+  "subjectName": "International Business Strategy_Chiến lược kinh doanh quốc tế",
+  "directPrereqs": [
+    "IBI101"
+  ],
+  "unlocks": [
+    "GRI491",
+    "GRP490"
+  ],
+  "edges": [
+    {
+      "from": "IBS301m",
+      "to": "IBI101"
+    }
+  ],
+  "names": {
+    "IBI101": "Introduction to International Business_Nhập môn kinh doanh quốc tế",
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "IBS301m": "International Business Strategy_Chiến lược kinh doanh quốc tế",
+    "GRI491": "Graduation Thesis - International Business_Khóa luận tốt nghiệp - Kinh doanh quốc tế"
+  }
+}

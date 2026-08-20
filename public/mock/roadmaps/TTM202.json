@@ -1,0 +1,41 @@
+{
+  "code": "TTM202",
+  "subjectName": "Quản trị điểm đến và Marketing_Destination Management and Marketing",
+  "directPrereqs": [
+    "TTG201",
+    "TTM201",
+    "HMO102"
+  ],
+  "unlocks": [
+    "GRP490",
+    "GRT491",
+    "TTD301"
+  ],
+  "edges": [
+    {
+      "from": "TTM202",
+      "to": "TTG201"
+    },
+    {
+      "from": "TTM202",
+      "to": "TTM201"
+    },
+    {
+      "from": "TTM202",
+      "to": "HMO102"
+    },
+    {
+      "from": "TTM201",
+      "to": "HMO102"
+    }
+  ],
+  "names": {
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "TTD301": "Tour design and development_Phát triển sản phẩm du lịch",
+    "HMO102": "Introduction to Tourism & Hospitality industry_Tổng quan ngành Du lịch & Khách sạn",
+    "GRT491": "Graduation Thesis-Travel and Tourism Management_Khóa luận tốt nghiệp QTDL&LH",
+    "TTM202": "Quản trị điểm đến và Marketing_Destination Management and Marketing",
+    "TTG201": "Tourism Geography_Địa lý du lịch",
+    "TTM201": "Tourism and Travel Management_Quản trị du lịch và lữ hành"
+  }
+}

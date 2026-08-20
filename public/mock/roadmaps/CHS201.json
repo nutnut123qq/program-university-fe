@@ -1,0 +1,33 @@
+{
+  "code": "CHS201",
+  "subjectName": "Chinese Speaking 3_Khẩu ngữ tiếng Trung 3",
+  "directPrereqs": [
+    "CHS121",
+    "CHS111"
+  ],
+  "unlocks": [
+    "CHS301",
+    "CHS401"
+  ],
+  "edges": [
+    {
+      "from": "CHS201",
+      "to": "CHS121"
+    },
+    {
+      "from": "CHS201",
+      "to": "CHS111"
+    },
+    {
+      "from": "CHS121",
+      "to": "CHS111"
+    }
+  ],
+  "names": {
+    "CHS121": "Chinese speaking 2_Khẩu ngữ tiếng Trung 2",
+    "CHS301": "Chinese Speaking 4_Khẩu ngữ tiếng Trung 4",
+    "CHS111": "Chinese speaking 1_Khẩu ngữ tiếng Trung 1",
+    "CHS401": "Chinese Speaking 5_Khẩu ngữ tiếng Trung 5",
+    "CHS201": "Chinese Speaking 3_Khẩu ngữ tiếng Trung 3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "code": "PRC391c",
+  "subjectName": "Cloud Computing_Điện toán đám mây",
+  "directPrereqs": [
+    "PRO192",
+    "PRF192"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "PRC391c",
+      "to": "PRO192"
+    },
+    {
+      "from": "PRC391c",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRC391c": "Cloud Computing_Điện toán đám mây",
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng"
+  }
+}

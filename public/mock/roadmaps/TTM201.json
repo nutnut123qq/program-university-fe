@@ -1,0 +1,31 @@
+{
+  "code": "TTM201",
+  "subjectName": "Tourism and Travel Management_Quản trị du lịch và lữ hành",
+  "directPrereqs": [
+    "HMO102"
+  ],
+  "unlocks": [
+    "GRP490",
+    "GRT491",
+    "TTD301",
+    "TTM202",
+    "TTM203",
+    "TTO301"
+  ],
+  "edges": [
+    {
+      "from": "TTM201",
+      "to": "HMO102"
+    }
+  ],
+  "names": {
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "TTD301": "Tour design and development_Phát triển sản phẩm du lịch",
+    "TTM201": "Tourism and Travel Management_Quản trị du lịch và lữ hành",
+    "HMO102": "Introduction to Tourism & Hospitality industry_Tổng quan ngành Du lịch & Khách sạn",
+    "GRT491": "Graduation Thesis-Travel and Tourism Management_Khóa luận tốt nghiệp QTDL&LH",
+    "TTO301": "Tour Operations Management_Quản trị điều hành tour",
+    "TTM203": "Consumer behavior in Tourism_Hành vi khách du lịch",
+    "TTM202": "Quản trị điểm đến và Marketing_Destination Management and Marketing"
+  }
+}

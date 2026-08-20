@@ -1,0 +1,83 @@
+{
+  "code": "EPC301",
+  "subjectName": "Persuasive Communication_Giao tiếp để thuyết phục",
+  "directPrereqs": [
+    "ERW411",
+    "SSC302",
+    "SSC302c",
+    "SSG103",
+    "SSG104",
+    "EAW221",
+    "ECR201",
+    "EAW211"
+  ],
+  "unlocks": [
+    "EOB301",
+    "ETP401",
+    "ETT301"
+  ],
+  "edges": [
+    {
+      "from": "EPC301",
+      "to": "ERW411"
+    },
+    {
+      "from": "EPC301",
+      "to": "SSC302"
+    },
+    {
+      "from": "EPC301",
+      "to": "SSC302c"
+    },
+    {
+      "from": "EPC301",
+      "to": "SSG103"
+    },
+    {
+      "from": "EPC301",
+      "to": "SSG104"
+    },
+    {
+      "from": "EPC301",
+      "to": "EAW221"
+    },
+    {
+      "from": "EPC301",
+      "to": "ECR201"
+    },
+    {
+      "from": "EPC301",
+      "to": "EAW211"
+    },
+    {
+      "from": "ERW411",
+      "to": "EAW221"
+    },
+    {
+      "from": "ERW411",
+      "to": "ECR201"
+    },
+    {
+      "from": "ERW411",
+      "to": "EAW211"
+    },
+    {
+      "from": "EAW221",
+      "to": "EAW211"
+    }
+  ],
+  "names": {
+    "ERW411": "Read Think Write 1_Kỹ năng tư duy Đọc - Viết 1",
+    "EAW211": "English Academic Writing 1_Tiếng Anh \bViết học thuật 1",
+    "SSC302c": "Advanced Presentation Skills_Kỹ năng thuyết trình nâng cao",
+    "EOB301": "Outcome-based Course Design in English Language Teaching_Thiết kế khoá học theo chuẩn đầu ra trong giảng dạy ngôn ngữ Anh",
+    "ETP401": "Language Teaching Practice_Thực hành giảng dạy ngôn ngữ",
+    "EPC301": "Persuasive Communication_Giao tiếp để thuyết phục",
+    "SSC302": "",
+    "ETT301": "Understanding Language Testing_Phương pháp đánh giá năng lực ngôn ngữ",
+    "ECR201": "Critical Reading_Đọc Hiểu",
+    "SSG103": "Communication and In-Group Working Skills_Kỹ năng giao tiếp và cộng tác",
+    "EAW221": "English Academic Writing 2_Tiếng Anh Viết học thuật 2",
+    "SSG104": "Communication and In-Group Working Skills_Kỹ năng giao tiếp và cộng tác"
+  }
+}

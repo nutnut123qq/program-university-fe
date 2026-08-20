@@ -1,0 +1,76 @@
+{
+  "code": "SWR302",
+  "subjectName": "Software Requirement_Yêu cầu phần mềm",
+  "directPrereqs": [
+    "SWE102",
+    "SWE201",
+    "SWE201c",
+    "SWE202c",
+    "PRO192",
+    "PRF192"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "SWR302",
+      "to": "SWE102"
+    },
+    {
+      "from": "SWR302",
+      "to": "SWE201"
+    },
+    {
+      "from": "SWR302",
+      "to": "SWE201c"
+    },
+    {
+      "from": "SWR302",
+      "to": "SWE202c"
+    },
+    {
+      "from": "SWR302",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWR302",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWE102",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE102",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWE202c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE202c",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "SWR302": "Software Requirement_Yêu cầu phần mềm",
+    "SWE102": "Introduction to Software Engineering",
+    "SWE201": "",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "SWE202c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+    "SWE201c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm"
+  }
+}

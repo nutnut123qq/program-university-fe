@@ -1,0 +1,18 @@
+{
+  "code": "NWC303",
+  "subjectName": "Network Connectivity_Kết nối mạng",
+  "directPrereqs": [
+    "NWC204"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "NWC303",
+      "to": "NWC204"
+    }
+  ],
+  "names": {
+    "NWC303": "Network Connectivity_Kết nối mạng",
+    "NWC204": "Computer Networking_Mạng máy tính"
+  }
+}

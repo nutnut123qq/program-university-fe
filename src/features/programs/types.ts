@@ -89,4 +89,109 @@ export interface ProgramFilters {
     universityId: string
     universityType: "all" | "public" | "private"
     sortBy: "newest" | "name" | "credits"
+    cohort?: string
+}
+
+export interface SyllabusInfo {
+    sylid: number
+    subjectCode: string
+    syllabusName: string
+    syllabusEnglish?: string | null
+    credits: string | number
+    degreeLevel?: string | null
+    timeAllocation?: string | null
+    prerequisite?: string | null
+    description?: string | null
+    studentTasks?: string | null
+    tools?: string | null
+    scoringScale?: string | null
+    decisionNo?: string | null
+    isApproved?: number | boolean | null
+    note?: string | null
+    minAvgToPass?: string | number | null
+    isActive?: number | boolean | null
+    approvedDate?: string | null
+}
+
+export interface SyllabusClo {
+    id: number
+    sylid?: number
+    loSeq?: string | number
+    cloName: string
+    loDetails: string
+}
+
+export interface SyllabusAssessment {
+    id: number
+    sylid?: number
+    category: string
+    type: string
+    part?: string | null
+    weight: string
+    completionCriteria: string
+    duration?: string | null
+    questionType?: string | null
+    knowledgeSkill?: string | null
+    gradinGuide?: string | null
+}
+
+export interface SyllabusSession {
+    id: number
+    sylid?: number
+    sessionNo: string | number
+    topic: string
+    learningTeachingType: string
+    studentMaterials?: string | null
+    studentTasks?: string | null
+    urls?: string | null
+}
+
+export interface SyllabusMaterial {
+    id: number
+    sylid?: number
+    materialDescription: string
+    author?: string | null
+    publisher?: string | null
+    isbn?: string | null
+    url?: string | null
+}
+
+export interface SyllabusDetail {
+    info: SyllabusInfo
+    clos: SyllabusClo[]
+    assessments: SyllabusAssessment[]
+    sessions: SyllabusSession[]
+    materials: SyllabusMaterial[]
+    files?: unknown[]
+}
+
+export interface SubjectRoadmap {
+    code: string
+    subjectName?: string
+    directPrereqs: string[]
+    unlocks: string[]
+    edges: [string, string][]
+    names: Record<string, string>
+}
+
+export interface SubjectMaterialItem {
+    id: number
+    materialDescription: string
+    author?: string | null
+    publisher?: string | null
+    isbn?: string | null
+    url?: string | null
+    isUrl?: boolean
+    isCoursera?: boolean
+}
+
+export interface SubjectMaterialSummary {
+    subjectCode: string
+    subjectName: string
+    subjectEnglish?: string | null
+    credits: string | number
+    decisionNo?: string | null
+    hasCoursera: boolean
+    materialsCount: number
+    materials: SubjectMaterialItem[]
 }

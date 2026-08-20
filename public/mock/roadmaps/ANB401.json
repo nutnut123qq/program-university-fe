@@ -1,0 +1,71 @@
+{
+  "code": "ANB401",
+  "subjectName": "Background Painting for Animation _ Thiết kế phông nền hoạt hình",
+  "directPrereqs": [
+    "ANS301",
+    "ANC301",
+    "ANC302",
+    "IPD201",
+    "DRP101"
+  ],
+  "unlocks": [
+    "2DP491",
+    "GDP492"
+  ],
+  "edges": [
+    {
+      "from": "ANB401",
+      "to": "ANS301"
+    },
+    {
+      "from": "ANB401",
+      "to": "ANC301"
+    },
+    {
+      "from": "ANB401",
+      "to": "ANC302"
+    },
+    {
+      "from": "ANB401",
+      "to": "IPD201"
+    },
+    {
+      "from": "ANB401",
+      "to": "DRP101"
+    },
+    {
+      "from": "ANS301",
+      "to": "ANC301"
+    },
+    {
+      "from": "ANS301",
+      "to": "ANC302"
+    },
+    {
+      "from": "ANS301",
+      "to": "IPD201"
+    },
+    {
+      "from": "ANS301",
+      "to": "DRP101"
+    },
+    {
+      "from": "ANC301",
+      "to": "IPD201"
+    },
+    {
+      "from": "ANC302",
+      "to": "DRP101"
+    }
+  ],
+  "names": {
+    "ANB401": "Background Painting for Animation _ Thiết kế phông nền hoạt hình",
+    "ANC301": "Character Development_Tạo hình nhân vật hoạt hình",
+    "DRP101": "Drawing plaster stature - portrait_Hình họa - Vẽ đầu tượng, chân dung",
+    "2DP491": "Digital project 2D_Dự án kỹ thuật số 2D",
+    "ANC302": "Character Design_Thiết kế nhân vật",
+    "IPD201": "Icon & Pattern design_Thiết kế mẫu và biểu tượng",
+    "GDP492": "Capstone Project Graphic Design - Animation _ Đồ án tốt nghiệp ngành thiết kế mỹ thuật số - Hoạt hình",
+    "ANS301": "Storyboarding_Thiết kế kịch bản phân cảnh hình ảnh"
+  }
+}

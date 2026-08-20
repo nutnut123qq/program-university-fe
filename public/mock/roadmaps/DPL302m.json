@@ -1,0 +1,85 @@
+{
+  "code": "DPL302m",
+  "subjectName": "Deep Learning_Học sâu",
+  "directPrereqs": [
+    "AIL303m",
+    "MAI391",
+    "MAS291",
+    "PFP191",
+    "MAE101",
+    "MAC101"
+  ],
+  "unlocks": [
+    "DAT301m",
+    "REL301m"
+  ],
+  "edges": [
+    {
+      "from": "DPL302m",
+      "to": "AIL303m"
+    },
+    {
+      "from": "DPL302m",
+      "to": "MAI391"
+    },
+    {
+      "from": "DPL302m",
+      "to": "MAS291"
+    },
+    {
+      "from": "DPL302m",
+      "to": "PFP191"
+    },
+    {
+      "from": "DPL302m",
+      "to": "MAE101"
+    },
+    {
+      "from": "DPL302m",
+      "to": "MAC101"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAI391"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAS291"
+    },
+    {
+      "from": "AIL303m",
+      "to": "PFP191"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAE101"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAC101"
+    },
+    {
+      "from": "MAI391",
+      "to": "MAE101"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAC101"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAE101"
+    }
+  ],
+  "names": {
+    "PFP191": "Programming Fundamentals with Python_Cơ sở lập trình với Python",
+    "DPL302m": "Deep Learning_Học sâu",
+    "MAI391": "Mathematics for Machine Learning_Toán cho học máy",
+    "REL301m": "Reinforcement Learning_Học tăng cường",
+    "MAC101": "Advanced Mathematics 1",
+    "MAE101": "Mathematics for Engineering_Toán cho ngành kỹ thuật",
+    "AIL303m": "Machine Learning_Học máy",
+    "DAT301m": "AI Development with TensorFlow_Phát triển UDTTNT với TensorFlow",
+    "MAS291": "Statistics & Probability_Xác suất thống kê"
+  }
+}

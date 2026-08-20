@@ -15,8 +15,24 @@ interface ProgramCardProps {
     onViewDetail?: (program: Program) => void
 }
 
+function extractCohorts(code?: string | null, name?: string | null): string[] {
+    const text = `${code || ""} ${name || ""}`
+    const matches = text.match(/\bK\d{2}[A-D]?\b/gi)
+    if (!matches) return []
+    return Array.from(new Set(matches.map((m) => m.toUpperCase())))
+}
+
+function extractSpecialization(name?: string | null): string | null {
+    if (!name) return null
+    const m = name.match(/chuy[êe]n\s+ng[àa]nh\s+([^(_,\n]+)/i)
+    if (m) return m[1].trim()
+    return null
+}
+
 export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) {
     const t = useTranslations("programs")
+    const cohorts = extractCohorts(program.code, program.name)
+    const specialization = extractSpecialization(program.name)
 
     return (
         <motion.div
@@ -27,11 +43,28 @@ export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) 
             <Card className="group h-full overflow-hidden border bg-card hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1">
                 <CardHeader className="pb-3 min-w-0">
                     <div className="flex items-start justify-between gap-3 min-w-0">
-                        <div className="flex-1 min-w-0">
+                        <div className="flex-1 min-w-0 space-y-1">
+                            <div className="flex flex-wrap items-center gap-1.5">
+                                {program.code && (
+                                    <span className="font-mono text-[10px] px-1.5 py-0.5 rounded bg-muted text-muted-foreground font-semibold">
+                                        {program.code}
+                                    </span>
+                                )}
+                                {cohorts.map((c) => (
+                                    <Badge key={c} className="font-mono text-[10px] px-1.5 py-0 bg-primary/10 text-primary border-primary/20 hover:bg-primary/20">
+                                        Khóa {c}
+                                    </Badge>
+                                ))}
+                                {specialization && (
+                                    <span className="text-[10px] font-medium text-indigo-600 dark:text-indigo-400 bg-indigo-500/10 px-1.5 py-0.5 rounded">
+                                        {specialization}
+                                    </span>
+                                )}
+                            </div>
                             <h3 className="font-semibold text-lg leading-tight line-clamp-2 group-hover:text-primary transition-colors">
                                 {program.name}
                             </h3>
-                            <div className="flex items-center gap-2 mt-2 text-sm text-muted-foreground">
+                            <div className="flex items-center gap-2 text-sm text-muted-foreground">
                                 <Building2 className="h-3.5 w-3.5 shrink-0" />
                                 <span className="truncate">{program.universityName}</span>
                             </div>

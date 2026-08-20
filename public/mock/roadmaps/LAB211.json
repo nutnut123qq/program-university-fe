@@ -1,0 +1,41 @@
+{
+  "code": "LAB211",
+  "subjectName": "OOP with Java Lab_Thực hành OOP với Java",
+  "directPrereqs": [
+    "PRO192",
+    "PRF192"
+  ],
+  "unlocks": [
+    "ISP392",
+    "ISP490",
+    "SAP490",
+    "SEP490",
+    "SET490",
+    "SWP391"
+  ],
+  "edges": [
+    {
+      "from": "LAB211",
+      "to": "PRO192"
+    },
+    {
+      "from": "LAB211",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "SEP490": "SE Capstone Project_Đồ án tốt nghiệp KTPM",
+    "LAB211": "OOP with Java Lab_Thực hành OOP với Java",
+    "ISP490": "IS Capstone Project_Đồ án tốt nghiệp hệ thống thông tin",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "SAP490": "SAP Interdisciplinary Capstone Project_Đồ án liên ngành SAP",
+    "ISP392": "Information System Programming Project_Dự án lập trình HTTT",
+    "SET490": "SE Graduation Thesis_Khóa luận tốt nghiệp Kỹ thuật phần mềm",
+    "SWP391": "Software development project_Dự án phát triển phần mềm"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "code": "LOS201",
+  "subjectName": "Linux và Mã nguồn mở_Linux and Open Source Platform",
+  "directPrereqs": [
+    "OSG202"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "LOS201",
+      "to": "OSG202"
+    }
+  ],
+  "names": {
+    "OSG202": "Operating Systems_Hệ điều hành",
+    "LOS201": "Linux và Mã nguồn mở_Linux and Open Source Platform"
+  }
+}

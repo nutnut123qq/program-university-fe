@@ -1,0 +1,78 @@
+{
+  "code": "IOP490",
+  "subjectName": "IoT Capstone Project_Đồ án tốt nghiệp IoT",
+  "directPrereqs": [
+    "OJT202",
+    "PMG201",
+    "PMG201c",
+    "PMG202c",
+    "JPD133",
+    "JPD123",
+    "JPD113"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "IOP490",
+      "to": "OJT202"
+    },
+    {
+      "from": "IOP490",
+      "to": "PMG201"
+    },
+    {
+      "from": "IOP490",
+      "to": "PMG201c"
+    },
+    {
+      "from": "IOP490",
+      "to": "PMG202c"
+    },
+    {
+      "from": "IOP490",
+      "to": "JPD133"
+    },
+    {
+      "from": "IOP490",
+      "to": "JPD123"
+    },
+    {
+      "from": "IOP490",
+      "to": "JPD113"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD133"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD123"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD133",
+      "to": "JPD123"
+    },
+    {
+      "from": "JPD133",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD123",
+      "to": "JPD113"
+    }
+  ],
+  "names": {
+    "PMG202c": "Project management_Quản trị dự án",
+    "IOP490": "IoT Capstone Project_Đồ án tốt nghiệp IoT",
+    "OJT202": "On-The-Job Training_Đào tạo trong môi trường thực tế",
+    "JPD123": "Elementary Japanese 1-A1.2_Tiếng Nhật sơ cấp 1-A1.2",
+    "PMG201": "",
+    "JPD133": "Elementary Japanese  1-A1/A2_Tiếng Nhật sơ cấp 1-A1/A2",
+    "PMG201c": "Project Management",
+    "JPD113": "Elementary Japanese 1- A1.1_Tiếng Nhật sơ cấp 1-A1.1"
+  }
+}

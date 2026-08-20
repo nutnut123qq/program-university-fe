@@ -1,0 +1,21 @@
+{
+  "code": "DTG121",
+  "subjectName": "Visual Design Tools 2_Công cụ thiết kế trực quan 2",
+  "directPrereqs": [
+    "DTG111"
+  ],
+  "unlocks": [
+    "GRA497"
+  ],
+  "edges": [
+    {
+      "from": "DTG121",
+      "to": "DTG111"
+    }
+  ],
+  "names": {
+    "DTG111": "Visual Design Tools 1_Công cụ thiết kế trực quan 1",
+    "GRA497": "Capstone Project Multimedia Communications_Đồ án tốt nghiệp_Truyền thông đa phương tiện",
+    "DTG121": "Visual Design Tools 2_Công cụ thiết kế trực quan 2"
+  }
+}

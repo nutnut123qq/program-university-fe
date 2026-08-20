@@ -1,0 +1,35 @@
+{
+  "code": "FIN402",
+  "subjectName": "Derivatives_Công cụ phái sinh",
+  "directPrereqs": [
+    "FIN202",
+    "ACC101"
+  ],
+  "unlocks": [
+    "FIN406",
+    "GRF491",
+    "GRP490"
+  ],
+  "edges": [
+    {
+      "from": "FIN402",
+      "to": "FIN202"
+    },
+    {
+      "from": "FIN402",
+      "to": "ACC101"
+    },
+    {
+      "from": "FIN202",
+      "to": "ACC101"
+    }
+  ],
+  "names": {
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "GRF491": "Graduation Thesis - Finance_Khóa luận tốt nghiệp -Tài chính",
+    "FIN202": "Principles of Corporate Finance_Tài chính doanh nghiệp",
+    "FIN402": "Derivatives_Công cụ phái sinh",
+    "FIN406": "Financial Risk Management_Quản trị rủi ro tài chính",
+    "ACC101": "Principles of Accounting_Nguyên lý kế toán"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "code": "CEA201",
+  "subjectName": "Computer Organization and Architecture_Tổ chức và Kiến trúc máy tính",
+  "directPrereqs": [],
+  "unlocks": [
+    "DIC201",
+    "FAP201",
+    "ICI211"
+  ],
+  "edges": [],
+  "names": {
+    "DIC201": "Kỹ thuật số_Digital Circuits",
+    "ICI211": "IC Design Introduction_Nhập môn Thiết Kế Vi Mạch",
+    "FAP201": "FPGA Programming_Lập trình FPGA",
+    "CEA201": "Computer Organization and Architecture_Tổ chức và Kiến trúc máy tính"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "code": "EAW222",
+  "subjectName": "Viết tiếng Anh học thuật 2\nAcademic English Writing 2",
+  "directPrereqs": [
+    "EAW211"
+  ],
+  "unlocks": [
+    "ELP491",
+    "ELT492",
+    "ENB302"
+  ],
+  "edges": [
+    {
+      "from": "EAW222",
+      "to": "EAW211"
+    }
+  ],
+  "names": {
+    "EAW211": "English Academic Writing 1_Tiếng Anh \bViết học thuật 1",
+    "EAW222": "Viết tiếng Anh học thuật 2\nAcademic English Writing 2",
+    "ELT492": "Graduation Thesis - English Studies_Khóa luận tốt nghiệp",
+    "ENB302": "Viết tiếng Anh trong kinh doanh\nBusiness English Writing",
+    "ELP491": "Graduation Project – English Studies_Đồ án tốt nghiệp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "code": "MAC102",
+  "subjectName": "Advanced Mathematics for Business",
+  "directPrereqs": [
+    "MAC101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "MAC102",
+      "to": "MAC101"
+    }
+  ],
+  "names": {
+    "MAC102": "Advanced Mathematics for Business",
+    "MAC101": "Advanced Mathematics 1"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "code": "DIC201",
+  "subjectName": "Kỹ thuật số_Digital Circuits",
+  "directPrereqs": [
+    "CEA201",
+    "EEI101"
+  ],
+  "unlocks": [
+    "FAP201",
+    "ICI211"
+  ],
+  "edges": [
+    {
+      "from": "DIC201",
+      "to": "CEA201"
+    },
+    {
+      "from": "DIC201",
+      "to": "EEI101"
+    }
+  ],
+  "names": {
+    "ICI211": "IC Design Introduction_Nhập môn Thiết Kế Vi Mạch",
+    "EEI101": "Nhập môn kỹ thuật điện-điện tử_Introduction to Electrical-Electronics Engineering",
+    "FAP201": "FPGA Programming_Lập trình FPGA",
+    "DIC201": "Kỹ thuật số_Digital Circuits",
+    "CEA201": "Computer Organization and Architecture_Tổ chức và Kiến trúc máy tính"
+  }
+}

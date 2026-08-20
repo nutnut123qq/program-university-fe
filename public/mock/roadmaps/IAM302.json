@@ -1,0 +1,53 @@
+{
+  "code": "IAM302",
+  "subjectName": "Malware Analysis and Reverse Engineering_Phân tích mã độc và kỹ thuật dịch ngược",
+  "directPrereqs": [
+    "ITE302",
+    "ITE302c",
+    "ITE303",
+    "PRO192",
+    "PRF192"
+  ],
+  "unlocks": [
+    "IAP491",
+    "IAP491t",
+    "IAT491"
+  ],
+  "edges": [
+    {
+      "from": "IAM302",
+      "to": "ITE302"
+    },
+    {
+      "from": "IAM302",
+      "to": "ITE302c"
+    },
+    {
+      "from": "IAM302",
+      "to": "ITE303"
+    },
+    {
+      "from": "IAM302",
+      "to": "PRO192"
+    },
+    {
+      "from": "IAM302",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "IAP491t": "IA Graduation Project_Đồ án tốt nghiệp ATTT",
+    "IAM302": "Malware Analysis and Reverse Engineering_Phân tích mã độc và kỹ thuật dịch ngược",
+    "ITE302c": "Ethics in IT_Đạo đức trong CNTT",
+    "IAP491": "IA Graduation Project_Đồ án tốt nghiệp ATTT",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "ITE303": "Cyber Law and IT Ethics",
+    "ITE302": "Ethics in Information technology",
+    "IAT491": "Graduate Project"
+  }
+}

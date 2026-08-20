@@ -1,0 +1,27 @@
+{
+  "code": "ADY201m",
+  "subjectName": "AI, DS with Python & SQL_TTNT và KHDL với\nPython và SQL",
+  "directPrereqs": [
+    "DBI202",
+    "PFP191"
+  ],
+  "unlocks": [
+    "DAP391m"
+  ],
+  "edges": [
+    {
+      "from": "ADY201m",
+      "to": "DBI202"
+    },
+    {
+      "from": "ADY201m",
+      "to": "PFP191"
+    }
+  ],
+  "names": {
+    "PFP191": "Programming Fundamentals with Python_Cơ sở lập trình với Python",
+    "ADY201m": "AI, DS with Python & SQL_TTNT và KHDL với\nPython và SQL",
+    "DBI202": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+    "DAP391m": "AI-DS Project_Dự án TTNT-KHDL"
+  }
+}

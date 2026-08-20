@@ -1,32 +1,38 @@
 [
   {
     "id": "9762352d-0ff7-4cf0-a755-e9e62d58ae8f",
-    "programId": "570245aa-d8e0-4b35-98d9-537b30e78678",
-    "courseCode": "CS101",
+    "year": null,
     "courseName": "Eng & Science",
+    "courseCode": "CS101",
     "credits": 3,
-    "semester": 1,
-    "knowledgeBlock": "Kiến thức chuyên ngành",
     "mandatory": true,
-    "prerequisites": null,
+    "semester": 1,
     "hoursTheory": null,
     "hoursPractice": null,
     "description": "Khối kiến thức General educational | Trang 7",
-    "prerequisiteCourseIds": []
+    "prerequisites": null,
+    "createdAt": "2026-06-20T02:00:08.108048+07:00",
+    "updatedAt": "2026-06-29T00:00:36.662118+07:00",
+    "knowledgeBlock": "Kiến thức chuyên ngành",
+    "programId": "570245aa-d8e0-4b35-98d9-537b30e78678",
+    "programName": null
   },
   {
     "id": "ae0d5a16-460b-4542-8008-d49ce3f83c97",
-    "programId": "570245aa-d8e0-4b35-98d9-537b30e78678",
-    "courseCode": "CHEM499",
+    "year": null,
     "courseName": "Senior Thesis",
+    "courseCode": "CHEM499",
     "credits": 6,
-    "semester": 5,
-    "knowledgeBlock": "Kiến thức chuyên ngành",
     "mandatory": true,
-    "prerequisites": null,
+    "semester": 5,
     "hoursTheory": 10,
     "hoursPractice": null,
     "description": "Khối kiến thức chung Khối kiến thức ngành / Chemical courses | Trang 10",
-    "prerequisiteCourseIds": []
+    "prerequisites": null,
+    "createdAt": "2026-06-20T02:00:08.108068+07:00",
+    "updatedAt": "2026-06-29T00:00:36.662118+07:00",
+    "knowledgeBlock": "Kiến thức chuyên ngành",
+    "programId": "570245aa-d8e0-4b35-98d9-537b30e78678",
+    "programName": null
   }
 ]

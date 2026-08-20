@@ -1,0 +1,63 @@
+{
+  "code": "ADT401",
+  "subjectName": "Mobility Applications Design 2 _ Thiết kế ứng dụng cho các thiết bị di động 2",
+  "directPrereqs": [
+    "ADH301",
+    "WDU201",
+    "WDU202",
+    "WDU202c",
+    "WMT201"
+  ],
+  "unlocks": [
+    "GDP491",
+    "GDP493"
+  ],
+  "edges": [
+    {
+      "from": "ADT401",
+      "to": "ADH301"
+    },
+    {
+      "from": "ADT401",
+      "to": "WDU201"
+    },
+    {
+      "from": "ADT401",
+      "to": "WDU202"
+    },
+    {
+      "from": "ADT401",
+      "to": "WDU202c"
+    },
+    {
+      "from": "ADT401",
+      "to": "WMT201"
+    },
+    {
+      "from": "ADH301",
+      "to": "WDU201"
+    },
+    {
+      "from": "ADH301",
+      "to": "WDU202"
+    },
+    {
+      "from": "ADH301",
+      "to": "WDU202c"
+    },
+    {
+      "from": "ADH301",
+      "to": "WMT201"
+    }
+  ],
+  "names": {
+    "WDU202c": "UI/UX Design",
+    "GDP493": "Capstone Project Graphic Design - Interaction Design_ Đồ án tốt nghiệp ngành thiết kế mỹ thuật số - Thiết kế tương tác",
+    "WMT201": "Web and Mobility Technology",
+    "WDU201": "Principles of UX",
+    "ADH301": "Mobility Applications Design 1 _Thiết kế ứng dụng cho các thiết bị di động 1",
+    "WDU202": "",
+    "ADT401": "Mobility Applications Design 2 _ Thiết kế ứng dụng cho các thiết bị di động 2",
+    "GDP491": "Capstone Project Graphic Design_Đồ án tốt nghiệp Thiết kế mỹ thuật số"
+  }
+}

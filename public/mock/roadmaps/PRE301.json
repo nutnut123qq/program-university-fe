@@ -1,0 +1,21 @@
+{
+  "code": "PRE301",
+  "subjectName": "Public Relations principles and strategies_Chiến lược quan hệ công chúng",
+  "directPrereqs": [
+    "CCO201"
+  ],
+  "unlocks": [
+    "GRA497"
+  ],
+  "edges": [
+    {
+      "from": "PRE301",
+      "to": "CCO201"
+    }
+  ],
+  "names": {
+    "GRA497": "Capstone Project Multimedia Communications_Đồ án tốt nghiệp_Truyền thông đa phương tiện",
+    "PRE301": "Public Relations principles and strategies_Chiến lược quan hệ công chúng",
+    "CCO201": "Corporate Communication_Truyền thông doanh nghiệp"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "code": "DMA301m",
+  "subjectName": "Digital Marketing Analytics_Phân tích marketing số",
+  "directPrereqs": [
+    "DMS301m",
+    "MKT318",
+    "MKT318m",
+    "MKG101",
+    "MKT101",
+    "MMK101"
+  ],
+  "unlocks": [
+    "GRA497",
+    "GRM491",
+    "GRP490"
+  ],
+  "edges": [
+    {
+      "from": "DMA301m",
+      "to": "DMS301m"
+    },
+    {
+      "from": "DMA301m",
+      "to": "MKT318"
+    },
+    {
+      "from": "DMA301m",
+      "to": "MKT318m"
+    },
+    {
+      "from": "DMA301m",
+      "to": "MKG101"
+    },
+    {
+      "from": "DMA301m",
+      "to": "MKT101"
+    },
+    {
+      "from": "DMA301m",
+      "to": "MMK101"
+    },
+    {
+      "from": "DMS301m",
+      "to": "MKG101"
+    },
+    {
+      "from": "DMS301m",
+      "to": "MKT101"
+    },
+    {
+      "from": "DMS301m",
+      "to": "MMK101"
+    },
+    {
+      "from": "MKT318m",
+      "to": "MKT101"
+    }
+  ],
+  "names": {
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "GRA497": "Capstone Project Multimedia Communications_Đồ án tốt nghiệp_Truyền thông đa phương tiện",
+    "MKT101": "Marketing Principles_Nguyên lý Marketing",
+    "GRM491": "Graduation Thesis - Marketing_Khóa luận tốt nghiệp - Marketing",
+    "DMA301m": "Digital Marketing Analytics_Phân tích marketing số",
+    "MMK101": "Management and Marketing_Nhập môn Quản trị và Marketing",
+    "DMS301m": "Digital Marketing Strategy_Chiến lược marketing số",
+    "MKT318m": "Digital Marketing 1_Marketing số 1",
+    "MKG101": "Management and Marketing Principles_Nguyên lý Quản trị và Marketing",
+    "MKT318": "Digital marketing 1"
+  }
+}

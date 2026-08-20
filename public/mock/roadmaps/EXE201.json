@@ -1,0 +1,31 @@
+{
+  "code": "EXE201",
+  "subjectName": "Experiential Entrepreneurship 2_Trải nghiệm khởi nghiệp 2",
+  "directPrereqs": [
+    "EXE101"
+  ],
+  "unlocks": [
+    "EXE401",
+    "EXE402",
+    "GDP492",
+    "GDP493",
+    "GDP494",
+    "GDP495"
+  ],
+  "edges": [
+    {
+      "from": "EXE201",
+      "to": "EXE101"
+    }
+  ],
+  "names": {
+    "GDP494": "Capstone Project Graphic Design - Communication Design_ Đồ án tốt nghiệp ngành thiết kế mỹ thuật số - Thiết kế truyền thông",
+    "EXE201": "Experiential Entrepreneurship 2_Trải nghiệm khởi nghiệp 2",
+    "EXE402": "Graduation Thesis On A Startup Project_Dự án khởi nghiệp tốt nghiệp",
+    "EXE401": "Graduation Thesis Startup Project_Dự án khởi nghiệp tốt nghiệp",
+    "GDP493": "Capstone Project Graphic Design - Interaction Design_ Đồ án tốt nghiệp ngành thiết kế mỹ thuật số - Thiết kế tương tác",
+    "GDP492": "Capstone Project Graphic Design - Animation _ Đồ án tốt nghiệp ngành thiết kế mỹ thuật số - Hoạt hình",
+    "EXE101": "Experiential Entrepreneurship 1_Trải nghiệm khởi nghiệp 1",
+    "GDP495": "Capstone Project Graphic Design - Multimedia Communication Design _  Đồ án tốt nghiệp ngành Thiết kế mỹ thuật số - Thiết kế truyền thông đa phương tiện"
+  }
+}

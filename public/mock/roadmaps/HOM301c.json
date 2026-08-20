@@ -1,0 +1,29 @@
+{
+  "code": "HOM301c",
+  "subjectName": "Hotel Revenue Management_Quản trị doanh thu khách sạn",
+  "directPrereqs": [
+    "HMO101",
+    "HMO102"
+  ],
+  "unlocks": [
+    "GRH491",
+    "GRP490"
+  ],
+  "edges": [
+    {
+      "from": "HOM301c",
+      "to": "HMO101"
+    },
+    {
+      "from": "HOM301c",
+      "to": "HMO102"
+    }
+  ],
+  "names": {
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "HMO102": "Introduction to Tourism & Hospitality industry_Tổng quan ngành Du lịch & Khách sạn",
+    "HMO101": "Introduction to Hospitality Management",
+    "HOM301c": "Hotel Revenue Management_Quản trị doanh thu khách sạn",
+    "GRH491": "Graduation Thesis - Hotel management_Khóa luận tốt nghiệp QTKS"
+  }
+}

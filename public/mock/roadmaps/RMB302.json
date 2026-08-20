@@ -1,0 +1,23 @@
+{
+  "code": "RMB302",
+  "subjectName": "Research Methods & Quantitative Analysis_Phương pháp nghiên cứu và phân tích định lượng",
+  "directPrereqs": [
+    "MAS202"
+  ],
+  "unlocks": [
+    "GRF491",
+    "GRP490"
+  ],
+  "edges": [
+    {
+      "from": "RMB302",
+      "to": "MAS202"
+    }
+  ],
+  "names": {
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "GRF491": "Graduation Thesis - Finance_Khóa luận tốt nghiệp -Tài chính",
+    "RMB302": "Research Methods & Quantitative Analysis_Phương pháp nghiên cứu và phân tích định lượng",
+    "MAS202": "Applied Statistics for Business_Thống kê ứng dụng trong kinh doanh"
+  }
+}

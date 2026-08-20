@@ -1,0 +1,38 @@
+{
+  "code": "FAP201",
+  "subjectName": "FPGA Programming_Lập trình FPGA",
+  "directPrereqs": [
+    "DIC201",
+    "CEA201",
+    "EEI101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "FAP201",
+      "to": "DIC201"
+    },
+    {
+      "from": "FAP201",
+      "to": "CEA201"
+    },
+    {
+      "from": "FAP201",
+      "to": "EEI101"
+    },
+    {
+      "from": "DIC201",
+      "to": "CEA201"
+    },
+    {
+      "from": "DIC201",
+      "to": "EEI101"
+    }
+  ],
+  "names": {
+    "DIC201": "Kỹ thuật số_Digital Circuits",
+    "CEA201": "Computer Organization and Architecture_Tổ chức và Kiến trúc máy tính",
+    "EEI101": "Nhập môn kỹ thuật điện-điện tử_Introduction to Electrical-Electronics Engineering",
+    "FAP201": "FPGA Programming_Lập trình FPGA"
+  }
+}

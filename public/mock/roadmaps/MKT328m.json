@@ -1,0 +1,41 @@
+{
+  "code": "MKT328m",
+  "subjectName": "Digital Marketing 2_Marketing số 2",
+  "directPrereqs": [
+    "MKT318",
+    "MKT318m",
+    "MKT101"
+  ],
+  "unlocks": [
+    "GRA497",
+    "GRM491",
+    "GRP490"
+  ],
+  "edges": [
+    {
+      "from": "MKT328m",
+      "to": "MKT318"
+    },
+    {
+      "from": "MKT328m",
+      "to": "MKT318m"
+    },
+    {
+      "from": "MKT328m",
+      "to": "MKT101"
+    },
+    {
+      "from": "MKT318m",
+      "to": "MKT101"
+    }
+  ],
+  "names": {
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "GRA497": "Capstone Project Multimedia Communications_Đồ án tốt nghiệp_Truyền thông đa phương tiện",
+    "GRM491": "Graduation Thesis - Marketing_Khóa luận tốt nghiệp - Marketing",
+    "MKT101": "Marketing Principles_Nguyên lý Marketing",
+    "MKT318m": "Digital Marketing 1_Marketing số 1",
+    "MKT318": "Digital marketing 1",
+    "MKT328m": "Digital Marketing 2_Marketing số 2"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "code": "CSD201",
+  "subjectName": "Data Structures and Algorithms_Cấu trúc dữ liệu và giải thuật",
+  "directPrereqs": [
+    "PRO192",
+    "PRF192"
+  ],
+  "unlocks": [
+    "AIT301",
+    "DMS401",
+    "DTA301"
+  ],
+  "edges": [
+    {
+      "from": "CSD201",
+      "to": "PRO192"
+    },
+    {
+      "from": "CSD201",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "AIT301": "Artificial Intelligence with TensorFlow_TTNT với TensorFlow",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "DTA301": "Data Analysis_Phân tích dữ liệu",
+    "DMS401": "Applied Data Mining for Information Assurance_Ứng dụng khai phá dữ liệu trong an toàn thông tin",
+    "CSD201": "Data Structures and Algorithms_Cấu trúc dữ liệu và giải thuật"
+  }
+}

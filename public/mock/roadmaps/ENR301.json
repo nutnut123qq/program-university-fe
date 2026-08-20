@@ -1,0 +1,83 @@
+{
+  "code": "ENR301",
+  "subjectName": "Skillfull 3 - Reading 3",
+  "directPrereqs": [
+    "ENR201",
+    "ENS212",
+    "ENS222",
+    "ENR101"
+  ],
+  "unlocks": [
+    "EIP401",
+    "EIT401",
+    "EIT491",
+    "ELP491",
+    "ELT301",
+    "ELT302",
+    "ELT401",
+    "ELT402",
+    "ELT492",
+    "ENB101",
+    "ENI511",
+    "ENI521",
+    "ENR401",
+    "ENR501",
+    "ENW501",
+    "EPS301",
+    "ETL101",
+    "ETM101",
+    "ETS401",
+    "ETT301",
+    "eat201"
+  ],
+  "edges": [
+    {
+      "from": "ENR301",
+      "to": "ENR201"
+    },
+    {
+      "from": "ENR301",
+      "to": "ENS212"
+    },
+    {
+      "from": "ENR301",
+      "to": "ENS222"
+    },
+    {
+      "from": "ENR301",
+      "to": "ENR101"
+    },
+    {
+      "from": "ENR201",
+      "to": "ENR101"
+    }
+  ],
+  "names": {
+    "ENB101": "Business writing",
+    "ENI521": "Listening Speaking 5 (Part 2/2)",
+    "ELT302": "Biên dịch tiếng Anh 1\nEnglish Translation 1",
+    "ENR301": "Skillfull 3 - Reading 3",
+    "eat201": "Đánh giá và kiểm tra - Assessment and Testing",
+    "ELT492": "Graduation Thesis - English Studies_Khóa luận tốt nghiệp",
+    "ELT402": "Biên dịch tiếng Anh 2\nEnglish Translation 2",
+    "EPS301": "Nghiệp vụ biên – phiên dịch",
+    "ENR501": "Reading 5",
+    "ELP491": "Graduation Project – English Studies_Đồ án tốt nghiệp",
+    "ENI511": "Listening Speaking 5 (Part 1/2)",
+    "ENW501": "Writing 5",
+    "ENR401": "Skillful 4: Reading",
+    "ENS212": "",
+    "ENS222": "",
+    "ETS401": "Biên dịch tiếng Anh chuyên ngành",
+    "EIT401": "English Translation and Interpretation in Tourism_Biên – phiên dịch tiếng Anh du lịch",
+    "ETM101": "Teaching Methodology",
+    "ENR201": "Reading 2",
+    "ENR101": "Reading 1",
+    "EIP401": "Phiên dịch tiếng Anh cho dịch vụ công",
+    "ELT401": "Translation 2_Biên dịch 2",
+    "EIT491": "ENGLISH FOR STANDARDIZED TESTS",
+    "ETL101": "21ST CENTURY METHODOLOGY",
+    "ETT301": "Understanding Language Testing_Phương pháp đánh giá năng lực ngôn ngữ",
+    "ELT301": "Translation 1_Biên dịch 1"
+  }
+}

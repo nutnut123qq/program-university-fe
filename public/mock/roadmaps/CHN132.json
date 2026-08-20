@@ -1,0 +1,28 @@
+{
+  "code": "CHN132",
+  "subjectName": "Elementary Chinese  3",
+  "directPrereqs": [
+    "CHN122",
+    "CHN111"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "CHN132",
+      "to": "CHN122"
+    },
+    {
+      "from": "CHN132",
+      "to": "CHN111"
+    },
+    {
+      "from": "CHN122",
+      "to": "CHN111"
+    }
+  ],
+  "names": {
+    "CHN111": "Elementary Chinese 1_Hán ngữ sơ cấp 1",
+    "CHN132": "Elementary Chinese  3",
+    "CHN122": "Elementary Chinese  2_Hán ngữ sơ cấp 2"
+  }
+}

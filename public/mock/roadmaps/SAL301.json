@@ -1,0 +1,18 @@
+{
+  "code": "SAL301",
+  "subjectName": "Professional Selling and Management_Kỹ năng bán hàng chuyên nghiệp",
+  "directPrereqs": [
+    "MKT101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "SAL301",
+      "to": "MKT101"
+    }
+  ],
+  "names": {
+    "SAL301": "Professional Selling and Management_Kỹ năng bán hàng chuyên nghiệp",
+    "MKT101": "Marketing Principles_Nguyên lý Marketing"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "code": "SEM101",
+  "subjectName": "Semantics_Ngữ nghĩa học",
+  "directPrereqs": [
+    "ENG302",
+    "ENG302c",
+    "ENG303",
+    "ENP101",
+    "ENP102",
+    "LTG202"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "SEM101",
+      "to": "ENG302"
+    },
+    {
+      "from": "SEM101",
+      "to": "ENG302c"
+    },
+    {
+      "from": "SEM101",
+      "to": "ENG303"
+    },
+    {
+      "from": "SEM101",
+      "to": "ENP101"
+    },
+    {
+      "from": "SEM101",
+      "to": "ENP102"
+    },
+    {
+      "from": "SEM101",
+      "to": "LTG202"
+    }
+  ],
+  "names": {
+    "ENG302": "Advanced English Grammar_Ngữ pháp tiếng Anh nâng cao",
+    "ENG303": "Ngữ pháp tiếng Anh nâng cao",
+    "ENP102": "English phonetics and phonology in use_Thực hành ngữ âm và âm vị học tiếng Anh",
+    "ENP101": "Phonetics and Phonology_Ngữ âm và âm vị học",
+    "SEM101": "Semantics_Ngữ nghĩa học",
+    "ENG302c": "Advanced English Grammar_Ngữ pháp tiếng Anh nâng cao",
+    "LTG202": "Introduction to Linguistics_Dẫn luận ngôn ngữ"
+  }
+}

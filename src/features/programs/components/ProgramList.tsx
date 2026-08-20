@@ -55,6 +55,7 @@ export function ProgramList() {
                 degreeType: currentFilters.degreeType === "all" ? undefined : currentFilters.degreeType,
                 universityId: currentFilters.universityId || undefined,
                 universityType: currentFilters.universityType,
+                cohort: currentFilters.cohort === "all" ? undefined : currentFilters.cohort,
                 sortBy: currentFilters.sortBy === "newest" ? "createdAt" : currentFilters.sortBy,
                 sortDesc: currentFilters.sortBy === "newest" || currentFilters.sortBy === "credits",
             }),

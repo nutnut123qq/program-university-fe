@@ -1,0 +1,30 @@
+{
+  "code": "DMS302m",
+  "subjectName": "Digital Marketing Strategy_Chiến lược marketing số",
+  "directPrereqs": [
+    "MKG101",
+    "MKT101",
+    "MMK101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "DMS302m",
+      "to": "MKG101"
+    },
+    {
+      "from": "DMS302m",
+      "to": "MKT101"
+    },
+    {
+      "from": "DMS302m",
+      "to": "MMK101"
+    }
+  ],
+  "names": {
+    "MKG101": "Management and Marketing Principles_Nguyên lý Quản trị và Marketing",
+    "MMK101": "Management and Marketing_Nhập môn Quản trị và Marketing",
+    "DMS302m": "Digital Marketing Strategy_Chiến lược marketing số",
+    "MKT101": "Marketing Principles_Nguyên lý Marketing"
+  }
+}

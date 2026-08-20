@@ -1,0 +1,18 @@
+{
+  "code": "TTD202",
+  "subjectName": "Tourism destinations and routes of Vietnam_Tuyến điểm du lịch Việt Nam",
+  "directPrereqs": [
+    "TTG201"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "TTD202",
+      "to": "TTG201"
+    }
+  ],
+  "names": {
+    "TTD202": "Tourism destinations and routes of Vietnam_Tuyến điểm du lịch Việt Nam",
+    "TTG201": "Tourism Geography_Địa lý du lịch"
+  }
+}

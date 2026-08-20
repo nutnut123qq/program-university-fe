@@ -1,0 +1,18 @@
+{
+  "code": "CRY302c",
+  "subjectName": "Applied Cryptography_Mật mã ứng dụng",
+  "directPrereqs": [
+    "MAD101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "CRY302c",
+      "to": "MAD101"
+    }
+  ],
+  "names": {
+    "MAD101": "Discrete mathematics_Toán rời rạc",
+    "CRY302c": "Applied Cryptography_Mật mã ứng dụng"
+  }
+}

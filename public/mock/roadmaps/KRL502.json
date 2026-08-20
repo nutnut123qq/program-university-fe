@@ -1,0 +1,141 @@
+{
+  "code": "KRL502",
+  "subjectName": "Advanced Korean 1_Tiếng Hàn cao cấp 1",
+  "directPrereqs": [
+    "KRL402",
+    "KRL322",
+    "KRL312",
+    "KRL222",
+    "KRL212",
+    "KRL122",
+    "KRL112"
+  ],
+  "unlocks": [
+    "KLC301"
+  ],
+  "edges": [
+    {
+      "from": "KRL502",
+      "to": "KRL402"
+    },
+    {
+      "from": "KRL502",
+      "to": "KRL322"
+    },
+    {
+      "from": "KRL502",
+      "to": "KRL312"
+    },
+    {
+      "from": "KRL502",
+      "to": "KRL222"
+    },
+    {
+      "from": "KRL502",
+      "to": "KRL212"
+    },
+    {
+      "from": "KRL502",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL502",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL402",
+      "to": "KRL322"
+    },
+    {
+      "from": "KRL402",
+      "to": "KRL312"
+    },
+    {
+      "from": "KRL402",
+      "to": "KRL222"
+    },
+    {
+      "from": "KRL402",
+      "to": "KRL212"
+    },
+    {
+      "from": "KRL402",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL402",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL322",
+      "to": "KRL312"
+    },
+    {
+      "from": "KRL322",
+      "to": "KRL222"
+    },
+    {
+      "from": "KRL322",
+      "to": "KRL212"
+    },
+    {
+      "from": "KRL322",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL322",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL312",
+      "to": "KRL222"
+    },
+    {
+      "from": "KRL312",
+      "to": "KRL212"
+    },
+    {
+      "from": "KRL312",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL312",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL222",
+      "to": "KRL212"
+    },
+    {
+      "from": "KRL222",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL222",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL212",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL212",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL122",
+      "to": "KRL112"
+    }
+  ],
+  "names": {
+    "KRL222": "Elementary Korean 4_Tiếng Hàn sơ cấp 4",
+    "KRL502": "Advanced Korean 1_Tiếng Hàn cao cấp 1",
+    "KLC301": "Chinese characters in Korean_Hán tự tiếng Hàn",
+    "KRL402": "Intermediate Korean 3_Tiếng Hàn trung cấp 3",
+    "KRL322": "Intermediate Korean  2_Tiếng Hàn trung cấp 2",
+    "KRL312": "Intermediate Korean  1_Tiếng Hàn trung cấp 1",
+    "KRL212": "Elementary Korean 3_Tiếng Hàn sơ cấp 3",
+    "KRL112": "Elementary Korean 1_Tiếng Hàn sơ cấp 1",
+    "KRL122": "Elementary Korean 2_Tiếng Hàn sơ cấp 2"
+  }
+}

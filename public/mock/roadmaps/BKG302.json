@@ -1,0 +1,28 @@
+{
+  "code": "BKG302",
+  "subjectName": "Investment Project Appraisal_Thẩm định dự án đầu tư",
+  "directPrereqs": [
+    "FIN202",
+    "ACC101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "BKG302",
+      "to": "FIN202"
+    },
+    {
+      "from": "BKG302",
+      "to": "ACC101"
+    },
+    {
+      "from": "FIN202",
+      "to": "ACC101"
+    }
+  ],
+  "names": {
+    "ACC101": "Principles of Accounting_Nguyên lý kế toán",
+    "FIN202": "Principles of Corporate Finance_Tài chính doanh nghiệp",
+    "BKG302": "Investment Project Appraisal_Thẩm định dự án đầu tư"
+  }
+}

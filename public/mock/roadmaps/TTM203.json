@@ -1,0 +1,33 @@
+{
+  "code": "TTM203",
+  "subjectName": "Consumer behavior in Tourism_Hành vi khách du lịch",
+  "directPrereqs": [
+    "TTM201",
+    "HMO102"
+  ],
+  "unlocks": [
+    "GRP490",
+    "GRT491"
+  ],
+  "edges": [
+    {
+      "from": "TTM203",
+      "to": "TTM201"
+    },
+    {
+      "from": "TTM203",
+      "to": "HMO102"
+    },
+    {
+      "from": "TTM201",
+      "to": "HMO102"
+    }
+  ],
+  "names": {
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "HMO102": "Introduction to Tourism & Hospitality industry_Tổng quan ngành Du lịch & Khách sạn",
+    "GRT491": "Graduation Thesis-Travel and Tourism Management_Khóa luận tốt nghiệp QTDL&LH",
+    "TTM203": "Consumer behavior in Tourism_Hành vi khách du lịch",
+    "TTM201": "Tourism and Travel Management_Quản trị du lịch và lữ hành"
+  }
+}

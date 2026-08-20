@@ -1,0 +1,344 @@
+{
+  "code": "GDP491",
+  "subjectName": "Capstone Project Graphic Design_Đồ án tốt nghiệp Thiết kế mỹ thuật số",
+  "directPrereqs": [
+    "ADG301",
+    "ADH301",
+    "ADT401",
+    "ANA401",
+    "ANR401",
+    "ANS301",
+    "ANT401",
+    "GDA401",
+    "GDG401",
+    "GDS301",
+    "GDW401",
+    "WDL301",
+    "WDT401",
+    "ADG201",
+    "WDU201",
+    "WDU202",
+    "WDU202c",
+    "WMT201",
+    "AMR401",
+    "AMR402",
+    "ANR402",
+    "ANC301",
+    "ANC302",
+    "DTG201",
+    "WDL202",
+    "TPG201",
+    "IPD201",
+    "DRP101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "GDP491",
+      "to": "ADG301"
+    },
+    {
+      "from": "GDP491",
+      "to": "ADH301"
+    },
+    {
+      "from": "GDP491",
+      "to": "ADT401"
+    },
+    {
+      "from": "GDP491",
+      "to": "ANA401"
+    },
+    {
+      "from": "GDP491",
+      "to": "ANR401"
+    },
+    {
+      "from": "GDP491",
+      "to": "ANS301"
+    },
+    {
+      "from": "GDP491",
+      "to": "ANT401"
+    },
+    {
+      "from": "GDP491",
+      "to": "GDA401"
+    },
+    {
+      "from": "GDP491",
+      "to": "GDG401"
+    },
+    {
+      "from": "GDP491",
+      "to": "GDS301"
+    },
+    {
+      "from": "GDP491",
+      "to": "GDW401"
+    },
+    {
+      "from": "GDP491",
+      "to": "WDL301"
+    },
+    {
+      "from": "GDP491",
+      "to": "WDT401"
+    },
+    {
+      "from": "GDP491",
+      "to": "ADG201"
+    },
+    {
+      "from": "GDP491",
+      "to": "WDU201"
+    },
+    {
+      "from": "GDP491",
+      "to": "WDU202"
+    },
+    {
+      "from": "GDP491",
+      "to": "WDU202c"
+    },
+    {
+      "from": "GDP491",
+      "to": "WMT201"
+    },
+    {
+      "from": "GDP491",
+      "to": "AMR401"
+    },
+    {
+      "from": "GDP491",
+      "to": "AMR402"
+    },
+    {
+      "from": "GDP491",
+      "to": "ANR402"
+    },
+    {
+      "from": "GDP491",
+      "to": "ANC301"
+    },
+    {
+      "from": "GDP491",
+      "to": "ANC302"
+    },
+    {
+      "from": "GDP491",
+      "to": "DTG201"
+    },
+    {
+      "from": "GDP491",
+      "to": "WDL202"
+    },
+    {
+      "from": "GDP491",
+      "to": "TPG201"
+    },
+    {
+      "from": "GDP491",
+      "to": "IPD201"
+    },
+    {
+      "from": "GDP491",
+      "to": "DRP101"
+    },
+    {
+      "from": "ADG301",
+      "to": "ADG201"
+    },
+    {
+      "from": "ADG301",
+      "to": "TPG201"
+    },
+    {
+      "from": "ADH301",
+      "to": "WDU201"
+    },
+    {
+      "from": "ADH301",
+      "to": "WDU202"
+    },
+    {
+      "from": "ADH301",
+      "to": "WDU202c"
+    },
+    {
+      "from": "ADH301",
+      "to": "WMT201"
+    },
+    {
+      "from": "ADT401",
+      "to": "ADH301"
+    },
+    {
+      "from": "ADT401",
+      "to": "WDU201"
+    },
+    {
+      "from": "ADT401",
+      "to": "WDU202"
+    },
+    {
+      "from": "ADT401",
+      "to": "WDU202c"
+    },
+    {
+      "from": "ADT401",
+      "to": "WMT201"
+    },
+    {
+      "from": "ANA401",
+      "to": "AMR401"
+    },
+    {
+      "from": "ANA401",
+      "to": "AMR402"
+    },
+    {
+      "from": "ANA401",
+      "to": "ANR401"
+    },
+    {
+      "from": "ANA401",
+      "to": "ANR402"
+    },
+    {
+      "from": "ANS301",
+      "to": "ANC301"
+    },
+    {
+      "from": "ANS301",
+      "to": "ANC302"
+    },
+    {
+      "from": "ANS301",
+      "to": "IPD201"
+    },
+    {
+      "from": "ANS301",
+      "to": "DRP101"
+    },
+    {
+      "from": "ANT401",
+      "to": "ANS301"
+    },
+    {
+      "from": "ANT401",
+      "to": "ANC301"
+    },
+    {
+      "from": "ANT401",
+      "to": "ANC302"
+    },
+    {
+      "from": "ANT401",
+      "to": "IPD201"
+    },
+    {
+      "from": "ANT401",
+      "to": "DRP101"
+    },
+    {
+      "from": "GDG401",
+      "to": "DTG201"
+    },
+    {
+      "from": "GDG401",
+      "to": "GDS301"
+    },
+    {
+      "from": "WDL301",
+      "to": "WDU201"
+    },
+    {
+      "from": "WDL301",
+      "to": "WMT201"
+    },
+    {
+      "from": "WDT401",
+      "to": "WDL202"
+    },
+    {
+      "from": "WDT401",
+      "to": "WDL301"
+    },
+    {
+      "from": "WDT401",
+      "to": "WDU201"
+    },
+    {
+      "from": "WDT401",
+      "to": "WDU202"
+    },
+    {
+      "from": "WDT401",
+      "to": "WDU202c"
+    },
+    {
+      "from": "WDT401",
+      "to": "WMT201"
+    },
+    {
+      "from": "ADG201",
+      "to": "TPG201"
+    },
+    {
+      "from": "ANC301",
+      "to": "IPD201"
+    },
+    {
+      "from": "ANC302",
+      "to": "DRP101"
+    },
+    {
+      "from": "WDL202",
+      "to": "WDU201"
+    },
+    {
+      "from": "WDL202",
+      "to": "WDU202"
+    },
+    {
+      "from": "WDL202",
+      "to": "WDU202c"
+    },
+    {
+      "from": "WDL202",
+      "to": "WMT201"
+    }
+  ],
+  "names": {
+    "WDU202c": "UI/UX Design",
+    "ANC302": "Character Design_Thiết kế nhân vật",
+    "ADH301": "Mobility Applications Design 1 _Thiết kế ứng dụng cho các thiết bị di động 1",
+    "IPD201": "Icon & Pattern design_Thiết kế mẫu và biểu tượng",
+    "GDW401": "",
+    "DTG201": "3D Digital Tool",
+    "GDP491": "Capstone Project Graphic Design_Đồ án tốt nghiệp Thiết kế mỹ thuật số",
+    "ANC301": "Character Development_Tạo hình nhân vật hoạt hình",
+    "TPG201": "",
+    "DRP101": "Drawing plaster stature - portrait_Hình họa - Vẽ đầu tượng, chân dung",
+    "ANA401": "3D Character Animation_Tạo chuyển động trong môi trường 3D",
+    "ANR402": "3D Rigging_Tạo khung xương và bộ điều khiển cho nhân vật",
+    "GDG401": "Design 2: 3D Animation",
+    "ADG301": "Book and Packaging Design",
+    "ADG201": "Brand Identity Design",
+    "WDT401": "Web Design_Thiết kế Web",
+    "ANT401": "Traditional Animation Principles_Thiết kế chuyển động hoạt hình",
+    "AMR402": "3D Character Design_Thiết kế nhân vật 3D",
+    "AMR401": "3D Modeling & Rigging_Xây dựng mô hình và tạo hệ thống khung xương trong môi trường 3D",
+    "ANS301": "Storyboarding_Thiết kế kịch bản phân cảnh hình ảnh",
+    "GDS301": "",
+    "ANR401": "Introduction to Rigging _Tạo khung xương và bộ điều khiển cho nhân vật",
+    "GDA401": "",
+    "WMT201": "Web and Mobility Technology",
+    "WDL301": "Web Design 1",
+    "WDL202": "Web layout design_Thiết kế giao diện WEB",
+    "WDU201": "Principles of UX",
+    "WDU202": "",
+    "ADT401": "Mobility Applications Design 2 _ Thiết kế ứng dụng cho các thiết bị di động 2"
+  }
+}

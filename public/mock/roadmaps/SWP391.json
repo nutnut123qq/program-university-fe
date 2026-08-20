@@ -1,0 +1,107 @@
+{
+  "code": "SWP391",
+  "subjectName": "Software development project_Dự án phát triển phần mềm",
+  "directPrereqs": [
+    "LAB211",
+    "PRJ301",
+    "SWE201",
+    "SWE201c",
+    "SWE202c",
+    "PRO192",
+    "DBI202",
+    "PRF192"
+  ],
+  "unlocks": [
+    "SAP490",
+    "SEP490",
+    "SET490"
+  ],
+  "edges": [
+    {
+      "from": "SWP391",
+      "to": "LAB211"
+    },
+    {
+      "from": "SWP391",
+      "to": "PRJ301"
+    },
+    {
+      "from": "SWP391",
+      "to": "SWE201"
+    },
+    {
+      "from": "SWP391",
+      "to": "SWE201c"
+    },
+    {
+      "from": "SWP391",
+      "to": "SWE202c"
+    },
+    {
+      "from": "SWP391",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWP391",
+      "to": "DBI202"
+    },
+    {
+      "from": "SWP391",
+      "to": "PRF192"
+    },
+    {
+      "from": "LAB211",
+      "to": "PRO192"
+    },
+    {
+      "from": "LAB211",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRJ301",
+      "to": "DBI202"
+    },
+    {
+      "from": "PRJ301",
+      "to": "PRO192"
+    },
+    {
+      "from": "PRJ301",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWE202c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE202c",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "SEP490": "SE Capstone Project_Đồ án tốt nghiệp KTPM",
+    "SWE201": "",
+    "LAB211": "OOP with Java Lab_Thực hành OOP với Java",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "SAP490": "SAP Interdisciplinary Capstone Project_Đồ án liên ngành SAP",
+    "SET490": "SE Graduation Thesis_Khóa luận tốt nghiệp Kỹ thuật phần mềm",
+    "SWE202c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+    "SWP391": "Software development project_Dự án phát triển phần mềm",
+    "DBI202": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+    "SWE201c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+    "PRJ301": "Java Web Application Development_Phát triển ứng dụng Java web"
+  }
+}

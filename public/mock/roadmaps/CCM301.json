@@ -1,0 +1,74 @@
+{
+  "code": "CCM301",
+  "subjectName": "Crisis Communications Management_Quản trị truyền thông khủng hoảng",
+  "directPrereqs": [
+    "CCO201",
+    "IMC301",
+    "IMC301c",
+    "MKT304",
+    "MKT101",
+    "MMK101",
+    "MKG101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "CCM301",
+      "to": "CCO201"
+    },
+    {
+      "from": "CCM301",
+      "to": "IMC301"
+    },
+    {
+      "from": "CCM301",
+      "to": "IMC301c"
+    },
+    {
+      "from": "CCM301",
+      "to": "MKT304"
+    },
+    {
+      "from": "CCM301",
+      "to": "MKT101"
+    },
+    {
+      "from": "CCM301",
+      "to": "MMK101"
+    },
+    {
+      "from": "CCM301",
+      "to": "MKG101"
+    },
+    {
+      "from": "IMC301",
+      "to": "MKT101"
+    },
+    {
+      "from": "IMC301",
+      "to": "MMK101"
+    },
+    {
+      "from": "MKT304",
+      "to": "MKG101"
+    },
+    {
+      "from": "MKT304",
+      "to": "MKT101"
+    },
+    {
+      "from": "MKT304",
+      "to": "MMK101"
+    }
+  ],
+  "names": {
+    "MKT101": "Marketing Principles_Nguyên lý Marketing",
+    "MMK101": "Management and Marketing_Nhập môn Quản trị và Marketing",
+    "IMC301c": "Integrated Marketing Communication in Digital World_Chiến lược truyền thông marketing tích hợp",
+    "MKG101": "Management and Marketing Principles_Nguyên lý Quản trị và Marketing",
+    "CCO201": "Corporate Communication_Truyền thông doanh nghiệp",
+    "IMC301": "Integrated Marketing Communication in Digital World_Chiến lược truyền thông marketing tích hợp",
+    "CCM301": "Crisis Communications Management_Quản trị truyền thông khủng hoảng",
+    "MKT304": "Integrated Marketing Communications_Truyền thông marketing tích hợp"
+  }
+}

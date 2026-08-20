@@ -1,0 +1,25 @@
+{
+  "code": "ESL101",
+  "subjectName": "Sociolinguistics_Ngôn ngữ học xã hội",
+  "directPrereqs": [
+    "LTG202"
+  ],
+  "unlocks": [
+    "EOB301",
+    "ETP401",
+    "ETT301"
+  ],
+  "edges": [
+    {
+      "from": "ESL101",
+      "to": "LTG202"
+    }
+  ],
+  "names": {
+    "ESL101": "Sociolinguistics_Ngôn ngữ học xã hội",
+    "ETP401": "Language Teaching Practice_Thực hành giảng dạy ngôn ngữ",
+    "EOB301": "Outcome-based Course Design in English Language Teaching_Thiết kế khoá học theo chuẩn đầu ra trong giảng dạy ngôn ngữ Anh",
+    "ETT301": "Understanding Language Testing_Phương pháp đánh giá năng lực ngôn ngữ",
+    "LTG202": "Introduction to Linguistics_Dẫn luận ngôn ngữ"
+  }
+}

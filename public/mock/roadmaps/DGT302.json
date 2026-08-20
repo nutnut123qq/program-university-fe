@@ -1,0 +1,18 @@
+{
+  "code": "DGT302",
+  "subjectName": "Digital Signal Processing",
+  "directPrereqs": [
+    "MAE101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "DGT302",
+      "to": "MAE101"
+    }
+  ],
+  "names": {
+    "MAE101": "Mathematics for Engineering_Toán cho ngành kỹ thuật",
+    "DGT302": "Digital Signal Processing"
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "code": "JPD336",
+  "subjectName": "Intermediate Japanese 2-B2.2 _Tiếng Nhật trung cấp 2-B2.2",
+  "directPrereqs": [
+    "JPD326",
+    "JPD316",
+    "JPD226",
+    "OJT202",
+    "JPD216",
+    "JPD133",
+    "JPD126",
+    "JPD123",
+    "JPD116",
+    "JPD113"
+  ],
+  "unlocks": [
+    "JBI301",
+    "JBT301",
+    "JDC501",
+    "JFT301",
+    "JGP491",
+    "JGT492",
+    "JHI301",
+    "JIG301",
+    "JIS301",
+    "JIS401",
+    "JIT401",
+    "JJB391",
+    "JJL301",
+    "JJS301",
+    "JJT401",
+    "JLM401m",
+    "JLR302",
+    "JMP501",
+    "JPD346",
+    "JPE301",
+    "JSC201",
+    "JSC301",
+    "JSC301m",
+    "JSI201",
+    "JSI501",
+    "JTD301",
+    "JTE301",
+    "JTI301",
+    "JTL401",
+    "JTN301",
+    "JTS301",
+    "JTT301",
+    "JTW301",
+    "JVR301",
+    "LTG203",
+    "SWC201",
+    "SWC501"
+  ],
+  "edges": [
+    {
+      "from": "JPD336",
+      "to": "JPD326"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD316"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD226"
+    },
+    {
+      "from": "JPD336",
+      "to": "OJT202"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD216"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD133"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD123"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD316"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD226"
+    },
+    {
+      "from": "JPD326",
+      "to": "OJT202"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD216"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD133"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD123"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD316",
+      "to": "JPD226"
+    },
+    {
+      "from": "JPD316",
+      "to": "OJT202"
+    },
+    {
+      "from": "JPD316",
+      "to": "JPD216"
+    },
+    {
+      "from": "JPD316",
+      "to": "JPD133"
+    },
+    {
+      "from": "JPD316",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD316",
+      "to": "JPD123"
+    },
+    {
+      "from": "JPD316",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD316",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD226",
+      "to": "JPD216"
+    },
+    {
+      "from": "JPD226",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD226",
+      "to": "JPD116"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD133"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD123"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD216",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD216",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD133",
+      "to": "JPD123"
+    },
+    {
+      "from": "JPD133",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD126",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD123",
+      "to": "JPD113"
+    }
+  ],
+  "names": {
+    "JTE301": "Translation in Economics & Commerce_Dịch chuyên ngành Kinh tế - Thương mại",
+    "JJT401": "Theory of Japanese language teaching_Lý luận về giảng dạy tiếng Nhật",
+    "JLR302": "Resech Method_Phương pháp nghiên cứu",
+    "JIS301": "Interpreting Skills_Kỹ năng phiên dịch",
+    "JPD316": "Intermediate Japanese 1-B1/B2_ Tiếng Nhật trung cấp 1-B1/B2",
+    "JVR301": "Japan - Viet Nam economic relations & sustainable tourism development trend_Quan hệ kinh tế Việt Nam - Nhật Bản và xu hướng phát triển du lịch bền vững",
+    "JTL401": "Translation in Japanese Literature_Dịch văn học Nhật Bản",
+    "JIS401": "Tiếng Nhật CNTT trong ngành phần mềm",
+    "JHI301": "The International Hospitality Industry_Tổng quan Ngành Khách sạn dịch vụ  quốc tế của Nhật Bản",
+    "JMP501": "Japanese language teaching methods in practice_Thực hành phương pháp giảng dạy tiếng Nhật",
+    "JPD226": "Pre-Intermediate Japanese 2-B1_Tiếng Nhật sơ trung cấp 2-B1",
+    "JJL301": "Japanese Literature_Văn học Nhật Bản",
+    "JPD126": "Elementary Japanese 2-A2_Tiếng Nhật sơ cấp 2-A2",
+    "JBT301": "Basic skills of Translation_Kỹ năng biên dịch  cơ bản",
+    "SWC501": "Software Development Process_Quy trình phát triển phần mềm",
+    "JPD336": "Intermediate Japanese 2-B2.2 _Tiếng Nhật trung cấp 2-B2.2",
+    "JTN301": "Translation on international hot news_Dịch thông tin thời sự quốc tế",
+    "JSC301m": "Japanese Culture & Japanese Studies_Đất nước và văn hóa Nhật Bản",
+    "JTT301": "Translation  in Tourism_Dịch chuyên ngành du lịch",
+    "JPD116": "Elementary Japanese  1-A1/A2_Tiếng Nhật sơ cấp 1-A1/A2",
+    "LTG203": "Introduction to linguistics - Dẫn luận ngôn ngữ",
+    "JPD113": "Elementary Japanese 1- A1.1_Tiếng Nhật sơ cấp 1-A1.1",
+    "JPD346": "Intermediate Japanese 2-B2/C1_ Tiếng Nhật trung cấp 2-B2/C1",
+    "JBI301": "Basic skills of Interpreting_Kỹ năng  phiên dịch cơ bản",
+    "JSI501": "Information System_Hệ thống thông tin",
+    "JLM401m": "Lesson plan design and instructional materials development_Thiết kế giáo án và phát triển tài liệu",
+    "JIT401": "Information Technology Japanese_Tiếng Nhật công nghệ thông tin",
+    "JSI201": "Information System_Hệ thống thông tin",
+    "JSC301": "Japanese Culture  & Japanese Studies_Đất nước và văn hóa Nhật Bản",
+    "JIG301": "Basic Issues of Japanese Grammar_Những vấn để cơ bản về ngữ pháp tiếng Nhật - Từ lí thuyết đến thực tiễn",
+    "JTD301": "Tourism Destination of Việt Nam & Japan_Danh thắng du lịch của VN và Nhật Bản",
+    "JJS301": "Japanese Syntax_Ngữ pháp học tiếng Nhật",
+    "JGP491": "Graduation Project Japanese Studies _ Dự án tốt nghiệp Ngôn ngữ Nhật",
+    "JTS301": "Translation Skills_Kỹ năng biên dịch",
+    "JTW301": "Japanese IT terms and text translation_Dịch thuật ngữ và văn bản tiếng Nhật công  nghệ thông tin",
+    "JJB391": "Japanese for JLPT/BJT_Nâng cao  năng lực tiếng Nhật tổng hợp  (JLPT ＆B J T）",
+    "OJT202": "On-The-Job Training_Đào tạo trong môi trường thực tế",
+    "JPD123": "Elementary Japanese 1-A1.2_Tiếng Nhật sơ cấp 1-A1.2",
+    "JGT492": "Graduation Thesis Japanese Studies_Khóa luận tốt nghiệp Ngôn ngữ Nhật",
+    "JDC501": "Developing curriculum and teaching content_Xây dựng chương trình và nội dung giảng dạy",
+    "JPD326": "Intermediate Japanese 2-B2.1_ Tiếng Nhật trung cấp 2-B2.1",
+    "JPD133": "Elementary Japanese  1-A1/A2_Tiếng Nhật sơ cấp 1-A1/A2",
+    "JPE301": "Dịch chuyên ngành giáo dục_Translation  in Education",
+    "JSC201": "Computer System_Hệ thống máy tính",
+    "SWC201": "Software Development Process_Quy trình phát triển phần mềm",
+    "JFT301": "Japanese for Tourism_Tiếng Nhật du lịch",
+    "JTI301": "Introductory Translation & Interpreting_Nhập môn Biên - Phiên dịch",
+    "JPD216": "Pre-Intermediate Japanese 1-A2/B1 _Tiếng Nhật sơ trung cấp1-A2/B1"
+  }
+}

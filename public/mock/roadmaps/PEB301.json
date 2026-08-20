@@ -1,0 +1,58 @@
+{
+  "code": "PEB301",
+  "subjectName": "Thực hành hệ thống nhúng_Practice of Embedded System",
+  "directPrereqs": [
+    "EBS211",
+    "NWC204",
+    "EEI101",
+    "PCP291",
+    "PRF192"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "PEB301",
+      "to": "EBS211"
+    },
+    {
+      "from": "PEB301",
+      "to": "NWC204"
+    },
+    {
+      "from": "PEB301",
+      "to": "EEI101"
+    },
+    {
+      "from": "PEB301",
+      "to": "PCP291"
+    },
+    {
+      "from": "PEB301",
+      "to": "PRF192"
+    },
+    {
+      "from": "EBS211",
+      "to": "EEI101"
+    },
+    {
+      "from": "EBS211",
+      "to": "PCP291"
+    },
+    {
+      "from": "EBS211",
+      "to": "PRF192"
+    },
+    {
+      "from": "PCP291",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "PEB301": "Thực hành hệ thống nhúng_Practice of Embedded System",
+    "EEI101": "Nhập môn kỹ thuật điện-điện tử_Introduction to Electrical-Electronics Engineering",
+    "NWC204": "Computer Networking_Mạng máy tính",
+    "EBS211": "Hệ thống nhúng_Embedded Systems",
+    "PCP291": "C++ Programming_Lập trình C++"
+  }
+}

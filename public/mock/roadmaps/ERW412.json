@@ -1,0 +1,50 @@
+{
+  "code": "ERW412",
+  "subjectName": "Kỹ năng tư duy Đọc – Viết tiếng Anh 1\t\nEnglish Read-Think-Write 1",
+  "directPrereqs": [
+    "EAW221",
+    "EAW301",
+    "ECR201",
+    "EAW211",
+    "ENG303"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "ERW412",
+      "to": "EAW221"
+    },
+    {
+      "from": "ERW412",
+      "to": "EAW301"
+    },
+    {
+      "from": "ERW412",
+      "to": "ECR201"
+    },
+    {
+      "from": "ERW412",
+      "to": "EAW211"
+    },
+    {
+      "from": "ERW412",
+      "to": "ENG303"
+    },
+    {
+      "from": "EAW221",
+      "to": "EAW211"
+    },
+    {
+      "from": "EAW301",
+      "to": "ENG303"
+    }
+  ],
+  "names": {
+    "EAW211": "English Academic Writing 1_Tiếng Anh \bViết học thuật 1",
+    "ERW412": "Kỹ năng tư duy Đọc – Viết tiếng Anh 1\t\nEnglish Read-Think-Write 1",
+    "ENG303": "Ngữ pháp tiếng Anh nâng cao",
+    "ECR201": "Critical Reading_Đọc Hiểu",
+    "EAW301": "Viết tiếng Anh học thuật \nAcademic English Writing",
+    "EAW221": "English Academic Writing 2_Tiếng Anh Viết học thuật 2"
+  }
+}

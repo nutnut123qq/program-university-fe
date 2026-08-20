@@ -1,0 +1,30 @@
+{
+  "code": "IBC201",
+  "subjectName": "Cross Cultural Management and Negotiation_Quản trị và đàm phán trong môi trường đa văn hóa",
+  "directPrereqs": [
+    "MGT101",
+    "MGT103",
+    "MKG101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "IBC201",
+      "to": "MGT101"
+    },
+    {
+      "from": "IBC201",
+      "to": "MGT103"
+    },
+    {
+      "from": "IBC201",
+      "to": "MKG101"
+    }
+  ],
+  "names": {
+    "MGT101": "Introduction to Management",
+    "IBC201": "Cross Cultural Management and Negotiation_Quản trị và đàm phán trong môi trường đa văn hóa",
+    "MGT103": "Introduction to Management_Nhập môn quản lý",
+    "MKG101": "Management and Marketing Principles_Nguyên lý Quản trị và Marketing"
+  }
+}

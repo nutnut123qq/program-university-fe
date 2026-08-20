@@ -1,0 +1,111 @@
+{
+  "code": "KRL322",
+  "subjectName": "Intermediate Korean  2_Tiếng Hàn trung cấp 2",
+  "directPrereqs": [
+    "KRL312",
+    "KRL222",
+    "KRL212",
+    "KRL122",
+    "KRL112"
+  ],
+  "unlocks": [
+    "KIT491",
+    "KLB401",
+    "KLC301",
+    "KLE301",
+    "KLI311",
+    "KLI321",
+    "KLT311",
+    "KLT321",
+    "KOI401",
+    "KRG301",
+    "KRL402",
+    "KRL502",
+    "KRP491",
+    "KRT491"
+  ],
+  "edges": [
+    {
+      "from": "KRL322",
+      "to": "KRL312"
+    },
+    {
+      "from": "KRL322",
+      "to": "KRL222"
+    },
+    {
+      "from": "KRL322",
+      "to": "KRL212"
+    },
+    {
+      "from": "KRL322",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL322",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL312",
+      "to": "KRL222"
+    },
+    {
+      "from": "KRL312",
+      "to": "KRL212"
+    },
+    {
+      "from": "KRL312",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL312",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL222",
+      "to": "KRL212"
+    },
+    {
+      "from": "KRL222",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL222",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL212",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL212",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL122",
+      "to": "KRL112"
+    }
+  ],
+  "names": {
+    "KLT311": "Translation 1_Biên dịch 1",
+    "KRL402": "Intermediate Korean 3_Tiếng Hàn trung cấp 3",
+    "KLC301": "Chinese characters in Korean_Hán tự tiếng Hàn",
+    "KRG301": "Korean Syntax and Morphology_Cú pháp học và hình thái học tiếng Hàn",
+    "KRT491": "Graduation Thesis_Khóa luận tốt nghiệp",
+    "KRL322": "Intermediate Korean  2_Tiếng Hàn trung cấp 2",
+    "KRP491": "Graduation Project_Đồ án tốt nghiệp",
+    "KOI401": "Office informatics in Korean_Tin học văn phòng Hàn Quốc",
+    "KLB401": "Business Korean_Dịch nâng cao tiếng Hàn kinh tế thương mại",
+    "KRL112": "Elementary Korean 1_Tiếng Hàn sơ cấp 1",
+    "KRL122": "Elementary Korean 2_Tiếng Hàn sơ cấp 2",
+    "KRL502": "Advanced Korean 1_Tiếng Hàn cao cấp 1",
+    "KLI321": "Interpretation 2_ Phiên dịch 2",
+    "KLI311": "Interpretation 1_Phiên dịch 1",
+    "KRL312": "Intermediate Korean  1_Tiếng Hàn trung cấp 1",
+    "KIT491": "Korean for TOPIK_Tiếng Hàn tổng hợp nâng cao",
+    "KRL222": "Elementary Korean 4_Tiếng Hàn sơ cấp 4",
+    "KLT321": "Translation 2_Biên dịch 2",
+    "KLE301": "Korean Literature_Văn học Hàn Quốc",
+    "KRL212": "Elementary Korean 3_Tiếng Hàn sơ cấp 3"
+  }
+}

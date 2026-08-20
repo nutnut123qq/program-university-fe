@@ -1,0 +1,24 @@
+{
+  "code": "HRM201c",
+  "subjectName": "Human Resource Management_Quản trị nhân sự",
+  "directPrereqs": [
+    "MGT101",
+    "MGT103"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "HRM201c",
+      "to": "MGT101"
+    },
+    {
+      "from": "HRM201c",
+      "to": "MGT103"
+    }
+  ],
+  "names": {
+    "MGT101": "Introduction to Management",
+    "HRM201c": "Human Resource Management_Quản trị nhân sự",
+    "MGT103": "Introduction to Management_Nhập môn quản lý"
+  }
+}

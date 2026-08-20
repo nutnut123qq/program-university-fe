@@ -1,0 +1,43 @@
+{
+  "code": "SWE202c",
+  "subjectName": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+  "directPrereqs": [
+    "PRO192",
+    "PRF192"
+  ],
+  "unlocks": [
+    "SAP490",
+    "SEP490",
+    "SET490",
+    "SWD392",
+    "SWP391",
+    "SWR302",
+    "SWT301"
+  ],
+  "edges": [
+    {
+      "from": "SWE202c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE202c",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "SWR302": "Software Requirement_Yêu cầu phần mềm",
+    "SEP490": "SE Capstone Project_Đồ án tốt nghiệp KTPM",
+    "SWT301": "Software Testing_Kiểm thử phần mềm",
+    "SWD392": "Software Architecture and Design_Kiến trúc và thiết kế phần mềm",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "SAP490": "SAP Interdisciplinary Capstone Project_Đồ án liên ngành SAP",
+    "SET490": "SE Graduation Thesis_Khóa luận tốt nghiệp Kỹ thuật phần mềm",
+    "SWE202c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+    "SWP391": "Software development project_Dự án phát triển phần mềm"
+  }
+}

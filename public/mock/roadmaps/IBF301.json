@@ -1,0 +1,35 @@
+{
+  "code": "IBF301",
+  "subjectName": "International Finance_Tài chính quốc tế",
+  "directPrereqs": [
+    "FIN202",
+    "ACC101"
+  ],
+  "unlocks": [
+    "GRI491",
+    "GRP490",
+    "IIV301"
+  ],
+  "edges": [
+    {
+      "from": "IBF301",
+      "to": "FIN202"
+    },
+    {
+      "from": "IBF301",
+      "to": "ACC101"
+    },
+    {
+      "from": "FIN202",
+      "to": "ACC101"
+    }
+  ],
+  "names": {
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "FIN202": "Principles of Corporate Finance_Tài chính doanh nghiệp",
+    "IBF301": "International Finance_Tài chính quốc tế",
+    "ACC101": "Principles of Accounting_Nguyên lý kế toán",
+    "IIV301": "International investment_Đầu tư quốc tế",
+    "GRI491": "Graduation Thesis - International Business_Khóa luận tốt nghiệp - Kinh doanh quốc tế"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "code": "TPG301",
+  "subjectName": "Typography 2",
+  "directPrereqs": [
+    "TPG202"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "TPG301",
+      "to": "TPG202"
+    }
+  ],
+  "names": {
+    "TPG202": "Typography 1",
+    "TPG301": "Typography 2"
+  }
+}

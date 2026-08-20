@@ -1,0 +1,18 @@
+{
+  "code": "EPG301",
+  "subjectName": "Ngữ dụng học Tiếng Anh",
+  "directPrereqs": [
+    "LTG202"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "EPG301",
+      "to": "LTG202"
+    }
+  ],
+  "names": {
+    "EPG301": "Ngữ dụng học Tiếng Anh",
+    "LTG202": "Introduction to Linguistics_Dẫn luận ngôn ngữ"
+  }
+}

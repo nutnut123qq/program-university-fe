@@ -1,0 +1,33 @@
+{
+  "code": "AFA201",
+  "subjectName": "Human Anatomy for Artis_Giải phẫu tạo hình",
+  "directPrereqs": [
+    "DRP101"
+  ],
+  "unlocks": [
+    "ADE301",
+    "DID301",
+    "DRD201",
+    "DRD204",
+    "GDP493",
+    "GDP494",
+    "GDP495"
+  ],
+  "edges": [
+    {
+      "from": "AFA201",
+      "to": "DRP101"
+    }
+  ],
+  "names": {
+    "GDP494": "Capstone Project Graphic Design - Communication Design_ Đồ án tốt nghiệp ngành thiết kế mỹ thuật số - Thiết kế truyền thông",
+    "DRP101": "Drawing plaster stature - portrait_Hình họa - Vẽ đầu tượng, chân dung",
+    "DID301": "Data visualization & Infographic design_Thiết kế đồ hoạ dữ liệu & thông tin",
+    "DRD204": "Drawing - Speed drawing _Hình họa -Vẽ tốc họa",
+    "AFA201": "Human Anatomy for Artis_Giải phẫu tạo hình",
+    "ADE301": "Exhibition Display & Event Design_Thiết kế cho sự kiện và triển lãm",
+    "DRD201": "Drawing - Speed drawing",
+    "GDP493": "Capstone Project Graphic Design - Interaction Design_ Đồ án tốt nghiệp ngành thiết kế mỹ thuật số - Thiết kế tương tác",
+    "GDP495": "Capstone Project Graphic Design - Multimedia Communication Design _  Đồ án tốt nghiệp ngành Thiết kế mỹ thuật số - Thiết kế truyền thông đa phương tiện"
+  }
+}

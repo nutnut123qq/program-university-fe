@@ -1,0 +1,91 @@
+{
+  "code": "ISP392",
+  "subjectName": "Information System Programming Project_Dự án lập trình HTTT",
+  "directPrereqs": [
+    "LAB211",
+    "PRJ302",
+    "SWE201",
+    "SWE201c",
+    "PRO192",
+    "DBI202",
+    "PRF192"
+  ],
+  "unlocks": [
+    "ISP490",
+    "SAP490"
+  ],
+  "edges": [
+    {
+      "from": "ISP392",
+      "to": "LAB211"
+    },
+    {
+      "from": "ISP392",
+      "to": "PRJ302"
+    },
+    {
+      "from": "ISP392",
+      "to": "SWE201"
+    },
+    {
+      "from": "ISP392",
+      "to": "SWE201c"
+    },
+    {
+      "from": "ISP392",
+      "to": "PRO192"
+    },
+    {
+      "from": "ISP392",
+      "to": "DBI202"
+    },
+    {
+      "from": "ISP392",
+      "to": "PRF192"
+    },
+    {
+      "from": "LAB211",
+      "to": "PRO192"
+    },
+    {
+      "from": "LAB211",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRJ302",
+      "to": "DBI202"
+    },
+    {
+      "from": "PRJ302",
+      "to": "PRO192"
+    },
+    {
+      "from": "PRJ302",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "SWE201": "",
+    "LAB211": "OOP with Java Lab_Thực hành OOP với Java",
+    "ISP490": "IS Capstone Project_Đồ án tốt nghiệp hệ thống thông tin",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "SAP490": "SAP Interdisciplinary Capstone Project_Đồ án liên ngành SAP",
+    "ISP392": "Information System Programming Project_Dự án lập trình HTTT",
+    "DBI202": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+    "SWE201c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+    "PRJ302": "Java Web Application Development_Phát triển ứng dụng Java web"
+  }
+}

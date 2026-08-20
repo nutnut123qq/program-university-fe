@@ -1,0 +1,67 @@
+{
+  "code": "ENT403",
+  "subjectName": "English 5 (Summit 1)_Tiếng Anh 5",
+  "directPrereqs": [
+    "ENT303",
+    "ENT203"
+  ],
+  "unlocks": [
+    "EIC301",
+    "EIP401",
+    "EIT401",
+    "ELI301",
+    "ELI401",
+    "ELI402",
+    "ELP491",
+    "ELT492",
+    "ENM201",
+    "ENM211",
+    "ENM212",
+    "ENM221",
+    "ENT503",
+    "ENW491",
+    "EPS301",
+    "ETT301",
+    "IOT101",
+    "SSC102",
+    "TRS601"
+  ],
+  "edges": [
+    {
+      "from": "ENT403",
+      "to": "ENT303"
+    },
+    {
+      "from": "ENT403",
+      "to": "ENT203"
+    },
+    {
+      "from": "ENT303",
+      "to": "ENT203"
+    }
+  ],
+  "names": {
+    "ENT203": "English 3 (Top Notch 2)_Tiếng Anh 3",
+    "ENM211": "Pre-Intermediate Business English 1",
+    "ELI402": "Phiên dịch tiếng Anh 2\nEnglish Interpretation 2",
+    "ENM201": "Pre-intermediate Business English",
+    "IOT101": "Internet of Things",
+    "ENT303": "English 4 (Top Notch 3)_Tiếng Anh 4",
+    "ELT492": "Graduation Thesis - English Studies_Khóa luận tốt nghiệp",
+    "EPS301": "Nghiệp vụ biên – phiên dịch",
+    "ELP491": "Graduation Project – English Studies_Đồ án tốt nghiệp",
+    "ENT403": "English 5 (Summit 1)_Tiếng Anh 5",
+    "EIC301": "Intercultural Communication_Giao tiếp liên văn hoá",
+    "ENT503": "English 6 (Summit 2)_Tiếng Anh 6",
+    "ENM212": "Pre-Intermediate Business English 2",
+    "EIT401": "English Translation and Interpretation in Tourism_Biên – phiên dịch tiếng Anh du lịch",
+    "ENW491": "Writing Skill",
+    "TRS601": "English 6 (University success)_Tiếng Anh 6",
+    "ELI301": "Interpretation 1_Phiên dịch 1",
+    "EIP401": "Phiên dịch tiếng Anh cho dịch vụ công",
+    "SSC102": "Business Communication_Kỹ năng giao tiếp",
+    "ETT301": "Understanding Language Testing_Phương pháp đánh giá năng lực ngôn ngữ",
+    "ELI401": "Interpretation 2_Phiên dịch 2",
+    "ENM221": "BUSINESS ENGLISH -  Level: Pre-Intermediate"
+  }
+}

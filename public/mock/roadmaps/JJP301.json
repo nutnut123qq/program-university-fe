@@ -1,0 +1,60 @@
+{
+  "code": "JJP301",
+  "subjectName": "Japanese Phonetics and Lexicology_Ngữ âm học và từ vựng học tiếng Nhật",
+  "directPrereqs": [
+    "JPD226",
+    "JPD216",
+    "JPD126",
+    "JPD116"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "JJP301",
+      "to": "JPD226"
+    },
+    {
+      "from": "JJP301",
+      "to": "JPD216"
+    },
+    {
+      "from": "JJP301",
+      "to": "JPD126"
+    },
+    {
+      "from": "JJP301",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD226",
+      "to": "JPD216"
+    },
+    {
+      "from": "JPD226",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD226",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD216",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD216",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD126",
+      "to": "JPD116"
+    }
+  ],
+  "names": {
+    "JPD126": "Elementary Japanese 2-A2_Tiếng Nhật sơ cấp 2-A2",
+    "JJP301": "Japanese Phonetics and Lexicology_Ngữ âm học và từ vựng học tiếng Nhật",
+    "JPD116": "Elementary Japanese  1-A1/A2_Tiếng Nhật sơ cấp 1-A1/A2",
+    "JPD216": "Pre-Intermediate Japanese 1-A2/B1 _Tiếng Nhật sơ trung cấp1-A2/B1",
+    "JPD226": "Pre-Intermediate Japanese 2-B1_Tiếng Nhật sơ trung cấp 2-B1"
+  }
+}

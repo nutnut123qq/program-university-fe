@@ -37,7 +37,8 @@ export function ProgramFilters({
         filters.search ||
         filters.degreeType !== "all" ||
         filters.universityId ||
-        filters.universityType !== "all"
+        filters.universityType !== "all" ||
+        (filters.cohort && filters.cohort !== "all")
 
     const handleClear = () => {
         onChange({
@@ -46,6 +47,7 @@ export function ProgramFilters({
             universityId: "",
             universityType: "all",
             sortBy: "newest",
+            cohort: "all",
         })
     }
 
@@ -78,7 +80,7 @@ export function ProgramFilters({
                     />
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
                     <Select
                         value={filters.universityId}
                         onValueChange={(value) =>
@@ -106,6 +108,26 @@ export function ProgramFilters({
                         <SelectItem value="all">{t("allUniversityTypes")}</SelectItem>
                         <SelectItem value="public">{t("publicUniversity")}</SelectItem>
                         <SelectItem value="private">{t("privateUniversity")}</SelectItem>
+                    </Select>
+
+                    <Select
+                        value={filters.cohort && filters.cohort !== "all" ? filters.cohort : ""}
+                        onValueChange={(value) =>
+                            onChange({ ...filters, cohort: value || "all" })
+                        }
+                        placeholder="Tất cả khóa (K15 - K23)"
+                        aria-label="Khóa tuyển sinh"
+                    >
+                        <SelectItem value="">Tất cả khóa</SelectItem>
+                        <SelectItem value="K23">Khóa K23 (2023 - nay)</SelectItem>
+                        <SelectItem value="K22">Khóa K22 (2022)</SelectItem>
+                        <SelectItem value="K21">Khóa K21 (2021)</SelectItem>
+                        <SelectItem value="K20">Khóa K20 (2020)</SelectItem>
+                        <SelectItem value="K19">Khóa K19 (2019)</SelectItem>
+                        <SelectItem value="K18">Khóa K18 (2018)</SelectItem>
+                        <SelectItem value="K17">Khóa K17 (2017)</SelectItem>
+                        <SelectItem value="K16">Khóa K16 (2016)</SelectItem>
+                        <SelectItem value="K15">Khóa K15 (2015)</SelectItem>
                     </Select>
 
                     <Select

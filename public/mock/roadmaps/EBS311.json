@@ -1,0 +1,58 @@
+{
+  "code": "EBS311",
+  "subjectName": "Hệ thống nhúng nâng cao_Advanced Embedded Systems",
+  "directPrereqs": [
+    "EBS211",
+    "NWC204",
+    "EEI101",
+    "PCP291",
+    "PRF192"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "EBS311",
+      "to": "EBS211"
+    },
+    {
+      "from": "EBS311",
+      "to": "NWC204"
+    },
+    {
+      "from": "EBS311",
+      "to": "EEI101"
+    },
+    {
+      "from": "EBS311",
+      "to": "PCP291"
+    },
+    {
+      "from": "EBS311",
+      "to": "PRF192"
+    },
+    {
+      "from": "EBS211",
+      "to": "EEI101"
+    },
+    {
+      "from": "EBS211",
+      "to": "PCP291"
+    },
+    {
+      "from": "EBS211",
+      "to": "PRF192"
+    },
+    {
+      "from": "PCP291",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "EEI101": "Nhập môn kỹ thuật điện-điện tử_Introduction to Electrical-Electronics Engineering",
+    "NWC204": "Computer Networking_Mạng máy tính",
+    "EBS311": "Hệ thống nhúng nâng cao_Advanced Embedded Systems",
+    "EBS211": "Hệ thống nhúng_Embedded Systems",
+    "PCP291": "C++ Programming_Lập trình C++"
+  }
+}

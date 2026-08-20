@@ -1,0 +1,43 @@
+{
+  "code": "ERW413",
+  "subjectName": "Kỹ năng viết nghiên cứu tiếng Anh 1\t\nEnglish Research Writing Skills 1",
+  "directPrereqs": [
+    "EAW301",
+    "ECR301",
+    "ENG303"
+  ],
+  "unlocks": [
+    "ECW401",
+    "ELA301",
+    "ERW423",
+    "ETT301"
+  ],
+  "edges": [
+    {
+      "from": "ERW413",
+      "to": "EAW301"
+    },
+    {
+      "from": "ERW413",
+      "to": "ECR301"
+    },
+    {
+      "from": "ERW413",
+      "to": "ENG303"
+    },
+    {
+      "from": "EAW301",
+      "to": "ENG303"
+    }
+  ],
+  "names": {
+    "ECW401": "Creative Writing in English_Viết sáng tạo trong Tiếng Anh",
+    "ECR301": "Kỹ năng đọc tư duy phản biện tiếng Anh\nCritical Reading in English",
+    "ENG303": "Ngữ pháp tiếng Anh nâng cao",
+    "ETT301": "Understanding Language Testing_Phương pháp đánh giá năng lực ngôn ngữ",
+    "ERW423": "Kỹ năng viết nghiên cứu tiếng Anh 2\nEnglish Research Writing Skills 2",
+    "ELA301": "English literary analysis_Phân tích văn học Tiếng Anh",
+    "ERW413": "Kỹ năng viết nghiên cứu tiếng Anh 1\t\nEnglish Research Writing Skills 1",
+    "EAW301": "Viết tiếng Anh học thuật \nAcademic English Writing"
+  }
+}

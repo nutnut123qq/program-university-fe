@@ -1,0 +1,270 @@
+{
+  "code": "SEP490",
+  "subjectName": "SE Capstone Project_Đồ án tốt nghiệp KTPM",
+  "directPrereqs": [
+    "OJT202",
+    "PMG201",
+    "PMG201c",
+    "PMG202c",
+    "SWD391",
+    "SWD392",
+    "SWP391",
+    "JPD133",
+    "SWE102",
+    "SWE201",
+    "SWE201c",
+    "PRO192",
+    "SWE202c",
+    "LAB211",
+    "PRJ301",
+    "JPD123",
+    "PRF192",
+    "DBI202",
+    "JPD113"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "SEP490",
+      "to": "OJT202"
+    },
+    {
+      "from": "SEP490",
+      "to": "PMG201"
+    },
+    {
+      "from": "SEP490",
+      "to": "PMG201c"
+    },
+    {
+      "from": "SEP490",
+      "to": "PMG202c"
+    },
+    {
+      "from": "SEP490",
+      "to": "SWD391"
+    },
+    {
+      "from": "SEP490",
+      "to": "SWD392"
+    },
+    {
+      "from": "SEP490",
+      "to": "SWP391"
+    },
+    {
+      "from": "SEP490",
+      "to": "JPD133"
+    },
+    {
+      "from": "SEP490",
+      "to": "SWE102"
+    },
+    {
+      "from": "SEP490",
+      "to": "SWE201"
+    },
+    {
+      "from": "SEP490",
+      "to": "SWE201c"
+    },
+    {
+      "from": "SEP490",
+      "to": "PRO192"
+    },
+    {
+      "from": "SEP490",
+      "to": "SWE202c"
+    },
+    {
+      "from": "SEP490",
+      "to": "LAB211"
+    },
+    {
+      "from": "SEP490",
+      "to": "PRJ301"
+    },
+    {
+      "from": "SEP490",
+      "to": "JPD123"
+    },
+    {
+      "from": "SEP490",
+      "to": "PRF192"
+    },
+    {
+      "from": "SEP490",
+      "to": "DBI202"
+    },
+    {
+      "from": "SEP490",
+      "to": "JPD113"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD133"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD123"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD113"
+    },
+    {
+      "from": "SWD391",
+      "to": "SWE102"
+    },
+    {
+      "from": "SWD391",
+      "to": "SWE201"
+    },
+    {
+      "from": "SWD391",
+      "to": "SWE201c"
+    },
+    {
+      "from": "SWD391",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWD391",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWD392",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWD392",
+      "to": "SWE201"
+    },
+    {
+      "from": "SWD392",
+      "to": "SWE201c"
+    },
+    {
+      "from": "SWD392",
+      "to": "SWE202c"
+    },
+    {
+      "from": "SWD392",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWP391",
+      "to": "LAB211"
+    },
+    {
+      "from": "SWP391",
+      "to": "PRJ301"
+    },
+    {
+      "from": "SWP391",
+      "to": "SWE201"
+    },
+    {
+      "from": "SWP391",
+      "to": "SWE201c"
+    },
+    {
+      "from": "SWP391",
+      "to": "SWE202c"
+    },
+    {
+      "from": "SWP391",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWP391",
+      "to": "DBI202"
+    },
+    {
+      "from": "SWP391",
+      "to": "PRF192"
+    },
+    {
+      "from": "JPD133",
+      "to": "JPD123"
+    },
+    {
+      "from": "JPD133",
+      "to": "JPD113"
+    },
+    {
+      "from": "SWE102",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE102",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWE202c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE202c",
+      "to": "PRF192"
+    },
+    {
+      "from": "LAB211",
+      "to": "PRO192"
+    },
+    {
+      "from": "LAB211",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRJ301",
+      "to": "DBI202"
+    },
+    {
+      "from": "PRJ301",
+      "to": "PRO192"
+    },
+    {
+      "from": "PRJ301",
+      "to": "PRF192"
+    },
+    {
+      "from": "JPD123",
+      "to": "JPD113"
+    }
+  ],
+  "names": {
+    "PMG202c": "Project management_Quản trị dự án",
+    "SWE102": "Introduction to Software Engineering",
+    "SEP490": "SE Capstone Project_Đồ án tốt nghiệp KTPM",
+    "DBI202": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+    "SWE201c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "SWD392": "Software Architecture and Design_Kiến trúc và thiết kế phần mềm",
+    "PMG201": "",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "JPD113": "Elementary Japanese 1- A1.1_Tiếng Nhật sơ cấp 1-A1.1",
+    "SWP391": "Software development project_Dự án phát triển phần mềm",
+    "SWE201": "",
+    "SWE202c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+    "OJT202": "On-The-Job Training_Đào tạo trong môi trường thực tế",
+    "LAB211": "OOP with Java Lab_Thực hành OOP với Java",
+    "JPD123": "Elementary Japanese 1-A1.2_Tiếng Nhật sơ cấp 1-A1.2",
+    "JPD133": "Elementary Japanese  1-A1/A2_Tiếng Nhật sơ cấp 1-A1/A2",
+    "PMG201c": "Project Management",
+    "SWD391": "Software Architecture and Design",
+    "PRJ301": "Java Web Application Development_Phát triển ứng dụng Java web"
+  }
+}

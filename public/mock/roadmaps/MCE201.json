@@ -1,0 +1,18 @@
+{
+  "code": "MCE201",
+  "subjectName": "Kỹ thuật đo lường và điều khiển_Measurement and Control Engineering",
+  "directPrereqs": [
+    "EEI101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "MCE201",
+      "to": "EEI101"
+    }
+  ],
+  "names": {
+    "EEI101": "Nhập môn kỹ thuật điện-điện tử_Introduction to Electrical-Electronics Engineering",
+    "MCE201": "Kỹ thuật đo lường và điều khiển_Measurement and Control Engineering"
+  }
+}

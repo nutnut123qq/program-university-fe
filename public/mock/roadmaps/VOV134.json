@@ -1,0 +1,28 @@
+{
+  "code": "VOV134",
+  "subjectName": "Vovinam 3",
+  "directPrereqs": [
+    "VOV124",
+    "VOV114"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "VOV134",
+      "to": "VOV124"
+    },
+    {
+      "from": "VOV134",
+      "to": "VOV114"
+    },
+    {
+      "from": "VOV124",
+      "to": "VOV114"
+    }
+  ],
+  "names": {
+    "VOV114": "Vovinam 1",
+    "VOV134": "Vovinam 3",
+    "VOV124": "Vovinam 2"
+  }
+}

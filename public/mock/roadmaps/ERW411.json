@@ -1,0 +1,69 @@
+{
+  "code": "ERW411",
+  "subjectName": "Read Think Write 1_Kỹ năng tư duy Đọc - Viết 1",
+  "directPrereqs": [
+    "EAW221",
+    "ECR201",
+    "EAW211"
+  ],
+  "unlocks": [
+    "EIP401",
+    "EIT401",
+    "ELP491",
+    "ELR301",
+    "ELT301",
+    "ELT302",
+    "ELT401",
+    "ELT402",
+    "ELT492",
+    "EOB301",
+    "EPC301",
+    "EPS301",
+    "ERW421",
+    "ERW422",
+    "ETP401",
+    "ETS401",
+    "ETT301"
+  ],
+  "edges": [
+    {
+      "from": "ERW411",
+      "to": "EAW221"
+    },
+    {
+      "from": "ERW411",
+      "to": "ECR201"
+    },
+    {
+      "from": "ERW411",
+      "to": "EAW211"
+    },
+    {
+      "from": "EAW221",
+      "to": "EAW211"
+    }
+  ],
+  "names": {
+    "EAW211": "English Academic Writing 1_Tiếng Anh \bViết học thuật 1",
+    "EOB301": "Outcome-based Course Design in English Language Teaching_Thiết kế khoá học theo chuẩn đầu ra trong giảng dạy ngôn ngữ Anh",
+    "ECR201": "Critical Reading_Đọc Hiểu",
+    "ELT302": "Biên dịch tiếng Anh 1\nEnglish Translation 1",
+    "ETP401": "Language Teaching Practice_Thực hành giảng dạy ngôn ngữ",
+    "ELT492": "Graduation Thesis - English Studies_Khóa luận tốt nghiệp",
+    "ELT402": "Biên dịch tiếng Anh 2\nEnglish Translation 2",
+    "EPS301": "Nghiệp vụ biên – phiên dịch",
+    "ELR301": "Research Methods_Phương pháp nghiên cứu",
+    "ELP491": "Graduation Project – English Studies_Đồ án tốt nghiệp",
+    "EPC301": "Persuasive Communication_Giao tiếp để thuyết phục",
+    "ETS401": "Biên dịch tiếng Anh chuyên ngành",
+    "EIT401": "English Translation and Interpretation in Tourism_Biên – phiên dịch tiếng Anh du lịch",
+    "ERW411": "Read Think Write 1_Kỹ năng tư duy Đọc - Viết 1",
+    "ERW422": "Kỹ năng tư duy Đọc – Viết tiếng Anh 2\t\nEnglish Read-Think-Write 2",
+    "EIP401": "Phiên dịch tiếng Anh cho dịch vụ công",
+    "ELT401": "Translation 2_Biên dịch 2",
+    "ETT301": "Understanding Language Testing_Phương pháp đánh giá năng lực ngôn ngữ",
+    "ERW421": "Read Think Write 2_Kỹ năng tư duy Đọc - Viết 2",
+    "ELT301": "Translation 1_Biên dịch 1",
+    "EAW221": "English Academic Writing 2_Tiếng Anh Viết học thuật 2"
+  }
+}

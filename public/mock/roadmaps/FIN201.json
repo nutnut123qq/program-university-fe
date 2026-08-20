@@ -1,0 +1,33 @@
+{
+  "code": "FIN201",
+  "subjectName": "Monetary Economics and Global Economy_Kinh tế tiền tệ và kinh tế toàn cầu",
+  "directPrereqs": [
+    "ECO121",
+    "ECO111"
+  ],
+  "unlocks": [
+    "BKG201",
+    "BKG301"
+  ],
+  "edges": [
+    {
+      "from": "FIN201",
+      "to": "ECO121"
+    },
+    {
+      "from": "FIN201",
+      "to": "ECO111"
+    },
+    {
+      "from": "ECO121",
+      "to": "ECO111"
+    }
+  ],
+  "names": {
+    "ECO111": "Microeconomics_Kinh tế vi mô",
+    "BKG301": "Bank Management",
+    "FIN201": "Monetary Economics and Global Economy_Kinh tế tiền tệ và kinh tế toàn cầu",
+    "ECO121": "Macroeconomics_Kinh tế vĩ mô",
+    "BKG201": "Principles of Banking"
+  }
+}

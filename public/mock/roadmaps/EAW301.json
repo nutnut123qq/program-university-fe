@@ -1,0 +1,37 @@
+{
+  "code": "EAW301",
+  "subjectName": "Viết tiếng Anh học thuật \nAcademic English Writing",
+  "directPrereqs": [
+    "ENG303"
+  ],
+  "unlocks": [
+    "ECW401",
+    "ELA301",
+    "ELP491",
+    "ELT492",
+    "ENB302",
+    "ERW412",
+    "ERW413",
+    "ERW423",
+    "ETT301"
+  ],
+  "edges": [
+    {
+      "from": "EAW301",
+      "to": "ENG303"
+    }
+  ],
+  "names": {
+    "ECW401": "Creative Writing in English_Viết sáng tạo trong Tiếng Anh",
+    "ERW412": "Kỹ năng tư duy Đọc – Viết tiếng Anh 1\t\nEnglish Read-Think-Write 1",
+    "ENG303": "Ngữ pháp tiếng Anh nâng cao",
+    "ETT301": "Understanding Language Testing_Phương pháp đánh giá năng lực ngôn ngữ",
+    "ERW423": "Kỹ năng viết nghiên cứu tiếng Anh 2\nEnglish Research Writing Skills 2",
+    "EAW301": "Viết tiếng Anh học thuật \nAcademic English Writing",
+    "ELT492": "Graduation Thesis - English Studies_Khóa luận tốt nghiệp",
+    "ERW413": "Kỹ năng viết nghiên cứu tiếng Anh 1\t\nEnglish Research Writing Skills 1",
+    "ELA301": "English literary analysis_Phân tích văn học Tiếng Anh",
+    "ENB302": "Viết tiếng Anh trong kinh doanh\nBusiness English Writing",
+    "ELP491": "Graduation Project – English Studies_Đồ án tốt nghiệp"
+  }
+}

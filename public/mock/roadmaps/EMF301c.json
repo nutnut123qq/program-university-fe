@@ -1,0 +1,24 @@
+{
+  "code": "EMF301c",
+  "subjectName": "Electromagnetic Field Theory and Microwave Fundamental_Lý thuyết trường điện từ và siêu cao tần",
+  "directPrereqs": [
+    "SDI101",
+    "SDI101m"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "EMF301c",
+      "to": "SDI101"
+    },
+    {
+      "from": "EMF301c",
+      "to": "SDI101m"
+    }
+  ],
+  "names": {
+    "EMF301c": "Electromagnetic Field Theory and Microwave Fundamental_Lý thuyết trường điện từ và siêu cao tần",
+    "SDI101m": "Introduction to Semiconductor Devices_Nhập môn thiết bị bán dẫn",
+    "SDI101": ""
+  }
+}

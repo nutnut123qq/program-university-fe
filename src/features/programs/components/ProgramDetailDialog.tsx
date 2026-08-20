@@ -18,6 +18,7 @@ import {
     Printer,
     Search,
     Filter,
+    ChevronRight,
 } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import { useTranslations } from "next-intl"
@@ -27,11 +28,12 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 
 import { fetchCurricula, fetchRawDocuments, fetchRawDocumentText } from "../api"
-import { Program, RawDocument } from "../types"
+import { Curriculum, Program, RawDocument } from "../types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 import { PrerequisiteGraph } from "./PrerequisiteGraph"
 import { GpaPlanner } from "./GpaPlanner"
 import { KnowledgeBlockBreakdown } from "./KnowledgeBlockBreakdown"
+import { SyllabusDetailModal } from "./SyllabusDetailModal"
 import { exportProgramToCsv, exportProgramToJson } from "@/lib/exportUtils"
 
 interface ProgramDetailDialogProps {
@@ -41,6 +43,20 @@ interface ProgramDetailDialogProps {
 }
 
 type TabKey = "info" | "curriculum" | "graph" | "gpa" | "raw" | "eval"
+
+function extractCohorts(code?: string | null, name?: string | null): string[] {
+    const text = `${code || ""} ${name || ""}`
+    const matches = text.match(/\bK\d{2}[A-D]?\b/gi)
+    if (!matches) return []
+    return Array.from(new Set(matches.map((m) => m.toUpperCase())))
+}
+
+function extractSpecialization(name?: string | null): string | null {
+    if (!name) return null
+    const m = name.match(/chuy[êe]n\s+ng[àa]nh\s+([^(_,\n]+)/i)
+    if (m) return m[1].trim()
+    return null
+}
 
 function formatBytes(bytes: number): string {
     if (bytes === 0) return "0 B"
@@ -109,6 +125,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     const [viewingDocId, setViewingDocId] = useState<string | null>(null)
     const [courseSearch, setCourseSearch] = useState("")
     const [semesterFilter, setSemesterFilter] = useState<string>("all")
+    const [selectedCourseForSyllabus, setSelectedCourseForSyllabus] = useState<Curriculum | null>(null)
 
     const { data: courses, error, isLoading } = useSWR(
         program ? ["curricula", program.id] : null,
@@ -124,6 +141,9 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         viewingDocId ? ["raw-document-text", viewingDocId] : null,
         () => (viewingDocId ? fetchRawDocumentText(viewingDocId) : null)
     )
+
+    const cohorts = useMemo(() => extractCohorts(program?.code, program?.name), [program])
+    const specialization = useMemo(() => extractSpecialization(program?.name), [program])
 
     // Instant Course Search & Semester Filter
     const filteredCourses = useMemo(() => {
@@ -179,9 +199,19 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                 <div className="space-y-1 min-w-0">
                                     <h2 className="text-2xl font-bold truncate">{program.name}</h2>
                                     <p className="text-muted-foreground">{program.universityName}</p>
-                                    <div className="flex flex-wrap gap-2 pt-2">
+                                    <div className="flex flex-wrap items-center gap-2 pt-2">
                                         {program.degreeType && (
                                             <Badge variant="secondary">{program.degreeType}</Badge>
+                                        )}
+                                        {cohorts.map((c) => (
+                                            <Badge key={c} className="font-mono text-xs font-bold bg-primary/10 text-primary border-primary/20 hover:bg-primary/20">
+                                                Khóa {c}
+                                            </Badge>
+                                        ))}
+                                        {specialization && (
+                                            <Badge variant="outline" className="text-xs bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border-indigo-500/20">
+                                                CN: {specialization}
+                                            </Badge>
                                         )}
                                         {program.credits && (
                                             <Badge variant="outline">
@@ -403,20 +433,38 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                     </thead>
                                                     <tbody className="divide-y">
                                                         {filteredCourses.map((course) => (
-                                                            <tr key={course.id} className="hover:bg-muted/30">
-                                                                <td className="px-4 py-2 text-muted-foreground font-mono text-xs">
-                                                                    {course.courseCode || "—"}
+                                                            <tr
+                                                                key={course.id}
+                                                                onClick={() => setSelectedCourseForSyllabus(course)}
+                                                                className="hover:bg-muted/50 cursor-pointer transition-colors group"
+                                                            >
+                                                                <td className="px-4 py-2.5 text-muted-foreground font-mono text-xs">
+                                                                    <span className="font-bold text-foreground group-hover:text-primary transition-colors">
+                                                                        {course.courseCode || "—"}
+                                                                    </span>
                                                                 </td>
-                                                                <td className="px-4 py-2 font-medium">{course.courseName}</td>
-                                                                <td className="px-4 py-2 text-center font-mono text-xs">
+                                                                <td className="px-4 py-2.5 font-medium">
+                                                                    <div className="flex items-center justify-between gap-2">
+                                                                        <span>{course.courseName}</span>
+                                                                        <span className="opacity-0 group-hover:opacity-100 text-[11px] text-primary flex items-center font-normal transition-opacity shrink-0">
+                                                                            Xem đề cương <ChevronRight className="w-3 h-3 ml-0.5" />
+                                                                        </span>
+                                                                    </div>
+                                                                    {course.prerequisites && (
+                                                                        <div className="text-[11px] text-muted-foreground font-mono mt-0.5">
+                                                                            TQ: {course.prerequisites}
+                                                                        </div>
+                                                                    )}
+                                                                </td>
+                                                                <td className="px-4 py-2.5 text-center font-mono text-xs">
                                                                     HK{course.semester || 1}
                                                                 </td>
-                                                                <td className="px-4 py-2">
+                                                                <td className="px-4 py-2.5">
                                                                     <Badge variant="outline" className="text-[10px] font-mono">
                                                                         {course.knowledgeBlock || "Chuyên ngành"}
                                                                     </Badge>
                                                                 </td>
-                                                                <td className="px-4 py-2 text-right font-mono font-bold text-primary">
+                                                                <td className="px-4 py-2.5 text-right font-mono font-bold text-primary">
                                                                     {course.credits ?? 3} TC
                                                                 </td>
                                                             </tr>
@@ -435,7 +483,10 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
                                             </div>
                                         ) : (
-                                            <PrerequisiteGraph courses={courses || []} />
+                                            <PrerequisiteGraph
+                                                courses={courses || []}
+                                                onSelectCourseForSyllabus={setSelectedCourseForSyllabus}
+                                            />
                                         )}
                                     </div>
                                 )}
@@ -601,6 +652,27 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                             </div>
                         </div>
                     </motion.div>
+
+                    <SyllabusDetailModal
+                        course={selectedCourseForSyllabus}
+                        open={!!selectedCourseForSyllabus}
+                        onClose={() => setSelectedCourseForSyllabus(null)}
+                        onSelectCourseCode={(code) => {
+                            const target = courses?.find(
+                                (c) => (c.courseCode || "").toLowerCase() === code.toLowerCase()
+                            )
+                            if (target) {
+                                setSelectedCourseForSyllabus(target)
+                            } else if (selectedCourseForSyllabus) {
+                                setSelectedCourseForSyllabus({
+                                    ...selectedCourseForSyllabus,
+                                    courseCode: code,
+                                    courseName: code,
+                                    id: code,
+                                })
+                            }
+                        }}
+                    />
                 </>
             )}
         </AnimatePresence>

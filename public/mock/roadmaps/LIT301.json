@@ -1,0 +1,39 @@
+{
+  "code": "LIT301",
+  "subjectName": "British & American Literature_Văn học Anh & Mỹ",
+  "directPrereqs": [
+    "EAW221",
+    "ECR201",
+    "EAW211"
+  ],
+  "unlocks": [
+    "ECW401",
+    "ELA301"
+  ],
+  "edges": [
+    {
+      "from": "LIT301",
+      "to": "EAW221"
+    },
+    {
+      "from": "LIT301",
+      "to": "ECR201"
+    },
+    {
+      "from": "LIT301",
+      "to": "EAW211"
+    },
+    {
+      "from": "EAW221",
+      "to": "EAW211"
+    }
+  ],
+  "names": {
+    "EAW211": "English Academic Writing 1_Tiếng Anh \bViết học thuật 1",
+    "ECW401": "Creative Writing in English_Viết sáng tạo trong Tiếng Anh",
+    "LIT301": "British & American Literature_Văn học Anh & Mỹ",
+    "ECR201": "Critical Reading_Đọc Hiểu",
+    "ELA301": "English literary analysis_Phân tích văn học Tiếng Anh",
+    "EAW221": "English Academic Writing 2_Tiếng Anh Viết học thuật 2"
+  }
+}

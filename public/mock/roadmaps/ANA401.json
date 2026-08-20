@@ -1,0 +1,43 @@
+{
+  "code": "ANA401",
+  "subjectName": "3D Character Animation_Tạo chuyển động trong môi trường 3D",
+  "directPrereqs": [
+    "AMR401",
+    "AMR402",
+    "ANR401",
+    "ANR402"
+  ],
+  "unlocks": [
+    "3DP491",
+    "GDP491",
+    "GDP492"
+  ],
+  "edges": [
+    {
+      "from": "ANA401",
+      "to": "AMR401"
+    },
+    {
+      "from": "ANA401",
+      "to": "AMR402"
+    },
+    {
+      "from": "ANA401",
+      "to": "ANR401"
+    },
+    {
+      "from": "ANA401",
+      "to": "ANR402"
+    }
+  ],
+  "names": {
+    "ANR401": "Introduction to Rigging _Tạo khung xương và bộ điều khiển cho nhân vật",
+    "ANA401": "3D Character Animation_Tạo chuyển động trong môi trường 3D",
+    "ANR402": "3D Rigging_Tạo khung xương và bộ điều khiển cho nhân vật",
+    "AMR402": "3D Character Design_Thiết kế nhân vật 3D",
+    "3DP491": "Digital project 3D_Dự án kỹ thuật số 3D",
+    "AMR401": "3D Modeling & Rigging_Xây dựng mô hình và tạo hệ thống khung xương trong môi trường 3D",
+    "GDP492": "Capstone Project Graphic Design - Animation _ Đồ án tốt nghiệp ngành thiết kế mỹ thuật số - Hoạt hình",
+    "GDP491": "Capstone Project Graphic Design_Đồ án tốt nghiệp Thiết kế mỹ thuật số"
+  }
+}

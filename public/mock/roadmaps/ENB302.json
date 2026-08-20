@@ -1,0 +1,59 @@
+{
+  "code": "ENB302",
+  "subjectName": "Viết tiếng Anh trong kinh doanh\nBusiness English Writing",
+  "directPrereqs": [
+    "EAW221",
+    "EAW222",
+    "EAW301",
+    "EAW211",
+    "ENG303"
+  ],
+  "unlocks": [
+    "ELP491",
+    "ELT492"
+  ],
+  "edges": [
+    {
+      "from": "ENB302",
+      "to": "EAW221"
+    },
+    {
+      "from": "ENB302",
+      "to": "EAW222"
+    },
+    {
+      "from": "ENB302",
+      "to": "EAW301"
+    },
+    {
+      "from": "ENB302",
+      "to": "EAW211"
+    },
+    {
+      "from": "ENB302",
+      "to": "ENG303"
+    },
+    {
+      "from": "EAW221",
+      "to": "EAW211"
+    },
+    {
+      "from": "EAW222",
+      "to": "EAW211"
+    },
+    {
+      "from": "EAW301",
+      "to": "ENG303"
+    }
+  ],
+  "names": {
+    "EAW211": "English Academic Writing 1_Tiếng Anh \bViết học thuật 1",
+    "EAW222": "Viết tiếng Anh học thuật 2\nAcademic English Writing 2",
+    "ENG303": "Ngữ pháp tiếng Anh nâng cao",
+    "ELP491": "Graduation Project – English Studies_Đồ án tốt nghiệp",
+    "ELT492": "Graduation Thesis - English Studies_Khóa luận tốt nghiệp",
+    "EAW301": "Viết tiếng Anh học thuật \nAcademic English Writing",
+    "ENB302": "Viết tiếng Anh trong kinh doanh\nBusiness English Writing",
+    "EAW221": "English Academic Writing 2_Tiếng Anh Viết học thuật 2"
+  }
+}

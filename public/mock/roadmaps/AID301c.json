@@ -1,0 +1,116 @@
+{
+  "code": "AID301c",
+  "subjectName": "AI in Production_Thiết kế sản phẩm TTNT",
+  "directPrereqs": [
+    "AIL303m",
+    "SWE201",
+    "SWE201c",
+    "MAI391",
+    "MAS291",
+    "PFP191",
+    "PRO192",
+    "MAE101",
+    "MAC101",
+    "PRF192"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "AID301c",
+      "to": "AIL303m"
+    },
+    {
+      "from": "AID301c",
+      "to": "SWE201"
+    },
+    {
+      "from": "AID301c",
+      "to": "SWE201c"
+    },
+    {
+      "from": "AID301c",
+      "to": "MAI391"
+    },
+    {
+      "from": "AID301c",
+      "to": "MAS291"
+    },
+    {
+      "from": "AID301c",
+      "to": "PFP191"
+    },
+    {
+      "from": "AID301c",
+      "to": "PRO192"
+    },
+    {
+      "from": "AID301c",
+      "to": "MAE101"
+    },
+    {
+      "from": "AID301c",
+      "to": "MAC101"
+    },
+    {
+      "from": "AID301c",
+      "to": "PRF192"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAI391"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAS291"
+    },
+    {
+      "from": "AIL303m",
+      "to": "PFP191"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAE101"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAC101"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRF192"
+    },
+    {
+      "from": "MAI391",
+      "to": "MAE101"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAC101"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAE101"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PFP191": "Programming Fundamentals with Python_Cơ sở lập trình với Python",
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "MAI391": "Mathematics for Machine Learning_Toán cho học máy",
+    "SWE201": "",
+    "MAC101": "Advanced Mathematics 1",
+    "MAE101": "Mathematics for Engineering_Toán cho ngành kỹ thuật",
+    "AIL303m": "Machine Learning_Học máy",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "MAS291": "Statistics & Probability_Xác suất thống kê",
+    "SWE201c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+    "AID301c": "AI in Production_Thiết kế sản phẩm TTNT"
+  }
+}

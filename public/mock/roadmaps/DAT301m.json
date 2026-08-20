@@ -1,0 +1,134 @@
+{
+  "code": "DAT301m",
+  "subjectName": "AI Development with TensorFlow_Phát triển UDTTNT với TensorFlow",
+  "directPrereqs": [
+    "CPV301",
+    "DPL302m",
+    "CSD203",
+    "PFP191",
+    "AIL303m",
+    "MAI391",
+    "MAS291",
+    "MAE101",
+    "MAC101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "DAT301m",
+      "to": "CPV301"
+    },
+    {
+      "from": "DAT301m",
+      "to": "DPL302m"
+    },
+    {
+      "from": "DAT301m",
+      "to": "CSD203"
+    },
+    {
+      "from": "DAT301m",
+      "to": "PFP191"
+    },
+    {
+      "from": "DAT301m",
+      "to": "AIL303m"
+    },
+    {
+      "from": "DAT301m",
+      "to": "MAI391"
+    },
+    {
+      "from": "DAT301m",
+      "to": "MAS291"
+    },
+    {
+      "from": "DAT301m",
+      "to": "MAE101"
+    },
+    {
+      "from": "DAT301m",
+      "to": "MAC101"
+    },
+    {
+      "from": "CPV301",
+      "to": "CSD203"
+    },
+    {
+      "from": "CPV301",
+      "to": "PFP191"
+    },
+    {
+      "from": "DPL302m",
+      "to": "AIL303m"
+    },
+    {
+      "from": "DPL302m",
+      "to": "MAI391"
+    },
+    {
+      "from": "DPL302m",
+      "to": "MAS291"
+    },
+    {
+      "from": "DPL302m",
+      "to": "PFP191"
+    },
+    {
+      "from": "DPL302m",
+      "to": "MAE101"
+    },
+    {
+      "from": "DPL302m",
+      "to": "MAC101"
+    },
+    {
+      "from": "CSD203",
+      "to": "PFP191"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAI391"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAS291"
+    },
+    {
+      "from": "AIL303m",
+      "to": "PFP191"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAE101"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAC101"
+    },
+    {
+      "from": "MAI391",
+      "to": "MAE101"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAC101"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAE101"
+    }
+  ],
+  "names": {
+    "PFP191": "Programming Fundamentals with Python_Cơ sở lập trình với Python",
+    "DPL302m": "Deep Learning_Học sâu",
+    "MAI391": "Mathematics for Machine Learning_Toán cho học máy",
+    "CSD203": "Data Structures and Algorithm with Python_Cấu trúc dữ liệu và giải thuật với Python",
+    "MAC101": "Advanced Mathematics 1",
+    "MAE101": "Mathematics for Engineering_Toán cho ngành kỹ thuật",
+    "AIL303m": "Machine Learning_Học máy",
+    "CPV301": "Computer Vision_Thị giác máy tính",
+    "DAT301m": "AI Development with TensorFlow_Phát triển UDTTNT với TensorFlow",
+    "MAS291": "Statistics & Probability_Xác suất thống kê"
+  }
+}

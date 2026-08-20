@@ -1,0 +1,23 @@
+{
+  "code": "MCP201",
+  "subjectName": "Microcontroller Programming_Lập trình Vi Điều Khiển",
+  "directPrereqs": [
+    "PRF193"
+  ],
+  "unlocks": [
+    "CDP301",
+    "PCI201"
+  ],
+  "edges": [
+    {
+      "from": "MCP201",
+      "to": "PRF193"
+    }
+  ],
+  "names": {
+    "PRF193": "Programming Fundamentals_Cơ sở lập trình",
+    "MCP201": "Microcontroller Programming_Lập trình Vi Điều Khiển",
+    "PCI201": "Peripheral Control & Interfacing_Điều khiển và ghép nối thiết bị ngoại vi",
+    "CDP301": "Circuit Design Project_Dự án thiết kế mạch"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "code": "CSD202",
+  "subjectName": "Data structures and algorithms (In C++)",
+  "directPrereqs": [
+    "PCP291",
+    "PRF193",
+    "PRF192"
+  ],
+  "unlocks": [
+    "AIG201",
+    "AIL301",
+    "AIP391",
+    "CSD301",
+    "DBM301_old"
+  ],
+  "edges": [
+    {
+      "from": "CSD202",
+      "to": "PCP291"
+    },
+    {
+      "from": "CSD202",
+      "to": "PRF193"
+    },
+    {
+      "from": "CSD202",
+      "to": "PRF192"
+    },
+    {
+      "from": "PCP291",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "AIL301": "Machine Learning",
+    "AIP391": "AI programming project_Dự án lập trình TTNT",
+    "AIG201": "Artificial Intelligence",
+    "CSD202": "Data structures and algorithms (In C++)",
+    "CSD301": "Advanced Algorithms_Giải thuật nâng cao",
+    "PCP291": "C++ Programming_Lập trình C++",
+    "PRF193": "Programming Fundamentals_Cơ sở lập trình",
+    "DBM301_old": "Data mining"
+  }
+}

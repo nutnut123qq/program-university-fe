@@ -1,0 +1,216 @@
+{
+  "code": "ISP490",
+  "subjectName": "IS Capstone Project_Đồ án tốt nghiệp hệ thống thông tin",
+  "directPrereqs": [
+    "ISP392",
+    "ITA301",
+    "OJT202",
+    "PMG201",
+    "PMG201c",
+    "PMG202c",
+    "LAB211",
+    "PRJ302",
+    "SWE201",
+    "SWE201c",
+    "DBI202",
+    "ITA203",
+    "ITA203c",
+    "JPD133",
+    "PRO192",
+    "JPD123",
+    "PRF192",
+    "JPD113"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "ISP490",
+      "to": "ISP392"
+    },
+    {
+      "from": "ISP490",
+      "to": "ITA301"
+    },
+    {
+      "from": "ISP490",
+      "to": "OJT202"
+    },
+    {
+      "from": "ISP490",
+      "to": "PMG201"
+    },
+    {
+      "from": "ISP490",
+      "to": "PMG201c"
+    },
+    {
+      "from": "ISP490",
+      "to": "PMG202c"
+    },
+    {
+      "from": "ISP490",
+      "to": "LAB211"
+    },
+    {
+      "from": "ISP490",
+      "to": "PRJ302"
+    },
+    {
+      "from": "ISP490",
+      "to": "SWE201"
+    },
+    {
+      "from": "ISP490",
+      "to": "SWE201c"
+    },
+    {
+      "from": "ISP490",
+      "to": "DBI202"
+    },
+    {
+      "from": "ISP490",
+      "to": "ITA203"
+    },
+    {
+      "from": "ISP490",
+      "to": "ITA203c"
+    },
+    {
+      "from": "ISP490",
+      "to": "JPD133"
+    },
+    {
+      "from": "ISP490",
+      "to": "PRO192"
+    },
+    {
+      "from": "ISP490",
+      "to": "JPD123"
+    },
+    {
+      "from": "ISP490",
+      "to": "PRF192"
+    },
+    {
+      "from": "ISP490",
+      "to": "JPD113"
+    },
+    {
+      "from": "ISP392",
+      "to": "LAB211"
+    },
+    {
+      "from": "ISP392",
+      "to": "PRJ302"
+    },
+    {
+      "from": "ISP392",
+      "to": "SWE201"
+    },
+    {
+      "from": "ISP392",
+      "to": "SWE201c"
+    },
+    {
+      "from": "ISP392",
+      "to": "PRO192"
+    },
+    {
+      "from": "ISP392",
+      "to": "DBI202"
+    },
+    {
+      "from": "ISP392",
+      "to": "PRF192"
+    },
+    {
+      "from": "ITA301",
+      "to": "DBI202"
+    },
+    {
+      "from": "ITA301",
+      "to": "ITA203"
+    },
+    {
+      "from": "ITA301",
+      "to": "ITA203c"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD133"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD123"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD113"
+    },
+    {
+      "from": "LAB211",
+      "to": "PRO192"
+    },
+    {
+      "from": "LAB211",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRJ302",
+      "to": "DBI202"
+    },
+    {
+      "from": "PRJ302",
+      "to": "PRO192"
+    },
+    {
+      "from": "PRJ302",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRF192"
+    },
+    {
+      "from": "JPD133",
+      "to": "JPD123"
+    },
+    {
+      "from": "JPD133",
+      "to": "JPD113"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    },
+    {
+      "from": "JPD123",
+      "to": "JPD113"
+    }
+  ],
+  "names": {
+    "PMG202c": "Project management_Quản trị dự án",
+    "ITA203": "",
+    "DBI202": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+    "SWE201c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+    "PRJ302": "Java Web Application Development_Phát triển ứng dụng Java web",
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "PMG201": "",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "ISP392": "Information System Programming Project_Dự án lập trình HTTT",
+    "JPD113": "Elementary Japanese 1- A1.1_Tiếng Nhật sơ cấp 1-A1.1",
+    "SWE201": "",
+    "ISP490": "IS Capstone Project_Đồ án tốt nghiệp hệ thống thông tin",
+    "ITA301": "Information System Design & Analysis_Phân tích thiết kế HTTT",
+    "ITA203c": "Information System Overview/Nhập môn hệ thống thông tin",
+    "OJT202": "On-The-Job Training_Đào tạo trong môi trường thực tế",
+    "LAB211": "OOP with Java Lab_Thực hành OOP với Java",
+    "JPD123": "Elementary Japanese 1-A1.2_Tiếng Nhật sơ cấp 1-A1.2",
+    "JPD133": "Elementary Japanese  1-A1/A2_Tiếng Nhật sơ cấp 1-A1/A2",
+    "PMG201c": "Project Management"
+  }
+}

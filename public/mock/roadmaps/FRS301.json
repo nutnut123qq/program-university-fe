@@ -1,0 +1,59 @@
+{
+  "code": "FRS301",
+  "subjectName": "Digital Forensics_Điều tra số",
+  "directPrereqs": [
+    "NWC202",
+    "NWC203",
+    "NWC203c",
+    "NWC204",
+    "OSG202"
+  ],
+  "unlocks": [
+    "FRS401",
+    "IAP491",
+    "IAP491t",
+    "IAR401",
+    "IAR401c",
+    "IAT491"
+  ],
+  "edges": [
+    {
+      "from": "FRS301",
+      "to": "NWC202"
+    },
+    {
+      "from": "FRS301",
+      "to": "NWC203"
+    },
+    {
+      "from": "FRS301",
+      "to": "NWC203c"
+    },
+    {
+      "from": "FRS301",
+      "to": "NWC204"
+    },
+    {
+      "from": "FRS301",
+      "to": "OSG202"
+    },
+    {
+      "from": "NWC202",
+      "to": "OSG202"
+    }
+  ],
+  "names": {
+    "FRS301": "Digital Forensics_Điều tra số",
+    "NWC204": "Computer Networking_Mạng máy tính",
+    "NWC203": "Computer Networking_Mạng máy tính",
+    "FRS401": "Network Forensics",
+    "IAP491t": "IA Graduation Project_Đồ án tốt nghiệp ATTT",
+    "OSG202": "Operating Systems_Hệ điều hành",
+    "IAP491": "IA Graduation Project_Đồ án tốt nghiệp ATTT",
+    "IAR401c": "Incident Response_Đối phó sự cố",
+    "NWC203c": "Computer Networking_Mạng máy tính",
+    "IAT491": "Graduate Project",
+    "IAR401": "Incident Response",
+    "NWC202": "Computer Networking"
+  }
+}

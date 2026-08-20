@@ -1,0 +1,74 @@
+{
+  "code": "DTA301",
+  "subjectName": "Data Analysis_Phân tích dữ liệu",
+  "directPrereqs": [
+    "CSD201",
+    "DBI202",
+    "MAS291",
+    "PRO192",
+    "MAC101",
+    "MAE101",
+    "PRF192"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "DTA301",
+      "to": "CSD201"
+    },
+    {
+      "from": "DTA301",
+      "to": "DBI202"
+    },
+    {
+      "from": "DTA301",
+      "to": "MAS291"
+    },
+    {
+      "from": "DTA301",
+      "to": "PRO192"
+    },
+    {
+      "from": "DTA301",
+      "to": "MAC101"
+    },
+    {
+      "from": "DTA301",
+      "to": "MAE101"
+    },
+    {
+      "from": "DTA301",
+      "to": "PRF192"
+    },
+    {
+      "from": "CSD201",
+      "to": "PRO192"
+    },
+    {
+      "from": "CSD201",
+      "to": "PRF192"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAC101"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAE101"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "MAC101": "Advanced Mathematics 1",
+    "MAE101": "Mathematics for Engineering_Toán cho ngành kỹ thuật",
+    "DTA301": "Data Analysis_Phân tích dữ liệu",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "MAS291": "Statistics & Probability_Xác suất thống kê",
+    "DBI202": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+    "CSD201": "Data Structures and Algorithms_Cấu trúc dữ liệu và giải thuật"
+  }
+}

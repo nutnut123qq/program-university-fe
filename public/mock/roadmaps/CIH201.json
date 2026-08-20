@@ -1,0 +1,18 @@
+{
+  "code": "CIH201",
+  "subjectName": "Contemporary issues in hotel and tourism management_Các vấn đề đương đại ngành khách sạn, du lịch",
+  "directPrereqs": [
+    "HMO102"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "CIH201",
+      "to": "HMO102"
+    }
+  ],
+  "names": {
+    "HMO102": "Introduction to Tourism & Hospitality industry_Tổng quan ngành Du lịch & Khách sạn",
+    "CIH201": "Contemporary issues in hotel and tourism management_Các vấn đề đương đại ngành khách sạn, du lịch"
+  }
+}

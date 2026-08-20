@@ -1,0 +1,199 @@
+{
+  "code": "ELI301",
+  "subjectName": "Interpretation 1_Phiên dịch 1",
+  "directPrereqs": [
+    "EAL201",
+    "ENT503",
+    "ENW401",
+    "LTG202",
+    "SSC302",
+    "SSC302c",
+    "ENT403",
+    "ENS312",
+    "ENS322",
+    "ENW301",
+    "ENT303",
+    "ENS212",
+    "ENS222",
+    "ENW201",
+    "ENT203",
+    "ENW101"
+  ],
+  "unlocks": [
+    "EIC301",
+    "EIP401",
+    "EIT401",
+    "ELI401",
+    "ELI402",
+    "ELP491",
+    "ELT492",
+    "EPS301",
+    "ETT301"
+  ],
+  "edges": [
+    {
+      "from": "ELI301",
+      "to": "EAL201"
+    },
+    {
+      "from": "ELI301",
+      "to": "ENT503"
+    },
+    {
+      "from": "ELI301",
+      "to": "ENW401"
+    },
+    {
+      "from": "ELI301",
+      "to": "LTG202"
+    },
+    {
+      "from": "ELI301",
+      "to": "SSC302"
+    },
+    {
+      "from": "ELI301",
+      "to": "SSC302c"
+    },
+    {
+      "from": "ELI301",
+      "to": "ENT403"
+    },
+    {
+      "from": "ELI301",
+      "to": "ENS312"
+    },
+    {
+      "from": "ELI301",
+      "to": "ENS322"
+    },
+    {
+      "from": "ELI301",
+      "to": "ENW301"
+    },
+    {
+      "from": "ELI301",
+      "to": "ENT303"
+    },
+    {
+      "from": "ELI301",
+      "to": "ENS212"
+    },
+    {
+      "from": "ELI301",
+      "to": "ENS222"
+    },
+    {
+      "from": "ELI301",
+      "to": "ENW201"
+    },
+    {
+      "from": "ELI301",
+      "to": "ENT203"
+    },
+    {
+      "from": "ELI301",
+      "to": "ENW101"
+    },
+    {
+      "from": "ENT503",
+      "to": "ENT403"
+    },
+    {
+      "from": "ENT503",
+      "to": "ENT303"
+    },
+    {
+      "from": "ENT503",
+      "to": "ENT203"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENS312"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENS322"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENW301"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENS212"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENS222"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENW201"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENW101"
+    },
+    {
+      "from": "ENT403",
+      "to": "ENT303"
+    },
+    {
+      "from": "ENT403",
+      "to": "ENT203"
+    },
+    {
+      "from": "ENW301",
+      "to": "ENS212"
+    },
+    {
+      "from": "ENW301",
+      "to": "ENS222"
+    },
+    {
+      "from": "ENW301",
+      "to": "ENW201"
+    },
+    {
+      "from": "ENW301",
+      "to": "ENW101"
+    },
+    {
+      "from": "ENT303",
+      "to": "ENT203"
+    },
+    {
+      "from": "ENW201",
+      "to": "ENW101"
+    }
+  ],
+  "names": {
+    "ENT203": "English 3 (Top Notch 2)_Tiếng Anh 3",
+    "SSC302c": "Advanced Presentation Skills_Kỹ năng thuyết trình nâng cao",
+    "ELI402": "Phiên dịch tiếng Anh 2\nEnglish Interpretation 2",
+    "ENW401": "Writing 4",
+    "EAL201": "Academic Listening_Nghe học thuật",
+    "LTG202": "Introduction to Linguistics_Dẫn luận ngôn ngữ",
+    "ENT303": "English 4 (Top Notch 3)_Tiếng Anh 4",
+    "ELT492": "Graduation Thesis - English Studies_Khóa luận tốt nghiệp",
+    "EPS301": "Nghiệp vụ biên – phiên dịch",
+    "ELP491": "Graduation Project – English Studies_Đồ án tốt nghiệp",
+    "ENT403": "English 5 (Summit 1)_Tiếng Anh 5",
+    "ENW201": "Writing 2",
+    "ENS322": "",
+    "ENS212": "",
+    "EIC301": "Intercultural Communication_Giao tiếp liên văn hoá",
+    "ENS222": "",
+    "ENT503": "English 6 (Summit 2)_Tiếng Anh 6",
+    "EIT401": "English Translation and Interpretation in Tourism_Biên – phiên dịch tiếng Anh du lịch",
+    "ELI301": "Interpretation 1_Phiên dịch 1",
+    "EIP401": "Phiên dịch tiếng Anh cho dịch vụ công",
+    "SSC302": "",
+    "ETT301": "Understanding Language Testing_Phương pháp đánh giá năng lực ngôn ngữ",
+    "ENW101": "Writing 1",
+    "ENW301": "Skillfull 3 - Writing 3",
+    "ELI401": "Interpretation 2_Phiên dịch 2",
+    "ENS312": ""
+  }
+}

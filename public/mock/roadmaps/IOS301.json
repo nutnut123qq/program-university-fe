@@ -1,0 +1,18 @@
+{
+  "code": "IOS301",
+  "subjectName": "IoT Security_Bảo mật IoT",
+  "directPrereqs": [
+    "MAD101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "IOS301",
+      "to": "MAD101"
+    }
+  ],
+  "names": {
+    "MAD101": "Discrete mathematics_Toán rời rạc",
+    "IOS301": "IoT Security_Bảo mật IoT"
+  }
+}

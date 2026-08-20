@@ -4,7 +4,7 @@ import React, { useSyncExternalStore } from "react"
 import { useTheme } from "next-themes"
 import { useRouter, usePathname, Link } from "@/i18n/navigation"
 import { Button } from "@/components/ui/button"
-import { Sun, Moon, Globe, BarChart3, GitCompare } from "lucide-react"
+import { Sun, Moon, Globe, BarChart3, GitCompare, GitFork, BookOpen } from "lucide-react"
 import { useLocale, useTranslations } from "next-intl"
 
 export const Navbar = () => {
@@ -40,13 +40,23 @@ export const Navbar = () => {
         <nav className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur">
             <div className="container mx-auto flex h-14 items-center justify-between">
                 <div className="flex items-center gap-6">
-                    <span className="font-bold text-lg text-primary">Tedo</span>
+                    <Link href="/" className="font-bold text-lg text-primary tracking-tight">
+                        Tedo
+                    </Link>
                     <div className="hidden md:flex items-center gap-5 text-sm">
                         <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
                             {t("home")}
                         </Link>
                         <Link href="/programs" className="text-muted-foreground hover:text-foreground transition-colors">
                             {t("courses")}
+                        </Link>
+                        <Link href="/roadmap" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors">
+                            <GitFork className="w-4 h-4 text-muted-foreground" />
+                            <span>{t("roadmap")}</span>
+                        </Link>
+                        <Link href="/materials" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors">
+                            <BookOpen className="w-4 h-4 text-muted-foreground" />
+                            <span>{t("materials")}</span>
                         </Link>
                         <Link href="/analytics" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors">
                             <BarChart3 className="w-4 h-4 text-muted-foreground" />

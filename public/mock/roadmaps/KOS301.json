@@ -1,0 +1,28 @@
+{
+  "code": "KOS301",
+  "subjectName": "Đất nước học Hàn Quốc",
+  "directPrereqs": [
+    "KRL122",
+    "KRL112"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "KOS301",
+      "to": "KRL122"
+    },
+    {
+      "from": "KOS301",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL122",
+      "to": "KRL112"
+    }
+  ],
+  "names": {
+    "KOS301": "Đất nước học Hàn Quốc",
+    "KRL112": "Elementary Korean 1_Tiếng Hàn sơ cấp 1",
+    "KRL122": "Elementary Korean 2_Tiếng Hàn sơ cấp 2"
+  }
+}

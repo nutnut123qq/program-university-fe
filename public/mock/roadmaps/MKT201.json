@@ -1,0 +1,23 @@
+{
+  "code": "MKT201",
+  "subjectName": "Consumer Behavior_Hành vi người tiêu dùng",
+  "directPrereqs": [
+    "MKT101"
+  ],
+  "unlocks": [
+    "GRM491",
+    "GRP490"
+  ],
+  "edges": [
+    {
+      "from": "MKT201",
+      "to": "MKT101"
+    }
+  ],
+  "names": {
+    "GRM491": "Graduation Thesis - Marketing_Khóa luận tốt nghiệp - Marketing",
+    "MKT201": "Consumer Behavior_Hành vi người tiêu dùng",
+    "MKT101": "Marketing Principles_Nguyên lý Marketing",
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)"
+  }
+}

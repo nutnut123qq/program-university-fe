@@ -1,0 +1,24 @@
+{
+  "code": "SSB201",
+  "subjectName": "Advanced Business Communication/Kỹ năng giao tiếp nâng cao trong kinh doanh",
+  "directPrereqs": [
+    "SSG103",
+    "SSG104"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "SSB201",
+      "to": "SSG103"
+    },
+    {
+      "from": "SSB201",
+      "to": "SSG104"
+    }
+  ],
+  "names": {
+    "SSG103": "Communication and In-Group Working Skills_Kỹ năng giao tiếp và cộng tác",
+    "SSB201": "Advanced Business Communication/Kỹ năng giao tiếp nâng cao trong kinh doanh",
+    "SSG104": "Communication and In-Group Working Skills_Kỹ năng giao tiếp và cộng tác"
+  }
+}

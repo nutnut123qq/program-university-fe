@@ -1,0 +1,39 @@
+{
+  "code": "BRA301",
+  "subjectName": "Brand Management_Quản trị thương hiệu",
+  "directPrereqs": [
+    "CCO201",
+    "MKG101",
+    "MKT101",
+    "MMK101"
+  ],
+  "unlocks": [
+    "GRA497"
+  ],
+  "edges": [
+    {
+      "from": "BRA301",
+      "to": "CCO201"
+    },
+    {
+      "from": "BRA301",
+      "to": "MKG101"
+    },
+    {
+      "from": "BRA301",
+      "to": "MKT101"
+    },
+    {
+      "from": "BRA301",
+      "to": "MMK101"
+    }
+  ],
+  "names": {
+    "GRA497": "Capstone Project Multimedia Communications_Đồ án tốt nghiệp_Truyền thông đa phương tiện",
+    "MKT101": "Marketing Principles_Nguyên lý Marketing",
+    "BRA301": "Brand Management_Quản trị thương hiệu",
+    "MMK101": "Management and Marketing_Nhập môn Quản trị và Marketing",
+    "MKG101": "Management and Marketing Principles_Nguyên lý Quản trị và Marketing",
+    "CCO201": "Corporate Communication_Truyền thông doanh nghiệp"
+  }
+}

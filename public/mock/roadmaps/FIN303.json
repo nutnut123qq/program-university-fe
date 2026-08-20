@@ -1,0 +1,45 @@
+{
+  "code": "FIN303",
+  "subjectName": "Advanced Corporate Finance_Tài chính doanh nghiệp nâng cao",
+  "directPrereqs": [
+    "FIN202",
+    "ACC101"
+  ],
+  "unlocks": [
+    "FIM301",
+    "FIM302c",
+    "FIN304",
+    "FIN403",
+    "FIN405c",
+    "FTM301",
+    "GRF491",
+    "GRP490"
+  ],
+  "edges": [
+    {
+      "from": "FIN303",
+      "to": "FIN202"
+    },
+    {
+      "from": "FIN303",
+      "to": "ACC101"
+    },
+    {
+      "from": "FIN202",
+      "to": "ACC101"
+    }
+  ],
+  "names": {
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "GRF491": "Graduation Thesis - Finance_Khóa luận tốt nghiệp -Tài chính",
+    "FIM301": "Valuation and financial modeling",
+    "FIN202": "Principles of Corporate Finance_Tài chính doanh nghiệp",
+    "FIM302c": "Financial modelling_Mô hình tài chính",
+    "FIN403": "Mergers and Acquisitions_Mua bán và Sáp nhập",
+    "FIN405c": "Investment Portfolio_Quản lý danh mục đầu tư",
+    "FTM301": "Fintech and Managerial Application_ Tài chính công nghệ và ứng dụng trong quản trị",
+    "FIN304": "Behavioral Finance_Tài chính hành vi",
+    "FIN303": "Advanced Corporate Finance_Tài chính doanh nghiệp nâng cao",
+    "ACC101": "Principles of Accounting_Nguyên lý kế toán"
+  }
+}

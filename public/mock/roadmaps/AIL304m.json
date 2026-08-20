@@ -1,0 +1,41 @@
+{
+  "code": "AIL304m",
+  "subjectName": "Machine Learning_Học máy",
+  "directPrereqs": [
+    "MAE101",
+    "MAS291",
+    "MAC101"
+  ],
+  "unlocks": [
+    "DPL303m"
+  ],
+  "edges": [
+    {
+      "from": "AIL304m",
+      "to": "MAE101"
+    },
+    {
+      "from": "AIL304m",
+      "to": "MAS291"
+    },
+    {
+      "from": "AIL304m",
+      "to": "MAC101"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAC101"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAE101"
+    }
+  ],
+  "names": {
+    "AIL304m": "Machine Learning_Học máy",
+    "MAC101": "Advanced Mathematics 1",
+    "DPL303m": "Deep Learning_Học sâu",
+    "MAE101": "Mathematics for Engineering_Toán cho ngành kỹ thuật",
+    "MAS291": "Statistics & Probability_Xác suất thống kê"
+  }
+}

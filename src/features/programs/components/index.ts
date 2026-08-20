@@ -1,3 +1,6 @@
 export { ProgramCard } from "./ProgramCard"
 export { ProgramFilters } from "./ProgramFilters"
 export { ProgramList } from "./ProgramList"
+export { ProgramDetailDialog } from "./ProgramDetailDialog"
+export { SyllabusDetailModal } from "./SyllabusDetailModal"
+export { PrerequisiteGraph } from "./PrerequisiteGraph"

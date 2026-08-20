@@ -1,0 +1,63 @@
+{
+  "code": "JIJ301",
+  "subjectName": "Basic Issues of Japanese lexicology & Phonetics_Những vấn đề cơ bản về ngữ âm và từ vựng tiếng Nhật - Từ lí thuyết đến thực tiễn-",
+  "directPrereqs": [
+    "JPD226",
+    "JPD216",
+    "JPD126",
+    "JPD116"
+  ],
+  "unlocks": [
+    "JGT492"
+  ],
+  "edges": [
+    {
+      "from": "JIJ301",
+      "to": "JPD226"
+    },
+    {
+      "from": "JIJ301",
+      "to": "JPD216"
+    },
+    {
+      "from": "JIJ301",
+      "to": "JPD126"
+    },
+    {
+      "from": "JIJ301",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD226",
+      "to": "JPD216"
+    },
+    {
+      "from": "JPD226",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD226",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD216",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD216",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD126",
+      "to": "JPD116"
+    }
+  ],
+  "names": {
+    "JPD126": "Elementary Japanese 2-A2_Tiếng Nhật sơ cấp 2-A2",
+    "JGT492": "Graduation Thesis Japanese Studies_Khóa luận tốt nghiệp Ngôn ngữ Nhật",
+    "JIJ301": "Basic Issues of Japanese lexicology & Phonetics_Những vấn đề cơ bản về ngữ âm và từ vựng tiếng Nhật - Từ lí thuyết đến thực tiễn-",
+    "JPD116": "Elementary Japanese  1-A1/A2_Tiếng Nhật sơ cấp 1-A1/A2",
+    "JPD216": "Pre-Intermediate Japanese 1-A2/B1 _Tiếng Nhật sơ trung cấp1-A2/B1",
+    "JPD226": "Pre-Intermediate Japanese 2-B1_Tiếng Nhật sơ trung cấp 2-B1"
+  }
+}

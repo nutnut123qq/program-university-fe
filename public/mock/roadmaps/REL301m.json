@@ -1,0 +1,110 @@
+{
+  "code": "REL301m",
+  "subjectName": "Reinforcement Learning_Học tăng cường",
+  "directPrereqs": [
+    "AIL303m",
+    "DPL302m",
+    "MAI391",
+    "MAS291",
+    "PFP191",
+    "MAE101",
+    "MAC101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "REL301m",
+      "to": "AIL303m"
+    },
+    {
+      "from": "REL301m",
+      "to": "DPL302m"
+    },
+    {
+      "from": "REL301m",
+      "to": "MAI391"
+    },
+    {
+      "from": "REL301m",
+      "to": "MAS291"
+    },
+    {
+      "from": "REL301m",
+      "to": "PFP191"
+    },
+    {
+      "from": "REL301m",
+      "to": "MAE101"
+    },
+    {
+      "from": "REL301m",
+      "to": "MAC101"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAI391"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAS291"
+    },
+    {
+      "from": "AIL303m",
+      "to": "PFP191"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAE101"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAC101"
+    },
+    {
+      "from": "DPL302m",
+      "to": "AIL303m"
+    },
+    {
+      "from": "DPL302m",
+      "to": "MAI391"
+    },
+    {
+      "from": "DPL302m",
+      "to": "MAS291"
+    },
+    {
+      "from": "DPL302m",
+      "to": "PFP191"
+    },
+    {
+      "from": "DPL302m",
+      "to": "MAE101"
+    },
+    {
+      "from": "DPL302m",
+      "to": "MAC101"
+    },
+    {
+      "from": "MAI391",
+      "to": "MAE101"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAC101"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAE101"
+    }
+  ],
+  "names": {
+    "PFP191": "Programming Fundamentals with Python_Cơ sở lập trình với Python",
+    "DPL302m": "Deep Learning_Học sâu",
+    "MAI391": "Mathematics for Machine Learning_Toán cho học máy",
+    "REL301m": "Reinforcement Learning_Học tăng cường",
+    "MAC101": "Advanced Mathematics 1",
+    "MAE101": "Mathematics for Engineering_Toán cho ngành kỹ thuật",
+    "AIL303m": "Machine Learning_Học máy",
+    "MAS291": "Statistics & Probability_Xác suất thống kê"
+  }
+}

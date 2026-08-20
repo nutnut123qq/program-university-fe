@@ -1,0 +1,118 @@
+{
+  "code": "AIP391",
+  "subjectName": "AI programming project_Dự án lập trình TTNT",
+  "directPrereqs": [
+    "AIG201",
+    "AIG201c",
+    "PRP201",
+    "PRP201c",
+    "CSD301",
+    "CSD202",
+    "PCP291",
+    "PRF193",
+    "PRF192"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "AIP391",
+      "to": "AIG201"
+    },
+    {
+      "from": "AIP391",
+      "to": "AIG201c"
+    },
+    {
+      "from": "AIP391",
+      "to": "PRP201"
+    },
+    {
+      "from": "AIP391",
+      "to": "PRP201c"
+    },
+    {
+      "from": "AIP391",
+      "to": "CSD301"
+    },
+    {
+      "from": "AIP391",
+      "to": "CSD202"
+    },
+    {
+      "from": "AIP391",
+      "to": "PCP291"
+    },
+    {
+      "from": "AIP391",
+      "to": "PRF193"
+    },
+    {
+      "from": "AIP391",
+      "to": "PRF192"
+    },
+    {
+      "from": "AIG201",
+      "to": "CSD301"
+    },
+    {
+      "from": "AIG201",
+      "to": "CSD202"
+    },
+    {
+      "from": "AIG201",
+      "to": "PCP291"
+    },
+    {
+      "from": "AIG201",
+      "to": "PRF193"
+    },
+    {
+      "from": "AIG201",
+      "to": "PRF192"
+    },
+    {
+      "from": "CSD301",
+      "to": "CSD202"
+    },
+    {
+      "from": "CSD301",
+      "to": "PCP291"
+    },
+    {
+      "from": "CSD301",
+      "to": "PRF193"
+    },
+    {
+      "from": "CSD301",
+      "to": "PRF192"
+    },
+    {
+      "from": "CSD202",
+      "to": "PCP291"
+    },
+    {
+      "from": "CSD202",
+      "to": "PRF193"
+    },
+    {
+      "from": "CSD202",
+      "to": "PRF192"
+    },
+    {
+      "from": "PCP291",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "CSD202": "Data structures and algorithms (In C++)",
+    "AIP391": "AI programming project_Dự án lập trình TTNT",
+    "AIG201": "Artificial Intelligence",
+    "CSD301": "Advanced Algorithms_Giải thuật nâng cao",
+    "PCP291": "C++ Programming_Lập trình C++",
+    "PRP201c": "Python Programming_Lập trình Python",
+    "AIG201c": "Artificial Intelligence_Trí tuệ nhân tạo",
+    "PRF193": "Programming Fundamentals_Cơ sở lập trình",
+    "PRP201": ""
+  }
+}

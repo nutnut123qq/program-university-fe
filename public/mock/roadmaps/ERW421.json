@@ -1,0 +1,65 @@
+{
+  "code": "ERW421",
+  "subjectName": "Read Think Write 2_Kỹ năng tư duy Đọc - Viết 2",
+  "directPrereqs": [
+    "ERW411",
+    "EAW221",
+    "ECR201",
+    "EAW211"
+  ],
+  "unlocks": [
+    "ELP491",
+    "ELR301",
+    "ELT492",
+    "EOB301",
+    "ETP401",
+    "ETT301"
+  ],
+  "edges": [
+    {
+      "from": "ERW421",
+      "to": "ERW411"
+    },
+    {
+      "from": "ERW421",
+      "to": "EAW221"
+    },
+    {
+      "from": "ERW421",
+      "to": "ECR201"
+    },
+    {
+      "from": "ERW421",
+      "to": "EAW211"
+    },
+    {
+      "from": "ERW411",
+      "to": "EAW221"
+    },
+    {
+      "from": "ERW411",
+      "to": "ECR201"
+    },
+    {
+      "from": "ERW411",
+      "to": "EAW211"
+    },
+    {
+      "from": "EAW221",
+      "to": "EAW211"
+    }
+  ],
+  "names": {
+    "ERW411": "Read Think Write 1_Kỹ năng tư duy Đọc - Viết 1",
+    "EAW211": "English Academic Writing 1_Tiếng Anh \bViết học thuật 1",
+    "EOB301": "Outcome-based Course Design in English Language Teaching_Thiết kế khoá học theo chuẩn đầu ra trong giảng dạy ngôn ngữ Anh",
+    "ETP401": "Language Teaching Practice_Thực hành giảng dạy ngôn ngữ",
+    "EAW221": "English Academic Writing 2_Tiếng Anh Viết học thuật 2",
+    "ETT301": "Understanding Language Testing_Phương pháp đánh giá năng lực ngôn ngữ",
+    "ERW421": "Read Think Write 2_Kỹ năng tư duy Đọc - Viết 2",
+    "ELT492": "Graduation Thesis - English Studies_Khóa luận tốt nghiệp",
+    "ECR201": "Critical Reading_Đọc Hiểu",
+    "ELR301": "Research Methods_Phương pháp nghiên cứu",
+    "ELP491": "Graduation Project – English Studies_Đồ án tốt nghiệp"
+  }
+}

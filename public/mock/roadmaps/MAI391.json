@@ -1,0 +1,45 @@
+{
+  "code": "MAI391",
+  "subjectName": "Mathematics for Machine Learning_Toán cho học máy",
+  "directPrereqs": [
+    "MAE101"
+  ],
+  "unlocks": [
+    "AID301c",
+    "AIE301m",
+    "AIL303m",
+    "DAT301m",
+    "DPL301m",
+    "DPL302m",
+    "REL301m",
+    "SEG301",
+    "SEG301m",
+    "SLP301",
+    "SLP301m",
+    "TMG301",
+    "TMG301m"
+  ],
+  "edges": [
+    {
+      "from": "MAI391",
+      "to": "MAE101"
+    }
+  ],
+  "names": {
+    "DPL302m": "Deep Learning_Học sâu",
+    "SEG301": "Search Engines_Công cụ tìm kiếm",
+    "MAI391": "Mathematics for Machine Learning_Toán cho học máy",
+    "REL301m": "Reinforcement Learning_Học tăng cường",
+    "TMG301": "Text Mining_Khai thác văn bản",
+    "MAE101": "Mathematics for Engineering_Toán cho ngành kỹ thuật",
+    "AIL303m": "Machine Learning_Học máy",
+    "AIE301m": "AI for Trading_Ứng dụng TTNT cho giao dịch",
+    "SLP301": "Speech Processing_Xử lý tiếng nói",
+    "SLP301m": "Speech Processing_Xử lý tiếng nói",
+    "TMG301m": "Text Mining_Khai thác văn bản",
+    "DAT301m": "AI Development with TensorFlow_Phát triển UDTTNT với TensorFlow",
+    "SEG301m": "Search Engines_Công cụ tìm kiếm",
+    "DPL301m": "Deep Learning_Học sâu",
+    "AID301c": "AI in Production_Thiết kế sản phẩm TTNT"
+  }
+}

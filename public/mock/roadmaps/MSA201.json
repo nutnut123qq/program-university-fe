@@ -1,0 +1,38 @@
+{
+  "code": "MSA201",
+  "subjectName": "Mô hình và mô phỏng_Modeling and Simulation for Automotive Systems",
+  "directPrereqs": [
+    "AEE301",
+    "ASI101",
+    "EEI101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "MSA201",
+      "to": "AEE301"
+    },
+    {
+      "from": "MSA201",
+      "to": "ASI101"
+    },
+    {
+      "from": "MSA201",
+      "to": "EEI101"
+    },
+    {
+      "from": "AEE301",
+      "to": "ASI101"
+    },
+    {
+      "from": "AEE301",
+      "to": "EEI101"
+    }
+  ],
+  "names": {
+    "MSA201": "Mô hình và mô phỏng_Modeling and Simulation for Automotive Systems",
+    "AEE301": "Hệ thống điện-điện tử trên ô tô_Automotive Electrical-Electronics Systems",
+    "ASI101": "Nhập môn ô tô_Introduction to Automotive System",
+    "EEI101": "Nhập môn kỹ thuật điện-điện tử_Introduction to Electrical-Electronics Engineering"
+  }
+}

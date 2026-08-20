@@ -1,0 +1,89 @@
+{
+  "code": "CHI421",
+  "subjectName": "Integrated Chinese 7_Tiếng Trung tổng hợp 7",
+  "directPrereqs": [
+    "CHI411",
+    "CHI321",
+    "CHI311",
+    "CHI121",
+    "CHI111"
+  ],
+  "unlocks": [
+    "CBC411",
+    "CBC421",
+    "CHG401mc"
+  ],
+  "edges": [
+    {
+      "from": "CHI421",
+      "to": "CHI411"
+    },
+    {
+      "from": "CHI421",
+      "to": "CHI321"
+    },
+    {
+      "from": "CHI421",
+      "to": "CHI311"
+    },
+    {
+      "from": "CHI421",
+      "to": "CHI121"
+    },
+    {
+      "from": "CHI421",
+      "to": "CHI111"
+    },
+    {
+      "from": "CHI411",
+      "to": "CHI321"
+    },
+    {
+      "from": "CHI411",
+      "to": "CHI311"
+    },
+    {
+      "from": "CHI411",
+      "to": "CHI121"
+    },
+    {
+      "from": "CHI411",
+      "to": "CHI111"
+    },
+    {
+      "from": "CHI321",
+      "to": "CHI311"
+    },
+    {
+      "from": "CHI321",
+      "to": "CHI121"
+    },
+    {
+      "from": "CHI321",
+      "to": "CHI111"
+    },
+    {
+      "from": "CHI311",
+      "to": "CHI121"
+    },
+    {
+      "from": "CHI311",
+      "to": "CHI111"
+    },
+    {
+      "from": "CHI121",
+      "to": "CHI111"
+    }
+  ],
+  "names": {
+    "CBC421": "Business Chinese 2_Tiếng Trung thương mại 2",
+    "CHI421": "Integrated Chinese 7_Tiếng Trung tổng hợp 7",
+    "CHI411": "Integrated Chinese 6_Tiếng Trung tổng hợp 6",
+    "CHI121": "Integrated Chinese 2_Tiếng Trung tổng hợp 2",
+    "CHI111": "Integrated Chinese 1_Tiếng Trung tổng hợp 1",
+    "CHG401mc": "Chinese Grammar_Ngữ pháp tiếng Trung Quốc",
+    "CHI321": "Integrated Chinese 4_Tiếng Trung tổng hợp 4",
+    "CHI311": "Integrated Chinese 3_Tiếng Trung tổng hợp 3",
+    "CBC411": "Business Chinese 1_Tiếng Trung Thương Mại 01"
+  }
+}

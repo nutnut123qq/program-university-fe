@@ -1,0 +1,37 @@
+{
+  "code": "PCP291",
+  "subjectName": "C++ Programming_Lập trình C++",
+  "directPrereqs": [
+    "PRF192"
+  ],
+  "unlocks": [
+    "AIG201",
+    "AIL301",
+    "AIP391",
+    "CSD202",
+    "CSD301",
+    "DBM301_old",
+    "EBS211",
+    "EBS311",
+    "PEB301"
+  ],
+  "edges": [
+    {
+      "from": "PCP291",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "PEB301": "Thực hành hệ thống nhúng_Practice of Embedded System",
+    "AIP391": "AI programming project_Dự án lập trình TTNT",
+    "CSD202": "Data structures and algorithms (In C++)",
+    "AIL301": "Machine Learning",
+    "AIG201": "Artificial Intelligence",
+    "CSD301": "Advanced Algorithms_Giải thuật nâng cao",
+    "EBS211": "Hệ thống nhúng_Embedded Systems",
+    "EBS311": "Hệ thống nhúng nâng cao_Advanced Embedded Systems",
+    "PCP291": "C++ Programming_Lập trình C++",
+    "DBM301_old": "Data mining"
+  }
+}

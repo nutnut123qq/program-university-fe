@@ -1,0 +1,67 @@
+{
+  "code": "SWD392",
+  "subjectName": "Software Architecture and Design_Kiến trúc và thiết kế phần mềm",
+  "directPrereqs": [
+    "PRO192",
+    "SWE201",
+    "SWE201c",
+    "SWE202c",
+    "PRF192"
+  ],
+  "unlocks": [
+    "SEP490",
+    "SET490"
+  ],
+  "edges": [
+    {
+      "from": "SWD392",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWD392",
+      "to": "SWE201"
+    },
+    {
+      "from": "SWD392",
+      "to": "SWE201c"
+    },
+    {
+      "from": "SWD392",
+      "to": "SWE202c"
+    },
+    {
+      "from": "SWD392",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWE202c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE202c",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "SEP490": "SE Capstone Project_Đồ án tốt nghiệp KTPM",
+    "SWE201": "",
+    "SWD392": "Software Architecture and Design_Kiến trúc và thiết kế phần mềm",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "SET490": "SE Graduation Thesis_Khóa luận tốt nghiệp Kỹ thuật phần mềm",
+    "SWE202c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+    "SWE201c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm"
+  }
+}

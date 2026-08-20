@@ -1,0 +1,27 @@
+{
+  "code": "IMC301",
+  "subjectName": "Integrated Marketing Communication in Digital World_Chiến lược truyền thông marketing tích hợp",
+  "directPrereqs": [
+    "MKT101",
+    "MMK101"
+  ],
+  "unlocks": [
+    "CCM301"
+  ],
+  "edges": [
+    {
+      "from": "IMC301",
+      "to": "MKT101"
+    },
+    {
+      "from": "IMC301",
+      "to": "MMK101"
+    }
+  ],
+  "names": {
+    "IMC301": "Integrated Marketing Communication in Digital World_Chiến lược truyền thông marketing tích hợp",
+    "CCM301": "Crisis Communications Management_Quản trị truyền thông khủng hoảng",
+    "MKT101": "Marketing Principles_Nguyên lý Marketing",
+    "MMK101": "Management and Marketing_Nhập môn Quản trị và Marketing"
+  }
+}

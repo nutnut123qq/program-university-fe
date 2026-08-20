@@ -1,0 +1,21 @@
+{
+  "code": "EST301",
+  "subjectName": "Cú pháp học Tiếng Anh\t\nEnglish Syntax",
+  "directPrereqs": [
+    "LTG202"
+  ],
+  "unlocks": [
+    "ECL301"
+  ],
+  "edges": [
+    {
+      "from": "EST301",
+      "to": "LTG202"
+    }
+  ],
+  "names": {
+    "ECL301": "Corpus Linguistics_Ngôn ngữ học ngữ liệu",
+    "EST301": "Cú pháp học Tiếng Anh\t\nEnglish Syntax",
+    "LTG202": "Introduction to Linguistics_Dẫn luận ngôn ngữ"
+  }
+}

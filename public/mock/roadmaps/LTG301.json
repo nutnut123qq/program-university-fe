@@ -1,0 +1,65 @@
+{
+  "code": "LTG301",
+  "subjectName": "Dẫn luận ngôn ngữ\nIntroduction to Linguistics",
+  "directPrereqs": [
+    "ENG302",
+    "ENG302c",
+    "ENG303",
+    "ENP102",
+    "ENP203"
+  ],
+  "unlocks": [
+    "ECL301",
+    "EIC301",
+    "EIP401",
+    "EIT401",
+    "ELI302",
+    "ELI402",
+    "ELP491",
+    "ELT492",
+    "EMP301",
+    "EPS301",
+    "ETT301"
+  ],
+  "edges": [
+    {
+      "from": "LTG301",
+      "to": "ENG302"
+    },
+    {
+      "from": "LTG301",
+      "to": "ENG302c"
+    },
+    {
+      "from": "LTG301",
+      "to": "ENG303"
+    },
+    {
+      "from": "LTG301",
+      "to": "ENP102"
+    },
+    {
+      "from": "LTG301",
+      "to": "ENP203"
+    }
+  ],
+  "names": {
+    "EIT401": "English Translation and Interpretation in Tourism_Biên – phiên dịch tiếng Anh du lịch",
+    "ENG302": "Advanced English Grammar_Ngữ pháp tiếng Anh nâng cao",
+    "ENG303": "Ngữ pháp tiếng Anh nâng cao",
+    "ELI402": "Phiên dịch tiếng Anh 2\nEnglish Interpretation 2",
+    "EIP401": "Phiên dịch tiếng Anh cho dịch vụ công",
+    "ENP102": "English phonetics and phonology in use_Thực hành ngữ âm và âm vị học tiếng Anh",
+    "EMP301": "Hình thái học tiếng Anh\nEnglish Morphology",
+    "ETT301": "Understanding Language Testing_Phương pháp đánh giá năng lực ngôn ngữ",
+    "LTG301": "Dẫn luận ngôn ngữ\nIntroduction to Linguistics",
+    "ENP203": "Ngữ âm và âm vị học tiếng Anh\nEnglish phonetics and phonology",
+    "ELT492": "Graduation Thesis - English Studies_Khóa luận tốt nghiệp",
+    "ENG302c": "Advanced English Grammar_Ngữ pháp tiếng Anh nâng cao",
+    "EIC301": "Intercultural Communication_Giao tiếp liên văn hoá",
+    "EPS301": "Nghiệp vụ biên – phiên dịch",
+    "ECL301": "Corpus Linguistics_Ngôn ngữ học ngữ liệu",
+    "ELI302": "Phiên dịch tiếng Anh 1\nEnglish Interpretation 1",
+    "ELP491": "Graduation Project – English Studies_Đồ án tốt nghiệp"
+  }
+}

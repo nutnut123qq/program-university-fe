@@ -1,0 +1,39 @@
+{
+  "code": "EBS211",
+  "subjectName": "Hệ thống nhúng_Embedded Systems",
+  "directPrereqs": [
+    "EEI101",
+    "PCP291",
+    "PRF192"
+  ],
+  "unlocks": [
+    "EBS311",
+    "PEB301"
+  ],
+  "edges": [
+    {
+      "from": "EBS211",
+      "to": "EEI101"
+    },
+    {
+      "from": "EBS211",
+      "to": "PCP291"
+    },
+    {
+      "from": "EBS211",
+      "to": "PRF192"
+    },
+    {
+      "from": "PCP291",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PEB301": "Thực hành hệ thống nhúng_Practice of Embedded System",
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "EEI101": "Nhập môn kỹ thuật điện-điện tử_Introduction to Electrical-Electronics Engineering",
+    "EBS311": "Hệ thống nhúng nâng cao_Advanced Embedded Systems",
+    "EBS211": "Hệ thống nhúng_Embedded Systems",
+    "PCP291": "C++ Programming_Lập trình C++"
+  }
+}

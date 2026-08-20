@@ -1,0 +1,39 @@
+{
+  "code": "DMS301m",
+  "subjectName": "Digital Marketing Strategy_Chiến lược marketing số",
+  "directPrereqs": [
+    "MKG101",
+    "MKT101",
+    "MMK101"
+  ],
+  "unlocks": [
+    "DMA301m",
+    "GRA497",
+    "GRM491",
+    "GRP490"
+  ],
+  "edges": [
+    {
+      "from": "DMS301m",
+      "to": "MKG101"
+    },
+    {
+      "from": "DMS301m",
+      "to": "MKT101"
+    },
+    {
+      "from": "DMS301m",
+      "to": "MMK101"
+    }
+  ],
+  "names": {
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "GRA497": "Capstone Project Multimedia Communications_Đồ án tốt nghiệp_Truyền thông đa phương tiện",
+    "MKT101": "Marketing Principles_Nguyên lý Marketing",
+    "GRM491": "Graduation Thesis - Marketing_Khóa luận tốt nghiệp - Marketing",
+    "DMA301m": "Digital Marketing Analytics_Phân tích marketing số",
+    "MMK101": "Management and Marketing_Nhập môn Quản trị và Marketing",
+    "DMS301m": "Digital Marketing Strategy_Chiến lược marketing số",
+    "MKG101": "Management and Marketing Principles_Nguyên lý Quản trị và Marketing"
+  }
+}

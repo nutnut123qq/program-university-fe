@@ -1,0 +1,61 @@
+{
+  "code": "CSD301",
+  "subjectName": "Advanced Algorithms_Giải thuật nâng cao",
+  "directPrereqs": [
+    "CSD202",
+    "PCP291",
+    "PRF193",
+    "PRF192"
+  ],
+  "unlocks": [
+    "AIG201",
+    "AIL301",
+    "AIP391",
+    "DBM301_old"
+  ],
+  "edges": [
+    {
+      "from": "CSD301",
+      "to": "CSD202"
+    },
+    {
+      "from": "CSD301",
+      "to": "PCP291"
+    },
+    {
+      "from": "CSD301",
+      "to": "PRF193"
+    },
+    {
+      "from": "CSD301",
+      "to": "PRF192"
+    },
+    {
+      "from": "CSD202",
+      "to": "PCP291"
+    },
+    {
+      "from": "CSD202",
+      "to": "PRF193"
+    },
+    {
+      "from": "CSD202",
+      "to": "PRF192"
+    },
+    {
+      "from": "PCP291",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "CSD202": "Data structures and algorithms (In C++)",
+    "AIL301": "Machine Learning",
+    "AIG201": "Artificial Intelligence",
+    "AIP391": "AI programming project_Dự án lập trình TTNT",
+    "CSD301": "Advanced Algorithms_Giải thuật nâng cao",
+    "PCP291": "C++ Programming_Lập trình C++",
+    "PRF193": "Programming Fundamentals_Cơ sở lập trình",
+    "DBM301_old": "Data mining"
+  }
+}

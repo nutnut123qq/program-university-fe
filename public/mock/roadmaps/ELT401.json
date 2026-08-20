@@ -1,0 +1,503 @@
+{
+  "code": "ELT401",
+  "subjectName": "Translation 2_Biên dịch 2",
+  "directPrereqs": [
+    "ELT301",
+    "ENG301",
+    "ENP101",
+    "ENR401",
+    "ENS411",
+    "ENS421",
+    "ENW401",
+    "ERW411",
+    "LTG202",
+    "ENR301",
+    "ENS312",
+    "ENS322",
+    "ENS311",
+    "ENS321",
+    "ENW301",
+    "EAW221",
+    "ECR201",
+    "ENR201",
+    "ENS212",
+    "ENS222",
+    "ENS211",
+    "ENS221",
+    "ENW201",
+    "EAW211",
+    "ENR101",
+    "ENS111",
+    "ENS121",
+    "ENW101"
+  ],
+  "unlocks": [
+    "ELP491",
+    "ELT492",
+    "ETT301"
+  ],
+  "edges": [
+    {
+      "from": "ELT401",
+      "to": "ELT301"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENG301"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENP101"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENR401"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENS411"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENS421"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENW401"
+    },
+    {
+      "from": "ELT401",
+      "to": "ERW411"
+    },
+    {
+      "from": "ELT401",
+      "to": "LTG202"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENR301"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENS312"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENS322"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENS311"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENS321"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENW301"
+    },
+    {
+      "from": "ELT401",
+      "to": "EAW221"
+    },
+    {
+      "from": "ELT401",
+      "to": "ECR201"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENR201"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENS212"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENS222"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENS211"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENS221"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENW201"
+    },
+    {
+      "from": "ELT401",
+      "to": "EAW211"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENR101"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENS111"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENS121"
+    },
+    {
+      "from": "ELT401",
+      "to": "ENW101"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENG301"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENP101"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENR401"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENS411"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENS421"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENW401"
+    },
+    {
+      "from": "ELT301",
+      "to": "ERW411"
+    },
+    {
+      "from": "ELT301",
+      "to": "LTG202"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENR301"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENS312"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENS322"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENS311"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENS321"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENW301"
+    },
+    {
+      "from": "ELT301",
+      "to": "EAW221"
+    },
+    {
+      "from": "ELT301",
+      "to": "ECR201"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENR201"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENS212"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENS222"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENS211"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENS221"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENW201"
+    },
+    {
+      "from": "ELT301",
+      "to": "EAW211"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENR101"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENS111"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENS121"
+    },
+    {
+      "from": "ELT301",
+      "to": "ENW101"
+    },
+    {
+      "from": "ENR401",
+      "to": "ENR301"
+    },
+    {
+      "from": "ENR401",
+      "to": "ENS312"
+    },
+    {
+      "from": "ENR401",
+      "to": "ENS322"
+    },
+    {
+      "from": "ENR401",
+      "to": "ENR201"
+    },
+    {
+      "from": "ENR401",
+      "to": "ENS212"
+    },
+    {
+      "from": "ENR401",
+      "to": "ENS222"
+    },
+    {
+      "from": "ENR401",
+      "to": "ENR101"
+    },
+    {
+      "from": "ENS411",
+      "to": "ENS311"
+    },
+    {
+      "from": "ENS411",
+      "to": "ENS321"
+    },
+    {
+      "from": "ENS411",
+      "to": "ENS211"
+    },
+    {
+      "from": "ENS411",
+      "to": "ENS221"
+    },
+    {
+      "from": "ENS411",
+      "to": "ENS111"
+    },
+    {
+      "from": "ENS411",
+      "to": "ENS121"
+    },
+    {
+      "from": "ENS421",
+      "to": "ENS311"
+    },
+    {
+      "from": "ENS421",
+      "to": "ENS321"
+    },
+    {
+      "from": "ENS421",
+      "to": "ENS211"
+    },
+    {
+      "from": "ENS421",
+      "to": "ENS221"
+    },
+    {
+      "from": "ENS421",
+      "to": "ENS111"
+    },
+    {
+      "from": "ENS421",
+      "to": "ENS121"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENS312"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENS322"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENW301"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENS212"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENS222"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENW201"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENW101"
+    },
+    {
+      "from": "ERW411",
+      "to": "EAW221"
+    },
+    {
+      "from": "ERW411",
+      "to": "ECR201"
+    },
+    {
+      "from": "ERW411",
+      "to": "EAW211"
+    },
+    {
+      "from": "ENR301",
+      "to": "ENR201"
+    },
+    {
+      "from": "ENR301",
+      "to": "ENS212"
+    },
+    {
+      "from": "ENR301",
+      "to": "ENS222"
+    },
+    {
+      "from": "ENR301",
+      "to": "ENR101"
+    },
+    {
+      "from": "ENS311",
+      "to": "ENS211"
+    },
+    {
+      "from": "ENS311",
+      "to": "ENS221"
+    },
+    {
+      "from": "ENS311",
+      "to": "ENS111"
+    },
+    {
+      "from": "ENS311",
+      "to": "ENS121"
+    },
+    {
+      "from": "ENS321",
+      "to": "ENS211"
+    },
+    {
+      "from": "ENS321",
+      "to": "ENS221"
+    },
+    {
+      "from": "ENS321",
+      "to": "ENS111"
+    },
+    {
+      "from": "ENS321",
+      "to": "ENS121"
+    },
+    {
+      "from": "ENW301",
+      "to": "ENS212"
+    },
+    {
+      "from": "ENW301",
+      "to": "ENS222"
+    },
+    {
+      "from": "ENW301",
+      "to": "ENW201"
+    },
+    {
+      "from": "ENW301",
+      "to": "ENW101"
+    },
+    {
+      "from": "EAW221",
+      "to": "EAW211"
+    },
+    {
+      "from": "ENR201",
+      "to": "ENR101"
+    },
+    {
+      "from": "ENS211",
+      "to": "ENS111"
+    },
+    {
+      "from": "ENS211",
+      "to": "ENS121"
+    },
+    {
+      "from": "ENS221",
+      "to": "ENS111"
+    },
+    {
+      "from": "ENS221",
+      "to": "ENS121"
+    },
+    {
+      "from": "ENW201",
+      "to": "ENW101"
+    }
+  ],
+  "names": {
+    "EAW211": "English Academic Writing 1_Tiếng Anh \bViết học thuật 1",
+    "ENS421": "Skillfull 4: Listening & Speaking (Part 2/2)",
+    "ENW401": "Writing 4",
+    "ECR201": "Critical Reading_Đọc Hiểu",
+    "ENS111": "Listening Speaking 1 (Part 1/2)",
+    "LTG202": "Introduction to Linguistics_Dẫn luận ngôn ngữ",
+    "ENR301": "Skillfull 3 - Reading 3",
+    "ENP101": "Phonetics and Phonology_Ngữ âm và âm vị học",
+    "ELT492": "Graduation Thesis - English Studies_Khóa luận tốt nghiệp",
+    "ENS121": "Listening Speaking 1 (Part 2/2)",
+    "ELP491": "Graduation Project – English Studies_Đồ án tốt nghiệp",
+    "ENG301": "Advanced English Grammar",
+    "ENS311": "Skillfull 3 - Listening & Speaking 1",
+    "ENW201": "Writing 2",
+    "ENS322": "",
+    "ENR401": "Skillful 4: Reading",
+    "ENS212": "",
+    "ENS211": "Skillfull 2 - Listening & Speaking 1",
+    "ENS222": "",
+    "ENS221": "Skillfull 2 - Listening & Speaking 2",
+    "ENS321": "Skillfull 3 - Listening & Speaking 2",
+    "ERW411": "Read Think Write 1_Kỹ năng tư duy Đọc - Viết 1",
+    "ENR201": "Reading 2",
+    "ENR101": "Reading 1",
+    "ELT401": "Translation 2_Biên dịch 2",
+    "ETT301": "Understanding Language Testing_Phương pháp đánh giá năng lực ngôn ngữ",
+    "ENW101": "Writing 1",
+    "ENW301": "Skillfull 3 - Writing 3",
+    "ENS312": "",
+    "ELT301": "Translation 1_Biên dịch 1",
+    "ENS411": "Skillfull 4: Listening & Speaking (Part 1/2)",
+    "EAW221": "English Academic Writing 2_Tiếng Anh Viết học thuật 2"
+  }
+}

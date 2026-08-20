@@ -1,0 +1,31 @@
+{
+  "code": "ISP391",
+  "subjectName": "Integrated System Project_Dự án tích hợp hệ thống",
+  "directPrereqs": [
+    "ESH201",
+    "DGT201"
+  ],
+  "unlocks": [
+    "ECP491"
+  ],
+  "edges": [
+    {
+      "from": "ISP391",
+      "to": "ESH201"
+    },
+    {
+      "from": "ISP391",
+      "to": "DGT201"
+    },
+    {
+      "from": "ESH201",
+      "to": "DGT201"
+    }
+  ],
+  "names": {
+    "ISP391": "Integrated System Project_Dự án tích hợp hệ thống",
+    "ESH201": "Embedded system hardware",
+    "DGT201": "Digital Fundamentals",
+    "ECP491": "Capstone Project for EC"
+  }
+}

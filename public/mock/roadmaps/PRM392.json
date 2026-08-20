@@ -1,0 +1,28 @@
+{
+  "code": "PRM392",
+  "subjectName": "Mobile Programming_Lập trình di động",
+  "directPrereqs": [
+    "PRO192",
+    "PRF192"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "PRM392",
+      "to": "PRO192"
+    },
+    {
+      "from": "PRM392",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "PRM392": "Mobile Programming_Lập trình di động"
+  }
+}

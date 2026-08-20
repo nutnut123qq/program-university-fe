@@ -1,0 +1,28 @@
+{
+  "code": "DTF201c",
+  "subjectName": "Digital Transformation in Finance Services_Chuyển đổi số trong dịch vụ tài chính",
+  "directPrereqs": [
+    "FIN202",
+    "ACC101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "DTF201c",
+      "to": "FIN202"
+    },
+    {
+      "from": "DTF201c",
+      "to": "ACC101"
+    },
+    {
+      "from": "FIN202",
+      "to": "ACC101"
+    }
+  ],
+  "names": {
+    "ACC101": "Principles of Accounting_Nguyên lý kế toán",
+    "DTF201c": "Digital Transformation in Finance Services_Chuyển đổi số trong dịch vụ tài chính",
+    "FIN202": "Principles of Corporate Finance_Tài chính doanh nghiệp"
+  }
+}

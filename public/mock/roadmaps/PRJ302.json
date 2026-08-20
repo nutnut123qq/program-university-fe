@@ -1,0 +1,43 @@
+{
+  "code": "PRJ302",
+  "subjectName": "Java Web Application Development_Phát triển ứng dụng Java web",
+  "directPrereqs": [
+    "DBI202",
+    "PRO192",
+    "PRF192"
+  ],
+  "unlocks": [
+    "DSS301",
+    "ISP392",
+    "ISP490",
+    "SAP490"
+  ],
+  "edges": [
+    {
+      "from": "PRJ302",
+      "to": "DBI202"
+    },
+    {
+      "from": "PRJ302",
+      "to": "PRO192"
+    },
+    {
+      "from": "PRJ302",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "DSS301": "Decision Support Systems_Hệ thống hỗ trợ ra quyết định",
+    "ISP490": "IS Capstone Project_Đồ án tốt nghiệp hệ thống thông tin",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "ISP392": "Information System Programming Project_Dự án lập trình HTTT",
+    "SAP490": "SAP Interdisciplinary Capstone Project_Đồ án liên ngành SAP",
+    "DBI202": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+    "PRJ302": "Java Web Application Development_Phát triển ứng dụng Java web"
+  }
+}

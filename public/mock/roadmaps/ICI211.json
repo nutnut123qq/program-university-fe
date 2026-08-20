@@ -1,0 +1,38 @@
+{
+  "code": "ICI211",
+  "subjectName": "IC Design Introduction_Nhập môn Thiết Kế Vi Mạch",
+  "directPrereqs": [
+    "DIC201",
+    "CEA201",
+    "EEI101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "ICI211",
+      "to": "DIC201"
+    },
+    {
+      "from": "ICI211",
+      "to": "CEA201"
+    },
+    {
+      "from": "ICI211",
+      "to": "EEI101"
+    },
+    {
+      "from": "DIC201",
+      "to": "CEA201"
+    },
+    {
+      "from": "DIC201",
+      "to": "EEI101"
+    }
+  ],
+  "names": {
+    "DIC201": "Kỹ thuật số_Digital Circuits",
+    "ICI211": "IC Design Introduction_Nhập môn Thiết Kế Vi Mạch",
+    "CEA201": "Computer Organization and Architecture_Tổ chức và Kiến trúc máy tính",
+    "EEI101": "Nhập môn kỹ thuật điện-điện tử_Introduction to Electrical-Electronics Engineering"
+  }
+}

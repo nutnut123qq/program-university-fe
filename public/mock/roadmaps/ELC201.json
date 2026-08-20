@@ -1,0 +1,24 @@
+{
+  "code": "ELC201",
+  "subjectName": "Electronic Circuits_Kỹ thuật mạch",
+  "directPrereqs": [
+    "SDI101",
+    "SDI101m"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "ELC201",
+      "to": "SDI101"
+    },
+    {
+      "from": "ELC201",
+      "to": "SDI101m"
+    }
+  ],
+  "names": {
+    "SDI101m": "Introduction to Semiconductor Devices_Nhập môn thiết bị bán dẫn",
+    "SDI101": "",
+    "ELC201": "Electronic Circuits_Kỹ thuật mạch"
+  }
+}

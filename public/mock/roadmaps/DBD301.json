@@ -1,0 +1,18 @@
+{
+  "code": "DBD301",
+  "subjectName": "Advanced Database_Cơ sở dữ liệu nâng cao",
+  "directPrereqs": [
+    "DBI202"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "DBD301",
+      "to": "DBI202"
+    }
+  ],
+  "names": {
+    "DBI202": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+    "DBD301": "Advanced Database_Cơ sở dữ liệu nâng cao"
+  }
+}

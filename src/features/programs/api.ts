@@ -1,4 +1,13 @@
-import { Curriculum, Program, ProgramsResponse, University, PagedResult, RawDocument } from "./types"
+import {
+    Curriculum,
+    Program,
+    ProgramsResponse,
+    University,
+    PagedResult,
+    RawDocument,
+    SyllabusDetail,
+    SubjectRoadmap,
+} from "./types"
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001/api"
 const isProduction = process.env.NODE_ENV === "production"
@@ -10,10 +19,13 @@ const USE_MOCK = isProduction
 let mockUniversitiesCache: University[] | null = null
 let mockDegreeTypesCache: string[] | null = null
 let mockProgramsIndexCache: { totalCount: number; pageSize: number; totalPages: number; chunks: string[] } | null = null
+let mockSyllabusIndexCache: string[] | null = null
 const mockProgramChunksCache = new Map<string, Program[]>()
 const mockProgramByIdCache = new Map<string, Program>()
 const mockCurriculaCache = new Map<string, Curriculum[]>()
 const mockRawDocumentsCache = new Map<string, RawDocument[]>()
+const mockSyllabusesCache = new Map<string, SyllabusDetail | null>()
+const mockRoadmapsCache = new Map<string, SubjectRoadmap | null>()
 
 async function loadMockIndex() {
     if (mockProgramsIndexCache) return mockProgramsIndexCache
@@ -160,6 +172,15 @@ function applyFiltersAndSort(
         result = result.filter((p) => p.universityIsPublic === isPublic)
     }
 
+    if (params?.cohort && params.cohort !== "all") {
+        const c = params.cohort.toLowerCase()
+        result = result.filter(
+            (p) =>
+                (p.code && p.code.toLowerCase().includes(c)) ||
+                p.name.toLowerCase().includes(c)
+        )
+    }
+
     const sortBy = params?.sortBy?.toLowerCase()
     const sortDesc = params?.sortDesc ?? false
 
@@ -207,6 +228,7 @@ export async function fetchPrograms(params?: {
     degreeType?: string
     universityId?: string
     universityType?: string
+    cohort?: string
     sortBy?: string
     sortDesc?: boolean
 }): Promise<ProgramsResponse> {
@@ -215,7 +237,8 @@ export async function fetchPrograms(params?: {
             params?.search ||
             params?.degreeType ||
             params?.universityId ||
-            (params?.universityType && params.universityType !== "all")
+            (params?.universityType && params.universityType !== "all") ||
+            (params?.cohort && params.cohort !== "all")
         )
 
         if (!needsAll) {
@@ -371,4 +394,101 @@ export async function fetchRawDocumentText(documentId: string): Promise<string> 
         throw new Error(`Failed to fetch raw document text: ${res.status}`)
     }
     return res.text()
+}
+
+export async function fetchSyllabusIndex(): Promise<string[]> {
+    if (mockSyllabusIndexCache) return mockSyllabusIndexCache
+    try {
+        const res = await fetch("/mock/syllabuses-index.json")
+        if (res.ok) {
+            const data = await res.json()
+            if (Array.isArray(data)) {
+                mockSyllabusIndexCache = data
+                return data
+            }
+        }
+    } catch {
+        // Fallback
+    }
+    return []
+}
+
+export async function fetchSyllabus(subjectCode: string): Promise<SyllabusDetail | null> {
+    if (!subjectCode) return null
+    const safeCode = subjectCode.replace(/[^a-zA-Z0-9_\-]/g, "_")
+    if (mockSyllabusesCache.has(safeCode)) {
+        return mockSyllabusesCache.get(safeCode)!
+    }
+
+    try {
+        const res = await fetch(`/mock/syllabuses/${safeCode}.json`)
+        if (res.ok) {
+            const data: SyllabusDetail = await res.json()
+            mockSyllabusesCache.set(safeCode, data)
+            return data
+        }
+    } catch (e) {
+        console.warn(`Could not load syllabus for ${subjectCode}:`, e)
+    }
+
+    mockSyllabusesCache.set(safeCode, null)
+    return null
+}
+
+export async function fetchRoadmap(subjectCode: string): Promise<SubjectRoadmap | null> {
+    if (!subjectCode) return null
+    const safeCode = subjectCode.replace(/[^a-zA-Z0-9_\-]/g, "_")
+    if (mockRoadmapsCache.has(safeCode)) {
+        return mockRoadmapsCache.get(safeCode)!
+    }
+
+    try {
+        const res = await fetch(`/mock/roadmaps/${safeCode}.json`)
+        if (res.ok) {
+            const data: SubjectRoadmap = await res.json()
+            mockRoadmapsCache.set(safeCode, data)
+            return data
+        }
+    } catch (e) {
+        console.warn(`Could not load roadmap for ${subjectCode}:`, e)
+    }
+
+    mockRoadmapsCache.set(safeCode, null)
+    return null
+}
+
+let mockRoadmapsIndexCache: string[] | null = null
+export async function fetchRoadmapsIndex(): Promise<string[]> {
+    if (mockRoadmapsIndexCache) return mockRoadmapsIndexCache
+    try {
+        const res = await fetch("/mock/roadmaps-index.json")
+        if (res.ok) {
+            const data = await res.json()
+            if (Array.isArray(data)) {
+                mockRoadmapsIndexCache = data
+                return data
+            }
+        }
+    } catch {
+        // Fallback
+    }
+    return []
+}
+
+let mockMaterialsCache: import("./types").SubjectMaterialSummary[] | null = null
+export async function fetchMaterials(): Promise<import("./types").SubjectMaterialSummary[]> {
+    if (mockMaterialsCache) return mockMaterialsCache
+    try {
+        const res = await fetch("/mock/materials.json")
+        if (res.ok) {
+            const data = await res.json()
+            if (Array.isArray(data)) {
+                mockMaterialsCache = data
+                return data
+            }
+        }
+    } catch (e) {
+        console.warn("Could not load materials:", e)
+    }
+    return []
 }

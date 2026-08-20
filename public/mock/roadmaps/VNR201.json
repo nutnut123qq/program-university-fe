@@ -1,0 +1,28 @@
+{
+  "code": "VNR201",
+  "subjectName": "Revolutionary line of CPV",
+  "directPrereqs": [
+    "HCM201",
+    "MLN101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "VNR201",
+      "to": "HCM201"
+    },
+    {
+      "from": "VNR201",
+      "to": "MLN101"
+    },
+    {
+      "from": "HCM201",
+      "to": "MLN101"
+    }
+  ],
+  "names": {
+    "VNR201": "Revolutionary line of CPV",
+    "HCM201": "Ho Chi Minh Ideology",
+    "MLN101": "Principles of Marxism - Leninism"
+  }
+}

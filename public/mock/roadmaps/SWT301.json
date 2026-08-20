@@ -1,0 +1,76 @@
+{
+  "code": "SWT301",
+  "subjectName": "Software Testing_Kiểm thử phần mềm",
+  "directPrereqs": [
+    "SWE102",
+    "SWE201",
+    "SWE201c",
+    "SWE202c",
+    "PRO192",
+    "PRF192"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "SWT301",
+      "to": "SWE102"
+    },
+    {
+      "from": "SWT301",
+      "to": "SWE201"
+    },
+    {
+      "from": "SWT301",
+      "to": "SWE201c"
+    },
+    {
+      "from": "SWT301",
+      "to": "SWE202c"
+    },
+    {
+      "from": "SWT301",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWT301",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWE102",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE102",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRF192"
+    },
+    {
+      "from": "SWE202c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE202c",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "SWE102": "Introduction to Software Engineering",
+    "SWT301": "Software Testing_Kiểm thử phần mềm",
+    "SWE201": "",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "SWE202c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+    "SWE201c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm"
+  }
+}

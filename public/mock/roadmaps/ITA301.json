@@ -1,0 +1,35 @@
+{
+  "code": "ITA301",
+  "subjectName": "Information System Design & Analysis_Phân tích thiết kế HTTT",
+  "directPrereqs": [
+    "DBI202",
+    "ITA203",
+    "ITA203c"
+  ],
+  "unlocks": [
+    "ISP490",
+    "KMS301"
+  ],
+  "edges": [
+    {
+      "from": "ITA301",
+      "to": "DBI202"
+    },
+    {
+      "from": "ITA301",
+      "to": "ITA203"
+    },
+    {
+      "from": "ITA301",
+      "to": "ITA203c"
+    }
+  ],
+  "names": {
+    "ITA203c": "Information System Overview/Nhập môn hệ thống thông tin",
+    "ITA203": "",
+    "ISP490": "IS Capstone Project_Đồ án tốt nghiệp hệ thống thông tin",
+    "KMS301": "Knowledge management system_Hệ thống quản trị tri thức",
+    "DBI202": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+    "ITA301": "Information System Design & Analysis_Phân tích thiết kế HTTT"
+  }
+}

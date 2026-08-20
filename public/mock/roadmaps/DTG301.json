@@ -1,0 +1,18 @@
+{
+  "code": "DTG301",
+  "subjectName": "Digital Tool - Interactive",
+  "directPrereqs": [
+    "WMT201"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "DTG301",
+      "to": "WMT201"
+    }
+  ],
+  "names": {
+    "WMT201": "Web and Mobility Technology",
+    "DTG301": "Digital Tool - Interactive"
+  }
+}

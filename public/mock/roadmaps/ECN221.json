@@ -1,0 +1,33 @@
+{
+  "code": "ECN221",
+  "subjectName": "Tiếng Trung tổng hợp 3",
+  "directPrereqs": [
+    "ECN211",
+    "ECN101"
+  ],
+  "unlocks": [
+    "ECN311",
+    "ECN321"
+  ],
+  "edges": [
+    {
+      "from": "ECN221",
+      "to": "ECN211"
+    },
+    {
+      "from": "ECN221",
+      "to": "ECN101"
+    },
+    {
+      "from": "ECN211",
+      "to": "ECN101"
+    }
+  ],
+  "names": {
+    "ECN321": "Tiếng Trung tổng hợp 5",
+    "ECN101": "Tiếng Trung tổng hợp 1",
+    "ECN311": "Integrated Chinese 4_Tiếng Trung tổng hợp 4",
+    "ECN211": "Tiếng Trung tổng hợp 2",
+    "ECN221": "Tiếng Trung tổng hợp 3"
+  }
+}

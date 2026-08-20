@@ -1,0 +1,30 @@
+{
+  "code": "NLP301c",
+  "subjectName": "Natural Language Processing_Xử lý ngôn ngữ tự nhiên",
+  "directPrereqs": [
+    "PFP191",
+    "PRP201",
+    "PRP201c"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "NLP301c",
+      "to": "PFP191"
+    },
+    {
+      "from": "NLP301c",
+      "to": "PRP201"
+    },
+    {
+      "from": "NLP301c",
+      "to": "PRP201c"
+    }
+  ],
+  "names": {
+    "PFP191": "Programming Fundamentals with Python_Cơ sở lập trình với Python",
+    "NLP301c": "Natural Language Processing_Xử lý ngôn ngữ tự nhiên",
+    "PRP201": "",
+    "PRP201c": "Python Programming_Lập trình Python"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "code": "MPL201",
+  "subjectName": "Media Planning _ Lập kế hoạch truyền thông",
+  "directPrereqs": [
+    "MKT101",
+    "MMK101"
+  ],
+  "unlocks": [
+    "EVN205",
+    "EVN301",
+    "GRA497"
+  ],
+  "edges": [
+    {
+      "from": "MPL201",
+      "to": "MKT101"
+    },
+    {
+      "from": "MPL201",
+      "to": "MMK101"
+    }
+  ],
+  "names": {
+    "GRA497": "Capstone Project Multimedia Communications_Đồ án tốt nghiệp_Truyền thông đa phương tiện",
+    "MKT101": "Marketing Principles_Nguyên lý Marketing",
+    "MMK101": "Management and Marketing_Nhập môn Quản trị và Marketing",
+    "EVN205": "Event Management For PR_Quản trị sự kiện trong quan hệ công chúng",
+    "EVN301": "Event Management_Quản trị sự kiện",
+    "MPL201": "Media Planning _ Lập kế hoạch truyền thông"
+  }
+}

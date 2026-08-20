@@ -1,0 +1,278 @@
+{
+  "code": "IAP491",
+  "subjectName": "IA Graduation Project_Đồ án tốt nghiệp ATTT",
+  "directPrereqs": [
+    "DBS401",
+    "FRS401",
+    "HOD401",
+    "IAM302",
+    "IAP301",
+    "NWC204",
+    "NWC302",
+    "DBI202",
+    "OSP201",
+    "FRS301",
+    "ITE302",
+    "ITE302c",
+    "ITE303",
+    "PRO192",
+    "IAA202",
+    "NWC202",
+    "NWC203",
+    "NWC203c",
+    "PRF192",
+    "IAO101",
+    "IAO201c",
+    "IAO202",
+    "OSG202"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "IAP491",
+      "to": "DBS401"
+    },
+    {
+      "from": "IAP491",
+      "to": "FRS401"
+    },
+    {
+      "from": "IAP491",
+      "to": "HOD401"
+    },
+    {
+      "from": "IAP491",
+      "to": "IAM302"
+    },
+    {
+      "from": "IAP491",
+      "to": "IAP301"
+    },
+    {
+      "from": "IAP491",
+      "to": "NWC204"
+    },
+    {
+      "from": "IAP491",
+      "to": "NWC302"
+    },
+    {
+      "from": "IAP491",
+      "to": "DBI202"
+    },
+    {
+      "from": "IAP491",
+      "to": "OSP201"
+    },
+    {
+      "from": "IAP491",
+      "to": "FRS301"
+    },
+    {
+      "from": "IAP491",
+      "to": "ITE302"
+    },
+    {
+      "from": "IAP491",
+      "to": "ITE302c"
+    },
+    {
+      "from": "IAP491",
+      "to": "ITE303"
+    },
+    {
+      "from": "IAP491",
+      "to": "PRO192"
+    },
+    {
+      "from": "IAP491",
+      "to": "IAA202"
+    },
+    {
+      "from": "IAP491",
+      "to": "NWC202"
+    },
+    {
+      "from": "IAP491",
+      "to": "NWC203"
+    },
+    {
+      "from": "IAP491",
+      "to": "NWC203c"
+    },
+    {
+      "from": "IAP491",
+      "to": "PRF192"
+    },
+    {
+      "from": "IAP491",
+      "to": "IAO101"
+    },
+    {
+      "from": "IAP491",
+      "to": "IAO201c"
+    },
+    {
+      "from": "IAP491",
+      "to": "IAO202"
+    },
+    {
+      "from": "IAP491",
+      "to": "OSG202"
+    },
+    {
+      "from": "DBS401",
+      "to": "DBI202"
+    },
+    {
+      "from": "DBS401",
+      "to": "OSP201"
+    },
+    {
+      "from": "FRS401",
+      "to": "FRS301"
+    },
+    {
+      "from": "FRS401",
+      "to": "NWC202"
+    },
+    {
+      "from": "FRS401",
+      "to": "NWC203"
+    },
+    {
+      "from": "FRS401",
+      "to": "NWC203c"
+    },
+    {
+      "from": "FRS401",
+      "to": "NWC204"
+    },
+    {
+      "from": "FRS401",
+      "to": "OSG202"
+    },
+    {
+      "from": "HOD401",
+      "to": "ITE302"
+    },
+    {
+      "from": "HOD401",
+      "to": "ITE302c"
+    },
+    {
+      "from": "HOD401",
+      "to": "ITE303"
+    },
+    {
+      "from": "HOD401",
+      "to": "OSP201"
+    },
+    {
+      "from": "IAM302",
+      "to": "ITE302"
+    },
+    {
+      "from": "IAM302",
+      "to": "ITE302c"
+    },
+    {
+      "from": "IAM302",
+      "to": "ITE303"
+    },
+    {
+      "from": "IAM302",
+      "to": "PRO192"
+    },
+    {
+      "from": "IAM302",
+      "to": "PRF192"
+    },
+    {
+      "from": "IAP301",
+      "to": "IAA202"
+    },
+    {
+      "from": "IAP301",
+      "to": "IAO101"
+    },
+    {
+      "from": "IAP301",
+      "to": "IAO201c"
+    },
+    {
+      "from": "IAP301",
+      "to": "IAO202"
+    },
+    {
+      "from": "NWC302",
+      "to": "OSP201"
+    },
+    {
+      "from": "FRS301",
+      "to": "NWC202"
+    },
+    {
+      "from": "FRS301",
+      "to": "NWC203"
+    },
+    {
+      "from": "FRS301",
+      "to": "NWC203c"
+    },
+    {
+      "from": "FRS301",
+      "to": "NWC204"
+    },
+    {
+      "from": "FRS301",
+      "to": "OSG202"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    },
+    {
+      "from": "IAA202",
+      "to": "IAO101"
+    },
+    {
+      "from": "IAA202",
+      "to": "IAO201c"
+    },
+    {
+      "from": "IAA202",
+      "to": "IAO202"
+    },
+    {
+      "from": "NWC202",
+      "to": "OSG202"
+    }
+  ],
+  "names": {
+    "IAA202": "Risk Management in Information Systems_Quản trị rủi ro trong hệ thống thông tin",
+    "HOD401": "Ethical Hacking and Offensive Security_Thâm nhập thử và phòng thủ",
+    "NWC203c": "Computer Networking_Mạng máy tính",
+    "IAO202": "Information Assurance Overview_Nhập môn An toàn thông tin",
+    "ITE302": "Ethics in Information technology",
+    "DBI202": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "DBS401": "Database Security_An ninh cơ sở dữ liệu",
+    "FRS401": "Network Forensics",
+    "IAM302": "Malware Analysis and Reverse Engineering_Phân tích mã độc và kỹ thuật dịch ngược",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "NWC302": "Network Connetivity",
+    "NWC202": "Computer Networking",
+    "FRS301": "Digital Forensics_Điều tra số",
+    "IAO201c": "Introduction to Information Assurance_Nhập môn an toàn thông tin",
+    "NWC203": "Computer Networking_Mạng máy tính",
+    "ITE302c": "Ethics in IT_Đạo đức trong CNTT",
+    "IAP491": "IA Graduation Project_Đồ án tốt nghiệp ATTT",
+    "OSP201": "Open Source Platform and Network Administration_Hệ thống nguồn mở và quản trị mạng",
+    "NWC204": "Computer Networking_Mạng máy tính",
+    "IAP301": "Policy Development in Information Assurance_Phát triển chính sách an toàn thông tin",
+    "OSG202": "Operating Systems_Hệ điều hành",
+    "IAO101": "Information Assurance Overview",
+    "ITE303": "Cyber Law and IT Ethics"
+  }
+}

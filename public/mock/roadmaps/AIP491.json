@@ -1,0 +1,60 @@
+{
+  "code": "AIP491",
+  "subjectName": "AI Capstone Project_Đồ án tốt nghiệp TTNT",
+  "directPrereqs": [
+    "OJT202",
+    "JPD133",
+    "JPD123",
+    "JPD113"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "AIP491",
+      "to": "OJT202"
+    },
+    {
+      "from": "AIP491",
+      "to": "JPD133"
+    },
+    {
+      "from": "AIP491",
+      "to": "JPD123"
+    },
+    {
+      "from": "AIP491",
+      "to": "JPD113"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD133"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD123"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD133",
+      "to": "JPD123"
+    },
+    {
+      "from": "JPD133",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD123",
+      "to": "JPD113"
+    }
+  ],
+  "names": {
+    "OJT202": "On-The-Job Training_Đào tạo trong môi trường thực tế",
+    "JPD123": "Elementary Japanese 1-A1.2_Tiếng Nhật sơ cấp 1-A1.2",
+    "JPD133": "Elementary Japanese  1-A1/A2_Tiếng Nhật sơ cấp 1-A1/A2",
+    "AIP491": "AI Capstone Project_Đồ án tốt nghiệp TTNT",
+    "JPD113": "Elementary Japanese 1- A1.1_Tiếng Nhật sơ cấp 1-A1.1"
+  }
+}

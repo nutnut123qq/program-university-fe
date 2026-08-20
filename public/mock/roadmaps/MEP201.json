@@ -1,0 +1,39 @@
+{
+  "code": "MEP201",
+  "subjectName": "Multimedia Production Project_Dự án sản xuất sản phẩm TTĐPT",
+  "directPrereqs": [
+    "ADP201",
+    "MED201",
+    "SDP201",
+    "VDP201"
+  ],
+  "unlocks": [
+    "GRA497"
+  ],
+  "edges": [
+    {
+      "from": "MEP201",
+      "to": "ADP201"
+    },
+    {
+      "from": "MEP201",
+      "to": "MED201"
+    },
+    {
+      "from": "MEP201",
+      "to": "SDP201"
+    },
+    {
+      "from": "MEP201",
+      "to": "VDP201"
+    }
+  ],
+  "names": {
+    "GRA497": "Capstone Project Multimedia Communications_Đồ án tốt nghiệp_Truyền thông đa phương tiện",
+    "VDP201": "Video Production_Sản xuất Video",
+    "ADP201": "Audio Production",
+    "MED201": "New Media Technology_Các loại hình Truyền thông đương đại",
+    "MEP201": "Multimedia Production Project_Dự án sản xuất sản phẩm TTĐPT",
+    "SDP201": "Sound Production_Sản xuất âm thanh"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "code": "DGP201",
+  "subjectName": "Digital painting _Vẽ kỹ thuật số",
+  "directPrereqs": [
+    "DRP101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "DGP201",
+      "to": "DRP101"
+    }
+  ],
+  "names": {
+    "DRP101": "Drawing plaster stature - portrait_Hình họa - Vẽ đầu tượng, chân dung",
+    "DGP201": "Digital painting _Vẽ kỹ thuật số"
+  }
+}

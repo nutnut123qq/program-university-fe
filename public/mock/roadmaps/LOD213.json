@@ -1,0 +1,21 @@
+{
+  "code": "LOD213",
+  "subjectName": "Housekeeping Operations_Nghiệp vụ buồng phòng",
+  "directPrereqs": [
+    "HMO102"
+  ],
+  "unlocks": [
+    "GRP490"
+  ],
+  "edges": [
+    {
+      "from": "LOD213",
+      "to": "HMO102"
+    }
+  ],
+  "names": {
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "LOD213": "Housekeeping Operations_Nghiệp vụ buồng phòng",
+    "HMO102": "Introduction to Tourism & Hospitality industry_Tổng quan ngành Du lịch & Khách sạn"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "code": "PRJ301",
+  "subjectName": "Java Web Application Development_Phát triển ứng dụng Java web",
+  "directPrereqs": [
+    "DBI202",
+    "PRO192",
+    "PRF192"
+  ],
+  "unlocks": [
+    "HSF301",
+    "HSF302",
+    "MSS301",
+    "SAP490",
+    "SBA301",
+    "SEP490",
+    "SET490",
+    "SWP391"
+  ],
+  "edges": [
+    {
+      "from": "PRJ301",
+      "to": "DBI202"
+    },
+    {
+      "from": "PRJ301",
+      "to": "PRO192"
+    },
+    {
+      "from": "PRJ301",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "MSS301": "Microservices with Spring Cloud__Microservices với Spring Cloud",
+    "HSF301": "Hibernate and Spring framework_Hibernate & Spring Framework",
+    "HSF302": "Working with Spring Framework_Làm việc với Spring Framework",
+    "SBA301": "Integrate single page application with Spring Boot_Tích hợp ứng dụng trang đơn với Spring Boot",
+    "SEP490": "SE Capstone Project_Đồ án tốt nghiệp KTPM",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "SAP490": "SAP Interdisciplinary Capstone Project_Đồ án liên ngành SAP",
+    "SET490": "SE Graduation Thesis_Khóa luận tốt nghiệp Kỹ thuật phần mềm",
+    "DBI202": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+    "SWP391": "Software development project_Dự án phát triển phần mềm",
+    "PRJ301": "Java Web Application Development_Phát triển ứng dụng Java web"
+  }
+}

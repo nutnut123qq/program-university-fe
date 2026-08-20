@@ -1,0 +1,45 @@
+{
+  "code": "CHI121",
+  "subjectName": "Integrated Chinese 2_Tiếng Trung tổng hợp 2",
+  "directPrereqs": [
+    "CHI111"
+  ],
+  "unlocks": [
+    "CBC411",
+    "CBC421",
+    "CCS401",
+    "CHG401",
+    "CHG401mc",
+    "CHI311",
+    "CHI321",
+    "CHI331",
+    "CHI401",
+    "CHI411",
+    "CHI421",
+    "CPL401",
+    "CTI401"
+  ],
+  "edges": [
+    {
+      "from": "CHI121",
+      "to": "CHI111"
+    }
+  ],
+  "names": {
+    "CTI401": "Translation & Interpreting_Biên - Phiên dịch",
+    "CBC421": "Business Chinese 2_Tiếng Trung thương mại 2",
+    "CCS401": "Chinese Country Studies_Đất nước học Trung Quốc",
+    "CHI411": "Integrated Chinese 6_Tiếng Trung tổng hợp 6",
+    "CHI331": "Integrated Chinese 5_Tiếng Trung tổng hợp 5",
+    "CHI421": "Integrated Chinese 7_Tiếng Trung tổng hợp 7",
+    "CPL401": "Phonetics - Lexicology - Chinese Character_Ngữ âm- Từ vựng- Hán tự",
+    "CHI111": "Integrated Chinese 1_Tiếng Trung tổng hợp 1",
+    "CHI401": "Integrated Chinese 6_Tiếng Trung tổng hợp 6",
+    "CHI121": "Integrated Chinese 2_Tiếng Trung tổng hợp 2",
+    "CHG401": "Chinese Grammar _Ngữ pháp tiếng Trung Quốc",
+    "CHI321": "Integrated Chinese 4_Tiếng Trung tổng hợp 4",
+    "CHG401mc": "Chinese Grammar_Ngữ pháp tiếng Trung Quốc",
+    "CBC411": "Business Chinese 1_Tiếng Trung Thương Mại 01",
+    "CHI311": "Integrated Chinese 3_Tiếng Trung tổng hợp 3"
+  }
+}

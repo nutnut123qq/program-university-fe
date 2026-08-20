@@ -9,6 +9,7 @@ import { GitCommit, Layers, Maximize2, RotateCcw, Filter, CheckCircle2 } from "l
 
 interface PrerequisiteGraphProps {
     courses: Curriculum[]
+    onSelectCourseForSyllabus?: (course: Curriculum) => void
 }
 
 const getBlockColor = (kb?: string | null) => {
@@ -21,7 +22,7 @@ const getBlockColor = (kb?: string | null) => {
     return "bg-slate-500/10 border-slate-500/40 text-slate-600 dark:text-slate-400 hover:bg-slate-500/20"
 }
 
-export const PrerequisiteGraph: React.FC<PrerequisiteGraphProps> = ({ courses }) => {
+export const PrerequisiteGraph: React.FC<PrerequisiteGraphProps> = ({ courses, onSelectCourseForSyllabus }) => {
     const [selectedCourse, setSelectedCourse] = useState<Curriculum | null>(null)
     const [activeBlockFilter, setActiveBlockFilter] = useState<string>("all")
     const [isFullscreen, setIsFullscreen] = useState<boolean>(false)
@@ -148,10 +149,22 @@ export const PrerequisiteGraph: React.FC<PrerequisiteGraphProps> = ({ courses })
                 <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full bg-purple-500" /> Chuyên ngành</span>
                 <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full bg-emerald-500" /> Tốt nghiệp</span>
                 {selectedCourse && (
-                    <span className="ml-auto font-medium text-primary flex items-center gap-1">
-                        <CheckCircle2 className="w-3.5 h-3.5" />
-                        Đang chọn: <strong>{selectedCourse.courseName}</strong>
-                    </span>
+                    <div className="ml-auto flex items-center gap-2">
+                        <span className="font-medium text-primary flex items-center gap-1">
+                            <CheckCircle2 className="w-3.5 h-3.5" />
+                            Đang chọn: <strong>{selectedCourse.courseName}</strong> ({selectedCourse.courseCode || "—"})
+                        </span>
+                        {onSelectCourseForSyllabus && (
+                            <Button
+                                size="sm"
+                                variant="default"
+                                onClick={() => onSelectCourseForSyllabus(selectedCourse)}
+                                className="h-7 text-xs px-2.5 bg-primary font-medium text-primary-foreground shadow-sm hover:bg-primary/90"
+                            >
+                                Xem đề cương chi tiết
+                            </Button>
+                        )}
+                    </div>
                 )}
             </div>
 

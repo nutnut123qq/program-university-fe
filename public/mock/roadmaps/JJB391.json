@@ -1,0 +1,307 @@
+{
+  "code": "JJB391",
+  "subjectName": "Japanese for JLPT/BJT_Nâng cao  năng lực tiếng Nhật tổng hợp  (JLPT ＆B J T）",
+  "directPrereqs": [
+    "JIP301",
+    "JPD346",
+    "JPD336",
+    "JPD326",
+    "JPD316",
+    "JPD226",
+    "OJT202",
+    "JPD216",
+    "JPD133",
+    "JPD126",
+    "JPD123",
+    "JPD116",
+    "JPD113"
+  ],
+  "unlocks": [
+    "JIS401",
+    "JIT401",
+    "JSC201",
+    "JSI201",
+    "JSI501",
+    "JTW301",
+    "SWC201",
+    "SWC501"
+  ],
+  "edges": [
+    {
+      "from": "JJB391",
+      "to": "JIP301"
+    },
+    {
+      "from": "JJB391",
+      "to": "JPD346"
+    },
+    {
+      "from": "JJB391",
+      "to": "JPD336"
+    },
+    {
+      "from": "JJB391",
+      "to": "JPD326"
+    },
+    {
+      "from": "JJB391",
+      "to": "JPD316"
+    },
+    {
+      "from": "JJB391",
+      "to": "JPD226"
+    },
+    {
+      "from": "JJB391",
+      "to": "OJT202"
+    },
+    {
+      "from": "JJB391",
+      "to": "JPD216"
+    },
+    {
+      "from": "JJB391",
+      "to": "JPD133"
+    },
+    {
+      "from": "JJB391",
+      "to": "JPD126"
+    },
+    {
+      "from": "JJB391",
+      "to": "JPD123"
+    },
+    {
+      "from": "JJB391",
+      "to": "JPD116"
+    },
+    {
+      "from": "JJB391",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD346",
+      "to": "JPD336"
+    },
+    {
+      "from": "JPD346",
+      "to": "JPD326"
+    },
+    {
+      "from": "JPD346",
+      "to": "JPD316"
+    },
+    {
+      "from": "JPD346",
+      "to": "JPD226"
+    },
+    {
+      "from": "JPD346",
+      "to": "OJT202"
+    },
+    {
+      "from": "JPD346",
+      "to": "JPD216"
+    },
+    {
+      "from": "JPD346",
+      "to": "JPD133"
+    },
+    {
+      "from": "JPD346",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD346",
+      "to": "JPD123"
+    },
+    {
+      "from": "JPD346",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD346",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD326"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD316"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD226"
+    },
+    {
+      "from": "JPD336",
+      "to": "OJT202"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD216"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD133"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD123"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD336",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD316"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD226"
+    },
+    {
+      "from": "JPD326",
+      "to": "OJT202"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD216"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD133"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD123"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD326",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD316",
+      "to": "JPD226"
+    },
+    {
+      "from": "JPD316",
+      "to": "OJT202"
+    },
+    {
+      "from": "JPD316",
+      "to": "JPD216"
+    },
+    {
+      "from": "JPD316",
+      "to": "JPD133"
+    },
+    {
+      "from": "JPD316",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD316",
+      "to": "JPD123"
+    },
+    {
+      "from": "JPD316",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD316",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD226",
+      "to": "JPD216"
+    },
+    {
+      "from": "JPD226",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD226",
+      "to": "JPD116"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD133"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD123"
+    },
+    {
+      "from": "OJT202",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD216",
+      "to": "JPD126"
+    },
+    {
+      "from": "JPD216",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD133",
+      "to": "JPD123"
+    },
+    {
+      "from": "JPD133",
+      "to": "JPD113"
+    },
+    {
+      "from": "JPD126",
+      "to": "JPD116"
+    },
+    {
+      "from": "JPD123",
+      "to": "JPD113"
+    }
+  ],
+  "names": {
+    "JPD316": "Intermediate Japanese 1-B1/B2_ Tiếng Nhật trung cấp 1-B1/B2",
+    "JIS401": "Tiếng Nhật CNTT trong ngành phần mềm",
+    "JPD226": "Pre-Intermediate Japanese 2-B1_Tiếng Nhật sơ trung cấp 2-B1",
+    "JPD126": "Elementary Japanese 2-A2_Tiếng Nhật sơ cấp 2-A2",
+    "SWC501": "Software Development Process_Quy trình phát triển phần mềm",
+    "JPD336": "Intermediate Japanese 2-B2.2 _Tiếng Nhật trung cấp 2-B2.2",
+    "JIP301": "Những vấn đề cơ bản về Ngữ âm, từ vựng & ngữ pháp - Từ lý thuyết đến thực tiễn",
+    "JPD116": "Elementary Japanese  1-A1/A2_Tiếng Nhật sơ cấp 1-A1/A2",
+    "JPD113": "Elementary Japanese 1- A1.1_Tiếng Nhật sơ cấp 1-A1.1",
+    "JPD346": "Intermediate Japanese 2-B2/C1_ Tiếng Nhật trung cấp 2-B2/C1",
+    "JSI501": "Information System_Hệ thống thông tin",
+    "JIT401": "Information Technology Japanese_Tiếng Nhật công nghệ thông tin",
+    "JSI201": "Information System_Hệ thống thông tin",
+    "JTW301": "Japanese IT terms and text translation_Dịch thuật ngữ và văn bản tiếng Nhật công  nghệ thông tin",
+    "JJB391": "Japanese for JLPT/BJT_Nâng cao  năng lực tiếng Nhật tổng hợp  (JLPT ＆B J T）",
+    "OJT202": "On-The-Job Training_Đào tạo trong môi trường thực tế",
+    "JPD123": "Elementary Japanese 1-A1.2_Tiếng Nhật sơ cấp 1-A1.2",
+    "SWC201": "Software Development Process_Quy trình phát triển phần mềm",
+    "JPD326": "Intermediate Japanese 2-B2.1_ Tiếng Nhật trung cấp 2-B2.1",
+    "JPD133": "Elementary Japanese  1-A1/A2_Tiếng Nhật sơ cấp 1-A1/A2",
+    "JSC201": "Computer System_Hệ thống máy tính",
+    "JPD216": "Pre-Intermediate Japanese 1-A2/B1 _Tiếng Nhật sơ trung cấp1-A2/B1"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "code": "EVN301",
+  "subjectName": "Event Management_Quản trị sự kiện",
+  "directPrereqs": [
+    "MPL201",
+    "MKT101",
+    "MMK101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "EVN301",
+      "to": "MPL201"
+    },
+    {
+      "from": "EVN301",
+      "to": "MKT101"
+    },
+    {
+      "from": "EVN301",
+      "to": "MMK101"
+    },
+    {
+      "from": "MPL201",
+      "to": "MKT101"
+    },
+    {
+      "from": "MPL201",
+      "to": "MMK101"
+    }
+  ],
+  "names": {
+    "EVN301": "Event Management_Quản trị sự kiện",
+    "MKT101": "Marketing Principles_Nguyên lý Marketing",
+    "MMK101": "Management and Marketing_Nhập môn Quản trị và Marketing",
+    "MPL201": "Media Planning _ Lập kế hoạch truyền thông"
+  }
+}

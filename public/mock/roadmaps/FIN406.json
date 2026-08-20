@@ -1,0 +1,48 @@
+{
+  "code": "FIN406",
+  "subjectName": "Financial Risk Management_Quản trị rủi ro tài chính",
+  "directPrereqs": [
+    "FIN402",
+    "MAS202",
+    "FIN202",
+    "ACC101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "FIN406",
+      "to": "FIN402"
+    },
+    {
+      "from": "FIN406",
+      "to": "MAS202"
+    },
+    {
+      "from": "FIN406",
+      "to": "FIN202"
+    },
+    {
+      "from": "FIN406",
+      "to": "ACC101"
+    },
+    {
+      "from": "FIN402",
+      "to": "FIN202"
+    },
+    {
+      "from": "FIN402",
+      "to": "ACC101"
+    },
+    {
+      "from": "FIN202",
+      "to": "ACC101"
+    }
+  ],
+  "names": {
+    "FIN202": "Principles of Corporate Finance_Tài chính doanh nghiệp",
+    "FIN402": "Derivatives_Công cụ phái sinh",
+    "FIN406": "Financial Risk Management_Quản trị rủi ro tài chính",
+    "ACC101": "Principles of Accounting_Nguyên lý kế toán",
+    "MAS202": "Applied Statistics for Business_Thống kê ứng dụng trong kinh doanh"
+  }
+}

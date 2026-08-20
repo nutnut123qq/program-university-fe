@@ -1,0 +1,38 @@
+{
+  "code": "DAP391m",
+  "subjectName": "AI-DS Project_Dự án TTNT-KHDL",
+  "directPrereqs": [
+    "ADY201m",
+    "PFP191",
+    "DBI202"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "DAP391m",
+      "to": "ADY201m"
+    },
+    {
+      "from": "DAP391m",
+      "to": "PFP191"
+    },
+    {
+      "from": "DAP391m",
+      "to": "DBI202"
+    },
+    {
+      "from": "ADY201m",
+      "to": "DBI202"
+    },
+    {
+      "from": "ADY201m",
+      "to": "PFP191"
+    }
+  ],
+  "names": {
+    "PFP191": "Programming Fundamentals with Python_Cơ sở lập trình với Python",
+    "DBI202": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+    "ADY201m": "AI, DS with Python & SQL_TTNT và KHDL với\nPython và SQL",
+    "DAP391m": "AI-DS Project_Dự án TTNT-KHDL"
+  }
+}

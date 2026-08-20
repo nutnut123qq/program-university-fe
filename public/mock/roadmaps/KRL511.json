@@ -1,0 +1,113 @@
+{
+  "code": "KRL511",
+  "subjectName": "Advanced Korean 1_Tiếng Hàn cao cấp 1",
+  "directPrereqs": [
+    "KRL421",
+    "KRL411",
+    "KRL321",
+    "KRL311",
+    "KRL201",
+    "KRL101"
+  ],
+  "unlocks": [
+    "KLC301",
+    "KRL521"
+  ],
+  "edges": [
+    {
+      "from": "KRL511",
+      "to": "KRL421"
+    },
+    {
+      "from": "KRL511",
+      "to": "KRL411"
+    },
+    {
+      "from": "KRL511",
+      "to": "KRL321"
+    },
+    {
+      "from": "KRL511",
+      "to": "KRL311"
+    },
+    {
+      "from": "KRL511",
+      "to": "KRL201"
+    },
+    {
+      "from": "KRL511",
+      "to": "KRL101"
+    },
+    {
+      "from": "KRL421",
+      "to": "KRL411"
+    },
+    {
+      "from": "KRL421",
+      "to": "KRL321"
+    },
+    {
+      "from": "KRL421",
+      "to": "KRL311"
+    },
+    {
+      "from": "KRL421",
+      "to": "KRL201"
+    },
+    {
+      "from": "KRL421",
+      "to": "KRL101"
+    },
+    {
+      "from": "KRL411",
+      "to": "KRL321"
+    },
+    {
+      "from": "KRL411",
+      "to": "KRL311"
+    },
+    {
+      "from": "KRL411",
+      "to": "KRL201"
+    },
+    {
+      "from": "KRL411",
+      "to": "KRL101"
+    },
+    {
+      "from": "KRL321",
+      "to": "KRL311"
+    },
+    {
+      "from": "KRL321",
+      "to": "KRL201"
+    },
+    {
+      "from": "KRL321",
+      "to": "KRL101"
+    },
+    {
+      "from": "KRL311",
+      "to": "KRL201"
+    },
+    {
+      "from": "KRL311",
+      "to": "KRL101"
+    },
+    {
+      "from": "KRL201",
+      "to": "KRL101"
+    }
+  ],
+  "names": {
+    "KLC301": "Chinese characters in Korean_Hán tự tiếng Hàn",
+    "KRL411": "Intermediate Korean 3_Tiếng Hàn trung cấp 3",
+    "KRL201": "Elementary Korean 2_Tiếng Hàn sơ cấp 2",
+    "KRL511": "Advanced Korean 1_Tiếng Hàn cao cấp 1",
+    "KRL311": "Intermediate Korean 1_Tiếng Hàn trung cấp 3",
+    "KRL321": "Intermediate Korean 2_Tiếng Hàn trung cấp 4",
+    "KRL101": "Elementary Korean 1_Tiếng Hàn sơ cấp 1",
+    "KRL521": "Advanced Korean 2_Tiếng Hàn cao cấp 2",
+    "KRL421": "Intermediate Korean 4_Tiếng Hàn trung cấp 4"
+  }
+}

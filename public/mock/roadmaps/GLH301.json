@@ -1,0 +1,18 @@
+{
+  "code": "GLH301",
+  "subjectName": "Goods and Insurance_Hàng hóa và bảo hiểm",
+  "directPrereqs": [
+    "SCM202"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "GLH301",
+      "to": "SCM202"
+    }
+  ],
+  "names": {
+    "GLH301": "Goods and Insurance_Hàng hóa và bảo hiểm",
+    "SCM202": "'Nhập môn Quản lý Logistics và chuỗi cung ứng_Introduction to Logistics and Supply Chain Management"
+  }
+}

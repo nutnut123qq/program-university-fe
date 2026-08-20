@@ -1,0 +1,36 @@
+{
+  "code": "MKT205c",
+  "subjectName": "International Marketing_Marketing quốc tế",
+  "directPrereqs": [
+    "IBI101",
+    "MKG101",
+    "MKT101",
+    "MMK101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "MKT205c",
+      "to": "IBI101"
+    },
+    {
+      "from": "MKT205c",
+      "to": "MKG101"
+    },
+    {
+      "from": "MKT205c",
+      "to": "MKT101"
+    },
+    {
+      "from": "MKT205c",
+      "to": "MMK101"
+    }
+  ],
+  "names": {
+    "MKT101": "Marketing Principles_Nguyên lý Marketing",
+    "MKT205c": "International Marketing_Marketing quốc tế",
+    "IBI101": "Introduction to International Business_Nhập môn kinh doanh quốc tế",
+    "MMK101": "Management and Marketing_Nhập môn Quản trị và Marketing",
+    "MKG101": "Management and Marketing Principles_Nguyên lý Quản trị và Marketing"
+  }
+}

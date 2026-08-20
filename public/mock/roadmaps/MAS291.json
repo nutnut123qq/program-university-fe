@@ -1,0 +1,75 @@
+{
+  "code": "MAS291",
+  "subjectName": "Statistics & Probability_Xác suất thống kê",
+  "directPrereqs": [
+    "MAC101",
+    "MAE101"
+  ],
+  "unlocks": [
+    "AID301c",
+    "AIE301m",
+    "AIL301",
+    "AIL302",
+    "AIL302m",
+    "AIL303m",
+    "AIL304m",
+    "AIT301",
+    "DAT301m",
+    "DBM301_old",
+    "DHV301",
+    "DPL301m",
+    "DPL302m",
+    "DPL303m",
+    "DTA301",
+    "IMT301",
+    "MDS301",
+    "PDS301m",
+    "REL301m",
+    "SEG301",
+    "SEG301m",
+    "SLP301",
+    "SLP301m",
+    "TMG301",
+    "TMG301m"
+  ],
+  "edges": [
+    {
+      "from": "MAS291",
+      "to": "MAC101"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAE101"
+    }
+  ],
+  "names": {
+    "REL301m": "Reinforcement Learning_Học tăng cường",
+    "TMG301": "Text Mining_Khai thác văn bản",
+    "AIE301m": "AI for Trading_Ứng dụng TTNT cho giao dịch",
+    "AIT301": "Artificial Intelligence with TensorFlow_TTNT với TensorFlow",
+    "DHV301": "Data Handling and Visualization_Xử lý và Trực quan hóa Dữ liệu",
+    "AIL301": "Machine Learning",
+    "SLP301": "Speech Processing_Xử lý tiếng nói",
+    "AIL302m": "Machine Learning_Học máy",
+    "IMT301": "Image Processing with TensorFlow_Xử lý ảnh với Tensorflow",
+    "DBM301_old": "Data mining",
+    "AID301c": "AI in Production_Thiết kế sản phẩm TTNT",
+    "MAC101": "Advanced Mathematics 1",
+    "AIL302": "MACHINE LEARNING",
+    "DPL303m": "Deep Learning_Học sâu",
+    "AIL303m": "Machine Learning_Học máy",
+    "SLP301m": "Speech Processing_Xử lý tiếng nói",
+    "DTA301": "Data Analysis_Phân tích dữ liệu",
+    "PDS301m": "Python for Applied Data Science_Lập trình Python cho khoa học dữ liệu ứng dụng",
+    "DAT301m": "AI Development with TensorFlow_Phát triển UDTTNT với TensorFlow",
+    "SEG301m": "Search Engines_Công cụ tìm kiếm",
+    "MDS301": "Machine Learning in Data Science_Học máy trong khoa học dữ liệu",
+    "DPL302m": "Deep Learning_Học sâu",
+    "SEG301": "Search Engines_Công cụ tìm kiếm",
+    "AIL304m": "Machine Learning_Học máy",
+    "MAE101": "Mathematics for Engineering_Toán cho ngành kỹ thuật",
+    "TMG301m": "Text Mining_Khai thác văn bản",
+    "MAS291": "Statistics & Probability_Xác suất thống kê",
+    "DPL301m": "Deep Learning_Học sâu"
+  }
+}

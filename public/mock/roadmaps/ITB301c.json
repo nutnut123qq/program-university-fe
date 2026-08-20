@@ -1,0 +1,18 @@
+{
+  "code": "ITB301c",
+  "subjectName": "Business Intelligence (BI)_Kinh doanh thông minh",
+  "directPrereqs": [
+    "DBI202"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "ITB301c",
+      "to": "DBI202"
+    }
+  ],
+  "names": {
+    "DBI202": "Introduction to Databases_Các hệ cơ sở dữ liệu",
+    "ITB301c": "Business Intelligence (BI)_Kinh doanh thông minh"
+  }
+}

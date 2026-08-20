@@ -1,0 +1,113 @@
+{
+  "code": "KRP301",
+  "subjectName": "Korean Phonology and Phonetics in use_Âm vị học và Thực hành ngữ âm tiếng Hàn",
+  "directPrereqs": [
+    "KRL222",
+    "KRL321",
+    "KRL212",
+    "KRL311",
+    "KRL122",
+    "KRL201",
+    "KRL112",
+    "KRL101"
+  ],
+  "unlocks": [
+    "KRP491",
+    "KRT491"
+  ],
+  "edges": [
+    {
+      "from": "KRP301",
+      "to": "KRL222"
+    },
+    {
+      "from": "KRP301",
+      "to": "KRL321"
+    },
+    {
+      "from": "KRP301",
+      "to": "KRL212"
+    },
+    {
+      "from": "KRP301",
+      "to": "KRL311"
+    },
+    {
+      "from": "KRP301",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRP301",
+      "to": "KRL201"
+    },
+    {
+      "from": "KRP301",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRP301",
+      "to": "KRL101"
+    },
+    {
+      "from": "KRL222",
+      "to": "KRL212"
+    },
+    {
+      "from": "KRL222",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL222",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL321",
+      "to": "KRL311"
+    },
+    {
+      "from": "KRL321",
+      "to": "KRL201"
+    },
+    {
+      "from": "KRL321",
+      "to": "KRL101"
+    },
+    {
+      "from": "KRL212",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL212",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL311",
+      "to": "KRL201"
+    },
+    {
+      "from": "KRL311",
+      "to": "KRL101"
+    },
+    {
+      "from": "KRL122",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL201",
+      "to": "KRL101"
+    }
+  ],
+  "names": {
+    "KRL222": "Elementary Korean 4_Tiếng Hàn sơ cấp 4",
+    "KRL201": "Elementary Korean 2_Tiếng Hàn sơ cấp 2",
+    "KRT491": "Graduation Thesis_Khóa luận tốt nghiệp",
+    "KRL311": "Intermediate Korean 1_Tiếng Hàn trung cấp 3",
+    "KRL321": "Intermediate Korean 2_Tiếng Hàn trung cấp 4",
+    "KRP491": "Graduation Project_Đồ án tốt nghiệp",
+    "KRP301": "Korean Phonology and Phonetics in use_Âm vị học và Thực hành ngữ âm tiếng Hàn",
+    "KRL212": "Elementary Korean 3_Tiếng Hàn sơ cấp 3",
+    "KRL101": "Elementary Korean 1_Tiếng Hàn sơ cấp 1",
+    "KRL112": "Elementary Korean 1_Tiếng Hàn sơ cấp 1",
+    "KRL122": "Elementary Korean 2_Tiếng Hàn sơ cấp 2"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "code": "AIL303m",
+  "subjectName": "Machine Learning_Học máy",
+  "directPrereqs": [
+    "MAI391",
+    "MAS291",
+    "PFP191",
+    "MAE101",
+    "MAC101"
+  ],
+  "unlocks": [
+    "AID301c",
+    "AIE301m",
+    "DAT301m",
+    "DPL302m",
+    "REL301m",
+    "SEG301",
+    "SEG301m",
+    "SLP301",
+    "SLP301m",
+    "TMG301",
+    "TMG301m"
+  ],
+  "edges": [
+    {
+      "from": "AIL303m",
+      "to": "MAI391"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAS291"
+    },
+    {
+      "from": "AIL303m",
+      "to": "PFP191"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAE101"
+    },
+    {
+      "from": "AIL303m",
+      "to": "MAC101"
+    },
+    {
+      "from": "MAI391",
+      "to": "MAE101"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAC101"
+    },
+    {
+      "from": "MAS291",
+      "to": "MAE101"
+    }
+  ],
+  "names": {
+    "PFP191": "Programming Fundamentals with Python_Cơ sở lập trình với Python",
+    "DPL302m": "Deep Learning_Học sâu",
+    "MAI391": "Mathematics for Machine Learning_Toán cho học máy",
+    "SEG301": "Search Engines_Công cụ tìm kiếm",
+    "REL301m": "Reinforcement Learning_Học tăng cường",
+    "SEG301m": "Search Engines_Công cụ tìm kiếm",
+    "MAC101": "Advanced Mathematics 1",
+    "TMG301": "Text Mining_Khai thác văn bản",
+    "MAE101": "Mathematics for Engineering_Toán cho ngành kỹ thuật",
+    "AIE301m": "AI for Trading_Ứng dụng TTNT cho giao dịch",
+    "SLP301m": "Speech Processing_Xử lý tiếng nói",
+    "SLP301": "Speech Processing_Xử lý tiếng nói",
+    "AIL303m": "Machine Learning_Học máy",
+    "TMG301m": "Text Mining_Khai thác văn bản",
+    "DAT301m": "AI Development with TensorFlow_Phát triển UDTTNT với TensorFlow",
+    "MAS291": "Statistics & Probability_Xác suất thống kê",
+    "AID301c": "AI in Production_Thiết kế sản phẩm TTNT"
+  }
+}

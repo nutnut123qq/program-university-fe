@@ -1,0 +1,27 @@
+{
+  "code": "AEE301",
+  "subjectName": "Hệ thống điện-điện tử trên ô tô_Automotive Electrical-Electronics Systems",
+  "directPrereqs": [
+    "ASI101",
+    "EEI101"
+  ],
+  "unlocks": [
+    "MSA201"
+  ],
+  "edges": [
+    {
+      "from": "AEE301",
+      "to": "ASI101"
+    },
+    {
+      "from": "AEE301",
+      "to": "EEI101"
+    }
+  ],
+  "names": {
+    "MSA201": "Mô hình và mô phỏng_Modeling and Simulation for Automotive Systems",
+    "AEE301": "Hệ thống điện-điện tử trên ô tô_Automotive Electrical-Electronics Systems",
+    "ASI101": "Nhập môn ô tô_Introduction to Automotive System",
+    "EEI101": "Nhập môn kỹ thuật điện-điện tử_Introduction to Electrical-Electronics Engineering"
+  }
+}

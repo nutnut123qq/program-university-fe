@@ -1,0 +1,18 @@
+{
+  "code": "FTP301",
+  "subjectName": "Payments, Crypto currencies and blockchain_Phương tiện thanh toán, tiền điện tử và công nghệ chuỗi khối",
+  "directPrereqs": [
+    "FIN301"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "FTP301",
+      "to": "FIN301"
+    }
+  ],
+  "names": {
+    "FIN301": "Financial Markets and Institutions / Thị trường tài chính và các định chế tài chính",
+    "FTP301": "Payments, Crypto currencies and blockchain_Phương tiện thanh toán, tiền điện tử và công nghệ chuỗi khối"
+  }
+}

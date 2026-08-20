@@ -1,0 +1,135 @@
+{
+  "code": "KRC301",
+  "subjectName": "Korean Culture_Văn hóa Hàn Quốc",
+  "directPrereqs": [
+    "KRL312",
+    "KRL321",
+    "KRL222",
+    "KRL311",
+    "KRL212",
+    "KRL201",
+    "KRL122",
+    "KRL101",
+    "KRL112"
+  ],
+  "unlocks": [
+    "KRP491",
+    "KRT491"
+  ],
+  "edges": [
+    {
+      "from": "KRC301",
+      "to": "KRL312"
+    },
+    {
+      "from": "KRC301",
+      "to": "KRL321"
+    },
+    {
+      "from": "KRC301",
+      "to": "KRL222"
+    },
+    {
+      "from": "KRC301",
+      "to": "KRL311"
+    },
+    {
+      "from": "KRC301",
+      "to": "KRL212"
+    },
+    {
+      "from": "KRC301",
+      "to": "KRL201"
+    },
+    {
+      "from": "KRC301",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRC301",
+      "to": "KRL101"
+    },
+    {
+      "from": "KRC301",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL312",
+      "to": "KRL222"
+    },
+    {
+      "from": "KRL312",
+      "to": "KRL212"
+    },
+    {
+      "from": "KRL312",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL312",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL321",
+      "to": "KRL311"
+    },
+    {
+      "from": "KRL321",
+      "to": "KRL201"
+    },
+    {
+      "from": "KRL321",
+      "to": "KRL101"
+    },
+    {
+      "from": "KRL222",
+      "to": "KRL212"
+    },
+    {
+      "from": "KRL222",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL222",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL311",
+      "to": "KRL201"
+    },
+    {
+      "from": "KRL311",
+      "to": "KRL101"
+    },
+    {
+      "from": "KRL212",
+      "to": "KRL122"
+    },
+    {
+      "from": "KRL212",
+      "to": "KRL112"
+    },
+    {
+      "from": "KRL201",
+      "to": "KRL101"
+    },
+    {
+      "from": "KRL122",
+      "to": "KRL112"
+    }
+  ],
+  "names": {
+    "KRL222": "Elementary Korean 4_Tiếng Hàn sơ cấp 4",
+    "KRL201": "Elementary Korean 2_Tiếng Hàn sơ cấp 2",
+    "KRT491": "Graduation Thesis_Khóa luận tốt nghiệp",
+    "KRL311": "Intermediate Korean 1_Tiếng Hàn trung cấp 3",
+    "KRL321": "Intermediate Korean 2_Tiếng Hàn trung cấp 4",
+    "KRP491": "Graduation Project_Đồ án tốt nghiệp",
+    "KRL312": "Intermediate Korean  1_Tiếng Hàn trung cấp 1",
+    "KRL212": "Elementary Korean 3_Tiếng Hàn sơ cấp 3",
+    "KRL101": "Elementary Korean 1_Tiếng Hàn sơ cấp 1",
+    "KRC301": "Korean Culture_Văn hóa Hàn Quốc",
+    "KRL112": "Elementary Korean 1_Tiếng Hàn sơ cấp 1",
+    "KRL122": "Elementary Korean 2_Tiếng Hàn sơ cấp 2"
+  }
+}

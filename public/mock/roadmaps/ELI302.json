@@ -1,0 +1,135 @@
+{
+  "code": "ELI302",
+  "subjectName": "Phiên dịch tiếng Anh 1\nEnglish Interpretation 1",
+  "directPrereqs": [
+    "EAL201",
+    "EAL202",
+    "EAL202c",
+    "LTG202",
+    "LTG301",
+    "SSC302",
+    "SSC302c",
+    "SSC302m",
+    "ENG302",
+    "ENG302c",
+    "ENG303",
+    "ENP102",
+    "ENP203"
+  ],
+  "unlocks": [
+    "EIC301",
+    "EIP401",
+    "EIT401",
+    "ELI402",
+    "ELP491",
+    "ELT492",
+    "EPS301",
+    "ETT301"
+  ],
+  "edges": [
+    {
+      "from": "ELI302",
+      "to": "EAL201"
+    },
+    {
+      "from": "ELI302",
+      "to": "EAL202"
+    },
+    {
+      "from": "ELI302",
+      "to": "EAL202c"
+    },
+    {
+      "from": "ELI302",
+      "to": "LTG202"
+    },
+    {
+      "from": "ELI302",
+      "to": "LTG301"
+    },
+    {
+      "from": "ELI302",
+      "to": "SSC302"
+    },
+    {
+      "from": "ELI302",
+      "to": "SSC302c"
+    },
+    {
+      "from": "ELI302",
+      "to": "SSC302m"
+    },
+    {
+      "from": "ELI302",
+      "to": "ENG302"
+    },
+    {
+      "from": "ELI302",
+      "to": "ENG302c"
+    },
+    {
+      "from": "ELI302",
+      "to": "ENG303"
+    },
+    {
+      "from": "ELI302",
+      "to": "ENP102"
+    },
+    {
+      "from": "ELI302",
+      "to": "ENP203"
+    },
+    {
+      "from": "LTG301",
+      "to": "ENG302"
+    },
+    {
+      "from": "LTG301",
+      "to": "ENG302c"
+    },
+    {
+      "from": "LTG301",
+      "to": "ENG303"
+    },
+    {
+      "from": "LTG301",
+      "to": "ENP102"
+    },
+    {
+      "from": "LTG301",
+      "to": "ENP203"
+    },
+    {
+      "from": "SSC302m",
+      "to": "ENP102"
+    },
+    {
+      "from": "SSC302m",
+      "to": "ENP203"
+    }
+  ],
+  "names": {
+    "ENG302": "Advanced English Grammar_Ngữ pháp tiếng Anh nâng cao",
+    "SSC302c": "Advanced Presentation Skills_Kỹ năng thuyết trình nâng cao",
+    "ELI402": "Phiên dịch tiếng Anh 2\nEnglish Interpretation 2",
+    "ENP203": "Ngữ âm và âm vị học tiếng Anh\nEnglish phonetics and phonology",
+    "EAL201": "Academic Listening_Nghe học thuật",
+    "ENG302c": "Advanced English Grammar_Ngữ pháp tiếng Anh nâng cao",
+    "LTG202": "Introduction to Linguistics_Dẫn luận ngôn ngữ",
+    "EAL202": "Nghe tiếng Anh học thuật\nAcademic English Listening",
+    "LTG301": "Dẫn luận ngôn ngữ\nIntroduction to Linguistics",
+    "ELT492": "Graduation Thesis - English Studies_Khóa luận tốt nghiệp",
+    "EPS301": "Nghiệp vụ biên – phiên dịch",
+    "ELP491": "Graduation Project – English Studies_Đồ án tốt nghiệp",
+    "ENG303": "Ngữ pháp tiếng Anh nâng cao",
+    "EIC301": "Intercultural Communication_Giao tiếp liên văn hoá",
+    "SSC302m": "Nói trước công chúng_Public Speaking",
+    "EIT401": "English Translation and Interpretation in Tourism_Biên – phiên dịch tiếng Anh du lịch",
+    "EIP401": "Phiên dịch tiếng Anh cho dịch vụ công",
+    "ENP102": "English phonetics and phonology in use_Thực hành ngữ âm và âm vị học tiếng Anh",
+    "SSC302": "",
+    "ETT301": "Understanding Language Testing_Phương pháp đánh giá năng lực ngôn ngữ",
+    "EAL202c": "Nghe tiếng Anh học thuật",
+    "ELI302": "Phiên dịch tiếng Anh 1\nEnglish Interpretation 1"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "code": "SWE201c",
+  "subjectName": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+  "directPrereqs": [
+    "PRO192",
+    "PRF192"
+  ],
+  "unlocks": [
+    "AID301c",
+    "IMO301c",
+    "ISP392",
+    "ISP490",
+    "SAP490",
+    "SEP490",
+    "SET490",
+    "SWD391",
+    "SWD392",
+    "SWP391",
+    "SWP490",
+    "SWP493",
+    "SWR302",
+    "SWT301"
+  ],
+  "edges": [
+    {
+      "from": "SWE201c",
+      "to": "PRO192"
+    },
+    {
+      "from": "SWE201c",
+      "to": "PRF192"
+    },
+    {
+      "from": "PRO192",
+      "to": "PRF192"
+    }
+  ],
+  "names": {
+    "PRF192": "Programming Fundamentals_Cơ sở lập trình",
+    "SWR302": "Software Requirement_Yêu cầu phần mềm",
+    "SEP490": "SE Capstone Project_Đồ án tốt nghiệp KTPM",
+    "SWP493": "Capstone Project_Đồ án tốt nghiệp (For JS Specialization)",
+    "SWT301": "Software Testing_Kiểm thử phần mềm",
+    "SWD392": "Software Architecture and Design_Kiến trúc và thiết kế phần mềm",
+    "ISP490": "IS Capstone Project_Đồ án tốt nghiệp hệ thống thông tin",
+    "PRO192": "Object-Oriented Programming_Lập trình hướng đối tượng",
+    "ISP392": "Information System Programming Project_Dự án lập trình HTTT",
+    "SAP490": "SAP Interdisciplinary Capstone Project_Đồ án liên ngành SAP",
+    "SET490": "SE Graduation Thesis_Khóa luận tốt nghiệp Kỹ thuật phần mềm",
+    "SWE201c": "Introduction to Software Engineering_Nhập môn kĩ thuật phần mềm",
+    "SWP490": "Capstone Project_Đồ án tốt nghiệp (For IS, ES, BLC, ATM Specializations)",
+    "SWP391": "Software development project_Dự án phát triển phần mềm",
+    "SWD391": "Software Architecture and Design",
+    "IMO301c": "IT Service Management and Operations_Quản lý và Vận hành Dịch vụ Công nghệ Thông tin",
+    "AID301c": "AI in Production_Thiết kế sản phẩm TTNT"
+  }
+}

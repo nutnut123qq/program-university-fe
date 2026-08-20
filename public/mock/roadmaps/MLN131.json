@@ -1,0 +1,24 @@
+{
+  "code": "MLN131",
+  "subjectName": "Scientific socialism_Chủ nghĩa xã hội khoa học",
+  "directPrereqs": [
+    "MLN111",
+    "MLN122"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "MLN131",
+      "to": "MLN111"
+    },
+    {
+      "from": "MLN131",
+      "to": "MLN122"
+    }
+  ],
+  "names": {
+    "MLN131": "Scientific socialism_Chủ nghĩa xã hội khoa học",
+    "MLN111": "Philosophy of Marxism – Leninism_Triết học Mác - Lê-nin",
+    "MLN122": "Political economics of Marxism – Leninism_Kinh tế chính trị Mác - Lê-nin"
+  }
+}

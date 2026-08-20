@@ -1,0 +1,18 @@
+{
+  "code": "IMP301",
+  "subjectName": "Image Processing_Xử lý ảnh",
+  "directPrereqs": [
+    "DGT301"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "IMP301",
+      "to": "DGT301"
+    }
+  ],
+  "names": {
+    "IMP301": "Image Processing_Xử lý ảnh",
+    "DGT301": "Digital Signal Processing_Xử lý tín hiệu số"
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "code": "ENB101",
+  "subjectName": "Business writing",
+  "directPrereqs": [
+    "ENR401",
+    "ENS411",
+    "ENS421",
+    "ENW401",
+    "ENR301",
+    "ENS312",
+    "ENS322",
+    "ENS311",
+    "ENS321",
+    "ENW301",
+    "ENR201",
+    "ENS212",
+    "ENS222",
+    "ENS211",
+    "ENS221",
+    "ENW201",
+    "ENR101",
+    "ENS111",
+    "ENS121",
+    "ENW101"
+  ],
+  "unlocks": [
+    "ELP491",
+    "ELT492"
+  ],
+  "edges": [
+    {
+      "from": "ENB101",
+      "to": "ENR401"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENS411"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENS421"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENW401"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENR301"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENS312"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENS322"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENS311"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENS321"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENW301"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENR201"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENS212"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENS222"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENS211"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENS221"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENW201"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENR101"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENS111"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENS121"
+    },
+    {
+      "from": "ENB101",
+      "to": "ENW101"
+    },
+    {
+      "from": "ENR401",
+      "to": "ENR301"
+    },
+    {
+      "from": "ENR401",
+      "to": "ENS312"
+    },
+    {
+      "from": "ENR401",
+      "to": "ENS322"
+    },
+    {
+      "from": "ENR401",
+      "to": "ENR201"
+    },
+    {
+      "from": "ENR401",
+      "to": "ENS212"
+    },
+    {
+      "from": "ENR401",
+      "to": "ENS222"
+    },
+    {
+      "from": "ENR401",
+      "to": "ENR101"
+    },
+    {
+      "from": "ENS411",
+      "to": "ENS311"
+    },
+    {
+      "from": "ENS411",
+      "to": "ENS321"
+    },
+    {
+      "from": "ENS411",
+      "to": "ENS211"
+    },
+    {
+      "from": "ENS411",
+      "to": "ENS221"
+    },
+    {
+      "from": "ENS411",
+      "to": "ENS111"
+    },
+    {
+      "from": "ENS411",
+      "to": "ENS121"
+    },
+    {
+      "from": "ENS421",
+      "to": "ENS311"
+    },
+    {
+      "from": "ENS421",
+      "to": "ENS321"
+    },
+    {
+      "from": "ENS421",
+      "to": "ENS211"
+    },
+    {
+      "from": "ENS421",
+      "to": "ENS221"
+    },
+    {
+      "from": "ENS421",
+      "to": "ENS111"
+    },
+    {
+      "from": "ENS421",
+      "to": "ENS121"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENS312"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENS322"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENW301"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENS212"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENS222"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENW201"
+    },
+    {
+      "from": "ENW401",
+      "to": "ENW101"
+    },
+    {
+      "from": "ENR301",
+      "to": "ENR201"
+    },
+    {
+      "from": "ENR301",
+      "to": "ENS212"
+    },
+    {
+      "from": "ENR301",
+      "to": "ENS222"
+    },
+    {
+      "from": "ENR301",
+      "to": "ENR101"
+    },
+    {
+      "from": "ENS311",
+      "to": "ENS211"
+    },
+    {
+      "from": "ENS311",
+      "to": "ENS221"
+    },
+    {
+      "from": "ENS311",
+      "to": "ENS111"
+    },
+    {
+      "from": "ENS311",
+      "to": "ENS121"
+    },
+    {
+      "from": "ENS321",
+      "to": "ENS211"
+    },
+    {
+      "from": "ENS321",
+      "to": "ENS221"
+    },
+    {
+      "from": "ENS321",
+      "to": "ENS111"
+    },
+    {
+      "from": "ENS321",
+      "to": "ENS121"
+    },
+    {
+      "from": "ENW301",
+      "to": "ENS212"
+    },
+    {
+      "from": "ENW301",
+      "to": "ENS222"
+    },
+    {
+      "from": "ENW301",
+      "to": "ENW201"
+    },
+    {
+      "from": "ENW301",
+      "to": "ENW101"
+    },
+    {
+      "from": "ENR201",
+      "to": "ENR101"
+    },
+    {
+      "from": "ENS211",
+      "to": "ENS111"
+    },
+    {
+      "from": "ENS211",
+      "to": "ENS121"
+    },
+    {
+      "from": "ENS221",
+      "to": "ENS111"
+    },
+    {
+      "from": "ENS221",
+      "to": "ENS121"
+    },
+    {
+      "from": "ENW201",
+      "to": "ENW101"
+    }
+  ],
+  "names": {
+    "ENS421": "Skillfull 4: Listening & Speaking (Part 2/2)",
+    "ENW401": "Writing 4",
+    "ENB101": "Business writing",
+    "ENS111": "Listening Speaking 1 (Part 1/2)",
+    "ENR301": "Skillfull 3 - Reading 3",
+    "ELT492": "Graduation Thesis - English Studies_Khóa luận tốt nghiệp",
+    "ENS121": "Listening Speaking 1 (Part 2/2)",
+    "ELP491": "Graduation Project – English Studies_Đồ án tốt nghiệp",
+    "ENS311": "Skillfull 3 - Listening & Speaking 1",
+    "ENW201": "Writing 2",
+    "ENS322": "",
+    "ENR401": "Skillful 4: Reading",
+    "ENS212": "",
+    "ENS211": "Skillfull 2 - Listening & Speaking 1",
+    "ENS221": "Skillfull 2 - Listening & Speaking 2",
+    "ENS222": "",
+    "ENS321": "Skillfull 3 - Listening & Speaking 2",
+    "ENR201": "Reading 2",
+    "ENR101": "Reading 1",
+    "ENW101": "Writing 1",
+    "ENW301": "Skillfull 3 - Writing 3",
+    "ENS312": "",
+    "ENS411": "Skillfull 4: Listening & Speaking (Part 1/2)"
+  }
+}

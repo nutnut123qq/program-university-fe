@@ -1,0 +1,82 @@
+{
+  "code": "CPL401",
+  "subjectName": "Phonetics - Lexicology - Chinese Character_Ngữ âm- Từ vựng- Hán tự",
+  "directPrereqs": [
+    "CHI331",
+    "CHI321",
+    "CHI311",
+    "CHI121",
+    "CHI111"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "CPL401",
+      "to": "CHI331"
+    },
+    {
+      "from": "CPL401",
+      "to": "CHI321"
+    },
+    {
+      "from": "CPL401",
+      "to": "CHI311"
+    },
+    {
+      "from": "CPL401",
+      "to": "CHI121"
+    },
+    {
+      "from": "CPL401",
+      "to": "CHI111"
+    },
+    {
+      "from": "CHI331",
+      "to": "CHI321"
+    },
+    {
+      "from": "CHI331",
+      "to": "CHI311"
+    },
+    {
+      "from": "CHI331",
+      "to": "CHI121"
+    },
+    {
+      "from": "CHI331",
+      "to": "CHI111"
+    },
+    {
+      "from": "CHI321",
+      "to": "CHI311"
+    },
+    {
+      "from": "CHI321",
+      "to": "CHI121"
+    },
+    {
+      "from": "CHI321",
+      "to": "CHI111"
+    },
+    {
+      "from": "CHI311",
+      "to": "CHI121"
+    },
+    {
+      "from": "CHI311",
+      "to": "CHI111"
+    },
+    {
+      "from": "CHI121",
+      "to": "CHI111"
+    }
+  ],
+  "names": {
+    "CPL401": "Phonetics - Lexicology - Chinese Character_Ngữ âm- Từ vựng- Hán tự",
+    "CHI331": "Integrated Chinese 5_Tiếng Trung tổng hợp 5",
+    "CHI121": "Integrated Chinese 2_Tiếng Trung tổng hợp 2",
+    "CHI111": "Integrated Chinese 1_Tiếng Trung tổng hợp 1",
+    "CHI321": "Integrated Chinese 4_Tiếng Trung tổng hợp 4",
+    "CHI311": "Integrated Chinese 3_Tiếng Trung tổng hợp 3"
+  }
+}

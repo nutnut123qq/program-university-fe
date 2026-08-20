@@ -1,0 +1,28 @@
+{
+  "code": "CDP301",
+  "subjectName": "Circuit Design Project_Dự án thiết kế mạch",
+  "directPrereqs": [
+    "MCP201",
+    "PRF193"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "CDP301",
+      "to": "MCP201"
+    },
+    {
+      "from": "CDP301",
+      "to": "PRF193"
+    },
+    {
+      "from": "MCP201",
+      "to": "PRF193"
+    }
+  ],
+  "names": {
+    "PRF193": "Programming Fundamentals_Cơ sở lập trình",
+    "MCP201": "Microcontroller Programming_Lập trình Vi Điều Khiển",
+    "CDP301": "Circuit Design Project_Dự án thiết kế mạch"
+  }
+}

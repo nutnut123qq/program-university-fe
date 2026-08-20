@@ -1,0 +1,33 @@
+{
+  "code": "ENB301",
+  "subjectName": "Business Writing_Viết trong kinh doanh",
+  "directPrereqs": [
+    "EAW221",
+    "EAW211"
+  ],
+  "unlocks": [
+    "ELP491",
+    "ELT492"
+  ],
+  "edges": [
+    {
+      "from": "ENB301",
+      "to": "EAW221"
+    },
+    {
+      "from": "ENB301",
+      "to": "EAW211"
+    },
+    {
+      "from": "EAW221",
+      "to": "EAW211"
+    }
+  ],
+  "names": {
+    "EAW211": "English Academic Writing 1_Tiếng Anh \bViết học thuật 1",
+    "ENB301": "Business Writing_Viết trong kinh doanh",
+    "EAW221": "English Academic Writing 2_Tiếng Anh Viết học thuật 2",
+    "ELT492": "Graduation Thesis - English Studies_Khóa luận tốt nghiệp",
+    "ELP491": "Graduation Project – English Studies_Đồ án tốt nghiệp"
+  }
+}

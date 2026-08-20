@@ -1,0 +1,38 @@
+{
+  "code": "EVN205",
+  "subjectName": "Event Management For PR_Quản trị sự kiện trong quan hệ công chúng",
+  "directPrereqs": [
+    "MPL201",
+    "MKT101",
+    "MMK101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "EVN205",
+      "to": "MPL201"
+    },
+    {
+      "from": "EVN205",
+      "to": "MKT101"
+    },
+    {
+      "from": "EVN205",
+      "to": "MMK101"
+    },
+    {
+      "from": "MPL201",
+      "to": "MKT101"
+    },
+    {
+      "from": "MPL201",
+      "to": "MMK101"
+    }
+  ],
+  "names": {
+    "EVN205": "Event Management For PR_Quản trị sự kiện trong quan hệ công chúng",
+    "MKT101": "Marketing Principles_Nguyên lý Marketing",
+    "MMK101": "Management and Marketing_Nhập môn Quản trị và Marketing",
+    "MPL201": "Media Planning _ Lập kế hoạch truyền thông"
+  }
+}

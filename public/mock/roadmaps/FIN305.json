@@ -1,0 +1,28 @@
+{
+  "code": "FIN305",
+  "subjectName": "Technical analysis_Phân tích kỹ thuật",
+  "directPrereqs": [
+    "FIN202",
+    "ACC101"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "FIN305",
+      "to": "FIN202"
+    },
+    {
+      "from": "FIN305",
+      "to": "ACC101"
+    },
+    {
+      "from": "FIN202",
+      "to": "ACC101"
+    }
+  ],
+  "names": {
+    "ACC101": "Principles of Accounting_Nguyên lý kế toán",
+    "FIN202": "Principles of Corporate Finance_Tài chính doanh nghiệp",
+    "FIN305": "Technical analysis_Phân tích kỹ thuật"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "code": "PRF193",
+  "subjectName": "Programming Fundamentals_Cơ sở lập trình",
+  "directPrereqs": [],
+  "unlocks": [
+    "AIG201",
+    "AIL301",
+    "AIP391",
+    "CDP301",
+    "CSD202",
+    "CSD301",
+    "DBM301_old",
+    "MCP201",
+    "PCI201"
+  ],
+  "edges": [],
+  "names": {
+    "MCP201": "Microcontroller Programming_Lập trình Vi Điều Khiển",
+    "PCI201": "Peripheral Control & Interfacing_Điều khiển và ghép nối thiết bị ngoại vi",
+    "AIP391": "AI programming project_Dự án lập trình TTNT",
+    "CSD202": "Data structures and algorithms (In C++)",
+    "AIL301": "Machine Learning",
+    "AIG201": "Artificial Intelligence",
+    "CSD301": "Advanced Algorithms_Giải thuật nâng cao",
+    "PRF193": "Programming Fundamentals_Cơ sở lập trình",
+    "DBM301_old": "Data mining",
+    "CDP301": "Circuit Design Project_Dự án thiết kế mạch"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "code": "AIC211",
+  "subjectName": "AI for Cybersecurity_Tri tuệ nhân tạo cho An ninh mạng",
+  "directPrereqs": [
+    "MAE101",
+    "PFP191"
+  ],
+  "unlocks": [],
+  "edges": [
+    {
+      "from": "AIC211",
+      "to": "MAE101"
+    },
+    {
+      "from": "AIC211",
+      "to": "PFP191"
+    }
+  ],
+  "names": {
+    "PFP191": "Programming Fundamentals with Python_Cơ sở lập trình với Python",
+    "AIC211": "AI for Cybersecurity_Tri tuệ nhân tạo cho An ninh mạng",
+    "MAE101": "Mathematics for Engineering_Toán cho ngành kỹ thuật"
+  }
+}

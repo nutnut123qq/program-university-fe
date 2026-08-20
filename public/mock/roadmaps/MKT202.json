@@ -1,0 +1,23 @@
+{
+  "code": "MKT202",
+  "subjectName": "Services Marketing Management_Quản trị Marketing dịch vụ",
+  "directPrereqs": [
+    "MKT101"
+  ],
+  "unlocks": [
+    "GRM491",
+    "GRP490"
+  ],
+  "edges": [
+    {
+      "from": "MKT202",
+      "to": "MKT101"
+    }
+  ],
+  "names": {
+    "GRM491": "Graduation Thesis - Marketing_Khóa luận tốt nghiệp - Marketing",
+    "MKT101": "Marketing Principles_Nguyên lý Marketing",
+    "MKT202": "Services Marketing Management_Quản trị Marketing dịch vụ",
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)"
+  }
+}

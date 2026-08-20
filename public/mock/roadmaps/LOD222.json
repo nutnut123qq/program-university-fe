@@ -1,0 +1,23 @@
+{
+  "code": "LOD222",
+  "subjectName": "Front desk and receptionist skills_Nghiệp vụ tiền sảnh, lễ tân",
+  "directPrereqs": [
+    "HMO102"
+  ],
+  "unlocks": [
+    "ACH301",
+    "GRP490"
+  ],
+  "edges": [
+    {
+      "from": "LOD222",
+      "to": "HMO102"
+    }
+  ],
+  "names": {
+    "GRP490": "Graduation Thesis (Business Plan)_Khóa luận tốt nghiệp (theo hướng kế hoạch kinh doanh)",
+    "LOD222": "Front desk and receptionist skills_Nghiệp vụ tiền sảnh, lễ tân",
+    "HMO102": "Introduction to Tourism & Hospitality industry_Tổng quan ngành Du lịch & Khách sạn",
+    "ACH301": "Accommodation Management_Thực hành quản lý lưu trú"
+  }
+}
