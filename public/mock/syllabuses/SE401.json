@@ -1,0 +1,93 @@
+{
+  "info": {
+    "sylid": 950169,
+    "subjectCode": "SE401",
+    "syllabusName": "Mẫu thiết kế",
+    "syllabusEnglish": "Mẫu thiết kế",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần Mẫu thiết kế thuộc Kiến thức chuyên ngành của Trường Đại học Công nghệ Thông tin - ĐHQG-HCM (UIT). Cung cấp kiến thức nền tảng, tư duy lập trình và kỹ năng thực hành công nghệ trên hệ thống máy tính/phòng Lab chuyên dụng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "4.0",
+    "isApproved": 1,
+    "decisionNo": "Quyết định ban hành CTĐT UIT",
+    "approvedDate": "2024",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CLO1",
+      "loDetails": "Hiểu và trình bày được các khái niệm, cấu trúc và nguyên lý cơ bản của Mẫu thiết kế."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CLO2",
+      "loDetails": "Áp dụng các thuật toán, mô hình và công nghệ để lập trình, cài đặt và giải quyết bài toán thực tế trên máy tính."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CLO3",
+      "loDetails": "Thực hành thành thạo trong phòng Lab, làm việc nhóm và xây dựng đồ án môn học (Project)."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình",
+      "type": "Điểm danh và bài tập trên lớp",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "In-class assignments & Quizzes"
+    },
+    {
+      "id": 2,
+      "category": "Thực hành Lab",
+      "type": "Kiểm tra thực hành phòng máy / Đồ án môn học",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Lab test & Course project"
+    },
+    {
+      "id": 3,
+      "category": "Thi cuối kỳ",
+      "type": "Thi tự luận trên giấy hoặc lập trình trên máy",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Final Examination"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu môn học Mẫu thiết kế, môi trường phát triển và công cụ lập trình",
+      "learningTeachingType": "Offline",
+      "lo": "CLO1",
+      "studentTasks": "Lý thuyết: 1h | Thực hành Lab: 10h | Tự học: 45h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cấu trúc dữ liệu, giải thuật và các kỹ thuật lập trình nâng cao",
+      "learningTeachingType": "Offline",
+      "lo": "CLO2",
+      "studentTasks": "Lý thuyết: 1h | Thực hành Lab: 10h | Tự học: 45h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thực hành tích hợp hệ thống, tối ưu hóa hiệu năng và báo cáo Đồ án môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CLO3",
+      "studentTasks": "Lý thuyết: 1h | Thực hành Lab: 10h | Tự học: 45h"
+    }
+  ],
+  "materials": []
+}
