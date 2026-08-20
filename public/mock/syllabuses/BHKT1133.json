@@ -1,0 +1,93 @@
+{
+  "info": {
+    "sylid": 270140,
+    "subjectCode": "BHKT1133",
+    "syllabusName": "Quản lý bảo hiểm xã hội 2 (Social Insurance Management 2)",
+    "syllabusEnglish": "Social Insurance Management 2",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần Quản lý bảo hiểm xã hội 2 thuộc khối Kiến thức ngành của Trường Đại học Kinh tế Quốc dân (NEU). Cung cấp nền tảng kiến thức chuyên môn, kỹ năng phân tích và ứng dụng thực tiễn trong lĩnh vực kinh tế và quản lý.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "4.0",
+    "isApproved": 1,
+    "decisionNo": "Quyết định ban hành CTĐT NEU K68",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CLO1",
+      "loDetails": "Hiểu và giải thích được các khái niệm, nguyên lý cốt lõi của Quản lý bảo hiểm xã hội 2."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CLO2",
+      "loDetails": "Vận dụng các phương pháp và công cụ chuyên môn để phân tích tình huống thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CLO3",
+      "loDetails": "Phát triển kỹ năng làm việc nhóm, tư duy phản biện và giải quyết vấn đề trong kinh doanh và quản lý."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Chuyên cần",
+      "type": "Đánh giá thái độ học tập và tham gia phát biểu",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Attendance & Participation"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình",
+      "type": "Kiểm tra giữa kỳ / Thảo luận bài tập nhóm",
+      "part": "2",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Midterm Exam & Group Assignment"
+    },
+    {
+      "id": 3,
+      "category": "Thi cuối kỳ",
+      "type": "Thi viết tự luận / Trắc nghiệm tổng hợp",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Final Examination"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về môn học Quản lý bảo hiểm xã hội 2 và phương pháp nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CLO1",
+      "studentTasks": "Lý thuyết: 15h | Thảo luận: 30h | Tự học: 45h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cơ sở lý thuyết, các mô hình phân tích và phương pháp ứng dụng",
+      "learningTeachingType": "Offline",
+      "lo": "CLO2",
+      "studentTasks": "Lý thuyết: 15h | Thảo luận: 30h | Tự học: 45h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nghiên cứu tình huống thực tiễn (Case Studies), thảo luận nhóm và báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CLO3",
+      "studentTasks": "Lý thuyết: 15h | Thảo luận: 30h | Tự học: 45h"
+    }
+  ],
+  "materials": []
+}
