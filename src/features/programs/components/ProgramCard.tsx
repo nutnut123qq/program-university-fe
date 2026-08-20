@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { GraduationCap, Building2, BookOpen, ExternalLink, Clock, Award, Eye } from "lucide-react"
+import { GraduationCap, Building2, BookOpen, ExternalLink, Clock, Award, Eye, Sparkles } from "lucide-react"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { buttonVariants } from "@/components/ui/button"
@@ -36,88 +36,98 @@ export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) 
 
     return (
         <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: index * 0.05 }}
+            transition={{ duration: 0.3, delay: Math.min(index * 0.03, 0.3) }}
+            className="h-full"
         >
-            <Card className="group h-full overflow-hidden border bg-card hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1">
-                <CardHeader className="pb-3 min-w-0">
-                    <div className="flex items-start justify-between gap-3 min-w-0">
-                        <div className="flex-1 min-w-0 space-y-1">
-                            <div className="flex flex-wrap items-center gap-1.5">
-                                {program.code && (
-                                    <span className="font-mono text-[10px] px-1.5 py-0.5 rounded bg-muted text-muted-foreground font-semibold">
-                                        {program.code}
-                                    </span>
-                                )}
-                                {cohorts.map((c) => (
-                                    <Badge key={c} className="font-mono text-[10px] px-1.5 py-0 bg-primary/10 text-primary border-primary/20 hover:bg-primary/20">
-                                        Khóa {c}
-                                    </Badge>
-                                ))}
-                                {specialization && (
-                                    <span className="text-[10px] font-medium text-indigo-600 dark:text-indigo-400 bg-indigo-500/10 px-1.5 py-0.5 rounded">
-                                        {specialization}
-                                    </span>
-                                )}
+            <Card className="group h-full flex flex-col justify-between overflow-hidden border border-border bg-card/80 hover:bg-card hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 rounded-2xl">
+                <div>
+                    <CardHeader className="p-5 pb-3 min-w-0">
+                        <div className="flex items-start justify-between gap-2.5 min-w-0">
+                            <div className="flex-1 min-w-0 space-y-1.5">
+                                <div className="flex flex-wrap items-center gap-1.5">
+                                    {program.code && (
+                                        <span className="font-mono text-[10px] font-bold px-2 py-0.5 rounded-md bg-muted text-foreground border border-border/50">
+                                            {program.code}
+                                        </span>
+                                    )}
+                                    {cohorts.slice(0, 2).map((c) => (
+                                        <Badge key={c} className="font-mono text-[10px] font-bold px-1.5 py-0 bg-primary/10 text-primary border-primary/20 hover:bg-primary/20">
+                                            Khóa {c}
+                                        </Badge>
+                                    ))}
+                                    {cohorts.length > 2 && (
+                                        <span className="font-mono text-[10px] text-muted-foreground font-semibold">
+                                            +{cohorts.length - 2}
+                                        </span>
+                                    )}
+                                    {specialization && (
+                                        <span className="text-[10px] font-semibold text-indigo-600 dark:text-indigo-400 bg-indigo-500/10 px-2 py-0.5 rounded-md truncate max-w-[140px]">
+                                            {specialization}
+                                        </span>
+                                    )}
+                                </div>
+                                <h3 className="font-extrabold text-base leading-snug line-clamp-2 text-foreground group-hover:text-primary transition-colors pt-0.5">
+                                    {program.name}
+                                </h3>
+                                <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                                    <Building2 className="h-3.5 w-3.5 shrink-0 text-muted-foreground/80" />
+                                    <span className="truncate font-medium">{program.universityName}</span>
+                                </div>
                             </div>
-                            <h3 className="font-semibold text-lg leading-tight line-clamp-2 group-hover:text-primary transition-colors">
-                                {program.name}
-                            </h3>
-                            <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                                <Building2 className="h-3.5 w-3.5 shrink-0" />
-                                <span className="truncate">{program.universityName}</span>
-                            </div>
+                            {program.degreeType && (
+                                <Badge variant="secondary" className="shrink-0 text-xs font-semibold">
+                                    {program.degreeType}
+                                </Badge>
+                            )}
                         </div>
-                        {program.degreeType && (
-                            <Badge variant="secondary" className="shrink-0">
-                                {program.degreeType}
-                            </Badge>
-                        )}
-                    </div>
-                </CardHeader>
+                    </CardHeader>
 
-                <CardContent className="pt-0 space-y-4 min-w-0">
-                    {program.description && (
-                        <p className="text-sm text-muted-foreground line-clamp-2">
-                            {program.description}
-                        </p>
-                    )}
+                    <CardContent className="px-5 pt-0 pb-4 space-y-3.5 min-w-0">
+                        {program.description && (
+                            <p className="text-xs text-muted-foreground line-clamp-2 leading-relaxed">
+                                {program.description}
+                            </p>
+                        )}
 
-                    <div className="flex flex-wrap gap-2">
-                        {program.credits && (
-                            <Badge variant="outline" className="flex items-center gap-1 font-normal">
-                                <BookOpen className="h-3 w-3" />
-                                {t("credits", { count: program.credits })}
-                            </Badge>
-                        )}
-                        {program.duration && (
-                            <Badge variant="outline" className="flex items-center gap-1 font-normal">
-                                <Clock className="h-3 w-3" />
-                                {program.duration}
-                            </Badge>
-                        )}
-                        {program.language && (
-                            <Badge variant="outline" className="flex items-center gap-1 font-normal">
-                                <Award className="h-3 w-3" />
-                                {program.language}
-                            </Badge>
-                        )}
-                        {program.courseCount > 0 && (
-                            <Badge variant="outline" className="flex items-center gap-1 font-normal">
-                                <GraduationCap className="h-3 w-3" />
-                                {t("courses", { count: program.courseCount })}
-                            </Badge>
-                        )}
-                    </div>
+                        <div className="flex flex-wrap gap-1.5">
+                            {program.credits && (
+                                <Badge variant="outline" className="flex items-center gap-1 font-semibold text-xs py-0.5 px-2 bg-muted/30">
+                                    <BookOpen className="h-3 w-3 text-primary" />
+                                    {t("credits", { count: program.credits })}
+                                </Badge>
+                            )}
+                            {program.duration && (
+                                <Badge variant="outline" className="flex items-center gap-1 font-normal text-xs py-0.5 px-2">
+                                    <Clock className="h-3 w-3 text-muted-foreground" />
+                                    {program.duration}
+                                </Badge>
+                            )}
+                            {program.language && (
+                                <Badge variant="outline" className="flex items-center gap-1 font-normal text-xs py-0.5 px-2">
+                                    <Award className="h-3 w-3 text-muted-foreground" />
+                                    {program.language}
+                                </Badge>
+                            )}
+                            {program.courseCount > 0 && (
+                                <Badge variant="outline" className="flex items-center gap-1 font-semibold text-xs py-0.5 px-2 text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 border-emerald-500/20">
+                                    <GraduationCap className="h-3 w-3" />
+                                    {t("courses", { count: program.courseCount })}
+                                </Badge>
+                            )}
+                        </div>
+                    </CardContent>
+                </div>
 
-                    <div className="flex flex-col sm:flex-row gap-2">
+                <div className="px-5 pb-5 pt-0">
+                    <div className="flex items-center gap-2 pt-3 border-t border-border/50">
                         {onViewDetail && (
                             <button
                                 onClick={() => onViewDetail(program)}
                                 className={cn(
                                     buttonVariants({ variant: "default", size: "sm" }),
-                                    "flex-1 group/btn flex items-center justify-center gap-2 min-w-0"
+                                    "flex-1 h-10 sm:h-9 text-xs font-bold rounded-xl flex items-center justify-center gap-1.5 shadow-sm min-w-0"
                                 )}
                             >
                                 <Eye className="h-3.5 w-3.5 shrink-0" />
@@ -130,17 +140,19 @@ export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) 
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={cn(
-                                    buttonVariants({ variant: "ghost", size: "sm" }),
-                                    "flex-1 group/btn flex items-center justify-center gap-1 min-w-0 px-2"
+                                    buttonVariants({ variant: "outline", size: "sm" }),
+                                    "h-10 sm:h-9 text-xs font-semibold rounded-xl flex items-center justify-center gap-1 px-3 shrink-0"
                                 )}
+                                title="Mở trang web chính thức của trường"
                             >
-                                <span className="text-xs text-center leading-tight whitespace-normal">{t("viewProgram")}</span>
-                                <ExternalLink className="h-3 w-3 shrink-0 transition-transform group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
+                                <span className="hidden sm:inline">Nguồn</span>
+                                <ExternalLink className="h-3.5 w-3.5 shrink-0" />
                             </a>
                         )}
                     </div>
-                </CardContent>
+                </div>
             </Card>
         </motion.div>
     )
 }
+

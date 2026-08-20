@@ -81,7 +81,7 @@ export function ProgramList() {
     }
 
     return (
-        <div className="container mx-auto py-8 space-y-8">
+        <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8 max-w-7xl space-y-8">
             {/* Hero */}
             <motion.section
                 initial={{ opacity: 0, y: 20 }}
@@ -113,9 +113,25 @@ export function ProgramList() {
             {/* Loading */}
             {isLoading && allPrograms.length === 0 && (
                 <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 min-w-0">
-                    {Array.from({ length: PAGE_SIZE }).map((_, i) => (
-                        <div key={i} className="space-y-3">
-                            <Skeleton className="h-[180px] w-full rounded-xl" />
+                    {Array.from({ length: 8 }).map((_, i) => (
+                        <div key={i} className="p-5 rounded-2xl border border-border bg-card/60 space-y-4 animate-pulse">
+                            <div className="space-y-2">
+                                <div className="flex gap-2">
+                                    <div className="h-4 w-16 bg-muted rounded-md" />
+                                    <div className="h-4 w-12 bg-muted rounded-md" />
+                                </div>
+                                <div className="h-5 w-4/5 bg-muted rounded" />
+                                <div className="h-3.5 w-1/2 bg-muted rounded" />
+                            </div>
+                            <div className="h-10 w-full bg-muted/60 rounded-md" />
+                            <div className="flex gap-2">
+                                <div className="h-5 w-14 bg-muted rounded-full" />
+                                <div className="h-5 w-14 bg-muted rounded-full" />
+                            </div>
+                            <div className="pt-2 border-t border-border/40 flex gap-2">
+                                <div className="h-9 flex-1 bg-muted rounded-xl" />
+                                <div className="h-9 w-16 bg-muted rounded-xl" />
+                            </div>
                         </div>
                     ))}
                 </div>

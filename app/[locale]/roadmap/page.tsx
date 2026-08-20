@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useMemo, useEffect } from "react"
+import React, { useState, useMemo } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import {
     GitFork,
@@ -16,7 +16,9 @@ import {
     Clock,
     RotateCcw,
     ChevronRight,
-    ExternalLink,
+    X,
+    HelpCircle,
+    ArrowDown,
 } from "lucide-react"
 import useSWR from "swr"
 import { Badge } from "@/components/ui/badge"
@@ -38,6 +40,8 @@ const POPULAR_SUBJECTS = [
     "SWP391",
     "SWT301",
     "MAE101",
+    "OSG202",
+    "NWC203c",
 ]
 
 export default function RoadmapPage() {
@@ -97,17 +101,17 @@ export default function RoadmapPage() {
             <motion.section
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4 }}
+                transition={{ duration: 0.3 }}
                 className="text-center space-y-3 max-w-3xl mx-auto"
             >
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary border border-primary/20 text-xs font-semibold">
                     <GitFork className="w-3.5 h-3.5" />
                     <span>Sơ đồ Tiên quyết & Mở khóa Môn học</span>
                 </div>
-                <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-foreground">
+                <h1 className="text-3xl sm:text-4xl font-black tracking-tight text-foreground">
                     Tra cứu Lộ trình Môn học (Roadmap)
                 </h1>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-muted-foreground leading-relaxed">
                     Nhập bất kỳ mã môn học nào để phân tích chuỗi môn cần học trước (Prerequisites) và các môn sẽ được mở khóa (Unlocks) trong các kỳ tiếp theo.
                 </p>
             </motion.section>
@@ -120,18 +124,30 @@ export default function RoadmapPage() {
                         placeholder="Nhập mã môn học (ví dụ: SWE201c, PRF192, DBI202...)"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="pl-10 h-11 text-sm bg-card border-border shadow-sm rounded-xl"
+                        className="pl-10 pr-10 h-12 text-sm bg-card border-border shadow-sm rounded-2xl focus-visible:ring-1 focus-visible:ring-primary"
                     />
+                    {searchQuery && (
+                        <button
+                            onClick={() => setSearchQuery("")}
+                            className="absolute right-3.5 top-1/2 -translate-y-1/2 p-1 rounded-full text-muted-foreground hover:text-foreground hover:bg-muted"
+                            aria-label="Xóa tìm kiếm"
+                        >
+                            <X className="w-4 h-4" />
+                        </button>
+                    )}
+
                     {searchQuery && suggestions.length > 0 && (
-                        <div className="absolute top-full mt-1 left-0 right-0 z-30 bg-card border border-border rounded-xl shadow-xl overflow-hidden divide-y divide-border">
+                        <div className="absolute top-full mt-1.5 left-0 right-0 z-30 bg-card border border-border rounded-2xl shadow-xl overflow-hidden divide-y divide-border">
                             {suggestions.map((code) => (
                                 <button
                                     key={code}
                                     onClick={() => handleSelectCode(code)}
-                                    className="w-full px-4 py-2.5 text-left text-sm font-mono hover:bg-muted transition-colors flex items-center justify-between"
+                                    className="w-full px-4 py-3 text-left text-sm font-mono hover:bg-muted transition-colors flex items-center justify-between group"
                                 >
-                                    <span className="font-bold text-primary">{code}</span>
-                                    <span className="text-xs text-muted-foreground">Xem lộ trình →</span>
+                                    <span className="font-bold text-foreground group-hover:text-primary transition-colors">{code}</span>
+                                    <span className="text-xs text-muted-foreground group-hover:text-primary transition-colors flex items-center gap-1 font-sans">
+                                        Xem lộ trình <ArrowRight className="w-3.5 h-3.5" />
+                                    </span>
                                 </button>
                             ))}
                         </div>
@@ -140,15 +156,15 @@ export default function RoadmapPage() {
 
                 {/* Popular chips */}
                 <div className="flex flex-wrap items-center justify-center gap-1.5 text-xs">
-                    <span className="text-muted-foreground">Môn phổ biến:</span>
+                    <span className="text-muted-foreground font-medium mr-1">Môn phổ biến:</span>
                     {POPULAR_SUBJECTS.map((code) => (
                         <button
                             key={code}
                             onClick={() => handleSelectCode(code)}
-                            className={`px-2.5 py-1 rounded-lg font-mono text-xs transition-all ${
+                            className={`px-3 py-1 rounded-xl font-mono text-xs transition-all duration-200 ${
                                 selectedCode === code
-                                    ? "bg-primary text-primary-foreground font-bold shadow-sm"
-                                    : "bg-muted/70 text-foreground hover:bg-muted hover:border-primary/40 border border-transparent"
+                                    ? "bg-primary text-primary-foreground font-bold shadow-sm scale-105"
+                                    : "bg-muted/80 text-foreground hover:bg-muted hover:border-primary/40 border border-transparent"
                             }`}
                         >
                             {code}
@@ -158,30 +174,30 @@ export default function RoadmapPage() {
             </div>
 
             {/* Target Subject Active Banner */}
-            <Card className="border-border bg-card shadow-sm overflow-hidden">
+            <Card className="border-border bg-card/80 backdrop-blur-sm shadow-sm overflow-hidden rounded-2xl">
                 <CardContent className="p-6">
                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                        <div className="space-y-1 min-w-0 flex-1">
+                        <div className="space-y-1.5 min-w-0 flex-1">
                             <div className="flex flex-wrap items-center gap-2">
-                                <Badge className="font-mono text-sm font-extrabold px-2.5 py-0.5 bg-primary/10 text-primary border-primary/20">
+                                <Badge className="font-mono text-sm font-extrabold px-3 py-0.5 bg-primary/10 text-primary border-primary/20">
                                     {selectedCode}
                                 </Badge>
                                 {currentSyllabus?.info?.credits && (
-                                    <Badge variant="outline" className="font-mono text-xs text-emerald-600 bg-emerald-500/10">
+                                    <Badge variant="outline" className="font-mono text-xs text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 border-emerald-500/20 font-bold">
                                         {currentSyllabus.info.credits} Tín chỉ
                                     </Badge>
                                 )}
                                 {currentSyllabus?.info?.minAvgToPass && (
-                                    <Badge variant="secondary" className="text-xs">
-                                        Điểm qua môn: ≥ {currentSyllabus.info.minAvgToPass}/10
+                                    <Badge variant="secondary" className="text-xs font-semibold">
+                                        Điểm qua môn: ≥ {currentSyllabus.info.minAvgToPass} / 10
                                     </Badge>
                                 )}
                             </div>
-                            <h2 className="text-xl font-bold tracking-tight text-foreground">
+                            <h2 className="text-xl sm:text-2xl font-black tracking-tight text-foreground truncate">
                                 {currentRoadmap?.subjectName || currentSyllabus?.info?.syllabusName || selectedCode}
                             </h2>
                             {currentSyllabus?.info?.syllabusEnglish && (
-                                <p className="text-xs text-muted-foreground italic">
+                                <p className="text-xs text-muted-foreground italic truncate">
                                     {currentSyllabus.info.syllabusEnglish}
                                 </p>
                             )}
@@ -190,9 +206,9 @@ export default function RoadmapPage() {
                         <div className="flex items-center gap-2 shrink-0">
                             <Button
                                 onClick={() => openSyllabusFor(selectedCode, currentRoadmap?.subjectName)}
-                                className="gap-1.5 h-9 text-xs rounded-xl shadow-sm"
+                                className="gap-2 h-10 px-4 text-xs font-bold rounded-xl shadow-sm hover:scale-[1.02] transition-all"
                             >
-                                <BookOpen className="w-3.5 h-3.5" />
+                                <BookOpen className="w-4 h-4" />
                                 <span>Xem Đề cương chi tiết (Syllabus)</span>
                             </Button>
                         </div>
@@ -205,9 +221,9 @@ export default function RoadmapPage() {
                 <div className="flex items-center justify-between">
                     <h3 className="text-base font-bold flex items-center gap-2">
                         <Layers className="w-4 h-4 text-primary" />
-                        Sơ đồ Phân luồng Học tập
+                        <span>Sơ đồ Phân luồng Học tập & Quan hệ Nhân quả</span>
                     </h3>
-                    <span className="text-xs text-muted-foreground font-mono">
+                    <span className="text-xs text-muted-foreground font-mono font-medium">
                         {directPrereqs.length} môn tiên quyết · {unlocks.length} môn mở khóa
                     </span>
                 </div>
@@ -215,16 +231,24 @@ export default function RoadmapPage() {
                 {isRoadmapLoading ? (
                     <div className="flex flex-col items-center justify-center py-20 text-muted-foreground gap-3">
                         <Loader2 className="w-8 h-8 animate-spin text-primary" />
-                        <p className="text-sm">Đang tính toán sơ đồ lộ trình...</p>
+                        <p className="text-sm font-medium">Đang tính toán sơ đồ lộ trình...</p>
+                    </div>
+                ) : !currentRoadmap && !isRoadmapLoading ? (
+                    <div className="p-12 rounded-3xl border border-dashed border-border text-center space-y-3 bg-muted/10">
+                        <HelpCircle className="w-10 h-10 text-muted-foreground/50 mx-auto" />
+                        <h4 className="font-bold text-base text-foreground">Không tìm thấy dữ liệu lộ trình</h4>
+                        <p className="text-xs text-muted-foreground max-w-sm mx-auto">
+                            Hãy thử chọn một môn học từ danh sách gợi ý phía trên.
+                        </p>
                     </div>
                 ) : (
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
                         {/* 1. Môn Tiên Quyết (Prerequisites) */}
-                        <div className="space-y-3">
-                            <div className="flex items-center gap-2 pb-2 border-b border-border">
-                                <ArrowLeft className="w-4 h-4 text-amber-500" />
+                        <div className="space-y-3 flex flex-col h-full">
+                            <div className="flex items-center gap-2 pb-2.5 border-b border-border">
+                                <ArrowLeft className="w-4 h-4 text-amber-500 shrink-0" />
                                 <h4 className="font-bold text-sm text-foreground">
-                                    Môn cần học trước (Tiên quyết)
+                                    1. Môn cần học trước (Tiên quyết)
                                 </h4>
                                 <Badge variant="outline" className="font-mono text-xs ml-auto">
                                     {directPrereqs.length} môn
@@ -232,36 +256,36 @@ export default function RoadmapPage() {
                             </div>
 
                             {directPrereqs.length === 0 ? (
-                                <div className="p-6 rounded-2xl border border-dashed border-border bg-muted/20 text-center text-xs text-muted-foreground space-y-1">
-                                    <Sparkles className="w-5 h-5 text-muted-foreground/40 mx-auto" />
-                                    <p className="font-medium text-foreground">Không có môn tiên quyết</p>
-                                    <p>Sinh viên có thể đăng ký học ngay từ các kỳ đầu mà không cần học trước môn nào.</p>
+                                <div className="p-6 rounded-2xl border border-dashed border-border bg-muted/20 text-center text-xs text-muted-foreground space-y-1.5 flex-1 flex flex-col items-center justify-center">
+                                    <Sparkles className="w-5 h-5 text-muted-foreground/50 mx-auto" />
+                                    <p className="font-bold text-foreground">Không có môn tiên quyết</p>
+                                    <p className="leading-relaxed">Sinh viên có thể đăng ký học ngay từ các kỳ đầu mà không cần điều kiện môn học trước.</p>
                                 </div>
                             ) : (
-                                <div className="space-y-2.5">
+                                <div className="space-y-2.5 flex-1">
                                     {directPrereqs.map((code) => (
                                         <Card
                                             key={code}
-                                            className="border-border bg-card/70 hover:bg-card hover:border-amber-500/50 transition-all shadow-sm group"
+                                            className="border-border bg-card/80 hover:bg-card hover:border-amber-500/50 transition-all duration-200 shadow-sm hover:shadow-md group rounded-xl"
                                         >
-                                            <CardContent className="p-3.5 space-y-2">
+                                            <CardContent className="p-4 space-y-2.5">
                                                 <div className="flex items-start justify-between gap-2">
-                                                    <span className="font-mono text-xs font-bold text-amber-600 dark:text-amber-400">
+                                                    <span className="font-mono text-xs font-black text-amber-600 dark:text-amber-400">
                                                         {code}
                                                     </span>
-                                                    <Badge variant="outline" className="text-[10px] bg-amber-500/10 text-amber-600 border-amber-500/20">
+                                                    <Badge variant="outline" className="text-[10px] bg-amber-500/10 text-amber-600 dark:text-amber-400 border-amber-500/20 font-bold">
                                                         Bắt buộc trước
                                                     </Badge>
                                                 </div>
-                                                <p className="text-xs font-semibold text-foreground line-clamp-2 leading-snug">
+                                                <p className="text-xs font-bold text-foreground line-clamp-2 leading-snug">
                                                     {names[code] || "—"}
                                                 </p>
-                                                <div className="pt-2 border-t border-border/40 flex items-center justify-between gap-2">
+                                                <div className="pt-2 border-t border-border/50 flex items-center justify-between gap-2">
                                                     <Button
                                                         variant="ghost"
                                                         size="sm"
                                                         onClick={() => handleSelectCode(code)}
-                                                        className="h-6 px-2 text-[11px] text-muted-foreground hover:text-primary gap-1"
+                                                        className="h-7 px-2.5 text-[11px] font-semibold text-muted-foreground hover:text-primary gap-1 rounded-lg"
                                                     >
                                                         <RotateCcw className="w-3 h-3" />
                                                         Đổi tiêu điểm
@@ -270,7 +294,7 @@ export default function RoadmapPage() {
                                                         variant="outline"
                                                         size="sm"
                                                         onClick={() => openSyllabusFor(code)}
-                                                        className="h-6 px-2 text-[11px] gap-1"
+                                                        className="h-7 px-2.5 text-[11px] font-semibold gap-1 rounded-lg"
                                                     >
                                                         Đề cương <ChevronRight className="w-3 h-3" />
                                                     </Button>
@@ -283,39 +307,39 @@ export default function RoadmapPage() {
                         </div>
 
                         {/* 2. Môn Trọng Tâm Hiện Tại (Center Target) */}
-                        <div className="space-y-3">
-                            <div className="flex items-center justify-center gap-2 pb-2 border-b border-border text-center">
-                                <CheckCircle2 className="w-4 h-4 text-primary" />
+                        <div className="space-y-3 flex flex-col h-full">
+                            <div className="flex items-center justify-center gap-2 pb-2.5 border-b border-border text-center">
+                                <CheckCircle2 className="w-4 h-4 text-primary shrink-0" />
                                 <h4 className="font-bold text-sm text-foreground">
-                                    Môn Trọng Tâm Đang Xét
+                                    2. Môn Trọng Tâm Đang Xét
                                 </h4>
                             </div>
 
-                            <Card className="border-2 border-primary bg-primary/5 shadow-md">
-                                <CardContent className="p-5 space-y-4 text-center">
-                                    <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-primary text-primary-foreground mx-auto shadow-md">
-                                        <GraduationCap className="w-7 h-7" />
+                            <Card className="border-2 border-primary bg-primary/5 shadow-md rounded-2xl flex-1 flex flex-col justify-center">
+                                <CardContent className="p-6 space-y-4 text-center">
+                                    <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary text-primary-foreground mx-auto shadow-md">
+                                        <GraduationCap className="w-8 h-8" />
                                     </div>
-                                    <div>
-                                        <Badge className="font-mono text-xs font-bold px-3 py-1 bg-primary text-primary-foreground">
+                                    <div className="space-y-1">
+                                        <Badge className="font-mono text-xs font-black px-3 py-1 bg-primary text-primary-foreground">
                                             {selectedCode}
                                         </Badge>
-                                        <h3 className="font-bold text-base text-foreground mt-2">
+                                        <h3 className="font-black text-base text-foreground mt-2 leading-tight">
                                             {currentRoadmap?.subjectName || selectedCode}
                                         </h3>
                                     </div>
 
                                     {currentSyllabus?.info?.decisionNo && (
                                         <p className="text-[11px] text-muted-foreground">
-                                            Quyết định: <span className="font-mono font-medium text-foreground">{currentSyllabus.info.decisionNo}</span>
+                                            QĐ Ban hành: <span className="font-mono font-bold text-foreground">{currentSyllabus.info.decisionNo}</span>
                                         </p>
                                     )}
 
                                     <Button
                                         onClick={() => openSyllabusFor(selectedCode, currentRoadmap?.subjectName)}
-                                        className="w-full gap-1.5 rounded-xl text-xs h-9"
+                                        className="w-full gap-2 rounded-xl text-xs font-bold h-10 shadow-sm"
                                     >
-                                        <BookOpen className="w-3.5 h-3.5" />
+                                        <BookOpen className="w-4 h-4" />
                                         <span>Xem Bảng Điểm & Lịch Trình</span>
                                     </Button>
                                 </CardContent>
@@ -323,48 +347,48 @@ export default function RoadmapPage() {
                         </div>
 
                         {/* 3. Môn Được Mở Khóa Tiếp Theo (Unlocks) */}
-                        <div className="space-y-3">
-                            <div className="flex items-center gap-2 pb-2 border-b border-border">
-                                <ArrowRight className="w-4 h-4 text-emerald-500" />
+                        <div className="space-y-3 flex flex-col h-full">
+                            <div className="flex items-center gap-2 pb-2.5 border-b border-border">
+                                <ArrowRight className="w-4 h-4 text-emerald-500 shrink-0" />
                                 <h4 className="font-bold text-sm text-foreground">
-                                    Môn được mở khóa tiếp theo
+                                    3. Môn được mở khóa tiếp theo
                                 </h4>
-                                <Badge variant="outline" className="font-mono text-xs ml-auto text-emerald-600 bg-emerald-500/10">
+                                <Badge variant="outline" className="font-mono text-xs ml-auto text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 border-emerald-500/20 font-bold">
                                     {unlocks.length} môn
                                 </Badge>
                             </div>
 
                             {unlocks.length === 0 ? (
-                                <div className="p-6 rounded-2xl border border-dashed border-border bg-muted/20 text-center text-xs text-muted-foreground space-y-1">
-                                    <GraduationCap className="w-5 h-5 text-muted-foreground/40 mx-auto" />
-                                    <p className="font-medium text-foreground">Môn giai đoạn cuối / Đồ án tốt nghiệp</p>
-                                    <p>Môn này là chặng kết thúc, không làm điều kiện tiên quyết cho môn nào khác.</p>
+                                <div className="p-6 rounded-2xl border border-dashed border-border bg-muted/20 text-center text-xs text-muted-foreground space-y-1.5 flex-1 flex flex-col items-center justify-center">
+                                    <GraduationCap className="w-5 h-5 text-muted-foreground/50 mx-auto" />
+                                    <p className="font-bold text-foreground">Môn giai đoạn cuối / Khóa luận tốt nghiệp</p>
+                                    <p className="leading-relaxed">Môn này là chặng kết thúc, không làm điều kiện tiên quyết cho môn nào khác.</p>
                                 </div>
                             ) : (
-                                <div className="space-y-2.5 max-h-[600px] overflow-y-auto pr-1">
+                                <div className="space-y-2.5 max-h-[600px] overflow-y-auto pr-1 flex-1">
                                     {unlocks.map((code) => (
                                         <Card
                                             key={code}
-                                            className="border-border bg-card/70 hover:bg-card hover:border-emerald-500/50 transition-all shadow-sm group"
+                                            className="border-border bg-card/80 hover:bg-card hover:border-emerald-500/50 transition-all duration-200 shadow-sm hover:shadow-md group rounded-xl"
                                         >
-                                            <CardContent className="p-3.5 space-y-2">
+                                            <CardContent className="p-4 space-y-2.5">
                                                 <div className="flex items-start justify-between gap-2">
-                                                    <span className="font-mono text-xs font-bold text-emerald-600 dark:text-emerald-400">
+                                                    <span className="font-mono text-xs font-black text-emerald-600 dark:text-emerald-400">
                                                         {code}
                                                     </span>
-                                                    <Badge variant="outline" className="text-[10px] bg-emerald-500/10 text-emerald-600 border-emerald-500/20">
+                                                    <Badge variant="outline" className="text-[10px] bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/20 font-bold">
                                                         Mở khóa
                                                     </Badge>
                                                 </div>
-                                                <p className="text-xs font-semibold text-foreground line-clamp-2 leading-snug">
+                                                <p className="text-xs font-bold text-foreground line-clamp-2 leading-snug">
                                                     {names[code] || "—"}
                                                 </p>
-                                                <div className="pt-2 border-t border-border/40 flex items-center justify-between gap-2">
+                                                <div className="pt-2 border-t border-border/50 flex items-center justify-between gap-2">
                                                     <Button
                                                         variant="ghost"
                                                         size="sm"
                                                         onClick={() => handleSelectCode(code)}
-                                                        className="h-6 px-2 text-[11px] text-muted-foreground hover:text-primary gap-1"
+                                                        className="h-7 px-2.5 text-[11px] font-semibold text-muted-foreground hover:text-primary gap-1 rounded-lg"
                                                     >
                                                         <RotateCcw className="w-3 h-3" />
                                                         Đổi tiêu điểm
@@ -373,7 +397,7 @@ export default function RoadmapPage() {
                                                         variant="outline"
                                                         size="sm"
                                                         onClick={() => openSyllabusFor(code)}
-                                                        className="h-6 px-2 text-[11px] gap-1"
+                                                        className="h-7 px-2.5 text-[11px] font-semibold gap-1 rounded-lg"
                                                     >
                                                         Đề cương <ChevronRight className="w-3 h-3" />
                                                     </Button>

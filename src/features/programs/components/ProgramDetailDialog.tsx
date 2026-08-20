@@ -192,16 +192,16 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                         animate={{ opacity: 1, scale: 1, y: 0 }}
                         exit={{ opacity: 0, scale: 0.95, y: 20 }}
                         transition={{ duration: 0.2 }}
-                        className="fixed inset-0 z-50 flex items-center justify-center p-4 pointer-events-none"
+                        className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 pointer-events-none"
                     >
-                        <div className="w-full max-w-5xl max-h-[90vh] bg-card border rounded-2xl shadow-2xl pointer-events-auto flex flex-col">
-                            <div className="flex items-start justify-between p-6 border-b">
-                                <div className="space-y-1 min-w-0">
-                                    <h2 className="text-2xl font-bold truncate">{program.name}</h2>
-                                    <p className="text-muted-foreground">{program.universityName}</p>
-                                    <div className="flex flex-wrap items-center gap-2 pt-2">
+                        <div className="w-full max-w-5xl max-h-[94vh] sm:max-h-[90vh] bg-card border border-border rounded-t-3xl sm:rounded-2xl shadow-2xl pointer-events-auto flex flex-col overflow-hidden">
+                            <div className="flex items-start justify-between p-5 sm:p-6 border-b border-border">
+                                <div className="space-y-1.5 min-w-0 flex-1 pr-2">
+                                    <h2 className="text-xl sm:text-2xl font-black text-foreground truncate">{program.name}</h2>
+                                    <p className="text-xs sm:text-sm text-muted-foreground font-medium">{program.universityName}</p>
+                                    <div className="flex flex-wrap items-center gap-1.5 pt-1.5">
                                         {program.degreeType && (
-                                            <Badge variant="secondary">{program.degreeType}</Badge>
+                                            <Badge variant="secondary" className="text-xs font-semibold">{program.degreeType}</Badge>
                                         )}
                                         {cohorts.map((c) => (
                                             <Badge key={c} className="font-mono text-xs font-bold bg-primary/10 text-primary border-primary/20 hover:bg-primary/20">
@@ -209,28 +209,28 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                             </Badge>
                                         ))}
                                         {specialization && (
-                                            <Badge variant="outline" className="text-xs bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border-indigo-500/20">
+                                            <Badge variant="outline" className="text-xs bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 border-indigo-500/20 font-medium">
                                                 CN: {specialization}
                                             </Badge>
                                         )}
                                         {program.credits && (
-                                            <Badge variant="outline">
+                                            <Badge variant="outline" className="text-xs font-semibold">
                                                 {t("credits", { count: program.credits })}
                                             </Badge>
                                         )}
                                         {program.courseCount > 0 && (
-                                            <Badge variant="outline">
+                                            <Badge variant="outline" className="text-xs font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 border-emerald-500/20">
                                                 {t("courses", { count: program.courseCount })}
                                             </Badge>
                                         )}
                                     </div>
                                 </div>
-                                <div className="flex items-center gap-2">
+                                <div className="flex items-center gap-1.5 shrink-0">
                                     <Button
                                         size="sm"
                                         variant="outline"
                                         onClick={() => window.print()}
-                                        className="gap-1.5 text-xs h-8"
+                                        className="gap-1.5 text-xs h-8 rounded-lg"
                                     >
                                         <Printer className="w-3.5 h-3.5 text-indigo-500" />
                                         <span className="hidden sm:inline">In PDF</span>
@@ -241,7 +241,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 size="sm"
                                                 variant="outline"
                                                 onClick={() => exportProgramToCsv(program, courses)}
-                                                className="gap-1.5 text-xs h-8"
+                                                className="gap-1.5 text-xs h-8 rounded-lg"
                                             >
                                                 <FileSpreadsheet className="w-3.5 h-3.5 text-emerald-500" />
                                                 <span className="hidden sm:inline">Xuất Excel</span>
@@ -250,26 +250,26 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 size="sm"
                                                 variant="outline"
                                                 onClick={() => exportProgramToJson(program, courses)}
-                                                className="gap-1.5 text-xs h-8"
+                                                className="gap-1.5 text-xs h-8 rounded-lg"
                                             >
                                                 <FileJson className="w-3.5 h-3.5 text-blue-500" />
                                                 <span className="hidden sm:inline">Xuất JSON</span>
                                             </Button>
                                         </>
                                     )}
-                                    <Button variant="ghost" size="icon" onClick={onClose} className="h-8 w-8">
+                                    <Button variant="ghost" size="icon" onClick={onClose} className="h-8 w-8 rounded-full">
                                         <X className="h-4 w-4" />
                                     </Button>
                                 </div>
                             </div>
 
-                            <div className="border-b px-6 pt-2">
-                                <div className="flex gap-2 -mb-px overflow-x-auto">
+                            <div className="border-b border-border px-4 sm:px-6 pt-2 bg-muted/20 shrink-0">
+                                <div className="flex gap-1 sm:gap-2 -mb-px overflow-x-auto no-scrollbar">
                                     {tabs.map((tab) => (
                                         <button
                                             key={tab.key}
                                             onClick={() => setActiveTab(tab.key)}
-                                            className={`px-4 py-2 text-sm font-medium border-b-2 transition-colors whitespace-nowrap ${
+                                            className={`px-3 sm:px-4 py-2 text-xs sm:text-sm font-bold border-b-2 transition-all whitespace-nowrap ${
                                                 activeTab === tab.key
                                                     ? "border-primary text-primary"
                                                     : "border-transparent text-muted-foreground hover:text-foreground"
@@ -281,7 +281,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                 </div>
                             </div>
 
-                            <div className="flex-1 p-6 overflow-y-auto space-y-6">
+                            <div className="flex-1 p-4 sm:p-6 overflow-y-auto space-y-6">
                                 {activeTab === "info" && (
                                     <div className="space-y-6">
                                         <Card>
@@ -414,57 +414,57 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                         )}
 
                                         {courses && courses.length > 0 && (
-                                            <div className="rounded-lg border overflow-hidden">
-                                                <table className="w-full text-sm">
-                                                    <thead className="bg-muted/50">
+                                            <div className="overflow-x-auto relative rounded-2xl border border-border shadow-sm">
+                                                <table className="w-full text-sm min-w-[580px]">
+                                                    <thead className="bg-muted/60 border-b border-border">
                                                         <tr>
-                                                            <th className="text-left px-4 py-2 font-medium">
+                                                            <th className="text-left px-4 py-3 font-bold text-xs text-muted-foreground uppercase tracking-wider">
                                                                 {t("courseCode")}
                                                             </th>
-                                                            <th className="text-left px-4 py-2 font-medium">
+                                                            <th className="text-left px-4 py-3 font-bold text-xs text-muted-foreground uppercase tracking-wider">
                                                                 {t("courseName")}
                                                             </th>
-                                                            <th className="text-center px-4 py-2 font-medium">Học kỳ</th>
-                                                            <th className="text-left px-4 py-2 font-medium">Khối kiến thức</th>
-                                                            <th className="text-right px-4 py-2 font-medium">
+                                                            <th className="text-center px-4 py-3 font-bold text-xs text-muted-foreground uppercase tracking-wider">Học kỳ</th>
+                                                            <th className="text-left px-4 py-3 font-bold text-xs text-muted-foreground uppercase tracking-wider">Khối kiến thức</th>
+                                                            <th className="text-right px-4 py-3 font-bold text-xs text-muted-foreground uppercase tracking-wider">
                                                                 {t("courseCredits")}
                                                             </th>
                                                         </tr>
                                                     </thead>
-                                                    <tbody className="divide-y">
+                                                    <tbody className="divide-y divide-border/60">
                                                         {filteredCourses.map((course) => (
                                                             <tr
                                                                 key={course.id}
                                                                 onClick={() => setSelectedCourseForSyllabus(course)}
                                                                 className="hover:bg-muted/50 cursor-pointer transition-colors group"
                                                             >
-                                                                <td className="px-4 py-2.5 text-muted-foreground font-mono text-xs">
-                                                                    <span className="font-bold text-foreground group-hover:text-primary transition-colors">
+                                                                <td className="px-4 py-3 text-muted-foreground font-mono text-xs">
+                                                                    <span className="font-black text-foreground group-hover:text-primary transition-colors">
                                                                         {course.courseCode || "—"}
                                                                     </span>
                                                                 </td>
-                                                                <td className="px-4 py-2.5 font-medium">
+                                                                <td className="px-4 py-3 font-semibold">
                                                                     <div className="flex items-center justify-between gap-2">
-                                                                        <span>{course.courseName}</span>
-                                                                        <span className="opacity-0 group-hover:opacity-100 text-[11px] text-primary flex items-center font-normal transition-opacity shrink-0">
-                                                                            Xem đề cương <ChevronRight className="w-3 h-3 ml-0.5" />
+                                                                        <span className="text-foreground">{course.courseName}</span>
+                                                                        <span className="opacity-0 group-hover:opacity-100 text-[11px] text-primary flex items-center font-bold transition-opacity shrink-0">
+                                                                            Đề cương <ChevronRight className="w-3 h-3 ml-0.5" />
                                                                         </span>
                                                                     </div>
                                                                     {course.prerequisites && (
-                                                                        <div className="text-[11px] text-muted-foreground font-mono mt-0.5">
+                                                                        <div className="text-[11px] text-muted-foreground font-mono mt-0.5 font-normal">
                                                                             TQ: {course.prerequisites}
                                                                         </div>
                                                                     )}
                                                                 </td>
-                                                                <td className="px-4 py-2.5 text-center font-mono text-xs">
+                                                                <td className="px-4 py-3 text-center font-mono text-xs font-bold text-muted-foreground">
                                                                     HK{course.semester || 1}
                                                                 </td>
-                                                                <td className="px-4 py-2.5">
-                                                                    <Badge variant="outline" className="text-[10px] font-mono">
+                                                                <td className="px-4 py-3">
+                                                                    <Badge variant="outline" className="text-[10px] font-mono font-medium">
                                                                         {course.knowledgeBlock || "Chuyên ngành"}
                                                                     </Badge>
                                                                 </td>
-                                                                <td className="px-4 py-2.5 text-right font-mono font-bold text-primary">
+                                                                <td className="px-4 py-3 text-right font-mono font-black text-primary">
                                                                     {course.credits ?? 3} TC
                                                                 </td>
                                                             </tr>

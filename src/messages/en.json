@@ -1,6 +1,5 @@
 {
   "navbar": {
-    "home": "Home",
     "courses": "Programs",
     "roadmap": "Roadmap",
     "materials": "Materials",
@@ -56,7 +55,11 @@
     "textError": "Failed to read document text.",
     "emptyText": "Document text is empty.",
     "errorTitle": "An error occurred while loading data",
-    "retry": "Retry"
+    "retry": "Retry",
+    "viewDetail": "View Details",
+    "viewProgram": "View Program",
+    "loadMore": "Load more ({loaded}/{total})",
+    "clearFilters": "Clear filters"
   },
   "chat": {
     "title": "AI Q&A",

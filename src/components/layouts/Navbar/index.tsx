@@ -27,7 +27,7 @@ export const Navbar = () => {
     if (!mounted) {
         return (
             <nav className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur">
-                <div className="container mx-auto flex h-14 items-center">
+                <div className="container mx-auto flex h-14 items-center px-4 sm:px-6 lg:px-8">
                     <div className="mr-4 flex">
                         <span className="font-bold">Tedo</span>
                     </div>
@@ -38,16 +38,13 @@ export const Navbar = () => {
 
     return (
         <nav className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur">
-            <div className="container mx-auto flex h-14 items-center justify-between">
+            <div className="container mx-auto flex h-14 items-center justify-between px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center gap-6">
                     <Link href="/" className="font-bold text-lg text-primary tracking-tight">
                         Tedo
                     </Link>
                     <div className="hidden md:flex items-center gap-5 text-sm">
                         <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
-                            {t("home")}
-                        </Link>
-                        <Link href="/programs" className="text-muted-foreground hover:text-foreground transition-colors">
                             {t("courses")}
                         </Link>
                         <Link href="/roadmap" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors">

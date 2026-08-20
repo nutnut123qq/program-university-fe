@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { Search } from "lucide-react"
+import { Search, X, RotateCcw } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Select, SelectItem } from "@/components/ui/select"
@@ -69,18 +69,27 @@ export function ProgramFilters({
         <div className="space-y-4">
             <div className="flex flex-col gap-3">
                 <div className="relative flex-1">
-                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+                    <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                     <Input
                         placeholder={t("searchPlaceholder")}
                         value={filters.search}
                         onChange={(e) =>
                             onChange({ ...filters, search: e.target.value })
                         }
-                        className="pl-9"
+                        className="pl-10 pr-10 h-12 text-sm bg-card border-border shadow-sm rounded-2xl focus-visible:ring-1 focus-visible:ring-primary"
                     />
+                    {filters.search && (
+                        <button
+                            onClick={() => onChange({ ...filters, search: "" })}
+                            className="absolute right-3.5 top-1/2 -translate-y-1/2 p-1 rounded-full text-muted-foreground hover:text-foreground hover:bg-muted"
+                            aria-label="Xóa từ khóa tìm kiếm"
+                        >
+                            <X className="w-4 h-4" />
+                        </button>
+                    )}
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5">
                     <Select
                         value={filters.universityId}
                         onValueChange={(value) =>
@@ -164,18 +173,29 @@ export function ProgramFilters({
                 </div>
             </div>
 
-            <div className="flex items-center justify-between text-sm text-muted-foreground">
+            <div className="flex items-center justify-between text-xs sm:text-sm text-muted-foreground px-0.5">
                 <p>
-                    {totalCount > 0
-                        ? t("resultsOfTotal", { count: resultCount, total: totalCount })
-                        : t("results", { count: resultCount })}
+                    {totalCount > 0 ? (
+                        <span>
+                            Hiển thị <strong className="text-foreground font-mono">{resultCount}</strong> / <strong className="text-foreground font-mono">{totalCount}</strong> chương trình đào tạo
+                        </span>
+                    ) : (
+                        t("results", { count: resultCount })
+                    )}
                 </p>
                 {hasActiveFilters && (
-                    <Button variant="ghost" size="sm" onClick={handleClear}>
-                        {t("clearFilters")}
+                    <Button
+                        variant="ghost"
+                        size="sm"
+                        onClick={handleClear}
+                        className="h-8 text-xs font-semibold gap-1.5 text-primary hover:text-primary/80 hover:bg-primary/10 rounded-lg"
+                    >
+                        <RotateCcw className="w-3.5 h-3.5" />
+                        <span>{t("clearFilters") || "Xóa bộ lọc"}</span>
                     </Button>
                 )}
             </div>
         </div>
     )
 }
+

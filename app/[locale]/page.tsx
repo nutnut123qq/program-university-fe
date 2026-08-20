@@ -1,7 +1,8 @@
 "use client"
 
-import { HomePage } from "@/features/home"
+import { ProgramList } from "@/features/programs"
 
 export default function Page() {
-    return <HomePage />
+    return <ProgramList />
 }
+
