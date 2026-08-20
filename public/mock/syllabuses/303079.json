@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 379608,
+    "subjectCode": "303079",
+    "syllabusName": "Du lịch cộng đồng (Community Tourism)",
+    "syllabusEnglish": "Community Tourism",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học trang bị cho sinh viên kiến thức về du lịch cộng đồng với các nội dung chính sau:\n- Những vấn đề lý luận về du lịch cộng đồng (chương 1).\n- Nguồn lực phát triển du lịch cộng đồng (chương 2).\n- Tổ chức quản lý việc xây dựng, phát triển và tiếp thị sản phẩm du lịch cộng đồng (chương 3 và 4).\n- Xác định và xử lý những rủi ro thường gặp trong phát triển du lịch cộng đồng (chương 5).",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Người học biết được khái niệm, đặc điểm, các nguyên tắc và các nguồn lực phát triển du lịch cộng đồng. Hiểu được vai trò của các bên tham gia và cách thức tổ chức quản lý, tiếp thị cũng như đối phó với rủi ro trong du lịch cộng đồng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp:Người học rèn luyện được khả năng tổ chức quản lý, lập kế hoạch phát triển sản phẩm, tiếp thị, điều hành và ứng phó với rủi ro trong du lịch cộng đồng"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Người học có tư duy độc lập, biết đánh giá, biết cách phân tích các nguồn lực phát triển du lịch cộng đồng và vận dụng vào thực tiễn Việt Nam. Xác định được cách thức tổ chức quản lý phù hợp đối với mỗi địa phương."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học nhìn nhận đúng đắn vai trò của cộng đồng và các bên tham gia trong phát triển du lịch; tôn trọng những giá trị tự nhiên và văn hóa bản địa trong khai thác phát triển du lịch. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu chung về Du lịch cộng đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nguồn lực phát triển du lịch cộng đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tổ chức quản lý hoạt động du lịch cộng đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tiếp thị du lịch cộng đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Đối phó với khủng hoảng trong du lịch cộng đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,140 @@
+{
+  "info": {
+    "sylid": 949829,
+    "subjectCode": "E01092",
+    "syllabusName": "Khoa học điều tra hình sự (Criminal Investigation)",
+    "syllabusEnglish": "Criminal Investigation",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học khoa học điều tra hình sự là môn học chuyên ngành luật\r\nhình sự. Điều tra vụ án hình sự là hoạt động điều tra của Cơ quan điều tra và\r\nnhững cơ quan được giao nhiệm vụ tiến hành một số hoạt động điều tra theo luật\r\nđịnh, được tiến hành theo trình tự tố tụng hình sự, nhằm chứng minh sự thật của\r\nvụ án theo yêu cầu của pháp luật.  \n\nMôn học cung cấp cho người\r\nhọc những kiến thức về hoạt động điều tra vụ án hình sự: nguyên tắc thực hiện,\r\nchủ thể thực hiện, trình tự, thủ tục thực hiện hoạt động điều tra theo quy định\r\npháp luật tố tụng hình sự Việt Nam. Môn học trang bị cho người học những kỹ\r\nnăng cơ bản trong hoạt động điều tra, kỹ năng đánh giá chứng cứ đã được thu thập\r\ntrong tố tụng hình sự.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được những kiến thức cơ bản trong pháp luật điều tra hình sự Việt Nam"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết ứng dụng các khái niệm, lý thuyết để giải quyết các tình huống pháp lý cụ thể trong hoạt động điều tra các vụ án hình sự."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích được các hoạt động của cơ quan điều tra trong việc giải quyết các vụ án hình sự."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá được tính chất và nội dung hoạt động của cơ quan điều tra trong việc giải quyết các vụ án hình sự."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Có thái độ tích cực, xây dựng thói quen, tác phong sống và làm việc theo Hiến pháp và pháp luật."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tự luận,Nghiên cứu tình huống,Giải quyết vấn đề",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test,Case Study,Problem-Solving",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "KHÁI QUÁT CHUNG VỀ KHOA HỌC ĐIỀU TRA HÌNH SỰ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "TỔ CHỨC ĐIỀU TRA VỤ ÁN HÌNH SỰ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "DẤU VẾT HÌNH SỰ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "BẢO VỆ VÀ KHÁM NGHIỆM HIỆN TRƯỜNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "HỎI CUNG BỊ CAN VÀ LẤY LỜI KHAI CỦA NGƯỜI LÀM CHỨNG, BỊ HẠI",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "KHÁM XÉT TRONG ĐIỀU TRA VỤ ÁN HÌNH SỰ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "TRƯNG CẦU GIÁM ĐỊNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

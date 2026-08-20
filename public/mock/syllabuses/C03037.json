@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 983675,
+    "subjectCode": "C03037",
+    "syllabusName": "Thiết kế thực nghiệm (Experimental Design)",
+    "syllabusEnglish": "Experimental Design",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "-\n\nPhân tích thiết kế hoàn toàn ngẫu nhiên, thiết kế khối đầy đủ ngẫu nhiên,\nhình vuông Latin. \n\n-\n\nCác thiết kế giai thừa",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp những kiến thức giúp sinh viên hiểu và áp dụng các khái niệm và phương pháp lấy mẫu khảo sát thiết kế và phân tích thí nghiệm."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng kiến thức thống kê để giải quyết một số bài toán thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Rèn luyện tư duy lô-gic, lập luận chặt chẽ."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Hình thành sự yêu thích đối với chuyên ngành theo học, sự tích cực, nghiêm túc trong học tập."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các khối ngẫu nhiên và thiết kế hình vuông Latin",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các thiết kế giai thừa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thiết kế giai thừa 2 mức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các thiết kế giai thừa phân đoạn 2 mức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

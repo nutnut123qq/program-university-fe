@@ -1,0 +1,134 @@
+{
+  "info": {
+    "sylid": 314359,
+    "subjectCode": "404015",
+    "syllabusName": "Thiết kế chi tiết máy (Design of Machine Elements)",
+    "syllabusEnglish": "Design of Machine Elements",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Khóa học này giới thiệu các quy trình thiết kế cho các bộ phận cơ bản của máy. Các chủ đề chính bao gồm:\n- Nguyên tắc cơ bản của thiết kế cơ khí.\n- Chức năng và yêu cầu thiết kế các chi tiết máy.\n- Thiết kế các chi tiết thông dụng như bánh răng, đinh tán, bu lông, trục, dây curoa, xích...",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Am hiểu những kỹ năng thiết kế cần thiết để thực hiện thiết kế cơ khí"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Mô tả tầm quan trọng của việc tích hợp các chi tiết máy riêng lẻ vào một hệ thống máy móc hoàn chỉnh"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phát biểu các chức năng và yêu cầu thiết kế cho các thiết bị cơ khí"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Xây dựng bộ tiêu chí đánh giá thiết kế "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về Thiết kế Kỹ thuật Cơ khí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hư hỏng của vật liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Trục và các bộ phận liên quan.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Ổ đỡ và bôi trơn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Bánh răng trụ răng thẳng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Đai, xích, ly hợp và phanh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Bộ truyền trục vít và các mối ghép",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

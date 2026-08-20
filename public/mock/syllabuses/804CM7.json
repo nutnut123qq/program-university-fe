@@ -1,0 +1,54 @@
+{
+  "info": {
+    "sylid": 489940,
+    "subjectCode": "804CM7",
+    "syllabusName": "Kỹ năng thực hành chuyên môn (Professional Skills Exam)",
+    "syllabusEnglish": "Professional Skills Exam",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm 2 phần đánh giá năng lực: Lý thuyết và Thực hành\n\nLý thuyết: 120 phút; Thực hành: từ 150 - 180 phút\n\nSinh viên rèn luyện và vận dụng kỹ năng chuyên môn vào quá trình làm đồ án kiến trúc",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Đánh giá, kiểm tra kiến thức và trình độ chuyên môn đối với SV năm cuối trước khi làm đồ án tốt nghiệp/ Đồ án tổng hợp trình độ Kiến trúc sư"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Đánh giá được các kỹ năng nghề nghiệp của SV trước khi tốt nghiệp ra trường và chuẩn bị hành nghề thực tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thực hiện bài thi tại lớp/họa thất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

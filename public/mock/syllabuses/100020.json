@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 904562,
+    "subjectCode": "100020",
+    "syllabusName": "Điêu khắc cơ bản (Sculpture Fundamentals)",
+    "syllabusEnglish": "Sculpture Fundamentals",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Cung cấp các kiến thức về điêu khắc và các thể loại, chất liệu trong điêu khắc.\n\n Phương pháp tiến hành một bài tượng trong và phù điêu, làm tiền đề để ứng dụng trong các chuyên nghành của Mỹ thuật công nghiệp.\n\nChuyển thể từ ý tưởng 2D thành hình khối 3D.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Đánh giá được một cách tổng quan những kiến thức cơ bản về điêu khắc, về các thể loại trong điêu khắc, qua đó giúp sinh viên từng bước cảm nhận được cái hay, cái đẹp trong các tác phẩm. Nắm được đặc trưng của từng thể loại và quy trình cơ bản để tiến hành thực hiện một tác phẩm tượng tròn hay phù điêu."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "nắm được cách thức, qui trình thực hiện một sản phẩm tượng tròn hay phù điêu; nắm bắt được hình khối một cách thực tế và cảm nhận được vật thể trong không gian, từ đó biết cách xử lý khối trong không gian 3 chiều."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích, so sánh tỉ lệ tương quan giữa các hình khối trong các không gian 3D."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Nghiêm túc trong cách thể hiện, mạnh dạn khi đánh giá các bài tập trong lớp học."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tiểu luận,Thuyết trình,Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay,Presentation,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận,Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "LÝ THUYẾT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "HỆ THỐNG BÀI TẬP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

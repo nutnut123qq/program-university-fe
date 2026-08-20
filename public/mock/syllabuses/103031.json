@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 366583,
+    "subjectCode": "103031",
+    "syllabusName": "Đồ án nội thất 1 - Thiết kế nhà ở (Studio Design 1 - Residential Project)",
+    "syllabusEnglish": "Studio Design 1 - Residential Project",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Tổng quan về nhà ở, các loại hình nhà ở dân dụng, các khu chức năng trong nhà ở.\n\nTổ chức không gian và phương pháp thiết kế nội thất nhà ở.\n\nThực hiện đồ án.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: \nTrang bị cho Sinh viên các nguyên tắc cơ bản trong thiết kế nội thất Nhà ở.\nNguyên tắc thiết kế chi tiết, thành phần, cấu tạo nội thất Nhà ở.\nCác bài tập phác thảo ngắn hạn tìm ý tưởng, vẽ bằng tay (bút chì, bút kim, bút lông, bút sáp, màu nước,...)\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: \r\nTrang bị cho Sinh viên các kỹ năng và phương pháp thiết kế một công trình nội thất và các sản phẩm nội thất. \r\nNguyên tắc thực hiện một bản vẽ thiết kế công trình Nhà ở. Thiết kế chi tiết, thành phần, cấu tạo các sản phẩm nội thất. \r\nSử dụng phần mềm 2D và 3D để thực hiện hồ sơ nghiên cứu, hồ sơ thiết kế với ý tưởng tốt nhất.\r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Người học phải có khái niệm và tư duy thiết kế về không gian nội thất tốt, có ý tưởng thiết kế sáng tạo. \n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học được luyện tập các kỹ năng làm việc có hệ thống, nghiêm túc, thiết kế đạt yêu cầu về công năng và kỹ thuật cao .\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhà ở - Những nội dung cơ bản.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tham quan kiến tập thực tế ( Học Phần Doanh Nghiệp)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế các loại hình nhà ở- Tổ chức không gian và phương pháp thiết kế.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thuyết trình nghiên cứu đồ án ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thực hiện Đồ án - Concept và ý tưởng cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Kết thúc môn học. Chấm đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

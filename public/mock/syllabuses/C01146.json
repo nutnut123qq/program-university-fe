@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 56037,
+    "subjectCode": "C01146",
+    "syllabusName": "Giải tích 3 (Calculus 3)",
+    "syllabusEnglish": "Calculus 3",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Tích phân bội ba.\n\nGiải tích vector.\n\nChuỗi hàm.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Môn học cung cấp những kiến thức cơ bản về Toán Giải Tích cho sinh viên ngành Toán ứng dụng và Thống kê. Tiếp theo phần kiến thức đã được trang bị trong môn học Giải tích 2, sinh viên được trang bị những kiến thức về tích phân hàm nhiều biến, ứng dụng trong việc tính thể tích của một số vật thể hay độ dài của đường cong, hay diện tích mặt. Ngoài ra chuỗi hàm cũng sẽ được nghiên cứu trong môn học này."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Giúp cho sinh viên hiểu được ứng dụng của tích phân hàm nhiều biến và vận dụng kiến thức vào việc giải các bài toán thực tế trong lĩnh vực kỹ thuật."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Nắm vững lý thuyết toán căn bản, có tư duy về logic, suy luận, và tính toán."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Tham dự đầy đủ các buổi học, có ý thức chuyên cần, nghiêm túc trong các buổi học lý thuyết và bài tập. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tích phân nhiều lớp (Multiple Integrals).",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Vector Calculus",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chuỗi lũy thừa (Power series).",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

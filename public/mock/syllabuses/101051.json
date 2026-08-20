@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 16701,
+    "subjectCode": "101051",
+    "syllabusName": "Portfolio (Portfolio)",
+    "syllabusEnglish": "Portfolio",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Thiết kế hồ sơ xin việc cung cấp cho sinh viên kiến thức tổng quát về mục tiêu tuyển dụng của doanh nghiệp, lựa chọn doanh nghiệp phù hợp với năng lực cá nhân, thiết kế hồ sơ xin việc, trình bày hồ sơ năng lực để phù hợp với doanh nghiệp. Ngoài ra, sinh viên còn được luyện tập trả lời phỏng vấn từ các câu hỏi cơ bản đến đi sâu vào chuyên ngành.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên nắm ý nghĩa của việc thiết kế hồ sơ xin việc và hồ sơ năng lực cho bản thân mình. Bên cạnh đó là tác phong tự tin, khả năng trả lời phỏng vấn từ cơ bản đến các câu hỏi chuyên ngành. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng viết và thiết kế hồ sơ xin việc, hồ sơ năng lực thể hiện tính thẩm mỹ cao, và thể hiện được cá tính riêng của sinh viên trong từng hồ sơ."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên có khả năng trình bày về hồ sơ xin việc, cũng như về các bài thiết kế của mình thông qua các câu hỏi phỏng vấn. Giữ được sự tự tin trong giao tiếp và để lại ấn tượng mạnh đối với doanh nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "GIỚI THIỆU VỀ HỒ SƠ NĂNG LỰC & HỒ SƠ XIN VIỆC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "TÌM HIỂU CHI TIẾT VỀ THỊ TRƯỜNG CÔNG VIỆC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "NGHIÊN CỨU VÀ BÍ QUYẾT ĐƯỢC GỌI PHỎNG VẤN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "THIẾT KẾ HỒ SƠ NĂNG LỰC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "LỰA CHỌN HỒ SƠ NĂNG LỰC PHÙ HỢP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

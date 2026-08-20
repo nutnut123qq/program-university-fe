@@ -1,0 +1,122 @@
+{
+  "info": {
+    "sylid": 514050,
+    "subjectCode": "901125",
+    "syllabusName": "Hóa kỹ thuật môi trường (Environmental Engineering Chemistry)",
+    "syllabusEnglish": "Environmental Engineering Chemistry",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Tổng quan về hóa kỹ thuật môi trường\nHóa học và các chu trình hóa học trong kỹ thuật môi trường \nHóa học nước và ô nhiễm nước\nHoá học không khí và ô nhiễm không khí\nHóa học đất và ô nhiễm đất",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được đặc tính của các thành phần môi trường, nguyên tắc cơ bản của các phản ứng phân hủy chất ô nhiễm trong môi trường nước/không khí/đất."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu và trình bày các phương pháp đánh giá nguồn gốc chất ô nhiễm và con đường lan truyền của chúng trong hệ thống môi trường."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đề xuất được các phương pháp xử lý ô nhiễm cho từng đối tượng cụ thể như nước cấp, nước thải, không khí và đất."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về Hoá kỹ thuật môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hóa học và các chu trình hóa học trong kỹ thuật môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hóa học nước và ô nhiễm nước",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hoá học không khí và ô nhiễm không khí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hóa học đất và ô nhiễm đất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

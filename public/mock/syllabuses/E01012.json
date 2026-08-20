@@ -1,0 +1,150 @@
+{
+  "info": {
+    "sylid": 427111,
+    "subjectCode": "E01012",
+    "syllabusName": "Luật tố tụng hành chính (Administrative Procedure Law)",
+    "syllabusEnglish": "Administrative Procedure Law",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Luật Tố tụng hành chính Việt Nam cung cấp những kiến thức cơ bản về ngành luật Tố tụng hành chính, trình tự, thủ tục khởi kiện, thụ lý, giải quyết các vụ án hành chính tại Tòa án, các kỹ  năng liên quan đến tố tụng hành chính khi hành nghề.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho người học những kiến thức chung về Luật Tố tụng hành chính, các nguyên tắc cơ bản, thẩm quyền xét xử các vụ án hành chính, cơ quan và người tiến hành tố tụng, người tham gia tố tụng, thủ tục khởi kiện, thụ lý và giải quyết các vụ án hành chính của Tòa án nhân dân các cấp"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học thực hiện được thủ tục khởi kiện và có thể tham gia giải quyết các vụ án hành chính khi hành nghề"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học khả năng phân tích, tổng hợp, đánh giá, đồng thời có tư duy độc lập về các nội dung kiến thức, kỹ năng thực tiễn liên quan đến môn học"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học có ý thức tuân thủ pháp luật, bảo vệ công lý, bảo vệ quyền con người, quyền công dân, bảo vệ lợi ích của Nhà nước, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân, nhận thức rõ vai trò của Tòa án, quyền và nghĩa vụ của các chủ thể trong tố tụng hành chính"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": " NHỮNG VẤN ĐỀ CHUNG CỦA LUẬT TỐ TỤNG HÀNH CHÍNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "THẨM QUYỀN XÉT XỬ CỦA TÒA ÁN NHÂN DÂN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "CƠ QUAN TIẾN HÀNH TỐ TỤNG, NGƯỜI TIẾN HÀNH TỐ TỤNG VÀ VIỆC THAY ĐỔI NGƯỜI TIẾN HÀNH TỐ TỤNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "NGƯỜI THAM GIA TỐ TỤNG, QUYỀN VÀ NGHĨA VỤ CỦA NGƯỜI THAM GIA TỐ TỤNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "CHỨNG CỨ VÀ CHỨNG MINH TRONG TỐ TỤNG HÀNH CHÍNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "KHỞI KIỆN, THỤ LÝ VỤ ÁN, ÁN PHÍ TRONG VỤ ÁN HÀNH CHÍNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "THỦ TỤC ĐỐI THOẠI VÀ CHUẨN BỊ XÉT XỬ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "PHIÊN TÒA SƠ THẨM/ PHÚC THẨM",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "CÁC VỤ ÁN HÀNH CHÍNH CÓ YẾU TỐ NƯỚC NGOÀI; THỦ TỤC RÚT GỌN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,158 @@
+{
+  "info": {
+    "sylid": 796656,
+    "subjectCode": "302003",
+    "syllabusName": "Logic học (Logic)",
+    "syllabusEnglish": "Logic",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn Logic học trình bày những quy luật và hình thức cơ bản của tư duy trừu tượng, bao gồm các nội dung cụ thể như sau:\n-\n\nCác quy luật cơ bản của tư duy (quy luật đồng nhất, quy luật không mâu thuẫn, quy luật triệt tam, quy luật lý do đầy đủ);\n-\n\nKhái niệm (khái quát về khái niệm, định nghĩa khái niệm, thu hẹp, mở rộng và phân chia khái niệm);\n-\n\nPhán đoán (khái quát về phán đoán, phán đoán đơn và phán đoán phức, các cách xác định giá trị một phán đoán là quy luật hay mâu thuẫn logic);\n-\n\nSuy luận (suy luận trực tiếp với tiền đề là phán đoán thuộc tính đơn, tam đoạn luận đơn, suy luận với các tiền đề là phán đoán phức, các chiến lược suy luận và cách thức xác định tính đúng/sai của suy luận);\n-\n\nChứng minh, bác bỏ và ngụy biện.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Mô tả được những kiến thức của môn học, bao gồm các quy luật và hình thức cơ bản của tư duy logic (khái niệm, phán đoán, suy luận, giả thuyết, chứng minh...)."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Giải thích được các khái niệm, quy luật logic, vị trí, vai trò và mối liên hệ giữa các quy luật"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng các kiến thức logic vào tư duy độc lập, phản biện, tuân thủ các quy luật logic trong cuộc sống. Đồng thời, sử dụng ngôn ngữ nói và viết mạch lạc, logic về cả hình thức và nội dung."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá và tuân thủ được các quy tắc, quy luật logic trong tư duy, trong tranh luận; nhận ra và tránh ngụy biện, sử dụng đúng các định nghĩa, khái niệm và thuật ngữ; chứng minh hoặc bác bỏ một quan điểm, luận đề."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu chung về môn học: ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Khoa học logic",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các quy luật cơ bản của tư duy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Khái niệm ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Phán đoán",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Khái quát về suy luận",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Tam đoạn luận nhất quyết đơn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Suy luận với tiền đề là phán đoán phức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Chứng minh, bác bỏ và ngụy biện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Suy luận trực tiếp với tiền đề là phán đoán nhất quyết đơn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

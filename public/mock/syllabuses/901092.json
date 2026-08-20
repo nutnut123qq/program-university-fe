@@ -1,0 +1,146 @@
+{
+  "info": {
+    "sylid": 455811,
+    "subjectCode": "901092",
+    "syllabusName": "Thiết kế hệ thống thủy lực (Hydraulic Systems Design)",
+    "syllabusEnglish": "Hydraulic Systems Design",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 1: Giới thiệu tổng quan về hệ thống các công trình thủy lực\n\nChương 2: Công trình thu và lưu chứa nước mặt\n\nChương 3: Công trình thu nước ngầm\n\nChương 4: Hệ thống các công trình truyền dẫn và vận chuyển nước\n\nChương 5: Thiết kế, vận hành, và quản lý hệ thống các công trình phân phối nước",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các thành phần cơ bản và tính chất thủy động lực học của các công trình thủy lực, bao gồm các công trình thu nước, hệ thống thủy lực (đường ống, kênh, mương dẫn) truyền tải và phân phối nước; các công trình phụ trợ trong hệ thống CTN."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng được các kiến thức về thủy lực để tính toán thiết kế các công trình, hệ thống thủy lực; xác định được những vấn đề hạn chế của hệ thống thủy lực trong thực tiễn."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đề xuất các giải pháp phù hợp khi thiết kế các công trình, hệ thống thủy lực theo hướng hài hòa giữa kỹ thuật - kinh tế - và môi trường"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Ghi nhớ các kiến thức cơ bản về vật lý và vẽ kỹ thuật để tiếp cận quy trình tính toán thiết kế các công trình trong hệ thống thủy lực"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Hiểu được phạm vi áp dụng của các tiêu chuẩn, quy chuẩn hiện hành liên quan đến công tác thiết kế các công trình trong hệ thống thủy lực"
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Phát triển các ý tưởng thiết kế hệ thống công trình thủy lực trên cơ sở thảo luận từ các ý tưởng của cá nhân"
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Xây dựng các kế hoạch truyền thông, nâng cao ý thức cộng đồng về ý nghĩa và vai trò hoạt động của các công trình/ hệ thống thủy lực"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu tổng quan về hệ thống các công trình thủy lực",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Công trình thu và lưu chứa nước mặt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Công trình thu nước ngầm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hệ thống các công trình truyền dẫn và vận chuyển nước",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thiết kế, vận hành, và quản lý hệ thống các công trình phân phối nước",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

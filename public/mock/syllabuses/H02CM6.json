@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 363550,
+    "subjectCode": "H02CM6",
+    "syllabusName": "Kỹ năng thực hành chuyên môn (Professional Skills Exam)",
+    "syllabusEnglish": "Professional Skills Exam",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "An internship experience provides the student with an opportunity to explore career interests while applying knowledge and skills learned in the classroom in a work setting. The experience also helps students gain a clearer sense of what they still need to learn and provides an opportunity to build professional networks.\n\nStudents  engage in manufacturing activities, learn about production proccess.\n\nStudents make an internship experience report and presentation / final class to present in front of a committee.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Apply the theory into reality; analyze and explain the happened problems and the phenomenon using the knowledge coached in the university."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Evaluate issues related to production, analyze and explain problems and situations in the reality using the theory learned, thereby giving practical and necessary suggestions for production facilities."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Be aware of the important and neccessary roles of theory in solving practical problems, to develop the hard and soft skills for serving future career, to understand the value of professional ethics."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Final examination",
+      "type": "Tự luận",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Solve biochemical problems",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Solve microbiological problems ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Operate molecular biology processes",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Analyze and explain problems and situations in the reality",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,122 @@
+{
+  "info": {
+    "sylid": 84410,
+    "subjectCode": "804163",
+    "syllabusName": "Nguyên lý thiết kế kiến trúc (Principles of Architectural Design)",
+    "syllabusEnglish": "Principles of Architectural Design",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung học phần được thiết kế cho 45 tiết lý thuyết, bao gồm cả bài thảo luận trên lớp và seminar báo cáo thuyết trình. \n\nNội dung kiến thức bao gồm: \n\nNhững khái niệm chung về kiến trúc\n\nNguyên lý thiết kế nhà công cộng\n\nNguyên lý thiết kế nhà ở\n\nCấu tạo các bộ phận công trình dân dụng\n\nNguyên lý thiết kế nhà công nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học kiến thức cơ bản về kiến trúc và các nguyên lý thiết kế công trình công cộng, nhà ở và nhà công nghiệp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng kiến thức chuyên môn để giải quyết những vấn đề, lên các phương án thiết kế kiến trúc, xây dựng và quy hoạch đô thị"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hoàn thiện kỹ năng trình bày, làm việc nhóm để tham gia công tác tư vấn, thiết kế kiến trúc, và quy hoạch các đồ án về đô thị."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "NHỮNG KHÁI NIÊM CHUNG VỀ KIẾN TRÚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "NGUYÊN LÝ THIẾT KẾ NHÀ CÔNG CỘNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "NGUYÊN LÝ THIẾT KẾ NHÀ Ở",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "CẤU TẠO NHÀ VÀ CÔNG TRÌNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "NGUYÊN LÝ THIẾT KẾ NHÀ CÔNG NGHIỆP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

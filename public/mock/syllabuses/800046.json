@@ -1,0 +1,104 @@
+{
+  "info": {
+    "sylid": 635745,
+    "subjectCode": "800046",
+    "syllabusName": "Cơ học kết cấu 2 (Structural Analysis II)",
+    "syllabusEnglish": "Structural Analysis II",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 1. \nPhân tích kết cấu phẳng siêu tĩnh bằng phương pháp lực\n\nTrong chương này sẽ đề cập đến phương pháp lực để phân tích kết cấu phẳng siêu tính như giàn, dầm và khung. Ở cuối của chương này, sẽ trình bày một phương pháp để vẽ đường ảnh hưởng của kết cấu phẳng siêu tĩnh như dầm và khung.\n\nChương 2. \nPhân tích kết cấu phẳng siêu tĩnh bằng phương pháp chuyển vị\n\nTrong chương này sẽ đưa ra những ý tưởng cơ bản để phân tích kết cấu phẳng siêu tĩnh bằng cách sử dụng phương pháp chuyển vị. Đồng thời sẽ phát triển các phương trình tổng quát của chuyển vị góc xoay và sau đó sử dụng chúng để phân tích kết cấu phẳng siêu tĩnh như dầm và khung.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên được trang bị các kiến thức cơ bản về phân tích kết cấu phẳng siêu tĩnh"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên biết  sử dụng phương pháp lực và phương pháp chuyển vị để phân tích sự làm việc của kết cấu thực."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên hiểu được sự khác nhau giữa kết cấu siêu tĩnh thực và mô hình kết cấu"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên có thái độ tỉ mĩ và cẩn thận khi phân tích sơ đồ tính của công trình thực tế, nâng cao khả năng mô hình hóa kết cấu thực chịu tác dụng của các loại tải trọng khác nhau."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Phân tích kết cấu phẳng siêu tĩnh bằng phương pháp lực",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phân tích kết cấu phẳng siêu tĩnh bằng phương pháp chuyển vị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,168 @@
+{
+  "info": {
+    "sylid": 340098,
+    "subjectCode": "C01137",
+    "syllabusName": "Nhập môn tin học (Introduction to Informations)",
+    "syllabusEnglish": "Introduction to Informations",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm 3 phần:\n\nPhần một đề cập đến một số kiến thức nền tảng về cấu trúc máy tính, cách thức biểu diễn thông tin trên máy tính, phần cứng, phần mềm và hệ điều hành.\n\nPhần hai cung cấp kiến thức cơ bản về mạng, Internet và phương pháp tìm kiếm thông tin hiệu quả trên Internet, một số công cụ AI nổi bật và cách sử dụng các công cụ AI một cách hiệu quả.\n\nPhần ba trình bày những tính năng mở rộng của các phần mềm Microsoft Word, PowerPoint, Excel và các chức năng của phần mềm iMindMap",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "*Kiến thức: \n-Mô tả được cấu trúc tổng quát của máy tính và nguyên lý hoạt động của máy tính\n-Nhắc lại đươc nguồn gốc và sự phát triển của máy tính\n-Nhận biết được các thành phần cấu tạo nên chiếc máy tính và chức năng của chúng\n-Trình bày được nguyên lý biểu diễn dữ liệu trên máy tính và nền tảng toán học gồm hệ đếm nhị phân và thập lục phân.\n-Nêu tóm tắt chức năng và nguyên tắc sử dụng hệ điều hành\n-Liệt kê được các cách thức sao lưu và phòng chống virus \n-Xác định được các thành phần của mạng máy tính và các mô hình mạng\n-Trình bày được công dụng của Internet và biết cách sử dụng các công cụ trên Internet\n-Mô tả công dụng của các phần mềm Microsoft Word, Excel, PowerPoint và iMindMap\n-Liệt kê được các chức năng của các phần mềm nêu trên\n-Có phương pháp thực hiện thuyết trình\nThể hiện nội dung và ý tưởng bằng sơ đồ tư duy (mindmap)-"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "*Kỹ năng tác nghiệp: \n-Có thể cài đặt, cấu hình hệ điều hành\n-Thao tác trên hệ thống tập tin bao gồm: sao chép, di chuyển, xoá, đổi tên, nén tập tin\n-Tổ chức và sao lưu dữ liệu\n-Ngăn ngừa và phòng chống virus\n-Cài đặt phần mềm trên hệ điều hành\n-Tìm kiếm thông tin trên Internet, sử dụng email và một số công cụ ứng dụng của Google\n-Có thể soạn thảo, định dạng, tồ chức bố cục văn bản và các bài trình chiếu (slides)\n-Thuyết trình hiệu quả hơn  \n-Nhập liệu và thực hiện tính toán trên bảng tính\n-Vẽ và chỉnh sửa mindmap trên máy tính"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "*Yêu cầu về tư duy: \n-Xác định được lỗi gây ra bởi thiết bị nào, phần mềm nào khi máy tính gặp những sự cố đơn giản.\n-Phát hiện và chỉnh sửa những lỗi liên quan đến kỹ thuật soạn thảo văn bản\n-Lập luận và đưa ra công thức tính toán chính xác trên bảng tính\n-Kiểm tra tính chính xác và hiệu quả của các công thức tính toán\n-Hình thành và biểu diễn ý tưởng theo dòng suy nghĩ một cách hệ thống và logic"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "*Thái độ và hành vi:\n\n-Rèn luyện đức tính tỉ mỉ, chính xác\n-Trình bày tài liệu chỉnh chu về nội dung và hình thức"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TỔNG QUAN VỀ MÁY TÍNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "BIỂU DIỄN VÀ XỬ LÝ THÔNG TIN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "HỆ ĐIỀU HÀNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": " LƯU TRỮ VÀ QUẢN LÝ THÔNG TIN TRÊN ĐĨA",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "MẠNG CƠ BẢN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "INTERNET",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "MICROSOFT POWERPOINT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "MICROSOFT WORD",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "MICROSOFT EXCEL",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "MINDMAP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 279192,
+    "subjectCode": "100079",
+    "syllabusName": "Hình họa 3 (Drawing 3)",
+    "syllabusEnglish": "Drawing 3",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Hình họa là môn học mang tính thực hành nên phần lý thuyết được đan xen cụ thể vào từng bài vẽ. Phần lý thuyết chỉ nêu các nội dung cơ bản tổng quát. Trong từng bài cụ thể, những kiến thức sẽ được khai thác, ứng dụng, củng cố qua quá trình thực hành.\n\nLý thuyết: \n\nPhương pháp nắm bắt hình dáng, cấu trúc, màu sắc và sự tĩnh -động của đối tượng nghiên cứu.\n\nKỹ thuật sử dụng họa cụ (chì, than) và Màu chuyên dụng\n\nHệ thống sáng tối, đậm nhạt.\n\nHòa sắc chung.\n\nThực hành:\n\nVận dụng kỹ thuật, bút pháp thể hiện chất liệu chì, than trên giấy vẽ.\n\nNhận định và xác lập yếu tố chính phụ của bố cục, phân tích và so sánh cấu trúc, tỉ lệ, chất liệu của mẫu vẽ.\n\nHòa sắc của vật mẫu trong không gian (ánh sáng nhân tạo - ánh sáng thiên nhiên).",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học hiểu và nhận thức được kỹ năng phác thảo, xây dựng biểu đồ hình que, bắt dáng đối tượng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích được các hệ thống cấu trúc hình khối, cơ thể người."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng các hình – mảng, sắc độ sự vật trong không gian vào các đồ án thiết kế"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Khả năng phát hiện, tìm thấy yếu tố biểu cảm trong cấu trúc, hình khối của sự vật thiên nhiên vào hoạt động sáng tạo nghề nghiệp"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nghiên cứu thể hiện mẫu người ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hình họa chuyên ngành",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,68 @@
+{
+  "info": {
+    "sylid": 455089,
+    "subjectCode": "D04062",
+    "syllabusName": "Khóa luận tốt nghiệp (Graduation Thesis)",
+    "syllabusEnglish": "Graduation Thesis",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên thực hiện nghiên cứu khóa luận tốt nghiệp theo trình tự các bước: xây dựng ý tưởng, làm việc với giảng viên hướng dẫn, soạn thảo đề cương và bảo vệ đề cương trước hội đồng, giải quyết các nhiệm vụ của đề tài và bảo vệ khóa luận tốt nghiệp trước hội đồng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên nắm vững các kiến thức về nghiên cứu khoa học và hiểu sâu về lĩnh vực mà mình nghiên cứu."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nắm rõ cách thức và các bước thực hiện một bài nghiên cứu khoa học theo tiêu chuẩn quốc tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có tư duy và các kỹ năng phân tích và suy luận logic, sáng tạo, dự báo xu hướng của thị trường"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Báo cáo đề cương khóa luận tốt nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Bảo vệ khóa luận tốt nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

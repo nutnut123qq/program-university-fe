@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 847798,
+    "subjectCode": "704105",
+    "syllabusName": "Khóa luận tốt nghiệp (Graduation Thesis)",
+    "syllabusEnglish": "Graduation Thesis",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "KLTN tạo cơ hội cho sinh viên củng cố ôn luyện và tổng hợp những kiến thức đã học trong suốt thời gian học tập tại trường.\n\nCung cấp cho sinh viên cơ hội để ứng dụng những kiến thức đã học vào hoàn cảnh thực tế sản xuất kinh doanh. Phát huy khả năng tư duy sáng tạo, học tập cách đặt vấn đề và giải quyết vấn đề thực tế đặt ra trong quá trình thực tập tại đơn vị. Bêm cạnh đó; sinh viên có thể tham gia phân tích, nghiên cứu và giải quyết những vấn đề cụ thể liên quan đến ngành học.\n\nTạo cơ hội cho sinh viên được đối chiếu và áp dụng những kiến thức và kỹ năng đã học vào thực tế. KLTN giúp sinh viên phát huy khả năng tư duy sáng tạo thích ứng với sự thay đổi liên tục của xã hội và khả năng nghiên cứu để có thể chủ động tìm kiếm kiến thưc mới và học tập suốt đời.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giúp sinh viên tiếp cận và vận dụng những kiến thức nền tảng của Marketing trong việc giải quyết những vấn đề kinh doanh của doanh nghiệp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Tạo điều kiện cho sinh viên phân tích và đánh giá những chiến lược Marketing thực tế của doanh nghiệp."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tạo điều kiện cho sinh viên phân tích môi trường và hoạt động của doanh nghiệp  thông qua việc áp dụng các phần mềm và công cụ phân tích hiện đại."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tạo cơ hội cho sinh viên có khả năng nghiên cứu, tư duy và khám phá., tìm tòi những kiến thức mới trong lĩnh vực Marketing."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Tạo điều kiện cho sinh viên có thể đề xuất hoạch định và tổ chức thực hiện các hoạt động Marketing thông qua việc đánh giá, nghiên cứu.\n"
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Rèn luyện sinh viên thái độ, tinh thần và khả năng học tập suôt đời "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tham dự buổi phổ biến thông tin về  tốt nghiệp.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hoàn thành đề cương chi tiết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Sinh viên tiến hành thực hiện luận văn tốt nghiệp. - Liên hệ với giảng viên hướng dẫn để trao đổi các nội dung trong báo cáo.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hoàn thiện báo cáo và nộp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

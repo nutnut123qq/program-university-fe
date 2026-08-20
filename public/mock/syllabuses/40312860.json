@@ -1,0 +1,132 @@
+{
+  "info": {
+    "sylid": 872934,
+    "subjectCode": "40312860",
+    "syllabusName": "Tự động hóa điều khiển quá trình (Automation for Process Control)",
+    "syllabusEnglish": "Automation for Process Control",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp các kiến thức về các loại cảm biến, các\r\nmạch đo lường và xử lý trong công nghiệp, giao tiếp giữa các hệ thống điều\r\nkhiển và hệ thống cảm biến, các giải thuật đo lường và điều khiển.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị kiến thức về đo lường và điều khiển trong việc thiết kế hệ thống điều khiển quá trình."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng thiết kế các hệ thống điều khiển quá trình, lựa chọn và bố trí cảm biến phù hợp, có khả năng đọc và thiết lập bảng vẽ P&ID mô tả một hệ thống điều khiển quá trình."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu và cải tiến các ứng dụng điều khiển quá trình có sẵn, phân tích được các phương pháp điều khiển và vẽ sơ đồ cấu trúc điều khiển. Áp dụng các kiến thức và kỹ năng thiết kế để xây dựng các ứng dụng điều khiển quá trình trong thực tế."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Xây dựng sự hứng thú trong học tập, hình dung được một hệ thống điều khiển quá trình; học viên có khả năng tự mở rộng giải quyết các vấn đề trong thực tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về hệ thống điều khiển quá trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các thành phần cơ bản trong một hệ thống điều khiển quá trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Đo lường áp suất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Đo lưu lượng và mức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Đo lường nhiệt độ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Đo vị trí và độ dịch chuyển",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Một số cảm biến khác",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Điều khiển quá trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

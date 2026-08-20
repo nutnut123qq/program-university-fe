@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 669437,
+    "subjectCode": "40314460",
+    "syllabusName": "Điều khiển thông minh (Intelligent Control)",
+    "syllabusEnglish": "Intelligent Control",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Các chủ đề chính được đề cập trong \nmôn học\n này là:\n\nđặc điểm và cấu trúc của hệ\r\nthống điều khiển thông minh; các kỹ thuật điều khiển thông minh như logic mờ,\r\nmạng thần kinh nhân tạo và các giải thuật tối ưu phỏng sinh học; các phương\r\npháp thiết kế bộ điều khiển mờ dựa vào kinh nghiệm và dựa vào lý thuyết ổn định\r\nLyapunov; tự chỉnh hệ thống điều khiển dùng giải thuật tối ưu phỏng sinh học;\r\nthiết kế các bộ điều khiển dựa vào mô hình, điều khiển thích nghi và điều khiển\r\nhọc dùng logic mờ/mạng thần kinh cho các đối tượng phi tuyến phức tạp; ví dụ về\r\ncác hệ thống điều khiển thông minh trong công nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Áp dụng cấu trúc của bộ điều khiển thông minh"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Lựa chọn bộ điều khiển thông minh phù hợp với hệ thống thực tế"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nâng cao chất lượng điều khiển của bộ điều khiển thông minh"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tiểu luận",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Logic mờ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Mạng thần kinh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Giải thuật tối ưu phỏng sinh học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Điều khiển trực tiếp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Điều khiển dựa vào mô hình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Điều khiển thích nghi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Hệ thống điều khiển thông minh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

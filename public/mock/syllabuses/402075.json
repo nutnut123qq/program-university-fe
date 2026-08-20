@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 354531,
+    "subjectCode": "402075",
+    "syllabusName": "Đồ án hệ thống nhúng (Embedded System Project)",
+    "syllabusEnglish": "Embedded System Project",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Đồ án hệ thống nhúng cung cấp kỹ năng và kinh nghiệm cho sinh viên trong việc phân tích và đánh giá các thiết kế hệ thống. Đồ án này là bước đầu tiên cho sinh viên làm quen với việc thực hiện project chuyên nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng quy trình thực hiện project thực tế trong công nghiệp  "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Đánh giá thiết kế và thực thi các mạch điện tử sử dụng vi điều khiển có tính ứng dụng thực tế"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng hệ thống hóa kiến thức đã học, tự tích lũy kiến thức mới và áp dụng để cải tiến các hệ thống, thiết bị hiện có hoặc đề xuất giải pháp mới cho lĩnh vực điện tử viễn thông."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhận tên đề tài và nhiệm vụ đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết kế và mô phỏng mạch điện tử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thi công mạch điện tử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hoàn thiện báo cáo + slides theo mẫu quy định",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

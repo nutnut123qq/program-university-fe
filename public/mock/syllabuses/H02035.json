@@ -1,0 +1,124 @@
+{
+  "info": {
+    "sylid": 242800,
+    "subjectCode": "H02035",
+    "syllabusName": "Khoa học vaccine (Vaccine Science)",
+    "syllabusEnglish": "Vaccine Science",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn \nhọc gồm các nội dung chính sau:\nChương 1:Tổng quan về vaccine và miễn dịch học vaccine\nChương 2: Thiết kế và phân loại vaccine\nChương 3: Tá dược và hệ thống phân phối\nChương 4: Phát triển và sản xuất vaccine\nChương 5: An toàn vaccine\nChương 6: Vaccine trong y tế công cộng\n\nChương 7: Case study",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trình bày được nguyên lý cơ bản của vaccine và cơ sở miễn dịch học của vaccine"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nắm vững kiến thức, trình bày, phân tích được nguyên lý hoạt động của các loại vaccine và chiến lược thiết kế hiện đại"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Giải thích quy trình phát triển, sản xuất và đánh giá vaccine"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thể hiện tư duy phản biện đối với các vấn đề về vaccine"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về vaccine và miễn dịch học vaccine",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết kế và phân loại vaccine",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tá dược và hệ thống phân phối",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phát triển và sản xuất vaccine",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "An toàn vaccine",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Vaccine trong y tế công cộng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Case study",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

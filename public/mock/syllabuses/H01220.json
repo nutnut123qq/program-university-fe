@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 391417,
+    "subjectCode": "H01220",
+    "syllabusName": "Dược trị liệu 2 (Clinical Pharmacotherapy 2)",
+    "syllabusEnglish": "Clinical Pharmacotherapy 2",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc Dược trị liệu \n2\n cung cấp\r\ncho người học các kiến thức về sử dụng thuốc trong điều trị cho các bệnh:\n\n·\n\nSử dụng thuốc trong điều trị loãng xương\n\n·\n\nSử dụng thuốc trong điều trị bệnh phổi tắc nghẽn\r\nmạn tính\n\n·\n\nSử dụng thuốc trong điều trị trầm cảm\n\n·\n\nSử dụng thuốc trong điều trị suy tim mạn tính\n\n·\n\nSử dụng thuốc trong điều trị huyết khối tĩnh\r\nmạch",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trình bày được cơ chế bệnh sinh và nguyên tắc điều trị một số bệnh thường gặp"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Trình bày được nguyên tắc lựa chọn thuốc và phối hợp thuốc trong điều trị"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Liệt kê được các tác dụng phụ thường thấy và cách xử trí khi sử dụng thuốc"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Xây dựng,  phân tích, đánh giá được qui trình thực hành chăm sóc dược cho các bệnh được học và phân tích ca lâm sàng"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Sử dụng thuốc trong điều trị loãng xương",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Sử dụng thuốc trong điều trị bệnh phổi tắc nghẽn mạn tính",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Sử dụng thuốc trong điều trị trầm cảm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Sử dụng thuốc trong điều trị suy tim",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Sử dụng thuốc trong điều trị huyết khối tĩnh mạch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

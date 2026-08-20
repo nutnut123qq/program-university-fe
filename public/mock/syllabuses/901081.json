@@ -1,0 +1,140 @@
+{
+  "info": {
+    "sylid": 102556,
+    "subjectCode": "901081",
+    "syllabusName": "Hóa đại cương 1 (General Chemistry 1)",
+    "syllabusEnglish": "General Chemistry 1",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu chung về Hóa đại cương, Cấu tạo nguyên tử và hệ thống tuần hoàn các nguyên tố hoá học. Khảo sát các Liên kết hóa học và cấu tạo phân tử. Các yếu tố, định luật ảnh hưởng đến Tốc độ phản ứng và cân bằng hoá học. Các cấu tử tồn tại trong dung dịch – cân bằng trong dung dịch. Khái niệm về điện hóa học- phản ứng oxi hóa- khử",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên các kiến thức về hóa học đại cương (cơ sở lý thuyết hóa học, cấu tạo chất và dự đoán các phản ứng có thể xảy ra) làm cơ sở cho sinh viên học các môn chuyên ngành Công nghệ kỹ thuật môi trường, Khoa học môi trường, Bảo hộ lao động"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Yêu cầu Người học phải biết các khái niệm cơ bản liên quan đến Hoá học, như liên kết hóa học, sự lai hóa orbital, liên kết hidro, lực tương tác Van der Waals, giải thích và so sánh được nhiệt độ nóng chảy, nhiệt độ sôi các chất, điều kiện để phản ứng hóa học xảy ra (nhiệt phản ứng, biến đổi entropi, biến đổi năng lượng tự do), vận tốc phản ứng, cân bằng hóa học (điều kiện để phản ứng xảy ra nhanh, tạo nhiều sản phẩm), nồng độ dung dịch, Vận dụng các kiến thức đại cương này đối với các chuyên ngành có liên quan đến hóa học như môi trường, an toàn trong không gian làm việc có tiếp xúc với hoá chất"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "GIỚI THIỆU CHUNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "CẤU TẠO NGUYÊN TỬ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "HỆ THỐNG TUẦN HOÀN CÁC NGUYÊN TỐ HOÁ HỌC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "LIÊN KẾT HÓA HỌC VÀ CẤU TẠO PHÂN TỬ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "NHIỆT ĐỘNG HÓA HỌC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "TỐC ĐỘ PHẢN ỨNG – CÂN BẰNG HOÁ HỌC ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "DUNG DỊCH – CÂN BẰNG TRONG DUNG DỊCH ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "ĐIỆN HOÁ HỌC ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

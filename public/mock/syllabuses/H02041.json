@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 983422,
+    "subjectCode": "H02041",
+    "syllabusName": "Thí nghiệm Sinh lý học (Physiology Laboratory)",
+    "syllabusEnglish": "Physiology Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Hướng dẫn chung về giải phẫu học cơ thể người và chức năng và cơ chế hoạt động của các hệ cơ quan.\n\nHọc thao tác thực tế một số xét nghiệm thăm dò chức năng cơ thể: đo huyết áp, thử đường huyết…",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học có kiến thức cơ bản về mối liên hệ giữa giải phẫu và sinh lý, biết được đặc điểm giải phẫu, vị trí và chức năng của từng bộ phận trong cơ thể. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học nhận biết được vị trí, đặc điểm hình dạng, kích thước, màu sắc, thể chất và các đặc điểm đặc trưng của các hệ cơ quan trong cơ thể trên mô hình. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Dựa vào các kiến thức đã học, người học có thể phân biệt vai trò của từng hệ cơ quan trong cơ thể, phân tích được các chỉ số xét nghiệm khi gặp trong cuộc sống hằng ngày, vận dụng kiến thức vào việc phân tích một số bệnh thông thường."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học biết và hiểu được quá trình vận hành của các hệ cơ quan trong cơ thể thông qua đó nhận thức được vai trò của người y dược sĩ trong công tác chăm sóc sức khỏe cộng động"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Người học trình bày được nguyên tắc và phương pháp thực hiện bước thực hành xác định nhóm máu, đo huyết áp, đo đường huyết… "
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Người học đạt được kỹ năng tự học, làm việc nhóm và thuyết trình thông qua các hoạt động học ở lớp"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận,Thực hành,Vấn đáp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test,Practical Test,Viva/Oral Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giải phẫu sinh lý hệ xương khớp & xác định nhóm máu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Giải phẫu sinh lý hệ cơ  & phân tích huyết đồ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Giải phẫu sinh lý hệ tuần hoàn, hô hấp & đo huyết áp động mạch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Giải phẫu sinh lý hệ tiêu hóa, tiết niệu &  đo Glucose lúc đói",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thi thực tập",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

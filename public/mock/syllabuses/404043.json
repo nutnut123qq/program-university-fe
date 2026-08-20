@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 302086,
+    "subjectCode": "404043",
+    "syllabusName": "Đồ án thiết kế hệ thống cơ điện tử (Mechatronic System Design)",
+    "syllabusEnglish": "Mechatronic System Design",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giúp người học rèn luyện kỹ năng làm việc, trao đổi với giảng viên hướng dẫn, từ đó nâng cao kỹ năng thiết kế, chế tạo phần cứng, bo mạch, đánh giá và cải tiến hệ thống cơ điện tử.\nNgười học được chia thành các nhóm, được giảng viên hướng dẫn phân công đề tài dựa trên hệ thống cơ điện tử trong thực tế và trong công nghiệp.\nNgười học thực hiện nhiệm vụ của mình và trình bày kết quả trước hội đồng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Xây dựng các tiêu chí, quy trình kỹ thuật, lập kế hoạch triển khai cho một hệ thống cơ điện tử."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phát triển các phương pháp thích hợp để xây dựng phần cứng và phần mềm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá hiệu suất, thực hiện các cải tiến cần thiết"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhận đề tài và nhiệm vụ đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lựa chọn giải pháp, thiết kế và thi công hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thực nghiệm và hiệu chỉnh hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Đánh giá hệ thống, đưa ra giải pháp cải tiến",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hoàn chỉnh hệ thống, báo cáo tổng kết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

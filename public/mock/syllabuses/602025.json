@@ -1,0 +1,204 @@
+{
+  "info": {
+    "sylid": 787870,
+    "subjectCode": "602025",
+    "syllabusName": "Hóa đại cương - vô cơ (General Chemistry)",
+    "syllabusEnglish": "General Chemistry",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các phần : \n\nCấu tạo nguyên tử; Hệ thống tuần hoàn các nguyên tố hóa học; Liên kết hóa học và cấu tạo phân tử.\n\nLý\n thuyết acid – base; Điện hóa học; \n\nNhiệt phản ứng\n\nCấu trúc điện tử của nguyên tử và phân tử, trạng thái lai hóa,\n\nTốc độ phản ứng",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "CO1 : Trình bày và giải thích được cấu tạo và tính chất của các hệ vật chất (nguyên tử, phân tử, ion) nhờ vào kiến thức của Cơ học lượng tử"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "CO2 : Xác định và lý giải được chiều hướng, giới hạn của các quá trình hóa học nhờ vào các nguyên lý của Nhiệt động học"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "CO3 : Giải thích được cơ chế và các điều kiện phản ứng dựa trên những định luật cơ bản về Động hóa học, Trạng thái cân bằng và Điện hóa"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "CO4 : phát biểu được ý nghĩa và tầm ảnh hưởng của việc có thái độ và hành vi đúng mực trong học tập, thái độ làm việc cẩn thận, khoa học, chính xác; phong cách tự học, tự nghiên cứu khoa học, thường xuyên cập nhật trí thức mới và tích lũy kinh nghiệm"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "CO5 : phát biểu được ý nghĩa và tầm ảnh hưởng của việc có thái độ và hành vi đúng mực trong học tập, thái độ làm việc cẩn thận, khoa học, chính xác; phong cách tự học, tự nghiên cứu khoa học, thường xuyên cập nhật trí thức mới và tích lũy kinh nghiệm"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chương 02",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Chương 07",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chương 8 : Cấu hình electron và bảng HTTH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Chương 9 : Liên kết ion và liên kết cộng hóa trị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Chương 9 : Liên kết ion và liên kết cộng hóa trị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Chương 10 : Cấu hình phân tử và thuyết liên kết hóa học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Chương 07-08",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Chương 6 : Nhiệt hóa học ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Chương 19 : Nhiệt động học và cân bằng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Chương 14 : Động hóa học ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "Chương 15 : Cân bằng hóa học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 12,
+      "sessionNo": "12",
+      "topic": "Chương 16 : Acid và base ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 13,
+      "sessionNo": "13",
+      "topic": "Chương 17 : Cân bằng acid -base",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 14,
+      "sessionNo": "14",
+      "topic": "Chương 18 : Độ tan và Cân bằng phức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 15,
+      "sessionNo": "15",
+      "topic": "Chương 20 : Điện hóa học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

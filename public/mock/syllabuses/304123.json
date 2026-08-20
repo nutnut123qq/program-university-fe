@@ -1,0 +1,190 @@
+{
+  "info": {
+    "sylid": 990361,
+    "subjectCode": "304123",
+    "syllabusName": "Công tác xã hội trong chăm sóc sức khỏe tâm thần (Social Work in Mental Health)",
+    "syllabusEnglish": "Social Work in Mental Health",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc giới thiệu về sức khỏe tâm thần chung trên thế giới và tình hình riêng ở\r\nViệt Nam dưới góc độ công tác xã hội. Môn học cung cấp những kiến thức căn bản về nguyên nhân, triệu\r\nchứng, các yếu tố ảnh hưởng đến rối loạn tâm thần. Xác định vai trò của nhân\r\nviên công tác xã hội trong điều trị và phục hồi chức năng cho người bệnh tâm\r\nthần.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu những kiến thức về sức khỏe tâm thần và bệnh, tác động của nó đối với các cá nhân và gia đình, nguyên nhân của rối loạn tâm thần, vai trò nhân viên xã hội trong chăm sóc sức khỏe và phục hồi chức năng cho người bệnh tâm thần."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng các nhận thức về nguyên nhân, triệu chứng, diễn biễn của các bệnh rối loạn tâm thần qua đó xác định hướng điều trị và hồi phục chức năng cho người bệnh với vai trò của một nhân viên công tác xã hội"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Xây dựng được kế hoạch quản lý trường hợp và phục hồi bệnh nhân tâm thần"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thể hiện được vai trò, trách nhiệm và đạo đức của nhân viên công tác xã hội trong lĩnh vực điều trị và phục hồi cho bệnh nhân tâm thần "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan và lịch sử của bệnh tâm thần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hệ thống phân loại bệnh tâm thần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Những vấn đề chung về sức khỏe tâm thần trên thế giới",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Vấn đề sức khỏe tâm thần ở Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Công tác xã hội trong vấn đề chăm sóc sức khỏe tâm thần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Điều trị và phục hồi tâm thần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Quy trình quản lí trường hợp và phục hồi chức năng cho người tâm thần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Một số kỹ năng cơ bản trong thực hành quản lí trường hợp với người tâm thần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Tâm thần phân liệt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Rối loạn xúc cảm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "Trầm cảm, rối loạn lưỡng cực và tự sát",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 12,
+      "sessionNo": "12",
+      "topic": "Rối loạn lo âu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 13,
+      "sessionNo": "13",
+      "topic": "Sức khỏe tâm thần của trẻ em và vị thành niên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 14,
+      "sessionNo": "14",
+      "topic": "Sức khỏe tâm thần của người già",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

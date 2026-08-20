@@ -1,0 +1,90 @@
+{
+  "info": {
+    "sylid": 872322,
+    "subjectCode": "A01110",
+    "syllabusName": "Thực tập nghề nghiệp 2 (Internship 2)",
+    "syllabusEnglish": "Internship 2",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung của môn học giúp sinh viên hội nhập vào môi trường làm việc thực tế với vị trí là cán bộ quan hệ lao động, cán bộ quản trị nguồn nhân lực.\nTrang bị cho sinh viên kiến thức thực tế về thực chất hoạt động của doanh nghiệp qua các chuyên đề: \n\ntuyển dụng, đào tạo, phát triển nguồn nhân lực, tạo động lực làm việc.\nTừ đó, sinh viên biết được các quy trình công việc, biết cách tổ chức, đánh giá, phân tích chất lượng và ra các quyết định trong hoạt động mảng quan hệ lao động, quản trị nguồn nhân lực một cách hiệu quả.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng kiến thức đã học vào thực tế các hoạt động về mảng quan hệ lao động, quản trị nguồn nhân lực như: tuyển dụng, đào tạo, phát triển nguồn nhân lực, tạo động lực làm việc; hội nhập vào môi trường làm việc thực tế thông qua việc tiếp xúc với thực tiễn công việc tại doanh nghiệp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Đánh giá hiệu quả thực hiện các công việc, các quy trình công việc, biết cách tổ chức, đánh giá, phân tích chất lượng và ra các quyết định trong hoạt động mảng quan hệ lao động, quản trị nguồn nhân lực."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phát triển các kỹ năng mềm thực hiện các hoạt động về quan hệ lao động và quản trị nguồn nhân lực."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phát triển tác phong làm việc cẩn thận, tích cực, biết cách thức tổ chức các hoạt động, rèn luyện phẩm chất đạo đức nghề nghiệp. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về học phần thực tập nghề nghiệp 2",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các chuyên đề nghiên cứu trong thực tập nghề nghiệp 2",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thực tập nghề nghiệp tại doanh nghiệp/ tổ chức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Báo cáo kết quả thực tập ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

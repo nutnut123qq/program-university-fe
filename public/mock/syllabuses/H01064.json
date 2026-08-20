@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 566583,
+    "subjectCode": "H01064",
+    "syllabusName": "Công nghệ sản xuất Dược phẩm 3 (Pharmaceutical Industry 3)",
+    "syllabusEnglish": "Pharmaceutical Industry 3",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các nội dung chính sau:\n\nChương 1: Hồ sơ đăng ký thuốc\n\nChương 2: Giới thiệu tổng quan về bộ hồ sơ kỹ thuật ASEAN (ACTD)\n\nChương 3: Hồ sơ chất lượng\n\nChương 4: Mô tả và thẩm định quy trình sản xuất\n\nChương 5: Hướng dẫn nghiên cứu sinh khả dụng và tương đương sinh học (BA-BE)",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và ghi nhớ các quy định của hồ thơ đăng ký thuốc hóa dược, thuốc từ dược liệu, thuốc đông y và nguyên liệu làm thuốc; ghi nhớ các nội dung chính trong bộ hồ sơ kỹ thuật ASEAN"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu và ghi nhớ các khái niệm, vai trò của chi tiêu độ hòa tan trong thử nghiệm tương đương sinh học"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng kiến thức đã học để phân tích, đánh giá các yếu tố cần thẩm định trong quy trình sản xuất"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Vận dụng kiến thức đã học làm bài tập về soạn thảo hồ sơ đăng ký thuốc, thẩm định quy trình sản xuất"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Hồ sơ đăng ký thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Giới thiệu tổng quan bộ hồ sơ kỹ thuật ASEAN (ACTD)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hồ sơ chất lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Mô tả và thẩm định quy trình sản xuất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hướng dẫn nghiên cứu sinh khả dụng và tương đương sinh học (BA-BE) ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

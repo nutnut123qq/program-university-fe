@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 207281,
+    "subjectCode": "707001",
+    "syllabusName": "Chuyên đề định hướng nghề nghiệp - QTNNL (Career in Human Resource Management)",
+    "syllabusEnglish": "Career in Human Resource Management",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Tổng quan về đặc điểm và triển vọng ngành Quản trị nhân lực. Giới thiệu các cơ hội việc làm và yêu cầu về trình độ học vấn, chứng chỉ, kỹ năng, thái độ trong ngành nhân sự.\nGiới thiệu chương trình đào tạo và các hỗ trợ dành cho sinh viên tại Trường.\nHướng dẫn cách thiết lập kế hoạch học tập cá nhân hiệu quả và các kỹ năng tự học hiệu quả.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Study HRM’s role in organizations, HRM’s history and HRM's trend in the future."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Introduce HRM job perspectives."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Introduce HRM program structures and HRM extra curriculum activities to the student."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tiểu luận",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cơ hội nghề nghiệp trong ngành Quản trị nhân lực",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lộ trình phát triển nghề nghiệp trong HRM",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Yêu cầu và tiêu chuẩn đối với ngành Quản trị nhân sự",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tổng quan về chương trình học và Xây dựng kế hoạch học tập cá nhân",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

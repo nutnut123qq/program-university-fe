@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 616465,
+    "subjectCode": "90314260",
+    "syllabusName": "Chuyên đề nghiên cứu ứng dụng trong lĩnh vực an toàn vệ sinh lao động (Topics on Applied Research in Occupational Safety and Health)",
+    "syllabusEnglish": "Topics on Applied Research in Occupational Safety and Health",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp chuyên đề theo hướng nghiên cứu ứng dụng nhằm nâng cao hiệu quả quản lý an toàn và sức khoẻ nghề nghiệp trong doanh nghiệp. Nội dung gồm: (i) nền tảng quản lý an toàn và định hướng an toàn hiện đại (Safety-I, Safety-II), văn hóa an toàn và quản lý theo tư duy hệ thống; (ii) các công cụ truyền thống phục vụ đánh giá và quản lý rủi ro như xử lý số liệu–thống kê, khảo sát (survey), mô phỏng và phân tích bất định (đặc biệt mô phỏng Monte Carlo), cùng các kỹ thuật phân tích lớp bảo vệ; (iii) các xu hướng số hoá và ứng dụng AI trong quản lý an toàn như nhận diện phương tiện bảo vệ cá nhân, nhận diện hành vi không an toàn, hỗ trợ giám sát–cảnh báo, trực quan hoá dữ liệu và ra quyết định (ví dụ dashboard, báo cáo quản trị). Cuối môn, người học thực hiện bài tập tình huống/case study tích hợp: lựa chọn công cụ phù hợp, phân tích dữ liệu, đề xuất giải pháp và trình bày phương án triển khai trong bối cảnh doanh nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng tư duy hệ thống (Safety-I/Safety-II) cùng kỹ năng làm việc nhóm/độc lập, giao tiếp–trình bày để xây dựng một chuyên đề nghiên cứu ứng dụng ATVSLĐ, xác định vấn đề và lựa chọn công cụ phù hợp nhằm nâng cao hiệu quả quản lý an toàn tại doanh nghiệp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích bối cảnh hoạt động và yêu cầu tuân thủ, từ đó chọn và vận dụng bộ công cụ (đánh giá rủi ro, dữ liệu, giám sát) để hỗ trợ doanh nghiệp đạt yêu cầu pháp lý và chuẩn hóa công tác ATVSLĐ/ATSKNN."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích dữ liệu an toàn (sự cố/near-miss/quan trắc/khảo sát) và rủi ro để thiết kế giải pháp can thiệp–huấn luyện dựa trên bằng chứng, có công cụ đo lường trước–sau nhằm cải thiện hành vi và điều kiện làm việc."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá và đề xuất thiết kế/cải tiến các giải pháp kỹ thuật và hệ thống kiểm soát rủi ro (môi trường lao động, hóa chất, cháy nổ, thiết bị áp lực, làm việc trên cao, không gian hạn chế) bằng mô phỏng/mô hình hóa và bằng chứng dữ liệu để nâng mức an toàn và khả năng tuân thủ."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Quản trị an toàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các công cụ truyền thống trong quản lý ATLĐ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Ứng dụng công cụ AI trong quản lý ATLĐ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Ứng dụng tình huống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 933961,
+    "subjectCode": "304011",
+    "syllabusName": "Công tác xã hội trong trường học (Social Work in Schools)",
+    "syllabusEnglish": "Social Work in Schools",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này xác định rõ hơn về đối tượng, chức năng của CTXH trường học, những luận điểm lý luận thường được áp dụng trong CTXH trường học. Qua đó, môn học cũng đánh giá những vấn đề xã hội của trường học, từ khung cảnh cấp tiểu học đến môi trường học tập bậc đại học, cao đẳng, qua đó giúp cho người học nâng cao được kỹ năng xác định vấn đề và kỹ năng phòng ngừa, giải quyết vấn đề. Cuối cùng, người học có thể đề xuất xây dựng được một mô hình CTXH trường học, thể hiện được vai trò, đạo đức và nguyên tắc nghề nghiệp của một nhân viên CTXH trường học chuyên nghiệp\n.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trình bày được vai trò, chức năng, nhiệm vụ CTXH trường học, các kỹ năng cơ bản trong thực hành CTXH trường học"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng các kỹ năng để can thiệp trong tiến trình thực hành công tác xã hội trường học từ cấp I đến bậc đại học, với trọng tâm là nhấn mạnh đến can thiệp khủng hoảng, phòng ngừa khủng hoảng"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá những vấn đề xã hội có ảnh hưởng đến thực hành của CTXH trong trường học (như vấn đề nghèo, HIV, bạo lực...) và xem xét những mô hình thực hành công tác xã hội trường học."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những vấn đề chung của công tác xã hội trường học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các lý thuyết trong công tác xã hội trường học và mô hình công tác xã hội trường học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Vai trò của nhân viên công tác xã hội trường học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các phương pháp can thiệp trong công tác xã hội trường học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Những vấn đề liên quan đến trường học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thực hành công tác xã hội trường học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

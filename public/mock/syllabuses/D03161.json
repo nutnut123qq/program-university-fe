@@ -1,0 +1,142 @@
+{
+  "info": {
+    "sylid": 975977,
+    "subjectCode": "D03161",
+    "syllabusName": "Quản lý thể thao quốc tế (International Sport Management)",
+    "syllabusEnglish": "International Sport Management",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học được chia thành \n8\n chương, cung cấp kiến thức về quản lý thể thao trong bối cảnh toàn cầu, bao gồm sự phát triển của ngành công nghiệp thể thao, các tổ chức và sự kiện thể thao quốc tế, cũng như tác động của toàn cầu hóa. Sinh viên sẽ tìm hiểu về cơ cấu tổ chức, mô hình quản trị, cùng với các vấn đề liên quan đến quản lý nhân lực, văn hóa, đạo đức và trách nhiệm xã hội. Môn học giúp sinh viên phát triển tư duy phân tích, kỹ năng quản lý và khả năng ứng dụng thực tiễn để điều hành các tổ chức và sự kiện thể thao trên phạm vi quốc tế.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được bối cảnh quốc tế của ngành thể thao."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nắm bắt các mô hình quản lý thể thao toàn cầu và sự khác biệt giữa các khu vực."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích vai trò của các tổ chức thể thao quốc tế (IOC, FIFA, FIBA, v.v.)."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá và phân tích các xu hướng và thách thức trong quản lý thể thao quốc tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các vấn đề trong quản lý thể thao quốc tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thể thao ở các Châu lục",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Olympic và các Tổ chức, Liên đoàn thể thao Quốc tế.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các giải đấu Thể thao quốc tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tầm quan trọng của Quản trị Nguồn nhân lực trong bối cảnh đa văn hóa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Kinh tế vĩ mô của Thể thao quốc tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Tiếp thị thể thao và truyền thông kỹ thuật số trong thể thao quốc tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Cơ hội và thách thức của thể thao quốc tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

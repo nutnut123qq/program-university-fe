@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 171538,
+    "subjectCode": "H02025",
+    "syllabusName": "Liệu pháp tế bào (Cell Therapy)",
+    "syllabusEnglish": "Cell Therapy",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Liệu\r\npháp tế bào cung cấp người học kiến thức về các khái niệm của tế bào gốc, tế\r\nbào miễn dịch và ứng dụng của chúng trong điều trị các bệnh lý như ung thư,\r\nbệnh thoái hóa thần kinh, tim mạch,bệnh tự miễn và các rối loạn huyết học. Người\r\nhọc sẽ được cung cấp kiến thức về cơ chế hoạt động, tiềm năng lâm sàng và những\r\nthách thức trong việc áp dụng liệu pháp tế bào trong điều trị bệnh lý.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trình bày được các loại tế bào trong liệu pháp tế bào và vai trò của chúng"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Trình bày được ứng dụng của liệu pháp tế bào trong điều trị các bệnh lý khác nhau"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Áp dụng được kiến thức đã học để đánh giá, phân tích được các thách thức và tiềm năng ứng dụng của liệu pháp tế bào"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về liệu pháp tế bào ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nền tảng sinh học của liệu pháp tế bào ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Liệu pháp tế bào gốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Liệu pháp tế bào miễn dịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Liệu pháp tế bào gốc trong bệnh thoái hóa thần kinh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Liệu pháp tế bào gốc trong bệnh tim mạch và tái tạo mô",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Liệu pháp tế bào gốc trong bệnh tự miễn và các rối loạn huyết học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

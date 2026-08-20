@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 145916,
+    "subjectCode": "E01004",
+    "syllabusName": "Những vấn đề chung về luật dân sự (General Principles of Civil Law)",
+    "syllabusEnglish": "General Principles of Civil Law",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung học phần \nNhững vấn đề chung về Luật Dân sự\n\nbao gồm những nội dung chung nhất về Luật Dân sự với tư cách là một khoa học, một môn học chuyên ngành luật trong chương trình đại học và một trong những lĩnh vực luật quan trọng nhất trong hệ thống pháp luật Việt Nam. Trong học phần này, các vấn đề khái quát về đối tượng điều chỉnh, phương pháp điều chỉnh, các nguồn pháp luật dân sự, quan hệ pháp luật dân sự, giao dịch dân sự, thời hạn thời hiệu sẽ được tập trung nghiên cứu, phân tích cũng như so sánh với các nội dung tương đương trong hệ thống pháp luật của một số quốc gia trên thế giới. Những kiến thức cơ bản trên sẽ làm nền tảng cho việc học và nghiên cứu các nội dung chuyên sâu về luật dân sự cũng như các môn học chuyên ngành luật khác.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "- Kiến thức: trang bị cho sinh viên kiến thức về những vấn đề chung Luật Dân sự Việt Nam. Hiểu về chủ thể của PLDS, về giao dịch DS, về đại diện, về thời hạn, thời hiệu."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "- Kỹ năng tác nghiệp: sinh viên có kỹ năng đọc, hiểu, vận dụng được các quy định PLDS để có thể giải quyết các tình huống phát sinh thực tế liên quan đến chủ thể quan hệ PLDS."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "- Yêu cầu về tư duy: nâng cao kỹ năng nghiên cứu, tư duy, khả năng thuyết trình và hoạt động nhóm."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "- Thái độ và hành vi: biết tôn trọng, tuyên truyền phổ biến pháp luật."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái quát Luật Dân sự  Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Chủ thể quan hệ pháp luật dân sự ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Giao dịch dân sự; Thời hạn và thời hiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

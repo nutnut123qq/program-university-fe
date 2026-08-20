@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 288888,
+    "subjectCode": "H01028",
+    "syllabusName": "Tâm lý đạo đức y dược học (Pharmaceutical Psychology & Ethics)",
+    "syllabusEnglish": "Pharmaceutical Psychology & Ethics",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm những nội dung chính sau:\n\nPhần 1: Giới thiệu về tâm lý y dược học, cách thức mà các hình dạng tâm lý, hành vi cá nhân ảnh hưởng đến sức khỏe và chăm sóc y tế.\n\nPhần 2: Giới thiệu những quy tắc đạo đức, những vấn đề đạo đức trong ngành dược.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các kiến thức cơ bản về tâm lý y dược học"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ghi nhớ được các nguyên tắc đạo đức của người dược sĩ"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Biết cách giao tiếp và tư vấn cho từng đối tượng bệnh nhân; biết cách giao tiếp và tương tác với nhân viên y tế (bác sĩ, y tá…)"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Giải quyết được các tình huống đạo đức trong thực hành nghề dược"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Giải quyết vấn đề",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Problem-Solving",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu đạo đức dược học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Những vấn đề đạo đức trong ngành dược",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hành vi sức khỏe",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

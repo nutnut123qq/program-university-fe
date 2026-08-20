@@ -1,0 +1,66 @@
+{
+  "info": {
+    "sylid": 599676,
+    "subjectCode": "D03144",
+    "syllabusName": "Bơi lội (Swimming)",
+    "syllabusEnglish": "Swimming",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Lý thuyết:\n+ Khái niệm, đặc điểm và lợi ích việc tập luyện môn bơi lội\n+ Lịch sử hình thành và phát triển môn bơi lội trên Thế giới\n+ Lịch sử hình thành và phát triển môn bơi lội ở Việt nam\n+ Liên đoàn - Hiệp hội bơi lội\n+ Vệ sinh tập luyện thể thao\n+ Chấn thương- phòng ngừa chấn thương\n+ Đuối nước - Phòng ngừa đuối nước\n+ Tư thế thân người bơi ếch\n+ Kỹ thuật động tác chân ếch\n+ Kỹ thuật động tác tay ếch\n+ Kỹ thuật phối hợp\n+ Kỹ thuật quay vòng\n+ Luật bơi lội cơ bản\n+ Phương pháp tổ chức thi đấu\n- Thực hành:\n+ Tư thế thân người\n+ Kỹ thuật động tác chân ếch\n+ Kỹ thuật động tác tay ếch\n+ Kỹ thuật phối hợp hoàn chỉnh\n+ Kỹ thuật quay vòng\n+ kỹ thuật xuất phát\n+ Đứng nước\n+ Phương pháp phòng chông đuối nước",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được lợi ích, biết cách tập luyện môn bơi lội để tăng cường phát triển thể chất cho bản thân."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tự học 15 tiết (sinh viên tự học trên nền tảng công nghệ số)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực hành (60 tiết)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

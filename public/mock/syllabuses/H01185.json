@@ -1,0 +1,90 @@
+{
+  "info": {
+    "sylid": 424302,
+    "subjectCode": "H01185",
+    "syllabusName": "Nghiên cứu độ ổn định và tạp chất liên quan (Study on Drug Stability and Impurities)",
+    "syllabusEnglish": "Study on Drug Stability and Impurities",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học nghiên cứu độ ổn định và tạp chất liên quan trang bị cho người học kiến thức và kỹ năng xây dựng và kiểm tra chất lượng thuốc liên quan đến các tạp chất hiện diện trong thành phẩm thuốc. Môn học cung cấp kiến thức về cách tổ chức nghiên cứu độ ổn định thành phẩm thuốc để đăng ký cấp giấy phép lưu hành trên thị trường.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Xây dựng được đề cương nghiên cứu độ ổn định cho thuốc theo quy định hiện hành"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thực hiện được công tác  xây dựng chất lượng và kiểm nghiệm tạp chất liên quan trong nguyên liệu cũng như thành phẩm thuốc để đảm bảo thuốc có chất lượng khi tới tay người sử dụng"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nghiên cứu độ ổn định của thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kiểm nghiệm tạp chất liên quan",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kiểm nghiệm tạp kim loại nặng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

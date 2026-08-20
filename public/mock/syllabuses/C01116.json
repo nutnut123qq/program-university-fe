@@ -1,0 +1,98 @@
+{
+  "info": {
+    "sylid": 191375,
+    "subjectCode": "C01116",
+    "syllabusName": "Khóa luận tốt nghiệp (Graduation Thesis)",
+    "syllabusEnglish": "Graduation Thesis",
+    "credits": "6",
+    "degreeLevel": "Bachelor",
+    "description": "Tạo cơ hội cho sinh viên thể hiện tính độc lập, biết áp dụng kiến thức đã học trong các môn học trước vào một vấn đề lớn tương đối đòi hỏi sự phân tích, tổng hợp hoặc thiết kế thử nghiệm. Sinh viên tham gia thực hiện khóa luận này phải làm việc độc lập trong một dự án nghiên cứu ứng dụng, dưới sự giám sát của giảng viên hướng dẫn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm vững các kiến thức cơ bản của ngành Toán."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu và vận dụng được các kiến thức chuyên môn."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích, đánh giá các phương pháp ứng dụng của kiến thức chuyên ngành."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có kỹ năng tự tìm hiểu, trình bày và thuyết trình về một đề tài chuyên ngành"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thảo luận về tên đề tài và các kiến thức chuẩn bị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Ôn tập kiến thức cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thực hiện đề tài khóa luận",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Đánh giá, nhận xét và chỉnh sửa ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hoàn thiện đề tài khóa luận và báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

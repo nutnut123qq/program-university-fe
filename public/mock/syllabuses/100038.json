@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 494028,
+    "subjectCode": "100038",
+    "syllabusName": "Phương pháp sáng tạo (Creativity Methodology)",
+    "syllabusEnglish": "Creativity Methodology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Nghiên cứu về khái niệm, vai trò, đặc điểm của sáng tạo trong lĩnh vực thiết kế  \n\nNghiên cứu các phương pháp rèn luyện trí não và rèn luyện tư duy sáng tạo.  \n\nTriển khai ứng dụng các phương pháp sáng tạo vào một đề tài tự chọn phù hợp với chuyên ngành.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nhận thức được tầm quan trọng của tư duy sáng tạo trong lĩnh vực thiết kế nói chung và ở từng công việc, tình huống cần giải quyết trong cuộc sống nói riêng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng thành thạo các phương pháp sáng tạo vào các môn học chuyên ngành và để giải quyết các tình huống có vấn đề từ đơn giản đến phức tạp trong cuộc sống."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích, đánh giá được những phương pháp sáng tạo phù hợp với tình huống thực tế và với từng đề tài trong chuyên ngành. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đưa ra được những giải pháp ở đa lĩnh vực có tính sáng tạo, phù hợp với nhu cầu thẩm mỹ của xã hội đương đại."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận,Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TỔNG QUAN VỀ SÁNG TẠO",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "CÁC PHƯƠNG PHÁP RÈN LUYỆN TRÍ NÃO",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "PHƯƠNG PHÁP SÁNG TẠO TRONG THIẾT KẾ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "THỰC HÀNH SÁNG TẠO",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 312799,
+    "subjectCode": "402060",
+    "syllabusName": "Thiết kế mạch điện tử 2 (Electronic Circuit Design 2)",
+    "syllabusEnglish": "Electronic Circuit Design 2",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu các mô hình và phương pháp phân tích các mạch điện tử cơ bản, bao gồm phân tích trong miền thời gian và miền tần số, áp dụng phân tích một số mạch điện tử ứng dụng. Cụ thể gồm các nội dung sau:\n\n       Đáp ứng tần số của các mạch khuếch đại transistor BJT và FET.\n\nCác bộ lọc tích cực: thông thấp (ví dụ lọc thông thấp Butterworth bậc 2), thông cao, thông dải, chắn dải, …\n\n             Mạch khuếch đại công suất âm tần",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết nguyên lý hoạt động của các mạnh điện tử tương tự cơ bản bao gồm các mạch khuếch đại transistor, các mạch khuếch đại công suất; biết cách phân tích các mạch điện tử sử dụng transistor, cả trong miền thời gian và miền tần số."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng ứng dụng các phương pháp phân tích mạch trong miền thời gian và tần số vào các mạch điện tử tuyến tính và phi tuyến"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng phân tích các kết quả đo kiểm hoặc mô phỏng các mạch điện tử, lựa chọn các loại linh kiện và tính toán giá trị linh kiện cho các cấu hình mạch thông dụng."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có khả năng sử dụng kỹ năng quản lý thời gian và các tài nguyên khác một cách hiệu quả trong các dự án liên quan đến thiết kế và thi công các mạch khuếch đại công suất âm tần và mạch lọc."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đáp ứng tần số thấp của mạch khuếch đại transistor",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đáp ứng tần số cao của mạch khuếch đại transistor ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Khuếch đại công suất âm tần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Mạch lọc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 712381,
+    "subjectCode": "801048",
+    "syllabusName": "Đồ án bê tông cốt thép (Project of Reinforced Concrete Structure)",
+    "syllabusEnglish": "Project of Reinforced Concrete Structure",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Dua tren ban ve kien truc cua cong trinh dan dung cho san, chon truoc tiet dien, xac dinh tai trong,  thiet ke tat ca cac ket cau ben tren cua cong trinh: san, dam, cot, cau thang, cac chi tiet phu: lanh to, o vang, be cua so...",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biet chon tiet dien cho cac ket cau ben tren cua cong trinh dan dung: san, dam, cot, cau thang. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nam vung cach xac dinh tai trong, va thiet ke tat ca cac ket cau ben tren cua cong trinh dan dung: san, dam, cot, cau thang, cac ket cau phu: lanh to, o vang, be cua so. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Biet the hien cac ket cau ben tren: san, dam, cot va cac chi tiet phu tren ban ve ky thuat"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Vấn đáp,Báo cáo,Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Viva/Oral Test,Report,Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "San",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Dam doc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Khung Phang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Cau thang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Ket cau phu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

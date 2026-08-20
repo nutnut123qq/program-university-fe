@@ -1,0 +1,66 @@
+{
+  "info": {
+    "sylid": 918680,
+    "subjectCode": "D03145",
+    "syllabusName": "Bóng đá (Football)",
+    "syllabusEnglish": "Football",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "4.1 Lý thuyết:\n\nLịch sử hình thành và phát triển môn bóng đá ở Việt Nam và Thế giới.\nLợi ích, tác dụng, chấn thương và biện pháp phòng chấn thương trong các hoạt động bóng đá.\nPhương pháp và công tác tổ chức thi đấu môn bóng đá.\nHệ thống luật bóng đá 11 người.\nHệ thống luật Futsal.\nKỹ thuật tâng bóng bằng mu chính diện và lòng bàn chân.\nKỹ thuật đá bóng bằng lòng bàn chân.\nKỹ thuật (KT) đá bóng bằng mu trong bàn chân.\nKỹ thuật đá bóng bằng mu chính diện và mu ngoài bàn chân.\nKỹ thuật ném biên: KT ném biên tại chổ, KT ném biên có đà.\nKỹ thuật (Nhận) giữ bóng bay thấp: KT giữ bóng bằng lòng, KT giữ bóng bằng mu ngoài, KT giữ bóng bằng mu trong bàn chân.\nKỹ thuật (Nhận) giữ bóng bay cao: KT giữ bóng bằng lòng, KT giữ bóng bằng đùi, KT giữ bóng bằng ngực.\nKỹ thuật dẫn bóng: KT dẫn bóng bằng mu chính diện, mu ngoài và lòng bàn chân.\n\nKỹ thuật đánh đầu: KT đánh đầu tại chổ.\n\n4.2 Thực hành:\nKỹ thuật tâng bóng bằng mu chính diện và lòng bàn chân.\nKỹ thuật (KT) đá bóng: KT đá lòng, KT đá mu trong, KT đá mu chính diện và KT đá mu ngoài bàn chân.\nKT (Nhận) giữ bóng bay cao: KT giữ bóng bằng lòng, KT giữ bóng bằng đùi, KT giữ bóng bằng ngực.\nKT (Nhận) giữ bóng bay thấp: KT giữ bóng bằng lòng, KT giữ bóng bằng mu ngoài, KT giữ bóng bằng mu trong bàn chân.\nKT đánh đầu: KT đánh đầu tại chổ.\nKT ném biên: KT ném biên tại chổ, KT ném biên có đà.\nKT dẫn bóng: KT dẫn bóng bằng mu chính diện, mu ngoài và lòng bàn chân.\nPhương pháp thi đấu và trọng tài.\nCác bài tập bổ trợ để phát triển các tổ chất vận động.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được những kiến thức cơ bản về môn bóng đá và thực hiện được các kỹ thuật trong bóng đá."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Học Online: Sinh viên tự học trên nền tảng kỹ thuật số",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "THỰC HÀNH: 60 tiết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

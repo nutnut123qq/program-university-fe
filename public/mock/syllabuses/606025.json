@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 264805,
+    "subjectCode": "606025",
+    "syllabusName": "Kỹ thuật gia công Polymer (Polymer Processing )",
+    "syllabusEnglish": "Polymer Processing ",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Môn học giới thiệu kiến thức khái niệm căn bản về tính chất vật liệu polymer, các thông số ảnh hưởng của các nguyên liệu đến quy trình gia công vật liệu. Các thiết bị trộn phổ biến, quy trình gia công bằng công nghệ ép, quy trình gia công bằng công nghệ ép phun, gia công bằng công nghệ đùn trục vít và một số công nghệ tiên tiến khác.\n\n- Môn học giúp sinh viên hiểu rõ đặc tính kỹ thuật vật liệu polymer, đặc điểm gia công từng loại công nghệ khác nhau và ứng dụng thực tiễn trong sản xuất.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Môn học trang bị kiến thức cơ sở đặc tính kỹ thuật của vật liệu polymer, đặc điểm gia công vật liệu polymer, kỹ thuật nghiền – trộn – tạo hạt polymer, công nghệ ép dưới áp suất, công nghệ ép phun và công nghệ đùn."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Môn học giúp nắm được đặc tính kỹ thuật vật liệu polymer, đặc điểm các loại quy trình gia công phù hợp với các sản phẩm khác nhau, đặc tính kỹ thuật của từng loại thiết bị gia công và ứng dụng trong thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy:Hiểu biết đặc điểm và tính chất của từng loại vật liệu polymer, biết đặc tính kỹ thuật, nguyên tắc hoạt động của từng loại thiết  bị trong gia công vật liệu polymer để từ đó ứng dụng trong nghiên cứu các chuyên đề liên quan đến vật liệu polymer."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học có nhận thức mới về môn học, có thái độ học tập và nghiên cứu đúng đắn."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các nguyên lý cơ bản của kỹ thuật gia công polymer",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Quá trình nghiền, trộn  và tạo hạt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Công nghệ ép dưới áp suất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Công nghệ ép phun",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Công nghệ đùn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Công nghệ cán bốn trục",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

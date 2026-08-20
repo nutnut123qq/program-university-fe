@@ -1,0 +1,74 @@
+{
+  "info": {
+    "sylid": 914373,
+    "subjectCode": "001323",
+    "syllabusName": "Tập sự nghề nghiệp (Graduation Internship)",
+    "syllabusEnglish": "Graduation Internship",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần bao gồm:\n\nNắm vững kiến thức chuyên ngành tích lỹ trong quá trình học tập tại trường và từ 2 học phần tập sự nghề nghiệp 1, 2.\n\nVận dụng thành thạo kiến thức chuyên ngành tích lỹ trong quá trình học tập tại trường và từ 2 học phần tập sự nghề nghiệp 1, 2 vào công việc thực tế tại doanh nghiệp.\n\nTích lũy kinh nghiệm từ công việc thực tế tại doanh nghiêp nhằm ứng dụng cho các việc sau khi tốt nghiệp",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "\tKiến thức: nắm bắt được kiến thức thực tế của các hoạt động chủ yếu của doanh nghiệp, cơ quan, tổ chức giáo dục; hiểu rõ các yêu cầu về kiến thức và năng lực ngôn ngữ, tích luỹ kiến thức thực tế. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "\tKỹ năng tác nghiệp: vận dụng thành thạo kiến thức đã học, xử lý các tình huống trong công việc được giao trong quá trình học tập tại tổ chức/doanh nghiệp một cách chuyên nghiệp."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "\tYêu cầu về tư duy:  có tư duy tích cực, linh hoạt, sáng tạo, đặc biệt là tích cực tham gia các hoạt động rèn luyện kỹ năng phản xạ nghe nói, đọc viết trong quá trình thực tập tại tổ chức/doanh nghiệp."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "\tThái độ và hành vi: có ý thức chấp hành và thực hiện tốt các quy định, đạo đức nghề nghiệp, có cách hành xử chuyên nghiệp, có trách nhiệm với công việc trong quá trình thực tập tại tổ chức/doanh nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Triển khai công việc TSNN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực tập tại doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

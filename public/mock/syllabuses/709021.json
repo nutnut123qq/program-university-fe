@@ -1,0 +1,96 @@
+{
+  "info": {
+    "sylid": 424996,
+    "subjectCode": "709021",
+    "syllabusName": "Tập sự nghề nghiệp (Work-Integrated Education)",
+    "syllabusEnglish": "Work-Integrated Education",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Work-Integrated Education is a compulsory course designed for final-year students majoring in Supply Chain Management. Students will be placed in enterprises, logistics service providers, manufacturers, or SCM-related organizations to observe, participate in, and reflect upon operational procedures. They will be required to document a real working process, evaluate its effectiveness, relate observations to academic content, and propose improvement solutions. Reports and multimedia outputs will be submitted for academic review.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Learners are expected to clearly outline the context and structure of a specific operational process within the host company. This includes demonstrating understanding of the process purpose, actors involved, input-output flows, tools used, and performance indicators applied."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Learners are expected to apply relevant supply chain concepts and frameworks to assess the process’s effectiveness. They should critically identify performance gaps, inefficiencies, or risks, and provide well-reasoned evaluations supported by data and observation."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Learners are expected to demonstrate self-awareness of their learning journey, including the development of professional and interpersonal skills. They should offer thoughtful suggestions for operational or strategic improvement at the host enterprise, and contribute useful insights for refining the university’s training programs based on real-world observations."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Learners are expected to produce a structured and well-formatted internship report that follows academic and industry standards. The report and video should reflect logical coherence, clarity of communication, appropriate use of visuals, and adherence to grammar, citation, and formatting guidelines provided by the university."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Learners are expected to display professional ethics, punctuality, reliability, teamwork, communication, and adaptability within the enterprise environment. Employer feedback should reflect overall satisfaction with the intern’s integration and contribution to daily operations."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Final examination",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Registration & Orientation",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Advisor Connection & Documentation",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Internship Execution & Report Drafting",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Finalization & Submission",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

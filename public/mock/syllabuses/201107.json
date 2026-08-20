@@ -1,0 +1,168 @@
+{
+  "info": {
+    "sylid": 72045,
+    "subjectCode": "201107",
+    "syllabusName": "Kế toán quốc tế 1 (International Accounting 1)",
+    "syllabusEnglish": "International Accounting 1",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung môn học bao gồm 10 chương và được tổ chức giảng dạy trong 15 buổi – 03 tiết/buổi. Chương 1 giới thiệu về vai trò của kế toán trong doanh nghiệp, các định nghĩa và các nguyên tắc cơ bản của kế toán. Ba chương tiếp theo bao hàm những kiến thức nền tảng quan trọng của việc ghi nhận nghiệp vụ kinh tế phát sinh, ghi nhận các bút toán điều chỉnh và khoá sổ để lập Báo cáo tài chính theo chuẩn Quốc tế. Chương 5,6 cung cấp cho sinh viên những kiến thức về hoạt động của doanh nghiệp bán lẻ.  Chương 7, 8, 9 bao hàm những kiến thức cơ bản về các khoản mục trên Bảng cân đối kế toán. Chương cuối cùng là một chương rất mới so với chương trình đào tạo kế toán Việt Nam. Chương 10 giới thiệu cho sinh viên về việc ghi nhận các nghiệp vụ kế toán trong công ty hợp danh, một loại hình doanh nghiệp đặc biệt nhưng lại phổ biến ở các nước phát triển trên thế giới, đặc biệt là các nước ở Châu Âu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "\tMôn học cung cấp cho sinh viên những nội dung kiến thức kế toán theo chuẩn quốc tế (IFRS)"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên ghi nhận được nghiệp vụ kinh tế phát sinh, lập được báo cáo tài chính; tính toán và đánh giá tổng quát một số chỉ tiêu cơ bản trên báo cáo tài chính"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên hiểu được các nguyên tắc và yêu cầu của công tác kế toán trong doanh nghiệp; nắm được phương pháp tổng hợp, cân đối và suy luận phân tích những nghiệp vụ kinh tế phát sinh chủ yếu trong doanh nghiệp để cung cấp thông tin cho việc ra quyết định."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên nhận biết được tầm quan trọng của công tác kế toán và nội dung cơ bản của các phần hành kế toán trong doanh nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình,Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "The role of accounting in business",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Recording business transactions",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "The adjusting process",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Completing the accounting cycle",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Retailing operations",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Retail inventory",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Receivables",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Non-current assets: Property, plant and equipment and intangibles",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Liabilities",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Partnerships",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

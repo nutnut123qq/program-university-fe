@@ -1,0 +1,132 @@
+{
+  "info": {
+    "sylid": 582540,
+    "subjectCode": "40213760",
+    "syllabusName": "Học máy và ứng dụng (Machine Learning and Applications)",
+    "syllabusEnglish": "Machine Learning and Applications",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Học máy là lập trình máy tính để tối ưu hóa kết quả bằng cách sữ dụng dữ liệu mẫu hay các thí nghiệm/kinh nghiệm trong quá khứ. Trong học máy, vì dụ như cách\r\ntiếp cận là thu thập một bộ sưu tập lớn các cách nói mẫu từ các mọi người và học\r\ncách ánh xạ chúng thành từ. Hoặc khi ta xem xét định tuyến các gói tin qua mạng máy tính.\r\nĐường dẫn tối đa hóa chất lượng dịch vụ từ nguồn đến đích thay đổi liên tục khi\r\nlưu lượng mạng thay đổi. Một chương trình định tuyến học máy có thể thích ứng với\r\ncon đường tốt nhất bằng cách giám sát lưu lượng mạng. Ví dụ khác, Robot học cách tối ưu hóa\r\nhành vi của chúng để hoàn thành một nhiệm vụ sử dụng tài nguyên tối thiểu. Môn học thảo luận về nhiều phương pháp có cơ sở ở các khía cạnh khác nhau: thống kê, nhận dạng mẫu, mạng thần kinh, trí tuệ nhân tạo, xử lý tín hiệu,\r\nđiều khiển và thu thập dữ liệu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Sau khi hoàn thành học phần, học viên có khả năng lý giải và phân tích các mô hình tối ưu hiện nay trong lĩnh vực điện tử-viễn thông."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng: Áp dụng các phương pháp tối ưu vào việc tối ưu đánh giá hiệu suất các giải pháp cho mạng máy tính và điện tử - viễn thông hiện nay."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tư duy: Tư duy phản biện trong các nguyên lý thiết kế và giải thuật tối ưu cho các lĩnh vực khác nhau trong cuộc sống."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ: Nhận biết được tầm quan trọng của học máy và các thuật toán tối ưu trong lĩnh vực công nghệ hiện đại ngày nay."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Supervised Learning",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Bayesian Decision Theory",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Parametric Methods",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Clustering",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Decision Trees",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Bayesian Estimation",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Reinforcement Learning",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

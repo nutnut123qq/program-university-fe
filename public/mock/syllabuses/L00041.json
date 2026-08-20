@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 962281,
+    "subjectCode": "L00041",
+    "syllabusName": "Những kỹ năng thiết yếu cho sự phát triển bền vững - Thái độ sống 3 (Essential Skills for Sustainable Development - Life Attitude 3)",
+    "syllabusEnglish": "Essential Skills for Sustainable Development - Life Attitude 3",
+    "credits": "0",
+    "degreeLevel": "Bachelor",
+    "description": "Phần 1: Tổng quan về lao động và giá trị của lao động\n- Khái niệm lao động \n- Phân loại lao động \n- Giá trị của lao động\nPhần\r\n2: Đạo đức nghề nghiệp\n-\r\nKhái niệm\n-\r\nMột số phạm trù của đạo đức nghề nghiệp\nPhần 3: Một số thái độ sống cần thiết của người lao động\r\ntrong tổ chức\n- Kỷ luật\n- Lương tâm nghề nghiệp\n- Nhân phẩm, danh dự của người đi làm\n\n- Hạnh phúc",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên hiểu được điểm mạnh, yếu, đam mê, sở trường, năng lực của bản thân để có sự lựa chọn công việc một cách chính xác"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Làm chủ dược cảm xúc cá nhân, chuyển hóa cảm xúc tiêu cực thành tích cực"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Xây dựng cho sinh viên một tinh thần phụng sự, làm việc vì cộng đồng"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Học trực tuyến trên hệ thống elearning kỹ năng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Học và thực hành tại hội trường lần 1",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Học và thực hành tại hội trường lần 2",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực hành thực tế ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

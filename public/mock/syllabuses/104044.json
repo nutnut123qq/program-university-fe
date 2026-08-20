@@ -1,0 +1,98 @@
+{
+  "info": {
+    "sylid": 334476,
+    "subjectCode": "104044",
+    "syllabusName": "Chuyên đề (Special Courses)",
+    "syllabusEnglish": "Special Courses",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Chuyên đề là một môn học có nội dung phụ trợ các kiến thức về kĩ thuật trong thực hiện sản phẩm thời trang  \n\nChuyên đề giúp người học hình dung rõ ràng hơn quy trình thực hiện mẫu bán thành phẩm của sản phẩm trong quy trình công nghiệp và quy trinh thực hiện sản phẩm thời trang.\n\nCác hiến thức trong chuyên đề sẽ cung cấp cho người học những dạng thức kết cấu bán thành phẩm từ cơ bản đến nâng cao, quy chuẩn, ước đạt về vật tư, định mức và định lượng cho sản phẩm trong quá trinh thực hiện.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các nguyên tắc đóng mở trong kết cấu của sản phẩm và tính thẩm mỹ được tao ra thông qua sự chính xác của kĩ thuật"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nắm vững được quy trình thực hiện bán thành phẩm của tất cả các sản phẩm thời trang"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng nhuần nhuyễn giữa lí thuyết và thực hành vào quy trình thực hiện bán thành phẩm thời trang"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá được tầm quan trọng của kĩ thuật với thiết kế thời trang và giá trị của sản phẩm khi có sự trau  chuốt trong kĩ thuật thể hiện "
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Sáng tạo dược các sản phẩm có sự tìm tòi về kĩ thuật và phù hợp với nhu cầu của thị trường"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về Rập- Vai trò của rập với thiết kế thời trang ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các yếu tố quan trọng đối với việc thiết kế rập thời trang   ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Triển khai thực hiện rập bán thành phẩm các dạng trang phục thời trang ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

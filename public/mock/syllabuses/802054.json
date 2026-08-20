@@ -1,0 +1,86 @@
+{
+  "info": {
+    "sylid": 494929,
+    "subjectCode": "802054",
+    "syllabusName": "Đồ án nền móng cầu đường (Project of Bridge and Road Foundation)",
+    "syllabusEnglish": "Project of Bridge and Road Foundation",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học bao gồm một các nội dung chính sau:\n\nPhần 1. Thiết kế nền móng cho công trình đường ô tô (Chương 1, chương 2, chương 3)\n\nPhần 2.Thiết kế nền móng cho công trình cầu (Chương 4, chương 5)",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên kiến thức về cơ học đất, nền móng "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Cung cấp cho sinh viên kiến thức tính toán nền móng cho công trình đường xây dựng trên nền đất yếu, hoặc nền móng cho một công trình cầu. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tính toán kiểm tra nền đường đắp trên đất yếu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết kế biện pháp kỹ thuật nâng cao ổn định nền đường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế biện pháp kỹ thuật xử lý lún nền đường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thiết kế lựa chọn phương án móng cọc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thiết kế kỹ thuật phương án móng cọc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

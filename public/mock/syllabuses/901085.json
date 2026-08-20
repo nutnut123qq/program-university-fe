@@ -1,0 +1,142 @@
+{
+  "info": {
+    "sylid": 592741,
+    "subjectCode": "901085",
+    "syllabusName": "Cơ học kỹ thuật: Tĩnh học (Engineering Mechanics: Statics)",
+    "syllabusEnglish": "Engineering Mechanics: Statics",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 1: Các đặc tính cơ bản của chất lỏng\n\nChương 2: Áp suất thủy tĩnh và phương trình thủy tĩnh học\n\nChương 3: Áp lực thủy tĩnh tác dụng lên mặt phẳng và mặt cong\n\nChương 4: Sự nổi và ổn định của vật thể trong chất lỏng\n\nChương 5: Chất lỏng bên trong thùng chứa chuyển động\n\nChương 6: Ôn tập và bài tập nâng cao",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được những tính chất cơ bản chất lỏng ở trạng thái tĩnh, khái niệm và những tính chất của áp suất thủy tĩnh, tác dụng của áp lực thủy tĩnh lên vật thể và các trạng thái cân bằng của vật thể trong chất lỏng, hiểu rõ được những ứng dụng của thủy tĩnh học trong lĩnh vực cấp thoát nước."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng được các kiến thức về tĩnh học để tính toán áp suất thủy tĩnh tại một vị trí trong chất lỏng, mô phỏng các tác động do áp lực thủy tĩnh trên các công trình, phục vụ việc thiết kế các công trình cấp thoát nước và xử lý ô nhiễm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá được hiệu quả hoạt động của các dụng cụ đo áp suất thủy tĩnh và các thiết bị áp lực sử dụng trong thiết kế các công trình cấp thoát nước, xử lý ô nhiễm."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Hiểu được các khái niệm của các thông số vật lý cơ bản của chất lỏng ở trạng thái tĩnh."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Đề xuất các phương pháp tính toán các công trình/ thiết bị thủy tĩnh học thông qua các buổi thảo luận nhóm và trình bày ý tưởng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các đặc tính cơ bản của chất lỏng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tĩnh học chất lỏng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Áp lực thủy tĩnh tác dụng lên mặt phẳng và mặt cong ngập trong chất lỏng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Sự nổi và ổn định của vật thể trong chất lỏng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Chất lỏng trong thùng chứa chuyển động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Ôn tập và bài tập nâng cao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

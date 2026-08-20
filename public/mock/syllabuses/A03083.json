@@ -1,0 +1,90 @@
+{
+  "info": {
+    "sylid": 474625,
+    "subjectCode": "A03083",
+    "syllabusName": "Thực tập nghề nghiệp 2 (Internship 2)",
+    "syllabusEnglish": "Internship 2",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung của môn học giúp sinh viên hội nhập vào môi trường làm việc thực tế với vị trí là cán bộ công đoàn. \nMôn học trang bị cho sinh viên kiến thức thực tế về thực chất hoạt động công đoàn qua các chuyên đề: Thi đua, tuyên giáo, chính sách pháp luật, nữ công.\nTừ đó, sinh viên có thể giải đáp các tình huống pháp luật về luật công đoàn, điều lệ công đoàn Việt Nam, các hoạt động của các Ban chuyên đề và tình huống hoạt động công đoàn trong thực tiễn để nâng chất lượng hoạt động Công đoàn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hội nhập vào môi trường làm việc thực tế thông qua việc tiếp xúc với thực tiễn công việc tại doanh nghiệp. Trang bị cho sinh viên kiến thức về thực chất hoạt động công đoàn là tổ chức, vận động, giáo dục, thuyết phục người lao động thực hiện tốt nhiệm vụ cụ thể của tổ chức công đoàn về các chuyên đề như: Thi đua, tuyên giáo, chính sách pháp luật, nữ công. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phát triển các kỹ năng và vận dụng kiến thức đã học để thực hiện tốt các công việc liên quan đến quản lý hoạt động các chuyên đề của công đoàn."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nắm vững các quy trình công việc, biết cách tổ chức, đánh giá, phân tích chất lượng và ra các quyết định trong lĩnh vực hoạt động phong trào công đoàn một cách có chất lượng."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tác phong làm việc, tính tổ chức và năng động sáng tạo trong tổ chức hoạt động phong trào đúng qui định của Luật pháp và điều lệ công đoàn Việt Nam, rèn luyện phẩm chất đạo đức nghề nghiệp. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về học phần thực tập nghề nghiệp 2",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổng quan về môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thực tập nghề nghiệp tại doanh nghiệp/ tổ chức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Báo cáo kết quả thực tập ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

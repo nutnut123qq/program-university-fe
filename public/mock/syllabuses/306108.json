@@ -1,0 +1,142 @@
+{
+  "info": {
+    "sylid": 643836,
+    "subjectCode": "306108",
+    "syllabusName": "Soạn thảo văn bản (Text Editor)",
+    "syllabusEnglish": "Text Editor",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "-  Môn học được thiết kế\nnhằm cung cấp cho sinh viên những khái niệm cơ bản về văn bản, chức năng, vai\ntrò của văn bản; giúp sinh viên nhận biết được các loại văn bản hiện hành, cũng\nnhư những yêu cầu chung, yêu cầu về nội dung, về thể thức và ngôn ngữ khi soạn\nthảo văn bản.\n- Thảo luận các nội dung\nliên quan đến bài giảng.\n- Hướng dẫn sinh viên soạn thảo\ncác văn bản hành chính thông thường và hành chính cá biệt.\n\n- Thực hành các bài tập soạn thảo\nvăn bàn hành chính nhằm phát hiện các lỗi thường găp\nkhi soạn thảo văn bản hành chính.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học nắm vững những yêu cầu chung về nội dung và hình thức khi soạn thảo văn bản hành chính."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Về nội dung, người học có khả năng sử dụng đúng từ ngữ của văn phong  hành chính công vụ; Về hình thức, trỉnh bày đúng thề thức và kỹ thuật theo qui dịnh của pháp luật hiện hành khi soạn thảo văn bản hành chính.\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học có nhận thức đúng đắn về tầm quan trọng của việc viết và trình bày văn bản hành chính; phân biệt được các loại văn bản và vận dụng có hiệu quả trong thực tế. \n\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học có ý thức cập nhật những thay đổi trong quy định về thể thức và kỹ thuật trình bày văn bản hành chính thông dụng; thường xuyên rèn luyện kỹ năng viết và trình bày được các văn bản trong công việc và đời sống, bảo đảm tính chính xác và chuẩn mực nghề nghiệp \n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những quy định chung về văn bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hệ thống văn bản quản lý nhà nước",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Một số vấn đề về kỹ thuật soạn thảo văn bản quản lý nhà nước",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Những yêu cầu chung về nội dung và thể thức của văn bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hướng dẫn thể thức và kỹ thuật trình bày văn bản hành chính và văn bản công đoàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Văn phong và ngôn ngữ văn bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Soạn thảo văn bản hành chính cá biệt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Văn bản hành chính thông thường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

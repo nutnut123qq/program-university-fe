@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 468193,
+    "subjectCode": "40212460",
+    "syllabusName": "Thiết kế mạch siêu cao tần (Microwave Circuits Design)",
+    "syllabusEnglish": "Microwave Circuits Design",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Học\r\nphần giới thiệu về phần cứng bao gồm cả các thành phần thụ động\r\nvà tích cực như là các thành phần chính khi xây dựng 1 hệ viễn thông\r\nkhông dây. Các nội dung cụ thể bao gồm:\n\nü\n\nLý thuyết cơ bản của mô hình dây truyền sóng và đồ thị Smith.\n\nü\n\nBiểu diễn toán học của mạch siêu cao tần, phân tích mạch siêu\r\ncao tần nhiều ngõ.\n\nü\n\nCác kỹ thuật hiện đại trong thiết kế và phân tích mạch\r\nphẳng.\n\nü\n\nCác kỹ thuật phân tích mạch gồm nhiều phần tử thụ động và\r\ntích cực.\n\nü\n\nTìm hiểu các mạch hiện có và những mạch nâng cao trong các\r\nứng dụng trong tương lai của hệ viễn thông.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được giới hạn của mô hình tần số thấp truyền thống và sự cần thiết của phân tích mạch tần số cao"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nhớ các định nghĩa cơ bản của các phần tử thụ động và tích cực trong mạch siêu cao tần"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá hiệu suất kỹ thuật của mạch siêu cao tần trong các hệ truyền không dây , sáng tạo các kỹ thuật sử dụng phần mềm mô phỏng CAD và cách đánh giá các mạch siêu cao tần"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tóm tắt các khái niệm cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các lý thuyết cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các kỹ thuật siêu cao tần hiện tại",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các thiết bị thụ động trong mạch siêu cao tần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Các thiết bị tích cực trong mạch siêu cao tần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Hệ thống microwave",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

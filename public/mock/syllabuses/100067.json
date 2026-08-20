@@ -1,0 +1,106 @@
+{
+  "info": {
+    "sylid": 68352,
+    "subjectCode": "100067",
+    "syllabusName": "Thiết kế lịch (Calendar Design)",
+    "syllabusEnglish": "Calendar Design",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Thiết kế lịch giới thiệu đến sinh viên kiến thức về bố cục của lịch truyền thống đến hiện đại. Sau khi nắm được kỹ thuật và các nguyên lý trong thiết kế, sinh viên sẽ sáng tạo ra 1 mẫu lịch khác với kiểu lịch truyền thống bằng việc sử dụng: màu sắc, hình ảnh, chữ, chất liệu giấy, kết hợp với các nguyên vật liệu khác.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được kiến thức cần thiết để thiết kế lịch truyền thống, từ đó sinh viên sẽ phát triển và tạo ra 1 mẫu lịch riêng cho mình."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng các kiến thức thẩm mỹ & kỹ năng phần mềm đã học (từ các môn cơ bản và cơ sở ngành phía trước) để thiết kế nghiên cứu và phát triển ý tưởng cho bộ lịch cá nhân, thương thiệu hoặc qua tặng kèm trong sự kiện… "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích các công đoạn thiết kế lịch, để phát triển ra 1 mẫu lịch mới thể hiện sự đột phá trong bố cục, màu sắc, chữ, hình dạng…"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thiết kế bộ lịch dựa trên giải pháp thiết kế phù hợp, tích cực trong việc nghiên cứu và tìm hiểu về các thiết kế lịch trong và ngoài nước."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Đánh giá được tư duy và sự sáng tạo qua hình dáng, màu sắc, chữ, hình ảnh của lịch."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "GIỚI THIỆU LỊCH ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "NGHIÊN CỨU VÀ HÌNH THÀNH CONCEPT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "CÁC CÔNG ĐOẠN THIẾT KẾ LỊCH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "THỰC HÀNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

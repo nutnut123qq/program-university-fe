@@ -1,0 +1,98 @@
+{
+  "info": {
+    "sylid": 328016,
+    "subjectCode": "40213860",
+    "syllabusName": "Xử lý tín hiệu thống kê (Statistical Signal Processing)",
+    "syllabusEnglish": "Statistical Signal Processing",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp những nguyên lý cơ bản của lý thuyết ước lượng và phát hiện, kết hợp với các ứng dụng rộng rãi của nó cho lĩnh vực xử lý tín hiệu, viễn thông, và, ở một mức độ nào đó, cho lĩnh vực điều khiển. Các đề tài cụ thể bao gồm lý thuyết phát hiện tín hiệu và ra quyết định, các phương pháp ước lượng Bayesian bao gồm MMSE, MAP cũng như MLE; lý thuyết ước lượng tối ưu gồm các khái niệm về hàm thống kê đầy đủ, lượng tin Fisher, khoảng tin cậy, nguyên tắc kiểm định giả thuyết thống kê. Các ví dụ ứng dụng được lấy từ các bài toán xử lý tín hiệu mảng (array processing), lọc tối ưu, bài toán khôi phục trong xử lý ảnh, cân bằng kênh truyền và triệt nhiễu giao thoa trong viễn thông.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp các khái niệm cơ bản về phát hiện tín hiệu và lý thuyết ước lượng, cũng như quan hệ giữa chúng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích được các giới hạn về chất lượng được xác định trên quan điểm xử lý tín hiệu và lý thuyết thông tin; dánh giá các phương pháp ước lượng các tham số trong điều kiện ngẫu nhiên; phân tích và đánh giá các giải thuật phát hiện dữ liệu và tín hiệu đã được gửi đi dựa trên một tập các tín hiệu hoặc dữ liệu thu được đã bị ảnh hưởng bởi nhiễu."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Ứng dụng các phương pháp phát hiện và ước lượng đã học như bình phương tối thiểu, maximum-likelihood, và các bộ ước lượng Bayesian để giải quyết các bài toán xử lý tín hiệu, các vấn đề thực tế trong lĩnh vực truyền thông và xử lý tín hiệu."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thiết kế bộ lọc tối ưu để loại bỏ các tín hiệu nhiễu khỏi tín hiệu mong muốn."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Có tinh thần tích cực tìm hiểu và vận dụng kiến thức môn học để giải quyết các vấn đề còn tồn tại trong lĩnh vực truyền thông và xử lý tín hiệu; có tinh thần cầu tiến, tự học hỏi để nâng cao kiến thức về xử lý tín hiệu."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu chung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lý thuyết phát hiện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lý thuyết ước lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

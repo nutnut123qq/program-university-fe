@@ -1,0 +1,138 @@
+{
+  "info": {
+    "sylid": 161594,
+    "subjectCode": "40213560",
+    "syllabusName": "Hệ thống radar nâng cao (Advanced Radar Systems)",
+    "syllabusEnglish": "Advanced Radar Systems",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này giới thiệu các khái niệm và kỹ thuật chính về radar được sử dụng trong các hệ thống radar hiện đại:\n- Tập trung vào việc khảo sát các ứng dụng và thiết kế radar. \n- Xây dựng các mô hình toán học, cũng như các công cụ thực thi cải tiến bên trong radar. \n- Tìm hiểu các mô hình radar tiên tiến trong các ứng dụng thực tiễn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các khái niệm về hệ thống radar doppler xung và các phương trình cơ bản của nó; hiểu được nguyên tắc hoạt động của hệ thống radar nhiều vị trí, radar thụ động, MIMO radar và các hệ thống radar tiên tiến khác.\r\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng được các kiến thức toán học, khoa học và công nghệ trong xử lý tín hiệu, nhận dạng mục tiêu, xử lý ảnh, thiết bị đầu cuối radar."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thiết kế, mô phỏng cũng như phân tích được hệ thống radar phân bố vị trí; thiết kế được các linh kiện, hệ thống hay xử lí được các yêu cầu mong muốn trong hệ thống radar tiên tiến.\r\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Giải quyết được các bài toán kỹ thuật trong radar; đánh giá được chất lượng hệ thống thông tin radar.\r\n"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Nhận thức được vai trò và vị trí của môn học trong lĩnh vực viễn thông; có tinh thần tích cực tìm hiểu và vận dụng kiến thức môn học áp dụng vào thực tiễn.\r\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phương trình, tách sóng và nhiễu radar ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "MTI và xung Doppler",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phân hệ radar",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các thuật toán theo dõi mục tiêu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Nén xung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Ảnh radar",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "MIMO RADAR",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

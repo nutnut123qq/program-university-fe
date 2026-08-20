@@ -1,0 +1,122 @@
+{
+  "info": {
+    "sylid": 929450,
+    "subjectCode": "802108",
+    "syllabusName": "Thủy văn (Hydrology)",
+    "syllabusEnglish": "Hydrology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc bao gồm các nội dung chính sau:\n\n·\n\nChương 1. Tổng quan về môn học. \n\n·\n\nChương 2. Khái niệm chung về công trình qua\r\nsông, suối.\n\n·\n\nChương 3. Xác định lưu lượng nước mưa từ lưu\r\nvực.\n\n·\n\nChương 4. Xác định khẩu độ cống.\n\n·\n\nChương 5. Xác định khẩu độ cầu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: trang bị cho sinh viên các phương pháp tính toán lưu lượng nước mưa ứng với tần suất thiết quy định của lưu vực từ đó xác định khẩu độ của công trình thoát nước. Ngoài ra, còn cung cấp thêm các phương pháp tính toán hiện tượng xói lở tại công trình."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: trang bị cho sinh viên kỹ năng tính toán, lựa chọn loại công trình, khẩu độ công trình thoát nước phù hợp tại vị trí có dòng chảy đi qua của tuyến đường và đề ra được biện pháp hạn chế, khắc phục hiện tượng xói lở."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "- Thái độ và hành vi: \r\n\tNghiêm túc trong học tập, tham gia đủ các tiết học theo quy định.\r\n\tLuôn chủ động trong việc tìm tòi học hỏi, nghiên cứu tài liệu.\r\n\tLàm đủ các bài tập, tích cực hổ trợ bạn bè trong học tập. \r\n\tChấp hành các quy định của nhà trường và lớp học, có tinh thần cầu tiến trong học tập và nghiên cứu.\r\n\tHình thành hướng phát triển và đạo đức nghề nghiệp khi ra trường."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Khái niệm chung về công trình qua sông, suối.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Xác định lưu lượng nước mưa từ lưu vực.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Xác định khẩu độ cống.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Xác định khẩu độ cầu.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

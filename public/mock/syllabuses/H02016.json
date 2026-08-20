@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 805562,
+    "subjectCode": "H02016",
+    "syllabusName": "Thí nghiệm genomics phân tử trong Khoa học y sinh (Molecular Genomics Laboratory in Biomedical Sciences)",
+    "syllabusEnglish": "Molecular Genomics Laboratory in Biomedical Sciences",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này sẽ cung cấp cho sinh viên kiến thức cơ sở phân tử về acid nucleic và genomic, khám phá sự tiên phong của các nghiên cứu trong lĩnh vực công nghệ sinh học như sinh học phân tử, y sinh nhằm tìm tòi kiến thức phân tử, di truyền, phát hiện sinh vật gây bệnh, nhằm tăng cường thêm sự hiểu biết cho sinh viên về genome và sự sống của sinh vật. Các nội dung sau sẽ được trình bày một cách chi tiết: \n-\n\nKỹ thuật sinh học phân tử.\n-\n\nĐịnh tính vi khuẩn, virus gây bệnh.\n-\n\nMô hình thao tác chuẩn trong phòng thí nghiệm.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị kiến thức cơ sở cho sinh viên về các thao tác sinh học phân tử, hệ gen đồng thời cung cấp những hiểu biết về các phương pháp, kỹ thuật được dùng trong nghiên cứu và phân tích hệ gen."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nắm được các kỹ thuật sinh học phân tử và ứng dụng, phương pháp kỹ thuật dùng để nghiên cứu genome trong trường hợp cụ thể, áp dụng được các kiến thức môn học vào thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu rõ các nguyên tắc của những kỹ thuật sinh học phân tử để từ đó chủ động trong tư duy nghiên cứu các chuyên đề liên quan đến sinh học phân tử và genomic."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình",
+      "type": "Bài tập quá trình,Tiểu luận",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Cuối kỳ",
+      "type": "Thực hành thí nghiệm",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Laboratory Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu dụng cụ, thiết bị; hướng dẫn pha chế hóa chất ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tái tạo dòng plasmid mang DNA mong muốn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Định tính WEEV gây bệnh trên tôm bằng Multiplex PCR",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Đánh giá năng lực",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

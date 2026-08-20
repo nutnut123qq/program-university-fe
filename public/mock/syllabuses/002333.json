@@ -1,0 +1,142 @@
+{
+  "info": {
+    "sylid": 775931,
+    "subjectCode": "002333",
+    "syllabusName": "Quản trị học (Management)",
+    "syllabusEnglish": "Management",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần gồm 12 bài, bao gồm các kiến thức về dẫn luận về quản lí, diễn tiến các tư tưởng về quản lí, quyết sách, kế hoạch.    \n\nMôn học này giúp người học có kiến thức tổng quát về quản trị, giúp người học hiểu được quản trị là gì?  Quá trình và diễn tiến các tư tưởng quản trị. Cách hoạch định : Khái quát, phương pháp và chiến lược hoạch định...Giúp ta hiểu được làm thế nào quản trị công ty? Nhà quản trị là ai? Vai trò  nhà quản trị. Hiểu được các chức năng của quản trị...\n\nMôn học này hình thành và phát triển cho người học năng lực thu thập thông tin, kỹ năng tổng hợp, hệ thống hóa các vấn đề trong mối quan hệ tổng thể. Phát triển kỹ năng phân tích, đánh giá các vấn đề trong quản trị của người học.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Giúp người học nắm vững kiến thức về các hoạt động quản trị trong doanh nghiệp, hiểu về các kế hoạch, chiến lược trong kinh doanh, cách quản lý nguồn nhân lực, lãnh đạo, điều khiển đơn vị một cách hiệu quả. Giúp người học sử dụng được các thuật ngữ tiếng Hán trong quản trị."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Rèn luyện kĩ năng đọc, phân tích và biết cách dùng từ có nghĩa tương tự, khả năng làm việc theo nhóm giải quyết tình huống trong kinh doanh."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Người học có tư duy tích cực, linh hoạt sáng tạo về lĩnh vực quản trị. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học được hướng dẫn, đào tạo thực hiện tốt các quy định, đạo đức nghề nghiệp, có cách hành xử chuyên nghiệp, có trách nhiệm với việc học, gia đình và xã hội."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "第一章        管理导论",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "第4章        计划",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "第6章   人力资源管理",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "第7章        激励",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "第8章        领导",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "第9章        沟通",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "第11章        控制方法",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "复习（Ôn tập）",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

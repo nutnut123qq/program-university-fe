@@ -1,0 +1,152 @@
+{
+  "info": {
+    "sylid": 748729,
+    "subjectCode": "603068",
+    "syllabusName": "Thực tập tiến hóa và sinh lý sinh thái (Evolutionary and Physiological Ecology Field Trips)",
+    "syllabusEnglish": "Evolutionary and Physiological Ecology Field Trips",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Họp sinh viên trước khi đi thực tập (Phổ biến chương trình đi và những thứ cần phải chuẩn bị trước khi đi Thực tập).\n\nHọc tại trại nấm.\n\nHọc tại công ty Nho Ba Mọi.\n\nTham quan học tập tại Viện Hải dương học Nha Trang để học về đa dạng sinh học biển.\n\nTham quan học tập về vi sinh vật.\n\nĐi thực địa, xây dựng ô tiêu chuẩn tại rừng Bidoup Núi Bà.\n\nTham quan học tập tại Viện Khoa học Tây Nguyên về mẫu động vật và sự đa dạng sinh học Tây Nguyên.\n\nHọc tại công ty rau sạch.\n\nTham quan học tập ở công ty trà.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu thực tế về Tiến hóa đa dạng sinh học và sinh thái (sự đa dạng, phân bố tự nhiên của sinh giới, sự thích nghi với môi trường sống, hiểu được một số đặc điểm và đặc tính của một số sinh vật ở Việt Nam)."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng (apply) kiến thức cơ bản để giải thích hiện tượng/quy trình và phân tích được các quy trình sản xuất, hoạt động phòng thí nghiệm trong quá trình học tập."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Trung thực với kết quả đạt được, có thái độ nghiêm túc trong việc bảo tồn và sử dụng đa dạng sinh học ở Việt Nam và cách làm việc thực tế sau này."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Biết cách làm việc nhóm, phối hợp nhóm trong khi đi thực địa và cùng hoàn thành bài báo cáo sau khi đi thực tập về."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Phân tích được các vấn đề cơ bản về đặc điểm sinh học, cấu tạo của các sinh vật gặp được, các quy trình công nghệ, các kỹ thuật học được trong quá trình thực tập."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Họp sinh viên trước khi đi Thực tập",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Học tập tại Trung tâm Nuôi Biển Nha Trang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Học tại trại nấm.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Viện Hải dương học Nha Trang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Viện Pasteur Nha Trang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Đi thực địa (rừng Bidoup)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Viện Khoa học Tây Nguyên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Tham quan công ty rau sạch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Học tại công ty trà",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Báo cáo môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "Học tại công ty nho.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

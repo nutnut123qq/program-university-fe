@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 323032,
+    "subjectCode": "H02001",
+    "syllabusName": "Hóa đại cương (General Chemistry)",
+    "syllabusEnglish": "General Chemistry",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Hóa\n đại cương là môn học giới thiệu về hóa học, được thiết kế để cung cấp những\r\nnguyên lý cơ bản trong hóa học. Các chủ đề được đề cập trong môn học bao gồm:\r\nký hiệu hóa học, công thức hóa học, cấu trúc hạt nhân, cấu trúc phân tử, học\r\nthuyết về liên kết hóa học, dung dịch, acid, base, nhiệt động hóa học, tốc độ\r\nphản ứng và cân bằng hóa học. N\nguyên lý cơ bản trong hóa học.\n Các chủ đề được đề cập trong môn học bao gồm:\nký hiệu hóa học, công thức hóa học, cấu trúc hạt nhân, cấu trúc phân tử, học\nthuyết về liên kết hóa học, dung dịch, acid, base, nhiệt động hóa học, tốc độ\nphản ứng và cân bằng hóa học.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các kiến thức cơ bản của hóa học bao gồm hóa học trong đời sống, cấu trúc nguyên tử và phân tử, liên kết hóa học, các đại lượng nhiệt động, tốc độ phản ứng và cân bằng hóa học, kiến thức cơ bản về dung dịch."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng kiến thức hóa học để giải các bài toán liên quan. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sử dụng kĩ năng trong khoa học để giải quyết vấn đề và tư duy phản biện."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Hóa học và hóa học trong đời sống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nguyên tố và nguyên tử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Liên kết hóa học – Cấu tạo phân tử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Nhiệt động hóa học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Động hóa học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Dung dịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

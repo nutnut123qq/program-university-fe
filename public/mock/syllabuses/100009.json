@@ -1,0 +1,132 @@
+{
+  "info": {
+    "sylid": 527444,
+    "subjectCode": "100009",
+    "syllabusName": "Lịch sử Design (History of Design)",
+    "syllabusEnglish": "History of Design",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Phần 1: Design thủ công  \n\nCác khái niệm và thuật ngữ chuyên ngành: \nThiết kế (Design); Mỹ thuật công nghiệp (Industrial Fine Arts)…\n\nCác chức năng và tiêu chí của thiết kế \n\nCác phong cách lớn trong lịch sử thiết kế (từ thời cổ đại đến cận đại) \n\nPhần 2: Design công nghiệp\n\nQuá trình hình thành và phát triển của ngành thiết kế công nghiệp \n\nCác giai đoạn phát triển của ngành thiết kế công nghiệp \n\nCác phong cách lớn trong lịch sử thiết kế (thời hiện đại) \n\nCác nhà thiết kế và các nền design nổi tiếng trên thế giới",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được vai trò và ý nghĩa quan trọng của thiết kế đối với sự phát triển của xã hội. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Khai thác được giá trị của những phong cách tiêu biểu trong lịch sử thiết kế trong quá trình tìm kiếm ý tưởng sáng tạo.   "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Trau dồi kỹ năng trình bày, kỹ năng làm việc nhóm, kỹ năng nghiên cứu thực tế qua những yêu cầu cụ thể của môn học "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phát triển đam mê nghề nghiệp thông qua việc nhận thức được vai trò của nhà thiết kế trong xã hội. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thuyết trình,Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái niệm và thuật ngữ ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các chức năng và tiêu chí của thiết kế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các phong cách lớn trong lịch sử thiết kế (từ cổ đại đến cận đại) ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Cách mạng công nghiệp và lịch sử thiết kế lúc khởi đầu (1750 – 1850)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các phong trào cải cách và Nghệ thuật mới (1850 – 1915)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Chủ nghĩa công năng hiện đại và Nghệ thuật trang trí (1915 – 1950)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Hình dáng tốt và những lựa chọn mới (1950 – 1980)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Chủ nghĩa Hậu hiện đại và Design đa hướng từ 1980",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

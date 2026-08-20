@@ -1,0 +1,124 @@
+{
+  "info": {
+    "sylid": 681689,
+    "subjectCode": "403041",
+    "syllabusName": "Thí nghiệm PLC (PLC Lab)",
+    "syllabusEnglish": "PLC Lab",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này cung cấp cho sinh viên những kỹ năng thực nghiệm, khi thực hiện các bài thí nghiệm, bao gồm kiến thức và những kỹ năng về: phần cứng PLC S7-1500 và PLC MITSUBISHI R04EN; nguyên lý hoạt động của chương trình điều khiển; chức năng và cách lập trình các nhóm lệnh: logic, di chuyển dữ liệu, so sánh, chuyển đổi kiểu dữ liệu, bộ định thời, bộ đếm, toán học; đọc, xử lý và ghi tín hiệu tương tự từ ngõ vào đến ngõ ra tương tự; kỹ năng sử dụng thành thạo phần mềm lập trình để cấu hình phần cứng cho PLC; viết chương trình, xử lý lỗi và thực thi chương trình điều khiển với các nhóm lệnh được liệt kê ở trên.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Ứng dụng các tập lệnh của PLC S7-1500 để viết chương trình PLC điều khiển các hệ thống tự động trong thực tế và trong công nghiệp dựa vào phần mềm TIA Portal."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng viết và thiết kế các chương trình điều khiển tự động bằng PLC."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Cải tiến chương trình để chất lượng điều khiển hệ thống đạt yêu cầu đặt ra và thi công các ứng dụng tự động dùng PLC."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Làm quen với TIA Portal và các lệnh tiếp điểm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Bộ định thời",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Bộ đếm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các lệnh di chuyển, chuyển đổi và toán học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Xử lý tín hiệu tương tự và các khối lệnh FB, FC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Làm quen với GX Work3 và các lệnh tiếp điểm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Các lệnh Timer và Counter trong PLC Mitsubishi R-Series",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Các lệnh di chuyển, so sánh và toán học trong PLC Mitsubishi R-Series",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Xử lý tín hiệu tương tự và chương trình con",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

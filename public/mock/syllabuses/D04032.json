@@ -1,0 +1,96 @@
+{
+  "info": {
+    "sylid": 38340,
+    "subjectCode": "D04032",
+    "syllabusName": "Kiểm tra các kỹ năng thực hành đánh golf (Golf Professional Practical Skill Test)",
+    "syllabusEnglish": "Golf Professional Practical Skill Test",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "\bKiến thức tích luỹ: sinh viên đã hoàn thành các học phần về kỹ thuật đánh golf.\nSinh viên sẽ được kiểm tra tổng hợp các kỹ năng trong golf bằng cách thực hành tại hiện trường thực tế, áp dụng những chiến lược đánh golf \n(dùng loại gậy, tư thế, hướng, chuẩn bị tinh thần, phân tích địa hình, đọc sân, v.v.) \nphù hợp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Ứng dụng các kỹ năng, kỹ thuật golf một cách phù hợp trong thực tiễn"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "\bKiến thức về chiến lược trong trò chơi golf"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Kiểm tra năng lực",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Performance Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": " Rounding: Khoảng cách & Địa hình (1)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": " Rounding: Khoảng cách & Địa hình (2)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Rounding: Cải thiện hiệu suất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực hành tổng hợp (P1)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": " Thực hành tổng hợp (P2)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

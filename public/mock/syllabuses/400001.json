@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 76428,
+    "subjectCode": "400001",
+    "syllabusName": "Kỹ năng phòng tránh tai nạn trong công nghiệp (Industrial Safety Skills)",
+    "syllabusEnglish": "Industrial Safety Skills",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu về an toàn, sức khỏe nghề nghiệp\n\nVai trò của OHS trong phát triển kinh tế - xã hội\n\nCác khái niệm, thuật ngữ chính trong OHS\n\nNhận biết mối nguy và các biện pháp an toàn",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Demonstrate basic knowledge about the role of safety in industry, OSH basic concepts, risk identification and propose basic measures to prevent accidents in industry"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Use knowledge about hazard identification and proposing basic measures in preventing accidents in industry"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Assume for businesses the contents to be performed / services on risk identification and propose basic measures to prevent accidents in industry "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Carry out research methods and assessment of risk identification and basic measures to prevent accidents in industry"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Build writing skills and presenting scientific reports to present program / project content effectively."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Build teamwork skills and working independently in the learning process effectively"
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Develop professional ethics; comply with occupational safety principles; have good moral qualities, knowledge and compliance with laws; respect and protect workers."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TỔNG QUAN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "MỤC ĐÍCH, Ý NGHĨA VÀ NHỮNG KHÍA CẠNH CỦA OHS",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "AN TOÀN LAO ĐỘNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "SỨC KHỎE VÀ VỆ SINH LAO ĐỘNG ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "BIỆN PHÁP AN TOÀN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

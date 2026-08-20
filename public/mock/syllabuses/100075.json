@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 864320,
+    "subjectCode": "100075",
+    "syllabusName": "Thiết kế vải 2 (Fabric Design 2)",
+    "syllabusEnglish": "Fabric Design 2",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Hệ thống lý thuyết khái quát về \nphương pháp thiết kế mẫu vải 3D\n, chuyên sâu vào từng phương pháp cụ thể \ngathering, pleating, tucking, shirring, và quilting.\n\n        - Hệ thống bài tập gắn với các loại phương pháp thiết kế 3D cho mẫu vải\n\n        - Vận dụng kiến thức nâng cao về mẫu vải để thiết kế sản phẩm",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng được kiến thức nâng cao về thiết kế vải vào nghiên cứu và định hướng thiết kế cho các các đồ án chuyên ngành."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phát triển các kỹ thuật hỗ trợ cho chuyên ngành"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phát triển sự chủ động tìm tòi, học hỏi và sáng tạo của người học về thiết kế vải"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái quát về phương pháp Patchwork",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các phương pháp tạo hình của Patchwork",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phương pháp Quilting",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thiết kế sản phẩm áp dụng phương pháp Patchwork và Quilting",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

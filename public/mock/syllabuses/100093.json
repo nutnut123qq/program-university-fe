@@ -1,0 +1,78 @@
+{
+  "info": {
+    "sylid": 465548,
+    "subjectCode": "100093",
+    "syllabusName": "Chuyên đề nhập môn Hình họa (Introduction to Drawing)",
+    "syllabusEnglish": "Introduction to Drawing",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Cấu trúc môn học chia thành 2 phần:\n\nPhần 1 ­- Luật xa gần:\r\n\nChương 1: Nhập môn Vẽ phối cảnh\n\nChương 2: Vẽ phối cảnh các điểm tụ;\n\nPhần 2 - Giải phẫu tạo hình: \n\nChương 1: Nghiên cứu cấu trúc cơ thể người\n\nChương 2: Nghiên cứu hệ thống\r\ncấu trúc Tứ chi (hai chi trên và hai chi dưới)\n\nChương 3: Nghiên cứu  Hệ\r\nthống phần thân\n\nChương 4: Xây dựng hình dáng con người bằng hình que và mảng hình học\r\ntrong không gian.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học hiểu và nhận thức được cấu trúc cơ bản về Giải phẫu và Luật xa gần"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích được các hệ thống cấu trúc cơ thể người và các phép chiếu, điểm tụ trong không gian làm nền tảng khi tiếp cận và nghiên cứu các môn cơ bản và đồ án chuyên ngành"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng các kiến thức giải phẫu, Luật xa gần vào quá trình nghiên cứu Hình họa"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tiểu luận,Thuyết trình,Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay,Presentation,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận,Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test,Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Luật xa gần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Giải phẩu và tỉ lệ cơ thể người",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

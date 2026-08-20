@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 2579,
+    "subjectCode": "D04031",
+    "syllabusName": "Tổn thương và hồi phục (Wound & Rehabilitation)",
+    "syllabusEnglish": "Wound & Rehabilitation",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "-\n\nChương 0 Giới thiệu chung về môn học\n-\n\nChương 1 Lý luận chung\n-\n\nChương 2 Sơ lược về bệnh lý của chấn thương thể thao\n-\n\nChương 3 Chuẩn đoán chấn thương thể thao\n-\n\nChương 4 Nguyên tắc điều trị các chấn thương thể thao\n-\n\nChương 5 Những chấn thương thường gặp trong tập luyện và thi đấu thể thao\n-\n\nChương 6 Phương pháp điều trị cơ bản của các chấn thương thể thao",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng được các kiến thức liên quan về chấn thương thể thao, chẩn đoán chấn thương thể thao, nguyên tắc và phương pháp điều trị chấn thương thể thao vào quá trình học tập và tập luyện của các môn thể thao nói chung và môn Golf nói riêng từ đó nâng cao hiệu quả của phòng ngừa chấn thương. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Chỉ ra được phẩm chất đạo đức, ý thức chấp hành pháp luật, tinh thần phụng sự và luôn hoàn thiện bản thân để giúp ích cho sự phát triển của xã hội nói chung và sự nghiệp thể thao nói riêng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Xác định được kiến thức liên quan đến các chấn thương thường gặp và các liệu pháp hồi phục cơ bản của các môn thể thao nói chung và môn Golf nói riêng từ đó góp phần phòng ngừa chấn thương xảy ra trong quá trình học tập và tập luyện, đồng thời nâng cao hiệu quả của quá trình tập luyện. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những vấn đề chung trong Tổn thương và hồi phục",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Sơ lược về bệnh lý của chấn thương thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phương pháp chẩn đoán chấn thương trong thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Nguyên tắc điều trị các chấn thương thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Bệnh lý và chấn thương thường gặp trong tập luyện và thi đấu thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Phương pháp hồi phục chấn thương thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

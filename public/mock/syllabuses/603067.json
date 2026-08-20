@@ -1,0 +1,150 @@
+{
+  "info": {
+    "sylid": 588636,
+    "subjectCode": "603067",
+    "syllabusName": "Tiến hóa và sinh lý sinh thái (Evolutionary and Physiological Ecology)",
+    "syllabusEnglish": "Evolutionary and Physiological Ecology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Giải thích nguồn gốc của sự sống và thuyết tiến hoá quần thể của Darwin \n\nGiới thiệu về mối quan hệ tương hỗ giữa sinh vật và môi trường sống xung quanh \n\nNhấn mạnh tới sự tác động nội tại và qua lại giữa quần thể, năng lượng sinh thái, sinh lý sinh thái trong tiến hoá thông qua biến đổi, thích nghi và chọn lọc tự nhiên \n\nĐộng vật, thực vật và vi sinh vật là các đối tượng nghiên cứu của môn học này",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Môn học sẽ cung cấp cho sinh viên những kiến thức cơ bản về lý thuyết tiến hoá và nguồn gốc của sự sống. Bên cạnh đó, người học sẽ được trang bị hiểu biết về những nhân tố chính có tác động lớn đến hình thái của động thực vật như năng lượng, nhiệt độ, nước và sinh dưỡng trong đời sống cá thể và trong quá trình tiến hoá."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nhận thức được mối liên hệ tác động của sinh thái, môi trường đến thế giới sinh vật, mối tương tác của quần thể, quần xã và sự tiến hóa chung của sinh giới."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu được phương pháp các nhà khoa học tiếp cận vấn đề khoa học ở mức độ vi mô và vĩ mô. Có được tư duy suy nghĩ độc lập, khoa học để giải quyết vấn đề một cách logic và cụ thể, rõ ràng."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sau khi học xong, sinh viên phải có được một cái nhìn tổng quát về tất cả các hệ thống sinh vật có nguồn gốc từ một tổ tiên chung. Các đặc điểm hình thái sinh vật có được ngày nay là kết quả của cả một quá tình tiến hoá lâu dài chứ không phải là một yếu tố siêu hình nào khác. Người học có nhận thức mới về môn học, có thái độ học tập và nghiên cứu đúng đắn."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tiến hoá và sinh lý sinh thái",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nguồn gốc sự sống và tiến hoá",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Biến dị và thích nghi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Năng lượng sinh thái",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Vai trò của nhiệt độ trong tiến hoá sinh lý sinh thái",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Vai trò của nước và áp suất thẩm thấu trong tiến hoá sinh lý sinh thái",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Vai trò của dinh dưỡng trong tiến hoá sinh lý sinh thái",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Quan hệ của các sinh vật trong tiến hoá sinh lý sinh thái",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Bài tập tình huống (Case study)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

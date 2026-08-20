@@ -1,0 +1,158 @@
+{
+  "info": {
+    "sylid": 424755,
+    "subjectCode": "H01037",
+    "syllabusName": "Kinh tế Dược (Pharmaceutical Economics)",
+    "syllabusEnglish": "Pharmaceutical Economics",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Kinh tế dược cung cấp cho người học những kiến thức cơ bản về kinh tế học, các khái niệm cơ bản trong kinh tế vi mô và kinh tế vĩ mô, loại hình doanh nghiệp dược khác nhau và các quy định của pháp luật liên quan đến hoạt động kinh tế Dược. Ngoài ra, môn học còn cung cấp cho người học những kiến thức cơ bản về phân tích trong kinh tế dược như: chi phí – hiệu quả, chi phí – lợi ích, chi phí – thỏa dụng, tối thiểu hóa chi phí và ra quyết định trong kinh tế dược.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: sinh viên nắm những kiến thức cơ bản về kinh tế học, các loại hình doanh nghiệp, quy định của pháp luật liên quan đến hoạt động kinh tế Dược và các phân tích trong kinh tế dược để sinh viên có thể thích ứng trong nhiều loại môi trường doanh nghiệp"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng: sinh viên biết cách phân tích các vấn đề kinh tế dược cơ bản, giải thích được kết quả của các phân tích trong kinh tế dược và những quyết định có liên quan trong doanh nghiệp"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Dựa vào các kiến thức đã học, sinh viên có thể rèn luyện và phát triển kỹ năng suy nghĩ độc lập và tư duy khoa học (critical thinking)"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học có ý thức tích cực trong học tập và chủ động sáng tạo trong công việc để chuẩn bị"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tiểu luận,Thuyết trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về kinh tế học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổng quan về kinh tế học (Tiếp theo)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Sơ lược các yếu tố kinh tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Sơ lược các yếu tố kinh tế (Tiếp theo)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các chi phí trong kinh tế y tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Các chi phí trong kinh tế y tế (Tiếp theo)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Các chi phí trong kinh tế y tế (Tiếp theo)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Các chi phí trong kinh tế y tế (Tiếp theo)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Các chi phí trong kinh tế y tế (Tiếp theo)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Các chi phí trong kinh tế y tế (Tiếp theo)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

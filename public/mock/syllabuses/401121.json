@@ -1,0 +1,106 @@
+{
+  "info": {
+    "sylid": 728944,
+    "subjectCode": "401121",
+    "syllabusName": "Đồ án tổng hợp (Integrated Project)",
+    "syllabusEnglish": "Integrated Project",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giúp sinh viên vận dụng các kiến thức đã học và tự tìm hiểu thêm để thực hiện một đề tài liên quan đến chuyên ngành kỹ thuật điện.\n\nSinh viên nhận đề tài chuyên ngành kỹ thuật điện, thực hiện yêu cầu nhiệm vụ đồ án tốt nghiệp và bảo vệ kết quả thực hiện được trước hội đồng.\n\nMôn học cung cấp cho sinh viên các kỹ năng lập kế hoạch, lựa chọn và thực hiện phương án thiết kế, quản lý thời gian hiệu quả, trao đổi kiến thức với giảng viên.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết cách xác định các chỉ tiêu kỹ thuật cho một hệ thống điện/lưới điện/quá trình điều khiển năng lượng và lập kế hoạch thực hiện."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu nguyên lý hoạt động lưới điện/hệ thống điện/ quá trình điều khiển năng lượng đang khảo sát."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Áp dụng các công cụ toán học, phần mềm mô phỏng để thiết kế một hệ thống điện/hệ thống điện/quá trình điều khiển năng lượng thực tế."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá các giải pháp đã chọn và đề xuất các biện pháp cải thiện khả năng làm việc của hệ thống thiết kế"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhận tên đề tài và nhiệm vụ đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lựa chọn giải pháp và thiết kế hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế, mô phỏng hệ thống điện/lưới điện hoặc hoặc thi công mô hình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Báo cáo tiến độ 50% đồ án tốt nghiệp trước hội đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thiết kế, mô phỏng hệ thống điện/lưới điện hoặc hoặc thi công mô hình (tt)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Hoàn tất sản phẩm, hoàn thiện báo cáo + slides theo mẫu quy định.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 301763,
+    "subjectCode": "H01213",
+    "syllabusName": "Thực vật (Pharmaceutical Botany)",
+    "syllabusEnglish": "Pharmaceutical Botany",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Phần 1: Hình thái - Giải phẫu thực vật\nKhái niệm về mô, cấu tạo và phân loại mô thực vật\nĐặc điểm giải phẫu của các cơ quan thực vật: rễ, thân lá, hoa, quả, hạt\nMô tả các cơ quan sinh dưỡng và sinh sản của thực vật\nPhần 2: Phân loại thực vật\nĐại cương phân loại thực vật\nĐặc điểm của một số họ thực vật thông dụng\nTên và công dụng của một số dược liệu thông dụng trong họ.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các khái niệm về mô, cấu tạo và phân loại mô thực vật"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu và phân biệt được cấu tạo giải phẫu các cơ quan thực vật"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu được hệ thống phân loại thực vật"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Ghi nhớ đặc điểm một số họ thực vật thông dụng"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giải phẫu thực vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phân loại thực vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

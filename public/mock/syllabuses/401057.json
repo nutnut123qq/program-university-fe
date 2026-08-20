@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 661633,
+    "subjectCode": "401057",
+    "syllabusName": "Kỹ thuật an toàn điện (Electrical Safety Engineering)",
+    "syllabusEnglish": "Electrical Safety Engineering",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giới thiệu các kiến thức, kỹ năng cần thiết cho việc giải quyết các vấn đề: phân tích, tính toán, thiết kế từ đơn giản cho đến phức tạp về an toàn điện của chương trình kỹ thuật điện. Môn học hướng đến cả sinh viên và các chuyên gia về kiến trúc và những người trong các lĩnh vực liên quan như quản lý thiết bị, quản lý xây dựng, quy hoạch, và kỹ thuật điện. Bên cạnh đó, môn học còn giới thiệu hai phần mềm: GEM và Benji Procalc để thiết kế nối đất và thiết kế chống sét, cung cấp nền tảng để sinh viên ứng dụng các kỹ thuật này để thi công ngoài thực tế.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết giải thích các nguyên tắc cơ bản về an toàn điện. Có khả năng tính toán thiết kế hệ thống chống sét và nối đất."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết phân tích, lựa chọn các thiết bị an toàn hiện tại, sử dụng các phần mềm tính toán chống sét, nối đất hiện đại, tiếp thu các công nghệ an toàn tiên tiến trên thế giới. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đề xuất và áp dụng các biện pháp sử dụng thiết bị an toàn như máy cắt, kim thu sét,… hiệu quả vào các công trình thực tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các khái niệm cơ bản về an toàn điện ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phân tích an toàn trong mạng điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các biện pháp an toàn cơ bản ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hệ thống bảo vệ chống sét",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Sự nguy hiểm khi điện áp cao xâm nhập vào điện áp thấp ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Biện pháp kỹ thuật an toàn điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Tổ chức an toàn điện và sơ cứu người bị điện giật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

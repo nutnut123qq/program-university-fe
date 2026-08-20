@@ -1,0 +1,96 @@
+{
+  "info": {
+    "sylid": 384230,
+    "subjectCode": "302222",
+    "syllabusName": "Xã hội học kinh tế (Sociology of Economy)",
+    "syllabusEnglish": "Sociology of Economy",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Module này giới thiệu về đối tượng nghiên cứu của xã hội học kinh tế; Phương pháp tiếp cận lý thuyết quan trọng trong xã hội học kinh tế - tiếp cận thể chế, tiếp cận mạng lưới. Sinh viên sẽ được áp dụng kiến thức lý thuyết xã hội học để nhận diện được các chiều cạnh/phương diện xã hội của hiện tượng kinh tế thông qua việc thuyết trình tài liệu đọc.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học hiểu được các khái niệm quan trọng như cạnh tranh, kinh doanh, mạng lưới kinh doanh, niềm tin, vốn xã hội và toàn cầu hóa kinh tế; "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học hiểu được các chiều cạnh/phương diện xã hội của đời sống kinh tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học phân tích được mối quan hệ xã hội được hình thành khi các giao dịch kinh tế được thực hiện; Ở cấp độ vĩ mô, phân tích vai trò của các tổ chức xã hội ảnh hưởng đến hành vi kinh tế như thế nào. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhập môn Xã hội học kinh tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thể chế và sự phối hợp hành vi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hành vi kinh tế và thể chế xã hội",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

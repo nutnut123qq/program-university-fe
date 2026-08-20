@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 594333,
+    "subjectCode": "805034",
+    "syllabusName": "Kiểm định công trình xây dựng (Construction Reevaluation)",
+    "syllabusEnglish": "Construction Reevaluation",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "·\n\nTổng quan và dụng cụ, máy móc thiết bị trong công tác kiểm định.\n·\n\nQuy trình kiểm định chất lượng công trình cụ thể.\n·\n\nPhân tích đánh giá mức độ an toàn, nguy hiểm của công trình.\n\n·\n\nĐưa ra kết luận kiến nghị hướng xử lý đảm bảo an toàn trong quá trình\r\nvận hành công trình.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giúp sinh viên nắm vững các tiêu chuẩn, quy chuẩn trong xây dựng. Hiểu và biết công việc kiểm định chất lượng công trình xây dựng"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Quy trình thực hiện công việc kiểm định ngoài công trường, thống kế, tổng hợp số liệu từ đó có những xử lý, đánh giá để đưa ra kết luận kiến nghị đảm bảo an toàn cho công trình xây dựng"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Lập báo cáo, hồ sơ kiểm định để làm cơ sở nghiệm thu công trình. Tuân thủ Luật Xây dựng, quy định của nhà nước và tiêu chuẩn quốc tế"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên biết chủ động trong việc tìm tòi học hỏi, nghiên cứu tài liệu liên quan đến công tác kiểm định chất lượng công trình xây dựng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về kiểm định công trình xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kiểm định chất lượng công trình xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Một số chỉ tiêu đánh giá tình trạng nguy hiểm của kết cấu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Đánh giá khóa học và báo cáo cuối kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

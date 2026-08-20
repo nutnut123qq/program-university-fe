@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 408625,
+    "subjectCode": "302137",
+    "syllabusName": "Khóa luận tốt nghiệp (Graduation Thesis)",
+    "syllabusEnglish": "Graduation Thesis",
+    "credits": "6",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần cung cấp cho sinh viên kiến thức và kỹ năng nền tảng về phương pháp, kỹ thuật thu thập thông tin, phân tích và đánh giá vấn đề, nghiên cứu xã hội, trên cơ sở đó, sinh viên có thể đề xuất được các phương hướng, giải pháp ở các cấp độ vi mô, trung mô và vĩ mô. Kết thúc học phần, sinh viên có nền tảng và khả năng nghiên cứu khoa học, theo học các trình độ đào tạo bậc sau đại học.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Xác định chủ đề nghiên cứu; Trình bày cơ sở lý luận và thực tiễn về chủ đề quan tâm nghiên cứu."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Xác định đúng phương pháp nghiên cứu "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng xây dựng được bộ công cụ thu thập thông tin định lượng và định tính."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có khả năng xử lý bộ dữ liệu định lượng và định tính đáp ứng yêu cầu phân tích nội dung nghiên cứu"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Phân tích, đánh giá, tổng hợp thực trạng vấn đề nghiên cứu dựa trên bằng chứng thực nghiệm."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Đề xuất khuyến nghị, giải pháp để tạo sự chuyển biến tích cực hiện trạng xã hội dựa trên bằng chứng thực nghiệm; Nhận diện vấn đề phát sinh mới và đề xuất phương hướng nghiên cứu tiếp theo."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chương 1: Viết đề cương Khoá luận",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Viết tổng quan nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Biên soạn bộ công cụ thu thập thông tin ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Khảo sát thực địa và xử lý dữ liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Viết báo cáo tổng hợp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

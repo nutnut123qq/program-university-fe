@@ -1,0 +1,178 @@
+{
+  "info": {
+    "sylid": 318168,
+    "subjectCode": "901031",
+    "syllabusName": "Xử lý nước thải (Wastewater Treatment Engineering)",
+    "syllabusEnglish": "Wastewater Treatment Engineering",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 1: Nguồn phát sinh và thành phần, tính chất nước thải\n\nChương 2: Xử lý nước thải bằng phương pháp cơ học\n\nChương 3: Xử lý nước thải bằng phương pháp hóa học - hóa lý\n\nChương 4: Xử lý nước thải bằng phương pháp sinh học\n\nChương 5: Xử lý bùn cặn\n\nChương 6: Một số quy trình xử lý nước thải điển hình",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các kiến thức cơ bản về thành phần, tính chất các loại hình nước thải khác nhau, và các quy chuẩn xả thải vào nguồn tiếp nhận cho từng loại hình nước thải."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Đề xuất được sơ đồ công nghệ xử lý nước thải phù hợp, nhằm đảm bảo nước thải sau xử lý đạt quy chuẩn xả thải trên cơ sở các kiến thức về các phương pháp xử lý nước thải, bao gồm phương pháp cơ học, hóa học, hóa lý, sinh học."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá được hiệu quả hoạt động vận hành của các hạng mục công trình trong hệ thống xử lý nước thải và đề xuất các chương trình giám sát, bảo hành bảo dưỡng. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Biết một số thuật ngữ tiếng Anh chuyên ngành và một số website khoa học liên quan đến lĩnh vực kỹ thuật xử lý nước thải."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Vận dụng các kiến thức tự nhiên về lý, hóa, sinh để hiểu được thành phần tính chất nước thải và thực hiện các phép tính toán cơ bản."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Phân tích được mức độ tác động của nước thải chưa qua xử lý và hiện trạng môi trường tiếp nhận để làm cơ sở cho việc đề xuất các giải pháp thu gom và xử lý nước thải."
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Phân tích được mức độ ô nhiễm của nước thải và yêu cầu cần xử lý để hỗ trợ tư vấn cho các chủ nguồn thải áp dụng các biện pháp xử lý phù hợp."
+    },
+    {
+      "id": 8,
+      "loSeq": "8",
+      "cloName": "CO8",
+      "loDetails": "Đề xuất các giải pháp kỹ thuật công nghệ xử lý nước thải và quy trình quản lý tiên tiến, tích hợp theo xu hướng phát triển bền vững, chi phí thấp."
+    },
+    {
+      "id": 9,
+      "loSeq": "9",
+      "cloName": "CO9",
+      "loDetails": "Đề xuất được các ý tưởng mới thông qua việc vận dụng các kỹ năng giao tiếp, làm việc nhóm, và kỹ năng viết báo cáo trình bày."
+    },
+    {
+      "id": 10,
+      "loSeq": "10",
+      "cloName": "CO10",
+      "loDetails": "Đề xuất các kế hoạch thực hiện các công tác tuyên truyền, nâng cao ý thức cộng đồng về sử dụng tài nguyên nước và xả thải nước thải vào môi trường."
+    },
+    {
+      "id": 11,
+      "loSeq": "11",
+      "cloName": "CO11",
+      "loDetails": "Phát triển các ý tưởng cá nhân về các giải pháp nâng cao hiệu quả xử lý nước thải thành các kế hoạch khả thi của tập thể, nhóm và ứng dụng vào thực tiễn."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nguồn phát sinh và thành phần, tính chất nước thải",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Xử lý nước thải bằng phương pháp cơ học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Xử lý nước thải bằng phương pháp hóa học – hóa lý",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Xử lý nước thải bằng phương pháp sinh học ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Xử lý bùn cặn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Một số qui trình công nghệ xử lý nước thải điển hình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,70 @@
+{
+  "info": {
+    "sylid": 338521,
+    "subjectCode": "E01CM9",
+    "syllabusName": "Kỹ năng thực hành chuyên môn (Professional Skills Exam)",
+    "syllabusEnglish": "Professional Skills Exam",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Sau quá trình trải nghiệm thực tiễn công việc tại đơn vị Tập sự nghề nghiệp, sinh viên sẽ thể hiện những kỹ thuật, nghiệp vụ, kỹ năng đã học tập, tiếp thu từ thực tiễn công việc để giải quyết bài đánh giá kỹ năng thực hành chuyên môn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Rèn luyện được tác phong làm việc chuyên nghiệp, biết cách tìm kiếm và tổng hợp thông tin, có kỹ năng làm việc nhóm, nâng cao năng lực làm việc độc lập. Bước đầu làm quen với thực hành nghề luật"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng kiến thức vào xử lý thực tiễn công việc cụ thể"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Kết cấu đề thi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phạm vi bài thi (Các nội dung thi dưới đây là gợi ý. Trong một phần/bài thi có thể có một nội dung hoặc kết hợp nhiều nội dung)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tài liệu sử dụng trong phòng thi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

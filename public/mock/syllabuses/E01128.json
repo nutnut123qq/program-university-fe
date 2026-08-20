@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 921425,
+    "subjectCode": "E01128",
+    "syllabusName": "Tâm thần học tư pháp (Forensic Psychology)",
+    "syllabusEnglish": "Forensic Psychology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Tâm thần học tư pháp là một môn học trong chuyên ngành luật hình sự. Nghiên cứu lĩnh vực khoa học ứng dụng kiến thức tâm thần học vào hoạt động tố tụng hình sự trong khuôn khổ khung pháp lý của pháp luật tố tụng hình sự. Môn học trang bị cho sinh viên những kiến thức chung về tâm thần học tư pháp như khái niệm tâm thần tư pháp, bệnh lý tâm thần của phạm nhân trong hoạt động tư pháp, các phương pháp tác động tâm lý trong hoạt động tư pháp hình sự. Môn học cũng cung cấp kiến thức ứng dụng tâm thần học tư pháp vào các hoạt động tố tụng cụ thể như làm rõ các đặc điểm tâm lý của các hoạt động điều tra, truy tố, xét xử, bào chữa trong tố tụng hình sự. Người học nắm vững giới hạn tố tụng trong việc sử dụng các phương pháp tác động tâm lý trong tố tụng hình sự.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên những kiến thức lý luận cơ bản về Tâm thần học tư pháp, từ đó có thể ứng dụng vào việc giải quyết vụ án hình sự thông qua sự tự điều chỉnh về tâm lý của cán bộ tư pháp và việc sử dụng hiệu quả phương pháp tác động tâm lý."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Trang bị cho sinh viên các kỹ năng ứng dụng kiến thức tâm lý trong hoạt động tố tụng hình sự để đạt được mục tiêu tố tụng và hoàn thành nhiệm vụ tố tụng của mình khi hành nghề. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Trang bị cho sinh viên các kỹ năng ứng dụng kiến thức tâm lý trong hoạt động tố tụng hình sự để đạt được mục tiêu tố tụng và hoàn thành nhiệm vụ tố tụng của mình khi hành nghề. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Trang bị cho sinh viên các kỹ năng ứng dụng kiến thức tâm lý trong hoạt động tố tụng hình sự để đạt được mục tiêu tố tụng và hoàn thành nhiệm vụ tố tụng của mình khi hành nghề. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "KHÁI QUÁT VỀ TÂM THẦN HỌC TƯ PHÁP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "CÁC BỆNH TÂM THẦN THƯỜNG GẶP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "QUẢN LÝ-THEO DÕI-HỖ TRỢ -PHÒNG NGỪA NGƯỜI BỆNH TÂM THẦN ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

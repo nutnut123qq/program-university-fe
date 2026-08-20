@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 231089,
+    "subjectCode": "D01120",
+    "syllabusName": "GDTC 1 - Thể hình Fitness (Physical Education 1 - Fitness)",
+    "syllabusEnglish": "Physical Education 1 - Fitness",
+    "credits": "0",
+    "degreeLevel": "Bachelor",
+    "description": "- Lý thuyết:\n\nBài 1 - Lịch sử hình thành và phát triển Thể hình\r\n- Fitness trên thế giới và Việt Nam.\n\nBài 2 - Lợi ích tập luyện, vệ sinh, phòng ngừa chấn\r\nthương trong tập luyện Thể hình-Fitness.\n\nBài 3 - Kỹ thuật cơ bản trong tập luyện Thể\r\nhình-Fitness.\n\nBài 4 - Luật phương pháp tổ chức thi đấu Thể hình-Fitness.\n- \nThực hành:\n·\n\nHướng dẫn sử dụng được các\r\nthiết bị máy tập, dụng cụ tập cơ bản của môn \nThể hình-Fitness.\n.\n·\n\nThực hiện bài khởi động chung,\r\nchuyên môn, căng cơ, thả lỏng trong môn \nThể hình-Fitness.\n.\n·\n\nThực hiện các kỹ thuật động tác\r\ncơ bản của môn \nThể hình-Fitness.\n.\n·\n\nLập chương trình bài tập và tập\r\nluyện cá nhân.\n·\n\nCác bài tập bổ trợ kỹ thuật và\r\nphát triển thể lực chuyên môn \nThể hình-Fitness.\n.\n\n·\n\nÔn tập và thi thực hành kết\r\nthúc môn .",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "-\tKiến thức: \n\tNắm được những kiến thức khái quát về lịch sử hình thành và phát triển môn thể dục nói chung và môn Fitness  nói riêng.\n\tGhi nhớ và hiểu rõ các kỹ thuật cơ bản môn Fitness, nội dung và cấu trúc của một bài tập Fitness, luật thi đấu của môn Fitness, cũng như phương pháp phòng chống chấn thương có thể giúp cho sinh viên có thể phòng tránh chấn thương khi tham gia các hoạt động thể thao.\n\tSau khi học xong người học có thể tự tập, nâng cao lượng vận động và phát triển hình thể của bản thân. \n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "-\tKỹ năng: \n\tSinh viên có thể tự tập chuỗi bài tập cơ bản cho cá nhân.\n\tSử dụng được các thiết bị máy tập, dụng cụ tập cơ bản của môn Fitness.\n\tThực hiện được các bài tập cơ bản với máy tập, dụng cụ và tay không.\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Sinh viên phải cần có tinh thần tích cực và nổ lực cao, vì những kỹ năng thực hiện vận động của môn Fitness rất khó định hình và cảm giác vận động, những bài tập này cần sự kết hợp đầy đủ của: hệ thần kinh, hệ vận động, hệ hô hấp, hệ tuần hoàn...."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Yêu cầu tất cả sinh viên phải có thái độ nghiêm túc, luôn nổ lực học hỏi và luyện tập, hoàn toàn chấp hành quy định lớp học của giảng viên và nội quy của phòng tập. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "80%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Học online: 15 tiết (sinh viên tự học trên nền tảng kỹ thuật số)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực hành: 45 tiết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

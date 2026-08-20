@@ -1,0 +1,61 @@
+{
+  "info": {
+    "sylid": 149940,
+    "subjectCode": "103CM6",
+    "syllabusName": "Kỹ năng thực hành chuyên môn (Professional Skills Exam)",
+    "syllabusEnglish": "Professional Skills Exam",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Kỹ năng thực hành chuyên môn thuộc khối kiến thức B.2.2.1  Kiến thức tập sự nghề nghiệp/Kỹ năng chuyên môn của Trường Đại học Tôn Đức Thắng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hệ thống lại kiến thức chuyên ngành từ lý thuyết đến thực hành"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nắm vững kiến thức chuyên ngành, trở thành chuyên viên có kiến thức tốt trong lĩnh vực thiết kế"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Ứng dụng hệ thống kiến thức vào các dự án thiết kế trong và ngoài nước"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [],
+  "materials": []
+}

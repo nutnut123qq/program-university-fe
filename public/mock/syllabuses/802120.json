@@ -1,0 +1,130 @@
+{
+  "info": {
+    "sylid": 113777,
+    "subjectCode": "802120",
+    "syllabusName": "Kỹ thuật thi công và khai thác cầu đường (Bridge & Highway Construction)",
+    "syllabusEnglish": "Bridge & Highway Construction",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "·\n\nPhần 1: Xây dựng và khai\r\nthác đường, gồm các chương:1,2,3\n\n·\n\nPhần 2: Xây dựng và khai\r\nthác, kiểm định, sửa chữa, tăng cường cầu gồm các chương: 4,5,6",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Trang bị cho sinh viên những kiến thức cơ bản về đặc điểm, trình tự, biện pháp tổ chức thi công và kiến thức cơ bản về quản lý, khai thác, đánh giá và sửa chữa, tăng cường công trình cầu đường bộ."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Cung cấp cho sinh viên các kiến thức về qui trình thi công nền, mặt đường, lu lèn các lớp mặt đường, công tác hoàn thiện mặt đường, tính toán một số nội dung cơ bản trong thi công và kiểm định cầu."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thái độ và hành vi: \r\n+ Nghiêm túc trong học tập, tham gia đủ các tiết học theo quy định.\r\n+ Luôn chủ động trong việc tìm tòi học hỏi, nghiên cứu tài liệu.\r\n+ Làm đủ các bài tập, tích cực hổ trợ bạn bè trong học tập. \r\n+ Chấp hành các quy định của nhà trường và lớp học, có tinh thần cầu tiến trong học tập và nghiên cứu.\r\n+ Hình thành hướng phát triển và đạo đức nghề nghiệp khi ra trường.\r\n\r\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thi công nền đường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thi công mặt đường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Khai thác đường ô tô",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Đặc điểm thi công cầu và phương pháp thi công kết cấu phần dưới ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thi công kết cấu phần trên công trình cầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Quản lý, kiểm định, sửa chữa và tăng cường cầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

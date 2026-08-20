@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 97344,
+    "subjectCode": "302224",
+    "syllabusName": "Thực tế nghề nghiệp (Internship)",
+    "syllabusEnglish": "Internship",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc tổ chức sinh viên đến học thực tế nghề nghiệp tại doanh nghiệp (tổ chức xã\r\nhội, tổ chức hành chính công…) với các nội dung chính sau:\n\n-\r\nQuan sát hiện thực khách quan: Tìm hiểu cơ cấu tổ chức và hoạt động của cơ\r\nquan/ tổ chức; Tìm hiểu cách bố trí văn phòng và các trang thiết bị được sử\r\ndụng tại các cơ quan/ tổ chức.\n\n-\r\nPhát hiện vấn đề nghiên cứu.\n\n-\r\nThiết kế nghiên cứu, kế hoạch hành động hoặc đề xuất dự án.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu rõ về tổ chức/cơ quan/doanh nghiệp đăng ký thực tế nghề nghiệp"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Xác định được vị trí, vai trò của cá nhân tại nơi thực tế nghề nghiệp"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sử dụng những kiến thức, kỹ năng được học để vận dụng vào vị trí công việc tại nơi thực tế nghề nghiệp"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phân tích được các điểm mạnh, điểm yếu, thời cơ và thách thức của cá nhân khi thực tế nghề nghiệp"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Xây dựng đề xuất nghiên cứu qua sự phát hiện các vấn đề nảy sinh tại nơi thực tế nghề nghiệp"
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Phát triển các kỹ năng mềm trong quá trình thực tế nghề nghiệp để làm tốt nhiệm vụ được giao "
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Phát triển thái độ làm việc chuyên nghiệp, đảm bảo đạo đức nghề nghiệp trong quá trình thực tế nghề nghiệp"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Quan sát hiện thực khách quan",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phát hiện vấn đề nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế nghiên cứu, kế hoạch hành động hoặc đề xuất dự án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Viết báo cáo ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

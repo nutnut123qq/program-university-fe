@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 234883,
+    "subjectCode": "H02023",
+    "syllabusName": "Công nghệ protein và enzyme (Protein and Enzyme Technology)",
+    "syllabusEnglish": "Protein and Enzyme Technology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Khóa học này cung cấp tổng quan về cấu trúc, tính chất và chức năng của protein, protein tái tổ hợp và enzyme. Khóa học cũng giới thiệu các quy trình sản xuất protein, protein tái tổ hợp và enzyme ở quy mô công nghiệp, bao gồm các phương pháp xử lý và tinh chế, cũng như tối ưu hóa các điều kiện để thu hồi và tinh chế protein tái tổ hợp và protein hoạt tính sinh học. Một số nghiên cứu điển hình về việc sử dụng protein và enzyme trong khoa học y sinh sẽ được trình bày trong các bài giảng và thông qua các bài thuyết trình của sinh viên.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp kiến ​​thức về cấu trúc, tính chất, chức năng và ứng dụng của protein, protein tái tổ hợp và enzyme."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Cung cấp kiến ​​thức về các quy trình thu nhận và tinh chế protein và protein tái tổ hợp, xác định định tính và định lượng hàm lượng protein, và xác định hoạt tính enzyme."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Cung cấp các phương pháp nghiên cứu ảnh hưởng của các yếu tố khác nhau đến quá trình sinh tổng hợp protein tái tổ hợp và enzyme tham gia vào các con đường trao đổi chất, cũng như sự ức chế các enzyme liên quan đến bệnh tật. Xác định các thông số động học của enzyme."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình",
+      "type": "Bài tập quá trình,Tự luận",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về Protein",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Công nghệ Protein và Protein tái tổ hợp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phân tích định tính và định lượng Protein",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Động học Enzyme",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Công nghệ Enzyme",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Enzyme cố định",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Ứng dụng của Protein và Enzyme trong Khoa học Y sinh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

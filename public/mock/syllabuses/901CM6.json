@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 401040,
+    "subjectCode": "901CM6",
+    "syllabusName": "Kỹ năng thực hành chuyên môn (Professional Skills Exam)",
+    "syllabusEnglish": "Professional Skills Exam",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "·\n\nTừng sinh viên tự ôn tập các kiến thức cơ sở\r\nngành và chuyên ngành thông qua việc tổng hợp các nguồn tài liệu/ học liệu đã\r\nhọc trong các môn học \n\n·\n\nSinh viên có thể tham khảo ý kiến/ hướng dẫn của\r\nGiảng viên cố vấn lớp hoặc Giảng viên phụ trách môn học tương ứng \n\n·\n\nSinh viên thực hiện việc tự học và ôn tập theo\r\nđúng tiến độ quy định của Khoa và Nhà trường\n\n·\n\nSinh viên theo dõi thông báo việc đăng ký thi Kỹ\r\nnăng thực hành chuyên môn theo kế hoạch của Nhà trường",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng các kiến thức về khoa học tự nhiên, ngoại ngữ, tin học để thực hiện tổng hợp các kiến thức kỹ năng chuyên môn, phục vụ cho học phần tốt nghiệp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phát triển các kỹ năng viết và trình bày báo cáo khoa học trong quá trìn tổng hợp kỹ năng thực hành chuyên môn."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phát triển và nâng cao nhận thức về bảo vệ môi trường, nhận diện vai trò quan trọng của hoạt động cộng đồng vì môi trường để hình thành những kỹ năng cần thiết sau khi tốt nghiệp."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Vận dụng thành thạo các tiêu chuẩn, quy chuẩn, các quy định mang tính pháp lý theo Luật Bảo vệ Môi trường hiện hành."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Vận dụng các thông số thiết kế tối ưu cho các hạng mục công trình trong hệ thống công trình xử lý môi trường và hệ thống hạ tầng cơ sở."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Vận dụng đồng bộ khối kiến thức lý thuyết chuyên ngành của lĩnh vực kỹ thuật môi trường và cấp thoát nước vào việc giải quyết các bài toán trong các tình huống thực tế."
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Phân tích được hiện trạng ô nhiễm môi trường và công tác kiểm soát, quản lý ô nhiễm tại một địa điểm (nhà máy, xí nghiệp, địa phương) cụ thể."
+    },
+    {
+      "id": 8,
+      "loSeq": "8",
+      "cloName": "CO8",
+      "loDetails": "Đánh giá tính hiệu quả của các chương trình bảo vệ môi trường, các phương án xây dựng hệ thống cơ sở hạ tầng cho một đơn vị cụ thể."
+    },
+    {
+      "id": 9,
+      "loSeq": "9",
+      "cloName": "CO9",
+      "loDetails": "Đánh giá tính khả thi của các phương án/ chương trình bảo vệ môi trường theo các tiêu chí của phát triển bền vững."
+    },
+    {
+      "id": 10,
+      "loSeq": "10",
+      "cloName": "CO10",
+      "loDetails": "Đề xuất các sáng kiến, các giải pháp thiết kế mới, các kỹ thuật hạ tầng tiên tiến về lĩnh vực kỹ thuật xử lý ô nhiễm môi trường, kỹ thuật hạ tầng đô thị."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "ÔN TẬP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

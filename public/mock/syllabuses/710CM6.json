@@ -1,0 +1,45 @@
+{
+  "info": {
+    "sylid": 807478,
+    "subjectCode": "710CM6",
+    "syllabusName": "Kỹ năng thực hành chuyên môn (Qualification Exam)",
+    "syllabusEnglish": "Qualification Exam",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Bài kiểm tra bao gồm hai phần:\nTrắc nghiệm (khoảng 75 phút): đánh giá sự hiểu biết về lý thuyết và khả năng áp dụng lý thuyết vào các tình huống kinh doanh.\nBài kiểm tra tự luận (khoảng 75 phút): đánh giá khả năng giải quyết các vấn đề quản lý nguồn nhân lực.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Đánh giá khả năng áp dụng kiến ​​thức từ các khóa học."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Đánh giá trình độ thành thạo các kỹ năng cần thiết cho việc quản lý nguồn nhân lực."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [],
+  "materials": []
+}

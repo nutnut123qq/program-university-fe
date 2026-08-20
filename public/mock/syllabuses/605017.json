@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 185851,
+    "subjectCode": "605017",
+    "syllabusName": "Thí nghiệm chuyên đề vật liệu hữu cơ (Organic Materials Laboratory)",
+    "syllabusEnglish": "Organic Materials Laboratory",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp các kiến thức căn bản về kỹ thuật phòng thí nghiệm. Qui trình tổng hợp một số polyme như: Poly(vinyl alcohol), Polystyrene và Amine Aldehyde. Qui trình tổng hợp sơn Alkyd, tổng hợp vật liệu composite, tổng hợp MMA Styrene Copolymer. Quy trình tổng hợp hydrogel từ PVA. Bên cạnh đó môn học cũng cung cấp kiến thức về cao su latex",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Giúp sinh viên hiểu rõ các quy trình tổng hợp, chế tạo các vật liệu trong ngành polymer và cao su"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Sinh viên biết cơ chế phản ứng cũng như sự khác nhau giữa các phương pháp tổng hợp polymer, đặc trưng các phản ứng hóa học của polymer"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Trên cơ sở các kiến thức cơ bản về polymer, phương pháp tổng hợp, đặc điểm phản ứng hóa học của phân tử polymer. Sinh viên có thể thiết lập quy trình tổng hợp polymer"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tiểu luận",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Bài mở đầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổng hợp Poly(vinyl alcohol)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tổng hợp nhựa Amine Formaldehyde",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tổng hợp sơn Alkyd",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tổng hợp Polystyrene",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Vật liệu composite",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Tổng hợp MMA Styrene Copolymer",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Latex cao su thiên nhiên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

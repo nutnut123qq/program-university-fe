@@ -1,0 +1,106 @@
+{
+  "info": {
+    "sylid": 242697,
+    "subjectCode": "802046",
+    "syllabusName": "Tin học trong thiết kế cầu đường (IT in Bridge and Road Design)",
+    "syllabusEnglish": "IT in Bridge and Road Design",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Tính toán tác dụng của hoạt tải và kiểm tra độ ổn định của nền đường (xác định tâm trượt, cung trượt, hệ số ổn định Kmin).  Trong trường hợp nền đường không ổn định theo tiêu chuẩn hiện hành cần tính toán kiểm tra lại độ ổn định sau khi có các biện pháp tăng cường.\n\n- Thiết kế bản vẽ thể hiện cấu tạo của công trình đường thông qua 3 hình chiếu (bình đồ, trắc dọc, trắc ngang), tính khối lượng đào đắp đất, khối lượng các lớp kết cấu áo đường.\n\n- Mô hình vật liệu, tiết diện, nút, phần tử, điều kiện biên, tải trọng…tính toán nội lực các dạng kết cấu cầu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Trang bị cho sinh viên những kiến thức cơ bản trong việc áp dụng các chương trình tin học hỗ trợ trong thiết kế công trình cầu đường."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Thực hiện các thao tác tính toán kết cấu cầu, tính toán ổn định nền đường, thiết kế hình học của đường và tính toán khối lượng nền mặt đường."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thái độ và hành vi: \n\tNghiêm túc trong học tập, tham gia đủ các tiết học theo quy định.\n\tLuôn chủ động trong việc tìm tòi học hỏi, nghiên cứu tài liệu.\n\tLàm đủ các bài tập, tích cực hổ trợ bạn bè trong học tập. \n\tChấp hành các quy định của nhà trường và lớp học, có tinh thần cầu tiến trong học tập và nghiên cứu.\n\tHình thành hướng phát triển và đạo đức nghề nghiệp khi ra trường.\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tính toán ổn định trượt sâu nền đường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết kế yếu tố hình học của đường ô tô",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phân tích kết cấu cầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

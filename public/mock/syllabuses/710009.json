@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 138053,
+    "subjectCode": "710009",
+    "syllabusName": "Khóa luận tốt nghiệp (Graduation Thesis)",
+    "syllabusEnglish": "Graduation Thesis",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "- Khóa luận tốt nghiệp tạo cơ hội cho sinh viên củng cố, ôn tập và tổng hợp kiến ​​thức đã học trong suốt thời gian học tập tại trường.\n- Tạo điều kiện cho sinh viên vận dụng kiến ​​thức vào thực tiễn doanh nghiệp. Phát triển khả năng tư duy sáng tạo, học cách đặt vấn đề và giải quyết các vấn đề thực tiễn đặt ra trong quá trình thực tập tại đơn vị. Hơn nữa, sinh viên được tham gia phân tích, nghiên cứu và giải quyết các vấn đề liên quan đến chuyên ngành.\n- Tạo cơ hội cho sinh viên so sánh và vận dụng kiến ​​thức, kỹ năng đã học vào thực tiễn. Khóa luận tốt nghiệp giúp sinh viên phát triển khả năng tư duy phản biện để thích ứng với sự thay đổi không ngừng của xã hội, khả năng nghiên cứu để chủ động tìm kiếm ý tưởng mới và học tập suốt đời.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Thể hiện khả năng tiến hành nghiên cứu để xác định và giải quyết vấn đề kinh doanh một cách phê phán và phân tích"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thể hiện khả năng đọc bài nghiên cứu bằng tiếng Anh và phân tích dữ liệu bằng phần mềm phổ biến"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tiến hành nghiên cứu để đề xuất thay đổi và cải thiện các vấn đề hiện tại về quản lý nguồn nhân lực trong tổ chức."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Seminar",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đề cương luận văn tốt nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Viết báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hoàn thành báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

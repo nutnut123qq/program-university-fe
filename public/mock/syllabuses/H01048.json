@@ -1,0 +1,86 @@
+{
+  "info": {
+    "sylid": 204048,
+    "subjectCode": "H01048",
+    "syllabusName": "Thí nghiệm Bào chế 1 (Pharmaceutic Laboratory 1)",
+    "syllabusEnglish": "Pharmaceutic Laboratory 1",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các nội dung chính sau:\n\nBài 1: Siro trị ho.\n\nBài 2: Thuốc tiêm.\n\nBài 3: Thuốc nhỏ mắt.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm vững những kiến thức cơ bản về thao tác và phương pháp bào chế một sản phẩm thuốc. Hiểu và mô tả được quy trình bào chế của các dạng dược phẩm khác nhau."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thực hành kỹ năng thao tác thí nghiệm và xây dựng một công thức, một quy trình nghiên cứu cho các dạng bào chế khác nhau."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Rèn luyện kỹ năng thí nghiệm, tính chính xác cũng như tinh thần trách nhiệm của người dược sĩ trong sản xuất và nghiên cứu."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tiểu luận,Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận,Thực hành",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Siro trị ho",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thuốc nhỏ mắt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thuốc tiêm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

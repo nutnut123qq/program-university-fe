@@ -1,0 +1,140 @@
+{
+  "info": {
+    "sylid": 499773,
+    "subjectCode": "H01035",
+    "syllabusName": "Dược động học (Pharmacokinetics)",
+    "syllabusEnglish": "Pharmacokinetics",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Dược động học là môn học nghiên cứu về số phận của thuốc khi thuốc vào cơ thể hay tác động của cơ thể  đối với thuốc. Môn học gồm 9 chương với nội dung sau:\n\nChương 1: Các khái niệm cơ bản\n\nChương 2: Quá trình hấp thu thuốc\n\nChương 3: Quá trình phân bố thuốc\nChương 4: Quá trình chuyển hóa và thải trừ thuốc\n\nChương 5: Khái niệm về ngăn dược động và dược động học không tuyến tính\n\nChương 6: Các thông số dược động học và các nguyên tắc thiết kế liều\n\nChương 7: Tương tác thuốc trong pha dược động học\n\nChương 8: Ảnh hưởng của các tình trạng sinh lý trên dược động học\n\nChương 9: Ảnh hưởng của các tình trạng bệnh lý trên dược động học",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trình bày được các quá trình dược động học cơ bản, dược động học của các hệ trị liệu khác nhau, đặc điểm dược động học ở các đối tượng đặc biệt (trẻ em, người lớn tuổi, phụ nữ có thai, bệnh nhân suy gan, suy thận, béo phì) và tương tác thuốc xảy ra trong pha dược động học."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Trình bày được các thông số dược động cơ bản tương ứng với các giai đoạn trong pha dược động học."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nhận thức được vai trò quan trọng của nhân viên y tế trong việc chăm sóc sức khỏe cho người dân."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phân tích và đánh giá được các kiểu tương tác thuốc phổ biến trong pha dược động học, hướng xử lý và cách phòng tránh các tương tác thuốc tiềm năng trong khi sử dụng thuốc điều trị bệnh."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các khái niệm cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Quá trình hấp thu thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quá trình phân bố thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Quá trình chuyển hóa và thải trừ thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Ngăn dược động học và dược động học không tuyến tính",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Xác định các thông số dược động và nguyên tắc thiết kế liều",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Tương tác thuốc trong pha dược động học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Ảnh hưởng của các tình trạng sinh lý trên dược động học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Ảnh hưởng của các tình trạng bệnh lý trên dược động học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

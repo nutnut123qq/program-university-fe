@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 744962,
+    "subjectCode": "801054",
+    "syllabusName": "Bê tông ứng suất trước (Pre-stressed Concrete)",
+    "syllabusEnglish": "Pre-stressed Concrete",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 1. Giới thiệu về bê tông cốt thép ứng suất trước \n\nChương 2 + 3. Các phương pháp tạo ứng suât trước và trị số ứng suất\n\nTrong chương này, sinh viên được biết các phương pháp tạo ứng suất trước trong cấu kiện bê tông cốt thép ứng suất trước, kéo trước hay sau và sự hao hụt ứng suất khi kéo cáp, từ đó biết về trị số ứng suất trong cốt thép và trong bê tông cũng như cách xác định các trị số này phục vụ cho việc thiết kế các cấu kiện BTCT ứng suất trước.\n\nChương 3. Cấu kiện chịu kéo đúng tâm\n\nChương 4. Cấu kiện chịu uốn",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên được trang bị các kiến thức cơ bản về các cấu kiện bê tông cốt thép ứng suất trước"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên biết và hiểu nguyên lý tạo ứng suất trước trong cấu kiện."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên hiểu được trị số ứng suất trong cốt thép và trong bê tông"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên biết cách tính toán cấu kiện bê tông cốt thép ứng suất trước chịu kéo đúng tâm và chịu uốn."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "KHÁI NIỆM VỀ BÊ TÔNG CỐT THÉP ỨNG SUẤT  TRƯỚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "CÁC PHƯƠNG PHÁP TẠO ỨNG SUẤT TRƯỚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "TRỊ SỐ ỨNG SUẤT TRONG CỐT THÉP VÀ TRONG BÊ TÔNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "TÍNH CẤU KIỆN CHỊU KÉO ĐÚNG TÂM",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "TÍNH CẤU KIỆN CHỊU UỐN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

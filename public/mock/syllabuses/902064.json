@@ -1,0 +1,152 @@
+{
+  "info": {
+    "sylid": 258057,
+    "subjectCode": "902064",
+    "syllabusName": "Phân tích rủi ro trong quản lý môi trường (Critical Analysis in Environmental Management)",
+    "syllabusEnglish": "Critical Analysis in Environmental Management",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Các khái niệm, mục tiêu, đối tượng nghiên cứu phân tích rủi ro trong quản lý môi trường.\n\nPhương pháp nhận diện rủi ro.\n\nPhương pháp đánh giá rủi ro.\n\nXây dựng kế hoạch phòng ngừa, ứng phó rủi ro và kế hoạch giám sát.\n\nCác bài học thực tiễn của Việt Nam và Thế giới.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu (Understand) các kiến thức cơ bản về tự nhiên và xã hội hỗ trợ cho việc nhận định và giải quyết tình huống trong xử lý các vấn đề liên quan đến quản lý môi trường và các rủi ro có thể có"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Xây dựng (Plan) chương trình kiểm soát môi trường nhằm mục tiêu giảm thiểu và ngăn ngừa ô nhiễm tại doanh nghiệp và địa phương"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đề xuất (Create) các giải pháp bảo vệ môi trường đáp ứng nhu cầu quản lý môi trường ở các địa phương theo định hướng phát triển bền vững"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phát triển (Develop) đạo đức nghề nghiệp và ý thức tích cực trong các hoạt động công đồng "
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Vận dụng (Apply) được kỹ năng viết và trình bày báo cáo khoa học để thuyết trình nội dung chương trình/dự án một cách hiệu quả."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Biết áp dụng (Apply) kỹ năng làm việc nhóm và làm việc độc lập để thực hiện chương trình/dự án một cách hiệu quả."
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Lựa chọn (Select) được các giải pháp tối ưu trong kỹ thuật xử lý chất thải và ngăn ngừa ô nhiễm dựa trên các nguyên lý cơ bản, nguyên tắc áp dụng và thực trạng tại địa phương và doanh nghiệp."
+    },
+    {
+      "id": 8,
+      "loSeq": "8",
+      "cloName": "CO8",
+      "loDetails": "Ứng dụng (Apply) được các kiến thức sinh thái, tài nguyên và môi trường để xây dựng chương trình quan trắc và kiểm soát ô nhiễm môi trường, kỹ thuật phục hồi sinh thái, bảo tồn tài nguyên và đa dạng sinh học."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về phân tích rủi ro trong quản lý môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phương pháp nhận diện rủi ro",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Đánh giá rủi ro trong quản lý môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các hình thức phân tích rủi ro và xây dựng kế hoạch phòng ngừa, ứng phó và giám sát",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các trường hợp điển hình phân tích rủi ro trong quản lý môi trường ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

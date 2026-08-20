@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 479242,
+    "subjectCode": "H02030",
+    "syllabusName": "Thực phẩm chức năng ứng dụng (Applied Functional Foods)",
+    "syllabusEnglish": "Applied Functional Foods",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc gồm các nội dung chính sau:\n\n●\n\nPhần 1:  Đại cương về thực phẩm chức\r\nnăng; quá trình nghiên cứu, phân phối và quản lý thực phẩm chức năng.\n\n●\n\nPhần 2: Vai trò của các nhóm thực phẩm\r\nchức năng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Có kiến thức về vai trò và lợi ích của thực phẩm bổ sung và thực phẩm bảo vệ sức khỏe đối với sức khỏe."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Đánh giá được chứng cứ khoa học về tác dụng, độ an toàn, chất lượng của các sản phẩm thực phẩm bổ sung và thực phẩm bảo vệ sức khỏe"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Áp dụng kiến thức về quy định pháp luật trong quản lý thực phẩm bảo vệ sức khỏe"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đại cương về thực phẩm bảo vệ sức khỏe",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Vitamin và khoáng chất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thực phẩm chức năng và thực phẩm dinh dưỡng thay thế bữa ăn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Dinh dưỡng cho hoạt động thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thực phẩm giúp kiểm soát cân nặng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

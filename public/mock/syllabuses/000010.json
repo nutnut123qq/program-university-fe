@@ -1,0 +1,78 @@
+{
+  "info": {
+    "sylid": 425872,
+    "subjectCode": "000010",
+    "syllabusName": "Kỹ năng lập hồ sơ xin việc & trả lời phỏng vấn (Anh) (Job Application and Interview Skills)",
+    "syllabusEnglish": "Job Application and Interview Skills",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "The module helps students know the importance and tips to write an impressive CV. It also supplies students with a list of common job interview questions, examples of the best answers about applicant's work history and experience, the job, goals and what to offer the employer.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Remember a general knowledge of the application and some issues related to the form and content of interviews when applying for a job."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Understand the importance and significance of a resume in the application process as well as rules when being in an interview."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Apply knowledge and skills to write an effective and impressive CV; conduct and solve questions and situations when being interviewed"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Course introduction: Course structure, objectives, materials, assessment, etc. UNIT 1: CV",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "INTERVIEW - PART 1:The rules of the game-",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

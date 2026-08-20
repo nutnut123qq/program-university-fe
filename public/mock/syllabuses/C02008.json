@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 607942,
+    "subjectCode": "C02008",
+    "syllabusName": "Các phép biến đổi tích phân (Integral transforms)",
+    "syllabusEnglish": "Integral transforms",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Chuỗi Fourier.\n\nBiến đổi Fourier.\n\nBiến đổi Laplace.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "\tKiến thức: Môn học cung cấp những kiến thức cơ bản về các phép biến đổi tích phân, mà trọng tâm là biến đổi Fourier, và biến đổi Laplace. Đây là những công cụ toán đóng vai trò quan trọng trong giải tích nói chung, và có những ứng dụng rất sâu và rộng trong các bài toán về vật lý trong phương trình vi phân và phương trình đạo hàm riêng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "\tKỹ năng tác nghiệp: Vận dụng được các kiến thức về phép biến đổi tích phân để tìm nghiệm hoặc nghiên cứu hành vi của nghiệm trong các vấn đề của vật lý toán. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "\tYêu cầu về tư duy: Nắm vững lý thuyết toán căn bản, có tư duy lô-gic, có khả năng vận dụng kiến thức Toán học phục vụ cho chuyên ngành đang theo học, hoặc những ngành nghề có sử dụng công cụ toán như trong kinh tế hoặc kĩ thuật."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "\tThái độ và hành vi: Môn học giúp sinh viên có hiểu biết sâu thêm về các công cụ liên quan đến biến đổi tích phân trong Giải tích, cũng như nhận biết được vai trò của Toán ứng dụng trong nhiều lĩnh vực khoa học và đời sống. Từ đó hình thành nên sự yêu thích khoa học, có thái độ nghiêm túc, tích cực trong học tập."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chuỗi Fourier",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Biến đổi Fourier",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Biến đổi Laplace",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

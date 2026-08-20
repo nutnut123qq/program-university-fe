@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 372541,
+    "subjectCode": "304078",
+    "syllabusName": "Việc làm cho thanh niên đô thị (Urban Youth Work)",
+    "syllabusEnglish": "Urban Youth Work",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc giới thiệu một số kiến thức cơ bản về đặc điểm tâm sinh lý của thanh niên\r\nđô thị, những yếu tố từ gia đình và xã hội ảnh hưởng tới lối sống, hành vi của thanh niên; ngoài ra, môn học có cung cấp một số lý thuyết, kỹ năng công tác xã hội nhằm nhận diện nguy\r\ncơ đối với thanh niên đô thị cũng như đánh giá nhu cầu và nguồn lực hỗ trợ\r\ntrong tiến trình can thiệp, trợ giúp thanh niên tiếp\r\ncận việc làm tại đô thị.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết được đặc điểm tâm sinh lý của thanh niên đô thị và những yếu tố từ gia đình, xã hội đã và đang ảnh hưởng đến lối sống, giá trị sống của thanh niên.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng được kiến thức và các kỹ năng để phát hiện các nguy cơ từ môi trường sống cũng như đánh giá nhu cầu và xác định các nguồn lực trợ giúp cho thanh niên đô thị.\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá, phân tích và lập kế hoạch can thiệp, trợ giúp cho nhóm thanh niên gặp một số vấn đề liên quan đến đô thị.\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có tinh thần hợp tác và có thái độ đúng đắn trong việc trau dồi kiến thức, kỹ năng làm việc với thanh niên đô thị.\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Một số đặc điểm về thanh niên và gia đình đô thị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Một số vấn đề xã hội ảnh hưởng đến việc làm của thanh niên đô thị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tiến trình trợ giúp thanh niên tiếp cận việc làm tại đô thị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

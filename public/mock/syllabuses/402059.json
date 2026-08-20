@@ -1,0 +1,132 @@
+{
+  "info": {
+    "sylid": 952932,
+    "subjectCode": "402059",
+    "syllabusName": "Thí nghiệm điện tử (Electronic Circuits Lab)",
+    "syllabusEnglish": "Electronic Circuits Lab",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu các linh kiện cơ bản, các mạch điện tử cơ bản dựa trên các linh kiện cơ bản như Diode, transistor, OPAMP, làm nền tảng cho sinh viên tiếp tục tìm hiểu về các mạch điện tử ứng dụng phức tạp hơn. Nội dung của học phần bao gồm:\n\nMạch chỉnh lưu, mạch xén dựa trên linh kiện Diode bán dẫn.\n\nMạch khuếch đại với transistor lưỡng cực BJT ở chế độ tín hiệu lớn; Transistor lưỡng cực ở chế độ tín hiệu nhỏ.\n\nMạch khuếch đại ghép liên tầng: khuếch đại ghép tầng RC, khuếch đại ghép tầng trực tiếp, Darlington.\n\nMạch khuếch đại thuật toán cơ bản: mạch đảo, không đảo, mạch vi phân, tích phân, mạch cộng và mạch so sánh điện áp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết và hiểu các kiến thức cơ bản về mạch điện tử và các linh kiện sử dụng bên trong các mạch."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết kỹ năng thực hành các nội dung lý thuyết trên các mạch điện tử thực tế và so sánh kết quả với lý thuyết."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Biết cách thay đổi, điều chỉnh các thiết bị đo đạc cho phù hợp với yêu cầu của từng mạch điện tử cụ thể."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu môn học, dụng cụ thí nghiệm; Mạch chỉnh lưu bán kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": " Mạch chỉnh lưu toàn kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Mạch diode tạo dạng sóng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Mạch khuếch đại transistor: E chung, B chung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Mạch khuếch đại transistor: C chung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Mạch ghép Darlington",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Mạch khuếch đại ghép liên tầng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Khuếch đại thuật toán",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Ôn tập",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Kiểm tra cuối kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

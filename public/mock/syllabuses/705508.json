@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 600795,
+    "subjectCode": "705508",
+    "syllabusName": "Nghiệp vụ ẩm thực (Food and Beverage Service Operations)",
+    "syllabusEnglish": "Food and Beverage Service Operations",
+    "credits": "5",
+    "degreeLevel": "Bachelor",
+    "description": "- \nPhần đầu giới thiệu chung về công việc, các chức danh và danh mục công việc.\n- \nPhần giữa trình bày chi tiết các thao tác cụ thể, yêu cầu về kỹ năng và kiến thức liên quan.\n- \nPhần cuối xác định chi tiết các tiêu chuẩn của thao tác, của quy trình và giao tiếp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Tư duy: nâng tầm và công nhận kỹ năng phục vụ của người nhân viên trong nhà hàng nói riêng và ngành du lịch nói chung ở trình độ quốc tế."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kiến thức: trang bị cho người học khả năng hiểu rõ và có thể phân tích, đánh giá các kiến thức trong lĩnh vực phục vụ kinh doanh ẩm thực nhà hàng, khách sạn"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thái độ và hành vi: giúp người học có thái độ đúng đắn, có tâm và yêu nghề. Sẵn sàng gắn bó cả đời, từ đó tạo thói quen và hành vi phù hợp trong công việc và cuộc sống."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Kỹ năng tác nghiệp: cung cấp chính xác những việc và thao tác người học phải làm để hoàn thành nhiệm vụ tốt nhất."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Thực hành",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chương 1: Nhà hàng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": " Sức khỏe, vệ sinh và an toàn tại nơi làm việc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chuẩn bị nhà hàng  + Thực Hành Thi giữa kỳ ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tổ chức phục vụ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thi Cuối kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

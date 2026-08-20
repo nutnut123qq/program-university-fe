@@ -1,0 +1,62 @@
+{
+  "info": {
+    "sylid": 22328,
+    "subjectCode": "40113760",
+    "syllabusName": "Chuyên đề nghiên cứu về thị trường điện (Advanced Topics in Electricity market)",
+    "syllabusEnglish": "Advanced Topics in Electricity market",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho học viên các kỹ năng làm việc, trao\r\nđổi kiến thức với giảng viên. Từ đó học viên hoàn thiện được các kỹ năng trong\r\nviệc nghiên cứu về thị trường điện cạnh tranh, các phương pháp tính toán điều\r\nđộ tối ưu; giải pháp quản lý hộ tiêu thụ; giải pháp tăng năng suất lao động và\r\ntăng tính cạnh tranh của ngành điện lực Việt Nam,…vv.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Củng cố lại các kiến thức liên quan đến lĩnh vực  thị trường điện cạnh tranh, tính toán điều độ tối ưu; giải pháp quản lý hộ tiêu thụ và vận dụng các kiến thức đã học vào nghiên cứu vấn đề ứng dụng thực tế."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng các nội dung về về thị trường điện cạnh tranh, điều độ tối ưu, giải pháp quản lý hộ tiêu thụ,...vv nhằm tăng năng suất lao động và tăng tính cạnh tranh của ngành điện lực Việt Nam."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tìm hiểu đề tài cho chuyên đề nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực hiện đề tài nghiên cứu thuộc chuyên đề",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

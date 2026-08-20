@@ -1,0 +1,144 @@
+{
+  "info": {
+    "sylid": 181070,
+    "subjectCode": "901080",
+    "syllabusName": "Thủy động lực học (Hydrodynamics)",
+    "syllabusEnglish": "Hydrodynamics",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 1: Động lực học chất lỏng\n\nChương 2: Tổn thất năng lượng trong dòng chảy\n\nChương 3: Tính toán thuỷ lực dòng chảy trong ống có áp\n\nChương 4: Tính toán thuỷ lực dòng chảy đều không áp trong kênh",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các qui luật cân bằng của chất lỏng khi chuyển động; các lực tương tác giữa chất lỏng với các vật thể trong môi trường của nó; hiểu được định luật bảo toàn năng lượng và những dạng tổn thất năng lượng khi khối chất lỏng chuyển động."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng được các kiến thức về thủy động lực học để tính toán các yếu tố thủy lực của khối chất lỏng chuyển động trong lòng dẫn (ống kín, cống, mương, kênh hở), phục vụ công tác thiết kế các công trình cấp thoát nước và xử lý ô nhiễm môi trường."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá được hiệu quả hoạt động vận hành của các hệ thống vận chuyển chất lỏng trong các công trình cấp thoát nước và môi trường."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Hiểu được các khái niệm của các thông số vật lý động lực học cơ bản của chất lỏng trên cơ sở các kiến trức nền tảng về tự nhiên xã hội và các kiến thức mở rộng trong các tài liệu tiếng Anh chuyên ngành "
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Thiết kế các công trình thủy động lực học sử dụng phù hợp cho hệ thống các công trình cấp thoát nước."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Lập kế hoạch vận hành chi tiết các công trình thủy động lực học cho nhóm làm việc."
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Đề xuất các phương pháp tính toán các công trình thủy động lực học thông qua các buổi thảo luận nhóm và trình bày ý tưởng."
+    },
+    {
+      "id": 8,
+      "loSeq": "8",
+      "cloName": "CO8",
+      "loDetails": "Hình thành được ý thức của cá nhân về lĩnh vực nghể nghiệp, hiểu rõ hơn về tầm quan trọng của ngành học"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Động lực học chất lỏng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": " Tổn thất năng lượng trong dòng chảy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tính toán thủy lực dòng chảy trong ống có áp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tính toán thủy lực dòng chảy đều không áp trong kênh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

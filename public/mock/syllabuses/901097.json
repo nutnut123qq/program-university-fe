@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 41301,
+    "subjectCode": "901097",
+    "syllabusName": "Tự động hóa Cấp thoát nước (Automation of Water Supply and Drainage)",
+    "syllabusEnglish": "Automation of Water Supply and Drainage",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Khái niệm về hệ thống tự động hóa;\n\nHệ thống đo lường tự động;\n\nSai số phép đo và gia công kết quả đo lường;\n\nCác khối chức năng;\n\nKỹ thuật và dụng cụ điều khiển chất lượng nước và mạng lưới cấp thoát nước.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên ngành công nghệ kỹ thuật môi trường các kiến thức cơ bản về quản lý mạng lưới cấp thoát nước bao gồm: vấn đề tổ chức bộ máy quản lý mạng lược cấp thoát nước, các công cụ quản lý, các công tác kiểm tra – vận hành – bảo dưỡng các công trình."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu và biết cách áp dụng các công cụ kinh tế, kỹ thuật vào công tác quản lý mạng lưới cấp thoát nước cho trường hợp cụ thể"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học hiểu biết và áp dụng các vấn đề cơ bản trong quản lý như vận hành, bảo dưởng các loại hình công trình trong mạng lưới cấp thoát nước."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học nắm được và áp dụng được giá trị đạo đức của nghề nghiệp, có thái độ và hành vi đúng mực trong hoạt động học của mình."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Vấn đáp,Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Viva/Oral Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái niệm về hệ thống tự động hóa ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hệ thống đo lường tự động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Sai số phép đo và gia công kết quả đo lường ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các khối chức năng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kỹ thuật và dụng cụ điều khiển chất lượng nước và mạng lưới cấp thoát nước",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 833783,
+    "subjectCode": "303002",
+    "syllabusName": "Cơ sở văn hóa Việt Nam (Introduction to Vietnam Culture)",
+    "syllabusEnglish": "Introduction to Vietnam Culture",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Trình bày các kiến thức cơ bản về văn hóa học và văn hóa Việt Nam\n.\n- Cung cấp kiến thức cơ bản về các thành tố văn hóa Việt Nam\n.\n- Tổng quát về văn hóa Việt Nam từ truyền thống đến hiện đại.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho người học các kiến thức cơ bản của văn hóa Việt Nam, nhằm giúp sinh viên có cái nhìn về diện mạo văn hóa Việt và lý giải được cơ sở hình thành của nền văn hóa. Từ đó, có thể giải thích được các hiện tượng xã hội từ góc nhìn văn hóa."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên được rèn luyện kỹ năng thuyết trình, thuyết minh, kỹ năng tư duy độc lập về văn hóa Việt, để trở thành một hướng dẫn viên du lịch chuyên nghiệp."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên được trang bị có tư duy độc lập, biết tự đánh giá, phân tích, ứng dụng môn học vào trong việc giao tiếp, thuyết minh về di sản, văn hóa Việt Nam với vai trò là hướng dẫn và quản lý du lịch; biết vận dụng kiến thức môn học này ở những môn học khác liên quan."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên thể hiện được sự yêu thích, cởi mở với văn hóa Việt và văn hóa các nước, có lòng tự hào dân tộc, chia sẻ những giá trị tốt đẹp của văn hóa dân tộc, biết tôn trọng sự khác biệt cũng như tôn trọng văn hóa các nước."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": " Văn hóa học và văn hóa Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Văn hóa nhận thức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Văn hóa tổ chức đời sống tập thể",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Văn hóa tổ chức đời sống cá nhân",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Văn hóa ứng xử với môi trường tự nhiên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Văn hóa Ứng xử với môi trường xã hội",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

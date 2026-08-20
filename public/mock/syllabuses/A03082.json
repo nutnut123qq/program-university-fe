@@ -1,0 +1,90 @@
+{
+  "info": {
+    "sylid": 602023,
+    "subjectCode": "A03082",
+    "syllabusName": "Thực tập nghề nghiệp 1 (Internship 1)",
+    "syllabusEnglish": "Internship 1",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung của môn học giúp sinh viên hội nhập vào môi trường làm việc thực tế với vị trí là nhân viên phòng hành chính và phòng nhân sự bao gồm hướng dẫn quy định thực tập tại doanh nghiệp, hướng dẫn các nghiệp vụ quản trị văn phòng và tuyển dụng và đào tạo nguồn nhân lực, thực tập thực tế tại doanh nghiệp \nquản trị văn phòng và tuyển dụng và đào tạo nguồn nhân lực, báo cáo kết quả thực tập\n. Qua đó giúp sinh viên có thể rèn luyện kỹ năng và vận dụng các kiến thức về công tác văn phòng, công tác tổ chức vào thực tế tại doanh nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hội nhập vào môi trường làm việc thực tế thông qua việc tiếp xúc với thực tiễn công việc tại doanh nghiệp. Thực hiện các công việc về công tác hành chính - văn phòng, công tác tổ chức nhân sự, công tác đào tạo, công tác thực hiện các chế độ - chính sách cho người lao động hoặc các công việc khác được phân công theo nội quy của công ty hay tổ chức."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phát triển các kỹ năng và vận dụng kiến thức đã học để thực hiện tốt các công việc liên quan đến quản trị văn phòng và quản trị nguồn nhân lực."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nắm rõ các quy trình công việc, biết cách đánh giá và phân tích các quy trình để xem xét về tính hợp lý và cải tiến quy trình cho phù hợp."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện tác phong làm việc chuyên nghiệp và phẩm chất đạo đức nghề nghiệp. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về học phần thực tập nghề nghiệp 1",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổng quan về môn học ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thực tập tại doanh nghiệp nội dung 5 chuyên đề ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Báo cáo kết quả thực tập tại lớp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

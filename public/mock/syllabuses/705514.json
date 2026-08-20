@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 716072,
+    "subjectCode": "705514",
+    "syllabusName": "Tập sự nghề nghiệp (Work-Integrated Education)",
+    "syllabusEnglish": "Work-Integrated Education",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "This course creates opportunities for students to strengthen and integrate knowledge during the learning time at school.\n\nProvide students enviroments to apply knowledge in reality. Develop the ability of creative thinking, question and problems solving during the internship period. In addition, students could participate to analyzse, research and solve specific problems related with major.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Help students to approach and get familiarize with professional working conditions as well as structures of organzization and management in a firm"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Help students to make approriate decisions in selecting careers and objectives in the future."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Open new opportunities for students to apply knowledge and skills in real working conditions in an effective way."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Participate in information session about internship graduation report to understand thoroughly contents and requirements of the program. ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Contact and complete related procedures at intern company unit.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Planning detail intenship period; Selecting topic/field that students want to research; and Writing and submitting detail internship syllabus.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Students come to work at internship company units and perform job tasks as required; Students have to observe, find out real activities related with internship topics; directly interview with key persons; collecting information and data for reporting. Students have to contact with advisor to exchange contents in the report.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Complete and revise internship graduation report.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

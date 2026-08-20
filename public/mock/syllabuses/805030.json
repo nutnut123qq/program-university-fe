@@ -1,0 +1,82 @@
+{
+  "info": {
+    "sylid": 679177,
+    "subjectCode": "805030",
+    "syllabusName": "Đồ án tốt nghiệp (Graduation Project)",
+    "syllabusEnglish": "Graduation Project",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm 2 hướng, sinh viên chọn 1 trong 2 hướng để thực hiện đồ án tốt nghiệp.\n- Hướng ứng dụng: Sinh viên chọn 2 trong 4 chủ đề sau: Lập báo cáo nghiên cứu khả thi/ Lập hồ sơ dự thầu/ Quản lý thi công, quản lý chất lượng và an toàn lao động/ Chuyên đề.\n- Hướng nghiên cứu: Sinh viên chọn 1 trong 2 chủ đề sau: Khảo sát các nhân tố, yếu tố liên quan công tác quản lý dự án xây dựng/ Chuyên đề.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giúp sinh viên tổng hợp hệ thống toàn bộ kiến thức, đồ án, công nghệ, và kinh nghiệm thực tế trong suốt 4 năm học."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Giúp sinh viên làm một đồ án cụ thể từ bước lập báo cáo nghiên cứu tiền khả thi, nghiên cứu khả thi, lập dự toán, lập hồ sơ dự thầu, hồ sơ mời thầu theo hệ thống văn bản pháp luật hiện hành."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hình thành định hướng nghiên cứu trong tương lai."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Giúp sinh viên trình được ý tưởng chuyên môn bằng văn\r\nbản; thuyết trình và bảo vệ các kết quả chuyên môn."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu các hướng, chủ đề của luận văn tốt nghiệp.\nGiới thiệu chung, tổng quan về công trình, dự án.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lập báo cáo nghiên cứu khả thi/ Lập hồ sơ dự thầu/ Quản lý thi công, quản lý chất lượng và an toàn lao động/ Chuyên đề/ Khảo sát",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Viết luận văn/ Tổng hợp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

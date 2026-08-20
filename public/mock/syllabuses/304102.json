@@ -1,0 +1,74 @@
+{
+  "info": {
+    "sylid": 843554,
+    "subjectCode": "304102",
+    "syllabusName": "Khóa luận tốt nghiệp (Graduation Thesis)",
+    "syllabusEnglish": "Graduation Thesis",
+    "credits": "6",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần cung cấp cho sinh viên kiến thức và kỹ năng nền tảng về phương pháp, kỹ thuật thu thập thông tin, phân tích và đánh giá vấn đề, nhu cầu nguồn lực của thân chủ, trên cơ sở đó, sinh viên có thể đề xuất được các phương hướng, giải pháp, hoạt động can thiệp/trị liệu ở các cấp độ vi mô, trung mô và vĩ mô. Kết thúc học phần, sinh viên có nền tảng và khả năng nghiên cứu khoa học, theo học các trình độ đào tạo bậc sau đại học.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên có khả năng trình bày cơ sở lý luận và thực tiễn về chủ đề quan tâm"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có khả năng vận dụng phương pháp thu thập thông tin, xác định vấn đề, nhu cầu và nguồn lực của thân chủ"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên có khả năng phân tích, đánh giá, tổng hợp thực trạng của thân chủ, qua đó xác định tiến trình, giải pháp can thiệp/hỗ trợ"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên có khả năng triển khai giải pháp, nhận diện phát sinh mới và đề xuất phương hướng, giải pháp can thiệp/trợ giúp thân chủ ở các cấp độ vi mô, trung mô và vĩ mô"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu và hướng dẫn học phần Khóa luận tốt nghiệp (KLTN)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hướng dẫn trình bày Khóa luận tốt nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,80 @@
+{
+  "info": {
+    "sylid": 965270,
+    "subjectCode": "002365",
+    "syllabusName": "Nghe tiếng Trung quốc thương mại (Business Mandarin Chinese Listening)",
+    "syllabusEnglish": "Business Mandarin Chinese Listening",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần gồm 7 bài (từ bài 1 đến bài 7 và bài ôn tập) của quyển 新商务汉语听力与口语教程（下册）（New Business Chinese Listening and Speaking(II)）·.  Mỗi bài có hai phần nghe và phần thảo luận. Phần nghe gồm 2 bài khóa và bài tập có liên quan. Phần thảo luận là một chủ đề dựa trên chủ đề nghe trong bài để luyện tập thực tế thương mại. Môn học này giúp người học nắm vững và vận dụng thành thạo các kiến thức thương mại, tích lũy kiến thức kinh nghiệm và trau dồi nghệ thuật ngôn từ trong thương mại.\n\nNội dung thiết kế theo nguyên tắc khiến người học nắm vững kiến thức, vận dụng được những gì đã học. Quyển giáo trình này nhằm đáp ứng nhu cầu công việc tương lai của học sinh thuộc định hướng chuyên ngành ngôn ngữ tiếng Hán và bậc đại học chuyên ngành quản lí, nhấn mạnh kết hợp nền tảng kiến thức chuyên ngành với kỹ năng làm việc trên cơ sở ngôn ngữ đã học được; không còn là quyển sách tập hợp một số bài báo hay tin tức đơn giản về kinh tế mà là sự kết hợp hai phương diện về chuyên ngành và ngôn ngữ của chuyên ngành quản lí, cung cấp một cách hệ thống, mới mẻ, thực dụng cho việc học  “Ngôn ngữ và chuyên ngành”.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng các kỹ năng nghe vào các dạng bài tập khác nhau "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân biệt các tình huống trong bài nghe, nắm các ý chính của bài để hoàn tất các bài tập theo yêu cầu "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng được các kỹ năng nghe, hoàn thành được các yêu cầu trong bài nghe."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Bài ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

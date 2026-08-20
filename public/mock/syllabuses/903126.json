@@ -1,0 +1,150 @@
+{
+  "info": {
+    "sylid": 429088,
+    "subjectCode": "903126",
+    "syllabusName": "Khóa luận tốt nghiệp (Graduation thesis)",
+    "syllabusEnglish": "Graduation thesis",
+    "credits": "6",
+    "degreeLevel": "Bachelor",
+    "description": "·\n\nTừng sinh viên thực hiện một đề tài khóa luận\r\nhoàn chỉnh\n\n·\n\nĐịnh hướng sinh viên thực hiện các đề tài phù\r\nhợp với chuyên ngành Bảo hộ lao động, hoặc tham gia những đề tài\r\ncó tính ứng dụng thực tiễn cao\n\n·\n\nSinh viên thực hiện khóa luận với sự hướng dẫn\r\ncủa Giảng viên hướng dẫn theo đúng tiến độ quy định của Khoa và Nhà trường\n\n·\n\nSinh viên thực hiện bảo vệ đề tài khóa luận\r\ntrước hội đồng tốt nghiệp chuyên ngành",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng các kiến thức về khoa học tự nhiên để thực hiện các nội dung tổng quan nghiên cứu trong quá trình thực hiện khóa luận tốt nghiệp; áp dụng kỹ năng ngoại ngữ, tin học để thể hiện đầy đủ các nội dung khóa luận"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phát triển các kỹ năng viết và trình bày báo cáo khoa học trong quá trình thực hiện khóa luận tốt nghiệp"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phát triển và nâng cao nhận thức về an toàn, sức khỏe nghề nghiệp; bảo vệ môi trường, tích cực truyền thông và tham gia các hoạt động cộng đồng vì môi trường"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Vận dụng thành thạo các văn bản luật, các tiêu chuẩn trong nước và quốc tế, quy chuẩn quy định hiện hành trong lĩnh vực an toàn, sức khỏe nghề nghiệp và bảo vệ môi trường"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Lựa chọn được các giải pháp tối ưu trong kỹ thuật xử lý môi trường lao động giúp đảm bảo chất lượng điều kiện lao động, đảm bảo sức khỏe người lao động"
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Đánh giá thực trạng an toàn, vệ sinh lao động tại doanh nghiệp và đề xuất các giải pháp đảm bảo chất lượng môi trường lao động"
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Tư vấn và đề xuất các dịch vụ về an toàn và sức khỏe nghề nghiệp cho doanh nghiệp, cũng như các giải pháp kiểm soát mối nguy và quản lý rủi ro"
+    },
+    {
+      "id": 8,
+      "loSeq": "8",
+      "cloName": "CO8",
+      "loDetails": "Xây dựng chương trình huấn luyện về an toàn vệ sinh lao động, an toàn sức khỏe nghề nghiệp cho tất cả các nhóm đối tượng theo qui định của Luật an toàn vệ sinh lao động"
+    },
+    {
+      "id": 9,
+      "loSeq": "9",
+      "cloName": "CO9",
+      "loDetails": "Đánh giá hệ thống xử lý môi trường trong hoạt động sản xuất tại doanh nghiệp; hệ thống đảm bảo an toàn trong hoạt động về hóa chất, cháy nổ, thiết bị áp lực; hệ thống đảm bảo an toàn khi làm việc trên cao, làm việc trong không gian hạn chế"
+    },
+    {
+      "id": 10,
+      "loSeq": "10",
+      "cloName": "CO10",
+      "loDetails": "Đề xuất các sáng kiến, giải pháp về quản lý, kỹ thuật mới nhằm đảm bảo đảm bảo an toàn và sức khỏe nghề nghiệp, và sử dụng bền vững các nguồn tài nguyên tại doanh nghiệp"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đề cương nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Mở đầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tổng quan đề tài nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phương pháp nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kết quả & Thảo luận",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Đề xuất các giải pháp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Kết luận & kiến nghị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

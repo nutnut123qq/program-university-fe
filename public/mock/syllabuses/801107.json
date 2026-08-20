@@ -1,0 +1,68 @@
+{
+  "info": {
+    "sylid": 543531,
+    "subjectCode": "801107",
+    "syllabusName": "Đồ án thi công (Project-4)",
+    "syllabusEnglish": "Project-4",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "1. Kỹ thuật thi công: vận dụng các kiến thức đã học để lập biện pháp thi công cho một công trình thực tế. Bao gồm: đào đất, thi công cọc ( nếu có), cấu tạo,  tính toán và thiết kế cốp pha cho các cấu kiến điển hình, biện pháp gia công, lắp dựng coppha và cốt thép, biện pháp đổ bê tông, bảo dưỡng và tháo dỡ copha\n2. Tổ chức thi công: với biện pháp kỹ thuật thi công đã được chọn, vận dụng các kiến thức đã học để lập kế hoạch tổ chức thi công đảm bảo an toàn, chất lượng, thời gian, kinh tế. Qua đó, giúp sinh viên rèn luyện các kỹ năng lập kế hoạch, tổ chức thi công và trình bày kế hoạch, ý đồ tổ chức thi công đó.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên nắm được các kiến thức cần thiết để thiết kế kỹ thuật và tổ chức thi công cho một công trình xây dựng"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có thể tự thiết kế biện pháp và tổ chức thi công một công trình xây dựng"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu được cách lập biện pháp thi công, tính toán tiến độ, bình đồ công trường"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nội dung 1: Biện pháp kỹ thuật thi công",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nội dung 2: Kế hoạch tổ chức thi công",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

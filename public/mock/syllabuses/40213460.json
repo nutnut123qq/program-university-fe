@@ -1,0 +1,132 @@
+{
+  "info": {
+    "sylid": 841001,
+    "subjectCode": "40213460",
+    "syllabusName": "Tối ưu hóa trong truyền thông (Optimization for Communication Systems)",
+    "syllabusEnglish": "Optimization for Communication Systems",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Hiện nay rất nhiều các bài toán tối ưu được ứng dụng trong thực tế trong các lĩnh vực nghiên cứu, và thực tế. Môn học này giới thiệu những kiến thức cơ bản và nâng cao về các bài toán tối ưu.\nTrong môn học này, sinh viên sẽ được cung cấp đầy đủ những kiến thức cơ bản nhất để giải quyết các bài toán tối ưu trong lĩnh vực viễn thông như phân tích lồi, tập lồi, quy hoạch tuyến tính, các điều kiện tối ưu KKT, tối ưu hóa không ràng buộc (unconstrained optimization), tối ưu hóa có ràng buộc (constrained optimization) và các thuật toán liên quan khác.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp đầy đủ những kiến thức từ cơ bản đến nâng cao về phân tích lồi, tập lồi; cung cấp các kiến thức về các bài toán tối ưu không ràng buộc (unconstrained optimization) và tối ưu ràng buộc (constrained optimization); cung cấp các giải thuật tối ưu lồi, quy hoạch tuyến tính, quy hoạch bậc 2, tối ưu hình học và cách sử dụng các phần mềm/ toolbox để giải quyết các bài toán trong tối ưu lồi (convex optimization) như CVX (MATLAB) hay Python."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Cung cấp cho sinh viên những kỹ năng giải quyết các vấn đề trong truyền thông (communication), những kỹ năng về ngôn ngữ lập trình Python/ MATLAB ứng dụng trong học tập và nghiên cứu."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Rèn luyện tinh thần học hỏi và rèn luyện tư duy giải quyết các bài toán tối ưu, lập trình mô phỏng các thuật toán được giảng dạy trên lớp."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện sinh viên có thái độ nghiêm túc cũng như cầu tiến, sẵn sàng trao đổi và thảo luận với giảng viên trong giờ học và ngoài giờ để có thể hiểu rõ hơn về bài giảng cũng như bài tập."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu các kiến thức toán cơ bản về tối ưu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Bài toán tối ưu hóa lồi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Đối ngẫu – Xấp xỉ và hiệu chỉnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Ước lượng thống kê – Các bài toán tối ưu hình học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Ôn tập các kiến thức cơ bản về đại số tuyến tính",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Bài toán tối thiểu hóa không có ràng buộc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Bài toán tối thiểu hóa có điều kiện ràng buộc đẳng thức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Phương pháp điểm trong (interior-point method)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 921550,
+    "subjectCode": "303103",
+    "syllabusName": "Tập sự nghề nghiệp (Graduation Internship)",
+    "syllabusEnglish": "Graduation Internship",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học tổ chức sinh viên đến học và thực tập nghề tại công ty kinh doanh dịch vụ du lịch (ưu tiên kinh doanh dịch vụ tại điểm đến du lịch) với các nội dung chính sau:\n- Cơ cấu tổ chức và sản phẩm kinh doanh của công ty kinh doanh dịch vụ du lịch.\n\n- Kỹ năng giao tiếp với du khách và ứng xử tại điểm đến du lịch.\n- Tìm hiểu và thực hành các nghiệp vụ tại văn phòng kinh doanh dịch vụ du lịch: tư vấn và chăm sóc khách hàng, thiết kế và xây dựng sản phẩm, cung cấp sản phẩm dịch vụ và quản lý chất lượng dịch vụ, quản lý nhân sự…",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được tình hình phát triển của ngành du lịch hiện nay; Biết được cơ cấu tổ chức và các sản phẩm dịch vụ kinh doanh của công ty cung cấp dịch vụ du lịch hoặc của các cơ quản lý nhà nước về du lịch. \n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Rèn luyện kỹ năng sử dụng trang thiết bị văn phòng; Rèn luyện kỹ năng giao tiếp ứng xử với du khách và đồng nghiệp; Rèn luyện kỹ năng làm việc nhóm; Rèn luyện các kỹ năng nghiệp vụ của ngành nghề như: chăm sóc khách hàng, xây dựng sản phẩm, tiếp thị sản phẩm, quảng bá thương hiệu điểm đến,…\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học có tư duy độc lập, biết cách nhìn nhận, xem xét tình hình phát triển du lịch Việt Nam và hoạt động kinh doanh du lịch, quản lý điểm đến du lịch.\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có cái nhìn đúng đắn về ngành nghề du lịch, đưa ra định hướng nghề phù hợp cho bản thân; Có ý thức kỷ luật, trách nhiệm và tác phong chuyên nghiệp trong công việc. \n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tìm hiểu doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tìm hiểu khách hàng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kỹ năng mềm trong du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kỹ năng chuyên môn trong du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

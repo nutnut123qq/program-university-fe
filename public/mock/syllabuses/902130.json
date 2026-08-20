@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 964131,
+    "subjectCode": "902130",
+    "syllabusName": "Thực hành sản xuất bền vững (Sustainable Business Practice)",
+    "syllabusEnglish": "Sustainable Business Practice",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "·\n\nGiới thiệu về sản xuất bền vững;\n\n·\n\nĐánh giá sản xuất bền vững tại Việt Nam;\n\n·\n\nCác mô hình sản xuất bền vững điển hình;\n\n·\n\nHỗ trợ thực hiện sản xuất bền vững;\n\n·\n\nHiện trạng ứng dụng sản bền vững hơn tại Việt\r\nNam.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên hiểu được ý nghĩa của việc phòng ngừa tổng hợp về môi trường trong các quá trình sản xuất, sản phẩm và dịch vụ sản xuất bền vững."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích được hiện trạng sử dụng tài nguyên, năng lượng và chất lượng môi trường của các đơn vị sản xuất."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá được các cơ hội sản xuất bền vững thích hợp cho từng đơn vị sản xuất."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đề xuất được các giải pháp tối ưu trong ngăn ngừa, giảm thiểu, kiểm soát và xử lý chất thải, đảm bảo an toàn vệ sinh lao động và bảo vệ môi trường cho các đơn vị sản xuất."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Quá trình 2",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về sản xuất bền vững",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đánh giá sản xuất bền vững",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các mô hình SXBV điển hình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực hành ứng dụng SXBV tại Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,124 @@
+{
+  "info": {
+    "sylid": 624904,
+    "subjectCode": "40212660",
+    "syllabusName": "Thiết kế mạch tích hợp tương tự (Analog Integrated Circuit Design)",
+    "syllabusEnglish": "Analog Integrated Circuit Design",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung học phần gồm 7 chương:\n\n- Chương 1: Mô tả các mô hình và hoạt động của các thiết bị bán dẫn.\r\nMặc dù để mô tả các thiết kế mạch tích hợp đơn giản thì chỉ cần dùng các kiến\r\nthức cơ bản về mô hình hóa linh kiện bán dẫn, nhưng để thiết kế theo đúng công\r\nnghệ hiện đại, cần có sự hiểu biết sâu sắc về các hiệu ứng bậc 2 lên hoạt động\r\ncủa linh kiện bán dẫn.\n\n- Chương 2: chương này mô tả quá trình hiện thực hóa các vi mạch\r\nhiện đại, đặc biệt là công nghệ xử lý CMOS. Phần thiết kế layout cũng được giới\r\nthiệu trong chương này. Thiết kế layout là một phần trong quy trình chế tạo vi\r\nmạch, trong đó các đặc tính hình học của các phần tử mạch và các kết nối dẫn\r\nđiện được định nghĩa cụ thể. Quá trình này là tiền đề cho bước tiếp theo là sử\r\ndụng mặt nạ quang học để sản xuất vi mạch. Các khái niệm về luật thiết kế và\r\nảnh hưởng của nó đến chất lượng của vi mạch sẽ được nhấn mạnh trong chương này.\n\n- Chương 3: Trong chương này, các thành phần cơ bản của thiết kế sẽ\r\nđược giới thiệu, gồm có: các loại nguồn dòng gương, khuếch đại đơn tầng với tải\r\ntích cực, cặp transistor vi sai, …. Nắm vững kiến thức về các khối cơ bản này\r\nsẽ giúp học viên hiểu được các chủ đề khác trong phần còn lại của môn học cũng\r\nnhư các chủ đề về thiết kế vi mạch tương tự nói chung.\n\n- Chương 4: Các mạch điện tử được đánh giá bằng cách kích thích nó\r\nbằng tín hiệu ra của bộ dao động và sử dụng dao động ký để quan sát ảnh hưởng\r\ncủa mạch lên biên độ và pha của tín hiệu vào. Kỹ thuật này nói chung chỉ thích\r\nhợp cho các mạch tuyến tính.\n\n- Chương 5: Vấn đề hồi tiếp là một chủ đề quan trọng trong thiết kế\r\nvi mạch tương tự. Đây là khái niệm quan trọng cho phép chúng ta thiết kế các\r\nmạch analog gần như lý tưởng từ những linh kiện transistor không lý tưởng và\r\nkhó điều khiển. Bằng cách này, chúng ta có thể chia các hệ thống phức tạp thành\r\ncác khối con có thể được thiết kế 1 cách độc lập.\n\n- Chương 6: Chương này mô tả các nguyên lý cơ bản để thiết kế OpAmp.\r\nĐể minh họa các nguyên lý này, chúng ta khảo sát một thiết kế OPAMP truyền\r\nthống, đó là OPAMP CMOS 2 tầng.\n\n- Chương 7: Chương này trình bày các thiết kế mạch dùng để thiết lập\r\nmức điện áp hay dòng điện DC. Đây chính là những thiết kế vi mạch tương tự phức\r\ntạp, thường có sử dụng hồi tiếp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm vững kiến thức về các thành phần cơ bản của thiết kế.\r\nHiểu được nguyên lý hồi tiếp, vấn đề quan trọng trong thiết kế vi mạch tương tự\r\nNắm được các nguyên lý thiết kế vi mạch OPAMP\r\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng áp dụng các khối cơ bản như mạch khuếch đại với tải tích cực, cặp transistor vi sai, … vào các thiết kế mạch tích hợp tương tự\r\nCó khả năng thiết kế layout, ứng dụng mặt nạ trong việc chế tạo vi mạch\r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng trình bày và thảo luận một cách sâu sắc về các giải pháp thiết kế mạch tích hợp tương tự.\r\nCó khả năng giải thích các thiết kế mạch dùng để thiết lập áp và dòng DC. Có khả năng đề xuất các phương pháp để cải tiến các phương pháp thiết kế đã trình bày, trong đó có thiết kế OPAMP\r\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Hiểu được tầm quan trọng của các khối cơ bản, của kỹ thuật hồi tiếp trong thiết kế vi mạch.\r\nCó ý thức tự tìm tòi học hỏi để nâng cao kiến thức thực tế về thiết kế vi mạch tương tự\r\n\r\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Mạch tích hợp và vấn đề mô hình hóa and Modelling",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Xử lý và thiết kế layout",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nguồn dòng gương và các mạch khuếch đại đơn tầng ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Đáp ứng tần số của mạch điện tử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Khuếch đại hồi tiếp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Basic Opamp Design and Compensation",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Biasing, References and Regulators",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

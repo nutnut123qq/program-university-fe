@@ -1,0 +1,122 @@
+{
+  "info": {
+    "sylid": 491076,
+    "subjectCode": "802122",
+    "syllabusName": "Kết cấu thép (Steel Design)",
+    "syllabusEnglish": "Steel Design",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "·\n\nGiới thiệu về kết cấu thép trong xây dựng, ưu\r\nnhược điểm và phân loại.\n\n·\n\nTính toán khả năng chịu lực của các tiết diện thép\r\nchịu kéo.\n\n·\n\nTính toán khả năng chịu lực của các tiết diện\r\nthép chịu nén.\n\n·\n\nTính toán khả năng chịu lực của các tiết diện\r\nthép chịu uốn.\n·\n\nTính toán các loại liên kết trong kết cấu thép",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên những kiến thức cơ bản về sự làm việc của vật liệu thép, nguyên lý cấu tạo, nguyên lý tính toán của kết cấu thép."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Cung cấp cho sinh viên kỹ năng tính toán được lượng vật liệu cần thiết, kích thước hình học của một mặt cắt ngang và bố trí chúng để đảm bảo khả năng chịu lực."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên biết chủ động trong việc tìm tòi học hỏi, nghiên cứu tài liệu, hình thành hướng nghiên cứu, phát triển nghề nghiệp và đạo đức nghề nghiệp khi ra trường"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "MỞ ĐẦU",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "LIÊN KẾT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "CẤU KIỆN CHỊU KÉO",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "CẤU KIỆN CHỊU NÉN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "CẤU KIỆN CHỊU UỐN TIẾT DIỆN CHỮ I",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

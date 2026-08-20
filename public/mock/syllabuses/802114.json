@@ -1,0 +1,72 @@
+{
+  "info": {
+    "sylid": 113981,
+    "subjectCode": "802114",
+    "syllabusName": "Thực tập kỹ sư 2 (Engineer Practice 2)",
+    "syllabusEnglish": "Engineer Practice 2",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên được giới thiệu đến\r\ncông ty tư vấn thiết kế hoặc đơn vị thi công công trình cầu hoặc đường cấp công\r\ntrình từ cấp III trở lên. Sinh viên được thực tập với vai trò là một cán bộ kỹ\r\nthuật. Qua đó nắm được công tác tổ chức của đơn vị thực tập, tham gia thiết kế\r\nkỹ thuật hoặc thiết kế tổ chức thi công cho một công trình cầu hoặc đường, Tham\r\ngia thiết kế một hạng mục, bộ phận của một công trình cầu hoặc đường, tìm hiểu\r\ncác phần mềm được sử dụng trong tính toán thiết kế một công trình cầu hoặc đường,\r\ntham gia lập tổng dự toán, dự toán của một công trình cầu hoặc đường vàt tìm\r\nhiểu các văn bản, quy trình, quy phạm liên quan đến công trình cầu hoặc đường cấp\r\ncông trình từ cấp III trở lên.  Đồng\r\nthời, tThu thập số liệu thực tế để chuẩn bị làm đồ án tốt nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết được tổ chức bộ máy của công ty tham gia dự án thiết kế hoặc thi công các công trình cầu hoặc đường cấp công trình từ cấp III trở lên"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nắm vững và hiểu rõ nội dung hồ sơ thiết kế kỹ thuật của công trình cầu hoặc đường cấp công trình từ cấp III trở lên"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nắm vững và hiểu rõ nội dung hồ sơ thiết kế kỹ thuật bản vẽ thi công của công trình cầu hoặc đường cấp công trình từ cấp III trở lên"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Nắm vững và hiểu rõ nội dung hồ sơ hoàn công của công trình cầu hoặc đường cấp công trình từ cấp III trở lên"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Phân tích và đánh giá chi tiết về một phần hoặc một bộ phận công trình cầu hoặc đường cấp công trình từ cấp III trở lên"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nội dung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

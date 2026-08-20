@@ -1,0 +1,73 @@
+{
+  "info": {
+    "sylid": 774592,
+    "subjectCode": "H01012",
+    "syllabusName": "Thí nghiệm Vật lý đại cương (General Physics Laboratory)",
+    "syllabusEnglish": "General Physics Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giúp cho người học hiểu và ứng dụng kiến thức cơ bản đã được học trong phần vật lý nhằm chuẩn bị theo học các học phần nâng cao khác. Mặt khác, môn học còn giúp cho người học nắm được kỹ năng đo đạc, xử lý số liệu một số đại lượng vật lý thông thường.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu (understand ) các kiến thức cơ bản của vật lý"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng (Apply ) cách thu thập, phân tích, tính toán vào xử lý số liệu"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng (Apply ) những kiến thức vật lý trong các vấn đề chuyên môn"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Vận dụng (Apply ) phương pháp tự học , kỹ năng làm việc nhóm"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Vận dụng (Apply ) tinh thần trách nhiệm, tính kỷ luật, nề nếp trong thực nghiệm và cũng như trong việc học, tinh thần tập thể, đoàn kết và giúp đở lẫn nhau."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Hoạt động tại lớp",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Classroom Activities",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [],
+  "materials": []
+}

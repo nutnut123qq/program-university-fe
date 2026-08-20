@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 187926,
+    "subjectCode": "402076",
+    "syllabusName": "Đồ án chuyên ngành (Individual Project)",
+    "syllabusEnglish": "Individual Project",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho sinh viên các kỹ năng làm việc, trao đổi kiến thức với giảng viên. Từ đó sinh viên hoàn thiện được các kỹ năng trong việc thiết kế và thi công mạch.\n\nBộ môn chia nhóm, phân công Giảng viên hướng dẫn, xác định đề tài, theo hướng điện tử hoặc viễn thông hoặc kết hợp hai hướng. Ví dụ các đề tài mang tính chất tổng hợp như sau: Thiết kế các mạch điện tử ứng dụng, lập trình thiết kế vi mạch PLD/FPGA, mạng máy tính và truyền số liệu, các ứng dụng multimedia: xử lý ảnh, audio, video, mô phỏng, tính toán, thiết kế các mạch siêu cao tần, thiết kế antenna, ...\n\nSinh viên nhận nhiệm vụ và bảo vệ kết quả thực hiện được trước hội đồng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Phân tích được nguyên lí hoạt động và mô hình hóa được mạch điện tử hoặc hệ thống thông tin đang khảo sát.\nThực hiện thi công hay mô phỏng được các nội dung có tính ứng dụng trong lĩnh vực điện tử viễn thông, và chứng minh được tính cần thiết về đề tài đã chọn\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Viết mô tả và hiệu chỉnh được mã chương trình để mô phỏng 1 hệ thống thông tin; hoặc phân tích và xử lí được các lỗi trong hệ thống mạch điện tử. Áp dụng vào xây dựng hệ thống để kiểm thử và đánh giá cả phần cứng lẫn phần mềm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng hệ thống hóa kiến thức đã học, tự tích lũy kiến thức mới và áp dụng để cải tiến các hệ thống, thiết bị hiện có hoặc đề xuất giải pháp mới cho lĩnh vực điện tử viễn thông."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Trình bày và viết được báo cáo cho đồ án môn học đúng theo phong cách khoa học và các tiêu chuẩn qui định của người hướng dẫn; xác định được các chỉ tiêu kỹ thuật cho một dự án thiết kế / mô phỏng mạch điện tử hoặc một hệ thống thông tin và lập kế hoạch thực hiện."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Tự lên kế hoạch chi tiết về thời gian, phương án kỹ thuật, tài nguyên cần thiết và nhân sự hỗ trợ cho việc thực hiện đồ án đã được phân công."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Biết các yêu cầu đạo đức nghề nghiệp của kỹ sư cũng như các nguyên tắc an toàn trong quá trình thực hiện đồ án; có thái độ tự giác nâng cao kiến thức chuyên môn để hướng tới mục tiêu khởi nghiệp và lãnh đạo."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": ". Nhận tên đề tài và nhiệm vụ đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lựa chọn giải pháp và thiết kế hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thi công mạch điện tử hoặc mô phỏng hệ thống viễn thông",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hoàn tất sản phẩm, hoàn thiện báo cáo + slides theo mẫu quy định",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

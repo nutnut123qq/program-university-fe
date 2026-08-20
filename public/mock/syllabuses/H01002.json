@@ -1,0 +1,158 @@
+{
+  "info": {
+    "sylid": 229023,
+    "subjectCode": "H01002",
+    "syllabusName": "Sinh lý học (Physiology)",
+    "syllabusEnglish": "Physiology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Sinh lý học gồm các phần sau đây\n\nChương 1:  Đại cương\n\nChương 2: Sinh lý tế bào và màng tế bào\n\nChương 3: Sinh lý máu và các dịch cơ thể\n\nChương 4: Sinh lý hệ tuần hoàn\n\nChương 5: Sinh lý hệ hô hấp\n\nChương 6: Sinh lý hệ tiêu hóa\n\nChương 7: Sinh lý học chuyển hóa và điều nhiệt\n\nChương 8: Giải phẫu - sinh lý hệ tiết niệu\n\nChương 9: Giải phẫu - sinh lý hệ nội tiết\n\nChương 10: Giải phẫu - sinh lý hệ sinh dục\n\nChương 11: Giải phẫu - sinh lý hệ thần kinh\n\nChương 12: Giải phẫu - sinh lý các giác quan",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học gặt hái được các kiến thức cơ bản nhất về đặc điểm sinh lý cơ thể người; đồng thời có thể giải thích được những cơ chế điều hòa và tự điều hòa của các tế bào, các cơ quan và các hệ cơ quan trong cơ thể."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học hình thành được khả năng phân tích được mối liên hệ giữa cơ thể và môi trường sống, đồng thời xác định được tầm quan trọng của sinh lý học đối với cuộc sống và y học, cũng như vận dụng kiến thức vào các môn chuyên ngành sau này."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học xây dựng dược nhận thức về tầm quan trọng của nhân viên y tế trong việc chăm sóc sức khỏe cho người dân."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đại cương",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Sinh lý tế bào và màng tế bào",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Sinh lý máu và các dịch cơ thể",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Sinh lý hệ tuần hoàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Sinh lý hệ hô hấp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Sinh lý hệ tiêu hóa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Sinh lý học chuyển hóa và điều nhiệt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Giải phẫu - sinh lý hệ tiết niệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Giải phẫu - sinh lý hệ nội tiết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Giải phẫu - sinh lý hệ sinh dục",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "Giải phẫu - sinh lý hệ thần kinh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 12,
+      "sessionNo": "12",
+      "topic": "Giải phẫu - sinh lý các giác quan",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

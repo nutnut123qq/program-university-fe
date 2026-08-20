@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 234254,
+    "subjectCode": "101047",
+    "syllabusName": "Kỹ thuật in (Printing Techniques)",
+    "syllabusEnglish": "Printing Techniques",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Kỹ thuật in cung cấp những kiến thức cơ bản về in ấn, chất liệu giấy, các kỹ thuật in ấn đặc biệt, quy trình xuất file từ thiết kế máy tính để thực hiện được  thành phẩm cuối cùng. Giúp sinh viên hiểu được quá trình sản xuất sản phẩm thiết kế đồ họa, từ đó ứng dụng phát triển tính sáng tạo trong các sản phẩm in ấn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu về quá trình sản xuất thành phẩm trong thiết kế đồ họa. Nhận biết vai trò và yêu cầu khác nhau ảnh hưởng đến quá trình sản xuất, các dạng file và hệ màu trong in ấn."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng kiến thức đã học, tương tác tốt với kỹ thuật viên nhà in, đề xuất yêu cầu in ấn tùy theo sản phẩm thiết kế. Chuẩn bị file thiết kế để in ấn. Quản lý quá trình in ấn và các giai đoạn sản xuất ra thành phẩm cuối cùng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân loại và so sánh giữa các loại kỹ thuật in, nắm được điểm mạnh yếu từng loại để đưa ra giải pháp hợp lý."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Nghiên cứu và tìm hiểu về các loại in, các loại giấy khác nhau, để có thể ghi nhớ và sử dụng một cách thành thạo. Sử dụng những loại hình in ấn và chất liệu giấy khác nhau để tạo ra sản phẩm thiết kế riêng, mang tính thẩm mỹ cao."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "QUÁ TRÌNH SẢN XUẤT SẢN PHẨM ĐỒ HỌA ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "GIAI ĐOẠN CHẾ BẢN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "GIAI ĐOẠN IN ẤN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "GIAI ĐOẠN GIA CÔNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "SẢN XUẤT SẢN PHẨM ĐỒ HỌA",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

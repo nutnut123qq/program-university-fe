@@ -1,0 +1,88 @@
+{
+  "info": {
+    "sylid": 655412,
+    "subjectCode": "E01006",
+    "syllabusName": "Tài sản, quyền sở hữu và thừa kế (Assets, Ownership and Inheritance)",
+    "syllabusEnglish": "Assets, Ownership and Inheritance",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần bao gồm những nội dung chính như tài sản, quyền sở hữu và thừa kế. Với mỗi nội dung chính, học phần tập trung xem xét, phân tích chuyên sâu những vấn đề pháp lý liên quan, bảo đảm cho sinh viên nắm được những kiến thức cần thiết để có thể áp dụng giải quyết các vấn đề pháp lý có liên quan trên thực tế. Ngoài ra, những nội dung học phần là một trong những nội dung cơ bản nhất về pháp luật dân sự, là tiền đề cho sinh viên học các nội dung khác về pháp luật dân sự cũng như các môn chuyên ngành luật khác. Trong quá trình giảng dạy, để tạo hứng thú cho sinh viên, giảng viên được yêu cầu đưa ra những tình huống những vấn đề pháp lý để người học thảo luậ, giải quyết từ đó hình thành kỹ năng xác định, giải quyết các vấn đề pháp lý và tư vấn pháp lý.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "- Sinh viên hiểu và vận dụng những kiến thức cơ bản về tài sản, quyền sở hữu, quyền thừa kế, thừa kế theo di chúc và thừa kế theo pháp luật."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "- Nắm bắt, phân tích, bình luận, đánh giá được các quy định về tài sản, quyền sở hữu và thừa kế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "- Vận dụng các quy định PLDS để giải quyết tình huống thực tế về tài sản, quyền sở hữu và phân chia thừa kế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tài sản và quyền sở hữu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thừa kế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,134 @@
+{
+  "info": {
+    "sylid": 377457,
+    "subjectCode": "903119",
+    "syllabusName": "Hệ thống tiêu chuẩn quốc tế về an toàn, sức khỏe và môi trường (International Standards for Safety Health and Environment)",
+    "syllabusEnglish": "International Standards for Safety Health and Environment",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Trang bị cho sinh viên những kiến thức cơ bản về các tiêu\r\nchuẩn quốc tế có liên quan đến công tác An toàn Sức khỏe Môi trường (ISO 9000,\r\nISO 14000, ISO 45000, ISO 26000 …) gồm nội dung, ý nghĩa, lĩnh vực và phạm vi\r\ncủa từng tiêu chuẩn. Cách thức vận hành và tích hợp các tiêu chuẩn cho doanh\r\nnghiệp trong quản lý An toàn Sức khỏe Môi trường.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hình thành đạo đức nghề nghiệp; tuân thủ các nguyên tắc an toàn, sức khỏe và môi trường; có phẩm chất đạo đức tốt, hiểu biết và tuân thủ pháp luật; tôn trọng và có ý thức bảo vệ người lao động và môi trường"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hình thành kỹ năng học tập suốt đời, làm việc nhóm hiệu quả, các kỹ năng suy nghĩ sáng tạo và có hệ thống, kĩ năng làm việc độc lập và kỹ năng giao tiếp hiệu quả thông qua viết và trình bày báo cáo trong lĩnh vực an toàn sức khỏe và môi trường"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng hệ thống pháp luật, các tiêu chuẩn quốc tế về an toàn, sức khỏe và môi trường trong quản lý hệ thống tại doanh nghiệp"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá hệ thống quản lý về an toàn, sức khỏe và môi trường tại doanh nghiệp"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Xây dựng được các giải pháp quản lý đảm bảo an toàn, sức khỏe và môi trường cho doanh nghiệp"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TỔNG QUAN CÁC TIÊU CHUẨN AN TOÀN SỨC KHỎE MÔI TRƯỜNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "HỆ THỐNG QUẢN LÝ CHẤT LƯỢNG ISO 9000",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "HỆ THỐNG QUẢN LÝ MÔI TRƯỜNG ISO 14000",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "HỆ THỐNG QUẢN LÝ AN TOÀN, SỨC KHỎE NGHỀ NGHIỆP ISO 45000",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "HƯỚNG DẪN VỀ TRÁCH NHIỆM XÃ HỘI  ISO 26000",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 519825,
+    "subjectCode": "100032",
+    "syllabusName": "Hình họa 1 (Drawing 1)",
+    "syllabusEnglish": "Drawing 1",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học được thiết kế 3 chương:\nChương 1 và 2: \nbao gồm các bài tập thực hành từ khối cơ bản đến các bài đầu tượng. Bài tập sẽ lấy điểm quá trình\nChương 3:\n\nbao gồm các bài tập thực hành vẽ\n tượng bán thân, tượng toàn thân nam, \ntượng toàn thân\n nữ. \nBài tập sẽ lấy điểm cuối kỳ\nHệ thống các bài tập từ khối cơ bản đến các tượng thạch cao giúp người học nắm bắt các nguyên lý kết cấu hình khối trên không gian mặt phẳng.\n﻿",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học hiểu và nhận thức được cấu trúc cơ bản về hình khối, không gian"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích được các hệ thống cấu trúc  hình khối, sự vật và con người: ánh sáng, đậm nhạt, bố cục"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng các hình khối cơ bản, bố cục sự vật trong không gian vào các đồ án thiết kế"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Khả năng phát hiện, tìm thấy yếu tố biểu cảm trong cấu trúc, hình khối của sự vật thiên nhiên vào hoạt động sáng tạo nghề nghiệp"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "CHƯƠNG I : TỔNG QUAN VỀ HÌNH HỌA (LẤY ĐIỂM QUÁ TRÌNH 50%)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "NGHIÊN CỨU ĐẦU TƯỢNG THẠCH CAO (LẤY ĐIỂM QUÁ TRÌNH 50%)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "NGHIÊN CỨU TƯỢNG BÁN THÂN VÀ TOÀN THÂN THẠCH CAO (LẤY ĐIỂM CUỐI KỲ 50%)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

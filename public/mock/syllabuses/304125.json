@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 548561,
+    "subjectCode": "304125",
+    "syllabusName": "Thực tế nghề nghiệp (Internship)",
+    "syllabusEnglish": "Internship",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học tổ chức sinh viên đến học thực tế nghề nghiệp tại cơ sở xã hội:\n\nTìm hiểu cơ cấu tổ chức, loại hình, dịch vụ và đối tượng thụ hưởng.\n\n            Thực hiện một số công việc cụ thể do cơ sở phân công.\n\n            Rèn luyện ý thức, thái độ, tác phong nghề nghiệp tại cơ sở…",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Rèn luyện kỹ năng, nghiệp vụ chuyên môn và kỹ năng xã hội khác"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có tư duy độc lập, biết cách nhìn nhận, xem xét tình hình phát triển ngành CTXH, định hướng phát triển nghề nghiệp trong tương lai."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có thái độ đúng đắn về nghề CTXH và ý thức kỷ luật, trách nhiệm và tác phong chuyên nghiệp trong công việc."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Ghi nhớ và giải thích một số lĩnh vực Công tác xã hội (CTXH) cơ bản và tính chất nghề nghiệp thông qua các hoạt động thực tế tại cơ sở như một nhân viên CTXH."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tìm hiểu về cơ sở thực tế nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tìm hiểu về tính chất công việc của nhân viên công tác xã hội",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 919197,
+    "subjectCode": "H02009",
+    "syllabusName": "Sinh học tế bào (Cell Biology)",
+    "syllabusEnglish": "Cell Biology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các nội dung chính sau:\nChương 1: DNA, Chromosome và Genome\nChương 2: Sao chép, sửa sai và tái tổ hợp DNA\nChương 3: Phiên\r\nmã, sinh tổng hợp protein\nChương 4: Điều\r\nhòa biểu hiện gene và Epigenetics\n\nChương 5: Truyền\r\ntín hiệu tế bào",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp kiến thức nền tảng về cấu trúc, chức năng và tổ chức của tế bào, từ cấp độ phân tử đến mô"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Giải thích các cơ chế sinh học phân tử điều khiển hoạt động sống của tế bào"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Trang bị khả năng phân tích và ứng dụng các kỹ thuật sinh học phân tử hiện đại trong nghiên cứu và y sinh học."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Cuối kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chương 1: DNA, Chromosome và Genome",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Sao chép, sửa sai và tái tổ hợp DNA",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phiên mã, sinh tổng hợp protein",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Điều hòa biểu hiện gene và Epigenetics",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Truyền tín hiệu tế bào",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

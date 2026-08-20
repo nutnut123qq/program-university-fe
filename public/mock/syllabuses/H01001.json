@@ -1,0 +1,74 @@
+{
+  "info": {
+    "sylid": 116619,
+    "subjectCode": "H01001",
+    "syllabusName": "Nhận thức dược liệu (Medicinal Plant Identification)",
+    "syllabusEnglish": "Medicinal Plant Identification",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Học trên thực tế về hình thái, tên khoa học, thành phần hóa học và công dụng chính của khoảng 60-80 cây thuốc.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nhận diện, ghi nhớ các thông tin của khoảng 100 cây thuốc tươi và vị thuốc khô"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu được vai trò của các cây thuốc tự nhiên trong phòng và điều trị bệnh, ứng dụng các cây thuốc trong điều trị các bệnh thông thường"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân biệt, tránh nhầm lẫn dược liệu"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có ý thức bảo tồn và phát triển nguồn cây thuốc"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhận thức cây thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thi cuối kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

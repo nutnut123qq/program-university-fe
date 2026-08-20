@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 237478,
+    "subjectCode": "40313860",
+    "syllabusName": "Chuyên đề nghiên cứu về tự động truyền động (Advanced Topics in Control of Electrical Drives)",
+    "syllabusEnglish": "Advanced Topics in Control of Electrical Drives",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Khóa học này sẽ bao gồm các chủ đề nâng cao \ntrong truyền động điện, chẳng hạn như:\n Mô hình phi tuyến của động cơ điện và bài toán \nthiết kế bộ điều khiển\n Điều khiển thời gian rời rạc, thực thi hệ thống điều khiển\n định hướng từ thông\n Ước tính tham số thời gian thực cho \ngiám sát tình trạng trực tuyến của động cơ trong hệ thống truyền động điện",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Có được sự hiểu biết cơ bản về các khái niệm trong truyền động điện và tự động điều khiển truyền động điện"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Đọc, nhận xét và đánh giá các tài liệu, bài báo khoa học, trình bày và thảo luận ưu nhược điểm của từng bài báo trong lĩnh vực liên quan"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Làm quen với các câu hỏi nghiên cứu mở trong lĩnh vực truyền động điện, đặt ra các câu hỏi nghiên cứu mới và đề xuất phương án"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Lựa chọn chủ đề",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nghiên cứu tài liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Viết đề cương",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực hiện nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Viết báo cáo và trình bày",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

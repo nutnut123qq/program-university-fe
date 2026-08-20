@@ -1,0 +1,206 @@
+{
+  "info": {
+    "sylid": 986563,
+    "subjectCode": "607036",
+    "syllabusName": "Quá trình truyền nhiệt và truyền khối (Heat and Mass Transfer)",
+    "syllabusEnglish": "Heat and Mass Transfer",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Các phương thức truyền nhiệt cơ bản: Dẫn nhiệt, đối lưu nhiệt và bức xạ nhiệt.\n\nTruyền nhiệt tổng quát qua vách phẳng, vách trụ và vách có cánh tản nhiệt.\n\nĐại cương về các quá trình và thiết bị truyền nhiệt.\n\nTính toán các quá trình truyền nhiệt cơ bản thường gặp : Quá trình đun nóng và làm nguội; Quá trình chần, hấp, chiên, rán, rang,sao; Quá trình thanh trùng; Quá trình  cô đặc bốc hơi, cô đặc lạnh; Quá trình làm lạnh, kết đông; Quá trinh làm ấm, tan giá thực phẩm,v.v…\n\nCơ sở truyền khối và khái quát về quá trình & thiết bị truyền khối cơ bản.\n\nTính toán các quá trình truyền khối tiêu biểu: Hấp thụ, chưng cất, trích ly, sấy...\n\nVấn đề tiết kiệm và sử dụng hiệu quả năng lượng ở các Quá trình & thiết bị truyền nhiệt – truyền khối trong công nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "\tMôn học cung cấp cho sinh viên chuyên ngành CNSH những kiến thức căn bản về Cơ sở truyền nhiệt và truyền khối; Khái quát về Quá trình và thiết bị truyền nhiệt - truyền khối  ứng dụng trong Công nghệ sinh học.\n\tGiúp sinh viên dễ dàng và thuận lợi hơn trong việc tiếp thu những kiến thức của nhiều môn học tiếp theo như : Thí nghiệm và thực tập Quá trình & thiết bị công nghệ; Các môn học chuyên đề CNSH; Tập sự nghề nghiệp nghiệp và Khóa luận tốt nghiệp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "\tBiết giải các bài toán căn bản về quá trình truyền nhiệt - truyền khối.\n\tBiết vận dụng những kiến thức của môn học để giải những bài toán thực tế liên quan đến sự truyền nhiệt và truyền khối  như:  Tính cân bằng vật chất và năng lượng; Xác định các thông số kỹ thuật - công nghệ quan trọng trong truyền nhiệt và truyền khối; Tính toán quá trình truyền nhiệt – truyền khối ứng dụng trong CNSH,v.v…\n\tCó kỹ năng giải bài toán về các quá trình truyền nhiệt-truyền khối tiêu biểu trong CNSH-Thực phẩm: Quá trình đun nóng và làm nguội; Quá trình chần, hấp, chiên, rán, rang,sao; Quá trình  cô đặc bốc hơi, cô đặc lạnh; Quá trình làm lạnh, kết đông; Quá trình làm ấm, tan giá thực phẩm; Quá trình chưng cất, hấp thụ, hấp phụ, sấy, trích ly; v.v…"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "\tRèn luyện ý thức và tư duy về tiết kiệm vật chất và năng lượng trong các quá trình công nghệ có liên quan đến sự truyền nhiệt và truyền khối.      "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "\tRèn luyện cho sinh viên tính chủ động và ý thức tự giác cao trong học tập; Nâng cao trách nhiệm cá nhân, tính kỷ luật và tinh thần trách nhiệm khi còn học tập ở trường cũng như khi ra trường.\n\tRèn luyện cho sinh viên ý thức biết tuân thủ các yêu cầu, qui định trong học tập và hoạt động nghề nghiệp, phục vụ xã hội sau khi ra trường."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Mở đầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các phương thức truyền nhiệt cơ bản.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Truyền nhiệt tổng quát (TN)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Đại cương về thiết bị truyền nhiệt (TBTN)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tính toán thiết bị truyền  nhiệt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Quá trình và thiết bị cô đặc (TBCĐ)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Quá trình  và thiết bị làm lạnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Cơ sở truyền khối",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Khái quát về thiết bị truyền khối ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Chưng cất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "Hấp thụ và nhả hấp thụ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 12,
+      "sessionNo": "12",
+      "topic": "Hấp phụ và trao đổi ion",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 13,
+      "sessionNo": "13",
+      "topic": "Sấy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 14,
+      "sessionNo": "14",
+      "topic": "Trích ly",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 15,
+      "sessionNo": "15",
+      "topic": "Các quá trình và thiết bị truyền khối khác.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 16,
+      "sessionNo": "16",
+      "topic": "Vấn đề tiết kiệm và sử dụng hiệu quả năng lượng ở các thiết bị nhiệt công nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

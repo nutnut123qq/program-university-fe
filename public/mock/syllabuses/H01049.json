@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 960842,
+    "subjectCode": "H01049",
+    "syllabusName": "Dược lý 2 (Pharmacology 2)",
+    "syllabusEnglish": "Pharmacology 2",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Dược lý 2 gồm các chương:\nThuốc tác động trên hệ thần kinh thực vật.\nThuốc tác động trên hệ thần kinh trung ương.\nThuốc kháng histamin H1, kháng viêm NSAID.\nThuốc tim mạch.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trình bày được đặc điểm dược động học, cơ chế tác dụng, tác dụng dược lý, tác dụng không mong muốn, chỉ định, chống chỉ định, cách dùng và tương tác thuốc quan trọng của các thuốc thuộc nhóm thuốc tim mạch, nội tiết, nhóm thuốc hóa trị liệu bệnh nhiễm"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích được mục đích của việc sử dụng từng thuốc cụ thể trong điều trị bệnh.\n\nĐánh giá được tác động, hiệu quả, tính ưu việt và hạn chế của các thuốc thuộc nhóm thuốc tim mạch, nội tiết, thuốc hóa trị liệu bệnh nhiễm.\n\nVận dụng kiến thức về dược động học và dược lực học của các nhóm thuốc để xây dựng liệu trình điều trị bệnh. \nPhát hiện, xử lý, phòng tránh các tương tác thuốc tiềm năng trong khi sử dụng thuốc điều trị bệnh."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nhận thức được vai trò quan trọng của nhân viên y tế trong việc chăm sóc sức khỏe cho người dân."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thuốc tác động trên hệ thần kinh thực vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thuốc tác động trên hệ thần kinh trung ương",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thuốc kháng Histamin H1, NSAID ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thuốc tim mạch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

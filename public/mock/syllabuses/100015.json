@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 437623,
+    "subjectCode": "100015",
+    "syllabusName": "Vẽ kỹ thuật (Technical Drawing)",
+    "syllabusEnglish": "Technical Drawing",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên được hướng dẫn sử dụng họa cụ, vẽ hình hình học cơ bản, thể hiện chất liệu để kẻ chữ, số, tính tỉ lệ, ghi chú số đo, vẽ các mặt hình chiếu thẳng góc, hình cắt, hình chiếu trục đo.\n﻿",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu đúng quy chuẩn đọc, vẽ một bản vẽ kỹ thuật."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng thi triển qui cách của một bản vẽ kỹ thuật, biết cách vẽ (bằng tay) và biểu diễn vật thể với các hình chiếu của nó, hiểu và vẽ được các bản vẽ kỹ thuật về lĩnh vực chuyên ngành."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Ứng dụng vào bản vẽ, làm cho người học ngoài đọc, hiểu các bản vẽ kỹ thuật còn có thể tự lên phương án thiết kế các sản phẩm bằng các bản vẽ kỹ thuật."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Luyện tập các kỹ năng làm việc một cách nghiêm túc, tính toán cẩn thận."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "VẬT LIỆU VÀ DỤNG CỤ VẼ.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "NHỮNG TIÊU CHUẨN CƠ BẢN CỦA BẢN VẼ KỸ THUẬT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "VẼ HÌNH HỌC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "BIỂU DIỄN VẬT THỂ TRÊN BẢN VẼ KỸ THUẬT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "HÌNH CHIẾU TRỤC ĐO",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

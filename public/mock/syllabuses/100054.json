@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 663857,
+    "subjectCode": "100054",
+    "syllabusName": "Nghệ thuật ảnh (Kỹ thuật số) (Digital Photography)",
+    "syllabusEnglish": "Digital Photography",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Những kiến thức cơ bản về nhiếp ảnh, các dụng cụ và kỹ thuật cần thiết trong lĩnh vực nhiếp ảnh. Hướng dẫn cách sử dụng và xử lý hình ảnh.\n\n- Thực hành nhiếp ảnh\n\nChụp ảnh chân dung\n\nChụp ảnh phong cảnh\n\nChụp ảnh macro\n\nChụp ảnh sản phẩm\n\n- Ứng dụng hình ảnh đã xử lý để quảng bá sản phẩm thời trang.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu các thông số của máy ảnh, ghi nhớ và thao tác các kỹ thuật chụp ảnh"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu được kỹ thuật chụp và vận dụng các nguyên tắc, bố cục, ánh sáng"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích thứ tự xử lý và sắp xếp thông tin, hình ảnh để ứng dụng vào quảng bá sản phẩm thời trang."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá được tư duy, sự sáng tạo và hiệu quả của hình ảnh. Đánh giá được chất liệu màu, cảm xúc của bản thân và so sánh tương quan ánh sáng , không gian xa gần."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những kiến thức cơ bản về nhiếp ảnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực hành nhiếp ảnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Xử lý hậu kì hình ảnh, ứng dụng vào quảng bá sản phẩm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

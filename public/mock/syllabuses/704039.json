@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 84660,
+    "subjectCode": "704039",
+    "syllabusName": "Thực hành chuyên môn 2 (Sale Skill)",
+    "syllabusEnglish": "Sale Skill",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho sinh viên những kiến thức cơ bản về nghề bán hàng, con đường nghề nghiệp trong lĩnh vực bán hàng, ngoài ra còn giúp cho sinh viên xây dựng mối quan hệ trong giao tiếp bán hàng;\n\nGiúp sinh viên hiểu tầm quan trọng của hoạt động bán hàng trong doanh nghiệp;\nCung cấp kiến thức về xây dựng lòng tin và đạo đức trong bán hàng\nTrang bị và rèn luyện cho sinh viên các kỹ năng giao tiếp trong bán hàng và hướng tới bán hàng chuyên nghiệp;\nTrang bị cho sinh viên kiến thức căn bản về quy trình bán hàng\n\nTrình bày được một kế hoạch bán hàng với tư cách nhân viên bán hàng",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên hiểu kiến thức cơ bản về bán hàng: hoạt động bán hàng, quy trình bán hàng, các kỹ năng cần có của một nhân viên bán hàng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích để hiểu về nghề bán hàng trong điều kiện hội nhập và trong thời đại công nghệ số."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Ứng dụng kiến thức đã học để viết và trình bày một kế hoạch bán hàng"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Được huấn luyện để phát triển các kỹ năng, thực hiện công việc để trở thành một nhân viên bán hàng "
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Ứng dụng kiến thức để xử lý một công việc trong hoạt động bán hàng cụ thể, và xử lý linh hoạt đối với các tình huống trong điều kiện hội nhập quốc tế và trong thời đại công nghệ số"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về hoạt động bán hàng  ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kỹ năng bán hàng chuyên nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quy trình bán hàng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực hành học với doanh nghiệp SMEI",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

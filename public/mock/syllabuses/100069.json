@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 43575,
+    "subjectCode": "100069",
+    "syllabusName": "Trang điểm nghệ thuật (Makeup Arts)",
+    "syllabusEnglish": "Makeup Arts",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu các dạng mỹ phẩm, các loại dụng cụ, các dạng da mặt.\n\nTìm hiểu các phong cách trong lĩnh vực trang điểm.\n\nNghiên cứu và thực hành trang điểm cá nhân.\n\nNghiên cứu và thực hành trang điểm ấn tượng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Người học hiểu, ghi nhớ những kiến thức tổng quát về trang điểm cá nhân và trang điểm nghệ thuật."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Người học có khả năng phân biệt được các loại mỹ phẩm  và các phong cách trang điểm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Người học có khả năng tự đánh giá, phân tích và sáng tạo để tạo ra sự phong phú của nghệ thuật trang điểm."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học được truyền đam mê nghề nghiệp thông qua việc nghiên cứu kĩ thuật trang điểm, nhận thức đúng về vai trò của phụ trang đối với thiết kế thời trang trong việc sáng tạo ra cái đẹp và định hướng thẩm mỹ cho xã hội."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Vai trò và vị trí của trang điểm đối với thiết kế thời trang    ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Trang điểm cá nhân  ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Trang điểm theo concept- Trang điểm ấn tượng   ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

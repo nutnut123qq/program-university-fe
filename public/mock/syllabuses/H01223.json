@@ -1,0 +1,136 @@
+{
+  "info": {
+    "sylid": 756781,
+    "subjectCode": "H01223",
+    "syllabusName": "Xác suất thống kê trong y dược (Probability and Statistics for Medicine)",
+    "syllabusEnglish": "Probability and Statistics for Medicine",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "﻿\nĐại cương về xác suất: Các khái niệm, định nghĩa về xác suất, các tính chất và một số công thức xác suất. Ví dụ minh họa và ứng dụng.\nBiến số ngẫu nhiên: Định nghĩa và phân loại biến số ngẫu nhiên. Cách xác định biến số ngẫu nhiên và các tham số đặc trưng của biến số ngẫu nhiên.\nPhân phối xác suất: Phân phối nhị thức, phân phối siêu bội, phân phối Poisson. Phân phối chuẩn, Student, và một số phân phối xác suất khác.\nMẫu ngẫu nhiên: Khái niệm về mẫu - tổng thể, phương pháp lấy mẫu, tham số đặc trưng của mẫu, phân phối xác suất của mẫu.\nLý thuyết ước lượng: ước lượng điểm và ước lượng khoảng. Các bài toán ước lượng tham số thống kê: ước lượng trung bình, phương sai và ước lượng tỷ lệ.\nKiểm định giả thuyết thống kê: bài toán kiểm định trung bình, phương sai và kiểm định tỷ lệ.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên các khái niệm cơ bản mô tả thống kê như giá trị trung bình, độ lệch chuẩn và độ không đảm bảo của các phép đo cũng như số liệu thống kê so sánh nhằm mục đích so sánh hai hoặc nhiều giá trị trung bình của mẫu hoặc thực hiện hồi quy tuyến tính đơn giản."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Cung cấp kiến thức về cách sử dụng các quy trình thống kê để phân tích dữ liệu."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu được tầm quan trọng của các quy trình thống kê đối với công việc hàng ngày được thực hiện trong công việc nghiên cứu, ứng dụng trong lĩnh vực chuyên ngành Dược."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu xác suất thống kê và ứng dụng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Giới thiệu dữ liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Xác suất và phân phối",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tổng thể, mẫu, sai số chuẩn, và khoảng tin cậy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kiểm tra giả thuyết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "So sánh hai hoặc nhiều nhóm với dữ liệu liên tục",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "So sánh các nhóm dữ liệu nhị phân và phân loại",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Tương quan và hồi quy tuyến tính",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

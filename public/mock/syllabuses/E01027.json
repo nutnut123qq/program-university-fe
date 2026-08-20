@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 877360,
+    "subjectCode": "E01027",
+    "syllabusName": "Tâm lý học tư pháp (Psychology)",
+    "syllabusEnglish": "Psychology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Tâm lý học tư pháp là môn khoa học ứng dụng kiến thức tâm lý\r\nvào hoạt động tố tụng hình sự.\nMôn học trang bị cho người học những kiến thức chung về tâm\r\nlý học trong lĩnh vực tư pháp như khái niệm tâm lý tư pháp, cấu trúc tâm lý của\r\nhoạt động tư pháp, các phương pháp tác động tâm lý trong hoạt động tư pháp hình\r\nsự. \nMôn học cung cấp cho người học kiến thức ứng dụng tâm lý học vào\r\ncác hoạt động tư pháp cụ thể như các đặc điểm tâm lý của người phạm tội trong hoạt\r\nđộng điều tra, truy tố, xét xử, bào chữa; những\n đặc điểm tâm lý\r\ncủa người tiến hành tố tụng và người tham gia tố tụng\n; sử\r\ndụng các phương pháp tác động tâm lý trong hoạt động tư pháp hình sự\n.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên những kiến thức lý luận cơ bản về Tâm lý học tư pháp, từ đó có thể ứng dụng vào việc giải quyết vụ án hình sự thông qua sự tự điều chỉnh về tâm lý của cán bộ tư pháp và việc sử dụng hiệu quả phương pháp tác động tâm lý.\n\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Trang bị cho sinh viên các kỹ năng ứng dụng kiến thức tâm lý trong hoạt động tố tụng hình sự để đạt được mục tiêu tố tụng và hoàn thành nhiệm vụ tố tụng của mình khi hành nghề."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Môn học yêu cầu sinh viên phải có tư duy độc lập, tư duy phân tích luật, phát hiện vấn đề, xây dựng kỹ năng ban đầu trong việc vận dụng kiến thức tâm lý tư pháp trong khuôn khổ pháp lý của pháp luật tố tụng hình sự.\n\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Học xong môn này sinh viên sẽ có ý thức về tuân thủ pháp luật hình sự, xây dựng ý thức nghề nghiệp trong lĩnh vực tư pháp hình sự, đặc biệt là ý thức bảo vệ trật tự xã hội cũng như quyền công dân."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "NHỮNG VẤN ĐỀ CHUNG CỦA TÂM LÝ HỌC TƯ PHÁP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "ĐẶC ĐIỂM TÂM LÝ CỦA HOẠT ĐỘNG PHẠM TỘI",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "ĐẶC ĐIỂM TÂM LÝ CỦA HOẠT ĐỘNG ĐIỀU TRA",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "ĐẶC ĐIỂM TÂM LÝ CỦA HOẠT ĐỘNG XÉT XỬ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "ĐẶC ĐIỂM TÂM LÝ CỦA HOẠT ĐỘNG BÀO CHỮA",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "ĐẶC ĐIỂM TÂM LÝ CỦA HOẠT ĐỘNG CẢI TẠO",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

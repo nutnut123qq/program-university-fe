@@ -1,0 +1,134 @@
+{
+  "info": {
+    "sylid": 109431,
+    "subjectCode": "E01136",
+    "syllabusName": "Lý luận định tội (Theory of Criminal Justice)",
+    "syllabusEnglish": "Theory of Criminal Justice",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học\r\nlý luận định tội là môn học được xây dựng trên nền tảng người học phải có kiến\r\nthức tốt về các môn học Luật hình sự Phần Chung, Phần các tội phạm và luật tổ\r\ntụng hình sự.\nNội dung\r\nmôn học bao gồm các bài lý thuyết định tội danh như những vấn đề lý luận định\r\ntội danh; cơ sở pháp lý của định tội danh; cạnh tranh và giải quyết cạnh tranh\r\nquy phạm pháp luật hình sự; định tội danh theo các yếu tố cấu thành tội phạm;\r\nđịnh tội danh đối với hành vi chưa hoàn thành tội phạm; định tội danh trong\r\nđồng phạm, có nhiều tội phạm.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu các quy định của pháp luật hình sự Việt Nam về tội phạm và hình phạt"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết các khái niệm cụ thể trong luật hình sự Việt Nam"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tự đánh giá, phân tích được các cấu thành của từng tội danh và xác định đúng tội danh cho từng hành vi phạm tội"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thay đổi thái độ nhận thức pháp luật hình sự và đưa ra phán đoán chính xác cho các hành vi phạm tội."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Đóng vai,Tranh luận,Bình luận – đánh giá phần mềm/ sách ,Nghiên cứu tình huống",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Role Play,Debate,Software/Book Review,Case Study",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Nghiên cứu tình huống",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Case Study",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": " Những vấn đề lý luận về định tội danh.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cơ sở pháp lý của định tội danh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Cạnh tranh quy phạm pháp luật và định tội danh. ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Định tội danh theo các yếu tố cấu thành tội phạm.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Định tội danh đối với hành vi phạm tội chưa hoàn thành.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Định tội danh trong trường hợp đồng phạm, có nhiều tội phạm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Thực hành Phiên tòa giả định",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,168 @@
+{
+  "info": {
+    "sylid": 999668,
+    "subjectCode": "902043",
+    "syllabusName": "Quản lý tài nguyên môi trường (Environmental Resources Management)",
+    "syllabusEnglish": "Environmental Resources Management",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu về quản lý môi trường (QLMT);\n\nCông cụ kỹ thuật trong QLMT;\n\nCông cụ kinh tế trong QLMT;\n\nCông cụ luật pháp - chính sách trong QLMT;\n\nCông cụ phụ trợ trong QLMT;\n\nỨng dụng các công cụ QLMT trong quản lý tài nguyên môi trường;\n\nỨng dụng các công cụ QLMT trong quản lý môi trường địa phương, doanh nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được khối kiến thức cơ bản về tự nhiên, xã hội, hệ thống quản lý tài nguyên và môi trường; các công cụ quản lý môi trường ở địa phương và doanh nghiệp"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng được các công cụ quản lý môi trường trong hoạt động tư vấn về bảo vệ môi trường; tư vấn các giải pháp tối ưu trong kỹ thuật xử lý chất thải và ngăn ngừa ô nhiễm, quản trị các nguồn tài nguyên. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích được nguyên nhân phát sinh chất thải, các kỹ thuật giảm thiểu và ngăn ngừa ô nhiễm dựa trên các nguyên lý cơ bản, nguyên tắc áp dụng và thực trạng của đơn vị."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đề xuất chương trình/ giải pháp tối ưu trong kỹ thuật xử lý chất thải và ngăn ngừa ô nhiễm, quản trị các nguồn tài nguyên. "
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Xây dựng được các chương trình giáo dục, truyền thông về bảo vệ môi trường, chương trình kiểm soát môi trường nhằm mục tiêu giảm thiểu và ngăn ngừa ô nhiễm tại địa phương và doanh nghiệp, tích cực tham gia các hoạt động vì cộng đồng."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Vận dụng được kỹ năng viết và trình bày báo cáo khoa học để thuyết trình nội dung chương trình/dự án một cách hiệu quả."
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Áp dụng kỹ năng làm việc nhóm và làm việc độc lập để thực hiện nội dung chương trình/dự án một cách hiệu quả"
+    },
+    {
+      "id": 8,
+      "loSeq": "8",
+      "cloName": "CO8",
+      "loDetails": "Thể hiện đạo đức nghề nghiệp, ý thức bảo vệ môi trường, tích cực tham gia các hoạt động vì cộng đồng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái quát hệ thống quản lý môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Công cụ luật pháp - chính sách trong quản lý môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Công cụ kỹ thuật trong quản lý môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Công cụ kinh tế trong quản lý môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Công cụ phụ trợ trong quản lý môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Ứng dụng các công cụ QLMT trong quản lý tài nguyên môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Ứng dụng các công cụ quản lý môi trường trong quản lý môi trường đô thị và khu công nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 897482,
+    "subjectCode": "303120",
+    "syllabusName": "Thực hành du lịch 1 (Tourism Practice 1)",
+    "syllabusEnglish": "Tourism Practice 1",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học trang bị cho sinh viên quy trình thiết kế và triển khai tour thực tế - từ lựa chọn tuyến điểm, xây dựng lịch trình và tính toán giá tour; soạn kịch bản thuyết minh, tổ chức trải nghiệm, xử lý tình huống; đến phân công và phối hợp nhóm, giúp nắm vững cách thức chuẩn bị và vận hành các kỹ năng cần thiết trong điều kiện thực tế của ngành du lịch – lữ hành suốt chuyến đi, đồng thời đáp ứng nhu cầu tìm hiểu cơ hội và thách thức nghề nghiệp cho sinh viên mong muốn theo đuổi sự nghiệp trong lĩnh vực này.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trong học phần này, sinh viên sẽ được cung cấp kiến thức thực tế về địa lý, văn hoá, xã hội, lịch sử, cũng như các điểm, tuyến điểm du lịch từ đó làm cơ sở để phục vụ cho hoạt động thực tế nghề nghiệp sau khi tốt nghiệp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên được khuyến khích phát triển một số kỹ năng cần thiết trong suốt chuyến thực hành tuyến điểm du lịch 1 (kỹ năng thuyết minh, xử lý tình huống) trong suốt quá trình đi."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên biết cách phát triển kĩ năng nghề nghiệp trong quá trình đi thực tế. Khả năng áp dụng được các kỹ năng nói trên khi làm việc trong ngành công nghiệp du lịch sau khi ra trường. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên có thái độ và hành vi đúng đắn về việc áp dụng kiến thức tuyến điểm du lịch đã học vào thực tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Cơ sở xây dựng thực hành tuyến điểm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Xây dựng nhóm điều hành",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Xây dựng kịch bản thuyết minh và giải quyết tình huống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực hành tuyến điểm ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

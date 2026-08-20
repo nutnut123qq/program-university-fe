@@ -1,0 +1,150 @@
+{
+  "info": {
+    "sylid": 782991,
+    "subjectCode": "709008",
+    "syllabusName": "Quản lý kho bãi và tồn kho (Warehouse and Inventory Management)",
+    "syllabusEnglish": "Warehouse and Inventory Management",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "This course examines warehouse and inventory management as core components of supply-chain performance. It begins with strategic perspectives on warehouses and inventories, followed by operational processes such as receiving, put-away, picking, and despatch. The inventory management component covers deterministic models, stochastic approaches, and multi-item planning under constraints. Students will also explore warehouse technologies, automation, WMS, green logistics, safety, and emerging trends such as e-fulfilment and multi-echelon systems. The course integrates theory and practice, enabling students to balance cost, service, and sustainability in complex supply-chain contexts.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Build the ability to analyse the strategic roles of warehousing and inventory in supply-chain networks, explaining their impact on service, cost efficiency, and responsiveness."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Develop quantitative and analytical skills to apply deterministic, stochastic, and multi-item inventory models to optimise stock levels under varying demand and lead-time conditions."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Acquire the capacity to design and evaluate warehouse processes—such as receiving, put-away, slotting, picking, replenishment, and despatch—and assess the role of warehouse technologies (WMS, automation, data capture)."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Cultivate critical thinking to recommend sustainable, compliant, and performance-driven practices, including the use of KPI frameworks, green logistics, and health and safety initiatives in warehousing and inventory management."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Process evaluation 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Mid-term test",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Final examination",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Introduction to Warehousing and Inventory",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Warehouse Operations – Receiving, Put-Away, Cross-Docking",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Advanced Deterministic Inventory Models",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Lot-Sizing for Dynamic Demand",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Stochastic and Multi-Item Inventory Models",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Order Picking, Technology, and Automation",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Replenishment, Despatch, and Specialised Warehousing",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Warehouse Management Systems and Green Logistics",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Future Trends, Multi-Echelon Systems, and KPIs",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

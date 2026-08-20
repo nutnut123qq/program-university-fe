@@ -1,0 +1,122 @@
+{
+  "info": {
+    "sylid": 557211,
+    "subjectCode": "805029",
+    "syllabusName": "Thực tập công trường xây dựng (Construction Site Practice)",
+    "syllabusEnglish": "Construction Site Practice",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "·\n\nThực\r\ntế tại công trình xây dựng quan sát việc thực hiện thi công thành phần, hạng\r\nmục công trình\n·\n\nTìm\r\nhiểu quy trình thiết kế công trình xây dựng.\n·\n\nTìm\r\nhiểu quy trình giám sát kỹ thuật và chất lượng công trình xây dựng\n·\n\nTìm\r\nhiểu quy trình nghiệm thu công trình xây dựng\n\n·\n\nTrình\r\nbày trình tự thi công xây dựng và nghiệm thu công trình trong báo cáo tổng kết\r\ncuối khóa.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Trang bị cho sinh viên kiến thức về việc tổ chức quản lý thi công quản lý, bố trí mặt bằng công trường và công tác an toàn lao động."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Thực hiện quan sát, phân tích và ứng dụng kiến thức đã học vào thực tế công trình xây dựng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Thể hiện sự liên quan giữa lý thuyết và thực tế ngành xây dựng, tư duy phân tích và áp dụng."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Hiểu được phạm vi, đối tượng nghiên cứu của ngành xây dựng để yêu nghề và có thái độ học tập phù hợp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Vấn đáp,Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Viva/Oral Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu nội dung môn học, chuẩn bị, tiếp cận công trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tìm hiểu các thao tác trong thi công xây dựng công trình, từng loại cấu kiện, loại kết cấu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tìm hiểu và phân tích được ưu nhược điểm, phạm vi ứng dụng kiến thức trong ngành xây dựng.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tìm hiểu và vận dụng các tiêu chuẩn xây dựng vào trong công trình xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tìm hiểu được các hồ sơ thiết kế xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Tìm hiểu được quy trình giám sát chất lượng và kỹ thuật thi công công trình xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Tìm hiểu được các quy trình nghiệm thu công trình xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Kiểm tra",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

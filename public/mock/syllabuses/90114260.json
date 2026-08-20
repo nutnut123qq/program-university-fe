@@ -1,0 +1,130 @@
+{
+  "info": {
+    "sylid": 598347,
+    "subjectCode": "90114260",
+    "syllabusName": "Chuyên đề xây dựng và quản lý dự án môi trường nâng cao (Advanced Topics on Environmental Project Design and Management)",
+    "syllabusEnglish": "Advanced Topics on Environmental Project Design and Management",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Cung\r\ncấp cho người học các kiến thức và kỹ năng cơ bản trong quản lý dự án như: chu\r\nkỳ dự án môi trường, phân tích và lựa chọn dự án, tổ chức và lãnh đạo thực hiện\r\ndự án, hoạch định và lập tiến độ dự án, kiểm soát dự án và đánh giá cuối cùng,\r\nvà các cách tiếp cận giải quyết các vấn đề phát sinh trong quá trình quản lý dự\r\nán. Ngoài ra, các bài tập tình huống thảo luận nhằm giúp người học có thêm điều\r\nkiện áp dụng nhằm nâng cao hiệu quả trong quản lý dự án.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Thể hiện kiến thức lý thuyết về xây dựng, phân tích, tổ chức, lập kế hoạch (tiến độ, ngân sách và nguồn lực) và kiểm soát dự án trong bối cảnh các dự án môi trường."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng các nguyên tắc quản lý dự án để xác định và lựa chọn các dự án có lợi ích cao về môi trường và kinh tế - xã hội; tổ chức các cấu trúc dự án một cách hiệu quả đồng thời hiểu rõ vai trò lãnh đạo và các yêu cầu xây dựng nhóm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích và giải quyết các vấn đề ô nhiễm phát sinh trong quá trình xây dựng dự án; đề xuất và thực hiện các giải pháp kiểm soát và xử lý ô nhiễm phù hợp phù hợp với mục tiêu của dự án và các quy định về môi trường."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá hiệu quả các công cụ và kỹ thuật quản lý dự án hiện đại để lập kế hoạch, giám sát và đánh giá các dự án môi trường.\t "
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Đề xuất và thiết kế các giải pháp kỹ thuật và quản lý để đảm bảo dự án vận hành suôn sẻ, tuân thủ các tiêu chuẩn môi trường và đạt được mục tiêu của dự án."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lựa chọn và lập kế hoạch dự án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phương pháp quản lý và chuẩn bị thực hiện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Lập kế hoạch triển khai và giám sát thực hiện ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kiểm soát thực hiện và đánh giá tiến độ ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Công cụ báo cáo và kết thúc dự án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Công cụ quản lý rủi ro và các bên liên quan ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

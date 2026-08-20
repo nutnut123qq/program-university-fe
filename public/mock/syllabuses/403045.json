@@ -1,0 +1,104 @@
+{
+  "info": {
+    "sylid": 292970,
+    "subjectCode": "403045",
+    "syllabusName": "Thí nghiệm mạng truyền thông công nghiệp (Industrial Communication Networks Lab)",
+    "syllabusEnglish": "Industrial Communication Networks Lab",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này cung cấp cho sinh viên những kỹ năng thực nghiệm, khi thực hiện các bài thí nghiệm bao gồm kiến thức và những kỹ năng về: \nđấu nối dây cáp truyền thông của PROBUS, PROFINET, CCLink Field và CCLink IE.\nsử dụng phần mềm TIA PORTAL để cấu hình phần cứng và cấu hình mạng cho PLC S7-1500, HMI và ET200S,\nsử dụng phần mềm GX WORK3 để cấu hình phần cứng PLC Mitsubishi R-Series và cấu hình mạng truyền thông công nghiệp CCLink và CCLink IE.\nsử dụng phần mềm TIA PORTAL để viết, xử lý lỗi, và thực thi chương trình điều khiển có sử dụng các lệnh truyền thông theo chuẩn PROFIBUS, PROFINET, giữa các thiết bị điều khiển: PLC S7-1500 với PLC S7-1500; PLC S7-1500 với HMI và PLC S7-1500 với ET200.\nsử dụng phần mềm GX WORK3 để viết, xử \r\nlý lỗi, và thực thi chương trình điều khiển có sử dụng các lệnh truyền \r\nthông theo chuẩn CCLink, giữa các thiết bị điều \r\nkhiển: PLC S-Series và I/O module.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Có khả năng phân tích hệ thống phần cứng và cấu hình mạng truyền thông công nghiệp sử dụng PROFIBUS và PROFINET."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng áp dụng những kiến thức chuyên ngành về mạng truyền thông công nghiệp PROFIBUS và PROFINET."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng phân tích hệ thống mạng truyền thông trong công nghiệp."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có khả năng nâng cấp và cập nhật hệ thống tự động hoá sử dụng mạng PROFINET và PROFIBUS."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Có khả năng thiết kế và thực hiện hệ thống điều khiển sử dụng mạng truyền thông công nghiệp PROFIBUS và PROFINET."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Mạng PROFINET: Truyền thông PLC S7-1500 với ET200S",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Mạng PROFINET: Truyền thông PLC S7-1500 với HMI",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Mạng PROFIBUS/PROFINET: Truyền thông giữa hai PLC S7-1500",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "CC-Link: Truyền thông giữa PLC MELSEC R-SERIES và I/O MODULE",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "CC-Link IE: Truyền thông giữa hai PLC R-Series",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

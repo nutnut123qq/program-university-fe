@@ -1,0 +1,86 @@
+{
+  "info": {
+    "sylid": 419571,
+    "subjectCode": "100090",
+    "syllabusName": "Phương pháp thiết kế (Design Methodology)",
+    "syllabusEnglish": "Design Methodology",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Hệ thống lý thuyết phân tích cách thức triển khai nghiên cứu ý tưởng và nghiên cứu thị trường một cách khoa học và hiệu quả\n\n        - Bài tập tại lớp dựa vào hệ thống bài tập mẫu gắn với lý thuyết mỗi buổi học và bài tập về nhà cho sinh viên\n\nvân dụng được phương pháp thiết kế đã học.\n\n        - Phối hợp các phương pháp vào bài tập lớn để trình bày một hồ sơ nghiên cứu và thiết kế hoàn chỉnh.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng được kiến thức môn học trong việc nghiên cứu và thiết kế ở các đồ án tiếp theo."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phát triển trình độ chuyên môn thiết kế thời trang trong việc vận dụng các phương pháp thiết kế phù hợp"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Kích thích sự chủ động tìm tòi, học hỏi và sáng tạo của người học về phương pháp thiết kế nói riêng và ngành thiết kế thời trang nói chung."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về  Phương Pháp Thiết Kế Thời Trang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phương pháp nghiên cứu thiết kế thời trang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phương pháp triển khai thiết kế thời trang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

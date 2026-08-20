@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 640650,
+    "subjectCode": "H01047",
+    "syllabusName": "Bào chế 1 (Pharmaceutic 1)",
+    "syllabusEnglish": "Pharmaceutic 1",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các nội dung chính sau:\n\nChương 1: Đại cương về Bào chế và Sinh dược học.\n\nChương 2: Dung dịch thuốc.\n\nChương 3: Thuốc tiêm.\n\nChương 4: Thuốc nhỏ mắt.\n\nChương 5: Các dạng thuốc bào chế bằng phương pháp hoà tan chiết xuất.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và ghi nhớ những khái niệm cơ bản, mục tiêu, đối tượng nghiên cứu, và mối liên hệ giữa bào chế học và sinh dược học. Trình bày được đặc điểm của các dạng dược phẩm về thành phần, quy trình điều chế và yêu cầu chất lượng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu và ghi nhớ những khái niệm cơ bản, mục tiêu, đối tượng nghiên cứu, và mối liên hệ giữa bào chế học và sinh dược học. Trình bày được đặc điểm của các dạng dược phẩm về thành phần, quy trình điều chế và yêu cầu chất lượng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tính toán được số liệu và xây dựng được công thức cũng như quy trình bào chế cho các dạng dược phẩm khác nhau."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đại cương về Bào chế và sinh dược học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Dung dịch thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thuốc tiêm - Thuốc tiêm truyền",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thuốc nhỏ mắt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các dạng thuốc bào chế bằng phương pháp hoà tan chiết xuất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

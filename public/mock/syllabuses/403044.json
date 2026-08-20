@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 547792,
+    "subjectCode": "403044",
+    "syllabusName": "Mạng truyền thông công nghiệp (Industrial Communication Networks)",
+    "syllabusEnglish": "Industrial Communication Networks",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giới thiệu lịch sử và xu thế phát triển của mạng truyền thông trong công nghiệp; trình bày các khái niệm, định nghĩa và kỹ thuật cơ bản sử dụng trong lĩnh vực truyền thông số. Bên cạnh đó, một số mạng truyền thông công nghiệp phổ biến (VD: AS-i, Profibus/ProfiNet, CAN, DeviceNet, Modbus), cũng được giới thiệu một cách chi tiết về các đặc trưng vật lý, đặc trưng dữ liệu và khả năng ứng dụng của chúng. Một số ứng dụng tiêu biểu trong điều khiển tự động hóa quá trình/nhà máy; tự động hóa tòa nhà; SCADA hệ thống điện cũng sẽ được trình bày để sinh viên nhận thức được khả năng ứng dụng mạng truyền thông công nghiệp vào các chuyên ngành cụ thể.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm vững các nguyên lý cơ bản về truyền thông số, các kiến thức nền tảng trong lĩnh vực mạng truyền thông."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Mô tả được các đặc trưng, phương pháp làm việc và khả năng ứng dụng của các chuẩn truyền thông công nghiệp phổ biến "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Áp dụng mạng truyền thông công nghiệp trong các giải pháp tự động hóa công nghiệp nhằm gia tăng khả năng giám sát và điều khiển cho hệ thống."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cơ sở truyền thông số",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Mạng AS-i",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "PROFIBUS",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "PROFINET",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Các Mạng Truyền Thông Công Nghiệp khác",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Ứng dụng mạng truyền thông công nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

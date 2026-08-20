@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 81677,
+    "subjectCode": "H02002",
+    "syllabusName": "Thí nghiệm hóa đại cương (General Chemistry Laboratory)",
+    "syllabusEnglish": "General Chemistry Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Sự kết hợp giữa các lý thuyết cơ bản của hóa học đại cương được học trên\r\nlớp và thí nghiệm trong phòng thí nghiệm sẽ nâng cao khả năng hiểu biết của học\r\nsinh về tài liệu khóa học và cải thiện kỹ năng của họ về kỹ thuật phòng thí\r\nnghiệm. Trong phòng thí nghiệm hóa học, học sinh sẽ kiểm tra các nguyên lý hóa\r\nhọc đã học trên lớp và trong sách giáo khoa, thu thập dữ liệu thực nghiệm và sử\r\ndụng lý luận để rút ra kết luận logic về ý nghĩa của những dữ liệu này.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Thể hiện khả năng sử dụng các thiết bị thí nghiệm hóa học nói chung và tuân thủ các quy định an toàn khi làm việc trong phòng thí nghiệm hóa học."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": " Khả năng đưa ra dự đoán khoa học về các hiện tượng tự nhiên bằng cách sử dụng các khái niệm hóa học đã học trong phòng thí nghiệm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thực hành các khía cạnh của việc ghi lại các quy trình và dữ liệu thí nghiệm."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": " Thể hiện tinh thần đồng đội và hợp tác trong thí nghiệm trong phòng thí nghiệm."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tự luận",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Kiểm tra năng lực",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Performance Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Kỹ Thuật Phòng Thí Nghiệm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Xác định Bậc phản ứng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tổng hợp Acetaminophen",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Nhiệt phản ứng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Phân tích thể tích",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thi kiểm tra đánh giá môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 831429,
+    "subjectCode": "D01104",
+    "syllabusName": "GDTC 1 - Cầu lông (Physical Education 1 - Badminton)",
+    "syllabusEnglish": "Physical Education 1 - Badminton",
+    "credits": "0",
+    "degreeLevel": "Bachelor",
+    "description": "- Lý thuyết:\n\n+ Lịch sử hình thành và phát triển môn cầu lông trên Thế giới\n+ Lịch sử hình thành và phát triển môn cầu lông ở Việt nam\n+ Liên đoàn - Hiệp hội cầu lông\n+ Lợi ích việc tập luyện thể thao\n+ Vệ sinh tập luyện thể thao\n+ Chấn thương - Phòng ngừa chấn thương\n+ Kỹ thuật cầu lông cơ bản\n+ Kỹ thuật di chuyển\n+ Kỹ thuật giao cầu thuận tay\n+ Kỹ thuật giao cầu trái tay\n+ Kỹ thuật phòng thủ thuận tay\n+ Kỹ thuật phòng thủ trái tay\n+ Kỹ thuật đánh cầu cao tay\n+ Kỹ thuật đập cầu\n+ Luật cầu lông cơ bản\n+Phương pháp tổ chức thi đấu\n\n- Thực hành:\n\n+ Kỹ thuật giao cầu thuận tay\n+ Kỹ thuật giao cầu trái tay\n+ Kỹ thuật phòng thủ\n+ Kỹ thuật đánh cầu cao tay\n\n+ Các bài tập bộ \ntrợ.\n+ Trò chơi vận động trong môn cầu lông",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được lịch sử phát triển môn Cầu lông, phương pháp phòng tránh chấn thương, luật thi đấu môn Cầu lông, kỹ thuật cơ bản Cầu lông."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết phương pháp phòng tránh chấn thương, sơ cứu chấn thương, vệ sinh tập luyện thể dục thể thao."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thực hiện được 4 kỹ thuật cơ bản trong môn Cầu lông: Giao cầu ngắn ( trái tay), Giao cầu dài ( thuận tay), chặn cầu bỏ nhỏ,  Đánh cầu cao tay- lốp cầu."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có khả năng tập luyện và thi đấu Cầu lông."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "80%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "LÝ THUYẾT ELEARNING",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "THỰC HÀNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

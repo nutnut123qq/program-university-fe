@@ -1,0 +1,132 @@
+{
+  "info": {
+    "sylid": 906296,
+    "subjectCode": "H02042",
+    "syllabusName": "Thí nghiệm Hóa sinh (Biochemistry Laboratory)",
+    "syllabusEnglish": "Biochemistry Laboratory",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn Thí nghiệm Hóa Sinh cung\r\ncấp cho người học kiến thức và kỹ năng thực hành trong nhận diện, định tính,\r\nđịnh lượng các đại phân tử sinh học và khảo sát hoạt tính enzyme thông qua các\r\nphương pháp phân tích hóa sinh. Nội dung bao gồm:\n\n-\n\nKhảo sát các yếu tố ảnh hưởng đến hoạt tính enzyme và đánh giá khả năng\r\nức chế enzyme\n\n-\n\nXác định các chất bất thường trong nước tiểu\n\n-\n\nĐịnh tính và định lượng carbohydrate, lipid, protein và một số hợp chất\r\nhóa học\n\n-\n\nTách chiết RNA, tổng hợp cDNA, PCR và điện di DNA.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nhận biết được các thành phần hóa học của một số hợp chất trong cơ thể sống, cùng với các phản ứng và các quá trình mà chúng trải qua."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng các phương pháp để định tính hoặc định lượng một số các hợp chất có trong cơ thể sống"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nắm vững được các cấu trúc và các chức năng của các phân tử này."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Kiểm tra năng lực",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Performance Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các yếu tố ảnh hưởng đến hoạt tính enzyme",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Khảo sát ức chế enzyme",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Xác định các chất bất thường trong nước tiểu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Carbohydrate",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Protein và lipid",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Đinh lượng một số hợp chất hóa học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Phiên mã ngược tổng hợp cDNA",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Khuyếch đại phân tử cDNA bằng PCR",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Chạy điện di",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Thi thực hành cuối kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

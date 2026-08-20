@@ -1,0 +1,66 @@
+{
+  "info": {
+    "sylid": 663544,
+    "subjectCode": "D03149",
+    "syllabusName": "Võ cổ truyền (Traditional Martial Art)",
+    "syllabusEnglish": "Traditional Martial Art",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Lý thuyết: \nBài 1 - Lịch sử Võ cổ truyền Việt Nam\nBài 2\n\n- \nLiên đoàn Võ thuật cổ truyền Việt Nam\nBài 3 - Lợi ích tập luyện Võ thuật\nBài 4 - Vệ sinh tập luyện Võ thuật\nBài 5 - Chấn thương trong Võ thuật\nBài 6 - Phòng ngừa chấn thương trong Võ thuật\nBài 7 - \nK\nỹ thuật tấn-đấm-đá\nBài 8 - \nK\nỹ thuật thi đấu đối kháng\nbài 9 - Bài quyền 27 động tác\nBài 10 - \nL\nuật thi đấu và phương pháp tổ chức thi đấu\n- Thực hành: \n+ Kỹ thuật: Tấn pháp, thủ pháp, cước pháp.\n\n+ Kỹ thuật tự vệ cơ bản. \n\n+ Quyền Pháp: Bài Tứ linh đao\n\n+ Các bài tập bổ trợ, các bài tập phát triển các tố chất thể lực.\n\n+ Ôn tập và thi kết thúc môn.\n﻿",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được lợi ích, biết cách tập luyện môn Võ cổ truyền để tăng cường phát triển thể chất cho bản thân."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "PHẦN 1: LÝ THUYẾT ELEARNING",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "PHẦN 2: THỰC HÀNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

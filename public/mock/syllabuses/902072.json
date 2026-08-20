@@ -1,0 +1,132 @@
+{
+  "info": {
+    "sylid": 626902,
+    "subjectCode": "902072",
+    "syllabusName": "Thiết kế và quy hoạch môi trường (Environmental Planning and Design)",
+    "syllabusEnglish": "Environmental Planning and Design",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Các khái niệm, mục tiêu, đối tượng nghiên cứu trong quy hoạch môi trường.\n\nKhái quát chung về luật và hệ thống văn bản dưới luật có liên quan đến thiết kế quy hoạch môi trường.\n\nKhái niệm về quản lý phát triển môi trường bền vững.\n\nCông cụ và phương pháp trong quy hoạch môi trường.\n\nTính toán, thiết kế quy hoạch môi trường cho một địa phương cụ thể.\n\nBài học thực tiễn về các thành phố thực hiện quy hoạch môi trường bền vững trên Thế Giới.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết các khái niệm liên quan đến thiết kế quy hoạch môi trường, quản lý môi trường hướng đến sự phát triển bền vững."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng kiến thức về thiết kế quy hoạch môi trường, luật và hệ thống văn bản dưới luật có liên quan đến thiết kế quy hoạch môi trường để tính toán, thiết kế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Lựa chọn được các giải pháp tối ưu trong kỹ thuật xử lý chất thải và ngăn ngừa ô nhiễm."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Vận dụng được kỹ năng làm việc nhóm và làm việc độc lập để thực hiện các chương trình/dự án một cách hiệu quả."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Thiết kế quy hoạch môi trường đáp ứng mục tiêu phát triển bền vững cho một địa phương nhất định. "
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Vận dụng được kỹ năng viết và trình bày báo cáo khoa học để thuyết trình nội dung chương trình/dự án quy hoạch một cách hiệu quả."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái niệm chung về thiết kế và quy hoạch môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nội dung thiết kế, quy hoạch môi trường và chiến lược quản lý môi trường đô thị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các phương pháp đánh giá trong quy hoạch môi trường và xu hướng phát triển đô thị bền vững",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Giới thiệu các thành phố điển hình có quy hoạch môi trường bền vững ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

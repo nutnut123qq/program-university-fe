@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 596255,
+    "subjectCode": "E01009",
+    "syllabusName": "Luật hợp đồng (Contract Law)",
+    "syllabusEnglish": "Contract Law",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung lý thuyết về nghĩa vụ và các học thuyết hợp đồng\nCác nội dung cơ bản về hợp đồng: hợp đồng, phân loại hợp đồng, giao kết hợp đồng, hợp đồng vô hiệu, thực hiện hợp đồng\nCác nguyên tắc và nội dung cơ bản về các biện pháp bảo đảm thực hiện hợp đồng\nCác nội dung cơ bản về trách nhiệm do vi phạm hợp đồng bao gồm chế tài và kết thúc hợp đồng",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Trang bị cho sinh viên những kiến thức cơ bản về Luật Hợp đồng, về nghĩa vụ dân sự và trách nhiệm dân sự trong hợp đồng, giúp sinh viên có kiến thức soạn thảo các loại hợp đồng trong thực tiễn."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Sinh viên sẽ nắm được các quy định quan trọng của luật nhằm hướng đến xây dựng kỹ năng soạn thảo hợp đồng, giải quyết các tranh chấp phát sinh trong hợp đồng từ đó vận dụng các quy định của pháp luật vào quá trình học tập trong các môn học sau (như môn học Kỹ năng soạn thảo hợp đồng) cũng như trong đời sống, lao động."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Môn học cung cấp cho sinh viên khả năng phân tích, đánh giá thực tiễn, đồng thời hình thành tư duy độc lập về các nội dung kiến thức cũng như thực tiễn liên quan đến môn học."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Sinh viên có ý thức về việc tuân thủ pháp luật hợp đồng"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nghĩa vụ và các học thuyết về hợp đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hợp đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Biện pháp bảo đảm thực hiện hợp đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Trách nhiệm do vi phạm hợp đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

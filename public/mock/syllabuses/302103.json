@@ -1,0 +1,138 @@
+{
+  "info": {
+    "sylid": 859392,
+    "subjectCode": "302103",
+    "syllabusName": "Tập sự nghề nghiệp (Graduation Internship)",
+    "syllabusEnglish": "Graduation Internship",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Quan sát hiện thực khách quan: Tìm hiểu cơ cấu tổ chức và hoạt động của cơ quan/ tổ chức; Tìm hiểu cách bố trí văn phòng và các trang thiết bị được sử dụng tại các cơ quan/ tổ chức\n\nLập kế hoạch thực hiện công việc tại cơ quan/doanh nghiệp\n\nPhát hiện vấn đề nghiên cứu từ nơi tập sự nghề nghiệp\n\nThiết kế nghiên cứu, kế hoạch hành động hoặc đề xuất dự án\n\nHoàn thiện đề xuất nghiên cứu/dự án\n\nViết bài thu hoạch, bài báo cáo",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết và hiểu kiến thức lý thuyết về tổ chức xã hội, quan hệ xã hội, tương tác xã hội, hành vi xã hội, các mô hình tổ chức, hành vi ứng xử, tương tác giữa các cá nhân/ phòng ban,… trong quá trình làm việc tại doanh nghiệp/ cơ quan nơi sinh viên đi tập sự nghề nghiệp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết và hiểu các phương pháp và phân tích dữ liệu phù hợp với lĩnh vực tập sự nghề nghiệp"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng khả năng quan sát hiện thực khách quan nhằm phát hiện vấn đề xã hội tại nơi đi tập sự nghề nghiệp."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Vận dụng các phương pháp nghiên cứu định lượng, định tính phù hợp với vấn đề xã hội tại nơi đi tập sự nghề nghiệp."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Phân tích vấn đề và đề xuất giải pháp cho các vấn đề xã hội "
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Xây dựng tư duy logic, phản biện, quan sát, đọc tài liệu/ văn bản để phát hiện vấn đề xã hội."
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Xây dựng khả năng làm việc độc lập và có ý thức học tập suốt đời."
+    },
+    {
+      "id": 8,
+      "loSeq": "8",
+      "cloName": "CO8",
+      "loDetails": "Xây dựng mối quan hệ giao tiếp tốt với đồng nghiệp nói riêng và nơi tập sự nghề nghiệp nói riêng."
+    },
+    {
+      "id": 9,
+      "loSeq": "9",
+      "cloName": "CO9",
+      "loDetails": "Sáng tạo và có lòng đam mê khi tham gia vào các hoạt động cộng đồng, dự án cộng đồng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Quan sát hiện thực khách quan",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lập kế hoạch thực hiện công việc tại cơ quan/doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phát hiện vấn đề nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thiết kế nghiên cứu, kế hoạch hành động hoặc đề xuất dự án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Viết bài thu hoạch, bài báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

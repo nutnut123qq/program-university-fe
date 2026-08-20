@@ -1,0 +1,88 @@
+{
+  "info": {
+    "sylid": 74937,
+    "subjectCode": "302CM6",
+    "syllabusName": "Kỹ năng thực hành chuyên môn (Professional Skills Exam)",
+    "syllabusEnglish": "Professional Skills Exam",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Kỹ năng thực hành chuyên môn là thực hành nghiên cứu xã hội học, một khâu rất quan trọng và cần thiết để hệ thống hoá kiến thức xã hội học từ cách tiếp cận, phương pháp, cho đến công cụ, kỹ thuật trong nghiên cứu lĩnh vực xã hội, nhằm mang lại kết quả khách quan, khoa học và đạo đức. Do vậy, Kỹ năng thực hành chuyên môn xã hội học, phải được thể hiện qua những kỹ năng sau:\n(1) Thực hiện thành thạo qui trình nghiên cứu.\n(2)  Xác định được phương pháp nghiên cứu, khách thể tham gia và địa bàn nghiên cứu đúng.\n(3)  Thực hiện được một qui trình thu thập thông tin và xử lý thông tin.\n(4)  Xác định được những nội dung phân tích chính với những bằng chứng thực nghiệm để viết một báo cáo kết quả nghiên cứu.\n(5) Phối hợp hoạt động với cá nhân, nhóm nghiên cứu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Diễn giải được các khái niệm về phương pháp nghiên cứu; công cụ và kỹ thuật thu thập dữ liệu; phương pháp chọn mẫu; phương pháp và công cụ xử lý dữ liệu, phân tích dữ liệu; kỹ thuật trình bày kết quả nghiên cứu."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng được kiến thức lý thuyết đã học để thiết kế  một dự án nghiên cứu cụ thể. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Xác định được phương pháp nghiên cứu phù hợp với chủ đề/hiện tượng xã hội cụ thể."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Diễn giải được qui trình nghiên cứu; Cách thức thu thập và xử lý bộ dữ liệu (định lượng và định tính) "
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Thiết kế được cấu trúc một báo cáo kết quả nghiên cứu; Xác định những nội dung chính với những dữ liệu thực nghiệm phù hợp. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Vấn đáp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Viva/Oral Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Xã hội học như là trường nghiên cứu và thực hành khoa học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Qui trình nghiên cứu xã hội học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Xử lý và phân tích dữ liệu nghiên cứu, viết báo cáo  ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

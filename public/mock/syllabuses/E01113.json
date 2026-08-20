@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 663948,
+    "subjectCode": "E01113",
+    "syllabusName": "Luật hình sự 2 (Criminal Law 2)",
+    "syllabusEnglish": "Criminal Law 2",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Là môn học trong chương trình đào tạo cử nhân luật.\r\nMôn học này giúp cho sinh viên nắm được Luật Hình sự về các tội phạm cụ thể.\r\nSinh viên sẽ nghiên cứu về các tội phạm cụ thể của Luật Hình sự, cũng như những\r\nkiến thức về tội phạm và hình phạt chuyên sâu. Ngoài ra, môn học này còn giúp\r\nsinh viên nắm được các kiến thứcvề quyết định hình phạt, những quy định đặc thù\r\nvề người chưa thành niên phạm tội. Sinh viên sẽ được trang bị kiến thức về lý\r\nluận và thực tiễn về việc xác định tội danh, ý nghĩa của việc xác định tội\r\ndanh, khung hình phạt v.v.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học có những kiến thức chung về phần các tội phạm cụ thể trong ngành luật hình sự. Có được nhận thức về các loại tội phạm cụ thể"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học có kỹ năng ứng dụng quy định của pháp luật hình sự vào việc xác định tội phạm cụ thể, quyết định hình phạt trong thực tiễn."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Môn học yêu cầu sinh viên phải có tư duy độc lập, tư duy phân tích luật, phát hiện vấn đề, xây dựng kỹ năng ban đầu trong việc áp dụng pháp luật hình sự vào thực tiễn"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học có ý thức về tuân thủ pháp luật hình sự, xây dựng ý thức nghề nghiệp trong lĩnh vực tư pháp hình sự"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhập môn Phần các tội phạm Luật Hình sự",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các tội xâm phạm tính mạng sức khỏe, danh dự và nhân phẩm của con người",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các tội xâm phạm sở hữu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các tội xâm phạm trật tự quản lý kinh tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các tội phạm về chức vụ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

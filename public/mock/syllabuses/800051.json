@@ -1,0 +1,144 @@
+{
+  "info": {
+    "sylid": 20671,
+    "subjectCode": "800051",
+    "syllabusName": "Trắc địa (Geodesics)",
+    "syllabusEnglish": "Geodesics",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Về lý thuyết: \nNội dung môn học bao gồm bốn phần: kiến thức chung, các dụng cụ đo, đo vẽ bản đồ và trắc địa ứng dụng.\n\nVề thực hành: \nHướng dẫn cho sinh viên  về: cấu tạo máy đo góc và cách đặt máy; Máy kinh vĩ và phương pháp đo góc phẳng; Phương pháp đo độ dài và đo góc đứng; Máy thủy bình và phương pháp đo độ chênh cao; Phương pháp đo chi tiết địa hình và địa vật bản đồ tỷ lệ lớn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học những kiến thức cơ bản có liên quan về trắc địa như hình dạng trái đất, các tọa độ địa lý, bản đồ, bình đồ, các sai số trong trắc địa. Những lý thuyết cơ bản về các phép đo ( đo dài, đo góc, đo chênh cao)."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng xử lý chính xác các số liệu đo ( đánh giá độ chính xác kết quả đo, khả năng xử lý các sai số, tính toán được các bài toán trong trắc địa, bình sai các dạng lưới khống chế đo vẽ mặt bằng, lưới khống chế đo vẽ độ cao)"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu được nguyên lý vận hành đồng thời có khả năng thao tác một số máy phục vụ trong công tác đo đạc như máy kinh vĩ điện tử, máy thủy bình, ..."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Giúp sinh viên có một số kỹ năng cơ bản về tính toán, xử lý các số liệu đo đạc, xác định được các thông số hình học cơ bản của công trình, định vị được vị trí công trình, biết cách thể hiện các kết quả đo (vẽ bình đồ, mặt cắt…)"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "QUẢ ĐẤT – CÁCH BIỂU THỊ MẶT ĐẤT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": " KHÁI NIỆM VỀ SAI SỐ TRONG ĐO ĐẠC\t",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "DỤNG CỤ VÀ CÁC PHƯƠNG PHÁP ĐO GÓC\t",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": " DỤNG CỤ VÀ CÁC PHƯƠNG PHÁP ĐO DÀI",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "DỤNG CỤ VÀ CÁC PHƯƠNG PHÁP ĐO ĐỘ CAO",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "HỆ THỐNG LƯỚI KHỐNG CHẾ TRẮC ĐỊA                    ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "ĐO VẼ BẢN ĐỒ ĐỊA HÌNH VÀ MẶT CẮT\t ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 272370,
+    "subjectCode": "304019",
+    "syllabusName": "Tổ chức và phát triển cộng đồng (Community Organizing and Development)",
+    "syllabusEnglish": "Community Organizing and Development",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giới thiệu một số nội dung cơ bản liên quan đến cộng đồng, tổ chức và phát triển cộng đồng, vai trò, vị trí và quy điều đạo đức của tác viên cộng đồng. Bên cạnh đó, môn học còn góp phần hình thành ở người học về phương pháp tiếp cận, tìm hiểu về cộng đồng, kỹ năng và kỹ thuật cần thiết trong tiến trình tổ chức và phát triển cộng đồng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm vững một số nội dung kiến thức tổng quan về cộng đồng, tổ chức và phát triển cộng đồng, tác viên cộng đồng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng nhận diện vấn đề, đánh giá nhu cầu và xác định nguồn lực của cộng đồng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Biết cách vận dụng tiến trình tổ chức và phát triển cộng đồng, lập kế hoạch can thiệp/trợ giúp cộng đồng."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tuân thủ giá trị đạo đức nghề công tác xã hội trong tổ chức và phát triển cộng đồng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về tổ chức và phát triển cộng đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tìm hiểu và nhận diện cộng đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tiến trình tổ chức và phát triển cộng đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

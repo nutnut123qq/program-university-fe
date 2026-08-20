@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 661289,
+    "subjectCode": "002343",
+    "syllabusName": "Khởi nghiệp kinh doanh (Entrepreneurship)",
+    "syllabusEnglish": "Entrepreneurship",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần gồm 6 chương, bao gồm các nội dung:\n\nKhái quát về Khởi nghiệp kinh doanh;\n\nCơ hội khởi nghiệp;\n\nMôi trường khởi nghiệp;\n\nMô hình kinh doanh;\n\nKế hoạch kinh doanh;\n\nHuy động vốn kinh doanh.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Nắm bắt được những kiến thức cơ bản về hoạt động khởi nghiệp kinh doanh, kiến thức cơ bản về môi trường khởi nghiệp kinh doanh, chiến lược kinh doanh, các thủ tục pháp lý để khởi nghiệp, hiểu được cơ hội và thách thức khi bắt đầu khởi nghiệp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Sử dụng được kiến thức môn học trong việc giải quyết các bài tập tình huống cơ bản trong quá trình học tập, sinh hoạt học thuật (học nhóm, thảo luận chủ đề, giao lưu câu lạc bộ…) bằng tiếng Trung Quốc."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Người học có tư duy tích cực, linh hoạt sáng tạo trong học tập, cộng tác, làm việc nhóm để khám phá tìm tòi, làm việc và đánh giá, đưa ra quan điểm một cách độc lập trong các thảo luận, giải quyết vấn đề bằng tiếng Trung Quốc. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học được hướng dẫn, đào tạo thực hiện tốt các quy định, đạo đức nghề nghiệp, có cách hành xử chuyên nghiệp, có trách nhiệm với việc học, gia đình và xã hội."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "第一章        创业导论",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "第二章       创业机会",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "第三章      创业环境",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "第四章        商业模式",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "第五章        商业计划书",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "第六章        创业融资",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

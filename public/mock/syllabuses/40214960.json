@@ -1,0 +1,96 @@
+{
+  "info": {
+    "sylid": 869910,
+    "subjectCode": "40214960",
+    "syllabusName": "Vi điều khiển và hệ thống nhúng (Microcontrollers and Embedded Systems)",
+    "syllabusEnglish": "Microcontrollers and Embedded Systems",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Khảo sát và phân tích hệ thống nhúng máy tính dùng cho điều khiển từ phần cứng đến phần mềm, quá trình thiết kế nó từ thu thập yêu cầu cho đến kiểm tra, đánh giá kết quả, giúp học viên có cái nhìn toàn diện về sử dụng hệ điều hành nhúng cho điều khiển. \n- Giới thiệu các họ vi điều khiển thông dụng và  các giao tiếp ngoại vi thường gặp, lập trình ngắt; ADC; truyền thông I2C, RS232 và song song; điều biến độ rộng xung; chế độ đa nhiệm nhấn mạnh vào kỹ thuật lập trình thời gian thực... và một số trường hợp điển hình của hệ thống nhúng dùng vi điều khiển.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "- Khảo sát và phân tích hệ thống nhúng máy tính dùng cho điều khiển từ phần cứng đến phần mềm, quá trình thiết kế nó từ thu thập yêu cầu cho đến kiểm tra, đánh giá kết quả, giúp học viên có cái nhìn toàn diện về sử dụng hệ điều hành nhúng cho điều khiển.  "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "- Giới thiệu các họ vi điều khiển thông dụng và  các giao tiếp ngoại vi thường gặp, lập trình ngắt; ADC; truyền thông I2C, RS232 và song song; điều biến độ rộng xung; chế độ đa nhiệm nhấn mạnh vào kỹ thuật lập trình thời gian thực... và một số trường hợp điển hình của hệ thống nhúng dùng vi điều khiển."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tiểu luận",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "CÁC BỘ XỬ LÝ NHÚNG ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "KIẾN TRÚC BỘ NHỚ ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "THIẾT KẾ HỆ THỐNG NHÚNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "CHẾ ĐỘ ĐA NHIỆM ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hệ điều hành nhúng ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

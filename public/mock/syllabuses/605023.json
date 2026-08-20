@@ -1,0 +1,98 @@
+{
+  "info": {
+    "sylid": 481576,
+    "subjectCode": "605023",
+    "syllabusName": "Công nghệ và vật liệu nano (Nano Technology and Materials Science)",
+    "syllabusEnglish": "Nano Technology and Materials Science",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Cung cấp các kiến thức khái niệm căn bản về khoa học công nghệ nano, các phương pháp chế tạo các vật liệu nano, các phương pháp nghiên cứu cấu trúc vật liệu nano, kiến thức về các loại thiết bị nghiên cứu trong lĩnh vực nano. Kiến thức một số vật liệu nano như cacbon nanotube, hạt nano kim loại, nano từ tính, xúc tác nano phổ biến đã được các nhà khoa học đã và đang nghiên cứu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Môn học cung cấp cho sinh viên những hiểu biết về những kiến thức cơ bản về khoa học công nghệ nano, các phương pháp chế tạo các vật liệu nano, các phương pháp nghiên cứu cấu trúc vật liệu nano và giới thiệu một số vật liệu nano như cacbon nanotube, hạt nano kim loại, nano từ tính, xúc tác …."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng: Có khả năng nhận kiến thức căn bản về công nghệ, các loại vật liệu nano. Nắm rõ kiến thức các thiết bị sử dụng nghiên cứu vật liệu nano."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Mở đầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các phương pháp xác định cấu trúc của vật liệu nano",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các phương pháp chế tạo vật liệu nano",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Vật liệu nano",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

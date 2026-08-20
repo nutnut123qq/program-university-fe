@@ -1,0 +1,130 @@
+{
+  "info": {
+    "sylid": 171548,
+    "subjectCode": "302122",
+    "syllabusName": "Phương pháp nghiên cứu định tính (Qualitative Research Methods)",
+    "syllabusEnglish": "Qualitative Research Methods",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Phần 1, sinh viên được trang bị kiến thức chung về nghiên cứu định tính (khái niệm, thiết kế nghiên cứu định tính, các cách tiếp cận....\n\nPhần 2, sinh viên học các phương pháp thu thập thông tin định tính qua các công cụ.\n\nPhần 3, sinh viên sẽ xây dựng đề cương nghiên cứu và thu thập dữ liệu định tính.\nPhần 4, dữ liệu định tính và phân tích dữ liệu định tính\nPhần 5, viết báo cáo nghiên cứu định tính",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hệ thống được các khái niệm của nghiên cứu định tính, thấy được sự khác biệt giữa nghiên cứu định tính và định lượng "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu được các công cụ trong nghiên cứu định tính (phỏng vấn sâu, thảo luận nhóm, quan sát…) và các cách chọn mẫu trong nghiên cứu định tính"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Biết được vai trò, trường hợp sử dụng của nghiên cứu định tính trong giải quyết các vấn đề xã hội"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thiết kế các công cụ để thu thập thông tin và cách thức thu thập thông tin tại địa bàn nghiên cứu"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Xây dựng đề cương nghiên cứu định tính và các chiến lược phân tích dữ liệu định tính"
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Vận dụng lý thuyết nghiên cứu định tính để mã hóa dữ liệu và phân tích dữ liệu và viết báo cáo định tính cho một đề tài nghiên cứu cụ thể"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu phương pháp nghiên cứu định tính",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phỏng vấn sâu ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thảo luận nhóm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Quan sát",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Dữ liệu định tính và phân tích dữ liệu định tính",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

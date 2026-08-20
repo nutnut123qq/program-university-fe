@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 694219,
+    "subjectCode": "100094",
+    "syllabusName": "Chuyên đề nhập môn Bố cục trang trí (Introduction to Composition in Decoration)",
+    "syllabusEnglish": "Introduction to Composition in Decoration",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm 4 chương:\nChương\n 1: Tổng quan về Bố cục\r\ntrang trí \nChương 2: Sáng tác họa tiết và xây dựng mô tip trang trí \nChương 3: Bố cục trang trí cơ bản \n\nChương 4: Bố cục trang trí theo trường phái – phong cách \nMôn học cung cấp kiến thức để người học hiểu được giá trị của trang trí trong đời sống. Biết nghiên cứu, sáng tạo hoạ tiết trang trí theo đặc điểm, trường phái, phong cách cụ thể.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Cung cấp cho người học hệ thống kiến thức về các nguyên tắc bố cục và phương pháp thể hiện các bài tập trang trí. Sinh viên vận dụng từ dữ liệu thiên nhiên để cách điệu, hệ thống hóa các mảng hình, lớp hình, đậm nhạt, nóng lạnh, trọng tâm để xây dựng một bài học có hiệu quả."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Người học vận dụng các quy tắc về hình mảng, màu sắc, đậm nhạt, quy luật bố cục để vận dụng nó trong nghiên cứu các đồ án chuyên ngành."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Người học trang bị khả năng tư duy phân tích, tư duy so sánh, tư duy lập luận logic, và cảm luận ngôn ngữ tạo hình để nâng cao trình độ thẩm mỹ trong sáng tạo –thiết kế."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học ý thức vai trò quan trọng của việc học tập các nguyên lý bố cục và hình thành các kỹ năng thể hiện bài tập tốt. Hình thành tư duy vận dụng sáng tạo trong quá trình học tập và nghiên cứu."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận,Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test,Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về bố cục trang trí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Sáng tác họa tiết và  xây dựng mô tip trang trí (lấy điểm quá trình 50%)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Bố cục trang trí cơ bản (lấy điểm quá trình 50%)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kiểm tra cuối kỳ- Bố cục trang trí theo trường phái – phong cách (lấy điểm cuối kỳ 50%)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

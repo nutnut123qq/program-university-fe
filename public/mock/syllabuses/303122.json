@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 306511,
+    "subjectCode": "303122",
+    "syllabusName": "Thực hành quản lý du lịch (Tourism Management Practice)",
+    "syllabusEnglish": "Tourism Management Practice",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giúp hệ thống hóa kiến thức về các vùng, tuyến và điểm du lịch nổi bật; xác định tiêu chí lựa chọn điểm đến, lập chương trình và tính toán chi phí tour trọn gói theo yêu cầu khách; nắm rõ nhiệm vụ chính của từng bộ phận và cách phối hợp giữa vận chuyển, lưu trú, ăn uống, lữ hành – hướng dẫn; đồng thời rèn luyện các kỹ năng nghiệp vụ cơ bản của hướng dẫn viên (thuyết minh, hoạt náo, xử lý tình huống) và đánh giá chất lượng dịch vụ, phản biện hiệu quả vận hành tour.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Củng cố được kiến thức về địa lý, lịch sử, văn hóa - xã hội… của các tuyến điểm du lịch nổi bật. Hiểu được trình tự các bước để xây dựng một sản phẩm du lịch hoàn chỉnh theo, cách thức phối hợp giữa các bộ phận liên quan trong một đơn vị lữ hành để triển khai sản phẩm tour trên thực tế. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên thông qua môn học này có thể thiết kế được chương trình du lịch, tính toán được chi phí tour tương ứng và triển khai được một số hoạt động nghiệp vụ cơ bản của một Hướng dẫn viên du lịch trên tour (thuyết minh, hoạt náo, kiểm đếm khách, xử lý sự cố phát sinh…)."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Biết cách hệ thống hóa các quy trình nghiệp vụ từ lúc bắt đầu xây dựng sản phẩm tour du lịch, quá trình chuẩn bị cho đến khi triển khai tour trên thực địa. Từ đó, sinh viên linh hoạt áp dụng vào thực tiễn công việc trọng ngành công nghiệp du lịch sau khi ra trường. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên nhận thức được tầm quan trọng của việc tuân thủ các quy trình nghiệp vụ, cũng như sự phối hợp chặt chẽ giữa các bộ phận trong một đơn vị lữ hành để đảm bảo sự thành công cho chuyến du lịch. Từ đó, áp dụng đúng vào thực tiễn công việc sau này để đạt hiệu quả cao nhất."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Cơ sở xây dựng thực hành tuyến điểm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Xây dựng tiêu chí đánh giá chất lượng dịch vụ và nhóm điều hành",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Xây dựng kịch bản thuyết minh và giải quyết tình huống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực hành quản lý trên tuyến điểm thực tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

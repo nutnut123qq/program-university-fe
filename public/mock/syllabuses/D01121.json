@@ -1,0 +1,78 @@
+{
+  "info": {
+    "sylid": 708562,
+    "subjectCode": "D01121",
+    "syllabusName": "GDTC 1 - Hatha Yoga (Physical Education 1 - Hatha Yoga)",
+    "syllabusEnglish": "Physical Education 1 - Hatha Yoga",
+    "credits": "0",
+    "degreeLevel": "Bachelor",
+    "description": "- Lý thuyết: \n    + \nLợi ích và vệ sinh trong tập luyện Yoga\n    + \nLịch sử hình thành Yoga trên Thế giới và ở Việt Nam\n\n+ Liên đoàn và hiệp hội của môn Hatha-Yoga\n    + \nChấn thương trong tập luyện Yoga\n    + \nPhòng ngừa chấn thương trong tập luyện Yoga\n    + \nLuật và phương pháp tổ chức thi đấu Yoga\n- Thực hành: \n\n+ Kỹ thuật các tư thế Asanas;\n    + Kỹ thuật các tư thế Acroyoga;\n    + Kỹ thuật tư thế chuỗi Bài\n chào mặt trời;",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Cung cấp kiến thức cơ bản về môn yoga, những kỹ thuật, lợi ích của động tác yoga "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng: Thực hành được bài tập yoga cơ bản, ứng dụng động tác yoga để trị bệnh"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thái độ và hành vi: Hình thành ý thức tốt, xây dựng thói quen tập luyện để nâng cao sức khỏe (tinh thần và thể chất), hướng đến cuộc sống lành mạnh"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "80%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Lý thuyết: 15 tiết (Sinh viên tự học trên nền tảng kỹ thuật số (Học online)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực hành: 45 tiết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

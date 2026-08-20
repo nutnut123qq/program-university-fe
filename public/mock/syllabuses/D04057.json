@@ -1,0 +1,82 @@
+{
+  "info": {
+    "sylid": 249285,
+    "subjectCode": "D04057",
+    "syllabusName": "Thực tập nghề nghiệp 1 (Internship Course 1)",
+    "syllabusEnglish": "Internship Course 1",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên tìm hiểu môi trường thực tế tại các Doanh nghiệp thuộc những \nmảng liên quan đến ngành công nghiệp Golf gồm:\n-\n\nQuản lý kinh doanh booking và tour du lịch Golf\n-\n\nKinh doanh phòng Golf 3D, sân tập driving range \n-\n\nTổ chức sự kiện Golf\n-\n\nQuản lý công trình sân Golf; thiết kế và thi công green tập\n-\n\nĐào tạo và huấn luyện Golf cho người lớn và trẻ em\n-\n\nĐào tạo chuyên môn nghiệp vụ cho caddy\n- Doanh nghiệp kinh doanh sản phẩm Golf: Proshop và Golf shop online",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cụ thể hơn cái nhìn tổng quan về ngành Golf sau khi hoàn thành môn Giới thiệu ngành Golf.  "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu biết và nắm rõ cơ cấu tổ chức, cách thức hoạt động của Lĩnh vực Kinh doanh và Quản lý sân Golf"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu biết và nắm rõ mô hình kinh doanh của các Tổ chức và huấn luyện đào tạo Golf"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tìm hiểu cơ cấu tổ chức, mô hình kinh doanh, phương thức vận hành của Doanh nghiệp kinh doanh sản phẩm Golf"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Lĩnh vực Kinh doanh và Quản lý sân Golf",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lĩnh vực Đào tạo và Huấn luyện Golf",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Doanh nghiệp Kinh doanh sản phẩm Golf",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

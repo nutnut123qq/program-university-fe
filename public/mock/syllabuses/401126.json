@@ -1,0 +1,124 @@
+{
+  "info": {
+    "sylid": 145984,
+    "subjectCode": "401126",
+    "syllabusName": "Quản lý hộ tiêu thụ (Demand Side management)",
+    "syllabusEnglish": "Demand Side management",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu lịch sử quản lý nhu cầu (DSM), khái niệm cơ bản,\r\nDSM như là bước tối ưu năng lượng điện từ phía người dùng điện, giảm bớt áp lực\r\nđầu tư nguồn và lưới, nâng cao độ tin cậy lưới điện, cải thiện môi trường. Các\r\nchương trình DSM của các quốc gia tiêu biểu được trình bày. Giới thiệu bản chất\r\ngiá điện, các loại biểu giá điện hiện có. Phân tích các biểu giá điện trên quan\r\nđiểm điều khiển sự dùng điện. Vấn đề qui hoạch nguồn tích hợp là bài toán\r\nkhông thể thiếu của quản lý nhu cầu, khi mà sự giảm dùng điện có thể coi như là\r\nmột loại nguồn đặc biệt. Các bài toán điều khiển tiêu thụ điện phía hộ tiêu\r\nthụ được giới thiệu. Để cho bài toán cắt tải, cần tiến hành xác định thứ hạng\r\ncủa các thiết bị dùng điện. Phân loại hành vi dùng điện của khách hàng thường\r\nđược dựa trên phân loại các đồ thị phụ tải.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Công nghệ DSM và ứng dụng trong hệ thống điện. Tối ưu hóa năng lượng từ người tiêu dùng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Xây dựng biểu giá điện. Phân tích các mức thuế hiện hành từ quan điểm quản lý phụ tải."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Quản lý phụ tải theo nhu cầu tiêu thụ. Tối ưu hóa lịch trình sản xuất, xác định nhu cầu và tính toán lượng điện tiêu thụ trên một đơn vị sản phẩm."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tìm hiểu, trực quan hóa việc ứng dụng các công nghệ DSM vào thực tế; Xem những ưu điểm của DSM; Mở rộng giải pháp trong hệ thống điện thực tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái niệm cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Giá điện và điều khiển tiêu thụ điện từ các công ty điện lực",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Qui hoạch và đầu tư nguồn tích hợp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các bài toán điều khiển tiêu thụ điện phía hộ tiêu thụ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Phân tích hành vi dùng điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Hoạch định DSM",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Báo cáo đề tài",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,96 @@
+{
+  "info": {
+    "sylid": 667430,
+    "subjectCode": "709019",
+    "syllabusName": "Khóa luận tốt nghiệp (Graduation Thesis)",
+    "syllabusEnglish": "Graduation Thesis",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "The Graduation Thesis represents the culminating academic experience of undergraduate students majoring in Supply Chain Management. This course is designed to empower students to conduct independent, applied research on real-world supply chain issues. Emphasizing analytical thinking, methodological rigor, and strategic problem-solving, the thesis project requires students to develop and defend a comprehensive research paper under faculty supervision.\nStudents are expected to identify a relevant SCM issue, construct a sound theoretical foundation, employ appropriate research methodology, collect and analyze data, and formulate actionable managerial implications. The course fosters research autonomy, academic integrity, and the ability to communicate research findings both in writing and through oral defense.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Students are expected to review relevant literature and industry practices to define a clear research problem, formulate research objectives, and justify the significance of the study. They should demonstrate conceptual clarity and link theory to practice."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Students are expected to select suitable quantitative or qualitative methods (e.g., regression, SEM, content analysis), justify methodological choices, and outline how primary and/or secondary data will be collected and processed."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Students must analyze results using appropriate techniques, critically interpret patterns and relationships, and draw conclusions aligned with the research objectives. They are expected to highlight the theoretical and practical relevance of the findings."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Students should demonstrate the ability to synthesize evidence, ensure data validity and reliability, and formulate recommendations that consider environmental, legal, and ethical factors, in alignment with international supply chain standards."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Students are expected to deliver a clear, well-structured, and professional presentation that effectively communicates the research objectives, methodology, findings, and implications. They should demonstrate confident delivery, appropriate timing, and visual clarity.\r\nDuring the defense, students are required to respond to questions critically and coherently, justify their research choices, and show awareness of the study’s scope and limitations, reflecting strong academic and communication skills."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Final examination",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Topic Orientation and Initial Planning",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Research Design and Thesis Development",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Plagiarism Checking and Submission Preparation",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thesis Defense and Final Revision",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

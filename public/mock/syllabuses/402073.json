@@ -1,0 +1,138 @@
+{
+  "info": {
+    "sylid": 186901,
+    "subjectCode": "402073",
+    "syllabusName": "Thí nghiệm viễn thông (Telecommunication Lab)",
+    "syllabusEnglish": "Telecommunication Lab",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho SV những kỹ năng thực nghiệm trong tương tác với các dụng cụ thí nghiệm thông dụng, kiểm tra nguyên tắc hoạt động của các hệ thống điều chế tương tự và số. Dựa trên cơ sở đó, SV phân tích và đánh giá mức độ ảnh hưởng của các tác nhân như nhiễu, vector biên độ sai số của tín hiệu lên các hệ thống. Ngoài ra, môn học còn cung cấp cho SV kỹ năng sử dụng phần mềm VSA, là phần mềm chuyên dụng trong phân tích tín hiệu cho các hệ thống viễn thông.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giải thích nguyên tắc hoạt động của các module điều chế tương tự và số trong các hệ thống viễn thông, các tác nhân và điều kiện cơ bản ảnh hưởng đến vấn đề thiết kế các hệ thống viễn thông. Đồng thời sử dụng thành thạo các thiết bị như oscilloscope, máy phát sóng, VOM … và phần mềm VSA."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng phân tích dữ liệu thu thập từ thực nghiệm và đưa ra kết luận về các tác nhân gây ảnh hưởng đến hiệu suất hoạt động của hệ thống và viết báo cáo kĩ thuật."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng vận dụng kiến thức đã học để giải quyết các vấn đề thực tế trong hệ thống viễn thông để cải tiến và nâng cấp các hệ thống viễn thông hiện có. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có khả năng thiết kế và vận hành một hệ thống viễn thông đơn giản (nguồn phát tín hiệu – bộ điều chế - bộ giải điều chế và phân tích ngõ ra) trên thực tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Lab 0. Giới thiệu chung về kỹ thuật điều chế, KIT và phần mềm VSA",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lab 1. Điều chế AM và điều chế FM",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lab 2. BASK và BPSK",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Lab 3. QPSK và 8-PSK",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Lab 4: QAM",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Lab 5: Đo vector sai số cho tín hiệu GSM",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Lab 6: Phân tích phổ và băng thông cho tín hiệu GSM",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Lab 7. Nhiễu và ảnh hưởng của lỗi cho tín hiệu GSM",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Ôn tập",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Thi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 988086,
+    "subjectCode": "401124",
+    "syllabusName": "Tối ưu hóa và ổn định hệ thống điện (Optimization and stability of power system operation)",
+    "syllabusEnglish": "Optimization and stability of power system operation",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này cung cấp cho học viên kiến thức về vận hành tối ưu và ổn định hệ thống điện. Môn học trang bị cho \nhọc viên\n các kiến thức nâng cao về các bài toán tối ưu và ổn định trong hệ thống điện, các phương pháp toán tối ưu, các tiêu chuẩn ổn định hệ thống điện và áp dụng các phương pháp tối ưu để giải các bài toán tối ưu trong vận hành hệ thống điện cũng như tính toán ổn định cho hệ thống điện. \nNội dung chính của môn học gồm: \n- Giới thiệu chung về vận hành và ổn định hệ thống điện\n- Bài toán vận hành kinh tế hệ thống điện.\n- Các phương pháp tính toán tối ưu\n- Ứng dụng phương pháp tối ưu cho bài toán vận hành kinh tế hệ thống điện\n- Ổn định tĩnh hệ thống điện\n- Ổn định động hệ thống điện\n- Ổn định điện áp \n- Các biện pháp nâng cao tính ổn định.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu vận hành tối ưu và ổn hệ thống điện; Hiểu các bài toán tối ưu hóa và các phương pháp tối ưu "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng các phương pháp tối ưu và nâng cao để giải các bài toán tối ưu và ổn định hệ thống điện\r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích hệ thống điện hiệu hữu nhằm đề xuất nâng cao tính ổn định và kinh tế cho hệ thống điện"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về vận hành tối ưu hệ thống điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Điều độ kinh tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các phương pháp vận hành tối ưu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Áp dụng các phương pháp tối ưu cho bài toán điều độ kinh tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,106 @@
+{
+  "info": {
+    "sylid": 506242,
+    "subjectCode": "903124",
+    "syllabusName": "Trách nhiệm xã hội về an toàn và sức khoẻ nghề nghiệp (Corporate Social Responsibility in the field of Occupational Safety and Health)",
+    "syllabusEnglish": "Corporate Social Responsibility in the field of Occupational Safety and Health",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần Trách nhiệm xã hội về an toàn và sức khoẻ nghề nghiệp cung cấp cho sinh viên những kiến thức cơ bản về những trách nhiệm xã hội của doanh nghiệp nói chung và trong công tác an toàn lao động và quản lý sức khoẻ nghề nghiệp nói riêng, như:\n- \nKhái niệm về trách nhiệm xã hội doanh nghiệp và trách nhiệm xã hội của doanh nghiệp trong an toàn và sức khoẻ nghề nghiệp; \n- Vai trò của trách nhiệm xã hội doanh nghiệp và trách nhiệm xã hội của doanh nghiệp trong an toàn và sức khoẻ nghề nghiệp; \n- Nội dung cụ thể về các trách nhiệm xã hội của doanh nghiệp trong an toàn và sức khoẻ nghề nghiệp;\n- Quy trình thực hiện trách nhiệm xã hội về an toàn và sức khoẻ nghề nghiệp của doanh nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Thể hiện các kỹ năng làm việc nhóm và làm việc độc lập, có dư duy hệ thống, có kỹ năng giao tiếp và trình bày hiệu quả thông qua việc thực hiện các bài tập/báo cáo của môn học"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thể hiện đạo đức nghề nghiệp và trách nhiệm xã hội thông qua việc vận động thực hiện và tuân thủ các quy định về an toàn vệ sinh lao động trong đời sống và công việc"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng các nguyên tắc, các quy định pháp luật về an toàn vệ sinh lao động trong đời sống và xã hội. Thực hiện tốt và tham gia nhiệt tình các phong trào xây dựng môi trường sống, làm việc theo văn hoá an toàn"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "NHỮNG LÝ LUẬN CHUNG VỀ TRÁCH NHIỆM XÃ HỘI CỦA DOANH NGHIỆP TRONG LĨNH VỰC LAO ĐỘNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "CÁC NỘI DUNG VỀ TRÁCH NHIỆM XÃ HỘI CỦA DOANH NGHIỆP TRONG LAO ĐỘNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "QUY TRÌNH THỰC HIỆN TRÁCH NHIỆM XÃ HỘI CỦA DOANH NGHIỆP VỀ AN TOÀN VÀ SỨC KHOẺ NGHỀ NGHIỆP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

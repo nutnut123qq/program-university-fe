@@ -1,0 +1,152 @@
+{
+  "info": {
+    "sylid": 36562,
+    "subjectCode": "201085",
+    "syllabusName": "Hệ thống thông tin kế toán (Accounting Information Systems)",
+    "syllabusEnglish": "Accounting Information Systems",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Hệ thống thông tin kế toán cung cấp cho sinh viên những kiến thức, kỹ năng và tư duy về các chu trình kinh doanh, cách thức mô tả hệ thống, cơ sở dữ liệu và kiểm soát để có thể tổ chức hiệu quả một hệ thống thông tin kế toán phục vụ cho công tác quản lý điều hành tại doanh nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được khái niệm, thành phần của hệ thống thông tin kế toán (AIS); vai trò của hệ thống thông tin kế toán trong việc cung cấp thông tin cho nhà quản lý để ra quyết định;\nBiết cách mô tả dưới dạng chu trình cho các hoạt động sản xuất kinh doanh của doanh nghiệp;\nHiểu rõ các chu trình kinh doanh đang diễn ra trong doanh nghiệp và mối quan hệ giữa hoạt động kế toán với các hoạt động khác của doanh nghiệp;\nHiểu biết về hệ thống kiểm soát nội bộ trong doanh nghiệp;\nHiểu rõ tầm quan trọng của cơ sở dữ liệu đối với thông tin kế toán và biết cách tổ chức cơ sở dữ liệu ở mức độ cơ bản để phục vụ cho việc thu thập, ghi nhận, xử lý và lưu trữ dữ liệu tại doanh nghiệp;\nCó sự hiểu biết về tầm quan trọng của quản trị CNTT và đánh giá cơ chế kiểm soát liên quan đến AIS.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thành thạo mô tả được hoạt động của doanh nghiệp bằng hình vẽ;\nThiết kế được các thủ tục kiểm soát ở mức độ cơ bản cho cả môi trường truyền thống và môi trường tin học trong doanh nghiệp;\nThiết kế được chu trình kinh doanh cho doanh nghiệp ở mức độ cơ bản;\nTổ chức được các bảng dữ liệu và thiết lập mối quan hệ giữa các bảng dữ liệu để phục vụ cho nhu cầu thu thập, ghi nhận, xử lý và lưu trữ dữ liệu trong doanh nghiệp;\nThiết kế được các mẫu chứng từ, sổ sách và báo cáo kế toán phục vụ cho nhu cầu quản lý của doanh nghiệp;\nTruyền đạt thông tin (làm việc nhóm, thảo luận nhóm, giải thích…).\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nhận thức được sự cần thiết phải tổ chức hệ thống thông tin kế toán cho hoạt động sản xuất kinh doanh của doanh nghiệp;\nPhân tích được các nguy cơ gây ra rủi ro cho hệ thống thông tin kế toán của doanh nghiệp;\nPhân tích được các nhu cầu cần thiết cho hệ thống thông tin kế toán của doanh nghiệp.\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá được tầm ảnh hưởng của công nghệ thông tin đối với sự phát triển của doanh nghiệp; tầm quan trọng của việc tổ chức ra hệ thống thông tin kế toán hiệu quả trong doanh nghiệp; xu hướng ngày càng phát triển của việc ứng dụng CNTT vào trong công tác kế toán của doanh nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tiểu luận",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về hệ thống thông tin kế toán",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Quy trình kinh doanh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tài liệu hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kiểm soát nội bộ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tổ chức cơ sở dữ liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Chu trình doanh thu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Chu trình chi phí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Tổ chức công tác kế toán",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

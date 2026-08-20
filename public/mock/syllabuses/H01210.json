@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 140834,
+    "subjectCode": "H01210",
+    "syllabusName": "Sinh lý bệnh và miễn dịch (Pathophysiology and Immunology)",
+    "syllabusEnglish": "Pathophysiology and Immunology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Sinh lý bệnh – Miễn dịch gồm 2 phần chính\n\nPhần 1: Miễn Dịch Học.\n\nMiễn dịch đặc hiệu và không đặc hiệu\n\nTế bào miễn dịch và cơ quan lympho\n\nKháng nguyên – kháng thể\n\nBổ thể – cytokin\n\nNhóm phù hợp tổ chức chính\n\nSự hình thành một đáp ứng miễn dịch\n\nBệnh lý bất thường hệ miễn dịch\n\nViêm và sốt\n\nPhần 2: Sinh Lý Bệnh Học các hệ cơ quan\n\nBệnh hệ thần kinh và tâm thần\n\nBệnh lý hệ hô hấp\n\nBệnh lý hệ tiêu hóa và gan mật\n\nBệnh lý hệ xương khớp\n\nBệnh lý hệ tạo máu\n\nMột số bệnh lý bất thường chuyển hóa protein",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trình bày được các khái niệm của miễn dịch học, chức năng và cách thức hoạt động của hệ thống miễn dịch."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Trình bày được định nghĩa bệnh, bệnh nguyên, cơ chế bệnh sinh, các triệu chứng, biến chứng, nguyên tắc cơ bản của việc chẩn đoán - điều trị - phòng ngừa của các bệnh hô hấp, tiêu hóa, gan mật, xương khớp, bệnh hệ tạo máu, bệnh thần kinh và bệnh tâm thần."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nhận thức được vai trò quan trọng của nhân viên y tế trong việc chăm sóc sức khỏe cho người dân."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Miễn dịch học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Sinh lý bệnh học hệ thần kinh và bệnh tâm thần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Sinh lý bệnh học hệ hô hấp, tiêu hóa, gan mật ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Sinh lý bệnh học hệ xương khớp và hệ tạo máu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

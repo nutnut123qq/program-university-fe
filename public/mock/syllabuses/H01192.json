@@ -1,0 +1,96 @@
+{
+  "info": {
+    "sylid": 479298,
+    "subjectCode": "H01192",
+    "syllabusName": "Ký sinh trùng (Parasitology)",
+    "syllabusEnglish": "Parasitology",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này cung cấp cho sinh viên những kiến thức cơ bản và hệ thống về các loại ký sinh trùng gây bệnh thường gặp ở người, bao gồm đơn bào, giun sán, tiết túc và vi nấm. Sinh viên sẽ được tìm hiểu đặc điểm sinh học, cách phân loại, cơ chế gây bệnh và các phương thức lây truyền của ký sinh trùng; đồng thời nắm được các nguyên tắc chẩn đoán lâm sàng, xét nghiệm và điều trị phù hợp. Bên cạnh đó, môn học còn trang bị các biện pháp phòng chống và kiểm soát bệnh ký sinh trùng trong cá nhân và cộng đồng, giúp sinh viên vận dụng vào thực hành y học và bảo vệ sức khỏe cộng đồng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và ghi nhớ các thông tin cơ bản của kí sinh trùng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Giải thích các hiện tượng bệnh cũng như đưa ra giải pháp điều trị, phòng ngừa phù hợp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đại cương về ký sinh trùng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đơn bào",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Giun sán",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tiết túc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Vi nấm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

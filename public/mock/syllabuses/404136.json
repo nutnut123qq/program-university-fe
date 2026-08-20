@@ -1,0 +1,136 @@
+{
+  "info": {
+    "sylid": 878951,
+    "subjectCode": "404136",
+    "syllabusName": "An toàn lao động (Labor Safety)",
+    "syllabusEnglish": "Labor Safety",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học trang bị cho sinh viên kiến thức về các nguyên tắc an toàn, quy định pháp luật, và tiêu chuẩn kỹ thuật trong môi trường gia công cơ khí. Nội dung bao gồm nhận diện rủi ro, phòng ngừa tai nạn do máy móc, điện giật, cháy nổ, cũng như các biện pháp bảo hộ lao động. Sinh viên sẽ học cách sử dụng trang bị bảo hộ cá nhân, vận hành thiết bị an toàn và thực hiện sơ cứu khi xảy ra sự cố. Ngoài ra, môn học còn giúp nâng cao ý thức trách nhiệm, tạo thói quen làm việc an toàn và tiếp cận các công nghệ bảo hộ hiện đại, nhằm đảm bảo môi trường lao động an toàn, hiệu quả và bền vững trong ngành cơ khí.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giải thích được các nguyên tắc cơ bản về an toàn lao động trong cơ khí và các quy định pháp luật liên quan."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích, lựa chọn được các phương tiện bảo hộ lao động và các thiết bị an toàn phù hợp với từng công việc cơ khí."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đề xuất và áp dụng các biện pháp phòng ngừa tai nạn lao động, xử lý sự cố trong môi trường cơ khí."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các yếu tố nguy hiểm và biện pháp phòng ngừa trong cơ khí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "An toàn khi sử dụng máy móc cơ khí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Bảo hộ lao động và an toàn cá nhân",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "An toàn điện trong xưởng cơ khí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "An toàn cháy nổ trong ngành cơ khí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Nội quy an toàn trong xưởng thực hành cơ khí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Kỹ năng sơ cứu và ứng phó sự cố lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Tổng quan về an toàn lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

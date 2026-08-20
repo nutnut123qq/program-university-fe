@@ -1,0 +1,136 @@
+{
+  "info": {
+    "sylid": 637256,
+    "subjectCode": "709002",
+    "syllabusName": "Chuyên đề định hướng nghề nghiệp - Quản trị chuỗi cung ứng (Career in Supply Chain Mamagement)",
+    "syllabusEnglish": "Career in Supply Chain Mamagement",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho sinh viên năm nhất ngành Quản trị Chuỗi Cung Ứng cái nhìn toàn diện và có hệ thống về con đường nghề nghiệp trong lĩnh vực SCM. Thông qua 7 chương, sinh viên sẽ lần lượt tìm hiểu vai trò và xu hướng phát triển của ngành, các vị trí công việc đầu vào, lộ trình thăng tiến, năng lực lãnh đạo, phân tích dữ liệu trong chuỗi cung ứng, kỹ năng hợp tác – quan hệ đối tác và cuối cùng là lập kế hoạch nghề nghiệp cá nhân. Môn học kết hợp lý thuyết hiện đại, ví dụ thực tiễn từ doanh nghiệp toàn cầu và hoạt động phản tư giúp sinh viên hình thành tư duy nghề nghiệp sớm, định vị bản thân, và xây dựng mục tiêu học tập dài hạn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu rõ tổng quan về ngành Quản trị Chuỗi Cung Ứng (SCM), các cấu trúc chức năng cơ bản, vai trò chiến lược của SCM trong bối cảnh toàn cầu hóa và xu hướng nghề nghiệp tương lai."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phát triển kỹ năng giao tiếp, làm việc nhóm và hợp tác trong môi trường đa quốc gia, đặc biệt trong các tình huống liên quan đến quản trị quan hệ đối tác và tương tác đa chức năng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Xây dựng kế hoạch nghề nghiệp cá nhân một cách hệ thống, thông qua việc tự đánh giá bản thân, tìm hiểu thị trường lao động và xác định mục tiêu phát triển nghề nghiệp phù hợp trong lĩnh vực SCM."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về thế giới năng động của ngành Quản trị Chuỗi Cung Ứng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Khám phá lộ trình nghề nghiệp từ các vị trí khởi đầu trong ngành Quản trị Chuỗi Cung Ứng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lộ trình thăng tiến sự nghiệp trong lĩnh vực Quản trị Chuỗi Cung Ứng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Lãnh Đạo Trong Chuỗi Cung Ứng: Từ Quản Lý Đến Giám Đốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Lộ trình định lượng – Phân tích dữ liệu và Nghiên cứu tác nghiệp trong chuỗi cung ứng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Con đường lấy con người làm trung tâm – Hợp tác và quản lý quan hệ trong chuỗi cung ứng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Chân dung chuyên gia “Tím” – Kết hợp kỹ năng chuyên môn và kỹ năng mềm trong sự nghiệp chuỗi cung ứng 7.1 Tầm quan trọng của việc kết hợp ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Hoạch định cá nhân  Personal Planning",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

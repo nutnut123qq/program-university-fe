@@ -1,0 +1,130 @@
+{
+  "info": {
+    "sylid": 867882,
+    "subjectCode": "402081",
+    "syllabusName": "Thông tin di động (Digital Mobile Communications)",
+    "syllabusEnglish": "Digital Mobile Communications",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Trang bị cho người học các kiến thức kỹ thuật cơ bản trong hệ thống thông tin di động như: \n\n- Lịch sử phát triển của hệ thống thông tin di động.\n\n- Những đặc trưng truyền sóng trong môi trường vô tuyến.\n\n- Các kỹ thuật đa truy cập, các kỹ thuật đa phân tập và phối hợp.\n\n- Cấu trúc mạng di động tổ ong.\n\n- Các hệ thống thông tin di động thực tế: GSM, WCDMA, LTE…",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm vững kiến thức và những khái niệm về hệ thống thông tin di động, bản chất vật lý của các kênh truyền dẫn không dây, một số chuẩn thông tin di động thực tế: GSM900, CDMA2000, WCDMA, LTE, …\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Quy hoạch được mạng di động tế bào số, vận dụng các phương pháp khử nhiễu thích hợp cho kênh vô tuyến di động và tối ưu hóa hệ thống di động tế bào số."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng vận dụng kĩ năng làm việc nhóm, kĩ năng trình bày, kĩ năng lập kế hoạch, quản lý thời gian hiệu quả và có khả năng thực hiện nghiên cứu các giải pháp mới trong các vấn đề thực tế liên quan đến thông tin di động."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về thông tin di động - Lịch sử phát triển",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Những đặc trưng truyền sóng trong môi trường vô tuyến ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Mạng di động tế bào – Tính toán lưu lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các hệ thống thông tin di động thế hệ thứ 2",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các hệ thống thông tin di động thế hệ thứ 3",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Mạng di động thế hệ thứ 4 (LTE)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

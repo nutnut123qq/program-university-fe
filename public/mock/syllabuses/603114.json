@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 176458,
+    "subjectCode": "603114",
+    "syllabusName": "Thiết bị và kỹ thuật sinh học (Equipment and Bioengineering)",
+    "syllabusEnglish": "Equipment and Bioengineering",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "In this course, students will be provided with basic operation principles of biological processes such as heat transfer, mass transfer, scale up and scale down, etc. From these, students can understand the nature of biological production processes applied in the current manufacturing industry.\nBiological production techniques are also mentioned in this subject such as: bioplastic and biocomposite production technology, bioreactor technology, renewable energy production technology, and biofilm production technology, etc. Applications and prospects of these technologies will be discussed. From there, students can analyze, evaluate and compare between new and traditional production processes.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "In this course, students will be provided with the knowledge of biotechnology development in the application of manufacturing products for human life. Students have the opportunity to learn the mechanisms and principles of bio-production processes that are applied in the industrial sector which go well with consumer's demand and export."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "After finishing this course, students can apply biological techniques to produce products for human life such as pharmaceuticals, bio-energy and microbial products. Students can widely and effectively apply scientific and technological advances to the production and trading of key products and goods in the processing industry which go well with the consumer's demand and export."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Students know how to apply the principles and nature of biological production processes introduced in this subject to design new production processes in order to create new and useful products for human life."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Students can be aware of the role of biotechnology / bioengineering in science and in human life. From there, students can ask questions themselves and find answers to those questions through experiments which designed by themselves."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Process evaluation 1",
+      "type": "Bài tập quá trình,Tiểu luận",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Mid-term test",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Final examination",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "60%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Biological production processes",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Design and prepare the environment for biological production processes",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Bioreactor",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Bioplastic and biocomposite production technology",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Bioenergy production technology ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Biofilm production techniques",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,98 @@
+{
+  "info": {
+    "sylid": 26714,
+    "subjectCode": "40113660",
+    "syllabusName": "Chuyên đề nghiên cứu về tiết kiệm điện, năng lượng tái tạo, và bảo vệ môi trường (Advanced Topics in energy saving, renewable and green energy technology)",
+    "syllabusEnglish": "Advanced Topics in energy saving, renewable and green energy technology",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc tạo cơ hội cho sinh viên trao đổi kiến ​​thức với giảng viên về kiểm toán\r\nnăng lượng, giải pháp tiết kiệm năng lượng; phát triển dự án trong các nguồn\r\nnăng lượng tái tạo. Các nội dung chính như sau:\n\n-\r\nCác nhiệm vụ và quy trình kiểm toán năng lượng.\n\n-\r\nCác công nghệ thu, lưu trữ và sản xuất điện năng và nhiệt năng từ năng lượng\r\ntái tạo.\n\n-\r\nCác phương pháp sử dụng điện tiết kiệm và hiệu quả.\n\n-\r\nCác phương pháp giảm thiểu ô nhiễm môi trường trong sản xuất điện năng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu biết: Củng cố kiến thức liên quan đến các môn học chuyên ngành và áp dụng kiến thức vào các vấn đề thực tế."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng:\r\nKhả năng mô phỏng hoặc thiết kế một mô hình thực tế của các chủ đề chọn lọc; Khả năng sử dụng Matlab hoặc bất kỳ phần mềm cụ thể nào trong các sự cố thực tế của hệ thống điện; Khả năng trình bày các chủ đề chọn lọc một cách hiệu quả.\r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tư duy: Có khả năng áp dụng các thuật toán đã học để nâng cao chất lượng điện năng."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ: Xây dựng sự hứng thú trong học tập, hình dung được việc ứng dụng các kiến thức đã được học vào thực tế sản xuất và đời sống. Tích cực học hỏi và áp dụng kiến thức vào việc đo đạc năng lượng và thu thập dữ liệu của lưới điện. Thấy được vai trò to lớn của việc phát triển sản xuất năng lượng điện và nhiệt bằng  các nguồn năng lượng tái tạo trong tương lai gần và xa. Thấy được vai trò của việc tiết kiệm điện trong sản xuất và đời sống. Thấy được vai trò của việc giảm thiểu khí nhà kính và bụi bẩn trong sản xuất điện năng nhằm góp phần bảo vệ môi trường chung. Học viên có khả năng ứng dụng kiến thức cho các môn học tiếp sau."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Sinh viên có thể chọn một trong các chủ đề sau:",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thu thập tài liệu về chuyên đề",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Điều tra các giải pháp hiện có để đề xuất các ý tưởng cho dự án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực hiện việc nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hoàn thành mẫu / bản demo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

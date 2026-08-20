@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 49605,
+    "subjectCode": "201105",
+    "syllabusName": "Kế toán thuế và khai báo thuế (Tax Accounting and Reporting)",
+    "syllabusEnglish": "Tax Accounting and Reporting",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Kế toán thuế là môn học tiếp nối và vận dụng kiến thức đã học của các môn Kế toán tài chính và Thuế trong doanh nghiệp. Nội dung môn học gồm 4 chương và tập trung vào các nội dung sau:\n\nHệ thống lại hệ thống văn bản pháp quy, hướng dẫn xử lý và lưu trữ chứng từ, phương pháp kế toán (ghi sổ kế toán), trình bày thông tin trên BCTC liên quan đến từng sắc thuế gồm: thuế GTGT, TTĐB, thuế TNCN, thuế TNDN.\n\nNhận diện các khoản chênh lệch giữa kế toán và thuế khi quyết toán thuế TNDN, đồng thời tính toán, ghi nhận và trình bày thông tin liên quan đến thuế thu nhập hoãn lại trên BCTC.\n\nKê khai thuế định kỳ theo tháng hoặc quýliên quan đến từng sắc thuếphát sinh trong doanh nghiệp như thuế GTGT, thuế TTĐB, thuế TNCN, thuế TNDN.\n\nCách thức thu thập số liệu và lập tờ khai quyết toán thuế TNCN, thuế TNDN.\n\nĐối chiếu số liệu tại thời điểm cuối kỳ liên quan đến từng sắc thuế.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên kiến thức cơ bản về kế toán các loại thuế đối với doanh nghiệp như kế toán thuế giá trị gia tăng, thuế tiêu thụ đặc biệt, thuế thu nhập cá nhân, thuế thu nhập doanh nghiệp; Hướng dẫn sinh viên quy trình lập các tờ khai thuế chủ yếu đối với doanh  nghiệp như Tờ khai thuế giá trị gia tăng, thuế thu nhập doanh nghiệp, thuế thu nhập cá nhân…\r\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Theo dõi và ghi nhận kế toán các loại thuế chủ yếu đối với doanh nghiệp, bao gồm: thuế GTGT, thuế TTĐB, thuế TNCN, thuế TNDN; Lập, xử lý và lưu trữ chứng từ liên quan đến kế toán các loại thuế đối với doanh nghiệp; Thực hiện tính toán, kê khai, lập các báo cáo thuế định kỳ và quyết toán thuế hàng năm.\r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu được mối quan hệ giữa kế toán và thuế đối với doanh nghiệp; Nắm được các yêu cầu và quy định về thuế đối với doanh nghiệp.\r\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Hiểu và thực hiện đúng những quy định của thuế liên quan đến công tác kế toán và lập báo cáo thuế; Hiểu và thực hiện đúng yêu cầu của các chứng từ liên quan đến kế toán thuế; Hiểu và xử lý có đạo đức nghề nghiệp liên quan đến mối quan hệ giữa kế toán và thuế đối với doanh nghiệp.\r\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Kế toán thuế giá trị gia tăng (GTGT)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kế toán thuế tiêu thụ đặc biệt (TTĐB)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kế toán thuế thu nhập cá nhân (TNCN)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kế toán thuế thu nhập doanh nghiệp (TNDN)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

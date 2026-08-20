@@ -1,0 +1,86 @@
+{
+  "info": {
+    "sylid": 954400,
+    "subjectCode": "104104",
+    "syllabusName": "Quản trị kinh doanh thời trang (Fashion Management)",
+    "syllabusEnglish": "Fashion Management",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "·\n\nQuản trị kinh doanh thời trang là môn học\ncó nội dung kiến thức tổng quát về quản trị kinh doanh, đặc biệt là mảng\nthời trang   \n\n·\n\nGiúp người học hình dung rõ ràng hơn các phương\npháp quản lí, các cách giải quyết tình huống, từ đó có các phương án triển khai\nphù hợp cho quy trinh hoạt động của một doanh nghiệp thời trang.\n\n·\n\nCác kiến thức của môn sẽ cung cấp cho người học\nnhững cách thức xây dựng hệ thống quản lí, kiểm soát dòng tiền, dòng hàng, nhân\nsự bên trong một doanh nghiệp",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng các kiến thức về quản trị nhân sự, hàng hóa trong điều hành chuỗi công việc"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thực hiện công việc theo quản lí hệ thống, kiểm tra và kiểm soát chất lượng công việc chính xác, gọn nhẹ"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Ứng dụng công nghệ trong quản trị, sử dụng song song các phương pháp truyền thống và hiện đại trong quản trị "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình,Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đại cương về quản trị kinh doanh ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Quản trị trong kinh doanh thời trang ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các phương pháp thống kế trong quản trị ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

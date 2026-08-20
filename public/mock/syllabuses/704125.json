@@ -1,0 +1,144 @@
+{
+  "info": {
+    "sylid": 755670,
+    "subjectCode": "704125",
+    "syllabusName": "Thực hành chuyên môn 3 (Practice 3: Market Research)",
+    "syllabusEnglish": "Practice 3: Market Research",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho sinh viên những kiến thức về các vấn đề thực tiễn và chuyên môn xung quanh việc triển khai các chương trình nghiên cứu Marketing trong thực tế. Bên cạnh đó, môn học được thiết kế để lấp đầy khoảng trống giữa kiến thức và lý thuyết thực hành, đồng thời cung cấp các kỹ năng trong việc xác định các vấn đề nghiên cứu, chuẩn bị nền tảng cơ sở lý thuyết nghiên cứu, cũng như các vấn đề xung quanh việc quản lý dữ liệu, đặc điểm kỹ thuật của dự án và cả đạo đức. Ngoài việc cung cấp những hiểu biết về nghiên cứu marketing, môn học chú trọng đến việc giúp sinh viên hình thành được khả năng thiết lập kế hoạch và triển khai nghiên cứu marketing cho các cá nhân, tổ chức trong thực tế.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên những kiến thức cơ bản về nghiên cứu thị trường, biết thu thập số liệu thống kê về tình hình ngành/thị trường nói chung, thiết lập các phương pháp và thủ tục thu thập thông tin, tổ chức khảo sát thị trường, xử lý dữ liệu điều tra khảo sát và đưa ra các kết luận và đề xuất, các kỹ năng cần có của một người làm công tác marketing.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có thể thiết lập và thực hiện việc nghiên cứu các vấn đề Marketing trong thực tiễn hoạt động của doanh nghiệp. Giải thích và áp dụng được ý nghĩa của kết quả nghiên cứu vào trong các hoạt động thực tiễn kinh doanh.\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Giúp cho sinh viên có được tư duy độc lập, khả năng phân tích, lập luận, chứng minh, logic trong việc đánh giá và đo lường được kết quả thực hiện, biết tự đánh giá, phân tích và phát triển một số kỹ năng sẵn có; Biết xử lý linh hoạt đối với các tình huống biến động trong hoạt động kinh doanh thực tế và trong thời đại công nghệ số để có thể xây dựng một kế hoạch nghiên cứu marketing cho một công ty cụ thể.\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tạo cho sinh viên thái độ tích cực, chủ động và nghiêm túc. Sinh viên tham dự đầy đủ các tiết học lý thuyết, tích cực thảo luận, làm đầy đủ bài tập và các case study, hoàn thành đồ án môn học.\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Vấn đáp",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Viva/Oral Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về nghiên cứu thị trường ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nghiên cứu B2B",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nghiên cứu về độc giả và quảng cáo ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Lập kế hoạch nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Dữ liệu và nguồn thu thập dữ liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Bảng câu hỏi và các chủ đề nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Báo cáo và trình bày kết quả nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

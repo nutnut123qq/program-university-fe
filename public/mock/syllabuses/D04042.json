@@ -1,0 +1,58 @@
+{
+  "info": {
+    "sylid": 329017,
+    "subjectCode": "D04042",
+    "syllabusName": "Trở thành vận động viên golf chuyên nghiệp 2 (Golf Professional Athletics 2)",
+    "syllabusEnglish": "Golf Professional Athletics 2",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên đi thực hành đánh 2 lần sân 9 lỗ và 1 lần sân 18 lỗ hoặc 5 lần sân 9 lỗ",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học nâng cao trình độ chuyên môn để trở thành vận động viên golf chuyên nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Sinh viên đánh sân thực tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

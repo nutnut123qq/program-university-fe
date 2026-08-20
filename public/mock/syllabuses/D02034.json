@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 243968,
+    "subjectCode": "D02034",
+    "syllabusName": "Giáo dục quốc phòng và an ninh - Học phần 4 (National Defense and Security Education - 4th Course)",
+    "syllabusEnglish": "National Defense and Security Education - 4th Course",
+    "credits": "0",
+    "degreeLevel": "Bachelor",
+    "description": "- \nKỹ thuật bắn súng tiểu liên AK: \nGiới\r\nthiệu cách ngắm, điểm ngắm trên mục tiêu, các tư thế động tác chuẩn bị bắn,\r\nbắn, thôi bắn của súng tiểu liên AK.\n\n- \nGiới thiệu kỹ thuật sử dụng lựu đạn: \nNhững\r\nđặc điểm, cấu tạo, tính năng, tác dụng của lựu đạn. Kỹ thuật, động tác ném lựu\r\nđạn xa đúng hướng.\n\n- Từng người trong chiến đấu tiến công: \nTruyền thống và nghệ thuật cách đánh tiến\r\ncông của cha ông, nghệ thuật quân sự Việt Nam, vận dụng các nguyên tắc cách\r\nđánh cơ bản vào các tình huống chiến thuật cụ thể trên thao trường.\n\n- \nTừng người trong chiến đấu phòng ngự: \nTruyền\r\nthống và nghệ thuật phòng ngự của cha ông, nghệ thuật quân sự Việt Nam, vận\r\ndụng các nguyên tắc cách đánh cơ bản vào các tình huống chiến thuật cụ thể trên\r\nthao trường.\n-\r\n\nTừng người làm nhiệm vụ canh gác (cảnh giới): \nN\nhiệm vụ canh gác (cảnh giới) khi\r\nđơn vị trú quân, hoặc trong quá trình chiến đấu, làm chủ trận địa\n.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên kiến thức chung về quân sự phổ thông, những kỹ năng quân sự cần thiết nhằm đáp ứng yêu cầu xây dựng, củng cố lực lượng vũ trang nhân dân, sẵn sàng tham gia lực lượng dân quân tự vệ, dự bị động viên và thực hiện nghĩa vụ quân sự bảo vệ Tổ quốc."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu biết một số kỹ năng cơ bản của người chiến sĩ bộ binh trong huấn luyện và chiến đấu; biết vận dụng các kỹ năng quân sự trong hoạt động dân quân tự vệ, phòng thủ dân sự và hoạt động thể thao quốc phòng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nâng cao khả năng tư duy về canh gác, chiến thuật trong chiến đấu, kỷ năng sống trong điều kiện hoàn cảnh khó khan cũng như trong chiến đấu."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Nêu cao ý thức, trách nhiệm và nghĩa vụ của học sinh, sinh viên đối với việc học tập nâng cao nhận thức, kỹ năng quân sự, khả năng xử trí tình huống chiến thuật của từng người trong tất cả các tình huống."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Giữa kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Cuối kỳ",
+      "type": "Thực hành,Vấn đáp",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Viva/Oral Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Kỹ thuật bắn súng tiểu liên AK",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tính năng, cấu tạo và cách sử dụng một số loại lựu đạn thường dùng,  ném lựu đạn bài 1",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Từng người trong chiến đấu tiến công.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Từng người trong chiến đấu phòng ngự",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Từng người làm nhiệm vụ canh gác (cảnh giới)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

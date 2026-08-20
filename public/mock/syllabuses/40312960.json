@@ -1,0 +1,140 @@
+{
+  "info": {
+    "sylid": 510883,
+    "subjectCode": "40312960",
+    "syllabusName": "Điện tử công suất nâng cao và ứng dụng (Advanced Power Electronics and Applications)",
+    "syllabusEnglish": "Advanced Power Electronics and Applications",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học bao gồm các kiến thức về các định nghĩa, phạm vi, các ứng dụng của điện tử công suất, các thành phần điện tử công suất\n, các bộ biến đổi và các phương pháp điều khiển tiên tiến trong điện tử công suất như các bộ chỉnh lưu đa-xung, bộ nghịch lưu đa-bậc, các bộ biến đổi ma trận, các phương pháp điều chế độ rộng xung, điều khiển hệ số công suất.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Các bộ biến đổi công suất và mạch điều khiển."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Mô phỏng các bộ biến đổi công suất với các phương pháp khác nhau; tính toán các đại lượng ngõ vào, ngõ ra, và các thông số của   các bộ biến đổi công suất."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tính toán, phân tích quan hệ giữa đại lượng ngõ vào và đại lượng ngõ ra; đánh giá chất lượng của các bộ biến đổi công suất."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có hứng thú tìm hiểu, hình dung ứng dụng các bộ biến đổi công suất vào các hệ thống tự động hóa và hệ thống năng lượng thực tế; Nhìn thấy vai trò của việc phân tích, đánh giá ưu điểm của các bộ biến đổi công suất, và ưu điểm của các bộ điều khiển trong chất lượng đáp ứng của các bộ biến đổi công suất; Người học có khả năng mở rộng lời giải trong các bài toán thực tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu điện tử công suất nâng cao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Bộ nghịch lưu 2-bậc 3-pha",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Bộ chỉnh lưu diode đa-xung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Bộ chỉnh lưu SCR đa-xung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Bộ nghịch lưu cầu-H ghép tầng đa-bậc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Bộ nghịch lưu kẹp điểm trung tính đa-bậc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Bộ chỉnh lưu nguồn dòng điều chế độ rộng xung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Bộ biến đổi ma trận",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Điều khiển dự báo mô hình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

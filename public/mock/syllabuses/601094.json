@@ -1,0 +1,226 @@
+{
+  "info": {
+    "sylid": 449241,
+    "subjectCode": "601094",
+    "syllabusName": "Vẽ kỹ thuật (Technical Drawing)",
+    "syllabusEnglish": "Technical Drawing",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Phần 1: Vẽ Kỹ Thuật\nTổng quan bản vẽ kỹ thuật , cơ sở của bản vẽ kỹ thuật, các phương pháp biểu diễn vật thể. Giới thiệu về dụng cụ vẽ, qui cách bản vẽ, vẽ hình học, vận dụng phép chiếu thẳng góc để biểu diễn vật thể 3 chiều bằng hình vẽ 2 chiều, hình chiếu trục đo.\nPhần 2: AutoCad\n\nGiới thiệu về phần mềm AutoCAD, một số danh mục hướng dẫn. Hệ tọa độ và các lệnh vẽ cơ bản. Các phương pháp lựa chọn đối tượng, nhập điểm chính xác. Quản lý bản vẽ theo lớp. Hướng dẫn in ấn một bản vẽ.\n\nHướng dẫn các bước từ thiết lập bản vẽ đến quan sát bản vẽ và một số lệnh trợ giúp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp kiến thức cơ bản về phương pháp thể hiện bản vẽ kỹ thuật qua phần mềm AutoCad"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thiết lập được trên máy tính tất cả các loại bản vẽ kỹ thuật vẽ được bằng tay."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thực hành vẽ được bản vẽ kỹ thuật (ngành kỹ thuật hóa học, công nghệ sinh học) trên máy tính bằng phần mềm"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TỔNG QUAN VỀ PHẦN MỀM AUTOCAD",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "THIẾT LẬP BẢN VẼ - QUAN SÁT BẢN VẼ- LỆNH TRỢ GIÚP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "HỆ TỌA ĐỘ VÀ CÁC LỆNH VẼ CƠ BẢN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "PHƯƠNG PHÁP LỰA CHỌN ĐỐI TƯỢNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "PHƯƠNG PHÁP NHẬP ĐIỂM CHÍNH XÁC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": " CÁC LỆNH HIỆU CHỈNH TẠO HÌNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "CÁC LỆNH VẼ NHANH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "QUẢN LỸ BẢN VẼ THEO LỚP, ĐƯỜNG NÉT VÀ MÀU",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "GHI VÀ HIỆU CHỈNH VĂN BẢN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "ĐỊNH DẠNG KIỂU KÍCH THƯỚC-GHI KÍCH THƯỚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": " BLOCK VÀ CHÈN BLOCK",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 12,
+      "sessionNo": "12",
+      "topic": "THUỘC TÍNH CỦA BLOK",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 13,
+      "sessionNo": "13",
+      "topic": " BẢN VẼ MẪU",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 14,
+      "sessionNo": "14",
+      "topic": "TẠO LAYOUT CHUẨN BỊ IN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 15,
+      "sessionNo": "15",
+      "topic": "VẼ KỸ THUẬT- TỔNG QUAN VỀ BẢN VẼ KỸ THUẬT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 16,
+      "sessionNo": "16",
+      "topic": "CƠ SỞ CỦA BẢN VẼ KỸ THUẬT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 17,
+      "sessionNo": "17",
+      "topic": "BIỂU DIỄN VẬT THỂ TRÊN BẢN VẼ KỸ THUẬT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 18,
+      "sessionNo": "18",
+      "topic": "KÝ HIỆU VẬT LIỆU",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 842588,
+    "subjectCode": "403048",
+    "syllabusName": "Thí nghiệm điều khiển quá trình (Process Control Lab)",
+    "syllabusEnglish": "Process Control Lab",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này cung cấp cho sinh viên những kỹ năng thực nghiệm trong tương tác với các dụng cụ thí nghiệm thông qua việc đo, kiểm tra đặc tính, nguyên lý hoạt động của một số loại cảm biến được sử dụng trong các hệ thống điều khiển quá trình. Củng cố, kiểm chứng lý thuyết đã học thông qua việc tương tác với các hệ thống điều khiển cơ bản.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Phân biệt các loại cảm biến trong một số hệ thống điều khiển cơ bản, sử dụng cảm biến, bộ điều khiển phù hợp hệ thống điều khiển thực tế"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kiểm tra các tín hiệu vào, tín hiệu ra của các hệ thống điều khiển thực tế"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận hành các hệ thống điều khiển thực tế, xác định chất lượng ngõ ra các hệ thống điều khiển thực tế"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Điều khiển mức và lưu lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Điều khiển nhiệt độ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Điều khiển tốc độ và vị trí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hệ thống cân",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Ôn tập và kiểm tra",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

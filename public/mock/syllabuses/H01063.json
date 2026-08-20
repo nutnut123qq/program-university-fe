@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 295047,
+    "subjectCode": "H01063",
+    "syllabusName": "Công nghệ sản xuất Dược phẩm 2 (Pharmaceutical Industry 2)",
+    "syllabusEnglish": "Pharmaceutical Industry 2",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 1: Nghiên cứu tính chất của nguyên liệu trước khi xây dựng các dạng thuốc\n\nChương 2: Thuốc tác động kéo dài qua đường tiêu hóa\n\nChương 3: Dạng thuốc tác động tại đích\n\nChương 4: Bào chế thuốc cho trẻ em\n\nChương 5: Độ ổn định của thuốc\n\nChương 6: Bao bì dược phẩm",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và ghi nhớ các giai đoạn nghiên cứu thuốc, các tính chất của nguyên liệu cần phải nghiên cứu khi xây dựng công thức các dạng thuốc; đặc điểm và yêu cầu chất lượng của thuốc tác động kéo dài, hệ đưa thuốc tới đích; phân loại bao bì dược phẩm"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng kiến thức đã học để phân tích, đánh giá các phương pháp thiết kế thuốc tác dụng kéo dài để uống, hệ đưa thuốc tới đích. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng kiến thức đã học để phân tích các vấn đề khi bào chế thuốc cho trẻ em và nêu được các phương pháp khắc phục"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Vận dụng kiến thức đã học để đánh giá độ ổn định và tính toán số liệu tuổi thọ của thuốc "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nghiên cứu tính chất của nguyên liệu trước khi xây dựng các dạng thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thuốc tác động kéo dài qua đường tiêu hóa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Dạng thuốc tác động tại đích",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Bào chế thuốc cho trẻ em",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Độ ổn định của thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Bao bì",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

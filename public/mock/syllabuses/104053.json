@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 921167,
+    "subjectCode": "104053",
+    "syllabusName": "Thiết kế rập công nghiệp (Industrial Patternmaking Design)",
+    "syllabusEnglish": "Industrial Patternmaking Design",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Hệ thống lý thuyết sử dụng công cụ, lệnh, phím tắt, các menu quản lý đối tượng.\n\nThực hành tại lớp từ hệ thống lý thuyết kết hợp bài tập tại lớp, bài tập về nhà do giảng viên cung cấp trong mỗi buổi học.\n\nSử dụng tổng hợp kỹ thuật phần mềm cùng với sự sáng tạo của sinh viên ứng dụng vào bài thiết kế chuyên ngành.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng công nghệ vào thể hiện sản phẩm thiết kế trong lĩnh vực thời trang"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng được các lệnh chức năng của phần mềm Gerber, triển khai bản vẽ kĩ thuật của sản phẩm bằng ứng dụng công nghệ"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tìm ra được cách vận dụng hiệu quả các tính năng của phần mềm, đưa ra các phương án kĩ thuật trong thiết kế sản phẩm"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Accumark Explorer",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Marker Marking",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "AutoMark Edit- Giác tự động Pattern Design. ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Cách nhận dạng hệ thống CAD và chuyển hệ. ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

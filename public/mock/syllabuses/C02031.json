@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 268160,
+    "subjectCode": "C02031",
+    "syllabusName": "Giải tích phức (Complex analysis)",
+    "syllabusEnglish": "Complex analysis",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Lý thuyết hàm giải tích phức.\n\nLý thuyết tích phân Cauchy.\n\nKhai triển Taylor cho hàm giải tích.\n\nLý thuyết thặng dư và áp dụng trong việc tính tích phân.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp kiến thức cơ bản nhất về lý thuyết giải tích phức: Sự khả vi phức, Lý thuyết tích phân Cauchy, Lý thuyết thặng dư. Từ đó, áp dụng phương pháp giải tích phức để nghiên cứu các tính chất định tính và định lượng trong các lĩnh vực khác trong Toán học và Vật lý, như Phương trình đạo hàm riêng, Vật lý lý thuyết và các ngành Khoa học ứng dụng khác."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên áp dụng thành thạo điều kiện Cauchy-Riemann trong khảo sát hàm giải tích, hiểu và tính toán đúng các tính phân Cauchy bởi các định lý tích phân Cauchy,  Khai triển chuỗi của hàm phức chỉnh hỉnh và phân hình, áp dụng Lý thuyết thặng dư để tính các tích phân thực đặc biệt. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nắm vững lý thuyết toán căn bản, có tư duy về logic, suy luận, và tính toán."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tham dự đầy đủ các buổi học, có ý thức chuyên cần, nghiêm túc trong các buổi học lý thuyết và bài tập. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tự luận",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Số phức ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hàm phức và đạo hàm hàm phức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tích phân trong mặt phẳng phức ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Lý thuyết Chuỗi ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Phép tính Thặng dư",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

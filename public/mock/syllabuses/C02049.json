@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 710514,
+    "subjectCode": "C02049",
+    "syllabusName": "Giải tích số 1 (Numerical Analysis 1)",
+    "syllabusEnglish": "Numerical Analysis 1",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu về số gần đúng và sai số.\nGiải gần đúng phương trình phi tuyến.\nGiải hệ phương trình tuyến tính.\nPhép nội suy đa thức.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: môn học cung cấp những kiến thức cơ bản về giải xấp xỉ cho sinh viên ngành Toán ứng dụng. Sinh viên được trang bị những giải thuật gần đúng, chủ yếu là giải số, các phương trình phi tuyến, hệ phương trình tuyến tính, phép nội suy đa thức và các bài toán xấp xỉ giúp có thêm công cụ giải quyết các bài toán chuyên ngành."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: giúp cho sinh viên nắm được các kỹ năng giải xấp xỉ phương trình phi tuyến, hệ phương trình tuyến tính, phép nội suy, ngoài ra sinh viên còn được rèn kỹ năng sử dụng chương trình tính toán trên máy tính áp dụng vài giải các bài toán trên thực tế trong lĩnh vực công nghiệp, kỹ thuật, ..."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: nắm vững lý thuyết toán căn bản, chứng minh các định lý về sự hội tụ, có tư duy về logic, suy luận, và kỹ năng lập trình căn bản."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: tham dự đầy đủ các buổi học, có ý thức chuyên cần, nghiêm túc trong các buổi học lý thuyết và thực hành."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tính toán gần đúng và Sai số",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Giải gần đúng phương trình phi tuyến",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Giải gần đúng hệ phương trình tuyến tính",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phép nội suy đa thức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

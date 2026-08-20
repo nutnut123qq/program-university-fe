@@ -1,0 +1,150 @@
+{
+  "info": {
+    "sylid": 777162,
+    "subjectCode": "401120",
+    "syllabusName": "Truyền tải điện AC linh hoạt và truyền tải điện DC (Flexible AC transmission and HVDC)",
+    "syllabusEnglish": "Flexible AC transmission and HVDC",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc này, trước hết trình bày các vấn đề cơ bản của hệ thống truyền tải AC để\r\ncung cấp cho học viên các kiến thức cơ bản cần thiết để hiểu các bài toán đang\r\ngặp phải của các hệ thống điện hiện nay và các giải pháp trên cơ sở điện tử\r\ncông suất do FACTS và HVDC mang lại.Các phần tiếp theo của môn học sẽ lần lượt\r\ntrình bày thành phần và cấu tạo, nguyên lý làm việc, các đặc tính làm việc, mô\r\nhình ở chế độ xác lập và quá độ, và ứng dụng của các thiết bị FACTS và HVDC\r\nđang được sử dụng trong hệ thống điện, bao gồm: Static Var Compensator (SVC),\r\nStatic Compensator (STATCOM), Thyristor Controlled Series Compensator (TCSC),\r\nStatic Synchronous Series Compensator (SSSC), Unified Power Flow Controller\r\n(UPFC), High Voltage Direct Current (HVDC).",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giới thiệu cho sinh viên các bài toán gặp phải trong hệ thống truyền tải điện hiện nay, từ đó đưa đến nhu cầu sử dụng hệ thống truyền tải xoay chiều linh hoạt (FACTS) và truyền tải điện một chiều cao áp (HVDC).\r\nGiảng dạy sinh viên thành phần và cấu tạo, nguyên lý làm việc, các đặc tính, mô hình toán, và các ứng dụng của các loại thiết bị FACTS khác nhau và HVDC trong hệ thống điện.\r\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng phân tích hệ thống điện và sử dụng giải pháp FACTS vào hệ thống.\r\nCó khả năng điều khiển được hệ thống điện một chiều HVDC\r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng linh hoạt các thiết bị SVC, STATCOM, TCSC, bộ dịch pha, UPFC"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tính toán và suy luận các vị trí đặt thiết bị FACTS trên lưới điện.\r\nNắm vững hệ thống HVDC và nghiên cứu chuyên sâu về tính hiệu quả truyền tải điện một chiều tại Việt Nam.\r\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chương 1: Transmission  power system",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Chương 2: Static Var Compensator  (SVC)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chương 3: Static Compensator  (STATCOM)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Chương 4: Thyristor ControlledSeries Compensator (TCSC)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Chương 5: Bộ dịch pha (Phase Shifter) ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Chương 6: Static Synchronous Series Compensator (SSSC)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Chương 7: Unified Power Flow Controller (UPFC) ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Chương 8: High Voltage Direct Current ( HVDC)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Chương 9: Báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

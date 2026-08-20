@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 402930,
+    "subjectCode": "E01015",
+    "syllabusName": "Luật thương mại quốc tế (International Commercial Law)",
+    "syllabusEnglish": "International Commercial Law",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Luật Thương mại quốc tế giúp người học trang bị những kiến thức về hoạt động thương mại có yếu tố nước ngoài giữa các thương nhân và các vấn đề pháp lý trong hợp đồng thương mại quốc tế: giao kết và thực hiện hợp đồng mua bán hàng hóa quốc tế; vận tải quốc tế, thanh toán quốc tế, giải quyết tranh chấp thương mại quốc tế...",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "-\tKiến thức: Mục tiêu của môn học cung cấp cho người học những kiến thức cơ bản về hoạt động kinh doanh quốc tế; giúp người học nắm cơ bản về những quy định pháp luật Việt Nam và tập quán kinh doanh quốc tế trong lĩnh vực mua bán hàng hóa; soạn thảo và đàm phán hợp đồng thương mại có yếu tố nước ngoài"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "-\tKỹ năng tác nghiệp: môn học giúp cho sinh viên nắm rõ một số kỹ năng về đàm phán, ký kết hợp đồng thương mại quốc tế theo thông lệ quốc tế; kỹ năng quản trị hoạt động thương mại quốc tế của doanh nghiệp trên cơ sở các quy định của pháp luật Việt Nam, quốc tế và thông lệ quốc tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "-\tYêu cầu về tư duy: môn học hỗ trợ sinh viên xây dựng được phương pháp tư duy logic; hình thành phản xạ nghiệp vụ trong xử lý các hoạt động thương mại có yếu tố nước ngoài của doanh nghiệp; trên cơ sở tuân thủ đầy đủ các quy định pháp luật"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "-\tThái độ và hành vi: Bước đầu hình thành thói quen phân tích, đánh giá và tư vấn phương án đàm phán, soạn thảo hợp đồng kinh doanh quốc tế, hoạt động thương mại. Giúp người học cẩn thận, tuân thủ nghiêm chỉnh các quy định pháp luật trong các quan hệ hợp đồng thương mại quốc tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tiểu luận,Trắc nghiệm",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay,Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về pháp luật trong thương mại quốc tế ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hợp đồng mua bán hàng hóa quốc tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "INCOTERMS",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Vận tải quốc tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thanh toán quốc tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Giải quyết tranh chấp thương mại quốc tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

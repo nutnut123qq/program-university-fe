@@ -1,0 +1,142 @@
+{
+  "info": {
+    "sylid": 178079,
+    "subjectCode": "E01127",
+    "syllabusName": "Giám định pháp y (Forensic Medicine)",
+    "syllabusEnglish": "Forensic Medicine",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Giám định pháp y là một ngành khoa học sử dụng những thành tựu\r\nkhoa học trong lĩnh vực y học, sinh học, hoá học, vật lý học, tin học... để xác\r\nđịnh nguyên nhân, tình trạng của tử thi và cơ thể người nhằm hỗ trợ cho \ncác cơ quan\r\ntư pháp và các cơ quan liên quan trong giám định pháp y hình sự và giám định y\r\nkhoa\n. \n\nMôn học giám định pháp y là môn học chuyên ngành y khoa gắn với\r\nlĩnh vực pháp luật nhằm trang bị kiến thức khoa học về giám định tử thi và con\r\nngười thông qua hoạt động khám nghiệm hiện trường, khám nghiệm tử thi, mổ xác\r\nnhằm xác định nguyên nhân, điều kiện, thời điểm, hoàn cảnh, công cụ, chủ thể\r\ngây ra cái chết, xác định tình trạng sức khỏe, xác định mức độ thương tật, xác\r\nđịnh vật chứng, tang chứng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": " Môn học Giám định pháp y cung cấp những kiến thức cơ bản khoa học về pháp y, tạo nên kỹ năng mềm, chuyên môn sâu, là công cụ hỗ trợ hiệu quả cho các cơ quan tư pháp và các cơ quan liên quan trong giám định pháp y hình sự và giám định y khoa. Đồng thời môn học cũng góp phần tạo nền tản kiến thức chuyên môn cơ bản cho sinh viên, học viên biết, hiểu và có nhận thức đúng đắn về giám định pháp y.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học biết vận dụng những kiến thức cơ bản về Giám định pháp y vào trong công việc, cuộc sống trên thực tế. \n+ Phân biệt được thế nào là giám định pháp y hình sự và giám định dân sự, nghề nghiệp.\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học có trình độ nhận thức về Giám định pháp y. Nhận thức về những lĩnh vực pháp luật của hệ thống pháp luật Việt Nam.\n+ Nâng cao khả năng phân tích, đánh giá thực tiễn, khả năng tư duy độc lập để lý giải những vấn đề tương ứng về giám định pháp y trên thực tế. \n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học có thái độ khách quan và khoa học trong nghiên cứu và trao đổi những vấn đề cơ bản về pháp y Việt Nam.\n+ Có ý thức công dân, tôn trọng pháp luật Việt Nam, rèn luyện tác phong sống, làm việc theo hiến pháp và pháp luật\t\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm,Tự luận,Bình luận – đánh giá phần mềm/ sách ",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test,Software/Book Review",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những vấn đề cơ bản về Giám định pháp y.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Những vấn đề cơ bản về tử thi học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Pháp y thương tích",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các giám định pháp y tử thi thường gặp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Ngạt ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Xâm hại tình dục",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Pháp y độc chất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Đột tử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

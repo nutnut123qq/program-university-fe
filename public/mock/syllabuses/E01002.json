@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 160119,
+    "subjectCode": "E01002",
+    "syllabusName": "Luật hiến pháp (Constitutional Law)",
+    "syllabusEnglish": "Constitutional Law",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho người học những kiến thức cơ\r\nbản về Hiến pháp, ngành luật Hiến pháp, khoa học luật Hiến pháp; các chế định, nội dung cơ bản của Hiến pháp bao gồm: quyền con\r\nngười, quyền và nghĩa vụ cơ bản của công dân, chế độ chính trị, chế độ bầu cử,\r\ncác cơ quan hiến định. Bên cạnh đó, môn học cũng cung cấp cho sinh viên những kiến thức\r\nvề lịch sử lập hiến Việt Nam và các mô hình hiến pháp trên thế giới.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": " Môn học giúp sinh viên hiểu được nguồn gốc, lịch sử hình thành cũng như vị trí, vai trò của Hiến pháp trong hệ thống pháp luật; cấu thành cơ bản của Hiến pháp và nội dung chính của từng cấu thành; quyền con người, quyền và nghĩa vụ cơ bản của công dân; các nguyên lý cơ bản và mô hình tổ chức và hoạt động của bộ máy nhà nước và vấn đề bảo vệ tính tối cao của Hiến pháp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên sau khi hoàn thành môn học sẽ có những kỹ năng: Vận dụng kiến thức của môn học vào nghiên cứu các môn khoa học pháp lý chuyên ngành; Vận dụng những kiến thức đã học vào thực tiễn đời sống."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Môn học cung cấp cho sinh viên khả năng phân tích, đánh giá các vấn đề lý luận và thực tiễn, đồng thời hình thành tư duy độc lập về các nội dung kiến thức cũng như thực tiễn liên quan đến môn học."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sau khi hoàn thành môn học, sinh viên phải có thái độ nhận thức đúng về vai trò của Luật Hiến pháp trong hệ thống pháp luật; có ý thức đúng đắn, khách quan, khoa học về bản chất của chế độ xã hội hiện hành ở Việt Nam cũng như những ưu, nhược điểm của các chế định Luật Hiến pháp hiện hành."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình",
+      "type": "Bài tập quá trình,Trắc nghiệm,Thuyết trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Multiple Choice Questions,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhận thức chung về Luật Hiến pháp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Những vấn đề lý luận cơ bản về Hiến pháp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chế độ chính trị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Quyền con người, quyền và nghĩa vụ cơ bản của công dân.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các chế định cơ bản về bộ máy nhà nước trong Hiến pháp Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 329352,
+    "subjectCode": "304077",
+    "syllabusName": "Đàm phán và giải quyết xung đột (Negotiation and Conflict Resolution)",
+    "syllabusEnglish": "Negotiation and Conflict Resolution",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho sinh viên những kiến thức cơ bản về đàm phán, xung đột và các bước, tiến trình để đàm phán và giải quyết xung đột theo mục tiêu đề ra, qua đó sinh viên có thể nhận diện và linh hoạt vận dụng khi gặp phải vấn đề đó trong quá trình làm việc với thân chủ và các nguồn lực trợ giúp cho thân chủ.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu biết cơ bản về đàm phán, tiến trình đàm phán và giải quyết xung đột xảy ra "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng nhận diện tình huống có thể dẫn tới mâu thuẫn, xung đột"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có thể phân tích và đưa ra cách thức, phương hướng, giải pháp giải quyết vấn đề theo mục tiêu đề ra"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phân tích được các yếu tố tâm lý, văn hóa, giao tiếp ảnh hưởng đến quá trình đàm phán và giải quyết xung đột"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về đàm phán và giải quyết xung đột",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Ứng dụng đàm phán và giải quyết xung đột trong công tác xã hội",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 348860,
+    "subjectCode": "401075",
+    "syllabusName": "Đồ án chuyên ngành (Individual Project)",
+    "syllabusEnglish": "Individual Project",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho sinh viên các kỹ năng làm việc, trao đổi kiến thức với giảng viên. Từ đó sinh viên hoàn thiện được các kỹ năng trong việc thiết kế và mô phỏng lưới điện/hệ thống điện.\n\nBộ môn chia nhóm, phân công Giảng viên hướng dẫn, xác định đề tài theo hướng hệ thống điện hoặc cung cấp điện hoặc một hướng tự chọn có liên quan. Sinh viên nhận nhiệm vụ và bảo vệ kết quả thực hiện được trước hội đồng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm vững cách xác định các chỉ tiêu kỹ thuật cho một dự án thiết kế công trình điện hoặc một mô hình thiết bị trong hệ thống điện và lập kế hoạch thực hiện."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Khảo sát và đánh giá nguyên lý hoạt động và mô hình hóa được lưới điện/hệ thống điện đang khảo sát."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đề xuất một dự án thiết kế lưới điện/hệ thống điện có tính thực tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhận đề tài",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đánh giá các vấn đề cần thiết cụ thể và nghiên cứu khả thi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Mô hình hóa, phân tích, và lập trình cho hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hoàn tất sản phẩm, hoàn thiện báo cáo + slides theo mẫu quy định",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

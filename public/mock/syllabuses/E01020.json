@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 933237,
+    "subjectCode": "E01020",
+    "syllabusName": "Luật ngân hàng (Banking Law)",
+    "syllabusEnglish": "Banking Law",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Những kiến thức, lý luận cơ bản về sự ra đời của ngân hàng và hoạt động ngân hàng\n\nNhững kiến thức cơ bản về ngân hàng trung ương\n\nNhững kiến thức cơ bản về địa vị pháp lý của tổ chức tín dụng\n\nNhững kiến thức cơ bản về dịch vụ thanh toán qua tổ chức cung ứng dịch vụ thanh toán",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Trang bị kiến thức lý luận cơ bản về sự ra đời của ngân hàng và hệ thống tổ chức tín dụng. Giúp sinh viên nắm bắt những quy định của pháp luật về hoạt động ngân hàng của ngân hàng nhà nước và các tổ chức tín dụng; nắm bắt được một số vấn đề thực tiễn pháp lý cơ bản trong lĩnh vực ngân hàng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Xác định đúng tình huống về phạm vi hoạt động ngân hàng của mỗi loại tổ chức tín dụng, nắm được những quy định pháp luật nhằm bảo đảm an toàn cho hoạt động tổ chức tín dụng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Phát triển khả năng tư duy logic trước các tình huống pháp lý trong hoạt động ngân hàng và giải quyết các tình huống đó phù hợp với quy định của pháp luật. Vận dụng tốt các kiến thức pháp lý về thuế để bảo vệ quyền và lợi ích của các chủ thể tham gia hoạt động ngân hàng theo đúng quy định pháp luật."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "-\tThái độ và hành vi: Phát huy khả năng làm việc nhóm. Phát huy khả năng chủ động trong việc tìm kiếm thông tin, dữ liệu, hỗ trợ pháp lý trong việc giải quyết/ vận dụng pháp luật vào thực tiễn. Tăng cường khả năng đánh giá, lập luận và giải thích pháp luật."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tiểu luận,Trắc nghiệm",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay,Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Bài 1.  \tLÝ LUẬN CHUNG VỀ NGÂN HÀNG (NH) ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "ĐỊA VỊ PHÁP LÝ CỦA NGÂN HÀNG NHÀ NƯỚC VIỆT NAM",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "ĐỊA VỊ PHÁP LÝ CỦA TỔ CHỨC TÍN DỤNG (TCTD)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "PHÁP LUẬT VỀ HOẠT ĐỘNG HUY ĐỘNG VỐN CỦA TCTD",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "PHÁP LUẬT VỀ HOẠT ĐỘNG CẤP TÍN DỤNG CỦA TCTD",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "PHÁP LUẬT VỀ DỊCH VỤ THANH TOÁN QUA TỔ CHỨC CUNG ỨNG DỊCH VỤ THANH TOÁN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

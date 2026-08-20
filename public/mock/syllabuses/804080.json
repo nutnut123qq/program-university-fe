@@ -1,0 +1,96 @@
+{
+  "info": {
+    "sylid": 548105,
+    "subjectCode": "804080",
+    "syllabusName": "Họa thất 1 (Design Studio 1)",
+    "syllabusEnglish": "Design Studio 1",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung môn học được chia làm 3 phần chính: Cơ sở kiến trúc, Bố cục tạo hình và Đồ án thiết kế nhỏ\n\nCơ sở kiến trúc: Thực hiện các bài tập về kỹ thuật vẽ; cách thức sử dụng nét vẽ để tạo hình khối và không gian; các quy định\nvề đường nét, chữ số… trong bản vẽ thiết kế kiến trúc.\n\nBố cục tạo hình: Nghiên cứu bản chất của các dạng hình học và vật liệu. Sự kết hợp của chúng trong một bố cục theo chủ đề\nđể cấu thành một không gian kiến trúc\n\nĐồ án thiết kế nhỏ: Tìm hiểu và thiết kế một không gian kiến trúc nhỏ dựa trên các kỹ năng đã được học, thể hiện được các\nyếu tố cơ bản trong kiến trúc như: đường nét, hình khối, bố cục tạo hình, chất liệu, vật liệu. Sản phẩm thiết kế có mối liên hệ\nvới môi trường cảnh quan xung quanh, công năng sử dụng rõ ràng và thể hiện bản vẽ thiết kế đúng quy cách",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học kiến thức cơ sở về chuyên ngành kiến trúc, các kiến thức cơ\nbản về bản vẽ kỹ thuật, các sử dụng và quy định về đường nét, chữ số trong thiết kế kiến trúc."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng kiến thức và kỹ năng để tìm hiểu và thiết kế công trình kiến trúc nhỏ"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Rèn luyện ý thức về tầm quan trọng của các đồ án, có thái độ trân trọng với thiết kế và\nbản vẽ do mình thực hiện. Hình thành đam mê, tìm tòi và sáng tạo cho sinh viên."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "3",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "CƠ SỞ KIẾN TRÚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "BỐ CỤC TẠO HÌNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "ĐỒ ÁN THIẾT KẾ NHỎ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 966780,
+    "subjectCode": "40313660",
+    "syllabusName": "Chuyên đề nghiên cứu về robot (Advanced Topics in Robot)",
+    "syllabusEnglish": "Advanced Topics in Robot",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này trình bày những chủ đề nâng cao trong nghiên cứu robot như nhận thức, học tập, ra quyết định, mô hình hóa và điều khiển cũng như tương tác giữa người và robot. Các chủ đề cụ thể cho từng học kỳ sẽ khác nhau tùy thuộc yêu cầu của giảng viên. Thông qua môn học này, sinh viên sẽ làm quen với các xu hướng và phát triển nghiên cứu gần đây về robot và làm quen với vấn đề nghiên cứu về robot và các lĩnh vực liên quan.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Có được sự hiểu biết cơ bản về các khái niệm trong robot tự động, robot di động và cánh tay robot"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Đọc, nhận xét và đánh giá các tài liệu, bài báo khoa học, trình bày và thảo luận ưu nhược điểm của từng bài báo"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Làm quen với các câu hỏi nghiên cứu mở trong lĩnh vực robot, đặt ra các câu hỏi nghiên cứu mới và đề xuất phương án"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Lựa chọn chủ đề",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nghiên cứu tài liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Viết đề cương",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực hiện nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Viết báo cáo và trình bày",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

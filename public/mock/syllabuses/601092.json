@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 162702,
+    "subjectCode": "601092",
+    "syllabusName": "An toàn sinh học (Biosafety)",
+    "syllabusEnglish": "Biosafety",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học trình bày những quy định về an toàn sinh học trong phòng thí nghiệm, các thiết bị cần thiết đảm bảo an toàn theo các cấp độ nguy cơ và các tiêu chuẩn đánh giá an toàn trong nghiên cứu vi sinh, sinh học tế bào và sinh học phân tử.\n\nMôn học trình bày các vấn đề an toàn sinh học đối với sinh vật biến đổi gen và an toàn thực phẩm biến đổi gen, cùng với các biện pháp kiểm soát và quản lý an toàn sinh học",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học hiểu các kiến thức cơ bản về an toàn sinh học nhằm nắm được những vấn đề đảm bảo an toàn trong lĩnh vực công nghệ sinh học theo sự phân cấp các mối nguy cơ tương quan. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học nắm được những quy tắc và thao tác thực hành chuẩn trong nghiên cứu liên quan đến tác nhân sinh học."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học biết phân tích các nguy cơ đưa đến rủi ro sinh học, từ đó biết lập kế hoạch và đưa ra biện pháp phòng tránh nguy hại đến con người, môi trường và đa dạng sinh học. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học có thái độ nghiêm túc trong việc thực thi các quy định về an toàn sinh học trong nước và trên thế giới."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đại cương về an toàn sinh học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "An toàn sinh học trong phòng thí nghiệm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các cấp độ an toàn sinh học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Biện pháp quản lý các chất thải sinh học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "An toàn sinh học và sinh vật biến đổi gen",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Các qui định về an toàn sinh học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

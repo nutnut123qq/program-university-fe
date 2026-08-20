@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 969066,
+    "subjectCode": "401083",
+    "syllabusName": "Kỹ thuật điện B (Electrical Engineering B)",
+    "syllabusEnglish": "Electrical Engineering B",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này cung cấp các kiến thức tổng quát về mạch điện, máy điện, các nguồn điện trong dân dụng và công nghiệp với nội dung sau:\n\nCác định lý mạch điện cơ bản: Ohm, Kirchhoff;\n\nCác phương pháp biến đổi mạch tương đương: nối tiếp, song song, sao – tam giác, nguồn dòng – nguồn áp;\n\nCác phương pháp để phân tích mạch điện DC, AC; cách xác định công suất thiết bị, cách đo đạc và tính toán thông số mạch điện;\n\nCấu trúc, nguyên lý làm việc và ứng dụng của các loại máy điện thông dụng như: máy biến áp, động cơ đồng bộ, động cơ không đồng bộ.\n\nLưới điện và thiết bị điện trong cuộc sống.\n\nCác khái niệm cơ bản về an toàn điện, các biện pháp phòng & chống nguy hiểm do điện giật.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết được cấu trúc và đặc trưng và nguyên tắc làm việc của các phần tử mạch điện DC/AC, lưới điện và thiết bị điện; biết được ứng dụng của thiết bị điện trong cuộc sống.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng tính toán và phân tích các dạng mạch điện cơ bản trong thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Biết cách ứng dụng mô hình mạch để phân tích và thiết kế các mạch điện an toàn cho người và thiết bị."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái niệm chung về mạch điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Mạch điện xoay chiều",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các phương pháp phân tích mạch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Mạch điện ba pha",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Khái niệm chung về máy điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Giới thiệu về máy điện quay",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Sử dụng điện an toàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

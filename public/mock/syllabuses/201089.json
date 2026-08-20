@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 262060,
+    "subjectCode": "201089",
+    "syllabusName": "Chuyên đề 3 (Kỹ năng nghề nghiệp) (Core 3 (Professional Skills))",
+    "syllabusEnglish": "Core 3 (Professional Skills)",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Hướng dẫn sinh viên các công việc, kiến thức và kỹ năng cần chuẩn bị cho việc kiến tập thực tế tại doanh nghiệp.\n\nTham gia tìm hiểu các quy trình hoạt động một số loại hình doanh nghiệp và các bộ phận/phòng ban trong trong doanh nghiệp.\n\nQuan sát và ghi nhận lại công việc của nhân viên kế toán, kiểm toán tại doanh nghiệp và cách thức thực hiện các công việc đó.\n\nThực hành, thao tác lại một số công việc, quy trình kế toán, kiểm toán đã được quan sát trước đó, thực hiện một số công việc khác được giao trong thời gian kiến tập tại doanh nghiệp.\n\nGhi nhận lại những nội dung được yêu cầu vào báo cáo kiến tập theo mẫu biểu và thời gian quy định.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Để sinh viên có sự liên hệ giữa lý thuyết đã học và kiến thức thực tế tại DN ở các chuyên đề kiến tập 1, 2, môn học này giúp cho sinh viên tiếp cận, thực hành, nắm bắt quy trình kế toán thực tế phát sinh tại Doanh nghiệp với công việc của một nhân viên Kế toán thực tế bắt đầu từ thời điểm thành lập doanh nghiệp đến các quy trình kế toán cơ bản phát sinh trong toàn bộ Doanh nghiệp. Ngoài ra, sinh viên có thể nhận biết, thu thập, xử lý và lưu trữ tài liệu khoa học."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có được các kỹ năng làm việc nhóm, kỹ năng làm việc độc lập, kỹ năng truyền đạt, đàm phán và tiếp nhận thông tin, kỹ năng giải quyết vấn đề, kỹ năng tổ chức và quản lý công việc hiệu quả, kỹ năng tổ chức, lưu trữ hồ sơ khoa học,…"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nắm được các quy trình kế toán thực tế cơ bản  phát sinh tại doanh nghiệp, biết cách tổ chức, quản lý, lưu trữ hồ sơ khoa học. Bên cạnh đó, sinh viên có thể hiểu được cách thức phân công công việc trong nhóm sao cho tối ưu để đạt được hiệu quả cao nhất."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên tuân thủ các yêu cầu về quy định về chuyên cần, tác phong, thái độ, trang phục của khóa học và luôn có thái độ cầu thị, ham học hỏi."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kiến tập tại doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Báo cáo quá trình kiến tập ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

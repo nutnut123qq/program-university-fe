@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 545798,
+    "subjectCode": "103058",
+    "syllabusName": "Thiết kế cảnh quan (Landscape Design)",
+    "syllabusEnglish": "Landscape Design",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu nghệ thuật thiết kế cảnh quan\n\nSân vườn, công viên, hệ thống tiểu cảnh ..\n\nPhương pháp nghiên cứu và thiết kế trong nghệ thuật thiết kế cảnh quan\n\nXử lý các không gian bên ngoài và hệ thống cảnh quan sân vườn, ngoại thất.\n\nỨng dụng với các công trình cảnh quan thực tế cho các biệt thư sân vườn hoặc các khu vực không gian công cộng mang tính cộng đồng như công viên,,",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Môn học cung cấp cho sinh viên những kiến thức cơ bản về cảnh quan. Những kiến thức chuyên ngành này rất cần thiết,  sinh viên sẽ sử dụng nhiều trong quá trình tác nghiệp sau này."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Sinh viên có khả năng nghiên cứu, tổng hợp tư liệu về các chủ đề của môn học. Kỹ năng làm việc nhóm và thuyết trình theo chủ đề thông qua các bài tập trên lớp."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Sinh viên phát triển khả năng tự đánh giá, phân tích các yếu tố của thiết kế cảnh quan và cách áp dụng vào thiết kế của mình."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Sinh viên tích cực trong việc nghiên cứu và tìm hiểu về các yêu cầu của thiết kế cảnh quan , để có thể ghi nhớ và vận dụng một cách thành thạo."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái niệm về  cảnh quan-sân vườn.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Bố cục và thiết kế cảnh quan",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Yếu tố & vật liệu    trong sân vườn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực hiện Đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

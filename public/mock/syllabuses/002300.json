@@ -1,0 +1,86 @@
+{
+  "info": {
+    "sylid": 647754,
+    "subjectCode": "002300",
+    "syllabusName": "Tiếng Trung Quốc tổng hợp 1 (Comprehensive Mandarin Chinese 1)",
+    "syllabusEnglish": "Comprehensive Mandarin Chinese 1",
+    "credits": "6",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần gồm 21 bài, bao gồm bài ngữ âm và 20 bài đầu tiên (từ bài 1 đến bài 20) của quyển BOYA CHINESE (\n李晓琪主编\n. \n博雅汉语，初级起步篇\nI\n，北京大学出版社\n). Bài ngữ âm cung cấp cho sinh viên hệ thống ngữ âm tiếng Trung Quốc gồm: phát âm, cách đọc, viết phiên âm. Từ bài 1 đến 20, mỗi bài đều có cấu tạo gồm các phần: bài khóa, từ mới, chú thích, ngữ pháp, ngữ âm và bài tập. Bài khóa chủ yếu xuất hiện những câu đơn giản thường dùng trong sinh hoạt, học tập và các câu thường dùng trong lớp. Ngữ pháp trong mỗi bài thường gồm 1 hoặc 2 trọng điểm ngữ pháp và một số hiện tượng ngôn ngữ thường gặp. Phần chú thích giảng giải các hiện tượng ngôn ngữ, văn hóa nổi bật. Phần bài tập bám sát nội dung kiến thức và kỹ năng từng năng từng bài.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Hiểu và vận dụng được các từ ngữ, cấu trúc câu, kiến thức văn hóa ngôn ngữ cơ bản của tiếng Trung Quốc trong bài học vào các hoạt động trong và ngoài lớp,  như chào hỏi, xã giao, hỏi thăm, trau đổi thông tin, mua sắm, hỏi đường, học tập, giải trí…"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp:  Sử dụng tốt các kỹ năng giao tiếp (nghe, nói, đọc, viết) bằng tiếng Trung Quốc trong sinh hoạt thường ngày, học tập, sinh hoạt học thuật (học nhóm, thảo luận chủ đề, giao lưu câu lạc bộ…), bao gồm đặt vấn đề, phản hồi ý kiến, đưa ra ý tưởng, quan điểm…"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Người học có tu duy tích cực, linh hoạt, sáng tạo, đặc biệt là có khả năng nghe hiểu tốt, phản hồi, thảo luận các vấn đề cơ bản trong đời sống, học tập bằng tiếng Trung Quốc. Biết các vận dụng linh hoạt, sáng tạo, phù hợp các kiến thức đã học bằng tiếng Trung Quốc với người bản xứ hoặc người sử dụng tiếng Trung Quốc."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học được hướng dẫn, đào tạo thực hiện tốt các quy định, đạo đức nghề nghiệp, có cách hành xử chuyên nghiệp, có trách nhiệm với việc học, gia đình và xã hội."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "博雅汉语I",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

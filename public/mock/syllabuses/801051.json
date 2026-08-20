@@ -1,0 +1,76 @@
+{
+  "info": {
+    "sylid": 858764,
+    "subjectCode": "801051",
+    "syllabusName": "Đồ án kết cấu thép (Project-3)",
+    "syllabusEnglish": "Project-3",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu cho sinh viên tổng quan về công trình công nghiệp nhà xưởng 1 tầng 1 nhịp có cầu trục.\n\nXác định kích thước cơ bản và cấu tạo của khung ngang.\n\nXác định tải trọng tính toán và tổ hợp tải trọng, phân tích mô hình, xác định nội lực để thiết kế.\n\nThiết kế vì kèo thép và chi tiết mối nối trung gian, mối nối đỉnh kèo.\n\nThiết kế cột thép chịu nén lệch tâm phẳng và chi tiết liên kết chân cột, cột-kèo.\n\nThiết kế và bố trí cấu tạo hệ giằng, thiết kế kết cấu đỡ cầu trục và một số kết cấu thứ yếu khác.\n\nNội dung đồ án được trình bày theo yêu cầu như sau: Thuyết minh khổ A4: trình bày kết quả đồ án và phụ lục tính toán. Bản vẽ A1: 01 bản vẽ thể hiện các hình chiếu trục đo, các mặt cắt và triển khai chi tiết những nội dung tính toán, cấu tạo theo yêu cầu phù hợp với công trình được giao.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên những kiến thức tổng quát về loại công trình xây dựng công nghiệp điển hình là nhà xưởng 1 tầng 1 nhịp có cầu trục, bao gồm thiết kế kết cấu chịu lực chính: dầm kèo, cột, liên kết, hệ giằng, kết cấu đỡ cầu trục, kết cấu bao che và một số kết cấu thứ yếu khác."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Tra cứu tài liệu, tiêu chuẩn thiết kế hiện hành, tính toán thiết kế - kiểm tra cấu kiện chịu lực bằng thép. Liên hệ giữa lý thuyết và thực hành tính toán trong ngành xây dựng, tư duy phân tích và áp dụng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu được phạm vi và đối tượng nghiên cứu cụ thể trong đồ án của ngành xây dựng để thêm yêu nghề và có thái độ học tập phù hợp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Kích thước sơ bộ, tải trọng và nội lực của khung ngang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết kế kết cấu khung ngang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hệ giằng; kết cấu đỡ cầu trục; các kết cấu thứ yếu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

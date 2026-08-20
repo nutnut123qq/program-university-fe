@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 14657,
+    "subjectCode": "603123",
+    "syllabusName": "Xu hướng mới trong Công nghệ sinh học (Current Trends in Biotechnology)",
+    "syllabusEnglish": "Current Trends in Biotechnology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Các kiến thức cơ bản về CNSH nhấn mạnh: CNSH phân tử, CNSH protein và enzyme, CNSH vi sinh vật, CNSH thực vật, CNSH động vật, CNSH ứng dụng trong thực phẩm và môi trường; \n\nCung cấp thông tin về \nnhững thành tựu đã đạt được trong lĩnh vực CNSH;\n\ncác hướng nghiên cứu và ứng dụng vào các lĩnh vực kinh tế và xã hội.\n\nNhấn mạnh giá trị và sự cần thiết của ngành công nghiệp CNSH tại Việt Nam và toàn cầu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên được trang bị các kiến thức về lịch sử Công nghệ sinh học (CNSH) và làm thế nào các nền tảng khoa học phát triển nhanh chóng và được thương mại hóa để thúc đẩy phát triển kinh tế, xã hội, môi trường Việt Nam và toàn cầu."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Các kiến thức tổng quan về công nghệ mới trong các lĩnh vực CNSH y dược, môi trường, phân tử, công nghiệp,… và tiềm năng tác động của chúng trên các xu hướng sản xuất ra các sản phẩm và dịch vụ hiện tại, phát triển sản phẩm, kỹ thuật nghiên cứu, và các quy trình sản xuất được sinh viên tìm hiểu và thảo luận; thông qua đó nắm bắt được các xu hướng phát triển của ngành CNSH."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thông qua việc lập nhóm dự án và trao đổi với các chuyên gia trong ngành, sinh viên rèn luyện được các kỹ năng giao tiếp, trao đổi thông tin, làm việc nhóm, tìm hiểu thông tin, tìm kiếm tài liệu, phân tích và áp dụng lý thuyết vào thực tế để tạo ra sản phẩm ứng dụng CNSH đơn giản"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thế kỷ Công nghệ sinh học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Công nghệ sinh học phân tử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Công nghệ sinh học y dược",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Công nghệ sinh học Công nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Công nghệ sinh học nông nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Công nghệ sinh học môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

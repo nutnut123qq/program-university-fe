@@ -1,0 +1,144 @@
+{
+  "info": {
+    "sylid": 60245,
+    "subjectCode": "D04028",
+    "syllabusName": "Huấn luyện tâm lý trong golf (Golf Mental Training)",
+    "syllabusEnglish": "Golf Mental Training",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Golf đòi hỏi các động tác chính xác và thi đấu liên tục trong thời gian dài, yếu tố tinh thần có tác động rất lớn đến thành tích, đồng thời cũng ảnh hưởng đến kỹ năng và thể lực. Môn học sẽ đề cập đến các nội dung:\n1. Kiến ​​thức về cơ sở lý thuyết liên quan đến rèn luyện tinh thần\n-\n\nYếu tố tâm lý cơ bản ảnh hưởng đến việc cải thiện thành tích chơi gôn\n-\n\nPhương pháp đào tạo tinh thần và sự tiến bộ của nó\n-\n\nĐánh giá các yếu tố kỹ thuật, tâm lý và thể chất ảnh hưởng đến hiệu suất\n2.  Các phương pháp đào tạo kỹ năng tâm lý\n-\n\nMục tiêu của các kỹ năng tâm lý cần có ở mỗi giai đoạn đào tạo kỹ năng tâm lý\n-\n\nHọc cách sử dụng các công cụ rèn luyện kỹ năng tâm lý phù hợp với từng giai đoạn\n-\n\nÁp dụng các công cụ đào tạo kỹ năng tâm lý có được trong thực tế",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu các khái niệm liên quan đến huấn luyện tâm lý"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu nguyên lý và yếu tố cần thiết trong huấn luyện tâm lý"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Áp dụng cụ thể kỹ năng huấn luyện tâm lý ngoài thực tiễn"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về huấn luyện tâm lý",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đặc điểm tâm lý của hiệu suất vận động tối ưu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nâng cao nhận thức về hiệu suất vận động ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thiết lập mục tiêu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Nhận biết và quản lý căng thẳng trong thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Phương pháp \"Imagery\"",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Kỹ thuật nhận thức để xây dựng sự tự tin và nâng cao hiệu suất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Sự tập trung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Trạng thái tỉnh thức trong thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

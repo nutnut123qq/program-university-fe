@@ -1,0 +1,136 @@
+{
+  "info": {
+    "sylid": 261963,
+    "subjectCode": "602045",
+    "syllabusName": "Thiết kế nhà máy (Plant Design)",
+    "syllabusEnglish": "Plant Design",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học trang bị cho sinh viên kiến thức căn bản về các bước tiến triển khai một dự án, tính toán nguyên vật liệu sản xuất cho nhà mày, tính toán các thiết bị sản xuất, lựa chọn thiết bị phù hợp trong sản xuất, cách bố trí các khu vực sản xuất trong nhà máy, bố trí các thiết bị sản xuất trong phân xưởng chính và đánh giá tính kinh tế của dự án.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Môn học trang bị cho sinh viên kiến thức căn bản về các bước tiến triển khai một dự án, tính toán nguyên vật liệu sản xuất cho nhà mày, tính toán các thiết bị sản xuất, lựa chọn thiết bị phù hợp trong sản xuất, cách bố trí các khu vực sản xuất trong nhà máy, bố trí các thiết bị sản xuất trong phân xưởng chính và đánh giá tính kinh tế của dự án."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Môn học giúp cho sinh viên nắm được quy tắc thiết kế nhà máy hoặc xưởng sản xuất, đặc điểm các loại quy trình sản xuất phù hợp với các sản phẩm khác nhau, đặc tính kỹ thuật của từng loại thiết bị gia công và chọn thiết bị phù hợp trong sản xuất thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Sinh viên biết đặc điểm từng quy trình sản xuất khác nhau, biết đặc tính kỹ thuật, nguyên tắc hoạt động, nguyên tắc chọn thiết bị đầu tư cho sản xuất, lựa chọn loại nguyên liệu phù hợp, suy luận cách bố trí các khu sản xuất tối ưu, lựa chọn địa điểm thích hợp để xây dựng nhà máy, từ đó ứng dụng kiến thức đã có trong thực tiễn sản xuất."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chương 1. Khái niệm cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Triển khai dự án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế quy trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phân xưởng sản xuất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tổng mặt bằng nhà máy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Chọn địa điểm xây dựng nhà máy, công ty",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Chuẩn bị mặt bằng và thi công xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Các yêu cầu hỗ trợ khác",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

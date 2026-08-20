@@ -1,0 +1,162 @@
+{
+  "info": {
+    "sylid": 254170,
+    "subjectCode": "804214",
+    "syllabusName": "Đồ án tốt nghiệp (Graduation Project)",
+    "syllabusEnglish": "Graduation Project",
+    "credits": "12",
+    "degreeLevel": "Bachelor",
+    "description": "Đồ án tốt nghiệp gồm 2 phần: Phần kiến trúc và phần kỹ thuật:\n\n  + Phần kiến trúc : Chiếm 85% khối lượng đồ án, trong đó phần nghiên cứu không quá 15%.\n\n  + Phần kỹ thuật : Chiếm 15% khối lượng đồ án, gồm một trong các phần: vật lý kiến trúc; kết cấu; hạ tầng kỹ thuật; cảnh quan môi trường.\n\nCấu trúc đồ án bao gồm 3 phần chính: Phần thiết kế công trình, Phần tổng mặt bằng, Phần kỹ thuật\n\nMục đích: đánh giá toàn bộ hệ thống kiến thức chuyên ngành của sinh viên thông qua nội dung tổng hợp của đồ án về phương pháp sáng tạo, nghệ thuật kiến trúc, kỹ thuật xây dựng và kỹ năng thể hiện.\n\nViết thuyết minh và bảo vệ trước hội đồng tốt nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên những kỹ năng thực hiện một đồ án tổng hợp từ giai đoạn nghiên cứu quy hoạch tổng mặt bằng đến kiến trúc công trình, các thành phần kiến trúc từ móng đến mái, kết cấu công trình."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Đồ án yêu cầu sinh viên chủ động, sáng tạo nghiên cứu, phân tích như một kiến trúc sư từ khâu làm nhiệm vụ thiết kế theo đề tài tự chọn, yêu cầu phải bảo vệ được tính thiết thực và phù hợp cơ cấu, quy mô công trình do mình đề xuất."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên có tinh thần tự giác học tập, áp dụng những kiến thức thu thập được trong những học kỳ cơ sở và chuyên sâu để vận dụng vào đồ án tốt nghiệp."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện cho sinh viên tác phong nghiêm túc, tham gia đầy đủ các giờ hướng dẫn đồ án, và làm việc đúng tiến độ các giai đoạn đồ án theo đúng quy định, thể hiện năng lực đáp ứng nhu cầu công việc trong thực tế sau khi ra trường."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giảng đề",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nghiên cứu lập nhiệm vụ thiết kế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nghiên cứu tổng mặt bằng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Nghiên cứu mặt bằng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Nghiên cứu chi tiết, mặt bằng, mặt cắt, mặt đứng kiến trúc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Nghiên cứu chi tiết, hoàn thiện về mặt bằng và hình khối công trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Nghiên cứu hoàn chỉnh phần kiến trúc, bố cục không gian và cảnh quan",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Nghiên cứu nội-ngoại thất kiến trúc, sân vườn, không gian cảnh quan chung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Hoàn thành khối lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Hướng dẫn phần kỹ thuật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "Quá trình thể hiện đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 12,
+      "sessionNo": "12",
+      "topic": "Bảo vệ đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 13,
+      "sessionNo": "13",
+      "topic": "Kiểm tra tiến độ giữa kì (50% khối lượng công việc dự kiến)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

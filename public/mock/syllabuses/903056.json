@@ -1,0 +1,154 @@
+{
+  "info": {
+    "sylid": 373253,
+    "subjectCode": "903056",
+    "syllabusName": "Vệ sinh lao động và độc chất học 2 (Occupational Hygiene and Toxicology 2)",
+    "syllabusEnglish": "Occupational Hygiene and Toxicology 2",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần gồm:\n\nCác khái niệm cơ bản trong lĩnh vực an toàn hóa chất;\n\nCác con đường hóa chất xâm nhập, đào thải khỏi cơ thể; Các tác hại của hóa chất;\n\nCác biện pháp dự phòng nhiễm độc hóa chất;\n\nKỹ thuật an toàn trong bảo quản, vận chuyển hóa chất;\n\nCông tác quản lý an toàn hóa chất trong cơ sở.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được khối kiến thức cơ bản về hóa chất; chất độc và các nội dung cơ bản trong công tác quản lý an toàn hóa chất tại các doanh nghiệp; cơ chế của quá trình xâm nhập, chuyển hóa và đào thải chất độc trong cơ thể."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng được các phần kiến thức về cơ thể người để đánh giá về sự xâm nhập, cơ chế hấp thụ, chuyển hóa và đào thải chất độc trong cơ thể người; nhận định các yếu tố có hại/sự tác động của các yếu tố có hại trong môi trường lao động lên người lao động."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Xây dựng được chương trình huấn luyện về Quản lý An toàn hóa chất tại đơn vị theo qui định của Luật An toàn vệ sinh lao động nhằm giảm thiểu các mối nguy hại, các tác động gây ảnh hưởng đến sức khỏe của NLĐ, bệnh nghề nghiệp và tai nạn lao động."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đề xuất được các giải pháp dự phòng nhiễm độc; các giải pháp đảm bảo sức khỏe cho người lao động và phương án ứng phó với sự cố khẩn cấp trong sử dụng hóa chất ở các ngành công nghiệp."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Vận dụng được kỹ năng viết và trình bày báo cáo khoa học để thuyết trình nội dung chương trình/kế hoạch ứng cứu sự cố khẩn cấp tại các đơn vị một cách hiệu quả."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Vận dụng được kỹ năng làm việc nhóm và làm việc độc lập trong quá trình học một cách hiệu quả"
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Hình thành đạo đức nghề nghiệp; tuân thủ các nguyên tắc an toàn nghề nghiệp; có phẩm chất đạo đức tốt, hiểu biết và tuân thủ pháp luật; tôn trọng và có ý thức bảo vệ người lao động."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu chung ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Sự xâm nhập, chuyển hóa và đào thải của hóa chất trong cơ thể",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các nguy hại của hóa chất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các biện pháp dự phòng nhiễm độc và xử lý sự cố hóa chất trong công nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kĩ thuật an toàn trong bảo quản và vận chuyển hóa chất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Công tác quản lý an toàn hóa chất tại cơ sở",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

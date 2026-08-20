@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 16715,
+    "subjectCode": "403030",
+    "syllabusName": "Đồ án chuyên ngành nâng cao (Advanced Individual Project)",
+    "syllabusEnglish": "Advanced Individual Project",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Áp dụng kiến thức để xây dựng một hệ thống điều khiển tự động.\nNgười học nhận nhiệm vụ, thực hiện và trình bày kết quả trước hội đồng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Xây dựng được các chỉ tiêu, quy trình kỹ thuật, kế hoạch thực hiện cho một dự án hệ thống điều khiển tự động."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng quy trình, phương pháp thích hợp để xây dựng một hệ thống điều khiển tự động trong thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá hiệu quả hoạt động của một hệ thống điều khiển tự động để thực hiện những cải tiến cần thiết hoặc đưa ra giải pháp mới."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhận đề tài và nhiệm vụ đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lựa chọn giải pháp, thiết kế và thi công hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thực nghiệm và hiệu chỉnh hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Đánh giá hệ thống, đưa ra giải pháp cải tiến",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hoàn chỉnh hệ thống, báo cáo tổng kết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

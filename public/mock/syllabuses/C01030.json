@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 90360,
+    "subjectCode": "C01030",
+    "syllabusName": "Giải tích hàm nâng cao (Advanced functional analysis)",
+    "syllabusEnglish": "Advanced functional analysis",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Nhắc lại các khái niệm căn bản của giải tích hàm: không gian định chuẩn, không gian Banach, không gian Hilbert. Anh xạ tuyến tính liên tục. Phiếm hàm tuyến tính liên tục. Không gian đối ngẫu.\n\nCác định lý cơ bản trong không gian định chuẩn và không gian Banach:  Định lý Hahn-Banach, định lý bị chặn đều, định lý ánh xạ mở, định lý đồ thị đóng. Ứng dụng.\n\nĐịnh nghĩa không gian Hilbert. Các tính chất cơ bản của không gian Hilbert: phép chiếu tổng quát, họ trực chuẩn, định lý biểu diễn Riesz.\n\nSơ lược về lý thuyết phổ trong không gian Hilbert.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Môn học cung cấp những kiến thức chuyên sâu về Giải tích hàm cho sinh viên ngành Toán ứng dụng. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Giúp sinh viên nắm vững các kiến thức đã học trong môn giải tích hàm và biết vận dụng nó vào các bài toán ứng dụng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có tư duy lô-gic, lập luận chặt chẽ. Có khả năng vận dụng kiến thức Toán học phục vụ cho chuyên ngành đang theo học."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tham dự đầy đủ các buổi học, có ý thức chuyên cần, nghiêm túc trong các buổi học lý thuyết và làm bài tập về nhà đầy đủ. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Normed spaces. ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Fundamental theorems and applications",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Spectral theory",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 756886,
+    "subjectCode": "303008",
+    "syllabusName": "Địa lý du lịch (Tourism Geography)",
+    "syllabusEnglish": "Tourism Geography",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Các định nghĩa và khái niệm chính về du lịch; Các điều kiện ảnh hưởng đến sự phát triển du lịch; Tổ chức lãnh thổ du lịch; Các nội dung của các vùng địa lý du lịch Việt Nam.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên có khả năng hệ thống hoá các đặc điểm, điều kiện tự nhiên, điều kiện kinh tế - xã hội có ảnh hưởng đến sự phát triển du lịch. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có thể tìm hiểu được các đặc điểm cụ thể của các vùng du lịchở Việt Nam, bao gồm các kiến thức về: tài nguyên du lịch; cơ sở hạ tầng; cơ sở vật chất kĩ thuật và các điều kiện khác."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Khi học xong học phần, sinh viên sẽ được trang bị các kỹ năng quan sát, phân tích từ đó hình thành cách nhìn đúng đắn, hợp lý trong các việc: khai thác các loại hình du lịch phù hợp với tài nguyên ở mỗi vùng trên cơ sở xem xét các yếu tố có liên quan."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên có thái độ và hành vi đúng đắn với các loại tài nguyên và sản phẩm du lịch của mỗi vùng từ đó tạo điều kiện tốt trong công tác quản lý du lịch sau này. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": " Đối tượng, nhiệm vụ, phương pháp nghiên cứu Địa lý du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổ chức lãnh thổ du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các vùng du lịch ở Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

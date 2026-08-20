@@ -1,0 +1,122 @@
+{
+  "info": {
+    "sylid": 644600,
+    "subjectCode": "901135",
+    "syllabusName": "Chuyên đề xây dựng và quản lý dự án môi trường (Topics on Environmental Project Design and Management)",
+    "syllabusEnglish": "Topics on Environmental Project Design and Management",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Cung cấp\r\ncho người học các kiến thức và kỹ năng cơ bản trong quản lý dự án như: phân\r\ntích và lựa chọn dự án, tổ chức và lãnh đạo thực hiện dự án, hoạch định và lập\r\ntiến độ dự án, kiểm soát dự án, và các cách tiếp cận giải quyết các vấn đề phát\r\nsinh trong quá trình quản lý dự án. Ngoài ra, các bài tập tình huống thảo luận\r\nnhằm giúp người học có thêm điều kiện áp dụng nhằm nâng cao hiệu quả trong quản\r\nlý dự án.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trình bày được cơ sở lý luận, kiến thức về xây dựng dự án, phân tích dự án, tổ chức dự án, hoạch định dự án (tiến độ, ngân sách và nguồn lực) và kiểm soát dự án"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng được các kiến thức về QLDA để chọn lựa dự án mang lại lợi ích cao; đồng thời biết cách tổ chức cơ cấu bộ máy, nắm bắt được các yêu cầu về lãnh đạo và xây dựng đội ngũ dự án"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Biết kiểm soát vấn đề ô nhiễm trong quá trình xây dựng dự án và biết đề xuất phương án xử lý ô nhiễm đáp ứng yêu cầu của dự án. Vận dụng được các kiến thức và kỹ năng về QLDA để phân tích, xây dựng dự án cũng như QLDA, cụ thể là các dự án môi trường."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đề xuất các giải pháp về kỹ thuật và quản lý, đảm bảo dự án hoạt động được thuận lợi và đáp ứng yêu cầu dự án"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Áp dụng những công cụ quản lý dự án hiệu quả"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về dự án và quản lý dự án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Xây dựng dự án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tổ chức dự án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hoạch định và lập tiến độ dự án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kiểm soát dự án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Kết thúc dự án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

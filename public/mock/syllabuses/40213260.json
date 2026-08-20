@@ -1,0 +1,122 @@
+{
+  "info": {
+    "sylid": 890590,
+    "subjectCode": "40213260",
+    "syllabusName": "Mã hóa và lý thuyết thông tin (Coding and Information Theory)",
+    "syllabusEnglish": "Coding and Information Theory",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Các mô hình toán học cho kênh truyền và nguồn tin tức: entropy, lượng tin, nén dữ liệu, dung lượng kênh truyền, các định lý Shannon, lý thuyết rate distortion.\nLý thuyết và ứng dụng về mã hóa sửa lỗi, bao gồm lý thuyết trường Galois, mã khối tuyến tính, mã vòng, mã chập. Ứng dụng của các loại mã sửa lỗi trong hệ thống thông tin số.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp các khái niệm cơ bản về lý thuyết thông tin, các giới hạn lý thuyết của hệ thống thông tin và các phương pháp mã hóa và giải mã mã nguồn, các phương pháp mã hóa và giải mã hóa kênh.\r\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học có khả năng thiết kế các sơ đồ mã hóa nguồn để biểu diễn hiệu quả một nguồn tin cho trước; có khả năng thiết kế sơ đồ mã hóa và giải mã hóa kênh để phát hiện lỗi và sửa lỗi trên đường truyền.\r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học biết cách phân tích đánh giá khả năng biểu diễn tin tức bằng phương pháp tối ưu nhất; biết cách phân tích đánh giá chất lượng của phương pháp mã hóa kênh; cũng như biết cách phân tích giới hạn lý thuyết của các mô hình kênh truyền cụ thể và tìm ra cách để đạt tới giới hạn đó.\r\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có khả năng vận dụng kiến thức đã học để giải quyết các vấn đề thực tế trong hệ thống thông tin.\r\n"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Người học có tinh thần tích cực tìm hiểu và vận dụng kiến thức môn học để giải quyết các vấn đề còn tồn tại trong lĩnh vực lý thuyết thông tin; có tinh thần cầu tiến, tự học hỏi để nâng cao kiến thức về lý thuyết thông tin.\r\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về lý thuyết thông tin",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Mã hóa nguồn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Dung lượng kênh truyền",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Mã khối tuyến tính",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các loại mã đại số trên trường Galois",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Mã chập",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

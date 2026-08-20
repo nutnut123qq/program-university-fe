@@ -1,0 +1,180 @@
+{
+  "info": {
+    "sylid": 197805,
+    "subjectCode": "D03001",
+    "syllabusName": "Quản lý kinh doanh thể thao (Sport Business Management)",
+    "syllabusEnglish": "Sport Business Management",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Giới thiệu chung về môn học quản lý kinh doanh thể thao\n\n-Thực trạng của quản lý thể thao và kinh doanh thể thao\n\n-: Vai trò của nhà nước trong việc phát triển thể thao\n\n- Các tổ chức thể thao\n\n-Thể thao chuyên nghiệp\n\n-Doanh nghiệp TT vừa và nhỏ; tổ chức phi lợi nhuận trong TT , Quản lý doanh nghiệp vừa và nhỏ và tổ chức phi lợi nhuận\n\n-Chiến lược và phân tích môi trường kinh doanh thể thao\n\n-Quản lý điều hành, chất lượng và hiệu quả trong KD thể thao\n\n-Công nghệ thông tin và hệ thống quản lý thông tin trong thể thao\n\n-Nền công nghiệp cá cược thể thao",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết quản lý điều hành các hoạt động kinh doanh của doanh nghiệp "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích các chiến lược tiếp thị và vấn đề tài chính trong doanh nghiệp thể thao"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá được điểm mạnh và điểm yếu của một doanh nghiệp thể thao, từ đó đề ra kế hoạch để xây dựng với mục đích phát triển hiệu quả hơn."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Lập được kế hoạch kinh doanh một doanh nghiệp thể thao hoặc tổ chức thể thao"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Hiểu được các khái niệm, loại hình, văn hóa và cấu trúc của một doanh nghiệp thể thao"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu chung về môn học: Cấu trúc, mục tiêu, hình thức tổ chức dạy và học, học liệu, các hình thức đánh giá. ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực trạng của quản lý thể thao và kinh doanh thể thao  ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Vai trò của Nhà nước trong việc phát triển thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tìm hiểu các tổ chức thể thao ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thể thao chuyên nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Doanh nghiệp vừa và nhỏ; Tổ chức phi lợi nhuận ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Thực tế về Doanh nghiệp/Tổ chức thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Thuyết trình giữa kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Chiến lược và phân tích môi trường kinh doanh thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Quản lý điều hành, chất lượng và hiệu quả thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "Công nghệ thông tin và hệ thống quản lý thông tin trong thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 12,
+      "sessionNo": "12",
+      "topic": "Xây dựng kế hoạch kinh doanh của Doanh nghiệp hoặc Tổ chức thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

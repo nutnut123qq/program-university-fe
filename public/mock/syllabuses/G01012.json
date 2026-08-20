@@ -1,0 +1,156 @@
+{
+  "info": {
+    "sylid": 317910,
+    "subjectCode": "G01012",
+    "syllabusName": "Cơ sở tin học 2 (Fundamentals of Informatics 2)",
+    "syllabusEnglish": "Fundamentals of Informatics 2",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Phần 1 – Năng lực số\n· Tương tác thông qua công nghệ số.\n· Chia sẻ thông tin và nội dung thông qua công nghệ số.\n· Sử dụng công nghệ số để thực hiện trách nhiệm công dân.\n· Hợp tác thông qua công nghệ số.\n· Thực hiện quy tắc ứng xử trên mạng.\n· Quản lý danh tính số.\n· Bảo vệ thiết bị.\n· Bảo vệ dữ liệu cá nhân và quyền riêng tư.\n· Bảo vệ sức khỏe và an sinh số.\n· Bảo vệ môi trường.\n· Xác định vấn đề cần giải quyết.\n· Học công nghệ mới\n· Sử dụng công cụ số\n· Cải tiến quy trình\nPhần 2 - Microsoft Excel\n\n·       Cung cấp cho sinh viên các kiến thức cơ bản, các tính năng của phần mềm Microsoft Excel. Khả năng sử dụng phần mềm Microsoft Excel.\n\n·       Khai thác các tính năng xử lý dữ liệu bằng bảng tính.\n\n·       Microsoft Excel cơ bản đến nâng cao gồm: Thiết lập môi trường làm việc, quản lý worksheet, workbooks, thiết lập hàm tính toán, phân tích dữ liệu, định dạng dữ liệu, định dạng ô, chia sẻ dữ liệu người dùng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Phổ cập kiến thức, kĩ năng số."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Cung cấp các kiến thức cơ bản, các tính năng, các hàm tính toán cơ bản và nâng cao của phần mềm Microsoft Excel."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hướng dẫn quản lý và xử lý số liệu, tổng hợp dữ liệu trên bảng tính Excel từ cơ bản đến nâng cao."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Các thao tác định dạng trang in cho trang tính. In trang tính, sổ tính. Kiểm soát sổ tính."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giao tiếp và hợp tác trong môi trường số",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "An toàn trong môi trường số - Cách giải quyết khi gặp sự cố - Quản lý môi trường làm việc Excel.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Giải quyết vấn đề (Module 5) - Quản lý trang tính và sổ tính",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Định dạng ô tính và bảng tính",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các thao tác với ô tính",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Áp Dụng Công Thức Và Hàm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Trình Bày Dữ Liệu Trực Quan",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Phân tích và tổ chức dữ liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Định dạng trang in",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Thực hành trên phần mềm, ôn tập và kiểm tra.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "Ôn tập & thi cuối kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

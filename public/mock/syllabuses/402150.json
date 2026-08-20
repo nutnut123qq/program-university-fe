@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 278455,
+    "subjectCode": "402150",
+    "syllabusName": "Xác suất thống kê (Probability and Statistics)",
+    "syllabusEnglish": "Probability and Statistics",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này giới thiệu một chủ đề quan trọng trong kỹ thuật truyền thông: các phương pháp xác suất tín hiệu và phân tích hệ thống, cung cấp tài liệu cơ bản về các mô hình xác suất, mô hình xác suất có điều kiện và các biến ngẫu nhiên. Tất cả các khái niệm sẽ được minh họa bằng các ví dụ và sinh viên có thể làm đồ án môn học và các bài tập bằng cách sử dụng các công cụ như MATLAB:\nChi tiết bao gồm:\nKhái niệm xác suất; xác suất có điều kiện, phân bố, hàm xác suất của biến ngẫu nhiên rời rạc và liên tục, hàm tương quan, biến ngẫu nhiên, nhiễu điện; mật độ phổ; đáp ứng của các hệ thống tuyến tính với đầu vào ngẫu nhiên.\nGiá trị kỳ vọng, phương sai và độ lệch chuẩn của các biến ngẫu nhiên; khoảng tin cậy.\nCác loại tín hiệu và quy trình khác nhau sử dụng các mô hình xác suất; kiểm định giả thuyết và ước lượng một biến ngẫu nhiên.\nTrung bình mẫu; vectơ ngẫu nhiên, quy trình ước lượng và ngẫu nhiên.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên có thể vận dụng được kiến thức của môn học để tìm các hàm xác suất, chẳng hạn như khối lượng, phân bố, mật độ và MGF trong các biến ngẫu nhiên rời rạc và liên tục; tính toán các tham số của các biến ngẫu nhiên, chẳng hạn như giá trị kỳ vọng, phương sai, độ lệch chuẩn và tổng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có thể định nghĩa được xác suất có điều kiện, biến ngẫu nhiên, phân bố, hàm xác suất, hàm tương quan, khoảng tin cậy; mô tả các loại tín hiệu và quá trình khác nhau bằng các mô hình xác suất; xác định kiểm định giả thuyết và ước lượng của một biến ngẫu nhiên."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên có thể hiểu tài liệu cơ bản về mô hình xác suất, mô hình xác suất có điều kiện và các biến ngẫu nhiên chuyển hóa; phân tích dữ liệu về tổng của các biến ngẫu nhiên và giá trị trung bình của mẫu; xác định các hàm của thời gian thông qua các vectơ ngẫu nhiên, ước lượng và các quá trình ngẫu nhiên; đưa ra quyết định dựa trên kiểm định giả thuyết."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Lý thuyết xác suất.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Quá trình ngẫu nhiên.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tổng của các biến ngẫu nhiên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Trung bình mẫu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kiểm định giả thuyết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Ước lượng của một biến ngẫu nhiên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

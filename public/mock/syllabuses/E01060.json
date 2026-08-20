@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 967361,
+    "subjectCode": "E01060",
+    "syllabusName": "Pháp luật về bảo vệ người tiêu dùng (Customer Protection Law)",
+    "syllabusEnglish": "Customer Protection Law",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này sẽ cung cấp cho sinh viên các khái niệm, các nguyên tắc cơ bản về pháp luật bảo vệ quyền lợi người tiêu dùng, quy trình xử lý các tranh chấp. Xây dựng phương pháp tư duy cho sinh viên về mặt khoa học cho những nội dung kiến thức đã truyền đạt nêu trên để từ đó sinh viên tự nghiên cứu, đánh giá, phê bình về các quy định của pháp luật hiện hành so với những kiến thức khoa học đã lĩnh hội được.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "\tKiến thức: Môn học trang bị cho sinh viên những kiến thức chung về pháp luật bảo vệ người tiêu dùng. Có được kiến thức về lĩnh vực pháp luật bảo vệ người tiêu dùng và các quy định pháp luật có liên quan."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "\tKỹ năng tác nghiệp: Trang bị cho sinh viên các kỹ năng ứng dụng trong thực tiễn về hoạt động bảo vệ người tiêu dùng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "\tYêu cầu về tư duy: Môn học yêu cầu sinh viên phải có tư duy độc lập, tư duy phân tích luật, xây dựng kỹ năng ban đầu trong việc áp dụng pháp luật bảo vệ người tiêu dùng vào thực tiễn."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "\tThái độ và hành vi: Học xong môn này sinh viên sẽ có ý thức về tuân thủ pháp luật."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "BẢO VỆ NGƯỜI TIÊU DÙNG VÀ PHÁP LUẬT BẢO VỆ NGƯỜI TIÊU DÙNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "CÁC THIẾT CHẾ THỰC THI PHÁP LUẬT BẢO VỆ NTD Ở VIỆT NAM",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "TRÁCH NHIỆM CỦA CÁC TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HOÁ, DỊCH VỤ ĐỐI VỚI NGƯỜI TIÊU DÙNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "CHẾ TÀI XỬ LÍ ĐỐI VỚI HÀNH VI VI PHẠM PHÁP LUẬT BẢO VỆ QUYỀN LỢI NGƯỜI TIÊU DÙNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "PHƯƠNG THỨC GIẢI QUYẾT TRANH CHẤP GIỮA NGƯỜI TIÊU DÙNG VỚI TỔ CHỨC, CÁ NHÂN KINH DOANH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

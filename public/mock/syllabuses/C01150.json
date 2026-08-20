@@ -1,0 +1,114 @@
+{
+  "info": {
+    "sylid": 165263,
+    "subjectCode": "C01150",
+    "syllabusName": "Giải tích trong kinh doanh (Calculus for Business)",
+    "syllabusEnglish": "Calculus for Business",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn “Giải tích trong Kinh doanh”\n trang bị cho sinh viên các kiến thức và kỹ năng về hàm số, đạo hàm, tích phân và vi phân hàm nhiều biến, cùng các ứng dụng trong phân tích và ra quyết định kinh tế. Nội dung bao gồm mô hình hóa quan hệ cung – cầu, tính toán chi phí, doanh thu, lợi nhuận, phân tích cận biên, tối ưu hóa, toán tài chính căn bản và các bài toán ứng dụng trong kinh doanh. Sinh viên sẽ vận dụng công cụ giải tích kết hợp phần mềm hỗ trợ để giải quyết các tình huống thực tiễn, từ đó phát triển tư duy logic, kỹ năng phân tích định lượng và ra quyết định.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Trang bị cho sinh viên các kiến thức cơ bản về hàm số, đạo hàm, tích phân và vi phân hàm nhiều biến, cùng các ứng dụng trong kinh tế và kinh doanh."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng: Xây dựng và phân tích các mô hình toán học trong kinh tế; áp dụng các công cụ giải tích để giải quyết các bài toán tối ưu hóa, phân tích chi phí - lợi nhuận, và ra quyết định."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thái độ: Rèn luyện tư duy logic, phân tích định lượng và kỹ năng giải quyết vấn đề thực tiễn"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "HÀM SỐ VÀ ỨNG DỤNG TRONG KINH TẾ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "ĐẠO HÀM VÀ ỨNG DỤNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "TÍCH PHÂN VÀ ỨNG DỤNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "VI PHÂN HÀM NHIỀU BIẾN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

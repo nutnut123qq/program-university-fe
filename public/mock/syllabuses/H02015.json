@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 832380,
+    "subjectCode": "H02015",
+    "syllabusName": "Genomics phân tử trong Khoa học y sinh (Molecular Genomics in Biomedical Sciences)",
+    "syllabusEnglish": "Molecular Genomics in Biomedical Sciences",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Genomics phân tử trong Khoa học y sinh thuộc khối kiến thức B.2.1     Kiến thức chung của Trường Đại học Tôn Đức Thắng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và phân tích được sự điều hòa biểu hiện ở mức độ gen và genome. Biết sử dụng các phương pháp kỹ thuật nào dùng để nghiên cứu genome trong trường hợp cụ thể. Áp dụng được các kiến thức môn học vào thực tế."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Giới thiệu về hệ gen đồng thời cung cấp những hiểu biết về các phương pháp, kỹ thuật hiện đại được dùng trong nghiên cứu hệ gen như microarray, giải mã trình tự gen thế hệ mới. Bên cạnh sẽ giới thiệu các hướng phát triển trong nghiên cứu genomics như epigenetics và liệu pháp gen cũng như các ứng dụng của chúng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu được phương pháp các nhà khoa học tiếp cận vấn đề khoa học ở mức độ vi mô và vĩ mô. Có được tư duy suy nghĩ độc lập, khoa học để giải quyết một vấn đề một cách logic và cụ thể, rõ ràng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về Genomics phân tử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Vai trò của non-coding RNA trong điều hòa biểu hiện gen",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phân tích biểu hiện gen và transcriptomics",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Giải mã trình tự DNA",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kỹ thuật DNA tái tổ hợp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Epigenetics",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

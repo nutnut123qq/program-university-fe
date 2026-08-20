@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 149465,
+    "subjectCode": "103039",
+    "syllabusName": "Kỹ thuật thể hiện bản vẽ (Interior Design Drawing Techniques)",
+    "syllabusEnglish": "Interior Design Drawing Techniques",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "﻿\nTrình bày các công cụ phương pháp dựng hình.\n\nTrình bày các phương pháp và kỹ thuật thể hiện để xây dựng bản vẽ đúng tiêu chuẩn.\n\nCác phương pháp và kỹ thuật thể hiện trong xây dựng hình khối trong không gian.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": " Môn học cung cấp những kiến thức nền tảng cần thiết chuyên ngành thiết kế vector. Các phương pháp dựng hình cơ bản: thông qua lệnh và công cụ, sao chép và kết hợp đối tượng để tạo hình dạng mới, chọn và thay đổi các phần trong đối tượng, cung cấp nhiều hiệu ứng để thể hiện các hình khối, vật thể; trình bày, xử lý bản vẽ."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: thành thạo việc sử dụng các lệnh và công cụ phục vụ cho vẽ và thiết kế trên máy tính."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Người học cần có khả năng tư duy sáng tạo trong thiết kế để sử dụng hiệu quả các tính năng ứng dụng của phần mềm.\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Nghiêm túc và chuyên cần thực hiện tất cả các yêu cầu của bài tập trên lớp và bài tập về nhà, nâng cao khả năng tự học và nghiên cứu tài liệu.\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các kỹ thuật cơ bản thể hiện bản vẽ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Quản lý các thanh công cụ.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kỹ Thuật thể hiện các đối tượng hình học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Nhóm các đối tượng trên bản vẽ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kỹ thuật sử dụng Component trong việc tạo chuổi đối tượng có tính liên kết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Kỹ thuật Nhập và Xuất file",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

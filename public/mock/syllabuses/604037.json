@@ -1,0 +1,122 @@
+{
+  "info": {
+    "sylid": 512002,
+    "subjectCode": "604037",
+    "syllabusName": "Các phương pháp phân tích vật liệu Polymer (Polymer Analysis)",
+    "syllabusEnglish": "Polymer Analysis",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Trang bị cho sinh viên chuyên ngành Vật liệu hữu cơ các kiến thức về công tác nghiên cứu khoa học, các bước cần thực hiện khi tiến hành nghiên cứu trong chuyên ngành vật liệu hữu cơ, đồng thời biết tuân thủ đạo đức của người làm nghiên cứu khoa học,…và kiến thức về một số phương pháp phân tích thông dụng sử dụng trong phân tích vật liệu polymer (nguyên tắc hoạt động, cơ sở về cấu tạo thiết bị đo, phân tích, phạm vi ứng dụng,…)",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Trang bị cho sinh viên chuyên ngành vật liệu hữu cơ các kiến thức về: Việc chuẩn bị và tiến hành công tác nghiên cứu khoa học; một số phương pháp thông dụng trong phân tích cấu trúc vật liệu polymer (nguyên tắc hoạt động, cơ sở về cơ cấu thiết bị đo, thiết bị phân tích,  phạm vi ứng dụng, …)"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Biết cách triển khai các bước, tự theo dõi và đánh giá về công việc đang tiến hành khi nhận được nhiệm vụ nghiên cứu khoa học; biết cách xác định các phương pháp cần thiết để phân tích vật liệu, đọc và hiểu kết quả."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: SV cần hình thành tư duy trong việc ứng dụng những kiến thức cơ bản để tự phát triển một đề tài nghiên cứu khoa học theo định hướng mới; có khả năng phán đoán kết quả đo nhận được."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các khái niệm cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phương pháp phân tích cấu trúc polymer",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phương pháp phân tích hình thái cấu trúc polymer",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phương pháp phân tích nhiệt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Phân tích cơ tính vật liệu Polymer",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

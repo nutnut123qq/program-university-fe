@@ -1,0 +1,96 @@
+{
+  "info": {
+    "sylid": 251934,
+    "subjectCode": "804081",
+    "syllabusName": "Họa thất 2 (Design Studio 2)",
+    "syllabusEnglish": "Design Studio 2",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Cơ sở kiến trúc: Thực hiện các bài tập về ứng dụng màu sắc trong kiến trúc; cách thức sử dụng nét vẽ để tạo hình khối, mô tả vật liệu và không gian.\n\nMô hình kiến trúc: Nghiên cứu chất cảm của vật liệu, ứng dụng vật liệu và kỹ thuật làm mô hình\n\nĐồ án kiến trúc: Tìm hiểu và thiết kế một không gian kiến trúc nhỏ dựa trên các kỹ năng đã được học, thể hiện được các yếu tố cơ bản trong kiến trúc như: đường nét, hình khối, bố cục tạo hình, chất liệu, vật liệu. Sản phẩm thiết kế có mối liên hệ với môi trường cảnh quan xung quanh, công năng sử dụng rõ ràng và thể hiện bản vẽ thiết kế đúng quy cách.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và diễn đạt được các khái niệm cơ bản về màu sắc, về không gian kiến trúc và các kiến thức về mô hình kiến trúc."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có kỹ năng sử dụng màu sắc trong các dạng bài tập cơ bản, kỹ năng thiết kế cơ bản, kỹ năng ứng dụng các loại vật liệu khác nhau trong không gian."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng và có khả năng tư duy về bố cục tạo hình trong không gian 3 chiều, sự tiếp xúc bề mặt giữa con người và nội thất, cũng như cách sử dụng không gian trong môi trường kiến trúc."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "3",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "CƠ SỞ KIẾN TRÚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "MÔ HÌNH KIẾN TRÚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "ĐỒ ÁN THIẾT KẾ ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

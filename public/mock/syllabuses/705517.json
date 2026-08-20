@@ -1,0 +1,136 @@
+{
+  "info": {
+    "sylid": 35085,
+    "subjectCode": "705517",
+    "syllabusName": "Hệ thống quản lý Nhà hàng khách sạn (Property Management System)",
+    "syllabusEnglish": "Property Management System",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Kết thúc học phần này, sinh viên sẽ có thể:\n● Hiểu được vai trò và tầm quan trọng của\n\nHệ thống PMS\n\ntrong hoạt động vận hành nhà hàng khách sạn.\n● Xác định được các chức năng chính và các thành phần của một hệ thống PMS.\n● Phân tích được các loại PMS khác nhau hiện có trên thị trường.\n● Đánh giá được những yếu tố cần xem xét khi lựa chọn và triển khai PMS.\n● Thể hiện được khả năng thành thạo trong việc sử dụng PMS cho các nhiệm vụ quản lý, vận hành nhà hàng khách sạn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và nhớ được các khái niệm, chức năng, và vai trò của hệ thống PMS trong hoạt động quản lý khách sạn, đặc biệt tại bộ phận Tiền sảnh và các bộ phận liên quan."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng được PMS để thực hiện các nghiệp vụ cơ bản như: quản lý đặt phòng, check-in, check-out, phân phòng, tính tiền – thu ngân, và báo cáo vận hành."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích và giải quyết được các tình huống thực tế trong quản lý khách sạn thông qua PMS, nâng cao kỹ năng thao tác, tư duy phản biện và khả năng làm việc nhóm trong môi trường số hóa."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Introduction of PMS (Giới thiệu tổng quan PMS)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tạo mã giá phòng (Rate code creation)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quản lý đặt phòng/ Reservation Management",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Quản trị tiền sảnh trong PMS/ Front Office Management in PMS",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Review và Thi giữa kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Cashiering ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Quản lý phân bổ phòng/ Room Scheduling",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Quản trị Buồng phòng và Bảo trì trong PMS/ Housekeeing and maintenance management in PMS",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

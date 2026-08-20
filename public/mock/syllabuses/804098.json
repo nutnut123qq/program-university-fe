@@ -1,0 +1,144 @@
+{
+  "info": {
+    "sylid": 513300,
+    "subjectCode": "804098",
+    "syllabusName": "Chuyên đề kiến trúc nhà công nghiệp (Industrial Building Architecture)",
+    "syllabusEnglish": "Industrial Building Architecture",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "1.\n\nTóm tắt nội dung môn học: \n-\n\nCác bài tập cụ thể của môn học sẽ có sự thay đổi theo hàng năm tùy theo điều kiện giảng dạy và thực tế. Trong đó, sẽ bao gồm 3 trong số các chuyên đề cơ bản về:\n-\n\nTổ chức môi trường kiến trúc cảnh quan các XNCN.\n-\n\nHoạt động tư vấn quy hoạch xây dựng và thiết kế kiến trúc\n-\n\nCác mô hình KCN trên thế giới\n-\n\nĐầu tư xây dựng và quản lý theo quy hoạch KCN\n-\n\nQuy hoạch xây dựng KCN, cụm CN cho các doanh nghiệp vừa và nhỏ tại VN\n-\n\nQuy hoạch xây dựng và thiết kế kiến trúc các công trình trong hệ thống logistis\n-\n\n Nhà ở cho công nhân các KCN, cụm CN\n-\n\nXu hướng xây dựng nhà công nghiệp sạch trên thế giới và tại VN.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học kiến thức chuyên sâu về kiến trúc công nghiệp và xu hướng phát triển công nghiệp trong tương lai"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng kiến thức để thiết kế đồ án tổng hợp, đồ án tốt nghiệp và định hướng tập sự nghề nghiệp"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Biết tự đánh giá, phân tích những giải pháp thiết kế kiến trúc công nghiệp; Biết vận dụng văn bản, qui phạm tiêu chuẩn để thiết kế không gian kiến trúc công nghiệp"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện ý thức tôn trọng các giá trị đạo đức nghề nghiệp. Chấp hành luật bản quyền và những thành quả sáng tạo của người đi trước."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các mô hình KCN trên thế giới và tại Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hoạt động tư vấn quy hoạch xây dựng và thiết kế kiến trúc công nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Bố cục kiến trúc công trình công nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thiết kế kiến trúc công nghiệp trong điều kiện khí hậu Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tổ chức môi trường kiến trúc cảnh quan các XNCN, quản lý và nâng cao chất lượng thẩm mỹ môi trường lao động.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thiết cấu tạo kiến trúc nhà công nghiệp và công trình công nghiệp.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Nhà ở cho công nhân các KCN, cụm CN ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

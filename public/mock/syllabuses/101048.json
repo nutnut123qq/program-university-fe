@@ -1,0 +1,78 @@
+{
+  "info": {
+    "sylid": 685609,
+    "subjectCode": "101048",
+    "syllabusName": "Nghệ thuật thị giác (Visual Graphic)",
+    "syllabusEnglish": "Visual Graphic",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Giới thiệu 6 nghệ thuật thị giác trong thiết kế đồ họa bao gồm: Cân bằng, chuyển động, tương phản, đóng khung, cân xứng, sự lặp lại.\n\n- Mỗi nghệ thuật thị giác sẽ bao gồm lịch sử ra đời và miêu tả chi tiết và phân loại.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu về nghệ thuật trong thị giác trong thiết kế đồ họa. Vận dụng nghệ thuật thị giác vào các bài đồ án, bằng việc sử dụng các yếu tố thiết kế đồ họa trong môn học trước."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng và có khả năng nghiên cứu, tổng hợp tư liệu về các chủ đề của môn học. Kỹ năng làm việc nhóm và thuyết trình theo chủ đề thông qua các bài tập trên lớp."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tự đánh giá, phân tích nghệ thuật thị giác trong thiết kế đồ họa và cách áp dụng vào thiết kế của mình."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "CÁC YẾU TỐ TRONG THIẾT KẾ ĐỒ HỌA - Nâng cao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "NGHỆ THUẬT THỊ GIÁC TRONG THIẾT KẾ ĐỒ HỌA",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

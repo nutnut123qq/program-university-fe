@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 866880,
+    "subjectCode": "302221",
+    "syllabusName": "Kỹ năng tổ chức sự kiện (Event Organizing Skills)",
+    "syllabusEnglish": "Event Organizing Skills",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Các khái niệm cơ bản về tổ chức sự kiện;\n- Phân loại sự kiện, những sự kiện thường gặp trong ngành công nghiệp du lịch;\n- Các bước phát triển một kịch bản tổ chức sự kiện;\n- Những vấn đề thường gặp về nhân sự, tài chính, vật tư thiết bị trong quá trình tổ chức sự kiện;\n- Đánh giá mức độ đạt được mục tiêu của sự kiện đã tổ chức.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học có thể nắm bắt các khái niệm cơ bản của sự kiện, tổ chức sự kiện, tầm quan trọng của sự thành công của một sự kiện để tổ chức các hoạt động du lịch. Sau đó, người học có thể thành thạo các hình thức tổ chức, tổ chức và kiểm soát quy trình cho các sự kiện."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Lập kế hoạch, viết kịch bản, chi phí và thực hiện các chiến lược xúc tiến sự kiện."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học cần có một mức độ tự học cao, học hỏi từ kinh nghiệm của các sự kiện đã được tổ chức trước đó, nhưng không trùng lặp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về sự kiện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Xây dựng ý tưởng cho sự kiện ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quy trình tổ chức sự kiện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Quản lý nguồn nhân lực trong tổ chức sự kiện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Quản lý tài chính trong tổ chức sự kiện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

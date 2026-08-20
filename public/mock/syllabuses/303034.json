@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 25171,
+    "subjectCode": "303034",
+    "syllabusName": "Các loại hình nghệ thuật Việt Nam (Vietnamese Art Forms)",
+    "syllabusEnglish": "Vietnamese Art Forms",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Chương trình học gồm 4 chương cung cấp sinh viên những khái niệm cơ bản, những giá trị, cách thức cảm nhận nghệ thuật. Trên cơ sở đó đi tìm hiểu những giá trị nghệ thuật, những sắc thái văn hóa vùng, miền của Việt Nam, đặc biệt là hệ thống di sản văn hóa đã được UNESCO công nhận ở Việt Nam.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "-\tKiến thức: trang bị cho sinh viên các kiến thức cơ bản về các loại hình nghệ thuật, cá giá trị thẩm mỹ của văn hóa dân tộc."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "-\tKỹ năng: Sinh viên hiểu được những giá trị nghệ thuật, truyền thống thẩm mỹ của dân tộc, có thể rèn luyện được kỹ năng thuyết trình về tuyến điểm, vùng miền để trờ thành một hướng dẫn viên chuyên nghiệp. Rèn luyện được tư duy độc lập, khoa học, phân tích có thể hoạch định chiến lược, khai thác tài nguyên du lịch trong hoạt động du lịch. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "- Yêu cầu về tư duy: Người học có tư duy khoa học, độc lập, biết tự đánh giá, phân tích, ứng dụng môn học vào trong việc giao tiếp, thuyết minh về nghệ thuật truyền thống của dân tộc, với vai trò là hướng dẫn viên du lịch; biết vận dụng kiến thức môn học này ở những môn học khác liên quan và có thể hoạch định chiến lược, khai thác tài nguyên du lịch trong hoạt động du lịch ."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "- Thái độ và hành vi: Yêu thích, cởi mở với nghệ thuật truyền thống, văn hóa Việt và văn hóa các nước, có lòng tự hào dân tộc, chia sẻ những giá trị tốt đẹp của nghệ thuật truyền thống dân tộc, biết tôn trọng sự khác biệt cũng như tôn trọng văn hóa các nước."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những vấn đề chung về nghệ thuật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các loại hình nghệ thuật trong hoạt động du lịch Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Di sản văn hóa vật thể và phi vật thể tại VN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thay lời kết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

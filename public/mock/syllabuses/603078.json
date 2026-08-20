@@ -1,0 +1,142 @@
+{
+  "info": {
+    "sylid": 669408,
+    "subjectCode": "603078",
+    "syllabusName": "Thí nghiệm Genomic phân tử (Molecular Genomics Laboratory)",
+    "syllabusEnglish": "Molecular Genomics Laboratory",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này sẽ cung cấp cho sinh viên kiến thức cơ sở phân tử về acid nucleic và genomic, khám phá sự tiên phong của các nghiên cứu trong lĩnh vực công nghệ sinh học như sinh học phân tử, y sinh nhằm tìm tòi kiến thức phân tử, di truyền, phát hiện sinh vật gây bệnh, nhằm tăng cường thêm sự hiểu biết cho sinh viên về genome và sự sống của sinh vật. Các nội dung sau sẽ được trình bày một cách chi tiết:\n\nKỹ thuật sinh học phân tử.\n\nĐịnh tính vi khuẩn, virus gây bệnh.\n\nMô hình thao tác chuẩn trong phòng thí nghiệm.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Môn học trang bị kiến thức cơ sở cho sinh viên về các thao tác sinh học phân tử, hệ gen đồng thời cung cấp những hiểu biết về các phương pháp, kỹ thuật được dùng trong nghiên cứu và phân tích hệ gen."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Môn học giúp cho sinh viên nắm được các kỹ thuật sinh học phân tử và ứng dụng, phương pháp kỹ thuật dùng để nghiên cứu genome trong trường hợp cụ thể, áp dụng được các kiến thức môn học vào thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Hiểu rõ các nguyên tắc của những kỹ thuật sinh học phân tử để từ đó chủ động trong tư duy nghiên cứu các chuyên đề liên quan đến sinh học phân tử và genomic.\nThái độ và hành vi: Sau khi học xong, sinh viên có hiểu biết về hệ gen và genomic, tự đặt câu hỏi, khám phá và tìm hiểu về xu hướng phát triển của ngành nghiên cứu mới này tại Việt Nam và trên thế giới.\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tiểu luận",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Thực hành",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Kỹ thuật PCR (Polymerase Chain Reaction)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kỹ thuật điện di gel agarose (Agarose gel electrophoresis)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kỹ thuật tinh sạch DNA từ gel agarose (Agarose gel DNA extraction)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kỹ thuật cắt DNA bằng enzyme giới hạn (DNA cutting by restriction enzyme)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kỹ thuật nối DNA (DNA ligation)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Kỹ thuật biến nạp vào vi khuẩn (Bacterial transformation)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Kỹ thuật tinh sạch plasmid, chọn và kiểm tra clone có chứa đoạn DNA mong muốn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Định tính E.coli O157 trong thực phẩm bằng bộ kit",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Định tính Virus gây hội chứng đốm trắng WSSV (White Spot Syndrome Virus) trên tôm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Định tính virus gây bệnh còi MBV (Monodon BaculoVirus) trên tôm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

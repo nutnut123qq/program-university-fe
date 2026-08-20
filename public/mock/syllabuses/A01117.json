@@ -1,0 +1,138 @@
+{
+  "info": {
+    "sylid": 288673,
+    "subjectCode": "A01117",
+    "syllabusName": "Kỹ năng thực hành nghề nghiệp 2 (Practice Module 2)",
+    "syllabusEnglish": "Practice Module 2",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này ôn tập những quy trình quan trọng của quản trị nguồn nhân lực và tạo điều kiện cho sinh viên được thực hành các hoạt động quan trọng của quản trị nguồn nhân lực gồm quy trình quản trị nguồn nhân lực của tổ chức, cơ cấu tổ chức của bộ phận nhân sự, xây dựng kế hoạch quản trị nguồn nhân lực, đánh giá hiệu quả quản trị nguồn nhân lực và đưa ra các giải pháp cải tiến. Sinh viên có nhiều thời gian thực hành về lập kế hoạch, tổ chức thực hiện và đánh giá các hoạt động phân tích công việc, hoạch định nguồn nhân lực, tuyển dụng, đào tạo và phát triển, đánh giá kết quả làm việc, hệ thống lương và phúc lợi, văn hoá tổ chức và hành vi tổ chức.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Áp dụng kiến thức vào thực hiện các hoạt động chủ yếu về quản trị nguồn nhân lực"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Đề xuất được giải pháp cải tiến các hoạt động quản trị nguồn nhân lực hiệu quả hơn"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phát triển các kỹ năng mềm để thực hiện các hoạt động về quản trị nguồn nhân lực"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Hình thành đạo đức nghề nghiệp và có tinh thần chăm lo người lao động khi thực hiện quản trị nguồn nhân lực"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thực hành xây dựng mục tiêu và đánh giá QTNNL, xây dựng tổ chức bộ phận QTNNL",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực hành phân tích công việc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thực hành hoạch định NNL",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực hành tuyển dụng NNL",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thực hành về quản lý kết quả làm việc\t",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thực hành về đào tạo và phát triển nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Thực hành về lương và phúc lợi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Thực hành về văn hoá tổ chức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Thực hành về thương lượng tập thể",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Thực hành về sự hài lòng và kết quả làm việc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

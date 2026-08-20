@@ -1,0 +1,96 @@
+{
+  "info": {
+    "sylid": 324843,
+    "subjectCode": "E02001",
+    "syllabusName": "Nghĩa vụ và hợp đồng (Contract and Tort law)",
+    "syllabusEnglish": "Contract and Tort law",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần cung cấp kiến thức nền tảng và chuyên sâu về nghĩa vụ dân sự và hợp đồng theo pháp luật dân sự Việt Nam trong sự đối chiếu với lý luận và thực tiễn áp dụng pháp luật. Nội dung môn học gồm ba phần chính: (i) khái quát về nghĩa vụ dân sự, bao gồm căn cứ phát sinh, thực hiện, bảo đảm và chấm dứt nghĩa vụ; (ii) pháp luật về hợp đồng, bao gồm giao kết, hiệu lực, thực hiện, sửa đổi, chấm dứt hợp đồng và trách nhiệm do vi phạm hợp đồng; và (iii) nghĩa vụ dân sự ngoài hợp đồng, tập trung vào trách nhiệm bồi thường thiệt hại ngoài hợp đồng, hoàn trả do chiếm hữu, sử dụng tài sản hoặc được lợi về tài sản không có căn cứ pháp luật. Học phần chú trọng kỹ năng phân tích tình huống pháp lý, giải quyết tranh chấp và vận dụng quy định pháp luật vào thực tiễn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho người học kiến thức nền tảng và hệ thống về nghĩa vụ dân sự, hợp đồng và nghĩa vụ dân sự ngoài hợp đồng; hiểu được cấu trúc pháp lý, nguyên tắc điều chỉnh và cơ chế bảo vệ quyền, lợi ích hợp pháp của các chủ thể trong quan hệ nghĩa vụ."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Rèn luyện kỹ năng phân tích quy phạm pháp luật, giải quyết tình huống pháp lý, nhận diện rủi ro pháp lý trong giao kết và thực hiện hợp đồng; vận dụng pháp luật để tư vấn và giải quyết tranh chấp dân sự."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hình thành ý thức tôn trọng cam kết, thiện chí và trung thực trong giao dịch dân sự; phát triển tư duy pháp lý phản biện và trách nhiệm nghề nghiệp trong hoạt động học tập và thực hành pháp luật."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình",
+      "type": "Trắc nghiệm,Thuyết trình,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Presentation,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nghĩa vụ dân sự",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hợp đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nghĩa vụ ngoài hợp đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,150 @@
+{
+  "info": {
+    "sylid": 9114,
+    "subjectCode": "805004",
+    "syllabusName": "Cơ học kết cấu (Structural Analysis)",
+    "syllabusEnglish": "Structural Analysis",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 1. Các loại kết cấu và tải trọng\nChương\r\nnày sẽ thảo luận về phân tích sơ bộ kết cấu. Đầu tiên, đưa ra các giai đoạn cần\r\nthiết để sản xuất một kết cấu, tiếp theo giới thiệu về các loại kết cấu cơ bản,\r\ncác bộ phận và các liên kết. Cuối cùng, đề cập đến các loại tải trọng phải được\r\nxem xét phù hợp trong phân tích và thiết kế.\nChương 2. Phân tích kết cấu phẳng tĩnh định\nTrong\r\nchương này đề cập đến các hình thức phổ biến nhất của kết cấu mà các kỹ sư sẽ\r\nphải phân tích, kết cấu và hệ lực nằm trong cùng mặt phẳng. Đồng thời, thảo\r\nluận về tầm quan trọng của việc lựa chọn một mô hình phân tích phù hợp cho một\r\nkết cấu để các lực trong kết cấu có thể được xác định với độ chính xác hợp lý.\r\nSau đó, đưa ra các tiêu chuẩn cần thiết để kết cấu ổn định. \nChương 3. Phân tích giàn tĩnh định\nChương\r\nnày sẽ đề cập việc phân tích giàn tĩnh định sử dụng các phương pháp tách nút và\r\nmặt cắt. Đầu tiên, giàn tĩnh định sẽ được thảo luận. Sau đó, các phân tích của\r\ndạng của giàn phẳng sẽ được xem xét: đơn giản, tổ hợp và phức tạp. \nChương 4. Tính toán nội lực của phần tử kết\r\ncấu\nXác\r\nđịnh nội lực xuất hiện trong một kết cấu ở trạng thái cân bằng là hết sức cần\r\nthiết. Trong chương này sẽ đề cập các phương pháp để tìm nội lực tại các điểm\r\ncụ thể dọc theo trục của một phần tử và cho thấy sự thay đổi nội lực bằng cách\r\nsử dụng biểu đồ lực cắt và mômen. Việc áp dụng được đề cập cho cả dầm và khung.\nChương 5. Đường ảnh hưởng cho kết cấu tĩnh\r\nđịnh\nĐường\r\nảnh hưởng có ứng dụng quan trọng cho việc thiết kế các kết cấu chịu tải trọng di động. Trong chương này sẽ thảo luận làm thế nào để vẽ đường ảnh hưởng cho các kết cấu tĩnh định. Các lý thuyết được áp dụng cho kết cấu chịu tải trọng phân\r\nbố hoặc các lực tập trung, và đưa ra các ứng dụng cụ thể cho cầu\r\ngiàn.\nChương 6. Độ võng\nTrong chương này, chúng ta sẽ thấy làm thế nào để xác\r\nđịnh độ võng đàn hồi của dầm bằng cách sử dụng phương pháp tích phân kép và hai\r\nphương pháp hình học quan trọng, cụ thể là định lý diện tích mômen và phương\r\npháp dầm liên hợp. Tích phân kép được sử dụng để có các phương trình xác định\r\ngóc xoay và đường cong đàn hồi. Các phương pháp hình học được đề cập theo cách\r\nđể xác định được góc xoay và độ võng tại điểm cụ thể trên dầm. Mỗi phương pháp\r\ncó ưu điểm và nhược điểm riêng, sẽ được đề cập đến khi phương pháp đó được trình bày.\nChương 7. Phân tích kết cấu phẳng siêu tĩnh\nTrong chương này, chúng tasẽ thảo luận về các ý tưởng cơ bản để phân tích các kết cấu siêu tĩnh bằng phương pháp lực và phương pháp chuyển vị. Các ví dụ phân tích dầm, khung, và giàn siêu tĩnh cũng sẽ được trình bày rõ.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên được trang bị các kiến thức cơ bản về phân tích kết cấu phẳng tĩnh định và siêu tĩnh"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên biết cách xác định nội lực trong kết cấu tĩnh định"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên biết cách tính, kiểm tra chuyển vị trong các kết cấu tĩnh định"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên có khả năng ô hình hóa các kết cấu thực tế chịu tác dụng của các loại tải trọng và nguyên nhân khác nhau."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Sinh viên có thái độ tỉ mĩ và cẩn thận khi phân tích sơ đồ tính của những công trình thực tế"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các loại kết cấu và tải trọng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phân tích kết cấu phẳng tĩnh định",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phân tích giàn phẳng tĩnh định",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tính toán nội lực của phần tử kết cấu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Đường ảnh hưởng cho kết cấu tĩnh định",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Độ võng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Phân tích kết cấu siêu tĩnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

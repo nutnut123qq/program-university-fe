@@ -1,0 +1,138 @@
+{
+  "info": {
+    "sylid": 169188,
+    "subjectCode": "402069",
+    "syllabusName": "Thí nghiệm FPGA (FPGA Lab)",
+    "syllabusEnglish": "FPGA Lab",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu quy trình thiết kế hệ thống luận lý sử dụng ngôn ngữ đặc tả phần cứng VHDL.\n\nMôn học mô tả cách sử dụng ngôn ngữ VHDL để thiết kế các mạch luận lý tuần tự hay tổ hợp, từ đó hướng tới thiết kế các hệ thống nhúng bậc cao sử dụng ngôn ngữ điều khiển và quản lý vi xử lý (Nios).\n\nNgoài ra công cụ mô phỏng Quartus II dùng để kiểm tra hoạt động của các phần cứng được thiết kế cũng sẽ được giới thiệu trong môn học này. Các bài thí nghiệm được thực hiện với độ khó tăng dần giúp người học từng bước làm quen với việc thiết kế phần cứng và chạy thử phần cứng này trên board DE2.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm vững định nghĩa và các khái niệm cơ bản về VHDL.\nThiết kế được các mạch logic cơ bản dùng VHDL.\nNắm vững quy trình thiết kế chip dùng ngôn ngữ VHDL, cấu trúc một chương trình VHDL, các thư viện, tập lệnh cơ bản.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân biệt được các hệ thống số.\nThiết kế các mạch tổ hợp và tuần tự dùng VHDL.\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích và đánh giá các mạch logic dùng Quartus II"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Mô phỏng và kiểm tra trên Kit Altera DE2. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu kit thí nghiệm Altera FPGA DE2 và Phần mềm Quartus II",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Switches và LEDs",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Led 7 đoạn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Bộ ghép kênh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Mạch cộng toàn phần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Cộng BCD",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Bộ đếm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Flip-flop và thanh ghi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Máy trạng thái (FSM)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Kiểm tra cuối kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

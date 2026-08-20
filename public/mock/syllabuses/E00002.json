@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 164323,
+    "subjectCode": "E00002",
+    "syllabusName": "Phương pháp và kỹ năng luật học (Legal Methods and Skills)",
+    "syllabusEnglish": "Legal Methods and Skills",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "·       Trang bị phương\r\npháp và kỹ năng cơ bản phục vụ học tập, nghiên cứu và thực hành trong lĩnh vực\r\npháp luật.\n·       Rèn luyện kỹ năng\r\ntìm kiếm, đọc, xử lý và ghi chú tài liệu pháp lý; kỹ năng tư duy, lập luận và\r\náp dụng pháp luật để giải quyết tình huống pháp lý.\n·       Phát triển kỹ\r\nnăng đọc, phân tích và vận dụng bản án, án lệ trong học tập và thực tiễn nghề\r\nluật.\n·       Trang bị cho sinh\r\nviên các phương pháp nghiên cứu khoa học pháp lý và quy trình thực hiện một\r\ncông trình nghiên cứu.\n·       Cung cấp nhận thức\r\nvề khảo thí, liêm chính học thuật, trích dẫn khoa học và sử dụng AI có trách\r\nnhiệm trong học tập, nghiên cứu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Người học được trang bị kiến thức để xác định các vấn đề trong Hệ thống pháp luật, nhận biết tổng quan các kỹ năng viết và kỹ năng hùng biện, phân biệt các loại văn bản khác nhau và trích dẫn chúng"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Người học được trang bị khả năng giao tiếp hiệu quả, nắm được các kỹ năng trình bày, lập luận trong lĩnh vực khoa học pháp lý."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Hình thành tư duy về phát hiện, giải quyết, phân tích, đánh giá vấn đề pháp lý. Tư duy trình bày, lập luận vấn dề trên nền tảng khoa học pháp lý."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học có thái độ tích cực, đúng đắn khi học luật và đánh giá khách quan các vấn đề, tình huống thực tế xã hội liên quan đến lĩnh vực khoa học pháp lý"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình 1",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Kỹ năng đọc và nghiên cứu tài liệu trong lĩnh vực pháp lý",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kỹ năng áp dụng pháp luật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kỹ năng đọc và phân tích bản án, án lệ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các phương pháp thực hiện nghiên cứu khoa học pháp lý",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Khảo thí và Liêm chính học thuật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

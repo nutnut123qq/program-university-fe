@@ -1,0 +1,66 @@
+{
+  "info": {
+    "sylid": 877925,
+    "subjectCode": "40211960",
+    "syllabusName": "Chuyên đề nghiên cứu về quang (Advanced Topics in Optical Communications)",
+    "syllabusEnglish": "Advanced Topics in Optical Communications",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn hệ thống và mạng thông tin quang gồm 2 phần. Phần đầu nói về lớp vật lý của thông tin quang như cấu tạo sợi quang, bộ thu phát quang, ghép và tách kênh quang, chuyển mạch quang, khuếch đại quang và chuyển đổi quang; Phân tích hệ thống truyền dẫn quang như hiện tượng tán sắc và hệ số phẩm chất Q. Phần hai nói về mạng truyền dẫn quang như cấu trúc, thiết kế và thuật toán chuyển mạch quang; các giao thức liên quan đến chuyển mạch ghép kênh bước sóng quang (WDM), chuyển mạch chùm quang, chuyển mạch gói quang và mạng truy cập quang.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trình bày được các nguyên tắc hoạt động đường truyền và mạng thông tin quang và các đặc tính của nó.\r\nPhân biệt được các đặc tính của sợi quang đơn mode, đa mode, bộ phát và thu quang.\r\nMô tả được các cách ghép kênh trong mạng quang và nguyên tắc hoạt động của các loại mạng quang khác nhau.\r\n\r\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thiết kế được hệ thống truyền dẫn thông tin quang tương tự và số.\r\nPhân tích được các tham số trong thiết bị phát và thu quang.\r\nSử dụng được công cụ CAD tính toán và mô phỏng hệ thống truyền dẫn quang cơ bản.\r\n\r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích được vai trò của các thiết bị trong mạng truyền dẫn quang.\r\nĐánh giá được chất lượng truyền dẫn trong mạng thông tin quang.\r\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Nhận thức được vai trò và vị trí cần thiết của môn học trong lĩnh vực viễn thông.\r\nCó tinh thần tích cực tìm hiểu và vận dụng kiến thức môn học áp dụng vào thực tiễn.\r\n\r\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

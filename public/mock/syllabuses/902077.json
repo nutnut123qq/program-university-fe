@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 930856,
+    "subjectCode": "902077",
+    "syllabusName": "Đồ án thiết kế hệ thống kiểm soát ô nhiễm không khí (Air Pollution Control System Design)",
+    "syllabusEnglish": "Air Pollution Control System Design",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Tổng quan về đặc tính các chất ô nhiễm không khí và các phương pháp xử lý ô nhiễm không khí\n\nLựa chọn công nghệ xử lý ô nhiễm không khí phù hợp\n\nTính toán và thiết kế các công trình xử lý\n\nDự toán được chi phí đầu tư và vận hành của toàn hệ thống xử lý",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng ngoại ngữ để tham khảo tài liệu các phương pháp xử lý ô nhiễm không khí."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Xây dựng hệ thống xử lý ô nhiễm không khí gắn liền với tình hình kinh tế, chính trị và xã hội."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Lựa chọn công nghệ xử lý ô nhiễm không khí đáp ứng các quy định pháp luật."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tính toán và thiết kế các công trình xử lý đáp ứng các yếu tố bảo vệ sinh thái, tài nguyên và môi trường."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Lựa chọn các giải pháp tối ưu các công nghệ xử lý ô nhiễm không khí."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Thiết kế hệ thông xử lý ô nhiễm không khí đúng yêu cầu kỹ thuật."
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Phát triển kỹ năng gai tiếp thông qua trình bày ý tưởng thiết kế."
+    },
+    {
+      "id": 8,
+      "loSeq": "8",
+      "cloName": "CO8",
+      "loDetails": "Nâng cao kỹ năng làm việc nhóm và làm việc độc lập."
+    },
+    {
+      "id": 9,
+      "loSeq": "9",
+      "cloName": "CO9",
+      "loDetails": "Nâng cao ý thức đạo đức nghề nghiệp trong việc thiết kế hệ thống xử lý khí thải."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về khu vực nghiên cứu và nguồn phát sinh khí thải",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổng quan về các công nghệ xử lý ô nhiễm không khí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phân tích và đề xuất công nghệ xử lý khí thải",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tính toán và thiết kế hệ thống xử lý ô nhiễm không khí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Khái toán kinh tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

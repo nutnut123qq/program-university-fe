@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 550209,
+    "subjectCode": "304112",
+    "syllabusName": "Thực hành công tác xã hội vi mô (Micro Social work internship)",
+    "syllabusEnglish": "Micro Social work internship",
+    "credits": "6",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Thực hành CTXH\n vi mô giúp người học có cơ hội nối kết lý thuyết với thực hành để rèn luyện kỹ năng và phát triển tác phong \nCTXH\n chuyên nghiệp. Bằng cách dấn thân trong môi trường thực tế, người học ứng dụng các nguyên tắc trong \nCTXH\n, phương pháp \nCTXH\n cá nhân và nhóm, làm việc trực tiếp với hệ thống thân chủ tại các cơ sở xã hội dưới sự đồng hành, hướng dẫn và nâng đỡ của những kiểm huấn viên và giảng viên giàu kinh nghiệm.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Thiết lập được mối quan hệ nghề nghiệp với thân chủ, kiểm huấn viên và cơ sở"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nhận diện được vấn đề, nhu cầu và nguồn lực có thể huy động vào tiến trình trợ giúp cho thân chủ"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Xây dựng được kế hoạch và triển khai được một số hoạt động nhằm can thiệp, trợ giúp thân chủ giải quyết vấn đề ưu tiên"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có thái độ của một nhân viên CTXH chuyên nghiệp\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Kiểm tra thực địa/ thực tế",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Fieldwork/Practicum Tests",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu chung về môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổng quan về cơ sở thực hành và thân chủ mục tiêu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tiến trình thực hành công tác xã hội cá nhân/nhóm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

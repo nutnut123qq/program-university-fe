@@ -1,0 +1,134 @@
+{
+  "info": {
+    "sylid": 849310,
+    "subjectCode": "40113160",
+    "syllabusName": "Quản lý và sử dụng hiệu quả năng lượng (Energy Management and Efficiency)",
+    "syllabusEnglish": "Energy Management and Efficiency",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Chương 1 trình bày tổng quan về các dạng\r\nnăng lượng chính trong công nghiệp, cùng với các đặc tính của chúng. Trong\r\nchương này cũng đề cập đến tình hình tiết kiệm năng lượng tại Việt Nam và trên\r\nthế giới. \n\n- Chương 2 trình bày phương pháp luận tính\r\ntoán tổn hao công suất trong hệ thống điện, trong đó có tính đến ảnh hưởng của\r\nchất lượng điện năng. \n\n- Chương 3, 4 trình bày tổng quan về khả\r\nnăng tiết kiệm trong động cơ không đồng bộ 3 pha và đặc tính của các hệ truyền\r\nđộng điện, hệ thống bơm, hệ thống thông gió, hệ thống nén khí, hệ thống lạnh,\r\nhệ thống nhiệt, hệ thống chiếu sáng, đánh giá khả năng cũng như giải pháp tiết\r\nkiệm năng lượng trong các hệ thống này. \n\n- Chương 5, 6 trình bày chi tiết về các hệ\r\ntruyền động điều khiển động cơ không đồng bộ 3 pha hiện đại và các giải thuật\r\nđiều khiển. \n\n- Chương 7 trình bày phương pháp đánh giá\r\nkinh tế các giải pháp kỹ thuật và xây dựng dự án khả thi.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Môn học gồm 8 chương giúp cho sinh viên nắm được những khái niệm cơ bản về tiết kiệm năng lượng trong công nghiệp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu và phân tích được các vấn đề quản lý và sử dụng hiệu quả năng lượng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích đánh giá về mức tiêu thụ năng lượng trong các thiết bị điện cũng như các thiết bị công nghệ của nhà máy công nghiệp."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": " - Có thái độ, tác phong công nghiệp.\r\n- Ý thức tầm quan trọng của quản lý và sử dụng hiệu quả năng lượng trong công nghiệp.\r\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về quản lý năng lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tiết kiệm trong hệ thống cung cấp điện, hệ thống chiếu sáng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tiết kiệm trong động cơ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tiết kiệm trong hệ thống bơm, hệ thống quạt và thông gió, hệ thống nén khí, hệ thống lạnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Chương 5: Hệ thống nhiệt-hơi và giải pháp tiết kiệm năng lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thông gió, làm mát cho tòa nhà và môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Phân tích hệ thống quản lý năng lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

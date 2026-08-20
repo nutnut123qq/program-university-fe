@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 701736,
+    "subjectCode": "103045",
+    "syllabusName": "Vẽ phối cảnh (Perspective Drawing)",
+    "syllabusEnglish": "Perspective Drawing",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "﻿- Phương pháp sử dụng họa cụ, vẽ nét, thể hiện chất liệu.\n\n- Phương pháp phối cảnh 01 điểm tụ, 02 điểm tụ.\n\n- Phương pháp vẽ và trình bày bản vẽ phối cảnh kiến trúc-nội thất.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Người học hiểu các khái niệm cơ bản, cách thức vẽ  phối cảnh cơ bản và nội thất chuyên ngành."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Nắm được qui cách của vẽ phối cảnh, biết cách vẽ (bằng tay) vật thể hoặc không gian dưới dạng phối cảnh 3 chiều nhằm phục vụ cho chuyên ngành. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Người học ngoài đọc, hiểu, còn có thể tự lên phương án thiết kế và minh họa một công trình hay một sản phẩm nội thất bằng bản vẽ phối cảnh."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học được luyện tập các kỹ năng làm việc một cách nghiêm túc và sáng tạo."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Phần 1: Vẽ phối cảnh ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phần 2: Phối cảnh 01 điểm tụ ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phần 3: Phối cảnh 02 điểm tụ ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phần 4: Vẽ phối cảnh Nội-ngoại thất. ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 333581,
+    "subjectCode": "H02006",
+    "syllabusName": "Báo cáo chuyên đề (Project Report)",
+    "syllabusEnglish": "Project Report",
+    "credits": "10",
+    "degreeLevel": "Bachelor",
+    "description": "Tập sự nghề nghiệp:\n\nSinh viên đến đơn vị tập sự (\nbệnh viện, phòng xét nghiệm, các viện và trung tâm nghiên\r\ncứu, trường đại học, công ty dược phẩm, các công ty trong lĩnh vực khoa học y\r\nsinh\n)\r\n\nl\niên quan đến ngành nghề để tìm hiểu, khảo sát, thực hành tay nghề và đánh giá\r\nhoạt động thực tế tại đơn vị tập sự. Tổng hợp các kiến thức cơ sở và chuyên\r\nngành để \n\nhoàn thành một công việc được giao mang tính định hướng nghề nghiệp.\r\nSinh viên thực hiện dưới sự hướng dẫn của cán bộ tại đơn vị tập sự hoặc giảng\r\nviên hướng dẫn và \n\nlập báo cáo tập sự.\nTiểu luận\n:\n-\n\nTuỳ theo nguyện vọng cá nhân, mỗi sinh viên sẽ lựa\r\nchọn hướng làm tiểu luận.\n-\n\nSinh viên thảo luận với giảng viên hướng dẫn để đưa\r\nra đề tài nghiên cứu, sinh viên tổng hợp tài liệu, viết đề cương nghiên cứu gồm\r\nlý do chọn đề tài, mục tiêu và phạm vi \n\nnghiên cứu, phương pháp nghiên cứu, kết\r\nquả mong đợi.\n-\n\nSinh viên thực hiện nghiên cứu khoa học dưới sự hướng\r\ndẫn của giảng viên.\n-\n\nSinh viên viết tiểu luận tốt nghiệp, và/hoặc trình\r\nbày poster đề tài.\n-\n\nSinh viên tham gia thi đánh giá kiến thức chuyên môn\r\nliên quan.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên biết cách thu thập thông tin và nắm vững các kiến thức liên quan đến lĩnh vực của đề tài, biết cách xây dựng một kế hoạch tập sự/đề tài nghiên cứu."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có khả năng thực hiện các công việc được giao ở đơn vị tập sự/đơn vị làm nghiên cứu, suy nghĩ độc lập sáng tạo để giải quyết vấn đề, phân tích, giải thích kết quả, trình bày báo cáo khoa học, khả năng thuyết trình và phản biện đề tài."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên nắm vững các kiến thức chuyên ngành Khoa học Y sinh."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên phối hợp hiệu quả với đồng nghiệp, đối tác, tuân thủ các quy đình về pháp luật và đạo đức trong tập sự/nghiên cứu."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đề cương Tiểu luận/Tập sự",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực hiện Tiểu luận/Tập sự",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 594085,
+    "subjectCode": "H01078",
+    "syllabusName": "Thí nghiệm Dược lý 2 (Pharmacology Laboratory 2)",
+    "syllabusEnglish": "Pharmacology Laboratory 2",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Thí nghiệm Dược lý 2 gồm các bài sau đây:\n\n1. Workshop về thuốc tác động trên hệ thần kinh\n\n2. Workshop về thuốc tim mạch\n\n3. Workshop về thuốc kháng viêm giảm đau và thuốc kháng histamin H1\n\n4. Thử nghiệm tác động của thuốc điều trị đái tháo đường trên động vật\n\n5. Thử nghiệm tác động của thuốc điều trị rối loạn lipid huyết trên động vật",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu, ghi nhớ các tác động dược lý, chỉ định, tác dụng phụ, chống chỉ định, liều lượng, cách sử dụng của các thuốc thiết yếu tân dược. Trên cơ sở đó, người học có thể phân tích, đánh giá việc sử dụng thuốc bởi các nhân viên y tế, chủ động đưa ra liệu trình điều trị bệnh bằng thuốc."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nhận thức được vai trò quan trọng của nhân viên y tế trong việc chăm sóc sức khỏe cho người dân"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có thể thực hiện các qui trình thử nghiệm để đánh giá tác động của dược chất lên động vật thí nghiệm"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đánh giá tác động của thuốc điều trị đái tháo đường trên mô hình động vật thí nghiệm và dược lý thuốc tác động trên hệ thần kinh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đánh giá tác động của thuốc điều trị rối loạn lipid huyết trên mô hình động vật thí nghiệm và dược lý thuốc tim mạch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Đánh giá tác động của thuốc điều trị rối loạn lipid huyết trên mô hình động vật thí nghiệm và dược lý thuốc kháng viêm giảm đau, thuốc kháng histamin H1",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thi kết thúc môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

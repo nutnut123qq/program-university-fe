@@ -1,0 +1,162 @@
+{
+  "info": {
+    "sylid": 331022,
+    "subjectCode": "602044",
+    "syllabusName": "Điều khiển quá trình (Process Control)",
+    "syllabusEnglish": "Process Control",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Nội dung môn học gồm 2 phần chính: Đại cương về Điều khiển quá trình và Hệ thống điều khiển quá trình.\n\nĐại cương về Điều khiển quá trình: Một số khái niệm cơ bản; Mục đích, chức năng nhiệm vụ của Điều khiển quá trình; Thành phần của Hệ thống Điều khiển quá trình; Phân loại Điều khiển quá trình và các sách lược điều khiển cơ sở; Cơ sở thiết kế cấu trúc Điều khiển quá trình.\n\n Hệ thống Điều khiển quá trình: Khái quát về Hệ thống Điều khiển quá trình; Hệ thống Điều khiển tự động để điều chỉnh một số thông số và đại lượng cơ bản thường gặp; Hệ thống điều khiển để cảnh báo và bảo vệ ;Hệ thống Điều khiển tự động đối với một số máy và thiết bị riêng lẻ hoặc cụm máy thiết bị; Hệ thống Điều khiển tự động cho một số  quá trinh và thiết bị công nghệ tiêu biểu.\n\n- Ngoài ra, môn học còn giới thiệu khái quát một số nội dung về cơ sở lý thuyết Điều khiển quá trình, giúp sinh viên định hướng cho việc tìm hiểu ,nghiên cứu mở rộng hoặc sâu hơn về Điều khiển quá trình khi có nhu cầu ứng dụng trong thực tế hoặc khi muốn “đặt hàng” cho chuyên gia về Tự động hóa thiết kế triển khai ứng dụng Hệ thống Điều khiển quá trình trong thực tế.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Môn học cung cấp cho sinh viên những kiến thức cơ bản về cơ sở điều khiển quá trình và một số ứng dụng trong điều khiển các quá trình và thiết bị công nghệ cơ bản thường gặp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Trang bị cho sinh viên các kiến thức cơ sở và các tác vụ kỹ thuật để điều khiển quá trình, có kỹ năng kiểm soát và điều khiển tự động một số quá trình công nghệ tiêu biểu."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: \n\t- Rèn luyện cho sinh viên có ý thức và tư duy về ứng dụng các sách lược điều khiển quá trình một cách hợp lý nhằm tối ưu hoá quá trình công nghệ.\n\t- Rèn luyện cho sinh viên có tư duy cải tiến hệ thống kiểm soát và điều khiển nhằm nâng cao chất lượng sản phẩm, hiệu quả sản xuất và an toàn cho máy móc thiết bị, an toán cho con người và môi trường.\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Một số khái niệm cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Mô tả Hệ thống ĐKTĐ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phân loại ĐKQT và các sách lược ĐKQT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": " Cơ sở thiết kế cấu trúc ĐKQT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Khái quát về Hệ thống ĐKQT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Hệ thống Điều khiển các thông số và đại lượng cơ bản thường gặp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Hệ thống điều khiển tự động các máy và thiết bị riêng lẻ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Điều khiển tự động cho các Hệ thống thiết bị công nghệ tiêu biểu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Khái quát một số vấn đề mở rộng và chuyên sâu về điều khiển quá trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Mở đầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

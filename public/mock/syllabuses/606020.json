@@ -1,0 +1,144 @@
+{
+  "info": {
+    "sylid": 978666,
+    "subjectCode": "606020",
+    "syllabusName": "Hóa học polymer (Polymer Chemistry )",
+    "syllabusEnglish": "Polymer Chemistry ",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Khái niệm cơ bản về polymer\n\n- Phân loại polymer\n\n- Các phương pháp tổng hợp polymer\n\n- Cơ chế các phản ứng tổng hợp polymer\n\n- Đặc điểm phản ứng của polymer\n\n- Sự phân hủy polymer",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Cung cấp cho sinh viên những kiến thức cần thiết về polymer: Các khái niệm cơ bản, đặc trưng của polymer, các phương pháp tổng hợp polymer, các yếu tố ảnh hưởng đến khả năng tổng hợp cũng như sản phẩm sau khi tổng hợp, đặc điểm các phản ứng của polymer, sự phân hủy polymer, quan hệ giữa cấu trúc và tính chất hoá học của chúng, ứng dụng của polymer trong thực tế."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Sinh viên biết được những tính chất đặc trưng cơ bản của polymer, cơ chế cũng như sự khác nhau giữa các phương pháp tổng hợp polymer, đặc trưng các phản ứng hóa học của polymer, nắm vững và hiểu rõ tính năng, ứng dụng của một số loại polymer thông dụng phục vụ cho nghề nghiệp sau này."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Trên cơ sở các kiến thức cơ bản về polymer, phương pháp tổng hợp, đặc điểm phản ứng hóa học của phân tử polymer, khả năng phân hủy của polymer. Sinh viên có thể lý giải được tính chất của một số polymer thông dụng, dự đoán được tính chất của polymer dựa trên cấu trúc phân tử và khả năng ứng dụng của nó vào thực tế."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Rèn luyện cho sinh viên thái độ tiếp nhận kiến thức một cách nghiêm túc, nắm vững các kiến thức cơ bản để vận dụng vào các môn học liên quan tiếp theo."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đại cương về polymer",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phương pháp trùng hợp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chuyển hóa vòng thành polymer mạch thẳng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phương pháp trùng ngưng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Copolymer",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Chuyển hóa hóa học của polymer",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Sự phân hủy polymer",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

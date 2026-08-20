@@ -1,0 +1,162 @@
+{
+  "info": {
+    "sylid": 570166,
+    "subjectCode": "804215",
+    "syllabusName": "Đồ án tổng hợp (General Project)",
+    "syllabusEnglish": "General Project",
+    "credits": "12",
+    "degreeLevel": "Bachelor",
+    "description": "Về thời gian thực hiện\n ĐATH: khoảng từ 14- 16 tuần học. Trong đó, có 02 tuần đề cương, từ 8-10 tuần nghiên cứu kiến trúc, 02 tuần nghiên cứu kỹ thuật, và 02 tuần thể hiện đồ án.\n\nVề nội dung\n gồm 2 phần chính: Phần quy hoạch-kiến trúc và Phần kỹ thuật:\n\n  + Phần quy hoạch-kiến trúc : Chiếm 85% khối lượng đồ án, trong đó phần nghiên cứu không quá 15%.\n\n  + Phần kỹ thuật : Chiếm 15% khối lượng đồ án, gồm một trong các phần: vật lý kiến trúc; kết cấu; hạ tầng kỹ thuật; cảnh quan môi trường.\n\nSản phẩm giao nộp\n: Thuyết minh đồ án và Bản vẽ thiết kế, mô hình (nếu có)\n\n  + Thuyết minh đồ án: 40-60 trang A4 một mặt, kèm theo toàn bộ bản vẽ của đồ án khổ A3 (chưa kể phụ lục và hình ảnh, bản vẽ).\n\n  + Bản vẽ thiết kế: 12 - 14 bản vẽ khổ A0. Bản vẽ nộp được đựng trong hộp, bên ngoài hộp phải ghi đầy đủ các thông tin về: tên đề tài, tên SV thực hiện, mã số SV, số lượng bản vẽ.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên kiến thức tổng hợp để lựa chọn dề tài và thực hiện hoàn chỉnh một đồ án tốt nghiệp kiến trúc; Hoàn thiện một cách có hệ thống các kiến thức trong quá trình học thông qua đồ án cuối cùng trước khi tốt nghiệp; Áp dụng linh hoạt và sáng tạo kiến thức chuyên ngành phù hợp với từng thể loại công trình kiến trúc."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên nắm bắt được kỹ năng thực hiện một ĐATH từ giai đoạn nghiên cứu hiện trạng đến đề xuất phương án quy hoạch tổng mặt bằng, đề xuất giải pháp kiến trúc công trình, hệ kết cấu công trình. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu sinh viên có tinh thần tự giác học tập, áp dụng những kiến thức thu thập được trong những học kỳ cơ sở và quá trình tập sự nghề nghiệp để vận dụng vào ĐATH."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện cho sinh viên tác phong nghiêm túc, tham gia đầy đủ các giờ hướng dẫn đồ án, và làm việc đúng tiến độ các giai đoạn đồ án theo đúng quy định, thể hiện năng lực đáp ứng nhu cầu công việc trong thực tế sau khi ra trường."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giảng đề",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nghiên cứu lập nhiệm vụ thiết kế. ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nghiên cứu tổng mặt bằng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Nghiên cứu mặt bằng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Nghiên cứu chi tiết, mặt bằng, mặt cắt, mặt đứng kiến trúc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Kiểm tra tiến độ giữa kỳ (50% khối lượng công việc dự kiến)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Nghiên cứu hoàn chỉnh phần kiến trúc, tổ chức không gian và cảnh quan",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Nghiên cứu nội thất kiến trúc, ngoại thất, sân vườn, không gian cảnh quan chung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Phần kỹ thuật công trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Thể hiện đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "Bảo vệ đồ án tổng hợp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 12,
+      "sessionNo": "12",
+      "topic": "Hoàn thành khối lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 13,
+      "sessionNo": "13",
+      "topic": "Nghiên cứu chi tiết, hoàn thiện về mặt bằng và hình khối công trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

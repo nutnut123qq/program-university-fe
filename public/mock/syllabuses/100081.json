@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 586601,
+    "subjectCode": "100081",
+    "syllabusName": "Hình họa 4 (Drawing 4)",
+    "syllabusEnglish": "Drawing 4",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học được thiết kế ba chương: bao gồm các bài tập thực hành từ ghi chép các cánh, góc cảnh trong  sân trường,  đi vẽ các công trình kiến trúc mang tính đặc trưng của thành phố về lịch sử và hiện đại. Nhằm  giúp người học nắm bắt các nguyên lí kết cấu hình khối trên không gian mặt phẳng. Ghi chép bối cảnh hiện trang thực tế (Sketch) , phác thảo ra những ý tưởng sáng tạo và được thế hiện (concerpt) dưới góc độ hình họa.\n﻿",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học hiểu và nhận thức được cấu trúc cơ bản về hình khối, không gian"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích được các hệ thống cấu trúc  hình khối, sự vật và con người: ánh sáng, đậm nhạt, bố cục"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng các hình khối cơ bản, bố cục sự vật trong không gian vào các đồ án thiết kế"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Khả năng phát hiện, tìm thấy yếu tố biểu cảm trong cấu trúc, hình khối của sự vật thiên nhiên vào hoạt động sáng tạo nghề nghiệp"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TỔNG QUAN VỀ HÌNH HỌA",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": " VẼ NGOẠI CẢNH. (Khảo sát ghi chép thực tế dựa vào bối cảnh thực tế như: căn tin, sảnh lớn của nhà trường, Quảng trường tỉnh , Công viênThành phố, Phố đi bộ, Công viên nơi công cộng sinh hoạt cộng đồng)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": " BÀI TỔNG KẾT (Thể hiện phác thảo  tổng thể ý tưởng sự kiện - Event từ bối cảnh thực tế )",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

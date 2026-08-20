@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 826021,
+    "subjectCode": "G01011",
+    "syllabusName": "Cơ sở tin học 1 (Fundamentals of Informatics 1)",
+    "syllabusEnglish": "Fundamentals of Informatics 1",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các phần:\n\nPhần 1 – Năng lực số\n\n·\n\nMột số kiến thức cơ bản về hệ điều hành Windows.\n·\n\nDuyệt, tìm kiếm và lọc dữ liệu, thông tin và nội dung số.\n·\n\nĐánh giá dữ liệu, thông tin và nội dung số.\n·\n\nQuản lý dữ liệu, thông tin và nội dung số.\n·\n\nPhát triển nội dung số.\n·\n\nTích hợp và tạo lập lại nội dung số.\n·\n\nThực thi bản quyền và giấy phép.\n·\n\nLập trình.\n·\n\nHiểu biết về AI (trong đó có GenAI).\n·\n\nSử dụng AI có đạo đức và trách nhiệm.\n·\n\nĐánh giá các công cụ AI.\n\nPhần 2 - Microsoft Word\n\n·\n\nWord cơ bản\n\n·\n\nĐiều chỉnh giao diện.\n\n·\n\nSoạn thảo văn bản. \n\n·\n\nChèn ký tự đặc biệt.\n\n·\n\nTổ chức dữ liệu trong Word. \n\n·\n\nBảo mật tài liệu văn bản.\n\n·\n\nKiểm duyệt và in ấn tài liệu. \n\n·\n\nWord nâng cao\n\n·\n\nQuản trị nội dung.\n\n·\n\nTùy biến bảng và biểu đồ.\n\n·\n\nTùy biến định dạng với Style và\r\nTheme.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hướng dẫn các thao tác cơ bản trên hệ điều hành Windows, phổ cập kiến thức, kĩ năng số."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hướng dẫn các kỹ năng soạn thảo văn bản, định dạng văn bản, chèn và định dạng các đối tượng, áp dụng các tham chiếu và siêu liên kết, kiểm soát văn bản"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khai thác dữ liệu, thông tin",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Ứng dụng trí tuệ nhân tạo.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Làm quen với Microsoft Word 2016",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Định dạng trang và sáng tạo nội dung số",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Xem và định dạng nội dung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Chèn và định dạng các đối tượng trong tài liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Áp dụng tham chiếu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Quản lý cộng tác tài liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

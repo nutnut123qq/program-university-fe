@@ -1,0 +1,142 @@
+{
+  "info": {
+    "sylid": 317746,
+    "subjectCode": "E01040",
+    "syllabusName": "Luật sư và thực hành nghề luật (Attorneys and Law Practise)",
+    "syllabusEnglish": "Attorneys and Law Practise",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học\r\ncung cấp cho người học những quy định pháp luật về luật sư và hành nghề luật sư,\r\ntổ chức hành nghề luật sư; quy tắc đạo đức và ứng xử nghề nghiệp của luật sư; hướng\r\ndẫn các kỹ năng của luật sư khi thực hành nghề nghiệp luật sư.Từ đó giúp người\r\nhọc định hướng nghề nghiệp trong tương lai",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học có những kiến thức về các quy định liên quan đến hành nghề với vai trò là một Luật sư "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học có những kỹ năng cần thiết để hành nghề luật sư. Ví dụ như điều kiện để được công nhận là Luật sư; Hình thức hành nghề của Luật sư; Cách thức ứng xử và quy tắc đạo đức trong quá trình nghề; Các kỹ năng cần thiết khi hành nghề;"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học hiểu và vận dụng được các kỹ năng của môn học để xem xét các thực tiễn vấn đề."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học lựa chọn được nghề phù hợp sau khi tốt nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình,Đóng vai,Tranh luận,Bình luận – đánh giá phần mềm/ sách ,Nghiên cứu tình huống,Giải quyết vấn đề",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation,Role Play,Debate,Software/Book Review,Case Study,Problem-Solving",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Nghiên cứu tình huống",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Case Study",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Nghiên cứu tình huống",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Case Study",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu chung về Nghề Luật sư",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổ chức hành nghề Luật sư",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quy tắc đạo đức, ứng xử nghề nghiệp của luật sư",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hoạt động trợ giúp pháp lý của Luật sư",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Quản trị tổ chức hành nghề luật sư",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Kỹ năng tư vấn pháp luật của luật sư",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Viết thư tư vấn và đưa ra ý kiến tư vấn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Kỹ năng tranh tụng của Luật sư",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

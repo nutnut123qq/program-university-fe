@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 994268,
+    "subjectCode": "H01203",
+    "syllabusName": "Báo cáo chuyên đề (Project Report)",
+    "syllabusEnglish": "Project Report",
+    "credits": "10",
+    "degreeLevel": "Bachelor",
+    "description": "Tập\r\nsự nghề nghiệp:\n\nSinh\r\nviên đến đơn vị tập sự (xí nghiệp, công ty dược, bệnh viện, nhà thuốc, viện\r\nkiểm nghiệm) liên quan đến ngành nghề để tìm hiểu, khảo sát, thực hành tay nghề\r\nvà đánh giá hoạt động thực tế tại đơn vị tập sự. Tổng hợp các kiến thức cơ sở\r\nvà chuyên ngành để hoàn thành một công việc được giao mang tính định hướng nghề\r\nnghiệp. Sinh viên thực hiện dưới sự hướng dẫn của cán bộ tại đơn vị tập sự hoặc\r\ngiảng viên hướng dẫn và lập báo cáo tập sự.\n\nTiểu\r\nluận:\n\n·\n\nTuỳ theo nguyện vọng cá nhân, mỗi sinh viên sẽ\r\nlựa chọn hướng làm tiểu luận.\n\n·\n\nSinh viên thảo luận với giảng viên hướng dẫn để\r\nđưa ra đề tài nghiên cứu, sinh viên tổng hợp tài liệu, viết đề cương nghiên cứu\r\ngồm lý do chọn đề tài, mục tiêu và phạm vi nghiên cứu, phương pháp nghiên cứu,\r\nkết quả mong đợi.\n\n·\n\nSinh viên thực hiện nghiên cứu khoa học dưới sự\r\nhướng dẫn của giảng viên.\n\n·\n\nSinh viên viết tiểu luận tốt nghiệp, và/hoặc\r\ntrình bày poster đề tài.\n\n·\n\nSinh viên tham gia thi đánh giá  kiến thức\r\nchuyên môn liên quan.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng kiến thức chuyên ngành đã học vào thực tiễn công việc; phân tích, lý giải và giải quyết các vấn đề, tình huống trong thực tiễn trên cơ sớ lý thuyết đã học."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thực hành và rèn luyện thành thạo kỹ năng liên quan đến ngành nghề tại đơn vị tập sự (xí nghiệp, công ty dược, bệnh viện, nhà thuốc, viện kiểm nghiệm)."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có tư duy logic, độc lập trong làm việc; đánh giá được các vấn đề, tình huống trong thực tiễn tại đơn vị tập sự từ đó đưa ra những ý kiến đóng góp thiết thực, cần thiết cho đơn vị."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Ý thức được sự cần thiết của việc học tập suốt đời, quan tâm đến việc phát triển các kỹ năng cứng và mềm để phát triển nghề nghiệp tương lai; hiểu được giá trị đạo đức nghề nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đề cương Tiểu luận/Tập sự",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực hiện Tiểu luận/Tập sự",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Báo cáo ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

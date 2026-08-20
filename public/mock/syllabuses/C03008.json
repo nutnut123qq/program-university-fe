@@ -1,0 +1,136 @@
+{
+  "info": {
+    "sylid": 722058,
+    "subjectCode": "C03008",
+    "syllabusName": "Đại số tuyến tính 2 (Linear Algebra 2)",
+    "syllabusEnglish": "Linear Algebra 2",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Không gian Euclide.\n\nKhông gian vector.\n\nTrị riêng vector riêng, chéo hóa ma trận.\n\nKhông gian có tích vô hướng.\n\nDạng toàn phương.\n\nPhân tích LU.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "-\tKiến thức: Trang bị cho sinh viên các kiến thức cơ sở về đại số tuyến tính, làm nền tảng cho việc học tập các môn trong chuyên ngành cũng như các phương pháp định lượng trong Toán học, Toán ứng dụng và các ngành khoa học khác."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "-\tKỹ năng tác nghiệp: Sinh viên thực hiện thành thạo các phép toán trên không gian Euclide, không gian vector, hiểu được trị riêng vector riêng và thực hành chéo hóa được ma trận, hiểu khái niệm dạng toàn phương và thực hiện được một số phép phân tích ma trận."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "-\tYêu cầu về tư duy: \nCó tư duy logic, lập luận chặt chẽ.\nCó khả năng vận dụng kiến thức môn học phục vụ chuyên ngành đang học.\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "-\tThái độ và hành vi: \nTham dự đầy đủ số buổi học theo quy định.\nThái độ nghiêm túc trong giờ học.\nÝ thức chuyên cần, làm đầy đủ và đúng tiến độ các bài tập được giao. \n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "KHÔNG GIAN EUCLIDE",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "KHÔNG GIAN VECTOR TỔNG QUÁT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": " TRỊ RIÊNG – VECTOR RIÊNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": " KHÔNG GIAN CÓ TÍCH VÔ HƯỚNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "CHÉO HÓA TRỰC GIAO VÀ DẠNG TOÀN PHƯƠNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "PHÂN TÍCH LU",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

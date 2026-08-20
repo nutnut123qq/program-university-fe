@@ -1,0 +1,138 @@
+{
+  "info": {
+    "sylid": 778470,
+    "subjectCode": "402142",
+    "syllabusName": "Phương pháp tính và giải thuật (Algorithms and numerical methods)",
+    "syllabusEnglish": "Algorithms and numerical methods",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giới thiệu các kiến thức cơ bản về thuật toán và phương pháp số, cung cấp cơ sở để sinh viên phân tích, thiết kế và thực hiện các thuật toán số cơ bản\nChi tiết bao gồm:\nGiải quyết các chủ đề phân tích số tiêu chuẩn, chẳng hạn như giải một phương trình phi tuyến tính với một ẩn số, số học dấu phẩy động, điều kiện của các bài toán và tính ổn định của thuật toán, hệ phương trình tuyến tính, các bài toán bình phương nhỏ nhất, khử Gaussian và nội suy đa thức hoặc tính toán phân tách QR.\nỨng dụng các chủ đề giải tích số chuẩn vào tích phân số.\nGiá trị riêng và phương pháp lặp để giải hệ phương trình tuyến tính.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Khi kết thúc khóa học, sinh viên có thể hiểu được các khái niệm cơ bản về thuật toán và phương pháp số, điều kiện hóa bài toán và tính ổn định của thuật toán."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Khi kết thúc khóa học, sinh viên có thể phân tích và giải quyết các chủ đề số tiêu chuẩn, chẳng hạn như hệ phương trình phi tuyến tính đơn, số học dấu phẩy động, hệ phương trình tuyến tính, các bài toán bình phương nhỏ nhất, khử Gaussian, nội suy đa thức và tính toán phân tách QR."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Khi kết thúc khóa học, sinh viên có thể sử dụng MATLAB để thực hiện nhiều nguyên tắc cơ bản của tính toán số."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về phương pháp số",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Giải phương trình phi tuyến tính một ẩn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Điều kiện hóa bài toán; Tính ổn định của thuật toán",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các phương pháp trực tiếp để giải các bài toán về hệ thống tuyến tính và bình phương nhỏ nhất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Nội suy đa thức và đa thức từng phần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Tích hợp số",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Các phương pháp giải hệ phương trình tuyến tính và tìm giá trị riêng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

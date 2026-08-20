@@ -1,0 +1,156 @@
+{
+  "info": {
+    "sylid": 949433,
+    "subjectCode": "401127",
+    "syllabusName": "Quản lý chất lượng điện năng (Power Quality Management)",
+    "syllabusEnglish": "Power Quality Management",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "-\r\nNội dung của môn học nhằm giới thiệu kiến thức cơ bản về các vấn đề sau: Chất\r\nlượng điện năng tổng quan; Các hiện tượng quá độ và nhiễu điện từ; Vấn đề họa\r\ntần trên lưới cấp điện; Các qui định về họa tần cho hộ tiêu thụ điện; Phân\r\ntích, mô phỏng và đánh giá họa tần; Phân tích và xử lí số các tín nhiệu nhiễu\r\nchất lượng điện năng; Các giải pháp làm tăng chất lượng điện năng; Các bài toán\r\nmô phỏng chất lượng điện năng với các phần mềm: ATP-EMTP, MATLAB, ETAP, PSIM…\n\n-\r\nMôn học này trình bày các nội dung cơ bản về:\n\n+\r\nTổng quan về chất lượng điện năng\n\n+\r\nCác vấn đề chất lượng điện năng: sụt điện áp và mất điện, quá điện áp quá độ,… \n\n+\r\nGiám sát chất lượng điện năng\n\n+\r\nXử lí tín hiệu đối với chất lượng điện\n\n+\r\nChất lượng điện năng trong các lưới điện khác\n\n+\r\nGiải pháp làm giảm chất lượng điện năng",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Môn học nhằm trang bị các kiến thức liên quan về các vấn đề chất lượng điện năng xét trên phương diện hệ thống cấp điện cũng như hộ tiêu thụ điện dân dụng hoặc công nghiệp"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hướng dẫn các học viên phân tích, tính toán, mô phỏng và thiết kế bộ điện tử công suất dùng trong chất lượng điện năng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu và phân tích được các vấn đề chất lượng điện năng, từ đó đưa ra giải pháp khắc phục phù hợp."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Cung cấp cho học viên bản chất của các hiện tượng chất lượng điện năng"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Phân tích các hiện tượng và các giải pháp làm giảm chất lượng điện năng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về chất lượng điện năng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Sụt áp và mất điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quá áp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Họa tần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Độ thay đổi điện áp ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Giám sát chất lượng điện năng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Quá trình tín hiệu của chất lượng điện năng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Chất lượng điện năng trong máy phát phân tán, lưới điện thông minh và năng lượng gió.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Các thiết bị điện tử công suất dùng điều khiển chất lượng điện áp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

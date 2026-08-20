@@ -1,0 +1,130 @@
+{
+  "info": {
+    "sylid": 958028,
+    "subjectCode": "902110",
+    "syllabusName": "Thí nghiệm sinh học môi trường (Experiment of Environmental Biology)",
+    "syllabusEnglish": "Experiment of Environmental Biology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 1: Giới thiệu \nChương 2: Phân lập và Nuôi cấy\nChương 3: Quan sát và Xác định Số lượng \nChương 4: Phương pháp thu mẫu và Kỹ thuật xử lý mẫu\nChương 5: Thực vật phiêu sinh và Tảo bám\nChương 6: Động vật phiêu sinh và Động vật nguyên sinh\nChương 7: Động vật không xương sống cỡ lớn và Côn trùng nước",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hình thành kỹ năng tiếng Anh phục vụ học tập và nghiên cứu."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hình thành các kỹ năng làm việc nhóm và làm việc độc lập, tư duy có hệ thống, kỹ năng sáng tạo."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phát triển các giải pháp tối ưu trong ngăn chặn ô nhiễm và giảm thiểu chất thải."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Hình thành các kiến thức môi trường, sinh thái và tài nguyên để xây dựng các chương trình kiểm soát chất lượng môi trường."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Phát triển giá các hướng nghiên cứu mới phục vụ học tập và nghiên cứu."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành thí nghiệm",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Laboratory Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành thí nghiệm",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Laboratory Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phân lập và Nuôi cấy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quan sát và Xác định số lượng vi khuẩn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phương pháp thu mẫu và Kỹ thuật xử lý mẫu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thực vật phiêu sinh và Tảo bám",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Động vật phiêu sinh và Động vật nguyên sinh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Thực hành phân tích xác định số lượng vi sinh vật trong mẫu môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

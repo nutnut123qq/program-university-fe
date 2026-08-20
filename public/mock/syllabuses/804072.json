@@ -1,0 +1,176 @@
+{
+  "info": {
+    "sylid": 155430,
+    "subjectCode": "804072",
+    "syllabusName": "Hình học họa hình (Descriptive Geometry)",
+    "syllabusEnglish": "Descriptive Geometry",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học được triển khai trong 60 tiết lý thuyết, bao gồm cả bài tập và các buổi đánh giá kết quả học tập. Nội dung bài tập và đánh giá gắn liền với kiến thức mà môn học giảng dạy cho sinh viên.\n\nSinh viên áp dụng kiến thức về phương pháp vẽ hình chiếu thẳng góc để mô tả chính xác hình khối cơ khí và kiến trúc cho trước.\n\nSinh viên sưu tầm các công trình kiến trúc và áp dụng quy luật trong phương pháp vẽ phối cảnh và vẽ bóng, để vẽ lại.\n\nBài đánh giá cuối kỳ, sinh viên được tự do thể hiện phối cảnh một không gian kiến trúc bằng trí sáng tạo cá nhân sao cho thỏa mãn các yêu cầu về bố cục, kỹ thuật dựng hình, sự phong phú chi tiết và tính thẩm mỹ.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên các kiến thức cơ bản về các bài toán không gian trên mặt phẳng. Giúp sinh viên hiểu rõ các phương pháp hình chiếu, hình cắt, mặt cắt, phương pháp vẽ bóng, vẽ phối cảnh và hình chiếu phối cảnh trong vẽ kỹ thuật"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng vào thực hành đọc, vẽ các bản vẽ kỹ thuật xây dựng, vẽ phối cảnh, vẽ bóng đổ để thể hiện các ý tưởng trên bản vẽ kiến trúc và quy hoạch."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nắm vững các tiêu chuẩn trong vẽ kỹ thuật xây dựng hiện hành thông qua giáo trình tại lớp và các tài liệu chuyên môn trong ngành xây dựng."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện tính chuyên cần, tính chính xác, tỉ mĩ, khoa học, có đầy đủ năng lực đọc, vẽ và triển khai các bản vẽ kỹ thuật chuyên ngành, đáp ứng nhu cầu công việc trong thực tế sau khi ra trường."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Biểu diễn điểm – đường thẳng – mặt phẳng bằng phép chiếu thẳng góc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Những bài toán về vị trí ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các bài toán về lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các phép biến đổi hình chiếu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Biểu diễn đường cong và các mặt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Vẽ bóng trên hình chiếu thẳng góc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Vẽ bóng của các chi tiết kiến trúc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Điểm – Đường thẳng – Mặt phẳng (Phối cảnh thẳng đứng)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Vẽ phối cảnh từ các hình chiếu thẳng góc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": " Điểm – Đường thẳng – Mặt phẳng (Phối cảnh nghiêng)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "Vẽ bóng trên hình chiếu phối cảnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

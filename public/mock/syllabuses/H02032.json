@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 500553,
+    "subjectCode": "H02032",
+    "syllabusName": "Vật liệu sinh học (Biomaterials)",
+    "syllabusEnglish": "Biomaterials",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp kiến thức cơ bản và chuyên sâu về vật liệu sinh học, bao gồm phân loại, tính chất, yêu cầu lâm sàng và các phương pháp đặc trưng vật liệu. Nội dung môn học tập trung vào các phản ứng và tương tác sinh học tại bề mặt vật liệu, các phương pháp đánh giá tính tương thích sinh học, nguyên lý của hệ thống phân phối thuốc và các cơ sở khoa học trong thiết kế, chế tạo vật liệu sinh học mới phục vụ các ứng dụng y sinh",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Phân tích các khái niệm cơ bản, đặc tính, yêu cầu, phương pháp đặc trưng và các ứng dụng của vật liệu sinh học trong lĩnh vực y sinh."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Giải thích các cơ chế và hiện tượng liên quan đến sự hấp phụ protein, sự bám dính của tế bào, tính tương thích với máu và quá trình giải phóng thuốc từ vật liệu sinh học."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá sự phù hợp của các kỹ thuật đặc trưng vật liệu sinh học dựa trên yêu cầu của từng ứng dụng y sinh; đồng thời phân tích ưu điểm, hạn chế và đề xuất các hướng cải thiện tính chất của vật liệu sinh học."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình",
+      "type": "Bài tập quá trình,Giải quyết vấn đề",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Problem-Solving",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về vật liệu sinh học.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Vật liệu polymer dùng cho cấy ghép",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Vật liệu sinh học vô cơ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Vật liệu nano trong ứng dụng y sinh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hydrogels",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,156 @@
+{
+  "info": {
+    "sylid": 119678,
+    "subjectCode": "800054",
+    "syllabusName": "Kết cấu thép (Steel Design/Steel Structural Design)",
+    "syllabusEnglish": "Steel Design/Steel Structural Design",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu cho sinh viên những nguyên lý cơ bản về việc đọc hiểu các bản vẽ kết cấu thép, cao độ và các mặt cắt hình chiếu.\n\nTrình bày tính chất cơ-lý và ứng xử của vật liệu thép dưới tác dụng của tải trọng.\n\nPhân loại các loại thép trong xây dựng, xác định tải trọng tính toán để thiết kế.\n\nThiết kế và kiểm tra liên kết bulông và liên kết hàn.\n\nThiết kế và kiểm tra kết cấu dầm, cột và hệ dàn thép.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên những kiến thức tổng quát về kết cấu thép trong ngành xây dựng bao gồm:\n• Tính chất - ứng xử của vật liệu thép.\n• Phân loại các loại thép xây dựng.\n• Các loại liên kết trong kết cấu thép.\n• Thiết kế một số cấu kiện cơ bản: dầm, cột, dàn… "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Tra cứu tài liệu, tiêu chuẩn thiết kế hiện hành, tính toán thiết kế - kiểm tra cấu kiện chịu lực bằng thép. Sinh viên biết cách tư duy phân tích và áp dụng, liên hệ giữa lý thuyết và thực hành tính toán trong ngành xây dựng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu chung kết cấu thép",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Giới thiệu và các định nghĩa cơ bản về thiết kế liên kết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các liên kết đơn giản dầm-dầm và dầm-cột",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Giới thiệu các liên kết bulông chịu momen dùng mặt bích, liên kết nối dầm và nối cột",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thiết kế dầm chịu uốn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Điều kiện ổn định của dầm thép",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Ứng xử của các cấu kiện chịu nén",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Giới thiệu và thiết kế cột trong các kết cấu đơn giản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Các phương pháp đơn giản và chính xác hơn cho việc tính toán các cấu kiện với  tải trọng dọc trục và momen uốn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Giới thiệu về dàn mái và nguyên tắc thiết kế cho các cấu kiện thanh dàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

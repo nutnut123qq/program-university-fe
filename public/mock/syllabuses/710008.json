@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 369229,
+    "subjectCode": "710008",
+    "syllabusName": "Tập sự nghề nghiệp (Work-Integrated Education)",
+    "syllabusEnglish": "Work-Integrated Education",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Khóa học này tạo cơ hội cho sinh viên củng cố và tích hợp kiến ​​thức thông qua đào tạo và học tập tại các tổ chức.\nTạo điều kiện cho sinh viên bước đầu áp dụng kiến ​​thức đã học tại trường vào thực tế. Phát triển khả năng tư duy phản biện và giải quyết vấn đề trong thời gian thực tập. Ngoài ra, sinh viên còn được tham gia phân tích, nghiên cứu và giải quyết các vấn đề cụ thể liên quan đến quản trị nhân sự và các lĩnh vực khác.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giúp sinh viên tiếp cận và làm quen với môi trường làm việc chuyên nghiệp cũng như cơ cấu và phong cách quản lý của các tổ chức"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Giúp học sinh thiết lập mục tiêu và đưa ra quyết định phù hợp cho sự nghiệp tương lai của mình"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tạo cơ hội cho sinh viên bước đầu vận dụng kiến ​​thức và kỹ năng đã học ở trường vào thực tế"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hoàn tất đăng ký thực tập",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chuẩn bị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực tập và viết báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hoàn thành báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Nộp báo cáo và hồ sơ thực tập",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

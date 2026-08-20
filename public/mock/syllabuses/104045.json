@@ -1,0 +1,98 @@
+{
+  "info": {
+    "sylid": 94146,
+    "subjectCode": "104045",
+    "syllabusName": "Kỹ thuật rập 3D (3D Pattern Making)",
+    "syllabusEnglish": "3D Pattern Making",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu về định nghĩa, vai trò, vị trí và các phương pháp thể hiện sản phẩm theo phương pháp rập 3D.\n\nTìm hiểu cách thực hiện  kiểu may, quy trình may và nâng cao kĩ năng.\n\nNghiên cứu và thực hiện trang phục theo phương pháp Volume đóng.\n\nNghiên cứu và thực hiện trang phục theo phương pháp Volume mở.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được vai trò và giá trị của rập 3D trong lĩnh vực thời trang "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nắm vững được các nguyên lí trong thiết kế rập 3D, các nguyên tắc tạo hình"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Áp dụng được các lí thuyết về kĩ thuật rập 3D vào quá trình chế tác sản phẩm "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá được giá trị của kĩ thuật rập 3D và giá trị của sản phẩm được trau chuốt về kĩ thuật"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Sáng tạo ra được các sản phẩm có tính thẩm mỹ cao, có sự hoàn thiện về kĩ thuật đáp ứng được nhu cầu của thị trường"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu tổng quan về draping(rập 3D)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Volume đóng ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Volume mở",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

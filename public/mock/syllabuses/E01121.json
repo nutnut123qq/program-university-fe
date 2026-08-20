@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 104089,
+    "subjectCode": "E01121",
+    "syllabusName": "Nghiệp vụ thực hành thuế (Tax Practice)",
+    "syllabusEnglish": "Tax Practice",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho người học kiến thức về hoạt động quản lý thuế của\r\nnhà nước và hướng dẫn sử dụng các công cụ, phương thức để các cá nhân, tổ chức có nghĩa\r\nvụ thuế thực hiện đăng ký, kê khai, nộp thuế và thực hiện các thủ tục về thuế.\r\nNgười học thực hành đăng ký, kê khai, nộp thuế, thực hiện thủ tục thuế đối với lệ phí môn bài và một số sắc thuế cơ bản: Thuế xuất khẩu, nhập khẩu, thuế tiêu thụ đặc biệt, thuế\r\nGTGT, thuế TNCN, thuế TNDN, thuế nhà thầu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học có kiến thức mới nhất về các luật thuế và các ứng dụng hỗ trợ trong công tác đăng ký, kê khai, nộp thuế. \nGiúp sinh viên nắm bắt được các kiến thức mới nhất về các luật thuế và các ứng dụng hỗ trợ trong công tác đăng ký, kê khai, nộp thuế… \nThực hiện được nghiệp vụ khai báo thuế cho doanh nghiệp liên quan đến thuế thu nhập cá nhân, thuế thu nhập doanh nghiệp và thuế giá trị gia tăng…\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": " Xác định được chủ thể thực hiện, cơ quan quản lý thuế, thành phần hồ sơ, kê khai hồ sơ, quy trình thực hiện đăng ký, kê khai, nộp, quyết toán, hoàn thuế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học có tư duy logic trước các tình huống thuế và giải quyết các tình huống đó phù hợp với quy định của pháp luật. Vận dụng tốt các kiến thức pháp lý về thuế để bảo vệ quyền và lợi ích của người nộp thuế và/hoặc thực hiện đúng trách nhiệm của cơ quan thuế.\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học chủ động trong việc tìm kiếm thông tin, dữ liệu, hỗ trợ pháp lý trong việc giải quyết, vận dụng pháp luật vào thực tiễn. Tăng cường khả năng đánh giá, lập luận và giải thích pháp luật."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Trắc nghiệm,Giải quyết vấn đề",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Multiple Choice Questions,Problem-Solving",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Giải quyết vấn đề",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Problem-Solving",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Giải quyết vấn đề",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Problem-Solving",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TỔNG QUAN VỀ QUẢN LÝ THUẾ VÀ THỰC HIỆN NGHĨA VỤ THUẾ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "TỔNG QUAN VỀ CƠ CHẾ ĐĂNG KÝ, KÊ KHAI, NỘP THUẾ ĐIỆN TỬ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "THỰC HÀNH KÊ KHAI, NỘP LỆ PHÍ MÔN BÀI VÀ MỘT SỐ SẮC THUẾ CƠ BẢN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

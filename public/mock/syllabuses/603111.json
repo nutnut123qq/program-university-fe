@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 109721,
+    "subjectCode": "603111",
+    "syllabusName": "Thí nghiệm công nghệ sinh học thực vật (Plant Biotechnology Laboratory)",
+    "syllabusEnglish": "Plant Biotechnology Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Các kiến thức cơ bản về cây trồng và vai trò của CNSH trong việc phát triển và nhân giống cây trồng, kiến thức cơ bản về gene và biểu hiện gene ở thực vật.\n\nCác kỹ thuật cơ bản trong nuôi cấy mô thực vật.\n\nCác kỹ thuật cơ bản trong xác định bệnh trên cây trồng bằng kỹ thuật sinh học phân tử.\n\nTách chiết hợp chất thứ cấp từ cây dược liệu\n\nCác ứng dụng cụ thể trong CNSH và sinh học phân tử thực vật.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Về kiến thức: Sinh viên được trang bị các kiến thức về ứng dụng Công nghệ sinh học (CNSH) lên đối tượng cây trồng bao gồm các kỹ thuật nuôi cấy mô và chuyển gene cây trồng cũng như các ứng dụng trên thực tế và được thương mại hóa để thúc đẩy phát triển kinh tế, xã hội; thông qua đó nắm bắt được các xu hướng phát triển của ngành CNSH và sinh học phân tử thực vật."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Về kỹ năng: Thông qua việc thảo luận và trao đổi với các chuyên gia trong ngành và làm báo cáo nhóm, sinh viên rèn luyện được các kỹ năng giao tiếp, trao đổi thông tin, làm việc nhóm, tìm hiểu thông tin, tìm kiếm tài liệu, tổng hợp tài liệu và phân tích các dữ liệu khoa học."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Về tư duy: Hiểu được phương pháp các tiếp cận nghiên cứu một vấn đề khoa học. Có được tư duy suy nghĩ độc lập và tư duy khoa học (critical thinking), giải quyết vấn đề."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sau khi học xong, sinh viên có hiểu biết và cái nhìn thực tế về CNSH thực vật, cách thức quản lý và vận hành quy trình nghiên cứu và sản xuất, từ đó đáp ứng được yêu cầu công việc sau này cũng như hiểu được các giá trị mà ngành CNSH thực vật đem đến."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chuẩn bị môi trường và dụng cụ nuôi cấy mô thực vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nuôi cấy mô sẹo cà rốt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nuôi cấy phôi in vitro họ citrus",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phát hiện bệnh cây trồng bằng kỹ thuật PCR",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tách chiết curcumin từ củ nghệ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

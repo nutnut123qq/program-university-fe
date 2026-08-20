@@ -1,0 +1,146 @@
+{
+  "info": {
+    "sylid": 203471,
+    "subjectCode": "402070",
+    "syllabusName": "Xử lý số tín hiệu (Digital Signal Processing)",
+    "syllabusEnglish": "Digital Signal Processing",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu về xử lý số tín hiệu và hệ thống tuyến tính:\n\nMôn học cung cấp kiến thức lấy mẫu, lượng tử hóa, các phép biến đổi z, Fourier và các phương pháp thiết kế bộ lọc số. Cụ thể gồm các nội dung sau:\n\nCác mô hình và phương pháp biểu diễn, phân tích tín hiệu và hệ thống rời rạc. \n\nTích chập: dùng hàm xung để biểu diễn tín hiệu rời rạc, diễn tả tích chập dùng chồng chập tuyến tính.\n\nPhân tích Fourier: chuỗi Fourier cho tín hiệu liên tục, biến đổi Fourier liên tục, phân tích Fourier rời rạc, biến đổi Fourier nhanh (FFT).\n\nBiến đổi z: định nghĩa và tính chất của biến đổi z, hàm truyền.\n\nLấy mẫu tín hiệu: quá trình lấy mẫu, nguyên lý biến đổi tương tự - số và số - tương tự, ADC và DAC trong hệ thống.\n\nThiết kế bộ lọc FIR: phương pháp cửa sổ, tuyến tính pha, phương pháp lấy mẫu tần số, lọc ngược và khôi phục tín hiệu.\n\nThiết kế bộ lọc IIR: biến đổi z song tuyến tính, bộ lọc Butterworth và Chebyshev.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu rõ các nguyên lý cơ bản của xử lý số tín hiệu: lấy mẫu, biến đổi Fourier, biến đổi Z, các mô hình và phương pháp biểu diễn các hệ thống rời rạc; biết cách vận dụng các lý thuyết trên để phân tích tín hiệu và hệ thống tuyến tính rời rạc."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng vận dụng biến đổi Z và biến đổi Fourier để phân tích hệ thống tuyến tính bất biến (LTI)."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng áp dụng các kiến thức đã học để thiết kế bộ lọc IIR và FIR, phân tích và giải quyết các bài toán thực tế về xử lý số tín hiệu, nâng cấp, cải tiến hệ thống xử lý số tín hiệu hiện có."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tín hiệu và hệ thống rời rạc thời gian",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Biến đổi z",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lấy mẫu tín hiệu liên tục",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phân tích hệ thống tuyến tính bất biến theo thời gian",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Cấu trúc hệ thống rời rạc thời gian",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thiết kế bộ lọc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Biến đổi Fourier rời rạc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Tính toán DFT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

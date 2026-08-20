@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 950108,
+    "subjectCode": "100076",
+    "syllabusName": "Hình họa 3 (Drawing 3)",
+    "syllabusEnglish": "Drawing 3",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Hình họa 3 là môn học mang tính chất nghiên cứu phân tích đối tượng qua các bài tập nên phần lí thuyết được trình bày ở đầu mỗi chương và lồng ghép các phần bài tập.\n\nLý thuyết: \n\nPhương pháp kí họa nắm bắt dáng.\n\nHướng dẫn cách sử dụng các chất liệu\n\nCác thủ pháp quy hình.\n\nThực hành:\n\nCác bước nghiên cứu đối tượng.\n\nCác bài tập ứng dụng.\n\nRèn luyện kỹ năng phác thảo.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học hiểu và nhận thức được kỹ thuật thể hiện bút kim và màu nước."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích được các hệ thống cấu trúc hình khối, sự vật và con người: bố cục, ánh sáng, đậm nhạt, không gian, màu sắc"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng các hình – mảng, màu sắc sự vật trong không gian vào các đồ án thiết kế"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Khả năng phát hiện, tìm thấy yếu tố biểu cảm trong cấu trúc, hình khối của sự vật thiên nhiên vào hoạt động sáng tạo nghề nghiệp"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": " BỐ CỤC TĨNH VẬT ĐEN TRẮNG VÀ MÀU",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": " KÝ HOẠ NGOẠI CẢNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "ỨNG DỤNG CHUYÊN NGÀNH – XÂY DỰNG NHÂN VẬT TRONG ĐỒ HOẠ MÌNH HOẠ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,51 @@
+{
+  "info": {
+    "sylid": 612795,
+    "subjectCode": "709CM6",
+    "syllabusName": "Kỹ năng thực hành chuyên môn (Qualification Exam)",
+    "syllabusEnglish": "Qualification Exam",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "This course is a capstone competency-based assessment designed to evaluate students’ practical readiness for entering the supply chain and logistics industry. It simulates real-world operational problem-solving under time-constrained conditions, focusing on the integration and application of core SCM knowledge acquired throughout the undergraduate program.\nDuring a 120-minute written examination, students are required to analyze business scenarios, interpret data, identify process issues, propose solutions, and demonstrate reflective thinking and professional communication. The course emphasizes the ability to make decisions under practical constraints using concepts from logistics, procurement, operations, transportation, and performance evaluation.\n\nThis assessment is aligned with the program learning outcomes (PLOs) and serves as a final checkpoint to ensure that graduates possess the essential professional competencies, analytical thinking, and communication skills expected by the industry.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Students can apply SCM concepts to understand and interpret real-world operational processes."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Students can assess performance using KPIs and detect problems in supply chain operations."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Students can suggest data-informed and feasible solutions to improve supply chain performance."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [],
+  "materials": []
+}

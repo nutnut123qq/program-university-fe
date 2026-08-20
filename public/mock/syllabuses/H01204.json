@@ -1,0 +1,114 @@
+{
+  "info": {
+    "sylid": 944274,
+    "subjectCode": "H01204",
+    "syllabusName": "Kỹ thuật tổng hợp các hoạt chất có hoạt tính sinh học (Synthesis and Characterization of Potential Biologically Active Compounds)",
+    "syllabusEnglish": "Synthesis and Characterization of Potential Biologically Active Compounds",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học trang bị cho người học các kiến thức, kỹ năng cơ bản về quá trình nghiên cứu các hợp chất có hoạt tính sinh học như là: hiểu về quá trình tổng hợp hữu cơ ngược (retrosynthesis) để xây dựng được các cấu trúc, khung sườn có hoạt tính sinh học, ứng dụng phương pháp phổ nghiệm hiện đại NMR để xác định cấu trúc chính xác các hợp chất hữu cơ; hiểu về cách tổng hợp các hợp chất có hoạt tính sinh học có tâm phi đối xứng; sử dụng phương pháp in silico để thiết kế thuốc; ứng dụng được các thử nghiệm hoạt tính sinh học để vận dụng lựa chọn loại thử nghiệm phù hợp nhất.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu biết cách tái tổng hợp một số khung sườn hữu cơ từ các synthon (Retrosynthetic analysis)"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng được kỹ thuật phổ NMR để làm xác định cấu trúc hóa học của một số hợp chất hữu cơ có hoạt tính sinh học"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "\r\nPhân tích được cách tổng hợp phi đối xứng của một số hợp chất hữu cơ có hoạt tính sinh học\r\n\r\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "\r\nTrình bày được cách sử dụng in silico để nghiên cứu cấu trúc phân tử có hoạt tính sinh học trong việc khám phá thuốc\r\n\r\n"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Vận dụng được một số các thử nghiệm hoạt tính sinh học để sàng lọc các hợp chất có hoạt tính"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Ứng dụng được kỹ thuật phổ NMR để làm xác định cấu trúc hóa học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổng hợp phi đối xứng các hợp chất hoạt tính sinh học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nghiên cứu in silico",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thử nghiệm hoạt tính sinh học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": " Chương 1: Phân tích tái tổng hợp (Retrosynthetic analysis)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

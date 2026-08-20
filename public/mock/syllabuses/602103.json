@@ -1,0 +1,76 @@
+{
+  "info": {
+    "sylid": 334908,
+    "subjectCode": "602103",
+    "syllabusName": "Chuyên đề nghiên cứu trong Kỹ thuật hóa học (Research Project in Chemical Engineering)",
+    "syllabusEnglish": "Research Project in Chemical Engineering",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "Chuyên đề nghiên cứu giúp sinh viên vận dụng kiến thức và kỹ năng đã học vào thực tế. Có 2 lựa chọn cho sinh viên trong thực hiện chuyên đề nghiên cứu: thực hiện một chuyên đề nghiên cứu khoa học hoặc thiết kế và tính toán chi tiết một quy trình công nghệ sản xuất.\n\n- Đối với chuyên đề nghiên cứu khoa học: sinh viên cần thực hiện một nghiên cứu khoa học liên quan đến chuyên ngành được đào tạo, bao gồm: nhận diện vấn đề cần giải quyết, so sánh các nghiên cứu đã thực hiện liên quan đến chuyên đề nghiên cứu, lập kế hoạch nghiên cứu và tối ưu các thông số cần khảo sát, tiến hành thực nghiệm và đánh giá kết quả.\n\n- Đối với chuyên đề thiết kế quy trình công nghệ sản xuất: sinh viên xây dựng quy trình công nghệ để sản xuất một sản phẩm cụ thể liên quan đến chuyên ngành đã học, thực hiện tính toán chi tiết công thức phối liệu và nguyên vật liệu sản xuất; tính toán lựa chọn máy móc, thiết bị sản xuất, trong đó kèm theo bản vẽ cấu tạo và nguyên lý hoạt động của các máy móc thiết bị chính; thiết lập bản vẽ mặt bằng xây dựng và bố trí máy móc thiết bị; đánh giá hiệu quả kinh tế của dự án.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Sinh viên có khả năng thực hiện chuyên sâu một phần của dự án nghiên cứu khoa học, biết cách lập kế hoạch nghiên cứu, thu thập, xử lý và đánh giá kết quả. \nSinh viên còn có khả năng thiết lập và tính toán tính khả thi của một quy trình công nghệ để sản xuất một sản phẩm cụ thể liên quan đến chuyên ngành đào tạo."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Sinh viên biết phân tích những mặt hạn chế của các nghiên cứu đã thực hiện liên quan đến đề tài và tìm cách cải thiện, biết cách so sánh và đánh giá các quy trình công nghệ sản xuất đang được áp dụng, biết viết báo cáo khoa học và trình bày một bản vẽ kỹ thuật, tăng cường kỹ năng trình bày và bảo vệ kết quả trước hội đồng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Học cách giải quyết vấn đề trên cơ sở tư duy khoa học, hiểu được tầm quan trọng của quá trình tự học và rèn luyện."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đề cương và thực hiện chuyên đề nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nội dung trình bày chuyên đề nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Bảo vệ chuyên đề nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

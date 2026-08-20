@@ -1,0 +1,80 @@
+{
+  "info": {
+    "sylid": 181305,
+    "subjectCode": "H01202",
+    "syllabusName": "Bệnh học cơ sở (Fundamentals of Pathology)",
+    "syllabusEnglish": "Fundamentals of Pathology",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Bệnh cơ sở gồm các chương:\n\n- Chương 1: Các bệnh nhiễm trùng\n\n- Chương 2: Các bệnh tim mạch và bệnh thận\n\n- Chương 3: Các bệnh nội tiết",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trình bày được định nghĩa bệnh, bệnh nguyên, cơ chế bệnh sinh, các triệu chứng lâm sàng – cận lâm sàng, biến chứng, chẩn đoán, phương pháp phòng ngừa và điều trị các bệnh tim mạch, thận, nội tiết, bệnh nhiễm và bệnh ung thư. Từ đó có thể phân tích và đưa ra cách xử lý các tình huống bệnh học lâm sàng tương ứng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nhận thức được vai trò quan trọng của nhân viên y tế trong việc chăm sóc sức khỏe cho người dân."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các bệnh nhiễm trùng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các bệnh tim mạch và bệnh thận",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các bệnh nội tiết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

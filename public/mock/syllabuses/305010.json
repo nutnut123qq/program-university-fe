@@ -1,0 +1,132 @@
+{
+  "info": {
+    "sylid": 489688,
+    "subjectCode": "305010",
+    "syllabusName": "Công nghệ thông tin trong du lịch (Information technology in tourism)",
+    "syllabusEnglish": "Information technology in tourism",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Làm thế nào để áp dụng công nghệ thông tin\nvào du lịch và khách sạn\n- Hiểu được các hệ thống thông tin hỗ trợ\nphân đoạn khác nhau trong ngành công nghiệp du lịch và khách sạn\n- Kỹ năng thực hành máy tính, thiết bị di\nđộng để quản lý kinh doanh\n- Làm quen các thuật ngữ công nghệ thông tin\n- Thiết kế và quản lý trang web thương mại\nđiện tử",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Xác định được các ứng dụng công nghệ thông tin cơ bản trong môi trường kinh doanh du lịch"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Trình bày được cách thức xây dựng, quản trị các nền tảng kinh doanh du lịch trực tuyến "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Lập kế hoạch triển khai áp dụng công nghệ thông tin để nâng cao hiệu quả vận hành kinh doanh du lịch"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phân tích được các điều kiện bên trong - ngoài doanh nghiệp nhằm đề xuất các chiến lược áp dụng công nghệ thông tin hiệu quả"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Đánh giá và điều chỉnh liên tục chiến lược áp dụng công nghệ thông tin nhằm tối ưu hóa hoạt động kinh doanh du lịch"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về Du lịch và Công nghệ thông tin",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tìm kiếm và đặt chỗ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Sự dịch chuyển trong du lịch và IT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Công nghệ thông tin trong lĩnh vực khách sạn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Quản lý điểm đến và IT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Các vấn đề liên quan và xu hướng trong tương lai",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

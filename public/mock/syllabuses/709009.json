@@ -1,0 +1,134 @@
+{
+  "info": {
+    "sylid": 933115,
+    "subjectCode": "709009",
+    "syllabusName": "Quản lý vận tải và phân phối (Transportation and Distribution Management)",
+    "syllabusEnglish": "Transportation and Distribution Management",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "This course provides a comprehensive exploration of transportation and distribution as core components of modern supply chain management. It introduces students to logistics fundamentals, including its strategic importance to global trade, economic development, and enterprise competitiveness. Through six modules, students will gain both theoretical knowledge and practical insights into managing freight systems, warehouse operations, and distribution channels in a dynamic global context.\n\nThe curriculum begins with foundational logistics and supply chain concepts, emphasizing the evolution of supply chain management, the economic role of transportation, and the global trade environment. It continues with strategic logistics decisions, including in-house operations versus outsourcing to 3PLs and 4PLs, cost management, and collaboration with logistics partners.\n\nSubsequent modules delve into modal management (road, rail, air, and sea transport), distribution planning, warehousing technology, packaging, and inventory strategies. Students will also explore key international practices, such as Incoterms®, customs procedures, documentation, and trade facilitation.\n\nIn the final chapters, the course addresses emerging technologies (electric vehicles, blockchain, automation), transportation cost modeling, risk management, sustainability, and government roles in transportation. Case studies, data analysis, and real-world scenarios will be integrated throughout to strengthen application skills.\n\nBy the end of this course, students will be equipped with the competencies to assess, design, and optimize transportation and distribution strategies in both domestic and international supply chains.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Integrate advanced technological tools (e.g., IoT, Blockchain, AI, Big Data analytics) to optimise multimodal transportation networks and distribution channels in alignment with global supply chain best practices."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Develop sustainable supply chain strategies incorporating demand forecasting, operational planning, and risk mitigation, while ensuring compliance with international environmental standards and regulatory frameworks."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Design innovative and integrated logistics solutions to address complex global distribution challenges, focusing on resilience, agility, and end-to-end visibility."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Apply data-driven decision-making approaches to enhance transportation efficiency, reduce costs, and improve service quality across domestic and international logistics operations."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Process evaluation 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Mid-term test",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Final examination",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chapter 1: Introduction to Logistics, Supply Chain, Transportation, and Distribution",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Transportation Modes and Operations Management",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Warehousing, Inventory Management, and Customer Requirements in Distribution",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Costs, Pricing, and Performance in Transportation and Distribution",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "International Trade, Customs Formalities, and Global Distribution Management",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Technology and Systems for Transportation and Distribution",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Transportation Risk Management and Emerging Challenges in Global Supply Chains",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

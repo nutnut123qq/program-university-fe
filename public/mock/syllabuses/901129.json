@@ -1,0 +1,130 @@
+{
+  "info": {
+    "sylid": 386886,
+    "subjectCode": "901129",
+    "syllabusName": "Kỹ thuật xử lý ô nhiễm môi trường đất (Soil pollution treatment engineering)",
+    "syllabusEnglish": "Soil pollution treatment engineering",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- \nMôn học cung cấp cho sinh viên kiến thức cơ bản về cấu trúc địa chất, sinh thái môi trường đất.\n- Các tác nhân gây ô nhiễm đất, quá trình tự làm sạch của môi trường đất và giới hạn của nó. Đánh giá mức độ ô nhiễm đất.\n- Kỹ thuật ngăn ngừa, phòng trừ, loại bỏ chất ô nhiễm trong lòng đất và đất bề mặt bằng phương pháp lý học, hóa học, sinh học, sử dụng thực vật xử lý chất ô nhiễm. \n- Các phương pháp kiểm soát ô nhiễm đất.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức về môi trường đất, những hiện tượng suy thoái, ô nhiễm đất ảnh hưởng đến xã hội "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng phân tích nguyên nhân gây ô nhiễm và hệ quả. Đề xuất biện pháp cải thiện dựa vào công nghệ để cải tạo đất bị ô nhiễm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "vận dụng các văn bản luật phù hợp với từng trường hợp cụ thể trong xử lý ô nhiễm đất\r\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thuyết trình",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đại cương về địa chất và sự hình thành môi trường đất ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thành phần cấu trúc sinh thái môi trường Đất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chu trình vật chất và chuyển hoá trong môi trường đất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thoái hoá và ô nhiễm đất ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Ô nhiễm đất và các rủi ro từ ô nhiễm đất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Phòng ngừa và xử lý ô nhiễm đất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

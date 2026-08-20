@@ -1,0 +1,140 @@
+{
+  "info": {
+    "sylid": 830504,
+    "subjectCode": "40313060",
+    "syllabusName": "Hệ thống điều khiển phi tuyến và thích nghi (Nonlinear and Adaptive Control)",
+    "syllabusEnglish": "Nonlinear and Adaptive Control",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Khóa học này cung cấp các công cụ thiết kế điều khiển nâng cao cho các hệ thống phi tuyến tính với độ không đảm bảo tham số. Nội dung môn học bao gồm: khái niệm và tiêu chuẩn ổn định cho hệ phi tuyến; các phương pháp tuyến tính hóa phản hồi và backstepping cho thiết kế điều khiển dựa trên mô hình; phép chiếu và thuật toán bình phương nhỏ nhất cho thiết kế công cụ ước lượng tham số; kỹ thuật hoán đổi cho thiết kế điều khiển thích ứng kiểu mô-đun; và các ứng dụng để điều khiển thiết kế động cơ cảm ứng và cánh tay robot.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Các khái niệm và tiêu chí về ổn định Lyapunov, ổn định tiệm cận và ổn định đầu vào trạng thái; thiết kế điều khiển lùi; phép chiếu và định danh tham số bình phương nhỏ nhất; kỹ thuật hoán đổi cho thiết kế điều khiển thích ứng kiểu mô-đun; và điều khiển thích ứng của động cơ cảm ứng và cánh tay robot"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích độ ổn định và thiết kế điều khiển của các hệ thống phi tuyến tính, thiết kế các bộ ước lượng tham số và điều khiển thích nghi mô đun của các hệ thống phi tuyến tính không chắc chắn"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Rõ ràng trong vật lý, toán học, đơn giản trong thiết kế, hiệu quả trong mô phỏng và thực hành"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tự tin vận dụng kiến ​​thức môn học vào xử lý các hệ thống thực tế cụ thể."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Động lực học hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phân tích ổn định",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế bộ điều khiển phi tuyến",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thiết kế bộ điều khiển phi tuyến cho động cơ không đồng bộ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thiết kế bộ điều khiển phi tuyến cho cánh tay robot",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Ước lượng tham số hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Lý thuyết về điều khiển thích ứng mô-đun",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Điều khiển thích nghi động cơ không đồng bộ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Điều khiển thích nghi cánh tay robot",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

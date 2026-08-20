@@ -1,0 +1,82 @@
+{
+  "info": {
+    "sylid": 549934,
+    "subjectCode": "40211760",
+    "syllabusName": "Chuyên đề nghiên cứu về truyền thông (Advanced Topics in Communications)",
+    "syllabusEnglish": "Advanced Topics in Communications",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần này đưa vào chương trình thạc sĩ như là môn học tự chọn trong những lĩnh vực sau: hội tụ hệ thống, những giao thức phân phối nội dung và đa phương tiện, tín hiệu băng rộng và những tiêu chuẩn tín hiệu IP mới, những ứng dụng và hệ thống di động, những chuyên đề viễn thông khác.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Đánh giá hệ thống truyền thông kỹ thuật số (ADC) tiên tiến (tốc độ dữ liệu, băng thông, yêu cầu năng lượng, xác suất lỗi, độ phức tạp triển khai); hiểu các tính chất vật lý của các kênh truyền thông có dây và không dây và các kỹ thuật mã hóa cho các kênh truyền thông."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học có thể chứng minh các tính năng quan trọng của ADC hiện tại và thiết kế ADC với các thông số và mã cần thiết cho ADC."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đề xuất được các ý tưởng mới để cải thiện các phương pháp truyền thông hiện nay; điều chỉnh, tối ưu các hệ thống truyền thông dựa trên phân tích logic; đánh giá và tìm ra điểm yếu của các giải pháp hiện có dựa trên tư duy phản biện."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học nhiệt tình và chủ động trong việc học các khái niệm mới và áp dụng kiến ​​thức từ khóa học để giải quyết các vấn đề tồn tại trong truyền thông kỹ thuật số tiên tiến; có động cơ tự học tốt để nâng cao kiến ​​thức và kỹ năng về truyền thông số tiên tiến."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

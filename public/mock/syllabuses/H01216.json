@@ -1,0 +1,80 @@
+{
+  "info": {
+    "sylid": 728291,
+    "subjectCode": "H01216",
+    "syllabusName": "Thí nghiệm Dược liệu 1 (Pharmacognosy Laboratory)",
+    "syllabusEnglish": "Pharmacognosy Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Kiểm nghiệm dược liệu bằng phương pháp vi học\nKiểm nghiệm độ tinh khiết của dược liệu\nKiểm nghiệm định tính và định lượng các nhóm hợp chất\nCarbohydrat\nSaponin\nGlycoside tim\nFlavonoid\nSaponin\nAnthraglycosid\nCoumarin\nTannin",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết cách kiểm nghiệm dược liệu bằng phương pháp vi học."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết cách kiểm nghiệm độ tinh khiết của dược liệu."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Biết cách kiểm nghiệm một số nhóm hợp chất trong dược liệu."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Biết cách đánh giá chất lượng của dược liệu và cách sử dụng dược liệu chất lượng, tránh giả mạo."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Phát triển kỹ năng tự học, tìm kiếm tài liệu về các dược liệu trong nghiên cứu và chiết xuất các hợp chất tự nhiên."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Kiểm tra năng lực",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Performance Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Kiểm nghiệm dược liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kiểm tra cuối kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

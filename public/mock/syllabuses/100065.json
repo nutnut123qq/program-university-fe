@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 747156,
+    "subjectCode": "100065",
+    "syllabusName": "Thiết kế nhận diện sự kiện (Event Identity Design)",
+    "syllabusEnglish": "Event Identity Design",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Thiết kế sự kiện giới thiệu đến sinh viên kiến thức về phát triển concept cho sự kiện dựa trên yêu cầu của khách hàng, thiết kế nhận diện cho sự kiện qua các ấn phẩm: poster, thư mời, quà tặng… Quản lý tính thống nhất của các thiết kế trong sự kiện.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu về kiến thức nền tảng để tạo concept cho thiết kế nhận diện sự kiện."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng để nghiên cứu và phát triển concept cho sự kiện dựa trên yêu cầu của khách hàng, tạo sự thống nhất về mặt hình ảnh, nhận diện cho từng sự kiện khác nhau."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá được các công đoạn thiết kế cho sự kiện, hệ thống nhận diện, và bám sát concept mình đã tạo ra."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sáng tạo ra được bộ nhận diện sự kiện theo nhiều chủ đề thuộc các lĩnh vực khác nhau."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "GIỚI THIỆU VỀ THIẾT KẾ NHẬN DIỆN SỰ KIỆN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "NGHIÊN CỨU VÀ HÌNH THÀNH CONCEPT ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "THỰC HÀNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

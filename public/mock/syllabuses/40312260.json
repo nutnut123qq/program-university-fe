@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 670829,
+    "subjectCode": "40312260",
+    "syllabusName": "Điều khiển hệ đa biến (Multivariable Control)",
+    "syllabusEnglish": "Multivariable Control",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học bao gồm các kiến thức về lý thuyết điều khiển hệ thống đa biến như biểu diễn hệ thống đa biến, tính ổn định và chất lượng của hệ thống điều khiển, điều khiển LQG và nắn độ lợi vòng, thông số \nYoula và điều khiển \nH∞, điều khiển mô hình nội\n.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Lý thuyết và phương pháp điều khiển đa biến tuyến tính và phi tuyến, phân tích và thiết kế các bộ điều khiển đa biến cho hệ thống thực."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thiết kế các thuật toán điều khiển đa biến để nhúng vào các hệ thống điều khiển thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích các ngõ vào, ngõ ra của các hệ nhiều ngõ vào nhiều ngõ ra, thiết kế thuật toán và lựa chọn thông số cho các bộ điều khiển đa biến."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có hứng thú tìm hiểu, hình dung ứng dụng các thuật toán điều khiển đa biến trong thực tế; Nhìn thấy các ưu điểm của bộ điều khiển đa biến; Người học có khả năng mở rộng lời giải trong các bài toán thực tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Biểu diễn hệ thống đa biến",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Ổn định và chất lượng của hệ thống điều khiển",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Điều khiển LQG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thông số Youla và điều khiển H∞",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Điều khiển mô hình nội",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

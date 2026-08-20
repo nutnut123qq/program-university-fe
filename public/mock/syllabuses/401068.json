@@ -1,0 +1,138 @@
+{
+  "info": {
+    "sylid": 603368,
+    "subjectCode": "401068",
+    "syllabusName": "Cung cấp điện (Electrical Supply)",
+    "syllabusEnglish": "Electrical Supply",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này cung cấp các kiến thức về hệ thống cung cấp điện, bao gồm: hệ thống cung cấp điện, tính toán phụ tải, trạm điện, ngắn mạch, chọn dây cáp điện tương ứng tiêu chuẩn TCVN và IEC, tính toán và chọn các thiết bị bảo vệ trong hệ thống điện hạ áp, tính toán hệ số công suất, tụ điện, sóng hài và chất lượng điện năng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết các thành phần và chức năng cơ bản trong hệ thống điện. Nhận biết được các thông số cơ bản của thiết bị, dây dẫn, khí cụ điện và các sơ đồ trong hệ thống điện hạ thế."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng các hệ số hiệu chỉnh để chọn dây điện và khí cụ điện, phân loại được các khí cụ điện. Tính toán các thông số điện của dây dẫn, cáp điện, khí cụ điện. Đánh giá được sự phù hợp của các loại dây cáp trong hệ thống điện hạ thế. Vận dụng lựa chọn khí cụ phù hợp với sơ đồ hệ thống điện hạ thế phù hợp. Phân tích các vấn đề sự cố điện và đưa ra phương án lựa chọn các khí cụ điện bảo vệ phù hợp. Đánh giá và so sánh tính hiệu quả giữa các phương án bảo vệ.\nÁp dụng kỹ năng mềm để giao tiếp và làm việc nhóm hiệu quả, đồng thời quản lý thời gian và tài nguyên hợp lý.\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về hệ thống cung cấp điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Xác định phụ tải điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Trạm biến áp trung/hạ áp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Lựa chọn sơ đồ cấp điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Chọn dây dẫn điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Tính toán dòng ngắn mạch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Lựa chọn khí cụ đóng cắt bảo vệ hạ áp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Chống sét",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Cải thiện hệ số công suất và lọc sóng hài",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

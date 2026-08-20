@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 32645,
+    "subjectCode": "801042",
+    "syllabusName": "Thí nghiệm xây dựng A (Civil Engineering Laboratory A)",
+    "syllabusEnglish": "Civil Engineering Laboratory A",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Thực hành thí nghiệm xác định độ ẩm, Thực hành thí nghiệm các chỉ tiêu cơ lý vật liệu đá dăm, cát.\n\nThực hành thí nghiệm thời gian đông kết của xi măng, thiết kế tính toán thành phần cấp phối Bê tông xi măng.\n\nThực hành thí nghiệm các chỉ tiêu cơ bản của gạch rỗng đất sét nung.\n\nThực hành thí nghiệm cơ bản của dòng chảy qua ống, vòi, lỗ.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giúp sinh viên hiểu và biết cách thực hiện các thí nghiệm thủy lực đại cương, các thí nghiệm cơ bản xác định các chỉ tiêu cơ lý của đất cũng như vật liệu xây dựng. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên biết cách tính toán, xử lý các số liệu thí nghiệm, đánh giá kết quả thu được từ thí nghiệm"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên biết chủ động trong việc tìm tòi học hỏi, nghiên cứu tài liệu."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thí nghiệm xác định độ ẩm của đất và vật liệu xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thí nghiệm xác định thời gian đông kết của vữa xi măng ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thí nghiệm xác định các chỉ tiêu cơ bản của gạch rỗng đất sét nung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thí nghiệm xác định các trạng thái chảy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thí nghiệm xác định năng lượng và tổn thất năng lượng của dòng chảy trong ống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thí nghiệm khảo sát dòng chảy qua vòi và lỗ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

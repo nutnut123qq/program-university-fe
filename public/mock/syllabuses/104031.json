@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 692200,
+    "subjectCode": "104031",
+    "syllabusName": "Kỹ thuật cắt may 1 (Techniques of Tailoring 1)",
+    "syllabusEnglish": "Techniques of Tailoring 1",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu các thuật ngữ của kĩ thuật may, các phương pháp thể hiện chi tiết sản phẩm may.\n\nTìm hiểu các kiểu may cơ bản và nâng cao.\n\nNghiên cứu và thực hiện các kiểu đường may, đường viền chi tiết.\n\nNghiên cứu và thực hiện các dạng bâu áo cơ bản.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu  được vai trò của kĩ thuật đối với người làm nghề thiết kế thời trang. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng được các phương pháp kĩ thuật vào quy trình thực hiện các sản phẩm. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tìm ra được các phương án kĩ thuật phù hợp với các loại hình trang phục trong quy trình thiết kế."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sáng tạo được các sản phẩm thời trang có giá trị thẩm mỹ, giá trị kinh tế, đáp ứng nhu cầu thực tế của xã hội đương đại."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Dụng cụ và thiết bị cắt may",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các mũi may và đường may cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "May các chi tiết của sản phẩm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

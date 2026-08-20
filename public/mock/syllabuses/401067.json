@@ -1,0 +1,104 @@
+{
+  "info": {
+    "sylid": 150798,
+    "subjectCode": "401067",
+    "syllabusName": "Quá trình quá độ điện từ (Electromagnetic Transient Process)",
+    "syllabusEnglish": "Electromagnetic Transient Process",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này giới thiệu các thuật ngữ, định nghĩa và các loại ngắn mạch quan trọng nhất. Nó sẽ bao gồm các vấn đề sau: tính toán ngắn mạch (đối xứng và không đối xứng) trong hệ thống điện, tính toán dòng điện ngắn mạch tại máy phát, máy biến áp truyền tải và máy biến áp phân phối, động cơ, đường truyền và đường dây phân phối.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu các khái niệm, nguyên nhân và ảnh hưởng của ngắn mạch. Biết được ngắn mạch đối xứng, các ngắn mạch bất đối xứng và các phương pháp tính ngắn mạch."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Giải quyết được các bài toán ngắn mạch; Sử dụng phần mềm để phân tích và tính ngắn mạch trong hệ thống điện"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Lựa chọn các thiết bị điện và cài đặt các role trong hệ thống điện. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các định nghĩa và thành phần dòng ngắn mạch trong hệ thống.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổng trở của thiết bị và Thiết lập sơ đồ tính toán ngắn mạch hệ thống điện.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Ngắn mạch trong mạng trung và cao áp ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Ngắn mạch trong mạng hạ áp và các trường hợp riêng ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

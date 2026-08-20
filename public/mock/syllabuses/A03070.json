@@ -1,0 +1,168 @@
+{
+  "info": {
+    "sylid": 742339,
+    "subjectCode": "A03070",
+    "syllabusName": "Giải quyết tranh chấp lao động (Workplace Dispute Resolution)",
+    "syllabusEnglish": "Workplace Dispute Resolution",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung của môn học cung cấp cho sinh viên những khái niệm và nguyên tắc chung để giải quyết tranh chấp lao động gồm tổng quan về tranh chấp, nguyên nhân của tranh chấp lao động, sự phát triển về giải quyết tranh chấp lao động, lựa chọn phương pháp giải quyết tranh chấp lao động. Các kỹ năng và quá trình thực hiện các phương pháp thương lượng, hòa giải và trọng tài để giải quyết tranh chấp lao động, những quy định của luật lao động của nước ta về giải quyết tranh chấp lao động.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên hiểu được những nội dung của giải quyết tranh chấp lao động tại nơi làm việc gồm: nguyên nhân, các phương pháp giải quyết, lựa chọn phương pháp giải quyết, quá trình thương lượng, hòa giải, các kĩ năng cần thiết, những quy định của pháp luật về giải quyết tranh chấp lao động."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên cần có tư duy tuân thủ các nguyên tắc cơ bản của giải quyết tranh chấp lao động, các nguyên tắc thực hiện các phương pháp thương lượng, hòa giải, trọng tài để giải quyết tranh chấp lao động, các quy định của pháp luật về giải quyết tranh chấp lao động cá nhân và tập thể.  "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên hình thành thái độ nghiên cứu, phân tích và thực hiện giải quyết tranh chấp lao động dựa trên ứng dụng các nguyên tắc, quy trình của thương lượng, hòa giải, trọng tài, các quy định của pháp luật về giải quyết tranh chấp lao động cá nhân và tập thể.  "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên có thể ứng dụng các phương pháp giải quyết tranh chấp lao động được cung cấp để xác định nguyên nhân tranh chấp lao động, lựa chọn phương pháp giải quyết tranh chấp lao động phù hợp. Tổ chức thực hiện các phương pháp giải quyết tranh chấp lao động thương lượng, hòa giải và trọng tài đạt hiệu quả. Tổ chức giải quyết tranh chấp lao động cá nhân và tranh chấp lao động tập thể theo quy định của pháp luật."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "2",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về giải quyết tranh chấp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổng quan về thương lượng và xung đột",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các hình thức thương lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Quá trình thương lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hòa giải tranh chấp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Quá trình hòa giải",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Đại diện các khách hàng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Tổng quan về Trọng tài",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Các thỏa thuận trọng tài, thủ tục và phán quyết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Quy định của pháp luật nước ta về tranh chấp lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

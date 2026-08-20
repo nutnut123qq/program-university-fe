@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 461928,
+    "subjectCode": "H02021",
+    "syllabusName": "Khoa học thần kinh (Neuroscience)",
+    "syllabusEnglish": "Neuroscience",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Khoa học thần kinh trang bị\r\ncho người học kiến thức về cấu trúc và chức năng của toàn bộ hệ thần kinh, đặc\r\ntính điện của từng tế bào thần kinh, quá trình giao tiếp giữa các tế bào thần\r\nkinh, các cơ sở thần kinh cảm giác và nhận thức, và mối quan hệ giữa não bộ và\r\nhành vi của con người. Môn học này gồm 6 chương:\n\nChương 1: Khoa học thần kinh tế bào\r\nvà phân tử\n\nChương 2: Phát triển hệ thần kinh\n\nChương 3: Hệ thống cảm giác\n\nChương 4: Hệ thống vận động\n\nChương 5: Hệ thống điều tiết\n\nChương 6: Khoa học thần kinh hành\r\nvi và nhận thức",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trình bày được các khái niệm và đặc điểm của khoa học thần kinh tế bào và phân tử, cơ chế của quá trình phát triển hệ thần kinh"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Trình bày được các khái niệm cơ sở và các vùng não điều khiển hệ thống cảm giác, vận động và điều tiết "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích được mối quan hệ giữa cấu trúc, chức năng của não với hành vi và nhận thức của con người"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Vận dụng được kiến thức đã học để tiếp tục cập nhật kiến thức chuyên môn trong lĩnh vực khoa học thần kinh"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Phát triển hệ thần kinh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hệ thống cảm giác",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hệ thống vận động ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hệ thống điều tiết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Khoa học thần kinh hành vi và nhận thức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Khoa học thần kinh tế bào và phân tử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

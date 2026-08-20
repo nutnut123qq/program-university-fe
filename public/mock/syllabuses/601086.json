@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 566243,
+    "subjectCode": "601086",
+    "syllabusName": "Thí nghiệm vật lý (Physical Laboratory)",
+    "syllabusEnglish": "Physical Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giúp cho sinh viên hiểu và ứng dụng kiến thức cơ bản đã được học trong phần vật lý nhằm chuẩn bị theo học các học phần nâng cao khác. Mặt khác, môn học còn giúp cho sinh viên nắm được kỹ năng đo đạc, xử lý số liệu một số đại lượng vật lý thông thường.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và áp dụng (understand and apply) các kiến thức cơ bản của vật lý"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu và áp dụng (understand and apply) cách thu thập, phân tích, tính toán và xử lý số liệu"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng (apply) vận dụng những kiến thức vật lý trong các vấn đề chuyên môn"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Kỹ năng tự học, kỹ năng làm việc nhóm"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Lý thuyết: Đo lường và sai số ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thí nghiệm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

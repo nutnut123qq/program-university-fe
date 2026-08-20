@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 359844,
+    "subjectCode": "E01032",
+    "syllabusName": "Luật đất đai (Land Law)",
+    "syllabusEnglish": "Land Law",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này sẽ cung cấp cho sinh viên các khái niệm, các nguyên tắc cơ bản, các ấn đề về sở hữu đất đai, các nội dung liên quan đến điều phối đất đai, quản lý thông tin dữ liệu tài chính về đất đai, quyền và nghĩa vụ của người sử dụng đất, các hoạt động đảm bảo chấp hành pháp luật đất đai, quy trình thủ tục đăng ký đất đai và các kỹ năng thực hiện các thủ tục pháp lý đất đai trên thực tế.\nXây dựng phương pháp tư duy cho sinh viên về mặt khoa học cho những nội dung kiến thức đã truyền đạt nêu trên để từ đó sinh viên tự nghiên cứu, đánh giá, phê bình về các quy định của pháp luật hiện hành so với những kiến thức khoa học đã lĩnh hội được. Người học tự so sánh, nhận xét về những đặc thù trong những kiến thức chung đó với các thủ tục pháp lý khác. \nSo sánh và đánh giá tính hợp lý của các quy định về thủ tục đất đai.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học có những kiến thức chung về Luật Đất đai. Có được kiến thức lý luận về các vấn đề của Luật đất đai và các trình tự thủ tục đất đai phổ biến trên thực tế. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học có các kỹ năng ứng dụng trong thực tiễn về các thủ tục đất đai"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học có tư duy độc lập, tư duy phân tích luật, xây dựng kỹ năng ban đầu trong việc áp dụng pháp luật đất đai vào thực tiễn"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học sẽ có ý thức về tuân thủ pháp luật về đất đai, nhận thức được tấm quan trọng của việc quản lý đất đai trong nhà nước ta."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "NHỮNG VẤN ĐỀ CHUNG VỀ LUẬT ĐẤT ĐAI",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": " GIẢI QUYẾT TRANH CHẤP ĐẤT ĐAI",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

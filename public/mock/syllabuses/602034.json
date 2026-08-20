@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 762092,
+    "subjectCode": "602034",
+    "syllabusName": "Quá trình và thiết bị cơ học (Mechanical Processes and Devices)",
+    "syllabusEnglish": "Mechanical Processes and Devices",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Các tính chất cơ bản của lưu chất\nTĩnh lực học chất lỏng và ứng dụng\nĐộng lực học chất lỏng và ứng dụng\nPhương pháp đồng dạng trong thủy lực \nTrở lực trong ống dẫn chất lỏng\nNguyên lý hoạt động và cấu tạo và các thông số đặc trưng của các thiết bị vận chuyển lưu chất.\nLựa chọn và tính toán hệ thống vận chuyển lưu chất\nKhái quát hệ thống giả lỏng và vận chuyển vật liệu rời bằng khí nén.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên các kiến thức cơ bản về cơ học lưu chất (chất lỏng, chất khí) và vật liệu rời, các phương pháp và thiết bị vận chuyển lưu chất, các phương pháp và thiết bị gia công vật liệu rời trong công nghiệp hoá học và thực phẩm"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu và áp dụng được các quy luật về cơ học lưu chất và cơ học vật liệu rời khi tham gia tính toán, thiết kế, lắp đặt và vận hành các hệ thống thiết bị công nghệ liên quan đến lưu chất và vật liệu rời trong công nghiệp cũng như trong đời sống dân dụng"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nắm bắt được các nguyên lý chung của các quá trình cơ học, từ đó vận dụng linh hoạt và phù hợp để giải quyết các vấn đề cụ thể trong nghiên cứu khoa học cũng như trong sản xuất thực tế"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tiểu luận",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thuỷ tĩnh học ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Động lực học chất lỏng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Vận chuyển và nén lưu chất ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Khuấy trộn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Cơ học vật liệu rời ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

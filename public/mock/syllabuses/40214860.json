@@ -1,0 +1,132 @@
+{
+  "info": {
+    "sylid": 624689,
+    "subjectCode": "40214860",
+    "syllabusName": "Mạng cảm biến không dây (Wireless Sensor Network)",
+    "syllabusEnglish": "Wireless Sensor Network",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần đề cập các nguyên lý, phương pháp mô hình hóa, các giải pháp hệ thống và phương pháp phân tích hiệu suất cho việc truyền dữ liệu trong mạng cảm biến không dây. Học phần bao gồm các chủ đề sau:\n-\n\nKiến trúc mạng cảm biến không dây\n-\n\nCác kỹ thuật lớp vật lý (PHY layer)\n-\n\nThiết kế lớp MAC (MAC layer design and scheduling)\n-\n\nĐịnh tuyến, điều khiển topology\n-\n\nQuản lý chất lượng dịch vụ (QoS management)\n-\n\nĐồng bộ thời gian\n-\n\nBảo mật\n-\n\nLưu trữ,…",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sau khi hoàn thành học phần, học viên có khả năng lý giải và phân tích về các thách thức trong lĩnh vực mạng cảm biến không dây, tối ưu các giao thức trong mạng cảm biến không dây, hiểu và giải thích các chuẩn đã được thiết kế cho mạng cảm biến không dây, có kiến thức về các nghiên cứu hiện hành và hướng nghiên cứu trong tương lai của lĩnh vực mạng cảm biến không dây."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng công cụ toán học và các công cụ mô phỏng hiện đại vào việc phân tích đánh giá hiệu suất các giải pháp cho mạng cảm biến không dây."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tư duy phản biện trong các nguyên lý thiết kế và giải thuật truyền thông tin trong mạng cảm biến không dây."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Nhận biết được tầm quan trọng của mạng cảm biên không dây trong lĩnh vực công nghệ hiện đại ngày nay."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cấu trúc mạng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lớp vật lý",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Giao thức lớp MAC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Giao thức lớp liên kết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Vấn đề đồng bộ thời gian và định vị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Các giao thức định tuyến và topo mạng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Lớp truyền tải và chất lượng dịch vụ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

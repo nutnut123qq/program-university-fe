@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 903089,
+    "subjectCode": "302051",
+    "syllabusName": "Xã hội học du lịch (Sociology of Tourism)",
+    "syllabusEnglish": "Sociology of Tourism",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giới thiệu các khái niệm cơ bản về xã hội học du lịch và các phương pháp xã hội học cơ bản để nghiên cứu về du lịch. \n Cung cấp kiến thức lý thuyết, các chủ đề cơ bản của du lịch, như: du khách, mối quan hệ giữa du khách và cư dân địa phương, tác động kinh tế - xã hội, văn hoá và môi trường của du lịch.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp kiến thức về các khái niệm, ý nghĩa, các thành tố, các vấn đề nghiên cứu về du lịch và lịch sử phát triển của du lịch. Phân tích và giải thích các cách tiếp cận cơ bản về du lịch. Chỉ ra sự tác động của du lịch đối với văn hóa và lối sống, chính trị, sinh thái, kinh tế cũng như các công cụ phát triển bền vững trong du lịch."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng lý thuyết xã hội học để giải thích các vấn đề nghiên cứu về du lịch, giải thích sự tác động của du lịch đối với văn hóa và lối sống, chính trị, sinh thái, kinh tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có tư duy phân tích sự tác động của du lịch đối với văn hóa và lối sống, chính trị, sinh thái, kinh tế cũng như các công cụ phát triển bền vững trong du lịch."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có thái độ tích cực trong quá trình học tập và có quan điểm tích cực về nghề nghiệp trong tương lai; Trở thành những nhân viên ưu tú trong lĩnh vực hoạt động du lịch và kinh doanh du lịch. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Trắc nghiệm",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Lịch sử xã hội học du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Xã hội học du lịch: Tiếp cận khái niệm và những vấn đề",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "\u001dDu khách. Mối quan hệ giữa du khách và cộng đồng địa phương ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tác động của du lịch. Một số xu hướng du lịch hướng đến phát triển bền vững ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

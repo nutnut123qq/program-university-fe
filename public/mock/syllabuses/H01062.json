@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 930750,
+    "subjectCode": "H01062",
+    "syllabusName": "Quản lý tồn trữ thuốc (Pharmaceutical Good Storage Practice)",
+    "syllabusEnglish": "Pharmaceutical Good Storage Practice",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các nội dung chính sau:\n\nPhần 1: \nNhững yếu tố ảnh hưởng đến chất lượng thuốc và dụng cụ y tế.\n\nPhần 2: \nKỹ thuật bảo quản các dạng thuốc và dụng cụ y tế thông dụng\n.\n\nPhần 3: Các quy định về quản lý, tồn trữ và phân phối thuốc",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "- Kiến thức: trình bày được những yếu tố ảnh hưởng đến chất lượng thuốc và dụng cụ y tế; và cách bảo quản cụ thể cho từng nhóm thuốc và dụng cụ y tế cơ bản."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "- Kỹ năng tác: người học phải có kỹ năng ghi nhớ, ghi chép và hệ thống hóa kiến thức."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "- Yêu cầu về tư duy: biết liên hệ kiến thức với thực tế cơ sở làm việc trong việc bảo quản thuốc và dụng cụ y tế, biết suy luận logic."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: người họ cần nắm rõ tầm quan trọng của công tác bảo quản trang thiết bị y tế và thuốc trong hành nghề dược, từ đó nâng cao ý thức và chuyên môn trong công việc."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "80%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đại cương về bảo quản thuốc và dụng cụ y tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Những yếu tố ảnh hưởng đến chất lượng thuốc và dụng cụ y tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kỹ thuật bảo quản thuốc, hóa chất, dược liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kỹ thuật bảo quản dụng cụ thủy tinh; kim loại và Kỹ thuật bảo quản dụng cụ cao su, chất dẻo; bông, băng, gạc, chỉ khâu phẫu thuật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thực hiện tốt bảo quản và thực hiện tốt phân phối thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

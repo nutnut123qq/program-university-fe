@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 737674,
+    "subjectCode": "H01212",
+    "syllabusName": "Thí nghiệm sinh học đại cương (Practice of General Biology)",
+    "syllabusEnglish": "Practice of General Biology",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các phần:\nSinh học tế bào\nSử dụng thành thạo kính hiển vi;\nLàm tiêu bản và quan sát tế bào Eukaryote và Prokaryote;\nQuan sát, định tính thành phần hữu cơ của tế bào\nQuan sát các giai đoạn phân chia tế bào thông qua nhuộm mẫu tế bào; quan  sát  sự  vận  chuyển  nước  qua  màng  tế  bào.\nSinh học phân tử\nCác dụng cụ và thiết bị cơ bản trong sinh học phân tử\nCác thao tác cơ bản trong sinh học phân tử\nTách chiết và định lượng DNA và  RNA",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp kiến thức cơ bản, thực tế về sinh học tế bào, sinh học phân tử, tổng quát về thực hành các kỹ thuật cơ bản trong sinh học. Bước đầu tiếp nhận kiến thức của các môn học tiếp theo."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nắm vững những kỹ năng, thao tác cơ bản trong thí nghiệm sinh học tế bào, sinh học phân tử, giúp người học liên hệ thực tế với kiến thức."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Kiểm tra năng lực",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Performance Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Một số thiết bị cơ bản và thao tác trong sinh học phân tử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kính hiển vi quang học và cách sử dụng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quan sát tế bào Eukaryote và Prokaryote",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Quá trình nguyên phân",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thành phần hữu cơ của tế bào",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Sự vận chuyển nước qua màng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Tách chiết DNA từ tế bào động vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Tách chiết RNA toàn phần của vi khuẩn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Đánh giá quá trình thực tập của sinh viên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

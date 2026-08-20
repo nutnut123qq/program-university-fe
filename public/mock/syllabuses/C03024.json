@@ -1,0 +1,104 @@
+{
+  "info": {
+    "sylid": 616429,
+    "subjectCode": "C03024",
+    "syllabusName": "Giải tích thực (Real Analysis)",
+    "syllabusEnglish": "Real Analysis",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Không gian \n.\n\nKhông gian Sobolev W^{1,p}.\n\nBài toán biến phân.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "\tKiến thức: Môn học cung cấp những kiến thức về các không gian hàm L^p, và không gian Sobolev W^(1,p), là nền tảng cho các môn học hoặc các hướng nghiên cứu chuyên sâu của giải tích nói chung. Mục đích chính của môn học là nghiên cứu các lớp hàm có thể không liên tục hoặc không có đạo hàm theo nghĩa thông thường. Ngoài ra môn học cũng đưa ra ứng dụng của các không gian hàm này trong việc nghiên cứu các bài toán biến phân."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nắm được các kiến thức của giải tích hiện đại. Vận dụng kiến thức trên để khảo sát các bài toán biến phân trong các phương trình vật lý toán. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "\tYêu cầu về tư duy: Nắm vững lý thuyết toán căn bản, có tư duy lô-gic, có khả năng vận dụng kiến thức Toán học phục vụ cho chuyên ngành đang theo học, hoặc những ngành nghề có sử dụng công cụ toán như trong kinh tế hoặc kĩ thuật."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "\tThái độ và hành vi: Môn học giúp sinh viên có hiểu biết sâu thêm về các không gian hàm, cụ thể lớp các hàm chỉ có đạo hàm yếu. Nhận biết được vai trò của Toán ứng dụng trong nhiều lĩnh vực khoa học và đời sống. Từ đó hình thành nên sự yêu thích khoa học, có thái độ nghiêm túc, tích cực trong học tập."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "L^p Spaces.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Sobolev space. ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

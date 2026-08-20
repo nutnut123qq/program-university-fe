@@ -1,0 +1,122 @@
+{
+  "info": {
+    "sylid": 371578,
+    "subjectCode": "40213060",
+    "syllabusName": "Mạng truyền thông băng rộng (Broadband Communication Networks)",
+    "syllabusEnglish": "Broadband Communication Networks",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này khảo sát các vấn đề khó khăn trong việc thiết kế mạng vô tuyến băng rộng ở lớp liên kết dữ liệu (Data Link Control - DLC) và lớp vật lý (PHY. Các giải pháp đề xuất đã được chuẩn hóa trong các tiêu chuẩn hiện hành được giới thiệu như các ví dụ để minh họa cũng như để phân tích những hạn chế của các giải pháp này.\nMôn học có thể dùng như phần giới thiệu cơ bản về các chuẩn truyền thông băng rộng và giải thích các mục tiêu mà các tiêu chuẩn này cố gắng đạt được cũng như các kỹ thuật truyền thông vô tuyến được dùng trong các chuẩn này để thực hiện các mục tiêu đó. Do đó, môn học này không chỉ trả lời câu hỏi các kỹ thuật nào được sử dụng cho các chuẩn truyền thông vô tuyến băng rộng mà quan trọng hơn, nó trả lời câu hỏi tại sao các kỹ thuật đó lại được chọn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức về những khó khăn gặp phải trong mạng vô tuyến băng rộng: nhiễu fading, giao thoa, vấn đề đầu cuối ẩn và hiện, khả năng thiếu cơ chế điều khiển tập trung, yêu cầu hiệu suất sử dụng phổ cao và các yêu cầu về QoS.\r\nCác kiến thức về kỹ thuật thích ứng kênh truyền, giao thức ARQ and HARQ; lớp MAC trong chuẩn 802.11 và 802.11e; giao thức CSMA/CA; các nodes ẩn và hiện, RTS/CTS; chuẩn QoS thấp trong 802.11 và cải tiến trong chuẩn 802.11e. TSPEC; lớp vật lý trong chuẩn 802.11a/b/g; chuẩn Bluetooth lớp MAC và lớp vật lý; chuẩn WiMax lớp MAC và lớp vật lý và hỗ trợ DOCSIS; kết nối mạng đơn tần và khả năng nối mạng dạng lưới (mesh)."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học có khả năng minh họa các đặc tính quan trọng của các chuẩn vô tuyến băng rộng hiện hành."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học biết cách phân tích những nhược điểm của các mô hình vô tuyến băng rộng thực tế và gợi ý giải pháp để cải tiến những nhược điểm đó."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có khả năng vận dụng kiến thức đã học để giải quyết các vấn đề thực tế trong hệ thống thông tin vô tuyến băng rộng."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Người học có tinh thần tích cực tìm hiểu và vận dụng kiến thức môn học để giải quyết các vấn đề còn tồn tại trong thông tin vô tuyến băng rộng; có tinh thần cầu tiến, tự học hỏi để nâng cao kiến thức về mạng vô tuyến băng rộng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về mạng băng rộng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các vấn đề của mạng không dây băng rộng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "802.11 a/b/g",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Bluetooth",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": " WiMax",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": " Hỗ trợ chuẩn DOCSIS",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

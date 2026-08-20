@@ -1,0 +1,144 @@
+{
+  "info": {
+    "sylid": 507471,
+    "subjectCode": "201052",
+    "syllabusName": "Kế toán ngân hàng (Banking Accounting)",
+    "syllabusEnglish": "Banking Accounting",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này nhằm cung cấp cho người học những kiến thức chính về cách thức xử lý kế toán đối với các hoạt động phát sinh trong ngân hàng như: Hoạt động huy động vốn, hoạt động tín dụng và kinh doanh chứng khoán, hoạt động thanh toán qua ngân hàng và thanh toán giữa các ngân hàng với nhau. Ngoài ra, môn học này còn cung cấp cho người học những kiến thức để xử lý kế toán đối với các đối tượng là: tài sản cố định, công cụ dụng cụ trong ngân hàng cũng như kết quả hoạt động kinh doanh từ các mảng hoạt động khác nhau trong ngân hàng.\n\nỨng dụng lý thuyết vào các bài tập tình huống liên quan đến các phần hành kế toán tại ngân hàng.\n\nTrả lời câu hỏi trắc nghiệm và câu hỏi nhanh về nội dung đã học.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các lĩnh vực kinh doanh tại ngân hàng, nắm bắt được các nguyên tắc hạch toán cơ bản, hiểu được các loại chứng từ, biết ghi nhận nghiệp vụ kinh tế phát sinh."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết thực hiện các công việc liên quan đến kế toán nội bộ, biết thực hiện các công việc của vị trí kế toán nội bộ."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nắm bắt được khái quát về quy trình các hoạt động kinh doanhcơ bản tại ngân hàng, biết phân biệt sự khác nhau giữa kế toán trong doanh nghiệp và kế toán trong ngân hàng."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Nhận thức được vai trò và tầm quan trọng của người làm kế toán trong ngân hàng, nâng cao ý thức làm việc, luôn có trách nhiệm và thái độ khách quan, liêm khiết trong công việc được giao."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những vấn đề cơ bản của kế toán ngân hàng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kế toán nghiệp vụ huy động vốn.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kế toán nghiệp vụ tín dụng, đầu tư và kinh doanh chứng khoán",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kế toán nghiệp vụ thanh toán không dùng tiền mặt và thanh toán vốn giữa các ngân hàng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kế toán TSCĐ và CCDC trong ngân hàng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Kế toán các nghiệp vụ thanh toán quốc tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Kế toán thu nhập, chi phí và kết quả kinh doanh của ngân hàng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

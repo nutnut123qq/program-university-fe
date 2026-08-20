@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 410801,
+    "subjectCode": "302016",
+    "syllabusName": "Xã hội học nông thôn (Rural Sociology)",
+    "syllabusEnglish": "Rural Sociology",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cơ sở lý luận và phương pháp luận trong nghiên cứu các vấn đề xã hội nông thôn Việt Nam hiện đại. Ngoài ra, môn học cũng giới thiệu các chiến lược phát triển nông thôn ở các quốc gia trên thế giới và ở Việt Nam. Các nội dung chính bao gốm:\n\n- Đối tượng, phương pháp nghiên cứu của xã hội học nông thôn\n\n- Lịch sử, hệ thống xã hội nông thôn\n\n- Các vấn đề và sự biến đổi xã hội nông thôn\n\n- Chiến lược phát triển nông thôn",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên hiểu được các khái niệm và cách cách tiếp cận cơ bản trong xã hội học nông thôn"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên biết sử dụng kiến thức xã hội học nông thôn vào việc phân tích các vấn đề nông thôn ở Việt Nam và thế giới hiện nay"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên được cung cấp các kỹ thuật nghiên cứu và thực hành nghiên cứu các hiện tượng nông thôn hiện nay"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "DẪN NHẬP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "PHƯƠNG PHÁP LUẬN TRONG  NGHIÊN CỨU XÃ HỘI HỌC NÔNG THÔN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "LỊCH SỬ PHÁT TRIỂN CỦA  XÃ HỘI NÔNG THÔN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "HỆ THỐNG XÃ HỘI NÔNG THÔN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "VẤN ĐỀ XÃ HỘI NÔNG THÔN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "BIẾN ĐỔI XÃ HỘI NÔNG THÔN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "CHIẾN LƯỢC PHÁT TRIỂN NÔNG THÔN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

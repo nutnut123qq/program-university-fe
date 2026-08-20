@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 632083,
+    "subjectCode": "303118",
+    "syllabusName": "Văn hóa ẩm thực (Culinary Culture)",
+    "syllabusEnglish": "Culinary Culture",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp những hiểu biết cơ bản về Văn hoá ẩm thực Việt Nam và so sánh với các nước khác; nắm vững các cơ cấu và tính chất bữa ăn, không gian, thời gian, phong cách ăn uống truyền thống của người Việt Nam; xu thế biến đổi văn hoá ẩm thực của người Việt Nam trong thời kỳ hội nhập và phát triển.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên nắm được những kiến thức cơ bản về văn hoá ẩm thực nói chung, những đặc điểm trong văn hoá ẩm thực của Việt Nam và một số quốc gia trên Thế giới."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân biệt được tập quán và khẩu vị ăn uống của một số khu vực và một số quốc gia tiêu biểu. Vận dụng thành thạo, chuẩn xác những kiến thức đã học vào trong thực tế phục vụ khách."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích, tổng hợp được các kiến thức về văn hóa ẩm thực Việt Nam và các nước.\nPhân tích được những yếu tố ảnh hưởng đến tập quán và khẩu vị ăn uống trong văn hóa ẩm thực\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tôn trọng sự khác biệt văn hoá, tiếp nhận một cách có chọn lọc các giá trị ẩm thực, bổ sung kiến thức môn Lịch sử văn minh Thế giới và nghiệp vụ nhà hàng – khách sạn trong việc phục vụ du khách và thuyết minh về văn hóa ẩm thực. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những vấn đề chung về văn hóa ẩm thực",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tập quán và khẩu vị ăn uống của khu vực Châu Á",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tập quán và khẩu vị ăn uống của khu vực Âu – Mỹ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tập quán và khẩu vị ăn uống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

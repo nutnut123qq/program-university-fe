@@ -1,0 +1,66 @@
+{
+  "info": {
+    "sylid": 805270,
+    "subjectCode": "802124",
+    "syllabusName": "Thực tập 1 (Practice 1)",
+    "syllabusEnglish": "Practice 1",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên được giới thiệu đến các công ty tư vấn\r\nthiết kế hay các công ty xây dựng cầu hoặc đường để thực tập làm cán bộ kỹ\r\nthuật, qua đó nắm được công tác tổ chức của đơn vị sản xuất; trình tự, nội dung\r\nhồ sơ thiết kế kỹ thuật, hồ sơ thiết kế kỹ thuật bản vẽ thi công, hồ sơ hoàn\r\ncông công trình cầu hay đường. Tham gia chỉ đạo kỹ thuật thi công ngay tại hiện\r\ntrường. Thu thập số liệu thực tế để chuẩn bị làm đồ án tốt nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên biết được công tác tổ chức của công trường/nhà máy"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên nắm vững và hiểu rõ trình tự và nội dung hồ sơ thiết kế kỹ thuật"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên nắm vững và hiểu rõ trình tự và hồ sơ thiết kế kỹ thuật bản vẽ thi công"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên nắm vững và hiểu rõ nội dung hồ sơ hoàn công của một công trình cầu hay đường"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nội dung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,86 @@
+{
+  "info": {
+    "sylid": 24240,
+    "subjectCode": "H01191",
+    "syllabusName": "Thí nghiệm Vi sinh (Microbiology Laboratory)",
+    "syllabusEnglish": "Microbiology Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các phần:\n•\n\nKỹ thuật cấy và phân lập vi khuẩn\n•\n\nKỹ thuật nhuộm và định danh vi khuẩn\n•\n\nKiểm nghiệm độ vô trùng dược phẩm\n•\n\nThử nghiệm kháng sinh đồ",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp các kiến thức về các phương pháp nuôi cấy, quan sát, phân lập vi khuẩn, định danh vi khuẩn gây bệnh. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hướng dẫn thao tác nuôi cấy, phân lập, định danh vi khuẩn, kiểm tra độ vô trùng của chế phẩm, kiểm tra mẫu bệnh phẩm, các thử nghiệm kháng sinh đồ."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Kiểm tra năng lực",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Performance Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chuẩn bị môi trường nuôi cấy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Quan sát vi khuẩn gây bệnh thường gặp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Định danh vi khuẩn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kiểm tra giới hạn nhiễm khuẩn mẫu dược phẩm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thi kiểm tra đánh giá môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

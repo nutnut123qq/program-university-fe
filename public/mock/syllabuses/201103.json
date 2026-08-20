@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 929615,
+    "subjectCode": "201103",
+    "syllabusName": "Kế toán quản trị 1 (Managerial Accounting 1)",
+    "syllabusEnglish": "Managerial Accounting 1",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung môn học bao gồm 05 chương như sau:\n\nChương 1: Tổng quan kế toán chi phí\n\nChương 2: Phân loại chi phí và giá thành\n\nChương 3: Kế toán chi phí sản xuất và tính giá thành sản phẩm theo công việc\n\nChương 4: Kế toán chi phí sản xuất và tính giá thành sản phẩm theo quá trình\n\nChương 5: Kế toán chi phí định mức",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giới thiệu, cung cấp cho sinh viên các khái niệm, mục đích, bản chất kế toán giá thành và các kiến thức cần thiết trong việc tổ chức hệ thống kế toán chi phí sản xuất và giá thành sản phẩm trong doanh nghiệp theo các mô hình nhằm phục vụ chức năng quản lý, ra quyết định, lập kế hoạch và kiểm soát chi phí của nhà quản lý."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên hiểu rõ quy trình tổ chức hệ thống kế toán chi phí sản xuất và tính giá thành sản phẩm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên hiểu được mối liên hệ giữa kế toán tài chính và kế toán quản trị; nắm được phương pháp suy luận phân tích những nghiệp vụ kinh tế phát sinh và xác định giá thành phù hợp với điều kiện của doanh nghiệp, từ đó áp dụng được những kiến thức kế toán đã học vào vận dụng trong nghề nghiệp tương lai."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên được rèn luyện tính cẩn thận, sự thận trọng trong xử lý số liệu kế toán, tạo lập tinh thần yêu nghề và nhận thức đúng đắn về vai trò của kế toán trong doanh nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan kế toán chi phí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phân loại chi phí và giá thành",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kế toán chi phí sản xuất và tính giá thành sản phẩm theo công việc (Job costing)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kế toán chi phí sản xuất và tính giá thành sản phẩm theo quá trình (Process costing)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kế toán chi phí định mức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

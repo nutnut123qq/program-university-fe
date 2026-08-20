@@ -1,0 +1,106 @@
+{
+  "info": {
+    "sylid": 322713,
+    "subjectCode": "103049",
+    "syllabusName": "Thiết kế chiếu sáng (Lighting Design)",
+    "syllabusEnglish": "Lighting Design",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Môn học này giới thiệu về nguyên lý và nguyên tắc chiếu sáng cho không gian nội thất, các khía cạnh thẩm mỹ, tâm lý, và chức năng của ánh sáng sẽ được giải quyết một cách hiệu quả bằng những nguyên lý đó.\r\n\n- Tìm hiểu các nguyên tắc của thiết kế chiếu sáng bao gồm cả tiêu chuẩn thông tin thực tế về đèn, đồ đạc, tính toán, bố trí, và làm thế nào để sử dụng chúng trong thiết kế nội thất.\r\n\n- Quá trình phản biện và kiểm tra ý tưởng thiết kế chiếu sáng sẽ được tiến hành để chọn lọc những ý tưởng thiết kế chiếu sáng phù hợp nhất.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và có thể ghi nhận lại các quy trình thiết kế một cách cụ thể. Tổng quan về ánh sáng, lịch sử phát triển ứng dụng ánh sáng trong nội thất, tính khoa học và những lý thuyết tiêu biểu về ánh sáng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu về từng loại hình ánh sáng trong không gian nội thất, ghi nhớ các quy trình thiết kế vào đồ án môn học hoặc dự án thiết kế riêng của từng cá nhân"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu và biết rõ kỹ thuật công nghệ và kỹ thuật ứng dụng ánh sáng, ứng dụng ý tưởng và tính sáng tạo, đổi mới vào phát triển một sản phẩm cụ thể"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tư duy phân tích và tổng hợp về phạm trù về thẩm mỹ trong ánh sáng, các giá trị và thành quả của toàn bộ quy trình thiết kế trong bối cảnh kinh tế, thị trường"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Ý thức được vai trò của nhà thiết kế trong việc sáng tạo ra những sản phẩm, công trình nội thất có công năng và thẩm mỹ phục vụ cho những nhu cầu của xã hội"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng Quan Về Môn Học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết Kế Chiếu Sáng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết Kế Chiếu Sáng Cho Không Gian Nhà Ở",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Bài Tập Ứng Dụng Kết Thúc Môn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

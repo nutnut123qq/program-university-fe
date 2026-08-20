@@ -1,0 +1,216 @@
+{
+  "info": {
+    "sylid": 1651,
+    "subjectCode": "706132",
+    "syllabusName": "Quản lý Dịch vụ Logistics (Logistics Service Management)",
+    "syllabusEnglish": "Logistics Service Management",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học  \nQu\nả\nn lý dịch vụ \n logistics \nlà h\nọ\nc ph\nầ\nn b\nắ\nt bu\nộ\nc nh\nằm đào tạ\no các nhà qu\nả\nn tr\nị \nkinh doanh gi\nỏi trong cơ chế \nth\nị trườ\nng. H\nọ\nc ph\nần đượ\nc thi\nế\nt k\nế \nnh\nằ\nm cung c\nấ\np cho sinh viên nh\nữ\nng ki\nế\nn th\nức cơ bả\nn v\nề\n:\n-  Logistics và qu\nả\nn tr\nị \nlogistics trong n\nề\nn kinh t\nế \nth\nị trườ\nng;\n-  Qu\nả\nn tr\nị \ncác ho\nạt độ\nng và d\nị\nch v\nụ logistics cơ bả\nn: d\nị\nch v\nụ \nkhách hàng và quy trình cung \nứ\nng hàng hóa, qu\nả\nn tr\nị \nd\nự \ntr\nữ \nvà mua hàng; qu\nả\nn tr\nị \nv\nậ\nn chuy\nể\nn hàng hóa; qu\nả\nn tr\nị kho hàng, bao gói và logistics ngượ\nc;\n-  L\nậ\np k\nế \nho\nạ\nch, t\nổ \nch\nứ\nc th\nự\nc hi\nệ\nn và ki\nể\nm soát quá trình ho\nạt độ\nng logistics nói chung; c\nủ\na các lo\nạ\ni hình doanh nghi\nệ\np s\nả\nn xu\nất và thương mạ\ni nói riêng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Làm rõ vai trò và tầm quản trọng của logistics và quản trị dịch vụ logistics trong nền kinh tế thị trường. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Trang bị cho người học kiến thức và kỹ năng về  Quản trị các hoạt động và dịch vụ logistics: dịch vụ khách hàng và quy trình cung ứng hàng hóa, quản trị dự trữ và mua hàng; quản trị vận chuyển hàng hóa; quản trị kho hàng, bao gói và logistics ngược;"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Lập kế hoạch, tổ chức thực hiện và kiểm soát quá trình hoạt động logistics nói chung; của các loại hình doanh nghiệp sản xuất và thương mại nói riêng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Final examination",
+      "type": "Tự luận",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Process evaluation 1",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Mid-term test",
+      "type": "Thuyết trình",
+      "part": "3",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "AN OVERVIEW OF LOGISTICS",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "LOGISTICS AND INFORMATION TECHNOLOGY",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "DEMAND MANAGEMENT, ORDER MANAGEMENT, AND CUSTOMER SERVICE",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "PRACTICE DEMAND MANAGEMENT, ORDER MANAGEMENT, AND CUSTOMER SERVICE (con’t)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "FACILITY LOCATION",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "PRACTICE FACILITY LOCATION (con't)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "INVENTORY MANAGEMENT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "PRACTIVE INVENTORY MANAGEMENT (con’t)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "WAREHOUSE MANAGEMENT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "PRACTICE WAREHOUSE MANAGEMENT (con’t)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "PACKAGING AND MATERIALS HANDLING",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 12,
+      "sessionNo": "12",
+      "topic": "PRACTICE PACKAGING AND MATERIALS HANDLING (con’t)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 13,
+      "sessionNo": "13",
+      "topic": "TRANSPORTATION",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 14,
+      "sessionNo": "14",
+      "topic": "PRACTICE TRANSPORTATION (con’t) ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 15,
+      "sessionNo": "15",
+      "topic": "PRACTICE TRANSPORTATION MANAGEMENT (con’t)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 16,
+      "sessionNo": "16",
+      "topic": "TRANSPORTATION MANAGEMENT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 17,
+      "sessionNo": "17",
+      "topic": "ORGANIZATIONAL AND MANAGERIAL ISSUES IN LOGISTICS",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 18,
+      "sessionNo": "18",
+      "topic": "PRACTICE ORGANIZATIONAL AND MANAGERIAL ISSUES IN LOGISTICS (con’t)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

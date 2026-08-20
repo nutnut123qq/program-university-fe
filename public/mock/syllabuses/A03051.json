@@ -1,0 +1,168 @@
+{
+  "info": {
+    "sylid": 607203,
+    "subjectCode": "A03051",
+    "syllabusName": "Quan hệ lao động (Employment Relations)",
+    "syllabusEnglish": "Employment Relations",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung của môn học gồm mô hình khung phân tích quan hệ lao động; sự tương tác của lao động, quản lý và chính phủ; luật và hệ thống pháp luật; vai trò của các môi trường kinh tế, công nghệ và nhân khẩu học; hệ thống quản lý lao động; quy trình và cấu trúc thương lượng; quy trình giải quyết tranh chấp, quan hệ lao động tại nơi làm việc; kết quả quan hệ lao động; áp lực toàn cầu từ các tập đoàn quốc gia, công đoàn quốc tế và các tổ chức phi chính phủ NGOs; các chiến lược và chính sách phát triển kinh tế phù hợp để xây dựng quan hệ lao động hài hòa trong môi trường làm việc toàn cầu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được mô hình khung phân tích quan hệ lao động; vai trò của áp lực toàn cầu và các yếu tố khác ảnh hưởng đến hệ thống quản lý lao động và kết quả quan hệ lao động."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích được tình hình quan hệ lao động giữa các khu vực công, tư nhân và công ty nước ngoài."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Ứng dụng thực hiện các kế hoạch quản lý quan hệ lao động, tiến hành thương lượng về các vấn đề quan hệ lao động, đặc biệt xây dựng chương trình tuyên truyền về vấn đề an toàn sức khỏe lao động để đảm bảo thực hiện các giải pháp can thiệp trong OHS tại nơi làm việc."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Giao tiếp, làm việc đội nhóm hiệu quả và có ý thức tuân thủ các nguyên tắc an toàn nghề nghiệp; có phẩm chất đạo đức tốt, hiểu biết và tuân thủ pháp luật; tôn trọng và có ý thức bảo vệ người lao động, tích cực tham gia các hoạt động vì cộng đồng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "2",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Mô hình khung phân tích quan hệ lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Sự tương tác của lao động, quản lý và chính phủ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Luật và hệ thống pháp luật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Vai trò của các môi trường kinh tế, công nghệ và nhân khẩu học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hệ thống quản lý lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Quy trình và cấu trúc thương lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Quy trình giải quyết tranh chấp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Quan hệ lao động tại nơi làm việc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Áp lực toàn cầu từ các tập đoàn quốc gia, công đoàn quốc tế và các tổ chức phi chính phủ NGOs",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Các chiến lược và chính sách phát triển kinh tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,70 @@
+{
+  "info": {
+    "sylid": 618284,
+    "subjectCode": "E01138",
+    "syllabusName": "Tập sự nghề nghiệp (Graduation Internship)",
+    "syllabusEnglish": "Graduation Internship",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên sẽ thực tập dưới sự phân công và hướng dẫn của cán bộ phụ trách trong đơn vị nhận thực tập. Ngoài thời gian thực tập như đã được phân công, sinh viên có nhiệm vụ học hỏi kinh nghiệm của cán bộ hướng dẫn, tham khảo hồ sơ chuyên ngành và viết thu hoạch báo cáo. Tất cả các sinh viên đều phải được đánh giá  bởi Hội đồng đánh giá thực tập do Khoa và nhà trường phối hợp với doanh nghiệp tổ chức.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Rèn luyện được tác phong làm việc chuyên nghiệp, biết cách tìm kiếm và tổng hợp thông tin, có kỹ năng làm việc nhóm, nâng cao năng lực làm việc độc lập. Bước đầu làm quen với thực hành nghề luật"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng vận dụng kiến thức vào thực tiễn công việc cụ thể"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhận nhiệm vụ tập sự",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực hiện nhiệm vụ tại doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Viết báo cáo tập sự nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,146 @@
+{
+  "info": {
+    "sylid": 540028,
+    "subjectCode": "40211660",
+    "syllabusName": "Chuyên đề nghiên cứu về mạng (Advanced Topics in Networking)",
+    "syllabusEnglish": "Advanced Topics in Networking",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này là khóa học nâng cao về mạng máy tính bao gồm 4 chủ đề chính hiện nay: 1) thiết kế mạng hiệu suất cáo (thuật toán, triển khai), 2) mạng trung tâm dữ liệu, 3)  mạng trung tâm thông tin và 4) phần mềm mạng. Môn họ c này mang tới kiến ​​thức cơ bản về mạng máy tính và khả năng làm việc thành thạo với Hệ điều hành Unix/Linux. Nó có thành phần thực tế với các bài tập lập trình dành cho sinh viên. Mỗi chủ đề được giới thiệu bằng ngôn ngữ rõ ràng, dễ hiểu; các ý chính được củng cố bằng các ví dụ hoạt động và các bài tập thực hành dựa trên phần mềm mô phỏng mạng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Sau khi hoàn thành học phần, học viên có khả năng lý giải và phân tích các mô hình tối ưu hiện nay trong lĩnh vực điện tử-viễn thông."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng: Áp dụng các phương pháp tối ưu vào việc tối ưu đánh giá hiệu suất các giải pháp cho mạng máy tính và điện tử - viễn thông hiện nay."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tư duy: Tư duy phản biện trong các nguyên lý thiết kế và giải thuật tối ưu cho các lĩnh vực khác nhau trong cuộc sống."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ: Nhận biết được tầm quan trọng của mạng máy tính và các thuật toán tối ưu trong lĩnh vực công nghệ hiện đại ngày nay"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Network Infrastructure Design",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Advanced Router Configuration I",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Advanced Router Configuration II",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Configuring Juniper Routers",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "CONFIGURING AND MANAGING THE NETWORK INFRASTRUCTURE",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Analyzing Network Data Traffic",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Network Security",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "IPv6",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Linux Networking",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Internet Routing",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "Voice over IP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

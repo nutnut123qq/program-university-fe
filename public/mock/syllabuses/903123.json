@@ -1,0 +1,130 @@
+{
+  "info": {
+    "sylid": 526321,
+    "subjectCode": "903123",
+    "syllabusName": "Quan trắc môi trường lao động (Monitoring of Occupational Environment)",
+    "syllabusEnglish": "Monitoring of Occupational Environment",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Đại cương về an toàn vệ sinh lao động.\n- Phương pháp, quy trình và lập kế hoạch quan trắc môi trường lao động.\n- Hệ thống tiêu chuẩn, quy chuẩn kỹ thuật về môi trường và vệ sinh lao động.\n- Kết quả quan trắc môi trường lao động và Hồ sơ vệ sinh lao động.\n- Các phương pháp đo và đánh giá môi trường lao động (vi khí hậu, điện từ trường, chiếu sáng, tiếng ồn, rung, bức xạ, bụi, yếu tố hóa học, vi sinh vật, yếu tố tâm sinh lý - écgônômi).\n- Các giải pháp kiểm soát.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Phân tích và vận dụng được luật, hệ thống văn bản dưới luật về các tiêu chuẩn vệ sinh cho phép thuộc về điều kiện môi trường lao động tại nơi làm việc để làm cơ sở đánh giá điều kiện lao động và đưa ra các yêu cầu cải thiện môi trường lao động phù hợp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng được kiến thức về quan trắc môi trường lao động trong việc thực hành kiểm tra và quản lý, kiểm soát điều kiện môi trường lao động đáp ứng theo yêu câu vệ sinh lao động tại nơi làm việc."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá được thực trạng vệ sinh lao động chung tại nơi làm việc thông qua các dữ liệu có được từ việc quan trắc môi trường lao động và từ đó đưa ra các giải pháp cải thiện từng thông số chi tiết  theo nhu cầu thực tiễn một cách hiệu quả."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đại cương về an toàn vệ sinh lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phương pháp, quy trình và lập kế hoạch quan trắc môi trường lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hệ thống tiêu chuẩn, quy chuẩn kỹ thuật về môi trường và vệ sinh lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kết quả quan trắc môi trường lao động và Hồ sơ vệ sinh lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các phương pháp đo và đánh giá môi trường lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Các giải pháp kiểm soát",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

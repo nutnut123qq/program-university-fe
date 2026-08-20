@@ -1,0 +1,150 @@
+{
+  "info": {
+    "sylid": 108989,
+    "subjectCode": "302072",
+    "syllabusName": "Môi trường và xã hội (Environment and Society)",
+    "syllabusEnglish": "Environment and Society",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Các khái niệm và nội dung cơ bản của môi trường; mối quan hệ giữa môi trường và xã hội, trong đó đề cập đến một số vấn đề cụ thể như phát triển nông nghiệp, công nghiệp hóa, đô thị hóa và môi trường, xung đột môi trường, phát triển bền vững và phát triển không bền vững.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "\tKiến thức: Mục tiêu của môn học này là xem xét các mối quan hệ phức tạp giữa các hệ thống xã hội và môi trường. Các chủ đề trong môn học bao gồm: nguồn tài nguyên thiên nhiên vàcác vấn đề liên quan đến sinh kế của người dân bản địa, các vấn đề môi trường toàn cầu (như biến đổi khí hậu, quản lý nguồn tài nguyên thiên nhiên, du lịch sinh thái, sự bất bình đẳng về môi trường đô thị, các phong trào môi trường xanh)."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "\tKĩ năng: Sinh viên được trang bị kĩ năng nhìn nhận và phân tích vấn đề một cách toàn diện về mối quan hệ giữa môi trường và các vấn đề xã hội."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "\tYêu cầu về tư duy: Dựa trên những lý thuyết và các khái niệm khác nhau trong môn học để hiểu và đánh giá các mối quan hệ trong bối cảnh của sự bền vững sinh thái. Sinh viên có khả năng tư duy các vấn đề về môi trường, tài nguyên và phân tích được sự tác động qua lại giữa môi trường với sự phát triển xã hội."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "\tThái độ và hành vi: Sinh viên có thái độ đúng đắn về các vấn đề liên quan đến môi trường và xã hội, từ đó xây dựng cách thức ứng xử hợp lý với môi trường, tài nguyên."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu môn học;  Ánh sáng  mặt trời và  những dấu chân",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đô thị hóa và môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Du lịch sinh thái và môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Nhiên liệu sinh học và môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Sinh thái học chính trị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Biến đổi khí hậu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Quản lý tài nguyên thiên nhiên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Phát triển bền vững",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Vai trò của các phong trào “xanh”",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

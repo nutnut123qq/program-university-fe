@@ -1,0 +1,104 @@
+{
+  "info": {
+    "sylid": 407728,
+    "subjectCode": "302139",
+    "syllabusName": "Văn hoá doanh nghiệp (Corporate Culture)",
+    "syllabusEnglish": "Corporate Culture",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho sinh viên kiến thức về văn hóa doanh nghiệp và tầm quan trọng của văn hóa doanh nghiệp trong quá trình hình thành và phát triển doanh nghiệp. Từ các lý thuyết liên quan đến văn hóa doanh nghiệp và những khía cạnh của văn hóa doanh nghiệp, sinh viên có thể xây dựng văn hóa doanh nghiệp hiệu quả cho doanh nghiệp trong vai trò là một thành viên hay người tư vấn của doanh nghiệp đó. Thông qua kiến thức lý thuyết kết hợp với thảo luận các bài tập tình huống, và làm các báo cáo thuyết trình nhóm, SV làm quen với văn hóa doanh nghiệp tại doanh nghiệp. \n﻿",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu đuợc khái niệm của văn hóa doanh nghiệp, các thành phần của văn hóa doanh nghiệp, vai trò của văn hóa trong tổ chức. Hiểu các quan điểm của các nhà nghiên cứu văn hóa doanh nghiệp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng kiến thức vào xây dựng văn hóa và phát triển văn hoá cho doanh nghiệp; Nhận thức đuợc tầm quan trọng của văn hóa doanh nghiệp, hình thành khả năng nhạy bén trong quá trình đón nhận các vấn đề xảy ra trong quá trình làm việc. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hình thành các phẩm chất đạo đức nghề nghiệp để xây dựng văn hóa doanh nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái quát về văn hóa doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các dạng văn hóa doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các thành tố trong văn hóa doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Bài tập tình huống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

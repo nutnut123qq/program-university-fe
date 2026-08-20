@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 487038,
+    "subjectCode": "E01162",
+    "syllabusName": "Tội phạm học (Criminology)",
+    "syllabusEnglish": "Criminology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Tội phạm học là\r\nngành khoa học nghiên cứu tội phạm dưới góc độ xã hội học. Khoa học này có sứ\r\nmạng quan trọng là đưa ra lý thuyết về phòng ngừa tội phạm trên cơ sở nghiên\r\ncứu tình hình tội phạm, lý giải nguyên nhân và điều kiện của tình hình tội phạm\r\ngắn với các tác nhân từ xã hội, môi trường sống, cơ chế hành vi phạm tội. Tội\r\nphạm học cung cấp lý thuyết về dự báo tình hình tội phạm và phòng ngừa tội\r\nphạm. Với chủ trương ưu tiên phòng ngừa tội phạm, khoa học tội phạm học có\r\nnhiệm vụ tìm kiếm các giải pháp khoa học ngăn ngừa tội phạm, góp phần bảo đảm\r\nvà duy trì trật tự xã hội.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học có những kiến thức lý luận cơ bản về Tội phạm học. Từ đó, người học có thể đánh giá được tình hình tội phạm trên thực tế, lý giải được nguyên nhân và điều kiện của tình hình tội phạm, dự báo được tình hình tội phạm và đưa ra các biện pháp phòng ngừa tội phạm ở Việt Nam. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học bước đầu có kỹ năng xây dựng kế hoạch nghiên cứu tình hình tội phạm; có kỹ năng phân tích và đánh giá tình hình tội phạm, phát hiện nguyên nhân và điều kiện của tình hình tội phạm và đưa ra các nhóm giải pháp phòng ngừa tội phạm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học có tư duy phân tích các vấn đề của tội phạm học trong mối liên hệ giữa các vấn đề pháp lý và xã hội học. Các vấn đề về tình hình tội phạm và phòng ngừa tội phạm luôn gắn liền với môi trường xã hội"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học có ý thức về tuân thủ pháp luật, xây dựng ý thức nghề nghiệp trong lĩnh vực tư pháp hình sự, đặc biệt là ý thức bảo vệ trật tự xã hội."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái quát về Tội phạm học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tình hình tội phạm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nguyên nhân và điều kiện tội phạm cụ thể",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Nhân thân người phạm tội",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Phòng ngừa tội phạm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Dự báo tình hình tội phạm và kế hoạch hóa hoạt động phòng ngừa tội phạm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

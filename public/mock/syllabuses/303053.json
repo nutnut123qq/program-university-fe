@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 224570,
+    "subjectCode": "303053",
+    "syllabusName": "Tổng quan về thống kê trong kinh tế (Introduction to Statistics for Business)",
+    "syllabusEnglish": "Introduction to Statistics for Business",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Trình bày những khái niệm căn bản trong thống kê, như: dữ liệu (data), biến số (variables), thang đo (scales), tổng thể thống kê (populations), mẫu (sample), chọn mẫu (sampling), thống kê mô tả (descriptive statistics), thống kê suy diễn (inferential statistics).\n\n- Cách thức trình bày bảng biểu số liệu, cách đọc bảng biểu số liệu, các phương pháp về thống kê mô tả (descriptive statistics), như: các hệ số biểu thị mức độ tập trung của biến số, các hệ số biểu thị xu hướng phân tán của biến số.\n\n- Cách thức tính kiểm định thống kê suy diễn (inferential statistics), như: kiểm định giả thuyết về mối quan hệ giữa hai biến (kiểm định Khi-bình phương), các hệ số tương quan đo lường mức độ của mối quan hệ giữa các biến số; So sánh trung bình (kiểm định t và phân tích phương sai)…\n\n- Bình luận thông số để tìm hiểu ý nghĩa của dữ liệu và mối quan hệ giữa các biến số trong nghiên cứu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học hiểu và dễ dàng sử dụng các thuật ngữ căn bản trong thống kê, như: dữ liệu (data), biến số (variables), thang đo (scales), tổng thể thống kê (populations), mẫu (sample), thống kê mô tả (descriptive statistics), thống kê suy diễn (inferential statistics)."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học hiểu và vận dụng được các kỹ thuật trong xử lý dữ liệu, như: tạo khuôn nhập liệu, lập bảng biểu, tính các công thức toán thống kê."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học sử dụng được các phương pháp thống kê, chọn mẫu và tiến trình thống kê phục vụ cho việc khảo sát (điều tra) của các công trình nghiên cứu. Xây dựng được kế hoạch và qui trình khảo sát (điều tra) và xử lý dữ liệu thống kê trong lĩnh vực xã hội và kinh tế (kinh doanh)."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học tự phân tích được ý nghĩa của dữ liệu, ý nghĩa của các mô hình thống kê và ý nghĩa của các thuật toán kiểm định trong thống kê suy diễn.  "
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Người học đánh giá được độ tin cậy của dữ liệu, ý nghĩa của dữ liệu và tìm ra mối quan hệ nhân quả, hay sự tác động của vấn đề nghiên cứu."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về thống kê",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thống kê mô tả",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thống kê suy diễn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

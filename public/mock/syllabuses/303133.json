@@ -1,0 +1,90 @@
+{
+  "info": {
+    "sylid": 324253,
+    "subjectCode": "303133",
+    "syllabusName": "Học phần thực tế nghề nghiệp (Internship)",
+    "syllabusEnglish": "Internship",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học tổ chức sinh viên đến học thực tế nghề tại công ty lữ hành du lịch với các nội dung chính sau:\n- Cơ cấu tổ chức và sản phẩm kinh doanh của công ty lữ hành du lịch.\n- Kỹ năng giao tiếp với du khách và ứng xử tại văn phòng du lịch.\n- Tìm hiểu và thực hành các nghiệp vụ tại văn phòng công ty lữ hành du lịch: tư vấn và chào bán tour, thiết kế và điều hành tour, hướng dẫn du lịch, tổ chức sự kiện,…\n- Tìm hiểu và thực hành việc tổ chức thực hiện một chuyến đi du lịch (do Bộ môn tổ chức).",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nhận biết được cơ cấu tổ chức và các sản phẩm dịch vụ kinh doanh của công ty lữ hành."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Xác định được các hoạt động chính cần thực hiện trước, trong và sau khi tổ chức một tour du lịch cơ bản."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Ứng dụng các kỹ năng nghiệp vụ lữ hành vào thực hiện các hoạt động: chào bán tour, xây dựng tour, hoạt náo trên tour."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tổng quan tình hình phát triển của ngành du lịch – lữ hành và phân tích được hoạt động kinh doanh du lịch, lữ hành tại các doanh nghiệp hiện nay."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Xây dựng tác phong làm việc chuyên nghiệp và định hướng nghề phù hợp cho bản thân."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thực hành nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": " Thực hành nghề nghiệp trên chuyến đi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

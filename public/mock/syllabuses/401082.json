@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 23809,
+    "subjectCode": "401082",
+    "syllabusName": "Kỹ thuật chiếu sáng (Lighting Design Basics)",
+    "syllabusEnglish": "Lighting Design Basics",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\n học này giới thiệu các kỹ thuật cơ bản để tính toán và thiết kế hệ \r\nthống chiếu sáng. Cụ thể, các sinh viên sẽ được học các khái niệm cơ bản\r\n của kỹ thuật chiếu sáng, các bước thiết kế chiếu sáng trong nhà và \r\nngoài trời, và việc lựa chọn nguồn sáng. Thêm vào đó, việc thiết chiếu \r\nsáng trong một số trường hợp đặc biệt sẽ được trình bày trong môn học \r\nnày. Hơn thế nữa, sinh viên sẽ được học về các chương trình phần mềm như\r\n Dialux Evo và Ulysee.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu rõ các nguyên tắc cơ bản về kỹ thuật chiếu sáng, hiểu biết về các loại đèn. Nắm chắc các kiến thức cơ bản của môn Kỹ thuật chiếu sáng, có khả năng tính toán thiết kế hệ thống chiếu sáng trong mọi lĩnh vực công nghiệp, dân dụng, chiếu sáng công cộng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng để lựa chọn dự án chiếu sáng; áp dụng các phần mềm chiếu sáng hiện đại, tiếp thu các công nghệ chiếu sáng tiên tiến trên thế giới."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích và đánh giá các thiết bị, công nghệ chiếu sáng để lựa chọn giải pháp phù hợp trong dân dụng và công nghiệp"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Áp dụng kỹ năng mềm để giao tiếp và làm việc nhóm hiệu quả, đồng thời quản lý thời gian và tài nguyên hợp lý."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các đại lượng ánh sáng cơ bản và đơn vị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các thiết bị điều khiển chiếu sáng và bộ đèn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tính toán và thiết kế chiếu sáng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các nguyên tắc thiết kế chiếu sáng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thiết kế chiếu sáng trong các trường hợp đặc biệt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Sử dụng phần mềm đối với thiết kế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

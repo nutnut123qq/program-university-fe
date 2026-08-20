@@ -1,0 +1,150 @@
+{
+  "info": {
+    "sylid": 84147,
+    "subjectCode": "902123",
+    "syllabusName": "Khóa luận tốt nghiệp (Graduation Thesis)",
+    "syllabusEnglish": "Graduation Thesis",
+    "credits": "12",
+    "degreeLevel": "Bachelor",
+    "description": "Mỗi sinh viên thực hiện một báo cáo khóa luận tốt nghiệp.\nGiảng viên hướng dẫn định hướng cho sinh viên thực hiện các đề tài phù hợp với ngành khoa học môi trường.\nSinh viên xây dựng được đề cương nghiên cứu.\nSinh viên thực hiện các nội dung đề ra của đề cương nghiên cứu theo đúng tiến độ qui định của Khoa và Trường.\nSinh viên nộp báo cáo và bảo vệ khóa luận tốt nghiệp trước hội đồng đánh giá chuyên ngành.\n\nSinh viên chỉnh sửa và nộp báo cáo khóa luận tốt nghiệp hoàn chỉnh.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Ứng dụng kiến thức tổng hợp về khoa học tự nhiên và xã hội có liên quan đến lĩnh vực khoa học và kỹ thuật môi trường, kỹ năng ngoại ngữ và tin học trong việc tìm, đọc, tổng hợp tài liệu; trình bày và sử dụng phần mềm chuyên ngành để thực hiện khóa luận tốt nghiệp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng được kỹ năng làm việc độc lập, tư duy hệ thống, tư duy sáng tạo, kỹ năng viết và trình bày trong quá trình thực hiện khóa luận tốt nghiệp."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thể hiện được đạo đức nghề nghiệp, trách nhiệm bản thân liên quan đến lĩnh vực khoa học và kỹ thuật môi trường trong quá trình thực hiện khóa luận tốt nghiệp."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phân tích được hiện trạng, vấn đề môi trường tồn tại trong hoạt động của một doanh nghiệp, khu dân cư, khu công nghiệp, địa phương...khi thực hiện khóa luận thực tế."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Phân tích được các giải pháp, kỹ thuật xử lý chất thải, quan trắc môi trường, đánh giá tác động môi trường, phân tích rủi ro trong môi trường, kinh tế tuần hoàn, sản xuất sạch hơn...đang ứng dụng tại một doanh nghiệp, khu dân cư, địa phương..."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Đánh giá được hiện trạng, vấn đề môi trường tồn tại trong hoạt động của một doanh nghiệp, khu dân cư, khu công nghiệp, địa phương...so với yêu cầu của luật, các văn bản dưới luật, tiêu chuẩn, qui chuẩn....trong nước và quốc tế."
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Đánh giá được các giải pháp quản lý tài nguyên môi trường, kỹ thuật xử lý chất thải, quan trắc môi trường, đánh giá tác động môi trường, phân tích rủi ro trong môi trường, kinh tế tuần hoàn, sản xuất sạch hơn...đang ứng dụng tại một doanh nghiệp, khu dân cư, địa phương..."
+    },
+    {
+      "id": 8,
+      "loSeq": "8",
+      "cloName": "CO8",
+      "loDetails": "Xây dựng được chương trình giáo dục, truyền thông và kiểm soát chất lượng môi trường."
+    },
+    {
+      "id": 9,
+      "loSeq": "9",
+      "cloName": "CO9",
+      "loDetails": "Đề xuất được các giải pháp quản lý và kỹ thuật để ngăn ngừa, giảm thiểu, kiểm soát và xử lý chất thải; Tính toán và thiết kế hệ thống xử lý nước cấp, hệ thống xử lý nước thải, hệ thống xử lý chất thải rắn và chất thải nguy hại, hệ thống xử lý ô nhiễm không khí..."
+    },
+    {
+      "id": 10,
+      "loSeq": "10",
+      "cloName": "CO10",
+      "loDetails": "Phát triển được các hướng nghiên cứu về sử dụng bền vững các nguồn tài nguyên, năng lượng và môi trường; kiểm soát ô nhiễm môi trường."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đề cương nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Mở đầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tổng quan đề tài nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phương pháp nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kết quả & Thảo luận",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Đề xuất các giải pháp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Kết luận & kiến nghị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

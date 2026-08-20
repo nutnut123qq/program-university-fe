@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 654398,
+    "subjectCode": "804177",
+    "syllabusName": "Phỏng sinh học trong kiến trúc (Biomimicry in Architecture)",
+    "syllabusEnglish": "Biomimicry in Architecture",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung học phần được thiết kế cho 45 tiết\r\nlý thuyết, bao gồm cả thảo luận và bài tập trên lớp, và seminar báo cáo thuyết\r\ntrình theo chuyên đề;\n\nNền tảng kiến thức cơ bản cần có trước khi\r\nhọc môn học là những kiến thức về cấu tạo kiến trúc, hệ kết cấu công trình, vật\r\nliệu trong kiến trúc;\n\nNội dung kiến thức bao gồm: Kiến thức cơ bản\r\nvề phỏng sinh và kiến trúc phỏng sinh học (Biomimetic architecture); Xu hướng\r\nkết hợp thiên nhiên vào trong kiến trúc; Một số ứng dụng của Kiến trúc phỏng\r\nsinh; Các hình thức biểu hiện của Kiến trúc phỏng sinh và kiến trúc phỏng sinh\r\ncông nghệ cao; Xu hướng vận dụng KTPSCNC vào kiến trúc.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học kiến thức cơ bản về phỏng sinh và kiến trúc phỏng sinh học"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nhận biết các yếu tố tác động đến sự lựa chọn kiến trúc phỏng sinh, cũng như hình thức biểu hiện của Kiến trúc phỏng sinh"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hoàn thiện kỹ năng đánh giá các xu hướng kết hợp thiên nhiên vào trong kiến trúc, từ đó vận dụng kiến trúc phỏng sinh công nghệ cao trong công trình kiến trúc"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện ý thức tôn trọng các giá trị đạo đức nghề nghiệp. Chấp hành luật bản quyền và những thành quả sáng tạo của người đi trước."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TỔNG QUAN VỀ PHỎNG SINH HỌC TRONG KIẾN TRÚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "QUÁ TRÌNH HÌNH THÀNH KIẾN TRÚC PHỎNG SINH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "ĐẶC ĐIỂM, TÍNH CHẤT, VÀ ỨNG DỤNG CỦA KIẾN TRÚC PHỎNG SINH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "XU HƯỚNG KIẾN TRÚC PHỎNG SINH CÔNG NGHỆ CAO",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

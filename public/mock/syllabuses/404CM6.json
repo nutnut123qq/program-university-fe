@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 553510,
+    "subjectCode": "404CM6",
+    "syllabusName": "Kỹ năng thực hành chuyên môn (Professional Skills Exam)",
+    "syllabusEnglish": "Professional Skills Exam",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học dùng để đánh giá kiến thức thực hành và kỹ năng thực hành chung của học viên sau khi kết thúc học phần tập sự. Học viên sẽ thực tập dưới sự phân công và hướng dẫn của cán bộ phụ trách kinh doanh. ngành tiếp nhận. Sau thời gian học nghề, học viên hệ thống hóa những kiến thức và kỹ năng thực tế đã tích lũy được tại nhà trường và doanh nghiệp. Các học viên sẽ làm bài kiểm tra kiến thức kỹ năng thực hành nghề nghiệp ngành Kỹ thuật cơ điện tử bao gồm:\n\n·\n\nVận hành và lập trình PLC.\n\n·\n\nTính toán thông số cho robot.\n\n·\n\nThiết kế cơ khí chi tiết máy.\n\n·\n\nỨng dụng vi điều khiển và các hệ thống cơ điện tử.\n\n·\n\nLập trình cơ điện tử và ứng dụng.\n\n·\n\nLý thuyết cơ bản của hệ thống điều khiển tự động.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm bắt được nguyên lý cấu tạo, công dụng và phương thức vận hành của các hệ thống, dây chuyền, thiết bị tự động hóa trong thực tế."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng các kiến thức chuyên môn để thiết kế, phân tích, lập trình điều khiển, mô phỏng và giám sát một hệ thống cơ điện tử trong thực tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Vận hành và lập trình PLC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tính toán thông số cho robot",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế cơ khí chi tiết máy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Ứng dụng vi điều khiển",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Lập trình cơ điện tử và ứng dụng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Lý thuyết cơ bản của hệ thống điều khiển tự động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

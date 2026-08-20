@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 577076,
+    "subjectCode": "304056",
+    "syllabusName": "Công tác xã hội nhóm (Social work with Groups)",
+    "syllabusEnglish": "Social work with Groups",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giới thiệu một số nội dung cơ bản liên quan đến CTXH nhóm: khái niệm, đặc trưng, giá trị đạo đức và tiến trình trong CTXH với nhóm. Ngoài ra, môn học còn cung cấp một số kỹ năng, kỹ thuật vận dụng trong mỗi giai đoạn làm việc với thân chủ và nhóm.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm vững một số nội dung kiến thức cơ bản về nhóm, công tác xã hội với nhóm: khái niệm, đặc trưng, quy điều đạo đức, tiến trình can thiệp, hỗ trợ."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết cách vận dụng tiến trình và phương pháp công tác xã hội đối với nhóm cụ thể trong cộng đồng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng xác định đối tượng thân chủ và linh hoạt vận dụng kỹ năng và kỹ thuật trong công tác xã hội nhóm."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tuân thủ giá trị đạo đức nghề công tác xã hội trong quá trình hỗ trợ cho thân chủ.\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về công tác xã hội nhóm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tiến trình công tác xã hội nhóm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Công tác xã hội nhóm với một số nhóm đặc biệt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

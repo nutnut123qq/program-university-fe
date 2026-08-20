@@ -1,0 +1,104 @@
+{
+  "info": {
+    "sylid": 382777,
+    "subjectCode": "404130",
+    "syllabusName": "Máy điện và Khí cụ điện (Electric machine and equipment)",
+    "syllabusEnglish": "Electric machine and equipment",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp các kiến thức cơ bản về các loại động cơ điện, các linh kiện điện tử công suất, các mạch biến đổi công suất cơ bản, các thiết bị đóng cắt và bảo vệ trong mạch điện một chiều và xoay chiều. Môn học gồm các nội dung sau\nCơ bản về mạch từ\nCấu tạo, nguyên lý hoạt động, sơ đồ tương đương của các loại động cơ: DC, AC  không đồng bộ 1 pha và 3 pha; AC đồng bộ ba pha, DC không chổi than, bước\nCác khái niệm và linh kiện điện tử công suất cơ bản\nCác mạch biến đổi công suất, đặc biệt các mạch ứng dụng trong truyền động điện: chỉnh lưu, AC-AC, DC-DC, nghịch lưu\nVai trò, cấu tạo, cơ chế hoạt động của các thiết bị: đóng cắt ( relay, contactor), điều khiển (công tắc, nút nhấn), bảo vệ (fuse, CB, overload)",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu cấu tạo, nguyên lý hoạt động của các loại động cơ điện"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nắm được nguyên lý hoạt động, các chế độ làm việc của các linh kiện điện tử công suất, các mạch biến đổi công suất và ứng dụng "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu được vai trò, cơ chế hoạt động của các thiết bị đóng cắt và bảo vệ trong mạch điện"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Mạch từ, nguyên lý biến đổi năng lượng cơ-điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các loại động cơ điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Điện Tử Công Suất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các thiết bị cơ điện từ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

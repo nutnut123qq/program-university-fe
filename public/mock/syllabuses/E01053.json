@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 403905,
+    "subjectCode": "E01053",
+    "syllabusName": "Tập quán thương mại quốc tế (International Trade Customs)",
+    "syllabusEnglish": "International Trade Customs",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Tập\n quán\n Thương mại quốc tế giúp người học trang bị những kiến thức sâu sắc về tập\n quán\n thương mại giữa các thương nhân và các vấn đề trong hợp đồng ngoại thương.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "-\tKiến thức: Mục tiêu của môn học cung cấp cho người học những kiến thức tập quán kinh doanh quốc tế trong lĩnh vực mua bán hàng hóa, soạn thảo và đàm phán hợp đồng thương mại có yếu tố nước ngoài\n-\tKỹ năng tác nghiệp: môn học giúp cho sinh viên nắm rõ một số kỹ năng về áp dụng các quy định của pháp luật Việt Nam, quốc tế và thông lệ quốc tế.\n-\tYêu cầu về tư duy: môn học hỗ trợ sinh viên xây dựng được phương pháp tư duy logic; hình thành phản xạ nghiệp vụ trong xử lý các hoạt động thương mại có yếu tố nước ngoài của doanh nghiệp; trên cơ sở tuân thủ đầy đủ các quy định pháp luật. \n-\tThái độ và hành vi: Bước đầu hình thành thói quen phân tích, đánh giá và tư vấn phương án tuân thủ nghiêm chỉnh các quy tắc pháp trong các quan hệ hợp đồng thương mại quốc tế.\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tiểu luận,Trắc nghiệm",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay,Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về tập quán thương mại Quốc tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nội dung pháp lý cơ bản về INCOTERMS",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các điều kiện giao hàng theo INCOTERMS và vấn đề chuyển rủi ro",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "INCOTERMS và thực tiễn áp dụng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tập quán quốc tế trong thanh toán quốc tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,74 @@
+{
+  "info": {
+    "sylid": 495618,
+    "subjectCode": "805022",
+    "syllabusName": "Đấu thầu và mua sắm trong xây dựng (Bidding and Procurement Management)",
+    "syllabusEnglish": "Bidding and Procurement Management",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm 2 phần:\n\nLập hồ sơ dự thầu\n\nĐánh giá hồ sơ dự thầu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Người học được trang bị được những kiến thức về công tác tổ chức, triển khai đấu thầu; các vấn đề về và quản lý thực hiện hợp đồng trong xây dựng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: người học được trang bị những kỹ năng về tổ chức đấu thầu. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: khả năng tư duy tính toán, kinh tế"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: thái độ cẩn trọng, nghiêm túc, tôn trọng và thực hiện theo những quy định của pháp luật trong lĩnh vực xây dựng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Lập hồ sơ dự thầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đánh giá hồ sơ dự thầu sẵn có",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

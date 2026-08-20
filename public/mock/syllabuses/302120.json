@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 396117,
+    "subjectCode": "302120",
+    "syllabusName": "Xử lý và phân tích dữ liệu trong nghiên cứu xã hội (Data Processing and Analysis in Social Research)",
+    "syllabusEnglish": "Data Processing and Analysis in Social Research",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Trình bày những\r\nkhái niệm căn bản trong thống kê, như: dữ liệu (data), biến số (variables),\r\nthang đo (scales), tổng thể thống kê (populations), mẫu (sample), chọn mẫu\r\n(sampling), thống kê mô tả (descriptive statistics), thống kê suy diễn\r\n(inferential statistics) và sử dụng được các lệnh cở bản trong SPSS.\n\nCách thức trình bày bảng biểu số liệu, cách đọc bảng biểu số liệu,\r\ncác phương pháp về thống kê mô tả (descriptive statistics), như: các hệ số biểu\r\nthị mức độ tập trung của biến số, các hệ số biểu thị xu hướng phân tán của biến\r\nsố bằng SPSS.\n\nCách thức tính kiểm định thống kê suy diễn (inferential\r\nstatistics), như: kiểm định giả thuyết về mối quan hệ giữa hai biến (kiểm định\r\nKhi-bình phương), các hệ số tương quan đo lường mức độ của mối quan hệ giữa các\r\nbiến số; So sánh trung bình (kiểm định t và phân tích phương sai)... bằng SPSS.\n\nBình luận thông số để tìm hiểu ý nghĩa của dữ liệu và mối quan hệ\r\ngiữa các biến số trong nghiên cứu xã hội học.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các khái niệm thống kê (statistics), như: dữ liệu (data), biến số (variables), thang đo (scales), tổng thể thống kê (populations), mẫu (sample), thống kê mô tả (descriptive statistics), thống kê suy diễn (inferential statistics). Sử dụng SPSS trong tạo khuôn nhập liệu, lập bảng biểu, tính các công thức toán thống kê."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng các phương pháp thống kê, chọn mẫu và tiến trình thống kê (Steps carried out in statistical problems) phục vụ cho việc khảo sát (điều tra) của các công trình nghiên cứu. Xây dựng được kế hoạch và qui trình khảo sát (điều tra) và xử lý dữ liệu thống kê trong lĩnh vực xã hội."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích và đọc được ý nghĩa của dữ liệu, ý nghĩa của các mô hình thống kê và ý nghĩa của các thuật toán kiểm định trong thống kê suy diễn.  "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá được độ tin cậy của dữ liệu, ý nghĩa của dữ liệu và tìm ra mối quan hệ nhân quả, hay sự tác động của vấn đề nghiên cứu."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về Thống kê và Phần mềm SPSS",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Xử lý dữ liệu thống kê mô tả",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kiểm định và Phân tích dữ liệu thống kê ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": " Ứng dụng AI trong phân tích dữ liệu và thiết kế báo cáo kết quả nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,90 @@
+{
+  "info": {
+    "sylid": 779377,
+    "subjectCode": "805CM1",
+    "syllabusName": "Kỹ năng thực hành chuyên môn (Professional Skills Exam)",
+    "syllabusEnglish": "Professional Skills Exam",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Lập báo cáo nghiên cứu khả thi của dự án xây dựng.\n\nLập hồ sơ mời thầu/ hồ sơ dự thầu/ Đánh giá thầu.\n\nTổ chức mặt bằng công trường, tiến độ thi công, công tác an toàn lao động công trường.\n\nLập dự toán công trình/ hạng mục công trình xây dựng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: trang bị cho sinh viên những kiến thức cơ bản quản lý dự án xây dựng, kiến thức tổng hợp về lập báo cáo nghiên cứu khả thi, lập hồ sơ dự thầu và đánh giá thầu."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Sinh viên có thể lập một dự án đầu tư xây dựng, có thể thẩm định một dự án đầu tư xây dựng, lập hồ sơ mời thầu,  hồ sơ dự thầu, đánh giá hồ sơ thầu, thực hiện lập tiến độ dự án, bố trí tổng mặt bằng thi công."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: khả năng tư duy tính toán, kinh tế."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Sinh viên được rèn luyện thái độ nghiêm túc, cẩn thận, có trách nhiệm trong các công việc liên quan lập một dự án đầu tư xây dựng có chất lượng, có hiệu quả."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Lập báo cáo nghiên cứu khả thi của dự án xây dựng.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lập hồ sơ mời thầu/ hồ sơ dự thầu/ Đánh giá thầu.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tổ chức mặt bằng công trường, tiến độ thi công, công tác an toàn lao động công trường.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Lập dự toán công trình/ hạng mục công trình xây dựng. ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

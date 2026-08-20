@@ -1,0 +1,86 @@
+{
+  "info": {
+    "sylid": 858506,
+    "subjectCode": "H01055",
+    "syllabusName": "Công nghệ sản xuất Dược phẩm 1 (Pharmaceutical Industry 1)",
+    "syllabusEnglish": "Pharmaceutical Industry 1",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các nội dung chính sau:\n\nChương 1: Đại cương về công nghệ bào chế dược phẩm.\n\nChương 2: Các quá trình công nghệ cơ bản trong sản xuất dược phẩm.\n\nChương 3: Công nghệ bào chế một số dạng thuốc.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và ghi nhớ những khái niệm cơ bản về công nghệ sản xuất dược phẩm và các hệ thống quản lý chất lượng trong sản xuất dược phẩm, mục tiêu, yêu cầu của các quá trình trong công nghệ bào chế dược phẩm. Trình bày được đặc điểm, quy trình sản xuất một số dạng dược phẩm."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng kiến thức đã học để phân tích, đánh giá các quy trình sản xuất của các dạng dược phẩm khác nhau."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tính toán được số liệu và xây dựng được quy trình sản xuất cho các dạng dược phẩm khác nhau."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đại cương về công nghệ bào chế dược phẩm.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các quá trình công nghệ cơ bản trong sản xuất dược phẩm.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Công nghệ bào chế một số dạng thuốc.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

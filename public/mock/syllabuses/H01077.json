@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 410821,
+    "subjectCode": "H01077",
+    "syllabusName": "Thí nghiệm Dược lý 1 (Pharmacology Laboratory 1)",
+    "syllabusEnglish": "Pharmacology Laboratory 1",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Thí nghiệm Dược lý 1 gồm các bài sau:\n\nCác thủ thuật thao tác trên động vật thí nghiệm và dược lý thuốc sử dụng trong hóa trị liệu bệnh nhiễm (Kháng sinh, kháng nấm, kháng kí sinh trùng).\nCác thủ thuật thao tác trên động vật thí nghiệm, dược lý các thuốc hormon và các thuốc đối kháng hormon.\nĐánh giá tác động của các thuốc thần kinh trên mô hình động vật thí nghiệm và dược lý thuốc hô hấp.\nĐánh giá khả năng kháng viêm của thuốc trên mô hình động vật thí nghiệm và dược lý thuốc tiêu hóa.\nThi kết thúc môn học.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu rõ các tác động của thuốc"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có thể thực hiện các qui trình thử nghiệm để đánh giá tác động của thuốc lên động vật thí nghiệm"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng đánh giá được tác động của thuốc lên động vật thí nghiệm"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các thủ thuật thao tác trên động vật thí nghiệm và dược lý thuốc sử dụng trong hóa trị liệu bệnh nhiễm (Kháng sinh, kháng nấm, kháng kí sinh trùng).",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các thủ thuật thao tác trên động vật thí nghiệm, dược lý các thuốc hormon và các thuốc đối kháng hormon.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Đánh giá tác động của các thuốc thần kinh trên mô hình động vật thí nghiệm và dược lý thuốc hô hấp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Đánh giá khả năng kháng viêm của thuốc trên mô hình động vật thí nghiệm và dược lý thuốc tiêu hóa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thi kết thúc môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

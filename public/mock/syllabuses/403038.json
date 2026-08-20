@@ -1,0 +1,80 @@
+{
+  "info": {
+    "sylid": 135548,
+    "subjectCode": "403038",
+    "syllabusName": "Thí nghiệm điện tử công suất (Power Electronics Lab)",
+    "syllabusEnglish": "Power Electronics Lab",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Cấu trúc và nguyên lý hoạt động của các linh kiện điện tử công suất cơ bản: UJT, SCR, BJT, FET, IGBT, GTO, TRIAC.\nĐặc tính chỉnh lưu của SCR.\nCác bộ biến đổi công suất AC, DC.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sử dụng các linh kiện điện tử công suất để xây dựng các bộ biến đổi công suất trong thực tế và trong công nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về board mạch điều khiển pha thyristor SCR và mạch chỉnh lưu công suất SCR kích bằng UJT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "SCR điều khiển công suất DC và AC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Làm quen board mạch transistor công suất, thyristor GTOTRANSISTOR công suất và mạch chuyển mạch công suất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các công tắc chuyển mạch transistor lưỡng cực và thyristor GTO, MOSFET công suất và IGBT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Ôn tập và kiểm tra",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

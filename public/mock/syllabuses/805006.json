@@ -1,0 +1,140 @@
+{
+  "info": {
+    "sylid": 757788,
+    "subjectCode": "805006",
+    "syllabusName": "Vật liệu xây dựng (Construction Materials)",
+    "syllabusEnglish": "Construction Materials",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giới thiệu những vật liệu cơ bản trong xây dựng công trình:\n\nVật liệu xây dựng dân dụng và sự xem xét đến môi trường.\n\nCông nghệ bê tông: Vật liệu sản xuất bê tông, tính chất của hỗn hợp bê tông tươi và và bê tông cứng, công tác nhào trộn, công tác đổ bê tông, và bảo dưỡng bê tông, thiết kế cấp phối bê tông, kiểm tra phá hoại và không phá hoại, kiểm soát chất lượng, độ bền, và bê tông đặc biệt.\n\nVật liệu cho công tác xây: vữa, gạch, thạch cao.\n\nVật liệu thép: Quy trình luyện kim cơ bản, các tính chất và các ứng dụng, công nghệ hàn và ăn mòn thép.\n\nVật liệu gỗ: phân loại, các tính chất ảnh hưởng đến thiết kế, độ bền cơ học và khuyết điểm. \nVật liệu đường: Cốt liệu, nhựa đường, và bê tông nhựa đường.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Môn học nhằm mục đích giới thiệu cho sinh viên về tính chất của các vật liệu được ứng dụng trong xây dựng, các yếu tố ảnh hưởng đến việc lựa chọn nguyên vật liệu, và tầm quan trọng của vật liệu trong thiết kế và sự phá hoại kết cấu"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sau khi kết thúc môn học này sinh viên có khả năng:\n•\tLựa chọn phương án vận chuyển và lưu trữ cho từng loại vật liệu khác nhau. \n•\tBiết và thực hiện tốt các phương pháp kiểm tra, đánh giá chất lượng của vật liệu trước và sau khi đưa vào sử dụng.\n•\tTính toán các chỉ tiêu cơ bản các tính chất và thành phần nguyên vật liệu.\n•\tNắm bắt một số quy trình công nghệ chủ yếu để tạo sản phẩm.\n•\tBiết cách lựa chọn và sử dụng vật liệu trong công trình nhằm đảm bảo các yêu cầu về tính năng kỹ thuật và hiệu quả kinh tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái niệm vật liệu xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Bê tông xi măng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Vật liệu cho công tác xây",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Vật liệu thép",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Vật liệu gỗ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Vật liệu đường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Vật liệu composite",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Vật liệu mới",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

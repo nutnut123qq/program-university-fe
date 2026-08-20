@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 4750,
+    "subjectCode": "802116",
+    "syllabusName": "Môi trường trong xây dựng công trình giao thông (Transportation Engineering and Sustainable Built Environment)",
+    "syllabusEnglish": "Transportation Engineering and Sustainable Built Environment",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "-\n\nCác khái niệm về kỹ thuật môi trường trong xây dựng công trình và phát\r\ntriển bền vững.\n-\n\nĐánh giá tác động môi trường trong các hoạt động xây dựng và thiết kế.\n-\n\nQuy hoạch đô thị và phát triển bền vững.\n-\n\nHoạt động liên quan đến kỹ thuật công trình và kỹ thuật môi trường (lịch\r\nsử phát triển, hiện tại và tương lai).\n-\n\nSự tích hợp của kỹ thuật công trình và kỹ thuật môi trường trong các dự\r\nán xây dựng điển hình.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Mục tiêu môn học nhằm cung cấp kiến thức tổng quan về các hoạt động liên quan đến kỹ thuật môi trường và kỹ thuật công trình, tầm quan trọng của phát triển xây dựng bền vững và kiến thức cơ bản về vai trò của kỹ sư trong xã hội. Ngoài ra, môn học cung cấp kiến thức về cách thực hiện báo cáo đánh giá tác động môi trườngtrong các hoạt động xây dựng. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Sau khi hoàn thành khóa học, người học sẽ hình dung được tổng thể về các hoạt động liên quan đến kỹ thuật môi trường và kỹ thuật công trình. Đồng thời hiểu được tầm quan trọng của phát triền bền vững. Ngoài ra, người học được cung cấp kinh nghiệm thực tế trong việc phân tích và thuyết phục các chủ đầu tư, chủ công trình hiểu và tuân thủ thực hiện nguyên tắc phòng ngừa, ứng phó các sự cố ảnh hưởng đến môi trường, con người, kinh tế và xã hội trong xây dựng. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Người học phải có tư duy để nhận diện đầy đủ các vấn đề liên quan đến tác độngmôi trường trong kỹ thuật xây dựng công trình. Ngoài ra, người học cần phải biết tư duy để đánh giá, phân tích và xây dựng được các giải pháp ngăn ngừa, khắc phục ô nhiễm cho từng nhóm đối tượng bị tác động. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học được rèn luyện có các tố chất cần thiết để trở thành các chuyên gia đánh giá, giám sát và phòng ngừa các rủi ro, đánh giá các tác động đến môi trường trong kỹ thuật xây dựng dân dụng. Do đó người học cần có thái độ nghiêm túc trong quá trình học và rèn luyện phẩm chất chuyên nghiệp cũng như tình yêu nghề đối với công việc."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Kỹ thuật công trình xây dựng, kỹ thuật môi trường trong xây dựng và phát triển bền vững",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đánh giá tác động môi trường trong hoạt động xây dựng và thiết kế ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quy hoạch đô thị và phát triển bền vững",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hoạt động liên quan đến kỹ thuật xây dựng công trình và kỹ thuật môi trường (lịch sử phát triển, hiện tại và tương lai)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Những dự án điển hình về sự tích hợp kỹ thuật môi trường vào trong kỹ thuật công trình dân dụng ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

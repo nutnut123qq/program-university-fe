@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 335745,
+    "subjectCode": "902CM6",
+    "syllabusName": "Kỹ năng thực hành chuyên môn (Professional Skills Exam)",
+    "syllabusEnglish": "Professional Skills Exam",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Các kiến thức đã học và thực hành.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Phát triển kiến thức chung về ngoại ngữ và tin học; kiến thức về lý luận chính trị, khoa học tự nhiên và xã hội phục vụ học tập và nghiên cứu."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phát triển kỹ năng làm việc nhóm và làm việc độc lập, tư duy hệ thống, tư duy sáng tạo, kỹ năng giao tiếp và trình bày hiệu quả trong học tập và nghiên cứu."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hình thành đạo đức nghề nghiệp, trách nhiệm xã hội, ý thức sử dụng tài nguyên an toàn và vệ sinh môi trường, tích cực tham gia các hoạt động vì cộng đồng."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tích lũy các kiến thức về luật, hệ thống văn bản dưới luật, kinh tế cho hoạt động tư vấn, thiết kế, xây dựng cơ sở hạ tầng cấp thoát nước và các công trình bảo vệ môi trường."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Chọn lựa các giải pháp kỹ thuật tối ưu trong các công trình hạ tầng cơ sở cấp thoát nước, các công trình ngăn ngừa ô nhiễm và xử lý chất thải."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Phát triển các khối kiến thức cơ sở ngành và chuyên ngành khoa học môi trường."
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Hình thành các kiến thức phục vụ các hoạt động bảo vệ môi trường và tài nguyên."
+    },
+    {
+      "id": 8,
+      "loSeq": "8",
+      "cloName": "CO8",
+      "loDetails": "Phát triển các chương trình giáo dục và truyền thông cho sinh viên ngành khoa học môi trường."
+    },
+    {
+      "id": 9,
+      "loSeq": "9",
+      "cloName": "CO9",
+      "loDetails": "Đưa ra  các giải pháp/kỹ thuật phù hợp trong hoạt động bảo vệ môi trường."
+    },
+    {
+      "id": 10,
+      "loSeq": "10",
+      "cloName": "CO10",
+      "loDetails": "Định hướng nghiên cứu mới về công nghệ xử lý ô nhiễm môi trường, các kỹ thuật hạ tầng tiên tiến, và các nguồn tài nguyên năng lượng tái tạo."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "ÔN TẬP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,60 @@
+{
+  "info": {
+    "sylid": 453080,
+    "subjectCode": "804309",
+    "syllabusName": "Tập sự nghề nghiệp (Graduation Internship)",
+    "syllabusEnglish": "Graduation Internship",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên thực tập tốt nghiệp tại một đơn vị tư vấn kiến trúc của nhà nước hoặc tư nhân, thực hành công việc tại xưởng thiết kế, nghiên\ncứu và thực hành nghề nghiệp dưới sự hướng dẫn của đơn vị thực tập trong thời gian tương đương 60 tiết thực hành, hay 4 tuần, sau đó\nviết báo cáo thực tập.\nHọc phần này yêu cầu sinh viên nắm được:\n\n1) Cơ cấu tổ chức và phương thức hoạt động của một tổ chức tư vấn thiết kế cũng như hoạt\nđộng của một Kiến trúc sư trong các tổ chức đó;\n\n2) Nội dung và phương pháp lập dự án xây dựng6và lập hồ sơ thiết kế một công trình\nkiến trúc dân dụng hoặc công nghiệp;\n\n3) Sản phẩm thiết kế cụ thể trong thời gian thực tập (một công trình hoàn chỉnh hoặc một công đoạn\nthiết kế cụ thể được đơn vị thực tập phân công);\n\n4) Các tiêu chuẩn qui phạm thiết kế có liên quan đến đề tài tốt nghiệp, và các tài liệu dự\nán để tham khảo làm đồ án tốt nghiệp;\n\n5) Lập đề cương tốt nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu những kiến thức về hoạt động nghề nghiệp. Củng cố và vận dụng những kiến thức đã học về kiến trúc và kỹ thuật vào nhiệm vụ được giao trong thời gian thực tập. Tìm hiểu thực tế và tham gia thiết kế những công trình kiến trúc dân dụng và công nghiệp, đồng thời xác định những hướng nghiên cứu trong chuyên ngành kiến trúc xây dựng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thực hành, thực tập tại cơ quan/ đơn vị tư vấn, sinh viên rèn luyện kỹ năng thiết kế, khai triển bản vẽ kỹ thuật, phối hợp làm việc giữa các bộ phận chuyên môn, hoàn thành hồ sơ thiết kế kỹ thuật một công trình cụ thể."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu sinh viên có tinh thần tự giác học tập, áp dụng những kiến thức đã được học tại trường vào nhiệm vụ được giao trong thời gian thực tập."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TẬP SỰ NGHỀ NGHIỆP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

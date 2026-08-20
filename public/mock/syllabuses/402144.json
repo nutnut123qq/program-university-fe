@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 511754,
+    "subjectCode": "402144",
+    "syllabusName": "Đồ án tốt nghiệp (Graduation Thesis)",
+    "syllabusEnglish": "Graduation Thesis",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "Giúp sinh viên vận dụng các kiến thức đã học và tự tìm hiểu thêm để thực hiện một đề tài liên quan đến chuyên ngành Điện tử - Viễn thông.\n\nSinh viên nhận đề tài chuyên ngành Điện tử - Truyền thông, thực hiện yêu cầu nhiệm vụ đồ án tốt nghiệp và bảo vệ kết quả thực hiện được trước hội đồng.\n\n       Môn học cung cấp cho sinh viên các kỹ năng làm việclập kế hoạch, lựa chọn và thực hiện phương án thiết kế, quản lý thời gian hiệu quả,  trao đổi kiến thức với giảng viên.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm vững các kiến thức chi tiết về các thành phần cơ bản trong các hệ thống và thiết bị điện tử và viễn thông; cấu trúc, cách vận hành, các tiêu chuẩn kỹ thuật được quy định đối với các hệ thống thông tin cơ bản như mạng di động (GSM, CDMA, LTE, 5G NR, ...), mạng máy tính (LAN, WAN, ...), hệ thống thông tin quang, hệ thống truyền hình. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có ý thức tự học các kiến thức có liên quan đến một đề tài đồ án cụ thể."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng thiết lập bài toán cần giải quyết, nhận dạng và phân tích các yếu tố liên quan, xây dựng mô hình hệ thống, chọn và áp dụng các phương pháp và công cụ tính toán thích hợp, đề xuất và đánh giá các giải pháp khác nhau, thiết kế hệ thống mong muốn từ lý thuyết đến thực hiện trên phần cứng; có khả năng nhận dạng các lỗi trong thi công phần cứng, kiểm tra và sửa lỗi."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có khả năng viết báo cáo kỹ thuật (bằng tiếng Anh) theo phong cách khoa học, có khả năng trình bày công trình của mình trước cộng đồng và bảo vệ ý tưởng của mình."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Có khả năng lập kế hoạch thực hiện đồ án và quản lý thời gian một cách hiệu quả."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Có khả năng vận dụng tư duy logic để cải tiến thiết kế cũng như đề xuất các giải pháp mới. "
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Biết các yêu cầu đạo đức nghề nghiệp của kỹ sư cũng như các nguyên tắc an toàn trong quá trình thực hiện đồ án."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhận tên đề tài và nhiệm vụ đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lựa chọn giải pháp và thiết kế hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Báo cáo tiến độ 50% Đồ án tốt nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thi công mạch điện tử hoặc mô phỏng hệ thống viễn thông – Đánh giá chất lượng thiết kế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hoàn tất sản phẩm và báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

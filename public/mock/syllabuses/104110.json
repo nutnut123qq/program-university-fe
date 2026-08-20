@@ -1,0 +1,86 @@
+{
+  "info": {
+    "sylid": 768336,
+    "subjectCode": "104110",
+    "syllabusName": "Phát triển hệ thống sản phẩm (Fashion Apparel Product Developement)",
+    "syllabusEnglish": "Fashion Apparel Product Developement",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Cung cấp những kiến thức cơ bản về lĩnh vực marketing trong thời trang.\nHướng người học đến việc xây dựng chiến lược tiếp cận thị trường và nghiên cứu khách hàng tiềm năng. \nSử dụng có hiệu quả các ứng dụng công nghệ tăng tính tương tác trong chiến lược tiêu thụ sản phẩm",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Phát triển các chuỗi sản phẩm có tạo hình khác nhau, đáp ứng nhu cầu của người tiêu dùng "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích sự đa dạng của xu hướng và sự thay đổi của thị trường, đưa ra các phương án tiếp cận thị trường mang tính chiến lược "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tạo ra chuỗi sản phẩm có tính sáng tạo và hợp thẩm mỹ với thị trường và khách hàng "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tiểu luận,Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Hệ thống mẫu mã sản phẩm ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hệ thống kĩ thuật ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Triển khai sản xuất ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

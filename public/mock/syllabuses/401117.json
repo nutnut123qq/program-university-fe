@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 141134,
+    "subjectCode": "401117",
+    "syllabusName": "Giải tích hệ thống điện (Power system analysis)",
+    "syllabusEnglish": "Power system analysis",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc nhằm cung cấp cho sinh viên những kiến thức cơ bản liên quan đến phương\r\npháp giải tích mạng điện, nguyên lý vận hành và điều khiển trong hệ thống điện,\r\nbao gồm: \n-\n\nMô hình hóa \nđường dây truyền tải điện\n, khảo sát vận hành đường dây truyền tải điện; bài\r\ntoán phân bố công suất bằng phương pháp Gauss Seidel và N\newton-Raphson; \n-\n\nTính toán các chế độ sự cố trên hệ thống điện. \n-\n\nVận hành và điều khiển hệ thống điện: điều chỉnh công suất tác dụng và tần số nhà máy điện; điều khiển công suất phản kháng và điện áp máy phát.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Phương pháp giải tích dạng ma trận cho hệ thống điện;\r\nNắm vững phương pháp tính toán trào lưu công suất, các chế độ làm việc bình thường và sự cố trên lưới điện và cách phát hiện;\r\nCác nguyên tắc vận hành và điều khiển hệ thống điện;\r\nCó khả năng lập trình Matlab, sử dụng các phần mềm Power World để tính toán phân tích các mạng điện, hệ thống lưới điện."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng thiết kế lưới điện thỏa mãn yêu cầu kỹ thuật, tối ưu về kinh tế và hoạt động ổn định."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích được chế độ làm việc bình thường hoặc sự cố trong hệ thống điện và đề xuất các biện pháp phòng ngừa."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Mô hình đường dây truyền tải và vận hành",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phân bố công suất trong hệ thống điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Ngắn mạch đối xứng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các thành phần đối xứng ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Ngắn mạch bất đối xứng ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Điều khiển hệ thống điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Hệ thống phân phối",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 787324,
+    "subjectCode": "800038",
+    "syllabusName": "Thực tập trắc địa (Geodesics Practice)",
+    "syllabusEnglish": "Geodesics Practice",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "- Hướng dẫn cho sinh viên các bài thực hành về: cấu tạo máy đo góc và cách đặt máy; Máy kinh vĩ và phương pháp đo góc phẳng; Phương pháp đo độ dài và đo góc đứng; Máy thủy bình và phương pháp đo độ chênh cao; Phương pháp đo chi tiết địa hình và địa vật bản đồ tỷ lệ lớn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Có khả năng xử lý chính xác các số liệu đo ( đánh giá độ chính xác kết quả đo, khả năng xử lý các sai số, tính toán được các bài toán trong trắc địa, bình sai các dạng lưới khống chế đo vẽ mặt bằng, lưới khống chế đo vẽ độ cao)"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu được nguyên lý vận hành đồng thời có khả năng thao tác một số máy phục vụ trong công tác đo đạc như máy kinh vĩ điện tử, máy thủy bình, ..."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Giúp sinh viên có một số kỹ năng cơ bản về tính toán, xử lý các số liệu đo đạc, xác định được các thông số hình học cơ bản của công trình, định vị được vị trí công trình, biết cách thể hiện các kết quả đo (vẽ bình đồ, mặt cắt…)"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "THỰC HÀNH LẮP ĐẶT VÀ SỬ DỤNG MÁY KINH VĨ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "THỰC HÀNH PHƯƠNG PHÁP ĐO GÓC BẰNG MÁY KINH VĨ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "THỰC HÀNH PHƯƠNG PHÁP ĐO DÀI",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "THỰC HÀNH PHƯƠNG PHÁP ĐO CHÊNH CAO BẰNG MÁY THỦY CHUẨN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "THỰC HÀNH: HỆ THỐNG LƯỚI KHỐNG CHẾ TRẮC ĐỊA                    ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "THỰC HÀNH: ĐO VẼ BÌNH ĐỒ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

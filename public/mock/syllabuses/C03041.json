@@ -1,0 +1,144 @@
+{
+  "info": {
+    "sylid": 479277,
+    "subjectCode": "C03041",
+    "syllabusName": "Cấu trúc dữ liệu (Data Structures)",
+    "syllabusEnglish": "Data Structures",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Trình bày tổng quan về cấu trúc dữ liệu và giải thuật.\n\nGiải thuật đệ quy và quay lui và ứng dụng của chúng vào các bài toán cụ thể.\n\nCác cấu trúc mảng, danh sách và danh sách liên kết.\n\nCác phương pháp tìm kiếm và sắp xếp dữ liệu cơ bản.\n\nCác phương pháp sắp xếp dữ liệu nâng cao.\n\nCác cấu trúc hàng đợi và ngăn xếp và ứng dụng.\n\nCác loại danh sách liên kết, ý nghĩa và ứng dụng.\n\nCấu trúc cây, duyệt cây, cây tìm kiếm nhị phân và ứng dụng",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "*Kiến thức: \n-Cấu trúc dữ liệu và giải thuật là một môn cơ bản của người học thuộc ngành Toán - Thống kê.\n-Môn học trang bị cho người học những kiến thức cơ bản về cấu trúc dữ liệu và các giải thuật cho các cấu trúc dữ liệu đó.\nÁp dụng các kiến thức được trang bị vào các bài toán thực tế thông qua việc xây dựng các cấu trúc dữ liệu phù hợp và lập trình tính toán chúng trên máy tính."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "-Kỹ năng tác nghiệp: \n-Hiểu các cấu trúc dữ liệu và các thuật toán tương ứng.\n-Cài đặt được các chương trình cho các thuật toán tương ứng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "*Yêu cầu về tư duy: \n-Xác định được bài toán cần giải gồm những dữ liệu gì và cấu trúc chúng như thế nào.\n-Đưa ra các giải pháp hữu hiệu cho bài toán cần giải trên cơ sở các thuật toán đã được học.\n-So sánh tính logic giữa mô hình được giải với thực tế để đưa ra các kết luận phù hợp"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "*Thái độ và hành vi: \n-Rèn luyện đức tính tỉ mỉ, chính xác.\n-Rèn luyện kỹ năng làm việc và làm việc nhóm nghiêm túc khi thực hành giải các bài toán trên máy tính"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Mở đầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đệ quy, giải thuật đệ quy và quay lui",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Cấu trúc mảng và danh sách liên kết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tìm kiếm và sắp xếp cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Sắp xếp nâng cao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Ngăn xếp và hàng đợi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Cây",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

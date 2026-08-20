@@ -1,0 +1,142 @@
+{
+  "info": {
+    "sylid": 783654,
+    "subjectCode": "E01054",
+    "syllabusName": "Pháp luật thi hành án dân sự (Civil Law Enforcement)",
+    "syllabusEnglish": "Civil Law Enforcement",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn Luật Thi hành án dân sự trang bị cho sinh viên các quy định của pháp luật về Thi hành án dân sự, bao gồm những nội dung cơ bản: Hệ thống tổ chức và hoạt động của cơ quan Thi hành án dân sự; trình tự, thủ tục thi hành bản án, quyết định của Tòa án về dân sự, hôn nhân và gia đình, kinh doanh, thương mại, lao động, quyết định về tài sản, quyền tài sản trong bản án, quyết định về hành chính, vụ án hình sự, quyết định xử lý vụ việc cạnh tranh của Hội đồng xử lý vụ việc cạnh tranh, quyết định của Trọng tài thương mại, bản án, quyết định dân sự của Tòa án nước ngoài, quyết định của Trọng tài nước ngoài được Tòa án Việt Nam công nhận và cho thi hành tại Việt Nam. Nắm bắt được quyền và nghĩa vụ của các chủ thể trong quá trình thi hành án dân sự, đó là: quyền và nghĩa vụ của bên được thi hành án, bên phải thi hành án và người có quyền lợi, nghĩa vụ liên quan.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "\tKiến thức: Trang bị cho sinh viên những kiến thức cơ bản về Luật Thi hành án dân sự."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "\tKỹ năng tác nghiệp: Sinh viên sẽ nắm được các nội dung cơ bản: Khái niệm thi hành án dân sự; trình tự, thủ tục trong hoạt động thi hành án dân sự; hệ thống tổ chức và hoạt động của cơ quan quản lý và cơ quan Thi hành án dân sự; các quyền và nghĩa vụ của người phải thi hành án, người được thi hành án và người có quyền lợi nghĩa vụ liên trong trong thi hành án dân sự."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "\tYêu cầu về tư duy: Môn học cung cấp cho sinh viên khả năng phân tích, đánh giá thực tiễn, đồng thời hình thành tư duy độc lập về các nội dung kiến thức cũng như thực tiễn liên quan đến môn học."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "\tThái độ và hành vi: Sinh viên phải có ý thức về việc tuân thủ pháp luật."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái quát về thi hành án dân sự và cơ quan thi hành án dân dân sự",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thủ tục nhận bản án, quyết định của Toà án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Trình tự, thủ tục thi hành án dân sự",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các biện pháp bảo đảm thi hành án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các biện pháp cưỡng chế thi hành án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Uỷ thác thi hành án, hoãn, tạm đình chỉ, đình chỉ thi hành án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Thi hành án trong một số trường hợp cụ thể",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Giải quyết khiếu nại, tố cáo và kết thúc thi hành án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

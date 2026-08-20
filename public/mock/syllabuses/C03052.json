@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 158937,
+    "subjectCode": "C03052",
+    "syllabusName": "Lý thuyết kiểm định (Theory of Testing Hypotheses)",
+    "syllabusEnglish": "Theory of Testing Hypotheses",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Lý thuyết quyết định.\n\n- Kiểm định mạnh đều nhất.\n\n- Tính không chệch và tính bất biến.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Môn học trang bị cho sinh viên những kiến thức cơ bản và chuyên sâu về lý thuyết kiểm định, làm nền tảng cho việc học tập các môn trong chuyên ngành cũng như các phương pháp định lượng trong toán học và trong các ngành khoa học khác."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thông qua môn học này, sinh viên có kỹ năng giải quyết một số vấn đề kiểm định cơ bản. Ngoài ra, sinh viên còn được rèn luyện kỹ năng lập mô hình kiểm định cho một số bài toán trong thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có tư duy logic, lập luận chặt chẽ. Có khả năng vận dụng kiến thức môn học để phục vụ chuyên ngành đang theo học."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thông qua môn học này, sinh viên có cái nhìn bao quát về cơ sở lý thuyết của kiểm định cũng như những ứng dụng của các vấn đề kiểm định trong thực tế. Từ đó, giúp sinh viên hình thành nên sự yêu thích đối với môn học, có thái độ nghiêm túc và tích cực trong học tập."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "LÝ THUYẾT QUYẾT ĐỊNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "KIỂM ĐỊNH MẠNH ĐỀU NHẤT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "TÍNH KHÔNG CHỆCH VÀ TÍNH BẤT BIẾN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,150 @@
+{
+  "info": {
+    "sylid": 41894,
+    "subjectCode": "603092",
+    "syllabusName": "Công nghệ chế biến sữa và các sản phẩm từ sữa (Technology of Milk and Dairy Products)",
+    "syllabusEnglish": "Technology of Milk and Dairy Products",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Định nghĩa về sữa, động vật cho sữa, tình hình sản xuất sữa ở Việt Nam và tổng quan về công nghệ chế biến sữa.\n\nTính chất vật lý, hóa học, hệ vi sinh vật trong sữa và các yếu tố ảnh hưởng đến thành phần hoá học và chất lượng của sữa.\n\nPhương pháp thu nhận, vận chuyển, xử lý và bảo quản sữa nguyên liệu.\n\nCông nghệ sản xuất sữa tươi uống (sữa thanh trùng, tiệt trùng và các loại sữa uống khác).\n\nCông nghệ sản xuất sữa cô đặc.\n\nCông nghệ sản xuất sữa bột.\n\nCông nghệ sản xuất sữa lên men.\n\nCông nghệ sản xuất phô mai.\n\nCông nghệ sản xuất bơ và kem.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Môn học cung cấp cho sinh viên những khái niệm cơ bản về sữa, động vật cho sữa, tình hình sản xuất sữa ở Việt Nam và tổng quan về công nghệ chế biến sữa. Sinh viên sẽ được cung cấp đầy đủ và hệ thống các kiến thức cơ bản về tính chất vật lý, hóa học, hệ vi sinh vật trong sữa và các yếu tố ảnh hưởng đến thành phần hoá học và chất lượng của sữa; phương pháp thu nhận, vận chuyển, xử lý và bảo quản sữa nguyên liệu. Sinh viên nắm được kiến thức cơ bản về công nghệ sản xuất sữa tươi uống (sữa thanh trùng, tiệt trùng và các loại sữa uống khác); công nghệ sản xuất sữa cô đặc, sữa bột, sữa lên men, phô mai, bơ và kem."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Qua môn học,  sinh viên có khả năng liên hệ những kiến thức về sữa với các vấn đề, các hiện tượng trong trong sản xuất sữa; nắm được nguyên tắc cơ bản trong nghiên cứu về sữa. Biết liên hệ, vận dụng những kiến thức đã học để thực tập tại các công ty sữa và các sản phẩm về sữa…"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu được các phương pháp tiếp cận trong nghiên cứu sữa. Biết vận dụng những kiến thức đã học để học và nghiên cứu. Có tư duy logic, độc lập trong học tập và nghiên cứu khoa học."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Môn học giúp cho người học có cách nhìn đúng đắn về ngành sữa đối với cuộc sống con người và trong thực tiễn sản xuất sữa. Sau khi học xong môn học này, sinh viên có thái độ nghiêm túc, đúng đắn trong thực hành thao tác với sữa và sản xuất sữa."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tiểu luận",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Mở đầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tính chất nguyên liệu sữa bò",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thu nhận, xử lý, và bảo quản sữa ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Công nghệ sản xuất sữa tươi uống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Công nghệ sản xuất sữa cô đặc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Công nghệ sản xuất sữa bột",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Công nghệ sản xuất sữa lên men",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Công nghệ sản xuất phô mai",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Công nghệ sản xuất bơ và kem",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

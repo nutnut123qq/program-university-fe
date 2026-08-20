@@ -1,0 +1,82 @@
+{
+  "info": {
+    "sylid": 972891,
+    "subjectCode": "D04058",
+    "syllabusName": "Thực tập nghề nghiệp 2 (Internship Course 2)",
+    "syllabusEnglish": "Internship Course 2",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "4.1. Lý thuyết: \nCung cấp cho sinh viên những kiến thức ở mảng: quản lí công trình sân golf, cơ sở vật chất và bảo trì sân golf,  tiếp thị và hành vi khách hàng,...\n4.2. Thực hành: \nThực hiện các công việc như một nhân viên tại cơ sở kinh doanh golf: tham gia công tác cung cấp dịch vụ đồng thời tìm hiểu hành vi khách hàng, chiến lược của doanh nghiệp, công tác vận hành và bảo dưỡng cơ sở vật chất sân golf trước - trong - sau giờ hoạt động,...",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Thực hiện, trải nghiệm các công việc thực tế tại sân golf và cơ sở kinh doanh sân golf."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết được quy trình vận hành, cách thức quản lí và tổ chức của một công trình sân golf, cơ sở kinh doanh golf."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Rèn luyện cho sinh viên tính chủ động trong tư duy; giúp sinh viên va chạm thực tế và cập nhật thêm kiến thức thực  cho môn học. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Nâng cao một số kỹ năng mềm cần thiết trong quá trình tham gia thực tập: kỹ năng quản lí thời gian, kỹ năng làm việc nhóm, xây dựng kế hoạch, kỹ năng giao tiếp,... phục vụ cho học tập và công việc sau tốt nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu tổng quan Doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nội dung thực hiện công việc tại Doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Đánh giá - Đề xuất và Kiến nghị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

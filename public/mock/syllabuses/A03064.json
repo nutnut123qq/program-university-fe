@@ -1,0 +1,174 @@
+{
+  "info": {
+    "sylid": 609394,
+    "subjectCode": "A03064",
+    "syllabusName": "Quản lý hợp đồng lao động và Thỏa ước lao động tập thể (CBA and Contract Administration)",
+    "syllabusEnglish": "CBA and Contract Administration",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung của môn học gồm các vấn đề cơ bản về hợp đồng lao động, cách xử lý những phát sinh xung quanh việc thực hiện HĐLĐ,  các vấn đề về thương lượng tập thể , qui trình thương lượng , nội dung, hình thức thương lượng, việc chuẩn bị xây dựng dự thảo Bản thỏa ước lao động tập thể, cách phân loại Thỏa ước lao động tập thể, cách nhận biết thế nào là Thỏa ước lao động tập thể không được xếp loại, qui trình kiểm tra chấm điểm bản Thỏa ước lao động tập thể dựa vào khung tiêu chí chung của Tổng Liên đoàn Lao động VN và  giải quyết các tình huống thực tiễn liên quan theo quy định chung.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giúp người học hiểu được sự cần thiết phải có sự can thiệp của pháp luật để thực hiện việc bảo vệ quyền và lợi ích hợp pháp chính đáng cho người lao động thông qua việc ký hợp đồng lao động, ký thỏa ước lao động tập thể theo qui định của Bộ luật lao động, "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Cung cấp cho người học kiến thức về những việc đúng sai trong việc ký hợp đồng lao động, theo từng độ tuổi phù hợp, giải thích được thế nào là đơn phương chấm dứt hợp đồng lao động trái luật và nghĩa vụ phải bồi thường như thế nào khi thực hiện sai luật? Giải thích được những vấn đề cần phải tuân thủ pháp luật của các chủ thể trong quá trình diễn ra quan hệ lao động như: Quyền, nghĩa vụ của các chủ thể QHLĐ, việc thương lượng để ký TƯLĐTT."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Cung cấp cho người học cách thức tổ chức thực hiện quy trình thương lượng, biết đàm phán để ký HĐLĐ từ đó làm nền tảng  cho  việc thực thi luật pháp để tránh việc tranh chấp lao động không cần thiết thúc đẩy mối quan hệ lao động hài hòa, ổn định và tiến bộ."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Cung cấp cho người học cách thức tư vấn được cho tổ chức công đoàn và người sử dụng lao động thực hiện và có cách xử lý các tình huống vi phạm pháp luật về ký hợp đồng lao động, về thương lượng ký thỏa ước lao động tập thể một cách đúng đắn, làm hài hòa các mối quan hệ trong cơ chế 2 bên, 3 bên."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Định hướng cho người học có đạo đức nghề nghiệp khi thực hiện công việc dựa trên qui định pháp luật, các chuẩn mực lao động"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu chung về môn quản lý Hợp đồng lao động và Thỏa ước lao động tập thể.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổng quan về Hợp đồng lao động.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": ": Ký kết hợp đồng lao động.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Chấm dứt HĐLĐ đúng luật và trái luật của 2 chủ thể trong QHLĐ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Nội dung, hình thức  và một số vấn đề pháp lý liên quan đến Hợp đồng  lao động.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thương lượng tập thể",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": ": Kỹ năng thương lượng tập thể.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": ":  Thỏa ước LĐTT, soạn thảo, ký kết và đăng ký TƯLĐTT. ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Một số vấn đề liên quan đến hiệu lực pháp lý của TƯLĐTT.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Hướng dẫn đánh giá chất lượng thương lượng tập thể, ký kết và tổ chức thực hiện TƯLĐTT tại đơn vị cơ sở.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

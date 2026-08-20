@@ -1,0 +1,130 @@
+{
+  "info": {
+    "sylid": 681760,
+    "subjectCode": "801126",
+    "syllabusName": "Lập và thẩm định dự án xây dựng (Project Appraisal and Analysis)",
+    "syllabusEnglish": "Project Appraisal and Analysis",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 1: Tổng quan về dự án đầu tư\nChương 2: Dự báo\nChương 3: Chỉ tiêu đánh giá và lựa chọn dự án\nChương 4: Phân tích kinh tế xã hội, tài chính và rủi ro\nChương 5: Lập dự án đầu tư xây dựng công trình\nChương 6: Quy trình lập, thẩm định, phê duyệt dự án đầu tư xây dựng công trình",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: cung cấp cho học viên kiến thức nền tảng về lâp và thẩm định dự án đầu tư xây dựng; trang bị cách tiếp cận, phương pháp và kỹ thuật thẩm định dự án đầu tư."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng: học viên sử dụng các công cụ đánh giá dự án phổ biến trong thực tế hiện nay như NPV, PP, IR, B/C.nhằm đánh giá các chỉ tiêu hiệu quả tài chính của dự án, từ đó ra quyết định lựa chọn dự án đầu tư xây dựng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thái đô: giúp học viên nhận thức được tầm quan trọng của việc lập và thẩm định dự án đầu tư xây dựng; từ đó nâng cao nhận thức học tập môn học và áp dụng kiến thức và kỹ năng trong hành nghề trên thực tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về dự án đầu tư",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Dự báo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chỉ tiêu đánh giá và lựa chọn dự án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phân tích kinh tế xã hội, tài chính và rủi ro",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Lập dự án đầu tư xây dựng công trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Quy trình lập, thẩm định, phê duyệt dự án đầu tư xây dựng công trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

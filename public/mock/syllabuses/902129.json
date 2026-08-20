@@ -1,0 +1,122 @@
+{
+  "info": {
+    "sylid": 581621,
+    "subjectCode": "902129",
+    "syllabusName": "Ứng dụng tin học trong ngành môi trường (Applied Informatics in Environmental Science)",
+    "syllabusEnglish": "Applied Informatics in Environmental Science",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc bao gồm các nội dung về:\n-  Khái niệm cơ bản về hệ thống thông tin địa lý;\n-  Cơ sở định vị các đối tượng không gian;\n-  Cấu trúc cơ sở dữ liệu GIS;\n -  \nPhân tích, hiển thị dữ liệu;\n-  Ứng dụng của GIS trong lĩnh vực tài nguyên và môi trường.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học hiểu được các kiến thức cơ bản về ứng dụng công nghệ thông tin, đặc biệt là công nghệ Hệ thống Thông tin Địa lý (Geographic Information System - GIS) trong lĩnh vực tài nguyên và môi trường."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học sử dụng được thành thạo phần mềm ArcGIS, có khả năng cập nhật và sử dụng các phiên bản nâng cấp của phần mềm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học phân tích và đánh giá được các vấn đề môi trường dựa trên dữ liệu địa lý và công nghệ GIS, từ đó đề xuất được các giải pháp quản lý, giám sát và ra quyết định trong lĩnh vực tài nguyên và môi trường."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái niệm cơ bản về hệ thống thông tin địa lý",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cơ sở định vị các đối tượng không gian",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Cấu trúc cơ sở dữ liệu GIS",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phân tích, hiển thị dữ liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Ứng dụng của GIS trong lĩnh vực tài nguyên và môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

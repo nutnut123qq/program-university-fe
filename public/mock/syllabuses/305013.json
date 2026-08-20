@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 490426,
+    "subjectCode": "305013",
+    "syllabusName": "Quản trị chất lượng dịch vụ (Service Quality Management)",
+    "syllabusEnglish": "Service Quality Management",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn này nhằm cung cấp cho sinh viên những kiến thức về các đặc điểm và sự khác biệt giữa dịch vụ và hàng hóa, giải thích mô hình  dịch vụ, kế hoạch chi tiết và tầm quan trọng của việc nhận thức được nhu cầu của khách hàng và yêu cầu trong ngành công nghiệp khách sạn; giúp sinh viên có những phán đoán đúng đắn về quy trình của dịch vụ và xác định những thách thức trong việc quản lý dịch vụ; xây dựng tinh thần làm việc nhóm, nguyên tắc chất lượng dịch vụ giao tiếp và khái niệm hóa một cách chuyên nghiệp, sử dụng kỹ năng để giải quyết các vấn đề và yêu cầu của khách hàng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các kiến thức cơ bản về quản lý chất lượng dịch vụ trong ngành công nghiệp du lịch và nhà hàng khách sạn."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng các kỹ năng cơ bản để có thể nghiên cứu, xây dựng và phát triển lòng trung thành của khách hàng thông qua chất lượng dịch vụ."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích vai trò và tác động của chất lượng dịch vụ khách hàng trong sự phát triển của hoạt động du lịch, nhà hàng khách sạn."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá nhận thức trách nhiệm của cá nhân trong việc cung cấp chất lượng dịch vụ trong ngành công nghiệp du lịch và nhà hàng khách sạn."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về chất lượng trong ngành du lịch và giải trí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết lập chất lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quản lý và nâng cao chất lượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

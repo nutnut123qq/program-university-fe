@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 646148,
+    "subjectCode": "302220",
+    "syllabusName": "Kỹ năng giao tiếp trong du lịch (Communication Skills in Tourism)",
+    "syllabusEnglish": "Communication Skills in Tourism",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này nhằm cung cấp những kiến thức nền tảng về giao tiếp, tăng cường khả năng giao tiếp, nâng cao hiệu quả ứng dụng các kỹ năng, cũng như cho phép sinh viên ứng dụng linh hoạt và phù hợp các kỹ năng giao tiếp trong các tình huống thường xảy ra trong ngành công nghiệp du lịch. Môn học trang bị cho sinh viên những kiến thức về lễ tân, nghi thức ngoại giao và phương pháp làm chủ các kỹ thuật giao tiếp liên văn hóa. Từ đó, sinh viên có thể giao tiếp tự tin hơn trong cuộc sống, học tập và trong công việc.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên biết trình bày tóm tắt các kiến thức tổng quát về giao tiếp,  tầm quan trọng của kỹ năng giao tiếp trong môi trường du lịch, liệt kê được các kỹ năng giúp giao tiếp hiệu quả trong môi trường du lịch, hiểu các ý nghĩa và hoạt động của lễ nghi ngoại giao.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên nhận thức rõ về vai trò của việc giao tiếp hiệu quả trong môi trường du lịch."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên sử dụng thành thạo các phương tiện giao tiếp trong công việc, cuộc sống và trong học tập, ứng xử và giải quyết được các tình huống giao tiếp trong môi trường du lịch, hòa nhập và thích ứng với môi trường du lịch một cách nhanh chóng. \n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên có ý thức vận dụng các kỹ năng giao tiếp trong môi trường du lịch, có thái độ giao tiếp phù hợp với từng đối tượng cụ thể trong công việc, thể hiện sự tôn trọng đối tượng giao tiếp và nghiêm túc khi giao tiếp, tự tin và chủ động trong giao tiếp, có ý thức giữ gìn và phát huy văn hóa của doanh nghiệp\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về kỹ năng giao tiếp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Ứng dụng kỹ năng giao tiếp trong môi trường du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lễ nghi ngoại giao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

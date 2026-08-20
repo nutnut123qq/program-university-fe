@@ -1,0 +1,122 @@
+{
+  "info": {
+    "sylid": 512653,
+    "subjectCode": "H02037",
+    "syllabusName": "Dược lý 1 (Pharmacology 1)",
+    "syllabusEnglish": "Pharmacology 1",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Dược lý 1 gồm 6 chương (Thứ tự các chương có thể đảo cho nhau. Giảng viên có thể chọn 1 chương bất kì để bắt đầu khóa học\nChương 1: Dược lý đại cương\nChương 2: Dược lý các thuốc kháng sinh\nChương 3: Dược lý các thuốc trị đái tháo đường và corticoid\nChương 4: Dược lý thuốc trị tăng huyết áp\nChương 5: Dược lý thuốc kháng Histamin và NSAID\nChương 6: Dược lý thuốc tiêu hóa và hô hấp",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trình bày được đặc điểm dược động học, cơ chế tác dụng, tác dụng dược lý, tác dụng không mong muốn, chỉ định, chống chỉ định, cách dùng và tương tác thuốc quan trọng của các thuốc trong nội dung môn học"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích được mục đích của việc sử dụng từng thuốc cụ thể trong điều trị bệnh. Đánh giá được tác động, hiệu quả, tính ưu việt và hạn chế của các thuốc.\r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nhận thức được vai trò quan trọng của nhân viên y tế trong việc chăm sóc sức khỏe cho người dân."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Vận dụng kiến thức về dược động học và dược lực học của các nhóm thuốc để xây dựng liệu trình điều trị bệnh. "
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Phát hiện, xử lý, phòng tránh các tương tác thuốc tiềm năng trong khi sử dụng thuốc điều trị bệnh."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Dược lý học đại cương",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Dược lý các thuốc kháng sinh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Dược lý các thuốc trị đái tháo đường và coticoid",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thuốc hô tiêu hóa và hô hấp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Dược lý thuốc trị tăng huyết áp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thuốc kháng Histamin và NSAID",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,166 @@
+{
+  "info": {
+    "sylid": 649119,
+    "subjectCode": "607039",
+    "syllabusName": "Kỹ thuật nuôi cấy mô và tế bào thực vật (Plant Cell and Tissue Culture Techniques)",
+    "syllabusEnglish": "Plant Cell and Tissue Culture Techniques",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Thiết kế và vận hành phòng thí nghiệm nuôi cấy mô tế bào thực vật;\n\nCác yếu tố ảnh hưởng đến nuôi cấy mô: môi trường, điều kiện khử trùng, ánh sáng, chất điều hòa tăng trưởng thực vật,…\n\nCác kỹ thuật nhân giống: nhân chồi, rễ, tái sinh cây con, nuôi cấy đỉnh sinh trưởng, nuôi cấy phôi sinh dưỡng, hạt nhân tạo, ra hoa trong ống nghiệm…\n\nNuôi cấy mô sẹo và huyền phù tế bào, sản xuất hợp chất thứ cấp…",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên được trang bị các kiến thức về kỹ thuật nuôi cấy mô tế bào thực vật bao gồm: thao tác, vận hành, và quản lý phòng thí nghiệm nuôi cấy mô; quy trình nuôi cấy mô tế bào từ các nguồn mẫu khác nhau nhằm mục đích tạo cây in vitro có chất lượng phục vụ các nhu cầu về nhân giống cây con, tạo hợp chất thứ cấp, tạo cây có chất lượng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thông qua việc thảo luận, trao đổi, và làm báo cáo nhóm, sinh viên rèn luyện được các kỹ năng giao tiếp, trao đổi thông tin, làm việc nhóm, tìm hiểu thông tin, tìm kiếm tài liệu, tổng hợp tài liệu và phân tích các dữ liệu khoa học."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu được phương pháp các tiếp cận nghiên cứu trong lĩnh vực nuôi cấy mô tế bào thực vật. Có được tư duy suy nghĩ độc lập và tư duy khoa học (critical thinking), giải quyết vấn đề liên quan đến quy trình nuôi cấy mô thực vật, đưa ra quy trình ứng dụng trong thực tế."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sau khi học xong, sinh viên có hiểu biết và cái nhìn thực tế về lĩnh vực nuôi cấy mô – tế bào thực vật, cách thức quản lý và vận hành quy trình nghiên cứu và sản xuất, quản lý và vận hành phòng thí nghiệm nuôi cấy mô, từ đó đáp ứng được yêu cầu công việc sau này cũng như hiểu được các giá trị mà ngành CNSH thực vật đem đến. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu kỹ thuật nuôi cấy mô tế bào thực vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nuôi cấy mô sẹo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nuôi cấy huyền phù tế bào",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Nuôi cấy tế bào trần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Nuôi cấy phôi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Nuôi cấy tạo cây đơn bội",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Nuôi cấy đỉnh sinh trưởng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Nuôi cấy lát mỏng tế bào",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Ra hoa trong ống nghiệm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Bioreactor và thu nhận hợp chất thứ cấp từ nuôi cấy in vitro",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "Case study",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

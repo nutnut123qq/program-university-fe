@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 319150,
+    "subjectCode": "D01102",
+    "syllabusName": "GDTC 1 - Taekwondo (Physical Education 1 - Taekwondo)",
+    "syllabusEnglish": "Physical Education 1 - Taekwondo",
+    "credits": "0",
+    "degreeLevel": "Bachelor",
+    "description": "- Lý thuyết:\nBài 1: Lịch sử hình thành và phát triển môn Taekwondo trên Thế giới\nBài 2: Lịch sử hình thành và phát triển môn Taekwondo ở Việt nam\nBài 3: Lợi ích việc tập luyện trong võ thuật\nBài 4: Vệ sinh tập luyện trong võ thuật\nBài 5: Chấn thương trong võ thuật \nBài 6: Phòng ngừa chấn thương trong võ thuật\nBài 7: Kỹ thuật căn bản trong Taekwondo\nBài 8: Bài quyền số 1\nBài 9: Kỹ thuật tấn công Taekwondo cơ bản\nBài 10: Luật thi đấu Taekwondo cơ bản\nBài 11: 8 đòn tự vệ cơ bản\n - Thực hành:  \n+\r\nCác kỹ thuật tấn pháp, kỹ thuật gạt đỡ, đấm, đá cơ bản.\n+\r\nBài quyền: Taegeut 1 (quyền số 1)\n+\r\nKỹ chiến thuật thi đấu đối kháng cơ bản\n+\r\nKỹ thuât tự vệ\n+\r\nCác bài tập bổ trợ, các bài tập phát triển thể lực\n\n+\r\nÔn tập và thi kết thúc môn",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "- Kiến thức: Những kiến thức về lịch sử hình thành và phát triển môn Taekwondo, phương pháp phòng tránh chấn thương, những điều luật cơ bản, nguyên lý kỹ thuật, kỹ thuật tự vệ cơ bản. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "- Kỹ năng tác nghiệp: Sau khi học xong người học có thể nâng cao các tố chất thể lực, khả năng phản xạ, hoàn thiện các kỹ thuật gạt đỡ phòng thủ, bài quyền số 1, kỹ thuật gạt đỡ cơ bản, kỹ thuật tự vệ."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "- Yêu cầu về tư duy: Người học ứng dụng được các kỹ thuật và phát huy những kỹ thuật trong cuộc sống."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "- Thái độ và hành vi: Người học được huấn luyện tính kỷ luật, ý chí, tinh thần võ học."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "80%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "PHẦN 1: LÝ THUYẾT ELEARNING",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "PHẦN 2: THỰC HÀNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

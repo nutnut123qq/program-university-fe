@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 306173,
+    "subjectCode": "C01148",
+    "syllabusName": "Toán ứng dụng đại cương ( Introduction to Applied Mathematics)",
+    "syllabusEnglish": " Introduction to Applied Mathematics",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Ma trận và hệ phương trình tuyến tính\n\n- Vi tích phân hàm một biến",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Môn học cung cấp cho sinh viên các kiến thức về ma trận, hệ phương trình tuyến tính, đạo hàm, tích phân hàm một biến và một số ứng dụng trong các lĩnh vực khoa học môi trường và bảo hộ lao động."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Vận dụng các kiến thức toán để giải quyết một số bài toán thực tế trong các lĩnh vực khoa học môi trường và bảo hộ lao động."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Có tư duy lô-gic, lập luận chặt chẽ. Có khả năng vận dụng kiến thức toán để phục vụ cho chuyên ngành."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Môn học giúp sinh viên hiểu được tầm quan trọng của toán học trong các lĩnh vực khoa học môi trường và bảo hộ lao động. Từ đó, giúp sinh viên hình thành nên sự yêu thích đối với môn học, có thái độ nghiêm túc và tích cực trong học tập. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "MA TRẬN VÀ HỆ PHƯƠNG TRÌNH TUYẾN TÍNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "ĐẠO HÀM VÀ ỨNG DỤNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "TÍCH PHÂN VÀ ỨNG DỤNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

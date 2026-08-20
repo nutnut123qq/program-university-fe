@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 919140,
+    "subjectCode": "H02038",
+    "syllabusName": "Thí nghiệm Dược lý 1 (Pharmacology Laboratory 1)",
+    "syllabusEnglish": "Pharmacology Laboratory 1",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Thí nghiệm Dược lý 1 gồm các bài sau:\n\nCác thủ thuật thao tác trên động vật thí nghiệm và dược lý thuốc sử dụng trong hóa trị liệu bệnh nhiễm\nCác thủ thuật thao tác trên động vật thí nghiệm, dược lý các thuốc trị đái tháo đường và corticoid\n Các thủ thuật thao tác trên động vật thí nghiệm, Dược lý thuốc hô hấp - tiêu hóa\nĐánh giá khả năng kháng viêm của thuốc trên mô hình động vật thí nghiệm và dược lý thuốc kháng HIstamin và NSAID\nThi kết thúc môn học.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu rõ dược lực của các nhóm thuốc bao gồm: Tên thuốc, nhóm dược lý, cơ chế tác động, chỉ định, chống chỉ định, tác dụng phụ, phổ kháng khuẩn."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Khả năng hiểu và thực hiện được các quy trình thử nghiệm để đánh giá tác động của thuốc lên động vật thí nghiệm"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Khả năng thực hiện các kỹ thuật cơ bản trong thử nghiệm thuốc lên động vật thí nghiệm"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các thủ thuật thao tác trên động vật thí nghiệm và dược lý thuốc kháng sinh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các thủ thuật thao tác trên động vật thí nghiệm, dược lý các thuốc trị đái tháo đường và Corticoid",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các thủ thuật thao tác trên động  vật thí nghiệm và dược lý thuốc hô hấp - tiêu hóa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực hiện mô hình gây viêm chân chuôt bằng carrageena và dược lý thuốc kháng Histamin và NSAID",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thi kết thúc môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

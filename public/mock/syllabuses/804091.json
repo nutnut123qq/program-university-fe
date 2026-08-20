@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 332129,
+    "subjectCode": "804091",
+    "syllabusName": "Đồ án kiến trúc 1 (Architecture Studio 1)",
+    "syllabusEnglish": "Architecture Studio 1",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học được chia làm 3 phần chính: \nCơ sở kiến trúc, Bố cục tạo hình và Đồ án thiết\r\nkế nhỏ\n  như bảng dưới đây:\n\nTHÀNH PHẦN\n\nMÔ TẢ NỘI DUNG CHÍNH\n\nTHỰC HÀNH\n\n(Số tiết)\n\nĐỒ ÁN\n\n(Số tiết)\n\nCơ sở kiến trúc \n\nThực hiện các bài tập về kỹ thuật vẽ; cách thức\r\nsử dụng nét vẽ để tạo hình khối và không gian; các quy định về đường nét, chữ\r\nsố… trong bản vẽ thiết kế kiến trúc.\n\n30\n\nBố cục tạo hình\n\nNghiên cứu bản chất của các dạng hình học và vật\r\nliệu. Sự kết hợp của chúng trong một bố cục theo chủ đề để cấu thành một không\r\ngian kiến trúc\n\n30\n\nĐồ án thiết kế nhỏ\n\nTìm hiểu và thiết kế một không gian kiến trúc\r\nnhỏ dựa trên các kỹ năng đã được học, thể hiện được các yếu tố cơ bản trong\r\nkiến trúc như: đường nét, hình khối, bố cục tạo hình, chất liệu, vật liệu. Sản\r\nphẩm thiết kế có mối liên hệ với môi trường cảnh quan xung quanh, công năng sử\r\ndụng rõ ràng và thể hiện bản vẽ thiết kế đúng quy cách\n\n30\n\nTỔNG CỘNG:\n\n0\n\n90",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học kiến thức chuyên môn về về bản vẽ thiết kế kỹ thuật nói chung và bản vẽ kiến trúc – quy hoạch nói riêng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Làm quen với hoạ cụ kiến trúc, luyện tập đường nét và chữ số cơ bản, kỹ năng thực hiện một bản vẽ chuyên ngành từ vẽ bằng chì, vẽ bằng kim đến vẽ màu."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thấu hiểu về hình chiếu vuông góc của vật thể 3 chiều; nhận thức về cái đẹp, bố cục bản vẽ hài hòa."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện ý thức về tầm quan trọng của đồ án trong việc quản lý thời gian thể hiện từng bản vẽ; có thái độ trân trọng với thiết kế và bản vẽ do mình thực hiện. Hình thành đam mê, tìm tòi và sự sáng tạo ở sinh viên."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "3",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "CƠ SỞ KIẾN TRÚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "BỐ CỤC TẠO HÌNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "ĐỒ ÁN THIẾT KẾ NHỎ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,90 @@
+{
+  "info": {
+    "sylid": 413142,
+    "subjectCode": "H01051",
+    "syllabusName": "Kiểm nghiệm thuốc (Pharmaceutical Analysis)",
+    "syllabusEnglish": "Pharmaceutical Analysis",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Kiểm nghiệm thuốc cung cấp cho người học các kiến thức về công tác kiểm nghiệm thuốc, cụ thể:\n\nChương 1: Nghiệp vụ công tác kiểm nghiệm thuốc:\n\n + Hệ thống quản lý và kiểm tra chất lượng thuốc của Việt Nam\n\n + Công tác đảm bảo chất lượng thuốc\n\n + Công tác kiểm nghiệm thuốc\n\n + Công tác tiêu chuẩn\n\n + Nguyên tắc GLP, hệ thống chất lượng ISO/IEC\n\n + Dược điển Việt Nam và một số Dược điển các nước tiên tiến\n\n + Thẩm định một quy trình phân tích định tính, định lượng, tạp chất liên quan\n\nChương 2: Các phép thử thường áp dụng trong Dược điển Việt Nam V.\n\nChương 3: Kiểm nghiệm các dạng bào chế",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Thực hiện công tác kiểm tra chất lượng thuốc để đảm bảo có thuốc tốt từ khâu sản xuất đến khâu lưu trữ và phân phối trước khi tới tay người dùng, phục vụ có hiệu quả và an toàn cho công tác phòng và chữa bệnh"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nhận thức được trách nhiệm của người Dược sỹ về mặt pháp lý cũng như về mặt tinh thần đối với chất lượng thuốc"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nghiệp vụ công tác kiểm nghiệm thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các phép thử thường áp dụng trong Dược điển Việt Nam V",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kiểm nghiệm các dạng bào chế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

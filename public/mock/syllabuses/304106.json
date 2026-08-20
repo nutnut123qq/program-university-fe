@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 295751,
+    "subjectCode": "304106",
+    "syllabusName": "Giới trong công tác xã hội (Gender in Social work)",
+    "syllabusEnglish": "Gender in Social work",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Tổng quan môn học\n\nVấn đề giới trong thời kỳ thơ ấu và niên thiếu\n\nBình đẳng giới\nPhân tích giới và lồng ghép giới trong Công tác xã hội",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết những kiến thức về giới, làm rõ được sự khác biệt giữa giới và giới tính, các khái niệm và quan điểm về giới. Sinh viên hiểu được các cách tiếp cận và các lý thuyết nữ quyền trong Công tác xã hội (CTXH) và lý thuyết trao quyền cho phụ nữ."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu các vấn đề về giới qua các vấn đề xã hội được giải quyết trong thực hành CTXH và chính sách xã hội."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng kỹ năng thực hành CTXH và chính sách xã hội giải quyết vấn đề dựa trên quan điểm về giới."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phân tích và giải quyết vấn đề trong CTXH dựa trên quan điểm giới theo theo Quy điều đạo đức nghề CTXH."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Thay đổi thái độ tích cực, có ý thức, trách nhiệm và nhạy cảm giới trong mọi công việc, mọi lĩnh vực trong CTXH."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Vấn đề giới trong thời kì thơ ấu và niên thiếu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Bình đẳng giới",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phân tích giới và lồng ghép giới trong Công tác xã hội ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

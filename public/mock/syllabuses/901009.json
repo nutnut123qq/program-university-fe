@@ -1,0 +1,196 @@
+{
+  "info": {
+    "sylid": 925898,
+    "subjectCode": "901009",
+    "syllabusName": "Xử lý nước cấp (Water Treatment Engineering)",
+    "syllabusEnglish": "Water Treatment Engineering",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 1: Tổng quan về hệ thống cấp nước và nhu\r\ncầu sử dụng nước\nChương 2: Đặc điểm chất lượng và tiêu chuẩn lựa\r\nchọn nguồn nước thô – Công trình thu nước\nChương 3: Công trình keo tụ - tạo bông\nChương 4: Công trình bể lắng\nChương 5: Công trình bể lọc\nChương 6: Công trình khử trùng và kiểm soát sản phẩm phụ\nChương 7: Công trình khử Fe, Mn và khử cứng, làm\r\nmềm nước\nChương 8: Công trình hấp phụ và trao Đổi Ion\nChương 9: Công trình xử lý ổn định hóa nước",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu các khái niệm cơ bản chuyên ngành và từ vựng tiếng anh chuyên ngành cốt lõi."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu được thành phần, tính chất của nước thiên nhiên; kiến thức chuyên sâu về các kỹ thuật xử lý nước thiên nhiên như lắng, lọc, khử trùng, tuyển nổi, trộn hóa chất, trao đổi ion…"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "\n\nBiết áp dụng các tiêu chuẩn, quy chuẩn đúng chỗ và mục đích sử dụng (xử lý nước cấp cho mục đích sinh hoạt và công nghiệp)\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phân tích được tính chất chất lượng nguồn nước dựa vào các thành phần có trong nước nguồn và các tiêu chuẩn, quy chuẩn quốc gia về chất lượng nước. Trên cơ sở đó lựa chọn sơ đồ xử lý nước phù hợp"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "\n\nBiết ứng dụng các kiến thức đã có để thiết kế sơ đồ xử  lý nước hoàn chỉnh phù hợp với từng mục đích (cấp cho sinh hoạt, công nghiệp, giải trí) và yêu cầu về kinh tế, kỹ thuật.\n\nĐề xuất được sơ đồ công nghệ xử lý phù hợp. Mở rộng kiến thức trong phần viết chương trình bảo dưỡng vận hành cho trạm xử lý nước cấp"
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Đề xuất được các giải pháp kỹ thuật xử lý nước cấp theo từng trường hợp cụ thể; hiểu được vai trò của việc cân đối hài hòa các khía cạnh khai thác và bảo tồn nguồn nước, phục vụ lợi ích cộng đồng đi đôi với bảo vệ thiên nhiên.\n\n"
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Nắm được kiến thức cơ bản về một kế hoạch vận hành bảo dưỡng trạm XLNC, những công tác cần thiết trong việc quản lý trạm XLNC.\n\n\n"
+    },
+    {
+      "id": 8,
+      "loSeq": "8",
+      "cloName": "CO8",
+      "loDetails": "Đề xuất và phát triển các kỹ thuật xử lý nước áp dụng công nghệ mới hoặc các hướng xử lý nước nâng cao nhằm nâng cao chất lượng nước sau xử lý"
+    },
+    {
+      "id": 9,
+      "loSeq": "9",
+      "cloName": "CO9",
+      "loDetails": "Kỹ năng viết và trình bày báo cáo tiểu luận, báo cáo cuối kỳ"
+    },
+    {
+      "id": 10,
+      "loSeq": "10",
+      "cloName": "CO10",
+      "loDetails": "Trung thực trong việc thực hiện các bài tập"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về hệ thống cấp nước và nhu cầu sử dụng nước",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đặc điểm chất lượng và tiêu chuẩn lựa chọn nguồn nước thô – Công trình thu nước",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Công trình keo tụ - tạo bông",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Công trình lắng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Công trình bể lọc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Công trình khử trùng và kiểm soát sản phẩm phụ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Công trình khử Fe, Mn và khử cứng, làm mềm nước",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Công trình hấp phụ và trao Đổi Ion",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Công trình xử lý ổn định hóa nước",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,105 @@
+{
+  "info": {
+    "sylid": 968534,
+    "subjectCode": "903115",
+    "syllabusName": "Sức bền vật liệu (Strength of Materials)",
+    "syllabusEnglish": "Strength of Materials",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Khái niệm ứng suất và biến dạng\n\nTính chất cơ học của vật liệu\n\nTính toán đặc trưng hình học của mặt cắt ngang\n\nPhân tích và thiết kế các cấu kiện chịu kéo, nén, xoắn, uốn và cắt\n\nCác phương pháp biến đổi ứng suất",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên biết được những kiến thức cơ bản về trạng thái cân bằng của vật thể, tải trọng tác dụng và phản lực liên kết."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên hiểu được cách tính toán các giá trị nội lực trên mặt cắt ngang, các giá trị ứng suất tại một phân tố trên mặt cắt ngang đó."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên có thể vận dụng những kiến thức đã học vào việc chuyển công trình thực tế thành sơ đồ tính toán kết cấu và giải được các bài toán kiểm tra bền, bài toán thiết kế mặt cắt ngang, tải trọng cho phép."
+    }
+  ],
+  "assessments": [],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chương 1: Những khái niệm cơ bản về cơ học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Khái quát về lực và các tiên đề tĩnh học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Liên kết và phản lực liên kết ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hệ lực và điều kiện cân bằng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Biến dạng và nội lực",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Đặc trưng hình học của tiết diện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Kéo, nén đúng tâm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Uốn phẳng thanh thẳng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

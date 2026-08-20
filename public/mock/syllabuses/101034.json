@@ -1,0 +1,78 @@
+{
+  "info": {
+    "sylid": 62244,
+    "subjectCode": "101034",
+    "syllabusName": "Nguyên lý thiết kế đồ họa (Graphic Design Principles)",
+    "syllabusEnglish": "Graphic Design Principles",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu 11 yếu tố chính trong thiết kế đồ họa bao gồm: điểm, đường nét, hình khối, hình thể, ánh sáng, màu sắc, bề mặt, tỷ lệ, không gian, chữ, khung.\n\nMỗi yếu tố thiết kế đồ họa sẽ bao gồm lịch sử ra đời và miêu tả chi tiết.\n\nNghiên cứu nguồn gốc, ý nghĩa các thuật ngữ chuyên ngành.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu về những yếu tố chính làm nên ngôn ngữ của thiết kế đồ họa. Những yếu tố này cũng là kiến thức cơ bản chuyên ngành quan trọng, mà sinh viên sẽ phải áp dụng nhiều trong suốt quá trình học và đi làm sau này."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng nghiên cứu, tổng hợp tư liệu về các chủ đề của môn học. Kỹ năng làm việc nhóm và thuyết trình theo chủ đề thông qua các bài tập trên lớp."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích các yếu tố của thiết kế đồ họa và cách áp dụng vào thiết kế của mình."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "GIỚI THIỆU VỀ NGÔN NGỮ CỦA THIẾT KẾ ĐỒ HỌA ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "CÁC YẾU TỐ THIẾT KẾ TRONG THIẾT KẾ ĐỒ HỌA",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

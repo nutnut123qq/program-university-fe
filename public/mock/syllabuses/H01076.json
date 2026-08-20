@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 877865,
+    "subjectCode": "H01076",
+    "syllabusName": "Thí nghiệm Hóa hữu cơ 2 (Organic Chemistry Laboratory 2)",
+    "syllabusEnglish": "Organic Chemistry Laboratory 2",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Qua môn học, người học được trang bị những kiến thức cơ bản, kỹ năng, thao tác thực hành trong phòng thí nghiệm, củng cố kiến thức về Hóa Hữu cơ và đồng thời giúp cho người học hiểu được mối quan hệ giữa lý thuyết và thực hành trong đời sống",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "CO1: giải thích được các dụng cụ và thao tác trong phòng thí nghiệm thí nghiệm nhằm phục vụ một mục đích cụ thể như: cân đong chính xác một khối lượng hay thể tích xác định của một hóa chất ở dạng rắn hay lỏng, kỹ thuật lọc và lọc dưới áp suất kém, v.v. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "CO2: sử dụng được các dụng cụ, thiết bị đơn giản trong phòng thí nghiệm"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "CO3: tóm tắt được các nguyên tắc xử lý tai nạn trong phòng thí nghiệm  "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "CO4: thực hiện được một số phản ứng hóa hữu cơ cũng như quản lý được các quá trình tinh chế sản phẩm "
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "CO5: triển khai được hệ thống tương ứng để tiến hành phản ứng "
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "CO6: quan sát được sự thay đổi về màu sắc, thể chất và hiện tượng đặc trưng hay bất thường của phản ứng hóa học"
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "CO7: phân tích được những điều ảnh hưởng đến kết quả phản ứng hóa học và ảnh hưởng thế nào"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận,Thực hành,Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test,Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Bài 1: Điều chế p-Toluensulfonat Natrium",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Bài 2: Điều chế bromur n-butyl",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Bài 3: Điều chế benzalacetophenon",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Bài 4: Điều chế acetat n-butil",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

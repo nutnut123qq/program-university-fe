@@ -1,0 +1,162 @@
+{
+  "info": {
+    "sylid": 845823,
+    "subjectCode": "903068",
+    "syllabusName": "Kỹ thuật an toàn (Systems Safety Engineering)",
+    "syllabusEnglish": "Systems Safety Engineering",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Xác định và kiểm soát mối nguy;\n\nThiết bị che chắn  ;\n\nThiết bị bảo hiểm - Thiết bị phòng ngừa;\n\nKhóa an toàn;\n\nTín hiệu an toàn;\n\nKhoảng cách an toàn;\n\nCơ cấu điều khiển.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được kiến thức cơ bản về kỹ thuật an toàn để đảm bảo an toàn tại nơi làm việc cụ thể là kiến thức nhận diện và kiểm soát mối nguy hiểm, các phương pháp, phương tiện đảm bảo an toàn như thiết bị che chắn, khóa an toàn, tín hiệu an toàn, …làm tiền đề cho các môn học chuyên ngành về kỹ thuật và quản lý sau này."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng những kiến thức cơ bản nhất của môn học nhằm xác định đúng loại mối nguy hiểm đang tồn tại, lựa chọn biện pháp kiểm soát mối nguy hợp lý nhất để loại trừ hoặc hạn chế tác động của chúng, xác định đúng loại thiết bị an toàn cần bảo vệ."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích cho doanh nghiệp các nội dung cần thực hiện về kỹ thuật an toàn nhằm đảm bảo điều kiện lao động phù hợp cho người lao động. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đề xuất được các giải pháp về kỹ thuật an toàn đảm bảo vệ sinh lao động cho người lao động."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Vận dụng được kỹ năng viết và trình bày báo cáo khoa học để thuyết trình nội dung chương trình một cách hiệu quả."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Vận dụng được kỹ năng làm việc nhóm và làm việc độc lập trong quá trình học một cách hiệu quả"
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Hình thành đạo đức nghề nghiệp; tuân thủ các nguyên tắc an toàn nghề nghiệp; có phẩm chất đạo đức tốt, hiểu biết và tuân thủ pháp luật; tôn trọng và có ý thức bảo vệ người lao động."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Xác định và kiểm soát mối nguy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết bị che chắn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết bị bảo hiểm - Thiết bị phòng ngừa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Khóa an toàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tín hiệu an toàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Khoảng cách an toàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Cơ cấu điều khiển",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

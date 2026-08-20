@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 744874,
+    "subjectCode": "E01160",
+    "syllabusName": "Kỹ năng viết bài biện luận (Debating Skills in International Commerce)",
+    "syllabusEnglish": "Debating Skills in International Commerce",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp những kiến thức và kỹ năng cơ bản về soạn thảo bài biện luận trong tranh chấp thương mại quốc tế. Sau khi kết thúc môn học, người học có khả năng tự tin vận dụng kỹ năng vào việc soạn thảo bài biện luận trong các vụ tranh chấp khác nhau.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "\t- Kiến thức: Mục tiêu của môn học cung cấp cho người học những kiến thức cơ bản về kỹ thuật soạn thảo bài biện luận."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "- Kỹ năng tác nghiệp: môn học giúp cho sinh viên nắm rõ một số kỹ năng về soạn thảo bài biện luận theo quan điểm, lập trường cụ thể của các bên trong các vụ tranh chấp."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "\t- Yêu cầu về tư duy: môn học hỗ trợ sinh viên xây dựng được phương pháp tư duy logic; hình thành phản xạ nghiệp vụ trong xử lý các hoạt động thương mại có yếu tố nước ngoài của doanh nghiệp; trên cơ sở tuân thủ đầy đủ các quy định pháp luật"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "- Thái độ và hành vi: Bước đầu hình thành thói quen phân tích, đánh giá và tư vấn phương án soạn thảo nội dung của bài biện luận. Giúp người học cẩn thận, tuân thủ nghiêm chỉnh các quy định pháp luật trong các quan hệ hợp đồng thương mại quốc tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tự luận,Tranh luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test,Debate",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tranh luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Debate",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái quát về bài biện luận và kỹ năng viết bài biện luận",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cấu trúc một bài biện luận",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Trình bày các phần cụ thể của bài biện luận",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kỹ năng và yêu cầu đối với bài biện luận",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

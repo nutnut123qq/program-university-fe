@@ -1,0 +1,66 @@
+{
+  "info": {
+    "sylid": 324076,
+    "subjectCode": "D03148",
+    "syllabusName": "Taekwondo (Taekwondo)",
+    "syllabusEnglish": "Taekwondo",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Lý thuyết:\nBài 1: Lịch sử hình thành và phát triển môn Taekwondo trên Thế giới\nBài 2: Lịch sử hình thành và phát triển môn Taekwondo ở Việt nam\nBài 3: Lợi ích việc tập luyện trong võ thuật\nBài 4: Vệ sinh tập luyện trong võ thuật\nBài 5: Chấn thương trong võ thuật \nBài 6: Phòng ngừa chấn thương trong võ thuật\nBài 7: Kỹ thuật căn bản trong Taekwondo\nBài 8: Bài quyền số 1\nBài 9: Kỹ thuật tấn công Taekwondo cơ bản\nBài 10: Luật thi đấu Taekwondo cơ bản\nBài 11: 8 đòn tự vệ cơ bản\n - Thực hành:  \n+ Các kỹ thuật tấn pháp, kỹ thuật gạt đỡ, đấm, đá cơ bản.\n+ Bài quyền: Taegeut 1 (quyền số 1)\n+ Kỹ chiến thuật thi đấu đối kháng cơ bản\n+ Kỹ thuât tự vệ\n\n+ Các bài tập bổ trợ, các bài tập phát triển thể lực\n\n+ Ôn tập và thi kết thúc môn",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được lợi ích, biết cách tập luyện môn Taekwondo để tăng cường phát triển thể chất cho bản thân."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "PHẦN 1: LÝ THUYẾT ELEARNING",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "PHẦN 2: THỰC HÀNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

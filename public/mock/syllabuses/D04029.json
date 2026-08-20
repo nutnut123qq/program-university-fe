@@ -1,0 +1,122 @@
+{
+  "info": {
+    "sylid": 444066,
+    "subjectCode": "D04029",
+    "syllabusName": "Sinh lý học vận động trong golf (The Exercise Physiology of Golf)",
+    "syllabusEnglish": "The Exercise Physiology of Golf",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "-\n\nChương 0: Giới thiệu chung về môn học\n-\n\nChương 1 Những vấn đề chung của Sinh lý học\n-\n\nChương 2 Sinh lý hệ tuần hoàn\n-\n\nChương 3 Sinh lý hệ hô hấp\n-\n\nChương 4 Sinh lý hệ thần kinh-cơ\n-\n\nChương 5 Cơ sở sinh lý của các tố chất vận động\n-\n\nChương 6 Các hệ cung cấp năng lượng cho hoạt động cơ\n-\n\nChương 7 \nCơ sở phân loại các bài tập trong thể thao",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Xác định được các kiến thức về đặc điểm sinh lý học vận động vào quá trình hoạt động của các môn thể thao nói chung và môn Golf nói riêng từ đó nâng cao hiệu quả của quá trình giảng dạy và huấn luyện golf."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Chỉ ra được phẩm chất đạo đức, ý thức chấp hành pháp luật, tinh thần phụng sự và luôn hoàn thiện bản thân để giúp ích cho sự phát triển của xã hội nói chung và sự nghiệp thể thao nói riêng. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những vấn đề chung của Sinh lý học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Sinh lý hệ tuần hoàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Sinh lý hệ hô hấp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Sinh lý hệ thần kinh-cơ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Cơ sở sinh lý của các tố chất vận động ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Các hệ cung cấp năng lượng cho hoạt động cơ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Cơ sở phân loại và đặc điểm sinh lý của các bài tập trong thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

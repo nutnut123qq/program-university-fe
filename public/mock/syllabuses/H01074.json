@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 610535,
+    "subjectCode": "H01074",
+    "syllabusName": "Pháp luật tổ chức và quản lý Dược (Pharmaceutical Law and Administration)",
+    "syllabusEnglish": "Pharmaceutical Law and Administration",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các nội dung chính sau:\n\n - Phần 1: Cơ cấu tổ chức trong ngành Dược.\n\n - Phần 2: Chính sách quốc gia và chiến lược phát triển ngành Dược.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "- Kiến thức: \n\n+ Trình bày được cơ cấu tổ chức của ngành Dược.\n+ Trình bày được chính sách quốc gia và chiến lược phát triển của ngành Dược.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "- Kỹ năng tác nghiệp: người học phải có kỹ năng đọc sách; phân tích tổng hợp vấn đề; kỹ năng thuyết trình vấn đề trước số đông."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "- Yêu cầu về tư duy: bằng việc hiểu được các quy định liên quan đến lĩnh vực hành nghề dược người học sẽ áp dụng kiến thức vào việc giải quyết các tình huống liên quan đến quy định pháp luật trong thực tế hành nghề dược."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "- Thái độ và hành vi: người học biết và tôn trọng các quy định của pháp luật. Bước đầu có thái độ và hành vi tuân thủ nghiêm túc quy định của pháp luật nói chung và luật dược trong thực hành ngành dược nói riêng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "2",
+      "weight": "80%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổ chức, quan điểm, đạo đức và chức trách các cơ quan y tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Công tác Dược tại bệnh viện và tuyến cơ sở",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chính sách y tế trong thời đại mới",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Chính sách thuốc thiết yếu tại Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Bảo hiểm y tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

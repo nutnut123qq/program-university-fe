@@ -1,0 +1,122 @@
+{
+  "info": {
+    "sylid": 378881,
+    "subjectCode": "902118",
+    "syllabusName": "Giới thiệu ngành Khoa học và Kỹ thuật môi trường (Introduction to Environmental Engineering and Science)",
+    "syllabusEnglish": "Introduction to Environmental Engineering and Science",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Giới thiệu chung về ngành Khoa học và Kỹ thuật môi trường;\n- Tài nguyên thiên nhiên và môi trường;\n- Ô nhiễm môi trường và các vấn đề có liên quan;\n- Thực trạng và giải pháp quản lý môi trường và tài nguyên;\n\n- Hoạt động ngoại khóa tại doanh nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được kiến thức cơ bản về tự nhiên, xã hội, kiến thức nền tảng về môi trường và tài nguyên thiên nhiên có liên quan đến lĩnh vực khoa học và kỹ thuật môi trường."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng được kỹ năng mềm vào làm việc nhóm để giải quyết các vấn đề chuyên ngành trong lĩnh vực Khoa học và Kỹ thuật môi trường, đồng thời thể hiện thái độ làm việc có trách nhiệm với cộng đồng và xã hội."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá được dạng, nguồn gây ô nhiễm môi trường, lựa chọn được các giải pháp cơ bản phù hợp cho mục tiêu ngăn ngừa ô nhiễm, xử lý chất thải và bảo tồn tài nguyên thiên nhiên."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu chung về ngành Khoa học và Kỹ thuật môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tài nguyên thiên nhiên và môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Ô nhiễm môi trường và các vấn đề có liên quan",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực trạng và giải pháp quản lý môi trường và tài nguyên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hoạt động ngoại khóa tại doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

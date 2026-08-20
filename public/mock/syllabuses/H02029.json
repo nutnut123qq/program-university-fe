@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 767066,
+    "subjectCode": "H02029",
+    "syllabusName": "Thí nghiệm phân tích dữ liệu hệ omics (Omics Data Analysis Laboratory)",
+    "syllabusEnglish": "Omics Data Analysis Laboratory",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần cung cấp cái nhìn tổng quan về các \nkhái niệm, nguyên lý và phương pháp phân tích dữ liệu đa omics\n trong các nghiên cứu quan sát. Nội dung môn học bao gồm việc khám phá và tích hợp các loại dữ liệu sinh học như \nhệ gen (genomics), biểu hiện gen (transcriptomics), chức năng, tương tác và tiến hóa\n, từ đó hỗ trợ phân tích và giải thích các hiện tượng sinh học trong khoa học y sinh.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho người học kiến thức nền tảng về phân tích dữ liệu omics, bao gồm các khái niệm cơ bản, loại dữ liệu và quy trình phân tích trong lĩnh vực khoa học y sinh."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phát triển cho người học kỹ năng sử dụng các công cụ và phương pháp phân tích dữ liệu omics, nhằm giải quyết các bài toán thực tiễn trong nghiên cứu và ứng dụng khoa học y sinh."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Rèn luyện cho người học khả năng xây dựng tư duy nghiên cứu, bao gồm việc hình thành ý tưởng, thiết kế quy trình phân tích và tiếp cận vấn đề từ câu hỏi nghiên cứu cụ thể trong lĩnh vực omics."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Kiểm tra năng lực",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Performance Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Xác định toàn bộ hệ gene",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Xác định biểu hiện gene",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Xác định chức năng gene",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Xác định tương tác gene",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Xác định gene tiến hóa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Đánh giá thao tác",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

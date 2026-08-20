@@ -1,0 +1,86 @@
+{
+  "info": {
+    "sylid": 809499,
+    "subjectCode": "H01060",
+    "syllabusName": "Thí nghiệm Độc chất học (Toxicology Laboratory)",
+    "syllabusEnglish": "Toxicology Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Thí nghiệm Độc chất học gồm 4 buổi học và 1 buổi thi:\n\nBài 1: Phenobarbital, Caffeine\n\nBài 2: Atropine, Strychnine, Quinine, Opioid \n\nBài 3: Phenol\n\nBài 4: Ethanol, Formol và chất độc kim loại mangan, crom, chì.\n\nBài 5: Thi cuối kì",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu rõ tính chất hóa học và độc tính của các chất độc thường gặp, phản ứng phát hiện chất độc trong mẫu phân tích và cách xử lý."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu rõ các thao tác xử lý mẫu, định tính và định lượng các độc chất vô cơ và hữu cơ."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chất độc Phenobarbital, Caffeine",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Chất độc alcaloid (Atropine, Strychnine, Quinine, Opioid)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phenol",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Ethanol, Formol và chất độc kim loại mangan, crom, chì",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thi cuối kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

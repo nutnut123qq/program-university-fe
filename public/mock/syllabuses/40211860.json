@@ -1,0 +1,66 @@
+{
+  "info": {
+    "sylid": 415807,
+    "subjectCode": "40211860",
+    "syllabusName": "Chuyên đề nghiên cứu về xử lý tín hiệu (Advanced Topics in Signal Processing)",
+    "syllabusEnglish": "Advanced Topics in Signal Processing",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu các đề tài nghiên cứu mới trong lĩnh vực xử lý số tín hiệu.\nTìm hiểu và đề xuất các ý tưởng để cải thiện các giải thuật DSP hiện có hoặc thực thi các giải thuật hiệu quả trên phần cứng.\nĐánh giá và so sánh hiệu năng các giải thuật mới đề xuất với các giải thuật hiện có.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu về các hướng nghiên cứu nâng cao trong xử lý số tín hiệu như lấy mẫu nén, lọc thích nghi, các giải thuật dự đoán, giải thuật xử lý ảnh, giải thuật trí tuệ nhân tạo, …\t"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Khả năng phân tích các hệ thống và giải thuật xử lý số tín hiệu.\r\nKhả năng tiến hành mô phỏng và thực nghiệm để kiểm chứng các giải thuật."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá và tìm ra điểm yếu của các giải thuật DSP hiện có dựa trên tư duy phản biện. Đề xuất được các ý tưởng mới để cải thiện các giải thuật DSP hiện có.\r\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học nhận thức được vai trò và vị trí của môn học trong việc phân tích và thiết kế các hệ thống xử lý tín hiệu số trong thực tế; có tinh thần tích cực tìm hiểu và vận dụng kiến thức môn học trong các vấn đề cụ thể.\t"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chuyên đề nghiên cứu về Xử lý tín hiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

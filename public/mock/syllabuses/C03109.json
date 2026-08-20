@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 976808,
+    "subjectCode": "C03109",
+    "syllabusName": "Thống kê nhiều chiều (Multivariate Statistics)",
+    "syllabusEnglish": "Multivariate Statistics",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "·\n\nPhân phối chuẩn\r\nnhiều chiều\n\n·\n\nƯớc lượng hợp lý\r\ncực đại\n\n·\n\nKiểm định giả\r\nthuyết\n\n·\n\nPhân tích thành\r\nphần chính và phân tích nhân tố.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên những kiến thức cơ bản về thống kê nhiều chiều làm nền tảng cho việc học tập các môn trong chuyên ngành cũng như các phương pháp định lượng trong toán học và trong các ngành khoa học khác."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có kỹ năng giải quyết một số vấn đề thống kê nhiều chiều cơ bản, có khả năng vận dụng lý thuyết về phân phối nhiều chiều và kiểm định giả thuyết vào tình huống thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có tư duy lô-gic, lập luận chặt chẽ. Có khả năng vận dụng các kiến thức về thống kê để phục vụ cho chuyên ngành đang theo học."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Môn học giúp sinh viên thấy được tầm quan trọng của thống kê nhiều chiều đối với các ngành khoa học khác."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "PHÂN PHỐI NHIỀU CHIỀU",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "PHÂN PHỐI CHUẨN NHIỀU CHIỀU",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "ƯỚC LƯỢNG VÀ KIỂM ĐỊNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "PHÂN TÍCH THÀNH PHẦN CHÍNH VÀ PHÂN TÍCH NHÂN TỐ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

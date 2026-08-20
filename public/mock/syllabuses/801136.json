@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 922356,
+    "subjectCode": "801136",
+    "syllabusName": "Thí nghiệm xây dựng B (Civil Engineering Laboratory B)",
+    "syllabusEnglish": "Civil Engineering Laboratory B",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Thực hành thí nghiệm thành phần, độ mài mòn Los-Angeles\n\nThực hành thí nghiệm bê tông xi măng\n\nThực hành thí nghiệm cường độ thép\n\nThực hành thí nghiệm vật liệu nhựa đường\n\nThực hành thí nghiệm nén cố kết và cắt trực tiếp của đất, cát\n\nThực hành thí nghiệm đầm nén tiêu chuẩn của vật liệu cát, đất, cấp phối đá dăm\n\nThực hành thí nghiệm trên mô hình dầm bê tông cốt thép chịu uốn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giúp sinh viên biết cách thực hiện các thí nghiệm các lĩnh vực về vật liệu thép, vật liệu bê tông, vật liệu xây dựng nền – mặt đường, kết cấu bê tông cốt thép"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên biết cách tính toán xử lý số liệu, đánh giá kết quả thí nghiệm dựa vào các quy trình trình thi công và nghiệm thu hiện hành."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Chủ động trong việc tìm tòi học hỏi, nghiên cứu tài liệu.\nChấp hành các quy định của nhà trường và lớp học, có tinh thần cầu tiến trong học tập và nghiên cứu.\nHình thành hướng phát triển và đạo đức nghề nghiệp khi ra trường\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thí nghiệm thành phần hạt, độ mài mòn Los-Angeles của vật liệu đá dăm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thí nghiệm Bê tông xi măng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thí nghiệm thép xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thí nghiệm nhựa đường và bê tông nhựa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thí nghiệm nén cố kết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thí nghiệm cắt trực tiếp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Thí nghiệm đầm nén tiêu chuẩn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Thí nghiệm kết cấu dầm bê tông cốt thép chịu uốn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

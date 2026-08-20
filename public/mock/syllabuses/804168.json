@@ -1,0 +1,150 @@
+{
+  "info": {
+    "sylid": 977220,
+    "subjectCode": "804168",
+    "syllabusName": "Mô hình và mô phỏng kỹ thuật số (Digital Modeling and Simulation)",
+    "syllabusEnglish": "Digital Modeling and Simulation",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cho người nhìn cái nhìn bao quát về mô hình và mô phỏng kỹ thuật số trong công việc chuyên nghiệp của Kiến trúc sư, từ đó sử dụng thành thạo một phần mềm dựng hình kỹ thuật số để dựng hình hoặc mô phỏng kỹ thuật số những bản vẽ, công trình sẵn có. Nội dung môn học gồm 3 phần chính:\n\nGiới thiệu chung về mô hình và mô phỏng kỹ thuật số, xu hướng của thế giới trong việc áp dụng BIM trong ngành xây dựng.\n\nNhững công cụ cơ bản và nâng cao của phần mềm Revit.\n\nVận dụng phần mềm Revit để dựng hình, mô phỏng và diễn họa một công trình Kiến trúc.\n\nBài thi cuối kỳ dạng Đồ án, dựng hình và mô phỏng kỹ thuật số lại đồ án kiến trúc đã nộp trước đó bằng phần mềm Revit.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Tập trung trang bị cho sinh viên những nền tảng lí luận của việc tạo lập mô hình và mô phỏng bằng máy tính, giúp cho sinh viên phát triển sự am hiểu có tính phản biện về những công cụ kỹ thuật số và kỹ năng liên quan."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên học cách trình bày thiết kế bằng kỹ thuật số, từ  những bản vẽ hai chiều dựng lên những hình ảnh ba chiều. Tận dụng các chỉ số về khí hậu (gió, mặt trời…) và địa hình được cung cấp bởi các chương trình máy tính trong quá trình tối ưu hóa thiết kế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Bồi dưỡng khả năng tư duy về hai chiều và ba chiều trong thiết kế kiến trúc. Tư duy về các thành phần kiến trúc."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học cần có thái độ tích cực trong học tập và làm việc, thái độ hợp tác trong làm việc nhóm và sự chuyên nghiệp của một người làm ngành nghề liên quan đến kỹ thuật."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cột - Dầm - Sàn - Móng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tường - Vách - Nền",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Cửa – Thiết bị nội ngoại thất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Cầu thang – Ram dốc – Lan can",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Trần – Mái nhà",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Vật liệu và xuất ảnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Kích thước và ghi chú",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Lập hồ sơ thiết kế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

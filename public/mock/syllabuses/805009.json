@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 988330,
+    "subjectCode": "805009",
+    "syllabusName": "Kết cấu thép công trình (Steel Structural in Construction)",
+    "syllabusEnglish": "Steel Structural in Construction",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "·\n\nTrình bày tính chất cơ-lý và ứng xử của vật liệu\r\nthép dưới tác dụng của tải trọng.\n\n·\n\nPhân loại các loại thép trong xây dựng, xác định\r\ntải trọng tính toán để thiết kế.\n\n·\n\nThiết kế và kiểm tra liên kết bulông và liên kết\r\nhàn.\n\n·\n\nThiết kế và kiểm tra kết cấu dầm, cột và hệ dàn\r\nthép.\n\n·\n\nGiới thiệu cho sinh viên những nguyên lý cơ bản\r\nvề việc đọc hiểu các bản vẽ kết cấu thép, cao độ và các mặt cắt hình chiếu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên những kiến thức tổng quát về kết cấu thép trong ngành xây dựng bao gồm:\r\n• Tính chất & ứng xử của vật liệu thép.\r\n• Phân loại các loại thép xây dựng.\r\n• Các loại liên kết trong kết cấu thép.\r\n• Thiết kế một số cấu kiện cơ bản: dầm, cột, dàn… \r\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Tra cứu tài liệu, tiêu chuẩn thiết kế hiện hành, tính toán thiết kế - kiểm tra cấu kiện chịu lực bằng thép. Sinh viên biết cách tư duy phân tích và áp dụng, liên hệ giữa lý thuyết và thực hành tính toán trong ngành xây dựng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu chung kết cấu thép",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết kế liên kết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế dầm chịu uốn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thiết kế cột",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thiết kế khung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

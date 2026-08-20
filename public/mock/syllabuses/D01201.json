@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 591566,
+    "subjectCode": "D01201",
+    "syllabusName": "GDTC 2 - Karate (Physical Education 2 - Karate)",
+    "syllabusEnglish": "Physical Education 2 - Karate",
+    "credits": "0",
+    "degreeLevel": "Bachelor",
+    "description": "- Lý thuyết:\nBài 1 - Lịch sử Karate trên thế giới - Viêt Nam - Liên đoàn Karate\nBài 2 - Đặc điểm phân cấp đai và binh khí trong Karate\nBài 3 - Lợi ích tập luyện Võ thuật\nBài 4 - Vệ sinh tập luyện Võ thuật\nBài 5 - Chấn thương trong Võ thuật\nBài 6 - Phòng ngừa chấn thương trong Võ thuật\nBài 7 - Kỹ thuật cơ bản\nBài 8 - Bài quyền Heian Shodan\nBài 9 - Luật thi đấu cơ bản\nBài 10 - Phương pháp tổ chức thi đấu\n- Thực hành:  \n\n         + Giảng dạy cho sinh viên các kỹ thuật tấn pháp, kỹ thuật gạt đỡ, đấm, đá, tự vệ tay không cơ bản. \n\n         + Bài quyền: Heian Shodan.\n\n         + Các bài tập bổ trợ, các bài tập phát triển thể lực.\n\n         + Ôn tập và thi kết thúc môn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "- Kiến thức:\n  + Những kiến thức về môn Karate, phương pháp phòng tránh chấn thương khi tham gia các hoạt động thể thao, luật thi đấu trong môn Karate, kỹ thuật tự vệ tay không cơ bản."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "- Kỹ năng tác nghiệp: \n+ Sau khi học xong người học có thể nâng cao lượng vận động, khả năng phối hợp vận động, khả năng phản xạ, hoàn thiện các kỹ thuật gạt đỡ phòng thủ, các kỹ thuật đá cơ bản trong môn Karate."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "- Yêu cầu về tư duy: \n+ Người học ứng dụng được các kỹ thuật và phát huy những kỹ thuật trong cuộc sống"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "- Thái độ và hành vi: Người học được huấn luyện tính kỷ luật, ý chí, tinh thần võ học."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "80%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "PHẦN 1: LÝ THUYẾT ELEARNING",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "PHẦN 2: THỰC HÀNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,134 @@
+{
+  "info": {
+    "sylid": 220955,
+    "subjectCode": "903120",
+    "syllabusName": "Thanh, kiểm tra an toàn vệ sinh lao động (Occupational Safety and Health Inspection)",
+    "syllabusEnglish": "Occupational Safety and Health Inspection",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Khái quát về công tác thanh tra An toàn Vệ sinh lao động\nThanh tra An toàn Vệ sinh lao động\nLập kế hoạch thanh tra An toàn Vệ sinh lao động\nĐiều tra tai nạn lao động\nKiểm tra và tự kiểm tra tại cơ sở",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Thể hiện kỹ năng làm việc nhóm và làm việc độc lập, tư duy học tập có hệ thống, kỹ năng giao tiếp và thuyết trình thông qua việc hoàn thành bài tập môn học và báo cáo cuối kỳ."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thể hiện đạp đức nghề nghiệp thông qua việc tuân thủ các quy định về an toàn trong đời sống, môi trường học tập. Có trách nhiệm xã hội và ý thức cá nhân trong công tác an toàn vệ sinh lao động."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Trang bị kiến thức cơ bản về hệ thống thanh tra an toàn vệ sinh lao động; vai trò và ý nghĩa của công tác kiểm tra an toàn vệ sinh lao động tại doanh nghiệp. Tham gia tư vấn, tham mưu và giúp việc cho doanh nghiệp về việc tổ chức thực hiện pháp luật về an toàn vệ sinh lao động, phòng ngừa các hành vi vi phạm pháp luật về an toàn vệ sinh lao động."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phân tích nguyên nhân và đề xuất các giải pháp về tổ chức và quản lý để cải thiện công tác an toàn vệ sinh lao động thông qua kết luận của đoàn thanh tra hoặc kết quả của các đợt kiểm tra nội bộ về an toàn vệ sinh lao động tại doanh nghiệp. "
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Xây dựng các chương trình huấn luyện về công tác kiểm tra an toàn vệ sinh lao động cho doanh nghiệp. Tổ chức các buổi trao đổi kinh nghiệm, học tập và phát triển các kiến thức trong việc tuân thủ an toàn, vệ sinh lao động."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái quát về công tác thanh tra An toàn Vệ sinh lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thanh tra An toàn Vệ sinh lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lập kế hoạch thanh tra An toàn Vệ sinh lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Điều tra tai nạn lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kiểm tra và tự kiểm tra tại cơ sở",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

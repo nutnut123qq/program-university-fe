@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 304016,
+    "subjectCode": "D03140",
+    "syllabusName": "Đồ án tổng hợp (Integrated Project)",
+    "syllabusEnglish": "Integrated Project",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "-\n\nĐồ án tổng hợp là cơ hội để người học thử nghiệm với một đề tài lớn, mang tính thử thách do chính mình chọn lựa, qua đó áp dụng tất cả kiến thức, kĩ năng đã học từ cơ bản đến chuyên ngành vào để đưa ra giải pháp một cách hoàn chỉnh.\n-\n\nĐồ án tổng hợp là cơ hội để người học khởi đầu nghề nghiệp tương lai của mình, bằng các bước tương tác với doanh nghiệp, cơ sở sản xuất, xây dựng mối quan hệ và lập kế hoạch cho nghề nghiệp tương lai một cách rõ ràng thông qua quá trình thực hiện đồ án.\n-\n\nĐồ án tổng hợp bao gồm 2 phần: Phần kế hoạch và phẩn thực hiện",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên nắm vững các kiến thức, cách thức và các bước thực hiện một sự kiện hoặc một dự án kinh doanh thể thao"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có tư duy và các kỹ năng phân tích và suy luận logic, sáng tạo, dự báo xu hướng của thị trường"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có thể thực hiện một sự kiện hoặc một dự án kinh doanh thể thao thực tế"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về đồ án tốt nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phương pháp tổ chức thực hiện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Triển khai nghiên cứu tổng quan đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Xây dựng kế hoạch thực hiện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thực hiện tổ chức sự kiện hoặc dự án kinh doanh.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

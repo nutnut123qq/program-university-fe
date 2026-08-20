@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 33552,
+    "subjectCode": "101052",
+    "syllabusName": "Kỹ thuật dàn trang (Page Layout)",
+    "syllabusEnglish": "Page Layout",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Kỹ thuật dàn trang giới thiệu đến sinh viên kiến thức về dàn trang cơ bản, các thiết lập và sử dụng hệ thống lưới và các giai đoạn sản xuất ấn phẩm đồ họa như: sách, báo, tạp chí, brochure,… và các ấn phẩm điện tử. Trong môn học này , sinh viên sẽ phải sản xuất ra các ấn phẩm đồ họa từ cơ bản đến nâng cao. Từ đó trang bị cho sinh viên đầy đủ kiến thức cũng như kỹ năng, sẵn sàng thiết kế các loại ấn phẩm đồ họa.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và nắm được kiến thức từ cơ bản đến nâng cao về dàn trang và thiết kế xuất bản."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng các kiến thức về dàn trang và thiết kế xuất bản để sản xuất các ấn phẩm: brochure, báo, tạp chí, sách,… và các loại tài liệu điện tử."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích về các kiểu dàn trang trên thế giới cho từng lĩnh vực khác nhau . Sử dụng thuần thục phần mềm Indesign và nhạy bén trong việc thiết kế, thể hiện kỹ năng nghề nghiệp vừng vàng."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá được ý nghĩa của hệ thống lưới trong việc dàn trang, cũng như quy trình sản xuất 1 ấn phẩm đồ họa có giá trị."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "KHÁI NIỆM CƠ BẢN VỀ DÀN TRANG ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "HỆ THỐNG LƯỚI TRONG DÀN TRANG ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "THIẾT KẾ XUẤT BẢN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

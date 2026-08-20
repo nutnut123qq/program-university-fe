@@ -1,0 +1,114 @@
+{
+  "info": {
+    "sylid": 120230,
+    "subjectCode": "902128",
+    "syllabusName": "Thực hành phân tích môi trường (Experiment of Environmental Analysis)",
+    "syllabusEnglish": "Experiment of Environmental Analysis",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Thực hành thí nghiệm bao gồm các nội dung: \n1. Phân tích các chỉ tiêu cơ bản trong chất thải rắn\n2. Phân tích các chỉ tiêu  cơ bản trong mẫu đất \n3. Phân tích độ cứng và canxi \n4. Phân tích Photpho\n5. Phân tích Nito - amoni trong nước",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các kỹ năng và thao tác trong phòng thí nghiệm: cách sử dụng dụng cụ thí nghiệm; cách vận hành các thiết bị thí nghiệm "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết cách thực hành thí nghiệm phân tích các chỉ tiêu môi trường"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": " Biết cách xử lý số liệu thí nghiệm bằng các phần mềm xử lý số liệu cơ bản "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Giải thích được số liệu thí nghiệm thu được và Đánh giá mức độ ô nhiễm thông qua việc so sánh với các tiêu chuẩn quốc tế hoặc tiêu chuẩn quốc gia"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Viết được báo cáo thí nghiệm và đưa ra các kết luận hoặc đề xuất giải pháp về hiện trạng chất lượng môi trường"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành thí nghiệm",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Laboratory Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành thí nghiệm",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Laboratory Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "XÁC ĐỊNH CÁC THÔNG SỐ CƠ BẢN TRONG MẪU CHẤT THẢI RẮN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "XÁC ĐỊNH CÁC THÔNG SỐ CƠ BẢN TRONG MẪU ĐẤT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "ĐỘ CỨNG VÀ CANXI TRONG NƯỚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "XÁC ĐỊNH PHOTPHO TRONG NƯỚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "XÁC ĐỊNH NITO-AMONI TRONG NƯỚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

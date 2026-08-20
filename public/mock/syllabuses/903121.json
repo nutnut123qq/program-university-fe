@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 21643,
+    "subjectCode": "903121",
+    "syllabusName": "Đồ án Kỹ thuật an toàn (Project on System Safety Engineering)",
+    "syllabusEnglish": "Project on System Safety Engineering",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Tổng quan hệ thống kiến thức về kỹ thuật an toàn.\n- Đánh giá thực trạng áp dụng kỹ thuật an toàn cho một đơn vị hoặc Phân tích nhu cầu, khả năng áp dụng kỹ thuật an toàn tại một đơn vị.\n- Đề xuất giải pháp nâng cao công tác an toàn vệ sinh lao động thông qua các biện pháp về kỹ thuật an toàn.\n- Phân tích và trình bày tính khoa học, hiệu quả của một số giải pháp trọng điểm.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Ứng dụng được các kỹ năng làm việc nhóm và làm việc độc lập, tư duy hệ thống, tư duy sáng tạo, kỹ năng giao tiếp và trình bày hiệu quả trong quá trình thực hiện đồ án kỹ thuật an toàn."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng được luật, hệ thống văn bản dưới luật, kiến thức về kỹ thuật an toàn trong việc thực hiện đồ án ứng với một phạm vi công tác an toàn vệ sinh lao động cụ thể."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tư vấn được các giải pháp tổng hợp về  kỹ thuật an toàn nhằm đảm bảo phòng chống tai nạn lao động trong quá trình lao động với một đồ án cụ thể."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đề xuất được giải pháp kỹ thuật an toàn giúp đảm bảo an toàn trong hoạt động về máy móc, hóa chất, cháy nổ, thiết bị áp lực; hệ thống đảm bảo an toàn khi làm việc trên cao, làm việc trong không gian hạn chế và các phạm vi an toàn khác."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Vận dụng được các thành tựu nghiên cứu khoa học liên quan đến kỹ thuật an toàn trong đề xuất giải pháp phòng ngừa sự cố và tai nạn tại nơi làm việc."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Xác định tên đề tài",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hướng dẫn \"Phần mở đầu\"",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hướng dẫn \"Tổng quan cơ sở lý thuyết\"",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hướng dẫn \"Đánh giá thực trạng áp dụng kỹ thuật an toàn\"",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hướng dẫn \"Đề xuất giải pháp\"",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Hướng dẫn \"Kết luận\"",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

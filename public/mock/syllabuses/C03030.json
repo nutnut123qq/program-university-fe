@@ -1,0 +1,144 @@
+{
+  "info": {
+    "sylid": 622019,
+    "subjectCode": "C03030",
+    "syllabusName": "Cơ sở dữ liệu (Database)",
+    "syllabusEnglish": "Database",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm 7 nội dung chính sau: \n\nTổng quan về cơ sở dữ liệu.\n\nMô hình cơ sở dữ liệu quan hệ.\n\nNgôn ngữ SQL.\n\nRàng buộc toàn vẹn.\n\nPhụ thuộc hàm – Thuật toán tìm khoá.\n\nChuẩn hoá cơ sở dữ liệu.\n\nTối ưu hoá câu truy vấn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "- Về kiến thức: \n+ Sinh viên hiểu được ý nghĩa và vai trò của cơ sở dữ liệu, sự cần thiết của CSDL trong việc tổ chức quản lý, lưu trữ, khai thác thông tin.\n+ Sinh viên nắm vững các kiến thức cơ bản về cơ sở dữ liệu,  hệ quản trị CSDL.\n+ Nắm vững kiến thức về cơ sở dữ liệuquan hệ : Khoá, các phép toán tập hợp, phép toán quan hệ (chọn, chiếu, kết), các thao tác cơ bản trên quan hệ (thêm, xoá, sửa…).\n+ Nắm vững ngôn ngữ SQL (ngôn ngữ mô tả dữ liệu, ngôn ngữ thao tác dữ liệu, ngôn ngữ truy vấn dữ liệu).\n+ Hiểu được ý nghĩa của ràng buộc toàn vẹn, từ đó phát hiện được đầy đủ các ràng buộc toàn vẹn cho CSDL.\n+ Hiểu rõ ý nghĩa, vai trò của phụ thuộc hàm trong việc xác định khoá của quan hệ.\n+ Hiểu và vận dụng được thuật toán tìm tất cả các khoá của một lược đồ quan hệ.\n+ Hiểu rõ các dạng chuẩn của một lược đồ quan hệ, biết chuẩn hoá bằng phương pháp phân rã.\n+ Tối ưu hoá câu truy vấn."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Về kỹ năng tác nghiệp:\n\n+ Sử dụng được ngôn ngữ mô tả dữ liệu của hệ quản trị  CSDL SQL server để tạo cơ sở dữ liệu, tạo bảng…cài đặt được khoá chính, khoá ngoại, ràng buộc toàn vẹn miền giá trị, duy nhất, …\n\n+ Sử dụng được ngôn ngữ thao tác dữ liệu của hệ quản trị  CSDL SQL server để cập nhật dữ liệu.\n\n+ Sử dụng được ngôn ngữ truy vấn dữ liệu của hệ quản trị  CSDL SQL server khai thác CSDL.\n\n+ Nhận biết được dạng chuẩn của một lược đồ quan hệ. Biết phân rã lược đồ quan hệ để chuẩn hoá."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "- Yêu cầu về tư duy: \n+ Đánh giá được chất lượng thiết kế cơ sở dữ liệu.\n+ Đánh giá được chất lượng của câu truy vấn và cải tiến để tối ưu câu hỏi.\n+ Sử dụng được phụ thuộc hàm để tìm được tất cả khoá của một lược đồ quan hệ."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "- Về thái độ và hành vi: \n+ Rèn luyện cách xử lý vấn đề logic, cẩn thận, vượt khó.\n+ Rèn luyện khả năng tìm và sửa lỗi, không ỷ lại."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về cơ sở dữ liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Mô hình dữ liệu quan hệ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Ngôn ngữ SQL",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Ràng buộc toàn vẹn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Phụ thuộc hàm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Chuẩn hóa cơ sở dữ liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Tối ưu hóa câu truy vấn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

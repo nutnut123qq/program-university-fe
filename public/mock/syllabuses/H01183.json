@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 362638,
+    "subjectCode": "H01183",
+    "syllabusName": "Phát triển Thực phẩm chức năng và Mỹ phẩm (Food Supplements and Cosmetics Development)",
+    "syllabusEnglish": "Food Supplements and Cosmetics Development",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các nội dung chính sau:\n\n·\n\nChương 1:\n\nĐại cương về thực phẩm chức năng. \n·\n\nChương 2: \nĐại cương về mỹ phẩm.\n\n·\n\nChương 3: \nC\nác phương\n pháp\n sản xuất thực phẩm chức năng\n.\n·\n\nChương 4: \nC\nác phương\n pháp\n sản xuất mỹ\n phẩm.\n\n·\n\nChương 5: Các\n hướng phát triển thực phẩm chức năng và mỹ phẩm.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và ghi nhớ các thuật ngữ trong quy định về quản lý mỹ phẩm."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu và ghi nhớ đặc điểm tiêu chuẩn và thành phẩm TPCN, phân loại và phân biệt thực phẩm chức năng và thực phẩm truyền thống, thuốc, thực phẩm tăng cường"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng kiến thức về vai trò các thành phần TPCN với sức khỏe để sử dụng một số thực phẩm chức năng trong điều trị"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Vận dụng kiến thức đã học để có thể đưa ra các phương pháp nghiên cứu và sản xuất từ các thành phần thường dùng trong TPCN"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đại cương về thực phẩm chức năng.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đại cương về mỹ phẩm.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các phương pháp sản xuất thực phẩm chức năng.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các phương pháp sản xuất mỹ phẩm.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các hướng phát triển thực phẩm chức năng và mỹ phẩm.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

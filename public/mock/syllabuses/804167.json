@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 388541,
+    "subjectCode": "804167",
+    "syllabusName": "Vật liệu trong kiến trúc (Materials in Architecture)",
+    "syllabusEnglish": "Materials in Architecture",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung học phần được thiết kế cho 30 tiết lý thuyết, bao gồm cả bài thảo luận trên lớp và seminar báo cáo chuyên đề. \n\nNền tảng kiến thức cơ bản cần có trước khi học môn học là những kiến thức về cấu tạo kiến trúc, hệ kết cấu công trình, môn Nguyên lý kết cấu;\n\nNội dung kiến thức bao gồm: Quá trình phát triển của vật liệu và thiết kế, Lịch sử hình thành và phát triển của các loại vật liệu và một số mẫu công trình kiến trúc tiêu biểu; Đặc điểm, tính chất, ứng dụng của vật liệu trong thiết kế; Xu hướng sử dụng vật liệu trong tương lai; Các bài thực hành về vật liệu truyền thống và vật liệu mới.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học kiến thức cơ bản về vật liệu trong kiến trúc và xây dựng, cũng như tiến trình phát triển và xu hướng trong tương lai của các loại vật liệu"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng kiến thức để nhận biết và phân tích các loại vật liệu, chất liệu, tính chất sử dụng; Thiết kế kiến trúc, thiết kế nội thất và xử lý vi khi hậu trong quá trình phân tích đánh giá các thuộc tính của từng loại vật liệu."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hoàn thiện kỹ năng trình bày, đánh giá các loại vật liệu nhằm nâng cao tính ứng dụng trong các phương án thiết kế kiến trúc công trình."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện ý thức tôn trọng các giá trị đạo đức nghề nghiệp. Chấp hành luật bản quyền và những thành quả sáng tạo của người đi trước."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "KHÁI NIỆM VỀ VẬT LIỆU TRONG KIẾN TRÚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "QUÁ TRÌNH PHÁT TRIỂN CỦA VẬT LIỆU VÀ THIẾT KẾ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "ỨNG DỤNG CỦA VẬT LIỆU TRONG KIẾN TRÚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "XU HƯỚNG PHÁT TRIỂN VẬT LIỆU TRONG TƯƠNG LAI",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

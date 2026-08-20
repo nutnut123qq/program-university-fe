@@ -1,0 +1,82 @@
+{
+  "info": {
+    "sylid": 205042,
+    "subjectCode": "200010",
+    "syllabusName": "Tập sự nghề nghiệp (Graduation Internship)",
+    "syllabusEnglish": "Graduation Internship",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "- Đánh giá được ưu điểm và hạn chế của thực trạng công tác kế toán từ đó đề xuất các kiến nghị và giải pháp phù hợp.\n\n- Hướng dẫn sinh viên các công việc, kiến thức và kỹ năng cần chuẩn bị cho quá trình tập sự nghề nghiệp tại doanh nghiệp.\n\n- Tham gia tìm hiểu về cơ cấu tổ chức của một doanh nghiệp, cơ cấu tổ chức của các phòng ban và đặc biệt là bộ phận kế toán/ kiểm toán.\n\n- Tiếp cận và thực hành các công việc liên quan đến chuyên ngành đã học với tinh thần trách nhiệm cao.\n\n- Định kỳ báo cáo công việc đã tham gia tại doanh nghiệp tập sự nghề nghiệp thông qua nhật ký tập sự nghề nghiệp.\n\n- Hoàn chỉnh báo cáo tập sự nghề nghiệp theo đúng mẫu biểu và thời gian quy định.\n\n- Trình bày kết quả tập sự nghề nghiệp trước Hội đồng phản biện của Khoa.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giúp sinh viên hội nhập vào môi trường thực tế của doanh nghiệp và thông qua đó sinh viên biết và hiểu về cơ cấu tổ chức của một doanh nghiệp, cơ cấu tổ chức của các phòng ban và đặc biệt là bộ phận kế toán/ kiểm toán. Bên cạnh, sinh viên sẽ có được các kiến thức về tổ chức công việc ở các bộ phận, công tác tổ chức bộ máy kế toán/kiểm toán thực tế tại doanh nghiệp. Sinh viên nhận thức sâu hơn về kiến thức chuyên môn bằng cách  được tiếp cận và thực hành các công việc liên quan đến chuyên ngành đã học. Từ đó giúp sinh viên tự tin và có thể thích nghi nhanh với công việc sau khi tốt nghiệp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có được các kỹ năng thiết lập kế hoạch tập sự nghề nghiệp, kế hoạch công việc;  Biết cách lập kế hoạch & quản lý thời gian cho một công việc; Rèn luyện tác phong làm việc, thích nghi môi trường và văn hóa doanh nghiệp; Rèn luyện kỹ năng giao tiếp, ứng xử; kỹ năng sử dụng trang thiết bị văn phòng và các kỹ năng văn phòng khác của một nhân viên trong môi trường công việc,…"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Biết cách tư duy về cơ cấu tổ chức của doanh nghiệp, cơ cấu tổ chức của phòng/ban, hiểu được mối quan hệ giữa các bộ phận sao cho phối hợp chặt chẽ với nhau. Bên cạnh, sinh viên nắm bắt được cách thức thực hiện các công việc sao cho đạt được hiệu quả cao."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên cần phải có ý thức tổ chức kỷ luật tốt, tác phong đúng mực phù hợp với văn hoá doanh nghiệp"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Vấn đáp,Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Viva/Oral Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Triển khai chương trình tập sự nghề nghiệp và các quy định ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Chương trình tập sự nghề nghiệp tại DN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Báo cáo quá trình tập sự nghề nghiệp DN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

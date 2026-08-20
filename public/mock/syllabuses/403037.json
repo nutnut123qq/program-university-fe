@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 272807,
+    "subjectCode": "403037",
+    "syllabusName": "Điện tử công suất (Power Electronics)",
+    "syllabusEnglish": "Power Electronics",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này cung cấp kiến thức cơ bản về các linh kiện điện tử công suất cơ bản như Diode, Thyristor, Triac, BJT, GTO, FET, IGBT, và các bộ chuyển đổi và hệ thống điện tử công suất cùng các ứng dụng. Bên cạnh đó, sinh viên sẽ có được kỹ năng phân tích để mô tả hoạt động mạch và kỹ năng tổng hợp khi thiết kế mạch điện tử công suất. Môn học gồm những nội dung sau:\n\nGiới thiệu về linh kiện điện tử công suất, các khái niệm của điện tử công suất.\n\nBộ chỉnh lưu 1-pha/3-pha, bán kỳ/toàn kỳ, không điều khiển/điều khiển\n\nBộ biến đổi công suất xoay chiều một pha, ba pha.\n\nBộ biến đổi điện áp 1 chiều (tăng áp, giảm áp), các nguyên lý chuyển đổi năng lượng qua biến thế (forward, flyback, half-bridge, full-bridge)\n\nBộ nghịch lưu 1-pha/3-pha, nguồn áp-nguồn dòng; các kỹ thuật điều chế độ rộng xung sine và không gian vector; và bộ biến tần.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nhận diện các thành phần cơ bản và vai trò của chúng trong các bộ biến đổi công suất điển hình"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Xác định chất lượng của các bộ biến đổi công suất cơ bản"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sử dụng phần mềm để tính toán, mô phỏng các mạch biến đổi công suất điển hình"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về điện tử công suất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Chỉnh lưu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Bộ biến đổi công suất xoay chiều",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Bộ biến đổi điện áp 1 chiều",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Bộ nghịch lưu và biến tần",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

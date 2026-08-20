@@ -1,0 +1,130 @@
+{
+  "info": {
+    "sylid": 291645,
+    "subjectCode": "801061",
+    "syllabusName": "Cấp nước (Water Supply Engineering)",
+    "syllabusEnglish": "Water Supply Engineering",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giúp sinh viên nắm được những kiến thức sau:\n\nNhững khái niệm cơ bản về hệ thống cấp nước.\n\nMạng lưới cấp nước.\n\nHệ thống cấp nước cho công trường xây dựng.\n\nHệ thống cấp nước trong nhà.\n\nKhái niệm chung về hệ thống thoát nước.\n\nHệ thống thoát nước trong nhà.\n\nThi công đường ống.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "+ Kiến thức: \n- Giúp sinh viên biết được các kiến thức cơ bản về hệ thống cấp nước, hệ thống thoát nước; các kiến thức về cấu tạo và nguyên lý hoạt động của hệ thống cấp nước, thoát nước.\n- Giúp sinh viên hiểu và phân tích được các quy trình và biện pháp thi công, tổ chức thi công hệ thống cấp nước, thoát nước.\n- Giúp sinh viên phân tích được về quy hoạch, tính toán thiết kế mạng lưới, hệ thống cấp thoát nước trong công trình.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Giúp sinh viên có thể tính toán, thiết kế cấp nước – thoát nước trong nhà; đọc, hiểu và triển khai được bản vẽ cấp, thoát nước."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "\tNghiêm túc trong học tập, tham gia đủ các tiết học theo quy định.\n\tLuôn chủ động trong việc tìm tòi học hỏi, nghiên cứu tài liệu.\n\tLàm đủ các bài tập, tích cực hổ trợ bạn bè trong học tập. \n\tChấp hành các quy định của nhà trường và lớp học, có tinh thần cầu tiến trong học tập và nghiên cứu.\n\tHình thành hướng phát triển và đạo đức nghề nghiệp khi ra trường.\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "NHỮNG KHÁI NIỆM CƠ BẢN VỀ HỆ THỐNG CẤP NƯỚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "MẠNG LƯỚI CẤP NƯỚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "CẤP NƯỚC CHO CÔNG TRƯỜNG XÂY DỰNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "HỆ THỐNG CẤP NƯỚC BÊN TRONG NHÀ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "HỆ THỐNG THOÁT NƯỚC TRONG NHÀ                    ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "THI CÔNG ĐƯỜNG ỐNG\t",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

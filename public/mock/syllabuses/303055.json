@@ -1,0 +1,158 @@
+{
+  "info": {
+    "sylid": 182917,
+    "subjectCode": "303055",
+    "syllabusName": "Tiếng Anh chuyên ngành du lịch (Tourism English)",
+    "syllabusEnglish": "Tourism English",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học nhằm cung cấp cho sinh viên các thuật ngữ tiếng Anh chuyên ngành với các chủ đề cụ thể trong lĩnh vực du lịch, đồng thời trang bị cho sinh viên những kiến thức và kỹ năng cơ bản cần thiết của các nghiệp vụ trong ngành du lịch. Ngoài ra, sinh viên còn được trang bị các kiến thức cơ bản về các quy trình xử lý công việc, vốn từ vựng để giải quyết những vấn đề phát sinh trong công việc của một công ty du lịch.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên kiến thức tiếng Anh chuyên ngành trong lĩnh vực du lịch, đồng thời trang bị cho sinh viên vốn từ vựng (tiếng Anh) cần thiết của các nghiệp vụ trong ngành du lịch. Ngoài ra, sinh viên còn được trang bị các kiến thức và kĩ năng cơ bản về các quy trình xử lý công việc bằng tiếng Anh.\n\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có thể giao tiếp bằng tiếng Anh các tình huống trong du lịch như ở điểm du lịch, đại lý du lich, giới thiệu và quảng bá tour du lịch, tiếp xúc với khách hàng và ứng xử các tình huống than phiền của khách hàng, v.v.. Sinh viên cũng sẽ được trang bị kĩ năng giải quyết những vấn đề phát sinh trong công việc của một công ty du lịch bằng tiếng Anh."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Dựa trên kiến thức và vốn từ vựng trong môn học, SV có thể hiểu và đánh giá tầm quan trọng của tiếng Anh trong du lịch. Sinh viên có thể tăng khả năng tư duy về cách thức tự tích luỹ vốn tiếng Anh về các chủ đề khác nhau trong ngành nghề du lịch.\n\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên sẽ ý thức được việc sử dụng tiếng Anh trong lĩnh vực du lịch và thấy được sự cần thiết của tiếng anh trong quá trình giao tiếp du lịch. Sinh viên có thể điều chỉnh hành vi tự nâng cao khả năng giao tiếp tiếng Anh với du khách. \n\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Vấn đáp",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Viva/Oral Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Du lịch thế giới",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nghề du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Trung tâm du khách",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các gói tour",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Khách sạn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Đồ ăn và uống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Du lịch thiên nhiên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Du lịch hàng không",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Dịch vụ khách sạn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Tiếp thị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

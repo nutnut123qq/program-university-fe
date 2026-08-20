@@ -1,0 +1,88 @@
+{
+  "info": {
+    "sylid": 180001,
+    "subjectCode": "101101",
+    "syllabusName": "Đồ án tốt nghiệp (Graduation Thesis)",
+    "syllabusEnglish": "Graduation Thesis",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "Đồ án Tốt Nghiệp là học phần tổng hợp cuối khóa, sinh viên phải liên kết tất cả các kiến thức đã học từ trước, vận dụng thành thạo các kỹ năng để hoàn thành một dự án thiết kế riêng của bản thân. Đồ án tốt nghiệp bao gồm luận văn mang tính chất lý thuyết, nghiên cứu chuyên sâu đi kèm với phần thực hành tạo ra sản phẩm thiết kế dựa vào phần nghiên cứu đã thực hiện trước đó. Những sinh viên có đồ án làm xuất sắc hay có kết quả học tập tốt có thể học tiếp lên cao học, tiến sĩ...\n\nLà một học phần nâng cao các khái niệm hóa, thực hiện và nghiên cứu tài liệu của một dự án thiết kế. Sinh viên sẽ được yêu cầu tạo ra và cấu trúc một dự án lớn của bản thân, phát triển và thử nghiệm các khả năng nhận thức, kết hợp ngữ cảnh và kỹ thuật thiết kế của họ. Dự án thiết kế sẽ được trưng bày, ghi chép, in ấn... Bài tập sẽ kết hợp các tham chiếu có thể áp dụng vào lịch sử nghệ thuật và phát triển hiện đại.\n\nĐây là đồ án quan trọng, đòi hỏi sinh viên phải tập trung sức lực và thời gian để thực hiện trong khoảng 4 tháng. Sau khi làm hoàn thành và bảo vệ xong đồ án thì sinh viên có đủ điều kiện để xác nhận là đã đạt trình độ trở thành nhà thiết kế đồ hoạ thưc thụ.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và giải quyết các nhu cầu cơ bản của đối tượng mục tiêu, sử dụng văn bản và kiểu chữ phù hợp với người đọc. Hiểu rõ mối quan hệ giữa mức độ dễ đọc, khả năng đọc, viết, hiểu (lựa chọn kiểu chữ, kích thước, màu sắc, thành phần, thước đo dòng, v.v.)."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Bố trí kiến ​​thức và hiểu biết về các nguyên tắc phân cấp và sắp xếp trực quan. Tổ chức một dự án thiết kế theo hướng nghiên cứu đa diện."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Làm việc với sự tương tác giữa các phần mềm thiết kế khác nhau cả trong không gian hai chiều và ba chiều. Tạo ra các thiết kế ý nghĩa thông qua trải nghiệm và tương tác."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phát triển giọng nói cá nhân thông qua các chế độ viết thích hợp (mô tả, tường thuật, trình bày, thuyết phục và sáng tạo)."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Điều hướng các vấn đề đương đại bằng việc thiết kế các trải nghiệm và sử dụng công nghệ trực quan hỗ trợ. Giao tiếp tương tác bằng cách sử dụng các prototypes trong thiết kế và cung cấp tài liệu hướng dẫn trực quan. Trình bày công việc và kỹ năng một cách chuyên nghiệp trong môi trường cụ thể."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TỔNG QUAN VỀ ĐỒ ÁN TỐT NGHIỆP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "YÊU CẦU CỦA TỪNG ĐỢT DUYỆT TIẾN ĐỘ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "HOÀN THIỆN LUẬN VĂN – THIẾT KẾ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,158 @@
+{
+  "info": {
+    "sylid": 901847,
+    "subjectCode": "E01154",
+    "syllabusName": "Pháp luật về lao động (Employment Law)",
+    "syllabusEnglish": "Employment Law",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "- Những kiến thức, các vấn đề lí luận và thực tiễn xây dựng, ban hành, thực thi các định chế về quan hệ lao động và các vấn đề thuộc lĩnh vực lao động - xã hội.\n- Những kiến thức cơ bản về cơ chế ba bên, quản lí nhà nước về lao động, việc làm, học nghề, quyền công đoàn và vấn đề đại diện lao động, quan hệ HĐLĐ, thoả ước lao động tập thể, các điều kiện lao động, quản lí lao động trong doanh nghiệp, tranh chấp lao động, đình công.\n- Những kiến thức về vấn đề lao động quốc tế (trong khuôn khổ các quy tắc pháp lí lao động của Tổ chức Lao động quốc tế - ILO) và của khu vực.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Môn học trang bị cho sinh viên những kiến thức cơ bản về các vấn đề lí luận và nội dung các định chế về quan hệ lao động và về các quan hệ có liên quan trực tiếp đến quan hệ lao động - xã hội như việc làm, học nghề, quan hệ hợp đồng lao động, tiền lương, quyền công đoàn và vấn đề đại diện lao động, thoả ước lao động tập thể, các điều kiện lao động, quản lí lao động trong doanh nghiệp, tranh chấp lao động, đình công, quản lí nhà nước về lao động; nắm bắt, hiểu và biết đánh giá một cách khoa học các vấn đề cơ bản về luật lao động."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Trang bị cho sinh viên các kỹ năng ứng dụng trong thực tiễn về quản lý lao động trong doanh nghiệp, giải quyết tranh chấp lao động."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Môn học cung cấp cho người học tư duy độc lập, tư duy về tổ chức quản lý hướng đến tính hiệu quả và tuân thủ pháp luật của hoạt động quản lý lao động đảm bảo tính công bằng, đảm bảo các quyền cơ bản của người lao động và người sử dụng lao động; không ngừng nâng cao trách nhiệm của cá nhân, tổ chức trong quan hệ lao động."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Học xong môn này sinh viên sẽ có ý thức và trách nhiệm công dân về thực thi các định chế về quan hệ lao động và các vấn đề thuộc lĩnh vực lao động - xã hội"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "KHÁI QUÁT VỀ LUẬT LAO ĐỘNG VIỆT NAM",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "HỌC NGHỀ, VIỆC LÀM",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "HỢP ĐỒNG LAO ĐỘNG (HĐLĐ)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "CÔNG ĐOÀN - THƯƠNG LƯỢNG TẬP THỂ & THỎA ƯỚC LAO ĐỘNG TẬP THỂ (TƯLĐTT)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "THỜI GIỜ LÀM VIỆC, THỜI GIỜ NGHỈ NGƠI",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "CHẾ ĐỘ TIỀN LƯƠNG – BẢO HIỂM XÃ HỘI",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "AN TOÀN LAO ĐỘNG, VỆ SINH LAO ĐỘNG (ATLĐ, VSLĐ)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "KỶ LUẬT LAO ĐỘNG & TRÁCH NHIỆM VẬT CHẤT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "TRANH CHẤP LAO ĐỘNG - GIẢI QUYẾT TRANH CHẤP LAO ĐỘNG & ĐÌNH CÔNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "QUẢN LÝ CỦA NHÀ NƯỚC VỀ LAO ĐỘNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

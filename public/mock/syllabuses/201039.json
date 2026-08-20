@@ -1,0 +1,144 @@
+{
+  "info": {
+    "sylid": 557235,
+    "subjectCode": "201039",
+    "syllabusName": "Nguyên lý kế toán (Principles of Accounting)",
+    "syllabusEnglish": "Principles of Accounting",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung môn học bao gồm 7 chương:\n\nChương 1: Bản chất, đối tượng và các nguyên tắc kế toán\n\nChương 2: Báo cáo kế toán\n\nChương 3: Tài khoản và ghi sổ kép\n\nChương 4: Tính giá các đối tượng kế toán\n\nChương 5: Kiểm soát nội bộ và các giao dịch bằng tiền\n\nChương 6: Hệ thống chứng từ và sổ sách kế toán\n\nChương 7: Kế toán các nghiệp vụ kinh tế phát sinh chủ yếu trong doanh nghiệp",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên giải thích được ai là người sử dụng báo cáo tài chính và các mục đích khi sử dụng thông tin; phân biệt được tài sản và nguồn vốn, doanh thu và chi phí; hiểu được tính cân đối của kế toán; nắm vững kiến thức cơ bản về kiểm soát nội bộ đối với khoản mục tiền; nội dung cơ bản của chứng từ và các loại sổ kế toán."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên lập được Bảng cân đối kế toán và Báo cáo kết quả hoạt động kinh doanh dạng đơn giản; tính toán và đánh giá tổng quát một số chỉ tiêu cơ bản trên báo cáo tài chính; định khoản được một số nghiệp vụ kinh tế phát sinh chủ yếu trong doanh nghiệp."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên hiểu được các nguyên tắc và yêu cầu của công tác kế toán trong doanh nghiệp; nắm được phương pháp tổng hợp, cân đối và suy luận phân tích những nghiệp vụ kinh tế phát sinh chủ yếu trong doanh nghiệp để định khoản kế toán."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên nhận biết được tầm quan trọng của công tác kế toán và nội dung cơ bản của các phần hành kế toán trong doanh nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Bản chất và đối tượng kế toán",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Báo cáo kế toán",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tài khoản và ghi sổ kép",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tính giá các đối tượng kế toán",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kiểm soát nội bộ và các giao dịch về tiền",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Hệ thống chứng từ và sổ sách",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Kế toán các quá trình kinh doanh chủ yếu trong doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

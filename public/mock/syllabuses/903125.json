@@ -1,0 +1,88 @@
+{
+  "info": {
+    "sylid": 287350,
+    "subjectCode": "903125",
+    "syllabusName": "Ứng dụng tin học trong ngành bảo hộ lao động (Applied Informatics in Occupational Safety and Health)",
+    "syllabusEnglish": "Applied Informatics in Occupational Safety and Health",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học bao gồm các nội dung sau:\n\nPhần mềm quản lý an toàn, vệ sinh lao động tại doanh nghiệp\nĐiện toán động lực học chất lưu (CFD)\nCác bản vẽ phổ biến trong công trường xây dựng\nBản vẽ phổ biến trong quy trình công nghệ",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên hiểu được một số kiến thức cơ bản về ứng dụng công nghệ thông tin trong lĩnh vực an toàn, vệ sinh lao động"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Rèn luyện được kỹ năng làm việc nhóm trong quá trình thực hiện chuyên đề môn học theo yêu cầu của giảng viên giảng dạy"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Hệ thống quản lý An toàn, sức khỏe nghề nghiệp tại doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Bản vẽ phổ biến trong công trường xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Bản vẽ phổ biến trong quy trình công nghệ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Điện toán động lực học chất lưu (CFD)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

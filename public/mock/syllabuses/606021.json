@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 592321,
+    "subjectCode": "606021",
+    "syllabusName": "Hóa lý polymer (Physical Chemistry of Polymers )",
+    "syllabusEnglish": "Physical Chemistry of Polymers ",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Môn học giới thiệu kiến thức khái niệm căn bản về cấu tạo, các tính chất lý học đặc trưng của polymer, các tính chất cơ học polymer, dung dịch hợp chất cao phân tử, khối lượng phân tử và hình dáng đại phân tử và cơ chế kết dính của polymer.\n\n- Môn học giúp sinh viên hiểu rõ cấu tạo, đặc tính lý học, tính chất cơ học và một số đặc điểm khác của polymer. Kiến thức này giúp ứng dụng trong nghiên cứu và sản xuất vật polymer trong thực tiễn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Môn học trang bị kiến thức cơ sở về các pha polymer, trạng thái của polymer, nghiên cứu cấu trúc polymer, các tính chất vật lý đặc trưng của polymer, độ bền của polymer, dung dịch polymer, hóa dẻo polymer, khối lượng phân từ - hình dạng phân tử polymer và cơ chế kết dính của polymer."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Môn học giúp nắm được các tính chất, cấu trúc đặc trưng của polymer, các pha polymer, các tồn tại của polymer, đặc điểm dung dịch polymer, khả năng kết dính để ứng dụng vào trong sản xuất vật liệu polymer và áp dụng các phương pháp gia công vật liệu polymer"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Biết đặc điểm, tính chất trạng thái tồn tại của polymer, biết tính chất vật lý, để từ đó có khả năng tự nghiên cứu chuyên sâu về ngành polymer, cũng như  nghiên cứu các chuyên đề liên quan đến vật liệu polymer và phương pháp gia công polymer."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học có nhận thức mới về môn học, có thái độ học tập và nghiên cứu đúng đắn."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những khái niệm cơ bản polymer",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các tính chất lý học đặc trưng của polymer",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tính chất cơ học của polymer",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Dung dịch các hợp chất cao phân tử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Khối lượng phân tử polymer và hình dạng của đại phân tử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Những khái niệm cơ bản về cơ chế kết dính",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

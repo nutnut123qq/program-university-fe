@@ -1,0 +1,96 @@
+{
+  "info": {
+    "sylid": 238486,
+    "subjectCode": "E02005",
+    "syllabusName": "Các học thuyết về hợp đồng (Theories of Contract Law)",
+    "syllabusEnglish": "Theories of Contract Law",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần cung cấp nền tảng lý luận chuyên sâu về các học thuyết lớn trong pháp luật hợp đồng hiện đại. Nội dung học phần tập trung phân tích sự hình thành, nội dung cốt lõi, giá trị, giới hạn và ảnh hưởng của các học thuyết đối với việc xây dựng, giải thích và áp dụng pháp luật hợp đồng. Học phần gồm ba nhóm nội dung chính: (i) dẫn nhập về lý luận hợp đồng và các trục tranh luận cơ bản; (ii) các học thuyết kinh điển và hiện đại về hợp đồng như học thuyết ý chí, học thuyết cam kết, chủ nghĩa hiện thực pháp lý, phân tích kinh tế của hợp đồng, học thuyết quan hệ, lý thuyết công bằng và học thuyết chức năng xã hội; và (iii) sự tiếp biến các học thuyết này trong pháp luật hợp đồng Việt Nam. Học phần kết hợp phân tích học thuật, án lệ và tình huống thực tiễn nhằm phát triển tư duy lý luận và kỹ năng lập luận pháp lý của người học.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho người học kiến thức hệ thống và chuyên sâu về các học thuyết nền tảng của pháp luật hợp đồng; hiểu được cơ sở triết học, chính trị, kinh tế và xã hội của các học thuyết này cũng như ảnh hưởng của chúng đến pháp luật hợp đồng hiện đại."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Rèn luyện kỹ năng phân tích học thuyết pháp lý, đọc và bình luận án lệ, so sánh các cách tiếp cận lý luận khác nhau và vận dụng học thuyết để giải thích các quy định của pháp luật hợp đồng Việt Nam."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hình thành tư duy phản biện học thuật, thái độ nghiên cứu độc lập, tôn trọng đa dạng học thuật và ý thức vận dụng lý luận vào giải quyết các vấn đề thực tiễn của pháp luật hợp đồng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình",
+      "type": "Trắc nghiệm,Thuyết trình,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Presentation,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhập môn học thuyết về hợp đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các học thuyết kinh điển về hợp đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các học thuyết hiện đại về hợp đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

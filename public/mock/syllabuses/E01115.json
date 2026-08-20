@@ -1,0 +1,134 @@
+{
+  "info": {
+    "sylid": 832683,
+    "subjectCode": "E01115",
+    "syllabusName": "Luật thuế và ngân sách (Tax Law and Nation Budget)",
+    "syllabusEnglish": "Tax Law and Nation Budget",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giới thiệu khái quát, hệ thống về pháp\r\nluật ngân sách nhà nước, pháp luật thuế trong hệ thống pháp luật tài chính công\r\ncủa Việt Nam. Môn học cung cấp những kiến thức lý luận cơ bản và các quy định\r\npháp luật về ngân sách nhà nước, các sắc thuế và các nguồn thu cơ bản của ngân\r\nsách nhà nước tại Việt Nam hiện nay.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học được trang bị kiến thức lý luận cơ bản về thuế, hiểu và nắm bắt đúng các khái niệm về người nộp thuế, đối tượng chịu thuế, những trường hợp không chịu thuế, căn cứ tính thuế, chế độ miễn, giảm… trong từng sắc thuế. \n-\tGiúp sinh viên nắm bắt những quy định của pháp luật về chế độ đăng ký, khai thuế, nộp thuế đối với tất cả các sắc thuế trong hệ thống pháp luật thuế Việt Nam, các quy định của pháp luật về xử lý vi phạm trong lĩnh vực thuế. \n-\tNắm bắt được một số vấn đề thực tiễn pháp lý cơ bản trong lĩnh vực thuế.\n-\tTrang bị kiến thức tổng quan về ngân sách nhà nước; giúp sinh viên nắm bắt những quy định của pháp luật về các nguồn thu và nhiệm vụ chi của ngân sách nhà nước, phân cấp quản lý quỹ ngân sách nhà nước và kiểm soát quỹ ngân sách nhà nước.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học xác định đúng tình huống, sự kiện phát sinh, thay đổi và chấm dứt nghĩa vụ thuế. Vận dụng các quy định pháp luật phù hợp trong việc xác định chủ thể có nghĩa vụ nộp thuế, đối tượng chịu thuế. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học phát triển khả năng tư duy logic trước các tình huống thuế và giải quyết các tình huống đó phù hợp với quy định của pháp luật. Vận dụng tốt các kiến thức pháp lý về thuế để bảo vệ quyền và lợi ích của người nộp thuế và/ hoặc thực hiện đúng trách nhiệm của cơ quan thuế. Vận dụng các quy định pháp luật trong việc xác định nguồn thu, nhiệm vụ chi của ngân sách nhà nước, phân cấp quản lý ngân sách và kiểm soát quỹ ngân sách nhà nước"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học phát huy khả năng làm việc nhóm. Phát huy khả năng chủ động trong việc tìm kiếm thông tin, dữ liệu, hỗ trợ pháp lý trong việc giải quyết/ vận dụng pháp luật vào thực tiễn. Tăng cường khả năng đánh giá, lập luận và giải thích pháp luật. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Trắc nghiệm,Thuyết trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Multiple Choice Questions,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TỔNG QUAN VỀ PHÁP LUẬT NGÂN SÁCH NHÀ NƯỚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "PHÁP LUẬT VỀ  HỆ THỐNG NGÂN SÁCH NHÀ NƯỚC VÀ PHÂN CẤP QUẢN LÝ NGÂN SÁCH NHÀ NƯỚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "PHÁP LUẬT VỀ THU, CHI NGÂN SÁCH NHÀ NƯỚC VÀ QUẢN LÝ QUỸ NGÂN SÁCH NHÀ NƯỚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "NHỮNG VẤN ĐỀ CƠ BẢN VỀ THUẾ VÀ PHÁP LUẬT THUẾ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "PHÁP LUẬT THUẾ THU VÀO HÀNG HOÁ, DỊCH VỤ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "PHÁP LUẬT THUẾ THU VÀO THU NHẬP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "PHÁP LUẬT THUẾ THU VÀO HÀNH VI SỬ DỤNG VÀ KHAI THÁC TÀI SẢN QUỐC GIA",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

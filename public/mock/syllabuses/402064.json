@@ -1,0 +1,104 @@
+{
+  "info": {
+    "sylid": 310830,
+    "subjectCode": "402064",
+    "syllabusName": "Giải tích cho kỹ thuật (Engineering Analysis)",
+    "syllabusEnglish": "Engineering Analysis",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này giới thiệu giới thiệu hai chủ đề quan trọng trong kỹ thuật giao tiếp và điều khiển: các mô hình không gian trạng thái và các phương pháp xác suất của phân tích tín hiệu hệ thống. Tất cả các khái niệm sẽ được minh họa bằng các ví dụ và sinh viên có thể thực hiện các bài tập bằng cách sử dụng các công cụ như MATLAB:\n\nCác mô hình không gian trạng thái\n: các mô hình không gian-trạng thái tuyến tính từ các phương trình vi phân; mối quan hệ giữa các mô hình không gian-trạng thái và hàm truyền; đáp ứng động học của các mô hình không gian-trạng thái; biến đổi tương tự và lựa chọn cơ sở; các hiện thực trong điều kiện mạnh và yếu của hệ điều khiển.\n\nPhương pháp xác suất\n: khái niệm xác suất; các biến ngẫu nhiên, nhiễu điện, hàm phân phối, hàm tương quan pdf; mật độ phổ; tương quan, đáp ứng của hệ thống tuyến tính với đầu vào ngẫu nhiên.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên có thể nhớ các khái niệm về giá trị riêng, hàm riêng, hàm truyền, ma trận trạng thái của hệ thống, xác suất, biến ngẫu nhiên, phân phối, hàm mật độ xác suất, hàm tương quan; và mô tả các loại tín hiệu và quy trình khác nhau bằng các mô hình xác suất."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có thể hiểu phương pháp biểu diễn các hệ thống điện bằng các mô hình toán học sử dụng phương trình vi phân không gian-trạng thái; hiểu các đặc điểm chính của đáp ứng thời gian trong một hệ thống tuyến tính; có thể phân biệt các loại tín hiệu nhiễu khác nhau trong các hệ thống điện và điện tử và hiểu tác động của chúng trên các hệ thống đó."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên có thể áp dụng kiến thức để tìm hàm truyền của hệ thống từ các mô hình không gian-trạng thái, hoặc tìm các mô hình không gian-trạng thái của hệ thống từ phương trình vi phân và hàm truyền, tính toán các tham số của các quá trình ngẫu nhiên và phân tích chúng bằng cách sử dụng các hệ thống tuyến tính, xác định hàm mật độ xác suất của các biến ngẫu nhiên."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các khái niệm cơ bản về hệ thống tuyến tính.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Mô hình không gian trạng thái của hệ thống tuyến tính.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lý thuyết xác suất.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Quá trình ngẫu nhiên.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

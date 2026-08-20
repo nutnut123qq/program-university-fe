@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 105674,
+    "subjectCode": "D01001",
+    "syllabusName": "Bơi lội (Swimming)",
+    "syllabusEnglish": "Swimming",
+    "credits": "0",
+    "degreeLevel": "Bachelor",
+    "description": "- Lý thuyết:\n+ Khái niệm, đặc điểm và lợi ích việc tập luyện môn bơi lội\n+ Lịch sử hình thành và phát triển môn bơi lội trên Thế giới\n+ Lịch sử hình thành và phát triển môn bơi lội ở Việt nam\n+ Liên đoàn - Hiệp hội bơi lội\n+ Vệ sinh tập luyện thể thao\n+ Chấn thương- phòng ngừa chấn thương\n+ Đuối nước - Phòng ngừa đuối nước\n+ Tư thế thân người bơi ếch\n+ Kỹ thuật động tác chân ếch\n+ Kỹ thuật động tác tay ếch\n+ Kỹ thuật phối hợp\n+ Kỹ thuật quay vòng\n+ Luật bơi lội cơ bản\n+ Phương pháp tổ chức thi đấu\n- Thực hành:\n+ Tư thế thân người\n+ Kỹ thuật động tác chân ếch\n+ Kỹ thuật động tác tay ếch\n+ Kỹ thuật phối hợp hoàn chỉnh\n+ Kỹ thuật quay vòng\n+ Đứng nước",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "- Kiến thức: Môn học nhằm trang bị kiến thức cho sinh viên biết khái quát cơ bản về môn bơi lội, lịch sử hình thành và phát triển, nguyên lý vận động của cơ thể trong môi trường nước và nguyên lý kỹ thuật cơ bản của bơi ếch, lợi ích tác dụng của môn bơi lội, luật bơi lội."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "- Kỹ năng tác nghiệp: Biết bơi Ếch đúng kỹ thuật, phát triển các tố chất thể lực, đứng nước, biết phương pháp cứu đuối và an toàn dưới nước để vận dụng thành kỹ năng trong cuộc sống."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "- Yêu cầu về tư duy: Sinh viên phải cần có sự tập trung và chú ý cao, vì môi trường học tập khác với môi trường sống hằng ngày."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "-Thái độ và hành vi: Rèn luyện ý chí, tuân thủ và chấp hành nghiêm túc quy định được đề ra."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "80%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Học online 15 tiết (sinh viên tự học trên nền tảng công nghệ số)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực hành (45 tiết)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

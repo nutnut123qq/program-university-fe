@@ -1,0 +1,154 @@
+{
+  "info": {
+    "sylid": 964237,
+    "subjectCode": "603073",
+    "syllabusName": "Thí nghiệm vi sinh (Microbiology Laboratory)",
+    "syllabusEnglish": "Microbiology Laboratory",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Thực hành bao gói dụng cụ, chuẩn bị môi trường để nuôi cấy và sử dụng kính hiển vi quang học.\n\nThực hành cấy nấm mốc, nấm men và vi khuẩn.\n\nQuan sát một số giống nấm mốc ở dạng đại thể và làm tiêu bản quan sát ở dạng vi thể.\n\nQuan sát chồi, bào tử của nấm men. Xác định tỷ lệ tế bào sống chết.\n\nQuan sát vi khuẩn ở trạng thái sống và ở trạng thái nhuộm màu (nhuộm đơn, nhuộm gram, nhuộm bào tử).\n\nXác định mật độ tế bào nấm men trong canh trường bằng phương pháp đếm bằng buồng đếm hồng cầu và đếm khuẩn lạc trên môi trường thạch.\n\nPhát hiện và định lượng vi sinh vật trong môi trường.\n\nKhảo sát tốc độ sinh trưởng, biến dưỡng của vi sinh vật.\n\nĐịnh danh và bảo quản vi sinh vật.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu rõ hình thái các vi sinh vật cơ bản và một số đặc điểm sinh lý sinh hóa của chúng.\r\n\r\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": " Vận hành đúng các thiết bị và sử dụng đúng các dụng cụ của ngành vi sinh vật trong thí nghiệm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có kỹ năng làm việc nhóm để chủ động sắp xếp thí nghiệm, hoàn thành tốt thí nghiệm."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phân tích được các đặc điểm vi sinh vật, cấu tạo và cơ chế sinh hóa trong vi sinh vật."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Vận dụng kiến thức và tư duy đúng về vi sinh vật để thao tác đúng, nuôi cấy và khảo sát một số đặc điểm hình thái, sinh lý sinh hóa của vi sinh vật."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tiểu luận",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Thực hành",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những dụng cụ, thiết bị cơ bản  và môi trường nuôi cấy vi sinh vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nuôi cấy vi sinh vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quan sát nấm mốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Quan sát nấm men",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Quan sát vi khuẩn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Phương pháp phân lập vi sinh vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Các phương pháp định lượng vi sinh vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Khảo sát sự tăng trưởng của  vi khuẩn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Khảo sát biến dưỡng ở  vi sinh vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Định danh vi khuẩn . Bài 11:   Bảo quản vi sinh vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

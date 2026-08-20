@@ -1,0 +1,76 @@
+{
+  "info": {
+    "sylid": 680554,
+    "subjectCode": "D03151",
+    "syllabusName": "Yoga (Yoga)",
+    "syllabusEnglish": "Yoga",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "﻿\n﻿\n﻿\n- Lý thuyết:\n+ Lịch sử hình thành và phát triển môn Yoga trên Thế giới và ở Việt Nam;\n+ \nL\nợi ích và vệ sinh trong tập luyện yoga;\n+ Liên đoàn và hiệp hội của môn Yoga;\n+ Chấn thương trong tập luyện thể thao;\n+ Phòng ngừa chấn thương trong tập luyện thể thao P.1;\n+ Phòng ngừa chấn thương trong tập luyện thể thao P.2;\n+ Các chấn thương thường gặp trong Yoga P.1;\n+ Các chấn thương thường gặp trong Yoga P.\n2;\n+ Luật và phương pháp tổ chức thi đấu Yoga P.1;\n+ Luật và phương pháp tổ chức thi đấu Yoga P.2.\n- Thực hành:\n+ Kỹ thuật các tư thế Asanas;\n+ Kỹ thuật các tư thế Acroyoga;\n+ Kỹ thuật tư thế chuỗi Bài chào mặt trời\n.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được lợi ích, biết cách tập luyện môn Hatha-Yoga để tăng cường phát triển thể chất cho bản thân."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "3",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Học phần 1: Sinh viên tự học trên nền tảng kỹ thuật số (Học online)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực hành: 60 tiết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

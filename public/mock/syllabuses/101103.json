@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 714436,
+    "subjectCode": "101103",
+    "syllabusName": "Lịch sử thiết kế Đồ họa (History of Graphic Design)",
+    "syllabusEnglish": "History of Graphic Design",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giới thiệu đến sinh viên quá trình phát triển của ngành đồ họa trên thế giới qua nhiều giai đoạn lịch sử. Trọng tâm của môn học tập trung vào giai đoạn đầu thế kỷ 20 đến đầu thế kỷ 21, là thời gian phát triển mạnh mẽ của ngành Thiết kế đồ họa trên thế giới. Sinh viên được tìm hiểu về các nhà thiết kế và phong cách thiết kế đồ họa tiêu biểu. Từ đó có thể kết hợp các phong cách này vào trong thiết kế của mình theo từng trường hợp cụ thể.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được sự phát triển của thiết kế đồ họa qua các giai đoạn lịch sử"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng các phong cách tiêu biểu vào những ấn phẩm thiết kế đồ họa hiện đại"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích được tính phù hợp của phong cách đồ họa trong sản phẩm đối với người sử dụng"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá ý nghĩa và giá trị mà các phong cách đồ họa mang lại cho sản phẩm thiết kế"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về các giai đoạn lịch sử Thiết kế Đồ họa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cầu nối đến thế kỷ 20 ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kỷ nguyên của phong cách hiện đại",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thời đại của thông tin ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

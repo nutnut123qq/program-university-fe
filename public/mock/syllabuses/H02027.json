@@ -1,0 +1,152 @@
+{
+  "info": {
+    "sylid": 94565,
+    "subjectCode": "H02027",
+    "syllabusName": "Thiết kế thí nghiệm (Experimental Design)",
+    "syllabusEnglish": "Experimental Design",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần trang bị cho người học kiến thức và kỹ năng về \nthiết kế, tổ chức và thực hiện thí nghiệm trong lĩnh vực khoa học y sinh\n, nhằm kiểm định giả thuyết và đánh giá các ý tưởng nghiên cứu. Sinh viên được rèn luyện khả năng \nthu thập, xử lý và phân tích dữ liệu\n một cách khoa học thông qua các hoạt động thực hành.\nBên cạnh đó, môn học chú trọng phát triển \nkỹ năng giao tiếp, làm việc nhóm và hợp tác hiệu quả\n trong môi trường học thuật và nghề nghiệp. Đồng thời, người học được nâng cao \ntư duy phản biện, sáng tạo, năng lực số và khả năng sử dụng ngoại ngữ\n, giúp phân tích, đánh giá và giải quyết vấn đề phù hợp với yêu cầu nghề nghiệp và bối cảnh đa văn hóa.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giúp sinh viên hiểu các nguyên tắc cơ bản trong thiết kế thí nghiệm và cách phân tích dữ liệu thu được từ thí nghiệm."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Với mỗi loại thiết kế thí nghiệm, sinh viên sẽ được học cách lựa chọn mô hình thống kê phù hợp, cách ước lượng và xác định kích thước mẫu cần thiết cho nghiên cứu."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên sẽ được hướng dẫn sử dụng phần mềm thống kê để thực hành phân tích dữ liệu cho từng loại thiết kế thí nghiệm."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết kế hoàn toàn ngẫu nhiên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tìm kiếm sự khác biệt cụ thể – Sự tương phản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "So sánh đa yếu tố",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kiểm tra các giả định",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Bậc và Cỡ mẫu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Thiết kế nhóm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Giới thiệu về thiết kế giai thừa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Mô hình hồi quy phù hợp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Thiết kế đáp ứng bề mặt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

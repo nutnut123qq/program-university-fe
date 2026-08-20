@@ -1,0 +1,90 @@
+{
+  "info": {
+    "sylid": 305151,
+    "subjectCode": "A03084",
+    "syllabusName": "Thực tập nghề nghiệp 3 (Internship 3)",
+    "syllabusEnglish": "Internship 3",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung của môn học giúp sinh viên hội nhập vào môi trường làm việc thực tế với vị trí là cán bộ công đoàn, cán bộ quan hệ lao động. \nTrang bị cho sinh viên kiến thức thực tế về thực chất hoạt động công đoàn qua các chuyên đề: \ncông tác tổ chức, công tác phát triển đoàn viên, xây dựng công đoàn cơ sở vững mạnh, ủy ban kiểm tra, đối thoại xã hội và thương lượng thỏa ước lao động tập thể, chăm lo đời sống cho NLĐ.\nTừ đó, sinh viên nhận thức được tầm quan trọng của việc phát triển của phong trào công nhân viên chức lao động và hoạt động Công Đoàn Việt Nam và rút ra được ý nghĩa – bài học kinh nghiệm và tìm ra giải pháp nâng chất lượng hoạt động Công đoàn một cách thực chất.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giúp sinh viên hội nhập vào môi trường làm việc thực tế thông qua việc tiếp xúc với thực tiễn công việc tại doanh nghiệp. Trang bị cho sinh viên kiến thức về thực chất hoạt động công đoàn là tổ chức, vận động, giáo dục, thuyết phục người lao động thực hiện tốt nhiệm vụ cụ thể của tổ chức công đoàn về các chuyên đề như: Tổ chức nhân sự và phát triển đoàn viên, ủy ban kiểm tra và các kiến thức về phân tích công việc, đánh giá kết quả thi đua, chấm công, tính bảng lương."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên phát triển các kỹ năng và vận dụng kiến thức đã học để thực hiện tốt các công việc liên quan đến quản lý hoạt động các chuyên đề của công đoàn."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên biết được các quy trình công việc, biết cách tổ chức, đánh giá, phân tích chất lượng và ra các quyết định trong hoạt động các chuyên đề của công đoàn."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên được rèn luyện tác phong làm việc cẩn thận, biết cách thức tổ chức các hoạt động, rèn luyện phẩm chất đạo đức nghề nghiệp. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về học phần thực tập nghề nghiệp 3",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổng quan về môn học ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thực tập nghề nghiệp tại doanh nghiệp/ tổ chức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Báo cáo thực tập tại lớp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

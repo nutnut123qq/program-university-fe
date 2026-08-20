@@ -1,0 +1,138 @@
+{
+  "info": {
+    "sylid": 783919,
+    "subjectCode": "201081",
+    "syllabusName": "Kế toán tài chính (Financial Accounting)",
+    "syllabusEnglish": "Financial Accounting",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung môn học Kế toán tài chính dựa trên kiến thức nền tảng của môn nguyên lý kế toán, tiếp đó sinh viên sẽ được tìm hiểu những kiến thức chuyên sâu cho từng phần hành kế toán cơ bản hiện đang được vận hành tại các doanh nghiệp trong thực tế. Nội dung môn học được tóm tắt như sau:\n\nTrình bày khái niệm, nguyên tắc và nội dung hạch toán của các đối tượng kế toán thuộc các phần hành kế toán như: vốn bằng tiền; nguyên vật liệu, công cụ dụng cụ; tài sản cố định; tiền lương và các khoản trích theo lương; sản xuất và nhập kho thành phẩm, mua bán hàng hoá; xác định kết quả kinh doanh trong doanh nghiệp.\n\nBài tập ứng dụng, bài tập tình huống liên quan đến các phần hành kế toán.\n\nTrả lời câu hỏi trắc nghiệm và câu hỏi nhanh về nội dung đã học.\n\nHướng dẫn trình bày thông tin liên quan đến các đối tượng kế toán trên báo cáo tài chính.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết các khái niệm, nguyên tắc hạch toán của từng đối tượng kế toán liên quan đến các phần hành kế toán: vốn bằng tiền, nguyên vật liệu – công cụ dụng cụ, tài sản cố định, tiền lương, chi phí sản xuất và tính giá thành sản phẩm, kinh doanh hàng hoá, xác định kết quả kinh doanh."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu cách lập chứng từ và xử lý chứng từ kế toán liên quan đến kế toán vốn bằng tiền, kế toán hàng tồn kho, tài sản cố định, kế toán tiền lương, kế toán tập hợp chi phí sản xuất và tính giá thành sản phẩm, kế toán quá trình kinh doanh hàng hoá và xác định kết quả kinh doanh; đồng thời vận dụng các phương pháp kế toán để ghi nhận các nghiệp vụ kinh tế phát sinh có liên quan liên quan."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu và biết cách trình bày thông tin về vốn bằng tiền, hàng tồn kho, tài sản cố định, tiền lương, doanh thu, chi phí và kết quả kinh doanh trên báo cáo tài chính."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Kế toán vốn bằng tiền",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kế toán nguyên vật liệu và công cụ dụng cụ.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kế toán tài sản cố định",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kế toán tiền lương và các khoản trích theo lương",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kế toán sản xuất và nhập xuất thành phẩm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Kế toán hàng hóa trong doanh nghiệp thương mại",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Kế toán xác định kết quả kinh doanh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

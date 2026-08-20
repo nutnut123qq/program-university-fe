@@ -1,0 +1,132 @@
+{
+  "info": {
+    "sylid": 334607,
+    "subjectCode": "40313160",
+    "syllabusName": "Mô hình hóa và nhận dạng hệ thống (Modelling & System Identification)",
+    "syllabusEnglish": "Modelling & System Identification",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học đề cập đến lý thuyết mô hình hóa và\r\nnhận dạng hệ thống động. Nội dung chính của môn học bao gồm: các phương pháp mô\r\nhình hóa; các phương pháp nhận dạng mô hình không tham số: phân tích đáp ứng\r\nquá độ, phân tích tương quan, phân tích đáp ứng tần số, phân tích Fourier và\r\nphân tích phổ; cấu trúc mô hình có tham số và các phương pháp nhận dạng mô hình\r\ncó tham số như phương pháp bình phương tối thiểu tuyến tính, phương pháp sai số\r\ndự báo, phương pháp biến công cụ, phương pháp không gian con; thuật toán ước\r\nlượng tham số off-line và on-line; đánh giá mô hình; nhận dạng hệ thống kín;\r\nthực nghiệm nhận dạng hệ thống.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp các kiến thức về xây dựng mô hình toán học của các hệ thống vật lý dùng các nguyên tắc mô hình hóa, nhận dạng mô hình không tham số của hệ tuyến tính, nhận dạng mô hình có tham số của hệ thống."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sử dụng công cụ hiện đại như MATLAB để nhận dạng và mô phỏng hệ thống."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích được các thông số của các mô hình và các bộ nhận dạng."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Xây dựng sự hứng thú trong học tập, hình dung được việc áp dụng các phương pháp mô hình hóa và nhận dạng vào thực tế; người học có khả năng tự mở rộng giải quyết các bài toán trong thực tế. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tiểu luận",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Mô hình hóa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nhận dạng mô hình không tham số",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Cấu trúc mô hình có tham số",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các phương pháp ước lượng tham số",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Đánh giá mô hình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Nhận dạng hệ thống kín",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Thực nghiệm nhận dạng hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

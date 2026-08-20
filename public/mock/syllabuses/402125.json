@@ -1,0 +1,158 @@
+{
+  "info": {
+    "sylid": 451723,
+    "subjectCode": "402125",
+    "syllabusName": "Thiết kế LSI cơ bản (LSI Design Fundamentals)",
+    "syllabusEnglish": "LSI Design Fundamentals",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Sự hiểu biết về các thiết kế logic hiện đại là rất cần thiết cho những người hoạt động trong lĩnh vực chế tạo vi mạch, vì hầu hết các hệ thống xử lý số hiện nay đều vận hành dựa trên các vi mạch tích hợp mật độ rất cao (VLSI - Very Large Scale Integration). Môn học này giới thiệu các vấn đề cơ bản trong quy trình thiết kế chip LSI, cũng như giới thiệu các công cụ hỗ trợ thiết kế trên máy tính (CAD - computer-aided design) và các phương pháp thiết kế.\nTrong môn học này, người học sẽ tìm hiểu về các transistor hiệu ứng trường MOS, quy trình chế tạo vi mạch, giới thiệu ngắn gọn về lý do thiết kế các hệ thống số phức tạp. Môn học cũng giới thiệu từ cách mô hình hóa các cổng logic cho đến quá trình tổng hợp mạch vật lý của chúng, giới thiệu cách kiểm tra chức năng các hệ thống phần cứng và phần mềm phức tạp. Người học sẽ được tìm hiểu các vấn đề thiết kế VLSI phổ biến như định tuyến mạch và chế tạo, định thời, tối thiểu hóa công suất tiêu thụ, vấn đề kiểm tra và sửa lỗi.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp các kiến thức kỹ thuật và kỹ năng cơ bản cho các kỹ sư để có thể tham gia vào các dự án thiết kế các linh kiện LSI."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Giới thiệu cho người học bức tránh toàn cảnh về lĩnh vực nghề nghiệp về vật liệu bán dẫn và các thuật ngữ liên quan."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu được phương pháp/ quy trình chế tạo linh kiện LSI đang được áp dụng trong công nghiệp."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Hiểu và luyện tập được các nguyên lý cơ bản và chi tiết các công đoạn chính trong quá trình thiết kế LSI. "
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Giúp người học lĩnh hội được phương pháp tư duy và cách ứng xử trong công việc của một kỹ sư chuyên nghiệp. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về sự phát triển công nghệ thiết kế LSI",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các phần tử logic và nguyên lý điện tử bán dẫn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế logic LSI",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thiết kế đồng bộ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thiết kế kiểm thử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thiết kế layout",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Mô tả phần cứng bằng ngôn ngữ HDL",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Máy trạng thái hữu hạn (FSM - Finite State Machine)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

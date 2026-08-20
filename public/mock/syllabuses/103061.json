@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 983648,
+    "subjectCode": "103061",
+    "syllabusName": "Triển khai bản vẽ nội thất (Deployment of Interior Drawing)",
+    "syllabusEnglish": "Deployment of Interior Drawing",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Trình bày các loại hồ sơ, các loại\r\nbản vẽ triển khai nội thất.\n﻿﻿\n- \nTrình bày các phương pháp và kỹ\r\nthuật định dạng để xây dựng bản vẽ triển khai nội thất đúng tiêu chuẩn kỹ thuật.\n- Các phương pháp và quy tắc trong xây dựng hồ sơ triển khai\r\nnội thất hoàn chỉnh.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Cung cấp những kiến thức nền tảng cần thiết để triển khai bản vẽ thiết kế nội thất. Các phương pháp triển khai bản vẽ hoàn chỉnh."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: hiểu vể cấu tạo của những vật liệu cơ bản, cách thể hiện trên bản vẽ triển khai. Rèn luyện kỹ năng đọc, hiểu và thiết lập được các bản vẽ nội thất, bản vẽ chi tiết cấu tạo, thể hiện bằng tập hồ sơ phương án. Trao dồi kỹ năng làm việc nhóm, sau ra trường biết phối hợp tốt với các ê-kíp thiết kế và thi công xây dựng công trình như Kiến trúc sư, Kỹ sư kết cấu, Kỹ sư điện, Kỹ sư cấp thoát nước…trong công trình kiến trúc."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Người học phải nắm vững các kiến thức chuyên sâu, có tư duy logic về chất liệu vật liệu, tư duy sáng tác và thể hiện bản vẽ triển khai. Khả năng tư duy sáng tạo để sử dụng hiệu quả các tính năng ứng dụng của phần mềm khi triển khai bản vẽ"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có khả năng vận dụng kỹ năng xây dựng bản vẽ, kỹ năng trình bày, kỹ năng quản lý thời gian hiệu quả trong việc triển khai bản vẽ nội thất"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về môn học.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hồ sơ triển khai bản vẽ nội thất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thể hiện vật liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phân loại nhóm vật liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thể hiện bản vẽ triển khai nội thất.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

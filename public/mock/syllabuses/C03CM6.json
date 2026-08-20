@@ -1,0 +1,39 @@
+{
+  "info": {
+    "sylid": 827764,
+    "subjectCode": "C03CM6",
+    "syllabusName": "Kỹ năng thực hành chuyên môn (Professional Skills Exam)",
+    "syllabusEnglish": "Professional Skills Exam",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Phần 1: Trắc nghiệm\nChủ đề 1: Mẫu, thống kê, thang đo\nCác khái niệm: mẫu, thống kê\nCác loại thang đo thống kê (cách\r\ndùng của từng loại thang đo)\nChủ đề 2: Biểu đồ, bảng biểu\nKỹ năng sử dụng các biểu đồ\r\nthích hợp cho các dữ liệu cho trước, cũng như kỹ năng đọc hiểu kết quả thể hiện\r\ntrên từng loại biểu đồ. Tập trung vào các loại biểu đồ sau:\nbiểu đồ tần số (histogram), \nbiểu đồ thân và lá (stem and\r\nleaf), \nbiểu đồ thanh (bar graph), \nbiểu đồ hộp (box plot), \nbiểu đồ hình tròn (pie chart),\nbiểu đồ đường (line chart),\nbiểu đồ tán xạ (scatter plot)\nChủ đề 3: Tham số đặc trưng mẫu\nHiểu ý nghĩa và biết cách tính\r\ntoán các tham số đặc trưng sau:\nTrung bình mẫu\nTrung vị mẫu\nYếu vị mẫu (mode)\nPhương sai mẫu\nĐộ lệch chuẩn mẫu\nPhạm vi mẫu (range)\nĐộ trãi giữa (interquartile range)\nTứ phân vị\nBách phân vị\nThập phân vị\nHệ số biến thiên\nChủ đề 4: Điều tra chọn mẫu\nHiểu và áp dụng được các kỹ thuật\r\nchọn mẫu sau:\nChọn mẫu ngẫu nhiên đơn giản\nChọn mẫu phân tầng\nChọn mẫu hệ thống\nChọn mẫu khối/cụm\nChọn mẫu nhiều giai đoạn\nChọn mẫu định mức\nChọn mẫu thuận tiện\nChọn mẫu phán đoán\nChọn mẫu bóng tuyết\nBài toán xác định cỡ mẫu n dựa\r\ntrên thông tin về sai số khoảng tin cậy.\nChủ đề 5: Ước lượng tham số\nÝ nghĩa của khái niệm khoảng\r\ntin cậy\nXác định khoảng tin cậy cho trung\r\nbình, tỷ lệ, phương sai dựa trên 1 mẫu.\nChủ đề 6: Kiểm định tham số\nKiểm định so sánh trung bình, tỷ\r\nlệ, phương sai với một số cho trước (dựa trên 1 mẫu)\nKiểm định so sánh 2 trung bình,\r\n2 tỷ lệ và 2 phương sai dựa trên 2 mẫu độc lập\nPhân tích phương sai 1 yếu tố\r\nvà 2 yếu tố\nChủ đề 7: Kiểm định phi tham số\nKiểm định chi-bình phương\nKiểm định Wilcoxon\nKiểm định Kruskal-Wallis\nKiểm định Mann-Whitney\nKiểm định Fisher (Fisher’s\r\nexact test)\nChủ đề 8: Tương quan, hồi quy\nHệ số tương quan Pearson (công\r\nthức tính, ý nghĩa)\nPhương pháp bình phương cực tiểu\r\n(OLS)\nHồi quy tuyến tính đơn giản (mô\r\nhình, công thức xác định các hệ số của mô hình).\n\nĐọc kết quả từ biểu đồ tương\r\nquan đa biến.\nPhần 2: Bài tập tình huống\n- Xu thế phát triển theo thời gian: Tốc độ\r\nphát triển liên hoàn; Tốc độ phát triển bình quân; Ngoại suy hàm xu thế y = ax\r\n+ b\n- Lượng tăng/giảm tuyệt đối.\n- Giá trị 1% tăng.\n- Trung bình.\n- Cơ cấu – Chuyển dịch cơ cấu.\n- Phân tổ thống kê.\n- Lập bảng thống kê. Tổng hợp dữ liệu.\n- Xây dựng phương án điều tra.\n- Phân tích dữ liệu.\n\n- Đồ thị",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Môn học nhằm mục đích đánh giá kỹ năng vận dụng kiến thức chuyên ngành Thống kê vào việc giải quyết các vấn đề thống kê trong thực tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [],
+  "materials": []
+}

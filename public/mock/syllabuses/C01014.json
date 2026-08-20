@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 968326,
+    "subjectCode": "C01014",
+    "syllabusName": "Quy hoạch phi tuyến (Nonlinear programming)",
+    "syllabusEnglish": "Nonlinear programming",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "1) Đạo hàm riêng, hàm lồi, ma trận\n2) Tối ưu phi tuyến cổ điển: phương pháp Newton-Raphson\n3)  Các thuật toán quy hoạch phi tuyến không ràng buộc và có ràng buộc",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: môn học cung cấp những kiến thức Toán cơ bản cho sinh viên các ngành. Nội dung\r\nchính của môn học gồm các phần: Đạo hàm riêng, hàm lồi, ma trận, tối ưu phi tuyến không ràng buộc và có ràng buộc."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "\tKỹ năng tác nghiệp: nắm được các kiến thức và thuật toán cơ bản để giải một số bài toán quy\r\nhoạch phi tuyến và ứng dụng chúng vào các bài toán thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Có tư duy lô-gic, lập luận chặt chẽ. Có khả năng vận dụng kiến thức Toán học\r\nphục vụ cho chuyên ngành đang theo học."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "\tThái độ và hành vi: Môn học giúp sinh viên hiểu được tầm quan trọng của Toán học đối với các\r\nngành khoa học khác. Từ đó tạo niềm đam mê và hứng thú trong việc học Toán của sinh viên, vì\r\nchính nó sẽ giúp sinh viên trong công việc chuyên môn của họ về sau này."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Kiến thức chuẩn bị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lý thuyết tối ưu cổ điển",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thuật toán quy hoạch phi tuyến",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

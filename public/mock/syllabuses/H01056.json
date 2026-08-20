@@ -1,0 +1,76 @@
+{
+  "info": {
+    "sylid": 559999,
+    "subjectCode": "H01056",
+    "syllabusName": "Thí nghiệm Công nghệ sản xuất Dược phẩm 1 (Pharmaceutical Industry Laboratory 1)",
+    "syllabusEnglish": "Pharmaceutical Industry Laboratory 1",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các nội dung chính sau:\n\nBài 1: Thực hành sản xuất viên nén.\n\nBài 2: Kiểm tra, kiểm soát bán thành phẩm; kiểm nghiệm thành phẩm.\n\nBài 3: Thực hành bao phim.\n\nBài 4: Thực hành bao đường.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và mô tả được quy trình sản xuất và đảm bảo chất lượng của các dạng bào chế khác nhau. Nêu được nguyên lý làm việc của các thiết bị dùng trong quy trình sản xuất."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thực hành kỹ năng thao tác thí nghiệm, tháo lắp và vận hành máy móc các thiết bị dùng trong quy trình sản xuất. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tính toán các số liệu thực nghiệm, so sánh và biện luận các công thức bào chế và các kết quả thử nghiệm."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện kỹ năng thí nghiệm, tính toán cũng như tinh thần trách nhiệm của người dược sĩ trong sản xuất và nghiên cứu."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tiểu luận,Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận,Thực hành,Vấn đáp",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test,Practical Test,Viva/Oral Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thực hành sản xuất thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,96 @@
+{
+  "info": {
+    "sylid": 718063,
+    "subjectCode": "901122",
+    "syllabusName": "Thí nghiệm Hóa đại cương (General Chemistry Laboratory)",
+    "syllabusEnglish": "General Chemistry Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu về nội quy và các quy định an toàn trong phòng \nthí nghiệm\n- Cách sử dụng dụng cụ thí nghiệm\n- Cách pha chế dung dịch- chuẩn độ thể tích\n- Cách sử dụng chất chỉ thị màu- phương pháp xác định nồng độ các chất\n- Tính chất của các hợp chất hữu cơ\n- Phương pháp tách các ion bằng sắc ký giấy",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên hiểu được cách sử dụng các thiết bị phòng thí nghiệm hóa học nói chung và tuân thủ các quy tắc an toàn khi làm việc trong phòng thí nghiệm hóa học."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng giải thích về các hiện tượng tự nhiên bằng cách sử dụng các khái niệm hóa học đã học, sử dụng thành thạo các thiết bị trong phòng thí nghiệm ."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành thí nghiệm",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Laboratory Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành thí nghiệm",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Laboratory Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về nội quy và các quy định an toàn trong phòng  thí nghiệm ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Pha chế dung dịch- chuẩn độ thể tích",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chất chỉ thị màu- xác định nồng độ các chất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tính chất của các hợp chất hữu cơ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Phương pháp tách bằng sắc ký giấy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

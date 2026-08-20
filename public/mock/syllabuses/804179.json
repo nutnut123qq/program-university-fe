@@ -1,0 +1,82 @@
+{
+  "info": {
+    "sylid": 870085,
+    "subjectCode": "804179",
+    "syllabusName": "Họa thất 9 (Design Studio 9)",
+    "syllabusEnglish": "Design Studio 9",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "-\n\nNội\r\ndung học phần được thiết kế bao gồm 3 phần chính: Đồ án Thiết kế nhanh, Đồ án\r\nkiến trúc 9, và Mô hình kiến trúc. Tổng thời lượng 120 tiết thực hành, bao gồm\r\ncả làm bài tại họa thất và các giờ thực hành. \n\n-\n\nNền\r\ntảng kiến thức cơ bản cần có trước khi học môn học là các đồ án kiến trúc qui\r\nmô nhỏ, trung bình, kiến thức về cấu tạo kiến trúc, nội thất và hệ kết cấu công\r\ntrình.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học những nguyên lý, kiến thức cơ bản để thiết kế nội thất"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng kiến thức để phân tích các giải pháp thiết kế kiến trúc công trình, đảm bảo yêu cầu về kỹ thuật: kết cấu, cơ điện, vật lý kiến trúc, kinh tế, quy phạm, tiêu chuẩn… trong công trình"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nâng cao khả năng sáng tạo không gian nội thất của công trình; Hoàn thiện kỹ năng trình bày, tư duy tổng hợp các vấn đề để báo cáo đồ án thiết kế."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Ứng dụng (apply) hiệu quả phần mềm đồ họa chuyên nghiệp để lập bản vẽ thiết kế kiến trúc, và thuyết trình báo cáo về sản phẩm."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "ĐỒ ÁN THIẾT KẾ NHANH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": " ĐỒ ÁN KIẾN TRÚC 9",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "MÔ HÌNH KIẾN TRÚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

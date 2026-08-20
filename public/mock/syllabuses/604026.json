@@ -1,0 +1,134 @@
+{
+  "info": {
+    "sylid": 17510,
+    "subjectCode": "604026",
+    "syllabusName": "Công nghệ chế biến khoáng sản (Ore Processing Technology)",
+    "syllabusEnglish": "Ore Processing Technology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho sinh viên và học viên những kiến thức về công nghệ xử lý và sản xuất khoáng sản bắt đầu từ khâu khai thác. Thông qua đó, học viên có cơ hội nghiên cứu về nguyên lý hoạt động của quy trình khai thác và xử lý khoáng sản, các quy trình tạo thành sản phẩm cũng như đặc điểm các máy móc thiết bị có liên quan. \n\nSinh viên ứng dụng những kiến thức được học để hoàn thành các bài tập nhỏ, đồ án chuyên đề về đánh giá quy trình, nhận xét sản phẩm và tìm hiểu các phương pháp xử lý những vấn đề gặp phải trong quá trình sản xuất khoáng sản. \n\nTrong điều kiện cho phép, tạo cơ hội cho sinh viên tham quan các nhà máy sản xuất khoáng sản chuyên nghiệp và thực hiện các bài tập lớn chuyên đề để tạo cho sinh viên kiến thức và hiểu biết sâu về chuyên môn này.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giới thiệu về công nghệ khai thác và chế biến khoáng sản"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Đánh giá ưu nhược điểm của những quy trình khai thác và sản xuất khoáng sản đã và đang vận hành tại Việt Nam và các quốc gia khác"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích và thiết kế quy trình khai thác và sản xuất khoáng sản"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Xác định và lập kế hoạch giải quyết các vấn đề gặp phải trong quá trình khai thác và sản xuất khoáng sản"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Tạo điều kiện cho sinh viên được tìm hiểu về và so sánh các quy trình sản xuất khoảng sản thông qua các bài tập lớn, đồ án liên quan"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Vấn đáp",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Viva/Oral Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "An toàn lao động trong khai thác khoáng sản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quy trình khai thác khoáng sản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Những vấn đề gặp phải và hiệu suất quy trình khai thác khoáng sản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các vấn đề thường gặp và thực tiễn chế biến khoáng sản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,90 @@
+{
+  "info": {
+    "sylid": 211086,
+    "subjectCode": "H02008",
+    "syllabusName": "Thực tập nghề nghiệp (Career Internship)",
+    "syllabusEnglish": "Career Internship",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Thực tập nghề nghiệp ngành Khoa học Y sinh cung cấp\r\ncho sinh viên cơ hội trải nghiệm thực tế tại các đơn vị gồm: (1)\r\ncông ty dược phẩm/y sinh,  và/ hoặc (2) viện hoặc trung tâm nghiên cứu, và/ hoặc (3) công ty\r\nthiết bị máy móc y tế. Sinh viên tham gia vào các hoạt động chuyên môn tại đơn vị tập\r\nsự, tìm hiểu quy trình vận hành, tiến hành thực nghiệm và thực hiện các nhiệm\r\nvụ được phân công dưới sự hướng dẫn của cán bộ tại đơn vị. Sinh viên áp dụng kiến thức và kỹ năng đã học vào môi trường làm việc thực tế.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Áp dụng được các kỹ thuật và phương pháp khoa học y sinh vào thực tiễn tại công ty dược phẩm/y sinh, viện/trung tâm nghiên cứu, hoặc công ty thiết bị máy móc y tế."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thiết kế và thực hiện được các thực nghiệm, quy trình phân tích hoặc kiểm định y sinh dưới sự hướng dẫn của người phụ trách tại đơn vị tập sự, đánh giá kết quả và đề xuất giải pháp xử lý vấn đề phát sinh."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Giao tiếp chuyên nghiệp và hợp tác hiệu quả với đồng nghiệp, cán bộ hướng dẫn và các bên liên quan tại đơn vị tập sự trong lĩnh vực khoa học y sinh."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Nhận thức được vai trò của tư duy khoa học, đạo đức nghề nghiệp và tinh thần tự chủ trong việc học hỏi, phát triển năng lực bản thân và định hướng nghề nghiệp trong lĩnh vực khoa học y sinh."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về đơn vị tập sự",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kỹ thuật và quy trình chuyên môn tại đơn vị tập sự",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thực nghiệm và xử lý dữ liệu ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Báo cáo thực tập và tổng kết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

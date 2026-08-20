@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 876706,
+    "subjectCode": "H01182",
+    "syllabusName": "Đảm bảo chất lượng sản xuất thuốc (Pharmaceutical Good Manufacturing Practice)",
+    "syllabusEnglish": "Pharmaceutical Good Manufacturing Practice",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các nội dung chính sau:\n\nChương 1: Tổng quát về nhà máy sản xuất dược phẩm và GMP-WHO\n\nChương 2: Hệ thống quản lý chất lượng và tài liệu GMP\n\nChương 3: Sản xuất dược phẩm tuân thủ theo GMP-WHO\n\nChương 4: Kiểm tra chất lượng và thực hành tốt bảo quản thuốc\n\nChương 5: Nghiên cứu & phát triển thuốc tại nhà máy sản xuất dược phẩm",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và ghi nhớ được hệ thống và cấu trúc của một nhà máy sản xuất dược phẩm, hoạt động cụ thể của các phòng ban quan trọng trong nhà máy và hệ thống chất lượng theo GMP-WHO"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu và ghi nhớ nguyên tắc chung của GMP – WHO, tầm quan trọng của việc đảm bảo chất lượng và kiểm soát tốt các yếu tố ảnh hưởng đến chất lượng"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu được vai trò và vị trí của dược sĩ trong nhà máy, có thể vận dụng kiến thức đã học nhằm xây dựng thái độ, kiến thức, kỹ năng phù hợp để làm việc tại nhà máy trong tương lai, tuân thũ đúng các nguyên tắc, tiêu chuẩn GMP-WHO trong thực tế"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tiểu luận,Thuyết trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về nhà máy sản xuất dược phẩm và GMP-WHO",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hệ thống đảm bảo chất lượng và tài liệu GMP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Sản xuất dược phẩm tuân thủ theo GMP-WHO",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kiểm tra chất lượng và thực hành tốt bảo quản thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Nghiên cứu & phát triển thuốc tại nhà máy sản xuất dược phẩm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 576008,
+    "subjectCode": "304101",
+    "syllabusName": "Tập sự nghề nghiệp (Graduation Internship)",
+    "syllabusEnglish": "Graduation Internship",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần cung cấp và hỗ trợ cho sinh viên tham gia, tiếp cận cơ sở tập sự, thực hiện nhiệm vụ như một nhân viên/chuyên viên chính thức. Căn cứ đặc điểm tại cơ sở tập sự, sinh viên vận dụng kiến thức ngành CTXH và các lý thuyết liên quan để nhận diện, phân tích và đánh giá trường hợp thân chủ, có thể độc lập xây dựng tiến trình và triển khai thực hiện hoạt động can thiệp/hỗ trợ theo mục tiêu đề ra.\n\nSinh viên có cơ hội và điều kiện làm việc như một nhân viên/chuyên viên CTXH chuyên nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Thực hiện tốt các nhiệm tại cơ sở tập sự như một nhân viên/chuyên viên"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng lý thuyết về cá nhân, nhóm, cộng đồng, quản trị CTXH và các lý thuyết khác liên quan đến con người và môi trường xã hội"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng độc lập xây dựng và triển khai tiến trình can thiệp/hỗ trợ hoặc tổ chức, điều phối chương trình, hoạt động tại cơ sở tập sự"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tuân thủ pháp luật, quy định nơi tập sự và quy điều đạo đức nghề công tác xã hội"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Vấn đáp,Báo cáo",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Viva/Oral Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Vấn đáp,Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Viva/Oral Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu cơ sở và quy định tập sự nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tập sự nghề nghiệp theo chuyên đề",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

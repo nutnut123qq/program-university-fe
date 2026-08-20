@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 651625,
+    "subjectCode": "902124",
+    "syllabusName": "Tập sự nghề nghiệp (Graduation Internship)",
+    "syllabusEnglish": "Graduation Internship",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "- \nHướng\r\nsinh viên đến làm việc thực tế phù hợp với chuyên ngành Khoa học môi trường,\r\nhoặc tham gia những đề tài có tính ứng dụng cao của các giảng viên trong Khoa\r\nhoặc các chuyên gia, chuyên viên các viện, trường khác. \n- Nâng cao kỹ năng chuyên\r\nngành cũng như các kỹ năng làm việc độc lập, kỹ năng giao tiếp, bảo vệ ý kiến\r\nvà thành quả lao động.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng thành thạo các kỹ năng làm việc nhóm, kỹ năng làm việc độc lập, kỹ năng viết và trình bày báo cáo."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng luật và quy định về môi trường để quản lý quản lý tài nguyên thiên nhiên và kiểm soát chất ô nhiễm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Ứng dụng các kiến thức sinh thái, tài nguyên và môi trường để xây dựng các chương trình quan trắc và kiểm soát môi trường, các kỹ thuật phục hồi sinh thái, bảo tồn tài nguyên thiên nhiên và đa dạng sinh học."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tư vấn các dịch vụ bảo vệ môi trường cho các vùng, khu đô thị và doanh nghiệp, và đề nghị các giải pháp bảo vệ môi trường đáp ứng yêu cầu quản lý môi trường của địa phương, hướng đến phát triển bền vững."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Phát triển các chương trình giáo dục và truyền thông về bảo vệ môi trường nhằm ngăn chặn ô nhiễm."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "\tPhát triển hướng nghiên cứu mới trong sử dụng bền vững tài nguyên và năng lượng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Mở đầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổng quan về vấn đề thực hiện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế chương trình chi tiết cho vấn đề được giao ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kết luận và kiến nghị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

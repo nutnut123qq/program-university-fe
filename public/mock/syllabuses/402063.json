@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 28941,
+    "subjectCode": "402063",
+    "syllabusName": "Thực tập điện tử (Electronic Project)",
+    "syllabusEnglish": "Electronic Project",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Khóa học này nhằm:\n\nGiới thiệu thực tế hình dáng của các linh kiện cơ bản và dụng cụ điện tử, dùng để đo đạc, phân tích các sơ đồ và sự hoạt động của các máy hiệu, tạo nền tảng để sinh viên ứng dụng các kiến thức này trực tiếp thiết kế và lắp ráp mạch điện tử dân dụng và viễn thông. Hình dáng và kiểu loại, cách đọc giá trị thực của các dụng cụ, linh kiện điện tử\n\nKỹ năng hàn chì, cách thức chế bản mạch in cũng như đo đạc ,phân tích kết quả đạt được\n\nThiết kế những khối mạch điện tử cơ bản",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Thực hiện được tác phong công nghiệp an toàn trong sản xuất."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sử dụng được các dụng cụ, đồ nghề để lắp ráp, thiết kế, sửa chửa các mạch điện tử cơ bản và thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng các lý thuyết mạch cơ bản để thực hiện các mạch ứng dụng trong thực tế,"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu nội quy xưởng điện tử – dụng cụ và thiết bị đo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nhận dạng, đo kiểm các linh kiện điện tử cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kỹ thuật hàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phục hồi sơ đồ mạch điện tử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Sử dụng project board lắp ráp các mạch chỉnh lưu.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thiết kế mạch in – thực hành mạch nguồn ổn áp.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": " Mạch dao động không trạng thái bền dùng transistor",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Kiểm tra cuối kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

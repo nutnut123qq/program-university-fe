@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 761352,
+    "subjectCode": "C01031",
+    "syllabusName": "Đại số tuyến tính nâng cao (Advanced linear algebra)",
+    "syllabusEnglish": "Advanced linear algebra",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Trị riêng vector riêng, chéo hóa ma trận, ứng dụng.\n\nToán tử tuyến tính, ma trận Jordan và chéo hóa Jordan, ứng dụng.\n\nDùng chéo hóa trực giao để nghiên cứu các đường conic.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "-\tKiến thức: Trang bị cho sinh viên các kiến thức nâng cao về đại số tuyến tính, rất giúp ích cho việc học tập các môn trong chuyên ngành cũng như các phương pháp định lượng trong Toán học, Toán ứng dụng và các ngành khoa học khác."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "-\tKỹ năng tác nghiệp: Sinh viên nhận biết được ma trận vuông bất kỳ có chéo hóa được hay không. Nắm vững  kiến thức chéo hóa, cheó hóa ma trận, chéo hóa toán tử tuyến tính, thực hành thành thạo các bước chéo hóa. Nếu không chéo hóa được thì sử dụng kiến thức chéo hóa Jordan. Nắm vững các kiến thức về ma trận Jordan, đa thưc tối tiểu, không gian riêng tổng quát và thực hành thành thạo các bước chéo hóa Jordan. Mục đích cuối cùng của chéo hóa là để giải quyết bài toán tính ma trận mũ n bất kỳ. Nắm vững ứng dụng của chéo hóa trực giao trong việc nghiên cứu các đường conic."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "-\tYêu cầu về tư duy: Có tư duy logic, lập luận chặt chẽ. Có khả năng vận dụng kiến thức môn học phục vụ chuyên ngành đang học.\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "-\tThái độ và hành vi: Tham dự đầy đủ số buổi học theo quy định. Thái độ nghiêm túc trong giờ học. Ý thức chuyên cần, làm đầy đủ và đúng tiến độ các bài tập được giao. \n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "CHÉO HÓA MA TRẬN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "CHÉO HÓA TRỰC GIAO",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": ".  MA TRẬN JORDAN VÀ CHÉO HÓA JORDAN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

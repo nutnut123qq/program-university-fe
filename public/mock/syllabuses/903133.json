@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 623207,
+    "subjectCode": "903133",
+    "syllabusName": "Chuyên đề nghiên cứu ứng dụng trong lĩnh vực an toàn vệ sinh lao động (Topics on Applied Research in Occupational Safety and Health)",
+    "syllabusEnglish": "Topics on Applied Research in Occupational Safety and Health",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Khóa học này được thiết kế để cung cấp cho sinh viên kiến thức và kỹ năng cần thiết để tiến hành nghiên cứu về các vấn đề an toàn. Sinh viên sẽ tìm hiểu về các phương pháp nghiên cứu, kỹ thuật thu thập dữ liệu và công cụ phân tích khác nhau để điều tra các vấn đề về an toàn trong thực tế. Khóa học sẽ nhấn mạnh những cân nhắc về đạo đức nghề nghiệp, các quy trình an toàn và kinh nghiệm nghiên cứu thực tế tại doanh nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng các kỹ năng làm việc nhóm và làm việc độc lập, tư duy hệ thống, tư duy sáng tạo, kỹ năng giao tiếp, thuyết trình hiệu quả trong quá trình thực hiện chuyên đề."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng được các công cụ nghiên cứu nhằm đánh giá được vấn đề  an toàn và sức khỏe nghề nghiệp tại doanh nghiệp"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá được tính hiệu quả của các phương pháp điều khiển an toàn cho hoạt động của máy móc, hóa chất, cháy nổ, thiết bị chịu áp lực, làm việc trên cao, làm việc trong không gian hạn chế..."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Xây dựng các phương pháp kiểm soát an toàn nhằm cải thiện các vấn đề hiện tại liên quan đến an toàn, vệ sinh lao động cho một đối tượng điển hình."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chương 1: Giới thiệu về nghiên cứu trong công tác an toàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Xây dựng câu hỏi nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế và phương pháp nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kỹ thuật thu thập dữ liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Lập kế hoạch và thực hành nghiên cứu thực tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Phân tích, báo cáo và trình bày dữ liệu trong nghiên cứu an toàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

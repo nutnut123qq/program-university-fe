@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 585050,
+    "subjectCode": "303022",
+    "syllabusName": "Du lịch văn hóa (Culture Tourism)",
+    "syllabusEnglish": "Culture Tourism",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Trình bày các kiến thức cơ bản về loại hình du lịch văn hóa.\nCung cấp kiến thức cơ bản về cách thức khai thác các giá trị văn hóa trong hoạt động kinh doanh du lịch.\nCác sản phẩm du lịch văn hóa đặc trưng của Việt Nam.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho người học các kiến thức cơ bản về văn hóa, du lịch văn hóa, phương pháp tiếp cận và cách thức nhận dạng tài nguyên du lịch văn hóa, triển khai xây dựng, giới thiệu chương trình du lịch văn hóa. Từ đó, có thể giúp sinh viên ngành du lịch tìm hiểu, khai thác tài nguyên văn hóa trong hoạt động du lịch"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Rèn luyện kỹ năng thuyết trình, xây dựng chương trình, kỹ năng tư duy độc lập, nghiệp vụ hướng dẫn du lịch, để trở thành một hướng dẫn viên du lịch chuyên nghiệp.\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Biết tự đánh giá, phân tích, ứng dụng môn học vào việc xây dựng và tổ chức các chương trình du lịch mang đặc thù riêng của loại hình du lịch văn hóa; biết vận dụng kiến thức môn học này ở những môn học khác liên quan.\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Nâng cao lòng tự hào dân tộc, khai thác, chia sẻ những giá trị tốt đẹp của văn hóa dân tộc, tích cực trong việc xây dựng chương trình du lịch văn hóa."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những vấn đề chung về du lịch văn hóa ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Khai thác các giá trị văn hóa trong hoạt động du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các kỹ năng nghiệp vụ du lịch văn hóa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

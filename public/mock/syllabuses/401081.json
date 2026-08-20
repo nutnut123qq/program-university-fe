@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 480293,
+    "subjectCode": "401081",
+    "syllabusName": "Kỹ thuật điện lạnh (Modern Refrigeration and Air Conditioning Engineering)",
+    "syllabusEnglish": "Modern Refrigeration and Air Conditioning Engineering",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học mang lại cho sinh viên kiến thức về cơ sở kỹ thuật và chu trình các loại máy lạnh nén hơi thông dụng. Cấu tạo các máy và thiết bị lạnh. Kỹ thuật làm lạnh trong điều hòa không khí. Tính toán lựa chọn thiết bị điều hòa không khí cho các công trình dân dụng. Cơ sở lý thuyết của phương pháp chuyển đổi năng lượng. Nguyên lý hoạt động của thiết bị trong hệ thống làm mát. Các đặc điểm của thiết bị làm lạnh trong điều hòa không khí. Tính toán và lựa chọn thiết bị của hệ thống làm lạnh dân dụng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết cách chọn chu trình máy lạnh và tính toán các thông số cơ bản của chu trình cho từng điều kiện thực tế. \nBiết cách tính tải lạnh và chọn thiết bị điều hòa không khí thích hợp cho dự án\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng để cải thiện hệ thống cho phù hợp với thiết bị có sẵn. Áp dụng để sử dụng kiến thức đã học để nâng cao hiệu quả của hệ thống. Áp dụng cho khả năng phân tích nguyên tắc và cấu trúc của hệ thống làm lạnh và điều hòa không khí. \n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Cơ sở kỹ thuật lạnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết bị hệ thống lạnh ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Làm lạnh trong điều hòa không khí ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tính chọn các loại máy lạnh của hệ thống  điều hòa không khí ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

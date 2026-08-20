@@ -1,0 +1,152 @@
+{
+  "info": {
+    "sylid": 265705,
+    "subjectCode": "201106",
+    "syllabusName": "Kiểm toán (Auditing)",
+    "syllabusEnglish": "Auditing",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung môn học bao gồm 8 chương: \nChương 1: Tổng quan về kiểm toán\nChương 2: Kế hoạch kiểm toán và đánh gái rủi ro\nChương 3: Hệ thống kiểm soát nội bộ\nChương 4: Bằng chứng kiểm toán và chọn mẫu kiểm toán\nChương 5: Hoàn thành kiểm toán và báo cáo kiểm toán\nChương 6: Kiểm toán khoản mục tiền và các khoản tương đương\ntiền\nChương 7: Kiểm toán khoản mục Nợ phải thu khách hàng\nChương 8: Kiểm toán khoản mục hàng tồn kho và giá vốn hàng\nbán\nChương 9: Kiểm toán khoản mục Tài sản cố định và chi\nphí khấu hao",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên các khái niệm cơ bản trong kiểm toán, đạo đức nghề nghiệp, vai trò, ý nghĩa của kiểm toán trong nền kinh tế; \nGiới thiệu quy trình của một cuộc kiểm toán báo cáo tài chính, khái niệm rủi ro kiểm toán, mức trọng yếu và lập kế hoạch kiểm toán trong quá trình kiểm toán báo cáo tài chính\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nhận định, phân tích rủi ro và giải quyết tình huống ở mức độ cơ bản; áp dụng thái độ hoài nghi nghề nghiệp cũng như các xét đoán chuyên môn để phân tích và giải quyết vấn đề, đánh giá độ tin cậy của bằng chứng kiểm toán"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên nhận ra được tầm quan trọng của đạo đức nghề nghiệp; hiểu được trách nhiệm và áp dụng đạo đức nghề nghiệp và tác phong chuyên nghiệp trong kiểm toán."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Hiểu được quy trình kiểm toán các phần hành cơ bản; lập giấy tờ kiểm toán, lưu hồ sơ kiểm toán các phần hành kiểm toán cơ bản"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về kiểm toán",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lập kế hoạch kiểm toán và đánh giá rủi ro kinh doanh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hệ thống kiểm soát nội bộ ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Bằng chứng kiểm toán và chọn mẫu kiểm toán",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kiểm toán “Tiền và các khoản tương đương tiền”",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Kiểm toán “Nợ phải thu khách hàng” và “Doanh thu bán hàng và cung cấp dịch vụ”",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Kiểm toán “Hàng tồn kho”, “Giá vốn hàng bán” và “Nợ phải trả nhà cung cấp” trong doanh nghiệp thương mại",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Kiểm toán “Tài sản cố định hữu hình” và “Chi phí khấu hao”",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

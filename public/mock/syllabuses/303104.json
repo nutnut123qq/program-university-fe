@@ -1,0 +1,76 @@
+{
+  "info": {
+    "sylid": 98160,
+    "subjectCode": "303104",
+    "syllabusName": "Chuyên đề tổng hợp (Synthetic Thematic)",
+    "syllabusEnglish": "Synthetic Thematic",
+    "credits": "6",
+    "degreeLevel": "Bachelor",
+    "description": "- Vận dụng phương pháp nghiên cứu khoa học và quy trình nghiên cứu khoa học;\n- Các thành tố cơ bản của một đề cương nghiên cứu, quy trình xây dựng đề cương nghiên cứu;\n- Thiết kế các công cụ thu thập thông tin, xác định các phương pháp phân tích để\n trình bày báo cáo kết quả nghiên cứu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên thực hiện xong chuyên đề có thể Vận dụng tất cả kiến thức để đáp ứng tình hình phát triển của ngành du lịch hiện nay, đồng thời nắm vững các loại hình nghiên cứu khoa học, các phương pháp nghiên cứu và quy trình thực hiện một công trình nghiên cứu khoa học. \n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết phát hiện vấn đề, hình thành ý tưởng nghiên cứu khoa học; ứng dụng quy trình thực hiện một công trình nghiên cứu, thiết kế được một đề cương nghiên cứu khoa học,  phương pháp nghiên cứu đã được học từ các môn MH trước và vận dụng phù hợp với đối tượng, mục tiêu và nội dung nghiên cứu."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Làm cho người học nhận thức được vai trò, mục đích của khoa học, của tri thức khoa học thông qua các hoạt động học tập và nghiên cứu của mình. Người học tuân thủ các nguyên tắc, đạo đức trong nghiên cứu khoa học. Rèn luyện tác phong của người làm nghiên cứu khoa học.\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "MỞ ĐẦU",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "KẾT QUẢ NGHIÊN CỨU",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "KẾT LUẬN VÀ KHUYẾN NGHỊ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

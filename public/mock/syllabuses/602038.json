@@ -1,0 +1,156 @@
+{
+  "info": {
+    "sylid": 130285,
+    "subjectCode": "602038",
+    "syllabusName": "Kỹ thuật phân riêng (Separation Processes)",
+    "syllabusEnglish": "Separation Processes",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Những vấn đề cơ bản trong Đại cương về quá trình và thiết bị phân riêng, về các phương pháp tính toán cơ bản đối với các quá trình và thiết bị phân riêng.\nCác quá trình và thiết bị phân riêng bằng phương pháp nhiệt: Chưng cất, hấp thụ và nhả hấp thụ, hấp phụ, trích ly, sấy...\nCác quá trình và thiết bị phân riêng không dùng phương pháp nhiệt: Phân riêng bằng phương pháp cơ học, như lắng, lọc, ly tâm; sàng, rây; Phân riêng bằng khí động và thủy lực...\nVấn đề tiết kiệm và sử dụng hiệu quả năng lượng ở các quá trình và thiết bị phân riêng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên những kiến thức căn bản về các quá trình và thiết bị phân riêng ứng dụng trong công nghệ hóa học"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết giải các bài toán căn bản về quá trình và thiết bị phân riêng trong chương trình của khóa học"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Giải những bài toán thực tế liên quan đến quá trình và thiết bị phân riêng như tính cân bằng vật chất và năng lượng, xác định các thông số kỹ thuật - công nghệ và các đại lượng quan trọng trong kỹ thuật phân riêng"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Giải bài toán về quá trình và thiết bị phân riêng tiêu biểu như Quá trình chưng cất, hấp thụ, hấp phụ, trích ly, sấy, lắng, lọc, ly tâm, phân riêng vật liêu rời..."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Rèn luyện ý thức, tư duy về tiết kiệm vật chất và năng lượng trong các quá trình công nghệ có liên quan đến quá trình và thiết bị phân riêng"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Mở đầu ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đại cương về Kỹ thuật phân riêng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chưng và Chưng cất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hấp thụ và nhả hấp thụ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hấp phụ ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Sấy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Trích ly",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Các quá trình và thiết bị phân riêng khác",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Vấn đề tiết kiệm và sử dụng hiệu quả năng lượng ở các quá trình và thiết bị phân riêng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

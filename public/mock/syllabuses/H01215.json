@@ -1,0 +1,132 @@
+{
+  "info": {
+    "sylid": 604936,
+    "subjectCode": "H01215",
+    "syllabusName": "Thực tập nghề nghiệp (Career Internship)",
+    "syllabusEnglish": "Career Internship",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Thực tập nghề nghiệp bao gồm 04 nội dung thực tập:\n\nThực tập tại nhà thuốc\n\nThực tập tại bệnh viện\n\nThực tập tại nhà máy sản xuất dược phẩm\n\nThực tập tại công ty phân phối dược phẩm",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Có thể áp dụng kiến thức đã học vào thực tiễn vận hành nhà thuốc đạt chuẩn GPP"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng áp dụng kiến thức dược trị liệu đã học vào thực tế điều trị bệnh thông qua các tình huống lâm sàng thực tế tại nhà thuốc"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có thể phân tích, đánh giá tình trạng sức khỏe, bệnh tật của bệnh nhân tại nhà thuốc, tâm lý bệnh nhân, chủ động đưa ra liệu trình điều trị cho từng trường hợp cụ thể"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Hiểu được vai trò, nhiệm vụ của các vị trí công việc trong một nhà máy dược phẩm. Phân biệt được các khu vực sản xuất khác nhau trong nhà máy tùy theo cấp độ sạch khác nhau. "
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Hiểu được các nguyên tắc GMP, GSP, GLP được áp dụng thực tế trong nhà máy dược phẩm "
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Hiểu được một quy trình nghiên cứu, đăng ký và sản xuất thuốc trong nhà máy dược phẩm"
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Vận dụng kiến thức đã học để thực hành thao tác trong một số công đoạn pha chế và đóng gói trong nhà máy dược phẩm GMP "
+    },
+    {
+      "id": 8,
+      "loSeq": "8",
+      "cloName": "CO8",
+      "loDetails": "Sinh viên nắm được các kiến thức cơ bản về hệ thống phân phối thuốc và quy định về Thực hành tốt phân phối thuốc (GDP) tại cơ sở. Sinh viên có cái nhìn tổng quan về tổ chức và hoạt động của một doanh nghiệp phân phối dược phẩm trong thực tế."
+    },
+    {
+      "id": 9,
+      "loSeq": "9",
+      "cloName": "CO9",
+      "loDetails": "Làm quen với lịch làm việc và những quy định tại một cơ sở dược phẩm trong thực tế; rèn luyện kỹ năng quan sát, đánh giá; rèn luyện kỹ năng giao tiếp và làm việc nhóm."
+    },
+    {
+      "id": 10,
+      "loSeq": "10",
+      "cloName": "CO10",
+      "loDetails": "Sinh viên có khả năng liên kết kiến thức lý thuyết được học trong trường và môi trường làm việc thực tế; có tư duy phản biện; biết đánh giá và suy luận vấn đề có logic."
+    },
+    {
+      "id": 11,
+      "loSeq": "11",
+      "cloName": "CO11",
+      "loDetails": "Sinh viên có thái độ làm việc tự giác, có ý thức tuân thủ nội quy, đi thực tập đúng giờ, tiếp thu hiệu quả nội dung được cung cấp, chủ động tìm hiểu các vấn đề liên quan đến nghề nghiệp; rèn luyện các giá trị đạo đức nghề nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thực tập nhà thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực tập bệnh viện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thực tập cơ sở sản xuất dược phẩm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực tập công ty phân phối dược phẩm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

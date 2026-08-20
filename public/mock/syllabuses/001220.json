@@ -1,0 +1,90 @@
+{
+  "info": {
+    "sylid": 782837,
+    "subjectCode": "001220",
+    "syllabusName": "Khóa luận tốt nghiệp (Graduation Thesis)",
+    "syllabusEnglish": "Graduation Thesis",
+    "credits": "9",
+    "degreeLevel": "Bachelor",
+    "description": "§\n\nAttendance\n- Meet Instructor at least every 2\nweeks.\n\n§\n\nParticipation\n- Complete the work on schedule:\n• Find the study area and necessary\ndata for the thesis\n• Complete the work on schedule every\nweek\n• Complete the research content\n• Complete the evaluation results\n• Complete research products",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Learners are able to apply and explain specialized theoretical knowledge into research and application in practice."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Learners practice assessing, analyzing data, and making judgments."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Learners understand and evaluate issues related to analyzing, explain problems and situations on the basis of the theory learned; apply knowledge as well as skills of investigation, survey and analysis about topics related to language. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Learners are honest in research and proactive in the process of conducting actual surveys and data processing."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Final examination",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "In-prerson meeting and discussion about student's topic/thesis",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "RESEARCH METHOD",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "RESEARCH RESULTS AND DISCUSSION",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "PROPOSAL OF SOLUTIONS",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

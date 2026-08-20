@@ -1,0 +1,160 @@
+{
+  "info": {
+    "sylid": 48998,
+    "subjectCode": "C01135",
+    "syllabusName": "Nhập môn lập trình (Introduction to Programming)",
+    "syllabusEnglish": "Introduction to Programming",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Trình bày các khái niệm cơ bản liên quan đến lập trình và phương pháp tổng quát giải quyết bài toán trên máy tính.\n\nKhái quát các kiểu dữ liệu cơ bản và các phép toán cơ bản của Python.\n\nCung cấp kiến thức về các cấu trúc điều khiển của Python và cách sử dụng các cấu trúc đó để viết một chương trình máy tính giải quyết một số thuật toán cơ bản trong lập trình.\n\nCung cấp kiến thức về lập trình hướng thủ tục bao gồm cách viết hàm thông thường và hàm đệ quy, đồng thời áp dụng kiến thức đó để giải quyết một số bài toán có liên quan.\n\nTrình bày cách đọc và ghi dữ liệu trong Python; cách xử lý ngoại lệ của Python.\n\nTrình bày các kiểu dữ liệu đặc trưng của Python: list, tuple, dictionary, set, string và ứng dụng để xử lý một số bài toán một cách nhanh chóng.\n\nTrình bày cơ bản về phương pháp lập trình hướng đối tượng trong Python.\n\nGiới thiệu cơ bản về gói numpy.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "*Kiến thức: \n-Nắm được phương pháp tổng quát để giải quyết bài toán trên máy tính\n-Kể tên được một số ngôn ngữ lập trình và cho biết chúng thuộc loại ngôn ngữ lập trình nào\n-Liệt kê được các loại công cụ cần dùng để lập trình và tạo ra chương trình\n-Mô tả được cấu trúc tổng quát của một chương trình viết bằng ngôn ngữ C++\n-Lựa chọn kiểu dữ liệu phù hợp với yêu cầu của bài toán để lưu trữ và phục vụ cho việc xử lý, tính toán\n-Nêu tóm tắt về một số kiểu dữ liệu cơ bản đã được định nghĩa trên C++\n-Cho ví dụ về các phép toán có thể thực hiện trên các kiểu dữ liệu của C++\n-Phân biệt được biểu thức toán học và biểu thức tính toán trên ngôn ngữ C++\n-Trình bày được cú pháp và cách sử dụng các cấu trúc điều khiển\n-Nắm được cách thức tổ chức dữ liệu ở dạng mảng, struct và file\n-Nhận biết được các lỗi cơ bản khi lập trình bằng ngôn ngữ C++\n-Nhắc lại được nguyên tắc tổ chức chương trình viết bằng C++"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "*Kỹ năng tác nghiệp: \n-Xây dựng lời giải trên máy tính cho các bài toán đơn giản bằng lưu đồ\n-Có thể soạn thảo và biên dịch chương trình trên máy tính để tạo ra chương trình ở dạng console\n-Kiểm tra chương trình xem có thực hiện chính xác các yêu cầu xử lý tính toán không\n-Chỉnh sửa các lỗi để chương trình thực hiện đúng\n-Thành thạo trong việc nhập xuất dữ liệu thuộc kiểu dữ liệu cơ bản của ngôn ngữ C++\n-Vận dụng linh hoạt các cấu trúc điều khiển của C++ để triển khai lời giải của bài toán\n-Tổ chức chương trình thành các chương trình con\nCó thể thực hiện một số thao tác đơn giản về nhập, xử lý và xuất dữ liệu ở dạng mảng, cấu trúc và tập tin"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "-Yêu cầu về tư duy: \n-Hình thành lời giải bài toán một cách logic và chính xác\n-Lập luận và đưa ra công thức tính toán bằng ngôn ngữ C++ chính xác\n-Phát hiện và chỉnh sửa những lỗi liên quan đến cú pháp và ngữ nghĩa\n- Đánh giá được ưu điểm và nhược điểm của các đoạn chương trình giải quyết cùng một vấn đề tính toán"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "*Thái độ và hành vi: \n-Rèn luyện cách xử lý vấn đề logic, cẩn thận, vượt khó.\n-Lập trình rõ ràng, dễ hiểu, tỉ mỉ"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về lập trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nhập xuất và xử lý dữ liệu cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Cấu trúc điều khiển",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hàm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Đệ quy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Xử lý tệp tin và ngoại lệ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Các kiểu dữ liệu tổ hợp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Lập trình hướng đối tượng trong Python",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Làm việc trên mảng (array)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 263507,
+    "subjectCode": "H01186",
+    "syllabusName": "Ứng dụng các kỹ thuật sắc ký hiện đại trong kiểm nghiệm thuốc (Application of Modern Chromatography in Drug Quality Control)",
+    "syllabusEnglish": "Application of Modern Chromatography in Drug Quality Control",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần cung cấp cho người học những kiến thức về kỹ thuật sắc ký hiện đại đang được nghiên cứu và áp dụng và có khả năng triển khai rộng rãi trong ngành phân tích và kiểm nghiệm dược phẩm trong tương lai.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trình bày trôi chảy các kiến thức nền tảng của sắc ký nói chung và sắc ký lỏng nói riêng và các kỹ thuật cập nhật của nó trong công tác kiểm nghiệm"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng được vào thực tiễn công tác kiểm nghiệm thuốc"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thực hiện được việc tìm kiếm tài liệu khoa học, tìm hiểu và thuyết trình về tài liệu đó."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Sắc ký – sắc ký lỏng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các loại đầu dò sử dụng trong sắc ký lỏng. ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Xây dựng quy trình định lượng bằng sắc ký lỏng.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Ôn tập",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

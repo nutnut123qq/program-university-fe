@@ -1,0 +1,154 @@
+{
+  "info": {
+    "sylid": 281360,
+    "subjectCode": "804087",
+    "syllabusName": "Vẽ kỹ thuật xây dựng (Civil Engineering Drawing)",
+    "syllabusEnglish": "Civil Engineering Drawing",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Phần 1: Hình học họa hình: \nCác phép chiếu, biểu diễn điểm, đường thẳng, mặt phẳng bằng phương pháp hai hình chiếu thẳng góc, bài toán về vị trí, bài toán về lượng, phép biến đổi hình chiếu, đa diện và mặt cong, giao giữa mặt phẳng và mặt, giao giữa đường thẳng và mặt\n, g\niao giữa các mặt\n.\n\nPhần 2: Vẽ Kỹ Thuật: \nTổng quan bản vẽ kỹ thuật , cơ sở của bản vẽ kỹ thuật, các phương pháp biểu diễn vật thể.\n Giới thiệu về dụng cụ vẽ, qui cách bản vẽ, vẽ hình học, vận dụng phép chiếu thẳng góc để biểu diễn vật thể 3 chiều bằng hình vẽ 2 chiều, hình chiếu trục đo\n. \n\nGiới thiệu về phần mềm AutoCAD, một số danh mục hướng dẫn.Hệ tọa độ và các lệnh vẽ cơ bản.Các phương pháp lựa chọn đối tượng, nhập điểm chính xác. Quản lý bản vẽ theo lớp. Hướng dẫn in ấn một bản vẽ.\n\nHướng dẫn các bước từ thiết lập bản vẽ đến quan sát bản vẽ và một số lệnh trợ giúp.\n\nPhần 3 Phần chuyên ngành:\nHọc về bản vẽ kiến trúc, bản vẽ betong cốt thép,  giúp sinh viên bước đầu tiếp cận với phương pháp thể hiện một bản vẽ  xây dựng bằng phương pháp vẽ truyền thống và phương pháp vẽ hiện đại.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên những kiến thức cơ bản trong phép toán hình học phẳng, các dạng phép chiếu và phép chuyển đổi hình chiếu dựa trên nền tảng kiến thức được trang bị một cách chi tiết và khoa học."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Cung cấp cho sinh viên các kiến thức cơ bản về phương pháp thể hiện bản vẽ kỹ thuật bằng phần mềm AutoCAD, biết áp dụng vào các bài đồ án chuyên ngành, trình bày các bản vẽ kỹ thuật triển khai về kiến trúc, kết cấu, xây dựng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nắm vững kiến thức về hình học phẳng, hình học không gian, phép chiếu từ đó nâng cao khả năng đọc hiểu, và tự thiết kế được các bản vẽ kỹ thuật theo chuyên ngành được đào tạo ( bản vẽ kiến trúc, bản vẽ qui hoạch, bản vẽ kết cấu...)"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Bài mở đầu:",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Biểu diễn Điểm-Đường thẳng-Mặt phẳng bằng phép chiếu thẳng góc.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Đa diện và mặt cong.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tổng quan về bản vẽ kỹ thuật.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Cơ sở của bản vẽ kỹ thuật.  Phương pháp vẽ truyền thống (Vẽ tay và dụng cụ vẽ )",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Phương pháp vẽ hiện đại, Phần mềm AutoCAD",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Biểu diễn vật thể trên bảng vẽ kỹ thuật ( Kết hợp phương pháp truyền thống và phương pháp vẽ hiện đại )",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Bản vẽ kiến trúc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Bản vẽ Bê Tông Cốt thép",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

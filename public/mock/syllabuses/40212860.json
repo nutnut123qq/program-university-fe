@@ -1,0 +1,134 @@
+{
+  "info": {
+    "sylid": 679399,
+    "subjectCode": "40212860",
+    "syllabusName": "Lý thuyết và thiết kế anten nâng cao (Advanced Antenna Theory and Design)",
+    "syllabusEnglish": "Advanced Antenna Theory and Design",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần giới thiệu các nguyên lý từ cơ bản đến nâng cao của lý thuyết antenna và áp dụng vào việc thiết kế các loại antenna khác nhau cho các ứng dụng hiện đại. Các nội dung cụ thể:\n-  Phát triển sự hiểu biết về các nguyên lý cơ bản, các đặc tính kỹ thuật, và các hàm cơ bản của antenna\n-  Thiết kế antenna độc lập tần số, antenna băng rộng, và các kỹ thuật phối hợp trở kháng từ cơ bản đến nâng cao.\n-  Phát triển sự hiểu biết về mảng antenna, và antenna tự cấu hình.\n-  Thiết kế và nghiên cứu cơ chế hoạt động của các antenna hiện đại cho các ứng dụng đặc biệt, như antenna thấu kính, antenna tần số terahertz, antenna thông minh.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "- Kiến thức: Có kiến thức về các thông số cơ bản của antenna; có khả năng phân biệt các loại antenna trong các hệ thống điện-điện tử; biết cách sử dụng các thiết bị cho các thực nghiệm cụ thể trong hệ thống RF.\r\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "- Kỹ năng: Có khả năng xác định các loại antenna trên thị trường; có khả năng thiết kế, tối ưu hóa hiệu suất hoạt động của antenna đơn, antenna dải pha, antenna tự cấu hình…; biết cách tổ chức và hoạt động nhóm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "- Tư duy: Có khả năng phân tích và giải thích các kết quả mô phỏng, biết cách giải quyết vấn đề."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các thông số cơ bản của antenna",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Antenna sóng chạy và antenna băng rộng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Antenna độc lập tần số, cực tiểu kích thước antenna và antenna phân dạng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Mảng lưỡng cực và khẩu độ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Antenna thấu kính",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Bề mặt chọn lọc tần số (FSS) và cấu trúc tuần hoàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Antenna cho các ứng dụng đặc biệt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Antenna tần số terahertz",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Antenna thông minh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

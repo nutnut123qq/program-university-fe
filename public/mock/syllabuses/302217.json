@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 620022,
+    "subjectCode": "302217",
+    "syllabusName": "Nhập môn Tâm lý học (Introduction to Psychology)",
+    "syllabusEnglish": "Introduction to Psychology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này giới thiệu tâm lý học như một ngành khoa học hành vi thực nghiệm, nhằm cung cấp cho sinh viên một cái nhìn tổng quan về các lĩnh vực khác nhau trong tâm lý học. Hai trọng tâm của môn học là: thứ nhất, giúp sinh viên đánh giá cao sự đa dạng và phong phú của ngành tâm lý học; thứ hai, giúp sinh viên làm quen với các nguyên tắc quan trọng, lý thuyết, khái niệm và những phát hiện trong tâm lý học. Nội dung của môn học gồm các chủ đề các cơ sở sinh học của hành vi,  tâm lý xã hội, tâm lý học nhận thức, động lực và cảm xúcCác nội dung trên là cơ sở để sinh viên rèn luyện phát triển năng lực tâm lý của cá nhân trong đời sống hằng ngày và trong công việc tương lai.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": " Sinh viên hiểu được những kiến thức cơ bản của khoa học tâm lý như mối quan hệ giữa tâm lý và sinh lý, tâm lý học nhận thức, động lực và cảm xúc, tâm lý học phát triển, tâm lý học xã hội, cũng như những hiện tượng tâm lý bất thường trong tâm lý cá nhân và xã hội;"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có kỹ năng vận dụng các kiến thức cơ bản của khoa học tâm lý vào việc giải thích, phân tích các hiện tượng tâm lý trong đời sống hằng ngày và trong lĩnh vực tài chính-ngân hàng theo quan điểm khoa học;"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên có tư duy độc lập, đánh giá và phản biện được các hiện tượng tâm lý trong đời sống phổ biến trên các phương tiện truyền thông và trong lĩnh vực tài chính – ngân hàng;"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên có thái độ chủ động, tích cực xây dựng kế hoạch phát triển kỹ năng bản thân dựa trên nền tảng lý thuyết tâm lý đã học để nâng cao chất lượng sống của cá nhân và công việc tương lai."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Định hướng môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tâm lí học sinh học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tâm lý học nhận thức",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Động lực, cảm xúc và stress",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tâm lý học xã hội",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

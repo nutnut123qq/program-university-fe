@@ -1,0 +1,74 @@
+{
+  "info": {
+    "sylid": 951497,
+    "subjectCode": "802058",
+    "syllabusName": "Đồ án bê tông cốt thép (Project of Reinforced Concrete Structure)",
+    "syllabusEnglish": "Project of Reinforced Concrete Structure",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Chọn sơ bộ kích thước và vật liệu dùng làm dầm bê tông cốt thép thường\n\nTính toán nội lực và đặc trưng hình học các bộ phận cầu bê tông\n\nKiểm tra cầu thép ở các trạng  thái giới hạn.\n\nViết thuyết minh trình bày tính toán và bản vẽ thiết kế.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được nguyên tắc tính toán các bộ phận dầm cầu"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Tính toán được nội lực trong dầm"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Kiểm toán đảm bảo khả năng chịu lực của các bộ phận cầu dầm bê tông cốt thép thường"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Ứng dụng các phần mềm tính toán chuyên ngành để thực hiện đồ án"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "SỐ LIỆU THIẾT KẾ VÀ MẶT CẮT NGANG CẦU",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tính toán nội lực dầm chủ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 986178,
+    "subjectCode": "303081",
+    "syllabusName": "Quản trị nhà hàng - khách sạn (Managing Hospitality Businesses)",
+    "syllabusEnglish": "Managing Hospitality Businesses",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học trang bị cho sinh viên các khái niệm về ngành công nghiệp nhà hàng-khách sạn, các đặc điểm riêng biệt, các khâu vận hành chủ yếu và xu hướng của ngành kinh doanh nhà hàng-khách sạn. Ngoài ra, môn học cũng trang bị cho sinh viên một số phương pháp để đánh giá chất lượng dịch vụ và các chỉ tiêu đánh giá hiệu quả kinh doanh nhà hàng-khách sạn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên những kiến thức căn bản và chuyên sâu về mặt lý luận khoa học trong công tác quản trị kinh doanh khách sạn-nhà hàng, làm nền tảng cho việc điều hành toàn bộ hoạt động của một doanh nghiệp khách sạn-nhà hàng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết cách tổ chức, điều hành và kiểm tra, giám sát các bộ phận cũng như các hoạt động cơ bản của một khách sạn-nhà hàng theo tiêu chuẩn quốc tế.  "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên có khả năng giải quyết được các vấn đề then chốt trong lĩnh vực kinh doanh khách sạn-nhà hàng, đặc biệt là mối quan hệ giữa yếu tố con người và dịch vụ."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện tính chủ động, sáng tạo và linh hoạt trong mọi tình huống nghiệp vụ; giúp sinh viên có nhận thức đúng đắn về nghề nghiệp trong lĩnh vực kinh doanh khách sạn-nhà hàng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về ngành nhà hàng-khách sạn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cơ sở vật chất của việc kinh doanh khách sạn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tổ chức kinh doanh lưu trú trong khách sạn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tổ chức kinh doanh ăn uống trong kinh doanh khách sạn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 370974,
+    "subjectCode": "E01129",
+    "syllabusName": "Nghiệp vụ thư ký tòa án (Judicial Secretary)",
+    "syllabusEnglish": "Judicial Secretary",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Nghiệp vụ thư ký Tòa án là môn học kỹ năng dành cho sinh viên chuyên ngành luật Hình sự. Môn học này không chỉ đơn thuần cung cấp cho người học những nội dung cơ bản, lý luận cũng như các quy định pháp luật tố tụng về chức năng, nhiệm vụ của Thư ký Tòa án, mà thông qua việc giới thiệu các kỹ năng của Thư ký Tòa án, người học sẽ được tiếp cận và có cái nhìn thực tế về nghiệp vụ của Thư ký Tòa án.\n\nMôn học giúp người học nắm được các kiến thức về nghiệp vụ thư ký Tòa án ở các góc độ lý luận, cơ sở pháp lý và thưc tiễn; Nắm bắt được kỹ năng của Thư ký Tòa án khi thực hiện nhiệm vụ được giao.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học được trang bị những nội dung cơ bản, lý luận cũng như các quy định pháp luật tố tụng về chức năng, nhiệm vụ của Thư ký Tòa án thông qua việc giới thiệu các kỹ năng của Thư ký Tòa án, người học sẽ được tiếp cận và có cái nhìn thực tế về nghiệp vụ của Thư ký Tòa án. \nMôn học giúp người học nắm được các kiến thức về nghiệp vụ thư ký Tòa án ở các góc độ lý luận, cơ sở pháp lý và thưc tiễn; Nắm bắt được kỹ năng của Thư ký Tòa án khi thực hiện nhiệm vụ được giao.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học xác định đúng tình huống, vai trò, nhiệm vụ của Thư ký trong từng vụ việc cụ thể; những công việc cụ thể mà thư ký Tòa án phải thực hiện; kỹ năng soạn thảo các văn bản tố tụng trong phạm vi nhiệm vụ của Thư ký Tòa án"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học vận dụng tốt các kiến thức pháp lý để xác định loại vụ việc thuộc thẩm quyền giải quyết của Tòa án và nhiệm vụ của Thư ký trong quá trình giải quyết vụ việc đó."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học có khả năng nghiên cứu hồ sơ vụ việc, kỹ năng phân tích vụ việc và các quy định pháp luật, vận dụng và liên kết các quy định pháp luật của nhiều ngành luật."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thực hành",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "NHỮNG VẤN ĐỀ CHUNG VỀ THƯ KÝ TOÀ ÁN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "NHIỆM VỤ CỦA THƯ KÝ TOÀ ÁN TRONG VIỆC GIẢI QUYẾT VÀ XÉT XỬ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "NHỮNG KỸ NĂNG CƠ BẢN CỦA THƯ KÝ TOÀ ÁN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

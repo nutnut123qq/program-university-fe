@@ -1,0 +1,134 @@
+{
+  "info": {
+    "sylid": 707438,
+    "subjectCode": "903067",
+    "syllabusName": "An toàn trong xây dựng (Construction Safety)",
+    "syllabusEnglish": "Construction Safety",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Nhận diện mối nguy, yếu tố nguy hiểm và nguyên tắc kiểm soát rủi ro trên công trường xây dựng.\nTổ chức mặt bằng thi công, tiện ích và vệ sinh công trường; yêu cầu an toàn khi bố trí – vận hành khu vực làm việc.\nNguy cơ và biện pháp an toàn trong thi công hố đào (đào đất, chống sạt, ra/vào hố đào, làm việc gần công trình ngầm,…).\nTai nạn ngã cao, giàn giáo và thang: nguyên nhân, phòng ngừa và yêu cầu an toàn khi lắp dựng/kiểm tra/sử dụng.\nAn toàn vận chuyển vật liệu và treo buộc tải; kiểm soát rủi ro trong nâng hạ và di chuyển trên công trường.\nQuản lý ATVSLĐ trong xây dựng: tổ chức thực hiện, kiểm tra – giám sát; chuyên đề thực tiễn tại doanh nghiệp (an toàn điện, phòng chống cháy nổ, theo dõi – đánh giá an toàn/sức khỏe trên công trường).",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu khối kiến thức cơ bản về An toàn trong thi công xây dựng"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích (Analyze) và vận dụng (Apply) luật và hệ thống văn bản dưới luật, kiến thức về An toàn trong thi công xây dựng"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Lựa chọn (Select) các giải pháp tối ưu trong kỹ thuật an toàn trong thi công xây dựng"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tư vấn (Consultant) tất cả các dịch vụ về an toàn trong thi công xây dựng"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Xây dựng (Plan) chương trình huấn luyện về an toàn vệ sinh lao động trong thi công xây dựng"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các yêu cầu pháp lý liên quan đến công tác ATVSLĐ trong xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Quy trình và tổ chức thi công",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nhận diện mối nguy và đánh giá rủi ro ATVSLĐ trong xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Quản lý an toàn trong xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tham quan thực tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

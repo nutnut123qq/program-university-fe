@@ -1,0 +1,138 @@
+{
+  "info": {
+    "sylid": 148492,
+    "subjectCode": "402120",
+    "syllabusName": "Chuyên đề lĩnh vực Điện - Điện tử (EE Seminar)",
+    "syllabusEnglish": "EE Seminar",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này được thiết kế để cung cấp cho sinh viên đại học những cơ hội để phát triển nghề nghiệp chuyên môn, giúp sinh viên nhận thức được nhiều vấn đề mà họ có thể gặp phải trên con đường phát triển nghề nghiệp, và tạo cơ hội cho học viên có thể tìm hiểu các buổi sinh hoạt học thuật và nghề nghiệp, các bài giảng mà họ quan tâm. Sinh viên phải tham dự đủ 10 buổi báo cáo chuyên đề trong học kỳ (sinh viên vắng có thể bù vào các buổi báo cáo khác có nội dung tương tự), và phải nộp lại phiếu đánh giá bài thuyết trình và đánh giá diễn giả, cùng với một bài tập soạn slides thuyết trình. Đây là môn học chỉ xét kết quả \"Đạt\" hay \"Không đạt\", không tính vào điểm trung bình tích lũy.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giúp người học phát triển các kỹ năng để mang lại thành công trong nghề nghiệp chuyên môn, đặc biệt là các kỹ năng thuyết trình, viết báo cáo kỹ thuật và tư duy phản biện."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học hiểu rõ trách nhiệm bản thân cũng như các quy tắc đạo đức nghề nghiệp của một kỹ sư."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Giúp người học mở mang kiến thức và nắm bắt các cơ hội phát triển nghề nghiêp trong tương lai."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Giúp người học tiếp thu các kinh nghiệm từ các diễn giả và cải thiện sự tự tin của bản thân khi thuyết trình hoặc nói trước đám đông."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nghe giảng hiệu quả và tư duy phản biện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Đạo đức nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Sinh hoạt Journal Club 1",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Báo cáo chuyên đề bởi chuyên gia từ doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Báo cáo khoa học của các giáo sư/ giảng viên/ nghiên cứu viên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Báo cáo chuyên đề của chuyên gia từ doanh nghiệp (2)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Sinh hoạt Journal Club 2",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Báo cáo khoa học của các giáo sư/ giảng viên/ nghiên cứu viên (2)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Tổng kết môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

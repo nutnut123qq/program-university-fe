@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 315452,
+    "subjectCode": "603079",
+    "syllabusName": "Thí nghiệm công nghệ lên men (Fermentation Technology Laboratory)",
+    "syllabusEnglish": "Fermentation Technology Laboratory",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Tạo điều kiện cho sinh viên vận dụng kiến thức đã học từ môn học “Công nghệ lên men” vào thực tế sản xuất một số sản phẩm lên men công nghiệp như rượu vang, nước mắm, sữa chua, thạch dừa…. Qua đó sinh viên được củng cố thêm về kiến thức và chủ động hơn khi làm việc thực tiễn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Các bài thực hành sẽ giúp sinh viên củng cố lý thuyết đã được học từ môn công nghệ lên men, giúp sinh viên liên hệ giữa lý thuyết và thực tiễn quá trình lên men. Ứng dụng những kiến thức cơ bản về lên men và các công nghệ ứng dụng lên men sản xuất các sản phẩm phổ biến sử dụng cho con người."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "nắm được các kỹ thuật cơ bản điều khiển quá trình lên men, chuyển hóa cơ chất tạo sản phẩm của vi sinh vật và các thiết bị cần thiết cho công nghệ lên men"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "phân biệt được các quá trình lên men hiếu khí và kị khí, biết vận dụng những kỹ thuật lên men phù hợp với từng loại sản phẩm lên men như lên men rượu vang, lên men nước mắm, sản xuất thạch dừa…"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tiểu luận",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Vấn đáp",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Viva/Oral Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Công nghệ lên men truyền thống - Sản xuất cơm rượu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Công nghệ sản xuất nước mắm ngắn ngày",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Ứng dụng lên men rượu trong sản xuất rượu vang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Ứng dụng lên men lactic trong sản xuất yoghurt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Sản xuất thạch dừa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

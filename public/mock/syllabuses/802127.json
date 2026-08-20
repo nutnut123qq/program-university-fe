@@ -1,0 +1,60 @@
+{
+  "info": {
+    "sylid": 144110,
+    "subjectCode": "802127",
+    "syllabusName": "Đồ án tổng hợp (Integrated Project)",
+    "syllabusEnglish": "Integrated Project",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "Chuyên ngành: Đường bộ\n\n- Lập thiết kế cơ sở cho 02 phương án tuyến trên bình đồ tỷ lệ 1:10.000, thề hiện bình đồ tỷ lệ 1:10.000, trắc dọc tỷ lệ 1:5.000, 1:500, tính toán thủy văn, vẽ trắc ngang điển hình, kết cấu áo đường, tổng hợp so sánh lựa chọn phương án để thiết kế kỹ thuật.\n\n-  Lập thiết kế kỹ thuật ( hoặc thiết kế bản vẽ thi công) trên bình đồ tỷ lệ 1:1.000, trắc dọc tỷ lệ 1:1.000; 1:100, thiết kế cắm đường cong nằm, cong đứng, đường cong chuyển tiếp, siêu cao, độ mở rộng, ...\n\n- Thiết kế tổ chức thi công: Thiết kế tổ chức thi công chi tiết nền đường, mặt đường, tổ chức thi công tổng thể.\n\nChuyên ngành: Cầu đường bộ\n\n- Lập thiết kế sơ bộ hai phương án cầu, thể hiện bố trí chung, mặt bằng và mặt cắt ngang của phương án theo tỉ lệ hợp lý. Tính toán sơ bộ và so sánh lựa chọn phương án để thiết kế kỹ thuật\n\n- Thiết kế kỹ thuật một phương án có thể gồm các nội dung sau tùy thuộc loại cầu: bản mặt, dầm ngang, dầm chủ, hệ liên kết, mố trụ cầu, nền móng,...\n\n- Thiết kế thi công: tính toán các công trình phụ tạm để phục vụ thi công và lập phương án thi công chủ đạo cho công trình.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giúp sinh viên tổng hợp hệ thống toàn bộ kiến thức, đồ án, công nghệ, và kinh nghiệm thực tế trong suốt 4 năm học."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Giúp sinh viên làm một đồ án cụ thể từ bước thiết kế cơ sở lập dự án đầu tư, thiết kế kỹ thuật (hoặc thiết kế bản vẽ thi công), thiết kế tổ chức thi công theo các quy trình, quy phạm hiện hành. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hình thành hướng phát triển, có tinh thần cầu tiến trong học tập và nghiên cứu, có đạo đức và thái độ tốt khi ra trường"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Sinh viên chọn 1 trong 2 đồ án: Đồ án đường hoặc đồ án cầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

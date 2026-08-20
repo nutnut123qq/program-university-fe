@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 902684,
+    "subjectCode": "90314160",
+    "syllabusName": "Chuyên đề Kỹ thuật xử lý môi trường lao động  (Advanced Topics on Working Environment Treatment Techniques)",
+    "syllabusEnglish": "Advanced Topics on Working Environment Treatment Techniques",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Tổng quan môi trường lao động và các tác nhân nguy hại (bụi–khí/hoá chất, ồn–rung, vi khí hậu, chiếu sáng), nguyên lý đánh giá phơi nhiễm.\nPhương pháp đo/quan trắc và xử lý dữ liệu; đối chiếu tiêu chuẩn/quy chuẩn để xác định mức độ không phù hợp.\nBiện pháp kỹ thuật kiểm soát theo thứ bậc kiểm soát: loại bỏ–thay thế, bao che/cách ly, thông gió (hút cục bộ–tổng thể), kiểm soát lan truyền.\nThiết kế/lựa chọn và tối ưu giải pháp xử lý cho các tình huống điển hình (thông gió–lọc, giảm ồn–rung, cải thiện chiếu sáng, cải thiện vi khí hậu).\nĐánh giá hiệu quả sau can thiệp, lập báo cáo kỹ thuật và thuyết trình phương án xử lý môi trường lao động (case study/doanh nghiệp).",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng nguyên lý đánh giá–kiểm soát môi trường lao động và thứ bậc kiểm soát để lựa chọn biện pháp kỹ thuật phù hợp cho từng tác nhân có hại."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng các công thức/tính toán cơ bản để xác định thông số thiết kế và lựa chọn giải pháp/thiết bị cho hệ thống xử lý–kiểm soát môi trường lao động."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích điều kiện sản xuất, nguồn phát sinh và cơ chế/đường lan truyền tác nhân có hại để xác định điểm can thiệp kỹ thuật ưu tiên."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phân tích số liệu đo/quan trắc và đối chiếu tiêu chuẩn/quy chuẩn nhằm xác định mức độ không phù hợp và nguyên nhân."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Đánh giá hiệu quả và mức độ đáp ứng của các giải pháp kỹ thuật đang áp dụng dựa trên tiêu chí thiết kế và dữ liệu kiểm chứng sau can thiệp."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Đánh giá, lập luận và đề xuất phương án xử lý môi trường lao động tối ưu cho một ca điển hình/doanh nghiệp, kèm khuyến nghị triển khai và giám sát."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan & phương pháp quan trắc môi trường lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Xử lý bụi, hơi/khí & thông gió trong môi trường lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Ồn – Rung – Ánh sáng – Bức xạ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực hành đo đạc, phân tích số liệu, đề xuất biện pháp & lập báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,70 @@
+{
+  "info": {
+    "sylid": 848636,
+    "subjectCode": "H01218",
+    "syllabusName": "Thực hành sử dụng thuốc trên lâm sàng (Clinical Pharmacotherapy Pratice)",
+    "syllabusEnglish": "Clinical Pharmacotherapy Pratice",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Phân tích các ca lâm sàng theo mẫu S.O.A.P liên\r\nquan đến các bệnh lý đã học: bệnh phổi tắc nghẽn mạn tính, loãng xương, huyết\r\nkhối tĩnh mạch, suy tim mạn tính.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Xây dựng và vận dụng được kỹ năng phân tích các tình huống lâm sàng "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng những kỹ năng thông tin thuốc để tư vấn sử dụng thuốc hợp lý cho bác sỹ, điều dưỡng, nhân viên y tế khác và bệnh nhân"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Xây dựng được kỹ năng cập nhật kiến thức chuyên môn về điều trị và sử dụng thuốc trên lâm sàng "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Phân tích ca lâm sàng theo S.O.A.P",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 706125,
+    "subjectCode": "303090",
+    "syllabusName": "Du lịch tàu biển (Cruise Specialist)",
+    "syllabusEnglish": "Cruise Specialist",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho sinh viên những kiến thức cơ bản về loại hình du lịch, nghỉ dưỡng bằng tàu biển – một loại hình du lịch đang phát triển trên Thế giới. Sau khi hoàn thành môn học này, sinh viên sẽ có khả năng nghiên cứu, ứng dụng, kinh doanh du lịch tàu biển. Sinh viên cũng sẽ có thể hoàn thành các dự báo sản phẩm, xây dựng kế hoạch quảng bá cần thiết để đáp ứng nhu cầu của khách hàng. Các hướng dẫn và tiêu chuẩn của Hiệp hội tàu biển quốc tế (CLIA) sẽ được trình bày. Sinh viên sẽ có thể tìm hiểu, thực hành các kỹ thuật bán sản phẩm trong các môi trường thực tế tại Việt Nam.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học hiểu, nhớ và dễ dàng diễn đạt được khái niệm về du lịch tàu biển, các chương trình du lịch phổ biến; chất lượng dịch vụ khách hàng; kết nối được kiến thức môn học này với các môn học khác của Ngành."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Tiếp cận và nhận thức chính xác, đầy đủ về du lịch tàu biển, vai trò và mối quan hệ của du lịch tàu biển trong bối cảnh quốc tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Làm cho người học biết tự đánh giá, phân tích, ứng dụng đặc điểm của loại hình du lịch tàu biển vào thực tế, biết xử lý linh hoạt đối với các tình huống phát sinh."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học được huấn luyện và truyền tải thái độ tích cực; thể hiện sự bình bẳng và công bằng; mang tinh thần và tác phong của một đại sứ văn hoá, du lịch chuyên nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về du lịch tàu biển",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Sự phát triển của du lịch tàu biển trên thế giới",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 90589,
+    "subjectCode": "40213960",
+    "syllabusName": "Ứng dụng học sâu trong viễn thông (Deep Laerning Applications for Communications)",
+    "syllabusEnglish": "Deep Laerning Applications for Communications",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Mục tiêu của môn học là giới thiệu nền tảng của học máy và ứng dụng những nguyên lý học máy tiên tiến trong thiết kế và tối ưu những hệ thống truyền thông không dây và các mạng di động. Gần đây, những nghiên cứu và phát triển của truyền thông không dây tập trung vào các kĩ thuật của các hệ thống không dây thế hệ thứ 5 (5G) và tiềm năng để tạo ra các mạng di động thông minh bằng cách ứng dụng thêm học máy. Vì thế, khóa học này mang đến những khái niệm và nền tảng của học máy và ứng dụng của học máy trong thiết kế các kĩ thuật lớp vật lý trong truyền thông không dây và trong việc tối ưu các mạng di động.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu về nguyên lý của học máy và ứng dụng của các thuật toán hồi quy và phân lớp"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng học máy trong thiết kế các kĩ thuật lớp vật lý trong giao tiếp không dây"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thiết kế và tối ưu các mạng di động thông minh ứng dụng học máy"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Ứng dụng của học máy trong thiết kế lớp vật lý",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Ứng dụng học máy trong thiết kế mạng di động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Chuyên đề nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

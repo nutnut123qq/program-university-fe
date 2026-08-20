@@ -1,0 +1,138 @@
+{
+  "info": {
+    "sylid": 521531,
+    "subjectCode": "40213660",
+    "syllabusName": "Xử lý ảnh số (Digital Image Processing)",
+    "syllabusEnglish": "Digital Image Processing",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học nhằm cung cấp kiến thức cơ bản về lĩnh vực xử lý ảnh số hiện đại, nhấn mạnh mối liên hệ giữa các nền tảng lý thuyết về xử lý ảnh và các vấn đề thực tiễn khi triển khai các lý thuyết này. Cụ thể, môn học giới thiệu các vấn đề sau:\nNhững vấn đề cơ bản về ảnh số: ánh sáng, camera và hệ thống thị giác của con người, các hệ thống số để chụp và xử lý ảnh.\n Không gian màu: mô hình màu RGB, YUV, HSV.\n Các phép biến đổi Fourier rời rạc 2 chiều (2D DFT) và biến đổi cosine rời rạc (DCT).\n Mã hóa nguồn ảnh: lượng tử và nén ảnh.\n Lọc ảnh: làm trơn ảnh, khử nhiễu và tăng độ nét. \n Nâng cao chất lượng ảnh: cân bằng histogram, lọc nhiễu, tách biên ảnh.\n Các ứng dụng khác: dò tìm vật thể, nhận dạng và theo dõi.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết những kiến thức cơ bản về xử lý ảnh số; biết bản chất và xây dựng được mô hình và các giải thuật xử lý ảnh cơ bản; nắm vững các ứng dụng khác nhau của xử lý ảnh và quyết định lựa chọn phương pháp phù hợp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thiết kế được các thuật toán xử lý ảnh số cơ bản để giải quyết một số bài toán thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nâng cấp và tối ưu được các thuật toán cơ bản trong xử lý ảnh số."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Áp dụng kỹ năng làm việc nhóm, trình bày, quản lý thời gian trong việc thực hiện các dự án về xử lý ảnh tại các doanh nghiệp hoặc trường/viện."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Phân đoạn ảnh"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về xử lý ảnh số",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Những vấn đề cơ bản về ảnh số",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lọc và nâng cao chất lượng ảnh số",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Lượng tử và nén ảnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Phân loại đối tượng ảnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Trích xuất đặc trưng ảnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Phân đoạn ảnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Xử lý hình thái học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

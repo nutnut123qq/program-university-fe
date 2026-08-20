@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 257546,
+    "subjectCode": "100042",
+    "syllabusName": "Đồ gốm 1 (Ceramics 1)",
+    "syllabusEnglish": "Ceramics 1",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Cung cấp cho sinh viên những kiến thức lí luận và kĩ năng làm việc cơ bản trong lĩnh vực thiết kế đồ gốm; truyền cảm hứng và giúp người học tìm thấy được niềm vui khi làm việc trong lĩnh vực này, khơi mở hướng phát triển nghề nghiệp nếu người học quyết định chọn đồ gốm cho tương lai.\n\nMang hình thái của đồ án, môn học yêu cầu người học đặt vấn đề, nghiên cứu đối tượng, đưa ra giải pháp, thể hiện quy trình thiết kế và trình bày kết quả một cách hoàn chỉnh.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học có nhận thức và cảm quan sâu sắc, tích cực về ngành gốm và lĩnh vực thiết kế gốm.\nNgười học có hiểu biết về các dòng gốm, từ lịch sử đến thực trạng hiện nay, tiềm năng phát triển của lĩnh vực này; nắm vững quy trình thiết kế đồ gốm tùy từng thể loại cụ thể.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng tự thực hiện một sản phẩm gốm tự chọn ở cấp độ cơ bản từ bước tìm ý tưởng đến bước hoàn thành sản phẩm, thông qua kĩ năng tạo hình trên đất, tạo khuôn, quét men và nung gốm.\nCó khả năng ghi nhận, lưu trữ dữ liệu và thể hiện lại quá trình thiết kế một cách đầy đủ, sáng tạo.\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có năng lực đưa ra và phát triển ý tưởng hài hòa và tôn lên vẻ đẹp của gốm, đạt được hiệu quả về thẩm mỹ tốt, có tính ứng dụng sáng tạo.\nCó khả năng đưa ra ý tưởng phù hợp với khả năng/ kĩ thuật thực hiện sản phẩm.\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học có thái độ xem trọng đề tài đã chọn, thể hiện ý muốn đào sâu nghiên cứu vào dòng sản phẩm đã chọn; làm việc nghiêm túc và vô tư.\nKhông đạo ý tưởng, chứng minh được nguồn gốc ý tưởng qua quá trình phát triển ý tưởng.\n\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thuyết trình,Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận,Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lý thuyết – Giảng đề",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lên kế hoạch & Thiết kế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

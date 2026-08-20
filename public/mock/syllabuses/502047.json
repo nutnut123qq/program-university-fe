@@ -1,0 +1,159 @@
+{
+  "info": {
+    "sylid": 907749,
+    "subjectCode": "502047",
+    "syllabusName": "Nhập môn hệ điều hành (Introduction to Operating Systems)",
+    "syllabusEnglish": "Introduction to Operating Systems",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu về quá trình phát triển của các Hệ điều hành máy tính, vai trò và nhiệm vụ của Hệ điều hành.\nCác thành phần bên trong Hệ điều hành; các phương pháp thiết kế; cơ chế gọi và trả về của các lớp bên trong nhân.\nTiến trình: đặc điểm và tính chất, trạng thái, chuyển ngữ cảnh. Cơ chế liên lạc giữa các tiến trình.\nTiểu trình: lợi ích và thách thức; đồng bộ tiểu trình; liên hệ giữa đa tiểu trình và kiến trúc đa nhân của CPU.\nĐịnh thời CPU: đặc trưng, tiêu chí; Các giải thuật định thời; Định thời CPU đa nhân.\nCác công cụ đồng bộ được cung cấp bởi lệnh phần cứng và thư viện POSIX của Hệ điều hành.\nCác bài toán kinh điển đồng bộ: mô tả, phân tích, phương án giải quyết và so sánh hiệu năng.\nTắc nghẽn: mô hình hệ thống, đặc trưng tắc nghẽn; Giải thuật RAG; Giải thuật Banker; Giải thuật Resource Request.\nBộ nhớ chính: mô hình và phương pháp quản lý; kỹ thuật ánh xạ địa chỉ; phương án tìm lỗ trống.\nBộ nhớ ảo: mô hình phân trang: kỹ thuật và hiện thực. Thay thế trang theo các giải thuật.\nBộ nhớ thứ cấp: giới thiệu, vai trò, chức năng và phương pháp quản lý.\nNhập xuất: phương pháp quản lý và cách thức vận hành.\nHệ thống tập tin: phương pháp thiết kế và hiện thực.\nMột số chủ đề mở rộng: bảo mật, máy ảo, liên lạc, ... sẽ được giới thiệu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Process evaluation 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Process evaluation 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Mid-term test",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Final examination",
+      "type": "Trắc nghiệm",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Introduction to Operating System",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Operating system Structure",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Process management",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Threads and concurrency",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "CPU Scheduling",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Synchronization tools",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Deadlock",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Memory management",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Virtual memory",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Mass-Storage Structure",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "I/O management",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 12,
+      "sessionNo": "12",
+      "topic": "File-System Interface",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

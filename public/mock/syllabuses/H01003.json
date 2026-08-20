@@ -1,0 +1,98 @@
+{
+  "info": {
+    "sylid": 473817,
+    "subjectCode": "H01003",
+    "syllabusName": "Thí nghiệm Sinh lý học (Physiology Laboratory)",
+    "syllabusEnglish": "Physiology Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Hướng dẫn chung về giải phẫu học cơ thể người và chức năng và cơ chế hoạt động của các hệ cơ quan.\n\nHọc thao tác thực tế một số xét nghiệm thăm dò chức năng cơ thể: đo huyết áp, thử đường huyết…",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Môn học Thí nghiệm Sinh lý học cung cấp cho người học kiến thức cơ bản về mối liên hệ giữa giải phẫu và sinh lý, biết được vị trí và chức năng của từng bộ phận trong cơ thể. Ngoài ra môn học còn cung cấp các kiến thức lý thuyết đã học vào ứng dụng trong các chuyên khoa lâm sàng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng: Người học cần có kỹ năng quan sát về vị trí, hình dạng, kích thước, màu sắc, thể chất và các đặc điểm đặc trưng của các hệ cơ quan trong cơ thể. Bên cạnh đó, người học phải nắm các thao tác thực hành thăm dò chức năng cơ thể như đo huyết áp, đo đường huyết… và cần có kỹ năng ghi nhớ và tư duy logic để nắm bắt được các kiến thức của môn học."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Dựa vào các kiến thức đã học, người học có thể phân biệt vai trò của từng hệ cơ quan trong cơ thể, phân tích được các chỉ số xét nghiệm khi gặp trong cuộc sống hằng ngày, vận dụng kiến thức vào việc phân tích một số bệnh thông thường."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học biết và hiểu được quá trình vận hành của các hệ cơ quan trong cơ thể, cách thao tác thực hành về thử đường huyết, đo huyết áp… dễ dàng và không gây đau hay khó chịu đối với bệnh nhân."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận,Thực hành,Vấn đáp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test,Practical Test,Viva/Oral Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giải phẫu sinh lý hệ xương khớp & xác định nhóm máu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Giải phẫu sinh lý hệ cơ  & phân tích huyết đồ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Giải phẫu sinh lý hệ tuần hoàn, hô hấp & đo huyết áp động mạch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Giải phẫu sinh lý hệ tiêu hóa, tiết niệu &  đo Glucose lúc đói",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thi thực tập",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

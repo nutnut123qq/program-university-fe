@@ -1,0 +1,154 @@
+{
+  "info": {
+    "sylid": 834221,
+    "subjectCode": "903018",
+    "syllabusName": "An toàn thiết bị chịu áp lực (Pressure Equipment Safety)",
+    "syllabusEnglish": "Pressure Equipment Safety",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Khái niệm về thiết bị chịu áp lực;\n\nKỹ thuật an toàn bình chịu áp lực;\n\nKỹ thuật an toàn lò hơi;\n\nDụng cụ đo lường-kiểmtra;\n\nCơ cấu an toàn trong thiết bị áp lực;\n\nTính toán sức bền các thiết bị chịu áp lực.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Phát triển có hệ thống các kiến thức cơ bản, các cách tiếp cập vấn đề, cách xác định mối nguy hiểm, biện pháp kiểm soát mối nguy hiểm khi vận hành thiết bị chịu áp lực."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích và vận dụng những kiến thức cơ bản nhất của môn học nhằm xác định mối nguy, lựa chọn biện pháp an toàn hợp lý để loại trừ hoặc hạn chế tác động của chúng, xác định đúng loại cơ cấu an toàn, dụng cụ đo lường – kiểm tra, tính toán đúng sức bền của thiết bị chịu áp lực."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tư vấn cho doanh nghiệp các nội dung/dịch vụ về an toàn thiết bị chịu áp lực cần thực hiện nhằm đảm bảo điều kiện lao động phù hợp cho người lao động. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Xây dựng chương trình huấn luyện về nội dung an toàn thiết bị chịu áp lực cho các công nhân liên quan theo quy định của Luật an toàn vệ sinh lao động."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Giao tiếp hiệu quả thông qua kỹ năng viết và trình bày báo cáo khoa học để thuyết trình nội dung chương trình một cách hiệu quả."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Làm việc nhóm và làm việc độc lập trong quá trình học một cách hiệu quả"
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Có đạo đức nghề nghiệp; tuân thủ các nguyên tắc an toàn nghề nghiệp; có phẩm chất đạo đức tốt, hiểu biết và tuân thủ pháp luật; tôn trọng và có ý thức bảo vệ người lao động, tích cực tham gia các hoạt động vì cộng đồng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái niệm về thiết bị chịu áp lực",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kỹ thuật an toàn bình chịu áp lực",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kỹ thuật an toàn lò hơi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Dụng cụ đo lường-kiểm tra, cơ cấu an toàn trong thiết bị chịu áp lực",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kỹ thuật vận hành an toàn lò hơi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Tính toán sức bền các thiết bị chịu áp lực",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 129526,
+    "subjectCode": "302231",
+    "syllabusName": "Xã hội học đô thị (Urban Sociology)",
+    "syllabusEnglish": "Urban Sociology",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần gồm:\n\n- Lịch sử hình thành và phát triển của xã hội học đô thị\n\n- Các lý thuyết tiếp cận trong nghiên cứu đô thị\n\n- Các kiến thức về quá trình đô thị hóa, phân tầng xã hội cũng như các vấn đề về nhà ở…\n\n- Cơ cấu xã hội và cộng đồng dân cư đô thị\n\n- Xã hội học trong công tác quy hoạch và quản lý đô thị",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu các khái niệm về đô thị và lịch sử hình thành và phát triển xã hội học đô thị"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết và ứng dụng các lý thuyết tiếp cận trong nghiên cứu về xã hội học đô thị để giải thích một vấn đề xã hội cụ thể ở đô thị"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích được các nội dung về đô thị hóa, sự tác động của đô thị hóa đến đời sống xã hội "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phân tích được vai trò của xã hội học trong công tác quy hoạch và quản lý đô thị, vai trò của lối sống đô thị, cộng đồng đô thị và xã hội học trong công tác quy hoạch và quản lý đô thị"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Lịch sử hình thành và phát triển của xã hội học đô thị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tiếp cận và phân tích đô thị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quá trình đô thị hóa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Cơ cấu xã hội và lối sống của cộng đồng dân cư đô thị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Xã hội học đô thị và quy hoạch phát triển đô thị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

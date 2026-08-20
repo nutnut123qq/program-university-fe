@@ -1,0 +1,104 @@
+{
+  "info": {
+    "sylid": 699304,
+    "subjectCode": "C02037",
+    "syllabusName": "Giải tích số nâng cao (Advanced numerical analysis)",
+    "syllabusEnglish": "Advanced numerical analysis",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Introduction to mathematical modeling and numerical simulation\n\nFinite Difference Method",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Sinh viên được cung cấp kiến thức trong việc mô phỏng các bài toán trên thực tế về việc giải xấp xỉ các phương trình đạo hàm riêng. Ngoài ra, sinh viên làm quen với một trong các phương pháp giải xấp xỉ trong giải tích số: phương pháp sai phân hữu hạn. Hiểu và vận dụng được cách áp dụng các phương pháp đặc biệt này trong việc giải gần đúng phương trình đạo hàm riêng, hơn nữa là trong các bài toán thực tiễn. Sinh viên có thể vận dụng kiến thức của phương pháp này để giải xấp xỉ các phương trình cơ bản trong không gian nhiều chiều."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: giúp cho sinh viên nắm được các kỹ năng giải xấp xỉ phương trình bằng cách phương pháp đặc biệt, khả năng đánh giá sự tồn tại duy nhất nghiệm, đánh giá sự hội tụ, sự ổn định và sai số của từng phương pháp. Có thể vận dụng vào việc giải số và đánh giá nghiệm của một số phương trình đặc biệt trong không gian một chiều."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: nắm vững lý thuyết toán căn bản, có tư duy về logic, suy luận."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: tham dự đầy đủ các buổi học, có ý thức chuyên cần, nghiêm túc trong các buổi học lý thuyết và thực hành. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Introduction to mathematical modeling and numerical simulation",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Finite difference method",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

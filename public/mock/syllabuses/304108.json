@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 291742,
+    "subjectCode": "304108",
+    "syllabusName": "Chương trình an sinh xã hội (Social Welfare Program)",
+    "syllabusEnglish": "Social Welfare Program",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 1: Đối tượng, nội dung, phương pháp và các học thuyết cơ bản của môn học an sinh xã hội\n\nChương 2: Những vấn đề cơ bản của an sinh xã hội \n\nChương 3: Hệ thống an sinh xã hội ở Việt Nam",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu cơ bản về kiến thức liên quan đến phân tích, lựa chọn và kết hợp các quan điểm, phương pháp để giải thích một số các vấn đề xã hội, đối tượng, phương pháp nghiên cứu của môn học và các cách tiếp cận trong nghiên cứu về an sinh xã hội."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": " Vận dụng được các nội dung đã học để phân tích và nắm được cách giải quyết các vấn đề xã hội theo quan điểm của ngành công tác xã hội. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": " Xác định các vấn đề cần can thiệp về chính sách an sinh xã hội; phát hiện các vấn đề tồn tại trong quá trình thực hiện chính sách an sinh xã hội; sử dụng các kiến thức về an sinh xã hội trong nghiên cứu công tác xã hội và giải quyết các vấn đề xã hội.\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Khách quan, có tư duy phản biện khi nghiên cứu các vấn đề xã hội; thực thi các nguyên tắc hành động của công tác xã hội khi nghiên cứu và giải quyết vấn đề xã hội.\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đối tượng, nội dung, phương pháp và các học thuyết cơ bản của môn học an sinh xã hội",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Những vấn đề cơ bản của an sinh xã hội",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": " Hệ thống an sinh xã hội ở Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

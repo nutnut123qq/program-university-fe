@@ -1,0 +1,143 @@
+{
+  "info": {
+    "sylid": 362985,
+    "subjectCode": "503110",
+    "syllabusName": "Thiết kế mạng (Network Design)",
+    "syllabusEnglish": "Network Design",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Giai đoạn I: phân tích yêu cầu,  xác định các mục tiêu khách hàng và các yêu cầu kỹ thuật.  Nhiệm vụ đặc trưng cho mạng hiện có, bao gồm kiến ​​trúc và hiệu suất của các phân đoạn và thiết bị mạng chính, phân tích lưu lượng mạng,  lưu lượng giao thông và tải, hành vi giao thức và các yêu cầu về chất lượng dịch vụ (QoS).\n- Giai đoạn II: thiết kế mạng logic, phát triển cấu trúc liên kết mạng, cấu trúc liên kết có thể từ đơn giản đến phức tạp, phân cấp và mô-đun, mô hình địa chỉ lớp mạng và chọn các giao thức chuyển đổi và định tuyến, thiết kế quản lý mạng và điều tra ban đầu về các nhà cung cấp dịch vụ có thể đáp ứng các yêu cầu truy cập WAN và truy cập từ xa.\n- Giai đoạn III: thiết kế vật lý, lựa chọn các công nghệ và thiết bị cho các mạng trong Campus, bao gồm cáp, điểm truy cập không dây, Bridge không dây và bộ định tuyến. Chọn công nghệ và thiết bị cho truy cập từ xa và WAN.\n- Giai đoạn IV: thực hiện kế hoạch vận hành thử nghiệm,  tối ưu hóa thiết kế mạng và ghi lại công việc với đề xuất thiết kế mạng, cập nhật thiết kế để bao gồm các tính năng tối ưu hóa như định hình lưu lượng và cơ chế xếp hàng và chuyển đổi bộ định tuyến nâng cao.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Process evaluation 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Process evaluation 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Mid-term test",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Final examination",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Analyzing goals and restricting customers",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Analysis of technical goals",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Network characteristics",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Network link structure design",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Designing address and numbering models",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Switching protocols and routing",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Network security and management strategies",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Select technology and equipment for the Campus network",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Check network design",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Network design optimization",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

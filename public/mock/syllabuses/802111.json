@@ -1,0 +1,114 @@
+{
+  "info": {
+    "sylid": 469990,
+    "subjectCode": "802111",
+    "syllabusName": "Hạ tầng kỹ thuật đô thị (Urban Infrastructure Engineering)",
+    "syllabusEnglish": "Urban Infrastructure Engineering",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Khái niệm chung về hệ thống hạ tầng đô thị, quy\r\nhoạch hạ tầng đô thị.\nCông trình giao thông đô thị và cây xanh.\nCông trình hạ tầng cấp thoát nước.\nCông trình cấp điện, chiếu sáng đô thị và thông\r\ntin liên lạc.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên kiến thức cơ bản về phân loại, chức năng, đặc điểm làm việc, đặc điểm cấu tạo, phạm vi áp dụng, tiêu chuẩn và các quy định trong thiết kế các công trình hạ tầng kỹ thuật đô thị."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Cung cấp cho sinh viên phương pháp thiết kế cấu tạo nền mặt đường đô thị, tổ chức giao thông, bố trí cấu tạo hệ thống cấp thoát nước, cây xanh, chiếu sáng, nguồn điện và hệ thống thông tin liên lạc. Tính toán kết cấu áo đường, lưu lượng và khả năng cấp thoát nước, công suất nguồn điện."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên biết chủ động trong việc tìm tòi học hỏi, nghiên cứu tài liệu, hình thành hướng nghiên cứu, phát triển nghề nghiệp và đạo đức nghề nghiệp khi ra trường."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Quy hoạch hệ thống hạ tầng kỹ thuật đô thị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Công trình hạ tầng giao thông đô thị và cây xanh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Công trình hạ tầng cấp thoát nước",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Công trình cấp điện, chiếu sáng và thông tin liên lạc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

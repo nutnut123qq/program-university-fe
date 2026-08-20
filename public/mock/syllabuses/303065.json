@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 84241,
+    "subjectCode": "303065",
+    "syllabusName": "Các điểm đến trên Thế giới: văn hóa và địa lý (World Destinations: Culture and Geography)",
+    "syllabusEnglish": "World Destinations: Culture and Geography",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho sinh viên những hiểu biết về các nền văn hóa đa diện, các giá trị địa lý, văn hóa cấu thành một điểm đến hấp dẫn. Sinh viên cũng sẽ thảo luận về các ý tưởng của việc học làm thế nào để đi du lịch một cách có trách nhiệm về văn hóa hơn bằng cách tôn trọng sự khác biệt văn hóa địa phương.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Mục tiêu của môn học bao gồm mô tả và phân tích các điểm đến du lịch lớn từ khắp nơi trên thế giới. Các chủ đề cụ thể được đặt ra trong môn học bao gồm lý thuyết địa lý vùng liên quan đến du lịch, các tương tác không gian và trải nghiệm văn hoá."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kĩ năng: Sinh viên được trang bị kĩ năng nhìn nhận và phân tích vấn đề một cách toàn diện về mối quan hệ giữa du lịch và các điểm đến cũng như các đặc điểm văn hoá trên thế giới."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy:Dựa trên những lý thuyết và các khái niệm khác nhau trong môn học để hiểu và đánh giá các mối quan hệ của các điểm đến, các yếu tố văn hoá trong bối cảnh của sự phát triển du lịch bền vững. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Sinh viên có thái độ đúng đắn về các vấn đề liên quan đến cách thức ứng xử hợp lý với nguồn tài nguyên, đặc điểm địa lý và văn hoá trong nước và thế giới."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng Quan ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các vùng du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Xu hướng quản lý các điểm đến du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

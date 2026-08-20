@@ -1,0 +1,136 @@
+{
+  "info": {
+    "sylid": 311024,
+    "subjectCode": "A03072",
+    "syllabusName": "Lý thuyết nghề nghiệp và phát triển (Career Theory and Development)",
+    "syllabusEnglish": "Career Theory and Development",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này cung cấp một cái nhìn tổng quan về lý thuyết nghề nghiệp, phát triển và ứng dụng của nó cho nhân viên trong tổ chức. Sinh viên biết cách tổ chức các hội thảo và các chương trình tư vấn trực tiếp để giúp những đồng nghiệp khác tìm thấy sự hài lòng trong vai trò chuyên môn của họ, bao gồm năng lực văn hóa, đánh giá và lập kế hoạch nghề nghiệp, thông tin nghề nghiệp và các nguồn hỗ trợ, biết cách sử dụng công nghệ để hỗ trợ tư vấn và lập kế hoạch nghề nghiệp, cách thiết kế, triển khai và đánh giá sự phát triển nghề nghiệp và các vấn đề đạo đức trong phát triển nghề nghiệp. Môn học nhấn mạnh các chiến lược tư vấn nghề nghiệp và kỹ thuật phát triển nghề nghiệp trong thế kỷ 21.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học kiến thức tổng quan, tầm quan trọng về lý thuyết nghề nghiệp và phát triển, các lý thuyết phát triển nghề nghiệp trước đây và hiện thời để có thể áp dụng lý thuyết phát triển nghề nghiệp trong thực tế"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Cung cấp cho người học các nguyên tắc, qui trình, phương pháp thực hiện công việc liên quan đến tư vấn nghề nghiệp"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Cung cấp cho người học cách thức thiết kế được kế hoạch, chương trình về hoạt động tư vấn tư vấn nghề nghiệp cho cá nhân, tổ chức"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Định hướng để người học thực hiện triển khai được kế hoạch liên quan đến tư vấn nghề nghiệp cho cá nhân, tổ chức"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan lý thuyết nghề nghiệp và phát triển",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hiểu và ứng dụng các lý thuyết phát triển nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hiểu và ứng dụng các lý thuyết phát triển nghề nghiệp hiện thời",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Đánh giá và lập kế hoạch nghề nghiệp; dữ liệu nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thiết kế, vận hành và đánh giá các chương trình phát triển nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Các vấn đề đạo đức trong việc định hướng phát triển nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

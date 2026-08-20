@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 771521,
+    "subjectCode": "302128",
+    "syllabusName": "Nhập môn viết truyền thông (Introduction to Media Writing)",
+    "syllabusEnglish": "Introduction to Media Writing",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên sẽ học cách viết kịch bản một cách có mục đích và tự tin. Thông qua thực hành viết kịch bản cho nhiều thể loại truyền thông khác nhau, sinh viên sẽ học cách quảng bá kịch bản của mình để có thể hiểu và thuyết phục khán giả mục tiêu của mình. Thông qua các cuộc phỏng vấn, sinh viên sẽ học cách thu thập dữ liệu và sự lanh lợi – kết cấu quan trọng trong kịch bản. Sinh viên sẽ cố gắng tổ chức đôi khi là một lượng dữ liệu khổng lồ, chọn lọc chúng và sau đó ghép chúng lại với nhau thành một kịch bản mạch lạc - trong đó cần ghi nhớ rằng kịch bản phương tiện truyền thông có trách nhiệm và phải chịu sự chi phối của hành vi đạo đức.\nMộn học này sẽ tập trung vào chủ đề:\nViết kịch bản truyền thông bình thường;\nCác yếu tố không thành văn trong giao tiếp truyền thông;\nViết kịch bản quan hệ công chúng;\nViết kịch bản trang web;\nViết kịch bản truyền thông xã hội;\nThu âm, chụp hình, những chức năng có thể sử dụng trên điện thoại thông minh.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và diễn giải được cách thức các chuyên gia truyền thông và các nhà truyền thông sử dụng kịch bản để thông báo, giáo dục và thuyết phục khán giả như thế nào."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nhận thức được vai trò của các loại phương tiện truyền thông khác nhau và phát triển các kỹ năng để viết kịch bản cho các phương tiện thông tin đại chúng và phương tiện mới thông qua việc giảng dạy và thực hành."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thực hành viết kịch bản cho một số thể loại truyền thông khác nhau - như phương tiện truyền thông thông thường, quan hệ công chúng, trang web, truyền thông xã hội và quảng cáo. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tuân thủ đạo đức và trách nhiệm xã hội khi thực hành các loại phương tiện truyền thông khác nhau."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về viết truyền thông",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Viết kịch bản tin tức ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tin tức theo bối cảnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Viết kịch bản cho trang web. Viết kịch bản cho truyền thông xã hội",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Sự tự do và những quy định của truyền thông. Đạo đức. Vai trò xã hội",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 40207,
+    "subjectCode": "H01201",
+    "syllabusName": "Kiểm nghiệm các dạng thực phẩm và mỹ phẩm (Food and Cosmetics Analysis)",
+    "syllabusEnglish": "Food and Cosmetics Analysis",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần Kiểm nghiệm các dạng thực phẩm và mỹ phẩm cung cấp cho người học kiến thức liên quan đến hệ thống quản lý chất lượng, các yêu cầu chất lượng và phương pháp kiểm tra chất lượng của thực phẩm và mỹ phẩm tại Việt Nam; trang bị cho người học kỹ năng phân tích và xây dựng tiêu chuẩn chất lượng và phương pháp kiểm tra cho một dạng thực phẩm - mỹ phẩm để đăng ký lưu hành trên thị trường Việt Nam.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Phân loại được các dạng thực phẩm, mỹ phẩm, thực phẩm chức năng và thuốc."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Tóm tắt được các hệ thống quản lý chất lượng, yêu cầu về chất lượng và các phương pháp kiểm nghiệm thực phẩm, mỹ phẩm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Xây dựng được bộ tiêu chuẩn chất lượng và phương pháp kiểm nghiệm cho các dạng thực phẩm - mỹ phẩm thường gặp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Kiểm nghiệm các dạng thực phẩm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các đối tượng kiểm nghiệm trong nghiệp vụ kiểm nghiệm thực phẩm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Công tác kiểm nghiệm mỹ phẩm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Áp dụng và phân tích kiểm nghiệm thực phẩm và mỹ phẩm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

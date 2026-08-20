@@ -1,0 +1,122 @@
+{
+  "info": {
+    "sylid": 890299,
+    "subjectCode": "402098",
+    "syllabusName": "Tập sự nghề nghiệp (Graduation Internship)",
+    "syllabusEnglish": "Graduation Internship",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên sẽ thực tập dưới sự phân công và hướng dẫn của cán bộ phụ trách của tổ chức tiếp nhận. Ngoài thời gian thực tập như đã được phân công, sinh viên có nhiệm vụ tranh thủ thời gian học hỏi kinh nghiệm của cán bộ hướng dẫn, tham khảo tài liệu kỹ thuật chuyên ngành và viết thu hoạch báo cáo. Tất cả các sinh viên đều phải được đánh giá bởi Hội Đồng đánh giá thực tập do nhà trường phối hợp với tổ chức tiếp nhận tổ chức.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được nhiệm vụ, công việc của các cán bộ và công nhân và nội quy của công ty nhằm làm quen với môi trường sản xuất và kinh doanh; rèn luyện ý thức kỷ luật, xây dựng tập quán vận hành an toàn cho người và thiết bị. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Tạo điều kiện cho sinh viên nắm bắt nguyên lý cấu tạo, công dụng và phương pháp vận hành của những hệ thống, bộ phận, thiết bị điện tử viễn thông trong thực tế, cách làm việc thực tế trong các nhà máy xí nghiệp, kinh nghiệm vận hành các thiết bị tại nơi mình thực tập."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tạo điều kiện cho sinh viên có thể thu thập các thông tin, dữ liệu, thông số phục vụ cho đề tài tập sự nghề nghiệp và đồ án tốt nghiệp. Rèn luyện kỹ năng sáng tạo qua việc cải tiến, nâng cấp thiết bị, hệ thống tại nơi làm việc."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện được tác phong làm việc khoa học, trách nhiệm, thái độ và cách ứng xử trong công việc, kỹ năng làm việc nhóm, nâng cao năng lực làm việc độc lập và kỹ năng lập kế hoạch và quản lý thời gian."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhận nhiệm vụ tại công ty",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Làm việc tại công ty",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Làm việc tại công ty (tt.)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Làm việc tại công ty (tt.)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Làm việc tại công ty (tt.)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Làm việc tại công ty (tt.)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Làm việc tại công ty (tt.)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Viết báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,98 @@
+{
+  "info": {
+    "sylid": 83085,
+    "subjectCode": "104043",
+    "syllabusName": "Kỹ thuật xử lý chất liệu (Material Treatment)",
+    "syllabusEnglish": "Material Treatment",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu các phương pháp xử lí chất liệu cơ bản trong thời trang.\n\nTìm hiểu cách thực hiện  các phương pháp xử lí chất liệu.\n\nNghiên cứu và thực hiện các phương pháp xử lí không can thiệp vào cấu trúc bề mặt chất liệu.\n\nNghiên cứu và thực hiện các phương pháp xử lí có can thiệp vào cấu trúc bề mặt chất liệu.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được giá trị và vai trò của các phương pháp xử lí chất liệu với thiết kế thời trang"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nắm vững các nguyên tắc trong kĩ thuật xử lí chất liệu và phương pháp thực hiện "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Áp dụng thuần thục  các phương pháp xử lí chất liệu vào quy trình thiết kế sản phẩm thời trang"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá được hiệu quả thẩm mỹ của các phương pháp xử lý chất liệu trên sản phẩm thời trang"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Sáng tạo được các hình thức xử lí chất liệu mới từ các kiến thức cơ bản, mang tính thẩm mỹ cao và phù hợp với nhu cầu của thị trường"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Vai trò và vị trí của xử lí chất liệu đối với thiết kế thời trang   ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các phương pháp xử lí không can thiệp vào cấu trúc bề mặt chất liệu   ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các phương pháp xử lý chất liệu có can thiệp vào cấu trúc bề mặt chất liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

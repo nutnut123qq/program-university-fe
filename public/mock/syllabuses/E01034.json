@@ -1,0 +1,142 @@
+{
+  "info": {
+    "sylid": 874843,
+    "subjectCode": "E01034",
+    "syllabusName": "Luật môi trường (Environment Law)",
+    "syllabusEnglish": "Environment Law",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn pháp luật về môi trường giúp sinh viên nắm bắt một số vấn đề mang tính lý luận chung về môi trường, bảo vệ môi trường và luật môi trường gồm các nội dung về đánh giá môi trường, kiểm soát ô nhiễm môi trường và bảo tồn đa dạng sinh học như: kiểm soát ô nhiễm không khí, kiểm soát ô nhiễm đất, kiểm soát ô nhiễm nước, bảo vệ rừng, bảo vệ đa dạng sinh học, cơ chế giải quyết các tranh chấp nảy sinh trong lĩnh vực này…",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học có những kiến thức cơ bản về pháp luật bảo vệ môi trường."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học sẽ nắm được các nội dung cơ bản: một số vấn đề mang tính lý luận chung về môi trường, bảo vệ môi trường và luật môi trường, gồm các nội dung về đánh giá môi trường, kiểm soát ô nhiễm môi trường và bảo tồn đa dạng sinh học như: kiểm soát ô nhiễm không khí, kiểm soát ô nhiễm đất, kiểm soát ô nhiễm nước, bảo vệ rừng, bảo vệ đa dạng sinh học, cơ chế giải quyết các tranh chấp nảy sinh trong lĩnh vực này"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học có khả năng phân tích, đánh giá thực tiễn, đồng thời hình thành tư duy độc lập về các nội dung kiến thức cũng như thực tiễn liên quan đến môn học."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học có ý thức về việc tuân thủ pháp luật về bảo vệ môi trường. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quát về luật môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Pháp luật về kiểm soát ô nhiễm, suy thoái, sự cố môi trường ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Pháp luật về quản lý chất thải",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Pháp luật về đánh giá môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Pháp luật về bảo vệ các nguồn tài nguyên và bảo tồn đa dạng sinh học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Pháp luật về các công cụ kinh tế trong bảo vệ môi trường ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Xử lí vi phạm, giải quyết tranh chấp môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Luật quốc tế về môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

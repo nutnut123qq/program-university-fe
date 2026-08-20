@@ -1,0 +1,82 @@
+{
+  "info": {
+    "sylid": 303235,
+    "subjectCode": "401062",
+    "syllabusName": "Giải tích mạch điện 2 (Circuit Analysis 2)",
+    "syllabusEnglish": "Circuit Analysis 2",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp các kiến thức nền tảng và kỹ năng học thuật cần thiết để sinh viên có thể mô hình hóa và phân tích các mạch điện - điện tử trong chế độ quá độ. Ứng dụng của môn học liên quan đến tất cả các môn chuyên ngành trong lĩnh vực điện – điện tử. Môn học này cung cấp các kiến thức nội dung sau: giới thiệu các phương pháp phân tích mạch quá độ như Phương pháp tích phân kinh điển, phương pháp toán tử Laplace; các đặc trưng cơ bản của chế độ quá độ trong mạch RL, RC, RLC; mô hình hóa chuỗi tín hiệu tuần hoàn không Sin thành chuỗi Fourier, khai triển chuỗi Fourier; phân tích đáp ứng mạch với nguồn tác động tuần hoàn không Sin; phân tích mạch được kích thích với nhiều tần số khác nhau.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết cách phân tích mạch quá độ; hiểu các kỹ thuật tính toán để giải quyết bài toán mạch  điện trong miền tần số.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng các kiến thức để phân tích và thiết kế một cách hiệu quả các mạch điện, hệ thống điện với các yêu cầu đặc trưng trong thực tế"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Phân tích mạch quá độ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phân tích mạch trong miền tần số",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

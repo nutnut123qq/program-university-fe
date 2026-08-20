@@ -1,0 +1,148 @@
+{
+  "info": {
+    "sylid": 380852,
+    "subjectCode": "903116",
+    "syllabusName": "Luật An toàn, Vệ sinh lao động (Occupational Safety and Hygiene Law)",
+    "syllabusEnglish": "Occupational Safety and Hygiene Law",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Hệ thống văn bản pháp luật Việt Nam về ATVSLĐ.\n\nQuyền và nghĩa vụ các bên trong công tác ATVSLĐ.\n\nQui định về quản lý công tác ATVSLĐ tại cơ sở.\n\nCác qui định về ATVSLĐ.\n\nCác chế độ, chính sách liên quan đến ATVSLĐ.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Xây dựng được các kỹ năng mềm như viết và trình bày báo cáo khoa học để thuyết trình nội dung chương trình/dự án một cách hiệu quả, kỹ năng làm việc nhóm và làm việc độc lập trong quá trình học một cách hiệu quả"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Xây dựng đạo đức nghề nghiệp; tuân thủ các nguyên tắc, nội quy an toàn nghề nghiệp; có phẩm chất đạo đức tốt, hiểu biết và tuân thủ pháp luật; tôn trọng và có ý thức bảo vệ người lao động"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Trang bị kiến thức cơ bản về các đối tượng có liên quan trong công tác ATVSLĐ. Áp dụng quy định của pháp luật về an toàn, vệ sinh lao động cho từng đặc thù công việc/ngành nghề"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá các tình huống về vi phạm an toàn, vệ sinh lao động trong quá trình học và đề xuất giải pháp"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Vận dụng kiến thức để xây dựng các chương trình, kế hoạch để nâng cao hiểu biết và kiến thức cho người lao động về các quy định pháp luật trong công tác an toàn, vệ sinh lao động tại doanh nghiệp"
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Phát triển khả năng tham mưu và tư vấn cho NSDLĐ tuân thủ quy định và xây dựng các chế độ, chính sách nhằm hỗ trợ, bồi dưỡng cho NLĐ trong quá trình làm việc"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về Luật ATVSLĐ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Quyền và nghĩa vụ trong công tác ATVSLĐ ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quản lý công tác ATVSLĐ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Quy định liên quan đến ATLĐ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Quy định liên quan đến SKNN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Chính sách về lao động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

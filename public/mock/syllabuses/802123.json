@@ -1,0 +1,82 @@
+{
+  "info": {
+    "sylid": 513828,
+    "subjectCode": "802123",
+    "syllabusName": "Kinh tế xây dựng và dự toán công trình (Construction Estimates)",
+    "syllabusEnglish": "Construction Estimates",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "+ Kinh tế xây dựng gồm chương 1 và 2.\n\n+ Dự toán công trình: Chương 3.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên những kiến thức cơ bản về quản lý công tác xây dựng cơ bản. Vấn đề tư trong xây dựng cơ bản và quản lý dự ấn đầu tư. Xác định và đánh giá các chỉ tiêu kinh tế trong quản lý dự án. Lập hồ sơ dự án. Quản trị thực hiện dự án."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết áp dụng các kiến thức đã học vào công tác tư vấn kiến trúc xây dựng và lập dự toán, dự án cũng như đánh giá phương án kinh tế trong xây dựng. Sử dụng được các công cụ trong lập dự toán, lập dự án. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá và phân tích hiệu quả đầu tư dự án cũng như lập được dự toán công trình xây dựng.."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Hiểu được cách phân tích hiệu quả đầu tư và lập được dự toán công trình"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổ chức và quản lý xây dựng cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đầu tư xây dựng cơ bản và hiệu quả kinh tế đầu tư",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lập dự toán công trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

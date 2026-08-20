@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 164472,
+    "subjectCode": "304080",
+    "syllabusName": "Kỹ năng tham vấn (Counselling Skills)",
+    "syllabusEnglish": "Counselling Skills",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp kiến thức cơ bản về tham vấn như khái niệm, loại hình, nguyên tắc đạo đức, các bước cơ bản của một ca tham vấn. Môn học giới thiệu một số các kỹ năng cơ bản trong tham vấn và rèn luyện như kỹ năng lắng nghe, kỹ năng quan sát, kỹ năng phản hồi, kỹ năng đặt câu hỏi...",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu khái niệm, mục tiêu, nguyên tắc đạo đức trong tham vấn,thân chủ và những vấn đề cần đến tham vấn, bước cơ bản trong một ca tham vấn\tKiến thức: Nắm vững một số nội dung kiến thức cơ bản về kỹ năng tham vấn."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng được các kĩ năng lắng nghe, quan sát, phản hồi, đặt câu hỏi… với các thân chủ, cá nhân, nhóm, cá nhân và gia đình năng: Có khả năng vận dụng một số kỹ năng khi tham vấn cho thân chủ."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích được tâm lý, hành vi của thân chủ , nhóm, cá nhân & gia đình trong từng tình huống cụ thể cầu về tư duy: Biết cách xác định và lựa chọn kỹ năng phù hợp khi tham vấn cho thân chủ."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá được tiến trình tham vấn để thiết lập được mối quan hệ, tạo lòng tin, khuyến khích thân chủ nhận thức được vấn đề của mình và chủ động ứng phó với những vấn đề đó. độ và hành vi: Tuân thủ quy định nghề nghiệp trong tham vấn."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Kỹ năng lắng nghe",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kỹ năng đặt câu hỏi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kỹ năng thấu hiểu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kỹ năng phản hồi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kỹ năng xử lý im lặng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

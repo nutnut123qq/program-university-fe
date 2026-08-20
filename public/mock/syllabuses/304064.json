@@ -1,0 +1,124 @@
+{
+  "info": {
+    "sylid": 517005,
+    "subjectCode": "304064",
+    "syllabusName": "Công tác xã hội với người cao tuổi (Working with Older Adults)",
+    "syllabusEnglish": "Working with Older Adults",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giới thiệu một số nội dung kiến thức cơ bản về người cao tuổi, các khái niệm như người già, già hóa, dân số già, tâm sinh lý, kinh tế, xã hội của người cao tuổi, các hoạt động của người cao tuổi. Bên cạnh đó, môn học cung cấp một số chính sách luật pháp liên quan đến người cao tuổi, nhấn mạnh vai trò của nhân viên xã hội, tiến trình trợ giúp người cao tuổi cũng như các kỹ năng trợ giúp người cao tuổi.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được một số nội dung kiến thức cơ bản về người cao tuổi, người già, già hóa, dân số già, tâm sinh lý của người cao tuổi, chính sách luật pháp liên quan đến người cao tuổi"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng các kỹ năng cơ bản của công tác xã hội trong tiến trình trợ giúp người cao tuổi."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng được tiến trình và phương pháp can thiệp, hỗ trợ."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phân tích được nhu cầu, khả năng và nguồn lực của thân chủ là người cao tuổi"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Đánh giá được tình trạng sức khỏe, tâm lý, xã hội của người cao tuổi và vấn đề ưu tiên cần hỗ trợ, can thiệp; đánh giá tiến trình can thiệp, hỗ trợ."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Một số vấn đề chung về người cao tuổi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Vai trò của nhân viên công tác xã hội trong lĩnh vực trợ giúp người cao tuổi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các văn bản pháp luật và chính sách liên quan đến người cao tuổi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Một số vấn đề của người cao tuổi và cách thức trợ giúp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Một số kỹ năng về hỗ trợ người cao tuổi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 972225,
+    "subjectCode": "901136",
+    "syllabusName": "Chuyên đề nghiên cứu ứng dụng trong lĩnh vực khoa học và kỹ thuật môi trường (Topics on Applied Research in Environmental Science and Engineering)",
+    "syllabusEnglish": "Topics on Applied Research in Environmental Science and Engineering",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "* \nNhận diện các vấn đề gây ô nhiễm môi trường, nghiên cứu ứng dụng trong ngành công nghệ môi trường.\n* \nCác phương pháp xử lý hóa - sinh và mối quan hệ giữa các phương pháp trong công nghệ xử lý môi trường.\n* \nỨng dụng công nghệ trong xử lý nước thải, chất thải rắn - chất thải nguy hại và khí thải.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên hiểu được các kiến thức chuyên ngành về công nghệ môi trường, ứng dụng trong giảm thiểu chất thải và xử lý ô nhiễm môi trường. \r\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có khả năng vận dụng kiến thức chuyên ngành đã học vào việc đề xuất giải pháp giảm thiểu chất thải, xử lý ô nhiễm môi trường, thiết lập chuyên đề nghiên cứu trong lĩnh vực công nghệ môi trường,."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên biết phân tích và hiểu được cách áp dụng thực tế các kỹ thuật tiên tiến xử lý môi trường."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có tính sáng tạo trong công việc, có thái độ và phẩm chất chuyên nghiệp đối với công việc liên quan."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "YÊU CẦU CHUNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "TỔNG QUAN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "CHUYÊN ĐỀ NGHIÊN CỨU ỨNG DỤNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "ĐỀ XUẤT CÔNG NGHỆ, THIẾT LẬP QUY TRÌNH THỰC HIỆN VÀ VIẾT BÁO CÁO",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

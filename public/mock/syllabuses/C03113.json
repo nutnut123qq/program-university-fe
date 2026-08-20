@@ -1,0 +1,98 @@
+{
+  "info": {
+    "sylid": 350467,
+    "subjectCode": "C03113",
+    "syllabusName": "Khóa luận tốt nghiệp (Graduation Thesis)",
+    "syllabusEnglish": "Graduation Thesis",
+    "credits": "6",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung đề tài Khóa luận tốt nghiệp phải thuộc về  ít nhất một trong các khía cạnh sau:\n- là phần tìm hiểu chuyên sâu về lý thuyết cho một hoặc một vài chủ đề nào đó trong Thống kê.\n- là phần tìm hiểu ứng dụng của một hoặc một vài  chủ đề nào của Thống kê trong một hoặc một số bài toán đặt ra từ thực tiễn hoặc từ yêu cầu của  các ngành khoa học khác.\n- là các phát triển mới về phương pháp luận thống kê.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên thấy được vai trò, vị trí, tầm quan trọng và ứng dụng của Thống kê trong các lĩnh vực khoa học khác cũng như trong thực tiễn."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên được tạo cơ hội thể hiện kỹ năng đặt vấn đề nghiên cứu, tìm hiểu và giải quyết vấn đề nghiên cứu đặt ra một cách độc lập, sáng tạo."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên được củng cố, hệ thống hóa các kiến thức chuyên môn về Thống kê đã được trang bị trong suốt quá trình học và vận dụng chúng một cách khoa học, sáng tạo để giải quyết những vấn đề phát sinh từ thực tiễn cần đến Thống kê."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên được tạo cơ hội trau dồi, học hỏi những kỹ năng chuyên môn thiết yếu về Thống kê."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thảo luận về tên đề tài và các kiến thức chuẩn bị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Ôn tập kiến thức cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thực hiện đề tài khóa luận",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Đánh giá, nhận xét và chỉnh sửa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hoàn thiện đề tài khóa luận và báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

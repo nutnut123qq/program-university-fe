@@ -1,0 +1,80 @@
+{
+  "info": {
+    "sylid": 491116,
+    "subjectCode": "401063",
+    "syllabusName": "Thí nghiệm mạch điện (Electric Circuits Lab)",
+    "syllabusEnglish": "Electric Circuits Lab",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giúp sinh viên ôn tập, hệ thống lại các kiến thức về mạch điện, kiểm chứng lại lý thuyết và thực hành, thực hành các kỹ năng lắp ráp, đo đạt số liệu các mạch điện đơn giản như: mạch điện 1 chiều, mạch điện xoay chiều, khảo sát các quá trình quá độ trong mạch điện, khảo sát mạch điện phi tuyến, mạch cộng hưởng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Có kiến thức thực tế về các mạch điện đơn giản như: mạch điện 1 chiều, mạch điện xoay chiều, khảo sát các quá trình quá độ trong mạch điện, khảo sát mạch điện phi tuyến, mạch cộng hưởng"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu môn thực hành",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Mạch điện DC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Mạch điện xoay chiều ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Mạng 2 cửa tuyến tính không nguồn và mạch cộng hưởng RLC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Mạch quá độ & phi tuyến",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

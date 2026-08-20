@@ -1,0 +1,158 @@
+{
+  "info": {
+    "sylid": 704824,
+    "subjectCode": "902066",
+    "syllabusName": "Quan trắc môi trường (Environmental Monitoring)",
+    "syllabusEnglish": "Environmental Monitoring",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu các vấn đề chung quan trắc môi trường;\n\nGiới thiệu các nguồn và tác nhân gây ô nhiễm môi trường không khí, nước và đất; \n\nGiới thiệu một số mạng lưới quan trắc môi trường ở Việt Nam;\n\nQuan trắc chất lượng nước;\n\nQuan trắc chất lượng không khí;\n\nQuan trắc chất lượng đất;\n\nBước đầu đánh giá và xây dựng các chương trình quan trắc chất lượng nước và không khí;\n\nĐảm bảo chất lượng (QA) và kiểm soát chất lượng (QC) trong quan trắc chất lượng môi trường.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Định nghĩa được mục tiêu và nội dung của các nguồn và tác nhân gây ô nhiễm môi trường; các quy trình quan trắc môi trường; các cơ sở khoa học thiết lập mạng lưới quan trắc chất lượng môi trường; và, đảm bảo chất lượng (QA)/kiểm soát chất lượng (QC) trong quan trắc môi trường."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Giải thích được luật và quy định của Việt Nam và quốc tế liên quan đến các nguồn và tác nhân gây ô nhiễm môi trường; các quy trình quan trắc môi trường; các cơ sở khoa học thiết lập mạng lưới quan trắc chất lượng môi trường; và, đảm bảo chất lượng (QA)/kiểm soát chất lượng (QC) trong quan trắc môi trường."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân biệt được các giải pháp tối ưu trong kỹ thuật xử lý chất thải và ngăn ngừa ô nhiễm dựa trên các nguyên lý cơ bản, nguyên tắc áp dụng và thực trạng tại địa phương và doanh nghiệp. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Vận dụng dụng được các kiến thức sinh thái, tài nguyên và môi trường để xây dựng chương trình quan trắc và kiểm soát ô nhiễm môi trường, kỹ thuật phục hồi sinh thái, bảo tồn tài nguyên và đa dạng sinh học."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Xây dựng chương trình giáo dục, truyền thông về bảo vệ môi trường; chương trình kiểm soát môi trường nhằm mục tiêu giảm thiểu và ngăn ngừa ô nhiễm."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Đề xuất các giải pháp bảo vệ môi trường đáp ứng nhu cầu quản lý môi trường ở địa phương theo định hướng phát triển bền vững của quan trắc môi trường. "
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Trình diễn khả năng trình bày và viết báo cáo."
+    },
+    {
+      "id": 8,
+      "loSeq": "8",
+      "cloName": "CO8",
+      "loDetails": "Phố hợp làm việc nhóm và làm việc độc lập hiệu quả."
+    },
+    {
+      "id": 9,
+      "loSeq": "9",
+      "cloName": "CO9",
+      "loDetails": "Tiếp nhận ý thức đạo đức nghề nghiệp phục vụ bảo vệ môi trường . "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các vấn đề chung ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Quan trắc chất lượng nước ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quan trắc chất lượng không khí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Quan trắc chất lượng đất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Đảm bảo chất lượng (QA) và kiểm soát chất lượng (QC) trong quan trắc chất lượng môi trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

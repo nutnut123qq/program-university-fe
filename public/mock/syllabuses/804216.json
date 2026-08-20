@@ -1,0 +1,82 @@
+{
+  "info": {
+    "sylid": 462657,
+    "subjectCode": "804216",
+    "syllabusName": "Thực tập kiến trúc sư 1 (Graduation Internship 1)",
+    "syllabusEnglish": "Graduation Internship 1",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Thực tập nghề nghiệp là hoạt động\r\nquan trọng trong chương trình đào tạo Kiến trúc sư, là giai đoạn thực hành và\r\nkiểm chứng thực tế sau thời gian học lý thuyết tại nhà trường. Thực tập nghề\r\nnghiệp được chia thành 2 học phần: Thực tập Kiến trúc sư 1 và Thực tập Kiến\r\ntrúc sư 2. Mỗi học phần có khối lượng 2 tín chỉ. Trong đó, Thực tập Kiến trúc\r\nsư 1 bao gồm các nội dung: \n\na)\n\nCơ cấu tổ chức và phương thức hoạt\r\nđộng của một tổ chức tư vấn thiết kế cũng như hoạt động của một Kiến trúc sư\r\ntrong các tổ chức đó;\n\nb)\n\nNội dung cơ bản các quy chuẩn, quy\r\nphạm pháp lý, tiêu chuẩn thiết kế những công trình kiến trúc dân dụng và công nghiệp,\r\nLuật Kiến trúc, Luật quy hoạch,…\n\nc)\n\nQuy trình lập hồ sơ thiết kế một công\r\ntrình và vai trò nhiệm vụ của các bên liên quan;\n\nd)\n\nSản phẩm và kết quả cụ thể của quá\r\ntrình thực tập kiến trúc sư: báo cáo tiến độ công việc dự án, báo cáo nghiệm\r\nthu công trình, biên bản làm việc kiểm tra giám sát quyền tác giả, biên bản\r\nphân công nhiệm vụ trong thời gian thực tập, v.v…\n\nSinh viên thực tập tại một đơn vị tư\r\nvấn kiến trúc-quy hoạch, thực hành công việc dưới sự hướng dẫn của đơn vị thực\r\ntập và Kiến trúc sư thực thụ trong khoảng thời gian tương đương 60 tiết thực\r\nhành (4 tuần). Sau đó, viết báo cáo tổng hợp về quá trình thực tập và kết quả thực\r\ntập.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Trang bị cho người học kiến thức thực tế của người kiến trúc sư, như tư vấn thiết kế, giám sát tác giả, và quản lý dự án; Kiến thức về quy chuẩn, quy phạm pháp lý liên quan đến hành nghề kiến trúc, xây dựng"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng: Hiểu được nội dung công việc của kiến trúc sư thiết kế, các mối quan hệ giữa chủ đầu tư, đơn vị tư vấn thiết kế, đơn vị thi công, và đơn vị cung ứng vật tư; ứng dụng kiến thức đã học về kiến trúc và kỹ thuật vào thực tế công trình xây dựng"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Về tư duy: Có khả năng nhận xét, phán đoán và xử lý công việc (khả năng thiết kế, khả năng tổ chức)"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ & Hành vi: Tinh thần tự giác, chủ động học hỏi, tìm hiểu đối tượng thiết kế của ngành kiến trúc để yêu nghề và có định hướng nghề nghiệp rõ ràng. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "GIỚI THIỆU CHUNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "THỰC TẬP KIẾN TRÚC SƯ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "BÁO CÁO THỰC TẬP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

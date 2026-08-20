@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 556640,
+    "subjectCode": "90213560",
+    "syllabusName": "Chuyên đề kinh tế tuần hoàn và phát triển bền vững (Topics on Circular Economy and Sustainable Development)",
+    "syllabusEnglish": "Topics on Circular Economy and Sustainable Development",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học bao gồm các nội dung:\n- Tổng quan về quá trình hình thành khái niệm kinh tế tuần hoàn\n- Tổng quan về kinh tế tuần hoàn và kinh tế xanh trên thế giới và Việt Nam\n- Các chính sách của Việt Nam khuyến khích phát triển bền vững, kinh tế tuần hoàn và kinh tế xanh\n- Các mô hình phát triển kinh tế tuần hoàn và kinh tế xanh.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên hiểu được khái niệm, các tiêu chí, phương pháp thực hiện, trách nhiệm của các bên liên quan trong quá trình thực hiện kinh tế tuần hoàn."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng được luật, các văn bản dưới luật để thực hiện kinh tế tuần hoàn cho một doanh nghiệp theo đúng lộ trình, thủ tục của quốc tế và Việt Nam"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá được thực trạng kinh tế tài nguyên, kinh tế năng lượng, kinh tế chất thải....cho một doanh nghiệp bất kỳ, làm tiền đề cho quá trình thực hiện kinh tế tuần hoàn cho doanh nghiệp."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đề xuất được các giải pháp thực hiện mô hình kinh tế tuần hoàn phù hợp với hiện trạng kinh tế, kỹ thuật, môi trường và đáp ứng mục tiêu phát triển bền vững cho doanh nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về quá trình hình thành khái niệm kinh tế tuần hoàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kinh tế tuần hoàn và phát triển bền vững ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kinh tế tuần hoàn và phát triển bền vững ở Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các mô hình phát triển kinh tế tuần hoàn trên Thế giới và Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

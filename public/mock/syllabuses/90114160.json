@@ -1,0 +1,94 @@
+{
+  "info": {
+    "sylid": 629356,
+    "subjectCode": "90114160",
+    "syllabusName": "Chuyên đề nghiên cứu ứng dụng trong lĩnh vực khoa học và kỹ thuật môi trường (Topics on Applied Research in Environmental Science and Engineering)",
+    "syllabusEnglish": "Topics on Applied Research in Environmental Science and Engineering",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 1: \nỨng dụng công nghệ màng trong tái sử dụng nước\nChương 2: Ứng dụng c\nông nghệ nhiệt và sinh học trong xử lý chất thải rắn\nChương 3:  Ứng dụng c\nông nghệ bền vững trong quản lý chất thải nông nghiệp\nChương 4: Ứng dụng công nghệ trong việc bắt giữ và tận dụng CO2\n* Tham quan  doanh nghiệp",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm vững cơ sở khoa học và xu hướng công nghệ tiên tiến trong lĩnh vực môi trường "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hình thành tư duy nghiên cứu khoa học, đạo đức nghề nghiệp, tinh thần đổi mới sáng tạo và trách nhiệm xã hội, hướng tới phát triển bền vững và kinh tế tuần hoàn."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích, đánh giá và đề xuất giải pháp kỹ thuật dựa trên dữ liệu thực tế, công nghệ hiện đại và tiêu chí kỹ thuật – kinh tế – môi trường cho các bài toán môi trường phức hợp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "ỨNG DỤNG CÔNG NGHỆ MÀNG TRONG TÁI SỬ DỤNG NƯỚC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "ỨNG DỤNG CÔNG NGHỆ NHIỆT VÀ SINH HỌC TRONG XỬ LÝ CHẤT THẢI RẮN ĐÔ THỊ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "ỨNG DỤNG CÔNG NGHỆ BỀN VỮNG TRONG TRONG QUẢN LÝ CHẤT THẢI NÔNG NGHIỆP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "ỨNG DỤNG CÔNG NGHỆ TRONG VIỆC BẮT GIỮ VÀ TẬN DỤNG CO2",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

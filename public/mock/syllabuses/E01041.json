@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 91084,
+    "subjectCode": "E01041",
+    "syllabusName": "Kỹ năng soạn thảo văn bản tư vấn pháp luật (Kỹ năng thực hành 2) (Drafting Legal Advise Skills (Practical Skill 2))",
+    "syllabusEnglish": "Drafting Legal Advise Skills (Practical Skill 2)",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho người học \nnhững\r\nkiến thức cơ bản về các loại văn bản tư vấn pháp luật được dùng phổ biến hiện\r\nnay (thư tư vấn, đề nghị dịch vụ pháp lý, Hợp đồng dịch vụ pháp lý hoặc các báo\r\ncáo ngắn) trong thực tiễn hành nghề (tại công ty luật hoặc tại các doanh nghiệp).\r\nMôn học\n hướng dẫn cho người học kỹ năng \ncần\r\nthiết để\n soạn thảo từng loại văn bản tư vấn pháp luật\r\ncụ thể.\nNgười học được rèn luyện kỹ năng cơ bản như (i) nắm bắt yêu\r\ncầu của khách hàng; (ii) tìm kiếm văn bản pháp luật hiệu quả; (iii) nghiên cứu\r\nphân tích vụ việc (tóm tắt yêu cầu của khách hàng hoặc tóm tắt vụ việc); (iv) tư\r\nduy pháp lý; (v) nghiên cứu văn bản pháp luật và lập luận sao cho thuyết phục\r\nvà (vi) thể hiện ý kiến tư vấn trong văn bản tư vấn sao cho \nthuyết phục và hiệu quả cho từng đối tượ\nng\r\nkhách hàng\n.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học có được những kiến thức cơ bản về các loại văn bản tư vấn pháp luật được dùng phổ biến hiện nay. Từ đó hướng dẫn học viên các kỹ năng cần thiết để soạn thảo cho từng loại cụ thể (thư tư vấn, đề nghị dịch vụ pháp lý, Hợp đồng dịch vụ pháp lý hoặc các báo cáo ngắn) trong thực tiễn hành nghề (tại công ty luật hoặc tại các doanh nghiệp)."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học được rèn luyện kỹ năng cơ bản như (i) nắm bắt yêu cầu của khách hàng; (ii) phương pháp tìm kiếm văn bản pháp luật hiệu quả; (iii) phương pháp nghiên cứu phân tích vụ việc (tóm tắt yêu cầu của khách hàng hoặc tóm tắt vụ việc); (iv) Phương pháp nghiên cứu văn bản pháp luật và lập luận sao cho thuyết phục và  (iv) thể hiện ý kiến tư vấn trong văn bản tư vấn sao cho hiệu quả. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học học được cách đánh giá vấn đề bằng cách trả lời các câu hỏi liên quan, từ đó sử dụng các phương pháp phân tích và chứng minh dựa theo văn bản pháp luật hoặc phương pháp so sánh với thực tiễn, từ đó thể hiện nội dung tư vấn vào văn bản tư vấn của mình sao cho hiệu quả để thuyết phục khách hàng."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học có quan điểm tích cực, có đạo đức, độc lập, ham học hỏi, tìm tòi, mở rộng những vấn đề mới liên quan."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Nghiên cứu tình huống",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Case Study",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Nghiên cứu tình huống",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Case Study",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những kiến thức cơ bản về kỹ năng viết pháp lý",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kỹ năng đọc, nghiên cứu và sử dụng văn bản pháp luật và nguồn khác",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quy trình và kỹ năng soạn thảo các loại văn bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kỹ năng soạn thảo Thư tư vấn (Legal Advice/Legal Opinions)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

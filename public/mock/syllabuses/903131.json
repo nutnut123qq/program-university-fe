@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 850964,
+    "subjectCode": "903131",
+    "syllabusName": "Chuyên đề hệ thống quản lý an toàn và sức khoẻ nghề nghiệp (Topics on Occupational Safety and Health management system)",
+    "syllabusEnglish": "Topics on Occupational Safety and Health management system",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Tổng quan hệ thống kiến thức về hệ thống quản lý an toàn và sức khoẻ nghề nghiệp\n- Đánh giá thực trạng hệ thống quản lý an toàn và sức khoẻ nghề nghiệp cho một đơn vị \n- Đề xuất giải pháp nâng cao công tác an toàn, vệ sinh lao động thông qua các biện pháp về kỹ thuật an toàn\n- Phân tích và trình bày tính khoa học, hiệu quả của một số giải pháp trọng điểm",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Ứng dụng được các kỹ năng làm việc nhóm và làm việc độc lập, tư duy hệ thống, tư duy sáng tạo, kỹ năng giao tiếp và trình bày hiệu quả trong quá trình thực hiện đồ án kỹ thuật an toàn."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng được luật, hệ thống văn bản dưới luật, kiến thức về kỹ thuật an toàn trong việc thực hiện đồ án ứng với một phạm vi công tác an toàn vệ sinh lao động cụ thể"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Cung cấp chương trình huấn luyện về an toàn vệ sinh lao động theo qui định của Luật an toàn vệ sinh lao động cho một đơn vị điển hình"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá hệ thống quản lý an toàn trong hoạt động về máy móc, hóa chất, cháy nổ, thiết bị áp lực; hệ thống đảm bảo an toàn khi làm việc trên cao, làm việc trong không gian hạn chế và các phạm vi an toàn khác."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Xác định tên đề tài",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hướng dẫn \"Phần mở đầu\"",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hướng dẫn \"Tổng quan cơ sở lý thuyết\"",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hướng dẫn \"Đánh giá thực trạng hệ thống quản lý an toàn, sức khỏe nghề nghiệp\"",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Hướng dẫn \"Đề xuất giải pháp\"",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Hướng dẫn \"Kết luận\"",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

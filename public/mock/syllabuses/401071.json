@@ -1,0 +1,132 @@
+{
+  "info": {
+    "sylid": 82603,
+    "subjectCode": "401071",
+    "syllabusName": "Thí nghiệm hệ thống điện (Power System Lab)",
+    "syllabusEnglish": "Power System Lab",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho sinh viên hệ thống\r\n lại các kiến thức: dòng công suất và sự thay đổi điện áp của đường dây \r\ntruyền tải; góc lệch pha và sụt áp giữa nguồn và tải, các yếu tố ảnh \r\nhưởng đến công suất thực và công suất phản kháng, máy phát điện xoay \r\nchiều; động cơ đồng bộ, máy bù đồng bộ và đường dây dài cao áp; mạng \r\nlưới truyền tải và máy biến áp tự ngẫu ba pha điều chỉnh điện áp, quá độ\r\n trong hệ thống điện.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết kiến thức thực tế và phân tích, áp dụng về dòng công suất và sự thay đổi điện áp của đường dây truyền tải, góc lệch pha và sụt áp giữa nguồn và tải.\n\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng các kiến thức để giải quyết các bài toán công suất thực và công suất phản kháng, máy phát điện xoay chiều, động cơ đồng bộ, máy bù đồng bộ và đường dây dài cao áp, mạng lưới truyền tải và máy biến áp tự ngẫu ba pha điều chỉnh điện áp, quá độ trong hệ thống điện."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Áp dụng các kiến thức để phân tích, lắp đặt thiết kế, vận hành các mạch đường dây truyền tải, máy phát điện, động cơ đồng bộ, máy bù đồng bộ. Có khả năng sử dụng các dụng cụ - thiết bị đo lường trong phòng TN để phân tích và chứng minh các lý thuyết đã học. Biết cách trình bày các kết quả phân tích và kết luận một cách khoa học."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Dòng công suất và sự thay đổi điện áp của đường dây truyền tải",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Góc lệch pha và sụt áp giữa nguồn và tải",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các yếu tố ảnh hưởng đến công suất thực và công suất phản kháng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Máy phát điện xoay chiều",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Động cơ đồng bộ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Máy bù đồng bộ và đường dây dài cao áp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Mạng lưới truyền tải và máy biến áp tự ngẫu ba pha điều chỉnh điện áp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Máy bù đồng bộ làm việc dưới tải",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Khảo sát dao động trong hệ thống điện, quá độ trong hệ thống điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Kiểm tra, đánh giá kết thúc môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 69776,
+    "subjectCode": "402057",
+    "syllabusName": "Vật liệu và linh kiện điện tử (Electronic Materials)",
+    "syllabusEnglish": "Electronic Materials",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu cơ chế hình thành và nguyên lý hoạt động của các linh kiện điện tử cơ bản, cung cấp nền tảng để sinh viên ứng dụng các kiến thức này trong lĩnh vực thiết kế và lắp ráp mạch điện tử dân dụng và viễn thông. Cụ thể gồm các nội dung sau:\n\n    + Giới thiệu bản chất vật lý và thuộc tính dẫn điện, bán dẫn và cách điện của vật liệu rắn và ứng dụng của chúng trong điện-điện tử;\n\n    + Giải thích sự hoạt động và những thuộc tính của chất bán dẫn và giải thích tại sao những thuộc tính này cần thiết cho việc sản xuất linh kiện điện tử;\n\n    + Cung cấp những khối chức năng cơ bản của vật liệu bán dẫn, cũng như sự hiểu biết về những đặc tính kỹ thuật liên kết của cấu trúc chất bán dẫn trong các linh kiện bán dẫn.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sau khi học xong sinh viên nắm được bản chất và cơ chế dẫn/cách điện của các loại chất rắn và ứng dụng của chúng trong công nghiệp điện tử. Mô tả được sự thay đổi đặc tính dẫn điện của chất bán dẫn khi pha tạp và khi thay đổi điều kiện hoạt động; giải thích được cách hình thành hàng rào điện thế khi kết nối các loại bán dẫn khác nhau và ứng dụng trong điều khiển trực tiếp hoạt động của diode và transitor"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đặc điểm cơ bản của vật liệu điện tử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tính chất điện từ của chất rắn và ứng dụng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chất bán dẫn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Linh kiện bán dẫn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các loại linh kiện bán dẫn khác",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

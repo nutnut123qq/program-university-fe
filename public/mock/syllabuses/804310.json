@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 343903,
+    "subjectCode": "804310",
+    "syllabusName": "Kỹ thuật trong kiến trúc (Technique in Architecture)",
+    "syllabusEnglish": "Technique in Architecture",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Phần 1- Cấu tạo kiến trúc nâng cao\n: Giới thiệu về cấu tạo kiến trúc không gian nhịp lớn, giàn không gian, vỏ mỏng, gấp nếp, kết cấu di động...\nPhần 2- Thiết bị kỹ thuật công trình\n: Giới thiệu chung về hệ thống trang thiết bị kỹ thuật trong công trình, sau đó tìm hiểu chi tiết thông qua một số hệ thống trong công trình kiến trúc, như: năng lượng, thông gió và điều tiết không khí, phòng cháy và chữa cháy, cấp thoát nước, giao thông theo phương đứng,…\nPhần 3- Vật lý kiến trúc\n: Giới thiệu các tính chất và quy luật biến thiên của các yếu tố khí hậu; vi khí hậu trong công trình kiến trúc; Các kiến thức cơ sở về tính chất, tính năng của nguồn sáng; Cơ sở của nghệ thuật chiếu sáng và các giải pháp chiếu sáng tự nhiên và nhân tạo trong công trình kiến trúc; Các kiến thức về âm học, chống ồn, cách âm, tiêu âm trong công trình kiến trúc;Các giải pháp kiến trúc về khí hậu, quang học và âm học nhằm mang lại không gian và môi trường sống tiện nghi nhất.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nhận biết và biết cách ứng dụng các cấu trúc đặc biệt vào từng hình dạng không gian cụ thể.\nBiết cách lựa chọn và bố trí cơ bản một số trang thiết bị trong công trình nhằm đảm bảo các yêu cầu về tính năng kỹ thuật và hiệu quả thẩm mỹ, kinh tế.\nHiểu những nguyên lý cơ bản, vận dụng lý giải được các hiện tượng vật lý liên quan tới cảm giác tiện nghi của con người xảy ra bên trong và bên ngoài công trình kiến trúc.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Luyện tập khả năng tư duy, phân tích các đối tượng đa dạng trong các không gian kiến trúc hiện hữu, song song đó cần nắm vững các tiêu chuẩn kỹ thuật xây dựng hiện hành thông qua giáo trình tại lớp và các tài liệu chuyên môn trong ngành kiến trúc, xây dựng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Rèn luyện tính chuyên cần, tính chính xác, tỉ mỉ, khoa học."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Cung cấp cho người học những kiến thức cơ bản về các loại hình cấu tạo kiến trúc không gian trong các công trình mới của Việt Nam và thế giới.\r\nChỉ dẫn cho người học một số kiến thức cơ bản về hệ thống trang thiết bị kỹ thuật trong công trình kiến trúc;\r\nCung cấp cho người học những kiến thức về vật lý kiến trúc thông qua các yếu tố môi trường (các yếu tố nhiệt - ẩm, âm thanh, ánh sáng,...) tác động trực tiếp tới con người ở bên trong và bên ngoài công trình kiến trúc."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình,Thực hành",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Cấu tạo kiến trúc nâng cao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết bị kỹ thuật công trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Vật lý kiến trúc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

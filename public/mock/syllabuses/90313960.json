@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 22915,
+    "subjectCode": "90313960",
+    "syllabusName": "Chuyên đề hệ thống quản lý an toàn và sức khoẻ nghề nghiệp (Topics on Occupational Safety and Health management system)",
+    "syllabusEnglish": "Topics on Occupational Safety and Health management system",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần trang bị cho sing viên nền tảng lý\r\nthuyết và kỹ năng thực hành trong quản lý an toàn và sức khỏe nghề nghiệp, kết\r\nhợp giữa các mô hình phân tích nguyên nhân sự cố tổ chức (Swiss Cheese – James\r\nReason ), các yêu cầu và phương pháp triển khai ISO 45001 , kỹ thuật nhận diện\r\n– đánh giá rủi ro – lập kế hoạch kiểm soát và quản trị thay đổi. Nội dung môn\r\nhọc được thiết kế cho đào tạo kỹ sư, nhấn mạnh khả năng áp dụng vào thực tiễn\r\nquản lý hệ thống ATVSLĐ trong các ngành công nghiệp, hướng đến nâng cao hiệu\r\nsuất hệ thống, xây dựng văn hóa an toàn bền vững và tích hợp yếu tố con người –\r\ntổ chức – kỹ thuật.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng các nguyên tắc, yêu cầu của ISO 45001 và các mô hình quản lý an toàn tiên tiến (Swiss Cheese, Risk-based SMS, Behavioural Safety) để xây dựng, vận hành và cải tiến hệ thống quản lý ATVSLĐ."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích mối quan hệ giữa bối cảnh tổ chức, yếu tố con người, văn hóa an toàn và hiệu suất hệ thống quản lý."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích dữ liệu đo lường hiệu suất và kết quả đánh giá để nhận diện điểm mạnh, điểm yếu của hệ thống quản lý ATVSLĐ."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá hiệu quả hệ thống quản lý an toàn và đề xuất kế hoạch cải tiến toàn diện, tích hợp yếu tố kỹ thuật – tổ chức – hành vi."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về quản lý ATVSLĐ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Yêu cầu của ISO 45001",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Quản lý rủi ro ATVSLĐ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Văn hóa an toàn & yếu tố con người",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Đo lường & đánh giá hiệu suất hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Cải tiến liên tục & tích hợp hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

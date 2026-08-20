@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 783578,
+    "subjectCode": "103060",
+    "syllabusName": "Tin học chuyên ngành Nội thất (Interior Design Software)",
+    "syllabusEnglish": "Interior Design Software",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "- Trình\n\nbày\n\ncác\n\ncông\n\ncụ\n\nphương\n\npháp\n\ndựng\n\nhình\n\ncơ\n\nbản\n;\n\n- \nTrình\n\nbày\n\ncác\n\nphương\n\npháp\n\nvà\n\nkỹ\n\nthuật\n\nđịnh\n\ndạng\n\nđể\n\nxây\n\ndựng\n\nbản\n\nvẽ\n\nkiến\n\ntrúc\n\nđúng\n\ntiêu\n\nchuẩn\n\nkỹ\n\nthuật\n;\n\n-\n\nCác\n\nphương\n\npháp\n\nvà\n\nkỹ\n\nthuật\n\ntrong\n\nthể\n\nhiện\n\nbản\n\nvẽ\n\nkiến\n\ntrúc\n.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Môn học cung cấp những kiến thức nền tảng cần thiết chuyên ngành thiết kế vector. Các phương pháp tạo hình dạng cơ bản: thông qua lệnh và công cụ, sao chép và kết hợp đối tượng để tạo hình dạng mới, chọn và thay đổi các phần trong đối tượng, tô vẽ đối tượng, cung cấp nhiều hiệu ứng để vẽ các hình khối, vật thể; trình bày, xử lý văn bản và hình ảnh"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thành thạo trong việc sử dụng các lệnh và công cụ của phầm mềm nhằm phục vụ cho vẽ thiết kế trên máy tính. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học cần có khả năng tư duy sáng tạo trong thiết kế để sử dụng hiệu quả các tính năng ứng dụng của phần mềm "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có khả năng vận dụng kỹ năng xây dựng bản vẽ, kỹ năng trình bày, kỹ năng quản lý thời gian hiệu quả trong sử dụng phần mềm "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu phần mềm. Tổng quan phần mềm AutoCad",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các lệnh hiệu chỉnh cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các lệnh vẽ và biến đổi đối tượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các thuộc tính đối tượng.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Biên tập bản vẽ ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

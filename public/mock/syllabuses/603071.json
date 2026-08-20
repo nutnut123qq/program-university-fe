@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 984130,
+    "subjectCode": "603071",
+    "syllabusName": "Thí nghiệm hóa sinh (Biochemistry Laboratory)",
+    "syllabusEnglish": "Biochemistry Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học giúp sinh viên kiểm chứng thực nghiệm những kiến thức lý thuyết đã học và dùng chúng để ứng dụng trong nghiên cứu khoa học, làm chuyên đề, đề tài tốt nghiệp hay kiểm nghiệm các sản phẩm thực phẩm, sinh học …\n\nSinh viên thực hiện những phản ứng hóa học cụ thể, kiểm tra định tính và định lượng các thành cơ bản như Glucid, Protein, Lipid, Enzyme, Vitamin… Khảo sát những tính chất, một số các yếu tố ảnh h\nưở\nng và những ứng dụng của các thành phần này.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên thực hiện những phản ứng hóa học cụ thể, kiểm tra định tính và định lượng các thành phần cơ bản như Glucid, Protein, acid amin, đường khử… "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Khảo sát những tính chất, một số các yếu tố ảnh hưởng và những ứng dụng của các thành phần hóa sinh"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "kiểm tra các chỉ tiêu hóa sinh cơ bản liên quan đến thực phẩm và dược phẩm. Tạo tiền đề cho các môn học phân tích hóa sinh nâng cao."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tiểu luận",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Thực hành",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Định tính và khảo sát Protein",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Định tính và khảo sát về Glucid (Carbohydrate)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Định lượng Nitơ tổng bằng phương pháp Kjeldahl",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Định tính và định lượng nitơ acid amin",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Định lượng đường khử theo phương pháp Dinitro-Salicylic acid (DNS)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,108 @@
+{
+  "info": {
+    "sylid": 597130,
+    "subjectCode": "200018",
+    "syllabusName": "Chứng chỉ Thực hành kiểm toán cơ bản (The Audit Practice)",
+    "syllabusEnglish": "The Audit Practice",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung môn học bao gồm:\nChương 1: Giới thiệu về chương trình kiểm toán mẫu của VACPA\nChapter 2: Thủ tục kiểm toán “ Tiền và các khoản tương đương\ntiền”\nChapter 3: Thủ tục kiểm toán “ Tài sản cố định”\nChapter 4: Thủ tục kiểm toán “ Lương và các khoản trích theo\nlương”\nChapter 5:\n\nThủ tục\nkiểm toán “ Nợ phải thu”\nChapter 6: Thủ tục kiểm toán “ Nợ phải trả”\n\nChapter 7: Thủ tục kiểm toán chi phí: “ Chi phí bán\nhàng và chi phí quản lý doanh nghiệp”",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên tổng quan về chương trình kiểm toán mẫu VACPA; cách trình bày giấy tờ làm việc theo yêu cầu của chuẩn mực kiểm toán."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết cách trình bày, lưu hồ sơ, giấy tờ làm việc của kiểm toán viên trong các phần hành kiểm toán cơ bản."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên nhận ra được tầm quan trọng của đạo đức nghề nghiệp; hiểu được trách nhiệm và áp dụng đạo đức nghề nghiệp và tác phong chuyên nghiệp trong kiểm toán."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận,Vấn đáp,Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test,Viva/Oral Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu tổng quan về Chương trình kiểm toán mẫu VACPA",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kiểm toán Tiền & các khoản tương đương tiền",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kiểm toán Tài sản cố định",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kiểm toán Tiền lương & các khoản trích nộp theo tiền lương",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kiểm toán Nợ phải thu khách hàng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Kiểm toán Nợ phải trả nhà cung cấp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Kiểm toán chi phí hoạt động: Chi phí bán hàng & Chi phí quản lý",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

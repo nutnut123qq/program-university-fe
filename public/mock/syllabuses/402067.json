@@ -1,0 +1,106 @@
+{
+  "info": {
+    "sylid": 718604,
+    "subjectCode": "402067",
+    "syllabusName": "Tín hiệu và hệ thống (Signals and Systems)",
+    "syllabusEnglish": "Signals and Systems",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu các công cụ toán học để phân tích các tín hiệu và hệ thống trong miền thời gian và miền tần số, cung cấp nền tảng để sinh viên ứng dụng các kỹ thuật này trong lĩnh vực điều khiển tự động và viễn thông. Cụ thể gồm các nội dung sau:\n\n+ Mô hình toán học của các tín hiệu và hệ thống.\n\n+ Các hệ thống tuyến tính: đáp ứng xung, tích chập, đáp ứng tần số, hàm truyền đạt, biểu đồ Bode, giản đồ cực/zero.\n\n+ Khai triển Fourier, biến đổi Fourier và các ứng dụng.\n\n+ Các hệ thống rời rạc: nguyên lý lấy mẫu, đáp ứng xung, hàm truyền đạt, phương trình vi sai và bộ lọc số.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức về các mô hình toán học cơ bản để biểu diễn các tín hiệu và hệ thống trong miền thời gian và miền tần số, các tín hiệu và hệ thống loại thời gian liên tục và rời rạc. \n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phương pháp phân tích sơ đồ khối của các hệ thống, mô tả hàm truyền của hệ thống LTI dựa vào tín hiệu đầu vào/đầu ra của hệ thống."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các khái niệm cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tín hiệu và hệ thống liên tục",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chuỗi Fourier và biến đổi Fourier",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hệ thống tuyến tính bất biến thời gian liên tục (LTI)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tín hiệu và hệ thống thời gian rời rạc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

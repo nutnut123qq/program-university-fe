@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 315337,
+    "subjectCode": "40208860",
+    "syllabusName": "Thiết kế VLSI nâng cao (Advanced VLSI design)",
+    "syllabusEnglish": "Advanced VLSI design",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này nhằm giới thiệu đến sinh viên phương pháp thiết kế mạch VLSI, tập trung vào thiết kế kiểu back-end (thiết kế layout cho các cell chuẩn) dùng công cụ CAD. Bao gồm nội dung sau:\n\nCác mạch CMOS: linh kiện MOSFET, cổng đảo, các cổng CMOS tĩnh, cổng truyền dẫn, cổng chốt, flip flop, cổng logic động.\n\nCác vấn đề cần đánh giá: trễ, công suất tiêu tán, thành phần ký sinh, kích thước, dây nối, luật Moore và xu hướng công nghệ.\n\nThiết kế và kiểm tra mức vật lý: công cụ CAD, thiết kế layout, luật thiết kế, so sánh layout và sơ đồ nguyên lí, trích xuất các tham số mô phỏng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Thiết kế layout chip theo yêu cầu cụ thể.\nPhân tích và đánh giá được thiết kế layout về diện tích cũng như tính chính xác.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có khả năng hệ thống hóa kiến thức đã học, tự tích lũy kiến thức mới và áp dụng để cải tiến các hệ thống, thiết bị hiện có hoặc đề xuất giải pháp mới cho lĩnh vực điện tử viễn thông."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có kỹ năng trình bày các báo cáo kỹ thuật, kỹ năng lập kế hoạch và quản lý thời gian hiệu quả."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Transistor MOS",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế mạch CMOS",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Mô phỏng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kiểm thử thiết kế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

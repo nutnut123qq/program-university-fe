@@ -1,0 +1,104 @@
+{
+  "info": {
+    "sylid": 279386,
+    "subjectCode": "302235",
+    "syllabusName": "Kể chuyện bằng hình ảnh và video (Photographic and Video Storytelling)",
+    "syllabusEnglish": "Photographic and Video Storytelling",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên sẽ được giới thiệu về lý thuyết, phương pháp và \ncác kỹ năng\n xung quanh việc giao tiếp với cả hình ảnh chuyển động và hình ảnh tĩnh. Môn học sẽ tập trung vào việc sử dụng các công cụ kỹ thuật số để chụp, chỉnh sửa và trình bày hình ảnh dưới dạng dữ liệu và kể chuyện, giao tiếp với hình ảnh trực quan trong thời đại kỹ thuật số, nghiên cứu và sử dụng hình ảnh trực quan cho nghiên cứu và giao tiếp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm được lý thuyết và phương pháp và kỹ năng xung quanh việc giao tiếp với cả hình ảnh chuyển động và hình ảnh tĩnh. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sử dụng các công cụ kỹ thuật số để chụp, chỉnh sửa và trình bày hình ảnh dưới dạng dữ liệu và kể chuyện, giao tiếp với hình ảnh trực quan trong thời đại kỹ thuật số,"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sử dụng hình ảnh tĩnh và chuyển động để giao tiếp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Cấu trúc câu chuyện và nhân vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nhiếp ảnh và phác thảo câu chuyện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Xem phim",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Qui trình sản xuất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

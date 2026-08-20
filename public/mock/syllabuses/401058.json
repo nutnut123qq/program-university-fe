@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 837232,
+    "subjectCode": "401058",
+    "syllabusName": "Giải tích mạch điện 1 (Circuit Analysis 1 )",
+    "syllabusEnglish": "Circuit Analysis 1 ",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp các kiến thức nền tảng và kỹ năng học thuật cần thiết để sinh viên có thể mô hình hóa và phân tích các mạch điện - điện tử. Ứng dụng của môn học liên quan đến tất cả các môn chuyên ngành trong lĩnh vực điện – điện tử. Chương trình học bao gồm các nội dung sau: định nghĩa và mô hình toán học của các thành phần của mạch điện; giới thiệu các định lý mạch điện cơ bản: Ohm, Kirchhoff; giới thiệu các phương pháp phân tích mạch cơ bản và nâng cao; định nghĩa và các đặc trưng cơ bản về về nguồn điện một chiều (DC), xoay chiều (AC); giới thiệu phương pháp phân tích mạch điện AC trong miền Phức; các nguyên lý và hiệu ứng trong mạch điện AC (xếp chồng, cảm/dung kháng của mạch điện, cộng hưởng, họa tần bậc cao,...vv).",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các định lý, phương pháp phân tích mạch điện – điện tử cơ bản; hiểu về cấu trúc và đặc trưng cơ bản của các phần tử mạch điện DC, mạch điện AC một pha & ba pha trong chế độ xác lập."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết cách lựa chọn phương pháp phân tích mạch điện phù hợp cho các dạng mạch điện khác nhau."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng ứng dụng mô hình mạch để phân tích các bài toán thực tế trong ngành điện –điện tử."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái niệm chung về mạch điện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các phương pháp giải tích mạch điện DC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Mạch điện xoay chiều (AC) một pha",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Mạch xoay chiều (AC) 3 pha",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Phân tích mạch quá độ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

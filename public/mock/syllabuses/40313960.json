@@ -1,0 +1,90 @@
+{
+  "info": {
+    "sylid": 351560,
+    "subjectCode": "40313960",
+    "syllabusName": "Chuyên đề nghiên cứu về đo lường (Advanced Topics in Measurement)",
+    "syllabusEnglish": "Advanced Topics in Measurement",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Tổng hợp các kiến thức đã học để tìm hiểu tổng quan về\r\ncác nghiên cứu mới trong lĩnh vực đo lường. Từ đó, tập trung tìm hiểu\r\nsâu về một chủ đề liên quan đến đo lường.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các nghiên cứu mới về đo lường dựa trên kiến thức đã học."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sử dụng các công cụ toán học để phân tích và đánh giá, đồng thời sử dụng công cụ phần mềm để hỗ trợ các quá trình phân tích và tính toán nói trên. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng giải quyết vấn đề bằng cách thiết lập và phân tích các mô hình toán học, bên cạnh đó, vận dụng kiến thức đã học giải các bài toán kỹ thuật trong thực tế."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có khả năng liên hệ ứng dụng kiến thức đã học cho các môn học tiếp theo, hơn nữa có ý thức liên hệ giữa các kết quả phân tích toán học với ý nghĩa vật lý của nó trong mọi trường hợp có thể."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu các kỹ thuật, thiết bị đo ứng dụng trong công nghệ bán dẫn và y sinh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Giới thiệu các kỹ thuật, thiết bị đo ứng dụng trong cơ khí chính xác, công nghệ thực phẩm và các lĩnh vực khác",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nghiên cứu chủ đề lựa chọn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

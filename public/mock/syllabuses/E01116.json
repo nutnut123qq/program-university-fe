@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 144363,
+    "subjectCode": "E01116",
+    "syllabusName": "Pháp luật về quản trị công ty (Corporate Governance Law)",
+    "syllabusEnglish": "Corporate Governance Law",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Khái quát lại các mô hình doanh nghiệp theo pháp luật hiện hành\n\nKhái niệm quản trị công ty, phân biệt vai trò quản trị và vai trò điều hành công ty\n\nNguồn pháp luật về quản trị công ty\n\nCơ cấu quyền lực trong các loại hình công ty.\n\nPháp luật về quản trị công ty cổ phần đại chúng\n\nKỹ năng xác định thẩm quyền trong quản trị nội bộ công ty\n\nKỹ năng xây dựng quy chế nội bộ về quản trị công ty\n\nKỹ năng chuẩn bị tổ chức Đại hội đồng cổ đông thường niên",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "-\tKiến thức: Người học hệ thống lại các quy định pháp luật liên quan đến hoạt động quản trị công ty"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "-\tKỹ năng tác nghiệp: biết cách phân tích pháp luật và ứng dụng pháp luật vào quản trị doanh nghiệp"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "-\tYêu cầu về tư duy: môn học này không tập trung vào giúp sinh viên nghiên cứu, học tập về lý luận, mà tập trung vào việc phục vụ phát triển kỹ năng, người học sẽ được trang bị kỹ năng thực hành đối với một số các vấn đề liên quan tới quản trị nội bộ công ty"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "-\tThái độ và hành vi: Người học xác định trách nhiệm của một đơn vị kinh doanh trước xã hội và trật tự quản lý Nhà nước; xác định trách nhiệm của người quản lý doanh nghiệp; quyền và trách nhiệm của một đơn vị kinh doanh và các chủ sở hữu doanh nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tiểu luận,Thuyết trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về quản trị công ty – cơ cấu chung trong quản trị công ty",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hội đồng quản trị - Bộ máy điều hành – Thư ký công ty, Quyền của cổ đông và đại hội đồng cổ đông",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Vốn điều lệ, cổ tức, trái phiếu, các giao dịch trọng yếu trong doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kỹ năng xây dựng tài liệu nội bộ về quản trị công ty đại chúng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kỹ năng xây dựng tài liệu nội bộ về quản trị công ty đại chúng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

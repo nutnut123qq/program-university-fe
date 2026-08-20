@@ -1,0 +1,136 @@
+{
+  "info": {
+    "sylid": 444722,
+    "subjectCode": "D03006",
+    "syllabusName": "Tài chính thể thao (Sport Finance)",
+    "syllabusEnglish": "Sport Finance",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 1 - Khái quát về tài chính và quản trị tài chính thể thao\nChương 2 - Sự biến đổi theo xu hướng chuyên nghiệp hóa và thương mại hóa của thể thao\nChương 3 - Các yếu tố tạo ra lợi nhuận và tài sản của các tổ chức thể thao\nChương 4 - Giá trị thời gian của tiền tệ\nChương 5 - Lập ngân sách và tính toán chi phí trong thể thao\nChương 6 - Các báo cáo tài chính thể thao\nChương 7 - Giá cả trong thể thao\nChương 8 - Hoạch định ngân sách vốn đầu tư  vào câu lạc bộ thể thao",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên sẽ được trang bị các kiến thức cơ bản và toàn diện về quản lý tài chính trong lĩnh vực thể thao."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Có thể thiết lập chiến lược quản lý tài chính, xác định được các nguồn thu nhập và chi phí, dự đoán và lập ngân sách tài chính trong các tổ chức thể thao, có các kỹ năng tài chính giải quyết các thách thức và khó khăn trong quản lý tài chính thể thao, xây dựng được chiến lược gây quỹ cho các tổ chức thể thao."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học cần có khả năng nhận biết các vấn đề tài chính trong thể thao, khả năng tính toán, dự đoán lợi nhuận và thua lỗ, tính tư duy cao trong việc tự tìm tòi, học hỏi các kinh nghiệm từ thực tế để đề xuất các phương án tài chính hợp lý có hiệu quả cao."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái quát về tài chính và quản trị tài chính thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Sự biến đổi theo xu hướng chuyên nghiệp hóa và thương mại hóa của thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các yếu tố tạo ra lợi nhuận và tài sản của các tổ chức thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Giá trị thời gian của tiền tệ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Lập ngân sách và tính toán chi phí trong thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Các báo cáo tài chính thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Giá cả trong thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Hoạch định ngân sách vốn đầu tư vào câu lạc bộ thể thao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

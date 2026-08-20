@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 436426,
+    "subjectCode": "704029",
+    "syllabusName": "Thực tập nhận thức nghề nghiệp (Internship)",
+    "syllabusEnglish": "Internship",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần cảm nhận TSNN tạo cơ hội cho sinh viên củng cố ôn luyện và tổng hợp những kiến thức đã học trong suốt thời gian học tập tại trường.\n\nCung cấp cho sinh viên môi trường để ứng dụng những kiến thức đã học vào hoàn cảnh thực tế sản xuất kinh doanh. Phát huy khả năng tư duy sáng tạo, học tập cách đặt vấn đề và giải quyết vấn đề thực tế đặt ra trong quá trình thực tập tại đơn vị. Bêm cạnh đó; sinh viên có thể tham gia phân tích, nghiên cứu và giải quyết những vấn đề cụ thể liên quan đến ngành học.\n\nTạo cơ hội cho sinh viên được tiếp cận với môi trường làm việc, đối chiếu và áp dụng những kiến thức và kỹ năng đã học vào thực tế. Điểm đặc biệt của học phần giúp sinh viên cảm nhận và phát huy khả năng tư duy theo từng giai đoạn ứng với mỗi năm học tập tại trường, có thể thích ứng với sự thay đổi liên tục của xã hội.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giúp sinh viên tiếp cận và làm quen với môi trường làm việc chuyên nghiệp cũng như về cách tổ chức hoạt động và quản lý tại một công ty/doanh nghiệp"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Tạo cơ hội cho sinh viên vận dụng những kiến thức và kỹ năng đã học để ứng dụng vào môi trường làm việc thực tế một cách hiệu quả."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Giúp sinh viên có quyết định đúng đắn về việc lựa chọn ngành nghề và xác định rõ hơn về mục tiêu đối với nghề nghiệp tương lai của mình."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tham dự buổi phổ biến thông tin về thực tập tốt nghiệp do khoa tổ chức để hiểu rõ những nội dung và yêu cầu của chương trình thực tập tốt nghiệp.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Liên lạc với đơn vị thực tập và hoàn tất các thủ tục theo yêu cầu của đơn vị nhận thực tập",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lập kế hoạch thực tập; Chọn đề tài/lĩnh vực mình muốn nghiên cứu/thực tập và Viết và nộp đề cương chi tiết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thực tập tại doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Nộp báo cáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

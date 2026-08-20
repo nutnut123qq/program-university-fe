@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 652017,
+    "subjectCode": "202003",
+    "syllabusName": "Kiểm toán nội bộ (Internal Auditing)",
+    "syllabusEnglish": "Internal Auditing",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung\nmôn học bao gồm 05 chương:\nChương 1 Tổng quan về kiểm toán nội bộ\nChương 2: Phương pháp và quy trình kiểm toán\nChương 3: Chương 3 Kiểm toán Tuân thủ\nChương 4: Kiểm toán Hoạt động\n\nChương 5: Kiểm toán BCTC và báo cáo kế toán quản trị",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết những nội dung, kiến thức chuyên sâu về các hoạt động kiểm toán nội bộ bao gồm kiểm toán tuân thủ, kiểm toán hoạt động và kiểm toán BCTC & KTQT."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu rõ quy trình kiểm toán nội bộ và thực hành lập kế hoạch và chương trình kiểm toán nội bộ, đặc biệt là kiểm toán hoạt động."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "•\tSinh viên hiểu được mối liên hệ giữa kiểm toán nội bộ và kiểm toán độc lập; \n•\tSinh viên biết được phương pháp suy luận phân tích những nghiệp vụ kinh tế phát sinh ẩn chứa những rủi ro phát sinh sai sót trọng yếu trong hoạt động của doanh nghiệp; áp dụng được những kiến thức kế toán, kiểm toán, tài chính và quản trị đã học vào thực hành lập kế hoạch và chương trình kiểm toán nội bộ.\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Sinh viên có thể nhận ra được tầm quan trọng của công việc tổ chức hoạt động kiểm toán nội bộ tại doanh nghiệp, đặc biệt là tổ chức kiểm toán hoạt động."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chương 1 Tổng quan về kiểm toán nội bộ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Chương 2 Phương pháp và quy trình kiểm toán",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chương 3 Kiểm toán Tuân thủ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Chương 4 Kiểm toán Hoạt động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Chương 5 Kiểm toán BCTC và báo cáo kế toán quản trị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

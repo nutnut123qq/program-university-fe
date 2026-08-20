@@ -1,0 +1,98 @@
+{
+  "info": {
+    "sylid": 888996,
+    "subjectCode": "607024",
+    "syllabusName": "Thiết kế quy trình sản xuất (Process Production Design)",
+    "syllabusEnglish": "Process Production Design",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học trang bị cho sinh viên những kiến thức cơ bản, kỹ năng phân tích, đánh giá và vận dụng các kiến thức đã học trong mảng máy thiết bị, tổng hợp hữu cơ, vật liệu hữu cơ, hoặc tổng hợp vô cơ vào việc thiết lập một quy trình sản xuất cụ thể và đánh giá sơ bộ hiệu quả kinh tế của quy trình này",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức:  giúp sinh viên nắm được phương pháp tiếp cận với một công nghệ sản xuất cụ thể từ đó ý thức được cách hình thành một công nghệ sản xuất sản phẩm cụ thể cho ngành Hóa"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp:  lập được dự án sản xuất cho một sản phẩm cụ thể của ngành Hóa"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Ứng dụng các kiến thức đã học để giải quyết vấn đề và tư duy sáng tạo trong quá trình thiết kế, cần có khả năng thu thập dữ liệu và tổng hợp, phân tích được các yếu tố ảnh hưởng đến quá trình sản xuất sau này"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Có ý thức tham gia tích cực môn học. Đam mê đọc sách, tìm hiểu them các thong tin bên ngoài có liên quan"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan tài liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phương án thiết kế công nghệ sản xuất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tính và chọn thiết bị sản xuất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tính hiệu quả kinh tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Báo cáo đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

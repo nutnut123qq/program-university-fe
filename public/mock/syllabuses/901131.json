@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 895866,
+    "subjectCode": "901131",
+    "syllabusName": "Tập sự nghề nghiệp (Graduation Internship)",
+    "syllabusEnglish": "Graduation Internship",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Vận hành, bảo dưỡng trạm xử lý nước cấp.\n\nVận hành, bão dưỡng trạm xử lý nước thải.\n\nQuản lý thất thoát nước cho một khu vực cụ thể theo yêu cầu.\n\nQuản lý ngập úng cho một khu vực cụ thể theo yêu cầu\n\nQuản lý tài nguyên nước cho một khu vực cụ thể theo yêu cầu.\n\nThiết kế hoặc thi công hệ thống cấp thoát nước cho công trình.\n\nThiết kế hoặc thi công mạng lưới cấp nước cho khu vực.\n\nThiết kế hoặc thi công mạng lưới thoát nước cho khu vực.\n\nThiết kế hoặc thi công trạm xử lý nước cấp.\n\nThiết kế hoặc thi công trạm xử lý nước thải.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Vận dụng kiến thức chuyên ngành để thực hiện công việc cụ thể và học hỏi kinh nghiệm thực tế tại doanh nghiệp. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích, đánh giá một vấn đề tại doanh nghiệp."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đề xuất các giải pháp quản lý hoặc kỹ thuật cho doanh nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Mở đầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tổng quan về đơn vị tập sự và dự án thực hiện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Nội dung dự án thực hiện tại doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Kết luận và kiến nghị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

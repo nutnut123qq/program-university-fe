@@ -1,0 +1,152 @@
+{
+  "info": {
+    "sylid": 914567,
+    "subjectCode": "C03031",
+    "syllabusName": "Thống kê Bayes (Bayesian Statistics)",
+    "syllabusEnglish": "Bayesian Statistics",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Suy luận Bayes cho các biến ngẫu nhiên rời rạc\n\nSuy luận Bayes cho tham số tỷ lệ của phân phối nhị thức\n\nSuy luận Bayes cho tham số của phân phối Poisson\n\nSuy luận Bayes cho tham số trung bình của phân phối chuẩn\n\nSuy luận Bayes cho các tham số trong mô hình hồi quy tuyến tính đơn biến",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Môn học này cung cấp cho sinh viên những kiến thức nền tảng của thống kê Bayes mà một người nghiên cứu hay ứng dụng thống kê cần biết. Thông qua môn học, sinh viên có được sự so sánh giữa trường phái tần số và trường phái Bayes. Điều này giúp sinh viên thấy được những ưu, khuyết điểm của từng trường phái thống kê. Từ đó, sinh viên có thể sử dụng linh hoạt các trường phái thống kê vào việc giải quyết các bài toán thống kê trong thực tiễn."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Sinh viên được rèn luyện kỹ năng sử dụng những thông tin tiên nghiệm để có được những suy diễn hậu nghiệm cho các tham số trong các mô hình xác suất thông dụng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: \n- Có tư duy logic, lập luận chặt chẽ.\n- Có khả năng vận dụng kiến thức môn học để phục vụ chuyên ngành đang theo học."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Thông qua môn học này, sinh viên có dịp tiếp cận với một trường phái thống kê hiện đại, trường phái Bayes, mà hiện nay đang có rất nhiều ứng dụng trong thực tế. Điều này giúp sinh viên thấy được tính ứng dụng thực tế của môn học, và từ đó giúp sinh viên hình thành nên sự yêu thích đối với chuyên ngành đang theo học."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "GIỚI THIỆU VỀ SUY LUẬN THỐNG KÊ BAYES",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "BỔ TÚC VỀ LÝ THUYẾT XÁC SUẤT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "SUY LUẬN BAYES CHO CÁC BIẾN NGẪU NHIÊN RỜI RẠC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": " SUY LUẬN BAYES CHO THAM SỐ TRUNG BÌNH CỦA PHÂN PHỐI CHUẨN ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "SUY LUẬN BAYES CHO CÁC THAM SỐ CỦA MÔ HÌNH HỒI QUY TUYẾN TÍNH ĐƠN BIẾN ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "PHƯƠNG PHÁP MARKOV CHAIN MONTE CARLO ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "SUY LUẬN BAYES CHO THAM SỐ TỶ LỆ CỦA PHÂN PHỐI NHỊ THỨC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "SUY LUẬN BAYES CHO THAM SỐ CỦA PHÂN PHỐI POISSON",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

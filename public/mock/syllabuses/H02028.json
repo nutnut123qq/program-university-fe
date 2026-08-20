@@ -1,0 +1,152 @@
+{
+  "info": {
+    "sylid": 438901,
+    "subjectCode": "H02028",
+    "syllabusName": "Viết học thuật (Academic Writing)",
+    "syllabusEnglish": "Academic Writing",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho người học nền tảng về \nđọc và viết học thuật\n, bao gồm các chiến lược đọc hiểu, phân tích và viết hiệu quả trong nhiều \nthể loại văn bản học thuật\n khác nhau. Người học được làm quen với \nyêu cầu và chuẩn mực của viết học thuật\n, sự khác biệt giữa các bối cảnh và mục đích viết.\nBên cạnh đó, môn học phát triển \nkỹ năng học tập thiết yếu\n và hình thành \nthói quen học tập hiệu quả\n, giúp người học chuẩn bị tốt cho môi trường học tập bậc đại học.\nNgoài ra, môn học đề cập đến các vấn đề về \nđạo đức học thuật\n, đặc biệt là \nđạo văn\n và \ntác động của công nghệ AI\n trong hoạt động đọc – viết, nhằm nâng cao nhận thức và trách nhiệm học thuật của người học.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho người học kiến thức và chiến lược nhằm phát triển kỹ năng đọc và viết học thuật hiệu quả, đồng thời giúp người học hiểu rõ yêu cầu, đặc điểm của các thể loại và bối cảnh viết học thuật khác nhau."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phát triển cho người học kỹ năng học tập thiết yếu và thói quen học tập hiệu quả, góp phần hình thành sự tự tin và năng lực học tập độc lập trong môi trường học thuật."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nâng cao nhận thức của người học về đạo đức học thuật, bao gồm các vấn đề về đạo văn và tác động của công nghệ AI, qua đó hình thành thái độ và hành vi học thuật trung thực, có trách nhiệm."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Tiểu luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "40%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Công bố khoa học, Cơ sở dữ liệu học thuật, Tổng quan lý thuyết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Chuẩn bị các bài báo nghiên cứu và các bài viết khác",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Cải thiện kỹ năng viết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Sử dụng từ ngữ và cụm từ thích hợp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Dấu chấm câu và viết tắt",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Đơn vị và giá trị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Trích dẫn, Bảng và Hình ảnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Bình duyệt và quá trình xuất bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Đạo đức và các vấn đề liên quan đến nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Các vấn đề trong Viết khoa học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

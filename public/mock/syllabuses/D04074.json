@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 756364,
+    "subjectCode": "D04074",
+    "syllabusName": "Phân tích hình ảnh kỹ thuật xoay người đánh bóng (Image Analysis of Golf Swing)",
+    "syllabusEnglish": "Image Analysis of Golf Swing",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "-\n\nTìm hiểu về mối liên kết giữa cơ thể và tinh thần trong khi chơi golf.\n-\n\nSự di chuyển, cảm nhận và tương tác của các cơ trong từng chuyển động khi xoay người đáng bóng\n-\n\nCác yếu tố ảnh hưởng đến khả năng chơi golf: người chơi golf, dụng cụ, sân và thời tiết.\n-\n\nTìm hiểu kiến thức khoa học đằng sau mỗi cú đánh nhằm nâng cao sự quan tâm và thích thú cho trò chơi này.\n-\n\nCác trang thiết bị hỗ trợ người chơi tạo nên một cuộc cách mạng hoá cách chúng ta chơi golf.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Tìm hiểu và phân tích về sự chuyển động, cảm nhận và tương tác của hệ thống cơ khi xoay người đánh bóng"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Dựa trên nguyên lí của động tác xoay người, tìm hiểu cơ chế kết hợp vận động của thân trên và dưới"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tìm hiểu mối tương quan giữa hệ thống thần kinh đến cơ chế vận động của cơ thể khi chơi golf"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Sinh lý học trong golf",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Sinh học vận động trong golf",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Mối tương quan giữa dụng cụ và kỹ thuật swing golf",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Yếu tố bên ngoài tác động đến kỹ thuật swing golf",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Huấn luyện thông qua công nghệ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Quá trình huấn luyện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Trackman",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

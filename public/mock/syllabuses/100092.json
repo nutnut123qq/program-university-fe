@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 561420,
+    "subjectCode": "100092",
+    "syllabusName": "Nghiên cứu thiên nhiên (Analyzing the Natural World)",
+    "syllabusEnglish": "Analyzing the Natural World",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "·\n\nPhần 1: Sinh viên thực hiện vẽ tay chép thực các\nđối tượng Hoa lá, côn trùng, động vật trong thiên nhiên. Nắm bắt được đặc điểm,\ncấu trúc.\n\n·\n\nPhần 2: Từ mẫu vẽ tay chép thực, sinh viên biết\nlược giản, cách điệu bằng các thủ pháp điểm, đường nét, mảng hình trang trí,\ntinh giản trở thành họa tiết, biểu tượng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được vai trò và tầm quan trọng của thiên nhiên đối với cuộc sống xã hội."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Khai thác được vẻ đẹp của đối tượng thiên nhiên, từ đó chắt lọc, cách điệu thành mô tuýp trang trí ứng dụng vào cuộc sống."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Trau dồi kỹ năng phác tay, kỹ năng nghiên cứu và sàng lọc đối tượng thật, kỹ năng trình bày qua những yêu cầu cụ thể của môn học "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phát triển đam mê nghề nghiệp thông qua việc nhận thức được vai trò của người nghệ sĩ và nhà thiết kế trong xã hội. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành,Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TỔNG QUAN MÔN HỌC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "PHƯƠNG PHÁP GHI CHÉP (KÝ HỌA)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "PHƯƠNG PHÁP CÁCH ĐIỆU.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

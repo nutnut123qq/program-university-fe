@@ -1,0 +1,106 @@
+{
+  "info": {
+    "sylid": 889597,
+    "subjectCode": "A01114",
+    "syllabusName": "Tập sự nghề nghiệp (Graduation Internship)",
+    "syllabusEnglish": "Graduation Internship",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên đi TSNN 2 tháng tại đơn vị thực tập và hoàn thành báo cáo TSNN về 1 chuyên đề báo cáo về mảng quan hệ lao động, hành vi tổ chức.\nKhi học học phần thực tập nghề nghiệp, sinh viên có thể chọn ở một trong hai loại đơn vị thực tập nghề nghiệp như sau:\n1.1. Tổ chức công đoàn:\n- Ở TP.HCM: sinh viên có thể thực tập tại liên đoàn lao động các tỉnh, thành phố, quận, huyện và tương đương; công đoàn các khu công nghiệp- khu chế xuất, công đoàn ngành …\n- Ở các tỉnh, thành phố khác: sinh viên có thể thực tập tại liên đoàn lao động các tỉnh, thành phố, công đoàn các khu công nghiệp- khu chế xuất, các công đoàn ngành của tỉnh.\nĐiều kiện của đơn vị thực tâp nghề nghiệp là tổ chức công đoàn phải thỏa mãn các điều kiện sau:\n- Tổ chức công đoàn đã hoạt động trên 5 năm.\n- Là đơn vị công đoàn hoạt động hiệu quả, thực hiện tốt các chuyên đề hoạt động của công đoàn.\n- Có hệ thống sổ sách rõ ràng.\n1.2. Doanh nghiệp:\nĐối với đơn vị thực tập nghề nghiệp là doanh nghiệp thì cần phải đáp ứng các yêu cầu sau:\n- Doanh nghiệp hoạt động trong lĩnh vực thương mại dịch vụ thì số lượng nhân viên trong doanh nghiệp phải trên 25 lao động.\n- Doanh nghiệp hoạt động trong lĩnh vực sản xuất thì số lượng nhân viên trong doanh nghiệp phải trên 100 lao động.\n- Doanh nghiệp phải có phòng hành chính nhân sự và có tổ chức công đoàn đã hoạt động ít nhất 3 năm, đã thiết lập được hệ thống quản lý các hoạt động công đoàn gồm: các kế hoạch, các thủ tục, các báo cáo và tổ chức các hoạt động quản lý nhân sự và công đoàn thường xuyên.\n- Doanh nghiệp có hệ thống quy trình, thủ tục rõ ràng và có hoạt động công đoàn, công tác nhân sự hiệu quả.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Áp dụng kiến thức vào thực hiện các hoạt động thực tế về quản trị hành vi tổ chức và quản trị nguồn nhân lực"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Đề xuất được giải pháp cải tiến các hoạt động về quản trị hành vi tổ chức và quản trị nguồn nhân lực."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phát triển các kỹ năng mềm để thực hiện các hoạt động về quản trị hành vi tổ chức và quản trị nguồn nhân lực."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Hình thành đạo đức nghề nghiệp và có tinh thần chăm lo người lao động khi thực hiện các công việc về quản trị hành vi tổ chức và quản trị nguồn nhân lực."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Hướng dẫn về học phần Tập sự nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đăng ký Tập sự nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Đăng ký đề tài và phân công giảng viên hướng dẫn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Sinh viên thực hiện Tập sự nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Sinh viên hoàn tất thủ tục Tập sự nghề nghiệp và nộp về khoa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Chấm báo cáo Tập sự nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

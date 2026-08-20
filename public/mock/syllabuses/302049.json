@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 626310,
+    "subjectCode": "302049",
+    "syllabusName": "Tôn giáo (Introduction to Religion Studies)",
+    "syllabusEnglish": "Introduction to Religion Studies",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Các kiến thức cơ bản về lý luận tôn giáo và tình hình tôn giáo ở Việt Nam;\n- Cung cấp, khái quát tri thức các tôn giáo chính ở Việt Nam và thế giới;\n- Các quan điểm, chính sách của Đảng và Nhà nước đối với hoạt động tôn giáo và tín ngưỡng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học hiểu, nhớ và dễ dàng diễn đạt được khái niệm tôn giáo; các tôn giáo chính trên thế giới và Việt Nam; mối quan hệ giữa tôn giáo trong bối cảnh quốc tế; chính sách của Đảng và nhà nước ta đối với tôn giáo trong tình hình hiện nay; kết nối được kiến thức môn học này với các môn học khác của Ngành."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học biết tự đánh giá, so sánh, phân tích yếu tố tôn giáo vào trong giao tiếp và du lịch. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học tiếp cận và nhận thức chính xác, đầy đủ về tôn giáo, vai trò và mối quan hệ của tôn giáo trong bối cảnh quốc tế."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học thể hiện được sự tôn trọng,bình đẳng và công bằng giữa các tôn giáo; có thái độ đúng đắn về vấn đề tôn giáo trong xã hội; biết xử lý linh hoạt đối với các tình huống tôn giáo, vận dụng sáng tạo giá trị tôn giáo vào công việc thực tiễn"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những vấn đề lý luận cơ bản về tôn giáo và tình hình, xu thế của đời sống tôn giáo hiện nay",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kito giáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Islam (Hồi giáo)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phật giáo",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Một số tín ngưỡng dân gian và tôn giáo bản địa ở Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Đường lối và chính sách tôn giáo ở Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

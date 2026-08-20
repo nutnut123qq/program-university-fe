@@ -1,0 +1,90 @@
+{
+  "info": {
+    "sylid": 810716,
+    "subjectCode": "404101",
+    "syllabusName": "Thiết kế hệ thống cơ tin (Design of Mechanical-IT Convergence System and Practice)",
+    "syllabusEnglish": "Design of Mechanical-IT Convergence System and Practice",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "This course provides the\nstudents with the understanding of mechanical-IT convergence system and practice:\n\n·\n\nMechanical-IoT System\n·\n\nMechanical-Data Analytics System\n\n·\n\nMechanical-Image Processing System",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Phân biệt ngôn ngữ lập trình, phần mềm, thiết bị và công cụ, áp dụng các ngôn ngữ, phần mềm, thiết bị và công cụ này cho các hệ thống cơ tin"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "\r\nMô tả chức năng của các thiết bị, công cụ, xác định các thiết bị, công cụ phù hợp với các nhiệm vụ cụ thể của hệ thống cơ tin."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Process evaluation 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Mid-term test",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Final examination",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thiết kế hệ thống IoT-cơ khí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết kế hệ thống phân tích dữ liệu-cơ khí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế hệ thống xử lý ảnh-cơ khí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

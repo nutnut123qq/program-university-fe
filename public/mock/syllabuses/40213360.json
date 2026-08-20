@@ -1,0 +1,124 @@
+{
+  "info": {
+    "sylid": 439124,
+    "subjectCode": "40213360",
+    "syllabusName": "Hệ thống và mạng thông tin quang (Optical Communication Systems and Networks)",
+    "syllabusEnglish": "Optical Communication Systems and Networks",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn hệ thống và mạng thông tin quang gồm 2 phần:\n- Lớp vật lý của thông tin quang như cấu tạo sợi quang, bộ thu phát quang, ghép và tách kênh quang, chuyển mạch quang, khuếch đại quang và chuyển đổi quang; Phân tích hệ thống truyền dẫn quang như hiện tượng tán sắc và hệ số phẩm chất Q. \n- Mạng truyền dẫn quang như cấu trúc, thiết kế và thuật toán chuyển mạch quang; các giao thức liên quan đến chuyển mạch ghép kênh bước sóng quang (WDM), chuyển mạch chùm quang, chuyển mạch gói quang và mạng truy cập quang.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trình bày được các nguyên tắc hoạt động đường truyền và mạng thông tin quang, và các đặc tính của nó; phân biệt được các đặc tính của sợi quang đơn mode, đa mode, bộ phát và thu quang; mô tả được các cách ghép kênh trong mạng quang và nguyên tắc hoạt động của các loại mạng mạng thông tin quang khác nhau."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thiết kế được hệ thống truyền dẫn thông tin quang tương tự và số; phân tích được các tham số trong thiết bị phát và thu quang; sử dụng được công cụ CAD tính toán và mô phỏng hệ thống truyền dẫn quang cơ bản."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích được vài trò của các thiết bị trong mạng truyền dẫn quang; đánh giá được chất lượng truyền dẫn trong mạng thông tin quang."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Nhận thức được vai trò và vị trí cần thiết của môn học trong lĩnh vực viễn thông và có tinh thần tích cực tìm hiểu và vận dụng kiến thức môn học áp dụng vào thực tiễn."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Linh kiện quang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hệ thống truyền dẫn quang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thiết kế mạng WDM",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Điều khiển và quản lý mạng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Chuyển mạch gói và cụm quang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Mạng truy xuất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

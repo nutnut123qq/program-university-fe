@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 129394,
+    "subjectCode": "302050",
+    "syllabusName": "Phương pháp luận nghiên cứu khoa học (Scientific Research Methodology)",
+    "syllabusEnglish": "Scientific Research Methodology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung\r\ncấp cho người học những kiến thức căn bản nhất về phương pháp luận nghiên cứu\r\nkhoa học, đặc biệt là trong lĩnh vực khoa học xã hội. Nội dung chính là những\r\nkhái niệm cơ bản về khoa học, các cách tiếp cận, lý thuyết và cách thức xây\r\ndựng đề cương nghiên cứu. Vì giảng dạy cho ngành xã hội học, các lý thuyết và\r\ncác vấn đề nghiên cứu sẽ được trình bày trong mối liên hệ với khoa học xã hội\r\nhọc để sinh viên có nền tảng căn bản cho việc theo học các môn học tiếp theo\r\nthuộc khói kiến thức cơ sở ngành và chuyên ngành sau này.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học phân biệt được các mô hình tiếp cận và các khái niệm cơ bản và quy trình nghiên cứu khoa học"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học nhận diện được vấn đề nghiên cứu và xây dựng được đề cương nghiên cứu phù hợp"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học thực hiện việc soạn thảo và trình bày bài thuyết trình về đề cương nghiên cứu"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học hiểu rõ các quy tắc đạo đức trong nghiên cứu khoa học từ đó phát triển thái độ tôn trọng đạo đức nghề nghiệp trong tương lai"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Dẫn luận vào phương pháp luận nghiên cứu khoa học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các nền tảng của nghiên cứu khoa học xã hội",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các phương pháp và kỹ thuật nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Xây dựng đề cương nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Báo cáo nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

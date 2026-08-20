@@ -1,0 +1,76 @@
+{
+  "info": {
+    "sylid": 170876,
+    "subjectCode": "602102",
+    "syllabusName": "Khóa luận tốt nghiệp (Graduation Thesis)",
+    "syllabusEnglish": "Graduation Thesis",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "- Tuỳ theo nguyện vọng cá nhân, mỗi sinh viên sẽ lựa chọn đề tài nghiên cứu phù hợp với chuyên ngành được đào tạo.\n\n- Sau khi thảo luận với giảng viên hướng dẫn và nhận đề tài nghiên cứu, sinh viên chọn lọc và tổng hợp tài liệu, lập đề cương nghiên cứu bao gồm lý do chọn đề tài, mục tiêu và phạm vi nghiên cứu, quy trình thực nghiệm và phương pháp nghiên cứu, các yếu tố chính cần khảo sát và kết quả mong đợi.\n\n- Song song với quá trình thực nghiệm, sinh viên viết khoá luận tốt nghiệp và bài báo khoa học, bao gồm các phần chính: Tổng quan, Thực nghiệm, Kết quả và bàn luận, Kết luận và kiến nghị.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Sinh viên có khả năng thực hiện một dự án nghiên cứu nhằm làm sáng tỏ một vấn đề khoa học hoặc sản xuất một sản phẩm cụ thể trong lĩnh vực kỹ thuật hóa học."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Sinh viên biết xác định vấn đề cần giải quyết, phân tích hiện trạng, thiết kế và thực hiện thí nghiệm, thu thập và xử lý dữ kiện khoa học, phân tích và đánh giá kết quả nhận được, biết viết báo cáo khoa học và kỹ năng trình bày kết quả bằng thuyết trình, kỹ năng phản biện dựa trên các luận cứ và dữ kiện khoa học."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Nhận thức được tầm quan trọng của các kiến thức đã học trong suốt chương trình đào tạo và khả năng vận dụng các kiến thức đó để giải quyết các vấn đề thực tế, biết cách giải quyết các vấn đề kỹ thuật dựa trên nền tảng tư duy khoa học."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đề cương nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nội dung trình bày khóa luận tốt nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Viết bài báo khoa học và bảo vệ khóa luận tốt nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

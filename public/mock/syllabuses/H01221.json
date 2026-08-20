@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 814484,
+    "subjectCode": "H01221",
+    "syllabusName": "Phương pháp nghiên cứu dược lý thực nghiệm (Methods in Experimental Pharmacology)",
+    "syllabusEnglish": "Methods in Experimental Pharmacology",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Phương pháp\r\nnghiên cứu dược lý thực nghiệm gồm 5 chương (Thứ tự các chương có thể đảo cho\r\nnhau. Giảng viên có thể chọn 1 chương bất kì để bắt đầu khóa học)\n\n·\n\nChương 1: Các mô hình thử nghiệm đánh\r\ngiá độc tính của thuốc\n\n·\n\nChương 2: Các mô hình thử nghiệm thuốc\r\ngây nghiện\n\n·\n\nChương 3: Các mô hình thử nghiệm thuốc\r\ntác động lên hệ thần kinh trung ương\n\n·\n\nChương 4: Các mô hình thử nghiệm thuốc\r\ntác động trên các bệnh rối loạn chuyển hóa\n\n·\n\nChương 5: Các mô hình thử nghiệm thuốc\r\nkháng ung thư",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được cách lập kế hoạch và tổ chức thực hiện được các mô hình dược lý thực nghiệm."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu được cách đánh giá tác động, hiệu quả, tính ưu việt và hạn chế của các mô hình dược lý thực nghiệm."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hiểu được cách vận dụng được kiến thức về các phương pháp nghiên cứu dược lý thực nghiệm để khảo sát, đánh giá tác dụng dược lý của thuốc."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các mô hình thử nghiệm đánh giá độc tính của thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các mô hình thử nghiệm thuốc gây nghiện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các mô hình thử nghiệm thuốc tác động lên hệ thần kinh trung ương",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các mô hình thử nghiệm thuốc tác động trên các bệnh rối loạn chuyển hóa.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các mô hình thử nghiệm thuốc kháng ung thư.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

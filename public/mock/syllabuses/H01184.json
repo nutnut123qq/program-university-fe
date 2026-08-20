@@ -1,0 +1,90 @@
+{
+  "info": {
+    "sylid": 864694,
+    "subjectCode": "H01184",
+    "syllabusName": "Thiết lập chất chuẩn đối chiếu (Establishment of Reference Standards )",
+    "syllabusEnglish": "Establishment of Reference Standards ",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Thiết lập chuẩn đối chiếu trang bị cho người học kiến thức của công tác thiết lập chất đối chiếu trong chuyên ngành Đảm bảo chất lượng thuốc, cụ thể:\n\nChương 1: Các nguyên tắc chung cho việc thiết lập, bảo trì và\r\nphân phối của chất đối chiếu\n\nChương 2: Quy trình thiết lập chất đối chiếu hóa học\n\nChương 3: Bộ dữ liệu phổ trong xác định cấu trúc của chất đối\r\nchiếu hoặc chuẩn làm việc",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được các nguyên tắc chung cho việc thiết lập, bảo trì và phân phối của Chất đối chiếu quy trình chung về thiết lập – Bảo quản và phân phối chất đối chiếu"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Xây dựng được quy trình thiết lập, bảo quản và phân phối chất đối chiếu"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Các nguyên tắc chung cho việc thiết lập, bảo trì và phân phối của Chất Đối Chiếu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Quy trình thiết lập chất đối chiếu hóa học ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Bộ dữ liệu phổ xác định cấu trúc của chất đối chiếu/chuẩn làm việc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

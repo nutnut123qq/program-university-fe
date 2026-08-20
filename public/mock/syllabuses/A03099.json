@@ -1,0 +1,138 @@
+{
+  "info": {
+    "sylid": 251277,
+    "subjectCode": "A03099",
+    "syllabusName": "Khóa luận tốt nghiệp (Graduation Thesis)",
+    "syllabusEnglish": "Graduation Thesis",
+    "credits": "8",
+    "degreeLevel": "Bachelor",
+    "description": "Đây là nội dung cuối cùng trước khi sinh viên tốt nghiệp, dành cho sinh viên có kết quả học tập tốt, có năng lực nghiên cứu khoa học và đảm bảo điều kiện ràng buộc của Khóa luận tốt nghiệp (KLTN) và được khoa xét làm KLTN. \nSinh viên học cách thực hiện một công trình nghiên cứu, thể hiện kết quả học tập và khả năng nghiên cứu khoa học của sinh viên, tập trung nghiên cứu về các vấn đề khoa học thuộc chương trình đào tạo của Khoa như: Quan hệ lao động, Công đoàn, Quản trị nguồn nhân lực và các vấn đề liên quan.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên tổng quan về các yếu tố cơ bản để thực hiện một khóa luận đại học, sinh viên thể hiện những hiểu biết và kiến thức chuyên môn đã được học áp dụng vào nội dung khóa luận."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Định hướng nghiên cứu khoa học cho sinh viên, học và thực hành phong cách viết một nghiên cứu, sinh viên phát triển kĩ năng viết cần thiết cho nghề nghiệp chuyên môn sau này, cũng như áp dụng các kĩ năng chuyên môn trong quá trình thực hiện khóa luận."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Xác định mục tiêu nghiên cứu và ứng dụng được kiến thức đã học và kĩ năng đã được rèn luyện trong suốt quá trình học tạo ra sản phẩm nghiên cứu cô đọng, đóng góp vào việc giải quyết các vấn đề liên quan đến hoạt động công đoàn, quan hệ lao động, và quản trị nguồn nhân lực."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Giúp sinh viên nhận thức được tầm quan trọng của đạo đức trong nghiên cứu thông qua việc thực hiện khóa luận."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đăng ký Khóa luận tốt nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Xét và công bố danh sách sv đủ điều kiện làm KLTN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Đăng ký đề tài và phân công giảng viên hướng dẫn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Xét duyệt đề tài và công bố đề tài",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Sinh viên thực hiện Khóa luận tốt nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "SV nộp báo cáo KLTN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Kiểm tra sự trùng lắp trong KLTN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Chấm phản biện Khóa luận tốt nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Thành lập hội đồng chấm bảo về KLTN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Tổ chức bảo vệ và chấm KLTN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

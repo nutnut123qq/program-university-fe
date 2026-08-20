@@ -1,0 +1,72 @@
+{
+  "info": {
+    "sylid": 459836,
+    "subjectCode": "H01046",
+    "syllabusName": "Thí nghiệm Dược lâm sàng 1 (Clinical Pharmacology Laboratory 1)",
+    "syllabusEnglish": "Clinical Pharmacology Laboratory 1",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các phần:\n\nTra cứu thông tin thuốc\n\nPhân tích đơn thuốc và hướng dẫn sử dụng thuốc",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Môn học thực hành dược lâm sàng 1 cung cấp kiến thức thực hành cơ bản về tra cứu thông tin thuốc, phân tích đơn thuốc và hướng dẫn sử dụng thuốc một cách hợp lý. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Xây dựng được kỹ năng thông tin thuốc và đánh giá việc kê toa hợp lý."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tra cứu thông tin thuốc ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phân tích đơn thuốc và hướng dẫn sử dụng thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

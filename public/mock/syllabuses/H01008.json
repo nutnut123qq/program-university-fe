@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 259173,
+    "subjectCode": "H01008",
+    "syllabusName": "Thực hành dược khoa (Pharmaceutical Practice)",
+    "syllabusEnglish": "Pharmaceutical Practice",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Hướng dẫn chung về các dạng bào chế cơ bản trong cuộc sống.\n\nThao tác chuẩn các bước bào chế thuốc và trình bày thành phẩm khoa học và thẩm mỹ",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm vững những kiến thức cơ bản nhất về dụng cụ cũng như các thao tác thí nghiệm cơ bản trong ngành dược. Mô tả được cách trình bày nhãn thành phẩm thuốc theo tiêu chuẩn của Bộ y tế."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Quan sát về hình dạng, màu sắc, thể chất của nguyên liệu và đánh giá được các hiện tượng bất thường trong quá trình pha chế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích được vai trò từng thành phần nguyên liệu trong công thức, đồng thời thiết lập được công thức bào chế và sắp xếp quy trình thực hành hợp lý và khoa học"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận,Thực hành thí nghiệm",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test,Laboratory Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "- Đại cương về bào chế học – Kỹ thuật cân – Đong đo thể tích - Kỹ thuật lọc – Pha cồn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kỹ thuật lọc – Kỹ thuật nghiền tán – rây – trộn – Thuốc bột sát trùng da",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Cao xoa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Cất nước – Siro đơn - dung dịch Dalibour – Ôn tập",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "THI KẾT THÚC MÔN HỌC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,118 @@
+{
+  "info": {
+    "sylid": 634173,
+    "subjectCode": "903132",
+    "syllabusName": "Kỹ thuật chống ồn, rung (Noise Reduction and Vibration Control Techniques)",
+    "syllabusEnglish": "Noise Reduction and Vibration Control Techniques",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "·\n\nĐại cương về âm và tiếng ồn;\n\n·\n\nĐo, kiểm tra và giảm tiếng ồn trong công nghiệp;\n\n·\n\nRung động và phương pháp giảm rung động;\n·\n\nĐề xuất các giải pháp chống rung và ồn trong\r\ncông nghệ.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hình thành cách vận dụng các kỹ năng làm việc nhóm và làm việc độc lập, tư duy hệ thống, tư duy sáng tạo, kỹ năng giao tiếp và trình bày hiệu quả."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng luật, hệ thống văn bản dưới luật, kiến thức về kỹ thuật chống ồn rung phục vụ công tác an toàn sức khỏe nghề nghiệp tại doanh nghiệp."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Ứng dụng được các kiến thức về kỹ thuật chống ồn rung trong xử lý môi trường lao động nhằm đảm bảo chất lượng an toàn vệ sinh lao động tại doanh nghiệp."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tư vấn được các giải pháp về kiểm soát ồn rung và phương án chống ồn rung nơi làm việc đảm bảo sức khỏe nghề nghiệp cho người lao động."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Có khả năng chọn được các giải pháp kỹ thuật xử lý ồn rung tại nơi làm việc dựa trên các nguyên lý cơ bản, nguyên lý áp dụng và thực trạng của doanh nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đại cương về âm và tiếng ồn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đo, kiểm tra và giảm tiếng ồn trong công nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Rung động và phương pháp giảm rung động",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

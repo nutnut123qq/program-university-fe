@@ -1,0 +1,104 @@
+{
+  "info": {
+    "sylid": 404895,
+    "subjectCode": "706130",
+    "syllabusName": "Thực hành mô phỏng hệ thống ERP (Practice Simulation of ERP System)",
+    "syllabusEnglish": "Practice Simulation of ERP System",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "In business, resources\r\nare limited. Therefore, in order to regulate and effectively and rationally use\r\nthese resources, it is necessary to have a modern tool that covers all activities\r\nof the business so that business leaders can make optimal decisions in the\r\noperating process of the enterprise. As a result, Enterprise Resource Planning\r\n(ERP) is an effective platform that is often applied by businesses during their\r\noperations. However, applying ERP professionally to make the most of all the\r\nfeatures of this platform is a real challenge for companies and corporations.\r\nUnderstanding that, Mini ERP is an ERP simulation model based on Odoo’s ERP platform. This is an open\r\nplatform that helps students have a statistical process from overview to details\r\nof functions affecting business activities in Enterprises of any size,\r\nespecially sales and supply chains. Students will act as representatives of\r\nsupply chain functions. The task is that with the provided data such as product\r\nline information, supplier information, sales data, inventory data, etc.,\r\nstudents have to solve problems to improve the Supply Chain situation.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Understand how Enterprise Resource Planning works as an integrated application system and its benefits"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Implement and manage business operation activities on ERP system"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Process evaluation 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Final examination",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": " SALES AND MARKETING DEPARTMENT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "PURCHASING MANAGEMENT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "INVENTORY IN SUPPLY CHAIN MANAGEMENT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "MANUFACTURING AND MANUFACTURING ENVIRONMENT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "SUPPLY CHAIN ANALYST ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Final Review",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

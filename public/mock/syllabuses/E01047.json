@@ -1,0 +1,150 @@
+{
+  "info": {
+    "sylid": 64769,
+    "subjectCode": "E01047",
+    "syllabusName": "Pháp luật kinh doanh bảo hiểm (Insurance Business Law)",
+    "syllabusEnglish": "Insurance Business Law",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học trang bị cho sinh viên những kiến thức cơ bản về pháp luật kinh doanh bảo hiểm; khái quát sự hình thành và phát triển của pháp luật kinh doanh bảo hiểm tại Việt Nam; các điều kiện để thành lập và hoạt động của Doanh nghiệp kinh doanh bảo hiểm; các sản phẩm bảo hiểm nhân thọ, phi nhân thọ, trách nhiệm; các hoạt động của môi giới bảo hiểm, đại lý bảo hiểm; các hành vi bị xử lý vi phạm trong hoạt động kinh doanh bảo hiểm.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "\tKiến thức: Trang bị cho sinh viên những kiến thức cơ bản về pháp luật kinh doanh bảo hiểm; phân biệt các loại hình bảo hiểm thương mại và bảo hiểm bắt buộc; hiểu rõ các thuật ngữ bảo hiểm; nắm được các nội dung cơ bản của hợp đồng bảo hiểm nhân thọ, hợp đồng bảo hiểm tài sản, hợp đồng bảo hiểm trách nhiệm; các hoạt động của doanh nghiệp bảo hiểm, đại lý bảo hiểm, môi giới bảo hiểm."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "\tKỹ năng tác nghiệp: Sinh viên sẽ nắm được các kỹ năng hiểu được kiến thức chung về hoạt động kinh doanh bảo hiểm tại Việt Nam; kỹ năng đọc hiểu thuật ngữ bảo hiểm, hợp đồng bảo hiểm nhân thọ, hợp đồng bảo hiểm tài sản, hợp đồng bảo hiểm trách nhiệm; kỹ năng hành nghề hoạt động đại lý bảo hiểm, môi giới bảo hiểm; kỹ năng tự trang bị về kiến thức hợp đồng bảo hiểm. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "\tYêu cầu về tư duy: Môn học cung cấp cho sinh viên khả năng phân tích, đánh giá thực tiễn, đồng thời hình thành tư duy độc lập về các nội dung kiến thức cũng như thực tiễn liên quan đến môn học."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "\tThái độ và hành vi: Sinh viên phải chủ động tìm hiểu tình hình thực tế của hoạt động kinh doanh bảo hiểm tại Việt Nam; tìm hiểu các sản phẩm bảo hiểm cơ bản trên thị trường; thực tập phân tích các tình huống, sự kiện bảo hiểm diễn ra trên thực tế."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái quát chung về bảo hiểm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Những quy định chung về Kinh doanh bảo hiểm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hợp đồng bảo hiểm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thủ tục cấp giấy phép và hoạt động của doanh nghiệp bảo hiểm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Doanh nghiệp bảo hiểm có vốn đầu tư nước ngoài",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Đại lý bảo hiểm, môi giới bảo hiểm, doanh nghiệp phụ trợ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Cơ cấu tổ chức Doanh nghiệp bảo hiểm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Các tranh chấp bảo hiểm thường gặp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Xử lý tình huống thực tiễn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

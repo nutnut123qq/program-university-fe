@@ -1,0 +1,160 @@
+{
+  "info": {
+    "sylid": 490480,
+    "subjectCode": "901090",
+    "syllabusName": "Vi sinh vật nước thải (Wastewater Microbiology)",
+    "syllabusEnglish": "Wastewater Microbiology",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Cung cấp cho người học các kiến thức cơ bản về lịch sử phát triển của ngành vi sinh vật học. Hiểu được cấu trúc, quá trình trao đổi chất, sinh trưởng và phát triển của vi sinh vật.\n\n Vai trò của vi sinh vật trong chu trình sinh – địa – hóa, các ứng dụng của vi sinh vật trong môi trường.\n\nQuá trình vi sinh vật lơ lửng, dính bám, kỵ khí trong các công trình xử lý nước thải điển hình.\n\nỨng dụng của vi sinh vật trong xử lý nước thải một số ngành nghề.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết được những kiến thức cơ bản về cấu trúc, quá trình sinh trưởng – phát triển của vi sinh vật; phân loại vi sinh vật và vai trò của chúng trong các chu trình sinh – địa – hóa; các loại vi sinh vật hiện diện trong nước thải; cơ chế loại bỏ các chất ô nhiễm trong nước thải bằng vi sinh vật và ứng dụng chúng trong việc xử lý nước thải một số ngành nghề."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Lựa chọn nhóm vi sinh vật chỉ thị để đánh giá chất lượng nước và áp dụng công nghệ xử lý nước thải hiệu quả hơn nhờ vsv"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Ứng dụng vi sinh trong xử lý môi trường, vận hành các công trình xử lý sinh học"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phối hợp các chủng vi sinh để nhằm đạt hiệu quả xử lý cao nhất theo từng yêu cầu cụ thể"
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Phát triển các hướng nghiên cứu đối với các chủng vi sinh mới hoặc nghiên cứu ứng dụng rộng rãi của vi sinh vật trong đời sống cũng như nhiều lĩnh vực khác."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Phát triển kỹ năng viết và trình bày báo cáo thông qua các chuyên đề và bài tập nhóm; kỹ năng giao tiếp hiệu quả khi làm việc theo nhóm"
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Phát triển kỹ năng làm việc nhóm thông qua phân công các thành viên nhóm làm việc hiệu quả (bài tập nhóm; phát triển kỹ năng làm việc độc lập khi thực hiện chuyên đề cá nhân"
+    },
+    {
+      "id": 8,
+      "loSeq": "8",
+      "cloName": "CO8",
+      "loDetails": "Trung thực khi thực hiện các bài tập và báo cáo. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Quá trình 2",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu chung",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Trao đổi chất, sinh trưởng và phát triển của vi sinh vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Vai trò của vi sinh vật trong các chu trình sinh địa hóa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Quá trình vi sinh vật trong các công trình xử lý nước thải",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các yếu tố ảnh hưởng và sự cố thường gặp trong vận hành các công trình xử lý nước thải bằng vi sinh vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Ứng dụng vi sinh vật trong xử lý nước thải ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

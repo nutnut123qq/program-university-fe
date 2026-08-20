@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 386405,
+    "subjectCode": "H02010",
+    "syllabusName": "Thí nghiệm Sinh học tế bào (Cell Biology Laboratory)",
+    "syllabusEnglish": "Cell Biology Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học gồm các phần:\n\nChương 1. An toàn trong phòng thí nghiệm sinh học tế bào\nChương 2. Cấu trúc và chức năng của tế bào.\n\nChương 2. Kỹ thuật nhuộm và quan sát\r\nnhiễm sắc thể (G-banding). \n\nChương 3. Tách chiết DNA từ\r\nmẫu sinh học.\n\nChương 4. Phản ứng PCR và phân tích sản phẩm PCR bằng\r\nđiện di agarose.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên kiến thức nền tảng về cấu trúc, chức năng của tế bào, acid nucleic và nguyên lý các kỹ thuật sinh học phân tử tế bào ứng dụng trong y sinh."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Giúp sinh viên hiểu được vai trò của các kỹ thuật sinh học phân tử tế bào trong chẩn đoán, phòng ngừa và nghiên cứu bệnh học."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Hình thành năng lực vận dụng kiến thức để tham gia vào các quy trình thí nghiệm cơ bản trong phân tích mẫu sinh học."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Kiểm tra năng lực",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Performance Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Cấu trúc và chức năng của tế bào",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kỹ thuật nhuộm và quan sát nhiễm sắc thể (G-banding)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tách chiết DNA từ tế bào nuôi cấy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phản ứng PCR và phân tích sản phẩm PCR bằng điện di agarose ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thi kiểm tra đánh giá môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "An toàn trong phòng thí nghiệm sinh học tế bào",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

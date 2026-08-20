@@ -1,0 +1,152 @@
+{
+  "info": {
+    "sylid": 366649,
+    "subjectCode": "201048",
+    "syllabusName": "Kế toán quản trị (Management Accounting)",
+    "syllabusEnglish": "Management Accounting",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên đã có kiến thức nền tảng về nguyên lý kế toán. Môn học tiếp tục cung cấp cho sinh viên kiến thức nền tảng về kế toán quản trị và vai trò hỗ trợ của nó đối với nhà quản lý doanh nghiệp. Môn học cũng giới thiệu với sinh viên các phương thức phân tích, đo lường hiệu quả hoạt động kinh doanh và việc lựa chọn thông tin thích hợp mà doanh nghiệp sử dụng để đưa ra các quyết sách kinh doanh phù hợp nhằm tối đa hóa lợi nhuận doanh nghiệp.\n\n    Nội dung môn học bao gồm 8 chương:\n\nChương 1: Những vấn đề chung về kế toán quản trị.\n\nChương 2:  Phân tích C – V – P.\n\nChương 3: Lập dự toán ngân sách.\n\nChương 4: Phân tích biến động chi phí sản xuất trực tiếp.\n\nChương 5: Phân tích biến động chi phí sản xuất chung.\n\nChương 6: Lập dự toán vốn\n\nChương 7:  Các quyết định về giá bán.\n\nChương 8:  Thông tin thích hợp ra quyết định.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "\tĐề xuất các chính sách kinh doanh phù hợp với đặc thù doanh nghiệp từng thời kỳ để đạt được mục tiêu tối đa hóa lợi nhuận.\r\n\tQuy trình xây dựng và lập dự toán tổng thể cũng như từng phần trong doanh nghiệp nhằm phát triển chiến thuật kinh doanh từng giai đoạn cho phù hợp.\r\n\tKiến thức cần thiết phục vụ cho việc ra quyết định dài hạn.\r\n\tChính sách giá bán sản phẩm của doanh nghiệp và mối quan hệ của nó đối với việc quản trị chiến lược doanh nghiệp trong từng thời kỳ. \r\n\tThông tin thích hợp để tính toán và lựa chọn các quyết định một cách nhanh chóng và đúng đắn.\r\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "\tBiết sử dụng mô hình C V P để giải quyết một số tình huống trong doanh nghiệp.\r\n\tBiết lập và sử dụng dự toán trong hoạt động sản xuất kinh doanh.\r\n\tBiết thu thập thông tin cần thiết phục vụ cho việc ra quyết định dài hạn\r\n\tBiết định giá bán sản phẩm cho doanh nghiệp.\r\n\tBiết sử dụng thông tin thích hợp để ra quyết định. \r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "\tNắm được tầm quan trọng của kế toán quản trị và chức năng của nó trong điều tiết kinh doanh tại doanh nghiệp.\n\tNhận thức tầm quan trọng của việc áp dụng mô hình phân tích C V P trong các loại hình doanh nghiệp.\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "\tPhân biệt chức năng kế toán quản trị với chức năng kế toán tài chính trong mô hình quản trị doanh nghiệp.\r\n\t Hiểu được rằng kế toán viên không những cần cập nhật kiến thức về kế toán tài chính, mà còn phải trao dồi kiến thức về kế toán quản trị để có thể hoàn thành tốt nhiệm vụ được giao.\r\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những vấn đề chung về KTQT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Mô hình phân tích mối quan hệ C-V-P.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lập dự toán ngân sách DN.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phân tích biến động chi phí sản xuất trực tiếp.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Phân tích biến động chi phí sản xuất chung.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Dự toán Vốn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Các quyết định về giá bán ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Thông tin thích hợp ra quyết định",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

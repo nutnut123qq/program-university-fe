@@ -1,0 +1,136 @@
+{
+  "info": {
+    "sylid": 113911,
+    "subjectCode": "C02033",
+    "syllabusName": "Lập trình tính toán (Computational programming)",
+    "syllabusEnglish": "Computational programming",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Tổng quan về Python.\n\nLập trình Python căn bản.\n\nMa trận, vector và các phép toán liên quan.\n\nVẽ đồ thị trong Python (2 \nchiều, 3 chiều\n).\nMột số bài toán áp dụng lập trình tính toán trong Python.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "-\tKiến thức: \r\n+ Sinh viên được trang bị kỹ năng lập trình tính toán kỹ thuật bằng phần mềm tính toán Matlab, giúp sinh viên có thêm công cụ giải quyết các bài toán chuyên ngành. Môn học này là nền tảng và bước đệm cho sinh viên trước khi vào học các môn học về Giải tích số trong các học kỳ tới.\r\n+ Môn học nhằm nâng cao khả năng ứng dụng kiến thức toán học vào phân tích các bài toán cụ thể trong thực tế.\r\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: \r\n+Biết vận dụng các kiến thức đã học vào việc ứng dụng các chương trình tính toán, thuật toán trên máy tính, áp dụng các thuật toán cơ bản hỗ trợ việc giải các bài toán trên thực tế trong lĩnh vực công nghiệp, kỹ thuật, … \r\n+Nâng cao các kỹ năng:\r\n•Khả năng làm việc theo nhóm; phong cách làm việc nơi công sở.\r\n•Kết nối kiến thức các môn học.\r\n+Có khả năng xây dựng kế hoạch và thực hiện nghiên cứu những bài toán cụ thể.\r\n+Cập nhật kiến thức chuyên môn và tích lũy kinh nghiệm thực tế.\r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Nắm vững lý thuyết toán căn bản, có tư duy về logic, suy luận, và kỹ năng lập trình căn bản. Nhận thức đúng đắn về con đường phát triển nghề nghiệp bản thân.\r\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Có ý thức chuyên cần, nghiêm túc trong các buổi học lý thuyết và thực hành tại trường và tại cơ sở. Có nhận thức đúng đắn về môi trường làm việc, học tập. Xây dựng tốt tác phong làm việc, phát triển kỹ năng giao tiếp. Tuân thủ giá trị đạo đức nghề nghiệp.\r\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về Python",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lập trình Python cơ bản",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Ma trận",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Vẽ đồ thị trong Python",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Một số bài toán áp dụng lập trình tính toán với Python",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thuyết trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

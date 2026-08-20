@@ -1,0 +1,130 @@
+{
+  "info": {
+    "sylid": 510878,
+    "subjectCode": "801045",
+    "syllabusName": "Kỹ thuật và tổ chức thi công (Construction Technology & Processes)",
+    "syllabusEnglish": "Construction Technology & Processes",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Kỹ thuật thi công gồm 4 phần chính:\n\nThi công phần ngầm và công tác đất:\n tính toán khối lượng đất, thi công đào, đắp, thi công hạ cọc, thi công cọc nhồi và tường trong đất.\n\nThi công bêtông toàn khối:\n công tác cốp pha, cốt thép, đổ bêtông cho các kết cấu.\n\nThi công lắp ghép:\n tính toán và chọn thiết bị thi công lắp ghép. Lắp ghép các cấu kiện bằng thép và bêtông cốt thép.\n\nCông tác xây và hoàn thiện:\n cấu tạo khối xây, các quy tắc xây, các kiểu xây gạch, đá, thi công mái và hoàn thiện.\n\nTổ chức thi công: giúp sinh viên biết cách lập kế hoạch, tổ chức, điều hành và kiểm soát thi công các công trình xây dựng, gồm 2 phần chính: \nTiến độ thi công; Tổng bình đồ công trường\n.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên những kỹ thuật thi công xây dựng truyền thống và hiện đại. Sinh viên nắm vững các kiến thức về thiết kế tổ chức thi công trên công trường"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết áp dụng các kiến thức đã học vào công tác thiết kế kỹ thuật và tổ chức thi công cho một công trình thông qua giải quyết các bài toán thi công"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên hiểu vai trò quan trọng của thiết kế thi công, nâng cao trình độ quản lý thi công nhằm đảm bảo “tam giác mục tiêu” Thời gian – Chất lượng – Giá thành"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Công tác đất và thi công phần ngầm trong xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Công tác thi công bêtông toàn khối",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thi công lắp ghép",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Công tác xây và hoàn thiện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Tiến độ thi công",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Tổng bình đồ công trường.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

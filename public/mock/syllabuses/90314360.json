@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 298432,
+    "subjectCode": "90314360",
+    "syllabusName": "Chuyên đề Kỹ thuật ứng phó sự cố khẩn cấp công nghiệp (Industrial Emergency Preparedness Exercises)",
+    "syllabusEnglish": "Industrial Emergency Preparedness Exercises",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc trang bị cho người học các phương pháp và công cụ cốt lõi để áp dụng, triển\r\nkhai, đánh giá và đề xuất cải tiến phương án ứng phó sự cố khẩn cấp trong môi\r\ntrường công nghiệp. Nội dung môn học bao gồm: nhận diện mối nguy và xây dựng\r\nkịch bản sự cố; đánh giá rủi ro định tính, bán định lượng hoặc định lượng; cấu\r\ntrúc chỉ huy sự cố, kế hoạch ứng cứu tại chỗ và phối hợp liên cơ quan; tổ chức\r\nthông tin, báo động, sơ tán; bố trí nguồn lực, thiết bị và quy trình tác\r\nnghiệp; huấn luyện, diễn tập và các hoạt động sau sự cố như điều tra nguyên\r\nnhân, rút kinh nghiệm và khôi phục hoạt động. Môn học có tham chiếu các tiêu\r\nchuẩn, hướng dẫn và thực hành quốc tế như NFPA 1600, OSHA, ERG 2020, Fire Risk\r\nManagement, NFPA 704 và BS EN ISO 19353, đồng thời hướng tới năng lực áp dụng\r\nyêu cầu pháp luật, ứng dụng kiến thức chuyên ngành, tư vấn triển khai hoạt động\r\nhuấn luyện – diễn tập, đánh giá và đề xuất cải tiến phương án ứng phó sự cố\r\nkhẩn cấp bảo đảm tính an toàn, khả thi và tuân thủ pháp luật tại cơ sở sản\r\nxuất.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Áp dụng các yêu cầu pháp luật, tiêu chuẩn liên quan và mô hình quản lý khẩn cấp như ICS, PPRR để xác định khung yêu cầu của phương án ứng phó sự cố khẩn cấp tại cơ sở công nghiệp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Thể hiện trách nhiệm nghề nghiệp, kỹ năng phối hợp nhóm và giao tiếp trong tổ chức thông tin, báo động, sơ tán và phối hợp liên cơ quan khi ứng phó sự cố."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Ứng dụng phương pháp nhận diện mối nguy, phân tích kịch bản và ma trận rủi ro để lựa chọn ưu tiên kiểm soát và nguồn lực ứng cứu."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Ứng dụng kiến thức chuyên ngành để xây dựng phương án ứng phó sự cố khẩn cấp, bao gồm cơ cấu đội ứng cứu, thiết bị, quy trình tác nghiệp và liên kết bên ngoài."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Tư vấn và triển khai kế hoạch huấn luyện, diễn tập và truyền thông cảnh báo phù hợp với đặc điểm sự cố, đối tượng tham gia và điều kiện của cơ sở."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Đánh giá và đề xuất cải tiến phương án hoặc hệ thống ứng phó sự cố khẩn cấp dựa trên tiêu chí an toàn, khả thi, tuân thủ và hiệu quả kiểm soát rủi ro."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các mối nguy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các bước tiến hành đánh giá rủi ro cho các khu vực cụ thể",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Xây dựng kế hoạch ứng phó sự cố khẩn cấp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Các hành động sau sự cố",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thực hành xây dựng kế hoạch ứng phó sự cố khẩn cấp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

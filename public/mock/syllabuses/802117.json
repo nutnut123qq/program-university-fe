@@ -1,0 +1,146 @@
+{
+  "info": {
+    "sylid": 139389,
+    "subjectCode": "802117",
+    "syllabusName": "Thiết kế đường ô tô (Highway Engineering)",
+    "syllabusEnglish": "Highway Engineering",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc bao gồm các nội dung chính sau:\n\n·\n\nChức năng đường ô tô\n\n·\n\nTiêu chuẩn và quy định thiết kế\n\n·\n\nThiết kế kích thước hình học tuyến đường\n\n·\n\nVật liệu xây dựng đường ô tô\n\n·\n\nThiết kế kết cấu áo đường mềm (Flexible pavement\r\nanalysis and design)\n\n·\n\nThiết kế kết cấu áo đường cứng (Rigid pavement\r\nanalysis and design)\n\n·\n\nThiết kế thoát nước đường ôtô (Drainage highway)\n\n·\n\nĐánh giá tác động môi trường của đường giao\r\nthông (Environmental Impact Assessment of Highway Development)",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên kiến thức cơ bản về chức năng, tiêu chuẩn và các quy định trong thiết kế đường ô tô; Kiến thức về tính toán thiết kế hình học, kết cấu áo đường, thiết kế thoát nước mặt đường; đánh giá tác độ môi trường cho dự án đường ô tô"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Trang bị cho sinh viên kỹ năng thiết kế, tính toán, phân tích, so sánh, và áp dụng phần mềm thiết kế"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên biết chủ động trong việc tìm tòi học hỏi, nghiên cứu tài liệu, hình thành hướng nghiên cứu, phát triển nghề nghiệp và đạo đức nghề nghiệp khi ra trường"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chức năng đường ô tô (Highway functions)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tiêu chuẩn và quy định thiết kế (Design controls and Criteria)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế kích thước hình học tuyến đường (Highway geometric design)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Vật liệu xây dựng đường ô tô (Highway materials)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thiết kế kết cấu áo đường mềm (Flexible pavement analysis and design)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thiết kế kết cấu áo đường cứng (Rigid pavement analysis and design)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Thiết kế thoát nước đường ôtô (Drainage highway)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Đánh giá tác động môi trường của đường giao thông (Environmental Impact Assessment of Highway Development)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

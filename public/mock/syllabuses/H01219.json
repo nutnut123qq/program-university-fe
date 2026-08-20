@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 206759,
+    "subjectCode": "H01219",
+    "syllabusName": "Dược trị liệu 1 (Clinical Pharmacotherapy 1)",
+    "syllabusEnglish": "Clinical Pharmacotherapy 1",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc Dược trị liệu 1 cung cấp cho người học các kiến thức về các nội dung sau:\n\n·\n\nSai sót trong sử dụng thuốc\n\n·\n\nTương kỵ thuốc\n\n·\n\nDược động học vancomycin trong thực hành lâm\r\nsàng\n\n·\n\nNhiễm trùng bệnh viện – kháng sinh dự phòng",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Quản lý được những sai sót thường gặp trong sử dụng thuốc"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Đánh giá và phòng ngừa các tình huống có nguy cơ xảy ra tương kỵ thuốc"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Áp dụng kiến thức về dược động học để tính toán, điều chỉnh liều vancomycin dựa trên các thông số cá nhân của người bệnh"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá tình trạng nhiễm trùng bệnh viện và sử dụng phù hợp các kháng sinh dự phòng trên lâm sàng "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Sai sót trong sử dụng thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tương kỵ thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Dược động học vancomycin trong thực hành lâm sàng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Nhiễm trùng bệnh viện – kháng sinh dự phòng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

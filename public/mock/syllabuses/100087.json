@@ -1,0 +1,98 @@
+{
+  "info": {
+    "sylid": 568195,
+    "subjectCode": "100087",
+    "syllabusName": "Phương pháp thiết kế (Design Methodology)",
+    "syllabusEnglish": "Design Methodology",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp kiến thức về quy trình thiết kế và cơ hội để người học ứng dụng quy trình này vào việc thiết kế một sản phẩm/dịch vụ mới hoặc cải tiến một sản phẩm/ dịch vụ cũ. Quy trình thiết kế gồm các bước từ ý tưởng khởi đầu đến thiết kế và sản xuất, kể cả việc tái đánh giá hoặc xem xét lại ở một số bước nếu cần thiết. Người học sẽ khám phá từng bước và phương pháp thiết kế để ứng dụng vào đề tài cá nhân. Người học được yêu cầu phải lập kế hoạch, có tư duy phản biện và làm việc có phương pháp trong khi làm dề tài.\n\nPhương pháp thiết kế dành cho các đề tài do người học tự chọn là phương pháp mới, với sản phẩm có tính năng mới nhằm đem đến kết quả là sản phẩm/dịch vụ có sử dụng vật liệu hoặc công nghệ tiên tiến. Bằng sử dụng phương pháp thiết kế, người học sẽ được hướng dẫn phát triển kế một tóm tắt thiết kế (design brief) với ý tưởng nhằm cung cấp được giải pháp mới cho sản phẩm/dịch vụ. Quá trình phản biện và kiểm tra ý tưởng sẽ được tiến hành để chọn lọc ý tưởng phù hợp.\n\nNgười học được hướng dẫn tìm hiểu, nghiên cứu các phương án thi công/ sản xuất và được yêu cầu phải thể hiện hiểu biết về mối quan hệ giữa bước ý tưởng và bước hiện thực hóa. Kết quả của thiết kế sẽ được xem xét trong bối cảnh kinh tế, thị trường, nhằm đáp ứng được các yêu cầu về chi phí, nhu cầu của người sử dụng, vấn đề môi trường và bền vững.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nhớ và hiểu quy trình thiết kế, các bước trong quy trình thiết kế và phương pháp tiến hành các bước."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng cơ bản các kiến thức về các phương pháp tiến hành nghiên cứu trước khi thiết kế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Lập kế hoạch và tiến hành nghiên cứu, phát triển kĩ năng vẽ phác thảo và thể hiện mô hình, chứng tỏ khả năng trình bày bằng ngôn ngữ chữ viết và lời nói."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phát triển ở mức cơ bản khả năng phân tích ưu, khuyết điểm của các thiết kế, dùng phương pháp não công, thường xuyên tư duy phương án làm việc cũng như ý tưởng thiết kế. Chia sẻ, phản hồi ý tưởng trong tập thể. Sử dụng tư duy định hướng. Phân tích tình huống thiết kế và đưa ra giải pháp."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Phát triển ở mức cơ bản khả năng tự đánh giá liên tục về quá trình làm việc và giải pháp thiết kế của bản thân sinh viên."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TỔNG QUÁT VỀ MÔN HỌC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "QUY TRÌNH THIẾT KẾ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "ỨNG DỤNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

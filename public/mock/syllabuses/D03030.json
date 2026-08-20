@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 717675,
+    "subjectCode": "D03030",
+    "syllabusName": "Giới thiệu ngành Kinh doanh thể thao và tổ chức sự kiện (Introduction to Sport Business and Event Management Major)",
+    "syllabusEnglish": "Introduction to Sport Business and Event Management Major",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Chương 0: Giới thiệu chung về môn học\nChương 1: Khái quát về ngành\n/chuyên ngành\nChương 2: Chương trình đào tạo chuyên ngành Kinh doanh thể thao và tổ chức sự kiện\nChương 3: Sơ đồ Chương trình đào tạo chuyên ngành Kinh doanh thể thao và tổ chức sự kiện\nChương 4: Định hướng chuyên ngành và cơ hội nghề nghiệp",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu biết về mục tiêu đào tạo của ngành học và cơ hội việc làm sau khi tốt nghiệp"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu biết về các khối kiến thức chuyên ngành và kế hoạch đào tạo"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có kiến thức tổng quan về các lĩnh vực thể thao thuộc chuyên ngành đào tạo"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Khơi dậy sự đam mê về ngành đào tạo từ đấy định hướng cho sinh viên học tập đạt hiệu quả"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái quát về ngành/chuyên ngành",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Chương trình đào tạo chuyên ngành Kinh doanh thể thao và tổ chức sự kiện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Sơ đồ Chương trình đào tạo chuyên ngành Kinh doanh thể thao và tổ chức sự kiện",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Định hướng chuyên ngành, cơ hội nghề nghiệp và đánh giá cuối kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

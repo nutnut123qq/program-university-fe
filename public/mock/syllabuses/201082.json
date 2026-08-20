@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 947308,
+    "subjectCode": "201082",
+    "syllabusName": "Chuyên đề 1 (Tiếp cận doanh nghiệp) (Core 1 (Enterprise Approach))",
+    "syllabusEnglish": "Core 1 (Enterprise Approach)",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Chuyên đề 1 đánh giá gồm 2 phần:\n\n75% điểm quá trình môn Kỹ năng làm việc nhóm.\n\nCách thức đánh giá liên quan điểm quá trình 2 của môn kỹ năng làm việc nhóm: (1) Biên bản làm việc nhóm buổi họp triển khai công việc đầu tiên. (2) Biên bản làm việc nhóm buổi họp rà soát công việc (3) Bảng tổng hợp đánh giá mức độ tham gia của các thành viên nhóm (4) Tuân thủ đúng các mốc thời gian gửi Slide thuyết trình với đầy đủ thông tin yêu cầu, nộp báo cáo chuyên đề 1 đúng hạn.\n\n100% điểm môn học chuyên đề 1. Môn học chuyên đề 1 giúp sinh viên:\n\nHiểu biết các quy trình hoạt động một số loại hình doanh nghiệp (Ưu tiên: doanh nghiệp trong khu công nghiệp, doanh nghiệp lớn, hoạt động trong lĩnh vực sản xuất).\n\nKích thích niềm đam mê, yêu quý môi trường làm việc tại doanh nghiệp để tạo động lực cho sinh viên hăng hái, thiết lập mục tiêu khi bắt đầu tham gia Chương trình đào tạo tại trường.\n\nCách thức đánh giá bằng báo báo, thuyết trình và phản biện trước hội đồng cấp Khoa.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Môn học này cung cấp cho sinh viên cái nhìn tổng quan về doanh nghiệp, môi trường làm việc, quy trình hoạt động; văn hóa ứng xử, tác phong nhân sự cần có khi làm việc tại các doanh nghiệp thực tế."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên quan sát, hiểu và mô tả được đặc điểm doanh nghiệp, các quy trình sản xuất, thấy được tác phong cần có của nhân sự khi tham gia tác nghiệp."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Biết tóm tắt quá trình tham quan và giới thiệu về doanh nghiệp, biết rút ra những bài học cho bản thân sau chuyến tham quan."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tuân thủ nghiêm chỉnh quy định của doanh nghiệp và luôn có thái độ cầu thị, ham học hỏi."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Vấn đáp,Báo cáo",
+      "part": "3",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Viva/Oral Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tham quan doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Báo cáo tham quan DN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

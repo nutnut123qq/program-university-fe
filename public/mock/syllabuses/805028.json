@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 201731,
+    "subjectCode": "805028",
+    "syllabusName": "Giám sát công trình xây dựng (Construction Supervision)",
+    "syllabusEnglish": "Construction Supervision",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "·\n\nTrang bị cho sinh viên những kiến thức về công việc\r\ngiám sát xây dựng theo các tiêu chuẩn, quy chuẩn nghề. \n\n·\n\nSinh viên biết lập kế hoạch, quy trình thực hiện trong\r\nviệc giám sát và nghiệm thu công trình xây dựng\n\n·\n\nTổ chức bộ máy giám sát thi công ngoài công trường đáp\r\nứng được công việc.\n\n·\n\nHiểu được trách nhiệm công việc của mình đến đâu và\r\nluôn tuân thủ đạo đức nghề nghiệp theo quy định",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Vận dụng kiến thức về thi công, tổ chức thi công xây dựng để tư vấn, áp dụng và yêu cầu vào giám sát xây dựng, thi công xây dựng cấc kết cấu và toàn bộ công trình xây dựng đảm bảo chất lượng, an toàn và đúng tiến độ "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Tạo cho sinh viên có những kỹ năng lập kế hoạch, tổ chức, các biện pháp, giải pháp giám sát và nghiệm thu xây dựng.\r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Sinh viên biết quan sát, phân tích, đánh giá từ đó đưa ra phương pháp, biện pháp giám sát thi công xây dựng công trình một cách hiệu quả nhất\r\n"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Nhận thức được tầm quan trọng, thể hiện trách nhiệm trong công việc, tính kỷ luật, trung thực cá nhân và tập thể trong việc giám sát xây dựng\r\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về giám sát thi công xây dựng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Giám sát thi công xây dựng công trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tổ chức bộ máy giám sát thi công xây dựng trên công trường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Trình tự giám sát thi công xây dựng một số công tác cụ thể",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

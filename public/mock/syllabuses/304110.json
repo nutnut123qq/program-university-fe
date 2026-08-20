@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 530199,
+    "subjectCode": "304110",
+    "syllabusName": "Công tác xã hội trong lĩnh vực y tế (Social Work in Medical Settings)",
+    "syllabusEnglish": "Social Work in Medical Settings",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Các kiến thức cơ bản về công tác xã hội trong lĩnh vực y tế. \n- Vai trò và chức năng của nhân viên công tác xã hội trong hệ thống y tế. \n- Các mô hình hệ thống lý thuyết ứng dụng trong thực hành công tác xã hội trong bệnh viện. \n- Ảnh hưởng của các yếu tố tâm lý, xã hội đối với cá nhân và gia đình họ. \n- Đánh giá các dịch vụ chăm sóc sức khỏe ở Việt Nam.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được lĩnh vực làm việc, lý thuyết và mô hình của nhân viên công tác xã hội trong lĩnh vực y tế"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng được các kỹ năng của một nhân viên công tác xã hội trong lĩnh vực y tế"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích được những yếu tố tâm lý, xã hội tác động đến người bệnh và thân nhân; nhân viên y tế trong hệ thống chăm sóc sức khỏe"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đánh giá được vai trò của một nhân viên công tác xã hội trong hệ thống chăm sóc sức khỏe. Có thái độ và hành vi của một nhân viên công tác xã hội chuyên nghiệp và thực hiện đúng các quy định của đạo đức nghề nghiệp"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan và lịch sử công tác xã hội trong hệ thống y tế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Mô hình lý thuyết trong Công tác xã hội y tế I",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Mô hình lý thuyết trong công tác xã hội y tế II",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Đau buồn/tiếc thương và mất mát",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kỳ thị và Bệnh tật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Các kỹ năng cần thiết trong sơ cấp cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

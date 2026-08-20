@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 978143,
+    "subjectCode": "401074",
+    "syllabusName": "Đồ án thiết kế lưới điện (Electrical Network Design Project)",
+    "syllabusEnglish": "Electrical Network Design Project",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học cung cấp cho sinh viên các kỹ năng làm việc, trao đổi kiến thức với giảng viên. Từ đó sinh viên hoàn thiện được các kỹ năng trong việc thiết kế lưới truyền tải cao thế. Bộ môn chia nhóm, phân công Giảng viên hướng dẫn, giao đề tài dựa trên hướng chuyên ngành sinh viên. Sinh viên nhận nhiệm vụ và bảo vệ kết quả thực hiện được trước hội đồng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết định nghĩa, nội dung, thuật ngữ chuyên ngành.\nĐánh giá được sự phù hợp của công thức tính toán đối với các thành phần trong mạng điện, các đặc tính của mạng lưới điện\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Đánh giá các yêu cầu của đồ án để áp dụng các phương pháp cho việc tính toán mạng phân phối, dòng điện, dòng điện sự cố, chọn cáp và các thiết bị cho mạng lưới điện, phân loại được các thiết bị điện.\nĐánh giá các yêu cầu của đồ án để thiết kế và tư vấn cho mạng truyến tải \nĐánh giá các yêu cầu của đồ án để áp dụng các phần mềm để mô phỏng, tính toán và phân tích trong điều kiện vận hành bình thường hoặc sự cố của mạng điện.\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích, nghiên cứu và đánh giá chất lượng của hệ thống."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhận tên đề tài và nhiệm vụ đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lựa chọn giải pháp và thiết kế hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Ứng dụng phần mềm mô phỏng ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Đánh giá phân tích các chỉ tiêu chất lượng của lưới điện/mạng điện vừa thiết kế",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

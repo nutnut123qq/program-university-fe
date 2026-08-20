@@ -1,0 +1,96 @@
+{
+  "info": {
+    "sylid": 612669,
+    "subjectCode": "901034",
+    "syllabusName": "Thực hành vận hành các công trình trong trạm xử lý nước cấp (Practice of Water Treatment Operation)",
+    "syllabusEnglish": "Practice of Water Treatment Operation",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Phần 1: Những nội dung & yêu cầu cơ bản của vận hành các công trình trong trạm xử lý nước cấp\n\nPhần 2: Thực hành vận hành các công trình trong trạm xử lý nước cấp\n\nCông trình keo tụ - tạo bông\n\nCông trình làm thoáng khử Fe, Mn, và độ cứng\n\nCông trình lắng\n\nCông trình lọc\n\nCông trình khử trùng\n\nTrạm bơm và các thiết bị phụ trợ\n\nCác loại đường ống của mạng lưới cấp nước",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu những quy định, tiêu chuẩn áp dụng cho chất lượng nước cấp trong công trình xử lý; hiểu những nguyên tắc hoạt động của các công trình và thiết bị chính yếu; các thuật ngữ sử dụng trong bảng mô tả vận hành; trình tự vận hành trong điều kiện bình thường và khẩn cấp."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng được kiến thức môn học để thực hiện các thao tác khởi động, vận hành, và xử lý tình huống một cách phù hợp trong các trường hợp khẩn cấp khi công trình/ thiết bị trong trạm xử lý nước cấp gặp các sự cố."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá được hiệu quả vận hành của các công trình trong trạm xử lý nước cấp; Lập kế hoạch vận hành bảo dưỡng cho 1 trạm xử lý nước cấp điển hình; Đề xuất được các giải pháp nhằm duy trì chế độ vận hành ổn định hoặc cải tiến nhằm đạt hiệu quả tốt hơn."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Hiểu rõ các ký hiệu/ thuật ngữ mô tả các bước vận hành trong các bảng điều khiển tự động tại công trình xử lý nước cấp."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Đề xuất các quy trình vận hành, giám sát công trình xử lý nước cấp với tổ/ nhóm vận hành; Tổng hợp viết báo cáo định kỳ về quá trình vận hành của trạm xử lý nước cấp."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Đề xuất các kế hoạch nâng cao kỹ năng chuyên môn cho đội ngũ cán bộ vận hành, nâng cao ý thức về an toàn chất lượng nước cấp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những nội dung & yêu cầu cơ bản của vận hành các công trình trong trạm xử lý nước cấp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực hành vận hành các công trình trong trạm xử lý nước cấp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

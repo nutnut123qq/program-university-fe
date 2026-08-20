@@ -1,0 +1,146 @@
+{
+  "info": {
+    "sylid": 786327,
+    "subjectCode": "402089",
+    "syllabusName": "Quang điện tử (Optoelectronics)",
+    "syllabusEnglish": "Optoelectronics",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Giới thiệu về cấu trúc bán dẫn linh kiện quang, nguyên tắc hoạt động và ứng dụng của các linh kiện quang như LED, Laser, mạch tích hợp quang,… cung cấp một nền tảng toàn diện của kỹ thuật thông tin quang để sinh viên ứng dụng các kỹ thuật này trong lĩnh vực viễn thông. Cụ thể gồm các nội dung sau:\n\nÁnh sáng, các yếu tố vật lý của chất rắn.\n\nLed, laser Diode trong các lĩnh vực thông tin quang.\n\nBộ tách sóng quang, ống dẫn sóng quang.\n\nHệ thống thông tin quang, cảm biến sợi quang.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nắm vững cấu trúc cơ bản của các nguồn phát quang và nguyên lý phát/thu quang của các linh kiện quang điện tử cũng như vai trò của các linh kiện trong hệ thống thông tin quang, từ đó thiết kế các nguồn quang bán dẫn (LED, laser) cho các ứng dụng khác nhau."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng được các công cụ mô phỏng để tối ưu hoạt động của các hệ thống thông tin quang cơ bản, hiểu được các thành phần của một hệ thống tương tác với nhau và ảnh hưởng đến việc thiết kế và phát triển hệ thống như thế nào, từ đó có thể đề xuất các phương án cải tiến, nâng cấp các hệ thống truyền thông tin quang. Đồng thời, nghiên cứu và phát triển các giải pháp mới cho các vấn đề liên quan đến các hệ thống thông tin quang.\t"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học có khả năng vận dụng kĩ năng viết báo cáo, kĩ năng lập kế hoạch và quản lý thời gian hiệu quả trong một đề tài mô phỏng hoạt động của các linh kiện quang điện tử."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Ánh sáng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các yếu tố của vật lý chất rắn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các linh kiện quang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Laser",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Bộ hấp thụ quang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Ống dẫn sóng sợi quang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Hệ thống thông tin quang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Ứng dụng của sợi quang và một số linh kiện quang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

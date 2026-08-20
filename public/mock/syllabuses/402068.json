@@ -1,0 +1,124 @@
+{
+  "info": {
+    "sylid": 833012,
+    "subjectCode": "402068",
+    "syllabusName": "Thiết kế hệ thống số 2 (Digital System Design 2)",
+    "syllabusEnglish": "Digital System Design 2",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học thiết kế hệ thống số 2 bao gồm:\n\nMô tả quá trình, quan điểm và công cụ sử dụng thiết kế hệ thống số như mô hình hành vi, dòng dữ liệu hay mức cấu trúc.\n\nSử dụng ngôn ngữ phần cứng VHDL để mô tả hành vi, cấu trúc của mạch thông qua các phát biểu đồng thời hay tuần tự, mô phỏng các đáp ứng của mạch số.\n\nThiết kế và thực thi các khối hệ thống số như mạch đệm ba trạng thái, ghép kênh/phân kênh, chốt, flip flop, thanh ghi, các mạch số học và các máy trạng thái FSM.\n\nSử dụng phương pháp thiết kế top-down, thiết kế RTL, đồng bộ hệ thống cũng như viết testbench và tổng hợp từ VHDL. Phân tích các tham số trễ, thời gian… ảnh hưởng trong hệ thống số.\n\nGiới thiệu các linh kiện logic lập trình như CPLD, FPGA.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Mô tả được hệ thống số .\nHiểu được cấu trúc thiết kế các hệ thống số cũng như các thiết kế logic.\nHiểu được các khái niệm của hệ thống hành vi.\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích, đánh giá được và cải tiến các hệ thống số."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Ngôn ngữ mô tả phần cứng – VHDL",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết kế linh kiện logic lập trình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế mạng tính toán số học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thiết kế máy trạng thái (FSM)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "VHDL nâng cao",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": " Kiểm thử và thiết kế cho kiểm thử",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

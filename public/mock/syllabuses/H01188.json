@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 885246,
+    "subjectCode": "H01188",
+    "syllabusName": "Mỹ phẩm ứng dụng (Cosmetics Application)",
+    "syllabusEnglish": "Cosmetics Application",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Mỹ phẩm ứng dụng gồm các nội dung sau\n\nCác khái niệm cơ bản về khoa học làn da\nCác loại da\nCác vấn đề da và phương pháp điều trị\nMỹ phẩm chăm sóc da",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học am hiểu thấu đáo về các hệ thống phân loại da, các vấn đề của làn da, mỹ phẩm chăm sóc da trong đời sống."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học phân tích được thành phần, công năng, đánh giá được khả năng điều trị bệnh lý da của các các mỹ phẩm, dược mỹ phẩm trong thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học có thể xây dựng được liệu trình chăm sóc da, phương pháp giải quyết các vấn đề thẩm mỹ da thông thường trong đời sống"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khoa học làn da",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hệ thống phân loại da",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Các vấn đề da và phương pháp điều trị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Mỹ phẩm chăm sóc da",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

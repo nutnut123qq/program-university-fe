@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 154307,
+    "subjectCode": "D01103",
+    "syllabusName": "GDTC 1 - Bóng chuyền (Physical Education 1 - Volleyball)",
+    "syllabusEnglish": "Physical Education 1 - Volleyball",
+    "credits": "0",
+    "degreeLevel": "Bachelor",
+    "description": "-     \n- Lý thuyết:\n\n Lịch sử hình thành và phát triển môn bóng chuyền trên thế giới.\n Lịch sử hình thành và phát triển môn bóng chuyền Việt nam.\n Đặc điểm môn bóng chuyền,\n Tư thế chuẩn bị và di chuyển.\n\n Kỹ thuật chuyền bóng thấp tay.\n Kỹ thuật chuyền bóng cao tay.\n Kỹ thuật phát bóng.\n Luật thi đấu môn bóng chuyền.\n Lợi ích tập luyện môn bóng chuyền.\n Vệ sinh tập luyện môn bóng chuyền.\n Chấn thương - phóng tránh chấn thương\n - Thực hành:\n\n+Kỹ thuật cơ bản  của môn Bóng chuyền : kỹ thuật chuyền  bóng, kỹ thuật đệm bóng, kỹ thuật phát bóng.\n\n+ Các bài tập trong môn Bóng chuyền, các bài tập phát triển thể lực.\n\n+ Hướng dẫn sinh viên biết được cách thức thi đấu.\n+ Các bài tập bổ trợ, trò chơi vận động.\n\n+\nÔn tập và thi kết thúc học kỳ.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Môn học nhằm trang bị cho sinh viên kiến thức khái quát về bóng chuyền, lịch sử hình thành và phát triển, nguyên lí kỹ thuật, luật thi đấu, phòng tránh chấn thương trong tập luyện và thi đấu."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có khả năng tham gia tập luyện và thi đấu môn bóng chuyền như 1 hình thức rèn luyện sức khỏe, nâng cao hoạt động thể chất."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên cần nhạy bén, nắm bắt được phương hướng."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện tính tập trung chú ý trong học tập và tập luyện, nghiêm túc thực hiện các quy định và sự hướng dẫn của giảng viên."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "80%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Học phần 1: Học online: 15 tiết (sinh viên tự học trên nền tảng công nghệ số)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": " thực hành",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

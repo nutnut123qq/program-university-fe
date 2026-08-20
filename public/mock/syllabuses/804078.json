@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 529010,
+    "subjectCode": "804078",
+    "syllabusName": "Khoa học môi trường kiến trúc (Environmental Science of Architecture)",
+    "syllabusEnglish": "Environmental Science of Architecture",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần có nội dung chính: Khí hậu kiến trúc và tiện nghi vi khí hậu trong công trình kiến trúc, Truyền nhiệt và cách nhiệt cho kết cấu bao che, Các giải pháp che nắng và thông gió tự nhiên cho công trình, Chiếu sáng tự nhiên, tính năng của nguồn sáng, Cơ sở của nghệ thuật chiếu sáng và các giải pháp chiếu sáng tự nhiên trong công trình kiến trúc.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học những kiến thức cơ bản về vật lý kiến trúc thông qua cácyếu tố môi trường trong điều kiện Việt Nam (bức xạ mặt trời – nhiệt, mưa, ẩm, gió, ánh sáng, nhiệt độ, tiếng ồn ..) tác động trực tiếp tới con người ở bên trong và bên ngoài công trình kiến trúc"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vận dụng kiến thức và cơ sở lý luận trên quan điểm vật lý để giải quyết tốt mối quan hệ giữa chế độ tiện nghi của con người với chế độ khí hậu và môi trường xung quanh. Đồng thời, môn học cung cấp các nguyên tắc cơ bản và một số giải pháp (về kiến trúc, xây dựng, vật liệu) để tạo nên môi trường bên trong nhà có được tiện nghi (tiện nghi vi khí hậu, tiện nghi nhìn và tiện nghi âm thanh) theo hướng tiết kiệm và hiệu quả năng lượng."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Biết tự đánh giá, phân tích, tổng hợp, vận dụng những kiến thức đã học trong công việc thiết kế chuyên nghiệp."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện ý thức tôn trọng các giá trị đạo đức nghề nghiệp. Thái độ chủ động trong việc học tập, xem khoa học môi trường kiến trúc là một tiến trình luôn phát triển, nên cần liên tục nghiên cứu, cập nhật."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khí hậu ngoài nhà và tiện nghi vi khí hậu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Truyền nhiệt và cách nhiệt cho kết cấu bao che",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Che nắng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thông gió tự nhiên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Chiếu sáng tự nhiên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

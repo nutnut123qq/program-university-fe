@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 897892,
+    "subjectCode": "C00007",
+    "syllabusName": "Tập sự nghề nghiệp (Graduation Internship)",
+    "syllabusEnglish": "Graduation Internship",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Xây dựng mô hình Toán học cho vấn đề thực tế.\n\nĐánh giá hiệu quả của mô hình và đề xuất cải tiến mô hình.\n\nThực tập tại cơ sở.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp kiến thức cho sinh viên để sinh viên biết cách xây dựng mô hình Toán học cho các vấn đề trong kinh tế, tài chính, khoa học kỹ thuật, khoa học xã hội. Cung cấp cho sinh viên những kiến thức để đánh giá một mô hình cụ thể: Kiểm tra sự phù hợp của mô hình, đánh giá hiệu quả của mô hình."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Biết vận dụng các kiến thức về Toán đã học một cách khoa học và sáng tạo vào việc phân tích, đánh giá và đề xuất các giải pháp để giải quyết tình hình thực tiễn. Nâng cao các kỹ năng làm việc theo nhóm, kết nối kiến thức các môn học. Cập nhật kiến thức chuyên môn và tích lũy kinh nghiệm thực tế."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Xây dựng các mô hình toán phù hợp cho nghiên cứu thực tế, đề xuất giải quyết các vấn đề trong thực tế một cách có hiệu quả. Nhận thức đúng đắn về con đường phát triển nghề nghiệp bản thân."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có nhận thức đúng đắn về môi trường làm việc. Xây dựng tốt tác phong làm việc, phát triển kỹ năng giao tiếp. Tuân thủ giá trị đạo đức nghề nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kiến thức chuyên sâu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Xây dựng mô hình",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

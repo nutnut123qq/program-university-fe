@@ -1,0 +1,114 @@
+{
+  "info": {
+    "sylid": 349903,
+    "subjectCode": "607035",
+    "syllabusName": "Kỹ thuật môi trường (Environment Techniques)",
+    "syllabusEnglish": "Environment Techniques",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Trang bị cho sinh viên ngành Công nghệ hóa học kiến thức về sự khác nhau của các vấn đề ô nhiễm môi trường và cách thức xử lý đối với từng trường hợp cụ thể. Ô nhiễm môi trường là một vấn đề tiên quyết cần được lưu tâm một cách nghiêm túc. Việc trang bị cho sinh viên những kiến thức cần thiết để nhận biết và xử lý các vấn đề môi trường là rất quan trọng. Bên cạnh đó, do đặc thù phát triển của nước nhà, việc cập nhật những thông tin và vấn đề hiện hành liên quan đến môi trường đòi hỏi phải hợp lý và cập nhật thường xuyên.\n\nTừ đó sinh viên cần nắm được những nguyên lý chung về kỹ thuật môi trường trong sản xuất công nghiệp và trong đời sống thường nhật. Sinh viên có kiến thức để nhìn nhận và phân biệt được hình thức ô nhiễm và mức độ ô nhiễm đối với các trường hợp riêng biệt, từ đó đề các phương pháp xử lý phù hợp.\n\nKỹ thuật môi trường cung cấp cho sinh viên những kiến thức tổng quan về ô nhiễm môi trường và kỹ thuật xử lý ô nhiễm môi trường. Nội dung môn học gồm các phần: Các khái niệm cơ bản về Tài nguyên và Môi trưòng, Hệ sinh thái, các phương pháp xử lý ô nhiễm môi trường không khí, môi trường nước và chất thải rắn",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Trang bị cho sinh viên ngành công nghệ hóa học các kiến thức về: những vấn đề ô nhiễm môi trường và cách xử lý, khắc phục hiệu quả các vấn đề đó. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nhận biết được dụng cụ, hóa chất, trang thiết bị thí nghiệm. Nắm được phương pháp sử dụng các thiết bị chuyên ngành một cách hiệu quả và an tòan. Biết xử lý tình huống khi sự cố xảy ra."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "SV cần hình thành tư duy trong việc ứng dụng những kiến thức cơ bản để tự phát triển thành những phản xạ có điều kiện trong việc phán đoán, giải quyết các vấn đề ô nhiễm môi trường xảy ra trong thực tế cuộc sống cũng như trong công nghiệp sản xuất."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chương 1. Khái niệm về ô nhiễm môi trường và xử lý ô nhiễm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Chương 2. Ô nhiễm môi trường nước: nguyên nhân và biện pháp xử lý.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chương 3. Ô nhiễm môi trường không khí: nguyên nhân và biện pháp xử lý",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Chương 4. Phương pháp xử lý chất thải rắn và gợi ý một số quy trình kiểm tra hiệu quả xử lý môi trường.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

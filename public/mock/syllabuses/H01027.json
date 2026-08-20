@@ -1,0 +1,86 @@
+{
+  "info": {
+    "sylid": 562146,
+    "subjectCode": "H01027",
+    "syllabusName": "Thí nghiệm Công nghệ sinh học Dược (Pharmaceutical Biotechnology Laboratory)",
+    "syllabusEnglish": "Pharmaceutical Biotechnology Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Chọn lọc vi sinh vật có đặc tính mong muốn.\n\nTinh chế enzyme.\n\nXác định hoạt tính enzyme.\n\nPhương pháp tạo dòng và biểu hiện protein tái tổ hợp.\n\nPhương pháp tinh chế protein tái tổ hợp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp kiến thức cơ bản về phương pháp chọn lọc giống vi sinh vật có đặc tính mong muốn, công nghệ protein tái tổ hợp, phương pháp tinh chế protein, phương pháp cố định enzym."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hướng dẫn thao tác thực hành chọn lọc vi sinh vật, cố định enzyme, xác định hoạt tính enzyme, lên men thu sinh khối, tinh chế protein."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Kiểm tra năng lực",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Performance Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chọn lọc giống vi sinh vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Tinh chế enzyme amylase bằng alginate",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tạo dòng biểu hiện gen trong E. coli",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Tinh chế protein bằng sắc ký ái lực",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thi cuối kì",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

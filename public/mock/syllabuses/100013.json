@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 792945,
+    "subjectCode": "100013",
+    "syllabusName": "Luật xa gần (Perspective Drawing)",
+    "syllabusEnglish": "Perspective Drawing",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên được tiếp cận các phương pháp sử dụng họa cụ, vẽ nét, thể hiện chất liệu. Bên cạnh đó còn cung cấp kiến thức về phối cảnh 01 điểm tụ, 02 điểm tụ, vẽ và trình bày bản vẽ phối cảnh các sản phẩm đồ họa.\n﻿",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nhớ, và dễ dàng vẽ bằng tay bất kỳ một vật thể hay một sản phẩm đồ hoạ dưới dạng phối cảnh (3D)."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hiểu được qui cách của vẽ phối cảnh, biết cách vẽ (bằng tay) và biểu diễn vật thể hoặc sản phẩm dưới dạng phối cảnh 3 chiều nhằm phục vụ cho chuyên ngành. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Ứng dụng tự lên phương án thiết kế và minh họa một công trình hay một sản phẩm đồ hoạ bằng các bản vẽ phối cảnh."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Ứng dụng luyện tập các kỹ năng làm việc một cách nghiêm túc và sáng tạo."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "VẼ PHỐI CẢNH CƠ BẢN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "PHỐI CẢNH 01 ĐIỂM TỤ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "PHỐI CẢNH 02 ĐIỂM TỤ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

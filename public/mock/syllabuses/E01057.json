@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 259425,
+    "subjectCode": "E01057",
+    "syllabusName": "Kỹ năng đàm phán và soạn thảo hợp đồng (Negotiation and Drafting Contract Skills)",
+    "syllabusEnglish": "Negotiation and Drafting Contract Skills",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Các “contract concepts” (tạm dịch “các công cụ soạn thảo hợp đồng) và cách thức vận dụng các công cụ này để xây dựng nên các điều khoản hợp đồng \nCấu trúc cơ bản hợp đồng và vai trò của từng nhóm điều trong hợp đồng (chế tài, điều khoản kết thúc hợp đồng)\nThực hành soạn thảo và sửa đổi hợp đồng",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "- Kiến thức: Trang bị cho sinh viên những kiến thức cơ bản về các loại hợp đồng thông dụng, giúp sinh viên có thể soạn thảo đa dạng các loại hợp đồng ngoài thực tiễn."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "- Kỹ năng tác nghiệp: Sinh viên sẽ nắm được các kỹ năng soạn thảo hợp đồng, giải quyết các tranh chấp phát sinh trong hợp đồng.  Từ đó vận dụng các quy định của pháp luật vào đời sống, quá trình học tập và lao động."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "- Yêu cầu về tư duy: Môn học cung cấp cho sinh viên khả năng phân tích, đánh giá thực tiễn, đồng thời hình thành tư duy độc lập về các nội dung kiến thức cũng như thực tiễn liên quan đến môn học."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "- Thái độ và hành vi: Sinh viên phải có ý thức về việc tuân thủ pháp luật hợp đồng."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Tự luận",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Nghiên cứu tình huống",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Case Study",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu 07 “contract concepts” (tạm dịch “các công cụ soạn thảo hợp đồng”). Giới thiệu môn kỹ năng soạn thảo hợp đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cấu trúc hợp đồng và vai trò của từng nhóm điều trong hợp đồng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": " Các chế tài trong hợp đồng và Các điều khoản kết thúc hợp đồng (endgame provisions)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,88 @@
+{
+  "info": {
+    "sylid": 654371,
+    "subjectCode": "H01065",
+    "syllabusName": "Kỹ năng giao tiếp Dược (Pharmaceutical Communication Skills)",
+    "syllabusEnglish": "Pharmaceutical Communication Skills",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Kỹ năng giao tiếp dược gồm 4 bài:\n\nBài 1: Kỹ năng giao tiếp trong thực hành dược: thành phần và các nguyên tắc cơ bản\n\nBài 2: Kỹ năng lắng nghe, phản hồi và hỏi bệnh\n\nBài 3: Kỹ năng tư vấn sử dụng thuốc\n\nBài 4: Cách giao tiếp với từng nhóm đối tượng",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho người học những nguyên tắc và kỹ năng căn bản trong thực hành giao tiếp dược."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Rèn luyện kỹ năng giao tiếp cho người học qua một số tình huống thực hành dược giả định."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình,Thuyết trình",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise,Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Thành phần và các nguyên tắc cơ bản của hoạt động giao tiếp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kỹ năng lắng nghe, phản hồi và hỏi bệnh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kỹ năng tư vấn sử dụng thuốc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Cách giao tiếp với từng nhóm đối tượng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

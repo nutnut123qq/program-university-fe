@@ -1,0 +1,130 @@
+{
+  "info": {
+    "sylid": 905239,
+    "subjectCode": "903060",
+    "syllabusName": "Quản lý cháy nổ (Fire Management)",
+    "syllabusEnglish": "Fire Management",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Những vấn đề cơ bản về cháy nổ;\n\nPhòng cháy trong công nghiệp; \n\nChữa cháy và phương tiện chữa cháy.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu kiến thức cơ bản về lĩnh vực phòng chống cháy nổ trong công nghiệp; các nội dung cơ bản, nguyên lý về cháy nổ; phòng cháy trong công nghiệp; chữa cháy và phương tiện chữa cháy … làm tiền đề cho các môn học, đồ án chuyên ngành sau này."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích được các nguyên nhân, dự báo các nguy cơ có thể xảy ra cháy nổ; từ đó đề xuất được các phương án phòng cháy và chữa cháy trong môi trường sản xuất thực tế như: nhà máy cơ khí, công trường xây dựng, nhà máy hóa chất, …"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích được những yếu tố có liên quan đến cháy nổ, nắm bắt được các nguyên lý cơ bản về cháy nổ, xác định được các nguy cơ có thể xảy ra cháy nổ tại vị trí công tác hoặc tổng thể nhà máy, vận dụng đúng nguyên lý phòng chống cháy nổ để có thể lựa chọn phương án và phương tiện chữa cháy hiệu quả.  "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Xây dựng các chương trình, kế hoạch để nâng cao nhận thức người lao động trong công tác phòng chống cháy nổ tại nơi làm việc."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Vận dụng được kỹ năng viết và trình bày báo cáo khoa học để thuyết trình nội dung chương trình/dự án một cách hiệu quả."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Vận dụng được kỹ năng làm việc nhóm và làm việc độc lập trong quá trình học một cách hiệu quả"
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Hình thành đạo đức nghề nghiệp; tuân thủ các nguyên tắc, nội quy an toàn nghề nghiệp; có phẩm chất đạo đức tốt, hiểu biết và tuân thủ pháp luật; tôn trọng và có ý thức bảo vệ người lao động."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Chương 1. Những vấn đề cơ bản về cháy nổ ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Chương 2. Phòng cháy trong công nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Chương 3. Chữa cháy và phương tiện chữa cháy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

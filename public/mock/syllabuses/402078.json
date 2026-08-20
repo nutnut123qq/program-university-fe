@@ -1,0 +1,98 @@
+{
+  "info": {
+    "sylid": 88224,
+    "subjectCode": "402078",
+    "syllabusName": "Kỹ thuật siêu cao tần (Microwave System Engineering)",
+    "syllabusEnglish": "Microwave System Engineering",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này giới thiệu các công cụ, và các thông số quan trọng trong việc tìm hiểu và thiết kế đường dây truyền sóng ở tần số cao, sinh viên áp dụng những kiến thức và kỹ thuật này vào các ứng dụng viễn thông. Cụ thể gồm các nội dung sau:\n\n     - Xây dựng mô hình dựa trên phân tích sóng ở tần số siêu cao và áp dụng chúng vào các nguyên lý cơ bản trong thiết kế hệ thống và mạch siêu cao tần.\n\n     - Các thiết kế khác nhau trong mô hình tín hiệu nhỏ, kỹ thuật khuếch đại tín hiệu nhỏ, và đo kiểm mạch dao động.\n\n     - Hiểu về các thông số quan trọng ảnh hưởng đến thiết kế hệ thống tần số siêu cao.\n\n     - Các ví dụ về hệ thông tin số và vệ tinh.\n\n     - Các bài tập giúp sinh viên hiểu về nguyên lý hoạt động của hệ thống và các thành phần trong mạch siêu cao tần.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Xây dựng và giải được bài toán liên quan giữa các thông số ảnh hưởng lên tín hiệu truyền ở tần số cao. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "So sánh và lựa chọn các phương pháp tính phù hợp, từ đó phân tích các thông số quan trọng ảnh hưởng lên đường dây truyền sóng ở vùng tần số cao.\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Lý thuyết trường điện từ.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đường dây truyền sóng.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phân tích mạng siêu cao tần.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Cộng hưởng siêu cao tần.",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

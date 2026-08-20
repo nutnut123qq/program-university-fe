@@ -1,0 +1,66 @@
+{
+  "info": {
+    "sylid": 303805,
+    "subjectCode": "D03146",
+    "syllabusName": "Bóng chuyền (Volleyball)",
+    "syllabusEnglish": "Volleyball",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Thực hành:\n+Kỹ thuật cơ bản của môn Bóng chuyền : kỹ thuật chuyền bóng, kỹ thuật đệm bóng, kỹ thuật phát bóng.\n+ Các bài tập trong môn Bóng chuyền, các bài tập phát triển thể lực.\n+ Hướng dẫn sinh viên biết được cách thức thi đấu.\n+ Các bài tập bổ trợ, trò chơi vận động.\n+Ôn tập và thi kết thúc học kỳ.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được lợi ích, biết cách tập luyện môn bóng chuyền để tăng cường phát triển thể chất cho bản thân."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Học phần 1: Học online: 15 tiết (sinh viên tự học trên nền tảng công nghệ số)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": " thực hành 60 tiết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

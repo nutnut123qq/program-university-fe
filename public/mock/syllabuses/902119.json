@@ -1,0 +1,114 @@
+{
+  "info": {
+    "sylid": 178046,
+    "subjectCode": "902119",
+    "syllabusName": "Bảo tồn đa dạng sinh học (Biodiversity Conservation)",
+    "syllabusEnglish": "Biodiversity Conservation",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Kiến thức cơ bản về cơ sở sinh học bảo tồn, các vấn đề có liên quan đến suy giảm tài nguyên thiên nhiên và các phương pháp phục hồi tài nguyên, bảo tồn đa dạng sinh học.\n- Phân tích, đánh giá được các nguyên nhân gây suy giảm và cạn kiệt tài nguyên sinh học, tính hiệu quả và bất cập của các mô hình bảo tồn đa dạng sinh học hiện nay.\n- Thực hành sử dụng các kỹ thuật, công cụ trong công tác bảo tồn tài nguyên thiên nhiên, lập kế hoạch bảo tồn tài nguyên thiên nhiên trong từng trường hợp cụ thể tại địa phương.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu rõ các kiến thức cơ bản về tự nhiên và xã hội, các kiến thức về sinh thái, tài nguyên và môi trường có liên quan đến môn học."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích, đánh giá và đề xuất kế hoạch bảo tồn tài nguyên môi trường trong từng trường hợp cụ thể."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Áp dụng kỹ năng mềm để chuyển tải thông tin và giải quyết các vấn đề chuyên ngành sinh học bảo tồn, đồng thời thể hiện thái độ làm việc có trách nhiệm với cộng đồng và xã hội."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về bảo tồn đa dạng sinh học. ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Đa dạng sinh học và nguyên nhân gây ra mất đa dạng sinh học ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phương pháp bảo tồn đa dạng sinh học đang được áp dụng hiện nay ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Lập kế hoạch phục hồi bảo tồn đa dạng sinh học sử dụng tiến bộ khoa học ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

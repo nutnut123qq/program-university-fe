@@ -1,0 +1,152 @@
+{
+  "info": {
+    "sylid": 864580,
+    "subjectCode": "709001",
+    "syllabusName": "Kinh tế lượng (Econometrics)",
+    "syllabusEnglish": "Econometrics",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học này cung cấp một nền tảng vững chắc, theo định hướng ứng dụng trong lĩnh vực kinh tế lượng hiện đại. Mục tiêu là trang bị cho sinh viên những kỹ năng định lượng cần thiết để đưa ra các quyết định dựa trên dữ liệu.\nBan đầu, sinh viên sẽ nắm vững các nguyên tắc của \nphân tích mô tả (descriptive analytics)\n, học cách thu thập, xử lý và trực quan hóa dữ liệu kinh tế và kinh doanh một cách hiệu quả để hiểu các xu hướng lịch sử.\nTrọng tâm của chương trình học là xây dựng và ước lượng các \nmô hình hồi quy tuyến tính (linear regression models)\n để phân tích các mối quan hệ nhân quả và xác định các yếu tố then chốt thúc đẩy hiệu suất kinh doanh. Sinh viên sẽ thành thạo trong việc kiểm định giả thuyết thống kê, đánh giá mô hình và rút ra những suy luận có cơ sở khoa học từ dữ liệu thực nghiệm.\nHơn nữa, môn học mở rộng ra ngoài phân tích truyền thống để bao gồm cả \nphân tích dự đoán (predictive)\n và \nphân tích đề xuất (prescriptive analytics)\n. Sinh viên sẽ học cách sử dụng các mô hình này để dự báo các xu hướng tương lai và áp dụng các kỹ thuật \ntối ưu hóa (optimization)\n và \nmô phỏng (simulation)\n để đề xuất các chiến lược kinh doanh tối ưu. Kỹ năng thực hành là một thành phần cốt lõi của môn học, với sự nhấn mạnh vào việc sử dụng các phần mềm tiêu chuẩn trong ngành như \nStata\n và \nSPSS\n để chuyển đổi dữ liệu thô thành những hiểu biết có giá trị và khả thi. Sau khi hoàn thành, sinh viên sẽ sẵn sàng đóng góp vào các lĩnh vực chuyên sâu về dữ liệu và giải quyết các bài toán kinh doanh phức tạp bằng cách sử dụng một khuôn khổ kinh tế lượng vững chắc.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Phân tích Mô tả (Descriptive Analytics):\r\n\r\nPhần này hướng dẫn sinh viên cách sử dụng các công cụ thống kê mô tả—như số trung bình, độ lệch chuẩn và phân phối tần suất—để tóm tắt và trình bày dữ liệu kinh doanh. Mục tiêu là giúp người học đạt được sự hiểu biết rõ ràng về tình hình hoạt động hiện tại của một công ty."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích Dự đoán (Predictive Analytics):\r\n\r\nPhần này giới thiệu các mô hình kinh tế lượng và thống kê được sử dụng để dự báo các xu hướng trong tương lai. Cuốn sách đi sâu vào các kỹ thuật như hồi quy tuyến tính và hồi quy đa biến để dự đoán doanh số, giá cả và các chỉ số kinh doanh then chốt khác."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Phân tích Đề xuất (Prescriptive Analytics):\r\n\r\nChủ đề này tập trung vào việc sử dụng dữ liệu để đưa ra các quyết định tối ưu. Nội dung này trình bày các mô hình tối ưu hóa và mô phỏng để giúp các doanh nghiệp lựa chọn phương án hành động tốt nhất, chẳng hạn như tối ưu hóa chuỗi cung ứng hoặc lập kế hoạch sản xuất"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Quá trình",
+      "type": "Trắc nghiệm",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu về Phân tích trong Kinh doanh",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Mô tả Phân phối của một Biến",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tìm kiếm Mối quan hệ giữa các Biến",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Xác suất và các Phân phối Xác suất",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Ra quyết định trong điều kiện không chắc chắn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Lấy mẫu và các Phân phối Lấy mẫu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Ước lượng Khoảng tin cậy",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Kiểm định Giả thuyết",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Phân tích Hồi quy: Ước lượng các Mối quan hệ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Phân tích và Dự báo Chuỗi thời gian",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

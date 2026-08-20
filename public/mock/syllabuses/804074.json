@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 132132,
+    "subjectCode": "804074",
+    "syllabusName": "Cấu tạo kiến trúc 2 (Architectural Structure 2)",
+    "syllabusEnglish": "Architectural Structure 2",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học bao gồm các nội dung chính sau:\n\nCấu tạo nhà công nghiệp\n\nCấu tạo kiến trúc không gian\n\nCấu tạo nhà cao tầng",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Củng cố những nguyên tắc cơ bản được giới thiệu học phần Cấu tạo kiến trúc 1  bằng việc tập tiếp tục trang bị cho sinh viên những kiến thức Cấu tạo kiến trúc nâng cao, các loại hình Cấu tạo kiến trúc không gian trong các công trình mới của Việt Nam và thế giới, hiểu rõ tính năng các loại vật liệu cơ bản và quá trình lắp dựng công trình, và xu hướng tích hợp kỹ thuật công nghệ vào công trình. Từ cơ sở đó, sinh viên có khả năng nhận biết và ứng dụng các cấu trúc đặc biệt vào từng hình dạng không gian công trình cụ thể."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nhận biết, biết đọc bản vẽ và biết cách ứng dụng các cấu trúc đặc biệt vào từng hình dạng không gian cụ thể "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng và có khả năng tư duy về không gian 3 chiều, các chi tiết cấu tạo làm việc theo không gian 3 chiều,  cũng như cách sử dụng vật liệu trong môi trường kiến trúc, ứng dụng các tiêu chuẩn xây dựng hiện này vào bài tập cụ thể."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện cho sinh viên tính chuyên cần, tính chính xác, tỉ mĩ, khoa học. Thông qua kiến thức đã được học, sinh viên có đầy đủ năng lực đọc, vẽ và triển khai các bộ phận Cấu tạo kiến trúc nâng cao và các vấn đề liên quan đến vật liệu được ứng dụng trong các công trình kiến trúc, phục vụ kiến thức nền cho các môn học tiếp theo cũng như đáp ứng nhu cầu công việc trong thực tế sau khi ra trường."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Cấu tạo nhà công nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cấu tạo kiến trúc không gian",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Cấu tạo nhà cao tầng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

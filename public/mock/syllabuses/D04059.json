@@ -1,0 +1,76 @@
+{
+  "info": {
+    "sylid": 862988,
+    "subjectCode": "D04059",
+    "syllabusName": "Thực tập nghề nghiệp 3 (Internship Course 3)",
+    "syllabusEnglish": "Internship Course 3",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "4.1. Lý thuyết: \nCung cấp cho sinh viên những kiến thức ở mảng: quản lí công trình sân golf, cơ sở vật chất và bảo trì sân golf,  tiếp thị và hành vi khách hàng,...\n4.2. Thực hành: \nThực hiện các công việc như một nhân viên tại cơ sở kinh doanh golf: tham gia công tác cung cấp dịch vụ đồng thời tìm hiểu hành vi khách hàng, chiến lược của doanh nghiệp, công tác vận hành và bảo dưỡng cơ sở vật chất sân golf trước - trong - sau giờ hoạt động,...",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Giúp sinh viên ứng dụng được những kiến thức lý thuyết đã học vào thực tế; giải quyết vấn đề cụ thể trong môi trường doanh nghiệp mới "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng: Rèn luyện cho sinh viên khả năng tư duy, ứng dụng kiến thức đã học và cập nhật những kiến thức, kỹ năng mới  công việc."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thái độ: Sinh viên có cơ hội rèn luyện tác phong làm việc, va chạm thực tế để hiểu được văn hoá doanh nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Giới thiệu tổng quan Doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nội dung thực hiện công việc tại Doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Đánh giá - Đề xuất và Kiến nghị",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

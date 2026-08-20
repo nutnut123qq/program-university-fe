@@ -1,0 +1,82 @@
+{
+  "info": {
+    "sylid": 188559,
+    "subjectCode": "804217",
+    "syllabusName": "Thực tập kiến trúc sư 2 (Graduation Internship 2)",
+    "syllabusEnglish": "Graduation Internship 2",
+    "credits": "4",
+    "degreeLevel": "Bachelor",
+    "description": "Sinh viên tham gia thực tập tại một\r\nđơn vị tư vấn kiến trúc của nhà nước hoặc tư nhân, thực hành công việc tại\r\nxưởng thiết kế và tại giám sát thiết kế tại công trường thi công.  Nghiên cứu và thực hành nghề nghiệp dưới sự\r\nhướng dẫn của đơn vị thực tập trong thời gian tương đương 120 tiết thực hành,\r\nhay 8 tuần, sau đó\n\nviết báo cáo thực tập.\n\nHọc phần này yêu cầu sinh viên nắm được:\n\n1) Quy mô, cơ cấu tổ chức của đơn vị\r\nthiết kế và thi công cũng như hoạt\n\nđộng của một Kiến trúc sư giám sát thiết kế trong các tổ chức đó;\n\n2) Nội dung và phương pháp lập hồ sơ\r\nthiết kế kỹ thuật, lập quy trình và biện pháp thi công, tiến độ thực hiện và tổ\r\nchức an toàn lao động của một công trình kiến trúc dân dụng hoặc công nghiệp;\n\n3) Sản phẩm thiết kế cụ thể trong thời\r\ngian thực tập (một chi tiết kiến trúc và biện pháp thi công chi tiết đó hoặc\r\nmột công đoạn\n\nthiết kế cụ thể và tiến độ thi công của công đoạn đó được đơn vị thực tập phân\r\ncông);\n\n4) Những kiến thức hỗ trợ như vật lý kiến trúc, hình họa, trang thiết bị kỹ\r\nthuật công trình, kinh tế xây dựng và an toàn thi công. Các tiêu chuẩn\r\nqui phạm thiết kế có liên quan đến đề tài tốt nghiệp, và các tài liệu, chi tiết\r\ncấu tạo, vật liệu mới để tham khảo làm đồ án tốt nghiệp;\n\n5) Cách lập nhiệm vụ thiết kế và đề\r\ncương tốt nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Hiểu những kiến thức về quy trình thực hiện một dự án cụ thể. Nắm vững và vận dụng những kiến thức chuyên môn đã học về kiến trúc và kỹ thuật vào nhiệm vụ được giao trong thời gian thực tập. Tìm hiểu dự án thực tế và tham gia thiết kế những công trình kiến trúc dân dụng và công nghiệp, đồng thời xác định những hướng nghiên cứu trong chuyên ngành kiến trúc xây dựng. Tham gia thiết kế và giám sát thiết kế tại công trường, xác định rõ việc thực thi một ý tưởng kiến trúc."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng: Thực hành, thực tập tại cơ quan/ đơn vị tư vấn thiết kế và thi công, sinh viên rèn luyện kỹ năng thiết kế, khai triển bản vẽ kỹ thuật, phối hợp làm việc giữa các bộ phận chuyên môn, hoàn thành hồ sơ thiết kế kỹ thuật thi công và hiểu các quy trình thi công của một dự án cụ thể."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Về tư duy: Có khả năng nhận xét, phán đoán và xử lý công việc (khả năng thiết kế, khả năng tổ chức, quản lý nhóm)"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ & hành vi: Yêu cầu sinh viên có tinh thần tự giác học tập, áp dụng những kiến thức đã được học tại trường vào nhiệm vụ được giao trong thời gian thực tập. Sinh viên phải có thái độ làm việc chuyên nghiệp, cầu tiến, ham học hỏi, không ngại khó khi tham gia thực tập tại doanh nghiệp và công trường thi công."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TỔNG QUAN VÀ NHIỆM VỤ THỰC TẬP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "THỰC TẬP KIẾN TRÚC SƯ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "KẾT QUẢ BÁO CÁO THỰC TẬP",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

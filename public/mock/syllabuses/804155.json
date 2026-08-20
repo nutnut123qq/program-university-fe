@@ -1,0 +1,128 @@
+{
+  "info": {
+    "sylid": 371472,
+    "subjectCode": "804155",
+    "syllabusName": "Hội họa (Painting)",
+    "syllabusEnglish": "Painting",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần bao gồm các kiến thức về trang trí màu sắc bố cục 2D và 3D, các kiến thức về vẽ ký họa và vẽ phong cảnh ngoài trời bằng bút sắt, bằng màu và vẽ kiến trúc bằng chì, bút sắt và màu. Bao gồm vẽ ký họa và vẽ phong cảnh ngoài trời.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Học phần cung cấp cho sinh viên những khái niệm cơ bản về hội họa, thẩm mỹ, cách diễn tả không gian bằng độ sáng tối cũng nhưnhững kỹ năng dựng hình, bố cục đen trắng, bố cục màu sắc, cách vẽ phác thảo và thể hiện tĩnh vật qua phương pháp vẽ bằng bút sắt, bút chì và màu."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Vẽ chì, bút sắt và vẽ màu. Có khả năng ứng dụng vào diễn họa kiến trúc, học đồ án, thể hiện bản vẽ phối cảnh kiến trúc"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên thi vào trường mặc nhiên được coi là đã biết vẽ tĩnh vật, đầu tượng thạch cao bằng bút chì"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học được trang bị kiến thức để tôn trọng các giá trị đạo đức nghề nghiệp. Chấp hành luật bản quyền và những thành quả sáng tạo của những người đi trước"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thực hành",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Lịch sử và nghệ thuật trang trí",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Vẽ bố cục 2D, 3D bằng màu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phong cảnh kiến trúc chì hoặc bút sắt ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phong cảnh thiên nhiên màu ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Phong cảnh kiến trúc màu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

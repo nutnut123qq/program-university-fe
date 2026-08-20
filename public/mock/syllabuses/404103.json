@@ -1,0 +1,116 @@
+{
+  "info": {
+    "sylid": 728802,
+    "subjectCode": "404103",
+    "syllabusName": "CAD (Computer Aided Design)",
+    "syllabusEnglish": "Computer Aided Design",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Học phần cung cấp cho người học về ứng dụng phần mềm kỹ thuật vào việc mô hình hóa, mô phỏng, tính toán các chi tiết, kết cấu cơ khí: Mô hình hóa các chi tiết cơ khí; lắp ráp, mô tả quá trình lắp ráp các cụm chi tiết cơ khí; thiết lập các bản vẽ lắp, bản vẽ chi tiết, tạo bảng kê các chi tiết; sử dụng các chi tiết tiêu chuẩn trong quá trình thiết kế cơ khí.\n\nCác chủ đề chính bao gồm kiến thức cơ bản về phần mềm 3D tham số, bản vẽ 2D, bản vẽ  3D của các bộ phận máy và bản vẽ lắp ráp trong kỹ thuật cơ khí.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Đạt được các kỹ năng thiết yếu trong kỹ thuật cơ khí"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Để có thể giao tiếp với chuyên gia cơ khí khác\r\nthông qua bản vẽ kỹ thuật"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Để có thể trao đổi thông tin với chuyên gia cơ khí chế tạo"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Môi trường tạo mô hình 3D",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lệnh Pattern và Mirror",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hiệu chỉnh bản vẽ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Bản vẽ lắp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Vẽ mặt cong",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Vẽ chi tiết hàn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Môi trường vẽ phác biên dạng 2D(Sketch)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Môi trường xuất bản vẽ 2D (Drawing)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

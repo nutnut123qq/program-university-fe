@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 732077,
+    "subjectCode": "D01106",
+    "syllabusName": "GDTC 1 - Quần vợt (Physical Education 1 - Tennis)",
+    "syllabusEnglish": "Physical Education 1 - Tennis",
+    "credits": "0",
+    "degreeLevel": "Bachelor",
+    "description": "- Lý thuyết:\n\nBài 1: Lịch sử hình thành và phát triển môn quần vợt trên Thế giới\nBài 2: Lịch sử hình thành và phát triển môn quần vợt ở Việt nam\nBài 3: Liên đoàn - Hiệp hội quần vợt\nBài 4: Lợi ích việc tập luyện thể thao\nBài 5: Vệ sinh tập luyện thể thao\nBài 6: Chấn thương - Phòng ngừa chấn thương\nBài 7: Đặc điểm môn quần vợt\nBài 8: Kỹ thuật di chuyển\nBài 9: Kỹ thuật cầm vợt\nBài 10: Kỹ thuật đánh bóng thuận tay\nBài 11: Kỹ thuật đánh bóng trái tay\nBài 12: Kỹ thuật giao bóng\nBài 13: Kỹ thuật vôle\nBài 14: Luật quần vợt cơ bản\n\n- Thực hành:\n\n+ Kỹ thuật cơ bản  của môn quần vợt\n+  Kỹ thuật giao bóng.\n+ Kỹ thuật đánh bóng thuận tay.\n+ Kỹ thuật đánh bóng trái tay.\n\n+ Các bài tập bộ trợ\n+ Trò chơi vận động trong môn quần vợt",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Môn học nhằm trang bị cho sinh viên kiến thức khái quát về Quần vợt, lịch sử hình thành và phát triển Quần vợt"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Trang bị nắm được nguyên lí kỹ thuật, Luật, Phòng tránh chấn thương trong tập luyện và thi đấu"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Trang bị kỹ thuật căn bản Quần vợt. thi đấu đơn cho sinh viên"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Có khả năng tập luyện và thi đấu quần vợt"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "80%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Học online: 15 tiết (trên nền tảng kỹ thuật số)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Học thực hành",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

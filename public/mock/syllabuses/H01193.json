@@ -1,0 +1,86 @@
+{
+  "info": {
+    "sylid": 445096,
+    "subjectCode": "H01193",
+    "syllabusName": "Thí nghiệm Ký sinh trùng (Parasitology Laboratory)",
+    "syllabusEnglish": "Parasitology Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học tập trung vào việc \nquan sát và nhận diện các ký sinh trùng gây bệnh thường gặp ở người\n, bao gồm:\nĐơn bào gây bệnh\n: như \nEntamoeba histolytica\n, \nGiardia lamblia\n, \nTrichomonas vaginalis\n…\nGiun ký sinh\n: giun đũa, giun kim, giun móc, giun tóc và các loại giun truyền qua đất khác.\nSán ký sinh\n: sán lá gan lớn, sán lá gan nhỏ, sán dây, ấu trùng sán lợn…\nTiết túc truyền bệnh\n: muỗi, ruồi, bọ chét, ve, mò… và vai trò của chúng trong truyền bệnh ký sinh trùng.\nVi nấm gây bệnh\n: các loại nấm men và nấm sợi thường gặp trong bệnh lý da, niêm mạc và nội tạng.\nNội dung bao gồm \nđặc điểm hình thái\n, \nchu kỳ phát triển\n, \nmẫu bệnh phẩm\n, và \nkỹ thuật quan sát bằng kính hiển vi\n để nhận diện chính xác từng nhóm ký sinh trùng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nhận biết các kí sinh trùng gây bệnh thường gặp. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Hướng dẫn thao tác chuẩn bị lame lẫu, quan sát các ký sinh trùng gây bệnh thường gặp. "
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Kiểm tra năng lực",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Performance Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đơn bào",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Giun sán",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Tiết túc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Các nấm gây bệnh thường gặp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thi kiểm tra đánh giá môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

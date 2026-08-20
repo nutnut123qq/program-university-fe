@@ -1,0 +1,100 @@
+{
+  "info": {
+    "sylid": 195632,
+    "subjectCode": "802118",
+    "syllabusName": "Đồ án thiết kế đường ô tô (Project of Highway Design)",
+    "syllabusEnglish": "Project of Highway Design",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc bao gồm các nội dung chính sau:\n\nChương 1: Mở đầu\n\nChương 2: Thiết kế tuyến trên bình đồ\n\nChương 3: Thiết kế cống và rãnh thoát nước\n\nChương 4: Thiết kế kết cấu áo đường\n\nChương 5: Thiết kế trắc dọc và trắc ngang\n\nChương 6: Thiết kế đường cong nằm và đường cong đứng",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết thiết kế 2 phương án đường ô tô trên bình đồ khu vực tỉ lệ 1/10000.\r\nBiết thiết kế chi tiết 1,5km đường trên bình đồ khu vực tỉ lệ 1/2000 ÷ 1/1000"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng vào việc tính toán thuỷ lực kiểm tra khẩu độ của một cống thoát nước, kiểm tra thoát nước rãnh biên, tính toán chi tiết kết cấu áo đường đã được lựa chọn, thiết kế trắc dọc kỹ thuật 1,5km đường, thiết kế chi tiết các trắc ngang kỹ thuật, tính toán và bố trí đường cong đứng và đường cong nằm, tính toán và bố trí siêu cao, tính toán và bố trí phạm vi giải tỏa trong đường cong."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Đánh giá và lựa chọn phương án thiết kế tuyến đường thích hợp nhất.\r\nĐánh giá được hồ sơ thiết kế kỹ thuật của một tuyến đường.\r\nTrình bày, bố trí bản vẽ rõ ràng, sạch sẽ, khoa học."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Mở đầu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thiết kế tuyến trên bình đồ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thiết kế cống và rãnh thoát nước",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thiết kế kết cấu áo đường",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thiết kế trắc ngang và trắc dọc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Thiết kế đường cong nằm và đường cong đứng",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 499074,
+    "subjectCode": "303129",
+    "syllabusName": "Tuyến điểm du lịch 1 (Tour Itinerary Theory 1)",
+    "syllabusEnglish": "Tour Itinerary Theory 1",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học bao gồm các nội dung chính sau:\n- Phần 1. Cơ sở lý luận về tuyến điểm du lịch (Chương 1)\n- Phần 2. Hệ thống tuyến điểm du lịch tại vùng  du lịch Đồng bằng sông Cửu Long (Chương 2)\n- Phần 3. Hệ thống tuyến điểm du lịch tại vùng du lịch Đông Nam Bộ (Chương 3)\n- Phần 4. Hệ thống tuyến điểm du lịch tại vùng du lịch Tây Nguyên (Chương 4)",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nhận biết các kiến thức về cơ bản tuyến điểm du lịch; điều kiện hình thành và xu thế phát triển hệ thống tuyến điểm du lịch Việt Nam; nắm vững đặc trưng của các tuyến điểm du lịch nội địa tiêu biểu tại vùng du lịch Đồng bằng sông Cửu Long, Đông Nam Bộ và Tây Nguyên."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sử dụng các kỹ năng làm việc nhóm, kỹ năng thuyết trình, kỹ năng thu thập tư liệu và xây dựng nội dung bài thuyết minh du lịch đảm bảo tính hệ thống, độ tin cậy, tính hấp dẫn và tính cập nhật; đọc và sử dụng bản đồ du lịch."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Xây dựng tư duy sáng tạo và tư duy phản biện."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thực hiện rèn luyện sự cần cù và nghiêm túc trong việc tiếp nhận và nắm vững các thông tin, kiến thức liên quan đến hệ thống tuyến điểm du lịch Việt Nam."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Cơ sở lý luận về tuyến điểm du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Hệ thống tuyến điểm du lịch tại vùng du lịch Đồng bằng sông Cửu Long",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Hệ thống tuyến điểm du lịch tại vùng du lịch Đông Nam Bộ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hệ thống tuyến điểm du lịch tại vùng du lịch Tây Nguyên",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

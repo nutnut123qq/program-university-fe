@@ -1,0 +1,136 @@
+{
+  "info": {
+    "sylid": 120327,
+    "subjectCode": "801062",
+    "syllabusName": "Quản lý chất thải rắn (Solid & Hazardous Waste Management)",
+    "syllabusEnglish": "Solid & Hazardous Waste Management",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Khái niệm về quản lý chất thải rắn.\n\nNguồn gốc, thành phần, khối lượng và tính chất của chất thải rắn.\n\nLưu trữ, thu gom, trung chuyển và vận chuyển chất thải rắn.\n\nPhân loại, xử lý và tái sinh chất thải rắn.\n\nKỹ thuật chôn lấp chất thải rắn.\n\nThu gom lưu trữ và vận chuyển chất thải nguy hại\n\nNgăn ngừa và giảm thiểu chất thải nguy hại\n\nCác phương pháp xử lý chất thải nguy hại",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Giúp sinh viên nắm được những kiến thức cơ bản về chất thải rắn và chất thải nguy hại, các biện pháp xử lý và quản lý các loại chất thải này trong thực tế để tránh những tác động không tốt đến môi trường trong hoạt động xây dựng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Vận dụng lý thuyết để đưa ra định hướng và cách quản lý chất thải rắn, chất thải nguy hại cho một khu quy hoạch, hoặc công trình xây dựng. Biết phân tích, đánh giá hiện trạng quản lý chất thải rắn, chất thải nguy hại và đề xuất các biện pháp để quản lý cho một đối tượng cụ thể trong thực tế. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Người học hiểu, biết các khái niệm cơ bản liên quan đến quản lý chất thải rắn và chất thải nguy hại: biết cách xác định nguồn phát sinh, thành phần và tính chất của chất thải, khối lượng để phân loại rác, tái sử dụng, tái chế, thu gom, vận chuyển và xử lý chất thải rắn và chất thải nguy hại một cách tối ưu nhằm mang lại lợi ích về kinh tế, bảo vệ tài nguyên thiên nhiên và môi trường."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học biết và hiểu được giá trị đạo đức của nghề nghiệp, đạo đức môi trường; có thái độ và hành vi đúng mực trong hoạt động học của mình."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái niệm về quản lý chất thải rắn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Nguồn gốc, thành phần, khối lượng và tính chất của chất thải rắn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Lưu trữ, thu gom, trung chuyển và vận chuyển chất thải rắn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phân loại, xử lý và tái sinh chất thải rắn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Kỹ thuật chôn lấp chất thải rắn",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Quản lý chất thải nguy hại",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

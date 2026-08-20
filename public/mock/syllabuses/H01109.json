@@ -1,0 +1,84 @@
+{
+  "info": {
+    "sylid": 457275,
+    "subjectCode": "H01109",
+    "syllabusName": "Khóa luận tốt nghiệp (Graduational Thesis)",
+    "syllabusEnglish": "Graduational Thesis",
+    "credits": "10",
+    "degreeLevel": "Bachelor",
+    "description": "Tuỳ theo nguyện vọng cá nhân, mỗi sinh viên sẽ lựa chọn hướng nghiên cứu và đề tài nghiên cứu phù hợp.\n\nSinh viên thảo luận với giảng viên hướng dẫn để đưa ra đề tài nghiên cứu, sinh viên tổng hợp tài liệu, viết đề cương nghiên cứu gồm lý do chọn đề tài, mục tiêu và phạm vi nghiên cứu, phương pháp nghiên cứu, kết quả mong đợi.\n\nSinh viên thực hiện nghiên cứu khoa học dưới sự hướng dẫn của giảng viên.\n\nSinh viên viết khoá luận tốt nghiệp, thuyết trình đề tài và phản biện trước hội đồng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên biết cách thu thập thông tin và nắm vững các kiến thức liên quan đến lĩnh vực của đề tài, biết cách xây dựng một đề tài nghiên cứu."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có khả năng xây dựng một đề tài nghiên cứu, phân tích xử lý dữ liệu khoa học, thực hiện nghiên cứu, suy nghĩ độc lập sáng tạo để giải quyết vấn đề."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Sinh viên có khả năng phân tích, giải thích kết quả, trình bày báo cáo khoa học, khả năng thuyết trình và phản biện đề tài."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo,Luận án/Luận văn/ Khóa luận/ Đồ án tốt nghiệp/Đề án tốt nghiệp",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report,Thesis",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan tài liệu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực hiện nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Trình bày khoá luận tốt nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Bảo vệ khoá luận tốt nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

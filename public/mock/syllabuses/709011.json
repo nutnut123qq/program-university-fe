@@ -1,0 +1,174 @@
+{
+  "info": {
+    "sylid": 687907,
+    "subjectCode": "709011",
+    "syllabusName": "Quản lý Đơn hàng và Thực hiện Đơn hàng (Order and Fulfillment Management)",
+    "syllabusEnglish": "Order and Fulfillment Management",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "The course \n\"Order and Fulfillment \nManagement\n\n\"\n equips third-year students majoring in Supply Chain Management with comprehensive knowledge of how to manage and optimize the order fulfillment process in an e-commerce environment. Key topics covered in the course include various fulfillment models (in-house, third-party logistics – 3PL, and dropshipping), the roles of key actors in the fulfillment chain (warehouses, suppliers, carriers), as well as inventory management, packaging, last-mile delivery, and reverse logistics.\n\nIn addition, the course emphasizes the application of technologies such as Order Management Systems (OMS), Warehouse Management Systems (WMS), Transportation Management Systems (TMS), artificial intelligence (AI), and blockchain to enhance operational efficiency. Students will also be introduced to emerging trends including same-day delivery, sustainable delivery, and autonomous vehicles. Through these topics, the course fosters strategic thinking and practical skills in implementing order fulfillment operations that are efficient, adaptable, and environmentally friendly.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Students will be able to compare and apply fulfillment models (in-house, 3PL, dropshipping) to design an appropriate fulfillment system for e-commerce contexts."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Students will be able to analyze and map the interactions among key components (OMS, WMS, warehouses, suppliers, carriers) to ensure end-to-end synchronization within the fulfillment chain."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Students will be able to evaluate operational performance using KPIs (order accuracy, shipping cost, cycle time) and propose improvement strategies for order fulfillment systems."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Students will be able to examine and adapt emerging technological trends (AI, automation, blockchain, autonomous vehicles) and propose innovative applications that foster lifelong learning and competitiveness in logistics."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Process evaluation 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Mid-term test",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Final examination",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Overview of Order Fulfillment in E-Commerce          ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Key players in the Fulfillment process ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Streamlining Order Processing ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Inventory management for faster order fulfillment",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Picking and packing management ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Choosing the right shipping partners",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Last-mile delivery strategies ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Reverse logistics management ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Leveraging technologies for smarter fulfillment ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 10,
+      "sessionNo": "10",
+      "topic": "Sustainable Fulfillment and Environmentally Friendly Delivery Trends",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 11,
+      "sessionNo": "11",
+      "topic": "Group Presentation A team of 3–5 students will carry out a project that simulates the fulfillment process for an e-commerce business (either hypothetical or real).",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 12,
+      "sessionNo": "12",
+      "topic": "Review ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

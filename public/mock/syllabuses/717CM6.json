@@ -1,0 +1,45 @@
+{
+  "info": {
+    "sylid": 651756,
+    "subjectCode": "717CM6",
+    "syllabusName": "Kỹ năng thực hành chuyên môn (Qualification Exam)",
+    "syllabusEnglish": "Qualification Exam",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "The test consist of two parts:\nMultiple choice (~75 minutes): assess the understanding of theories, and the applying theories to business cases.\nConstructed response test (~75 minutes): assess the ability to solve human resources management problems.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Assess the ability to apply knowledge from courses."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Assess proficiency of skills essential for human resources management."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [],
+  "materials": []
+}

@@ -1,0 +1,92 @@
+{
+  "info": {
+    "sylid": 784887,
+    "subjectCode": "100040",
+    "syllabusName": "Trang sức 1 (Jewelry 1)",
+    "syllabusEnglish": "Jewelry 1",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Cung cấp cho sinh viên những kiến thức lí luận và kĩ năng làm việc cơ bản trong lĩnh vực thiết kế trang sức; truyền cảm hứng và giúp người học tìm thấy được niềm vui khi làm việc trong lĩnh vực này, khơi mở hướng phát triển nghề nghiệp nếu người học quyết định chọn trang sức cho tương lai.\nMang hình thái của đồ án, môn học yêu cầu người học đặt vấn đề, nghiên cứu đối tượng, đưa ra giải pháp, thể hiện quy trình thiết kế và trình bày kết quả một cách hoàn chỉnh.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu tầm quan trọng, vai trò của việc thiết kế trang sức; hiểu và phân biệt được các loại hình trang sức theo hình thái và mục đích sử dụng, hiểu được sự khác nhau giữa trang sức với phụ kiện."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng và kết hợp tương đối thành thạo các kiến thức về thẩm mỹ thị giác, thẩm mỹ hình khối và quy trình làm việc từ các môn học cơ sở để lên kế hoạch, ý tưởng thiết kế một bộ trang sức cơ bản."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nắm vững được những khái niệm chuyên ngành, những đặc thù về công cụ sản xuất và những đặc thù trong quy trình làm việc của riêng ngành nghề trang sức."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tạo ra được thành phẩm trang sức ở mức cơ bản thông qua việc áp dụng quy trình làm việc và quy trình tìm ý tưởng đặc thù của ngành trang sức."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thuyết trình,Thực hành",
+      "part": "1",
+      "weight": "50%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation,Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận,Báo cáo",
+      "part": "2",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "TỔNG QUAN VỀ ĐỒ ÁN TRANG SỨC 1",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "GIẢNG ĐỀ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "QUY TRÌNH LÀM VIỆC",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

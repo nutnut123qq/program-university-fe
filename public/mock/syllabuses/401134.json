@@ -1,0 +1,62 @@
+{
+  "info": {
+    "sylid": 256601,
+    "subjectCode": "401134",
+    "syllabusName": "Chuyên đề nghiên cứu về An toàn điện và độ tin cậy (Advanced Topics in Electric safety and reliability)",
+    "syllabusEnglish": "Advanced Topics in Electric safety and reliability",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn\r\nhọc giúp học viên hoàn thiện được các kỹ năng trong việc nghiên cứu về đánh giá\r\nvà quản lý rũi ro trong hệ thống điện; các giải pháp bảo trì nhằm tang cường độ\r\ntin cậy vận hành; giải pháp dự báo và phòng ngừa sự cố cho thiết bị điện/lưới\r\nđiện,…vv.\n﻿",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Củng cố lại các kiến thức liên quan đến lĩnh vực an toàn điện và đánh giá rủi ro và vận dụng các kiến thức đã học vào nghiên cứu vấn đề ứng dụng thực tế."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Ứng dụng các nội dung về đánh giá và dự báo rủi ro vào phân tích chế độ hoạt động của các thiết bị, quá trình hay một hệ thống cụ thể trong ngành kỹ thuật điện."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tìm hiểu đề tài cho chuyên đề nghiên cứu",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thực hiện đề tài nghiên cứu thuộc chuyên đề",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,96 @@
+{
+  "info": {
+    "sylid": 343316,
+    "subjectCode": "H01052",
+    "syllabusName": "Thí nghiệm Kiểm nghiệm thuốc (Pharmaceutical Analysis Laboratory)",
+    "syllabusEnglish": "Pharmaceutical Analysis Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học thí nghiệm Kiểm nghiệm thuốc bao gồm những bài thực hành giúp sinh viên trang bị những kiến thức cơ bản, kỹ năng, thao tác có liên quan đến công tác kiểm nghiệm một số dạng bào chế thường quy:\n\nCông tác kiểm nghiệm thuốc của một số dạng bào chế thông dụng: thuốc bột pha tiêm penicillin G 1000000 IU, viên nang paracetemol 500 mg, \nviên sủi bọt paracetamol 500 mg\n, thuốc tiêm vitamin B12 1000 mcg; kiểm nghiệm được dược liệu quả dành dành theo tiêu chuẩn Dược điển Việt Nam hiện hành;\n\nXây dựng được nghi thức thẩm định định lượng diclofenac trong viên nén và thẩm đinh được quy trình phân tích đó theo hướng dẫn và quy định hiện hành;\n\nHiểu được vai trò của mình trong việc đảm bảo thuốc có chất lượng tới tay người sử dụng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Thực hiện công tác kiểm tra chất lượng thuốc một số dạng thuốc thông dụng và kiểm nghiệm dược liệu để đảm bảo thuốc và dược liệu đạt yêu cầu về chất lượng trước khi tới tay người dùng, phục vụ có hiệu quả và an toàn cho công tác phòng và chữa bệnh"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Nhận thức được trách nhiệm của người Dược sỹ về mặt pháp lý cũng như về mặt tinh thần đối với chất lượng thuốc"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Kiểm nghiệm viên nén và viên nang",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Kiểm nghiệm Thuốc bột pha tiêm và thuốc tiêm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Kiểm nghiệm Dược liêu Dành dành",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thẩm định quy trình phân tích: Định lượng diclofenac trong viên nén diclofenac potassium 25 mg",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thi",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

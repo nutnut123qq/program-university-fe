@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 509741,
+    "subjectCode": "603082",
+    "syllabusName": "Sinh lý thực vật (Plant Physiology)",
+    "syllabusEnglish": "Plant Physiology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- Mô tả cấu trúc và chức năng sinh lý của thực vật, giải thích về những nguyên lý căn bản chi phối các hoạt động sống của thực vật.\n\n- Trình bày hoạt động của thực vật trong quá trình hấp thu và vận chuyển các chất, sự biến dưỡng, sự sinh trưởng và phát triển của thực vật.\n\n- Trang bị các hiểu biết về đặc tính của thực vật, sự thích nghi với điều kiện sống. khả năng đáp ứng với môi trường nhằm đưa ra biện pháp thúc đẩy sự sinh trưởng và phát triển, đem lại hiệu quả cao trong canh tác và ứng dụng trong lĩnh vực công nghệ sinh học thực vật.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Người học hiểu biết trên đối tượng thực vật những nguyên lý liên quan đến sự sống, từ cấu trúc tế bào & phân tử đến các hoạt động sinh lý, sinh hóa và các quá trình sinh trưởng & phát triển của cây trồng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học hiểu biết những chức năng và quá trình hoạt động trong đời sống cây trồng nhằm thúc đẩy sự tăng trưởng, đem lại hiệu quả cao trong canh tác."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Người học biết phân tích và nhận định các hiện tượng cơ bản trong quá trình sống của cây trồng, mối tương quan với điều kiện ngoại cảnh và sự thích nghi với môi trường."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học biết vận dụng sự hiểu biết về các quá trình cơ bản trong sự sinh trưởng và phát triển của cây trồng để đề xuất những biệp pháp kỹ thuật chủ yếu trong sản xuất nông nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Khái niệm về thực vật và sinh lý thực vật (Plant Physiology)",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cấu trúc và chức năng của thực vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Sự trao đổi nước ở thực vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Dinh dưỡng khoáng ở thực vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": " Sự biến dưỡng ở thực vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Sự sinh trưởng và phát triển của thực vật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

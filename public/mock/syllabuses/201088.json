@@ -1,0 +1,96 @@
+{
+  "info": {
+    "sylid": 884989,
+    "subjectCode": "201088",
+    "syllabusName": "Chuyên đề 2 (Kỹ năng văn phòng) (Core 2 (Office Skills))",
+    "syllabusEnglish": "Core 2 (Office Skills)",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Hướng dẫn sinh viên các công việc, kiến thức và kỹ năng cần chuẩn bị cho việc kiến tập thực tế tại doanh nghiệp.\n\nTham gia tìm hiểu các quy trình hoạt động một số loại hình doanh nghiệp và các bộ phận/phòng ban trong trong doanh nghiệp.\n\nQuan sát và ghi nhận lại công việc của nhân viên từng bộ phận tại doanh nghiệp và cách thức thực hiện các công việc đó.\n\nThực hành, thao tác lại một số công việc đã được quan sát trước đó, thực hiện một số công việc khác được giao trong thời gian kiến tập tại doanh nghiệp.\n\nGhi nhận lại những nội dung được yêu cầu vào báo cáo kiến tập theo mẫu biểu và thời gian quy định.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Cung cấp cho sinh viên có được cái nhìn tổng quát về cơ cấu tổ chức của một doanh nghiệp, cách thức tổ chức công việc ở các bộ phận, công tác tổ chức bộ máy tại doanh nghiệp"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Sinh viên có được các kỹ năng thích nghi nhanh, kỹ năng giải quyết vấn đề, kỹ năng sử dụng trang thiết bị văn phòng và các kỹ năng văn phòng khác của một nhân viên trong môi trường doanh nghiệp"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Tuân thủ nghiêm chỉnh quy định của doanh nghiệp và luôn có thái độ cầu thị, ham học hỏi."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Vấn đáp,Báo cáo",
+      "part": "3",
+      "weight": "70%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Viva/Oral Test,Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Phần 1: Giới thiệu môn học",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phần 2: Kiến tập tại doanh nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Phần 3: Báo cáo quá trình kiến tập",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

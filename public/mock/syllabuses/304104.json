@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 47049,
+    "subjectCode": "304104",
+    "syllabusName": "Công tác xã hội và pháp luật (Social work and Law)",
+    "syllabusEnglish": "Social work and Law",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học\n\nđược thiết kế nhằm giới thiệu cho sinh viên các kiến thức nền tảng về hệ thống pháp luật Việt Nam liên quan đến ngành công tác xã hội. Từ đó, sinh viên có thể trình bày, phân tích và vai trò của nhân viên CTXH đối với các chính sách, vấn đề pháp lý liên quan để định hướng nghề nghiệp\n. Sinh viên cũng bắt đầu được thực hành kỹ năng về hỗ trợ thân chủ có các vấn đề liên quan đến pháp luật.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Giải thích được mối quan hệ giữa ngành CTXH và pháp luật, các vấn đề pháp lý liên quan đến ngành CTXH và nhân viên CTXH"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích được vai trò và các chính sách đối với nhân viên CTXH theo quy định của pháp lý trong bối cảnh xã hội Việt Nam"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Thực hành một số các quy định pháp luật khi hỗ trợ thân chủ"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Tự đánh giá được những yếu tố của hệ thống pháp luật Việt Nam hiện nay tác động đến ngành CTXH và nhân viên CTXH"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Công tác xã hội và hệ thống pháp luật",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Vai trò của nhân viên công tác xã hội trong hệ thống pháp luật Việt Nam",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Vận dụng hệ thống pháp lý với một số nhóm đích",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phân tích hệ thống pháp lý trong thực hành nghề công tác xã hội",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

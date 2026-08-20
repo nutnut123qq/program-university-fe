@@ -1,0 +1,120 @@
+{
+  "info": {
+    "sylid": 321118,
+    "subjectCode": "903057",
+    "syllabusName": "Kỹ thuật an toàn cơ khí (Technique Mechanical Safety)",
+    "syllabusEnglish": "Technique Mechanical Safety",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Trách nhiêm và nhiệm vụ của các bên có liên quan (nhà thiết kế, nhà sản xuất, người sử dụng lao động và người lao động) đối với máy móc;\n\nCác mối nguy khi sử dụng máy móc;\n\nCách kiểm soát mối nguy máy móc;\n\nMột số biện pháp đảm bảo an toàn máy móc;\n\nLựa chọn đúng thiết bị bảo vệ;",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Trang bị kiến thức cơ bản về an toàn trong lĩnh vực cơ khí cụ thể là an toàn đối với máy móc thiết bị, các mối nguy khi sử dụng máy móc, cách kiểm soát mối nguy và các biện pháp đảm bảo an toàn máy móc trong quá trình sản xuất."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp:Sinh viên có thể áp dụng các kiến thức cơ bản của môn học vào các lĩnh vực sản xuất thực tế như: cơ khí, xây dựng, môi tường, cấp thoát nước, nhằm mục đích đảm bảo an toàn khi sử dụng máy móc thiết bị."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Người học hiểu, biết các khái niệm cơ bản liên quan đến mối nguy máy móc, nhận diện được nguy cơ mất an toàn, đưa ra biện pháp đảm bảo an toàn cụ thể; lựa chọn đúng loại thiết bị bảo vệ. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Thái độ và hành vi: Người học biết và hiểu được giá trị đạo đức của nghề nghiệp; có thái độ và hành vi đúng mực trong hoạt động học của mình."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Bài tập quá trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Trách nhiêm và nhiệm vụ đối với máy móc ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Mối nguy và cách kiểm soát mối nguy ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Một số biện pháp đảm bảo an toàn máy móc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Lựa chọn đúng thiết bị bảo vệ ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

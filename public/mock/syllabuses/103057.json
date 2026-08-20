@@ -1,0 +1,106 @@
+{
+  "info": {
+    "sylid": 83737,
+    "subjectCode": "103057",
+    "syllabusName": "Chuyên đề (Special Courses)",
+    "syllabusEnglish": "Special Courses",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "- \nChuyên đề là một môn học có nội dung linh hoạt, có khả năng chuyển đổi dựa trên các thông tin mới và tình hình cập nhật về thiết kế trong phạm vi ngành Thiết kế thời trang và  những ngành có liên quan.\n-\n\nChuyên đề tạo một không gian nơi giảng viên và người học có thể mở rộng và đào sâu một vấn đề cụ thể mang tính cấp thiết ngay trong thời điểm môn học diễn ra.\n-\n\nKhi học Chuyên đề, giảng viên gợi mở một vùng đề tài cụ thể có liên quan đến các vấn đề hiện tại của ngành, liên quan đến các khúc mắc trong những môn học trước hoặc liên quan đến yêu cầu bổ sung kiến thức mà người học có thể trực tiếp yêu cầu giảng viên. Dựa trên đề tài đã được khoanh vùng, người học tiến hành đào sâu nghiên cứu, thiết kế và trình bày kết quả vào cuối môn học.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "-\tNgười học cập nhật được những kiến thức mới, có giá trị thực tiễn thông qua những chuyên đề có nội dung liên quan trực tiếp đến chuyên ngành đào tạo. "
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Người học có khả năng ứng dụng kiến thức và kỹ năng từ các môn học trước để hoàn thành đề tài nghiên cứu trong chuyên đề. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "-\tNgười học có khả năng lựa chọn, lên kế hoạch, tiến hành nghiên cứu và đánh giá quá trình thiết kế một cách hiệu quả. "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Người học nhận thức đúng về vai trò của nhà thiết kế trong việc sáng tạo ra cái đẹp và định hướng thẩm mỹ cho xã hội."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Người học tăng khả năng sáng tạo ra cái đẹp và định hướng thẩm mỹ cho xã hội."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "40%",
+      "completionCriteria": "0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "2",
+      "weight": "60%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Tổng quan về chuyên đề",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Phương pháp thực hiện chuyên đề ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Triển khai thực hiện chuyên đề ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Phân tích và đánh giá chuyên đề ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

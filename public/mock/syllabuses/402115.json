@@ -1,0 +1,124 @@
+{
+  "info": {
+    "sylid": 162006,
+    "subjectCode": "402115",
+    "syllabusName": "Đồ án chuyên ngành nâng cao (Advanced Engineering Project)",
+    "syllabusEnglish": "Advanced Engineering Project",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Môn học Đồ án thiết kế này cung cấp cho sinh viên năm cuối ngành Kỹ thuật điện tử - viễn thông kiến thức thực tế và kinh nghiệm thiết kế chi tiết, kích thích đam mê tự học, chuẩn bị cho việc phát triển nghề nghiệp của sinh viên trong tương lai. Sinh viên có cơ hội tự mình phát triển các kỹ thuật tiên tiến nhằm phục vụ cộng đồng.\nQuá trình thực hiện thiết kế gồm các bước: 1) lựa chọn đề tài; 2)  phân tích nhu cầu của người dùng hoặc thị trường; 3) thiết lập tiêu chí kỹ thuật; 4) thiết kế ý tưởng; 5) thiết kế chi tiết; 6) thi công mô hình mẫu; 7) thử nghiệm; 8) viết poster và slides giới thiệu kết quả đề tài; 9) viết báo cáo tổng kết.\n Bộ môn phân công Giảng viên hướng dẫn, xác định đề tài, theo hướng điện tử hoặc viễn thông hoặc kết hợp hai hướng. Sinh viên có thể làm việc độc lập hoặc theo nhóm (nếu đề tài quy mô lớn). Ví dụ các đề tài mang tính chất tổng hợp như sau: Thiết kế các mạch điện tử ứng dụng, lập trình thiết kế vi mạch, mạng máy tính và truyền số liệu, các ứng dụng multimedia: xử lý ảnh, audio, video, mô phỏng, tính toán, thiết kế các mạch siêu cao tần, thiết kế antenna, các ứng dụng IoT, học máy, ...\n\nSinh viên phải bảo vệ kết quả thực hiện đề tài trước Hội đồng.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Sinh viên hiểu được quy trình thiết kế cơ bản trong ngành kỹ thuật điện tử -viễn thông, từ việc tìm hiểu nhu cầu của người dùng và thị trường để xác định vấn đề cần giải quyết cho đến việc phát triển một sản phẩm thiết kế hoàn chỉnh và cung cấp các tài liệu đi kèm."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích được nguyên lí hoạt động và mô hình hóa được mạch điện tử hoặc hệ thống thông tin đang khảo sát; phân tích dữ liệu đo đạc thực nghiệm về hệ thống và khảo sát các phương pháp hoặc kết quả có nghiên cứu có liên quan.\r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Có khả năng hệ thống hóa kiến thức đã học, tự tích lũy kiến thức mới và áp dụng để cải tiến các hệ thống, thiết bị hiện có hoặc đề xuất giải pháp mới cho lĩnh vực điện tử viễn thông."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Trình bày và viết được báo cáo cho đồ án môn học đúng theo phong cách khoa học và các tiêu chuẩn qui định của người hướng dẫn; xác định được các chỉ tiêu kỹ thuật cho một dự án thiết kế / mô phỏng mạch điện tử hoặc một hệ thống thông tin và lập Đề cương/ kế hoạch thực hiện."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Tự lên kế hoạch chi tiết về thời gian, phương án kỹ thuật, tài nguyên cần thiết và nhân sự hỗ trợ cho việc thực hiện Đồ án đã được phân công."
+    },
+    {
+      "id": 6,
+      "loSeq": "6",
+      "cloName": "CO6",
+      "loDetails": "Biết các yêu cầu đạo đức nghề nghiệp của kỹ sư cũng như các nguyên tắc an toàn trong quá trình thực hiện đồ án; có thái độ tự giác nâng cao kiến thức chuyên môn để hướng tới mục tiêu khởi nghiệp và lãnh đạo."
+    },
+    {
+      "id": 7,
+      "loSeq": "7",
+      "cloName": "CO7",
+      "loDetails": "Đề xuất được một giải pháp thiết kế mới, thi công hoặc mô phỏng giải pháp mới để giải quyết một vấn đề cụ thể trong lĩnh vực điện tử viễn thông; xây dựng hệ thống để kiểm thử và đánh giá cả phần cứng lẫn phần mềm."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Đồ án môn học",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Project",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": ". Nhận tên đề tài và nhiệm vụ đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Lựa chọn giải pháp và thiết kế hệ thống",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thi công mạch điện tử hoặc mô phỏng hệ thống viễn thông",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hoàn tất sản phẩm, hoàn thiện báo cáo, poster, slides theo mẫu quy định",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Viết đề cương Đồ án",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Báo cáo tiến độ giữa kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

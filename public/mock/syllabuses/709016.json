@@ -1,0 +1,156 @@
+{
+  "info": {
+    "sylid": 786326,
+    "subjectCode": "709016",
+    "syllabusName": "Quản trị Rủi ro và Khủng hoảng trong Chuỗi Cung Ứng (Supply Chain Risk and Crisis Management)",
+    "syllabusEnglish": "Supply Chain Risk and Crisis Management",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "This course provides\r\na comprehensive exploration of supply chain risk and crisis management,\r\nequipping students with the knowledge and tools to navigate the complexities of\r\nglobal supply chains. It begins by establishing foundational concepts of risk\r\nand resilience, then delves into various risk categories, including strategic,\r\nfinancial, hazard, and operational risks. A significant portion of the course\r\nis dedicated to understanding and applying emerging risk management frameworks,\r\nanalytical models, and technological solutions. Special attention is given to\r\nissues of fraud, corruption, counterfeiting, and societal risks, emphasizing\r\ncompliance with international standards and social responsibilities. The course\r\nconcludes by examining future directions in SCRM, highlighting the importance\r\nof building adaptable and sustainable supply chain strategies.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Comprehend the Foundational Concepts of Supply Chain Risk: Develop a robust understanding of the fundamental definitions, dimensions, and evolution of supply chain risk management (SCRM), differentiating it from enterprise risk management (ERM) and recognizing the increasing complexity and interconnectedness of global supply chains."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Analyze and Assess Supply Chain Vulnerabilities: Critically evaluate various risk categories (strategic, hazard, financial, operational, environmental, societal) and apply established frameworks and emerging tools, including quantitative and qualitative methods, to identify, assess, and prioritize potential disruptions within complex supply networks."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Formulate and Implement Resilient Strategies: Design and critically appraise proactive and reactive strategies for enhancing supply chain robustness and resilience, integrating prevention, mitigation, and business continuity planning against diverse threats such as natural disasters, economic volatility, and operational failures."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Address Ethical, Legal, and Compliance Challenges: Develop comprehensive approaches to manage risks related to fraud, corruption, counterfeiting, and theft, ensuring compliance with global legal regulations, international standards (e.g., ISO, C-TPAT), and upholding social responsibilities across multi-tier supply chains."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Leverage Advanced Analytics and Technology: Explore and apply advanced analytical techniques, probabilistic models, big data insights, and emerging digital tools (e.g., heat maps, simulation, AI) for predictive risk analysis, real-time monitoring, and informed decision-making in supply chain risk management."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Supply Chain Risk Management: Setting the Stage",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Supply Chain Risk Management: The As-Is Landscape ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Strategic Risk and Financial Risk",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hazard Risk and Operation Risk",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Supply Chain Fraud, Corruption, Counterfeiting",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Emerging Risk Management Tools, Techniques, and Approaches ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 7,
+      "sessionNo": "7",
+      "topic": "Risk Measurement",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 8,
+      "sessionNo": "8",
+      "topic": "Future Directions in Supply Chain Risk Management",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 9,
+      "sessionNo": "9",
+      "topic": "Building the Risk Management Foundation",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

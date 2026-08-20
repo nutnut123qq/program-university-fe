@@ -1,0 +1,130 @@
+{
+  "info": {
+    "sylid": 980327,
+    "subjectCode": "605015",
+    "syllabusName": "Vật liệu học (Material Science)",
+    "syllabusEnglish": "Material Science",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Đại cương về mạng tinh thể.\n\nCấu trúc kim loại và hợp kim.\n\nCấu trúc vật liệu vô cơ.\n\nCấu trúc vật liệu polymer và composite.\n\nKhuyết tật trong cấu trúc.\n\nGiản đồ pha.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Kiến thức: Cung cấp cho sinh viên các kiến thức đại cương cần thiết về: Cấu trúc các trạng thái tinh thể, cấu trúc vô định hình, khái niệm mạng tinh thể, các dạng sai lệch mang tinh thể, đặc điểm sắp xếp nguyên tử trong vật liệu kim loại, hợp kim, vật liệu vô cơ và vật liệu hữu cơ. Các kiến thức về quá trình kết tinh từ thể lỏng, Các loại giản đồ pha."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Kỹ năng tác nghiệp: Sinh viên biết được đặc trưng các dạng cấu trúc tinh thể của các loại vật liệu như vật liệu kim loại, vật liệu vô cơ, vật liệu polymer và composite. Nắm vững và hiểu rõ tính năng, ứng dụng của một số loại vật liệu cơ bản phục vụ cho nghề nghiệp sau này."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Yêu cầu về tư duy: Trên cơ sở tổng hợp các kiến thức về mạng tinh thể, cấu trúc vật liệu kim loại, cấu trúc vật liệu vô cơ, cấu trúc vật liệu polymer composite, giản đồ pha. Sinh viên lý giải được các tính chất đặc trưng của vật liệu thông qua cấu trúc, sinh viên có khả năng phân tích một số loại giản đồ pha."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "10%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Đánh giá quá trình 2",
+      "type": "Tiểu luận",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Essay",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 4,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "4",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Đại cương về mạng tinh thể",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Cấu trúc vật liệu kim loại và hợp kim",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Vật liệu vô cơ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Vật liệu Polymer-Composite",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Khuyết tật trong cấu trúc",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Giản đồ pha",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

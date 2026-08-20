@@ -1,0 +1,80 @@
+{
+  "info": {
+    "sylid": 654681,
+    "subjectCode": "101098",
+    "syllabusName": "Tập sự nghề nghiệp (Graduation Internship)",
+    "syllabusEnglish": "Graduation Internship",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Tập sự nghề nghiệp là một học phần đặc thù\n và bắt buộc của chương trình đào tạo\n: sinh viên đi thực tập tại các công ty, cơ sở, doanh nghiệp liên quan trực tiếp đến nghề nghiệp định hướng trong tương lai của từng cá nhân. Trong khoảng thời gian tập sự, sinh viên sẽ được tham gia vào các dự án đang được triển khai tại nơi làm việc. \n\nSinh viên được hướng dẫn tìm hiểu, nghiên cứu các phương án thiết kế, thi công, sản xuất các loại hình sản phẩm trong thực tế\n. \n\nSinh viên \nphải\n\náp dụng \nđược các \nkiến thức và kỹ năng \nđã học vào môi trường làm việc tại \ndoanh nghiệp/ công ty/ tổ chức… \ncó liên quan đến chuyên ngành/nghề nghiệp của người học. \n\nKết quả \nlàm việc của người tập sự \nsẽ được xem xét trong bối cảnh kinh tế, thị trường, nhằm đáp ứng được các yêu cầu về chi phí, nhu cầu của khách hàng và doanh nghiệp.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu được vai trò chuyên môn và trách nhiệm của nhà thiết kế trong hoạt động của một doanh nghiệp, công ty, tổ chức có liên quan đến chuyên ngành/nghề nghiệp của người học trong nền công nghiệp sáng tạo"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Áp dụng được các kiến thức và kỹ năng đã học để làm việc một cách hiệu quả như một nhân viên chính thức tại đơn vị tiếp nhận. "
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Trau dồi kỹ năng và kinh nghiệm làm việc thực tế tại các doanh nghiệp, công ty, tổ chức có liên quan đến chuyên ngành/nghề nghiệp của người học trước khi ra trường.  "
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Đối chiếu, so sánh được kiến thức và kỹ năng đã có với yêu cầu thực tế để từ đó có thể điều chỉnh chiến lược học tập trong năm cuối một cách hiệu quả."
+    },
+    {
+      "id": 5,
+      "loSeq": "5",
+      "cloName": "CO5",
+      "loDetails": "Xây dựng, phát triển mối quan hệ hợp tác nhiều mặt giữa Trường và đơn vị tiếp nhận sau thời gian tập sự nghề nghiệp."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Nhật kí tập sự nghề nghiệp",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Báo cáo tập sự nghề nghiệp ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

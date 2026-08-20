@@ -1,0 +1,102 @@
+{
+  "info": {
+    "sylid": 851973,
+    "subjectCode": "306102",
+    "syllabusName": "Triết học Mác - Lênin (Philosophy of Marxism and Leninism)",
+    "syllabusEnglish": "Philosophy of Marxism and Leninism",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Căn cứ vào mục tiêu môn học, nội dung chương trình môn học được cấu trúc thành 03 chương: Chương 1 bao quát những nội dung cơ bản về triết học, vai trò của triết học trong đời sống xã hội; chương 2 trình bày nội dung cơ bản về thế giới quan và phương pháp luận của triết học Mác-Lênin; chương 3 trình bày những nội dung cơ bản về chủ nghĩa duy vật lịch sử.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết hệ thống quan điểm, hệ thống lý luận của Triết học Mác-Lênin gồm những vấn đề chung về triết học và vai trò của triết học, về chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử. Xác lập cơ sở lý luận cơ bản nhất để từ đó tiếp cận được nội dung các môn học: Kinh tế - chính trị Mác-Lênin, Chủ nghĩa xã hội khoa học, Tư tưởng Hồ Chí Minh và Lịch sử Đảng Cộng sản Việt Nam."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Khái quát được thế giới quan, nhân sinh quan và phương pháp luận chung nhất để tiếp cận các khoa học chuyên ngành."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Giải quyết được các vấn đề thực tiễn đặt ra. Phân biệt đúng sai và phản biện."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Lựa chọn phương pháp hoạt động thực tiễn trên cơ sở phương pháp luận của Triết học Mác-Lênin."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "KHÁI LUẬN VỀ TRIẾT HỌC VÀ TRIẾT HỌC MÁC - LÊNIN",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "CHỦ NGHĨA DUY VẬT BIỆN CHỨNG",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "CHỦ NGHĨA DUY VẬT LỊCH SỬ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

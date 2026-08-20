@@ -1,0 +1,66 @@
+{
+  "info": {
+    "sylid": 649090,
+    "subjectCode": "D01221",
+    "syllabusName": "GDTC 2 - Golf (Physical Education 2 - Golf)",
+    "syllabusEnglish": "Physical Education 2 - Golf",
+    "credits": "0",
+    "degreeLevel": "Bachelor",
+    "description": "- Lý thuyết:\n+ Lịch sử hình thành và xu hướng phát triển của môn golf trên Thế giới và tại Việt Nam\n+ Lợi ích của việc tập luyện golf\n+ Các loại chấn thương và cách phòng chống chấn thương trong tập luyện golf \n+ Nguyên tắc ứng xử và các thuật ngữ cơ bản khi chơi golf\n+ Giới thiệu cơ bản về luật golf\n+ Kỹ thuật swing golf với gậy sắt và gậy đẩy\n- Thực hành:\n+ Kỹ thuật cầm gậy và tư thế chuẩn bị động tác swing\n+ Kỹ thuật swing cơ bản với gậy sắt trung (6,7,8)\n+ Kỹ thuật putting cơ bản với gậy đẩy trên green ở cự li ngắn và dài",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Mô tả được lợi ích, biết cách tập luyện môn golf để tăng cường phát triển thể chất cho bản thân."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành",
+      "part": "2",
+      "weight": "80%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Practical Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "PHẦN 1: LÝ THUYẾT",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "PHẦN 2: THỰC HÀNH",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

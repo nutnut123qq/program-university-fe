@@ -1,0 +1,110 @@
+{
+  "info": {
+    "sylid": 628496,
+    "subjectCode": "704130",
+    "syllabusName": "Phân tích và trực quan hóa dữ liệu khách hàng (Customer Analytics and Visualization)",
+    "syllabusEnglish": "Customer Analytics and Visualization",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Through out this course, students will be capability to make\r\na framework of creating data driven marketing strategies, tools, and techniques\r\nto understand and leverage customer data to make better marketing choices\r\n(according to segmentation, targeting, positioning, forecasting and the 4Ps).\r\nCustomer analytics is a procedure by which customer behavior data is broken\r\ndown and used to help making key business decisions via market segmentation and\r\npredictive analytics. Customer data is collected from browsing history and\r\nbuying patterns sources. The huge amount of data will be used to sketch past\r\nbuying behavior, predict future ones and prescribe new ways to influence future\r\nbuying decisions made by customers. This course provides an overview of the\r\nfield of analytics so that you can make informed business decisions.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Understand the importance of linking marketing activities to customer metrics.\r\n"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "\r\nAnalyze customer information to create and calculate appropriate metrics and quantify its impact on the business’ performance.\r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Successfully apply tools and analysis techniques to understand past behavior and predict future actions"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Communicate key ideas about customer analysis techniques and drive key business outcomes"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Báo cáo",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Report",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Part 1: Overview of Marketing Analytics",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Analytics techniques\t",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Visualization",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Marketing Implementation",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

@@ -1,0 +1,126 @@
+{
+  "info": {
+    "sylid": 222733,
+    "subjectCode": "303139",
+    "syllabusName": "Tâm lý du khách (Tourist Psychology)",
+    "syllabusEnglish": "Tourist Psychology",
+    "credits": "2",
+    "degreeLevel": "Bachelor",
+    "description": "Nội dung của môn học bao gồm:\nNhững vấn đề chung của tâm lý học và tâm lý học du lịch\nCác hiện tượng tâm lý xã hội trong du lịch\nĐặc điểm tâm lý của khách du lịch\nHành vi tiêu dùng du lịch và phân loại hành vi tiêu dùng du lịch\nMối quan hệ giữa người phục vụ và người tiêu dùng trong du lịch\nNhững phẩm chất cần có của nhân viên du lịch",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Hiểu và trình bày được các kiến thức cơ bản về tâm lý con người nói chung và tâm lý du khách nói riêng."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân biệt được các dạng tâm lý của các nhóm du khách khác nhau. Phân tích được các yếu tố ảnh hưởng đến tâm lý du khách, đặc điểm tâm lý phổ biến, quy luật tâm lý chung cũng như những đặc điểm tâm lý riêng của từng du khách.\r\n\r\n"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng những thành tựu của tâm lý học, tâm lý học du lịch để nhận biết, đánh giá, điều khiển, điều chỉnh hành vi của mình và của khách;  vận dụng vào hoạt động phục vụ khách nhằm nâng cao sự hài lòng và đạt hiệu quả cao trong hoạt động kinh doanh du lịch."
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Rèn luyện được thái độ cởi mở, tận tình, linh hoạt và nghiêm túc; những phẩm chất, năng lực cần có của người làm du lịch.\r\n"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Thuyết trình",
+      "part": "2",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Presentation",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Những vấn đề chung của tâm lý học và tâm lý học du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Các hiện tượng tâm lý xã hội trong du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Đặc điểm tâm lý của khách du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Hành vi tiêu dùng du lịch và phân loại hành vi tiêu dùng du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Mối quan hệ giữa người phục vụ và người tiêu dùng trong du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 6,
+      "sessionNo": "6",
+      "topic": "Những phẩm chất cần có của nhân viên du lịch",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

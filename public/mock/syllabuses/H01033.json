@@ -1,0 +1,112 @@
+{
+  "info": {
+    "sylid": 56771,
+    "subjectCode": "H01033",
+    "syllabusName": "Hóa dược 1 (Pharmaceutical Chemistry 1)",
+    "syllabusEnglish": "Pharmaceutical Chemistry 1",
+    "credits": "3",
+    "degreeLevel": "Bachelor",
+    "description": "Hóa dược 1 là môn học\r\nchuyên ngành trang bị kiến thức về tên thuốc và đặc điểm\r\ncấu\n\ntrúc hóa học, \ncơ chế\r\ntác dụng ở mức độ phân tử; \ntính chất lý hóa\n, \nnguyên tắc điều chế và kiểm nghiệm\n của các nhóm thuốc. Học phần cung\r\ncấp các kiến thức về mối liên quan \ncấu trúc – tác dụng của một số nhóm thuốc thông dụng\n,\n\nphân tích cấu trúc\r\nvà đưa ra các thông tin liên quan đến\n động lực học của thuốc, đề xuất phương pháp kiểm nghiệm và\r\ntổng hợp; rèn luyện các kỹ năng tiếng anh chuyên ngành, \ntra cứu thông\r\ntin, \nthái độ, tinh thần\r\ntrách nhiệm, hợp tác trong công việc và đạo đức nghề nghiệp\n.\nMôn học gồm các nội dung chính sau:\n\nPhần 1: Những phương hướng cơ bản và vai trò của hóa dược trong nhiệm vụ điều chế và nghiên cứu các chất làm thuốc.\n\nPhần 2: Các nhóm thuốc hóa dược cơ bản: thuốc điều trị bệnh truyền nhiễm, thuốc kháng ung thư, thuốc tác động trên hệ tiêu hóa, thuốc điều chỉnh rối loạn hormon.",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Nhận biết được cấu trúc hóa học, tính chất hóa học, phương pháp điều chế của các nhóm thuốc hóa dược."
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Phân tích được mối liên quan cấu trúc và tác dụng sinh học của các nhóm thuốc hóa dược."
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Vận dụng kiến thức hóa dược trong nghiên cứu, sản xuất thuốc và trong sử dụng thuốc an toàn, hiệu quả và hợp lý."
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Đánh giá quá trình 1",
+      "type": "Bài tập quá trình",
+      "part": "1",
+      "weight": "20%",
+      "completionCriteria": "0",
+      "gradingGuide": "Process Exercise",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 2,
+      "category": "Kiểm tra giữa kỳ",
+      "type": "Trắc nghiệm",
+      "part": "2",
+      "weight": "30%",
+      "completionCriteria": "0",
+      "gradingGuide": "Multiple Choice Questions",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    },
+    {
+      "id": 3,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Trắc nghiệm,Tự luận",
+      "part": "3",
+      "weight": "50%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Multiple Choice Questions,Written Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Hóa dược đại cương",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thuốc điều trị bệnh truyền nhiễm",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 3,
+      "sessionNo": "3",
+      "topic": "Thuốc kháng ung thư",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 4,
+      "sessionNo": "4",
+      "topic": "Thuốc tác động lên hệ tiêu hóa",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 5,
+      "sessionNo": "5",
+      "topic": "Thuốc điều chỉnh rối loạn hormon",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}

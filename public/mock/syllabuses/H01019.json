@@ -1,0 +1,74 @@
+{
+  "info": {
+    "sylid": 275985,
+    "subjectCode": "H01019",
+    "syllabusName": "Thí nghiệm Thực vật (Pharmaceutical Botany Laboratory)",
+    "syllabusEnglish": "Pharmaceutical Botany Laboratory",
+    "credits": "1",
+    "degreeLevel": "Bachelor",
+    "description": "Phần 1. Hình thái – Giải phẫu thực vật (Bài 1, 2, 3, 4, 5, 6, 7)\nPhần 2. Phân loại thực vật (Bài 8, 9)",
+    "scoringScale": "10.0",
+    "minAvgToPass": "5.0",
+    "isApproved": 1,
+    "decisionNo": "Ban hành theo QĐ CTĐT TDTU",
+    "approvedDate": "2026",
+    "isActive": 1
+  },
+  "clos": [
+    {
+      "id": 1,
+      "loSeq": "1",
+      "cloName": "CO1",
+      "loDetails": "Biết cách thực hiện tiêu bản thực vật"
+    },
+    {
+      "id": 2,
+      "loSeq": "2",
+      "cloName": "CO2",
+      "loDetails": "Mô tả được đặc điểm cấu tạo của mô thực vật, đặc điểm giải phẫu của các cơ quan"
+    },
+    {
+      "id": 3,
+      "loSeq": "3",
+      "cloName": "CO3",
+      "loDetails": "Nhận diện và mô tả các đặc điểm của một số họ thực vật"
+    },
+    {
+      "id": 4,
+      "loSeq": "4",
+      "cloName": "CO4",
+      "loDetails": "Phân biệt được các cơ quan thực vật, phân loại cây thuốc theo hệ thống phân loại thực vật phổ biến"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "category": "Kiểm tra cuối kỳ",
+      "type": "Thực hành thí nghiệm",
+      "part": "1",
+      "weight": "100%",
+      "completionCriteria": "4.0",
+      "gradingGuide": "Laboratory Test",
+      "knowledgeSkill": "Kiến thức và kỹ năng theo đề cương môn học"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "sessionNo": "1",
+      "topic": "Hình thái – Giải phẫu thực vật ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    },
+    {
+      "id": 2,
+      "sessionNo": "2",
+      "topic": "Thi cuối kỳ",
+      "learningTeachingType": "Offline",
+      "lo": "CO1",
+      "studentTasks": "Lý thuyết: 0.0h | Thực hành: 0.0h | Tự học: 0.0h"
+    }
+  ],
+  "materials": []
+}
