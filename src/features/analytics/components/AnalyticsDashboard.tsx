@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { Button } from "@/components/ui/button"
 import { Award, BookOpen, GraduationCap, Building2, TrendingUp, CheckCircle2, ShieldCheck, Sparkles, Download, FileSpreadsheet, FileJson } from "lucide-react"
+import { useTranslations } from "next-intl"
 import { exportAnalyticsDatasetToCsv, exportAnalyticsDatasetToJson } from "@/lib/exportUtils"
 
 // Real per-university program counts and mean SLM scores (source: slm_strict_v2,
@@ -34,6 +35,8 @@ const DISTRIBUTIONS = [
 ]
 
 export const AnalyticsDashboard = () => {
+    const t = useTranslations("programs")
+
     return (
         <div className="container mx-auto py-8 px-4 space-y-8 animate-in fade-in duration-500">
             {/* Header */}
@@ -46,12 +49,12 @@ export const AnalyticsDashboard = () => {
                         </Badge>
                         <Badge variant="outline" className="bg-emerald-500/10 text-emerald-500 border-emerald-500/20 gap-1">
                             <ShieldCheck className="w-3.5 h-3.5" />
-                            <span>7.31/10.0 Mean Quality Score</span>
+                            <span>7.31/10.0 {t("slmRefScore")}</span>
                         </Badge>
                     </div>
                     <h1 className="text-3xl font-extrabold tracking-tight">Dashboard Phân tích & So sánh 12 Trường Đại học</h1>
                     <p className="text-muted-foreground text-sm mt-1">
-                        Hệ thống thống kê toàn diện chất lượng 1.551 chương trình đào tạo & 80.302 môn học trên Thang điểm 10.0 SLM Strict Rubric.
+                        Hệ thống thống kê toàn diện chất lượng 1.551 chương trình đào tạo & 80.302 môn học trên Thang điểm 10.0 SLM Strict Rubric ({t("slmRefScoreNote")}).
                     </p>
                 </div>
 
@@ -104,12 +107,12 @@ export const AnalyticsDashboard = () => {
 
                 <Card className="bg-card/50 backdrop-blur border-indigo-500/20 shadow-sm">
                     <CardHeader className="flex flex-row items-center justify-between pb-2">
-                        <CardTitle className="text-xs font-semibold text-muted-foreground uppercase">Điểm TB Toàn Hệ thống</CardTitle>
+                        <CardTitle className="text-xs font-semibold text-muted-foreground uppercase">{t("slmRefScore")} — TB toàn hệ thống</CardTitle>
                         <TrendingUp className="w-4 h-4 text-indigo-500" />
                     </CardHeader>
                     <CardContent>
                         <div className="text-2xl font-bold text-indigo-500">7.31 / 10.0</div>
-                        <p className="text-[11px] text-muted-foreground mt-1">Điểm TB toàn hệ thống 7.31 (Xếp loại Đạt)</p>
+                        <p className="text-[11px] text-muted-foreground mt-1">7.31/10.0 — {t("slmRefScoreNote")}</p>
                     </CardContent>
                 </Card>
 
@@ -132,7 +135,7 @@ export const AnalyticsDashboard = () => {
                         <div className="flex items-center gap-2">
                             <Building2 className="w-5 h-5 text-primary" />
                             <div>
-                                <CardTitle className="text-lg">Xếp hạng Điểm SLM Trung bình theo Trường (Hoàn thiện Master)</CardTitle>
+                                <CardTitle className="text-lg">Xếp hạng {t("slmRefScore")} trung bình theo Trường</CardTitle>
                                 <CardDescription className="text-xs">So sánh chất lượng công bố CTĐT trên Thang điểm 10.0 giữa 12 trường đại học</CardDescription>
                             </div>
                         </div>
@@ -162,7 +165,7 @@ export const AnalyticsDashboard = () => {
                 <div className="space-y-6">
                     <Card className="border-border/60">
                         <CardHeader>
-                            <CardTitle className="text-lg">Phân bố Điểm số SLM Strict (10.0 Scale)</CardTitle>
+                            <CardTitle className="text-lg">Phân bố {t("slmRefScore")} (thang 10.0)</CardTitle>
                             <CardDescription className="text-xs">Tỷ lệ các phân vùng chất lượng 1.0 - 10.0</CardDescription>
                         </CardHeader>
                         <CardContent className="space-y-3">

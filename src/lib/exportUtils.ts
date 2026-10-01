@@ -67,7 +67,7 @@ export function exportProgramToJson(program: Program, courses: Curriculum[]) {
 }
 
 export function exportAnalyticsDatasetToCsv(uniStats: any[], distributions: any[]) {
-    const headers = ["Mã trường", "Tên trường Đại học", "Số lượng ngành", "Điểm SLM TB Thang 10", "Xếp loại"]
+    const headers = ["Mã trường", "Tên trường Đại học", "Số lượng ngành", "Điểm SLM tham khảo TB (thang 10)", "Xếp loại"]
     const rows = uniStats.map(u => [
         u.code,
         `"${u.name.replace(/"/g, '""')}"`,

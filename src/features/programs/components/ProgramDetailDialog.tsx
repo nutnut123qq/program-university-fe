@@ -145,6 +145,17 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     const cohorts = useMemo(() => extractCohorts(program?.code, program?.name), [program])
     const specialization = useMemo(() => extractSpecialization(program?.name), [program])
 
+    // Provenance: display only the domain from the real sourceUrl (no fabricated fallback)
+    const sourceDomain = useMemo(() => {
+        if (!program?.sourceUrl) return null
+        try {
+            return new URL(program.sourceUrl).hostname.replace(/^www\./, "")
+        } catch {
+            return program.sourceUrl
+        }
+    }, [program?.sourceUrl])
+    const lastCrawledText = program ? formatDate(program.lastCrawled) : null
+
     // Instant Course Search & Semester Filter
     const filteredCourses = useMemo(() => {
         if (!courses) return []
@@ -228,6 +239,29 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                             </Badge>
                                         )}
                                     </div>
+                                    {(program.sourceUrl || program.lastCrawled) && (
+                                        <p className="flex flex-wrap items-center gap-x-3 gap-y-0.5 pt-0.5 text-[11px] text-muted-foreground">
+                                            <span className="inline-flex items-center gap-1">
+                                                Nguồn:{" "}
+                                                {program.sourceUrl ? (
+                                                    <a
+                                                        href={program.sourceUrl}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="inline-flex items-center gap-0.5 text-primary hover:underline"
+                                                    >
+                                                        {sourceDomain}
+                                                        <ExternalLink className="h-2.5 w-2.5" />
+                                                    </a>
+                                                ) : (
+                                                    "—"
+                                                )}
+                                            </span>
+                                            <span className="inline-flex items-center gap-1">
+                                                Cập nhật: {lastCrawledText ?? "—"}
+                                            </span>
+                                        </p>
+                                    )}
                                 </div>
                                 <div className="flex items-center gap-1.5 shrink-0">
                                     <Button
@@ -614,11 +648,11 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                         <div className="flex items-center justify-between border-b pb-4">
                                             <div>
                                                 <h3 className="font-bold text-base">Đánh giá Chất lượng CTĐT (AUN-QA Rubric)</h3>
-                                                <p className="text-xs text-muted-foreground">Mô hình SLM Workflow đánh giá tự động dựa trên 4 tiêu chí cốt lõi</p>
+                                                <p className="text-xs text-muted-foreground">Mô hình SLM Workflow chấm trên 4 tiêu chí cốt lõi — {t("slmRefScoreNote")}</p>
                                             </div>
                                             {program.evaluationScore && (
-                                                <Badge variant="outline" className="text-sm font-extrabold px-3 py-1 bg-primary/10 text-primary border-primary/20">
-                                                    SLM Score: {program.evaluationScore.toFixed(1)} / 10.0
+                                                <Badge variant="outline" className="text-sm font-extrabold px-3 py-1 bg-primary/10 text-primary border-primary/20" title={t("slmRefScoreNote")}>
+                                                    {t("slmRefScore")}: {program.evaluationScore.toFixed(1)} / 10.0
                                                 </Badge>
                                             )}
                                         </div>

@@ -9,7 +9,7 @@
   },
   "programs": {
     "title": "University Training Programs Search",
-    "subtitle": "National database search, standardization & quality rubric evaluation of 1,551 academic programs",
+    "subtitle": "Search, standardization & quality rubric evaluation of 1,551 academic programs across 12 universities",
     "searchPlaceholder": "Search program name, code, or university...",
     "allUniversities": "All Universities",
     "allUniversityTypes": "All Types",
@@ -30,6 +30,8 @@
     "gpaTab": "Career & GPA",
     "rawDocumentsTab": "Raw Snapshots",
     "evalTab": "AUN-QA Evaluation",
+    "slmRefScore": "SLM reference score",
+    "slmRefScoreNote": "Automated evaluation, not expert-calibrated",
     "programCode": "Program Code",
     "duration": "Duration",
     "tuition": "Tuition Fee",
@@ -62,12 +64,13 @@
     "clearFilters": "Clear filters"
   },
   "chat": {
-    "title": "AI Q&A",
+    "title": "Experimental Assistant",
+    "subtitle": "searches a data snapshot, not an AI/LLM",
     "back": "Back",
     "newChat": "New Chat",
     "placeholder": "Ask about programs or courses...",
     "loading": "Searching for information...",
-    "greeting": "Hello! How can I help you with information about university programs and courses?",
+    "greeting": "Hello! I'm an experimental assistant — I search a data snapshot, not an AI/LLM. How can I help you with information about university programs and courses?",
     "error": "Unable to load response at this time. Please try again later.",
     "expand": "Expand",
     "collapse": "Collapse",
@@ -78,6 +81,6 @@
     "yesterday": "Yesterday",
     "previous7Days": "Previous 7 Days",
     "older": "Older",
-    "disclaimer": "AI can make mistakes. Please verify important information."
+    "disclaimer": "Experimental assistant — searches a data snapshot, not an AI/LLM. Results may be incomplete; please verify important information."
   }
 }

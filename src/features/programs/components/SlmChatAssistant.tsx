@@ -58,7 +58,7 @@ export const SlmChatAssistant = () => {
                     className="h-11 px-4 rounded-full shadow-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-all gap-2 text-xs font-medium"
                 >
                     <MessageSquare className="w-4 h-4" />
-                    <span>{t("title") || "AI Hỏi đáp"}</span>
+                    <span>{t("title") || "Trợ lý thử nghiệm"}</span>
                 </Button>
             )}
 
@@ -67,8 +67,11 @@ export const SlmChatAssistant = () => {
                 <Card className="w-[360px] sm:w-[400px] h-[520px] shadow-xl border flex flex-col animate-in slide-in-from-bottom-5 duration-200">
                     <CardHeader className="p-3.5 border-b flex flex-row items-center justify-between space-y-0">
                         <div className="flex items-center gap-2">
-                            <Bot className="w-4 h-4 text-primary" />
-                            <CardTitle className="text-sm font-semibold">{t("title") || "AI Hỏi đáp"}</CardTitle>
+                            <Bot className="w-4 h-4 text-primary shrink-0" />
+                            <div className="min-w-0">
+                                <CardTitle className="text-sm font-semibold leading-tight">{t("title") || "Trợ lý thử nghiệm"}</CardTitle>
+                                <p className="text-[10px] text-muted-foreground leading-tight">{t("subtitle") || "tra cứu trên snapshot dữ liệu, không phải AI/LLM"}</p>
+                            </div>
                         </div>
                         <div className="flex items-center gap-1">
                             <Button variant="ghost" size="icon" onClick={() => createSession()} className="h-7 w-7 text-muted-foreground hover:text-foreground" title={t("newChat") || "Cuộc trò chuyện mới"}>
@@ -147,6 +150,9 @@ export const SlmChatAssistant = () => {
                         >
                             <Send className="w-3.5 h-3.5" />
                         </Button>
+                    </div>
+                    <div className="px-2.5 pb-2 text-center text-[10px] text-muted-foreground">
+                        {t("disclaimer") || "Trợ lý thử nghiệm — tra cứu trên snapshot dữ liệu, không phải AI/LLM."}
                     </div>
                 </Card>
             )}

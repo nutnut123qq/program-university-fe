@@ -230,7 +230,10 @@ export const ChatPage = () => {
                         </Button>
                         <span className="font-semibold text-sm sm:text-base flex items-center gap-2 truncate">
                             <Bot className="w-4 h-4 text-primary shrink-0" />
-                            <span className="truncate">{currentSession?.title || t("title") || "AI Hỏi đáp"}</span>
+                            <span className="truncate">{currentSession?.title || t("title") || "Trợ lý thử nghiệm"}</span>
+                            <span className="hidden md:inline text-[11px] font-normal text-muted-foreground shrink-0">
+                                — {t("subtitle") || "tra cứu trên snapshot dữ liệu, không phải AI/LLM"}
+                            </span>
                         </span>
                     </div>
 
@@ -347,7 +350,7 @@ export const ChatPage = () => {
                             </Button>
                         </div>
                         <div className="text-center text-[10px] text-muted-foreground">
-                            {t("disclaimer") || "AI có thể mắc lỗi. Vui lòng kiểm tra lại các thông tin quan trọng."}
+                            {t("disclaimer") || "Trợ lý thử nghiệm — tra cứu trên snapshot dữ liệu, không phải AI/LLM."}
                         </div>
                     </div>
                 </div>

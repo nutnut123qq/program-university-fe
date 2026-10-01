@@ -9,7 +9,7 @@
   },
   "programs": {
     "title": "Tra cứu Chương trình Đào tạo Đại học",
-    "subtitle": "Hệ thống tra cứu, chuẩn hóa dữ liệu & đánh giá chất lượng 1.551 ngành học trên toàn quốc",
+    "subtitle": "Hệ thống tra cứu, chuẩn hóa dữ liệu & đánh giá chất lượng 1.551 ngành học của 12 trường đại học",
     "searchPlaceholder": "Tìm tên ngành, mã ngành hoặc tên trường đại học...",
     "allUniversities": "Tất cả các trường",
     "allUniversityTypes": "Tất cả loại hình",
@@ -30,6 +30,8 @@
     "gpaTab": "Lộ trình & GPA",
     "rawDocumentsTab": "Tài liệu thô",
     "evalTab": "Đánh giá AUN-QA",
+    "slmRefScore": "Điểm SLM tham khảo",
+    "slmRefScoreNote": "Đánh giá tự động, chưa hiệu chuẩn chuyên gia",
     "programCode": "Mã ngành",
     "duration": "Thời gian đào tạo",
     "tuition": "Học phí",
@@ -62,12 +64,13 @@
     "clearFilters": "Xóa bộ lọc"
   },
   "chat": {
-    "title": "AI Hỏi đáp",
+    "title": "Trợ lý thử nghiệm",
+    "subtitle": "tra cứu trên snapshot dữ liệu, không phải AI/LLM",
     "back": "Quay lại",
     "newChat": "Cuộc trò chuyện mới",
     "placeholder": "Nhập câu hỏi về ngành hoặc môn học...",
     "loading": "Đang tìm kiếm thông tin...",
-    "greeting": "Xin chào! Tôi có thể hỗ trợ gì về thông tin chương trình đào tạo và môn học của các trường đại học?",
+    "greeting": "Xin chào! Tôi là trợ lý thử nghiệm — tra cứu trên snapshot dữ liệu, không phải AI/LLM. Tôi có thể hỗ trợ gì về thông tin chương trình đào tạo và môn học của các trường đại học?",
     "error": "Không thể tải câu trả lời vào lúc này. Vui lòng thử lại sau.",
     "expand": "Mở rộng",
     "collapse": "Thu nhỏ",
@@ -78,6 +81,6 @@
     "yesterday": "Hôm qua",
     "previous7Days": "7 ngày qua",
     "older": "Cũ hơn",
-    "disclaimer": "AI có thể mắc lỗi. Vui lòng kiểm tra lại các thông tin quan trọng."
+    "disclaimer": "Trợ lý thử nghiệm — tra cứu trên snapshot dữ liệu, không phải AI/LLM. Kết quả có thể chưa đầy đủ, vui lòng kiểm tra lại thông tin quan trọng."
   }
 }

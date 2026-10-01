@@ -8,8 +8,10 @@ import { Scale, GraduationCap, ArrowRightLeft, CheckCircle2, AlertCircle } from 
 import { fetchPrograms, fetchCurricula } from "@/features/programs/api"
 import { Program } from "@/features/programs/types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
+import { useTranslations } from "next-intl"
 
 export const ProgramComparison = () => {
+    const t = useTranslations("programs")
     const { data: programRes } = useSWR(["programs-list-all"], () => fetchPrograms({ page: 1, pageSize: 200 }))
     const programsList = programRes?.items || []
 
@@ -65,7 +67,7 @@ export const ProgramComparison = () => {
                 </div>
                 <h1 className="text-3xl font-extrabold tracking-tight">So sánh Trực tiếp 2 Chương trình Đào tạo</h1>
                 <p className="text-muted-foreground text-sm">
-                    Phân tích điểm tương đồng, sự khác biệt về số tín chỉ, môn học trùng lặp và biểu đồ đánh giá SLM Rubric.
+                    Phân tích điểm tương đồng, sự khác biệt về số tín chỉ, môn học trùng lặp và biểu đồ {t("slmRefScore")} ({t("slmRefScoreNote")}).
                 </p>
             </div>
 
@@ -162,8 +164,9 @@ export const ProgramComparison = () => {
                                     <span className="font-semibold">{p1.duration || "N/A"}</span>
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">Điểm Đánh giá SLM</span>
+                                    <span className="text-muted-foreground block text-[11px]">{t("slmRefScore")}</span>
                                     <span className="font-extrabold text-sm text-emerald-500">{typeof p1.evaluationScore === "number" ? `${p1.evaluationScore.toFixed(1)} / 10.0` : "N/A"}</span>
+                                    <span className="block text-[10px] font-normal text-muted-foreground leading-tight">{t("slmRefScoreNote")}</span>
                                 </div>
                             </div>
 
@@ -203,8 +206,9 @@ export const ProgramComparison = () => {
                                     <span className="font-semibold">{p2.duration || "N/A"}</span>
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">Điểm Đánh giá SLM</span>
+                                    <span className="text-muted-foreground block text-[11px]">{t("slmRefScore")}</span>
                                     <span className="font-extrabold text-sm text-emerald-500">{typeof p2.evaluationScore === "number" ? `${p2.evaluationScore.toFixed(1)} / 10.0` : "N/A"}</span>
+                                    <span className="block text-[10px] font-normal text-muted-foreground leading-tight">{t("slmRefScoreNote")}</span>
                                 </div>
                             </div>
 
