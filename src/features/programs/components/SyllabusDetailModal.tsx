@@ -78,9 +78,10 @@ export function SyllabusDetailModal({
     )
     const isSyllabusLoading = isUniversityLoading || isSyllabusFetching
 
+    // Roadmaps are also stored per university (course codes collide across schools).
     const { data: roadmap, isLoading: isRoadmapLoading } = useSWR(
-        subjectCode ? ["roadmap", subjectCode] : null,
-        () => fetchRoadmap(subjectCode)
+        open && subjectCode && universityCode ? ["roadmap", universityCode, subjectCode] : null,
+        () => fetchRoadmap(universityCode || "", subjectCode)
     )
 
     if (!open || !course) return null

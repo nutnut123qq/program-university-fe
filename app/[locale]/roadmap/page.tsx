@@ -49,10 +49,14 @@ export default function RoadmapPage() {
     const [selectedCode, setSelectedCode] = useState("SWE201c")
     const [syllabusModalCourse, setSyllabusModalCourse] = useState<Curriculum | null>(null)
 
-    const { data: indexList } = useSWR("roadmaps-index", fetchRoadmapsIndex)
+    // This explorer is scoped to the FPT crawl (popular subjects + index are FPT codes).
+    const { data: indexList } = useSWR(
+        ["roadmaps-index", "FPT"],
+        () => fetchRoadmapsIndex("FPT")
+    )
     const { data: currentRoadmap, isLoading: isRoadmapLoading } = useSWR(
-        selectedCode ? ["roadmap", selectedCode] : null,
-        () => fetchRoadmap(selectedCode)
+        selectedCode ? ["roadmap", "FPT", selectedCode] : null,
+        () => fetchRoadmap("FPT", selectedCode)
     )
     const { data: currentSyllabus } = useSWR(
         // Roadmaps come from the FPT crawl, so their syllabi live under FPT.

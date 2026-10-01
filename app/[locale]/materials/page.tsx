@@ -56,7 +56,11 @@ export default function MaterialsPage() {
 
     const [selectedCourseForSyllabus, setSelectedCourseForSyllabus] = useState<Curriculum | null>(null)
 
-    const { data: materialsList, isLoading } = useSWR("materials-list", fetchMaterials)
+    // The materials library only contains the FPT crawl's dataset.
+    const { data: materialsList, isLoading } = useSWR(
+        ["materials-list", "FPT"],
+        () => fetchMaterials("FPT")
+    )
 
     const filteredMaterials = useMemo(() => {
         if (!materialsList) return []
@@ -369,6 +373,7 @@ export default function MaterialsPage() {
             {/* Syllabus Detail Modal */}
             <SyllabusDetailModal
                 course={selectedCourseForSyllabus}
+                universityCode="FPT"
                 open={!!selectedCourseForSyllabus}
                 onClose={() => setSelectedCourseForSyllabus(null)}
             />

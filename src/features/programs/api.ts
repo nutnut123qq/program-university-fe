@@ -7,6 +7,7 @@ import {
     RawDocument,
     SyllabusDetail,
     SubjectRoadmap,
+    SubjectMaterialSummary,
 } from "./types"
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001/api"
@@ -437,37 +438,56 @@ export async function fetchSyllabus(
     return null
 }
 
-export async function fetchRoadmap(subjectCode: string): Promise<SubjectRoadmap | null> {
-    if (!subjectCode) return null
+export async function fetchRoadmap(
+    universityCode: string,
+    subjectCode: string
+): Promise<SubjectRoadmap | null> {
+    if (!universityCode || !subjectCode) return null
+    const safeUni = universityCode.replace(/[^a-zA-Z0-9_\-]/g, "_")
     const safeCode = subjectCode.replace(/[^a-zA-Z0-9_\-]/g, "_")
-    if (mockRoadmapsCache.has(safeCode)) {
-        return mockRoadmapsCache.get(safeCode)!
+    const cacheKey = `${safeUni}/${safeCode}`
+    if (mockRoadmapsCache.has(cacheKey)) {
+        return mockRoadmapsCache.get(cacheKey)!
     }
 
     try {
-        const res = await fetch(`/mock/roadmaps/${safeCode}.json`)
+        const res = await fetch(`/mock/roadmaps/${safeUni}/${safeCode}.json`)
         if (res.ok) {
-            const data: SubjectRoadmap = await res.json()
-            mockRoadmapsCache.set(safeCode, data)
+            const raw = await res.json()
+            // Roadmap files differ per university crawl; normalize to SubjectRoadmap.
+            // FPT files use `code`/`directPrereqs`/`edges`/`names`; TDTU/NEU/UIT use
+            // `subjectCode`/`prerequisites` and carry extra info fields.
+            const data: SubjectRoadmap = {
+                ...raw,
+                code: raw.code ?? raw.subjectCode ?? subjectCode,
+                directPrereqs: raw.directPrereqs ?? raw.prerequisites ?? [],
+                unlocks: raw.unlocks ?? [],
+                edges: raw.edges ?? [],
+                names: raw.names ?? {},
+            }
+            mockRoadmapsCache.set(cacheKey, data)
             return data
         }
     } catch (e) {
-        console.warn(`Could not load roadmap for ${subjectCode}:`, e)
+        console.warn(`Could not load roadmap for ${universityCode}/${subjectCode}:`, e)
     }
 
-    mockRoadmapsCache.set(safeCode, null)
+    mockRoadmapsCache.set(cacheKey, null)
     return null
 }
 
-let mockRoadmapsIndexCache: string[] | null = null
-export async function fetchRoadmapsIndex(): Promise<string[]> {
-    if (mockRoadmapsIndexCache) return mockRoadmapsIndexCache
+const mockRoadmapsIndexCache = new Map<string, string[]>()
+export async function fetchRoadmapsIndex(universityCode: string): Promise<string[]> {
+    if (!universityCode) return []
+    const safeUni = universityCode.replace(/[^a-zA-Z0-9_\-]/g, "_")
+    const cached = mockRoadmapsIndexCache.get(safeUni)
+    if (cached) return cached
     try {
-        const res = await fetch("/mock/roadmaps-index.json")
+        const res = await fetch(`/mock/roadmaps/${safeUni}/index.json`)
         if (res.ok) {
             const data = await res.json()
             if (Array.isArray(data)) {
-                mockRoadmapsIndexCache = data
+                mockRoadmapsIndexCache.set(safeUni, data)
                 return data
             }
         }
@@ -477,20 +497,23 @@ export async function fetchRoadmapsIndex(): Promise<string[]> {
     return []
 }
 
-let mockMaterialsCache: import("./types").SubjectMaterialSummary[] | null = null
-export async function fetchMaterials(): Promise<import("./types").SubjectMaterialSummary[]> {
-    if (mockMaterialsCache) return mockMaterialsCache
+const mockMaterialsCache = new Map<string, SubjectMaterialSummary[]>()
+export async function fetchMaterials(universityCode: string): Promise<SubjectMaterialSummary[]> {
+    if (!universityCode) return []
+    const safeUni = universityCode.replace(/[^a-zA-Z0-9_\-]/g, "_")
+    const cached = mockMaterialsCache.get(safeUni)
+    if (cached) return cached
     try {
-        const res = await fetch("/mock/materials.json")
+        const res = await fetch(`/mock/materials/${safeUni}.json`)
         if (res.ok) {
             const data = await res.json()
             if (Array.isArray(data)) {
-                mockMaterialsCache = data
+                mockMaterialsCache.set(safeUni, data)
                 return data
             }
         }
     } catch (e) {
-        console.warn("Could not load materials:", e)
+        console.warn(`Could not load materials for ${universityCode}:`, e)
     }
     return []
 }
