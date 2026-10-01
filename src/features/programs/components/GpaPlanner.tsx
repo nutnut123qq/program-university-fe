@@ -84,7 +84,7 @@ export const GpaPlanner: React.FC<GpaPlannerProps> = ({ courses }) => {
                         <Compass className="w-5 h-5 text-primary" />
                         <div>
                             <CardTitle className="text-base font-bold">Gợi ý Lộ trình Học tập theo Mục tiêu Nghề nghiệp</CardTitle>
-                            <CardDescription className="text-xs">Hệ thống AI phân tích và lọc ra các môn học nòng cốt nhất trong CTĐT tương ứng với định hướng công việc</CardDescription>
+                            <CardDescription className="text-xs">Lọc các môn học nòng cốt nhất trong CTĐT tương ứng với định hướng công việc</CardDescription>
                         </div>
                     </div>
                 </CardHeader>
