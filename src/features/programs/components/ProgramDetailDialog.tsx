@@ -169,12 +169,16 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         { key: "eval", label: t("evalTab") },
     ]
 
-    const evalRadarScores: AunCriterionScore[] = program ? [
-        { id: "outcomes", name: "Chuẩn đầu ra (PLO)", score: Math.min(5, Math.max(1, (program.evalOutcomes || (program.evaluationScore ? program.evaluationScore * 0.45 : 4)))) },
-        { id: "structure", name: "Cấu trúc CTĐT", score: Math.min(5, Math.max(1, (program.evalStructure || (program.evaluationScore ? program.evaluationScore * 0.48 : 4.2)))) },
-        { id: "blocks", name: "Khối kiến thức", score: Math.min(5, Math.max(1, (program.evalKnowledgeBlocks || (program.evaluationScore ? program.evaluationScore * 0.5 : 4.5)))) },
-        { id: "completeness", name: "Tính đầy đủ Dữ liệu", score: Math.min(5, Math.max(1, (program.evalCompleteness || (program.evaluationScore ? program.evaluationScore * 0.5 : 4.8)))) },
+    const evalComponents: { id: string; name: string; score: number | undefined }[] = program ? [
+        { id: "outcomes", name: "Chuẩn đầu ra (PLO)", score: program.evalOutcomes },
+        { id: "structure", name: "Cấu trúc CTĐT", score: program.evalStructure },
+        { id: "blocks", name: "Khối kiến thức", score: program.evalKnowledgeBlocks },
+        { id: "completeness", name: "Tính đầy đủ Dữ liệu", score: program.evalCompleteness },
     ] : []
+    const hasEvalComponents = evalComponents.every((c) => typeof c.score === "number")
+    const evalRadarScores: AunCriterionScore[] = hasEvalComponents
+        ? evalComponents.map((c) => ({ id: c.id, name: c.name, score: c.score as number }))
+        : []
 
     return (
         <AnimatePresence>
@@ -619,34 +623,43 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                             )}
                                         </div>
 
-                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                                            <div className="flex flex-col items-center justify-center p-4 bg-muted/20 rounded-xl border">
-                                                <AunRadarChart scores={evalRadarScores} size={260} />
+                                        {!hasEvalComponents ? (
+                                            <div className="flex flex-col items-center justify-center gap-2 py-10 text-center">
+                                                <AlertCircle className="h-8 w-8 text-muted-foreground/50" />
+                                                <p className="text-sm text-muted-foreground">
+                                                    Chưa có dữ liệu đánh giá cho chương trình này.
+                                                </p>
                                             </div>
+                                        ) : (
+                                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                                                <div className="flex flex-col items-center justify-center p-4 bg-muted/20 rounded-xl border">
+                                                    <AunRadarChart scores={evalRadarScores} size={260} />
+                                                </div>
 
-                                            <div className="space-y-3">
-                                                <CriterionItem
-                                                    title="1. Chuẩn đầu ra (Outcomes - Bloom Taxonomy)"
-                                                    score={evalRadarScores[0]?.score || 4}
-                                                    description="Mức độ cụ thể, đo lường được và sự phù hợp với khung trình độ quốc gia."
-                                                />
-                                                <CriterionItem
-                                                    title="2. Cấu trúc Chương trình (Structure & Credit Distribution)"
-                                                    score={evalRadarScores[1]?.score || 4.2}
-                                                    description="Sự cân đối về thời lượng, tổng số tín chỉ và tính khả thi của tiến trình."
-                                                />
-                                                <CriterionItem
-                                                    title="3. Phân tầng Khối kiến thức (Knowledge Blocks)"
-                                                    score={evalRadarScores[2]?.score || 4.5}
-                                                    description="Tỷ lệ hợp lý giữa kiến thức Đại cương, Cơ sở ngành, Chuyên ngành và Tốt nghiệp."
-                                                />
-                                                <CriterionItem
-                                                    title="4. Tính Đầy đủ Dữ liệu công bố (Completeness)"
-                                                    score={evalRadarScores[3]?.score || 4.8}
-                                                    description="Mức độ minh bạch thông tin về mô tả môn, điều kiện tiên quyết và học phí."
-                                                />
+                                                <div className="space-y-3">
+                                                    <CriterionItem
+                                                        title="1. Chuẩn đầu ra (Outcomes - Bloom Taxonomy)"
+                                                        score={evalRadarScores[0].score}
+                                                        description="Mức độ cụ thể, đo lường được và sự phù hợp với khung trình độ quốc gia."
+                                                    />
+                                                    <CriterionItem
+                                                        title="2. Cấu trúc Chương trình (Structure & Credit Distribution)"
+                                                        score={evalRadarScores[1].score}
+                                                        description="Sự cân đối về thời lượng, tổng số tín chỉ và tính khả thi của tiến trình."
+                                                    />
+                                                    <CriterionItem
+                                                        title="3. Phân tầng Khối kiến thức (Knowledge Blocks)"
+                                                        score={evalRadarScores[2].score}
+                                                        description="Tỷ lệ hợp lý giữa kiến thức Đại cương, Cơ sở ngành, Chuyên ngành và Tốt nghiệp."
+                                                    />
+                                                    <CriterionItem
+                                                        title="4. Tính Đầy đủ Dữ liệu công bố (Completeness)"
+                                                        score={evalRadarScores[3].score}
+                                                        description="Mức độ minh bạch thông tin về mô tả môn, điều kiện tiên quyết và học phí."
+                                                    />
+                                                </div>
                                             </div>
-                                        </div>
+                                        )}
                                     </div>
                                 )}
                             </div>
