@@ -120,9 +120,11 @@ export function SyllabusDetailModal({
                                         Học kỳ {course.semester}
                                     </Badge>
                                 )}
-                                <Badge variant="outline" className="font-mono text-xs text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 border-emerald-500/20 font-semibold">
-                                    {course.credits ?? 3} Tín chỉ
-                                </Badge>
+                                {course.credits != null && (
+                                    <Badge variant="outline" className="font-mono text-xs text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 border-emerald-500/20 font-semibold">
+                                        {course.credits} Tín chỉ
+                                    </Badge>
+                                )}
                                 {course.knowledgeBlock && (
                                     <Badge variant="secondary" className="text-[11px] font-medium">
                                         {course.knowledgeBlock}
@@ -242,7 +244,7 @@ export function SyllabusDetailModal({
                                                     Trọng số các đầu điểm & Tiêu chí chống liệt
                                                 </h4>
                                                 <p className="text-xs text-muted-foreground mt-0.5">
-                                                    Tổng trọng số các đầu điểm: <strong className="text-foreground">{totalWeight || 100}%</strong>
+                                                    Tổng trọng số các đầu điểm: <strong className="text-foreground">{assessments.length > 0 ? `${totalWeight}%` : "N/A"}</strong>
                                                 </p>
                                             </div>
                                             <Badge variant="outline" className="font-mono text-xs w-fit">

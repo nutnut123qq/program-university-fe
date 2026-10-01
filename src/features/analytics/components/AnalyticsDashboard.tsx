@@ -8,27 +8,29 @@ import { Button } from "@/components/ui/button"
 import { Award, BookOpen, GraduationCap, Building2, TrendingUp, CheckCircle2, ShieldCheck, Sparkles, Download, FileSpreadsheet, FileJson } from "lucide-react"
 import { exportAnalyticsDatasetToCsv, exportAnalyticsDatasetToJson } from "@/lib/exportUtils"
 
+// Real per-university program counts and mean SLM scores (source: slm_strict_v2,
+// covers all 1,551 programs). Status bands mirror the score distribution below.
 const UNI_STATS = [
-    { code: "NEU", name: "ĐH Kinh tế Quốc dân", count: 86, score: 8.77, status: "Xuất sắc", color: "bg-emerald-500 text-white" },
-    { code: "VNU", name: "ĐHQG Hà Nội", count: 137, score: 8.63, status: "Tốt", color: "bg-emerald-500 text-white" },
-    { code: "HCMUT", name: "ĐH Bách khoa ĐHQG-HCM", count: 373, score: 8.55, status: "Tốt", color: "bg-emerald-500 text-white" },
-    { code: "FTU", name: "ĐH Ngoại thương", count: 33, score: 8.45, status: "Tốt", color: "bg-emerald-500 text-white" },
-    { code: "UIT", name: "ĐH CNTT ĐHQG-HCM", count: 20, score: 8.26, status: "Tốt", color: "bg-emerald-500 text-white" },
-    { code: "HUST", name: "ĐH Bách khoa Hà Nội", count: 64, score: 8.09, status: "Tốt", color: "bg-emerald-500 text-white" },
-    { code: "UEH", name: "ĐH Kinh tế TP.HCM", count: 81, score: 7.88, status: "Tốt", color: "bg-emerald-500 text-white" },
-    { code: "TDTU", name: "ĐH Tôn Đức Thắng", count: 120, score: 7.25, status: "Đạt", color: "bg-blue-500 text-white" },
-    { code: "DTU", name: "ĐH Duy Tân", count: 82, score: 6.83, status: "Đạt", color: "bg-blue-500 text-white" },
-    { code: "UET", name: "ĐH Công nghệ ĐHQGHN", count: 20, score: 6.78, status: "Đạt", color: "bg-blue-500 text-white" },
-    { code: "HCMUS", name: "ĐH KHTN ĐHQG-HCM", count: 38, score: 6.74, status: "Đạt", color: "bg-blue-500 text-white" },
-    { code: "FPT", name: "ĐH FPT", count: 39, score: 5.95, status: "Cần cải thiện", color: "bg-amber-500 text-white" },
+    { code: "UIT", name: "ĐH CNTT ĐHQG-HCM", count: 20, score: 8.70, status: "Tốt", color: "bg-emerald-500 text-white" },
+    { code: "NEU", name: "ĐH Kinh tế Quốc dân", count: 86, score: 8.62, status: "Tốt", color: "bg-emerald-500 text-white" },
+    { code: "VNU", name: "ĐHQG Hà Nội", count: 137, score: 8.42, status: "Tốt", color: "bg-emerald-500 text-white" },
+    { code: "FPT", name: "ĐH FPT", count: 497, score: 8.22, status: "Tốt", color: "bg-emerald-500 text-white" },
+    { code: "UET", name: "ĐH Công nghệ ĐHQGHN", count: 20, score: 7.89, status: "Tốt", color: "bg-emerald-500 text-white" },
+    { code: "FTU", name: "ĐH Ngoại thương", count: 33, score: 7.88, status: "Tốt", color: "bg-emerald-500 text-white" },
+    { code: "UEH", name: "ĐH Kinh tế TP.HCM", count: 81, score: 7.61, status: "Tốt", color: "bg-emerald-500 text-white" },
+    { code: "HCMUS", name: "ĐH KHTN ĐHQG-HCM", count: 38, score: 7.57, status: "Tốt", color: "bg-emerald-500 text-white" },
+    { code: "HCMUT", name: "ĐH Bách khoa ĐHQG-HCM", count: 373, score: 6.27, status: "Đạt", color: "bg-blue-500 text-white" },
+    { code: "HUST", name: "ĐH Bách khoa Hà Nội", count: 64, score: 5.93, status: "Cần cải thiện", color: "bg-amber-500 text-white" },
+    { code: "TDTU", name: "ĐH Tôn Đức Thắng", count: 120, score: 5.69, status: "Cần cải thiện", color: "bg-amber-500 text-white" },
+    { code: "DTU", name: "ĐH Duy Tân", count: 82, score: 5.59, status: "Cần cải thiện", color: "bg-amber-500 text-white" },
 ]
 
 const DISTRIBUTIONS = [
-    { label: "9.0 - 10.0 (Xuất sắc AUN-QA Gold)", count: 359, pct: "32.8%", color: "text-emerald-500 border-emerald-500/20 bg-emerald-500/10" },
-    { label: "7.5 - 8.9 (Tốt / Standard)", count: 359, pct: "32.8%", color: "text-blue-500 border-blue-500/20 bg-blue-500/10" },
-    { label: "6.0 - 7.4 (Đạt yêu cầu)", count: 293, pct: "26.8%", color: "text-indigo-500 border-indigo-500/20 bg-indigo-500/10" },
-    { label: "4.0 - 5.9 (Cần cải thiện)", count: 82, pct: "7.5%", color: "text-amber-500 border-amber-500/20 bg-amber-500/10" },
-    { label: "1.0 - 3.9 (Phạt gắt thiếu PLO)", count: 0, pct: "0.0%", color: "text-emerald-500 border-emerald-500/20 bg-emerald-500/10" },
+    { label: "9.0 - 10.0 (Xuất sắc AUN-QA Gold)", count: 158, pct: "10.2%", color: "text-emerald-500 border-emerald-500/20 bg-emerald-500/10" },
+    { label: "7.5 - 8.9 (Tốt / Standard)", count: 658, pct: "42.4%", color: "text-blue-500 border-blue-500/20 bg-blue-500/10" },
+    { label: "6.0 - 7.4 (Đạt yêu cầu)", count: 384, pct: "24.8%", color: "text-indigo-500 border-indigo-500/20 bg-indigo-500/10" },
+    { label: "4.0 - 5.9 (Cần cải thiện)", count: 345, pct: "22.2%", color: "text-amber-500 border-amber-500/20 bg-amber-500/10" },
+    { label: "1.0 - 3.9 (Phạt gắt thiếu PLO)", count: 6, pct: "0.4%", color: "text-rose-500 border-rose-500/20 bg-rose-500/10" },
 ]
 
 export const AnalyticsDashboard = () => {
@@ -44,12 +46,12 @@ export const AnalyticsDashboard = () => {
                         </Badge>
                         <Badge variant="outline" className="bg-emerald-500/10 text-emerald-500 border-emerald-500/20 gap-1">
                             <ShieldCheck className="w-3.5 h-3.5" />
-                            <span>8.03/10.0 Mean Quality Score</span>
+                            <span>7.31/10.0 Mean Quality Score</span>
                         </Badge>
                     </div>
                     <h1 className="text-3xl font-extrabold tracking-tight">Dashboard Phân tích & So sánh 12 Trường Đại học</h1>
                     <p className="text-muted-foreground text-sm mt-1">
-                        Hệ thống thống kê toàn diện chất lượng 1.093 chương trình đào tạo & 57.935 môn học trên Thang điểm 10.0 SLM Strict Rubric.
+                        Hệ thống thống kê toàn diện chất lượng 1.551 chương trình đào tạo & 80.302 môn học trên Thang điểm 10.0 SLM Strict Rubric.
                     </p>
                 </div>
 
@@ -84,7 +86,7 @@ export const AnalyticsDashboard = () => {
                         <GraduationCap className="w-4 h-4 text-primary" />
                     </CardHeader>
                     <CardContent>
-                        <div className="text-2xl font-bold">1,093</div>
+                        <div className="text-2xl font-bold">1,551</div>
                         <p className="text-[11px] text-emerald-500 font-medium mt-1">Tất cả ngành trong dữ liệu đều có danh mục môn học</p>
                     </CardContent>
                 </Card>
@@ -95,7 +97,7 @@ export const AnalyticsDashboard = () => {
                         <BookOpen className="w-4 h-4 text-blue-500" />
                     </CardHeader>
                     <CardContent>
-                        <div className="text-2xl font-bold text-blue-500">57,935</div>
+                        <div className="text-2xl font-bold text-blue-500">80,302</div>
                         <p className="text-[11px] text-muted-foreground mt-1">Hầu hết môn học có đủ tín chỉ & học kỳ</p>
                     </CardContent>
                 </Card>
@@ -106,8 +108,8 @@ export const AnalyticsDashboard = () => {
                         <TrendingUp className="w-4 h-4 text-indigo-500" />
                     </CardHeader>
                     <CardContent>
-                        <div className="text-2xl font-bold text-indigo-500">8.03 / 10.0</div>
-                        <p className="text-[11px] text-muted-foreground mt-1">Vươn lên mốc 8.03 điểm (Xếp loại Tốt)</p>
+                        <div className="text-2xl font-bold text-indigo-500">7.31 / 10.0</div>
+                        <p className="text-[11px] text-muted-foreground mt-1">Điểm TB toàn hệ thống 7.31 (Xếp loại Đạt)</p>
                     </CardContent>
                 </Card>
 
@@ -117,8 +119,8 @@ export const AnalyticsDashboard = () => {
                         <Award className="w-4 h-4 text-emerald-500" />
                     </CardHeader>
                     <CardContent>
-                        <div className="text-2xl font-bold text-emerald-500">92.5% (1,011 Ngành)</div>
-                        <p className="text-[11px] text-emerald-500 font-medium mt-1">359 Ngành (32.8%) đạt AUN-QA Gold (9.0-10.0)</p>
+                        <div className="text-2xl font-bold text-emerald-500">77.4% (1,200 Ngành)</div>
+                        <p className="text-[11px] text-emerald-500 font-medium mt-1">158 Ngành (10.2%) đạt AUN-QA Gold (9.0-10.0)</p>
                     </CardContent>
                 </Card>
             </div>

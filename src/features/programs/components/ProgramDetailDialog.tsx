@@ -154,7 +154,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                 (c.courseName || "").toLowerCase().includes(courseSearch.toLowerCase()) ||
                 (c.courseCode || "").toLowerCase().includes(courseSearch.toLowerCase())
 
-            const matchesSem = semesterFilter === "all" || String(c.semester || 1) === semesterFilter
+            const matchesSem = semesterFilter === "all" || String(c.semester) === semesterFilter
 
             return matchesQuery && matchesSem
         })
@@ -461,15 +461,15 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                                     )}
                                                                 </td>
                                                                 <td className="px-4 py-3 text-center font-mono text-xs font-bold text-muted-foreground">
-                                                                    HK{course.semester || 1}
+                                                                    {course.semester != null ? `HK${course.semester}` : "N/A"}
                                                                 </td>
                                                                 <td className="px-4 py-3">
                                                                     <Badge variant="outline" className="text-[10px] font-mono font-medium">
-                                                                        {course.knowledgeBlock || "Chuyên ngành"}
+                                                                        {course.knowledgeBlock || "N/A"}
                                                                     </Badge>
                                                                 </td>
                                                                 <td className="px-4 py-3 text-right font-mono font-black text-primary">
-                                                                    {course.credits ?? 3} TC
+                                                                    {course.credits != null ? `${course.credits} TC` : "N/A"}
                                                                 </td>
                                                             </tr>
                                                         ))}

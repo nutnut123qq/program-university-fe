@@ -241,7 +241,7 @@ export const ProgramComparison = () => {
                             {commonCourses.slice(0, 15).map((c, i) => (
                                 <div key={i} className="p-2.5 rounded-lg border bg-muted/20 flex items-center justify-between text-xs">
                                     <span className="font-medium truncate">{c.courseName}</span>
-                                    <Badge variant="outline" className="font-mono text-[10px] ml-2 shrink-0">{c.credits || 3} TC</Badge>
+                                    <Badge variant="outline" className="font-mono text-[10px] ml-2 shrink-0">{c.credits != null ? `${c.credits} TC` : "N/A"}</Badge>
                                 </div>
                             ))}
                         </div>

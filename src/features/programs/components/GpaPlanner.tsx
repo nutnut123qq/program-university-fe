@@ -56,12 +56,12 @@ export const GpaPlanner: React.FC<GpaPlannerProps> = ({ courses }) => {
     // Calculate GPA
     const totalSelectedCredits = Object.keys(courseGrades).reduce((sum, courseId) => {
         const course = courses.find((c) => String(c.id) === String(courseId))
-        return sum + (course?.credits || 3)
+        return sum + (course?.credits ?? 0)
     }, 0)
 
     const totalGradePoints = Object.entries(courseGrades).reduce((sum, [courseId, gradePoint]) => {
         const course = courses.find((c) => String(c.id) === String(courseId))
-        return sum + gradePoint * (course?.credits || 3)
+        return sum + gradePoint * (course?.credits ?? 0)
     }, 0)
 
     const calculatedGpa = totalSelectedCredits > 0 ? (totalGradePoints / totalSelectedCredits).toFixed(2) : "0.00"
@@ -119,7 +119,7 @@ export const GpaPlanner: React.FC<GpaPlannerProps> = ({ courses }) => {
                                 <div key={c.id} className="p-2.5 rounded-lg border bg-background flex items-center justify-between text-xs">
                                     <span className="font-medium truncate">{c.courseName}</span>
                                     <Badge variant="outline" className="font-mono text-[10px] ml-2 shrink-0 bg-primary/10 text-primary border-primary/20">
-                                        {c.credits || 3} TC
+                                        {c.credits != null ? `${c.credits} TC` : "N/A"}
                                     </Badge>
                                 </div>
                             ))}
@@ -158,7 +158,7 @@ export const GpaPlanner: React.FC<GpaPlannerProps> = ({ courses }) => {
                                 <div>
                                     <p className="font-medium text-xs">{c.courseName}</p>
                                     <span className="text-[10px] text-muted-foreground font-mono">
-                                        Mã: {c.courseCode || "N/A"} • {c.credits || 3} Tín chỉ
+                                        Mã: {c.courseCode || "N/A"} • {c.credits != null ? `${c.credits} Tín chỉ` : "N/A"}
                                     </span>
                                 </div>
                                 <select

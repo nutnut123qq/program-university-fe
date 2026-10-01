@@ -32,10 +32,10 @@ async function loadMockIndex() {
     const res = await fetch("/mock/index.json")
     if (!res.ok) throw new Error(`Failed to load mock index: ${res.status}`)
     const data = await res.json()
-    const totalPages = data.totalPages || Math.ceil((data.totalCount || 1093) / (data.pageSize || 20))
+    const totalPages = data.totalPages || Math.ceil((data.totalCount || 0) / (data.pageSize || 20))
     const chunks = data.chunks || Array.from({ length: totalPages }, (_, i) => `page-${i + 1}.json`)
     mockProgramsIndexCache = {
-        totalCount: data.totalCount || 1093,
+        totalCount: data.totalCount || 0,
         pageSize: data.pageSize || 20,
         totalPages,
         chunks

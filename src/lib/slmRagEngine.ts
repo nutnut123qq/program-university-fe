@@ -81,7 +81,10 @@ export async function querySlmRag(userQuery: string, history?: Array<{role: stri
         // Case D: Query about "ngành"
         if (qLower.includes("ngành") || qLower.includes("công nghệ thông tin") || qLower.includes("ai") || qLower.includes("khoa học máy tính") || qLower.includes("kinh tế")) {
             const uniPrefix = matchedUni ? `tại ${matchedUni.name}` : "trong hệ thống"
-            return `Hệ thống hiện có dữ liệu của 1.093 chương trình đào tạo ${uniPrefix}.\n\nBạn có thể sử dụng thanh Tìm kiếm trên trang danh mục để xem chi tiết môn học và sơ đồ môn tiên quyết của từng ngành.`
+            const dataScope = typeof indexData?.totalCount === "number"
+                ? `dữ liệu của ${indexData.totalCount.toLocaleString("vi-VN")} chương trình đào tạo`
+                : "dữ liệu chương trình đào tạo"
+            return `Hệ thống hiện có ${dataScope} ${uniPrefix}.\n\nBạn có thể sử dụng thanh Tìm kiếm trên trang danh mục để xem chi tiết môn học và sơ đồ môn tiên quyết của từng ngành.`
         }
 
         const uniText = matchedUni ? `tại ${matchedUni.name} (${matchedUni.code})` : "của các trường đại học"

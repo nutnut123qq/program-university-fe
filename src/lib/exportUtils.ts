@@ -23,9 +23,9 @@ export function exportProgramToCsv(program: Program, courses: Curriculum[]) {
         i + 1,
         `"${(c.courseCode || "").replace(/"/g, '""')}"`,
         `"${(c.courseName || "").replace(/"/g, '""')}"`,
-        c.credits || 3,
-        c.semester || 1,
-        `"${(c.knowledgeBlock || "Chuyên ngành").replace(/"/g, '""')}"`,
+        c.credits ?? "",
+        c.semester ?? "",
+        `"${(c.knowledgeBlock || "").replace(/"/g, '""')}"`,
         c.mandatory ? "Có" : "Không",
         `"${(c.prerequisites || "").replace(/"/g, '""')}"`,
     ])
@@ -47,7 +47,7 @@ export function exportProgramToJson(program: Program, courses: Curriculum[]) {
             duration: program.duration,
             tuition: program.tuition,
             language: program.language,
-            evaluationScore: program.evaluationScore || 8.0,
+            evaluationScore: program.evaluationScore ?? null,
             sourceUrl: program.sourceUrl,
         },
         curricula: courses.map(c => ({
@@ -83,11 +83,11 @@ export function exportAnalyticsDatasetToCsv(uniStats: any[], distributions: any[
 export function exportAnalyticsDatasetToJson(uniStats: any[], distributions: any[]) {
     const data = {
         systemOverview: {
-            totalPrograms: 1093,
-            totalCourses: 57935,
-            meanQualityScore: 8.03,
-            goldRatio: "32.8%",
-            satisfactoryRatio: "92.5%",
+            totalPrograms: uniStats.reduce((sum, u) => sum + (u.count || 0), 0),
+            totalCourses: 80302,
+            meanQualityScore: 7.31,
+            goldRatio: "10.2%",
+            satisfactoryRatio: "77.4%",
             zeroCourseRatio: "0.0%",
         },
         universityRankings: uniStats,

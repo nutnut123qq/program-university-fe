@@ -31,7 +31,7 @@ export const KnowledgeBlockBreakdown: React.FC<KnowledgeBlockBreakdownProps> = (
 
         courses.forEach((c) => {
             const kb = (c.knowledgeBlock || "").toLowerCase()
-            const cr = c.credits || 3
+            const cr = c.credits ?? 0
             calculatedSumCredits += cr
 
             if (kb.includes("đại cương")) {

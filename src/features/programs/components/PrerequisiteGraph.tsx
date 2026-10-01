@@ -33,8 +33,10 @@ export const PrerequisiteGraph: React.FC<PrerequisiteGraphProps> = ({ courses, o
         for (let i = 1; i <= 8; i++) map.set(i, [])
 
         courses.forEach((course) => {
-            const sem = course.semester || 1
-            const clampedSem = Math.min(Math.max(sem, 1), 8)
+            // Unknown semester (null) goes to bucket 0 ("Chưa rõ") instead of
+            // being fabricated into Học kỳ 1.
+            const sem = course.semester ?? 0
+            const clampedSem = Math.min(Math.max(sem, 0), 8)
             const list = map.get(clampedSem) || []
             list.push(course)
             map.set(clampedSem, list)
@@ -177,13 +179,13 @@ export const PrerequisiteGraph: React.FC<PrerequisiteGraphProps> = ({ courses, o
                             return (c.knowledgeBlock || "").toLowerCase().includes(activeBlockFilter)
                         })
 
-                        const semCredits = filteredSemCourses.reduce((sum, c) => sum + (c.credits || 3), 0)
+                        const semCredits = filteredSemCourses.reduce((sum, c) => sum + (c.credits ?? 0), 0)
 
                         return (
                             <div key={semNum} className="flex-1 min-w-[150px] bg-muted/10 border rounded-xl p-3 space-y-3">
                                 {/* Semester Column Header */}
                                 <div className="border-b pb-2 text-center">
-                                    <h4 className="font-bold text-xs text-foreground uppercase tracking-wider">Học kỳ {semNum}</h4>
+                                    <h4 className="font-bold text-xs text-foreground uppercase tracking-wider">{semNum === 0 ? "Chưa rõ HK" : `Học kỳ ${semNum}`}</h4>
                                     <span className="text-[10px] text-muted-foreground font-mono font-medium">
                                         {filteredSemCourses.length} môn ({semCredits} TC)
                                     </span>
@@ -215,7 +217,7 @@ export const PrerequisiteGraph: React.FC<PrerequisiteGraphProps> = ({ courses, o
                                                 <div className="flex items-start justify-between gap-1">
                                                     <span className="font-mono font-bold text-[10px] opacity-80">{c.courseCode || "—"}</span>
                                                     <Badge variant="outline" className="text-[9px] px-1 py-0 font-mono bg-background/60">
-                                                        {c.credits || 3} TC
+                                                        {c.credits != null ? `${c.credits} TC` : "N/A"}
                                                     </Badge>
                                                 </div>
                                                 <p className="font-medium text-xs mt-1 line-clamp-2 leading-tight">{c.courseName}</p>
