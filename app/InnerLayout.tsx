@@ -5,7 +5,6 @@ import { NextThemesProvider, SwrProvider } from "@/components/providers"
 import { ReduxProvider } from "@/redux"
 import { UseEffects } from "@/hooks"
 import { Navbar } from "@/components/layouts"
-import { AIChatWidget, SlmChatModal } from "@/components/common"
 
 import { SlmChatAssistant } from "@/features/programs/components/SlmChatAssistant"
 import { ChatProvider } from "@/hooks/ChatProvider"

@@ -12,8 +12,8 @@ const figtree = Figtree({
 })
 
 export const metadata: Metadata = {
-    title: "Fe Project",
-    description: "Frontend project scaffold",
+    title: "Tedo — Tra cứu Chương trình Đào tạo Đại học",
+    description: "Hệ thống tra cứu, chuẩn hóa và so sánh chương trình đào tạo của các trường đại học Việt Nam",
 }
 
 const Layout = ({ children }: PropsWithChildren) => {

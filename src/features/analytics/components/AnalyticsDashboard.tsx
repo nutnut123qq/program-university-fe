@@ -40,7 +40,7 @@ export const AnalyticsDashboard = () => {
                     <div className="flex items-center gap-2 mb-1">
                         <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20 gap-1">
                             <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-                            <span>100% Data Perfection Master Verified</span>
+                            <span>Dữ liệu chuẩn hóa từ nguồn công bố chính thức</span>
                         </Badge>
                         <Badge variant="outline" className="bg-emerald-500/10 text-emerald-500 border-emerald-500/20 gap-1">
                             <ShieldCheck className="w-3.5 h-3.5" />
@@ -85,7 +85,7 @@ export const AnalyticsDashboard = () => {
                     </CardHeader>
                     <CardContent>
                         <div className="text-2xl font-bold">1,093</div>
-                        <p className="text-[11px] text-emerald-500 font-medium mt-1">100% (1,093/1,093) ngành có danh mục môn</p>
+                        <p className="text-[11px] text-emerald-500 font-medium mt-1">Tất cả ngành trong dữ liệu đều có danh mục môn học</p>
                     </CardContent>
                 </Card>
 
@@ -96,7 +96,7 @@ export const AnalyticsDashboard = () => {
                     </CardHeader>
                     <CardContent>
                         <div className="text-2xl font-bold text-blue-500">57,935</div>
-                        <p className="text-[11px] text-muted-foreground mt-1">100% môn học có đầy đủ tín chỉ & học kỳ</p>
+                        <p className="text-[11px] text-muted-foreground mt-1">Hầu hết môn học có đủ tín chỉ & học kỳ</p>
                     </CardContent>
                 </Card>
 
@@ -181,15 +181,15 @@ export const AnalyticsDashboard = () => {
                         <CardHeader>
                             <CardTitle className="text-sm flex items-center gap-2">
                                 <CheckCircle2 className="w-4 h-4 text-emerald-500" />
-                                <span>Hoàn thiện Triệt để 4 Tiêu chí Dữ liệu</span>
+                                <span>Chuẩn hóa Dữ liệu Chương trình</span>
                             </CardTitle>
                         </CardHeader>
                         <CardContent className="text-xs space-y-2 text-muted-foreground leading-relaxed">
                             <p>
-                                🟢 **100% Phân bổ Học kỳ & Tín chỉ**: Xóa bỏ hoàn toàn tình trạng thiếu học kỳ hay tín chỉ môn học trên toàn bộ 57.935 môn.
+                                🟢 **Phân bổ Học kỳ & Tín chỉ**: Đa số môn học đã có đủ thông tin học kỳ và số tín chỉ (~98.7% trong dataset hiện tại); phần còn lại đang được bổ sung.
                             </p>
                             <p>
-                                🟢 **Chuẩn hóa Phân tầng Khối kiến thức**: Phân loại tự động 100% môn học theo đúng 4 nhóm: Đại cương, Cơ sở ngành, Chuyên ngành và Tốt nghiệp.
+                                🟢 **Chuẩn hóa Phân tầng Khối kiến thức**: Các môn học được phân loại tự động theo 4 nhóm: Đại cương, Cơ sở ngành, Chuyên ngành và Tốt nghiệp.
                             </p>
                         </CardContent>
                     </Card>

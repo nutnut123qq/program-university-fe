@@ -4,9 +4,9 @@ import React, { useState } from "react"
 import useSWR from "swr"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Scale, GraduationCap, ArrowRightLeft, CheckCircle2, Layers, HelpCircle } from "lucide-react"
+import { Scale, GraduationCap, ArrowRightLeft, CheckCircle2, AlertCircle } from "lucide-react"
 import { fetchPrograms, fetchCurricula } from "@/features/programs/api"
-import { Program, Curriculum } from "@/features/programs/types"
+import { Program } from "@/features/programs/types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 
 export const ProgramComparison = () => {
@@ -37,14 +37,21 @@ export const ProgramComparison = () => {
 
     const getRadarScores = (prog?: Program): AunCriterionScore[] => {
         if (!prog) return []
-        const score = prog.evaluationScore || 8.0
-        return [
-            { id: "outcomes", name: "Chuẩn đầu ra", score: Math.min(5, Math.max(1, score * 0.45)) },
-            { id: "structure", name: "Cấu trúc CTĐT", score: Math.min(5, Math.max(1, score * 0.48)) },
-            { id: "blocks", name: "Khối kiến thức", score: Math.min(5, Math.max(1, score * 0.5)) },
-            { id: "completeness", name: "Tính đầy đủ Dữ liệu", score: Math.min(5, Math.max(1, score * 0.5)) },
+        // Real per-criterion evaluation scores (1-5). All four must be present —
+        // no interpolation from the aggregate evaluationScore.
+        const evalComponents = [
+            { id: "outcomes", name: "Chuẩn đầu ra", score: prog.evalOutcomes },
+            { id: "structure", name: "Cấu trúc CTĐT", score: prog.evalStructure },
+            { id: "blocks", name: "Khối kiến thức", score: prog.evalKnowledgeBlocks },
+            { id: "completeness", name: "Tính đầy đủ Dữ liệu", score: prog.evalCompleteness },
         ]
+        return evalComponents.every((c) => typeof c.score === "number")
+            ? evalComponents.map((c) => ({ id: c.id, name: c.name, score: c.score as number }))
+            : []
     }
+
+    const radarScores1 = getRadarScores(p1)
+    const radarScores2 = getRadarScores(p2)
 
     return (
         <div className="container mx-auto py-8 px-4 space-y-8 animate-in fade-in duration-500">
@@ -144,25 +151,32 @@ export const ProgramComparison = () => {
                             <div className="grid grid-cols-2 gap-3 text-xs">
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
                                     <span className="text-muted-foreground block text-[11px]">Trình độ đào tạo</span>
-                                    <span className="font-semibold text-sm">{p1.degreeType || "Cử nhân"}</span>
+                                    <span className="font-semibold text-sm">{p1.degreeType || "N/A"}</span>
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
                                     <span className="text-muted-foreground block text-[11px]">Tổng số tín chỉ</span>
-                                    <span className="font-semibold text-sm text-primary">{p1.credits || 135} TC</span>
+                                    <span className="font-semibold text-sm text-primary">{p1.credits != null ? `${p1.credits} TC` : "N/A"}</span>
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
                                     <span className="text-muted-foreground block text-[11px]">Thời gian đào tạo</span>
-                                    <span className="font-semibold">{p1.duration || "4 năm"}</span>
+                                    <span className="font-semibold">{p1.duration || "N/A"}</span>
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
                                     <span className="text-muted-foreground block text-[11px]">Điểm Đánh giá SLM</span>
-                                    <span className="font-extrabold text-sm text-emerald-500">{(p1.evaluationScore || 8.0).toFixed(1)} / 10.0</span>
+                                    <span className="font-extrabold text-sm text-emerald-500">{typeof p1.evaluationScore === "number" ? `${p1.evaluationScore.toFixed(1)} / 10.0` : "N/A"}</span>
                                 </div>
                             </div>
 
                             <div className="pt-2 border-t flex flex-col items-center">
                                 <span className="text-xs font-semibold mb-2">Biểu đồ Radar Rubric AUN-QA</span>
-                                <AunRadarChart scores={getRadarScores(p1)} size={220} />
+                                {radarScores1.length > 0 ? (
+                                    <AunRadarChart scores={radarScores1} size={220} />
+                                ) : (
+                                    <div className="flex flex-col items-center justify-center gap-2 py-8 text-center">
+                                        <AlertCircle className="h-7 w-7 text-muted-foreground/50" />
+                                        <p className="text-xs text-muted-foreground">Chưa có dữ liệu đánh giá cho chương trình này.</p>
+                                    </div>
+                                )}
                             </div>
                         </CardContent>
                     </Card>
@@ -178,25 +192,32 @@ export const ProgramComparison = () => {
                             <div className="grid grid-cols-2 gap-3 text-xs">
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
                                     <span className="text-muted-foreground block text-[11px]">Trình độ đào tạo</span>
-                                    <span className="font-semibold text-sm">{p2.degreeType || "Cử nhân"}</span>
+                                    <span className="font-semibold text-sm">{p2.degreeType || "N/A"}</span>
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
                                     <span className="text-muted-foreground block text-[11px]">Tổng số tín chỉ</span>
-                                    <span className="font-semibold text-sm text-indigo-500">{p2.credits || 135} TC</span>
+                                    <span className="font-semibold text-sm text-indigo-500">{p2.credits != null ? `${p2.credits} TC` : "N/A"}</span>
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
                                     <span className="text-muted-foreground block text-[11px]">Thời gian đào tạo</span>
-                                    <span className="font-semibold">{p2.duration || "4 năm"}</span>
+                                    <span className="font-semibold">{p2.duration || "N/A"}</span>
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
                                     <span className="text-muted-foreground block text-[11px]">Điểm Đánh giá SLM</span>
-                                    <span className="font-extrabold text-sm text-emerald-500">{(p2.evaluationScore || 8.0).toFixed(1)} / 10.0</span>
+                                    <span className="font-extrabold text-sm text-emerald-500">{typeof p2.evaluationScore === "number" ? `${p2.evaluationScore.toFixed(1)} / 10.0` : "N/A"}</span>
                                 </div>
                             </div>
 
                             <div className="pt-2 border-t flex flex-col items-center">
                                 <span className="text-xs font-semibold mb-2">Biểu đồ Radar Rubric AUN-QA</span>
-                                <AunRadarChart scores={getRadarScores(p2)} size={220} />
+                                {radarScores2.length > 0 ? (
+                                    <AunRadarChart scores={radarScores2} size={220} />
+                                ) : (
+                                    <div className="flex flex-col items-center justify-center gap-2 py-8 text-center">
+                                        <AlertCircle className="h-7 w-7 text-muted-foreground/50" />
+                                        <p className="text-xs text-muted-foreground">Chưa có dữ liệu đánh giá cho chương trình này.</p>
+                                    </div>
+                                )}
                             </div>
                         </CardContent>
                     </Card>
