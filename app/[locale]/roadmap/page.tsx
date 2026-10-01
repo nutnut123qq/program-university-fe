@@ -55,8 +55,9 @@ export default function RoadmapPage() {
         () => fetchRoadmap(selectedCode)
     )
     const { data: currentSyllabus } = useSWR(
-        selectedCode ? ["syllabus", selectedCode] : null,
-        () => fetchSyllabus(selectedCode)
+        // Roadmaps come from the FPT crawl, so their syllabi live under FPT.
+        selectedCode ? ["syllabus", "FPT", selectedCode] : null,
+        () => fetchSyllabus("FPT", selectedCode)
     )
 
     // Autocomplete suggestions
@@ -415,6 +416,7 @@ export default function RoadmapPage() {
             {/* Syllabus Modal */}
             <SyllabusDetailModal
                 course={syllabusModalCourse}
+                universityCode="FPT"
                 open={!!syllabusModalCourse}
                 onClose={() => setSyllabusModalCourse(null)}
                 onSelectCourseCode={(code) => {

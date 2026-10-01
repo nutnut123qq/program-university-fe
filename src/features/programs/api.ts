@@ -19,7 +19,6 @@ const USE_MOCK = isProduction
 let mockUniversitiesCache: University[] | null = null
 let mockDegreeTypesCache: string[] | null = null
 let mockProgramsIndexCache: { totalCount: number; pageSize: number; totalPages: number; chunks: string[] } | null = null
-let mockSyllabusIndexCache: string[] | null = null
 const mockProgramChunksCache = new Map<string, Program[]>()
 const mockProgramByIdCache = new Map<string, Program>()
 const mockCurriculaCache = new Map<string, Curriculum[]>()
@@ -396,42 +395,45 @@ export async function fetchRawDocumentText(documentId: string): Promise<string> 
     return res.text()
 }
 
-export async function fetchSyllabusIndex(): Promise<string[]> {
-    if (mockSyllabusIndexCache) return mockSyllabusIndexCache
+/**
+ * Resolve a university's short code (e.g. "FPT", "TDTU") from its id.
+ * Syllabi are stored per university because course codes collide across schools.
+ */
+export async function fetchUniversityCode(universityId: string): Promise<string | null> {
+    if (!universityId) return null
     try {
-        const res = await fetch("/mock/syllabuses-index.json")
-        if (res.ok) {
-            const data = await res.json()
-            if (Array.isArray(data)) {
-                mockSyllabusIndexCache = data
-                return data
-            }
-        }
-    } catch {
-        // Fallback
+        const universities = (await fetchUniversities()) as Array<University & { code?: string | null }>
+        return universities.find((u) => u.id === universityId)?.code || null
+    } catch (e) {
+        console.warn(`Could not resolve university code for ${universityId}:`, e)
+        return null
     }
-    return []
 }
 
-export async function fetchSyllabus(subjectCode: string): Promise<SyllabusDetail | null> {
-    if (!subjectCode) return null
+export async function fetchSyllabus(
+    universityCode: string,
+    subjectCode: string
+): Promise<SyllabusDetail | null> {
+    if (!universityCode || !subjectCode) return null
+    const safeUni = universityCode.replace(/[^a-zA-Z0-9_\-]/g, "_")
     const safeCode = subjectCode.replace(/[^a-zA-Z0-9_\-]/g, "_")
-    if (mockSyllabusesCache.has(safeCode)) {
-        return mockSyllabusesCache.get(safeCode)!
+    const cacheKey = `${safeUni}/${safeCode}`
+    if (mockSyllabusesCache.has(cacheKey)) {
+        return mockSyllabusesCache.get(cacheKey)!
     }
 
     try {
-        const res = await fetch(`/mock/syllabuses/${safeCode}.json`)
+        const res = await fetch(`/mock/syllabuses/${safeUni}/${safeCode}.json`)
         if (res.ok) {
             const data: SyllabusDetail = await res.json()
-            mockSyllabusesCache.set(safeCode, data)
+            mockSyllabusesCache.set(cacheKey, data)
             return data
         }
     } catch (e) {
-        console.warn(`Could not load syllabus for ${subjectCode}:`, e)
+        console.warn(`Could not load syllabus for ${universityCode}/${subjectCode}:`, e)
     }
 
-    mockSyllabusesCache.set(safeCode, null)
+    mockSyllabusesCache.set(cacheKey, null)
     return null
 }
 

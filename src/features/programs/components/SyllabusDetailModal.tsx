@@ -27,11 +27,15 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
-import { fetchSyllabus, fetchRoadmap } from "../api"
+import { fetchSyllabus, fetchRoadmap, fetchUniversityCode } from "../api"
 import { Curriculum } from "../types"
 
 interface SyllabusDetailModalProps {
     course: Curriculum | null
+    /** Id of the university owning the course's program; without it no syllabus is fetched. */
+    universityId?: string | null
+    /** Short university code (e.g. "FPT"); takes precedence over `universityId` when known. */
+    universityCode?: string | null
     open: boolean
     onClose: () => void
     onSelectCourseCode?: (code: string) => void
@@ -53,6 +57,8 @@ function isStrictThreshold(criteria?: string): boolean {
 
 export function SyllabusDetailModal({
     course,
+    universityId,
+    universityCode: universityCodeProp,
     open,
     onClose,
     onSelectCourseCode,
@@ -60,10 +66,17 @@ export function SyllabusDetailModal({
     const [activeTab, setActiveTab] = useState<TabKey>("assessments")
 
     const subjectCode = course?.courseCode || ""
-    const { data: syllabus, isLoading: isSyllabusLoading } = useSWR(
-        subjectCode ? ["syllabus", subjectCode] : null,
-        () => fetchSyllabus(subjectCode)
+    // Course codes collide across universities, so syllabi are resolved per university.
+    const { data: resolvedUniversityCode, isLoading: isUniversityLoading } = useSWR(
+        open && !universityCodeProp && universityId ? ["university-code", universityId] : null,
+        () => fetchUniversityCode(universityId || "")
     )
+    const universityCode = universityCodeProp || resolvedUniversityCode
+    const { data: syllabus, isLoading: isSyllabusFetching } = useSWR(
+        open && subjectCode && universityCode ? ["syllabus", universityCode, subjectCode] : null,
+        () => fetchSyllabus(universityCode || "", subjectCode)
+    )
+    const isSyllabusLoading = isUniversityLoading || isSyllabusFetching
 
     const { data: roadmap, isLoading: isRoadmapLoading } = useSWR(
         subjectCode ? ["roadmap", subjectCode] : null,
@@ -207,10 +220,13 @@ export function SyllabusDetailModal({
                             <div className="py-14 text-center space-y-3">
                                 <HelpCircle className="h-10 w-10 text-muted-foreground/40 mx-auto" />
                                 <h3 className="text-base font-bold text-foreground">
-                                    Đang cập nhật đề cương chi tiết
+                                    Chưa có đề cương chi tiết
                                 </h3>
                                 <p className="text-xs text-muted-foreground max-w-md mx-auto leading-relaxed">
-                                    Môn <span className="font-mono font-bold text-foreground">{course.courseCode}</span> ({course.courseName}) thuộc học kỳ {course.semester ?? 1} với {course.credits ?? 3} tín chỉ. Đề cương chi tiết sẽ được tự động đồng bộ khi có phiên bản mới.
+                                    Môn <span className="font-mono font-bold text-foreground">{course.courseCode || "—"}</span> ({course.courseName})
+                                    {course.semester !== null && course.semester !== undefined ? ` thuộc học kỳ ${course.semester}` : ""}
+                                    {course.credits !== null && course.credits !== undefined ? `, ${course.credits} tín chỉ` : ""}.
+                                    {" "}Trường chưa công bố đề cương chi tiết cho môn này trong dữ liệu hiện có.
                                 </p>
                             </div>
                         ) : (

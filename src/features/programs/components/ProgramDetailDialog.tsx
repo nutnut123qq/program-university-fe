@@ -655,6 +655,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
 
                     <SyllabusDetailModal
                         course={selectedCourseForSyllabus}
+                        universityId={program.universityId}
                         open={!!selectedCourseForSyllabus}
                         onClose={() => setSelectedCourseForSyllabus(null)}
                         onSelectCourseCode={(code) => {
