@@ -195,3 +195,71 @@ export interface SubjectMaterialSummary {
     materialsCount: number
     materials: SubjectMaterialItem[]
 }
+
+// ---------------------------------------------------------------------------
+// Admission data snapshot (SPEC-ADMISSION-DATA §3)
+// Per-university file: /mock/admissions/<UNI>.json where <UNI> = universities.code
+// ---------------------------------------------------------------------------
+
+export type AdmissionScope = "program" | "group" | "school" | "campus" | string
+export type AdmissionScoreKind = "cutoff" | "floor" | "converted" | string
+export type TuitionBasis = "per_credit" | "per_semester" | "per_year" | "per_program" | string
+
+export interface AdmissionScore {
+    programId: string | null
+    year: number
+    method: string
+    methodLabel: string | null
+    scope: AdmissionScope
+    scopeLabel: string | null
+    score: number
+    scale: number
+    kind: AdmissionScoreKind
+    comboNote: string | null
+    sourceUrl: string | null
+    publishedAt: string | null
+    fetchedAt: string | null
+}
+
+export interface AdmissionQuota {
+    programId: string | null
+    year: number
+    scope: AdmissionScope
+    scopeLabel: string | null
+    quota: number
+    methodSplit: Record<string, number> | null
+    sourceUrl: string | null
+    publishedAt: string | null
+    fetchedAt?: string | null
+}
+
+export interface TuitionRecord {
+    programId: string | null
+    academicYear: string | null
+    amount: number | null
+    minAmount: number | null
+    maxAmount: number | null
+    currency: string
+    basis: TuitionBasis
+    appliesTo: string | null
+    notes: string | null
+    sourceUrl: string | null
+    publishedAt: string | null
+    fetchedAt?: string | null
+}
+
+export interface AdmissionCoverage {
+    matchedPrograms: number
+    unmatched: number
+    dataTypes: string[]
+}
+
+export interface AdmissionData {
+    university: string
+    generatedAt: string
+    years: number[]
+    scores: AdmissionScore[]
+    quotas: AdmissionQuota[]
+    tuitions: TuitionRecord[]
+    coverage: AdmissionCoverage
+}

@@ -1,4 +1,5 @@
 import {
+    AdmissionData,
     Curriculum,
     Program,
     ProgramsResponse,
@@ -26,6 +27,7 @@ const mockCurriculaCache = new Map<string, Curriculum[]>()
 const mockRawDocumentsCache = new Map<string, RawDocument[]>()
 const mockSyllabusesCache = new Map<string, SyllabusDetail | null>()
 const mockRoadmapsCache = new Map<string, SubjectRoadmap | null>()
+const mockAdmissionsCache = new Map<string, AdmissionData | null>()
 
 async function loadMockIndex() {
     if (mockProgramsIndexCache) return mockProgramsIndexCache
@@ -516,4 +518,30 @@ export async function fetchMaterials(universityCode: string): Promise<SubjectMat
         console.warn(`Could not load materials for ${universityCode}:`, e)
     }
     return []
+}
+
+/**
+ * Admission data snapshot per university (SPEC-ADMISSION-DATA §3).
+ * Files live at /mock/admissions/<UNI>.json where <UNI> = universities.code.
+ * A 404 / missing file resolves to null — it means "no admission data
+ * published for this school", NOT an error. Other failures throw so SWR
+ * can surface an error state.
+ */
+export async function fetchAdmissions(universityCode: string): Promise<AdmissionData | null> {
+    if (!universityCode) return null
+    const safeUni = universityCode.replace(/[^a-zA-Z0-9_\-]/g, "_")
+    if (mockAdmissionsCache.has(safeUni)) {
+        return mockAdmissionsCache.get(safeUni)!
+    }
+    const res = await fetch(`/mock/admissions/${safeUni}.json`)
+    if (res.status === 404) {
+        mockAdmissionsCache.set(safeUni, null)
+        return null
+    }
+    if (!res.ok) {
+        throw new Error(`Failed to load admissions for ${universityCode}: ${res.status}`)
+    }
+    const data: AdmissionData = await res.json()
+    mockAdmissionsCache.set(safeUni, data)
+    return data
 }

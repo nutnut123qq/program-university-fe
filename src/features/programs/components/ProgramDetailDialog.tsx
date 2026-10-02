@@ -19,6 +19,7 @@ import {
     Search,
     Filter,
     ChevronRight,
+    GraduationCap,
 } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import { useTranslations } from "next-intl"
@@ -27,8 +28,8 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 
-import { fetchCurricula, fetchRawDocuments, fetchRawDocumentText } from "../api"
-import { Curriculum, Program, RawDocument } from "../types"
+import { fetchAdmissions, fetchCurricula, fetchRawDocuments, fetchRawDocumentText, fetchUniversityCode } from "../api"
+import { AdmissionQuota, AdmissionScore, Curriculum, Program, RawDocument, TuitionRecord } from "../types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 import { PrerequisiteGraph } from "./PrerequisiteGraph"
 import { GpaPlanner } from "./GpaPlanner"
@@ -42,7 +43,7 @@ interface ProgramDetailDialogProps {
     onClose: () => void
 }
 
-type TabKey = "info" | "curriculum" | "graph" | "gpa" | "raw" | "eval"
+type TabKey = "info" | "admissions" | "curriculum" | "graph" | "gpa" | "raw" | "eval"
 
 function extractCohorts(code?: string | null, name?: string | null): string[] {
     const text = `${code || ""} ${name || ""}`
@@ -70,6 +71,81 @@ function formatDate(value: string | null): string | null {
     if (!value) return null
     const d = dayjs(value)
     return d.isValid() ? d.format("DD/MM/YYYY HH:mm") : value
+}
+
+function formatDateOnly(value: string | null | undefined): string | null {
+    if (!value) return null
+    const d = dayjs(value)
+    return d.isValid() ? d.format("DD/MM/YYYY") : value
+}
+
+function hostnameOf(url: string | null | undefined): string | null {
+    if (!url) return null
+    try {
+        return new URL(url).hostname.replace(/^www\./, "")
+    } catch {
+        return url
+    }
+}
+
+function formatMoney(amount: number | null | undefined, currency: string): string | null {
+    if (amount == null) return null
+    try {
+        return new Intl.NumberFormat("vi-VN", { style: "currency", currency }).format(amount)
+    } catch {
+        return `${amount.toLocaleString("vi-VN")} ${currency}`
+    }
+}
+
+/**
+ * Per-record provenance line: real source domain link + published/fetched
+ * timestamps. Missing sourceUrl → explicit "no published source" text,
+ * never a fabricated domain.
+ */
+function RecordProvenance({
+    sourceUrl,
+    publishedAt,
+    fetchedAt,
+}: {
+    sourceUrl: string | null
+    publishedAt?: string | null
+    fetchedAt?: string | null
+}) {
+    const t = useTranslations("programs")
+    const domain = hostnameOf(sourceUrl)
+    const publishedText = formatDateOnly(publishedAt)
+    const fetchedText = formatDate(fetchedAt ?? null)
+    return (
+        <p className="flex flex-wrap items-center gap-x-3 gap-y-0.5 text-[11px] text-muted-foreground">
+            {sourceUrl && domain ? (
+                <span className="inline-flex items-center gap-1">
+                    {t("admissionSourceLabel")}:{" "}
+                    <a
+                        href={sourceUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-0.5 text-primary hover:underline"
+                        data-testid="admissions-source-link"
+                    >
+                        {domain}
+                        <ExternalLink className="h-2.5 w-2.5" />
+                    </a>
+                </span>
+            ) : (
+                <span className="italic">{t("admissionNoSource")}</span>
+            )}
+            {publishedText && (
+                <span>
+                    {t("admissionPublishedLabel")}: {publishedText}
+                </span>
+            )}
+            {fetchedText && (
+                <span>
+                    {t("admissionFetchedLabel")}: {fetchedText}
+                </span>
+            )}
+        </p>
+    )
 }
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -142,6 +218,223 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         () => (viewingDocId ? fetchRawDocumentText(viewingDocId) : null)
     )
 
+    // Admission snapshot (SPEC-ADMISSION-DATA §4): lazy fetch when the dialog
+    // opens. Program → universityId → universities.code → /mock/admissions/<CODE>.json
+    const { data: admissionsUniCode, isLoading: admissionsUniLoading } = useSWR(
+        open && program?.universityId ? ["university-code", program.universityId] : null,
+        () => (program ? fetchUniversityCode(program.universityId) : null)
+    )
+    const {
+        data: admissions,
+        error: admissionsError,
+        isLoading: admissionsFetching,
+    } = useSWR(
+        open && program && admissionsUniCode ? ["admissions", admissionsUniCode] : null,
+        () => fetchAdmissions(admissionsUniCode as string)
+    )
+    const admissionsLoading = admissionsUniLoading || admissionsFetching
+    const [admissionMethod, setAdmissionMethod] = useState<string | null>(null)
+
+    const admissionsView = useMemo(() => {
+        if (!admissions || !program) return null
+        const pid = program.id
+        // Rows bound to this program by programId (any scope, e.g. per-campus
+        // rows still carry the programId and render as program-level data).
+        const programScores = admissions.scores.filter((s) => s.programId === pid)
+        const programQuotas = admissions.quotas.filter((q) => q.programId === pid)
+        const programTuitions = admissions.tuitions.filter((x) => x.programId === pid)
+        // Context rows: never tied to a specific program (programId null per
+        // spec — group/school scopes are not fanned out); shown separately and
+        // labeled by scope so they are never read as per-program data.
+        const contextScores = admissions.scores.filter(
+            (s) => s.programId === null && s.scope !== "program"
+        )
+        const contextQuotas = admissions.quotas.filter(
+            (q) => q.programId === null && q.scope !== "program"
+        )
+        const contextTuitions = admissions.tuitions.filter((x) => x.programId === null)
+        const methods: { key: string; label: string }[] = []
+        for (const s of [...programScores, ...contextScores]) {
+            if (!methods.some((m) => m.key === s.method)) {
+                methods.push({ key: s.method, label: s.methodLabel || s.method })
+            }
+        }
+        const isEmpty =
+            programScores.length === 0 &&
+            contextScores.length === 0 &&
+            programQuotas.length === 0 &&
+            contextQuotas.length === 0 &&
+            programTuitions.length === 0 &&
+            contextTuitions.length === 0
+        return {
+            programScores,
+            contextScores,
+            programQuotas,
+            contextQuotas,
+            programTuitions,
+            contextTuitions,
+            methods,
+            isEmpty,
+        }
+    }, [admissions, program])
+
+    const activeAdmissionMethod =
+        admissionMethod && admissionsView?.methods.some((m) => m.key === admissionMethod)
+            ? admissionMethod
+            : (admissionsView?.methods[0]?.key ?? null)
+
+    const kindLabel = (kind: string): string =>
+        kind === "floor"
+            ? t("admissionKindFloor")
+            : kind === "converted"
+                ? t("admissionKindConverted")
+                : t("admissionKindCutoff")
+
+    const scopeBadgeLabel = (scope: string, scopeLabel: string | null): string => {
+        const base =
+            scope === "campus"
+                ? t("admissionScopeCampus")
+                : scope === "group"
+                    ? t("admissionScopeGroup")
+                    : scope === "school"
+                        ? t("admissionScopeSchool")
+                        : t("admissionScopeProgram")
+        if (!scopeLabel) return base
+        // Avoid duplication like "Toàn trường: Toàn trường" when the label
+        // already spells out the scope.
+        if (scopeLabel.trim().toLowerCase() === base.trim().toLowerCase()) return scopeLabel
+        return scope === "campus" ? `${base} ${scopeLabel}` : `${base}: ${scopeLabel}`
+    }
+
+    const basisLabel = (basis: string): string =>
+        basis === "per_credit"
+            ? t("tuitionBasisPerCredit")
+            : basis === "per_semester"
+                ? t("tuitionBasisPerSemester")
+                : basis === "per_year"
+                    ? t("tuitionBasisPerYear")
+                    : basis === "per_program"
+                        ? t("tuitionBasisPerProgram")
+                        : basis
+
+    const methodLabelFor = (methodKey: string): string =>
+        admissionsView?.methods.find((m) => m.key === methodKey)?.label || methodKey
+
+    const scoreText = (s: AdmissionScore): string =>
+        s.score == null ? "—" : Number.isInteger(s.score) ? String(s.score) : s.score.toFixed(2)
+
+    const renderScoreRow = (s: AdmissionScore, i: number) => (
+        <div
+            key={`${s.method}-${s.scope}-${s.scopeLabel ?? ""}-${s.kind}-${s.score}-${i}`}
+            className="rounded-xl border border-border/60 bg-muted/20 p-3 space-y-1.5"
+        >
+            <div className="flex flex-wrap items-center gap-2">
+                <span className="text-base font-black font-mono text-primary">
+                    {scoreText(s)}
+                    {s.scale != null && (
+                        <span className="text-xs font-semibold text-muted-foreground"> / {s.scale}</span>
+                    )}
+                </span>
+                <Badge variant="outline" className="text-[10px] font-semibold">
+                    {kindLabel(s.kind)}
+                </Badge>
+                {(s.scope !== "program" || s.scopeLabel) && (
+                    <Badge variant="secondary" className="text-[10px] font-semibold">
+                        {scopeBadgeLabel(s.scope, s.scopeLabel)}
+                    </Badge>
+                )}
+                {s.methodLabel && (
+                    <span className="text-xs text-muted-foreground">{s.methodLabel}</span>
+                )}
+            </div>
+            {s.comboNote && (
+                <p className="text-[11px] text-muted-foreground italic">{s.comboNote}</p>
+            )}
+            <RecordProvenance sourceUrl={s.sourceUrl} publishedAt={s.publishedAt} fetchedAt={s.fetchedAt} />
+        </div>
+    )
+
+    const renderQuotaRow = (q: AdmissionQuota, i: number) => (
+        <div
+            key={`${q.scope}-${q.scopeLabel ?? ""}-${q.quota}-${i}`}
+            className="rounded-xl border border-border/60 bg-muted/20 p-3 space-y-1.5"
+        >
+            <div className="flex flex-wrap items-center gap-2">
+                <span className="text-base font-black font-mono text-foreground">
+                    {q.quota != null ? q.quota.toLocaleString("vi-VN") : "—"}
+                </span>
+                <span className="text-xs text-muted-foreground">{t("admissionQuotaUnit")}</span>
+                <Badge
+                    variant={q.scope === "program" ? "outline" : "secondary"}
+                    className="text-[10px] font-semibold"
+                >
+                    {scopeBadgeLabel(q.scope, q.scopeLabel)}
+                </Badge>
+                <span className="text-[11px] text-muted-foreground">{q.year}</span>
+            </div>
+            {q.scope !== "program" && (
+                <p className="text-[11px] text-amber-600 dark:text-amber-400 italic">
+                    {t("admissionQuotaScopedNote")}
+                </p>
+            )}
+            {q.methodSplit && Object.keys(q.methodSplit).length > 0 && (
+                <p className="text-[11px] text-muted-foreground">
+                    {Object.entries(q.methodSplit)
+                        .map(([k, v]) => `${methodLabelFor(k)}: ${v}%`)
+                        .join(" · ")}
+                </p>
+            )}
+            <RecordProvenance sourceUrl={q.sourceUrl} publishedAt={q.publishedAt} fetchedAt={q.fetchedAt} />
+        </div>
+    )
+
+    const renderTuitionRow = (x: TuitionRecord, i: number) => {
+        const amountText =
+            x.amount != null
+                ? formatMoney(x.amount, x.currency)
+                : x.minAmount != null && x.maxAmount != null
+                    ? `${formatMoney(x.minAmount, x.currency)} – ${formatMoney(x.maxAmount, x.currency)}`
+                    : x.minAmount != null
+                        ? `≥ ${formatMoney(x.minAmount, x.currency)}`
+                        : x.maxAmount != null
+                            ? `≤ ${formatMoney(x.maxAmount, x.currency)}`
+                            : null
+        return (
+            <div
+                key={`${x.academicYear ?? ""}-${x.basis}-${x.appliesTo ?? ""}-${i}`}
+                className="rounded-xl border border-border/60 bg-muted/20 p-3 space-y-1.5"
+            >
+                <div className="flex flex-wrap items-center gap-2">
+                    <span className="text-base font-black text-foreground">
+                        {amountText ?? "—"}
+                        {amountText && x.basis && (
+                            <span className="text-xs font-semibold text-muted-foreground"> {basisLabel(x.basis)}</span>
+                        )}
+                    </span>
+                    {x.academicYear && (
+                        <Badge variant="secondary" className="text-[10px] font-semibold">
+                            {t("admissionAcademicYear")}: {x.academicYear}
+                        </Badge>
+                    )}
+                    {x.programId === null && (
+                        <Badge variant="secondary" className="text-[10px] font-semibold">
+                            {t("admissionScopeSchool")}
+                        </Badge>
+                    )}
+                </div>
+                {x.appliesTo && (
+                    <p className="text-[11px] text-muted-foreground">
+                        {t("admissionAppliesTo")}: {x.appliesTo}
+                    </p>
+                )}
+                {x.notes && (
+                    <p className="text-[11px] text-muted-foreground italic">{x.notes}</p>
+                )}
+                <RecordProvenance sourceUrl={x.sourceUrl} publishedAt={x.publishedAt} fetchedAt={x.fetchedAt} />
+            </div>
+        )
+    }
+
     const cohorts = useMemo(() => extractCohorts(program?.code, program?.name), [program])
     const specialization = useMemo(() => extractSpecialization(program?.name), [program])
 
@@ -173,6 +466,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
 
     const tabs: { key: TabKey; label: string }[] = [
         { key: "info", label: t("infoTab") },
+        { key: "admissions", label: t("admissionsTab") },
         { key: "curriculum", label: t("curriculumTab") },
         { key: "graph", label: t("graphTab") },
         { key: "gpa", label: t("gpaTab") },
@@ -385,6 +679,112 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                             <Section title={t("learningOutcomes")}>
                                                 <TextBlock text={program.learningOutcomes} />
                                             </Section>
+                                        )}
+                                    </div>
+                                )}
+
+                                {activeTab === "admissions" && (
+                                    <div className="space-y-6" data-testid="admissions-section">
+                                        <div className="flex items-center gap-2">
+                                            <GraduationCap className="h-4 w-4 text-primary" />
+                                            <h3 className="font-semibold">
+                                                {t("admissionsTitle", { year: admissions?.years?.[0] ?? 2025 })}
+                                            </h3>
+                                        </div>
+
+                                        {admissionsLoading && (
+                                            <div className="space-y-3 animate-pulse" data-testid="admissions-loading">
+                                                <div className="h-20 rounded-xl bg-muted/60" />
+                                                <div className="h-20 rounded-xl bg-muted/60" />
+                                                <div className="h-16 rounded-xl bg-muted/60" />
+                                            </div>
+                                        )}
+
+                                        {!admissionsLoading && admissionsError && (
+                                            <div className="rounded-lg border border-destructive/20 bg-destructive/5 p-4 text-sm text-destructive flex items-center gap-2">
+                                                <AlertCircle className="h-4 w-4" />
+                                                {t("admissionsError")}
+                                            </div>
+                                        )}
+
+                                        {!admissionsLoading && !admissionsError && (!admissionsView || admissionsView.isEmpty) && (
+                                            <p className="text-sm text-muted-foreground py-4" data-testid="admissions-empty">
+                                                {t("noAdmissions")}
+                                            </p>
+                                        )}
+
+                                        {!admissionsLoading && !admissionsError && admissionsView && !admissionsView.isEmpty && (
+                                            <div className="space-y-6">
+                                                {/* ---- Điểm xét tuyển ---- */}
+                                                {(admissionsView.programScores.length > 0 || admissionsView.contextScores.length > 0) && (
+                                                    <Section title={t("admissionScoresTitle")}>
+                                                        {admissionsView.methods.length > 1 && (
+                                                            <div
+                                                                className="flex flex-wrap items-center gap-1.5 pb-1"
+                                                                data-testid="admissions-method-selector"
+                                                            >
+                                                                <span className="text-xs text-muted-foreground mr-1">
+                                                                    {t("admissionMethodLabel")}:
+                                                                </span>
+                                                                {admissionsView.methods.map((m) => (
+                                                                    <button
+                                                                        key={m.key}
+                                                                        onClick={() => setAdmissionMethod(m.key)}
+                                                                        className={`px-3 py-1 rounded-full text-xs font-semibold border transition-colors ${
+                                                                            activeAdmissionMethod === m.key
+                                                                                ? "bg-primary text-primary-foreground border-primary"
+                                                                                : "bg-muted/40 text-muted-foreground border-border hover:text-foreground"
+                                                                        }`}
+                                                                    >
+                                                                        {m.label}
+                                                                    </button>
+                                                                ))}
+                                                            </div>
+                                                        )}
+
+                                                        <div className="space-y-2">
+                                                            {admissionsView.programScores
+                                                                .filter((s) => s.method === activeAdmissionMethod)
+                                                                .map((s, i) => renderScoreRow(s, i))}
+                                                        </div>
+
+                                                        {admissionsView.contextScores.filter((s) => s.method === activeAdmissionMethod).length > 0 && (
+                                                            <div className="space-y-2 pt-2">
+                                                                <p className="text-xs font-semibold text-muted-foreground">
+                                                                    {t("admissionContextTitle")}
+                                                                </p>
+                                                                {admissionsView.contextScores
+                                                                    .filter((s) => s.method === activeAdmissionMethod)
+                                                                    .map((s, i) => renderScoreRow(s, i))}
+                                                            </div>
+                                                        )}
+                                                    </Section>
+                                                )}
+
+                                                {/* ---- Chỉ tiêu ---- */}
+                                                {(admissionsView.programQuotas.length > 0 || admissionsView.contextQuotas.length > 0) && (
+                                                    <Section title={t("admissionQuotasTitle")}>
+                                                        <div className="space-y-2">
+                                                            {admissionsView.programQuotas.map((q, i) => renderQuotaRow(q, i))}
+                                                            {admissionsView.contextQuotas.map((q, i) => renderQuotaRow(q, i))}
+                                                        </div>
+                                                    </Section>
+                                                )}
+
+                                                {/* ---- Học phí ---- */}
+                                                {(admissionsView.programTuitions.length > 0 || admissionsView.contextTuitions.length > 0) && (
+                                                    <Section title={t("admissionTuitionTitle")}>
+                                                        <div className="space-y-2">
+                                                            {admissionsView.programTuitions.map((x, i) => renderTuitionRow(x, i))}
+                                                            {admissionsView.contextTuitions.map((x, i) => renderTuitionRow(x, i))}
+                                                        </div>
+                                                    </Section>
+                                                )}
+
+                                                <p className="text-xs text-muted-foreground italic border-l-2 border-amber-400/70 pl-3">
+                                                    {t("admissionsWarning")}
+                                                </p>
+                                            </div>
                                         )}
                                     </div>
                                 )}

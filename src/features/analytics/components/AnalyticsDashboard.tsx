@@ -10,7 +10,7 @@ import { useTranslations } from "next-intl"
 import { exportAnalyticsDatasetToCsv, exportAnalyticsDatasetToJson } from "@/lib/exportUtils"
 
 // Real per-university program counts and mean SLM scores (source: slm_strict_v2,
-// covers all 1,551 programs). Status bands mirror the score distribution below.
+// covers all 1,549 programs). Status bands mirror the score distribution below.
 const UNI_STATS = [
     { code: "UIT", name: "ĐH CNTT ĐHQG-HCM", count: 20, score: 8.70, status: "Tốt", color: "bg-emerald-500 text-white" },
     { code: "NEU", name: "ĐH Kinh tế Quốc dân", count: 86, score: 8.62, status: "Tốt", color: "bg-emerald-500 text-white" },
@@ -54,7 +54,7 @@ export const AnalyticsDashboard = () => {
                     </div>
                     <h1 className="text-3xl font-extrabold tracking-tight">Dashboard Phân tích & So sánh 12 Trường Đại học</h1>
                     <p className="text-muted-foreground text-sm mt-1">
-                        Hệ thống thống kê toàn diện chất lượng 1.551 chương trình đào tạo & 80.302 môn học trên Thang điểm 10.0 SLM Strict Rubric ({t("slmRefScoreNote")}).
+                        Hệ thống thống kê toàn diện chất lượng 1.549 chương trình đào tạo & 80.302 môn học trên Thang điểm 10.0 SLM Strict Rubric ({t("slmRefScoreNote")}).
                     </p>
                 </div>
 
@@ -89,7 +89,7 @@ export const AnalyticsDashboard = () => {
                         <GraduationCap className="w-4 h-4 text-primary" />
                     </CardHeader>
                     <CardContent>
-                        <div className="text-2xl font-bold">1,551</div>
+                        <div className="text-2xl font-bold">1,549</div>
                         <p className="text-[11px] text-emerald-500 font-medium mt-1">Tất cả ngành trong dữ liệu đều có danh mục môn học</p>
                     </CardContent>
                 </Card>
