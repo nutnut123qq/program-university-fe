@@ -41,7 +41,7 @@ export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) 
             transition={{ duration: 0.3, delay: Math.min(index * 0.03, 0.3) }}
             className="h-full"
         >
-            <Card className="group h-full flex flex-col justify-between overflow-hidden border border-border bg-card/80 hover:bg-card hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 rounded-2xl">
+            <Card data-testid="program-card" className="group h-full flex flex-col justify-between overflow-hidden border border-border bg-card/80 hover:bg-card hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 rounded-2xl">
                 <div>
                     <CardHeader className="p-5 pb-3 min-w-0">
                         <div className="flex items-start justify-between gap-2.5 min-w-0">

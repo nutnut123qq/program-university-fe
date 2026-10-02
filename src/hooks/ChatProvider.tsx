@@ -39,7 +39,7 @@ const ChatContext = createContext<ChatContextType | undefined>(undefined);
 const SESSIONS_STORAGE_KEY = 'tedo_chat_sessions_v2';
 const LEGACY_STORAGE_KEY = 'tedo-chat-history';
 
-const GREETING_TEXT = 'Xin chào! Tôi là trợ lý thử nghiệm — tra cứu trên snapshot dữ liệu, không phải AI/LLM. Tôi có thể hỗ trợ gì về thông tin chương trình đào tạo và môn học của các trường đại học?';
+const GREETING_TEXT = 'Xin chào! Tôi là AI thử nghiệm — trả lời dựa trên snapshot dữ liệu của hệ thống. Tôi có thể hỗ trợ gì về thông tin chương trình đào tạo và môn học của các trường đại học?';
 
 const createDefaultGreeting = (): ChatMessage => ({
     id: `greet-${Date.now()}`,

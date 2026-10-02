@@ -1,6 +1,6 @@
 "use client"
 
-import { useCallback, useMemo, useState } from "react"
+import { useCallback, useEffect, useMemo, useState } from "react"
 import useSWR from "swr"
 import useSWRInfinite from "swr/infinite"
 import { motion } from "framer-motion"
@@ -11,10 +11,27 @@ import { Button } from "@/components/ui/button"
 import { ProgramCard } from "./ProgramCard"
 import { ProgramFilters } from "./ProgramFilters"
 import { ProgramDetailDialog } from "./ProgramDetailDialog"
-import { fetchDegreeTypes, fetchPrograms, fetchUniversities } from "../api"
-import { Program, ProgramFilters as ProgramFiltersType, ProgramsResponse } from "../types"
+import { ScoreFilter } from "./ScoreFilter"
+import {
+    fetchAdmissions,
+    fetchDegreeTypes,
+    fetchPrograms,
+    fetchUniversities,
+} from "../api"
+import {
+    AdmissionData,
+    Program,
+    ProgramFilters as ProgramFiltersType,
+    ProgramsResponse,
+    University,
+} from "../types"
 
 const PAGE_SIZE = 12
+
+/** Admission snapshots are all year-2025 rows; kept explicit per data contract. */
+const SCORE_FILTER_YEAR = 2025
+
+type UniversityWithCode = University & { code?: string | null }
 
 export function ProgramList() {
     const t = useTranslations("programs")
@@ -69,6 +86,165 @@ export function ProgramList() {
     const { data: degreeTypes } = useSWR("degree-types", fetchDegreeTypes)
     const { data: universities } = useSWR("universities", fetchUniversities)
 
+    // ------------------------------------------------------------------
+    // Score filter ("Lọc theo điểm chuẩn")
+    // Same-scale-only semantics: a user score compares exclusively against
+    // admission rows with scale === selected scale. No normalization, no
+    // cross-scale conversion, no ranking (SPEC-ADMISSION-DATA).
+    // ------------------------------------------------------------------
+    const [scoreInput, setScoreInput] = useState("")
+    const [scoreScale, setScoreScale] = useState<number | null>(null)
+    const [scoreMethod, setScoreMethod] = useState("") // "" = all methods
+
+    const parsedScore = useMemo(() => {
+        const raw = scoreInput.trim()
+        if (raw === "") return null
+        const n = Number(raw)
+        return Number.isFinite(n) ? n : null
+    }, [scoreInput])
+    const scoreFilterRequested = parsedScore != null
+
+    // Lazily load every university's admission snapshot the first time the
+    // user engages the score filter. A missing/404 file resolves to null and
+    // simply contributes nothing — never fabricated.
+    const { data: admissionsByCode, isLoading: admissionsLoading } = useSWR(
+        scoreFilterRequested && (universities?.length ?? 0) > 0
+            ? "admissions-score-filter-all"
+            : null,
+        async () => {
+            const map = new Map<string, AdmissionData | null>()
+            await Promise.all(
+                ((universities ?? []) as UniversityWithCode[]).map(async (u) => {
+                    if (!u.code) return
+                    try {
+                        map.set(u.code, await fetchAdmissions(u.code))
+                    } catch {
+                        map.set(u.code, null)
+                    }
+                })
+            )
+            return map
+        }
+    )
+
+    // Scale options are discovered from the data (all 2025 score rows),
+    // never hardcoded.
+    const scoreScaleOptions = useMemo(() => {
+        if (!admissionsByCode) return [] as number[]
+        const set = new Set<number>()
+        for (const adm of admissionsByCode.values()) {
+            for (const s of adm?.scores ?? []) {
+                if (s.year === SCORE_FILTER_YEAR && typeof s.scale === "number") {
+                    set.add(s.scale)
+                }
+            }
+        }
+        return [...set].sort((a, b) => a - b)
+    }, [admissionsByCode])
+
+    // Default to the national-exam 30 scale when present, else first option.
+    useEffect(() => {
+        if (scoreScale == null && scoreScaleOptions.length > 0) {
+            setScoreScale(scoreScaleOptions.includes(30) ? 30 : scoreScaleOptions[0])
+        }
+    }, [scoreScaleOptions, scoreScale])
+
+    // Method options: distinct program-scope cutoff methods that exist at the
+    // selected scale (rows the filter can actually match).
+    const scoreMethodOptions = useMemo(() => {
+        if (!admissionsByCode || scoreScale == null) {
+            return [] as { value: string; label: string }[]
+        }
+        const map = new Map<string, string | null>()
+        for (const adm of admissionsByCode.values()) {
+            for (const s of adm?.scores ?? []) {
+                if (
+                    s.year === SCORE_FILTER_YEAR &&
+                    s.scope === "program" &&
+                    s.kind === "cutoff" &&
+                    s.scale === scoreScale &&
+                    s.method &&
+                    !map.has(s.method)
+                ) {
+                    map.set(s.method, s.methodLabel)
+                }
+            }
+        }
+        return [...map.entries()].map(([value, label]) => ({
+            value,
+            label: label ?? value,
+        }))
+    }, [admissionsByCode, scoreScale])
+
+    const scoreFilterActive =
+        scoreFilterRequested && scoreScale != null && !!admissionsByCode
+
+    // Program ids eligible under the score filter: needs >= 1 row with
+    // scope "program" + matching programId + kind "cutoff" + same scale +
+    // (method if chosen) + score <= userScore. Missing data => excluded.
+    const eligibleProgramIds = useMemo(() => {
+        if (!scoreFilterActive || !admissionsByCode || parsedScore == null || scoreScale == null) {
+            return null
+        }
+        const ids = new Set<string>()
+        for (const adm of admissionsByCode.values()) {
+            if (!adm) continue
+            for (const s of adm.scores ?? []) {
+                if (s.scope !== "program" || s.kind !== "cutoff") continue
+                if (s.year !== SCORE_FILTER_YEAR) continue
+                if (s.scale !== scoreScale) continue
+                if (scoreMethod && s.method !== scoreMethod) continue
+                if (s.programId && typeof s.score === "number" && s.score <= parsedScore) {
+                    ids.add(s.programId)
+                }
+            }
+        }
+        return ids
+    }, [scoreFilterActive, admissionsByCode, parsedScore, scoreScale, scoreMethod])
+
+    // While the score filter is active, fetch the whole catalog (with the
+    // same search/filters applied — AND semantics) in one shot so programs
+    // beyond the currently loaded pages are evaluated too.
+    const { data: scorePool } = useSWR(
+        scoreFilterActive && totalCount > 0
+            ? ["programs-score-pool", filters, totalCount]
+            : null,
+        ([, f, count]) =>
+            fetchPrograms({
+                page: 1,
+                pageSize: Math.max(Number(count) || PAGE_SIZE, PAGE_SIZE),
+                search: f.search || undefined,
+                degreeType: f.degreeType === "all" ? undefined : f.degreeType,
+                universityId: f.universityId || undefined,
+                universityType: f.universityType,
+                cohort: f.cohort === "all" ? undefined : f.cohort,
+                sortBy: f.sortBy === "newest" ? "createdAt" : f.sortBy,
+                sortDesc: f.sortBy === "newest" || f.sortBy === "credits",
+            })
+    )
+
+    // null while the pool is still loading so the UI shows the skeleton
+    // instead of flashing a premature "0 results" empty state.
+    const scoreFilteredPrograms = useMemo(() => {
+        if (!scoreFilterActive || !scorePool || !eligibleProgramIds) return null
+        return scorePool.items.filter((p) => eligibleProgramIds.has(p.id))
+    }, [scoreFilterActive, scorePool, eligibleProgramIds])
+
+    const displayedPrograms = scoreFilteredPrograms ?? allPrograms
+    // totalCount === 0 means the catalog query itself returned nothing, so
+    // the pool fetch is skipped (key null) and must not count as "loading".
+    const scorePoolLoading = scoreFilterActive && totalCount > 0 && !scorePool
+
+    const handleScoreScaleChange = (scale: number) => {
+        setScoreScale(scale)
+        setScoreMethod("") // method options are per-scale; reset selection
+    }
+
+    const handleScoreClear = () => {
+        setScoreInput("")
+        setScoreMethod("")
+    }
+
     const handleFiltersChange = (newFilters: ProgramFiltersType) => {
         setFilters(newFilters)
         setSize(1)
@@ -110,8 +286,24 @@ export function ProgramList() {
                 totalCount={totalCount}
             />
 
+            {/* Cutoff-score filter (same-scale only; lazy admissions data) */}
+            <ScoreFilter
+                score={scoreInput}
+                onScoreChange={setScoreInput}
+                scales={scoreScaleOptions}
+                scale={scoreScale}
+                onScaleChange={handleScoreScaleChange}
+                methods={scoreMethodOptions}
+                method={scoreMethod}
+                onMethodChange={setScoreMethod}
+                loading={scoreFilterRequested && admissionsLoading}
+                dataLoaded={!!admissionsByCode}
+                resultCount={scoreFilteredPrograms?.length ?? null}
+                onClear={handleScoreClear}
+            />
+
             {/* Loading */}
-            {isLoading && allPrograms.length === 0 && (
+            {((isLoading && allPrograms.length === 0) || scorePoolLoading) && (
                 <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 min-w-0">
                     {Array.from({ length: 8 }).map((_, i) => (
                         <div key={i} className="p-5 rounded-2xl border border-border bg-card/60 space-y-4 animate-pulse">
@@ -158,7 +350,7 @@ export function ProgramList() {
             )}
 
             {/* Empty */}
-            {!isLoading && !error && allPrograms.length === 0 && (
+            {!isLoading && !scorePoolLoading && !error && displayedPrograms.length === 0 && (
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -167,17 +359,25 @@ export function ProgramList() {
                     <div className="rounded-full bg-muted p-4 mb-4">
                         <SearchX className="h-8 w-8 text-muted-foreground" />
                     </div>
-                    <h3 className="text-lg font-semibold">{t("emptyTitle")}</h3>
-                    <p className="text-muted-foreground mt-1">
-                        {t("emptyDescription")}
-                    </p>
+                    {scoreFilterActive ? (
+                        <h3 className="text-lg font-semibold" data-testid="score-filter-empty">
+                            {t("scoreFilterEmpty")}
+                        </h3>
+                    ) : (
+                        <>
+                            <h3 className="text-lg font-semibold">{t("emptyTitle")}</h3>
+                            <p className="text-muted-foreground mt-1">
+                                {t("emptyDescription")}
+                            </p>
+                        </>
+                    )}
                 </motion.div>
             )}
 
             {/* Grid */}
-            {allPrograms.length > 0 && (
+            {displayedPrograms.length > 0 && (
                 <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                    {allPrograms.map((program, index) => (
+                    {displayedPrograms.map((program, index) => (
                         <ProgramCard
                             key={program.id}
                             program={program}
@@ -189,7 +389,7 @@ export function ProgramList() {
             )}
 
             {/* Load more */}
-            {hasNextPage && (
+            {hasNextPage && !scoreFilterActive && (
                 <div className="flex justify-center pt-4">
                     <Button
                         size="lg"

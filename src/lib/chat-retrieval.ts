@@ -113,22 +113,28 @@ const UNI_NAME_PREFIXES = ["truong dai hoc", "dai hoc"];
 
 let datasetPromise: Promise<Dataset> | null = null;
 
-async function readJson<T>(...segments: string[]): Promise<T> {
-    const raw = await readFile(path.join(MOCK_DIR, ...segments), "utf8");
+// Pinned subdirectories keep Turbopack's file tracing scoped (a bare
+// path.join(MOCK_DIR, ...) dynamic pattern would match all of public/mock).
+const PROGRAMS_DIR = path.join(MOCK_DIR, "programs");
+const CURRICULA_DIR = path.join(MOCK_DIR, "curricula");
+const ADMISSIONS_DIR = path.join(MOCK_DIR, "admissions");
+
+async function readJsonFile<T>(filePath: string): Promise<T> {
+    const raw = await readFile(filePath, "utf8");
     return JSON.parse(raw) as T;
 }
 
 async function buildDataset(): Promise<Dataset> {
     const [index, universities] = await Promise.all([
-        readJson<MockIndex>("index.json"),
-        readJson<University[]>("universities.json"),
+        readJsonFile<MockIndex>(path.join(MOCK_DIR, "index.json")),
+        readJsonFile<University[]>(path.join(MOCK_DIR, "universities.json")),
     ]);
 
     const chunks = Array.isArray(index.chunks) ? index.chunks : [];
     const pages = await Promise.all(
         chunks.map(async (chunk) => {
             const safe = path.basename(chunk);
-            const data = await readJson<Program[] | { items?: Program[] }>("programs", safe);
+            const data = await readJsonFile<Program[] | { items?: Program[] }>(path.join(PROGRAMS_DIR, safe));
             return Array.isArray(data) ? data : data.items ?? [];
         })
     );
@@ -274,7 +280,7 @@ async function loadCurriculum(programId: string): Promise<CurriculumCourse[]> {
     // programId comes from our own dataset, but sanitize anyway to avoid path traversal.
     if (!/^[A-Za-z0-9-]+$/.test(programId)) return [];
     try {
-        const data = await readJson<unknown>("curricula", `${programId}.json`);
+        const data = await readJsonFile<unknown>(path.join(CURRICULA_DIR, `${programId}.json`));
         return Array.isArray(data) ? (data as CurriculumCourse[]) : [];
     } catch {
         return [];
@@ -326,7 +332,7 @@ function loadAdmissions(code: string): Promise<AdmissionFile | null> {
     if (!safe) return Promise.resolve(null);
     let cached = admissionsCache.get(safe);
     if (!cached) {
-        cached = readJson<AdmissionFile>("admissions", `${safe}.json`).catch(() => null);
+        cached = readJsonFile<AdmissionFile>(path.join(ADMISSIONS_DIR, `${safe}.json`)).catch(() => null);
         admissionsCache.set(safe, cached);
     }
     return cached;

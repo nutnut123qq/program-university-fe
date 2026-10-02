@@ -12,7 +12,7 @@ const CHAT = "div.fixed.bottom-6.right-6"
 async function openChat(page: Page) {
     await page.goto("/vi", { waitUntil: "networkidle" })
     const chat = page.locator(CHAT)
-    const toggle = chat.getByRole("button", { name: /Trợ lý thử nghiệm/i })
+    const toggle = chat.getByRole("button", { name: /AI thử nghiệm|Trợ lý thử nghiệm/i })
     const input = chat.getByPlaceholder(/Nhập câu hỏi/i)
     await expect(toggle).toBeVisible({ timeout: 30000 })
     // The first click can land before React hydration finishes — retry until

@@ -56,6 +56,9 @@
     "hideText": "Hide Text",
     "textError": "Failed to read document text.",
     "emptyText": "Document text is empty.",
+    "emptyTitle": "No programs found",
+    "emptyDescription": "Try a different keyword or adjust the filters.",
+    "loading": "Loading...",
     "errorTitle": "An error occurred while loading data",
     "retry": "Retry",
     "viewDetail": "View Details",
@@ -91,16 +94,27 @@
     "admissionPublishedLabel": "Published",
     "admissionFetchedLabel": "Fetched",
     "admissionNoSource": "No published source",
-    "admissionsBlockEmpty": "No data yet"
+    "admissionsBlockEmpty": "No data yet",
+    "compareShare": "Share comparison",
+    "compareShareCopied": "Link copied",
+    "scoreFilterTitle": "Filter by cutoff score",
+    "scoreFilterPlaceholder": "Enter your score",
+    "scoreFilterMethodAll": "All methods",
+    "scoreFilterScale": "Scale",
+    "scoreFilterClear": "Clear score filter",
+    "scoreFilterResult": "{count} programs with cutoff ≤ {score}",
+    "scoreFilterEmpty": "No programs match this score",
+    "scoreFilterSameScaleNote": "Only filters within the same scale — no cross-scale conversion",
+    "scoreFilterNoData": "No 2025 score data"
   },
   "chat": {
-    "title": "Experimental Assistant",
-    "subtitle": "searches a data snapshot, not an AI/LLM",
+    "title": "Experimental AI",
+    "subtitle": "answers based on the data snapshot",
     "back": "Back",
     "newChat": "New Chat",
     "placeholder": "Ask about programs or courses...",
     "loading": "Searching for information...",
-    "greeting": "Hello! I'm an experimental assistant — I search a data snapshot, not an AI/LLM. How can I help you with information about university programs and courses?",
+    "greeting": "Hello! I'm an experimental AI — I answer based on the system's data snapshot. How can I help you with information about university programs and courses?",
     "error": "Unable to load response at this time. Please try again later.",
     "expand": "Expand",
     "collapse": "Collapse",
@@ -111,6 +125,6 @@
     "yesterday": "Yesterday",
     "previous7Days": "Previous 7 Days",
     "older": "Older",
-    "disclaimer": "Experimental assistant — searches a data snapshot, not an AI/LLM. Results may be incomplete; please verify important information."
+    "disclaimer": "Experimental AI — answers based on the data snapshot. Results may be incomplete; please verify important information."
   }
 }

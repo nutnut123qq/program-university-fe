@@ -363,25 +363,11 @@ export async function querySlmRag(userQuery: string, history?: Array<{role: stri
             return `Theo quy định đào tạo của Bộ GD&ĐT tại ${targetUniName}:\n\nSinh viên bậc Cử nhân/Kỹ sư bắt buộc phải học các môn Lý luận Chính trị & Đại cương, bao gồm:\n- Triết học Mác - Lênin (3 tín chỉ)\n- Kinh tế chính trị Mác - Lênin (2 tín chỉ)\n- Chủ nghĩa xã hội khoa học (2 tín chỉ)\n- Tư tưởng Hồ Chí Minh (2 tín chỉ)\n- Lịch sử Đảng Cộng sản Việt Nam (2 tín chỉ)\n\nCác môn này thường được bố trí trong Học kỳ 1 và Học kỳ 2.`
         }
 
-        // Case C: Query about "mấy năm" / "thời gian" / "tín chỉ"
-        if (qLower.includes("mấy năm") || qLower.includes("bao lâu") || qLower.includes("tín chỉ") || qLower.includes("thời gian")) {
-            if (matchedUni) {
-                return `Thời gian đào tạo tại ${matchedUni.name} (${matchedUni.code}):\n- Bậc Cử nhân: 4 năm (8 học kỳ), khoảng 120 - 140 tín chỉ.\n- Bậc Kỹ sư chuyên sâu (nếu có): 5 năm (10 học kỳ), khoảng 150 - 180 tín chỉ.`
-            }
-            return `Theo quy chế đào tạo đại học hiện hành:\n- Bậc Cử nhân: 4 năm (120 - 140 tín chỉ).\n- Bậc Kỹ sư: 5 năm (150 - 180 tín chỉ).\n- Mỗi học kỳ sinh viên học từ 14 - 20 tín chỉ.`
-        }
-
-        // Case D: Query about "ngành"
-        if (qLower.includes("ngành") || qLower.includes("công nghệ thông tin") || qLower.includes("ai") || qLower.includes("khoa học máy tính") || qLower.includes("kinh tế")) {
-            const uniPrefix = matchedUni ? `tại ${matchedUni.name}` : "trong hệ thống"
-            const dataScope = typeof indexData?.totalCount === "number"
-                ? `dữ liệu của ${indexData.totalCount.toLocaleString("vi-VN")} chương trình đào tạo`
-                : "dữ liệu chương trình đào tạo"
-            return `Hệ thống hiện có ${dataScope} ${uniPrefix}.\n\nBạn có thể sử dụng thanh Tìm kiếm trên trang Danh mục để xem chi tiết môn học và sơ đồ môn tiên quyết của từng ngành.`
-        }
-
         const uniText = matchedUni ? `tại ${matchedUni.name} (${matchedUni.code})` : "của các trường đại học"
-        return `Dữ liệu chương trình đào tạo ${uniText} đã được chuẩn hóa theo 4 khối kiến thức: Đại cương, Cơ sở ngành, Chuyên ngành và Tốt nghiệp.\n\nBạn có thể tìm kiếm tên ngành cụ thể trên trang Danh mục để xem chi tiết từng học phần.`
+        const dataScope = typeof indexData?.totalCount === "number"
+            ? ` (${indexData.totalCount.toLocaleString("vi-VN")} chương trình)`
+            : ""
+        return `Dữ liệu chương trình đào tạo ${uniText}${dataScope} đã được chuẩn hóa theo 4 khối kiến thức: Đại cương, Cơ sở ngành, Chuyên ngành và Tốt nghiệp.\n\nBạn có thể tìm kiếm tên ngành cụ thể trên trang Danh mục để xem chi tiết từng học phần.`
     } catch (e) {
         return "Hệ thống đang truy xuất thông tin. Bạn có thể tra cứu trực tiếp trên danh mục ngành học."
     }

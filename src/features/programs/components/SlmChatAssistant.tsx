@@ -58,7 +58,7 @@ export const SlmChatAssistant = () => {
                     className="h-11 px-4 rounded-full shadow-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-all gap-2 text-xs font-medium"
                 >
                     <MessageSquare className="w-4 h-4" />
-                    <span>{t("title") || "Trợ lý thử nghiệm"}</span>
+                    <span>{t("title") || "AI thử nghiệm"}</span>
                 </Button>
             )}
 
@@ -69,8 +69,8 @@ export const SlmChatAssistant = () => {
                         <div className="flex items-center gap-2">
                             <Bot className="w-4 h-4 text-primary shrink-0" />
                             <div className="min-w-0">
-                                <CardTitle className="text-sm font-semibold leading-tight">{t("title") || "Trợ lý thử nghiệm"}</CardTitle>
-                                <p className="text-[10px] text-muted-foreground leading-tight">{t("subtitle") || "tra cứu trên snapshot dữ liệu, không phải AI/LLM"}</p>
+                                <CardTitle className="text-sm font-semibold leading-tight">{t("title") || "AI thử nghiệm"}</CardTitle>
+                                <p className="text-[10px] text-muted-foreground leading-tight">{t("subtitle") || "trả lời dựa trên snapshot dữ liệu"}</p>
                             </div>
                         </div>
                         <div className="flex items-center gap-1">
@@ -152,7 +152,7 @@ export const SlmChatAssistant = () => {
                         </Button>
                     </div>
                     <div className="px-2.5 pb-2 text-center text-[10px] text-muted-foreground">
-                        {t("disclaimer") || "Trợ lý thử nghiệm — tra cứu trên snapshot dữ liệu, không phải AI/LLM."}
+                        {t("disclaimer") || "AI thử nghiệm — trả lời dựa trên snapshot dữ liệu."}
                     </div>
                 </Card>
             )}

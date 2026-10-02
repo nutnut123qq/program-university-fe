@@ -1,23 +1,68 @@
 "use client"
 
-import React, { useState } from "react"
+import React, { Suspense, useEffect, useState } from "react"
+import { usePathname, useSearchParams } from "next/navigation"
 import useSWR from "swr"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Scale, GraduationCap, ArrowRightLeft, CheckCircle2, AlertCircle } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { Scale, GraduationCap, ArrowRightLeft, CheckCircle2, AlertCircle, Share2, Check } from "lucide-react"
 import { fetchPrograms, fetchCurricula } from "@/features/programs/api"
 import { Program } from "@/features/programs/types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 import { CompareAdmissions } from "./CompareAdmissions"
 import { useTranslations } from "next-intl"
 
-export const ProgramComparison = () => {
+const ProgramComparisonInner = () => {
     const t = useTranslations("programs")
+    const pathname = usePathname()
+    const searchParams = useSearchParams()
     const { data: programRes } = useSWR(["programs-list-all"], () => fetchPrograms({ page: 1, pageSize: 200 }))
     const programsList = programRes?.items || []
 
     const [progId1, setProgId1] = useState<string>("1")
     const [progId2, setProgId2] = useState<string>("2")
+    const [paramsApplied, setParamsApplied] = useState(false)
+    const [copied, setCopied] = useState(false)
+
+    // Apply ?a=<id>&b=<id> once the selectable list is loaded.
+    // Unknown/invalid ids are ignored silently.
+    useEffect(() => {
+        if (paramsApplied || programsList.length === 0) return
+        const a = searchParams.get("a")
+        const b = searchParams.get("b")
+        if (a && programsList.some((p) => String(p.id) === a)) setProgId1(a)
+        if (b && programsList.some((p) => String(p.id) === b)) setProgId2(b)
+        setParamsApplied(true)
+    }, [paramsApplied, programsList, searchParams])
+
+    // Keep the address bar in sync with the current pair (no navigation).
+    // A picker that is empty or holds a non-program value drops its param.
+    useEffect(() => {
+        if (!paramsApplied || programsList.length === 0) return
+        const params = new URLSearchParams()
+        if (progId1 && programsList.some((p) => String(p.id) === progId1)) params.set("a", progId1)
+        if (progId2 && programsList.some((p) => String(p.id) === progId2)) params.set("b", progId2)
+        const cur = new URLSearchParams(window.location.search)
+        if ((cur.get("a") ?? "") === (params.get("a") ?? "") && (cur.get("b") ?? "") === (params.get("b") ?? "")) return
+        const next = params.toString()
+        // In-place URL update only: history.replaceState rewrites the address
+        // bar without an RSC navigation and keeps Next's pathname/searchParams
+        // hooks in sync. router.replace proved unreliable here — on this SSG
+        // page its soft navigation can be dropped entirely, leaving the URL
+        // stale while the pickers already changed.
+        window.history.replaceState(window.history.state, "", next ? `${pathname}?${next}` : pathname)
+    }, [paramsApplied, progId1, progId2, programsList, pathname])
+
+    const handleShare = async () => {
+        try {
+            await navigator.clipboard.writeText(window.location.href)
+            setCopied(true)
+            window.setTimeout(() => setCopied(false), 2000)
+        } catch {
+            // Clipboard unavailable (permissions/non-secure context) — stay silent.
+        }
+    }
 
     const p1 = programsList.find(p => String(p.id) === String(progId1)) || programsList[0]
     const p2 = programsList.find(p => String(p.id) === String(progId2)) || programsList[1] || programsList[0]
@@ -70,6 +115,20 @@ export const ProgramComparison = () => {
                 <p className="text-muted-foreground text-sm">
                     Phân tích điểm tương đồng, sự khác biệt về số tín chỉ, môn học trùng lặp và biểu đồ {t("slmRefScore")} ({t("slmRefScoreNote")}).
                 </p>
+            </div>
+
+            {/* Share */}
+            <div className="flex justify-end">
+                <Button
+                    type="button"
+                    variant="outline"
+                    size="sm"
+                    onClick={handleShare}
+                    data-testid="compare-share-button"
+                >
+                    {copied ? <Check className="w-4 h-4 text-emerald-500" /> : <Share2 className="w-4 h-4" />}
+                    <span>{copied ? t("compareShareCopied") : t("compareShare")}</span>
+                </Button>
             </div>
 
             {/* Program Selectors */}
@@ -260,3 +319,11 @@ export const ProgramComparison = () => {
         </div>
     )
 }
+
+// /[locale]/compare is statically prerendered — useSearchParams must sit
+// behind a Suspense boundary or `next build` fails.
+export const ProgramComparison = () => (
+    <Suspense fallback={null}>
+        <ProgramComparisonInner />
+    </Suspense>
+)

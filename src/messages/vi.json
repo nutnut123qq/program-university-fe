@@ -56,6 +56,9 @@
     "hideText": "Ẩn văn bản",
     "textError": "Không thể đọc nội dung văn bản.",
     "emptyText": "Văn bản trống.",
+    "emptyTitle": "Không tìm thấy chương trình",
+    "emptyDescription": "Thử thay đổi từ khóa hoặc bộ lọc để xem kết quả khác.",
+    "loading": "Đang tải...",
     "errorTitle": "Đã xảy ra lỗi khi tải dữ liệu",
     "retry": "Thử lại",
     "viewDetail": "Xem chi tiết",
@@ -91,16 +94,27 @@
     "admissionPublishedLabel": "Công bố",
     "admissionFetchedLabel": "Tải về",
     "admissionNoSource": "Không có nguồn công bố",
-    "admissionsBlockEmpty": "Chưa có dữ liệu"
+    "admissionsBlockEmpty": "Chưa có dữ liệu",
+    "compareShare": "Chia sẻ so sánh",
+    "compareShareCopied": "Đã sao chép liên kết",
+    "scoreFilterTitle": "Lọc theo điểm chuẩn",
+    "scoreFilterPlaceholder": "Nhập điểm của bạn",
+    "scoreFilterMethodAll": "Tất cả phương thức",
+    "scoreFilterScale": "Thang điểm",
+    "scoreFilterClear": "Bỏ lọc điểm",
+    "scoreFilterResult": "{count} ngành có điểm xét tuyển ≤ {score}",
+    "scoreFilterEmpty": "Chưa có ngành nào khớp điểm này",
+    "scoreFilterSameScaleNote": "Chỉ lọc trong cùng thang điểm — không quy đổi giữa các thang",
+    "scoreFilterNoData": "Chưa có dữ liệu điểm 2025"
   },
   "chat": {
-    "title": "Trợ lý thử nghiệm",
-    "subtitle": "tra cứu trên snapshot dữ liệu, không phải AI/LLM",
+    "title": "AI thử nghiệm",
+    "subtitle": "trả lời dựa trên snapshot dữ liệu",
     "back": "Quay lại",
     "newChat": "Cuộc trò chuyện mới",
     "placeholder": "Nhập câu hỏi về ngành hoặc môn học...",
     "loading": "Đang tìm kiếm thông tin...",
-    "greeting": "Xin chào! Tôi là trợ lý thử nghiệm — tra cứu trên snapshot dữ liệu, không phải AI/LLM. Tôi có thể hỗ trợ gì về thông tin chương trình đào tạo và môn học của các trường đại học?",
+    "greeting": "Xin chào! Tôi là AI thử nghiệm — trả lời dựa trên snapshot dữ liệu của hệ thống. Tôi có thể hỗ trợ gì về thông tin chương trình đào tạo và môn học của các trường đại học?",
     "error": "Không thể tải câu trả lời vào lúc này. Vui lòng thử lại sau.",
     "expand": "Mở rộng",
     "collapse": "Thu nhỏ",
@@ -111,6 +125,6 @@
     "yesterday": "Hôm qua",
     "previous7Days": "7 ngày qua",
     "older": "Cũ hơn",
-    "disclaimer": "Trợ lý thử nghiệm — tra cứu trên snapshot dữ liệu, không phải AI/LLM. Kết quả có thể chưa đầy đủ, vui lòng kiểm tra lại thông tin quan trọng."
+    "disclaimer": "AI thử nghiệm — trả lời dựa trên snapshot dữ liệu. Kết quả có thể chưa đầy đủ, vui lòng kiểm tra lại thông tin quan trọng."
   }
 }
