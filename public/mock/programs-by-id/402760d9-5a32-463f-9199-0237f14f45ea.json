@@ -21,6 +21,23 @@
   "createdAt": "2026-06-23T09:10:40.487654+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 35,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn A",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "GE3223"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn B",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "GE4149",
+        "GE4151"
+      ]
+    }
+  ],
   "evaluationScore": 5.65,
   "evalOutcomes": 0,
   "evalStructure": 4,

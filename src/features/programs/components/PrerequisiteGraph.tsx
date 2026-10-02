@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Curriculum } from "../types"
+import { useTranslations } from "next-intl"
 import { GitCommit, Layers, Maximize2, RotateCcw, Filter, CheckCircle2 } from "lucide-react"
 
 interface PrerequisiteGraphProps {
@@ -23,6 +24,7 @@ const getBlockColor = (kb?: string | null) => {
 }
 
 export const PrerequisiteGraph: React.FC<PrerequisiteGraphProps> = ({ courses, onSelectCourseForSyllabus }) => {
+    const t = useTranslations("programs")
     const [selectedCourse, setSelectedCourse] = useState<Curriculum | null>(null)
     const [activeBlockFilter, setActiveBlockFilter] = useState<string>("all")
     const [isFullscreen, setIsFullscreen] = useState<boolean>(false)
@@ -76,7 +78,7 @@ export const PrerequisiteGraph: React.FC<PrerequisiteGraphProps> = ({ courses, o
     if (!courses || courses.length === 0) {
         return (
             <div className="p-8 text-center text-muted-foreground border border-dashed rounded-xl">
-                Không có dữ liệu môn học để dựng Sơ đồ Cây Tiên quyết.
+                {t("graphNoData")}
             </div>
         )
     }
@@ -88,13 +90,13 @@ export const PrerequisiteGraph: React.FC<PrerequisiteGraphProps> = ({ courses, o
                 <div>
                     <div className="flex items-center gap-2">
                         <Layers className="w-5 h-5 text-primary" />
-                        <h3 className="font-extrabold text-base">Sơ đồ Cây Môn học Tiên quyết (DAG Graph)</h3>
+                        <h3 className="font-extrabold text-base">{t("graphTitle")}</h3>
                         <Badge variant="outline" className="font-mono text-xs bg-primary/10 text-primary border-primary/20">
-                            {courses.length} môn học
+                            {t("courseCount", { count: courses.length })}
                         </Badge>
                     </div>
                     <p className="text-xs text-muted-foreground mt-0.5">
-                        Nhấp vào môn bất kỳ để xem các môn bắt buộc học trước và môn được mở khóa sau.
+                        {t("graphHint")}
                     </p>
                 </div>
 
@@ -107,54 +109,54 @@ export const PrerequisiteGraph: React.FC<PrerequisiteGraphProps> = ({ courses, o
                             onClick={() => setActiveBlockFilter("all")}
                             className={`px-2 py-0.5 rounded font-medium transition-colors ${activeBlockFilter === "all" ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"}`}
                         >
-                            Tất cả
+                            {t("graphFilterAll")}
                         </button>
                         <button
                             onClick={() => setActiveBlockFilter("đại cương")}
                             className={`px-2 py-0.5 rounded font-medium transition-colors ${activeBlockFilter === "đại cương" ? "bg-blue-500/20 text-blue-500 shadow-sm" : "text-muted-foreground hover:text-foreground"}`}
                         >
-                            Đại cương
+                            {t("kbBlockGeneral")}
                         </button>
                         <button
                             onClick={() => setActiveBlockFilter("cơ sở")}
                             className={`px-2 py-0.5 rounded font-medium transition-colors ${activeBlockFilter === "cơ sở" ? "bg-indigo-500/20 text-indigo-500 shadow-sm" : "text-muted-foreground hover:text-foreground"}`}
                         >
-                            Cơ sở
+                            {t("graphFilterFoundation")}
                         </button>
                         <button
                             onClick={() => setActiveBlockFilter("chuyên ngành")}
                             className={`px-2 py-0.5 rounded font-medium transition-colors ${activeBlockFilter === "chuyên ngành" ? "bg-purple-500/20 text-purple-500 shadow-sm" : "text-muted-foreground hover:text-foreground"}`}
                         >
-                            Chuyên ngành
+                            {t("kbBlockMajor")}
                         </button>
                     </div>
 
                     {selectedCourse && (
                         <Button size="sm" variant="ghost" onClick={() => setSelectedCourse(null)} className="h-8 text-xs gap-1">
                             <RotateCcw className="w-3.5 h-3.5" />
-                            <span>Bỏ chọn</span>
+                            <span>{t("graphClearSelection")}</span>
                         </Button>
                     )}
 
                     <Button size="sm" variant="outline" onClick={() => setIsFullscreen(!isFullscreen)} className="h-8 text-xs gap-1">
                         <Maximize2 className="w-3.5 h-3.5" />
-                        <span>{isFullscreen ? "Thu nhỏ" : "Toàn màn hình"}</span>
+                        <span>{isFullscreen ? t("graphMinimize") : t("graphFullscreen")}</span>
                     </Button>
                 </div>
             </div>
 
             {/* Legend Bar */}
             <div className="flex flex-wrap items-center gap-4 text-xs bg-muted/20 p-2.5 rounded-xl border">
-                <span className="font-semibold text-muted-foreground">Chú thích:</span>
-                <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full bg-blue-500" /> Đại cương</span>
-                <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full bg-indigo-500" /> Cơ sở ngành</span>
-                <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full bg-purple-500" /> Chuyên ngành</span>
-                <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full bg-emerald-500" /> Tốt nghiệp</span>
+                <span className="font-semibold text-muted-foreground">{t("graphLegend")}</span>
+                <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full bg-blue-500" /> {t("kbBlockGeneral")}</span>
+                <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full bg-indigo-500" /> {t("kbBlockFoundation")}</span>
+                <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full bg-purple-500" /> {t("kbBlockMajor")}</span>
+                <span className="flex items-center gap-1.5"><span className="w-2.5 h-2.5 rounded-full bg-emerald-500" /> {t("kbBlockGraduation")}</span>
                 {selectedCourse && (
                     <div className="ml-auto flex items-center gap-2">
                         <span className="font-medium text-primary flex items-center gap-1">
                             <CheckCircle2 className="w-3.5 h-3.5" />
-                            Đang chọn: <strong>{selectedCourse.courseName}</strong> ({selectedCourse.courseCode || "—"})
+                            {t("graphSelected")} <strong>{selectedCourse.courseName}</strong> ({selectedCourse.courseCode || "—"})
                         </span>
                         {onSelectCourseForSyllabus && (
                             <Button
@@ -163,7 +165,7 @@ export const PrerequisiteGraph: React.FC<PrerequisiteGraphProps> = ({ courses, o
                                 onClick={() => onSelectCourseForSyllabus(selectedCourse)}
                                 className="h-7 text-xs px-2.5 bg-primary font-medium text-primary-foreground shadow-sm hover:bg-primary/90"
                             >
-                                Xem đề cương chi tiết
+                                {t("graphViewSyllabus")}
                             </Button>
                         )}
                     </div>
@@ -185,9 +187,9 @@ export const PrerequisiteGraph: React.FC<PrerequisiteGraphProps> = ({ courses, o
                             <div key={semNum} className="flex-1 min-w-[150px] bg-muted/10 border rounded-xl p-3 space-y-3">
                                 {/* Semester Column Header */}
                                 <div className="border-b pb-2 text-center">
-                                    <h4 className="font-bold text-xs text-foreground uppercase tracking-wider">{semNum === 0 ? "Chưa rõ HK" : `Học kỳ ${semNum}`}</h4>
+                                    <h4 className="font-bold text-xs text-foreground uppercase tracking-wider">{semNum === 0 ? t("graphUnknownSemester") : t("graphSemester", { n: semNum })}</h4>
                                     <span className="text-[10px] text-muted-foreground font-mono font-medium">
-                                        {filteredSemCourses.length} môn ({semCredits} TC)
+                                        {t("graphSemesterStats", { count: filteredSemCourses.length, credits: semCredits })}
                                     </span>
                                 </div>
 
@@ -217,14 +219,14 @@ export const PrerequisiteGraph: React.FC<PrerequisiteGraphProps> = ({ courses, o
                                                 <div className="flex items-start justify-between gap-1">
                                                     <span className="font-mono font-bold text-[10px] opacity-80">{c.courseCode || "—"}</span>
                                                     <Badge variant="outline" className="text-[9px] px-1 py-0 font-mono bg-background/60">
-                                                        {c.credits != null ? `${c.credits} TC` : "N/A"}
+                                                        {c.credits != null ? t("creditsShort", { count: c.credits }) : "N/A"}
                                                     </Badge>
                                                 </div>
                                                 <p className="font-medium text-xs mt-1 line-clamp-2 leading-tight">{c.courseName}</p>
                                                 {c.prerequisites && (
                                                     <div className="mt-1.5 pt-1 border-t border-border/30 flex items-center gap-1 text-[9px] opacity-70 truncate">
                                                         <GitCommit className="w-2.5 h-2.5 shrink-0" />
-                                                        <span className="truncate">TQ: {c.prerequisites}</span>
+                                                        <span className="truncate">{t("graphPrereqAbbr")} {c.prerequisites}</span>
                                                     </div>
                                                 )}
                                             </Card>
@@ -232,7 +234,7 @@ export const PrerequisiteGraph: React.FC<PrerequisiteGraphProps> = ({ courses, o
                                     })}
 
                                     {filteredSemCourses.length === 0 && (
-                                        <div className="py-6 text-center text-[11px] text-muted-foreground italic">Trống</div>
+                                        <div className="py-6 text-center text-[11px] text-muted-foreground italic">{t("graphEmpty")}</div>
                                     )}
                                 </div>
                             </div>

@@ -21,6 +21,213 @@
   "createdAt": "2026-06-25T13:38:29.196846+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 91,
+  "electiveGroups": [
+    {
+      "groupName": "Quản trị du thuyền (CN2-1) (18 tín chỉ) - Chọn 1 trong 2 nhóm [ Quản trị du thuyền (CN2-1); Quản trị lữ hành (CN1-1)]",
+      "requiredCredits": 18,
+      "courseCodes": [
+        "TOU515107",
+        "TOU515108",
+        "HOT515029",
+        "TOU515091",
+        "HOT515031",
+        "TOU515106"
+      ]
+    },
+    {
+      "groupName": "Quản trị du thuyền (CN2-2) (6 tín chỉ) - Chọn 1 trong 2 nhóm [ Quản trị du thuyền (CN2-2); Quản trị lữ hành (CN1-2)]",
+      "requiredCredits": 6,
+      "courseCodes": [
+        "TOU515032",
+        "TOU515028"
+      ]
+    },
+    {
+      "groupName": "Quản trị du thuyền (CN2-3) (3 tín chỉ) - Chọn 1 trong 2 nhóm [ Quản trị du thuyền (CN2-3); Quản trị lữ hành (CN1-3)]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "TOU515109",
+        "TOU515027",
+        "TOU515023",
+        "TOU515033"
+      ]
+    },
+    {
+      "groupName": "Quản trị du thuyền (CN2-4) (3 tín chỉ) - Chọn 1 trong 2 nhóm [ Quản trị du thuyền (CN2-4); Quản trị lữ hành (CN1-4)]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "TOU515034",
+        "TOU515110",
+        "TOU515078"
+      ]
+    },
+    {
+      "groupName": "Quản trị du thuyền (CN2-5) (3 tín chỉ) - Chọn 1 trong 2 nhóm [ Quản trị du thuyền (CN2-5); Quản trị lữ hành (CN1-5)]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "TOU515111",
+        "TOU515075",
+        "TOU515042",
+        "TOU515012"
+      ]
+    },
+    {
+      "groupName": "Quản trị du thuyền (CN2-6) (5 tín chỉ) - Chọn 1 trong 2 nhóm [ Quản trị du thuyền (CN2-6); Quản trị lữ hành (CN1-6)]",
+      "requiredCredits": 5,
+      "courseCodes": [
+        "TOU515112"
+      ]
+    },
+    {
+      "groupName": "Quản trị du thuyền (CN2-7) (10 tín chỉ) - Chọn 1 trong 2 nhóm [ Quản trị du thuyền (CN2-7); Quản trị lữ hành (CN1-7)]",
+      "requiredCredits": 10,
+      "courseCodes": [
+        "TOU515157",
+        "TOU515160"
+      ]
+    },
+    {
+      "groupName": "Quản trị lữ hành (CN1-1) (18 tín chỉ) - Chọn 1 trong 2 nhóm [ Quản trị du thuyền (CN2-1); Quản trị lữ hành (CN1-1)]",
+      "requiredCredits": 18,
+      "courseCodes": [
+        "TOU515094",
+        "TOU515020",
+        "TOU515093",
+        "TOU515092",
+        "TOU515021"
+      ]
+    },
+    {
+      "groupName": "Quản trị lữ hành (CN1-2) (6 tín chỉ) - Chọn 1 trong 2 nhóm [ Quản trị du thuyền (CN2-2); Quản trị lữ hành (CN1-2)]",
+      "requiredCredits": 6,
+      "courseCodes": [
+        "TOU515016",
+        "TOU515018"
+      ]
+    },
+    {
+      "groupName": "Quản trị lữ hành (CN1-3) (3 tín chỉ) - Chọn 1 trong 2 nhóm [ Quản trị du thuyền (CN2-3); Quản trị lữ hành (CN1-3)]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "TOU515096",
+        "TOU515095",
+        "TOU515097"
+      ]
+    },
+    {
+      "groupName": "Quản trị lữ hành (CN1-4) (3 tín chỉ) - Chọn 1 trong 2 nhóm [ Quản trị du thuyền (CN2-4); Quản trị lữ hành (CN1-4)]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "TOU515099",
+        "TOU515098",
+        "TOU515100"
+      ]
+    },
+    {
+      "groupName": "Quản trị lữ hành (CN1-5) (3 tín chỉ) - Chọn 1 trong 2 nhóm [ Quản trị du thuyền (CN2-5); Quản trị lữ hành (CN1-5)]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "TOU515103",
+        "TOU515101",
+        "TOU515102"
+      ]
+    },
+    {
+      "groupName": "Quản trị lữ hành (CN1-6) (5 tín chỉ) - Chọn 1 trong 2 nhóm [ Quản trị du thuyền (CN2-6); Quản trị lữ hành (CN1-6)]",
+      "requiredCredits": 5,
+      "courseCodes": [
+        "TOU515104"
+      ]
+    },
+    {
+      "groupName": "Quản trị lữ hành (CN1-7) (10 tín chỉ) - Chọn 1 trong 2 nhóm [ Quản trị du thuyền (CN2-7); Quản trị lữ hành (CN1-7)]",
+      "requiredCredits": 10,
+      "courseCodes": [
+        "TOU515162",
+        "TOU515169"
+      ]
+    },
+    {
+      "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514001",
+        "PHY514007"
+      ]
+    },
+    {
+      "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514019",
+        "PHY514020"
+      ]
+    },
+    {
+      "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514002",
+        "PHY514008"
+      ]
+    },
+    {
+      "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514009",
+        "PHY514003"
+      ]
+    },
+    {
+      "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514004",
+        "PHY514010"
+      ]
+    },
+    {
+      "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514011",
+        "PHY514005"
+      ]
+    },
+    {
+      "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514006",
+        "PHY514012"
+      ]
+    },
+    {
+      "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514016",
+        "PHY514013"
+      ]
+    },
+    {
+      "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514018",
+        "PHY514015"
+      ]
+    },
+    {
+      "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514017",
+        "PHY514014"
+      ]
+    }
+  ],
   "evaluationScore": 6.25,
   "evalOutcomes": 0,
   "evalStructure": 4,

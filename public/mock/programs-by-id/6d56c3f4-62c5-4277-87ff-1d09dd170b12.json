@@ -21,6 +21,142 @@
   "createdAt": "2026-06-25T13:37:36.210161+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 125,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn 4 (Luật dân sự)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01057",
+        "E01155"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 4 (Luật hình sự)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01027",
+        "E01092",
+        "E01093",
+        "E01126",
+        "E01127",
+        "E01128",
+        "E01129",
+        "E01162"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 4 (Luật kinh doanh quốc tế)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01051",
+        "E01064",
+        "E01124",
+        "E01157",
+        "E01161"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 4 (Luật kinh tế)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01047",
+        "E01050",
+        "E01052",
+        "E01053",
+        "E01054",
+        "E01060",
+        "E01122"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01101",
+        "D01102",
+        "D01103",
+        "D01104",
+        "D01106",
+        "D01120",
+        "D01121"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01201",
+        "D01202",
+        "D01203",
+        "D01204",
+        "D01205",
+        "D01206",
+        "D01221",
+        "D01222"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00044",
+        "L00045",
+        "L00046",
+        "L00052",
+        "L00047",
+        "L00048",
+        "L00049",
+        "L00051"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chung",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01012",
+        "E01013",
+        "E01016",
+        "E01020",
+        "E01033",
+        "E01034",
+        "E01119",
+        "E01121",
+        "E01158",
+        "E01165"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành (Luật dân sự)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01132"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành (Luật hình sự)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01136",
+        "E01164"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành (Luật kinh doanh quốc tế)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01133",
+        "E01163"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành (Luật kinh tế)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01130",
+        "E01131"
+      ]
+    }
+  ],
   "evaluationScore": 7.6,
   "evalOutcomes": 4,
   "evalStructure": 3,

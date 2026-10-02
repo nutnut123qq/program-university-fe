@@ -21,6 +21,105 @@
   "createdAt": "2026-06-18T15:41:24.019608+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 96,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01012",
+        "E01013"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01074",
+        "E01165"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 3",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01040",
+        "E01114"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 4",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01034",
+        "E01060",
+        "E01111"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 5",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01049",
+        "E01050",
+        "E01051"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01101",
+        "D01102",
+        "D01103",
+        "D01104",
+        "D01106",
+        "D01120",
+        "D01121"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01201",
+        "D01202",
+        "D01203",
+        "D01204",
+        "D01205",
+        "D01206",
+        "D01221",
+        "D01222"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00047",
+        "L00048",
+        "L00049",
+        "L00051"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng thiết yếu cho sự PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00044",
+        "L00045",
+        "L00046",
+        "L00052"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "E01116",
+        "E01117"
+      ]
+    }
+  ],
   "evaluationScore": 5.0,
   "evalOutcomes": 0,
   "evalStructure": 3,

@@ -21,6 +21,107 @@
   "createdAt": "2026-06-25T13:27:13.107317+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 109,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "001614",
+        "001172",
+        "001186",
+        "001173",
+        "001616",
+        "001198",
+        "001615",
+        "001612",
+        "001613"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "001171",
+        "001175",
+        "001178",
+        "001617",
+        "001176",
+        "001179"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn Chuyên ngành Thương mại",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "001195",
+        "001193",
+        "001339",
+        "001194",
+        "001196"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01101",
+        "D01103",
+        "D01121",
+        "D01120",
+        "D01102",
+        "D01104",
+        "D01106"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01222",
+        "D01202",
+        "D01203",
+        "D01204",
+        "D01205",
+        "D01201",
+        "D01221",
+        "D01206"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng thiết yếu cho sự PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00046",
+        "L00049",
+        "L00052",
+        "L00047",
+        "L00044",
+        "L00048",
+        "L00051",
+        "L00045"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành (Sư phạm)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "001609",
+        "001338",
+        "001337",
+        "001183",
+        "001184",
+        "001155",
+        "001185"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành (Thương mại)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "001197"
+      ]
+    }
+  ],
   "evaluationScore": 5.5,
   "evalOutcomes": 0,
   "evalStructure": 3,

@@ -21,6 +21,15 @@
   "createdAt": "2026-06-23T09:23:44.435465+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 41,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn A",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "CH3381"
+      ]
+    }
+  ],
   "evaluationScore": 6.49,
   "evalOutcomes": 0,
   "evalStructure": 4,

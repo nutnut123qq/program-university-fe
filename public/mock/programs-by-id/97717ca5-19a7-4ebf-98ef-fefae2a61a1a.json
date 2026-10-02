@@ -21,6 +21,121 @@
   "createdAt": "2026-06-18T15:40:44.700253+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 120,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn (Tổng hợp hữu cơ)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "604030",
+        "604031",
+        "604034",
+        "604035",
+        "604055"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn (Vật liệu hữu cơ)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "602210",
+        "604037",
+        "605023",
+        "605033",
+        "605034",
+        "605035",
+        "605036"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn (Vật liệu vô cơ)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "602111",
+        "602112",
+        "604023",
+        "604025",
+        "604026",
+        "604027",
+        "604029"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "60211860"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "60211660"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 3",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "60211560"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 4",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "60211760"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01101",
+        "D01102",
+        "D01103",
+        "D01104",
+        "D01106",
+        "D01120",
+        "D01121"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01201",
+        "D01202",
+        "D01203",
+        "D01204",
+        "D01205",
+        "D01206",
+        "D01221",
+        "D01222"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng thiết yếu cho sự PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00044",
+        "L00045",
+        "L00046",
+        "L00052",
+        "L00047",
+        "L00048",
+        "L00049",
+        "L00051"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn môn thay thế tốt nghiệp",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "602120"
+      ]
+    }
+  ],
   "evaluationScore": 5.5,
   "evalOutcomes": 0,
   "evalStructure": 3,

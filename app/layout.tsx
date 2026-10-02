@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { Figtree, Geist } from "next/font/google"
+import { getTranslations } from "next-intl/server"
 import "./globals.css"
 import React, { PropsWithChildren } from "react"
 import { cn } from "@/lib/utils"
@@ -11,9 +12,12 @@ const figtree = Figtree({
     variable: "--font-figtree",
 })
 
-export const metadata: Metadata = {
-    title: "Tedo — Tra cứu Chương trình Đào tạo Đại học",
-    description: "Hệ thống tra cứu, chuẩn hóa và so sánh chương trình đào tạo của các trường đại học Việt Nam",
+export async function generateMetadata(): Promise<Metadata> {
+    const t = await getTranslations("metadata")
+    return {
+        title: t("title"),
+        description: t("description"),
+    }
 }
 
 const Layout = ({ children }: PropsWithChildren) => {

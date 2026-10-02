@@ -21,6 +21,19 @@
   "createdAt": "2026-06-23T09:20:57.565714+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 34,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn B",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "TR3027",
+        "TR3053",
+        "TR3061",
+        "TR3085",
+        "TR3133"
+      ]
+    }
+  ],
   "evaluationScore": 6.04,
   "evalOutcomes": 0,
   "evalStructure": 3,

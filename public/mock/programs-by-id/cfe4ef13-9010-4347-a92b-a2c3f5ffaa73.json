@@ -21,6 +21,36 @@
   "createdAt": "2026-06-23T09:10:32.907697+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 40,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn A",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "GE2011",
+        "GE2045"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn B",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "GE3163",
+        "GE3167",
+        "GE3179"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn C",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "GE3175",
+        "GE3177",
+        "GE3183",
+        "GE3185",
+        "GE3199"
+      ]
+    }
+  ],
   "evaluationScore": 5.89,
   "evalOutcomes": 0,
   "evalStructure": 4,

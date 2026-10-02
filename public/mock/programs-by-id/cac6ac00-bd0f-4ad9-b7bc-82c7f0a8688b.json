@@ -21,6 +21,120 @@
   "createdAt": "2026-06-25T13:37:00.164472+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 72,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm 1: Đầu tư bất động sản (12 tín chỉ) - Chọn 1 trong 2 nhóm [ Nhóm 1: Đầu tư bất động sản; Nhóm 2: Phát triển bất động sản]",
+      "requiredCredits": 12,
+      "courseCodes": [
+        "FIN505005",
+        "FIN505012",
+        "FIN505020",
+        "ECO501058",
+        "ECO501047",
+        "ECO501068"
+      ]
+    },
+    {
+      "groupName": "Nhóm 2: Phát triển bất động sản (12 tín chỉ) - Chọn 1 trong 2 nhóm [ Nhóm 1: Đầu tư bất động sản; Nhóm 2: Phát triển bất động sản]",
+      "requiredCredits": 12,
+      "courseCodes": [
+        "ECO501107",
+        "ECO501076",
+        "ECO501045",
+        "LAW511035",
+        "ECO501108",
+        "ECO501109"
+      ]
+    },
+    {
+      "groupName": "Nhóm01 (chọn 10/20 tín chỉ)",
+      "requiredCredits": 10,
+      "courseCodes": [
+        "ECO501086",
+        "ECO501137"
+      ]
+    },
+    {
+      "groupName": "Nhóm02 (chọn 3/6 tín chỉ)",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "ECO501194",
+        "ECO501055"
+      ]
+    },
+    {
+      "groupName": "Nhóm03 (chọn 3/6 tín chỉ)",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "ECO501195",
+        "ECO501009"
+      ]
+    },
+    {
+      "groupName": "Nhóm04 (chọn 3/6 tín chỉ)",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "ECO501012",
+        "ECO501196"
+      ]
+    },
+    {
+      "groupName": "Nhóm05 (chọn 3/6 tín chỉ)",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "ECO501200",
+        "ECO501088"
+      ]
+    },
+    {
+      "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514001",
+        "PHY514007"
+      ]
+    },
+    {
+      "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514008",
+        "PHY514002"
+      ]
+    },
+    {
+      "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514009",
+        "PHY514003"
+      ]
+    },
+    {
+      "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514010",
+        "PHY514004"
+      ]
+    },
+    {
+      "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514005",
+        "PHY514011"
+      ]
+    },
+    {
+      "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514012",
+        "PHY514006"
+      ]
+    }
+  ],
   "evaluationScore": 6.25,
   "evalOutcomes": 0,
   "evalStructure": 4,

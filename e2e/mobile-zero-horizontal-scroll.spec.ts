@@ -46,3 +46,42 @@ test.describe("Mobile Zero Horizontal Scroll Audit", () => {
         }
     }
 })
+
+test.describe("Mobile navigation drawer", () => {
+    test("Hamburger opens drawer at 375px and links navigate", async ({ page }) => {
+        await page.setViewportSize({ width: 375, height: 800 })
+        await page.goto("/vi", { waitUntil: "networkidle" })
+
+        const toggle = page.getByRole("button", { name: "Menu" })
+        await expect(toggle).toBeVisible()
+        await toggle.click()
+
+        const drawer = page.locator("#mobile-nav-menu")
+        await expect(drawer).toBeVisible()
+
+        // Same section links as desktop must be reachable on mobile
+        await drawer.getByRole("link", { name: "Lộ trình" }).click()
+        await expect(page).toHaveURL(/\/vi\/roadmap/)
+        await expect(page.locator("#mobile-nav-menu")).toHaveCount(0)
+    })
+})
+
+test.describe("Mobile chat layout", () => {
+    test("Sidebar is closed by default and main column stays usable at 375px", async ({ page }) => {
+        await page.setViewportSize({ width: 375, height: 800 })
+        await page.goto("/vi/chat", { waitUntil: "networkidle" })
+        // Allow the sidebar close transition to finish
+        await page.waitForTimeout(400)
+
+        const main = page.locator("main.flex-1")
+        const mainBox = await main.boundingBox()
+        expect(mainBox?.width ?? 0).toBeGreaterThanOrEqual(250)
+
+        // Opening the sidebar turns it into an overlay — the main column must
+        // not be crushed when it is open either.
+        await page.getByRole("button", { name: "Lịch sử trò chuyện" }).click()
+        await page.waitForTimeout(350)
+        const openMainBox = await main.boundingBox()
+        expect(openMainBox?.width ?? 0).toBeGreaterThanOrEqual(250)
+    })
+})

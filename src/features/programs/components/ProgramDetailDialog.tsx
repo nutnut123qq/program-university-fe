@@ -28,13 +28,14 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 
-import { fetchAdmissions, fetchCurricula, fetchRawDocuments, fetchRawDocumentText, fetchUniversityCode } from "../api"
+import { fetchAdmissions, fetchCurricula, fetchProgramById, fetchRawDocuments, fetchRawDocumentText, fetchUniversityCode } from "../api"
 import { AdmissionQuota, AdmissionScore, Curriculum, Program, RawDocument, TuitionRecord } from "../types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 import { PrerequisiteGraph } from "./PrerequisiteGraph"
 import { GpaPlanner } from "./GpaPlanner"
 import { KnowledgeBlockBreakdown } from "./KnowledgeBlockBreakdown"
 import { SyllabusDetailModal } from "./SyllabusDetailModal"
+import { ElectiveGroups } from "./ElectiveGroups"
 import { exportProgramToCsv, exportProgramToJson } from "@/lib/exportUtils"
 
 interface ProgramDetailDialogProps {
@@ -207,6 +208,15 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         program ? ["curricula", program.id] : null,
         () => (program ? fetchCurricula(program.id) : [])
     )
+
+    // Elective groups live in the per-program detail payload
+    // (/mock/programs-by-id/<pid>.json). Skip the extra fetch entirely when
+    // the program object already carries the key.
+    const { data: programDetail } = useSWR(
+        open && program && !program.electiveGroups ? ["program-detail", program.id] : null,
+        () => (program ? fetchProgramById(program.id) : null)
+    )
+    const electiveGroups = program?.electiveGroups ?? programDetail?.electiveGroups
 
     const { data: rawDocs, error: rawError, isLoading: rawLoading } = useSWR(
         program ? ["raw-documents", program.id] : null,
@@ -485,10 +495,10 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     ]
 
     const evalComponents: { id: string; name: string; score: number | undefined }[] = program ? [
-        { id: "outcomes", name: "Chuẩn đầu ra (PLO)", score: program.evalOutcomes },
-        { id: "structure", name: "Cấu trúc CTĐT", score: program.evalStructure },
-        { id: "blocks", name: "Khối kiến thức", score: program.evalKnowledgeBlocks },
-        { id: "completeness", name: "Tính đầy đủ Dữ liệu", score: program.evalCompleteness },
+        { id: "outcomes", name: t("evalOutcomeName"), score: program.evalOutcomes },
+        { id: "structure", name: t("evalStructureName"), score: program.evalStructure },
+        { id: "blocks", name: t("evalBlocksName"), score: program.evalKnowledgeBlocks },
+        { id: "completeness", name: t("evalCompletenessName"), score: program.evalCompleteness },
     ] : []
     const hasEvalComponents = evalComponents.every((c) => typeof c.score === "number")
     const evalRadarScores: AunCriterionScore[] = hasEvalComponents
@@ -524,7 +534,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                         )}
                                         {cohorts.map((c) => (
                                             <Badge key={c} className="font-mono text-xs font-bold bg-primary/10 text-primary border-primary/20 hover:bg-primary/20">
-                                                Khóa {c}
+                                                {t("cohortBadge", { id: c })}
                                             </Badge>
                                         ))}
                                         {specialization && (
@@ -546,7 +556,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                     {(program.sourceUrl || program.lastCrawled) && (
                                         <p className="flex flex-wrap items-center gap-x-3 gap-y-0.5 pt-0.5 text-[11px] text-muted-foreground">
                                             <span className="inline-flex items-center gap-1">
-                                                Nguồn:{" "}
+                                                {t("sourceLabel")}{" "}
                                                 {program.sourceUrl ? (
                                                     <a
                                                         href={program.sourceUrl}
@@ -562,7 +572,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 )}
                                             </span>
                                             <span className="inline-flex items-center gap-1">
-                                                Cập nhật: {lastCrawledText ?? "—"}
+                                                {t("updatedLabel")} {lastCrawledText ?? "—"}
                                             </span>
                                         </p>
                                     )}
@@ -575,7 +585,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                         className="gap-1.5 text-xs h-8 rounded-lg"
                                     >
                                         <Printer className="w-3.5 h-3.5 text-indigo-500" />
-                                        <span className="hidden sm:inline">In PDF</span>
+                                        <span className="hidden sm:inline">{t("printPdf")}</span>
                                     </Button>
                                     {courses && courses.length > 0 && (
                                         <>
@@ -586,7 +596,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 className="gap-1.5 text-xs h-8 rounded-lg"
                                             >
                                                 <FileSpreadsheet className="w-3.5 h-3.5 text-emerald-500" />
-                                                <span className="hidden sm:inline">Xuất Excel</span>
+                                                <span className="hidden sm:inline">{t("exportExcel")}</span>
                                             </Button>
                                             <Button
                                                 size="sm"
@@ -595,7 +605,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 className="gap-1.5 text-xs h-8 rounded-lg"
                                             >
                                                 <FileJson className="w-3.5 h-3.5 text-blue-500" />
-                                                <span className="hidden sm:inline">Xuất JSON</span>
+                                                <span className="hidden sm:inline">{t("exportJson")}</span>
                                             </Button>
                                         </>
                                     )}
@@ -813,7 +823,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 <h3 className="font-semibold">{t("curriculumTitle")}</h3>
                                                 {courses && (
                                                     <Badge variant="outline" className="font-mono text-xs">
-                                                        {filteredCourses.length} / {courses.length} môn
+                                                        {t("coursesCount", { shown: filteredCourses.length, total: courses.length })}
                                                     </Badge>
                                                 )}
                                             </div>
@@ -826,7 +836,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                         type="text"
                                                         value={courseSearch}
                                                         onChange={(e) => setCourseSearch(e.target.value)}
-                                                        placeholder="Tìm môn học..."
+                                                        placeholder={t("courseSearchPlaceholder")}
                                                         className="pl-8 pr-3 py-1.5 text-xs border rounded-lg bg-background focus:ring-1 focus:ring-primary focus:outline-none w-44"
                                                     />
                                                 </div>
@@ -835,9 +845,9 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                     onChange={(e) => setSemesterFilter(e.target.value)}
                                                     className="py-1.5 px-2 text-xs border rounded-lg bg-background font-medium focus:ring-1 focus:ring-primary focus:outline-none"
                                                 >
-                                                    <option value="all">Tất cả Học kỳ</option>
+                                                    <option value="all">{t("allSemesters")}</option>
                                                     {[1, 2, 3, 4, 5, 6, 7, 8].map((s) => (
-                                                        <option key={s} value={String(s)}>Học kỳ {s}</option>
+                                                        <option key={s} value={String(s)}>{t("semesterN", { n: s })}</option>
                                                     ))}
                                                 </select>
                                             </div>
@@ -872,8 +882,8 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                             <th className="text-left px-4 py-3 font-bold text-xs text-muted-foreground uppercase tracking-wider">
                                                                 {t("courseName")}
                                                             </th>
-                                                            <th className="text-center px-4 py-3 font-bold text-xs text-muted-foreground uppercase tracking-wider">Học kỳ</th>
-                                                            <th className="text-left px-4 py-3 font-bold text-xs text-muted-foreground uppercase tracking-wider">Khối kiến thức</th>
+                                                            <th className="text-center px-4 py-3 font-bold text-xs text-muted-foreground uppercase tracking-wider">{t("semester")}</th>
+                                                            <th className="text-left px-4 py-3 font-bold text-xs text-muted-foreground uppercase tracking-wider">{t("knowledgeBlock")}</th>
                                                             <th className="text-right px-4 py-3 font-bold text-xs text-muted-foreground uppercase tracking-wider">
                                                                 {t("courseCredits")}
                                                             </th>
@@ -895,12 +905,12 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                                     <div className="flex items-center justify-between gap-2">
                                                                         <span className="text-foreground">{course.courseName}</span>
                                                                         <span className="opacity-0 group-hover:opacity-100 text-[11px] text-primary flex items-center font-bold transition-opacity shrink-0">
-                                                                            Đề cương <ChevronRight className="w-3 h-3 ml-0.5" />
+                                                                            {t("syllabusLink")} <ChevronRight className="w-3 h-3 ml-0.5" />
                                                                         </span>
                                                                     </div>
                                                                     {course.prerequisites && (
                                                                         <div className="text-[11px] text-muted-foreground font-mono mt-0.5 font-normal">
-                                                                            TQ: {course.prerequisites}
+                                                                            {t("prereqShort", { prereqs: course.prerequisites })}
                                                                         </div>
                                                                     )}
                                                                 </td>
@@ -921,6 +931,10 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 </table>
                                             </div>
                                         )}
+
+                                        {/* Elective groups — renders nothing when the
+                                            program detail has no `electiveGroups` key. */}
+                                        <ElectiveGroups groups={electiveGroups} courses={courses} />
                                     </div>
                                 )}
 
@@ -1057,8 +1071,8 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                     <div className="space-y-6">
                                         <div className="flex items-center justify-between border-b pb-4">
                                             <div>
-                                                <h3 className="font-bold text-base">Đánh giá Chất lượng CTĐT (AUN-QA Rubric)</h3>
-                                                <p className="text-xs text-muted-foreground">Mô hình SLM Workflow chấm trên 4 tiêu chí cốt lõi — {t("slmRefScoreNote")}</p>
+                                                <h3 className="font-bold text-base">{t("evalTitle")}</h3>
+                                                <p className="text-xs text-muted-foreground">{t("evalModelDesc")} — {t("slmRefScoreNote")}</p>
                                             </div>
                                             {program.evaluationScore && (
                                                 <Badge variant="outline" className="text-sm font-extrabold px-3 py-1 bg-primary/10 text-primary border-primary/20" title={t("slmRefScoreNote")}>
@@ -1071,7 +1085,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                             <div className="flex flex-col items-center justify-center gap-2 py-10 text-center">
                                                 <AlertCircle className="h-8 w-8 text-muted-foreground/50" />
                                                 <p className="text-sm text-muted-foreground">
-                                                    Chưa có dữ liệu đánh giá cho chương trình này.
+                                                    {t("evalEmpty")}
                                                 </p>
                                             </div>
                                         ) : (
@@ -1082,24 +1096,24 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
 
                                                 <div className="space-y-3">
                                                     <CriterionItem
-                                                        title="1. Chuẩn đầu ra (Outcomes - Bloom Taxonomy)"
+                                                        title={t("evalCrit1Title")}
                                                         score={evalRadarScores[0].score}
-                                                        description="Mức độ cụ thể, đo lường được và sự phù hợp với khung trình độ quốc gia."
+                                                        description={t("evalCrit1Desc")}
                                                     />
                                                     <CriterionItem
-                                                        title="2. Cấu trúc Chương trình (Structure & Credit Distribution)"
+                                                        title={t("evalCrit2Title")}
                                                         score={evalRadarScores[1].score}
-                                                        description="Sự cân đối về thời lượng, tổng số tín chỉ và tính khả thi của tiến trình."
+                                                        description={t("evalCrit2Desc")}
                                                     />
                                                     <CriterionItem
-                                                        title="3. Phân tầng Khối kiến thức (Knowledge Blocks)"
+                                                        title={t("evalCrit3Title")}
                                                         score={evalRadarScores[2].score}
-                                                        description="Tỷ lệ hợp lý giữa kiến thức Đại cương, Cơ sở ngành, Chuyên ngành và Tốt nghiệp."
+                                                        description={t("evalCrit3Desc")}
                                                     />
                                                     <CriterionItem
-                                                        title="4. Tính Đầy đủ Dữ liệu công bố (Completeness)"
+                                                        title={t("evalCrit4Title")}
                                                         score={evalRadarScores[3].score}
-                                                        description="Mức độ minh bạch thông tin về mô tả môn, điều kiện tiên quyết và học phí."
+                                                        description={t("evalCrit4Desc")}
                                                     />
                                                 </div>
                                             </div>

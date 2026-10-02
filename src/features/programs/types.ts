@@ -4,6 +4,17 @@ export interface University {
     isPublic: boolean
 }
 
+/**
+ * Elective course group inside a program curriculum (optional key in
+ * /mock/programs-by-id/<pid>.json). `requiredCredits = 0` means the source
+ * did not publish a credit count — renderers must not show "0 tín chỉ".
+ */
+export interface ElectiveGroup {
+    groupName: string
+    requiredCredits: number
+    courseCodes: string[]
+}
+
 export interface Program {
     id: string
     universityId: string
@@ -32,6 +43,7 @@ export interface Program {
     evalStructure?: number
     evalKnowledgeBlocks?: number
     evalCompleteness?: number
+    electiveGroups?: ElectiveGroup[]
 }
 
 export interface Curriculum {

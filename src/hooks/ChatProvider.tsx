@@ -1,6 +1,7 @@
 "use client"
 
 import React, { createContext, useContext, useEffect, useState, useMemo, useCallback } from 'react';
+import { useTranslations } from 'next-intl';
 import { querySlmRag } from '@/lib/slmRagEngine';
 
 export type ChatMessage = {
@@ -39,27 +40,30 @@ const ChatContext = createContext<ChatContextType | undefined>(undefined);
 const SESSIONS_STORAGE_KEY = 'tedo_chat_sessions_v2';
 const LEGACY_STORAGE_KEY = 'tedo-chat-history';
 
-const GREETING_TEXT = 'Xin chào! Tôi là AI thử nghiệm — trả lời dựa trên snapshot dữ liệu của hệ thống. Tôi có thể hỗ trợ gì về thông tin chương trình đào tạo và môn học của các trường đại học?';
-
-const createDefaultGreeting = (): ChatMessage => ({
+const createDefaultGreeting = (greetingText: string): ChatMessage => ({
     id: `greet-${Date.now()}`,
     role: 'assistant',
-    content: GREETING_TEXT,
+    content: greetingText,
     timestamp: new Date().toISOString(),
 });
 
-const generateNewSession = (title = 'Cuộc trò chuyện mới'): ChatSession => {
+const generateNewSession = (title: string, greetingText: string): ChatSession => {
     const now = new Date().toISOString();
     return {
         id: `sess-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`,
         title,
         createdAt: now,
         updatedAt: now,
-        messages: [createDefaultGreeting()],
+        messages: [createDefaultGreeting(greetingText)],
     };
 };
 
 export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+    const t = useTranslations('chat');
+    const greetingText = t('greeting');
+    const newChatTitle = t('newChat');
+    const previousChatTitle = t('previousChat');
+    const errorText = t('error');
     const [sessions, setSessions] = useState<ChatSession[]>([]);
     const [currentSessionId, setCurrentSessionId] = useState<string>('');
     const [isLoading, setIsLoading] = useState(false);
@@ -86,7 +90,7 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
                 const legacyMsgs: ChatMessage[] = JSON.parse(legacyRaw);
                 if (Array.isArray(legacyMsgs) && legacyMsgs.length > 0) {
                     const firstUserMsg = legacyMsgs.find(m => m.role === 'user');
-                    const title = firstUserMsg ? firstUserMsg.content.slice(0, 35).trim() : 'Cuộc trò chuyện trước';
+                    const title = firstUserMsg ? firstUserMsg.content.slice(0, 35).trim() : previousChatTitle;
                     const legacySession: ChatSession = {
                         id: `sess-${Date.now()}`,
                         title,
@@ -102,11 +106,11 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
             }
 
             // Fresh initial session
-            const initialSession = generateNewSession();
+            const initialSession = generateNewSession(newChatTitle, greetingText);
             setSessions([initialSession]);
             setCurrentSessionId(initialSession.id);
         } catch (e) {
-            const fallback = generateNewSession();
+            const fallback = generateNewSession(newChatTitle, greetingText);
             setSessions([fallback]);
             setCurrentSessionId(fallback.id);
         } finally {
@@ -134,11 +138,11 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }, [currentSession]);
 
     const createSession = useCallback(() => {
-        const newSession = generateNewSession();
+        const newSession = generateNewSession(newChatTitle, greetingText);
         setSessions((prev) => [newSession, ...prev]);
         setCurrentSessionId(newSession.id);
         return newSession.id;
-    }, []);
+    }, [newChatTitle, greetingText]);
 
     const switchSession = useCallback((sessionId: string) => {
         const exists = sessions.some((s) => s.id === sessionId);
@@ -151,7 +155,7 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
         setSessions((prev) => {
             const filtered = prev.filter((s) => s.id !== sessionId);
             if (filtered.length === 0) {
-                const fresh = generateNewSession();
+                const fresh = generateNewSession(newChatTitle, greetingText);
                 setCurrentSessionId(fresh.id);
                 return [fresh];
             }
@@ -160,13 +164,13 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
             }
             return filtered;
         });
-    }, [currentSessionId]);
+    }, [currentSessionId, newChatTitle, greetingText]);
 
     const clearAllSessions = useCallback(() => {
-        const fresh = generateNewSession();
+        const fresh = generateNewSession(newChatTitle, greetingText);
         setSessions([fresh]);
         setCurrentSessionId(fresh.id);
-    }, []);
+    }, [newChatTitle, greetingText]);
 
     const clearMessages = useCallback(() => {
         if (!currentSessionId) return;
@@ -175,15 +179,15 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
                 if (s.id === currentSessionId) {
                     return {
                         ...s,
-                        title: 'Cuộc trò chuyện mới',
+                        title: newChatTitle,
                         updatedAt: new Date().toISOString(),
-                        messages: [createDefaultGreeting()],
+                        messages: [createDefaultGreeting(greetingText)],
                     };
                 }
                 return s;
             })
         );
-    }, [currentSessionId]);
+    }, [currentSessionId, newChatTitle, greetingText]);
 
     const sendMessage = useCallback(async (text: string) => {
         const queryText = text.trim();
@@ -198,8 +202,8 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
         };
 
         // Find current session and check if title needs to be updated
-        let sessionTitle = currentSession?.title || 'Cuộc trò chuyện mới';
-        const isFirstQuestion = !currentSession || currentSession.messages.filter(m => m.role === 'user').length === 0 || sessionTitle === 'Cuộc trò chuyện mới';
+        let sessionTitle = currentSession?.title || newChatTitle;
+        const isFirstQuestion = !currentSession || currentSession.messages.filter(m => m.role === 'user').length === 0 || sessionTitle === newChatTitle;
         if (isFirstQuestion) {
             sessionTitle = queryText.length > 35 ? queryText.slice(0, 35) + '...' : queryText;
         }
@@ -250,7 +254,7 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
             const errorMsg: ChatMessage = {
                 id: `err-${Date.now()}`,
                 role: 'assistant',
-                content: 'Không thể tải câu trả lời vào lúc này. Vui lòng thử lại sau.',
+                content: errorText,
                 timestamp: new Date().toISOString(),
             };
             setSessions((prev) =>
@@ -268,7 +272,7 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
         } finally {
             setIsLoading(false);
         }
-    }, [currentSessionId, currentSession]);
+    }, [currentSessionId, currentSession, newChatTitle, greetingText, errorText]);
 
     return (
         <ChatContext.Provider

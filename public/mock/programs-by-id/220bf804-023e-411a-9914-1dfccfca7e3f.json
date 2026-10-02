@@ -21,6 +21,71 @@
   "createdAt": "2026-06-23T09:31:14.880001+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 65,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn A",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "PH2001"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn B",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "AS2053"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn C",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "AS3105",
+        "AS3107",
+        "AS3109"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn D",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "AS3057"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn E",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "AS3045",
+        "AS3047",
+        "AS3051",
+        "AS3055",
+        "AS3063",
+        "AS3071",
+        "AS3073",
+        "AS3075",
+        "AS3077",
+        "AS3087",
+        "AS3113",
+        "AS3115",
+        "AS3117",
+        "AS3119",
+        "AS3121",
+        "AS3123",
+        "AS3125",
+        "AS3127",
+        "AS3129",
+        "AS3131",
+        "AS3133",
+        "AS3135",
+        "AS3137",
+        "AS3139",
+        "AS3141",
+        "AS3143",
+        "AS3145"
+      ]
+    }
+  ],
   "evaluationScore": 6.49,
   "evalOutcomes": 0,
   "evalStructure": 4,

@@ -8,12 +8,13 @@ import { useChat } from "@/hooks/ChatProvider"
 import { useRouter } from "next/navigation"
 import { useLocale, useTranslations } from "next-intl"
 
+// Entries are keys under the `chat` namespace — resolve with `t()` at render/send time.
 export const QUICK_PROMPTS = [
-    "Ở FPT có môn Triết học Mác - Lênin không?",
-    "Ngành Công nghệ Thông tin học mấy năm và bao nhiêu tín chỉ?",
-    "Sơ đồ cây môn học tiên quyết hoạt động như thế nào?",
-    "Khối kiến thức cơ sở ngành và chuyên ngành khác nhau thế nào?",
-]
+    "quickPrompt1",
+    "quickPrompt2",
+    "quickPrompt3",
+    "quickPrompt4",
+] as const
 
 export const SlmChatAssistant = () => {
     const { messages, isLoading, sendMessage, createSession, isOpen, setIsOpen } = useChat()
@@ -58,7 +59,7 @@ export const SlmChatAssistant = () => {
                     className="h-11 px-4 rounded-full shadow-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-all gap-2 text-xs font-medium"
                 >
                     <MessageSquare className="w-4 h-4" />
-                    <span>{t("title") || "AI thử nghiệm"}</span>
+                    <span>{t("title")}</span>
                 </Button>
             )}
 
@@ -69,15 +70,15 @@ export const SlmChatAssistant = () => {
                         <div className="flex items-center gap-2">
                             <Bot className="w-4 h-4 text-primary shrink-0" />
                             <div className="min-w-0">
-                                <CardTitle className="text-sm font-semibold leading-tight">{t("title") || "AI thử nghiệm"}</CardTitle>
-                                <p className="text-[10px] text-muted-foreground leading-tight">{t("subtitle") || "trả lời dựa trên snapshot dữ liệu"}</p>
+                                <CardTitle className="text-sm font-semibold leading-tight">{t("title")}</CardTitle>
+                                <p className="text-[10px] text-muted-foreground leading-tight">{t("subtitle")}</p>
                             </div>
                         </div>
                         <div className="flex items-center gap-1">
-                            <Button variant="ghost" size="icon" onClick={() => createSession()} className="h-7 w-7 text-muted-foreground hover:text-foreground" title={t("newChat") || "Cuộc trò chuyện mới"}>
+                            <Button variant="ghost" size="icon" onClick={() => createSession()} className="h-7 w-7 text-muted-foreground hover:text-foreground" title={t("newChat")}>
                                 <Plus className="w-4 h-4" />
                             </Button>
-                            <Button variant="ghost" size="icon" onClick={handleExpand} className="h-7 w-7 text-muted-foreground hover:text-foreground" title={t("expand") || "Mở rộng"}>
+                            <Button variant="ghost" size="icon" onClick={handleExpand} className="h-7 w-7 text-muted-foreground hover:text-foreground" title={t("expand")}>
                                 <Maximize2 className="w-4 h-4" />
                             </Button>
                             <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)} className="h-7 w-7">
@@ -111,7 +112,7 @@ export const SlmChatAssistant = () => {
                         {isLoading && (
                             <div className="flex items-center gap-2 text-muted-foreground text-[11px] p-2">
                                 <Loader2 className="w-3.5 h-3.5 animate-spin text-primary" />
-                                <span>{t("loading") || "Đang tìm kiếm thông tin..."}</span>
+                                <span>{t("loading")}</span>
                             </div>
                         )}
                         <div ref={messagesEndRef} />
@@ -120,13 +121,13 @@ export const SlmChatAssistant = () => {
                     {/* Quick Suggestions */}
                     {messages.length <= 1 && (
                         <div className="p-2 border-t bg-muted/20 overflow-x-auto flex gap-1.5 scrollbar-none">
-                            {QUICK_PROMPTS.map((prompt, i) => (
+                            {QUICK_PROMPTS.map((promptKey, i) => (
                                 <button
                                     key={i}
-                                    onClick={() => handleSend(prompt)}
+                                    onClick={() => handleSend(t(promptKey))}
                                     className="px-2.5 py-1 rounded-md bg-background border text-[11px] text-muted-foreground hover:text-foreground hover:border-primary shrink-0 transition-colors"
                                 >
-                                    {prompt}
+                                    {t(promptKey)}
                                 </button>
                             ))}
                         </div>
@@ -139,7 +140,7 @@ export const SlmChatAssistant = () => {
                             value={input}
                             onChange={(e) => setInput(e.target.value)}
                             onKeyDown={(e) => e.key === "Enter" && handleSend()}
-                            placeholder={t("placeholder") || "Nhập câu hỏi về ngành hoặc môn học..."}
+                            placeholder={t("placeholder")}
                             className="flex-1 bg-muted/40 border rounded-lg px-3 py-1.5 text-xs focus:outline-none focus:ring-1 focus:ring-primary"
                         />
                         <Button
@@ -152,7 +153,7 @@ export const SlmChatAssistant = () => {
                         </Button>
                     </div>
                     <div className="px-2.5 pb-2 text-center text-[10px] text-muted-foreground">
-                        {t("disclaimer") || "AI thử nghiệm — trả lời dựa trên snapshot dữ liệu."}
+                        {t("disclaimer")}
                     </div>
                 </Card>
             )}

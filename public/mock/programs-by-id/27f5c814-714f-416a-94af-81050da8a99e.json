@@ -21,6 +21,88 @@
   "createdAt": "2026-06-18T15:38:54.615638+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 43,
+  "electiveGroups": [
+    {
+      "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514001",
+        "PHY514007"
+      ]
+    },
+    {
+      "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514020",
+        "PHY514019"
+      ]
+    },
+    {
+      "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514008",
+        "PHY514002"
+      ]
+    },
+    {
+      "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514009",
+        "PHY514003"
+      ]
+    },
+    {
+      "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514004",
+        "PHY514010"
+      ]
+    },
+    {
+      "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514011",
+        "PHY514005"
+      ]
+    },
+    {
+      "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514006",
+        "PHY514012"
+      ]
+    },
+    {
+      "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514013",
+        "PHY514016"
+      ]
+    },
+    {
+      "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514015",
+        "PHY514018"
+      ]
+    },
+    {
+      "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+      "requiredCredits": 3,
+      "courseCodes": [
+        "PHY514014",
+        "PHY514017"
+      ]
+    }
+  ],
   "evaluationScore": 9.05,
   "evalOutcomes": 5,
   "evalStructure": 4,

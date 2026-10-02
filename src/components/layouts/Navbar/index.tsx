@@ -1,11 +1,20 @@
 "use client"
 
-import React, { useSyncExternalStore } from "react"
+import React, { useEffect, useState, useSyncExternalStore } from "react"
 import { useTheme } from "next-themes"
 import { useRouter, usePathname, Link } from "@/i18n/navigation"
 import { Button } from "@/components/ui/button"
-import { Sun, Moon, Globe, BarChart3, GitCompare, GitFork, BookOpen } from "lucide-react"
+import { Sun, Moon, Globe, BarChart3, GitCompare, GitFork, BookOpen, Menu, X } from "lucide-react"
 import { useLocale, useTranslations } from "next-intl"
+
+// Single source of truth — rendered in the desktop bar AND the mobile dropdown.
+const NAV_LINKS = [
+    { href: "/", key: "courses", Icon: null },
+    { href: "/roadmap", key: "roadmap", Icon: GitFork },
+    { href: "/materials", key: "materials", Icon: BookOpen },
+    { href: "/analytics", key: "analytics", Icon: BarChart3 },
+    { href: "/compare", key: "compare", Icon: GitCompare },
+] as const
 
 export const Navbar = () => {
     const { theme, setTheme } = useTheme()
@@ -13,11 +22,18 @@ export const Navbar = () => {
     const pathname = usePathname()
     const locale = useLocale()
     const t = useTranslations("navbar")
+    const [menuOpen, setMenuOpen] = useState(false)
     const mounted = useSyncExternalStore(
         () => () => {},
         () => true,
         () => false
     )
+
+    // Close the mobile menu whenever the route changes (covers link clicks
+    // and any programmatic navigation while it is open).
+    useEffect(() => {
+        setMenuOpen(false)
+    }, [pathname])
 
     const toggleLocale = () => {
         const next = locale === "vi" ? "en" : "vi"
@@ -44,25 +60,16 @@ export const Navbar = () => {
                         Tedo
                     </Link>
                     <div className="hidden md:flex items-center gap-5 text-sm">
-                        <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
-                            {t("courses")}
-                        </Link>
-                        <Link href="/roadmap" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors">
-                            <GitFork className="w-4 h-4 text-muted-foreground" />
-                            <span>{t("roadmap")}</span>
-                        </Link>
-                        <Link href="/materials" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors">
-                            <BookOpen className="w-4 h-4 text-muted-foreground" />
-                            <span>{t("materials")}</span>
-                        </Link>
-                        <Link href="/analytics" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors">
-                            <BarChart3 className="w-4 h-4 text-muted-foreground" />
-                            <span>{t("analytics")}</span>
-                        </Link>
-                        <Link href="/compare" className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors">
-                            <GitCompare className="w-4 h-4 text-muted-foreground" />
-                            <span>{t("compare")}</span>
-                        </Link>
+                        {NAV_LINKS.map(({ href, key, Icon }) => (
+                            <Link
+                                key={key}
+                                href={href}
+                                className="flex items-center gap-1.5 text-muted-foreground hover:text-foreground transition-colors"
+                            >
+                                {Icon && <Icon className="w-4 h-4 text-muted-foreground" />}
+                                <span>{t(key)}</span>
+                            </Link>
+                        ))}
                     </div>
                 </div>
                 <div className="flex items-center gap-2">
@@ -78,8 +85,43 @@ export const Navbar = () => {
                         {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
                     </Button>
                     <Button variant="default" size="sm">{t("login")}</Button>
+                    <Button
+                        variant="ghost"
+                        size="icon"
+                        className="md:hidden"
+                        onClick={() => setMenuOpen((prev) => !prev)}
+                        aria-label={menuOpen ? t("close") : t("menu")}
+                        aria-expanded={menuOpen}
+                        aria-controls="mobile-nav-menu"
+                    >
+                        {menuOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
+                    </Button>
                 </div>
             </div>
+            {/* Mobile dropdown nav (<md) — same links as the desktop bar */}
+            {menuOpen && (
+                <div
+                    id="mobile-nav-menu"
+                    className="md:hidden absolute inset-x-0 top-full border-b bg-background shadow-lg"
+                >
+                    <nav
+                        aria-label={t("menu")}
+                        className="container mx-auto flex flex-col gap-1 px-4 py-3 sm:px-6"
+                    >
+                        {NAV_LINKS.map(({ href, key, Icon }) => (
+                            <Link
+                                key={key}
+                                href={href}
+                                onClick={() => setMenuOpen(false)}
+                                className="flex items-center gap-2.5 rounded-md px-3 py-2.5 text-sm text-muted-foreground hover:bg-accent hover:text-foreground transition-colors"
+                            >
+                                {Icon && <Icon className="w-4 h-4 text-muted-foreground" />}
+                                <span>{t(key)}</span>
+                            </Link>
+                        ))}
+                    </nav>
+                </div>
+            )}
         </nav>
     )
 }

@@ -23,6 +23,7 @@ import {
     ShieldAlert,
 } from "lucide-react"
 import useSWR from "swr"
+import { useTranslations } from "next-intl"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -63,6 +64,8 @@ export function SyllabusDetailModal({
     onClose,
     onSelectCourseCode,
 }: SyllabusDetailModalProps) {
+    const t = useTranslations("syllabus")
+    const tp = useTranslations("programs")
     const [activeTab, setActiveTab] = useState<TabKey>("assessments")
 
     const subjectCode = course?.courseCode || ""
@@ -113,16 +116,16 @@ export function SyllabusDetailModal({
                         <div className="space-y-1.5 min-w-0 flex-1">
                             <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
                                 <Badge className="font-mono text-xs font-extrabold px-2.5 py-0.5 bg-primary/10 text-primary border-primary/20 hover:bg-primary/20">
-                                    {course.courseCode || "MÔN HỌC"}
+                                    {course.courseCode || t("courseBadge")}
                                 </Badge>
                                 {course.semester !== null && (
                                     <Badge variant="outline" className="font-mono text-xs">
-                                        Học kỳ {course.semester}
+                                        {t("semesterBadge", { n: course.semester })}
                                     </Badge>
                                 )}
                                 {course.credits != null && (
                                     <Badge variant="outline" className="font-mono text-xs text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 border-emerald-500/20 font-semibold">
-                                        {course.credits} Tín chỉ
+                                        {tp("credits", { count: course.credits })}
                                     </Badge>
                                 )}
                                 {course.knowledgeBlock && (
@@ -146,7 +149,7 @@ export function SyllabusDetailModal({
                             size="icon"
                             onClick={onClose}
                             className="rounded-full h-9 w-9 shrink-0 text-muted-foreground hover:text-foreground hover:bg-muted/80"
-                            aria-label="Đóng"
+                            aria-label={t("close")}
                         >
                             <X className="h-4 w-4" />
                         </Button>
@@ -157,19 +160,19 @@ export function SyllabusDetailModal({
                         <div className="px-5 sm:px-6 py-2.5 border-b border-border/60 bg-muted/30 grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
                             {info.decisionNo && (
                                 <div className="truncate">
-                                    <span className="text-muted-foreground">QĐ ban hành: </span>
+                                    <span className="text-muted-foreground">{t("decisionNo")} </span>
                                     <span className="font-medium text-foreground">{info.decisionNo}</span>
                                 </div>
                             )}
                             {info.minAvgToPass && (
                                 <div>
-                                    <span className="text-muted-foreground">Điểm qua môn: </span>
+                                    <span className="text-muted-foreground">{t("passScore")} </span>
                                     <span className="font-bold text-amber-600 dark:text-amber-400">≥ {info.minAvgToPass} / 10</span>
                                 </div>
                             )}
                             {info.prerequisite && (
                                 <div className="truncate sm:col-span-2">
-                                    <span className="text-muted-foreground">Tiên quyết: </span>
+                                    <span className="text-muted-foreground">{t("prerequisite")} </span>
                                     <span className="font-mono font-semibold text-primary">{info.prerequisite}</span>
                                 </div>
                             )}
@@ -179,12 +182,12 @@ export function SyllabusDetailModal({
                     {/* Tabs Navigation */}
                     <div className="px-4 sm:px-6 border-b border-border bg-muted/10 flex overflow-x-auto gap-1 sm:gap-2 no-scrollbar">
                         {[
-                            { id: "assessments", label: "Cấu trúc điểm thi", icon: Percent, count: assessments.length },
-                            { id: "clos", label: "Chuẩn đầu ra (CLOs)", icon: CheckCircle2, count: clos.length },
-                            { id: "sessions", label: "Kế hoạch bài giảng", icon: ListChecks, count: sessions.length },
-                            { id: "materials", label: "Giáo trình & Coursera", icon: BookOpen, count: materials.length },
-                            { id: "roadmap", label: "Lộ trình mở khóa", icon: GitFork, count: directPrereqs.length + unlocks.length },
-                            { id: "rules", label: "Quy định & Giờ học", icon: Clock },
+                            { id: "assessments", label: t("tabAssessments"), icon: Percent, count: assessments.length },
+                            { id: "clos", label: t("tabClos"), icon: CheckCircle2, count: clos.length },
+                            { id: "sessions", label: t("tabSessions"), icon: ListChecks, count: sessions.length },
+                            { id: "materials", label: t("tabMaterials"), icon: BookOpen, count: materials.length },
+                            { id: "roadmap", label: t("tabRoadmap"), icon: GitFork, count: directPrereqs.length + unlocks.length },
+                            { id: "rules", label: t("tabRules"), icon: Clock },
                         ].map((tab) => {
                             const Icon = tab.icon
                             const isActive = activeTab === tab.id
@@ -217,19 +220,31 @@ export function SyllabusDetailModal({
                         {isSyllabusLoading ? (
                             <div className="flex flex-col items-center justify-center py-20 text-muted-foreground gap-3">
                                 <Loader2 className="h-7 w-7 animate-spin text-primary" />
-                                <p className="text-sm font-medium">Đang tải chi tiết đề cương môn học...</p>
+                                <p className="text-sm font-medium">{t("loading")}</p>
                             </div>
                         ) : !syllabus && activeTab !== "roadmap" ? (
                             <div className="py-14 text-center space-y-3">
                                 <HelpCircle className="h-10 w-10 text-muted-foreground/40 mx-auto" />
                                 <h3 className="text-base font-bold text-foreground">
-                                    Chưa có đề cương chi tiết
+                                    {t("emptyTitle")}
                                 </h3>
                                 <p className="text-xs text-muted-foreground max-w-md mx-auto leading-relaxed">
-                                    Môn <span className="font-mono font-bold text-foreground">{course.courseCode || "—"}</span> ({course.courseName})
-                                    {course.semester !== null && course.semester !== undefined ? ` thuộc học kỳ ${course.semester}` : ""}
-                                    {course.credits !== null && course.credits !== undefined ? `, ${course.credits} tín chỉ` : ""}.
-                                    {" "}Trường chưa công bố đề cương chi tiết cho môn này trong dữ liệu hiện có.
+                                    {t.rich("emptyDesc", {
+                                        code: course.courseCode || "—",
+                                        name: course.courseName,
+                                        meta: (() => {
+                                            const parts = [
+                                                course.semester !== null && course.semester !== undefined
+                                                    ? t("emptyMetaSemester", { n: course.semester })
+                                                    : null,
+                                                course.credits !== null && course.credits !== undefined
+                                                    ? t("emptyMetaCredits", { count: course.credits })
+                                                    : null,
+                                            ].filter(Boolean).join(", ")
+                                            return parts ? ` ${parts}` : ""
+                                        })(),
+                                        codeTag: (chunks) => <span className="font-mono font-bold text-foreground">{chunks}</span>,
+                                    })}
                                 </p>
                             </div>
                         ) : (
@@ -241,19 +256,19 @@ export function SyllabusDetailModal({
                                             <div>
                                                 <h4 className="text-sm font-bold flex items-center gap-1.5">
                                                     <Percent className="h-4 w-4 text-primary" />
-                                                    Trọng số các đầu điểm & Tiêu chí chống liệt
+                                                    {t("assessmentsTitle")}
                                                 </h4>
                                                 <p className="text-xs text-muted-foreground mt-0.5">
-                                                    Tổng trọng số các đầu điểm: <strong className="text-foreground">{assessments.length > 0 ? `${totalWeight}%` : "N/A"}</strong>
+                                                    {t("totalWeight")} <strong className="text-foreground">{assessments.length > 0 ? `${totalWeight}%` : "N/A"}</strong>
                                                 </p>
                                             </div>
                                             <Badge variant="outline" className="font-mono text-xs w-fit">
-                                                Thang điểm: {info?.scoringScale || "10.0"}
+                                                {t("scoringScale", { scale: info?.scoringScale || "10.0" })}
                                             </Badge>
                                         </div>
 
                                         {assessments.length === 0 ? (
-                                            <p className="text-sm text-muted-foreground italic py-4">Chưa có bảng phân bổ điểm chi tiết.</p>
+                                            <p className="text-sm text-muted-foreground italic py-4">{t("noAssessments")}</p>
                                         ) : (
                                             <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                                                 {assessments.map((a, idx) => {
@@ -268,7 +283,7 @@ export function SyllabusDetailModal({
                                                                             {a.category}
                                                                         </Badge>
                                                                         <h5 className="font-bold text-sm text-foreground leading-snug">
-                                                                            {a.type} {a.part ? `(Phần ${a.part})` : ""}
+                                                                            {a.type} {a.part ? `(${t("part", { part: a.part })})` : ""}
                                                                         </h5>
                                                                     </div>
                                                                     <div className="text-right shrink-0">
@@ -281,7 +296,7 @@ export function SyllabusDetailModal({
                                                                 {/* Visual weight progress bar */}
                                                                 <div className="space-y-1">
                                                                     <div className="flex justify-between text-[10px] text-muted-foreground">
-                                                                        <span>Tỷ trọng điểm</span>
+                                                                        <span>{t("weightLabel")}</span>
                                                                         <span className="font-mono font-bold">{weightNum}%</span>
                                                                     </div>
                                                                     <Progress value={weightNum} className="h-1.5 bg-muted" />
@@ -290,27 +305,27 @@ export function SyllabusDetailModal({
                                                                 {/* Criteria details & anti-paralysis warning */}
                                                                 <div className="pt-2 border-t border-border/50 grid grid-cols-2 gap-2 text-xs">
                                                                     <div>
-                                                                        <span className="text-muted-foreground block text-[11px]">Tiêu chí liệt:</span>
+                                                                        <span className="text-muted-foreground block text-[11px]">{t("strictCriteria")}</span>
                                                                         {strict ? (
                                                                             <Badge className="text-[10px] font-bold bg-amber-500/15 text-amber-700 dark:text-amber-400 border-amber-500/30 gap-1 mt-0.5">
                                                                                 <AlertTriangle className="w-2.5 h-2.5" />
-                                                                                ≥ {a.completionCriteria} (Điểm liệt)
+                                                                                {t("failThreshold", { criteria: a.completionCriteria })}
                                                                             </Badge>
                                                                         ) : (
                                                                             <span className="font-semibold text-foreground">
-                                                                                {a.completionCriteria ? `≥ ${a.completionCriteria}` : "Không quy định"}
+                                                                                {a.completionCriteria ? `≥ ${a.completionCriteria}` : t("notSpecified")}
                                                                             </span>
                                                                         )}
                                                                     </div>
                                                                     {a.duration && (
                                                                         <div>
-                                                                            <span className="text-muted-foreground block text-[11px]">Thời gian thi:</span>
+                                                                            <span className="text-muted-foreground block text-[11px]">{t("examDuration")}</span>
                                                                             <span className="font-medium text-foreground">{a.duration}</span>
                                                                         </div>
                                                                     )}
                                                                     {a.questionType && (
                                                                         <div className="col-span-2 pt-1">
-                                                                            <span className="text-muted-foreground text-[11px]">Hình thức: </span>
+                                                                            <span className="text-muted-foreground text-[11px]">{t("formatLabel")} </span>
                                                                             <span className="font-medium text-foreground">{a.questionType}</span>
                                                                         </div>
                                                                     )}
@@ -326,7 +341,7 @@ export function SyllabusDetailModal({
                                             <div className="p-4 rounded-xl border border-amber-500/30 bg-amber-500/5 text-xs text-foreground space-y-1.5 shadow-sm">
                                                 <div className="font-bold text-amber-600 dark:text-amber-400 flex items-center gap-1.5">
                                                     <ShieldAlert className="h-4 w-4" />
-                                                    Lưu ý & Quy chế điểm tổng kết:
+                                                    {t("noteTitle")}
                                                 </div>
                                                 <div className="whitespace-pre-line text-muted-foreground leading-relaxed">
                                                     {info.note}
@@ -342,14 +357,14 @@ export function SyllabusDetailModal({
                                         <div className="flex items-center justify-between">
                                             <h4 className="text-sm font-bold flex items-center gap-1.5">
                                                 <CheckCircle2 className="h-4 w-4 text-emerald-500" />
-                                                Chuẩn đầu ra môn học (Course Learning Outcomes - CLOs)
+                                                {t("closTitle")}
                                             </h4>
                                             <span className="text-xs text-muted-foreground font-mono">
-                                                {clos.length} chuẩn đầu ra
+                                                {t("closCount", { count: clos.length })}
                                             </span>
                                         </div>
                                         {clos.length === 0 ? (
-                                            <p className="text-sm text-muted-foreground italic py-4">Chưa có dữ liệu CLOs.</p>
+                                            <p className="text-sm text-muted-foreground italic py-4">{t("noClos")}</p>
                                         ) : (
                                             <div className="space-y-2.5">
                                                 {clos.map((clo, idx) => (
@@ -376,12 +391,12 @@ export function SyllabusDetailModal({
                                         <div className="flex items-center justify-between">
                                             <h4 className="text-sm font-bold flex items-center gap-1.5">
                                                 <ListChecks className="h-4 w-4 text-primary" />
-                                                Lịch trình bài giảng ({sessions.length} buổi học)
+                                                {t("sessionsTitle", { count: sessions.length })}
                                             </h4>
                                         </div>
 
                                         {sessions.length === 0 ? (
-                                            <p className="text-sm text-muted-foreground italic py-4">Chưa có lịch trình buổi học.</p>
+                                            <p className="text-sm text-muted-foreground italic py-4">{t("noSessions")}</p>
                                         ) : (
                                             <div className="space-y-2.5">
                                                 {sessions.map((s, idx) => (
@@ -391,7 +406,7 @@ export function SyllabusDetailModal({
                                                     >
                                                         <div className="flex items-center justify-between gap-2">
                                                             <span className="font-mono font-extrabold text-xs text-primary px-2 py-0.5 rounded bg-primary/10">
-                                                                Buổi {s.sessionNo}
+                                                                {t("sessionNo", { n: s.sessionNo })}
                                                             </span>
                                                             <Badge
                                                                 variant="outline"
@@ -409,7 +424,7 @@ export function SyllabusDetailModal({
                                                         </p>
                                                         {s.studentTasks && (
                                                             <div className="text-[11px] text-muted-foreground bg-muted/30 p-2 rounded-lg leading-relaxed">
-                                                                <strong className="text-foreground/80">Nhiệm vụ chuẩn bị: </strong>
+                                                                <strong className="text-foreground/80">{t("prepTasks")} </strong>
                                                                 {s.studentTasks}
                                                             </div>
                                                         )}
@@ -425,10 +440,10 @@ export function SyllabusDetailModal({
                                     <div className="space-y-3.5">
                                         <h4 className="text-sm font-bold flex items-center gap-1.5">
                                             <BookOpen className="h-4 w-4 text-primary" />
-                                            Giáo trình & Khóa học trực tuyến (Coursera/References)
+                                            {t("materialsTitle")}
                                         </h4>
                                         {materials.length === 0 ? (
-                                            <p className="text-sm text-muted-foreground italic py-4">Chưa có danh mục tài liệu đính kèm.</p>
+                                            <p className="text-sm text-muted-foreground italic py-4">{t("noMaterials")}</p>
                                         ) : (
                                             <div className="space-y-3">
                                                 {materials.map((m, idx) => {
@@ -456,8 +471,8 @@ export function SyllabusDetailModal({
 
                                                             {(m.author || m.publisher || m.isbn) && (
                                                                 <div className="pt-1 border-t border-border/40 flex flex-wrap gap-x-4 gap-y-1 text-[11px] text-muted-foreground">
-                                                                    {m.author && <span>Tác giả: <strong className="text-foreground">{m.author}</strong></span>}
-                                                                    {m.publisher && <span>NXB: <strong className="text-foreground">{m.publisher}</strong></span>}
+                                                                    {m.author && <span>{t("author")} <strong className="text-foreground">{m.author}</strong></span>}
+                                                                    {m.publisher && <span>{t("publisher")} <strong className="text-foreground">{m.publisher}</strong></span>}
                                                                     {m.isbn && <span>ISBN: <strong className="font-mono text-foreground">{m.isbn}</strong></span>}
                                                                 </div>
                                                             )}
@@ -483,16 +498,16 @@ export function SyllabusDetailModal({
                                                     <div className="flex items-center gap-2">
                                                         <ArrowLeft className="h-4 w-4 text-amber-500" />
                                                         <h4 className="text-sm font-bold">
-                                                            Môn cần học trước (Tiên quyết)
+                                                            {t("prereqTitle")}
                                                         </h4>
                                                         <Badge variant="outline" className="font-mono text-xs ml-auto">
-                                                            {directPrereqs.length} môn
+                                                            {t("courseCount", { count: directPrereqs.length })}
                                                         </Badge>
                                                     </div>
 
                                                     {directPrereqs.length === 0 ? (
                                                         <div className="p-4 rounded-xl border border-dashed border-border bg-muted/20 text-xs text-muted-foreground text-center">
-                                                            Không có môn tiên quyết (sinh viên có thể học ngay từ đầu).
+                                                            {t("noPrereq")}
                                                         </div>
                                                     ) : (
                                                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
@@ -501,7 +516,7 @@ export function SyllabusDetailModal({
                                                                     key={code}
                                                                     onClick={() => onSelectCourseCode && onSelectCourseCode(code)}
                                                                     className="p-3 rounded-xl border border-border bg-card/80 hover:bg-card hover:border-amber-500/50 hover:shadow-md text-left transition-all flex items-center justify-between group"
-                                                                    title={`Xem đề cương môn ${code}`}
+                                                                    title={t("viewCourseTitle", { code })}
                                                                 >
                                                                     <div className="min-w-0 flex-1">
                                                                         <span className="font-mono text-xs font-black text-amber-600 dark:text-amber-400 group-hover:underline">
@@ -512,7 +527,7 @@ export function SyllabusDetailModal({
                                                                         </p>
                                                                     </div>
                                                                     <span className="text-[11px] text-primary font-semibold flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity shrink-0 ml-2">
-                                                                        Xem <ArrowRight className="h-3.5 w-3.5" />
+                                                                        {t("view")} <ArrowRight className="h-3.5 w-3.5" />
                                                                     </span>
                                                                 </button>
                                                             ))}
@@ -525,16 +540,16 @@ export function SyllabusDetailModal({
                                                     <div className="flex items-center gap-2">
                                                         <ArrowRight className="h-4 w-4 text-emerald-500" />
                                                         <h4 className="text-sm font-bold">
-                                                            Môn được mở khóa tiếp theo (Hậu duệ)
+                                                            {t("unlockTitle")}
                                                         </h4>
                                                         <Badge variant="outline" className="font-mono text-xs text-emerald-600 bg-emerald-500/10 ml-auto">
-                                                            {unlocks.length} môn
+                                                            {t("courseCount", { count: unlocks.length })}
                                                         </Badge>
                                                     </div>
 
                                                     {unlocks.length === 0 ? (
                                                         <div className="p-4 rounded-xl border border-dashed border-border bg-muted/20 text-xs text-muted-foreground text-center">
-                                                            Môn kết thúc hoặc môn giai đoạn cuối (không mở khóa thêm môn nào).
+                                                            {t("noUnlocks")}
                                                         </div>
                                                     ) : (
                                                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
@@ -543,7 +558,7 @@ export function SyllabusDetailModal({
                                                                     key={code}
                                                                     onClick={() => onSelectCourseCode && onSelectCourseCode(code)}
                                                                     className="p-3 rounded-xl border border-border bg-card/80 hover:bg-card hover:border-emerald-500/50 hover:shadow-md text-left transition-all flex items-center justify-between group"
-                                                                    title={`Xem đề cương môn ${code}`}
+                                                                    title={t("viewCourseTitle", { code })}
                                                                 >
                                                                     <div className="min-w-0 flex-1">
                                                                         <span className="font-mono text-xs font-black text-emerald-600 dark:text-emerald-400 group-hover:underline">
@@ -554,7 +569,7 @@ export function SyllabusDetailModal({
                                                                         </p>
                                                                     </div>
                                                                     <span className="text-[11px] text-primary font-semibold flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity shrink-0 ml-2">
-                                                                        Xem <ArrowRight className="h-3.5 w-3.5" />
+                                                                        {t("view")} <ArrowRight className="h-3.5 w-3.5" />
                                                                     </span>
                                                                 </button>
                                                             ))}
@@ -573,7 +588,7 @@ export function SyllabusDetailModal({
                                             <div className="space-y-2">
                                                 <h4 className="text-sm font-bold flex items-center gap-1.5">
                                                     <Clock className="h-4 w-4 text-primary" />
-                                                    Phân bổ thời lượng học tập
+                                                    {t("timeAllocation")}
                                                 </h4>
                                                 <div className="p-3.5 rounded-xl border border-border bg-muted/30 text-xs text-foreground font-mono leading-relaxed">
                                                     {info.timeAllocation}
@@ -585,7 +600,7 @@ export function SyllabusDetailModal({
                                             <div className="space-y-2">
                                                 <h4 className="text-sm font-bold flex items-center gap-1.5">
                                                     <GraduationCap className="h-4 w-4 text-primary" />
-                                                    Yêu cầu đối với sinh viên
+                                                    {t("studentRequirements")}
                                                 </h4>
                                                 <div className="p-3.5 rounded-xl border border-border bg-muted/30 text-xs text-foreground whitespace-pre-line leading-relaxed">
                                                     {info.studentTasks}
@@ -597,7 +612,7 @@ export function SyllabusDetailModal({
                                             <div className="space-y-2">
                                                 <h4 className="text-sm font-bold flex items-center gap-1.5">
                                                     <FileText className="h-4 w-4 text-primary" />
-                                                    Mục tiêu & Tổng quan môn học
+                                                    {t("overviewTitle")}
                                                 </h4>
                                                 <div className="p-3.5 rounded-xl border border-border bg-muted/30 text-xs text-foreground whitespace-pre-line leading-relaxed">
                                                     {info.description}
@@ -612,9 +627,9 @@ export function SyllabusDetailModal({
 
                     {/* Modal Footer */}
                     <div className="sticky bottom-0 z-20 px-5 sm:px-6 py-3 border-t border-border bg-background/95 backdrop-blur-md flex items-center justify-between text-xs text-muted-foreground">
-                        <span>Mã môn: <strong className="font-mono text-foreground">{course.courseCode}</strong></span>
+                        <span>{t("footerCode")} <strong className="font-mono text-foreground">{course.courseCode}</strong></span>
                         <Button variant="outline" size="sm" onClick={onClose} className="rounded-xl h-9 px-4 text-xs font-semibold">
-                            Đóng
+                            {t("close")}
                         </Button>
                     </div>
                 </motion.div>

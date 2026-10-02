@@ -18,6 +18,7 @@ import {
     Library,
 } from "lucide-react"
 import useSWR from "swr"
+import { useTranslations } from "next-intl"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -49,6 +50,8 @@ function HighlightText({ text, query }: { text?: string | null; query: string })
 }
 
 export default function MaterialsPage() {
+    const t = useTranslations("materials")
+    const tp = useTranslations("programs")
     const [searchQuery, setSearchQuery] = useState("")
     const [filterType, setFilterType] = useState<FilterType>("all")
     const [page, setPage] = useState(1)
@@ -138,13 +141,13 @@ export default function MaterialsPage() {
             >
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary border border-primary/20 text-xs font-semibold">
                     <BookOpen className="w-3.5 h-3.5" />
-                    <span>Kho Giáo trình & Khóa học Trực tuyến</span>
+                    <span>{t("badge")}</span>
                 </div>
                 <h1 className="text-3xl sm:text-4xl font-black tracking-tight text-foreground">
-                    Thư viện Giáo trình & Coursera
+                    {t("title")}
                 </h1>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                    Tra cứu toàn bộ tài liệu học tập chính thống, sách giáo trình, ISBN và các khóa học Coursera/EdX được tích hợp trong chương trình đào tạo.
+                    {t("subtitle")}
                 </p>
             </motion.section>
 
@@ -154,7 +157,7 @@ export default function MaterialsPage() {
                     <div className="relative flex-1">
                         <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                         <Input
-                            placeholder="Tìm kiếm theo mã môn, tên môn, tên sách, tác giả, Coursera..."
+                            placeholder={t("searchPlaceholder")}
                             value={searchQuery}
                             onChange={(e) => {
                                 setSearchQuery(e.target.value)
@@ -169,7 +172,7 @@ export default function MaterialsPage() {
                                     setPage(1)
                                 }}
                                 className="absolute right-3.5 top-1/2 -translate-y-1/2 p-1 rounded-full text-muted-foreground hover:text-foreground hover:bg-muted"
-                                aria-label="Xóa tìm kiếm"
+                                aria-label={t("clearSearch")}
                             >
                                 <X className="w-4 h-4" />
                             </button>
@@ -187,7 +190,7 @@ export default function MaterialsPage() {
                             }}
                             className="h-12 px-4 text-xs font-semibold rounded-2xl shrink-0"
                         >
-                            Tất cả ({materialsList?.length || 0})
+                            {t("filterAll", { count: materialsList?.length || 0 })}
                         </Button>
                         <Button
                             variant={filterType === "coursera" ? "default" : "outline"}
@@ -199,7 +202,7 @@ export default function MaterialsPage() {
                             className="h-12 px-4 text-xs font-semibold rounded-2xl gap-1.5 shrink-0"
                         >
                             <Sparkles className="w-3.5 h-3.5 text-blue-500" />
-                            <span>Có Coursera ({courseraCount})</span>
+                            <span>{t("filterCoursera", { count: courseraCount })}</span>
                         </Button>
                         <Button
                             variant={filterType === "textbook" ? "default" : "outline"}
@@ -211,14 +214,18 @@ export default function MaterialsPage() {
                             className="h-12 px-4 text-xs font-semibold rounded-2xl gap-1.5 shrink-0"
                         >
                             <BookMarked className="w-3.5 h-3.5 text-amber-500" />
-                            <span>Giáo trình in ({textbookCount})</span>
+                            <span>{t("filterTextbook", { count: textbookCount })}</span>
                         </Button>
                     </div>
                 </div>
 
                 <div className="flex items-center justify-between text-xs text-muted-foreground px-1">
                     <span>
-                        Hiển thị <strong className="text-foreground font-mono">{pagedItems.length}</strong> / <strong className="text-foreground font-mono">{totalCount}</strong> môn học
+                        {t.rich("showing", {
+                            shown: pagedItems.length,
+                            total: totalCount,
+                            strong: (chunks) => <strong className="text-foreground font-mono">{chunks}</strong>,
+                        })}
                     </span>
                     {searchQuery && (
                         <button
@@ -228,7 +235,7 @@ export default function MaterialsPage() {
                             }}
                             className="text-primary hover:underline font-semibold"
                         >
-                            Xóa bộ lọc tìm kiếm
+                            {t("clearFilters")}
                         </button>
                     )}
                 </div>
@@ -238,14 +245,14 @@ export default function MaterialsPage() {
             {isLoading ? (
                 <div className="flex flex-col items-center justify-center py-24 text-muted-foreground gap-3">
                     <Loader2 className="w-8 h-8 animate-spin text-primary" />
-                    <p className="text-sm font-medium">Đang tải danh mục giáo trình...</p>
+                    <p className="text-sm font-medium">{t("loading")}</p>
                 </div>
             ) : pagedItems.length === 0 ? (
                 <div className="p-14 rounded-3xl border border-dashed border-border text-center text-muted-foreground space-y-3 bg-muted/10">
                     <Library className="w-10 h-10 mx-auto text-muted-foreground/50" />
-                    <h3 className="font-bold text-base text-foreground">Không tìm thấy tài liệu phù hợp</h3>
+                    <h3 className="font-bold text-base text-foreground">{t("emptyTitle")}</h3>
                     <p className="text-xs max-w-sm mx-auto leading-relaxed">
-                        Hãy thử tìm kiếm với từ khóa khác hoặc xóa bộ lọc tìm kiếm.
+                        {t("emptyHint")}
                     </p>
                 </div>
             ) : (
@@ -264,7 +271,7 @@ export default function MaterialsPage() {
                                                 <HighlightText text={item.subjectCode} query={searchQuery} />
                                             </Badge>
                                             <Badge variant="outline" className="font-mono text-[10px] font-bold">
-                                                {item.credits} TC
+                                                {tp("creditsShort", { count: item.credits })}
                                             </Badge>
                                             {item.hasCoursera && (
                                                 <Badge className="text-[10px] bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/20 gap-1 font-bold">
@@ -289,7 +296,7 @@ export default function MaterialsPage() {
                                         onClick={() => openSyllabus(item)}
                                         className="h-9 px-3 text-xs font-semibold shrink-0 rounded-xl hover:bg-primary/10 hover:text-primary transition-colors"
                                     >
-                                        Đề cương
+                                        {t("syllabus")}
                                     </Button>
                                 </div>
 
@@ -319,8 +326,8 @@ export default function MaterialsPage() {
 
                                                 {(m.author || m.publisher || m.isbn) && (
                                                     <div className="flex flex-wrap gap-x-3 gap-y-1 text-[11px] text-muted-foreground pt-0.5 border-t border-border/30">
-                                                        {m.author && <span>Tác giả: <strong className="text-foreground/90"><HighlightText text={m.author} query={searchQuery} /></strong></span>}
-                                                        {m.publisher && <span>NXB: <strong className="text-foreground/80"><HighlightText text={m.publisher} query={searchQuery} /></strong></span>}
+                                                        {m.author && <span>{t("author")} <strong className="text-foreground/90"><HighlightText text={m.author} query={searchQuery} /></strong></span>}
+                                                        {m.publisher && <span>{t("publisher")} <strong className="text-foreground/80"><HighlightText text={m.publisher} query={searchQuery} /></strong></span>}
                                                         {m.isbn && <span>ISBN: <strong className="font-mono text-foreground/90"><HighlightText text={m.isbn} query={searchQuery} /></strong></span>}
                                                     </div>
                                                 )}
@@ -333,7 +340,7 @@ export default function MaterialsPage() {
                                             onClick={() => openSyllabus(item)}
                                             className="text-[11px] text-primary hover:underline font-bold pt-1 block"
                                         >
-                                            + Xem thêm {item.materials.length - 3} tài liệu khác trong đề cương →
+                                            {t("moreMaterials", { count: item.materials.length - 3 })}
                                         </button>
                                     )}
                                 </div>
@@ -353,10 +360,10 @@ export default function MaterialsPage() {
                         disabled={page === 1}
                         className="rounded-xl text-xs font-semibold h-9 px-4"
                     >
-                        Trang trước
+                        {t("prevPage")}
                     </Button>
                     <span className="text-xs font-bold px-3 text-muted-foreground font-mono">
-                        Trang {page} / {totalPages}
+                        {t("pageIndicator", { page, total: totalPages })}
                     </span>
                     <Button
                         variant="outline"
@@ -365,7 +372,7 @@ export default function MaterialsPage() {
                         disabled={page === totalPages}
                         className="rounded-xl text-xs font-semibold h-9 px-4"
                     >
-                        Trang sau
+                        {t("nextPage")}
                     </Button>
                 </div>
             )}

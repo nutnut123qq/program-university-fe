@@ -21,6 +21,36 @@
   "createdAt": "2026-06-23T09:30:12.614043+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 57,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn A",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "CO1003"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn B",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "AS2005",
+        "AS3003",
+        "AS3013",
+        "AS3019",
+        "AS3021",
+        "AS3027",
+        "AS3035",
+        "AS3039",
+        "AS3085",
+        "AS3093",
+        "AS3097",
+        "AS3149",
+        "AS4003",
+        "CI3171",
+        "ME3237"
+      ]
+    }
+  ],
   "evaluationScore": 7.0,
   "evalOutcomes": 0,
   "evalStructure": 5,

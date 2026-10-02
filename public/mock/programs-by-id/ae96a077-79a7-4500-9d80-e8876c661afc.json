@@ -21,6 +21,37 @@
   "createdAt": "2026-06-23T09:39:07.171562+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 47,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn A",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "CI2157"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn B",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "CI3241",
+        "CI4201"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn C",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "CI5023"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn D",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "CI5029"
+      ]
+    }
+  ],
   "evaluationScore": 7.0,
   "evalOutcomes": 0,
   "evalStructure": 5,

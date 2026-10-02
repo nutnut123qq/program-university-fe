@@ -21,6 +21,23 @@
   "createdAt": "2026-06-23T09:35:02.517696+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 38,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn A",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "CI3163",
+        "CI4207",
+        "CI3287",
+        "CI4177",
+        "CI3295",
+        "CI3299",
+        "CI4205",
+        "CI4209",
+        "CI3269"
+      ]
+    }
+  ],
   "evaluationScore": 6.49,
   "evalOutcomes": 0,
   "evalStructure": 4,

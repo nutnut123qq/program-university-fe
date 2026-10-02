@@ -21,6 +21,135 @@
   "createdAt": "2026-06-18T15:41:59.212880+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 133,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "402068",
+        "402069",
+        "40215460"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "402072",
+        "40215660"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 3",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "402070",
+        "40215560"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01101",
+        "D01102",
+        "D01103",
+        "D01104",
+        "D01106",
+        "D01120",
+        "D01121"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01201",
+        "D01202",
+        "D01203",
+        "D01204",
+        "D01205",
+        "D01206",
+        "D01221",
+        "D01222"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn Khoa học tự nhiên",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "402064",
+        "402150"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00047",
+        "L00048",
+        "L00049",
+        "L00051"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng thiết yếu cho sự PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00044",
+        "L00045",
+        "L00046",
+        "L00052"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "40204260",
+        "402080",
+        "402081",
+        "402084",
+        "402088",
+        "40208860",
+        "402089",
+        "40212160",
+        "40212460",
+        "402125",
+        "40212660",
+        "40212860",
+        "40212960",
+        "40213060",
+        "402131",
+        "40213160",
+        "40213260",
+        "40213360",
+        "40213460",
+        "40213560",
+        "40213760",
+        "40213860",
+        "40213960",
+        "40214160",
+        "402142",
+        "40214860",
+        "40214960",
+        "40314360",
+        "40314460",
+        "404107"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn đồ án",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "402115",
+        "40211660",
+        "40211760",
+        "40211860",
+        "40211960"
+      ]
+    }
+  ],
   "evaluationScore": 5.5,
   "evalOutcomes": 0,
   "evalStructure": 3,

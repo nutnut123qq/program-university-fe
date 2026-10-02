@@ -21,6 +21,20 @@
   "createdAt": "2026-06-23T09:07:32.587117+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 40,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn A",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "ME4135",
+        "ME4217",
+        "ME3005",
+        "ME3013",
+        "ME4133",
+        "ME4137"
+      ]
+    }
+  ],
   "evaluationScore": 6.7,
   "evalOutcomes": 0,
   "evalStructure": 5,

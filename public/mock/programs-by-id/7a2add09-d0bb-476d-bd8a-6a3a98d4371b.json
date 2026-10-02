@@ -21,6 +21,103 @@
   "createdAt": "2026-06-18T15:40:26.608980+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 97,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "302003",
+        "701011",
+        "303001"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01103",
+        "D01120",
+        "D01121",
+        "D01104",
+        "D01101",
+        "D01102",
+        "D01106"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01206",
+        "D01202",
+        "D01203",
+        "D01205",
+        "D01201",
+        "D01204",
+        "D01222",
+        "D01221"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng thiết yếu cho sự PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00047",
+        "L00046",
+        "L00045",
+        "L00048",
+        "L00051",
+        "L00044",
+        "L00049",
+        "L00052"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "302090",
+        "302140",
+        "302017",
+        "302089",
+        "702050",
+        "302013",
+        "302139",
+        "306108"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "302133",
+        "302132",
+        "302127",
+        "302130",
+        "302129",
+        "302131",
+        "302128"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn kiến thức chung",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "302126",
+        "302124",
+        "302125"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn môn thay thế tốt nghiệp",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "302135",
+        "302134",
+        "302138"
+      ]
+    }
+  ],
   "evaluationScore": 5.5,
   "evalOutcomes": 0,
   "evalStructure": 3,

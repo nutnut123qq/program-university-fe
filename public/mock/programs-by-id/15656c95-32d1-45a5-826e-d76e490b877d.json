@@ -21,6 +21,26 @@
   "createdAt": "2026-06-23T09:39:37.206348+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 43,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn A",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "EE3403",
+        "EE3407",
+        "EE3411"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn B",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "EE4451",
+        "EE4453",
+        "EE4455"
+      ]
+    }
+  ],
   "evaluationScore": 6.7,
   "evalOutcomes": 0,
   "evalStructure": 5,

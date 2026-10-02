@@ -21,6 +21,91 @@
   "createdAt": "2026-06-18T15:40:36.633294+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 89,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "302217",
+        "302218",
+        "302222"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01101",
+        "D01102",
+        "D01103",
+        "D01104",
+        "D01106",
+        "D01120",
+        "D01121"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01201",
+        "D01202",
+        "D01203",
+        "D01204",
+        "D01205",
+        "D01206",
+        "D01221",
+        "D01222"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng thiết yếu cho sự PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00044",
+        "L00045",
+        "L00046",
+        "L00052",
+        "L00047",
+        "L00048",
+        "L00049",
+        "L00051"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "201048",
+        "B03033"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "B01045",
+        "B03025"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành 3",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "B01036",
+        "B01037",
+        "B03035",
+        "B03036"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn môn thay thế tốt nghiệp",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "B00022"
+      ]
+    }
+  ],
   "evaluationScore": 5.5,
   "evalOutcomes": 0,
   "evalStructure": 3,

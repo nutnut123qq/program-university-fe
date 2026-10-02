@@ -21,6 +21,113 @@
   "createdAt": "2026-06-18T15:41:14.944996+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 113,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "001173",
+        "001615",
+        "001612",
+        "001614",
+        "001172",
+        "001186",
+        "001613",
+        "001198",
+        "001616"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "001176",
+        "001617",
+        "001178",
+        "001175",
+        "001179",
+        "001171"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn Chuyên ngành Thương mại",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "001196",
+        "001193",
+        "001195",
+        "001194",
+        "001339"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01120",
+        "D01103",
+        "D01101",
+        "D01104",
+        "D01106",
+        "D01121",
+        "D01102"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01203",
+        "D01222",
+        "D01206",
+        "D01201",
+        "D01204",
+        "D01205",
+        "D01202",
+        "D01221"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00051",
+        "L00048",
+        "L00049",
+        "L00047"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng thiết yếu cho sự PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00045",
+        "L00044",
+        "L00046",
+        "L00052"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành (Sư phạm)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "001183",
+        "001184",
+        "001348",
+        "001338",
+        "001185",
+        "001609",
+        "001337"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành (Thương mại)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "001197"
+      ]
+    }
+  ],
   "evaluationScore": 5.5,
   "evalOutcomes": 0,
   "evalStructure": 3,

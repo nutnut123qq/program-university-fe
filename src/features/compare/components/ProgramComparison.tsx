@@ -88,10 +88,10 @@ const ProgramComparisonInner = () => {
         // Real per-criterion evaluation scores (1-5). All four must be present —
         // no interpolation from the aggregate evaluationScore.
         const evalComponents = [
-            { id: "outcomes", name: "Chuẩn đầu ra", score: prog.evalOutcomes },
-            { id: "structure", name: "Cấu trúc CTĐT", score: prog.evalStructure },
-            { id: "blocks", name: "Khối kiến thức", score: prog.evalKnowledgeBlocks },
-            { id: "completeness", name: "Tính đầy đủ Dữ liệu", score: prog.evalCompleteness },
+            { id: "outcomes", name: t("evalOutcomes"), score: prog.evalOutcomes },
+            { id: "structure", name: t("evalStructure"), score: prog.evalStructure },
+            { id: "blocks", name: t("evalKnowledgeBlocks"), score: prog.evalKnowledgeBlocks },
+            { id: "completeness", name: t("evalCompleteness"), score: prog.evalCompleteness },
         ]
         return evalComponents.every((c) => typeof c.score === "number")
             ? evalComponents.map((c) => ({ id: c.id, name: c.name, score: c.score as number }))
@@ -108,12 +108,12 @@ const ProgramComparisonInner = () => {
                 <div className="flex items-center gap-2">
                     <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20 gap-1">
                         <Scale className="w-3.5 h-3.5" />
-                        <span>Công cụ So sánh Trực quan Deep-Dive</span>
+                        <span>{t("compareBadge")}</span>
                     </Badge>
                 </div>
-                <h1 className="text-3xl font-extrabold tracking-tight">So sánh Trực tiếp 2 Chương trình Đào tạo</h1>
+                <h1 className="text-3xl font-extrabold tracking-tight">{t("compareTitle")}</h1>
                 <p className="text-muted-foreground text-sm">
-                    Phân tích điểm tương đồng, sự khác biệt về số tín chỉ, môn học trùng lặp và biểu đồ {t("slmRefScore")} ({t("slmRefScoreNote")}).
+                    {t("compareSubtitle", { score: t("slmRefScore"), note: t("slmRefScoreNote") })}
                 </p>
             </div>
 
@@ -137,7 +137,7 @@ const ProgramComparisonInner = () => {
                     <CardHeader className="pb-3">
                         <CardTitle className="text-sm font-semibold text-primary uppercase flex items-center gap-2">
                             <GraduationCap className="w-4 h-4" />
-                            <span>Chương trình Đào tạo 1</span>
+                            <span>{t("compareProgram1")}</span>
                         </CardTitle>
                     </CardHeader>
                     <CardContent>
@@ -159,7 +159,7 @@ const ProgramComparisonInner = () => {
                     <CardHeader className="pb-3">
                         <CardTitle className="text-sm font-semibold text-indigo-500 uppercase flex items-center gap-2">
                             <GraduationCap className="w-4 h-4" />
-                            <span>Chương trình Đào tạo 2</span>
+                            <span>{t("compareProgram2")}</span>
                         </CardTitle>
                     </CardHeader>
                     <CardContent>
@@ -186,14 +186,14 @@ const ProgramComparisonInner = () => {
                             <ArrowRightLeft className="w-6 h-6" />
                         </div>
                         <div>
-                            <h3 className="font-bold text-base">Độ trùng lặp Kiến thức (Course Overlap Rate)</h3>
-                            <p className="text-xs text-muted-foreground">Có {commonCourses.length} môn học trùng tên/nội dung giữa 2 chương trình này</p>
+                            <h3 className="font-bold text-base">{t("compareOverlapTitle")}</h3>
+                            <p className="text-xs text-muted-foreground">{t("compareOverlapDesc", { count: commonCourses.length })}</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-3">
                         <div className="text-right">
                             <span className="text-3xl font-black text-primary">{overlapPct}%</span>
-                            <p className="text-[11px] text-muted-foreground">Tỷ lệ tương đồng môn</p>
+                            <p className="text-[11px] text-muted-foreground">{t("compareOverlapPct")}</p>
                         </div>
                     </div>
                 </CardContent>
@@ -207,20 +207,20 @@ const ProgramComparisonInner = () => {
                         <CardHeader>
                             <Badge className="w-fit bg-primary/10 text-primary border-primary/20 mb-2">{p1.universityName}</Badge>
                             <CardTitle className="text-xl font-bold">{p1.name}</CardTitle>
-                            <CardDescription className="text-xs">Mã ngành: {p1.code || "N/A"}</CardDescription>
+                            <CardDescription className="text-xs">{t("compareProgramCode", { code: p1.code || "N/A" })}</CardDescription>
                         </CardHeader>
                         <CardContent className="space-y-4">
                             <div className="grid grid-cols-2 gap-3 text-xs">
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">Trình độ đào tạo</span>
+                                    <span className="text-muted-foreground block text-[11px]">{t("compareDegreeLevel")}</span>
                                     <span className="font-semibold text-sm">{p1.degreeType || "N/A"}</span>
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">Tổng số tín chỉ</span>
-                                    <span className="font-semibold text-sm text-primary">{p1.credits != null ? `${p1.credits} TC` : "N/A"}</span>
+                                    <span className="text-muted-foreground block text-[11px]">{t("compareTotalCredits")}</span>
+                                    <span className="font-semibold text-sm text-primary">{p1.credits != null ? t("creditsShort", { count: p1.credits }) : "N/A"}</span>
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">Thời gian đào tạo</span>
+                                    <span className="text-muted-foreground block text-[11px]">{t("duration")}</span>
                                     <span className="font-semibold">{p1.duration || "N/A"}</span>
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
@@ -231,13 +231,13 @@ const ProgramComparisonInner = () => {
                             </div>
 
                             <div className="pt-2 border-t flex flex-col items-center">
-                                <span className="text-xs font-semibold mb-2">Biểu đồ Radar Rubric AUN-QA</span>
+                                <span className="text-xs font-semibold mb-2">{t("compareRadarTitle")}</span>
                                 {radarScores1.length > 0 ? (
                                     <AunRadarChart scores={radarScores1} size={220} />
                                 ) : (
                                     <div className="flex flex-col items-center justify-center gap-2 py-8 text-center">
                                         <AlertCircle className="h-7 w-7 text-muted-foreground/50" />
-                                        <p className="text-xs text-muted-foreground">Chưa có dữ liệu đánh giá cho chương trình này.</p>
+                                        <p className="text-xs text-muted-foreground">{t("compareNoEval")}</p>
                                     </div>
                                 )}
                             </div>
@@ -251,20 +251,20 @@ const ProgramComparisonInner = () => {
                         <CardHeader>
                             <Badge className="w-fit bg-indigo-500/10 text-indigo-500 border-indigo-500/20 mb-2">{p2.universityName}</Badge>
                             <CardTitle className="text-xl font-bold">{p2.name}</CardTitle>
-                            <CardDescription className="text-xs">Mã ngành: {p2.code || "N/A"}</CardDescription>
+                            <CardDescription className="text-xs">{t("compareProgramCode", { code: p2.code || "N/A" })}</CardDescription>
                         </CardHeader>
                         <CardContent className="space-y-4">
                             <div className="grid grid-cols-2 gap-3 text-xs">
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">Trình độ đào tạo</span>
+                                    <span className="text-muted-foreground block text-[11px]">{t("compareDegreeLevel")}</span>
                                     <span className="font-semibold text-sm">{p2.degreeType || "N/A"}</span>
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">Tổng số tín chỉ</span>
-                                    <span className="font-semibold text-sm text-indigo-500">{p2.credits != null ? `${p2.credits} TC` : "N/A"}</span>
+                                    <span className="text-muted-foreground block text-[11px]">{t("compareTotalCredits")}</span>
+                                    <span className="font-semibold text-sm text-indigo-500">{p2.credits != null ? t("creditsShort", { count: p2.credits }) : "N/A"}</span>
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">Thời gian đào tạo</span>
+                                    <span className="text-muted-foreground block text-[11px]">{t("duration")}</span>
                                     <span className="font-semibold">{p2.duration || "N/A"}</span>
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
@@ -275,13 +275,13 @@ const ProgramComparisonInner = () => {
                             </div>
 
                             <div className="pt-2 border-t flex flex-col items-center">
-                                <span className="text-xs font-semibold mb-2">Biểu đồ Radar Rubric AUN-QA</span>
+                                <span className="text-xs font-semibold mb-2">{t("compareRadarTitle")}</span>
                                 {radarScores2.length > 0 ? (
                                     <AunRadarChart scores={radarScores2} size={220} />
                                 ) : (
                                     <div className="flex flex-col items-center justify-center gap-2 py-8 text-center">
                                         <AlertCircle className="h-7 w-7 text-muted-foreground/50" />
-                                        <p className="text-xs text-muted-foreground">Chưa có dữ liệu đánh giá cho chương trình này.</p>
+                                        <p className="text-xs text-muted-foreground">{t("compareNoEval")}</p>
                                     </div>
                                 )}
                             </div>
@@ -299,8 +299,8 @@ const ProgramComparisonInner = () => {
                         <div className="flex items-center gap-2">
                             <CheckCircle2 className="w-5 h-5 text-emerald-500" />
                             <div>
-                                <CardTitle className="text-base font-bold">Danh sách {commonCourses.length} Môn học Trùng lặp giữa 2 Ngành</CardTitle>
-                                <CardDescription className="text-xs">Các môn học có nội dung & khối kiến thức tương đồng mà sinh viên đều phải học ở cả 2 trường</CardDescription>
+                                <CardTitle className="text-base font-bold">{t("compareCommonTitle", { count: commonCourses.length })}</CardTitle>
+                                <CardDescription className="text-xs">{t("compareCommonDesc")}</CardDescription>
                             </div>
                         </div>
                     </CardHeader>
@@ -309,7 +309,7 @@ const ProgramComparisonInner = () => {
                             {commonCourses.slice(0, 15).map((c, i) => (
                                 <div key={i} className="p-2.5 rounded-lg border bg-muted/20 flex items-center justify-between text-xs">
                                     <span className="font-medium truncate">{c.courseName}</span>
-                                    <Badge variant="outline" className="font-mono text-[10px] ml-2 shrink-0">{c.credits != null ? `${c.credits} TC` : "N/A"}</Badge>
+                                    <Badge variant="outline" className="font-mono text-[10px] ml-2 shrink-0">{c.credits != null ? t("creditsShort", { count: c.credits }) : "N/A"}</Badge>
                                 </div>
                             ))}
                         </div>

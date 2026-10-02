@@ -21,6 +21,30 @@
   "createdAt": "2026-06-23T09:20:06.407157+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 49,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn A",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "TR3029",
+        "TR3055",
+        "TR3063",
+        "TR3083",
+        "TR3087",
+        "TR4043",
+        "TR4047",
+        "TR4051",
+        "TR4057",
+        "TR4067",
+        "TR4069",
+        "TR4071",
+        "TR4073",
+        "TR4083",
+        "TR4095",
+        "TR4097"
+      ]
+    }
+  ],
   "evaluationScore": 7.0,
   "evalOutcomes": 0,
   "evalStructure": 5,

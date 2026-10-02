@@ -42,6 +42,14 @@ export const ChatPage = () => {
     const router = useRouter()
     const t = useTranslations("chat")
 
+    // Sidebar defaults closed on small screens (<md). Runs after hydration to
+    // avoid a server/client markup mismatch; the transition animates it shut.
+    useEffect(() => {
+        if (typeof window !== "undefined" && !window.matchMedia("(min-width: 768px)").matches) {
+            setIsSidebarOpen(false)
+        }
+    }, [])
+
     // Auto scroll to bottom when messages update
     useEffect(() => {
         if (messagesEndRef.current) {
@@ -112,7 +120,13 @@ export const ChatPage = () => {
         return (
             <div
                 key={session.id}
-                onClick={() => switchSession(session.id)}
+                onClick={() => {
+                    switchSession(session.id)
+                    // On mobile the sidebar is an overlay — close it after picking a session.
+                    if (typeof window !== "undefined" && !window.matchMedia("(min-width: 768px)").matches) {
+                        setIsSidebarOpen(false)
+                    }
+                }}
                 className={`group relative flex items-center justify-between px-3 py-2 rounded-lg text-xs cursor-pointer transition-colors ${
                     isActive
                         ? "bg-accent text-accent-foreground font-medium"
@@ -129,7 +143,7 @@ export const ChatPage = () => {
                         deleteSession(session.id)
                     }}
                     className="opacity-0 group-hover:opacity-100 p-1 hover:text-destructive rounded transition-opacity"
-                    title={t("deleteChat") || "Xóa cuộc trò chuyện"}
+                    title={t("deleteChat")}
                 >
                     <Trash2 className="w-3.5 h-3.5" />
                 </button>
@@ -139,9 +153,18 @@ export const ChatPage = () => {
 
     return (
         <div className="flex h-[calc(100vh-4rem)] bg-background overflow-hidden">
-            {/* Sidebar (Gemini-Style) */}
+            {/* Mobile backdrop — tapping outside the overlay sidebar closes it */}
+            {isSidebarOpen && (
+                <div
+                    className="md:hidden fixed top-14 bottom-0 inset-x-0 z-20 bg-black/40"
+                    onClick={() => setIsSidebarOpen(false)}
+                    aria-hidden="true"
+                />
+            )}
+
+            {/* Sidebar (Gemini-Style) — in-flow on md+, fixed overlay below md */}
             <aside
-                className={`border-r bg-muted/20 flex flex-col transition-all duration-300 ease-in-out ${
+                className={`border-r bg-muted/20 flex flex-col transition-all duration-300 ease-in-out max-md:fixed max-md:top-14 max-md:bottom-0 max-md:left-0 max-md:z-30 max-md:bg-background ${
                     isSidebarOpen
                         ? "w-64 sm:w-72 shrink-0 translate-x-0"
                         : "w-0 -translate-x-full overflow-hidden border-r-0"
@@ -155,7 +178,7 @@ export const ChatPage = () => {
                         className="w-full justify-start gap-2 h-9 text-xs font-medium rounded-lg shadow-sm"
                     >
                         <Plus className="w-4 h-4 text-primary" />
-                        <span>{t("newChat") || "Cuộc trò chuyện mới"}</span>
+                        <span>{t("newChat")}</span>
                     </Button>
                 </div>
 
@@ -164,7 +187,7 @@ export const ChatPage = () => {
                     {groupedSessions.today.length > 0 && (
                         <div className="space-y-1">
                             <p className="px-3 text-[11px] font-semibold text-muted-foreground/70 uppercase tracking-wider">
-                                {t("today") || "Hôm nay"}
+                                {t("today")}
                             </p>
                             {groupedSessions.today.map(renderSessionItem)}
                         </div>
@@ -173,7 +196,7 @@ export const ChatPage = () => {
                     {groupedSessions.yesterday.length > 0 && (
                         <div className="space-y-1">
                             <p className="px-3 text-[11px] font-semibold text-muted-foreground/70 uppercase tracking-wider">
-                                {t("yesterday") || "Hôm qua"}
+                                {t("yesterday")}
                             </p>
                             {groupedSessions.yesterday.map(renderSessionItem)}
                         </div>
@@ -182,7 +205,7 @@ export const ChatPage = () => {
                     {groupedSessions.previous7Days.length > 0 && (
                         <div className="space-y-1">
                             <p className="px-3 text-[11px] font-semibold text-muted-foreground/70 uppercase tracking-wider">
-                                {t("previous7Days") || "7 ngày qua"}
+                                {t("previous7Days")}
                             </p>
                             {groupedSessions.previous7Days.map(renderSessionItem)}
                         </div>
@@ -191,7 +214,7 @@ export const ChatPage = () => {
                     {groupedSessions.older.length > 0 && (
                         <div className="space-y-1">
                             <p className="px-3 text-[11px] font-semibold text-muted-foreground/70 uppercase tracking-wider">
-                                {t("older") || "Cũ hơn"}
+                                {t("older")}
                             </p>
                             {groupedSessions.older.map(renderSessionItem)}
                         </div>
@@ -199,7 +222,7 @@ export const ChatPage = () => {
 
                     {sessions.length === 0 && (
                         <div className="p-4 text-center text-xs text-muted-foreground">
-                            {t("noSessions") || "Chưa có đoạn chat nào"}
+                            {t("noSessions")}
                         </div>
                     )}
                 </div>
@@ -215,7 +238,7 @@ export const ChatPage = () => {
                             size="icon"
                             onClick={() => setIsSidebarOpen((prev) => !prev)}
                             className="h-8 w-8 text-muted-foreground hover:text-foreground shrink-0"
-                            title={isSidebarOpen ? "Thu gọn Sidebar" : "Mở rộng Sidebar"}
+                            title={isSidebarOpen ? t("collapse") : t("history")}
                         >
                             {isSidebarOpen ? <PanelLeftClose className="w-4 h-4" /> : <PanelLeft className="w-4 h-4" />}
                         </Button>
@@ -224,15 +247,15 @@ export const ChatPage = () => {
                             size="icon"
                             onClick={() => router.back()}
                             className="h-8 w-8 text-muted-foreground hover:text-foreground shrink-0"
-                            title={t("back") || "Quay lại"}
+                            title={t("back")}
                         >
                             <ArrowLeft className="w-4 h-4" />
                         </Button>
                         <span className="font-semibold text-sm sm:text-base flex items-center gap-2 truncate">
                             <Bot className="w-4 h-4 text-primary shrink-0" />
-                            <span className="truncate">{currentSession?.title || t("title") || "AI thử nghiệm"}</span>
+                            <span className="truncate">{currentSession?.title || t("title")}</span>
                             <span className="hidden md:inline text-[11px] font-normal text-muted-foreground shrink-0">
-                                — {t("subtitle") || "trả lời dựa trên snapshot dữ liệu"}
+                                — {t("subtitle")}
                             </span>
                         </span>
                     </div>
@@ -244,7 +267,7 @@ export const ChatPage = () => {
                         className="gap-1.5 h-8 text-xs font-medium shrink-0"
                     >
                         <Plus className="w-3.5 h-3.5" />
-                        <span className="hidden sm:inline">{t("newChat") || "Cuộc trò chuyện mới"}</span>
+                        <span className="hidden sm:inline">{t("newChat")}</span>
                     </Button>
                 </header>
 
@@ -303,7 +326,7 @@ export const ChatPage = () => {
                             </div>
                             <div className="p-3.5 rounded-2xl bg-muted/70 border rounded-tl-sm flex items-center gap-2 text-muted-foreground">
                                 <Loader2 className="w-3.5 h-3.5 animate-spin text-primary" />
-                                <span className="text-xs">{t("loading") || "Đang tìm kiếm thông tin..."}</span>
+                                <span className="text-xs">{t("loading")}</span>
                             </div>
                         </div>
                     )}
@@ -315,13 +338,13 @@ export const ChatPage = () => {
                     <div className="max-w-3xl mx-auto flex flex-col gap-2.5">
                         {messages.length <= 1 && (
                             <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-none">
-                                {QUICK_PROMPTS.map((prompt, i) => (
+                                {QUICK_PROMPTS.map((promptKey, i) => (
                                     <button
                                         key={i}
-                                        onClick={() => handleSend(prompt)}
+                                        onClick={() => handleSend(t(promptKey))}
                                         className="px-3 py-1.5 rounded-full bg-muted/50 border text-xs text-muted-foreground hover:text-foreground hover:bg-muted whitespace-nowrap transition-colors"
                                     >
-                                        {prompt}
+                                        {t(promptKey)}
                                     </button>
                                 ))}
                             </div>
@@ -336,7 +359,7 @@ export const ChatPage = () => {
                                         handleSend()
                                     }
                                 }}
-                                placeholder={t("placeholder") || "Nhập câu hỏi về ngành hoặc môn học..."}
+                                placeholder={t("placeholder")}
                                 className="flex-1 bg-transparent resize-none border-0 outline-none min-h-[40px] max-h-32 py-2 px-2 text-xs sm:text-sm scrollbar-none"
                                 rows={1}
                             />
@@ -350,7 +373,7 @@ export const ChatPage = () => {
                             </Button>
                         </div>
                         <div className="text-center text-[10px] text-muted-foreground">
-                            {t("disclaimer") || "AI thử nghiệm — trả lời dựa trên snapshot dữ liệu."}
+                            {t("disclaimer")}
                         </div>
                     </div>
                 </div>

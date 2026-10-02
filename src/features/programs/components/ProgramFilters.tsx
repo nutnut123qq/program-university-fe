@@ -82,7 +82,7 @@ export function ProgramFilters({
                         <button
                             onClick={() => onChange({ ...filters, search: "" })}
                             className="absolute right-3.5 top-1/2 -translate-y-1/2 p-1 rounded-full text-muted-foreground hover:text-foreground hover:bg-muted"
-                            aria-label="Xóa từ khóa tìm kiếm"
+                            aria-label={t("clearSearchAria")}
                         >
                             <X className="w-4 h-4" />
                         </button>
@@ -124,19 +124,19 @@ export function ProgramFilters({
                         onValueChange={(value) =>
                             onChange({ ...filters, cohort: value || "all" })
                         }
-                        placeholder="Tất cả khóa (K15 - K23)"
-                        aria-label="Khóa tuyển sinh"
+                        placeholder={t("cohortPlaceholder")}
+                        aria-label={t("cohortAria")}
                     >
-                        <SelectItem value="">Tất cả khóa</SelectItem>
-                        <SelectItem value="K23">Khóa K23 (2023 - nay)</SelectItem>
-                        <SelectItem value="K22">Khóa K22 (2022)</SelectItem>
-                        <SelectItem value="K21">Khóa K21 (2021)</SelectItem>
-                        <SelectItem value="K20">Khóa K20 (2020)</SelectItem>
-                        <SelectItem value="K19">Khóa K19 (2019)</SelectItem>
-                        <SelectItem value="K18">Khóa K18 (2018)</SelectItem>
-                        <SelectItem value="K17">Khóa K17 (2017)</SelectItem>
-                        <SelectItem value="K16">Khóa K16 (2016)</SelectItem>
-                        <SelectItem value="K15">Khóa K15 (2015)</SelectItem>
+                        <SelectItem value="">{t("cohortAll")}</SelectItem>
+                        <SelectItem value="K23">{t("cohortBadge", { id: "K23" })} (2023 - {t("cohortNow")})</SelectItem>
+                        <SelectItem value="K22">{t("cohortBadge", { id: "K22" })} (2022)</SelectItem>
+                        <SelectItem value="K21">{t("cohortBadge", { id: "K21" })} (2021)</SelectItem>
+                        <SelectItem value="K20">{t("cohortBadge", { id: "K20" })} (2020)</SelectItem>
+                        <SelectItem value="K19">{t("cohortBadge", { id: "K19" })} (2019)</SelectItem>
+                        <SelectItem value="K18">{t("cohortBadge", { id: "K18" })} (2018)</SelectItem>
+                        <SelectItem value="K17">{t("cohortBadge", { id: "K17" })} (2017)</SelectItem>
+                        <SelectItem value="K16">{t("cohortBadge", { id: "K16" })} (2016)</SelectItem>
+                        <SelectItem value="K15">{t("cohortBadge", { id: "K15" })} (2015)</SelectItem>
                     </Select>
 
                     <Select
@@ -177,7 +177,11 @@ export function ProgramFilters({
                 <p>
                     {totalCount > 0 ? (
                         <span>
-                            Hiển thị <strong className="text-foreground font-mono">{resultCount}</strong> / <strong className="text-foreground font-mono">{totalCount}</strong> chương trình đào tạo
+                            {t.rich("showingCount", {
+                                shown: resultCount,
+                                total: totalCount,
+                                strong: (chunks) => <strong className="text-foreground font-mono">{chunks}</strong>,
+                            })}
                         </span>
                     ) : (
                         t("results", { count: resultCount })
@@ -191,7 +195,7 @@ export function ProgramFilters({
                         className="h-8 text-xs font-semibold gap-1.5 text-primary hover:text-primary/80 hover:bg-primary/10 rounded-lg"
                     >
                         <RotateCcw className="w-3.5 h-3.5" />
-                        <span>{t("clearFilters") || "Xóa bộ lọc"}</span>
+                        <span>{t("clearFilters")}</span>
                     </Button>
                 )}
             </div>

@@ -21,6 +21,106 @@
   "createdAt": "2026-06-18T15:41:30.050758+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 125,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "401068",
+        "402142",
+        "403039"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "40107260",
+        "40112960",
+        "402068",
+        "402084",
+        "40212160",
+        "40213760",
+        "40214860",
+        "40312460",
+        "40312860",
+        "40312960",
+        "40313060",
+        "40313160",
+        "40313260",
+        "40314360",
+        "403147",
+        "404107"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn 3",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "401135",
+        "403030",
+        "40313660",
+        "40313760",
+        "40313860",
+        "40313960"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01101",
+        "D01102",
+        "D01103",
+        "D01104",
+        "D01106",
+        "D01120",
+        "D01121"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01201",
+        "D01202",
+        "D01203",
+        "D01204",
+        "D01205",
+        "D01206",
+        "D01221",
+        "D01222"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn Khoa học tự nhiên",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "402064",
+        "402150"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00047",
+        "L00048",
+        "L00049",
+        "L00051"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng thiết yếu cho sự PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00044",
+        "L00045",
+        "L00046",
+        "L00052"
+      ]
+    }
+  ],
   "evaluationScore": 5.5,
   "evalOutcomes": 0,
   "evalStructure": 3,

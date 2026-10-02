@@ -54,7 +54,7 @@ export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) 
                                     )}
                                     {cohorts.slice(0, 2).map((c) => (
                                         <Badge key={c} className="font-mono text-[10px] font-bold px-1.5 py-0 bg-primary/10 text-primary border-primary/20 hover:bg-primary/20">
-                                            Khóa {c}
+                                            {t("cohortBadge", { id: c })}
                                         </Badge>
                                     ))}
                                     {cohorts.length > 2 && (
@@ -143,9 +143,9 @@ export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) 
                                     buttonVariants({ variant: "outline", size: "sm" }),
                                     "h-10 sm:h-9 text-xs font-semibold rounded-xl flex items-center justify-center gap-1 px-3 shrink-0"
                                 )}
-                                title="Mở trang web chính thức của trường"
+                                title={t("sourceLinkTitle")}
                             >
-                                <span className="hidden sm:inline">Nguồn</span>
+                                <span className="hidden sm:inline">{t("admissionSourceLabel")}</span>
                                 <ExternalLink className="h-3.5 w-3.5 shrink-0" />
                             </a>
                         )}

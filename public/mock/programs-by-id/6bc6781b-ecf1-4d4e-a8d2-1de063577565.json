@@ -21,6 +21,86 @@
   "createdAt": "2026-06-25T13:38:48.485914+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 88,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn (Phân tích dữ liệu kinh doanh)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "503109",
+        "701021",
+        "702054",
+        "706149",
+        "C03022",
+        "C03111",
+        "C04028",
+        "C04029",
+        "C04035"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn (Trí tuệ nhân tạo và học máy)",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "503080"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01101",
+        "D01102",
+        "D01103",
+        "D01104",
+        "D01106",
+        "D01120",
+        "D01121"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn GDTC 2",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D01201",
+        "D01202",
+        "D01203",
+        "D01204",
+        "D01205",
+        "D01206",
+        "D01221",
+        "D01222"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng thiết yếu cho sự PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00044",
+        "L00045",
+        "L00046",
+        "L00052",
+        "L00047",
+        "L00048",
+        "L00049",
+        "L00051"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn môn thay thế tốt nghiệp",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "C04025"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn thay thế tốt nghiệp",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "C04024",
+        "C04026"
+      ]
+    }
+  ],
   "evaluationScore": 5.5,
   "evalOutcomes": 0,
   "evalStructure": 3,

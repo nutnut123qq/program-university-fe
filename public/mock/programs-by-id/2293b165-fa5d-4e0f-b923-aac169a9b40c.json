@@ -21,6 +21,30 @@
   "createdAt": "2026-06-23T09:26:59.033168+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 40,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn A",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "CO3109",
+        "CO3111"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn B",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "CO3035",
+        "CO3037",
+        "CO3049",
+        "CO3069",
+        "CO3071",
+        "CO3117",
+        "CO4041",
+        "CO4347"
+      ]
+    }
+  ],
   "evaluationScore": 6.49,
   "evalOutcomes": 0,
   "evalStructure": 4,

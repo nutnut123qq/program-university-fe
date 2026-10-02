@@ -21,6 +21,65 @@
   "createdAt": "2026-06-18T15:41:04.867551+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 85,
+  "electiveGroups": [
+    {
+      "groupName": "Nhóm tự chọn 1",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D03087",
+        "D03088",
+        "D03143",
+        "D03161",
+        "D03086",
+        "D03141",
+        "D03142",
+        "D03040",
+        "D03090"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn Thể thao",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D03145",
+        "D03146",
+        "D03150",
+        "D03144",
+        "D03147",
+        "D03148",
+        "D03153",
+        "D03151",
+        "D03152",
+        "D03149",
+        "D03154"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn [Kỹ năng thiết yếu cho sự PTBV]",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "L00046",
+        "L00049",
+        "L00052",
+        "L00045",
+        "L00051",
+        "L00047",
+        "L00048",
+        "L00044"
+      ]
+    },
+    {
+      "groupName": "Nhóm tự chọn chuyên ngành",
+      "requiredCredits": 0,
+      "courseCodes": [
+        "D03091",
+        "D03140",
+        "D03159",
+        "D03139",
+        "D03062"
+      ]
+    }
+  ],
   "evaluationScore": 5.5,
   "evalOutcomes": 0,
   "evalStructure": 3,

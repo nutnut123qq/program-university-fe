@@ -21,6 +21,61 @@
   "createdAt": "2026-06-18T15:38:58.646222+07:00",
   "updatedAt": "2026-08-14T13:46:27.680970+07:00",
   "courseCount": 64,
+  "electiveGroups": [
+    {
+      "groupName": "Anh văn 1 (12 tín chỉ) - Chọn 1 trong 2 nhóm [ Anh văn 1; Pháp văn 1]",
+      "requiredCredits": 12,
+      "courseCodes": [
+        "3300109",
+        "3300110",
+        "3300111",
+        "3300112"
+      ]
+    },
+    {
+      "groupName": "Nhóm01 (chọn 2/4 tín chỉ)",
+      "requiredCredits": 2,
+      "courseCodes": [
+        "3030128",
+        "3030329"
+      ]
+    },
+    {
+      "groupName": "Pháp văn 1 (12 tín chỉ) - Chọn 1 trong 2 nhóm [ Anh văn 1; Pháp văn 1]",
+      "requiredCredits": 12,
+      "courseCodes": [
+        "3300209",
+        "3300210",
+        "3300211",
+        "3300212"
+      ]
+    },
+    {
+      "groupName": "Thể dục 1 (6 tín chỉ) - Chọn 1 trong 3 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3]",
+      "requiredCredits": 6,
+      "courseCodes": [
+        "3310201",
+        "3310204"
+      ]
+    },
+    {
+      "groupName": "Thể dục 2 (6 tín chỉ) - Chọn 1 trong 3 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3]",
+      "requiredCredits": 6,
+      "courseCodes": [
+        "3310202",
+        "3310205"
+      ]
+    },
+    {
+      "groupName": "Thể dục 3 (6 tín chỉ) - Chọn 1 trong 3 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3]",
+      "requiredCredits": 6,
+      "courseCodes": [
+        "3310101",
+        "3310203",
+        "3310206"
+      ]
+    }
+  ],
   "evaluationScore": 10.0,
   "evalOutcomes": 5,
   "evalStructure": 5,

@@ -515,6 +515,22 @@
     "createdAt": "2026-06-23T09:40:40.806349+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
     "courseCount": 43,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm tự chọn A",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "EE3403",
+          "EE3405",
+          "EE3407",
+          "EE4405",
+          "EE4377",
+          "EE4435",
+          "EE4437",
+          "EE4439"
+        ]
+      }
+    ],
     "evaluationScore": 6.7,
     "evalOutcomes": 0,
     "evalStructure": 5,
@@ -544,6 +560,27 @@
     "createdAt": "2026-06-23T09:40:36.131313+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
     "courseCount": 44,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm tự chọn A",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "EE3403",
+          "EE3405",
+          "EE3407",
+          "EE3411"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn B",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "EE4435",
+          "EE4437",
+          "EE4439"
+        ]
+      }
+    ],
     "evaluationScore": 7.0,
     "evalOutcomes": 0,
     "evalStructure": 5,
@@ -573,6 +610,27 @@
     "createdAt": "2026-06-23T09:40:31.277417+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
     "courseCount": 43,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm tự chọn A",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "EE3403",
+          "EE3405",
+          "EE3407",
+          "EE3411"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn B",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "EE4435",
+          "EE4437",
+          "EE4439"
+        ]
+      }
+    ],
     "evaluationScore": 7.0,
     "evalOutcomes": 0,
     "evalStructure": 5,
