@@ -8,6 +8,7 @@ import { Scale, GraduationCap, ArrowRightLeft, CheckCircle2, AlertCircle } from 
 import { fetchPrograms, fetchCurricula } from "@/features/programs/api"
 import { Program } from "@/features/programs/types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
+import { CompareAdmissions } from "./CompareAdmissions"
 import { useTranslations } from "next-intl"
 
 export const ProgramComparison = () => {
@@ -181,6 +182,8 @@ export const ProgramComparison = () => {
                                     </div>
                                 )}
                             </div>
+
+                            <CompareAdmissions program={p1} />
                         </CardContent>
                     </Card>
 
@@ -223,6 +226,8 @@ export const ProgramComparison = () => {
                                     </div>
                                 )}
                             </div>
+
+                            <CompareAdmissions program={p2} />
                         </CardContent>
                     </Card>
                 </div>

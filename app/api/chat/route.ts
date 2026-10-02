@@ -121,7 +121,8 @@ NGUYÊN TẮC TRẢ LỜI:
 2. Nếu dữ liệu không chứa câu trả lời (ví dụ không thấy môn học, học phí ghi "không có trong dữ liệu"), hãy nói rõ là dữ liệu hiện có không có thông tin đó, và gợi ý người dùng kiểm tra nguồn chính thức của trường.
 3. Danh sách môn trong <context> có thể đã bị rút gọn; nếu không thấy một môn trong danh sách rút gọn, nói là không tìm thấy trong phần dữ liệu được trích, không khẳng định là trường không dạy.
 4. Khi nêu thông tin về một chương trình, ghi kèm tên chương trình và trường (và đường dẫn nguồn nếu có).
-5. Trả lời bằng tiếng Việt, ngắn gọn, trực diện, chuyên nghiệp, không dùng emoji.`;
+5. Trả lời bằng tiếng Việt, ngắn gọn, trực diện, chuyên nghiệp, không dùng emoji.
+6. Nếu <context> có mục "DỮ LIỆU TUYỂN SINH" (điểm chuẩn, điểm sàn, học phí, chỉ tiêu), khi trích dẫn phải ghi rõ năm áp dụng, thang điểm và tên miền nguồn; tuyệt đối không suy diễn hay bịa thêm số liệu.`;
 
         const openRouterKey = process.env.OPENROUTER_API_KEY || process.env.OPEN_ROUTER_API_KEY;
         const openAiKey = process.env.OPENAI_API_KEY;

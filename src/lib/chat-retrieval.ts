@@ -7,6 +7,17 @@
  */
 import { readFile } from "fs/promises";
 import path from "path";
+import {
+    AdmissionFile,
+    detectAdmissionIntent,
+    AdmissionIntent,
+    formatQuotaLine,
+    formatScoreLine,
+    formatTuitionLine,
+    normalizeText,
+} from "./chat-admissions";
+
+export { normalizeText };
 
 const MOCK_DIR = path.join(process.cwd(), "public", "mock");
 
@@ -82,17 +93,7 @@ export interface RetrievalResult {
     matchedUniversityCodes: string[];
 }
 
-/** Lowercase, strip Vietnamese diacritics (NFD + combining marks, đ→d), collapse non-alphanumerics. */
-export function normalizeText(input: string): string {
-    return input
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/đ/g, "d")
-        .replace(/Đ/g, "D")
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, " ")
-        .trim();
-}
+
 
 function tokenize(input: string): string[] {
     const n = normalizeText(input);
@@ -309,6 +310,95 @@ function truncate(text: string, max: number): string {
     return (lastNl > max * 0.5 ? cut.slice(0, lastNl) : cut) + "\n  …(đã rút gọn)";
 }
 
+// ---------------------------------------------------------------------------
+// Admission snapshots: public/mock/admissions/<CODE>.json — lazy per-university
+// load, cached like the main dataset. 404/missing file → null ("no data").
+// ---------------------------------------------------------------------------
+
+const ADMISSION_PROGRAM_ROWS = 10;
+const ADMISSION_CONTEXT_ROWS = 8;
+const ADMISSION_OTHER_ROWS = 8;
+
+const admissionsCache = new Map<string, Promise<AdmissionFile | null>>();
+
+function loadAdmissions(code: string): Promise<AdmissionFile | null> {
+    const safe = code.replace(/[^A-Za-z0-9_-]/g, "");
+    if (!safe) return Promise.resolve(null);
+    let cached = admissionsCache.get(safe);
+    if (!cached) {
+        cached = readJson<AdmissionFile>("admissions", `${safe}.json`).catch(() => null);
+        admissionsCache.set(safe, cached);
+    }
+    return cached;
+}
+
+/**
+ * Builds the "DỮ LIỆU TUYỂN SINH" context block for one university.
+ * - wantedIds non-null: only rows bound to the programs matched earlier.
+ * - wantedIds null (university-only question): up to ~10 program-scope rows
+ *   plus context rows (programId=null, clearly labeled as school/group scope).
+ */
+function buildAdmissionSection(
+    adm: AdmissionFile,
+    uniCode: string,
+    wantedIds: Set<string> | null,
+    intent: AdmissionIntent,
+    programNameById: Map<string, string>
+): string {
+    const years = Array.isArray(adm.years) && adm.years.length ? adm.years.join("/") : "không rõ năm";
+    const lines: string[] = [
+        `DỮ LIỆU TUYỂN SINH ${years} (${uniCode}) — snapshot trong hệ thống, chỉ mang tính tham khảo:`,
+    ];
+    const labelOf = (programId: string | null, scopeLabel: string | null): string => {
+        if (programId) return programNameById.get(programId) ?? `mã ${scopeLabel ?? programId}`;
+        return scopeLabel ?? "áp dụng chung";
+    };
+    const pick = <T extends { programId: string | null }>(rows: T[] | undefined, programCap: number): T[] => {
+        const all = Array.isArray(rows) ? rows : [];
+        if (wantedIds) return all.filter((r) => r.programId !== null && wantedIds.has(r.programId));
+        return all.filter((r) => r.programId !== null).slice(0, programCap);
+    };
+
+    if (intent.score) {
+        const rows = pick(adm.scores, ADMISSION_PROGRAM_ROWS).slice(0, wantedIds ? 15 : ADMISSION_PROGRAM_ROWS);
+        const ctx = (adm.scores ?? []).filter((s) => s.programId === null).slice(0, ADMISSION_CONTEXT_ROWS);
+        if (rows.length > 0) {
+            lines.push("Điểm theo ngành:");
+            for (const s of rows) lines.push(formatScoreLine(s, labelOf(s.programId, s.scopeLabel)));
+        }
+        if (ctx.length > 0) {
+            lines.push("Ngưỡng/điểm áp dụng chung (KHÔNG phải điểm của một ngành cụ thể):");
+            for (const s of ctx) lines.push(formatScoreLine(s, s.scopeLabel ?? "áp dụng chung"));
+        }
+    }
+    if (intent.quota) {
+        const rows = pick(adm.quotas, ADMISSION_OTHER_ROWS).slice(0, ADMISSION_OTHER_ROWS);
+        const ctx = (adm.quotas ?? []).filter((q) => q.programId === null).slice(0, 4);
+        if (rows.length > 0 || ctx.length > 0) {
+            lines.push("Chỉ tiêu:");
+            for (const q of rows) lines.push(formatQuotaLine(q, labelOf(q.programId, q.scopeLabel)));
+            for (const q of ctx) lines.push(formatQuotaLine(q, labelOf(q.programId, q.scopeLabel)));
+        }
+    }
+    if (intent.tuition) {
+        const all = Array.isArray(adm.tuitions) ? adm.tuitions : [];
+        const rows = wantedIds
+            ? all.filter((t) => t.programId !== null && wantedIds.has(t.programId))
+            : [...all.filter((t) => t.programId === null), ...all.filter((t) => t.programId !== null)].slice(
+                  0,
+                  ADMISSION_OTHER_ROWS
+              );
+        if (rows.length > 0) {
+            lines.push("Học phí:");
+            for (const t of rows.slice(0, ADMISSION_OTHER_ROWS)) {
+                lines.push(formatTuitionLine(t, labelOf(t.programId, t.appliesTo)));
+            }
+        }
+    }
+    if (lines.length === 1) lines.push("(snapshot không có số liệu cho mục được hỏi)");
+    return lines.join("\n");
+}
+
 export async function retrieveChatContext(query: string): Promise<RetrievalResult> {
     const ds = await getDataset();
     const normQuery = normalizeText(query);
@@ -348,10 +438,33 @@ export async function retrieveChatContext(query: string): Promise<RetrievalResul
     const ranked = uniIds.size > 0 || contentTokens.length > 0 ? scorePrograms(ds, contentTokens, uniIds) : [];
     const top = ranked.slice(0, TOP_PROGRAMS).map((r) => r.ip.program);
 
+    // Admission-data intent (điểm chuẩn/học phí/chỉ tiêu/tuyển sinh): append the
+    // real per-university snapshot so the LLM answers with actual numbers.
+    const admissionIntent = detectAdmissionIntent(normQuery);
+    const admissionBlocks: string[] = [];
+    if (admissionIntent.any && uniMatches.length > 0) {
+        const programNameById = new Map<string, string>(
+            ds.programs.map((ip) => [ip.program.id, ip.program.name] as const)
+        );
+        // Only programs that matched on real content terms (score > the 0.01
+        // university filler) count as "asked about" — otherwise treat it as a
+        // university-wide question (e.g. "học phí NEU").
+        const wantedIds = new Set(ranked.filter((r) => r.score > 0.01).map((r) => r.ip.program.id));
+        for (const u of uniMatches) {
+            const adm = await loadAdmissions(u.uni.code);
+            if (adm) {
+                admissionBlocks.push(
+                    buildAdmissionSection(adm, u.uni.code, wantedIds.size > 0 ? wantedIds : null, admissionIntent, programNameById)
+                );
+            }
+        }
+    }
+
     if (top.length > 0) {
         sections.push(
             `CHƯƠNG TRÌNH LIÊN QUAN (${top.length}/${ranked.length} kết quả khớp):\n${top.map(describeProgram).join("\n")}`
         );
+        sections.push(...admissionBlocks);
         const qset = new Set(contentTokens);
         const curricula = await Promise.all(
             top.slice(0, PROGRAMS_WITH_CURRICULUM).map(async (p) => ({ p, courses: await loadCurriculum(p.id) }))
@@ -367,6 +480,7 @@ export async function retrieveChatContext(query: string): Promise<RetrievalResul
         }
     } else {
         sections.push("Không tìm thấy chương trình đào tạo nào khớp với câu hỏi trong dữ liệu.");
+        sections.push(...admissionBlocks);
     }
 
     return {
