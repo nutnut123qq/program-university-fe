@@ -59,7 +59,7 @@ test.describe("Compare page — admission block per side", () => {
             // Quota context row (school-wide total) with scoped note
             await expect(block.getByText("Chỉ tiêu tuyển sinh")).toBeVisible()
             await expect(
-                block.getByText(/Chỉ tiêu theo nhóm ngành\/trường/i)
+                block.getByText(/Chỉ tiêu theo nhóm ngành\/trường/i).first()
             ).toBeVisible()
             // Per-record provenance: real source domain link
             const sourceLink = block.getByTestId("admissions-source-link").first()
@@ -72,13 +72,12 @@ test.describe("Compare page — admission block per side", () => {
             ).toBeVisible()
         }
 
-        // Per-block empty state: none of the first-200 FPT programs has a
-        // tuition record bound by programId → tuition block shows its own
-        // empty text while scores/quota blocks still render rows.
+        // Round 9 added FPT 2024-2025 tuition rows (đề án PDF §1.10) as
+        // context rows (programId=null, region-group scope) — the tuition
+        // block now renders them instead of an empty state.
         const tuitionBlock = page.getByTestId("compare-admissions-tuition").first()
-        await expect(tuitionBlock.getByTestId("compare-admissions-block-empty")).toHaveText(
-            "Chưa có dữ liệu"
-        )
+        await expect(tuitionBlock.getByText(/28\.700\.000/).first()).toBeVisible()
+        await expect(tuitionBlock.getByText(/2024-2025/).first()).toBeVisible()
     })
 
     test("scores with different scales render raw side by side — no normalization", async ({

@@ -1,7 +1,8 @@
 {
   "university": "DTU",
-  "generatedAt": "2026-10-01T23:05:54.772921+00:00",
+  "generatedAt": "2026-10-02T10:49:44.126226+00:00",
   "years": [
+    2024,
     2025
   ],
   "scores": [
@@ -18,7 +19,52 @@
       "comboNote": null,
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.528104+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.721003+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "dgnl_hcm",
+      "methodLabel": "Xét kết quả kỳ thi Đánh giá năng lực do ĐHQG TP.HCM tổ chức năm 2024",
+      "scope": "group",
+      "scopeLabel": "Các ngành còn lại",
+      "score": 650.0,
+      "scale": 1200.0,
+      "kind": "cutoff",
+      "comboNote": null,
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.842853+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "dgnl_vnu",
+      "methodLabel": "Xét kết quả kỳ thi Đánh giá năng lực do ĐHQG Hà Nội tổ chức năm 2024",
+      "scope": "group",
+      "scopeLabel": "Các ngành còn lại",
+      "score": 85.0,
+      "scale": 150.0,
+      "kind": "cutoff",
+      "comboNote": null,
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.844467+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "hocba",
+      "methodLabel": "Xét kết quả Học tập THPT (Học bạ) năm 2024",
+      "scope": "group",
+      "scopeLabel": "Các ngành còn lại",
+      "score": 18.0,
+      "scale": 30.0,
+      "kind": "cutoff",
+      "comboNote": null,
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.840814+07:00"
     },
     {
       "programId": null,
@@ -33,7 +79,22 @@
       "comboNote": null,
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.527579+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.720618+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "thpt_100",
+      "methodLabel": "Xét kết quả thi Tốt nghiệp THPT năm 2024",
+      "scope": "group",
+      "scopeLabel": "Các ngành còn lại",
+      "score": 16.0,
+      "scale": 30.0,
+      "kind": "cutoff",
+      "comboNote": null,
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.838129+07:00"
     },
     {
       "programId": null,
@@ -48,7 +109,7 @@
       "comboNote": null,
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.526912+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.720200+07:00"
     },
     {
       "programId": null,
@@ -63,7 +124,67 @@
       "comboNote": null,
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.528557+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.721399+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "dgnl_hcm",
+      "methodLabel": "Xét kết quả kỳ thi Đánh giá năng lực do ĐHQG TP.HCM tổ chức năm 2024",
+      "scope": "group",
+      "scopeLabel": "Ngành Điều dưỡng",
+      "score": 700.0,
+      "scale": 1200.0,
+      "kind": "cutoff",
+      "comboNote": "Kèm ĐK: kết quả học tập lớp 12 xếp loại Khá trở lên hoặc điểm xét tốt nghiệp THPT >= 6.5",
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.842085+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "dgnl_vnu",
+      "methodLabel": "Xét kết quả kỳ thi Đánh giá năng lực do ĐHQG Hà Nội tổ chức năm 2024",
+      "scope": "group",
+      "scopeLabel": "Ngành Điều dưỡng",
+      "score": 90.0,
+      "scale": 150.0,
+      "kind": "cutoff",
+      "comboNote": "Kèm ĐK: kết quả học tập lớp 12 xếp loại Khá trở lên hoặc điểm xét tốt nghiệp THPT >= 6.5",
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.843938+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "hocba",
+      "methodLabel": "Xét kết quả Học tập THPT (Học bạ) năm 2024",
+      "scope": "group",
+      "scopeLabel": "Ngành Điều dưỡng",
+      "score": 19.5,
+      "scale": 30.0,
+      "kind": "cutoff",
+      "comboNote": "Kèm ĐK: kết quả học tập lớp 12 xếp loại Khá trở lên hoặc điểm xét tốt nghiệp THPT >= 6.5",
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.839370+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "thpt_100",
+      "methodLabel": "Xét kết quả thi Tốt nghiệp THPT năm 2024",
+      "scope": "group",
+      "scopeLabel": "Ngành Điều dưỡng",
+      "score": 19.0,
+      "scale": 30.0,
+      "kind": "cutoff",
+      "comboNote": null,
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.836724+07:00"
     },
     {
       "programId": null,
@@ -78,7 +199,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Khá trở lên hoặc điểm xét TN THPT >= 6.5",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.524300+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.718863+07:00"
     },
     {
       "programId": null,
@@ -93,7 +214,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Khá trở lên hoặc điểm xét TN THPT >= 6.5",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.523643+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.718539+07:00"
     },
     {
       "programId": null,
@@ -108,7 +229,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Khá trở lên hoặc điểm xét TN THPT >= 6.5",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.522901+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.718211+07:00"
     },
     {
       "programId": null,
@@ -123,7 +244,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Khá trở lên hoặc điểm xét TN THPT >= 6.5",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.524923+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.719186+07:00"
     },
     {
       "programId": null,
@@ -138,7 +259,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.521406+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.717457+07:00"
     },
     {
       "programId": null,
@@ -153,7 +274,22 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.520722+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.717013+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "thpt_100",
+      "methodLabel": "Xét kết quả thi Tốt nghiệp THPT năm 2024",
+      "scope": "group",
+      "scopeLabel": "Ngành Dược",
+      "score": 21.0,
+      "scale": 30.0,
+      "kind": "cutoff",
+      "comboNote": null,
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.836142+07:00"
     },
     {
       "programId": null,
@@ -168,7 +304,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.520055+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.716357+07:00"
     },
     {
       "programId": null,
@@ -183,7 +319,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.522114+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.717861+07:00"
     },
     {
       "programId": null,
@@ -198,7 +334,22 @@
       "comboNote": "Điểm môn Vẽ (năng khiếu) nhân hệ số 2",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.526317+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.719822+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "hocba",
+      "methodLabel": "Xét kết quả Học tập THPT (Học bạ) năm 2024",
+      "scope": "group",
+      "scopeLabel": "Ngành Kiến trúc",
+      "score": 20.0,
+      "scale": 30.0,
+      "kind": "cutoff",
+      "comboNote": "Điểm môn Vẽ (năng khiếu) nhân hệ số 2",
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.840081+07:00"
     },
     {
       "programId": null,
@@ -213,7 +364,22 @@
       "comboNote": "Điểm môn Vẽ (năng khiếu) nhân hệ số 2",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.525611+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.719501+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "thpt_100",
+      "methodLabel": "Xét kết quả thi Tốt nghiệp THPT năm 2024",
+      "scope": "group",
+      "scopeLabel": "Ngành Kiến trúc",
+      "score": 22.0,
+      "scale": 30.0,
+      "kind": "cutoff",
+      "comboNote": "Điểm môn Vẽ (năng khiếu) nhân hệ số 2",
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.837396+07:00"
     },
     {
       "programId": null,
@@ -228,7 +394,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.518720+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.715019+07:00"
     },
     {
       "programId": null,
@@ -243,7 +409,22 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.518032+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.714388+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "thpt_100",
+      "methodLabel": "Xét kết quả thi Tốt nghiệp THPT năm 2024",
+      "scope": "group",
+      "scopeLabel": "Ngành Y khoa / Răng - Hàm - Mặt",
+      "score": 22.5,
+      "scale": 30.0,
+      "kind": "cutoff",
+      "comboNote": null,
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.835397+07:00"
     },
     {
       "programId": null,
@@ -258,7 +439,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.517221+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.713716+07:00"
     },
     {
       "programId": null,
@@ -273,7 +454,52 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T06:05:47.519410+07:00"
+      "fetchedAt": "2026-10-02T17:49:17.715783+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "dgnl_hcm",
+      "methodLabel": "Xét kết quả kỳ thi Đánh giá năng lực do ĐHQG TP.HCM tổ chức năm 2024",
+      "scope": "group",
+      "scopeLabel": "Ngành Y khoa / Răng - Hàm - Mặt / Dược",
+      "score": 750.0,
+      "scale": 1200.0,
+      "kind": "cutoff",
+      "comboNote": "Kèm ĐK: kết quả học tập lớp 12 xếp loại Giỏi hoặc điểm xét tốt nghiệp THPT >= 8.0",
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.841566+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "dgnl_vnu",
+      "methodLabel": "Xét kết quả kỳ thi Đánh giá năng lực do ĐHQG Hà Nội tổ chức năm 2024",
+      "scope": "group",
+      "scopeLabel": "Ngành Y khoa / Răng - Hàm - Mặt / Dược",
+      "score": 100.0,
+      "scale": 150.0,
+      "kind": "cutoff",
+      "comboNote": "Kèm ĐK: kết quả học tập lớp 12 xếp loại Giỏi hoặc điểm xét tốt nghiệp THPT >= 8.0",
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.843337+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "hocba",
+      "methodLabel": "Xét kết quả Học tập THPT (Học bạ) năm 2024",
+      "scope": "group",
+      "scopeLabel": "Ngành Y khoa / Răng - Hàm - Mặt / Dược",
+      "score": 24.0,
+      "scale": 30.0,
+      "kind": "cutoff",
+      "comboNote": "Kèm ĐK: kết quả học tập lớp 12 xếp loại Giỏi hoặc điểm xét tốt nghiệp THPT >= 8.0",
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-02T17:49:17.838888+07:00"
     }
   ],
   "quotas": [],
@@ -463,19 +689,6 @@
     {
       "programId": "72fc07ed-3fd0-44d7-9e62-2847af99ab72",
       "academicYear": "2024-2025",
-      "amount": 785000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG KINH TẾ — Quản trị Nhân lực",
-      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 417.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "72fc07ed-3fd0-44d7-9e62-2847af99ab72",
-      "academicYear": "2024-2025",
       "amount": 25120000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -483,6 +696,19 @@
       "basis": "per_year",
       "appliesTo": "TRƯỜNG KINH TẾ — Quản trị Nhân lực",
       "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 417.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "72fc07ed-3fd0-44d7-9e62-2847af99ab72",
+      "academicYear": "2024-2025",
+      "amount": 785000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG KINH TẾ — Quản trị Nhân lực",
+      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 417.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -515,19 +741,6 @@
     {
       "programId": "edcdb0af-eb2c-4bda-a798-ec867e5ab544",
       "academicYear": "2024-2025",
-      "amount": 33016000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Quan hệ Công chúng",
-      "notes": "Đơn giá tín chỉ: 1,031,750; học phí HK1: 16,508,000. Mã CN nguồn: 610.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "edcdb0af-eb2c-4bda-a798-ec867e5ab544",
-      "academicYear": "2024-2025",
       "amount": 1031750.0,
       "minAmount": null,
       "maxAmount": null,
@@ -535,6 +748,19 @@
       "basis": "per_credit",
       "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Quan hệ Công chúng",
       "notes": "Học phí HK1 2024-2025: 16,508,000; học phí năm học 2024-2025: 33,016,000. Mã CN nguồn: 610.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "edcdb0af-eb2c-4bda-a798-ec867e5ab544",
+      "academicYear": "2024-2025",
+      "amount": 33016000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Quan hệ Công chúng",
+      "notes": "Đơn giá tín chỉ: 1,031,750; học phí HK1: 16,508,000. Mã CN nguồn: 610.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -645,19 +871,6 @@
     {
       "programId": "3d3893c6-ee3c-44e9-92a3-1908899e8167",
       "academicYear": "2024-2025",
-      "amount": 23040000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG Y DƯỢC — Kỹ thuật y sinh",
-      "notes": "Đơn giá tín chỉ: 720,000; học phí HK1: 11,520,000. Mã CN nguồn: 320.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "3d3893c6-ee3c-44e9-92a3-1908899e8167",
-      "academicYear": "2024-2025",
       "amount": 720000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -665,6 +878,19 @@
       "basis": "per_credit",
       "appliesTo": "TRƯỜNG Y DƯỢC — Kỹ thuật y sinh",
       "notes": "Học phí HK1 2024-2025: 11,520,000; học phí năm học 2024-2025: 23,040,000. Mã CN nguồn: 320.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "3d3893c6-ee3c-44e9-92a3-1908899e8167",
+      "academicYear": "2024-2025",
+      "amount": 23040000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG Y DƯỢC — Kỹ thuật y sinh",
+      "notes": "Đơn giá tín chỉ: 720,000; học phí HK1: 11,520,000. Mã CN nguồn: 320.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     }

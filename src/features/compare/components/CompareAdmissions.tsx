@@ -144,17 +144,21 @@ export function CompareAdmissions({ program }: { program: Program }) {
         if (!admissions || !program) return null
         const pid = program.id
         // Rows bound to this program by programId.
-        const programScores = admissions.scores.filter((s) => s.programId === pid)
-        const programQuotas = admissions.quotas.filter((q) => q.programId === pid)
+        const programScores = admissions.scores
+            .filter((s) => s.programId === pid)
+            .sort((a, b) => b.year - a.year)
+        const programQuotas = admissions.quotas
+            .filter((q) => q.programId === pid)
+            .sort((a, b) => b.year - a.year)
         const programTuitions = admissions.tuitions.filter((x) => x.programId === pid)
         // Context rows: never tied to a specific program — shown separately
         // and labeled by scope so they are never read as per-program data.
-        const contextScores = admissions.scores.filter(
-            (s) => s.programId === null && s.scope !== "program"
-        )
-        const contextQuotas = admissions.quotas.filter(
-            (q) => q.programId === null && q.scope !== "program"
-        )
+        const contextScores = admissions.scores
+            .filter((s) => s.programId === null && s.scope !== "program")
+            .sort((a, b) => b.year - a.year)
+        const contextQuotas = admissions.quotas
+            .filter((q) => q.programId === null && q.scope !== "program")
+            .sort((a, b) => b.year - a.year)
         const contextTuitions = admissions.tuitions.filter((x) => x.programId === null)
         const isEmpty =
             programScores.length === 0 &&
@@ -230,6 +234,7 @@ export function CompareAdmissions({ program }: { program: Program }) {
                 <Badge variant="outline" className="text-[10px] font-semibold">
                     {kindLabel(s.kind)}
                 </Badge>
+                <span className="text-[11px] font-semibold text-muted-foreground">{s.year}</span>
                 {(s.scope !== "program" || s.scopeLabel) && (
                     <Badge variant="secondary" className="text-[10px] font-semibold">
                         {scopeBadgeLabel(s.scope, s.scopeLabel)}
@@ -332,7 +337,7 @@ export function CompareAdmissions({ program }: { program: Program }) {
             <div className="flex items-center gap-2">
                 <GraduationCap className="h-4 w-4 text-primary" />
                 <h3 className="text-sm font-semibold">
-                    {t("admissionsTitle", { year: admissions?.years?.[0] ?? 2025 })}
+                    {t("admissionsTitle", { year: Math.max(...(admissions?.years ?? [2025])) })}
                 </h3>
             </div>
 

@@ -51,12 +51,12 @@ test.describe("Admission Data Section (ProgramDetailDialog)", () => {
         await expect(section.getByText("Chỉ tiêu tuyển sinh")).toBeVisible()
         await expect(section.getByText(/420/)).toBeVisible()
         await expect(
-            section.getByText(/Chỉ tiêu theo nhóm ngành\/trường/i)
+            section.getByText(/Chỉ tiêu theo nhóm ngành\/trường/i).first()
         ).toBeVisible()
 
         // Real tuition: 40.000.000 đồng/năm, 2025-2026
         await expect(section.getByRole("heading", { name: "Học phí" })).toBeVisible()
-        await expect(section.getByText(/40\.000\.000/)).toBeVisible()
+        await expect(section.getByText(/40\.000\.000/).first()).toBeVisible()
         await expect(section.getByText(/đồng\/năm/i).first()).toBeVisible()
         await expect(section.getByText(/2025-2026/).first()).toBeVisible()
 
@@ -82,7 +82,9 @@ test.describe("Admission Data Section (ProgramDetailDialog)", () => {
 
         await expect(section).toBeVisible()
         await expect(section.getByText("24.5")).toBeVisible()
-        await expect(section.getByText("17")).toBeVisible()
+        // "17" bare also matches provenance dates (Công bố: 17/08/2024) —
+        // pin to the score "17 / 30" instead.
+        await expect(section.getByText(/^17\s*\/\s*30/)).toBeVisible()
         await expect(section.getByText("Cơ sở KSA").first()).toBeVisible()
         await expect(section.getByText("Cơ sở KSV").first()).toBeVisible()
 

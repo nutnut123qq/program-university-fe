@@ -240,25 +240,34 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         const pid = program.id
         // Rows bound to this program by programId (any scope, e.g. per-campus
         // rows still carry the programId and render as program-level data).
-        const programScores = admissions.scores.filter((s) => s.programId === pid)
-        const programQuotas = admissions.quotas.filter((q) => q.programId === pid)
+        const programScores = admissions.scores
+            .filter((s) => s.programId === pid)
+            .sort((a, b) => b.year - a.year)
+        const programQuotas = admissions.quotas
+            .filter((q) => q.programId === pid)
+            .sort((a, b) => b.year - a.year)
         const programTuitions = admissions.tuitions.filter((x) => x.programId === pid)
         // Context rows: never tied to a specific program (programId null per
         // spec — group/school scopes are not fanned out); shown separately and
         // labeled by scope so they are never read as per-program data.
-        const contextScores = admissions.scores.filter(
-            (s) => s.programId === null && s.scope !== "program"
-        )
-        const contextQuotas = admissions.quotas.filter(
-            (q) => q.programId === null && q.scope !== "program"
-        )
+        const contextScores = admissions.scores
+            .filter((s) => s.programId === null && s.scope !== "program")
+            .sort((a, b) => b.year - a.year)
+        const contextQuotas = admissions.quotas
+            .filter((q) => q.programId === null && q.scope !== "program")
+            .sort((a, b) => b.year - a.year)
         const contextTuitions = admissions.tuitions.filter((x) => x.programId === null)
         const methods: { key: string; label: string }[] = []
         for (const s of [...programScores, ...contextScores]) {
-            if (!methods.some((m) => m.key === s.method)) {
-                methods.push({ key: s.method, label: s.methodLabel || s.method })
+            // Key carries year: the same method_code exists in both 2024 and
+            // 2025 snapshots and must not merge into one selector entry.
+            // Year-first keeps the newest year as the default selection.
+            const key = `${s.year}|${s.method}`
+            if (!methods.some((m) => m.key === key)) {
+                methods.push({ key, label: `${s.methodLabel || s.method} · ${s.year}` })
             }
         }
+        methods.sort((a, b) => b.key.localeCompare(a.key))
         const isEmpty =
             programScores.length === 0 &&
             contextScores.length === 0 &&
@@ -338,6 +347,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                 <Badge variant="outline" className="text-[10px] font-semibold">
                     {kindLabel(s.kind)}
                 </Badge>
+                <span className="text-[11px] font-semibold text-muted-foreground">{s.year}</span>
                 {(s.scope !== "program" || s.scopeLabel) && (
                     <Badge variant="secondary" className="text-[10px] font-semibold">
                         {scopeBadgeLabel(s.scope, s.scopeLabel)}
@@ -688,7 +698,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                         <div className="flex items-center gap-2">
                                             <GraduationCap className="h-4 w-4 text-primary" />
                                             <h3 className="font-semibold">
-                                                {t("admissionsTitle", { year: admissions?.years?.[0] ?? 2025 })}
+                                                {t("admissionsTitle", { year: Math.max(...(admissions?.years ?? [2025])) })}
                                             </h3>
                                         </div>
 
@@ -744,17 +754,17 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
 
                                                         <div className="space-y-2">
                                                             {admissionsView.programScores
-                                                                .filter((s) => s.method === activeAdmissionMethod)
+                                                                .filter((s) => `${s.year}|${s.method}` === activeAdmissionMethod)
                                                                 .map((s, i) => renderScoreRow(s, i))}
                                                         </div>
 
-                                                        {admissionsView.contextScores.filter((s) => s.method === activeAdmissionMethod).length > 0 && (
+                                                        {admissionsView.contextScores.filter((s) => `${s.year}|${s.method}` === activeAdmissionMethod).length > 0 && (
                                                             <div className="space-y-2 pt-2">
                                                                 <p className="text-xs font-semibold text-muted-foreground">
                                                                     {t("admissionContextTitle")}
                                                                 </p>
                                                                 {admissionsView.contextScores
-                                                                    .filter((s) => s.method === activeAdmissionMethod)
+                                                                    .filter((s) => `${s.year}|${s.method}` === activeAdmissionMethod)
                                                                     .map((s, i) => renderScoreRow(s, i))}
                                                             </div>
                                                         )}
