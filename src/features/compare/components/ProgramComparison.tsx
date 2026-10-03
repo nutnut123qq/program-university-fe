@@ -67,8 +67,8 @@ const ProgramComparisonInner = () => {
     const p1 = programsList.find(p => String(p.id) === String(progId1)) || programsList[0]
     const p2 = programsList.find(p => String(p.id) === String(progId2)) || programsList[1] || programsList[0]
 
-    const { data: c1 } = useSWR(p1 ? ["curricula-comp", p1.id] : null, () => (p1 ? fetchCurricula(p1.id) : []))
-    const { data: c2 } = useSWR(p2 ? ["curricula-comp", p2.id] : null, () => (p2 ? fetchCurricula(p2.id) : []))
+    const { data: c1 } = useSWR(p1 && (p1.courseCount ?? 0) > 0 ? ["curricula-comp", p1.id] : null, () => (p1 ? fetchCurricula(p1.id) : []))
+    const { data: c2 } = useSWR(p2 && (p2.courseCount ?? 0) > 0 ? ["curricula-comp", p2.id] : null, () => (p2 ? fetchCurricula(p2.id) : []))
 
     const courses1 = c1 || []
     const courses2 = c2 || []

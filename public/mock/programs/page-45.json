@@ -1,726 +1,1157 @@
 [
   {
-    "id": "6f48d8c6-87e4-4182-8ac5-cad60203c1e6",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
+    "id": "23a4e634-75bf-45e3-b976-6994dcd537ca",
+    "universityId": "07fb803e-d15f-4898-9950-7293d08a0757",
+    "universityName": "Trường Đại học Tôn Đức Thắng",
     "universityIsPublic": true,
-    "name": "Vật liệu và Năng lượng (2024)",
-    "code": "vat-lieu-va-nang-luong-2024",
+    "name": "Marketing (7340115)",
+    "code": "7340115",
+    "degreeType": "Cử nhân",
+    "credits": 159,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://cktt-cdr.tdtu.edu.vn/curriculum?hdt=0&nk=2026&ng=704&ph=DAIHOC&name=Marketing",
+    "lastCrawled": "2026-06-25T13:37:18.648874+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nTổ hợp xét tuyển: D01, D07, C02, C01, A00, A01\nGhi chú: Điểm Anh >= 6.0\nTrang tuyển sinh: https://trangedu.com/nganh/marketing/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Marketing (7340115), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Marketing (7340115) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1 Ứng dụng (Apply ) khối kiến thức Khoa học xã hội & nhân văn, tự nhiên, kinh tế, tài chính và kế toán để giải quyết các vấn đề Marketing.\nPLO2 Vận dụng (Apply) kiến thức cơ bản về phương pháp nghiên cứu khoa học để giải quyết các vấn đề Marketing.\nPLO3 Vận dụng (Apply) các nguyên lý về kinh doanh giải quyết các vấn đề Marketing thích ứng linh hoạt và sáng tạo.\nPLO4 Áp dụng (Apply) các kỹ năng chuyên môn vào việc giải quyết các vấn đề Marketing.\nPLO5 Sử dụng (Use) tốt ngoại ngữ (trình độ tối thiểu B1 quốc tế (đạt các chứng chỉ tiếng Anh quốc tế tương đương IELTS 5.0)) hoặc kỹ năng tin học (MOS 750 và tương đương).\nPLO6 Xây dựng (Build) tinh thần đam mê học hỏi suốt đời, có ý chí và thái độ tích cực trong đổi mới sáng tạo; thể hiện trách nhiệm cao trong công việc, có đạo đức trong kinh doanh và tác phong chuyên nghiệp trong công việc.\nPLO7 Xây dựng (Build) tinh thần đoàn kết tập thể, tham gia công tác xã hội để phục vụ cộng đồng và các tổ chức đoàn thể, góp phần thúc đẩy phát triển xã hội bền vững.",
+    "isActive": true,
+    "createdAt": "2026-06-25T13:37:18.648871+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 88,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm tự chọn 1",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "704130",
+          "704132",
+          "704133"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn 2",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "704116",
+          "704117",
+          "704118"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn 3",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "704119",
+          "704120",
+          "704124"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn GDTC 1",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "D01101",
+          "D01102",
+          "D01103",
+          "D01104",
+          "D01106",
+          "D01120",
+          "D01121"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn GDTC 2",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "D01201",
+          "D01202",
+          "D01203",
+          "D01204",
+          "D01205",
+          "D01206",
+          "D01221",
+          "D01222"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn [Kỹ năng thiết yếu cho sự PTBV]",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "L00044",
+          "L00045",
+          "L00046",
+          "L00052",
+          "L00047",
+          "L00048",
+          "L00049",
+          "L00051"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn chuyên ngành",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "702070",
+          "702071",
+          "702072"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5ef51ae4-14a7-459e-9c99-8985f991a3cc",
+    "universityId": "07fb803e-d15f-4898-9950-7293d08a0757",
+    "universityName": "Trường Đại học Tôn Đức Thắng",
+    "universityIsPublic": true,
+    "name": "Quản trị nhân lực (7340404)",
+    "code": "7340404",
+    "degreeType": "Cử nhân",
+    "credits": 145,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://cktt-cdr.tdtu.edu.vn/curriculum?hdt=0&nk=2026&ng=707&ph=DAIHOC&name=Qu%E1%BA%A3n%20tr%E1%BB%8B%20nh%C3%A2n%20l%E1%BB%B1c",
+    "lastCrawled": "2026-06-25T13:37:16.183583+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nTổ hợp xét tuyển: D01, D07, C02, C01, A00, A01\nGhi chú: Điểm Anh >= 6.0\nTrang tuyển sinh: https://trangedu.com/nganh/quan-tri-nhan-luc/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản trị nhân lực (7340404), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản trị nhân lực (7340404) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "ployment Law', 'SoDVHocTap': 4.0, 'LyThuyet': 0.0, 'ThucHanh': 0.0, 'TuHoc': 0.0, 'IsDau': -1, 'ThongTinChiTietMonHoc': '', 'TooltipMonHoc': '', 'LoaiRangBuoc': 0, 'isCoRangBuoc': False, 'SoLuongLoaiRangBuoc': 0, 'LoaiMonDaoTao_TheoCTDT': 0, 'MaChuyenNganhDaoTao_KhoiLop': None, 'LoaiMon_Color_BackGround': None, 'LoaiMon_Color_Font': None, 'TenLoaiMonDaoTao_TheoCTDT': None, 'TenLoaiMonDaoTao_TheoCTDT_TiengAnh': None, 'TenHocKy': 'Học kỳ 1/2028-2029', 'IsHocKyHe': False, 'AUN_ThongTin': None, 'NhomMonID': '47483', 'NhomMonTen': 'B.2.1     Kiến thức chung', 'GhiChu': None, 'TinChiTichLuy': 0.0, 'DTBTichLuy': 0.0, 'TCCuNhan': 0.0, 'TCKySu': 0.0, 'IsChuaNhomMonKhongTinTCCuNhan': False, 'IsKhongTinhTrongChuongTrinhKySu': False, 'CoNhomMonTinhKySu': False, 'NhomMonAnhXaID': None, 'SoTinChiTuChon': 0, 'TenNhomMonAnhXa': None, 'TenNhomMonAnhXa_TiengAnh': None, 'IsThuocAnhXa': 0, 'NhomMon_ParentID': None, 'IsTuChonBatBuoc': 0, 'TietThucHanh': 0, 'TietLyThuyet': 0, 'TietTuHoc': 0, 'IsTinhDiem_DTBTL': False, 'IsTinhDiem_TC': False, 'TenLoaiMon': 'B.2        Kiến thức ngành', 'IsTachRieng': False}, {'_LyThuyet': 0.0, '_ThucHanh': 0.0, 'HeDaoTaoID': '', 'NganhID': '', 'MonHocID': 'L00041', 'HocKy': 1, 'NamHoc': 2028, 'HocKy_CTDT': '5', 'BatBuoc': True, 'NienKhoaID': 0, 'TenMonHoc': 'Những kỹ năng thiết yếu cho sự phát triển bền vững - Thái độ sống 3', 'TenMH_TiengAnh': 'Essential Skills for Sustainable Development - Life Attitude 3', 'SoDVHocTap': 0.0, 'LyThuyet': 0.0, 'ThucHanh': 0.0, 'TuHoc': 0.0, 'IsDau': -1, 'ThongTinChiTietMonHoc': '', 'TooltipMonHoc': '', 'LoaiRangBuoc': 0, 'isCoRangBuoc': False, 'SoLuongLoaiRangBuoc': 0, 'LoaiMonDaoTao_TheoCTDT': 0, 'MaChuyenNganhDaoTao_KhoiLop': None, 'LoaiMon_Color_BackGround': None, 'LoaiMon_Color_Font': None, 'TenLoaiMonDaoTao_TheoCTDT': None, 'TenLoaiMonDaoTao_TheoCTDT_TiengAnh': None, 'TenHocKy': 'Học kỳ 1/2028-2029', 'IsHocKyHe': False, 'AUN_ThongTin': None, 'NhomMonID': '47491', 'NhomMonTen': 'Nhóm bắt buộc', 'GhiChu': None, 'TinChiTichLuy': 0.0, 'DTBTichLuy': 0.0, 'TCCuNhan': 0.0, 'TCKySu': 0.0, 'IsChuaNhomMonKhongTinTCCuNhan': False, 'IsKhongTinhTrongChuongTrinhKySu': False, 'CoNhomMonTinhKySu': False, 'NhomMonAnhXaID': None, 'SoTinChiTuChon': 0, 'TenNhomMonAnhXa': None, 'TenNhomMonAnhXa_TiengAnh': None, 'IsThuocAnhXa': 0, 'NhomMon_ParentID': None, 'IsTuChonBatBuoc': 0, 'TietThucHanh': 0, 'TietLyThuyet': 0, 'TietTuHoc': 0, 'IsTinhDiem_DTBTL': False, 'IsTinhDiem_TC': False, 'TenLoaiMon': 'A.5        Kỹ năng hỗ trợ', 'IsTachRieng': False}, {'_LyThuyet': 0.0, '_ThucHanh': 0.0, 'HeDaoTaoID': '', 'NganhID': '', 'MonHocID': '707007', 'HocKy': 2, 'NamHoc': 2028, 'HocKy_CTDT': '6', 'BatBuoc': True, 'NienKhoaID': 0, 'TenMonHoc': 'Tiền lương và phúc lợi', 'TenMH_TiengAnh': 'Compensation and Benefits', 'SoDVHocTap': 3.0, 'LyThuyet': 0.0, 'ThucHanh': 0.0, 'TuHoc': 0.0, 'IsDau': -1, 'ThongTinChiTietMonHoc': '', 'TooltipMonHoc': '', 'LoaiRangBuoc': 0, 'isCoRangBuoc': False, 'SoLuongLoaiRangBuoc': 0, 'LoaiMonDaoTao_TheoCTDT': 0, 'MaChuyenNganhDaoTao_KhoiLop': None, 'LoaiMon_Color_BackGround': None, 'LoaiMon_Color_Font': None, 'TenLoaiMonDaoTao_TheoCTDT': None, 'TenLoaiMonDaoTao_TheoCTDT_TiengAnh': None, 'TenHocKy': 'Học kỳ 2/2028-2029', 'IsHocKyHe': False, 'AUN_ThongTin': None, 'NhomMonID': '47485', 'NhomMonTen': 'Nhóm bắt buộc', 'GhiChu': None, 'TinChiTichLuy': 0.0, 'DTBTichLuy': 0.0, 'TCCuNhan': 0.0, 'TCKySu': 0.0, 'IsChuaNhomMonKhongTinTCCuNhan': False, 'IsKhongTinhTrongChuongTrinhKySu': False, 'CoNhomMonTinhKySu': False, 'NhomMonAnhXaID': None, 'SoTinChiTuChon': 0, 'TenNhomMonAnhXa': None, 'TenNhomMonAnhXa_TiengAnh': None, 'IsThuocAnhXa': 0, 'NhomMon_ParentID': None, 'IsTuChonBatBuoc': 0, 'TietThucHanh': 0, 'TietLyThuyet': 0, 'TietTuHoc': 0, 'IsTinhDiem_DTBTL': False, 'IsTinhDiem_TC': False, 'TenLoaiMon': 'B.2        Kiến thức ngành', 'IsTachRieng': False}, {'_LyThuyet': 0.0, '_ThucHanh': 0.0, 'HeDaoTaoID': '', 'NganhID': '', 'MonHocID': '707008', 'HocKy': 2, 'NamHoc': 2028, 'HocKy_CTDT': '6', 'BatBuo",
+    "isActive": true,
+    "createdAt": "2026-06-25T13:37:16.183581+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 83,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm tự chọn 1",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "710004",
+          "710005"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn 2",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "710006",
+          "710007"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn GDTC 1",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "D01101",
+          "D01102",
+          "D01103",
+          "D01104",
+          "D01106",
+          "D01120",
+          "D01121"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn GDTC 2",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "D01201",
+          "D01202",
+          "D01203",
+          "D01204",
+          "D01205",
+          "D01206",
+          "D01221",
+          "D01222"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn [Kỹ năng thiết yếu cho sự PTBV]",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "L00044",
+          "L00045",
+          "L00046",
+          "L00052",
+          "L00047",
+          "L00048",
+          "L00049",
+          "L00051"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn chuyên ngành",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "702070",
+          "702072",
+          "710010"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d75c2095-d89c-4237-b40e-3edaebbe7956",
+    "universityId": "d123a6e9-b768-4c70-b8e9-6ea96e91f7a2",
+    "universityName": "Trường Đại học Duy Tân",
+    "universityIsPublic": true,
+    "name": "Quản lý tài nguyên và môi trường (7850101)",
+    "code": "7850101",
+    "degreeType": "Cử nhân",
+    "credits": 86,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://trangedu.com/nganh/quan-ly-tai-nguyen-va-moi-truong/",
+    "lastCrawled": "2026-06-25T13:37:13.638959+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nTổ hợp xét tuyển: A00, B00, B03, C01, C02, A02",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản lý tài nguyên và môi trường (7850101), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Đầu ra của ngành này khá rộng, nhưng không nên hiểu theo kiểu ra trường làm gì cũng được. Các trường như HUS, VNUA, HCMUS và HUST đều cho thấy sinh viên tốt nghiệp có thể làm ở cơ quan quản lý nhà nước, doanh nghiệp, đơn vị tư vấn, khu công nghiệp, cơ sở nghiên cứu, tổ chức phi chính phủ và cả các tổ chức quốc tế về môi trường, phát triển bền vững và bảo tồn tài nguyên.",
+    "learningOutcomes": null,
+    "isActive": true,
+    "createdAt": "2026-06-25T13:37:13.638956+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 25
+  },
+  {
+    "id": "f9dd1a02-15c9-4c3c-bb4a-1819aa0c6916",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Thương mại điện tử (7340122)",
+    "code": "7340122",
     "degreeType": "Cử nhân",
     "credits": 163,
     "duration": "4 năm",
     "tuition": "Theo quy định của Nhà nước và Nhà trường",
     "language": "Tiếng Việt",
     "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1nBmpnNkV7v35tdWpv--yobyfLOO9atdC/view",
-    "lastCrawled": "2026-06-23T09:37:50.342311+07:00",
-    "description": "Khoa: VIỆT PHÁP\nNăm áp dụng: 2024\nKế hoạch giảng dạy: https://drive.google.com/file/d/1mmlqY29qcMo_nFzt05k5ZbtZaHbHt51e/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Vật liệu và Năng lượng (2024), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Vật liệu và Năng lượng (2024) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK46EC&name=Thương mại điện tử",
+    "lastCrawled": "2026-06-25T13:37:08.860677+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 140\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/thuong-mai-dien-tu/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Thương mại điện tử (7340122), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Thương mại điện tử (7340122) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
     "learningOutcomes": null,
     "isActive": true,
-    "createdAt": "2026-06-23T09:37:50.342310+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 85,
-    "evaluationScore": 6.25,
-    "evalOutcomes": 0,
-    "evalStructure": 4,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
-  },
-  {
-    "id": "dbdb6b83-f90b-495c-8463-03d426409cf8",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
-    "universityIsPublic": true,
-    "name": "Vật liệu và Năng lượng (2023)",
-    "code": "vat-lieu-va-nang-luong-2023",
-    "degreeType": "Cử nhân",
-    "credits": 133,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1Pm5TSkzDVfIYuhtY1XatFJH8qq-qc1Vk/view",
-    "lastCrawled": "2026-06-23T09:37:44.483687+07:00",
-    "description": "Khoa: VIỆT PHÁP\nNăm áp dụng: 2023\nKế hoạch giảng dạy: https://drive.google.com/file/d/1tjI7_i6waOh-17iSXWCfCOesiNxoZDs8/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Vật liệu và Năng lượng (2023), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Vật liệu và Năng lượng (2023) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-23T09:37:44.483686+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 48,
-    "electiveGroups": [
-      {
-        "groupName": "Nhóm tự chọn A",
-        "requiredCredits": 0,
-        "courseCodes": [
-          "MA3129",
-          "MA3131",
-          "MA3133",
-          "MA3135",
-          "MA3137",
-          "MA3139",
-          "MA3145",
-          "MA3147"
-        ]
-      }
-    ],
-    "evaluationScore": 6.79,
-    "evalOutcomes": 0,
-    "evalStructure": 5,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
-  },
-  {
-    "id": "2f78c21c-cd0f-47af-a389-838f46468a08",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
-    "universityIsPublic": true,
-    "name": "Vật liệu và Năng lượng (2022)",
-    "code": "vat-lieu-va-nang-luong-2022",
-    "degreeType": "Cử nhân",
-    "credits": 163,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1nWsvwNicoJIF1ZSqniHJUiJt-5DzjAQc/view",
-    "lastCrawled": "2026-06-23T09:37:39.693862+07:00",
-    "description": "Khoa: VIỆT PHÁP\nNăm áp dụng: 2022\nKế hoạch giảng dạy: https://drive.google.com/file/d/1jm-lJk9JH_qOWB30MlnDEYDn8MNXEhH3/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Vật liệu và Năng lượng (2022), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Vật liệu và Năng lượng (2022) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-23T09:37:39.693860+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 47,
-    "electiveGroups": [
-      {
-        "groupName": "Nhóm tự chọn A",
-        "requiredCredits": 0,
-        "courseCodes": [
-          "MA3129",
-          "MA3131",
-          "MA3133",
-          "MA3135",
-          "MA3137",
-          "MA3139",
-          "MA3145",
-          "MA3147"
-        ]
-      }
-    ],
-    "evaluationScore": 6.79,
-    "evalOutcomes": 0,
-    "evalStructure": 5,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
-  },
-  {
-    "id": "53166814-2ae8-45ba-9704-e9f609fe74a3",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
-    "universityIsPublic": true,
-    "name": "Vật liệu và Năng lượng (2021)",
-    "code": "vat-lieu-va-nang-luong-2021",
-    "degreeType": "Cử nhân",
-    "credits": 163,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1WXXzwaivRWqGS1HymAieNYlu0bH9e9cW/view",
-    "lastCrawled": "2026-06-23T09:37:34.032459+07:00",
-    "description": "Khoa: VIỆT PHÁP\nNăm áp dụng: 2021\nKế hoạch giảng dạy: https://drive.google.com/file/d/1W1UzBdk-hHKJwlts08VJ2DddATHmvDQw/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Vật liệu và Năng lượng (2021), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Vật liệu và Năng lượng (2021) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-23T09:37:34.032458+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 47,
-    "electiveGroups": [
-      {
-        "groupName": "Nhóm tự chọn A",
-        "requiredCredits": 0,
-        "courseCodes": [
-          "MA3129",
-          "MA3131",
-          "MA3133",
-          "MA3135",
-          "MA3137",
-          "MA3139",
-          "MA3145",
-          "MA3147"
-        ]
-      }
-    ],
-    "evaluationScore": 6.79,
-    "evalOutcomes": 0,
-    "evalStructure": 5,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
-  },
-  {
-    "id": "9be67924-e8d9-4768-bc96-8eab9a4d1dd6",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
-    "universityIsPublic": true,
-    "name": "Vật liệu Polymer và Composite (2024)",
-    "code": "vat-lieu-polymer-va-composite-2024",
-    "degreeType": "Cử nhân",
-    "credits": 168,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1KZuuqSiXrP8lbQNISVQyD-F5D5282rvx/view",
-    "lastCrawled": "2026-06-23T09:37:29.608938+07:00",
-    "description": "Khoa: VIỆT PHÁP\nNăm áp dụng: 2024\nKế hoạch giảng dạy: https://drive.google.com/file/d/1lVVqf6l0uLCHjOHk-Hz5Ov6lfbzLOvlF/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Vật liệu Polymer và Composite (2024), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Vật liệu Polymer và Composite (2024) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-23T09:37:29.608937+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 84,
-    "evaluationScore": 6.25,
-    "evalOutcomes": 0,
-    "evalStructure": 4,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
-  },
-  {
-    "id": "55c0039d-a9db-46f9-96ef-1f1f840712a6",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
-    "universityIsPublic": true,
-    "name": "Vật liệu Polymer và Composite (2023)",
-    "code": "vat-lieu-polymer-va-composite-2023",
-    "degreeType": "Cử nhân",
-    "credits": 163,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1pMG-T8d2cLkkStkjo7ieEJr6yXr7DlbA/view",
-    "lastCrawled": "2026-06-23T09:37:24.089882+07:00",
-    "description": "Khoa: VIỆT PHÁP\nNăm áp dụng: 2023\nKế hoạch giảng dạy: https://drive.google.com/file/d/15KeJ7imsp7gAoTMGLa2zDvznG968AN56/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Vật liệu Polymer và Composite (2023), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Vật liệu Polymer và Composite (2023) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-23T09:37:24.089880+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 51,
-    "electiveGroups": [
-      {
-        "groupName": "Nhóm tự chọn A",
-        "requiredCredits": 0,
-        "courseCodes": [
-          "MA4159",
-          "MA4161",
-          "MA4163",
-          "MA4165",
-          "MA4167",
-          "MA4169"
-        ]
-      }
-    ],
-    "evaluationScore": 6.79,
-    "evalOutcomes": 0,
-    "evalStructure": 5,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
-  },
-  {
-    "id": "e613e682-3146-4564-ae7d-56234ef9e070",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
-    "universityIsPublic": true,
-    "name": "Vật liệu Polymer và Composite (2022)",
-    "code": "vat-lieu-polymer-va-composite-2022",
-    "degreeType": "Cử nhân",
-    "credits": 135,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1mypG76j7dauflJPCSV5gW-iIIj2R-FZ-/view",
-    "lastCrawled": "2026-06-23T09:37:19.296279+07:00",
-    "description": "Khoa: VIỆT PHÁP\nNăm áp dụng: 2022\nKế hoạch giảng dạy: https://drive.google.com/file/d/11-V-VI9jKM0ENIJHzU0r-qZb3MdIWATk/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Vật liệu Polymer và Composite (2022), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Vật liệu Polymer và Composite (2022) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-23T09:37:19.296278+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 50,
-    "electiveGroups": [
-      {
-        "groupName": "Nhóm tự chọn B",
-        "requiredCredits": 0,
-        "courseCodes": [
-          "MA4159",
-          "MA4161",
-          "MA4163",
-          "MA4165",
-          "MA4167",
-          "MA4169"
-        ]
-      }
-    ],
-    "evaluationScore": 7.0,
-    "evalOutcomes": 0,
-    "evalStructure": 5,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
-  },
-  {
-    "id": "74c9cfe3-5813-4884-ad3a-2ed8827ca7d7",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
-    "universityIsPublic": true,
-    "name": "Vật liệu Polymer và Composite (2021)",
-    "code": "vat-lieu-polymer-va-composite-2021",
-    "degreeType": "Cử nhân",
-    "credits": 135,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1Ppho6zdnJtBTeVqfrLWHFN6TMMb1VtI1/view",
-    "lastCrawled": "2026-06-23T09:37:14.462111+07:00",
-    "description": "Khoa: VIỆT PHÁP\nNăm áp dụng: 2021\nKế hoạch giảng dạy: https://drive.google.com/file/d/1N0UvcO9sfP1rWHEVNfUq8TpGm5ZngyFT/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Vật liệu Polymer và Composite (2021), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Vật liệu Polymer và Composite (2021) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-23T09:37:14.462110+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 50,
-    "electiveGroups": [
-      {
-        "groupName": "Nhóm tự chọn B",
-        "requiredCredits": 0,
-        "courseCodes": [
-          "MA4169",
-          "MA4161",
-          "MA4159",
-          "MA4163",
-          "MA4165",
-          "MA4167"
-        ]
-      }
-    ],
-    "evaluationScore": 7.0,
-    "evalOutcomes": 0,
-    "evalStructure": 5,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
-  },
-  {
-    "id": "0238190e-d779-4edc-bb59-4650baa7ab48",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
-    "universityIsPublic": true,
-    "name": "Hàng không (2024)",
-    "code": "hang-khong-2024",
-    "degreeType": "Cử nhân",
-    "credits": 163,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1FB1FN69-CTtlPo4M4zRRbLL63UvKd3w5/view",
-    "lastCrawled": "2026-06-23T09:37:09.750306+07:00",
-    "description": "Khoa: VIỆT PHÁP\nNăm áp dụng: 2024\nKế hoạch giảng dạy: https://drive.google.com/file/d/1Mv4loaw8LYvMPisxMXr5q5Ak2aVD6m-a/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Hàng không (2024), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Hàng không (2024) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-23T09:37:09.750218+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 94,
-    "evaluationScore": 6.25,
-    "evalOutcomes": 0,
-    "evalStructure": 4,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
-  },
-  {
-    "id": "61d96a0a-28bc-4b99-90e2-8812e9cf09db",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
-    "universityIsPublic": true,
-    "name": "Hàng không (2023)",
-    "code": "hang-khong-2023",
-    "degreeType": "Cử nhân",
-    "credits": 158,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1S4uIYsvSEKl5KHWKQoUy4hBdrlh1hnf5/view",
-    "lastCrawled": "2026-06-23T09:37:03.246329+07:00",
-    "description": "Khoa: VIỆT PHÁP\nNăm áp dụng: 2023\nKế hoạch giảng dạy: https://drive.google.com/file/d/1BdOIkYQMIGQCPDRISooGTBb9H6jDajNt/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Hàng không (2023), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Hàng không (2023) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-23T09:37:03.246326+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 57,
-    "electiveGroups": [
-      {
-        "groupName": "Nhóm tự chọn A",
-        "requiredCredits": 0,
-        "courseCodes": [
-          "TR3029",
-          "TR3083",
-          "TR3087",
-          "TR4047",
-          "TR4051",
-          "TR4057",
-          "TR4073",
-          "TR4083",
-          "TR4095",
-          "TR4097"
-        ]
-      }
-    ],
-    "evaluationScore": 7.0,
-    "evalOutcomes": 0,
-    "evalStructure": 5,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
-  },
-  {
-    "id": "247e8e2e-43ca-4b20-a0ab-bd3e50987c00",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
-    "universityIsPublic": true,
-    "name": "Hàng không (2022)",
-    "code": "hang-khong-2022",
-    "degreeType": "Cử nhân",
-    "credits": 163,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1vF3tHZqMc8g-u-KfB1J9HnyX3kn0riJu/view",
-    "lastCrawled": "2026-06-23T09:36:57.144984+07:00",
-    "description": "Khoa: VIỆT PHÁP\nNăm áp dụng: 2022\nKế hoạch giảng dạy: https://drive.google.com/file/d/17RZWh0ydj6uO5aUB7bDum1Op0G1Pbg52/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Hàng không (2022), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Hàng không (2022) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-23T09:36:57.144982+07:00",
+    "createdAt": "2026-06-25T13:37:08.860675+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
     "courseCount": 56,
     "electiveGroups": [
       {
-        "groupName": "Nhóm tự chọn B",
-        "requiredCredits": 0,
+        "groupName": "Nhóm01 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
         "courseCodes": [
-          "TR3029",
-          "TR3083",
-          "TR3087",
-          "TR4047",
-          "TR4051",
-          "TR4057",
-          "TR4073",
-          "TR4083",
-          "TR4095",
-          "TR4097"
+          "INF509017",
+          "MAR503017"
+        ]
+      },
+      {
+        "groupName": "Nhóm02 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "INF509026",
+          "INF509027"
+        ]
+      },
+      {
+        "groupName": "Nhóm03 (chọn 10/20 tín chỉ)",
+        "requiredCredits": 10,
+        "courseCodes": [
+          "INF509034",
+          "INF509073"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514001",
+          "PHY514007"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514002",
+          "PHY514008"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514003",
+          "PHY514009"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514004",
+          "PHY514010"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514005",
+          "PHY514011"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514006",
+          "PHY514012"
         ]
       }
-    ],
-    "evaluationScore": 7.0,
-    "evalOutcomes": 0,
-    "evalStructure": 5,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
+    ]
   },
   {
-    "id": "b37f1f2d-bbe2-48ed-ba91-7f1005a6b90b",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
+    "id": "cac6ac00-bd0f-4ad9-b7bc-82c7f0a8688b",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
     "universityIsPublic": true,
-    "name": "Hàng không (2021)",
-    "code": "hang-khong-2021",
+    "name": "Bất động sản (7340116)",
+    "code": "7340116",
     "degreeType": "Cử nhân",
-    "credits": 154,
+    "credits": 190,
     "duration": "4 năm",
     "tuition": "Theo quy định của Nhà nước và Nhà trường",
     "language": "Tiếng Việt",
     "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1OWX5tPfUgop5ivCEKMZeWozwvOw8bdiK/view",
-    "lastCrawled": "2026-06-23T09:36:50.629728+07:00",
-    "description": "Khoa: VIỆT PHÁP\nNăm áp dụng: 2021\nKế hoạch giảng dạy: https://drive.google.com/file/d/1N0UvcO9sfP1rWHEVNfUq8TpGm5ZngyFT/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Hàng không (2021), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Hàng không (2021) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK46BD&name=Bất động sản",
+    "lastCrawled": "2026-06-25T13:37:00.164474+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 110\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/bat-dong-san/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Bất động sản (7340116), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Bất động sản (7340116) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
     "learningOutcomes": null,
     "isActive": true,
-    "createdAt": "2026-06-23T09:36:50.629727+07:00",
+    "createdAt": "2026-06-25T13:37:00.164472+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 56,
+    "courseCount": 72,
     "electiveGroups": [
       {
-        "groupName": "Nhóm tự chọn B",
-        "requiredCredits": 0,
+        "groupName": "Nhóm 1: Đầu tư bất động sản (12 tín chỉ) - Chọn 1 trong 2 nhóm [ Nhóm 1: Đầu tư bất động sản; Nhóm 2: Phát triển bất động sản]",
+        "requiredCredits": 12,
         "courseCodes": [
-          "TR3029",
-          "TR3083",
-          "TR3087",
-          "TR4047",
-          "TR4051",
-          "TR4057",
-          "TR4073",
-          "TR4083",
-          "TR4095",
-          "TR4097"
+          "FIN505005",
+          "FIN505012",
+          "FIN505020",
+          "ECO501058",
+          "ECO501047",
+          "ECO501068"
+        ]
+      },
+      {
+        "groupName": "Nhóm 2: Phát triển bất động sản (12 tín chỉ) - Chọn 1 trong 2 nhóm [ Nhóm 1: Đầu tư bất động sản; Nhóm 2: Phát triển bất động sản]",
+        "requiredCredits": 12,
+        "courseCodes": [
+          "ECO501107",
+          "ECO501076",
+          "ECO501045",
+          "LAW511035",
+          "ECO501108",
+          "ECO501109"
+        ]
+      },
+      {
+        "groupName": "Nhóm01 (chọn 10/20 tín chỉ)",
+        "requiredCredits": 10,
+        "courseCodes": [
+          "ECO501086",
+          "ECO501137"
+        ]
+      },
+      {
+        "groupName": "Nhóm02 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501194",
+          "ECO501055"
+        ]
+      },
+      {
+        "groupName": "Nhóm03 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501195",
+          "ECO501009"
+        ]
+      },
+      {
+        "groupName": "Nhóm04 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501012",
+          "ECO501196"
+        ]
+      },
+      {
+        "groupName": "Nhóm05 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501200",
+          "ECO501088"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514001",
+          "PHY514007"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514008",
+          "PHY514002"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514009",
+          "PHY514003"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514010",
+          "PHY514004"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514005",
+          "PHY514011"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514012",
+          "PHY514006"
         ]
       }
-    ],
-    "evaluationScore": 7.0,
-    "evalOutcomes": 0,
-    "evalStructure": 5,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
+    ]
   },
   {
-    "id": "b722f08f-2146-4099-b3b0-fb9fa9184ab4",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
+    "id": "c1602a4f-a841-467d-91f0-c337cb39a1dc",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
     "universityIsPublic": true,
-    "name": "Kinh tế Xây dựng (2024)",
-    "code": "kinh-te-xay-dung-2024",
+    "name": "Marketing (7340115)",
+    "code": "7340115",
     "degreeType": "Cử nhân",
-    "credits": 141,
+    "credits": 160,
     "duration": "4 năm",
     "tuition": "Theo quy định của Nhà nước và Nhà trường",
     "language": "Tiếng Việt",
     "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1IZWwPgkxydkiHVN7zg0bp4f5hMbQIo_P/view",
-    "lastCrawled": "2026-06-23T09:36:36.136193+07:00",
-    "description": "Khoa: KHOA KỸ THUẬT XÂY DỰNG\nNăm áp dụng: 2024\nKế hoạch giảng dạy: https://drive.google.com/file/d/1D0HQ4t-bVlh1bJ8WJQBFK-psfwrqku9G/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kinh tế Xây dựng (2024), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Kinh tế Xây dựng (2024) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK38MA&name=Marketing",
+    "lastCrawled": "2026-06-25T13:36:55.086796+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 100\nMã xét tuyển: 7340115_1\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/marketing/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Marketing (7340115), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Marketing (7340115) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1: Hiểu và giải thích được kiến thức đại cương về bối cảnh chính trị – xã hội – pháp luật và phát triển bền vững.\nPLO2: Áp dụng được những kiến thức toàn diện, đa ngành, liên ngành từ kinh tế học tới công nghệ (AI, ERP, dữ liệu lớn, mạng xã hội, phần mềm…) để phân tích vấn đề và đưa ra các quyết định trong marketing, cũng như quản trị và điều hành tổ chức.\nPLO3: Áp dụng kiến thức cơ bản về marketing, quản trị, chiến lược toàn cầu, kinh doanh quốc tế, tâm lý và hành vi để quản lý và điều hành các hoạt động marketing trong tổ chức, đặc biệt là trong môi trường đa văn hoá, đồng thời nhận diện và tích hợp yếu tố phát triển bền vững, đạo đức và trách nhiệm xã hội trong hoạch định và triển khai chiến lược marketing\nPLO4: Phân tích và áp dụng các kiến thức cốt lõi của ngành marketing bao gồm nghiên cứu marketing, marketing mix-4Ps (sản phẩm, giá cả, phân phối và xúc tiến) và mô phỏng kinh doanh để lập kế hoạch, tổ chức thực hiện, lãnh đạo và giám sát hoạt động marketing trong tổ chức.\nPLO5: Phân tích và áp dụng các kiến thức chuyên môn sâu của ngành marketing vào thực tế nhằm quản trị thương hiệu, quản trị quan hệ khách hàng, marketing dịch vụ, xây dựng chiến lược truyền thông marketing, marketing xã hội, và đặc biệt áp dụng được các kiến thức chuyên sâu về marketing kỹ thuật số (ví dụ, ứng dụng trí tuệ nhân tạo trong marketing, marketing thiết bị di động, phân tích dữ liệu lớn và marketing mạng xã hội) để giải quyết các vấn đề chuyên môn sâu trong hoạt động kinh doanh và marketing, đảm bảo cân bằng giữa mục tiêu kinh doanh và các ưu tiên về môi trường – xã hội trong bối cảnh toàn cầu hoá.\nPLO6: Thành thạo các kỹ năng tư duy phản biện, tư duy hệ thống, tư duy sáng tạo để nhận dạng và giải quyết vấn đề trong hoạt động marketing.\nPLO7: Thành thạo kỹ năng thu thập dữ liệu, phân tích môi trường marketing và xử lý thông tin một cách chính xác và hiệu quả nhằm phát hiện nguyên nhân, phân tích và đưa ra giải pháp để giải quyết các vấn đề phức tạp của marketing trong môi trường đa ngành và đa văn hoá.\nPLO8: Áp dụng kỹ năng đổi mới và sáng tạo trong marketing vào khởi nghiệp và áp dụng tinh thần khởi nghiệp và ứng dụng khả năng lãnh đạo, quản trị vào trong hoạt động marketing để tạo ra sự phát triển cho bản thân và sự phát triển bền vững của cộng đồng và xã hội.\nPLO9: Thành thạo các kỹ năng thiết lập mục tiêu khả thi, tổ chức, lãnh đạo, đo lường và đánh giá kết quả các hoạt động marketing, cũng như xử lý các tình huống marketing phát sinh ở cấp độ quản trị viên cơ sở.\nPLO10: Thành thạo các kỹ năng làm việc nhóm bao gồm tổ chức và lãnh đạo nhóm và hợp tác tốt với mọi người để xây dựng một nhóm làm việc hiệu quả, đặc biệt trong môi trường làm việc đa văn hoá.\nPLO11: Thành thạo các kỹ năng giao tiếp và thuyết trình hiệu quả, biết lắng nghe, truyền đạt rõ ràng, sử dụng ngôn từ và phi ngôn từ hiệu quả, thuyết trình thuyết phục trước công chúng và khách hàng.\nPLO12: Giao tiếp bằng ngôn ngữ và phi ngôn ngữ hiệu quả, có kỹ năng thuyết trình, sử dụng máy tính để xử lý văn bản bằng tiếng Việt và tiếng Anh (chương trình tiên tiến-Tối thiểu TOEIC 500, TOEFL iBT 55, IELTS 4.5; chương trình chất lượng cao TOEIC 550, TOEFL iBT 60, IELTS 5.0), và có kỹ năng giao tiếp xuyên văn hoá trong môi trường hội nhập.\nPLO13: Vận dụng được khả năng làm việc độc lập hoặc theo nhóm và chịu trách nhiệm cá nhân, chịu đựng áp lực công việc cao, dễ dàng thích nghi với môi trường làm việc đa ngành và đa văn hoá.\nPLO14: Thể hiện được năng lực quản lý, lãnh đạo, hướng dẫn và giám sát người khác thực hiện và hoàn thành nhiệm vụ. Vận dụng tinh thần đạo đức, công bằng và trách nhiệm với cộng đồng bao gồm nghiêm túc tuân thủ pháp luật của Nhà nước; nội quy và quy chế của tổ chức; giữ chữ tín và cam kết; tham gia giải quyết các vấn đề đạo đức xã hội và có đạo đức nghề nghiệp.\nPLO15: Hiểu được tinh thần học tập suốt đời thông qua việc luôn học tập, nâng cao và đổi mới kiến thức, tự nghiên cứu khoa học, biết cách cập nhật và vận dụng lý thuyết vào thực tiễn vận hành và nâng cao khả năng nhận biết điểm mạnh yếu trong nguồn lực bản thân và bên ngoài giúp tự cải thiện nâng cao năng lực, khả năng hợp tác đa ngành trong môi trường đa văn hoá, cũng như tổ chức và sắp xếp công việc, chủ động lập kế hoạch nghề nghiệp cá nhân.",
     "isActive": true,
-    "createdAt": "2026-06-23T09:36:36.136192+07:00",
+    "createdAt": "2026-06-25T13:36:55.086794+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 75,
-    "evaluationScore": 6.04,
-    "evalOutcomes": 0,
-    "evalStructure": 3,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
+    "courseCount": 64,
+    "electiveGroups": [
+      {
+        "groupName": "Anh văn 1 (12 tín chỉ) - Chọn 1 trong 2 nhóm [ Anh văn 1; Pháp văn 1]",
+        "requiredCredits": 12,
+        "courseCodes": [
+          "3300109",
+          "3300110",
+          "3300111",
+          "3300112"
+        ]
+      },
+      {
+        "groupName": "Nhóm01 (chọn 2/4 tín chỉ)",
+        "requiredCredits": 2,
+        "courseCodes": [
+          "3030128",
+          "3030329"
+        ]
+      },
+      {
+        "groupName": "Pháp văn 1 (12 tín chỉ) - Chọn 1 trong 2 nhóm [ Anh văn 1; Pháp văn 1]",
+        "requiredCredits": 12,
+        "courseCodes": [
+          "3300209",
+          "3300210",
+          "3300211",
+          "3300212"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (6 tín chỉ) - Chọn 1 trong 3 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3]",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "3310201",
+          "3310204"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (6 tín chỉ) - Chọn 1 trong 3 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3]",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "3310202",
+          "3310205"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (6 tín chỉ) - Chọn 1 trong 3 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3]",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "3310101",
+          "3310203",
+          "3310206"
+        ]
+      }
+    ]
   },
   {
-    "id": "80ba3060-be60-4b74-bb2e-cc9d1c304fe9",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
+    "id": "7bb31f72-482c-4863-ba15-e598ace1b079",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
     "universityIsPublic": true,
-    "name": "Kỹ thuật Xây dựng Công trình Giao thông (2024)",
-    "code": "ky-thuat-xay-dung-cong-trinh-giao-thong-2024",
+    "name": "Thống kê kinh tế (7310107)",
+    "code": "7310107",
     "degreeType": "Cử nhân",
-    "credits": 131,
+    "credits": 172,
     "duration": "4 năm",
     "tuition": "Theo quy định của Nhà nước và Nhà trường",
     "language": "Tiếng Việt",
     "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1IBzBNDjIREbU0OSkQhztzvZ2d5oNBnrF/view",
-    "lastCrawled": "2026-06-23T09:36:30.444160+07:00",
-    "description": "Khoa: KHOA KỸ THUẬT XÂY DỰNG\nNăm áp dụng: 2024\nKế hoạch giảng dạy: https://drive.google.com/file/d/18WxEVzw0W2TPPQvPMxiJV4Qv2ymVcf20/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kỹ thuật Xây dựng Công trình Giao thông (2024), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Kỹ thuật Xây dựng Công trình Giao thông (2024) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK43HPRTD&name=Thống kê kinh tế",
+    "lastCrawled": "2026-06-25T13:36:42.390618+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 50\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/thong-ke-kinh-te/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Thống kê kinh tế (7310107), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Thống kê kinh tế (7310107) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
     "learningOutcomes": null,
     "isActive": true,
-    "createdAt": "2026-06-23T09:36:30.444158+07:00",
+    "createdAt": "2026-06-25T13:36:42.390616+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 72,
-    "evaluationScore": 6.04,
-    "evalOutcomes": 0,
-    "evalStructure": 3,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
+    "courseCount": 67,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm01 (chọn 3/9 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ACC507002",
+          "MAN502011",
+          "MAR503021"
+        ]
+      },
+      {
+        "groupName": "Nhóm02 (chọn 3/9 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "MAN502007",
+          "FIN505001",
+          "MAR503029"
+        ]
+      },
+      {
+        "groupName": "Nhóm03 (chọn 10/20 tín chỉ)",
+        "requiredCredits": 10,
+        "courseCodes": [
+          "STA508025",
+          "STA508060"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514001",
+          "PHY514007"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514002",
+          "PHY514008"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514009",
+          "PHY514003"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514004",
+          "PHY514010"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514005",
+          "PHY514011"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514006",
+          "PHY514012"
+        ]
+      }
+    ]
   },
   {
-    "id": "2e4d449a-6619-4431-a10c-8347f11d9e89",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
+    "id": "49add0cd-88f6-4c89-a4aa-274923dd4273",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
     "universityIsPublic": true,
-    "name": "Kỹ thuật Xây dựng Công trình Giao thông (2023)",
-    "code": "ky-thuat-xay-dung-cong-trinh-giao-thong-2023",
+    "name": "Kinh tế đầu tư (7310104)",
+    "code": "7310104",
     "degreeType": "Cử nhân",
-    "credits": 131,
+    "credits": 177,
     "duration": "4 năm",
     "tuition": "Theo quy định của Nhà nước và Nhà trường",
     "language": "Tiếng Việt",
     "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1JQvHQyhClG3Z96WOagXQ-3Xzl5PWMVxv/view",
-    "lastCrawled": "2026-06-23T09:36:25.477410+07:00",
-    "description": "Khoa: KHOA KỸ THUẬT XÂY DỰNG\nNăm áp dụng: 2023\nKế hoạch giảng dạy: https://drive.google.com/file/d/1Pmk8qumBAwhXqSn3WZ8skD_8lGtwFNCn/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kỹ thuật Xây dựng Công trình Giao thông (2023), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Kỹ thuật Xây dựng Công trình Giao thông (2023) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK46IE&name=Kinh tế đầu tư",
+    "lastCrawled": "2026-06-25T13:36:39.080909+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 200\nMã xét tuyển: 7310104_1\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/kinh-te-dau-tu/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kinh tế đầu tư (7310104), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Kinh tế đầu tư (7310104) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1: Vận dụng được kiến thức cơ bản về lý luận chính trị, toán kinh tế, kinh tế học, quản trị kinh doanh, pháp luật, tâm lý học, công nghệ và thiết kế trong bối cảnh học thuật và nghề nghiệp. Đồng thời, có hiểu biết cơ bản về bối cảnh chính trị, xã hội, pháp luật quốc gia và các nguyên tắc phát triển bền vững\nPLO2: Ứng dụng được kiến thức chuyên sâu về lĩnh vực kinh tế phát triển, kinh tế học (mức độ trung cấp), kinh tế học về tài chính-đầu tư, quản lý dự án, phân tích và quản lý hoạt động đầu tư, phát triển và thẩm định dự án đầu tư, chiến lược phát triển doanh nghiệp/tổ chức, Marketing cho doanh nghiệp/tổ chức và địa phương. Có khả năng phân tích, hoạch định, giám sát và đánh giá chính sách công, chương trình, và dự án.\nPLO3: Ứng dụng được kiến thức đa ngành, liên ngành về các phương pháp, kỹ thuật, lý thuyết và mô hình hiện đại trong khởi sự kinh doanh, đầu tư; trong quản lý kinh tế – kinh doanh ở cấp độ doanh nghiệp/tổ chức, địa phương và vùng; trong quản trị marketing, marketing kỹ thuật số, quản trị vận hành và chuỗi cung ứng, chuyển đổi số tại doanh nghiệp/tổ chức.\nPLO4: Ứng dụng được kiến thức cơ bản về thẩm định giá các loại tài sản, các nghiệp vụ trong ngân hàng thương mại, thẩm định tín dụng\nPLO5: Có khả năng áp dụng một cách vững chắc các kiến thức chuyên sâu của phương pháp nghiên cứu, khoa học dữ liệu trong lĩnh vực kinh tế, quản lý, tài chính-đầu tư và kinh doanh\nPLO6: Thể hiện phẩm chất lãnh đạo, sự hợp tác và khả năng làm việc nhóm hiệu quả để quản lý và truyền cảm hứng cho các nhóm đa dạng trong môi trường làm việc chuyên môn đa ngành và đa văn hóa. Đồng thời, có kỹ năng khởi nghiệp, tạo việc làm cho mình và cho người khác.\nPLO7: Thể hiện tư duy sáng tạo, tư duy phê phán, phản biện tích cực và phát triển các giải pháp hiệu quả cho các vấn đề chuyên môn.\nPLO8: Có kỹ năng phân tích dữ liệu, giải thích kết quả và giải quyết các vấn đề chuyên môn cơ bản bằng các phương pháp định lượng và định tính dựa trên công cụ kỹ thuật số và trí tuệ nhân tạo (AI). Có kỹ năng sử dụng các phần mềm chuyên dụng và ngôn ngữ lập trình trong chuyên ngành. Có kỹ năng ra quyết định, lập kế hoạch và triển khai các hoạt động thực tiễn trong lĩnh vực chuyên môn.\nPLO9: Hiểu môi trường toàn cầu, bao gồm chính trị, kinh tế, văn hóa, công nghệ, thị trường quốc tế, giao tiếp đa văn hóa để hòa nhập và đóng góp bền vững\nPLO10: Kỹ năng giao tiếp bằng ngoại ngữ trong lĩnh vực chuyên môn đạt yêu cầu cơ bản. Có kỹ năng giao tiếp và truyền thông, kỹ năng đàm phán và thương lượng, kỹ năng viết học thuật\nPLO11: Có kỹ năng đánh giá chất lượng công việc sau khi hoàn thành và kết quả thực hiện của các thành viên trong nhóm.\nPLO12: Xác định được tầm quan trọng của hành vi đạo đức và trách nhiệm nghề nghiệp và xã hội trong thực tiễn chuyên môn\nPLO13: Ưu tiên các khía cạnh về môi trường và xã hội trong quá trình giải quyết vấn đề chuyên môn\nPLO14: Phát triển ý thức và hành động cải thiện bản thân liên tục hướng đến cộng đồng, trách nhiệm xã hội và bền vững",
     "isActive": true,
-    "createdAt": "2026-06-23T09:36:25.477409+07:00",
+    "createdAt": "2026-06-25T13:36:39.080905+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 34,
-    "evaluationScore": 6.25,
-    "evalOutcomes": 0,
-    "evalStructure": 4,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
+    "courseCount": 67,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm01 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "MAN502031",
+          "BUS503048"
+        ]
+      },
+      {
+        "groupName": "Nhóm02 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501010",
+          "FIN505005"
+        ]
+      },
+      {
+        "groupName": "Nhóm03 (chọn 3/9 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501055",
+          "ECO501009",
+          "ECO501103"
+        ]
+      },
+      {
+        "groupName": "Nhóm04 (chọn 3/9 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501056",
+          "ECO501198",
+          "ECO501019"
+        ]
+      },
+      {
+        "groupName": "Nhóm05 (chọn 10/20 tín chỉ)",
+        "requiredCredits": 10,
+        "courseCodes": [
+          "ECO501133",
+          "ECO501082"
+        ]
+      },
+      {
+        "groupName": "Nhóm06 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501012",
+          "ECO501196"
+        ]
+      },
+      {
+        "groupName": "Nhóm07 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501088",
+          "ECO501200"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514001",
+          "PHY514007"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514008",
+          "PHY514002"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514003",
+          "PHY514009"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514004",
+          "PHY514010"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514005",
+          "PHY514011"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514006",
+          "PHY514012"
+        ]
+      }
+    ]
   },
   {
-    "id": "501ab774-afa3-48d1-9f0e-008f95ee67b4",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
+    "id": "8f65a49b-9ae6-48ff-8a35-8e3055eea402",
+    "universityId": "07fb803e-d15f-4898-9950-7293d08a0757",
+    "universityName": "Trường Đại học Tôn Đức Thắng",
     "universityIsPublic": true,
-    "name": "Kỹ thuật Xây dựng Công trình Giao thông (2022)",
-    "code": "ky-thuat-xay-dung-cong-trinh-giao-thong-2022",
+    "name": "Ngôn ngữ Anh (7220201)",
+    "code": "7220201",
     "degreeType": "Cử nhân",
-    "credits": 131,
+    "credits": 217,
     "duration": "4 năm",
     "tuition": "Theo quy định của Nhà nước và Nhà trường",
     "language": "Tiếng Việt",
     "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1USP28p15CbtjngXJFFKHPrGCNnNGwVhA/view",
-    "lastCrawled": "2026-06-23T09:36:20.087178+07:00",
-    "description": "Khoa: KHOA KỸ THUẬT XÂY DỰNG\nNăm áp dụng: 2022\nKế hoạch giảng dạy: https://drive.google.com/file/d/1_SZfOL0z7-9gBB1UXNCfXtH9Nbvk9G_b/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kỹ thuật Xây dựng Công trình Giao thông (2022), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Kỹ thuật Xây dựng Công trình Giao thông (2022) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
+    "sourceUrl": "https://cktt-cdr.tdtu.edu.vn/curriculum?hdt=0&nk=2026&ng=001&ph=DAIHOC&name=Ng%C3%B4n%20ng%E1%BB%AF%20Anh",
+    "lastCrawled": "2026-06-25T13:36:55.190013+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nTổ hợp xét tuyển: D01, D11, D12, D13, D14, D15\nGhi chú: Điểm Anh >= 6.0\nTrang tuyển sinh: https://trangedu.com/nganh/ngon-ngu-anh/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Ngôn ngữ Anh (7220201), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Ngôn ngữ Anh (7220201) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1  Vận dụng (Apply) kiến thức lý luận chính trị, pháp luật, giáo dục thể chất và giáo dục quốc phòng vào các hoạt động học tập, nghiên cứu và tác nghiệp.\nPLO2  Phân tích (Analyze) các cấu trúc và các tình huống trong lĩnh vực ngôn ngữ học Tiếng Anh.\nPLO3  Phân tích (Analyze) các vấn đề về văn hóa, xã hội và văn học Anh, Mỹ.\nPLO4 a . Phát triển (Develop) kiến thức và kỹ năng chuyên môn liên quan đến tâm lý sư phạm, phương pháp giảng dạy, kiểm tra và đánh giá trong việc tổ chức các hoạt động dạy và học tiếng Anh ở bậc phổ thông (dành cho định hướng Sư phạm)\nPLO5  Đạt (Build) các kỹ năng cần thiết tại nơi làm việc như kỹ năng học tập, dịch thuật, tư duy phản biện, công nghệ thông tin, các kỹ năng phát triển bền vững, và năng lực giao tiếp bằng ngoại ngữ 2 hiệu quả trong các tình huống giao tiếp hàng ngày.\nPLO6  Vận dụng (Apply) các kỹ năng viết học thuật và phương pháp nghiên cứu khoa học vào các hoạt động học tập và nghiên cứu.\nPLO7  Phát triển (Develop) năng lực ngôn ngữ tiếng Anh để giao tiếp hiệu quả trong các ngữ cảnh giao tiếp xã hội, học thuật và công việc.\nPLO8  Thể hiện (Demonstrate) được phẩm chất chính trị tốt, ý thức kỷ luật cao, có đạo đức nghề nghiệp chuẩn mực, có tính sáng tạo; có ý thức trách nhiệm trong các hoạt động chuyên môn và vì cộng đồng.",
     "isActive": true,
-    "createdAt": "2026-06-23T09:36:20.087177+07:00",
+    "createdAt": "2026-06-25T13:27:13.107317+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 33,
-    "evaluationScore": 6.25,
-    "evalOutcomes": 0,
-    "evalStructure": 4,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
+    "courseCount": 109,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm tự chọn 1",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "001614",
+          "001172",
+          "001186",
+          "001173",
+          "001616",
+          "001198",
+          "001615",
+          "001612",
+          "001613"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn 2",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "001171",
+          "001175",
+          "001178",
+          "001617",
+          "001176",
+          "001179"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn Chuyên ngành Thương mại",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "001195",
+          "001193",
+          "001339",
+          "001194",
+          "001196"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn GDTC 1",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "D01101",
+          "D01103",
+          "D01121",
+          "D01120",
+          "D01102",
+          "D01104",
+          "D01106"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn GDTC 2",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "D01222",
+          "D01202",
+          "D01203",
+          "D01204",
+          "D01205",
+          "D01201",
+          "D01221",
+          "D01206"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn [Kỹ năng thiết yếu cho sự PTBV]",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "L00046",
+          "L00049",
+          "L00052",
+          "L00047",
+          "L00044",
+          "L00048",
+          "L00051",
+          "L00045"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn chuyên ngành (Sư phạm)",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "001609",
+          "001338",
+          "001337",
+          "001183",
+          "001184",
+          "001155",
+          "001185"
+        ]
+      },
+      {
+        "groupName": "Nhóm tự chọn chuyên ngành (Thương mại)",
+        "requiredCredits": 0,
+        "courseCodes": [
+          "001197"
+        ]
+      }
+    ]
   },
   {
-    "id": "c2712492-78a7-4e28-8e09-e80c9864e331",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
+    "id": "9644f98a-b00c-49d5-b5f5-cf5f645b652d",
+    "universityId": "d123a6e9-b768-4c70-b8e9-6ea96e91f7a2",
+    "universityName": "Trường Đại học Duy Tân",
     "universityIsPublic": true,
-    "name": "Kỹ thuật Xây dựng Công trình Giao thông (2021)",
-    "code": "ky-thuat-xay-dung-cong-trinh-giao-thong-2021",
+    "name": "Trí tuệ nhân tạo (7480107)",
+    "code": "7480107",
     "degreeType": "Cử nhân",
-    "credits": 93,
+    "credits": 124,
     "duration": "4 năm",
     "tuition": "Theo quy định của Nhà nước và Nhà trường",
     "language": "Tiếng Việt",
     "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1o_cBAzicurQxFck7Ggzj_fyJYoQs_xor/view",
-    "lastCrawled": "2026-06-23T09:36:15.828851+07:00",
-    "description": "Khoa: KHOA KỸ THUẬT XÂY DỰNG\nNăm áp dụng: 2021\nKế hoạch giảng dạy: https://drive.google.com/file/d/1_6nmU3gFPsedm04ejygVjGUsxTdtvUFB/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kỹ thuật Xây dựng Công trình Giao thông (2021), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Kỹ thuật Xây dựng Công trình Giao thông (2021) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "sourceUrl": "https://trangedu.com/nganh/tri-tue-nhan-tao/",
+    "lastCrawled": "2026-06-25T13:36:26.607706+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nTổ hợp xét tuyển: A00, A01, D01, C01, C02, X26",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Trí tuệ nhân tạo (7480107), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Đầu ra của ngành Trí tuệ nhân tạo hiện khá rộng, nhưng nên nhìn theo các nhánh việc làm sát nhất với bản chất đào tạo thay vì chỉ nói chung là “làm AI”. Các nền tảng tuyển dụng hiện có nhiều tin cho các vị trí AI Engineer, Machine Learning Engineer và Data Scientist, cho thấy nhu cầu nhân lực vẫn đang hiện hữu trên thị trường.",
     "learningOutcomes": null,
     "isActive": true,
-    "createdAt": "2026-06-23T09:36:15.828850+07:00",
+    "createdAt": "2026-06-25T13:20:32.016795+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 33,
-    "evaluationScore": 6.25,
-    "evalOutcomes": 0,
-    "evalStructure": 4,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
+    "courseCount": 25
   },
   {
-    "id": "dbcd0781-0f6e-4ad5-88ea-e65d4cea3d5d",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
+    "id": "3e1fb1e1-6b05-4fd7-b7b4-992dfdf495e9",
+    "universityId": "d123a6e9-b768-4c70-b8e9-6ea96e91f7a2",
+    "universityName": "Trường Đại học Duy Tân",
     "universityIsPublic": true,
-    "name": "Kỹ thuật Xây dựng Công trình Giao thông (2020)",
-    "code": "ky-thuat-xay-dung-cong-trinh-giao-thong-2020",
+    "name": "An toàn thông tin (7480202)",
+    "code": "7480202",
     "degreeType": "Cử nhân",
-    "credits": 125,
+    "credits": 86,
     "duration": "4 năm",
     "tuition": "Theo quy định của Nhà nước và Nhà trường",
     "language": "Tiếng Việt",
     "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1Ro5IZy89KhF0YDOzLnJek2jpIZgkv9zf/view",
-    "lastCrawled": "2026-06-23T09:36:11.492793+07:00",
-    "description": "Khoa: KHOA KỸ THUẬT XÂY DỰNG\nNăm áp dụng: 2020\nKế hoạch giảng dạy: https://drive.google.com/file/d/169re6Wvb6xi1y705ruNfrCjMS5hLSZ1K/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kỹ thuật Xây dựng Công trình Giao thông (2020), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Kỹ thuật Xây dựng Công trình Giao thông (2020) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "sourceUrl": "https://trangedu.com/nganh/an-toan-thong-tin/",
+    "lastCrawled": "2026-06-25T13:36:20.673789+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nTổ hợp xét tuyển: A00, A01, D01, C01, C02, X26",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành An toàn thông tin (7480202), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành An toàn thông tin có thể làm việc tại doanh nghiệp công nghệ, ngân hàng, công ty tài chính, viễn thông, trung tâm dữ liệu, đơn vị tư vấn bảo mật, cơ quan nhà nước, tổ chức nghiên cứu và các doanh nghiệp đang vận hành hệ thống số quan trọng.\nTheo UIT, đầu ra của ngành gồm chuyên viên an ninh thông tin, chuyên viên thiết kế và đảm bảo an ninh cho hệ thống mạng và cán bộ nghiên cứu, ứng dụng trong lĩnh vực an ninh mạng, bảo mật thông tin.",
     "learningOutcomes": null,
     "isActive": true,
-    "createdAt": "2026-06-23T09:36:11.492792+07:00",
+    "createdAt": "2026-06-25T13:20:26.356630+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 44,
-    "evaluationScore": 6.25,
-    "evalOutcomes": 0,
-    "evalStructure": 4,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
+    "courseCount": 25
   },
   {
-    "id": "fb7df3f7-881a-4e97-930a-cdff4b440637",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
+    "id": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
+    "universityId": "ae635684-2839-4d4e-905a-c5808f24b5f9",
+    "universityName": "Trường Đại học FPT",
     "universityIsPublic": true,
-    "name": "Kỹ thuật Xây dựng Công trình Giao thông (2019)",
-    "code": "ky-thuat-xay-dung-cong-trinh-giao-thong-2019",
+    "name": "Hệ thống thông tin",
+    "code": null,
     "degreeType": "Cử nhân",
-    "credits": 125,
+    "credits": 145,
+    "duration": "3-4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Anh/Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://syllabase.online/curriculum/2660",
+    "lastCrawled": "2026-08-20T10:22:09.145102+07:00",
+    "description": "1. Mục tiêu đào tạo\n\n1.1 Mục tiêu chung:\n\nĐào tạo cử nhân ngành Công nghệ thông tin (CNTT) chuyên ngành Hệ thống thông tin (HTTT) có nhân cách và năng lực đáp ứng nhu cầu thực tế của xã hội; nắm vững kiến thức chuyên môn và thực hành, có khả năng tổ chức, thực hiện và phát huy sáng tạo trong các công việc liên quan đến các chuyên ngành HTTT được đào tạo; có khả năng theo đuổi việc học tập, nghiên cứu ở bậc học cao hơn. Chương trình đào tạo chuyên ngành HTTT có định hướng ứng dụng.\n\nChương trình đào tạo nhằm:\n\na) Trang bị cho sinh viên kiến thức cơ bản của ngành CNTT cùng các phương pháp luận, công nghệ nền tảng và chuyên sâu của chuyên ngành;\n\nb) Rèn luyện cho sinh viên những đức tính, kỹ năng cần thiết qua môi trường làm việc chuyên nghiệp, biết vận dụng các kiến thức ngành CNTT và các kiến thức chuyên ngành vào công việc thực tế;\n\nc) Cung cấp cho sinh viên một nền tảng vững chắc về ngoại ngữ, khoa học, văn hóa, xã hội, phát huy tính chủ động, sáng tạo trong học tập, công việc và cuộc sống.\n\n1.2 Mục tiêu cụ thể:\n\n1.3 Vị trí việc làm sau khi tốt nghiệp:\n\nSinh viên tốt nghiệp chuyên ngành Hệ thống thông tin có thể lựa chọn cho mình những công việc như:\n\n+ Quản trị viên các hệ cơ sở dữ liệu;\n\n+ Chuyên viên phân tích, tư vấn, thiết kế hệ thống thông tin;\n\n+ Chuyên viên phát triển ứng dụng cho hệ thống thông tin;\n\n+ Chuyên viên triển khai, vận hành các hệ thống ERP, CRM;\n\n+ Quản trị hệ thống thông tin và tri thức.\n\n2. Chuẩn đầu ra chuyên ngành Hệ thống thông tin\n\n3. Khối lượng kiến thức toàn khóa: 145 tín chỉ, chưa kể Tiếng Anh chuẩn bị, Giáo dục Quốc phòng, các hoạt động rèn luyện bắt buộc và tự chọn.\n\n4. Đối tượng tuyển sinh\n\n- Theo quy chế tuyển sinh đại học, cao đẳng hệ chính quy của Bộ Giáo dục và Đào tạo.\n\n- Theo quy chế tuyển sinh của trường Đại học FPT.\n\n5. Quy trình đào tạo, điều kiện tốt nghiệp\n\nQuy trình đào tạo và điều kiện tốt nghiệp được quy định theo “Quy chế đào tạo hệ đại học chính quy theo hệ thống tín chỉ” hiện hành của Đại học FPT.\n\n6. Cách thức đánh giá\n\nCách thức đánh giá được quy định theo “Quy chế đào tạo hệ đại học chính quy theo hệ thống tín chỉ” hiện hành của Đại học FPT.\n\n------------------\n\n1. Training objectives\n\n1.1 General objectives:\n\nTo train bachelors in Information Technology, specializing in Information Systems, with personality and capacity to meet the practical needs of society; to master professional and practical knowledge, to be able to organize, implement and promote creativity in jobs related to the specializations of Information Systems being trained; to be able to pursue studies and research at higher levels. The training program in Information Systems is application-oriented.\n\nThe training program aims to:\n\na) Equip students with basic knowledge of the information technology industry and the methodologies, fundamental and specialized technologies of the specialization;\n\nb) Train students with necessary qualities and skills through a professional working environment, knowing how to apply knowledge of the information technology industry and specialized knowledge to practical work;\n\nc) Provide students with a solid foundation in foreign languages, science, culture, society, promoting initiative and creativity in study, work and life.\n\n1.2 Specific objectives:\n\n1.3 Job positions after graduation:\n\nStudents who graduate from the Information Systems specialization can choose jobs such as:\n\n+ Database system administrator;\n\n+ Information system analyst, consultant, designer;\n\n+ Application developer for information systems;\n\n+ ERP, CRM system deployment and operation specialist;\n\n+ Information and knowledge system management.\n\n2. Learning Outcomes for the Information Systems specialization\n\n3. Total knowledge volume of the entire course: 145 credits, not including preparatory English, National Defense Education, compulsory and elective training activities.\n\n4. Admission subjects\n\n- According to the admission regulations for regular universities and colleges of the Ministry of Education and Training.\n\n- According to the admission regulations of FPT University.\n\n5. Training process, graduation conditions\n\nThe training process and graduation conditions are regulated according to the current \" Ungraduate Accademic Regulations\" of FPT University.\n\n6. Assessment method\n\nThe assessment method is regulated according to the current \"Ungraduate Accademic Regulations\" of FPT University.",
+    "goals": "1. Mục tiêu đào tạo\n\n1.1 Mục tiêu chung:\n\nĐào tạo cử nhân ngành Công nghệ thông tin (CNTT) chuyên ngành Hệ thống thông tin (HTTT) có nhân cách và năng lực đáp ứng nhu cầu thực tế của xã hội; nắm vững kiến thức chuyên môn và thực hành, có khả năng tổ chức, thực hiện và phát huy sáng tạo trong các công việc liên quan đến các chuyên ngành HTTT được đào tạo; có khả năng theo đuổi việc học tập, nghiên cứu ở bậc học cao hơn. Chương trình đào tạo chuyên ngành HTTT có định hướng ứng dụng.\n\nChương trình đào tạo nhằm:\n\na) Trang bị cho sinh viên kiến thức cơ bản của ngành CNTT cùng các phương pháp luận, công nghệ nền tảng và chuyên sâu của chuyên ngành;\n\nb) Rèn luyện cho sinh viên những đức tính, kỹ năng cần thiết qua môi trường làm việc chuyên nghiệp, biết vận dụng các kiến thức ngành CNTT và các kiến thức chuyên ngành vào công việc thực tế;\n\nc) Cung cấp cho sinh viên một nền tảng vững chắc về ngoại ngữ, khoa học, văn hóa, xã hội, phát huy tính chủ động, sáng tạo trong học tập, công việc và cuộc sống.\n\n1.2 Mục tiêu cụ thể:\n\n1.3 Vị trí việc làm sau khi tốt nghiệp:\n\nSinh viên tốt nghiệp chuyên ngành Hệ thống thông tin có thể lựa chọn cho mình những công việc như:\n\n+ Quản trị viên các hệ cơ sở dữ liệu;\n\n+ Chuyên viên phân tích, tư vấn, thiết kế hệ thống thông tin;\n\n+ Chuyên viên phát triển ứng dụng cho hệ thống thông tin;\n\n+ Chuyên viên triển khai, vận hành các hệ thống ERP, CRM;\n\n+ Quản trị hệ thống thông tin và tri thức.\n\n2. Chuẩn đầu ra chuyên ngành Hệ thống thông tin\n\n3. Khối lượng kiến thức toàn khóa: 145 tín chỉ, chưa kể Tiếng Anh chuẩn bị, Giáo dục Quốc phòng, các hoạt động rèn luyện bắt buộc và tự chọn.\n\n4. Đối tượng tuyển sinh\n\n- Theo quy chế tuyển sinh đại học, cao đẳng hệ chính quy của Bộ Giáo dục và Đào tạo.\n\n- Theo quy chế tuyển sinh của trường Đại học FPT.\n\n5. Quy trình đào tạo, điều kiện tốt nghiệp\n\nQuy trình đào tạo và điều kiện tốt nghiệp được quy định theo “Quy chế đào tạo hệ đại học chính quy theo hệ thống tín chỉ” hiện hành của Đại học FPT.\n\n6. Cách thức đánh giá\n\nCách thức đánh giá được quy định theo “Quy chế đào tạo hệ đại học chính quy theo hệ thống tín chỉ” hiện hành của Đại học FPT.\n\n------------------\n\n1. Training objectives\n\n1.1 General objectives:\n\nTo train bachelors in Information Technology, specializing in Information Systems, with personality and capacity to meet the practical needs of society; to master professional and practical knowledge, to be able to organize, implement and promote creativity in jobs related to the specializations of Information Systems being trained; to be able to pursue studies and research at higher levels. The training program in Information Systems is application-oriented.\n\nThe training program aims to:\n\na) Equip students with basic knowledge of the information technology industry and the methodologies, fundamental and specialized technologies of the specialization;\n\nb) Train students with necessary qualities and skills through a professional working environment, knowing how to apply knowledge of the information technology industry and specialized knowledge to practical work;\n\nc) Provide students with a solid foundation in foreign languages, science, culture, society, promoting initiative and creativity in study, work and life.\n\n1.2 Specific objectives:\n\n1.3 Job positions after graduation:\n\nStudents who graduate from the Information Systems specialization can choose jobs such as:\n\n+ Database system administrator;\n\n+ Information system analyst, consultant, designer;\n\n+ Application developer for information systems;\n\n+ ERP, CRM system deployment and operation specialist;\n\n+ Information and knowledge system management.\n\n2. Learning Outcomes for the Information Systems specialization\n\n3. Total knowledge volume of the entire course: 145 credits, not including preparatory English, National Defense Education, compulsory and elective training activities.\n\n4. Admission subjects\n\n- According to the admission regulations for regular universities and colleges of the Ministry of Education and Training.\n\n- According to the admission regulations of FPT University.\n\n5. Training process, graduation conditions\n\nThe training process and graduation conditions are regulated according to the current \" Ungraduate Accademic Regulations\" of FPT University.\n\n6. Assessment method\n\nThe assessment method is regulated according to the current \"Ungraduate Accademic Regulations\" of FPT University.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Hệ thống thông tin có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1: Understand basic knowledge of social sciences, political law, national security and defense, contributing to the formation of a scientific worldview and methodology.\n\nPLO2: Apply solid scientific foundation knowledge in the field of information technology in general and information systems in particular to understand the professional context and acquire in-depth specialized knowledge of information systems.\n\nPLO3: Apply in-depth specialized knowledge, new technologies in the field of information systems, or expanded knowledge (in fields close to information systems) to work and propose solutions to meet diverse needs from reality.\n\nPLO4: Have basic knowledge of planning and operating, implementing, and supervising the implementation of plans for specialized work in the field of information systems.\n\nPLO5: Have a mindset about startups and apply startup knowledge and skills to implement a startup project; have creative thinking, research skills, critical thinking and problem solving.\n\nPLO6: Have intermediate English proficiency equivalent to level 4 according to the 6-level foreign language proficiency framework for Vietnam, and be able to communicate simply in Japanese.\n\nPLO7: Have the ability to communicate and present to clearly state the problem to be solved and convey knowledge and skills when performing specific/complex professional tasks related to information systems.\n\nPLO8: Have the ability to program and use tools to design, build, and manage information systems.\n\nPLO9: Have the ability to update and exploit advanced tools and techniques in the field of information systems in particular and information technology in general.\n\nPLO10: Develop the ability to work independently as well as work effectively in a team in an academic and practical environment; take personal responsibility and responsibility for the team when performing a professional job. Have the spirit of self-study, lifelong learning, adapt to the continuous changes of technology and society.\n\nPLO11: Behave professionally, ethically, have social responsibility and a spirit of serving the community; be professionally responsible and have integrity in work.\n\nPLO12: Strong in spirit and physical strength, demonstrate national identity, confident in international integration.\n\nPLO13: Be able to plan, coordinate, and manage resources related to information systems projects; guide and supervise the implementation of project tasks and at the same time, be able to evaluate the effectiveness of the project and propose feasible and effective solutions for improvement.",
+    "isActive": true,
+    "createdAt": "2026-06-23T10:00:51.251919+07:00",
+    "updatedAt": "2026-08-20T10:22:09.145102+07:00",
+    "courseCount": 48
+  },
+  {
+    "id": "2ecd5d44-6c74-4987-ba62-984d6284b551",
+    "universityId": "ae635684-2839-4d4e-905a-c5808f24b5f9",
+    "universityName": "Trường Đại học FPT",
+    "universityIsPublic": true,
+    "name": "Trí tuệ nhân tạo",
+    "code": null,
+    "degreeType": "Cử nhân",
+    "credits": 145,
+    "duration": "3-4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Anh/Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://syllabase.online/curriculum/2894",
+    "lastCrawled": "2026-08-20T10:22:09.145102+07:00",
+    "description": "1. Training Objectives\n\n1.1 General objective:\n\nTraining bachelor’s degree students in Information Technology (IT)/Artificial Intelligence (AI) specialty to have the qualities and capacities to meet the needs of society, mastering professional knowledge and practice, being able to organize, implement and promote the creativity in jobs related to the trained specialties; and have the capability to pursue further studies and research at higher academic levels. The curriculum for the AI specialty is application-oriented.\n\nThe training program aims to:\n\na) To equip students with fundamental knowledge of mathematics and the IT industry together with fundamental and specialized methodologies, technologies related to AI and Data science;\n\nb) Train students the necessary virtues and skills in the professional working environment, know how to apply specialized knowledge of AI specialty into practical work\n\nc) Provide students with a strong foundation in foreign languages, science, culture and society, promoting their autonomy and creativity in study, work and life\n\n1.2 Specific objectives:\n\nGraduates of the IT training program/AI specialty must demonstrate the following:\n\nPO1. Having basic knowledge of social sciences, politics and law, security and defense, foundational knowledge of the IT industry & in-depth knowledge of the specialized training: techniques, methods, technologies, in-depth application areas; development trends in the world; at the same time understand the overall market, context, functions and tasks of the professions in the specialized training.\n\nPO2. Be able to work as a full member of a professional team in the field of training: participate in designing, selecting techniques and technologies in line with development trends, solving technical problems; understand technology trends and user requirements; can do the complete solution development plan; performance management and change management in his or her part of the job; understand state policies in specialized fields.\n\nPO3. Mastering professional skills and soft skills of 21st century citizens (thinking skills, work skills, skills in using work tools, life skills in a global society); at the same time, equip knowledge and sharpen the entrepreneurship mindset and entrepreneurial experience.\n\nPO4. Can use English well in study and work and a second foreign language in normal communication.\n\nPO5. Honesty, high discipline in study and work; dynamic, creative, and possessing a continuous learning mindset. Capable of learning and improving skills after graduation. Demonstrates a professional attitude and behavior with the ability to generate ideas, design, implement, and operate systems within the context of business and .\n\nJob positions after graduation\n\nGraduates of the AI specialty have diverse job opportunities with a number of typical positions such as:\n\n✔ AI application development engineer;\n\n✔ Automation system operation and robot development engineer;\n\n✔ Data architect;\n\n✔ AI lecturers at universities;\n\n✔ Researchers in the Artificial Intelligence field;\n\n✔ Experts in consulting solutions to AI application in production and business;\n\n✔ Pursue further education after graduating;\n\n✔ Start-up.\n\n2. Program Learning Outcomes\n\n3. Volume of learning of the course: 145 credits, excluding Orientaiton and General Training Program and Preparation English.\n\n4. Enrollment object\n\n✔ In accordance with regulations on formal university enrollment; college enrollment of the Ministry of Education and Training.\n\n✔ In accordance with regulations on enrollment of FPT university.\n\n5. Training process, graduating conditions\n\n✔ In accordance with regulations on formal university and college training of the Ministry of Education and Training.\n\n✔ In accordance with regulations on training of FPT University.\n\n6. Evaluation method\n\n✔ In accordance with regulations on examination and assessment in the training regulations of FPT University.\n\n1. Mục tiêu đào tạo\n\n1.1. Mục tiêu chung:\n\nĐào tạo cử nhân ngành Công nghệ thông tin (CNTT) chuyên ngành Trí tuệ nhân tạo (TTNT) có nhân cách và năng lực đáp ứng nhu cầu thực tế của xã hội; nắm vững kiến thức chuyên môn và thực hành, có khả năng tổ chức, thực hiện và phát huy sáng tạo trong các công việc liên quan đến các chuyên ngành Trí tuệ nhân tạo (TTNT) được đào tạo; có khả năng theo đuổi việc học tập, nghiên cứu ở bậc học cao hơn. Chương trình đào tạo chuyên ngành Trí tuệ nhân tạo (TTNT) có định hướng ứng dụng.\n\nChương trình đào tạo nhằm:\n\na) Trang bị cho sinh viên kiến thức cơ bản về toán học và CNTT cùng các phương pháp luận, công nghệ nền tảng và chuyên sâu về TTNT, Khoa học dữ liệu (KHDL);\n\nb) Rèn luyện cho sinh viên những đức tính, kỹ năng cần thiết qua môi trường làm việc chuyên nghiệp, biết vận dụng các kiến thức chuyên ngành TTNT vào công việc thực tế;\n\nc) Cung cấp cho sinh viên một nền tảng vững chắc về ngoại ngữ, khoa học, văn hóa, xã hội, phát huy tính chủ động, sáng tạo trong học tập, công việc và cuộc sống.\n\n1.2. Mục tiêu cụ thể:\n\nSinh viên tốt nghiệp chương trình đào tạo ngành CNTT chuyên ngành TTNT phải thể hiện được những điều sau đây:\n\nPO1. Có kiến thức cơ bản về khoa học xã hội, chính trị pháp luật, an ninh quốc phòng, kiến thức nền tảng của ngành CNTT & kiến thức chuyên sâu của chuyên ngành được đào tạo: kỹ thuật, phương pháp, công nghệ, các lĩnh vực ứng dụng chuyên sâu; xu hướng phát triển trên thế giới; đồng thời hiểu biết tổng thể thị trường, bối cảnh, chức năng, nhiệm vụ của các ngành nghề thuộc chuyên ngành được đào tạo.\n\nPO2. Đào tạo cử nhân ngành Công nghệ thông tin (CNTT) chuyên ngành Trí tuệ nhân tạo (TTNT) có nhân cách và năng lực đáp ứng nhu cầu thực tế của xã hội; nắm vững kiến thức chuyên môn và thực hành, có khả năng tổ chức, thực hiện và phát huy sáng tạo trong các công việc liên quan đến các chuyên ngành Trí tuệ nhân tạo (TTNT) được đào tạo; có khả năng theo đuổi việc học tập, nghiên cứu ở bậc học cao hơn. Chương trình đào tạo chuyên ngành Trí tuệ nhân tạo (TTNT) có định hướng ứng dụng.\n\nPO3. Thành thạo được các kỹ năng nghề nghiệp và các kỹ năng mềm của công dân thế kỷ 21 (kỹ năng tư duy, kỹ năng làm việc, kỹ năng sử dụng các công cụ làm việc, kỹ năng sống trong xã hội toàn cầu); đồng thời, có kiến thức, tư duy và trải nghiệm về khởi nghiệp.\n\nPO4. Sử dụng được tốt tiếng Anh trong học tập và công việc và một ngoại ngữ thứ hai trong giao tiếp thông thường.\n\nPO5. Trung thực, kỷ luật cao trong học tập và công việc; năng động, sáng tạo và có ý chí học tập không ngừng. Có khả năng học tập và nâng cao trình độ sau khi tốt nghiệp. Thể hiện thái độ và hành vi chuyên nghiệp với năng lực hình thành ý tưởng, thiết kế, thực hiện và vận hành hệ thống trong bối cảnh doanh nghiệp và xã hội.\n\n1.3. Vị trí việc làm sau khi tốt nghiệp:\n\nSinh viên tốt nghiệp chuyên ngành Trí tuệ nhân tạo có cơ hội việc làm đa dạng với một số vị trí điển hình như:\n\n✔ Kỹ sư phát triển ứng dụng TTNT;\n\n✔ Kỹ sư phát triển vận hành hệ thống tự động hóa/Robot ứng dụng TTNT;\n\n✔ Kiến trúc sư dữ liệu;\n\n✔ Giảng viên giảng dạy AI tại các trường đại học;\n\n✔ Chuyên gia nghiên cứu về AI trong các viện nghiên cứu;\n\n✔ Chuyên gia tư vấn giải pháp ứng dụng TTNT trong sản xuất kinh doanh;\n\n✔ Tiếp tục các chương trình học tập sau đại học;\n\n✔ Khởi nghiệp.\n\n2. Chuẩn đầu ra\n\n3. Khối lượng kiến thức toàn khóa\n\n4. Đối tượng tuyển sinh\n\n✔ Theo quy chế tuyển sinh đại học, cao đẳng hệ chính quy của Bộ Giáo dục và Đào tạo.\n\n✔ Theo quy chế tuyển sinh của trường Đại học FPT.\n\n5. Quy trình đào tạo, điều kiện tốt nghiệp\n\n✔ Thực hiện theo quy chế đào tạo đại học, cao đẳng hệ chính quy của Bộ Giáo dục và Đào tạo.\n\n✔ Theo quy chế đào tạo của trường Đại học FPT.\n\n6. Cách thức đánh giá\n\n✔ Theo quy định về kiểm tra và đánh giá học phần trong quy chế đào tạo của trường Đại học FPT.",
+    "goals": "1. Training Objectives\n\n1.1 General objective:\n\nTraining bachelor’s degree students in Information Technology (IT)/Artificial Intelligence (AI) specialty to have the qualities and capacities to meet the needs of society, mastering professional knowledge and practice, being able to organize, implement and promote the creativity in jobs related to the trained specialties; and have the capability to pursue further studies and research at higher academic levels. The curriculum for the AI specialty is application-oriented.\n\nThe training program aims to:\n\na) To equip students with fundamental knowledge of mathematics and the IT industry together with fundamental and specialized methodologies, technologies related to AI and Data science;\n\nb) Train students the necessary virtues and skills in the professional working environment, know how to apply specialized knowledge of AI specialty into practical work\n\nc) Provide students with a strong foundation in foreign languages, science, culture and society, promoting their autonomy and creativity in study, work and life\n\n1.2 Specific objectives:\n\nGraduates of the IT training program/AI specialty must demonstrate the following:\n\nPO1. Having basic knowledge of social sciences, politics and law, security and defense, foundational knowledge of the IT industry & in-depth knowledge of the specialized training: techniques, methods, technologies, in-depth application areas; development trends in the world; at the same time understand the overall market, context, functions and tasks of the professions in the specialized training.\n\nPO2. Be able to work as a full member of a professional team in the field of training: participate in designing, selecting techniques and technologies in line with development trends, solving technical problems; understand technology trends and user requirements; can do the complete solution development plan; performance management and change management in his or her part of the job; understand state policies in specialized fields.\n\nPO3. Mastering professional skills and soft skills of 21st century citizens (thinking skills, work skills, skills in using work tools, life skills in a global society); at the same time, equip knowledge and sharpen the entrepreneurship mindset and entrepreneurial experience.\n\nPO4. Can use English well in study and work and a second foreign language in normal communication.\n\nPO5. Honesty, high discipline in study and work; dynamic, creative, and possessing a continuous learning mindset. Capable of learning and improving skills after graduation. Demonstrates a professional attitude and behavior with the ability to generate ideas, design, implement, and operate systems within the context of business and .\n\nJob positions after graduation\n\nGraduates of the AI specialty have diverse job opportunities with a number of typical positions such as:\n\n✔ AI application development engineer;\n\n✔ Automation system operation and robot development engineer;\n\n✔ Data architect;\n\n✔ AI lecturers at universities;\n\n✔ Researchers in the Artificial Intelligence field;\n\n✔ Experts in consulting solutions to AI application in production and business;\n\n✔ Pursue further education after graduating;\n\n✔ Start-up.\n\n2. Program Learning Outcomes\n\n3. Volume of learning of the course: 145 credits, excluding Orientaiton and General Training Program and Preparation English.\n\n4. Enrollment object\n\n✔ In accordance with regulations on formal university enrollment; college enrollment of the Ministry of Education and Training.\n\n✔ In accordance with regulations on enrollment of FPT university.\n\n5. Training process, graduating conditions\n\n✔ In accordance with regulations on formal university and college training of the Ministry of Education and Training.\n\n✔ In accordance with regulations on training of FPT University.\n\n6. Evaluation method\n\n✔ In accordance with regulations on examination and assessment in the training regulations of FPT University.\n\n1. Mục tiêu đào tạo\n\n1.1. Mục tiêu chung:\n\nĐào tạo cử nhân ngành Công nghệ thông tin (CNTT) chuyên ngành Trí tuệ nhân tạo (TTNT) có nhân cách và năng lực đáp ứng nhu cầu thực tế của xã hội; nắm vững kiến thức chuyên môn và thực hành, có khả năng tổ chức, thực hiện và phát huy sáng tạo trong các công việc liên quan đến các chuyên ngành Trí tuệ nhân tạo (TTNT) được đào tạo; có khả năng theo đuổi việc học tập, nghiên cứu ở bậc học cao hơn. Chương trình đào tạo chuyên ngành Trí tuệ nhân tạo (TTNT) có định hướng ứng dụng.\n\nChương trình đào tạo nhằm:\n\na) Trang bị cho sinh viên kiến thức cơ bản về toán học và CNTT cùng các phương pháp luận, công nghệ nền tảng và chuyên sâu về TTNT, Khoa học dữ liệu (KHDL);\n\nb) Rèn luyện cho sinh viên những đức tính, kỹ năng cần thiết qua môi trường làm việc chuyên nghiệp, biết vận dụng các kiến thức chuyên ngành TTNT vào công việc thực tế;\n\nc) Cung cấp cho sinh viên một nền tảng vững chắc về ngoại ngữ, khoa học, văn hóa, xã hội, phát huy tính chủ động, sáng tạo trong học tập, công việc và cuộc sống.\n\n1.2. Mục tiêu cụ thể:\n\nSinh viên tốt nghiệp chương trình đào tạo ngành CNTT chuyên ngành TTNT phải thể hiện được những điều sau đây:\n\nPO1. Có kiến thức cơ bản về khoa học xã hội, chính trị pháp luật, an ninh quốc phòng, kiến thức nền tảng của ngành CNTT & kiến thức chuyên sâu của chuyên ngành được đào tạo: kỹ thuật, phương pháp, công nghệ, các lĩnh vực ứng dụng chuyên sâu; xu hướng phát triển trên thế giới; đồng thời hiểu biết tổng thể thị trường, bối cảnh, chức năng, nhiệm vụ của các ngành nghề thuộc chuyên ngành được đào tạo.\n\nPO2. Đào tạo cử nhân ngành Công nghệ thông tin (CNTT) chuyên ngành Trí tuệ nhân tạo (TTNT) có nhân cách và năng lực đáp ứng nhu cầu thực tế của xã hội; nắm vững kiến thức chuyên môn và thực hành, có khả năng tổ chức, thực hiện và phát huy sáng tạo trong các công việc liên quan đến các chuyên ngành Trí tuệ nhân tạo (TTNT) được đào tạo; có khả năng theo đuổi việc học tập, nghiên cứu ở bậc học cao hơn. Chương trình đào tạo chuyên ngành Trí tuệ nhân tạo (TTNT) có định hướng ứng dụng.\n\nPO3. Thành thạo được các kỹ năng nghề nghiệp và các kỹ năng mềm của công dân thế kỷ 21 (kỹ năng tư duy, kỹ năng làm việc, kỹ năng sử dụng các công cụ làm việc, kỹ năng sống trong xã hội toàn cầu); đồng thời, có kiến thức, tư duy và trải nghiệm về khởi nghiệp.\n\nPO4. Sử dụng được tốt tiếng Anh trong học tập và công việc và một ngoại ngữ thứ hai trong giao tiếp thông thường.\n\nPO5. Trung thực, kỷ luật cao trong học tập và công việc; năng động, sáng tạo và có ý chí học tập không ngừng. Có khả năng học tập và nâng cao trình độ sau khi tốt nghiệp. Thể hiện thái độ và hành vi chuyên nghiệp với năng lực hình thành ý tưởng, thiết kế, thực hiện và vận hành hệ thống trong bối cảnh doanh nghiệp và xã hội.\n\n1.3. Vị trí việc làm sau khi tốt nghiệp:\n\nSinh viên tốt nghiệp chuyên ngành Trí tuệ nhân tạo có cơ hội việc làm đa dạng với một số vị trí điển hình như:\n\n✔ Kỹ sư phát triển ứng dụng TTNT;\n\n✔ Kỹ sư phát triển vận hành hệ thống tự động hóa/Robot ứng dụng TTNT;\n\n✔ Kiến trúc sư dữ liệu;\n\n✔ Giảng viên giảng dạy AI tại các trường đại học;\n\n✔ Chuyên gia nghiên cứu về AI trong các viện nghiên cứu;\n\n✔ Chuyên gia tư vấn giải pháp ứng dụng TTNT trong sản xuất kinh doanh;\n\n✔ Tiếp tục các chương trình học tập sau đại học;\n\n✔ Khởi nghiệp.\n\n2. Chuẩn đầu ra\n\n3. Khối lượng kiến thức toàn khóa\n\n4. Đối tượng tuyển sinh\n\n✔ Theo quy chế tuyển sinh đại học, cao đẳng hệ chính quy của Bộ Giáo dục và Đào tạo.\n\n✔ Theo quy chế tuyển sinh của trường Đại học FPT.\n\n5. Quy trình đào tạo, điều kiện tốt nghiệp\n\n✔ Thực hiện theo quy chế đào tạo đại học, cao đẳng hệ chính quy của Bộ Giáo dục và Đào tạo.\n\n✔ Theo quy chế đào tạo của trường Đại học FPT.\n\n6. Cách thức đánh giá\n\n✔ Theo quy định về kiểm tra và đánh giá học phần trong quy chế đào tạo của trường Đại học FPT.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Trí tuệ nhân tạo có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1: Understand fundamental knowledge of social sciences, politics, law, and national defense, contributing to the formation of a scientific worldview and methodology.\n\nPLO2: Apply solid foundational knowledge in the field of IT in general and Artificial Intelligence (AI) in particular to understand the professional context and acquire in-depth specialized knowledge Artificial Intelligence (AI).\n\nPLO3: Apply Artificial Intelligence (AI) and data science to build intelligent systems that can adapt to a variety of real-world scenarios\n\nPLO4: Have basic knowledge of planning and management, implementation, and monitoring the execution of plans for professional work in the field of Artificial Intelligence (AI).\n\nPLO5: Have a startup mindset and be able to apply entrepreneurial knowledge and skills to implement a startup project; have a creative mindset, research skills, critical thinking, and problem-solving skills.\n\nPLO6: Have intermediate English proficiency equivalent to level 4 according to the 6-level foreign language proficiency framework used in Vietnam; and can communicate simply in Japanese.\n\nPLO7: Have the ability to communicate and present to clearly articulate the problem to be solved and to convey knowledge and skills when performing specific/complex professional tasks related to Artificial Intelligence (AI).\n\nPLO8: Have the ability to program and use simulation tools in the field of Artificial Intelligence (AI).\n\nPLO9: Have the ability to update and exploit advanced tools and techniques in the field of Artificial Intelligence (AI) in particular and IT in general.\n\nPLO10: Develop the ability to work independently as well as effectively in a team in both academic and practical environments; take personal responsibility and responsibility for the group when performing a professional task. Have a self-learning spirit, lifelong learning, and adaptability to the continuous changes of technology and society.\n\nPLO11: Behave professionally, ethically, have social responsibility and a spirit of community service; have professional responsibility and integrity in work.\n\nPLO12: Be strong in spirit and physically, demonstrate national identity, and be confident in international integration.\n\nPLO13: Be able to plan, coordinate, and manage resources related to Artificial Intelligence (AI) projects; guide and supervise the implementation of project tasks and, at the same time, have the ability to evaluate project effectiveness and propose feasible and effective solutions for improvement.",
+    "isActive": true,
+    "createdAt": "2026-06-23T10:00:31.933943+07:00",
+    "updatedAt": "2026-08-20T10:22:09.145102+07:00",
+    "courseCount": 47
+  },
+  {
+    "id": "7e68f1d7-998b-4bc2-a9d0-f52784b024f0",
+    "universityId": "ae635684-2839-4d4e-905a-c5808f24b5f9",
+    "universityName": "Trường Đại học FPT",
+    "universityIsPublic": true,
+    "name": "Công nghệ thông tin",
+    "code": null,
+    "degreeType": "Cử nhân",
+    "credits": 145,
+    "duration": "3-4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Anh/Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://syllabase.online/curriculum/3013",
+    "lastCrawled": "2026-08-20T10:22:09.145102+07:00",
+    "description": "1. MỤC TIÊU CỦA CHƯƠNG TRÌNH\n\n1.1. Mục tiêu chung:\n\nChương trình đào tạo cử nhân ngành Công nghệ thông tin, chuyên ngành Robot và Trí tuệ nhân tạo (định hướng UAV và Humanoid) của Trường Đại học FPT nhằm đào tạo nguồn nhân lực có sức khỏe, phẩm chất chính trị, trách nhiệm và đạo đức nghề nghiệp, tư duy đổi mới sáng tạo, tinh thần khởi nghiệp, khả năng học tập suốt đời, năng lực nghề nghiệp vững vàng và năng lực cạnh tranh trong môi trường lao động toàn cầu. Người học được trang bị nền tảng kiến thức về chính trị xã hội, khoa học tự nhiên, công nghệ thông tin, điện – điện tử, điều khiển, hệ thống nhúng cùng kiến thức chuyên sâu về Robot và Trí tuệ nhân tạo; có khả năng vận dụng tri thức liên ngành để tiếp cận, phát triển và ứng dụng các giải pháp robot thông minh và AI trong thực tiễn. Trong vòng 1–3 năm sau tốt nghiệp, người học có khả năng đảm nhiệm các vị trí chuyên môn trong lĩnh vực Robot và Trí tuệ nhân tạo, bao gồm phát triển phần mềm, lập trình nhúng, tích hợp hệ thống phần cứng – phần mềm, xử lý dữ liệu, xây dựng mô hình AI, triển khai và vận hành các hệ thống robot thông minh. Người tốt nghiệp có thể tham gia phát triển sản phẩm, giải pháp công nghệ và hệ thống ứng dụng trong các hướng như UAV, robot hình người, robot di động tự hành, tay máy robot và tự động hóa thông minh; đồng thời có khả năng làm việc độc lập, hợp tác trong các nhóm liên ngành, sử dụng ngoại ngữ và công nghệ số phục vụ công việc, thích ứng với môi trường nghề nghiệp, tiếp tục học tập nâng cao và phát triển nghề nghiệp gắn với các nguyên tắc an toàn, nhân văn và có trách nhiệm.\n\n1.2. Mục tiêu cụ thể:\n\nSinh viên tốt nghiệp chương trình đào tạo ngành Công nghệ thông tin, chuyên ngành Robot và Trí tuệ nhân tạo (BIT_RA) có khả năng:\n\nPO1. Kiến thức:Áp dụng kiến thức nền tảng về giáo dục quốc phòng – an ninh, lý luận chính trị, khoa học tự nhiên, công nghệ thông tin cùng với kiến thức chuyên sâu trong lĩnh vực Robot và Trí tuệ nhân tạo vào học tập, nghiên cứu và thực hành nghề nghiệp.\n\nPO2. Kỹ năng nghề nghiệp: Phân tích yêu cầu, thiết kế, tích hợp, kiểm thử, vận hành, phát triển, triển khai, đánh giá và đề xuất cải tiến các hệ thống Robot và Trí tuệ nhân tạo nhằm giải quyết các bài toán thực tế và các vấn đề kỹ thuật phức tạp.\n\nPO3. Kỹ năng chung:Thể hiện các kỹ năng thiết yếu của thế kỷ 21, bao gồm tư duy phản biện, giải quyết vấn đề, giao tiếp, làm việc độc lập và làm việc nhóm; có khả năng tham gia tổ chức, triển khai và quản lý các dự án. Sinh viên sử dụng hiệu quả các công cụ công nghệ trong học tập và công việc, có khả năng tự học, học tập suốt đời, phát triển ý tưởng, xây dựng mô hình kinh doanh và triển khai thử nghiệm các dự án khởi nghiệp.\n\nPO4. Ngoại ngữ:Sử dụng tốt tiếng Anh trong học tập và công việc, đồng thời có khả năng sử dụng một ngoại ngữ thứ hai trong giao tiếp thông thường.\n\nPO5. Năng lực tự chủ và trách nhiệm: Thể hiện tính trung thực, trách nhiệm, kỷ luật và tác phong chuyên nghiệp trong học tập và công việc; tuân thủ các chuẩn mực đạo đức nghề nghiệp, đặc biệt trong phát triển robot và ứng dụng công nghệ AI. Sinh viên có khả năng tự chủ trong công việc, thích ứng với môi trường làm việc đa dạng cũng như các bối cảnh doanh nghiệp, văn hóa và xã hội khác nhau.\n\n2. VỊ TRÍ VIỆC LÀM:\n\nSinh viên tốt nghiệp chuyên ngành Robot và Trí tuệ nhân tạo có cơ hội việc làm đa dạng với một số vị trí điển hình như:\n\n- Kỹ sư Robot\n\n- Kỹ sư UAV & Drone AI\n\n- Kỹ sư Robot tự hành (AGV/ARM)\n\n- Kỹ sư AI & Robot\n\n- Kỹ sư tự động hóa & điều khiển\n\n- Nghiên cứu viên/Giảng viên\n\n3. CHUẨN ĐẦU VÀO\n\n4. CHUẨN ĐẦU RA\n\n5. CÁC QUY ĐỊNH KHÁC\n\nQuy chế đào tạo, điều kiện tốt nghiệp, cách thức đánh giá được thực hiện theo quy chế tuyển sinh đại học, cao đẳng hệ chính quy của Bộ Giáo dục và Đào tạo; quy chế đào tạo của Trường Đại học FPT.\n\n6. KHỐI LƯỢNG KIẾN THỨC TOÀN KHÓA: 145 tín chỉ, không bao gồm Chương trình Định Hướng và Rèn Luyện Tập Trung, Tiếng Anh chuẩn bị.",
+    "goals": "1. MỤC TIÊU CỦA CHƯƠNG TRÌNH\n\n1.1. Mục tiêu chung:\n\nChương trình đào tạo cử nhân ngành Công nghệ thông tin, chuyên ngành Robot và Trí tuệ nhân tạo (định hướng UAV và Humanoid) của Trường Đại học FPT nhằm đào tạo nguồn nhân lực có sức khỏe, phẩm chất chính trị, trách nhiệm và đạo đức nghề nghiệp, tư duy đổi mới sáng tạo, tinh thần khởi nghiệp, khả năng học tập suốt đời, năng lực nghề nghiệp vững vàng và năng lực cạnh tranh trong môi trường lao động toàn cầu. Người học được trang bị nền tảng kiến thức về chính trị xã hội, khoa học tự nhiên, công nghệ thông tin, điện – điện tử, điều khiển, hệ thống nhúng cùng kiến thức chuyên sâu về Robot và Trí tuệ nhân tạo; có khả năng vận dụng tri thức liên ngành để tiếp cận, phát triển và ứng dụng các giải pháp robot thông minh và AI trong thực tiễn. Trong vòng 1–3 năm sau tốt nghiệp, người học có khả năng đảm nhiệm các vị trí chuyên môn trong lĩnh vực Robot và Trí tuệ nhân tạo, bao gồm phát triển phần mềm, lập trình nhúng, tích hợp hệ thống phần cứng – phần mềm, xử lý dữ liệu, xây dựng mô hình AI, triển khai và vận hành các hệ thống robot thông minh. Người tốt nghiệp có thể tham gia phát triển sản phẩm, giải pháp công nghệ và hệ thống ứng dụng trong các hướng như UAV, robot hình người, robot di động tự hành, tay máy robot và tự động hóa thông minh; đồng thời có khả năng làm việc độc lập, hợp tác trong các nhóm liên ngành, sử dụng ngoại ngữ và công nghệ số phục vụ công việc, thích ứng với môi trường nghề nghiệp, tiếp tục học tập nâng cao và phát triển nghề nghiệp gắn với các nguyên tắc an toàn, nhân văn và có trách nhiệm.\n\n1.2. Mục tiêu cụ thể:\n\nSinh viên tốt nghiệp chương trình đào tạo ngành Công nghệ thông tin, chuyên ngành Robot và Trí tuệ nhân tạo (BIT_RA) có khả năng:\n\nPO1. Kiến thức:Áp dụng kiến thức nền tảng về giáo dục quốc phòng – an ninh, lý luận chính trị, khoa học tự nhiên, công nghệ thông tin cùng với kiến thức chuyên sâu trong lĩnh vực Robot và Trí tuệ nhân tạo vào học tập, nghiên cứu và thực hành nghề nghiệp.\n\nPO2. Kỹ năng nghề nghiệp: Phân tích yêu cầu, thiết kế, tích hợp, kiểm thử, vận hành, phát triển, triển khai, đánh giá và đề xuất cải tiến các hệ thống Robot và Trí tuệ nhân tạo nhằm giải quyết các bài toán thực tế và các vấn đề kỹ thuật phức tạp.\n\nPO3. Kỹ năng chung:Thể hiện các kỹ năng thiết yếu của thế kỷ 21, bao gồm tư duy phản biện, giải quyết vấn đề, giao tiếp, làm việc độc lập và làm việc nhóm; có khả năng tham gia tổ chức, triển khai và quản lý các dự án. Sinh viên sử dụng hiệu quả các công cụ công nghệ trong học tập và công việc, có khả năng tự học, học tập suốt đời, phát triển ý tưởng, xây dựng mô hình kinh doanh và triển khai thử nghiệm các dự án khởi nghiệp.\n\nPO4. Ngoại ngữ:Sử dụng tốt tiếng Anh trong học tập và công việc, đồng thời có khả năng sử dụng một ngoại ngữ thứ hai trong giao tiếp thông thường.\n\nPO5. Năng lực tự chủ và trách nhiệm: Thể hiện tính trung thực, trách nhiệm, kỷ luật và tác phong chuyên nghiệp trong học tập và công việc; tuân thủ các chuẩn mực đạo đức nghề nghiệp, đặc biệt trong phát triển robot và ứng dụng công nghệ AI. Sinh viên có khả năng tự chủ trong công việc, thích ứng với môi trường làm việc đa dạng cũng như các bối cảnh doanh nghiệp, văn hóa và xã hội khác nhau.\n\n2. VỊ TRÍ VIỆC LÀM:\n\nSinh viên tốt nghiệp chuyên ngành Robot và Trí tuệ nhân tạo có cơ hội việc làm đa dạng với một số vị trí điển hình như:\n\n- Kỹ sư Robot\n\n- Kỹ sư UAV & Drone AI\n\n- Kỹ sư Robot tự hành (AGV/ARM)\n\n- Kỹ sư AI & Robot\n\n- Kỹ sư tự động hóa & điều khiển\n\n- Nghiên cứu viên/Giảng viên\n\n3. CHUẨN ĐẦU VÀO\n\n4. CHUẨN ĐẦU RA\n\n5. CÁC QUY ĐỊNH KHÁC\n\nQuy chế đào tạo, điều kiện tốt nghiệp, cách thức đánh giá được thực hiện theo quy chế tuyển sinh đại học, cao đẳng hệ chính quy của Bộ Giáo dục và Đào tạo; quy chế đào tạo của Trường Đại học FPT.\n\n6. KHỐI LƯỢNG KIẾN THỨC TOÀN KHÓA: 145 tín chỉ, không bao gồm Chương trình Định Hướng và Rèn Luyện Tập Trung, Tiếng Anh chuẩn bị.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Công nghệ thông tin có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1: Hiểu biết về lý luận chính trị và giáo dục quốc phòng-an ninh, góp phần hình thành thế giới quan và phương pháp luận khoa học trong học tập và làm việc.\n\nPLO2: Nắm vững các kiến thức nền tảng về toán học, cơ học, công nghệ thông tin và điện - điện tử để làm nền tảng cho việc tiếp thu, vận dụng tốt các kiến thức cốt lõi của chuyên ngành Robot và Trí tuệ nhân tạo.\n\nPLO3: Áp dụng kiến thức cơ sở cốt lõi về Trí tuệ nhân tạo như học máy, học sâu, học tăng cường, xử lý ngôn ngữ tự nhiên và thị giác máy tính; và kiến thức cốt lõi về Robot như nguyên lý cơ học robot, kỹ thuật nhận thức robot trong phân tích, phát triển giải pháp cho các bài toán trong lĩnh vực Robot và Trí tuệ nhân tạo\n\nPLO4: Sử dụng các nguyên tắc lập kế hoạch, triển khai và giám sát trong thực hiện các công việc chuyên môn và dự án trong lĩnh vực Robot và Trí tuệ nhân tạo\n\nPLO5: Hình thành ý tưởng khởi nghiệp và trải nghiệm triển khai một dự án khởi nghiệp; đồng thời thể hiện tư duy sáng tạo, năng lực nghiên cứu, tư duy phản biện và giải quyết vấn đề.\n\nPLO6: Sử dụng tiếng Anh đạt trình độ tương đương bậc 4 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam trong học tập và công việc; đồng thời giao tiếp được ở mức cơ bản bằng tiếng Nhật.\n\nPLO7: Vận dụng kỹ năng giao tiếp và thuyết trình để trình bày rõ ràng vấn đề cần giải quyết, đồng thời truyền đạt hiệu quả kiến thức và kỹ năng trong quá trình thực hiện các nhiệm vụ chuyên môn, bao gồm các bài toán có độ phức tạp trong lĩnh vực Robot và Trí tuệ nhân tạo.\n\nPLO8: Thiết kế và phát triển các thành phần của hệ thống robot, bao gồm cơ khí (cơ cấu, cảm biến, cơ cấu chấp hành), thiết kế mạch và 3D CAD; đồng thời lập trình hệ thống nhúng và điều khiển cho robot bao gồm UAV hoặc robot hình người (Humanoid robot), drone và các ứng dụng IoT trong tự động hóa.\n\nPLO9: Thu thập và xử lý dữ liệu, đề xuất và so sánh giải pháp kỹ thuật có căn cứ khoa học cho chuyên ngành Robot và Trí tuệ nhân tạo.\n\nPLO10: Phát triển khả năng làm việc độc lập cũng như làm việc nhóm hiệu quả trong môi trường học thuật và thực tiễn; chịu trách nhiệm cá nhân và trách nhiệm đối với nhóm khi thực hiện một công việc chuyên môn. Có tinh thần tự học, học tập suốt đời, thích ứng với sự thay đổi liên tục của công nghệ và xã hội.\n\nPLO11: Thể hiện tác phong chuyên nghiệp, liêm chính và trách nhiệm nghề nghiệp; nhận thức và tuân thủ các chuẩn mực đạo đức nghề nghiệp; đồng thời đánh giá và thực hành có trách nhiệm đối với các tác động xã hội, pháp lý, an toàn và môi trường của các hệ thống Robot và Trí tuệ nhân tạo\n\nPLO12: Duy trì sức khỏe thể chất và tinh thần; thể hiện ý thức gìn giữ bản sắc văn hóa và lòng tự hào dân tộc.\n\nPLO13: Lập kế hoạch, điều phối, quản lý thời gian và nguồn lực liên quan đến dự án về Robot và Trí tuệ nhân tạo; hướng dẫn, phân công, giám sát việc thực hiện các nhiệm vụ của dự án và đồng thời, có khả năng đánh giá hiệu quả của dự án và đưa ra các phương án để cải thiện.",
+    "isActive": true,
+    "createdAt": "2026-06-23T10:00:22.291065+07:00",
+    "updatedAt": "2026-08-20T10:22:09.145102+07:00",
+    "courseCount": 48
+  },
+  {
+    "id": "0f79228e-012d-414d-a015-9ce66c04c328",
+    "universityId": "b5e96a23-0889-40f6-a1dd-e147aed2d716",
+    "universityName": "Trường Đại học Khoa học Tự nhiên - ĐHQG-HCM",
+    "universityIsPublic": true,
+    "name": "Quản lý tài nguyên và môi trường (7850101)",
+    "code": "7850101",
+    "degreeType": "Cử nhân",
+    "credits": 6,
     "duration": "4 năm",
     "tuition": "Theo quy định của Nhà nước và Nhà trường",
     "language": "Tiếng Việt",
     "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/1iSM9xP6XqMPlO-zytHliKN_aQEvdiMUv/view",
-    "lastCrawled": "2026-06-23T09:36:06.348618+07:00",
-    "description": "Khoa: KHOA KỸ THUẬT XÂY DỰNG\nNăm áp dụng: 2019\nKế hoạch giảng dạy: https://drive.google.com/file/d/1HiichO_8Wd__4yNumA-f6mhjmcg6SO3g/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kỹ thuật Xây dựng Công trình Giao thông (2019), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Kỹ thuật Xây dựng Công trình Giao thông (2019) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
+    "sourceUrl": "https://tuyensinh.hcmus.edu.vn/nganh-quan-ly-tai-nguyen-va-moi-truong/",
+    "lastCrawled": "2026-06-25T17:42:36.887254+07:00",
+    "description": "Loại chương trình: Chương trình Đại trà\nChỉ tiêu 2026: 109\nPhương thức xét tuyển: Phương thức 1a: Tuyển thẳng và ưu tiên xét tuyển theo Bộ GDĐTPhương thức 2: Xét tuyển dựa trên phương thức kết hợp kết quả kỳ thi tốt nghiệp THPT năm 2026 hay kết quả kỳ thi đánh giá năng lực do ĐHQG-HCM tổ chức năm 2026 theo ngành/nhóm ngành với điểm học bạ 03 năm lớp 10, 11, 12.\nTổ hợp xét tuyển: A00: Toán – Vật lý – Hóa họcB00: Toán – Sinh học – Hóa họcD07: Toán – Hóa học – Tiếng AnhB08: Toán – Sinh học – Tiếng AnhX10: Toán – Hóa học – Tin họcX14: Toán – Sinh học – Tin học",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản lý tài nguyên và môi trường (7850101), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản lý tài nguyên và môi trường (7850101) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "Khả năng áp dụng được các kiến thức khoa học cơ bản về tự nhiên (toán, lý, hóa, sinh) và xã hội cho việc giải quyết các vấn đề thực tiễn ngành khoa học môi trường\nKhả năng hiểu và vận dụng các kiến thức về môi trường cơ bản (môi trường đại cường, khoa học trái đất) làm nền tảng khoa học để giải quyết các vấn đề thực tiễn cho ngành Khoa học Môi Trường\nKhả năng hiểu và vận dụng các kiến thức môi trường cơ sở đất, nước, không khí quản lý và khoa học công nghệ, kiến thức thực tế; tác động qua lại giữa con người và môi trường\nKhả năng vận dụng các kiến thức thuộc một trong các chuyên ngành nhằm giải quyết các vấn đề thuộc lĩnh vực môi trường trong bối cảnh cuộc cách mạng công nghiệp 4.0\nKhả năng ứng dụng thành thạo tin học căn bản và xử lý số liệu môi trường trong giao tiếp xã hội và hoạt động nghề nghiệp\nKỹ năng sử dụng thành thạo các dụng cụ trang thiết bị cơ bản trong quan trắc đánh giá chất lượng môi trường, phần mềm xử lý số liệu, vẽ bản đồ trong giải quyết các vấn đề môi trường\nKhả năng tư duy hiệu quả và nghiên cứu khoa học định hướng cho nghiên cứu của bản thân và ý thức được việc tự học tập tự nghiên cứu và học tập suốt đời từ đó có khả năng tiếp cận và hòa nhập với môi trường công tác sau khi tốt nghiệp\nCó khả năng làm việc độc lập. sẵn sàng chấp nhận rủi ro, kiên trì, linh hoạt, tự tin, tích cực trong môi trường đa văn hóa, có khả năng phát triển nghề nghiệp, khởi nghiệp và đổi mới sáng tạo\nKhả năng tổ chức. khả năng lãnh đạo, lập kế hoạch, làm việc nhóm và giao tiếp hiệu quá trong khoa học, hoạt động nghề nghiệp và giao tiếp xã hội\nKhả năng phân tích bối cảnh xã hội có liên quan đến ngành nghề và phân tích đánh giá một đối tượng cụ thể trong môi trường\nKhả năng phân tích, thiết kế, triển khai và đánh giá một vấn đề môi trường cụ thể nhằm bảo vệ môi trường và phát triển bền vững\nKhả năng sử dụng tiếng Anh giao tiếp và tiếng Anh chuyên ngành thành thạo\nÝ thức văn hóa và đạo đức nghề nghiệp, hiểu biết và tôn trọng luật pháp Việt Nam và các qui định, luật và chính sách môi trường\nHành xử chuyên nghiệp, và luôn cập nhật kiến thức chuyên môn về công nghệ kỹ thuật môi trường\n1. Kiến thức\n2. Kỹ năng\n3. Thái độ\n4. Trách nhiệm nghề nghiệp",
     "isActive": true,
-    "createdAt": "2026-06-23T09:36:06.348617+07:00",
+    "createdAt": "2026-06-23T09:56:07.324882+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 48,
-    "evaluationScore": 6.25,
-    "evalOutcomes": 0,
-    "evalStructure": 4,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
+    "courseCount": 5
   },
   {
-    "id": "61379e26-cc81-4f21-9110-9268bed424ef",
-    "universityId": "1e95a16f-bea2-490f-ae3d-9debafbfb706",
-    "universityName": "Trường Đại học Bách khoa - ĐHQG-HCM",
+    "id": "3a11f6c1-d4cc-46dd-9829-30384985657c",
+    "universityId": "b5e96a23-0889-40f6-a1dd-e147aed2d716",
+    "universityName": "Trường Đại học Khoa học Tự nhiên - ĐHQG-HCM",
     "universityIsPublic": true,
-    "name": "Kỹ thuật Xây dựng Công trình Thủy (2024)",
-    "code": "ky-thuat-xay-dung-cong-trinh-thuy-2024",
+    "name": "Thiết kế vi mạch (75202a1)",
+    "code": "75202a1",
     "degreeType": "Cử nhân",
-    "credits": 131,
+    "credits": 4,
     "duration": "4 năm",
     "tuition": "Theo quy định của Nhà nước và Nhà trường",
     "language": "Tiếng Việt",
     "formOfStudy": "Chính quy",
-    "sourceUrl": "https://drive.google.com/file/d/183luaBPCF-mJ2sUiDdUTTlhsA2t1VF4p/view",
-    "lastCrawled": "2026-06-23T09:36:01.585426+07:00",
-    "description": "Khoa: KHOA KỸ THUẬT XÂY DỰNG\nNăm áp dụng: 2024\nKế hoạch giảng dạy: https://drive.google.com/file/d/1WeeJnwec-uDULFGLRJfbWKTvL-UFBjxu/view",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kỹ thuật Xây dựng Công trình Thủy (2024), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Kỹ thuật Xây dựng Công trình Thủy (2024) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
+    "sourceUrl": "https://tuyensinh.hcmus.edu.vn/nganh-thiet-ke-vi-mach/",
+    "lastCrawled": "2026-06-25T17:41:42.473175+07:00",
+    "description": "Loại chương trình: Chương trình Đại trà\nChỉ tiêu 2026: 80\nPhương thức xét tuyển: Phương thức 1a: Tuyển thẳng và ưu tiên xét tuyển theo Bộ GDĐTPhương thức 2: Xét tuyển dựa trên phương thức kết hợp kết quả kỳ thi tốt nghiệp THPT năm 2026 hay kết quả kỳ thi đánh giá năng lực do ĐHQG-HCM tổ chức năm 2026 theo ngành/nhóm ngành với điểm học bạ 03 năm lớp 10, 11, 12.\nTổ hợp xét tuyển: A00: Toán – Vật lý – Hóa họcA01: Toán – Vật lý – Tiếng AnhA02: Toán – Vật lý – Sinh họcB08: Toán – Tiếng Anh – Sinh họcX06: Toán – Vật lý – Tin họcX26: Toán – Tiếng Anh – Tin học",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Thiết kế vi mạch (75202a1), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Thiết kế vi mạch (75202a1) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "The ability to identify, formulate, and solve complex technical problems in the field of integrated circuit design by applying mathematical and engineering principles combined with digital capabilities and artificial intelligence.\nThe ability to apply engineering design to develop solutions that meet specific needs in the electronics field, integrated circuit design oriented towards innovation and entrepreneurship, while considering health, safety, public welfare, human rights, as well as global, cultural, social, environmental and economic factors.\nThe ability to communicate effectively with a wide range of audiences and stakeholders, including technical experts, leaders, and non-specialist groups, ensures clarity and accuracy in the presentation and transmission of information.\nThe ability to work effectively in a professional team, where members lead together, to create a collaborative and supportive environment, set goals, plan tasks, and achieve common objectives.\nKhả năng xây dựng và thực hiện các thí nghiệm phù hợp trong lĩnh vực điện tử viễn thông, phân tích và giải thích dữ liệu một cách khoa học, đồng thời sử dụng phán đoán kỹ thuật để rút ra kết luận phù hợp với thực tiễn.\nSử dụng thông thạo Tiếng Anh theo quy định.\nKhả năng nhận biết trách nhiệm đạo đức và nghề nghiệp trong các tình huống kỹ thuật, và đưa ra các phán đoán sáng suốt có tính đến tác động của giải pháp kỹ thuật trong bối cảnh toàn cầu, có cân nhắc đến phát triển bền vững đối với kinh tế, môi trường và xã hội.\nKhả năng tiếp thu và áp dụng kiến thức mới để đáp ứng sự phát triển nhanh chóng của công nghệ, thông qua việc vận dụng các chiến lược học tập phù hợp để bảo đảm khả năng học tập suốt đời.\n1. Knowledge\n2. Skills\n3. Mức tự chủ và trách nhiệm",
     "isActive": true,
-    "createdAt": "2026-06-23T09:36:01.585424+07:00",
+    "createdAt": "2026-06-23T09:56:01.275812+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 72,
-    "evaluationScore": 6.04,
-    "evalOutcomes": 0,
-    "evalStructure": 3,
-    "evalKnowledgeBlocks": 5,
-    "evalCompleteness": 5
+    "courseCount": 3
+  },
+  {
+    "id": "32eba3cc-f786-445e-a022-d8618e80a1f4",
+    "universityId": "b5e96a23-0889-40f6-a1dd-e147aed2d716",
+    "universityName": "Trường Đại học Khoa học Tự nhiên - ĐHQG-HCM",
+    "universityIsPublic": true,
+    "name": "Trí tuệ nhân tạo (7480107)",
+    "code": "7480107",
+    "degreeType": "Cử nhân",
+    "credits": 49,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://tuyensinh.hcmus.edu.vn/nganh-tri-tue-nhan-tao/",
+    "lastCrawled": "2026-06-29T00:39:37.423685+07:00",
+    "description": "CTĐT PDF: https://hcmus.edu.vn/wp-content/uploads/2025/03/CTDT_K2024_Tri-tue-nhan-tao.pdf",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Trí tuệ nhân tạo (7480107), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Trí tuệ nhân tạo (7480107) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "1: Knowledge: Fundamental knowledge of Science\n1: Knowledge: Fundamental knowledge in the field of Information Technology\n1: Knowledge: Advanced technical knowledge, tools, and methods in the field of Information Technology\n1: Knowledge: Advanced knowledge in the specialized field\n2: Soft skills: Skills and personal characteristics\n2: Soft skills: Teamwork skills\n2: Soft skills: Communication skills\n2: Soft skills: Foreign language skills\n2: Soft skills: Leadership skills\n2: Soft skills: Entrepreneurship skills\n3: Responsibility and Ethics: External context, social, economic, and environmental\n3: Responsibility and Ethics: Company and business context\n3: Responsibility and Ethics: Ethics, responsibility, and core personal values\n4: Scientific methods and research: Logical reasoning and problem-solving\n4: Scientific methods and research: Experimental investigation and knowledge discovery\n4: Scientific methods and research: Think at the systems level\n5: Hình thành ý tưởng, thiết kế và hiện thực hóa: Hình thành ý tưởng, bài toán, dự án\n5: Hình thành ý tưởng, thiết kế và hiện thực hóa: Thiết kế hệ thống Công nghệ thông tin\n5: Hình thành ý tưởng, thiết kế và hiện thực hóa: Hiện thực hóa\n6: Kiểm chứng, vận hành và bảo trì: Kiểm chứng\n6: Kiểm chứng, vận hành và bảo trì: Vận hành và bảo trì\n6: Kiểm chứng, vận hành và bảo trì: Cải tiến và kết thúc",
+    "isActive": true,
+    "createdAt": "2026-06-23T09:55:53.175462+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 11
+  },
+  {
+    "id": "666e1b5a-4e7b-4269-a05d-b0249ac2532e",
+    "universityId": "b5e96a23-0889-40f6-a1dd-e147aed2d716",
+    "universityName": "Trường Đại học Khoa học Tự nhiên - ĐHQG-HCM",
+    "universityIsPublic": true,
+    "name": "Khoa học Môi trường (7440301)",
+    "code": "7440301",
+    "degreeType": "Cử nhân",
+    "credits": 2,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://tuyensinh.hcmus.edu.vn/nganh-khoa-hoc-moi-truong/",
+    "lastCrawled": "2026-06-25T17:38:51.605525+07:00",
+    "description": "Loại chương trình: Chương trình Đại trà\nChỉ tiêu 2026: 130\nPhương thức xét tuyển: Phương thức 1a: Tuyển thẳng và ưu tiên xét tuyển theo Bộ GDĐTPhương thức 2: Xét tuyển dựa trên phương thức kết hợp kết quả kỳ thi tốt nghiệp THPT năm 2026 hay kết quả kỳ thi đánh giá năng lực do ĐHQG-HCM tổ chức năm 2026 theo ngành/nhóm ngành với điểm học bạ 03 năm lớp 10, 11, 12.\nTổ hợp xét tuyển: A00: Toán – Vật lý – Hóa họcB00: Toán – Sinh học – Hóa họcD07: Toán – Hóa học – Tiếng AnhB08: Toán – Sinh học – Tiếng AnhX10: Toán – Hóa học – Tin họcX14: Toán – Sinh học – Tin học",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Khoa học Môi trường (7440301), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Khoa học Môi trường (7440301) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "The ability to apply basic scientific knowledge in natural sciences (mathematics, physics, chemistry, biology) and social sciences to solve practical problems in the field of environmental science.\nThe ability to understand and apply fundamental environmental knowledge (macroenvironment, earth science) as a scientific foundation to solve practical problems in the field of Environmental Science.\nThe ability to understand and apply basic environmental knowledge regarding land, water, air, management, science and technology, and practical knowledge; the interaction between humans and the environment.\nThe ability to apply knowledge from one of the specialized fields to solve environmental problems in the context of the Fourth Industrial Revolution.\nThe ability to proficiently apply basic computer skills and process environmental data in social interactions and professional activities.\nKỹ năng sử dụng thành thạo các dụng cụ trang thiết bị cơ bản trong quan trắc đánh giá chất lượng môi trường, phần mềm xử lý số liệu, vẽ bản đồ trong giải quyết các vấn đề môi trường\nKhả năng tư duy hiệu quả và nghiên cứu khoa học định hướng cho nghiên cứu của bản thân và ý thức được việc tự học tập tự nghiên cứu và học tập suốt đời từ đó có khả năng tiếp cận và hòa nhập với môi trường công tác sau khi tốt nghiệp\nCó khả năng làm việc độc lập. sẵn sàng chấp nhận rủi ro, kiên trì, linh hoạt, tự tin, tích cực trong môi trường đa văn hóa, có khả năng phát triển nghề nghiệp, khởi nghiệp và đổi mới sáng tạo\nKhả năng tổ chức. khả năng lãnh đạo, lập kế hoạch, làm việc nhóm và giao tiếp hiệu quá trong khoa học, hoạt động nghề nghiệp và giao tiếp xã hội\nKhả năng phân tích bối cảnh xã hội có liên quan đến ngành nghề và phân tích đánh giá một đối tượng cụ thể trong môi trường\nKhả năng phân tích, thiết kế, triển khai và đánh giá một vấn đề môi trường cụ thể nhằm bảo vệ môi trường và phát triển bền vững\nKhả năng sử dụng tiếng Anh giao tiếp và tiếng Anh chuyên ngành thành thạo\nÝ thức văn hóa và đạo đức nghề nghiệp, hiểu biết và tôn trọng luật pháp Việt Nam và các qui định, luật và chính sách môi trường\nHành xử chuyên nghiệp, và luôn cập nhật kiến thức chuyên môn về công nghệ kỹ thuật môi trường\n1. Knowledge\n2. Skills\n3. Thái độ\n4. Trách nhiệm nghề nghiệp",
+    "isActive": true,
+    "createdAt": "2026-06-23T09:55:45.113706+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 2
+  },
+  {
+    "id": "b7e6d594-2427-4421-9b86-de12dbba682d",
+    "universityId": "b5e96a23-0889-40f6-a1dd-e147aed2d716",
+    "universityName": "Trường Đại học Khoa học Tự nhiên - ĐHQG-HCM",
+    "universityIsPublic": true,
+    "name": "Công nghệ Sinh học (7420201)",
+    "code": "7420201",
+    "degreeType": "Cử nhân",
+    "credits": 26,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://tuyensinh.hcmus.edu.vn/nganh-cong-nghe-sinh-hoc/",
+    "lastCrawled": "2026-06-25T17:36:54.297309+07:00",
+    "description": "Loại chương trình: Chương trình Đại trà\nChỉ tiêu 2026: 200\nPhương thức xét tuyển: Phương thức 1a: Tuyển thẳng và ưu tiên xét tuyển theo Bộ GDĐTPhương thức 2: Xét tuyển dựa trên phương thức kết hợp kết quả kỳ thi tốt nghiệp THPT năm 2026 hay kết quả kỳ thi đánh giá năng lực do ĐHQG-HCM tổ chức năm 2026 theo ngành/nhóm ngành với điểm học bạ 03 năm lớp 10, 11, 12.\nTổ hợp xét tuyển: A02: Toán – Vật lý – Sinh họcB00: Toán – Hóa học – Sinh họcB03: Toán – Ngữ Văn – Sinh họcB08: Toán – Tiếng Anh – Sinh họcX15: Toán – Công nghệ công nghiệp – Sinh họcX16: Toán – Công nghệ nông nghiệp – Sinh học",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Công nghệ Sinh học (7420201), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Công nghệ Sinh học (7420201) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "Basic mathematical and scientific knowledge\nSocial science knowledge\nFundamental biological knowledge\nKiến thức chuyên sâu của một trong các lĩnh vực sau: sinh lý thực vật, sinh lý động vật, sinh hóa, vi sinh, di truyền – sinh học phân tử, sinh thái\nThực hành kỹ năng giải quyết vấn đề\nKỹ năng ngoại ngữ và tin học theo yêu cầu của chương trình đào tạo\nKỹ năng trình bày vấn đề khoa học\nKỹ năng thao tác nền tảng trong phòng thí nghiệm\nKỹ năng sinh học cơ bản\nKỹ năng chuyên ngành\nCó tinh thần trách nhiệm, trung thực, kỷ luật\nCó thái độ tôn trọng sự khác biệt\nCó hiểu biết về lịch sử, vai trò và trách nhiệm của cử nhân sinh học với xã hội. ngữ cảnh xã hội và doanh nghiệp, các quy định và hệ thống pháp lý liên quan đến ngành Sinh Học, cách thức các sản phẩm được tạo và bảo vệ\n1. Knowledge\n2. Kỹ năng\n3. Thái độ",
+    "isActive": true,
+    "createdAt": "2026-06-23T09:55:33.029762+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 7
+  },
+  {
+    "id": "9e31fa78-7528-40b1-91b8-f26c302300ea",
+    "universityId": "ac07a5b8-f12e-4657-abd0-c8d1a88944ae",
+    "universityName": "Trường Đại học Công nghệ Thông tin - ĐHQG-HCM",
+    "universityIsPublic": true,
+    "name": "An toàn thông tin (7480202)",
+    "code": "7480202",
+    "degreeType": "Cử nhân",
+    "credits": 124,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://daa.uit.edu.vn/content/ky-su-nganh-toan-thong-tin-ap-dung-tu-khoa-9-2014",
+    "lastCrawled": "2026-06-25T13:33:55.945050+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 170\nPhương thức xét tuyển: Ưu Tiên\nTổ hợp xét tuyển: A00, A01, D01, D07, X06, X26\nTrang tuyển sinh: https://tuyensinh.uit.edu.vn/nganh-dao-tao/nganh-an-toan-thong-tin",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành An toàn thông tin (7480202), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành An toàn thông tin (7480202) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "Chương trình đào tạo kỹ sư tài năng được xây dựng trên nền tảng chương trình khung của ngành An toàn thông tin chính quy, trong đó chuẩn đầu ra của chương trình đào tạo tài năng có những điểm khác biệt đặc trưng so với hệ đào tạo đại trà:\n• Tính chuyên sâu trong các môn học: Chương trình đào tạo hệ kỹ sư tài năng được thiết kế với yêu cầu về kiến thức có nội dung rộng hơn, sâu hơn theo hướng nâng cao, đặc biệt là ở các môn học thuộc chuyên ngành. Bên cạnh các bài giảng mang tính chất chuyên sâu, nội dung kiến thức của các môn học trong hệ tài năng có tính cập nhật cao hơn. Về mặt luyện tập, sinh viên được giảng viên hướng dẫn làm các bài tập và đồ án môn học có chiều sâu và độ phức tạp cao hơn so với đại trà. • Sinh viên hệ Tài năng được thực hiện chuyên đề nghiên cứu khoa học, thực hiện seminar theo hướng dẫn của giảng viên có trình độ từ Tiến sỹ trở lên; được tham gia vào các đề án nghiên cứu khoa học và ứng dụng do các giảng viên làm chủ nhiệm đề tài. Qua đó, sinh viên sẽ được phát triển các kỹ năng về làm việc nhóm và các kỹ năng giao tiếp. • Trên cơ sở thực hiện chuyên đề nghiên cứu và seminar, tất cả sinh viên hệ Tài năng đều làm một khóa luận tốt nghiệp với yêu cầu chất lượng cao hơn đối với sinh viên đại trà; hướng tới việc tham gia viết các bài báo khoa học sẽ được công bố trên các tạp chí khoa học, báo cáo tại hội nghị khoa học chuyên ngành. • Sinh viên hệ Tài năng chủ động, tự tin và mạnh dạn trong việc tiếp cận các vấn đề mới. Có tinh thần làm việc nghiêm túc và có đạo đức khoa học.\nNhư vậy, sinh viên tốt nghiệp hệ Kỹ sư tài năng có năng lực chuyên môn cao hơn, có khả năng tham gia nghiên cứu khoa học và viết các bài báo khoa học. Ngoài ra, sinh viên có khả năng vận dụng kiến thức đã học vào việc giải quyết các vấn đề thực tiễn tốt hơn, đồng thờicó năng lực tham gia các chương trình hợp tác đào tạo với các giáo sư nước ngoài.\nSau khi tốt nghiệp chương trình Kỹ sư ngành An toàn thông tin, sinh viên có thể đảm nhận vị trí làm việc sau:\n• Chuyên gia về an ninh thông tin có khả năng phân tích, ngăn chặn sự cố cho mạng máy tính và các hệ thống thông tin lớn. • Chuyên gia thiết kế và đảm bảo an ninh cho các hệ thống mạng máy tính và truyền thông trong các cơ quan, công ty, tổ chức, trường học. • Cán bộ nghiên cứu và ứng dụng an ninh mạng và bảo mật thông tin ở các Viện, Trung tâm nghiên cứu và các trường Đại học, Cao đẳng. • Giảng viên Công nghệ Thông tin ở các các trường Đại học, Cao đẳng.",
+    "isActive": true,
+    "createdAt": "2026-06-23T09:55:17.579894+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 34
   }
 ]
