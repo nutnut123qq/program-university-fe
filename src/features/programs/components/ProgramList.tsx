@@ -28,9 +28,6 @@ import {
 
 const PAGE_SIZE = 12
 
-/** Admission snapshots are all year-2025 rows; kept explicit per data contract. */
-const SCORE_FILTER_YEAR = 2025
-
 type UniversityWithCode = University & { code?: string | null }
 
 export function ProgramList() {
@@ -127,14 +124,15 @@ export function ProgramList() {
         }
     )
 
-    // Scale options are discovered from the data (all 2025 score rows),
+    // Scale options are discovered from the data (all score rows, any
+    // year — including school-scope scales so users can see they exist),
     // never hardcoded.
     const scoreScaleOptions = useMemo(() => {
         if (!admissionsByCode) return [] as number[]
         const set = new Set<number>()
         for (const adm of admissionsByCode.values()) {
             for (const s of adm?.scores ?? []) {
-                if (s.year === SCORE_FILTER_YEAR && typeof s.scale === "number") {
+                if (typeof s.scale === "number") {
                     set.add(s.scale)
                 }
             }
@@ -150,7 +148,8 @@ export function ProgramList() {
     }, [scoreScaleOptions, scoreScale])
 
     // Method options: distinct program-scope cutoff methods that exist at the
-    // selected scale (rows the filter can actually match).
+    // selected scale (rows the filter can actually match), across all years —
+    // the eligibility check below compares against each program's newest row.
     const scoreMethodOptions = useMemo(() => {
         if (!admissionsByCode || scoreScale == null) {
             return [] as { value: string; label: string }[]
@@ -159,7 +158,6 @@ export function ProgramList() {
         for (const adm of admissionsByCode.values()) {
             for (const s of adm?.scores ?? []) {
                 if (
-                    s.year === SCORE_FILTER_YEAR &&
                     s.scope === "program" &&
                     s.kind === "cutoff" &&
                     s.scale === scoreScale &&
@@ -179,25 +177,36 @@ export function ProgramList() {
     const scoreFilterActive =
         scoreFilterRequested && scoreScale != null && !!admissionsByCode
 
-    // Program ids eligible under the score filter: needs >= 1 row with
-    // scope "program" + matching programId + kind "cutoff" + same scale +
-    // (method if chosen) + score <= userScore. Missing data => excluded.
+    // Program ids eligible under the score filter. Each program is compared
+    // on its NEWEST program-scope cutoff row at the selected scale (+method
+    // if chosen): schools publish different scales in different years (e.g.
+    // UEH moved to scale 100 in 2026), so pinning one global year would
+    // silently drop programs whose latest same-scale cutoff is older.
+    // Missing data => excluded. When several rows share a program's newest
+    // year (e.g. per-campus rows), the lowest score decides eligibility.
     const eligibleProgramIds = useMemo(() => {
         if (!scoreFilterActive || !admissionsByCode || parsedScore == null || scoreScale == null) {
             return null
         }
-        const ids = new Set<string>()
+        const newest = new Map<string, { year: number; score: number }>()
         for (const adm of admissionsByCode.values()) {
             if (!adm) continue
             for (const s of adm.scores ?? []) {
                 if (s.scope !== "program" || s.kind !== "cutoff") continue
-                if (s.year !== SCORE_FILTER_YEAR) continue
                 if (s.scale !== scoreScale) continue
                 if (scoreMethod && s.method !== scoreMethod) continue
-                if (s.programId && typeof s.score === "number" && s.score <= parsedScore) {
-                    ids.add(s.programId)
+                if (!s.programId || typeof s.score !== "number") continue
+                const cur = newest.get(s.programId)
+                if (!cur || s.year > cur.year) {
+                    newest.set(s.programId, { year: s.year, score: s.score })
+                } else if (s.year === cur.year && s.score < cur.score) {
+                    cur.score = s.score
                 }
             }
+        }
+        const ids = new Set<string>()
+        for (const [pid, r] of newest) {
+            if (r.score <= parsedScore) ids.add(pid)
         }
         return ids
     }, [scoreFilterActive, admissionsByCode, parsedScore, scoreScale, scoreMethod])

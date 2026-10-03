@@ -7,7 +7,7 @@ if (process.env.E2E_BASE_URL) {
 }
 
 /**
- * "Tuyển sinh 2025" admission block inside each card of ProgramComparison
+ * "Tuyển sinh <max year>" admission block inside each card of ProgramComparison
  * (/vi/compare). Demo/mock mode — data comes from the real DB exports at
  * public/mock/admissions/<UNI>.json.
  *
@@ -48,7 +48,7 @@ test.describe("Compare page — admission block per side", () => {
         await expect(blocks).toHaveCount(2)
 
         for (const block of await blocks.all()) {
-            await expect(block.getByText("Tuyển sinh 2025")).toBeVisible()
+            await expect(block.getByText("Tuyển sinh 2026")).toBeVisible()
             // FPT rows are context rows — must be labeled as school/group
             // scope, never as per-program data.
             await expect(

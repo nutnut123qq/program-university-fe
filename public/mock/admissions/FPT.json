@@ -1,11 +1,27 @@
 {
   "university": "FPT",
-  "generatedAt": "2026-10-02T16:10:58.539442+00:00",
+  "generatedAt": "2026-10-02T19:33:27.996838+00:00",
   "years": [
     2024,
-    2025
+    2025,
+    2026
   ],
   "scores": [
+    {
+      "programId": null,
+      "year": 2026,
+      "method": "combined",
+      "methodLabel": "Xét tuyển kết hợp thi TN THPT + kết quả học tập lớp 12 (ĐXT = ĐKH + ĐKK + ĐƯT, thang 30)",
+      "scope": "school",
+      "scopeLabel": "Điều kiện dự tuyển — tổng 3 môn thi TN THPT tổ hợp Axx hoặc Cxx (mọi ngành)",
+      "score": 15.0,
+      "scale": 30.0,
+      "kind": "floor",
+      "comboNote": "Ngưỡng đầu vào bắt buộc theo Điều 9 Quy chế TS của Bộ GD&ĐT; riêng ngành Luật có ngưỡng riêng của Bộ.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/thong-bao-tuyen-sinh/thong-bao-tuyen-sinh-truong-dai-hoc-fpt-he-dai-hoc-chinh-quy-nam-2026/",
+      "publishedAt": "2026-04-10",
+      "fetchedAt": "2026-10-03T02:32:38.924625+07:00"
+    },
     {
       "programId": null,
       "year": 2025,
@@ -19,7 +35,7 @@
       "comboNote": null,
       "sourceUrl": "https://daihoc.fpt.edu.vn/tin-noi-bat-muc-tin-tuc/truong-dai-hoc-fpt-cong-bo-ket-qua-tuyen-sinh-2025/",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T23:07:56.268772+07:00"
+      "fetchedAt": "2026-10-03T02:32:38.909259+07:00"
     },
     {
       "programId": null,
@@ -34,7 +50,7 @@
       "comboNote": null,
       "sourceUrl": "https://daihoc.fpt.edu.vn/tin-noi-bat-muc-tin-tuc/truong-dai-hoc-fpt-cong-bo-ket-qua-tuyen-sinh-2025/",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T23:07:56.269372+07:00"
+      "fetchedAt": "2026-10-03T02:32:38.909689+07:00"
     },
     {
       "programId": null,
@@ -49,7 +65,7 @@
       "comboNote": null,
       "sourceUrl": "https://daihoc.fpt.edu.vn/tin-noi-bat-muc-tin-tuc/truong-dai-hoc-fpt-cong-bo-ket-qua-tuyen-sinh-2025/",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T23:07:56.268001+07:00"
+      "fetchedAt": "2026-10-03T02:32:38.908740+07:00"
     },
     {
       "programId": null,
@@ -64,7 +80,7 @@
       "comboNote": null,
       "sourceUrl": "https://daihoc.fpt.edu.vn/tin-noi-bat-muc-tin-tuc/truong-dai-hoc-fpt-cong-bo-ket-qua-tuyen-sinh-2025/",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T23:07:56.265924+07:00"
+      "fetchedAt": "2026-10-03T02:32:38.907888+07:00"
     },
     {
       "programId": null,
@@ -79,22 +95,37 @@
       "comboNote": null,
       "sourceUrl": "https://daihoc.fpt.edu.vn/tin-noi-bat-muc-tin-tuc/truong-dai-hoc-fpt-cong-bo-ket-qua-tuyen-sinh-2025/",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T23:07:56.266955+07:00"
+      "fetchedAt": "2026-10-03T02:32:38.908340+07:00"
     },
     {
       "programId": null,
-      "year": 2025,
-      "method": "thpt_100",
-      "methodLabel": "PT3: Xét Kết quả thi Tốt nghiệp THPT 2025",
+      "year": 2026,
+      "method": "combined",
+      "methodLabel": "Xét tuyển kết hợp thi TN THPT + kết quả học tập lớp 12 (ĐXT = ĐKH + ĐKK + ĐƯT, thang 30)",
       "scope": "school",
       "scopeLabel": "Toàn quốc — mọi ngành & cơ sở đào tạo",
-      "score": 18.5,
+      "score": 18.0,
       "scale": 30.0,
       "kind": "cutoff",
-      "comboNote": null,
-      "sourceUrl": "https://daihoc.fpt.edu.vn/tin-noi-bat-muc-tin-tuc/truong-dai-hoc-fpt-cong-bo-ket-qua-tuyen-sinh-2025/",
-      "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-02T23:07:56.264991+07:00"
+      "comboNote": "ĐXT = ĐKH + ĐKK + ĐƯT; ĐKH = (Điểm thi TN THPT + ĐTB lớp 12 x 3)/2; tổ hợp Axx (Toán + 2 môn bất kỳ) mọi ngành, Cxx (Văn + 2 môn bất kỳ) ngoài CNTT & KHMT.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/thong-bao-tuyen-sinh/truong-dai-hoc-fpt-cong-bo-diem-chuan-nam-2026-tiep-tuc-nhan-ho-so-xet-tuyen-mot-so-nganh/",
+      "publishedAt": "2026-08-09",
+      "fetchedAt": "2026-10-03T02:32:38.923672+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2026,
+      "method": "combined",
+      "methodLabel": "Xét tuyển kết hợp thi TN THPT + kết quả học tập lớp 12 (ĐXT = ĐKH + ĐKK + ĐƯT, thang 30)",
+      "scope": "school",
+      "scopeLabel": "Toàn quốc — mọi ngành & cơ sở đào tạo",
+      "score": 18.0,
+      "scale": 30.0,
+      "kind": "floor",
+      "comboNote": "ĐXT = ĐKH + ĐKK + ĐƯT; ĐKH = (Điểm thi TN THPT + ĐTB lớp 12 x 3)/2; tổ hợp Axx (Toán + 2 môn bất kỳ) mọi ngành, Cxx (Văn + 2 môn bất kỳ) ngoài CNTT & KHMT.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/tin-tuc/truong-dai-hoc-fpt-cong-bo-diem-san-xet-tuyen-he-dai-hoc-chinh-quy-nam-2026/",
+      "publishedAt": "2026-07-01",
+      "fetchedAt": "2026-10-03T02:32:38.922702+07:00"
     },
     {
       "programId": null,
@@ -109,7 +140,22 @@
       "comboNote": "Tổng điểm = môn Toán + 2 môn cao điểm nhất (Ngữ văn, Ngoại ngữ, Vật lý, Hoá học, Sinh học, Lịch sử, Địa lý, GDCD) + điểm ưu tiên; làm tròn 2 chữ số thập phân.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/tin-tuc-chung-2/truong-dai-hoc-fpt-thong-bao-diem-chuan-xet-tuyen-theo-diem-thi-thpt-2024/",
       "publishedAt": "2026-01-06",
-      "fetchedAt": "2026-10-02T23:07:56.469111+07:00"
+      "fetchedAt": "2026-10-03T02:32:38.914139+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2025,
+      "method": "thpt_100",
+      "methodLabel": "PT3: Xét Kết quả thi Tốt nghiệp THPT 2025",
+      "scope": "school",
+      "scopeLabel": "Toàn quốc — mọi ngành & cơ sở đào tạo",
+      "score": 18.5,
+      "scale": 30.0,
+      "kind": "cutoff",
+      "comboNote": null,
+      "sourceUrl": "https://daihoc.fpt.edu.vn/tin-noi-bat-muc-tin-tuc/truong-dai-hoc-fpt-cong-bo-ket-qua-tuyen-sinh-2025/",
+      "publishedAt": "2025-08-22",
+      "fetchedAt": "2026-10-03T02:32:38.907268+07:00"
     }
   ],
   "quotas": [
@@ -138,6 +184,26 @@
       "publishedAt": null
     },
     {
+      "programId": "7e68f1d7-998b-4bc2-a9d0-f52784b024f0",
+      "year": 2026,
+      "scope": "program",
+      "scopeLabel": "Ngành Công nghệ thông tin",
+      "quota": 7926,
+      "methodSplit": null,
+      "sourceUrl": "https://daihoc.fpt.edu.vn/quy-che-tuyen-sinh-2026/",
+      "publishedAt": null
+    },
+    {
+      "programId": "7e68f1d7-998b-4bc2-a9d0-f52784b024f0",
+      "year": 2026,
+      "scope": "program",
+      "scopeLabel": "Ngành Công nghệ thông tin — chỉ tiêu xét tuyển bổ sung 2026",
+      "quota": 400,
+      "methodSplit": null,
+      "sourceUrl": "https://daihoc.fpt.edu.vn/thong-bao-tuyen-sinh/truong-dai-hoc-fpt-cong-bo-diem-chuan-nam-2026-tiep-tuc-nhan-ho-so-xet-tuyen-mot-so-nganh/",
+      "publishedAt": "2026-08-09"
+    },
+    {
       "programId": "39cecea8-a271-4466-918f-8a6c4b560536",
       "year": 2025,
       "scope": "program",
@@ -146,6 +212,26 @@
       "methodSplit": null,
       "sourceUrl": "https://daihoc.fpt.edu.vn/tin-noi-bat-muc-tin-tuc/thong-tin-tuyen-sinh-nam-2025/",
       "publishedAt": "2025-06-14"
+    },
+    {
+      "programId": "39cecea8-a271-4466-918f-8a6c4b560536",
+      "year": 2026,
+      "scope": "program",
+      "scopeLabel": "Ngành Luật",
+      "quota": 360,
+      "methodSplit": null,
+      "sourceUrl": "https://daihoc.fpt.edu.vn/quy-che-tuyen-sinh-2026/",
+      "publishedAt": null
+    },
+    {
+      "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
+      "year": 2026,
+      "scope": "program",
+      "scopeLabel": "Ngành Ngôn ngữ Anh",
+      "quota": 408,
+      "methodSplit": null,
+      "sourceUrl": "https://daihoc.fpt.edu.vn/quy-che-tuyen-sinh-2026/",
+      "publishedAt": null
     },
     {
       "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
@@ -172,6 +258,16 @@
       "publishedAt": null
     },
     {
+      "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
+      "year": 2026,
+      "scope": "program",
+      "scopeLabel": "Ngành Ngôn ngữ Anh — chỉ tiêu xét tuyển bổ sung 2026",
+      "quota": 100,
+      "methodSplit": null,
+      "sourceUrl": "https://daihoc.fpt.edu.vn/thong-bao-tuyen-sinh/truong-dai-hoc-fpt-cong-bo-diem-chuan-nam-2026-tiep-tuc-nhan-ho-so-xet-tuyen-mot-so-nganh/",
+      "publishedAt": "2026-08-09"
+    },
+    {
       "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
       "year": 2024,
       "scope": "program",
@@ -194,6 +290,26 @@
       "methodSplit": null,
       "sourceUrl": "https://daihoc.fpt.edu.vn/tin-noi-bat-muc-tin-tuc/thong-tin-tuyen-sinh-nam-2025/",
       "publishedAt": "2025-06-14"
+    },
+    {
+      "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
+      "year": 2026,
+      "scope": "program",
+      "scopeLabel": "Ngành Ngôn ngữ Hàn Quốc",
+      "quota": 184,
+      "methodSplit": null,
+      "sourceUrl": "https://daihoc.fpt.edu.vn/quy-che-tuyen-sinh-2026/",
+      "publishedAt": null
+    },
+    {
+      "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
+      "year": 2026,
+      "scope": "program",
+      "scopeLabel": "Ngành Ngôn ngữ Hàn Quốc — chỉ tiêu xét tuyển bổ sung 2026 (Chỉ tuyển tại cơ sở Hà Nội và Cần Thơ)",
+      "quota": 100,
+      "methodSplit": null,
+      "sourceUrl": "https://daihoc.fpt.edu.vn/thong-bao-tuyen-sinh/truong-dai-hoc-fpt-cong-bo-diem-chuan-nam-2026-tiep-tuc-nhan-ho-so-xet-tuyen-mot-so-nganh/",
+      "publishedAt": "2026-08-09"
     },
     {
       "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
@@ -220,6 +336,36 @@
       "publishedAt": null
     },
     {
+      "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
+      "year": 2026,
+      "scope": "program",
+      "scopeLabel": "Ngành Ngôn ngữ Trung Quốc",
+      "quota": 222,
+      "methodSplit": null,
+      "sourceUrl": "https://daihoc.fpt.edu.vn/quy-che-tuyen-sinh-2026/",
+      "publishedAt": null
+    },
+    {
+      "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
+      "year": 2026,
+      "scope": "program",
+      "scopeLabel": "Ngành Ngôn ngữ Trung Quốc — chỉ tiêu xét tuyển bổ sung 2026",
+      "quota": 100,
+      "methodSplit": null,
+      "sourceUrl": "https://daihoc.fpt.edu.vn/thong-bao-tuyen-sinh/truong-dai-hoc-fpt-cong-bo-diem-chuan-nam-2026-tiep-tuc-nhan-ho-so-xet-tuyen-mot-so-nganh/",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
+      "year": 2025,
+      "scope": "program",
+      "scopeLabel": "Ngành Quản trị kinh doanh",
+      "quota": 4022,
+      "methodSplit": null,
+      "sourceUrl": "https://daihoc.fpt.edu.vn/tin-noi-bat-muc-tin-tuc/thong-tin-tuyen-sinh-nam-2025/",
+      "publishedAt": "2025-06-14"
+    },
+    {
       "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
       "year": 2024,
       "scope": "program",
@@ -235,13 +381,23 @@
     },
     {
       "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
-      "year": 2025,
+      "year": 2026,
       "scope": "program",
       "scopeLabel": "Ngành Quản trị kinh doanh",
-      "quota": 4022,
+      "quota": 4367,
       "methodSplit": null,
-      "sourceUrl": "https://daihoc.fpt.edu.vn/tin-noi-bat-muc-tin-tuc/thong-tin-tuyen-sinh-nam-2025/",
-      "publishedAt": "2025-06-14"
+      "sourceUrl": "https://daihoc.fpt.edu.vn/quy-che-tuyen-sinh-2026/",
+      "publishedAt": null
+    },
+    {
+      "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
+      "year": 2026,
+      "scope": "program",
+      "scopeLabel": "Ngành Quản trị kinh doanh — chỉ tiêu xét tuyển bổ sung 2026",
+      "quota": 400,
+      "methodSplit": null,
+      "sourceUrl": "https://daihoc.fpt.edu.vn/thong-bao-tuyen-sinh/truong-dai-hoc-fpt-cong-bo-diem-chuan-nam-2026-tiep-tuc-nhan-ho-so-xet-tuyen-mot-so-nganh/",
+      "publishedAt": "2026-08-09"
     },
     {
       "programId": null,
@@ -262,11 +418,34 @@
       "methodSplit": null,
       "sourceUrl": "https://daihoc.fpt.edu.vn/tin-noi-bat-muc-tin-tuc/thong-tin-tuyen-sinh-nam-2025/",
       "publishedAt": "2025-06-14"
+    },
+    {
+      "programId": null,
+      "year": 2026,
+      "scope": "school",
+      "scopeLabel": "Tổng số lượng tuyển sinh toàn trường 2026 (ĐH chính quy)",
+      "quota": 14677,
+      "methodSplit": null,
+      "sourceUrl": "https://daihoc.fpt.edu.vn/quy-che-tuyen-sinh-2026/",
+      "publishedAt": null
     }
   ],
   "tuitions": [
     {
-      "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
+      "programId": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ thông tin.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "7e68f1d7-998b-4bc2-a9d0-f52784b024f0",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -305,46 +484,20 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "7e68f1d7-998b-4bc2-a9d0-f52784b024f0",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ thông tin.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ thông tin.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ thông tin; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ thông tin.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
       "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ thông tin.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "7e68f1d7-998b-4bc2-a9d0-f52784b024f0",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
       "minAmount": null,
@@ -370,6 +523,32 @@
       "publishedAt": "2026-01-20"
     },
     {
+      "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ thông tin; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ thông tin.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ thông tin; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ thông tin.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
       "programId": "7d01be9a-a039-40ed-a670-f49bac3d0fa7",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
@@ -383,46 +562,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "7e68f1d7-998b-4bc2-a9d0-f52784b024f0",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ thông tin; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ thông tin.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "5fcb53e1-1873-4f73-838b-2fba3286eda9",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
+      "programId": "8e5c40be-7708-4eb5-bc24-06be98ee71b6",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -448,6 +588,19 @@
       "publishedAt": "2026-01-20"
     },
     {
+      "programId": "5fcb53e1-1873-4f73-838b-2fba3286eda9",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
       "programId": "25f14031-ecf4-4601-b8c5-5bb6a856429d",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
@@ -461,46 +614,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "8e5c40be-7708-4eb5-bc24-06be98ee71b6",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
+      "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
       "minAmount": null,
@@ -528,38 +642,51 @@
     {
       "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
       "academicYear": "2026-2027",
-      "amount": 10840000.0,
+      "amount": 15480000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Công nghệ truyền thông.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "25f14031-ecf4-4601-b8c5-5bb6a856429d",
+      "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
       "academicYear": "2026-2027",
-      "amount": 10840000.0,
+      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Công nghệ truyền thông.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "5ad6598a-59b9-40da-a3de-806c82f684bc",
+      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
       "academicYear": "2026-2027",
-      "amount": 10840000.0,
+      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Công nghệ truyền thông.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
       "publishedAt": "2026-01-20"
@@ -578,48 +705,35 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "5fcb53e1-1873-4f73-838b-2fba3286eda9",
-      "academicYear": "2026-2027",
-      "amount": 10840000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
-      "academicYear": "2026-2027",
-      "amount": 10840000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
-      "academicYear": "2026-2027",
-      "amount": 10840000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
       "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
+      "academicYear": "2026-2027",
+      "amount": 10840000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "5fcb53e1-1873-4f73-838b-2fba3286eda9",
+      "academicYear": "2026-2027",
+      "amount": 10840000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -646,6 +760,58 @@
       "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "5ad6598a-59b9-40da-a3de-806c82f684bc",
+      "academicYear": "2026-2027",
+      "amount": 10840000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
+      "academicYear": "2026-2027",
+      "amount": 10840000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "25f14031-ecf4-4601-b8c5-5bb6a856429d",
+      "academicYear": "2026-2027",
+      "amount": 10840000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
+      "academicYear": "2026-2027",
+      "amount": 10840000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -721,6 +887,84 @@
       "publishedAt": "2026-01-20"
     },
     {
+      "programId": "ce5bcf46-1f65-4017-97e9-ac23002273bd",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "af76eff5-5f52-409b-ad74-1f62cf804904",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "92679b5c-ab2f-4a74-b11f-c3a5031b692b",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
       "programId": "4a2f0285-d94c-486a-ab41-b439a68dae09",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
@@ -747,7 +991,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
+      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -760,7 +1004,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "92679b5c-ab2f-4a74-b11f-c3a5031b692b",
+      "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -773,7 +1017,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "ce5bcf46-1f65-4017-97e9-ac23002273bd",
+      "programId": "9dd6a6bb-796f-49de-9df0-35778dce3c52",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -786,20 +1030,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "ee7c20ba-771c-4ec6-992e-82d8d7e5d040",
+      "programId": "b368879e-c3f4-4eb1-bbba-402def24e541",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -825,20 +1056,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "af76eff5-5f52-409b-ad74-1f62cf804904",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "b368879e-c3f4-4eb1-bbba-402def24e541",
+      "programId": "ee7c20ba-771c-4ec6-992e-82d8d7e5d040",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -851,20 +1069,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "9dd6a6bb-796f-49de-9df0-35778dce3c52",
+      "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -879,45 +1084,6 @@
     {
       "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
       "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
-      "academicYear": "2026-2027",
       "amount": 15480000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -942,7 +1108,20 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "92679b5c-ab2f-4a74-b11f-c3a5031b692b",
+      "programId": "4a2f0285-d94c-486a-ab41-b439a68dae09",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
       "minAmount": null,
@@ -968,7 +1147,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
+      "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
       "minAmount": null,
@@ -981,9 +1160,48 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "af76eff5-5f52-409b-ad74-1f62cf804904",
+      "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
       "academicYear": "2026-2027",
-      "amount": 10840000.0,
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "ee7c20ba-771c-4ec6-992e-82d8d7e5d040",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "b368879e-c3f4-4eb1-bbba-402def24e541",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -1020,9 +1238,9 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "b368879e-c3f4-4eb1-bbba-402def24e541",
+      "programId": "af76eff5-5f52-409b-ad74-1f62cf804904",
       "academicYear": "2026-2027",
-      "amount": 15480000.0,
+      "amount": 10840000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -1033,33 +1251,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "ee7c20ba-771c-4ec6-992e-82d8d7e5d040",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "4a2f0285-d94c-486a-ab41-b439a68dae09",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
+      "programId": "92679b5c-ab2f-4a74-b11f-c3a5031b692b",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
       "minAmount": null,
@@ -1085,19 +1277,6 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
       "programId": "336978be-76d8-44fb-b513-c50c430472a9",
       "academicYear": "2026-2027",
       "amount": 10840000.0,
@@ -1111,46 +1290,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Cần Thơ — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-can-tho/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "7d01be9a-a039-40ed-a670-f49bac3d0fa7",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ thông tin.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
       "programId": "2ecd5d44-6c74-4987-ba62-984d6284b551",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ thông tin.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -1191,6 +1331,58 @@
     {
       "programId": "7d01be9a-a039-40ed-a670-f49bac3d0fa7",
       "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ thông tin.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ thông tin.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ thông tin; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ thông tin.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "2ecd5d44-6c74-4987-ba62-984d6284b551",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ thông tin; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ thông tin.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "7d01be9a-a039-40ed-a670-f49bac3d0fa7",
+      "academicYear": "2026-2027",
       "amount": 15480000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -1228,98 +1420,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "2ecd5d44-6c74-4987-ba62-984d6284b551",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ thông tin; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ thông tin.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ thông tin; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ thông tin.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
       "programId": "d1326d9c-51b2-4a5a-92df-eaa81eed933f",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "8e5c40be-7708-4eb5-bc24-06be98ee71b6",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -1358,9 +1459,35 @@
       "publishedAt": "2026-01-20"
     },
     {
+      "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
       "programId": "25f14031-ecf4-4601-b8c5-5bb6a856429d",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -1384,22 +1511,48 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
+      "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Công nghệ truyền thông.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
+      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
       "academicYear": "2026-2027",
-      "amount": 15480000.0,
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "8e5c40be-7708-4eb5-bc24-06be98ee71b6",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "5fcb53e1-1873-4f73-838b-2fba3286eda9",
+      "academicYear": "2026-2027",
+      "amount": 10840000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -1423,9 +1576,9 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "25f14031-ecf4-4601-b8c5-5bb6a856429d",
+      "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
       "academicYear": "2026-2027",
-      "amount": 10840000.0,
+      "amount": 15480000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -1436,33 +1589,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "5ad6598a-59b9-40da-a3de-806c82f684bc",
-      "academicYear": "2026-2027",
-      "amount": 10840000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
-      "academicYear": "2026-2027",
-      "amount": 10840000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "8e5c40be-7708-4eb5-bc24-06be98ee71b6",
+      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
       "minAmount": null,
@@ -1488,7 +1615,33 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "5fcb53e1-1873-4f73-838b-2fba3286eda9",
+      "programId": "8e5c40be-7708-4eb5-bc24-06be98ee71b6",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
+      "academicYear": "2026-2027",
+      "amount": 10840000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "5ad6598a-59b9-40da-a3de-806c82f684bc",
       "academicYear": "2026-2027",
       "amount": 10840000.0,
       "minAmount": null,
@@ -1514,15 +1667,15 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "50b5beda-249c-4a02-ac9b-1a83bdce979e",
+      "programId": "25f14031-ecf4-4601-b8c5-5bb6a856429d",
       "academicYear": "2026-2027",
-      "amount": 15480000.0,
+      "amount": 10840000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Luật; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Luật.",
+      "appliesTo": "Campus Đà Nẵng — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
       "publishedAt": "2026-01-20"
     },
@@ -1542,12 +1695,12 @@
     {
       "programId": "50b5beda-249c-4a02-ac9b-1a83bdce979e",
       "academicYear": "2026-2027",
-      "amount": 10840000.0,
+      "amount": 15480000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Luật; thí sinh Khu vực 1",
+      "appliesTo": "Campus Đà Nẵng — Ngành Luật; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Luật.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
       "publishedAt": "2026-01-20"
@@ -1566,7 +1719,20 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "ce5bcf46-1f65-4017-97e9-ac23002273bd",
+      "programId": "50b5beda-249c-4a02-ac9b-1a83bdce979e",
+      "academicYear": "2026-2027",
+      "amount": 10840000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Luật; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Luật.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -1592,7 +1758,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
+      "programId": "b368879e-c3f4-4eb1-bbba-402def24e541",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -1605,7 +1771,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
+      "programId": "ee7c20ba-771c-4ec6-992e-82d8d7e5d040",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -1618,59 +1784,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "5404f65c-698b-48e4-b962-290a348188ae",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "4a2f0285-d94c-486a-ab41-b439a68dae09",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "92679b5c-ab2f-4a74-b11f-c3a5031b692b",
+      "programId": "9dd6a6bb-796f-49de-9df0-35778dce3c52",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -1696,7 +1810,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "ee7c20ba-771c-4ec6-992e-82d8d7e5d040",
+      "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -1735,20 +1849,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "b368879e-c3f4-4eb1-bbba-402def24e541",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "9dd6a6bb-796f-49de-9df0-35778dce3c52",
+      "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -1774,27 +1875,40 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "af76eff5-5f52-409b-ad74-1f62cf804904",
+      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
       "academicYear": "2026-2027",
-      "amount": 10840000.0,
+      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Quản trị kinh doanh.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
+      "programId": "4a2f0285-d94c-486a-ab41-b439a68dae09",
       "academicYear": "2026-2027",
-      "amount": 15480000.0,
+      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "5404f65c-698b-48e4-b962-290a348188ae",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Quản trị kinh doanh.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
       "publishedAt": "2026-01-20"
@@ -1802,51 +1916,25 @@
     {
       "programId": "ce5bcf46-1f65-4017-97e9-ac23002273bd",
       "academicYear": "2026-2027",
-      "amount": 15480000.0,
+      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Quản trị kinh doanh.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "ec29468e-1c36-4d81-9018-ec0ac946ebb2",
+      "programId": "92679b5c-ab2f-4a74-b11f-c3a5031b692b",
       "academicYear": "2026-2027",
-      "amount": 15480000.0,
+      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "b368879e-c3f4-4eb1-bbba-402def24e541",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Quản trị kinh doanh.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
       "publishedAt": "2026-01-20"
@@ -1878,6 +1966,32 @@
       "publishedAt": "2026-01-20"
     },
     {
+      "programId": "5404f65c-698b-48e4-b962-290a348188ae",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
       "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
@@ -1891,7 +2005,20 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "92679b5c-ab2f-4a74-b11f-c3a5031b692b",
+      "programId": "ec29468e-1c36-4d81-9018-ec0ac946ebb2",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
       "minAmount": null,
@@ -1930,7 +2057,33 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
+      "programId": "336978be-76d8-44fb-b513-c50c430472a9",
+      "academicYear": "2026-2027",
+      "amount": 10840000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "af76eff5-5f52-409b-ad74-1f62cf804904",
+      "academicYear": "2026-2027",
+      "amount": 10840000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "b368879e-c3f4-4eb1-bbba-402def24e541",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
       "minAmount": null,
@@ -1943,9 +2096,35 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "336978be-76d8-44fb-b513-c50c430472a9",
+      "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
       "academicYear": "2026-2027",
-      "amount": 10840000.0,
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "92679b5c-ab2f-4a74-b11f-c3a5031b692b",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "ce5bcf46-1f65-4017-97e9-ac23002273bd",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -1969,20 +2148,20 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "5404f65c-698b-48e4-b962-290a348188ae",
+      "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
       "academicYear": "2026-2027",
-      "amount": 15480000.0,
+      "amount": 31600000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Đà Nẵng — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-da-nang/",
-      "publishedAt": "2026-01-20"
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ thông tin.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
     },
     {
-      "programId": "7e68f1d7-998b-4bc2-a9d0-f52784b024f0",
+      "programId": "7d01be9a-a039-40ed-a670-f49bac3d0fa7",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -2021,7 +2200,7 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "7d01be9a-a039-40ed-a670-f49bac3d0fa7",
+      "programId": "7e68f1d7-998b-4bc2-a9d0-f52784b024f0",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -2034,14 +2213,27 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
+      "programId": "2ecd5d44-6c74-4987-ba62-984d6284b551",
       "academicYear": "2026-2027",
-      "amount": 31600000.0,
+      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ thông tin; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ thông tin.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ thông tin; thí sinh Khu vực 1",
       "notes": "Ngành: Ngành Công nghệ thông tin.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
       "publishedAt": "2026-01-14"
@@ -2060,7 +2252,7 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "2ecd5d44-6c74-4987-ba62-984d6284b551",
+      "programId": "7d01be9a-a039-40ed-a670-f49bac3d0fa7",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -2086,33 +2278,20 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "7d01be9a-a039-40ed-a670-f49bac3d0fa7",
+      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
       "academicYear": "2026-2027",
-      "amount": 22120000.0,
+      "amount": 31600000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ thông tin; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ thông tin.",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ thông tin; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ thông tin.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "d1326d9c-51b2-4a5a-92df-eaa81eed933f",
+      "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -2138,48 +2317,9 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "5fcb53e1-1873-4f73-838b-2fba3286eda9",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
+      "programId": "d1326d9c-51b2-4a5a-92df-eaa81eed933f",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "5ad6598a-59b9-40da-a3de-806c82f684bc",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -2203,32 +2343,6 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
       "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
@@ -2237,19 +2351,6 @@
       "currency": "VND",
       "basis": "per_semester",
       "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "8e5c40be-7708-4eb5-bc24-06be98ee71b6",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
       "notes": "Ngành: Ngành Công nghệ truyền thông.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
       "publishedAt": "2026-01-14"
@@ -2257,12 +2358,12 @@
     {
       "programId": "5fcb53e1-1873-4f73-838b-2fba3286eda9",
       "academicYear": "2026-2027",
-      "amount": 15480000.0,
+      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Công nghệ truyền thông.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
       "publishedAt": "2026-01-14"
@@ -2270,25 +2371,12 @@
     {
       "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
       "academicYear": "2026-2027",
-      "amount": 15480000.0,
+      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Công nghệ truyền thông.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
       "publishedAt": "2026-01-14"
@@ -2296,12 +2384,12 @@
     {
       "programId": "5ad6598a-59b9-40da-a3de-806c82f684bc",
       "academicYear": "2026-2027",
-      "amount": 15480000.0,
+      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Công nghệ truyền thông.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
       "publishedAt": "2026-01-14"
@@ -2309,38 +2397,12 @@
     {
       "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
       "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
-      "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Công nghệ truyền thông.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
       "publishedAt": "2026-01-14"
@@ -2359,9 +2421,113 @@
       "publishedAt": "2026-01-14"
     },
     {
+      "programId": "5fcb53e1-1873-4f73-838b-2fba3286eda9",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "5ad6598a-59b9-40da-a3de-806c82f684bc",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
       "programId": "25f14031-ecf4-4601-b8c5-5bb6a856429d",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "8e5c40be-7708-4eb5-bc24-06be98ee71b6",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -2398,19 +2564,6 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "39cecea8-a271-4466-918f-8a6c4b560536",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Luật; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Luật.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
       "programId": "50b5beda-249c-4a02-ac9b-1a83bdce979e",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
@@ -2424,41 +2577,15 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "5404f65c-698b-48e4-b962-290a348188ae",
+      "programId": "39cecea8-a271-4466-918f-8a6c4b560536",
       "academicYear": "2026-2027",
-      "amount": 31600000.0,
+      "amount": 15480000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "b368879e-c3f4-4eb1-bbba-402def24e541",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "ec29468e-1c36-4d81-9018-ec0ac946ebb2",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "appliesTo": "Campus Hà Nội — Ngành Luật; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Luật.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
       "publishedAt": "2026-01-14"
     },
@@ -2476,72 +2603,7 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "af76eff5-5f52-409b-ad74-1f62cf804904",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "ee7c20ba-771c-4ec6-992e-82d8d7e5d040",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
       "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "ce5bcf46-1f65-4017-97e9-ac23002273bd",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -2567,7 +2629,7 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
+      "programId": "ce5bcf46-1f65-4017-97e9-ac23002273bd",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -2580,7 +2642,7 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
+      "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -2593,7 +2655,7 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
+      "programId": "ee7c20ba-771c-4ec6-992e-82d8d7e5d040",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -2606,7 +2668,33 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "4a2f0285-d94c-486a-ab41-b439a68dae09",
+      "programId": "af76eff5-5f52-409b-ad74-1f62cf804904",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "ec29468e-1c36-4d81-9018-ec0ac946ebb2",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "b368879e-c3f4-4eb1-bbba-402def24e541",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -2632,20 +2720,85 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "336978be-76d8-44fb-b513-c50c430472a9",
+      "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
       "academicYear": "2026-2027",
-      "amount": 15480000.0,
+      "amount": 31600000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Quản trị kinh doanh.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
+      "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "5404f65c-698b-48e4-b962-290a348188ae",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "4a2f0285-d94c-486a-ab41-b439a68dae09",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -2685,6 +2838,45 @@
     },
     {
       "programId": "ee7c20ba-771c-4ec6-992e-82d8d7e5d040",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "336978be-76d8-44fb-b513-c50c430472a9",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
+      "publishedAt": "2026-01-14"
+    },
+    {
+      "programId": "92679b5c-ab2f-4a74-b11f-c3a5031b692b",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -2775,19 +2967,6 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
       "programId": "5404f65c-698b-48e4-b962-290a348188ae",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
@@ -2801,7 +2980,7 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
+      "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -2814,20 +2993,7 @@
       "publishedAt": "2026-01-14"
     },
     {
-      "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Hà Nội — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-ha-noi/",
-      "publishedAt": "2026-01-14"
-    },
-    {
-      "programId": "92679b5c-ab2f-4a74-b11f-c3a5031b692b",
+      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -2905,32 +3071,6 @@
       "publishedAt": null
     },
     {
-      "programId": "7d01be9a-a039-40ed-a670-f49bac3d0fa7",
-      "academicYear": "2026-2027",
-      "amount": 15800000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ thông tin.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
-      "academicYear": "2026-2027",
-      "amount": 15800000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ thông tin.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
       "programId": "7e68f1d7-998b-4bc2-a9d0-f52784b024f0",
       "academicYear": "2026-2027",
       "amount": 15800000.0,
@@ -2957,7 +3097,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
+      "programId": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
       "academicYear": "2026-2027",
       "amount": 15800000.0,
       "minAmount": null,
@@ -2970,14 +3110,27 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "7e68f1d7-998b-4bc2-a9d0-f52784b024f0",
+      "programId": "7d01be9a-a039-40ed-a670-f49bac3d0fa7",
       "academicYear": "2026-2027",
-      "amount": 11060000.0,
+      "amount": 15800000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ thông tin; thí sinh Khu vực 1",
+      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ thông tin.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
+      "academicYear": "2026-2027",
+      "amount": 15800000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Công nghệ thông tin.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
       "publishedAt": "2026-01-20"
@@ -2996,7 +3149,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
+      "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
       "academicYear": "2026-2027",
       "amount": 11060000.0,
       "minAmount": null,
@@ -3009,7 +3162,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
+      "programId": "7e68f1d7-998b-4bc2-a9d0-f52784b024f0",
       "academicYear": "2026-2027",
       "amount": 11060000.0,
       "minAmount": null,
@@ -3035,46 +3188,20 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "5ad6598a-59b9-40da-a3de-806c82f684bc",
+      "programId": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
       "academicYear": "2026-2027",
       "amount": 11060000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ thông tin; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ thông tin.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
       "publishedAt": "2026-01-20"
     },
     {
       "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
-      "academicYear": "2026-2027",
-      "amount": 15800000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
-      "academicYear": "2026-2027",
-      "amount": 11060000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "d1326d9c-51b2-4a5a-92df-eaa81eed933f",
       "academicYear": "2026-2027",
       "amount": 15800000.0,
       "minAmount": null,
@@ -3100,9 +3227,9 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
+      "programId": "25f14031-ecf4-4601-b8c5-5bb6a856429d",
       "academicYear": "2026-2027",
-      "amount": 15800000.0,
+      "amount": 11060000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -3114,6 +3241,45 @@
     },
     {
       "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
+      "academicYear": "2026-2027",
+      "amount": 11060000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
+      "academicYear": "2026-2027",
+      "amount": 11060000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "5ad6598a-59b9-40da-a3de-806c82f684bc",
+      "academicYear": "2026-2027",
+      "amount": 11060000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
       "academicYear": "2026-2027",
       "amount": 11060000.0,
       "minAmount": null,
@@ -3139,9 +3305,9 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
+      "programId": "d1326d9c-51b2-4a5a-92df-eaa81eed933f",
       "academicYear": "2026-2027",
-      "amount": 11060000.0,
+      "amount": 15800000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -3152,14 +3318,27 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "25f14031-ecf4-4601-b8c5-5bb6a856429d",
+      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
+      "academicYear": "2026-2027",
+      "amount": 15800000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
       "academicYear": "2026-2027",
       "amount": 11060000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
       "notes": "Ngành: Ngành Công nghệ truyền thông.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
       "publishedAt": "2026-01-20"
@@ -3191,7 +3370,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "25f14031-ecf4-4601-b8c5-5bb6a856429d",
+      "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
       "academicYear": "2026-2027",
       "amount": 7740000.0,
       "minAmount": null,
@@ -3217,33 +3396,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
-      "academicYear": "2026-2027",
-      "amount": 11060000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "901bb98d-21c7-4161-89d4-d61b9854455a",
-      "academicYear": "2026-2027",
-      "amount": 7740000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "5ad6598a-59b9-40da-a3de-806c82f684bc",
+      "programId": "25f14031-ecf4-4601-b8c5-5bb6a856429d",
       "academicYear": "2026-2027",
       "amount": 7740000.0,
       "minAmount": null,
@@ -3282,6 +3435,19 @@
       "publishedAt": "2026-01-20"
     },
     {
+      "programId": "5ad6598a-59b9-40da-a3de-806c82f684bc",
+      "academicYear": "2026-2027",
+      "amount": 7740000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
       "programId": "d1326d9c-51b2-4a5a-92df-eaa81eed933f",
       "academicYear": "2026-2027",
       "amount": 11060000.0,
@@ -3295,19 +3461,6 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "39cecea8-a271-4466-918f-8a6c4b560536",
-      "academicYear": "2026-2027",
-      "amount": 11060000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Luật; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Luật.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
       "programId": "50b5beda-249c-4a02-ac9b-1a83bdce979e",
       "academicYear": "2026-2027",
       "amount": 11060000.0,
@@ -3323,12 +3476,12 @@
     {
       "programId": "39cecea8-a271-4466-918f-8a6c4b560536",
       "academicYear": "2026-2027",
-      "amount": 7740000.0,
+      "amount": 11060000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Luật; thí sinh Khu vực 1",
+      "appliesTo": "Campus Quy Nhơn — Ngành Luật; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Luật.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
       "publishedAt": "2026-01-20"
@@ -3347,7 +3500,20 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
+      "programId": "39cecea8-a271-4466-918f-8a6c4b560536",
+      "academicYear": "2026-2027",
+      "amount": 7740000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Luật; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Luật.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "ce5bcf46-1f65-4017-97e9-ac23002273bd",
       "academicYear": "2026-2027",
       "amount": 15800000.0,
       "minAmount": null,
@@ -3360,7 +3526,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
+      "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
       "academicYear": "2026-2027",
       "amount": 15800000.0,
       "minAmount": null,
@@ -3386,87 +3552,22 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "4a2f0285-d94c-486a-ab41-b439a68dae09",
-      "academicYear": "2026-2027",
-      "amount": 15800000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "ce5bcf46-1f65-4017-97e9-ac23002273bd",
-      "academicYear": "2026-2027",
-      "amount": 15800000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "5404f65c-698b-48e4-b962-290a348188ae",
-      "academicYear": "2026-2027",
-      "amount": 15800000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
-      "academicYear": "2026-2027",
-      "amount": 15800000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "ee7c20ba-771c-4ec6-992e-82d8d7e5d040",
-      "academicYear": "2026-2027",
-      "amount": 15800000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "336978be-76d8-44fb-b513-c50c430472a9",
-      "academicYear": "2026-2027",
-      "amount": 11060000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
       "programId": "ec29468e-1c36-4d81-9018-ec0ac946ebb2",
       "academicYear": "2026-2027",
       "amount": 15800000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "af76eff5-5f52-409b-ad74-1f62cf804904",
+      "academicYear": "2026-2027",
+      "amount": 11060000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -3503,45 +3604,6 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
-      "academicYear": "2026-2027",
-      "amount": 15800000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "af76eff5-5f52-409b-ad74-1f62cf804904",
-      "academicYear": "2026-2027",
-      "amount": 11060000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
-      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
-      "academicYear": "2026-2027",
-      "amount": 15800000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
-      "publishedAt": "2026-01-20"
-    },
-    {
       "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
       "academicYear": "2026-2027",
       "amount": 15800000.0,
@@ -3555,14 +3617,14 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "ce5bcf46-1f65-4017-97e9-ac23002273bd",
+      "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
       "academicYear": "2026-2027",
-      "amount": 11060000.0,
+      "amount": 15800000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Quản trị kinh doanh.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
       "publishedAt": "2026-01-20"
@@ -3570,18 +3632,96 @@
     {
       "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
       "academicYear": "2026-2027",
-      "amount": 11060000.0,
+      "amount": 15800000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "5404f65c-698b-48e4-b962-290a348188ae",
+      "academicYear": "2026-2027",
+      "amount": 15800000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Quản trị kinh doanh.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
       "publishedAt": "2026-01-20"
     },
     {
       "programId": "4a2f0285-d94c-486a-ab41-b439a68dae09",
+      "academicYear": "2026-2027",
+      "amount": 15800000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "336978be-76d8-44fb-b513-c50c430472a9",
+      "academicYear": "2026-2027",
+      "amount": 11060000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "ee7c20ba-771c-4ec6-992e-82d8d7e5d040",
+      "academicYear": "2026-2027",
+      "amount": 15800000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
+      "academicYear": "2026-2027",
+      "amount": 15800000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
+      "academicYear": "2026-2027",
+      "amount": 15800000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
       "academicYear": "2026-2027",
       "amount": 11060000.0,
       "minAmount": null,
@@ -3620,7 +3760,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
+      "programId": "ce5bcf46-1f65-4017-97e9-ac23002273bd",
       "academicYear": "2026-2027",
       "amount": 11060000.0,
       "minAmount": null,
@@ -3633,7 +3773,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
+      "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
       "academicYear": "2026-2027",
       "amount": 11060000.0,
       "minAmount": null,
@@ -3737,7 +3877,7 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
+      "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
       "academicYear": "2026-2027",
       "amount": 11060000.0,
       "minAmount": null,
@@ -3763,33 +3903,33 @@
       "publishedAt": "2026-01-20"
     },
     {
-      "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
+      "programId": "4a2f0285-d94c-486a-ab41-b439a68dae09",
       "academicYear": "2026-2027",
-      "amount": 31600000.0,
+      "amount": 11060000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ thông tin.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
+      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
+    },
+    {
+      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
+      "academicYear": "2026-2027",
+      "amount": 11060000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus Quy Nhơn — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-quy-nhon/",
+      "publishedAt": "2026-01-20"
     },
     {
       "programId": "2ecd5d44-6c74-4987-ba62-984d6284b551",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ thông tin.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "7e68f1d7-998b-4bc2-a9d0-f52784b024f0",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -3815,7 +3955,33 @@
       "publishedAt": "2026-01-19"
     },
     {
+      "programId": "7e68f1d7-998b-4bc2-a9d0-f52784b024f0",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ thông tin.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
       "programId": "7d01be9a-a039-40ed-a670-f49bac3d0fa7",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Công nghệ thông tin; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ thông tin.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -3841,7 +4007,7 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
+      "programId": "2ecd5d44-6c74-4987-ba62-984d6284b551",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -3854,7 +4020,7 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
+      "programId": "e7ef690e-ca92-40cc-a200-086e473b164c",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -3880,7 +4046,7 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "2ecd5d44-6c74-4987-ba62-984d6284b551",
+      "programId": "f48c54bb-25a4-4fef-9980-f4dc9c0d0d48",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -3906,20 +4072,7 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "5fcb53e1-1873-4f73-838b-2fba3286eda9",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
+      "programId": "8e5c40be-7708-4eb5-bc24-06be98ee71b6",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -3932,7 +4085,7 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
+      "programId": "5fcb53e1-1873-4f73-838b-2fba3286eda9",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -3958,35 +4111,9 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
+      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "8e5c40be-7708-4eb5-bc24-06be98ee71b6",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -4010,7 +4137,33 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "25f14031-ecf4-4601-b8c5-5bb6a856429d",
+      "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "programId": "10136974-16c4-4832-9d58-c2df904ff6e2",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -4024,6 +4177,32 @@
     },
     {
       "programId": "25f14031-ecf4-4601-b8c5-5bb6a856429d",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Công nghệ truyền thông; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
       "minAmount": null,
@@ -4062,7 +4241,7 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "f4280c58-aa3f-427c-8736-8ad365227cd6",
+      "programId": "5fcb53e1-1873-4f73-838b-2fba3286eda9",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
       "minAmount": null,
@@ -4075,7 +4254,20 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "5fcb53e1-1873-4f73-838b-2fba3286eda9",
+      "programId": "d1326d9c-51b2-4a5a-92df-eaa81eed933f",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Công nghệ truyền thông.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
       "minAmount": null,
@@ -4114,35 +4306,9 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "c0a04fcd-c491-4896-b60e-bb813f42dd58",
+      "programId": "25f14031-ecf4-4601-b8c5-5bb6a856429d",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "c5bbe050-81fe-4bc8-9333-1fc5ee581af7",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Công nghệ truyền thông; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Công nghệ truyền thông.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "d1326d9c-51b2-4a5a-92df-eaa81eed933f",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
@@ -4179,19 +4345,6 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "50b5beda-249c-4a02-ac9b-1a83bdce979e",
-      "academicYear": "2026-2027",
-      "amount": 15480000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Luật; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Luật.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
       "programId": "39cecea8-a271-4466-918f-8a6c4b560536",
       "academicYear": "2026-2027",
       "amount": 15480000.0,
@@ -4205,6 +4358,19 @@
       "publishedAt": "2026-01-19"
     },
     {
+      "programId": "50b5beda-249c-4a02-ac9b-1a83bdce979e",
+      "academicYear": "2026-2027",
+      "amount": 15480000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Luật; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Luật.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
       "programId": "4a2f0285-d94c-486a-ab41-b439a68dae09",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
@@ -4218,33 +4384,7 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
+      "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -4270,85 +4410,7 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "ec29468e-1c36-4d81-9018-ec0ac946ebb2",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "af76eff5-5f52-409b-ad74-1f62cf804904",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "336978be-76d8-44fb-b513-c50c430472a9",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "ee7c20ba-771c-4ec6-992e-82d8d7e5d040",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "ce5bcf46-1f65-4017-97e9-ac23002273bd",
-      "academicYear": "2026-2027",
-      "amount": 31600000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "92679b5c-ab2f-4a74-b11f-c3a5031b692b",
+      "programId": "9dd6a6bb-796f-49de-9df0-35778dce3c52",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -4374,7 +4436,7 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
+      "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -4387,7 +4449,33 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "9dd6a6bb-796f-49de-9df0-35778dce3c52",
+      "programId": "ee7c20ba-771c-4ec6-992e-82d8d7e5d040",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "programId": "67b1b82b-050e-4ae1-a551-2e7eca850293",
       "academicYear": "2026-2027",
       "amount": 31600000.0,
       "minAmount": null,
@@ -4413,20 +4501,85 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
+      "programId": "336978be-76d8-44fb-b513-c50c430472a9",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "programId": "92679b5c-ab2f-4a74-b11f-c3a5031b692b",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
       "notes": "Ngành: Ngành Quản trị kinh doanh.",
       "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
       "publishedAt": "2026-01-19"
     },
     {
       "programId": "ce5bcf46-1f65-4017-97e9-ac23002273bd",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "programId": "4462f38e-13bf-47ea-bb31-01df25fd273b",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "programId": "af76eff5-5f52-409b-ad74-1f62cf804904",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "programId": "ec29468e-1c36-4d81-9018-ec0ac946ebb2",
+      "academicYear": "2026-2027",
+      "amount": 31600000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh các khu vực khác",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -4452,7 +4605,7 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "4a2f0285-d94c-486a-ab41-b439a68dae09",
+      "programId": "ce5bcf46-1f65-4017-97e9-ac23002273bd",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -4465,7 +4618,20 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
+      "programId": "92679b5c-ab2f-4a74-b11f-c3a5031b692b",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "programId": "5404f65c-698b-48e4-b962-290a348188ae",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -4517,6 +4683,19 @@
       "publishedAt": "2026-01-19"
     },
     {
+      "programId": "4a2f0285-d94c-486a-ab41-b439a68dae09",
+      "academicYear": "2026-2027",
+      "amount": 22120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
+      "notes": "Ngành: Ngành Quản trị kinh doanh.",
+      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
+      "publishedAt": "2026-01-19"
+    },
+    {
       "programId": "ec29468e-1c36-4d81-9018-ec0ac946ebb2",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
@@ -4556,7 +4735,7 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "599ffd6d-642c-4d4f-a001-a9fd5eca7430",
+      "programId": "cd0c9d32-ffaf-45e1-803c-b43c45cc42ae",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -4582,7 +4761,7 @@
       "publishedAt": "2026-01-19"
     },
     {
-      "programId": "5404f65c-698b-48e4-b962-290a348188ae",
+      "programId": "5156b2bb-a33c-404d-9c7f-c363f6eff3cd",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -4596,19 +4775,6 @@
     },
     {
       "programId": "fe92a7da-517f-45a6-94cf-67345a595e7a",
-      "academicYear": "2026-2027",
-      "amount": 22120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "Campus TP. Hồ Chí Minh — Ngành Quản trị kinh doanh; thí sinh Khu vực 1",
-      "notes": "Ngành: Ngành Quản trị kinh doanh.",
-      "sourceUrl": "https://daihoc.fpt.edu.vn/hoc-phi-tai-campus-tp-ho-chi-minh/",
-      "publishedAt": "2026-01-19"
-    },
-    {
-      "programId": "92679b5c-ab2f-4a74-b11f-c3a5031b692b",
       "academicYear": "2026-2027",
       "amount": 22120000.0,
       "minAmount": null,
@@ -4688,7 +4854,7 @@
   ],
   "coverage": {
     "matchedPrograms": 33,
-    "unmatched": 0,
+    "unmatched": 2,
     "dataTypes": [
       "scores",
       "quotas",

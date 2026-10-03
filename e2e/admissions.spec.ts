@@ -40,25 +40,34 @@ test.describe("Admission Data Section (ProgramDetailDialog)", () => {
         )
 
         await expect(section).toBeVisible()
-        await expect(section.getByText("Tuyển sinh 2025")).toBeVisible()
+        await expect(section.getByText("Tuyển sinh 2026")).toBeVisible()
 
-        // Real cutoff 28.19/30, method label "quy đổi thang 30"
+        // Default method view = newest year: real 2026 combined cutoff 25/30
         await expect(section.getByText("Điểm xét tuyển")).toBeVisible()
+        await expect(section.getByText(/^25\s*\/\s*30/)).toBeVisible()
+
+        // Year-aware method selector: switching to 2025 shows the real
+        // 28.19/30 "quy đổi thang 30" cutoff row
+        await section.getByRole("button", { name: /· 2025/ }).click()
         await expect(section.getByText("28.19")).toBeVisible()
         await expect(section.getByText(/quy đổi thang 30/i).first()).toBeVisible()
 
-        // Real quotas: program 420 + school-wide 4,020 labeled by scope
+        // Real quotas: program 420 (2025) + 460 (2026) + school-wide 4,020
+        // labeled by scope — all years render with year badges
         await expect(section.getByText("Chỉ tiêu tuyển sinh")).toBeVisible()
         await expect(section.getByText(/420/)).toBeVisible()
+        await expect(section.getByText(/460/)).toBeVisible()
         await expect(
             section.getByText(/Chỉ tiêu theo nhóm ngành\/trường/i).first()
         ).toBeVisible()
 
-        // Real tuition: 40.000.000 đồng/năm, 2025-2026
+        // Real tuitions: 40.000.000 đồng/năm 2025-2026, 44.000.000 2026-2027
         await expect(section.getByRole("heading", { name: "Học phí" })).toBeVisible()
         await expect(section.getByText(/40\.000\.000/).first()).toBeVisible()
+        await expect(section.getByText(/44\.000\.000/).first()).toBeVisible()
         await expect(section.getByText(/đồng\/năm/i).first()).toBeVisible()
         await expect(section.getByText(/2025-2026/).first()).toBeVisible()
+        await expect(section.getByText(/2026-2027/).first()).toBeVisible()
 
         // Per-record provenance: external source link with real domain
         const sourceLink = section.getByTestId("admissions-source-link").first()
@@ -81,6 +90,12 @@ test.describe("Admission Data Section (ProgramDetailDialog)", () => {
         )
 
         await expect(section).toBeVisible()
+        // Default method view = newest year: 2026 "tích hợp" rows on thang
+        // 100 (KSA 83.40/100) render first
+        await expect(section.getByText("83.40")).toBeVisible()
+        // Switch to the 2025 method via the year-aware selector: real
+        // campus rows KSA 24.5 + KSV 17.0 (scale 30)
+        await section.getByRole("button", { name: /· 2025/ }).click()
         await expect(section.getByText("24.5")).toBeVisible()
         // "17" bare also matches provenance dates (Công bố: 17/08/2024) —
         // pin to the score "17 / 30" instead.
