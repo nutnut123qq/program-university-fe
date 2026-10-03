@@ -84,10 +84,10 @@ export function exportAnalyticsDatasetToJson(uniStats: any[], distributions: any
     const data = {
         systemOverview: {
             totalPrograms: uniStats.reduce((sum, u) => sum + (u.count || 0), 0),
-            totalCourses: 80302,
-            meanQualityScore: 7.31,
-            goldRatio: "10.2%",
-            satisfactoryRatio: "77.4%",
+            totalCourses: 105408,
+            meanQualityScore: 6.76,
+            goldRatio: "8.6%",
+            satisfactoryRatio: "67.3%",
             zeroCourseRatio: "0.0%",
         },
         universityRankings: uniStats,

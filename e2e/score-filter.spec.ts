@@ -93,7 +93,7 @@ test.describe("Score Filter Flows (/vi)", () => {
         await expect(empty).toContainText(/khớp điểm|match this score/i)
     })
 
-    test("scale options are discovered from data (150 exists but is school-scope only)", async ({
+    test("scale options are discovered from data (990 exists but is school-scope only)", async ({
         page,
     }) => {
         const input = await openScoreFilter(page)
@@ -109,8 +109,9 @@ test.describe("Score Filter Flows (/vi)", () => {
             ).toBeVisible({ timeout: 60000 })
         }
 
-        // Scale 150 only exists on FPT school-scope rows -> zero eligible programs
-        await page.getByRole("option", { name: "150", exact: true }).click()
+        // Scale 990 only exists on school-scope rows -> zero eligible programs
+        // (scale 150 gained PTIT program-scope BVH/BVS rows in Round 13)
+        await page.getByRole("option", { name: "990", exact: true }).click()
         await expect(page.getByTestId("score-filter-empty")).toBeVisible({
             timeout: 60000,
         })

@@ -12,17 +12,18 @@ if (process.env.E2E_BASE_URL) {
  * public/mock/admissions/<UNI>.json.
  *
  * Data note: fetchPrograms({pageSize:200}) fills the two <select> boxes with
- * the FIRST 200 programs in chunk order — all of them belong to FPT
- * (universities.code "FPT" → /mock/admissions/FPT.json). FPT publishes only
- * school-scoped (context) score rows across three methods with scales
- * 30 / 150 / 1200, one school-wide quota, and tuitions bound to programs that
- * are NOT in the first 200 — so the tuition block exercises the per-block
- * empty state with real data.
+ * the FIRST 200 programs in chunk order. Since Round 13's catalog expansion
+ * (CTU/HUTECH/UEL/HCMUTE/PTIT sort first), the first 200 options belong to
+ * the new universities — so the pinned programs are CTU/HUTECH, both of
+ * which carry program-scope 2026 rows:
+ *   - CTU  → /mock/admissions/CTU.json (tuyensinh.ctu.edu.vn)
+ *   - HUTECH → /mock/admissions/HUTECH.json (www.hutech.edu.vn)
  */
 
-// First two options of the select (page-1.json order), both FPT.
-const PROG_A = "00a9c9f1-2c38-449e-b459-5ef28944e10a" // CNTT - An Toàn Thông Tin (FPT)
-const PROG_B = "00f42cd2-1ac7-49c0-803c-fc7d83cf4058" // QTKD - Quản trị khách sạn (FPT)
+// Options of the select (inside the first 200, page-1.json order).
+const PROG_A = "0c4e1c83-e094-407d-a953-91d1a84be7fa" // Sư phạm Vật lý (CTU)
+const PROG_B = "13b1696c-6dc9-4fa0-8456-433c25de24d8" // Kỹ thuật ô tô (CTU)
+const PROG_MUSIC = "e93bedcd-943a-448f-ab6a-28ff9fdba569" // Thanh nhạc (HUTECH)
 
 async function gotoCompare(page: Page) {
     await page.goto("/vi/compare", { waitUntil: "networkidle" })
@@ -37,7 +38,7 @@ async function gotoCompare(page: Page) {
 }
 
 test.describe("Compare page — admission block per side", () => {
-    test("two selected FPT programs each render the admissions block with real rows", async ({
+    test("two selected CTU programs each render the admissions block with real rows", async ({
         page,
     }) => {
         const selects = await gotoCompare(page)
@@ -49,22 +50,17 @@ test.describe("Compare page — admission block per side", () => {
 
         for (const block of await blocks.all()) {
             await expect(block.getByText("Tuyển sinh 2026")).toBeVisible()
-            // FPT rows are context rows — must be labeled as school/group
-            // scope, never as per-program data.
-            await expect(
-                block.getByText(/theo nhóm ngành \/ trường \/ cơ sở/i)
-            ).toBeVisible()
-            await expect(block.getByText("Toàn trường:").first()).toBeVisible()
+            // CTU rows are program-scope — labeled "Theo ngành", never as
+            // school/group context.
             await expect(block.getByText("Điểm chuẩn").first()).toBeVisible()
-            // Quota context row (school-wide total) with scoped note
-            await expect(block.getByText("Chỉ tiêu tuyển sinh")).toBeVisible()
             await expect(
-                block.getByText(/Chỉ tiêu theo nhóm ngành\/trường/i).first()
+                block.getByText(/Theo ngành/i).first()
             ).toBeVisible()
+            await expect(block.getByText("Chỉ tiêu tuyển sinh")).toBeVisible()
             // Per-record provenance: real source domain link
             const sourceLink = block.getByTestId("admissions-source-link").first()
             await expect(sourceLink).toBeVisible()
-            await expect(sourceLink).toContainText("daihoc.fpt.edu.vn")
+            await expect(sourceLink).toContainText("tuyensinh.ctu.edu.vn")
             await expect(sourceLink).toHaveAttribute("rel", /noopener/)
             // Reference-only warning
             await expect(
@@ -72,42 +68,51 @@ test.describe("Compare page — admission block per side", () => {
             ).toBeVisible()
         }
 
-        // Round 9 added FPT 2024-2025 tuition rows (đề án PDF §1.10) as
-        // context rows (programId=null, region-group scope) — the tuition
-        // block now renders them instead of an empty state.
+        // Real per-program values from CTU.json (2026):
+        //   Sư phạm Vật lý: cutoff 27.62/30, quota 51, tuition 27.380.000đ/năm
+        //   Kỹ thuật ô tô:  cutoff 23.2/30,  quota 80, tuition 33.400.000đ/năm
+        await expect(blocks.nth(0).getByText("27.62").first()).toBeVisible()
+        await expect(blocks.nth(1).getByText("23.2").first()).toBeVisible()
+        await expect(
+            blocks.nth(0).getByTestId("compare-admissions-quotas").getByText("51").first()
+        ).toBeVisible()
+        await expect(
+            blocks.nth(1).getByTestId("compare-admissions-quotas").getByText("80").first()
+        ).toBeVisible()
         const tuitionBlock = page.getByTestId("compare-admissions-tuition").first()
-        await expect(tuitionBlock.getByText(/28\.700\.000/).first()).toBeVisible()
-        await expect(tuitionBlock.getByText(/2024-2025/).first()).toBeVisible()
+        await expect(tuitionBlock.getByText(/27\.380\.000/).first()).toBeVisible()
+        await expect(tuitionBlock.getByText(/2026-2027/).first()).toBeVisible()
     })
 
     test("scores with different scales render raw side by side — no normalization", async ({
         page,
     }) => {
         const selects = await gotoCompare(page)
-        await selects.nth(0).selectOption(PROG_A)
+        // HUTECH "Thanh nhạc" carries program-scope rows on three scales:
+        // ĐGNL ĐHQG-HCM 600/1200, THPT 15/30, học bạ 18/30, V-SAT 225/600.
+        await selects.nth(0).selectOption(PROG_MUSIC)
         await selects.nth(1).selectOption(PROG_B)
 
         const scores = page.getByTestId("compare-admissions-scores").first()
         await expect(scores).toBeVisible()
 
-        // Real FPT context rows: ĐGNL ĐHQG-HN 78/150, ĐGNL ĐHQG-HCM 653/1200,
-        // học bạ & THPT on /30 — each keeps its own scale label verbatim.
-        await expect(scores.getByText("/ 150").first()).toBeVisible()
+        // Each scale keeps its own label verbatim — no normalization.
         await expect(scores.getByText("/ 1200").first()).toBeVisible()
+        await expect(scores.getByText("/ 600").first()).toBeVisible()
         await expect(scores.getByText("/ 30").first()).toBeVisible()
-        await expect(scores.getByText("78").first()).toBeVisible()
-        await expect(scores.getByText("653").first()).toBeVisible()
+        await expect(scores.getByText("600").first()).toBeVisible()
+        await expect(scores.getByText("225").first()).toBeVisible()
         // Method labels preserved on rows
-        await expect(scores.getByText(/Đánh giá năng lực ĐHQG-HN/i).first()).toBeVisible()
-        await expect(scores.getByText(/Đánh giá năng lực ĐHQG-HCM/i).first()).toBeVisible()
+        await expect(scores.getByText(/Đánh giá năng lực ĐHQG TP\.HCM/i).first()).toBeVisible()
+        await expect(scores.getByText(/đánh giá đầu vào đại học V-SAT/i).first()).toBeVisible()
     })
 
     test("university without an admissions snapshot shows the empty state (not zeros)", async ({
         page,
     }) => {
-        // Every program in the select is FPT; simulate the snapshot file being
+        // Both pinned programs are CTU; simulate the snapshot file being
         // absent — fetchAdmissions resolves null on 404 → empty state.
-        await page.route("**/mock/admissions/FPT.json", (route) =>
+        await page.route("**/mock/admissions/CTU.json", (route) =>
             route.fulfill({ status: 404, body: "Not found" })
         )
         const selects = await gotoCompare(page)

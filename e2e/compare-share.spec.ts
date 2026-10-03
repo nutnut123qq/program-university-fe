@@ -10,12 +10,13 @@ if (process.env.E2E_BASE_URL) {
  * Share-link contract for /vi/compare: ?a=<id>&b=<id> pre-selects the two
  * comparison pickers, picker changes rewrite the query string in place
  * (router.replace, no reload), and the share button copies the current URL.
- * IDs are the first options of public/mock/programs/page-1.json (same IDs
- * used by compare-admissions.spec.ts).
+ * IDs are options of the first-200 programs list (same programs used by
+ * compare-admissions.spec.ts — CTU since Round 13's expansion reordered
+ * page-1.json to the new universities).
  */
-const PROG_A = "00a9c9f1-2c38-449e-b459-5ef28944e10a" // CNTT - An Toàn Thông Tin (FPT)
-const PROG_B = "00f42cd2-1ac7-49c0-803c-fc7d83cf4058" // QTKD - Quản trị khách sạn (FPT)
-const PROG_C = "00f81086-e9d4-4491-bb9b-b8459743eec6" // CNTT - Trí tuệ nhân tạo (FPT)
+const PROG_A = "0c4e1c83-e094-407d-a953-91d1a84be7fa" // Sư phạm Vật lý (CTU)
+const PROG_B = "13b1696c-6dc9-4fa0-8456-433c25de24d8" // Kỹ thuật ô tô (CTU)
+const PROG_C = "54e60ab2-43b5-4835-90c8-5e3e142034e4" // Sư phạm Ngữ văn (CTU)
 
 async function waitForOptions(page: Page) {
     const selects = page.locator("select")

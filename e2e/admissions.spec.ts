@@ -112,7 +112,7 @@ test.describe("Admission Data Section (ProgramDetailDialog)", () => {
     test("Missing admissions snapshot shows the empty state (not zeros)", async ({
         page,
     }) => {
-        // All 12 universities ship a snapshot now; simulate the file being
+        // All 17 universities ship a snapshot now; simulate the file being
         // absent — fetchAdmissions returns null on 404 → empty state.
         await page.route("**/mock/admissions/UET.json", (route) =>
             route.fulfill({ status: 404, body: "Not found" })

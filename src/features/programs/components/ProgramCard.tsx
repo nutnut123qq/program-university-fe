@@ -86,7 +86,7 @@ export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) 
 
                     <CardContent className="px-5 pt-0 pb-4 space-y-3.5 min-w-0">
                         {program.description && (
-                            <p className="text-xs text-muted-foreground line-clamp-2 leading-relaxed">
+                            <p className="text-xs text-muted-foreground line-clamp-2 leading-relaxed wrap-anywhere">
                                 {program.description}
                             </p>
                         )}

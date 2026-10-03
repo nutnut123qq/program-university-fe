@@ -176,7 +176,7 @@ function MetadataItem({
 function TextBlock({ text }: { text: string | null }) {
     if (!text) return <p className="text-sm text-muted-foreground italic">—</p>
     return (
-        <div className="text-sm text-foreground whitespace-pre-line bg-muted/40 rounded-lg p-3">
+        <div className="text-sm text-foreground whitespace-pre-line bg-muted/40 rounded-lg p-3 wrap-anywhere">
             {text}
         </div>
     )
