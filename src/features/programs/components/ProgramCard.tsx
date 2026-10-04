@@ -2,7 +2,7 @@
 
 import { Fragment, type ReactNode } from "react"
 import { motion } from "framer-motion"
-import { GraduationCap, Building2, BookOpen, ExternalLink, Clock, Award, Eye, Sparkles } from "lucide-react"
+import { GraduationCap, Building2, BookOpen, ExternalLink, Clock, Award, Eye } from "lucide-react"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { buttonVariants } from "@/components/ui/button"
@@ -20,6 +20,13 @@ export interface ScoreHint {
     cutoff: number | null
     year: number | null
     scale: number | null
+    /**
+     * Admission method of the qualifying row (v1.4): `method` = raw code,
+     * `methodLabel` = display label (falls back to the raw code). Both
+     * come straight from the data; null => the label fragment is omitted.
+     */
+    method: string | null
+    methodLabel: string | null
     delta: number | null
     deltaFromYear: number | null
     deltaToYear: number | null
@@ -65,6 +72,19 @@ export function ProgramCard({ program, index, onViewDetail, scoreHint }: Program
                     cutoff: scoreHint.cutoff,
                     scale: scoreHint.scale,
                 })
+            )
+        }
+        // Method of the row that qualified the program — required so a
+        // method=all filter never shows a cutoff from an unnamed/wrong
+        // method (v1.4). Omitted when the data has no label at all.
+        if (scoreHint.methodLabel) {
+            hintParts.push(
+                <span
+                    data-testid="score-hint-method"
+                    data-method={scoreHint.method ?? undefined}
+                >
+                    {scoreHint.methodLabel}
+                </span>
             )
         }
         if (scoreHint.delta != null && scoreHint.deltaFromYear != null) {

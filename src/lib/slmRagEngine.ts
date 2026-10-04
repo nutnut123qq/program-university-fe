@@ -312,7 +312,7 @@ export async function querySlmRag(userQuery: string, history?: Array<{role: stri
                 return data.reply
             }
         }
-    } catch (e) {
+    } catch {
         // Fall through to local RAG knowledge fallback
     }
 
@@ -368,7 +368,7 @@ export async function querySlmRag(userQuery: string, history?: Array<{role: stri
             ? ` (${indexData.totalCount.toLocaleString("vi-VN")} chương trình)`
             : ""
         return `Dữ liệu chương trình đào tạo ${uniText}${dataScope} đã được chuẩn hóa theo 4 khối kiến thức: Đại cương, Cơ sở ngành, Chuyên ngành và Tốt nghiệp.\n\nBạn có thể tìm kiếm tên ngành cụ thể trên trang Danh mục để xem chi tiết từng học phần.`
-    } catch (e) {
+    } catch {
         return "Hệ thống đang truy xuất thông tin. Bạn có thể tra cứu trực tiếp trên danh mục ngành học."
     }
 }

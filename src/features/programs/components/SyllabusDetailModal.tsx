@@ -7,7 +7,6 @@ import {
     FileText,
     CheckCircle2,
     Clock,
-    Award,
     ListChecks,
     GraduationCap,
     ExternalLink,
@@ -18,7 +17,6 @@ import {
     HelpCircle,
     ArrowRight,
     ArrowLeft,
-    Sparkles,
     AlertTriangle,
     ShieldAlert,
 } from "lucide-react"

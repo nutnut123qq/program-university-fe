@@ -5,6 +5,26 @@
 
 import { Program, Curriculum } from "@/features/programs/types"
 
+/** Row shape produced by the analytics dashboard (UNI_STATS / DISTRIBUTIONS). */
+export interface AnalyticsUniStat {
+    code: string
+    name: string
+    count: number
+    score: number
+    status: string
+    statusKey?: string
+    color?: string
+}
+
+export interface AnalyticsDistribution {
+    range: string
+    labelKey: string
+    label: string
+    count: number
+    pct: string
+    color: string
+}
+
 export function downloadFile(content: string, filename: string, type: string) {
     const blob = new Blob([content], { type: `${type};charset=utf-8;` })
     const url = URL.createObjectURL(blob)
@@ -66,7 +86,7 @@ export function exportProgramToJson(program: Program, courses: Curriculum[]) {
     downloadFile(JSON.stringify(data, null, 2), filename, "application/json")
 }
 
-export function exportAnalyticsDatasetToCsv(uniStats: any[], distributions: any[]) {
+export function exportAnalyticsDatasetToCsv(uniStats: AnalyticsUniStat[]) {
     const headers = ["Mã trường", "Tên trường Đại học", "Số lượng ngành", "Điểm SLM tham khảo TB (thang 10)", "Xếp loại"]
     const rows = uniStats.map(u => [
         u.code,
@@ -77,23 +97,32 @@ export function exportAnalyticsDatasetToCsv(uniStats: any[], distributions: any[
     ])
 
     const csvContent = "\uFEFF" + [headers.join(","), ...rows.map(r => r.join(","))].join("\n")
-    downloadFile(csvContent, "Tedo_Analytics_Benchmark_Dataset_12_Universities.csv", "text/csv")
+    downloadFile(csvContent, "Tedo_Analytics_Benchmark_Dataset_17_Universities.csv", "text/csv")
 }
 
-export function exportAnalyticsDatasetToJson(uniStats: any[], distributions: any[]) {
+export function exportAnalyticsDatasetToJson(uniStats: AnalyticsUniStat[], distributions: AnalyticsDistribution[]) {
     const data = {
-        systemOverview: {
+        // Catalog totals derived from the current public snapshot
+        // (public/mock/index.json + programs/page-*.json, generatedAt 2026-10-03).
+        catalog: {
             totalPrograms: uniStats.reduce((sum, u) => sum + (u.count || 0), 0),
-            totalCourses: 105408,
+            totalCourses: 105602,
+            totalUniversities: uniStats.length,
+            programsWithoutCourses: 65,
+        },
+        // SLM quality metrics — evaluated REFERENCE set covering the earlier
+        // 1,840-program catalog (slm_strict_v2); not recomputed for the newer
+        // programs, so these are not current-catalog figures.
+        slmReference: {
+            evaluatedPrograms: 1840,
             meanQualityScore: 6.76,
             goldRatio: "8.6%",
             satisfactoryRatio: "67.3%",
-            zeroCourseRatio: "0.0%",
         },
         universityRankings: uniStats,
         scoreDistributions: distributions,
         exportedAt: new Date().toISOString(),
     }
 
-    downloadFile(JSON.stringify(data, null, 2), "Tedo_Analytics_Benchmark_Dataset_12_Universities.json", "application/json")
+    downloadFile(JSON.stringify(data, null, 2), "Tedo_Analytics_Benchmark_Dataset_17_Universities.json", "application/json")
 }

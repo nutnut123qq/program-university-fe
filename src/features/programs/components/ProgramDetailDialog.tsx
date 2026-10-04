@@ -17,7 +17,6 @@ import {
     FileJson,
     Printer,
     Search,
-    Filter,
     ChevronRight,
     GraduationCap,
 } from "lucide-react"
@@ -507,7 +506,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         } catch {
             return program.sourceUrl
         }
-    }, [program?.sourceUrl])
+    }, [program])
     const lastCrawledText = program ? formatDate(program.lastCrawled) : null
 
     // Instant Course Search & Semester Filter

@@ -3,10 +3,9 @@
 import React, { useState } from "react"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
 import { Curriculum } from "../types"
 import { useTranslations } from "next-intl"
-import { Calculator, Compass, Sparkles, Award, CheckCircle2, TrendingUp } from "lucide-react"
+import { Calculator, Compass, Sparkles } from "lucide-react"
 
 interface GpaPlannerProps {
     courses: Curriculum[]

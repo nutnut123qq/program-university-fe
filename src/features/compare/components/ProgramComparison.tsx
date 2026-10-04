@@ -1,13 +1,13 @@
 "use client"
 
-import React, { Suspense, useEffect, useState } from "react"
+import React, { Suspense, useEffect, useMemo, useState } from "react"
 import { usePathname, useSearchParams } from "next/navigation"
 import useSWR from "swr"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Scale, GraduationCap, ArrowRightLeft, CheckCircle2, AlertCircle, Share2, Check } from "lucide-react"
-import { fetchPrograms, fetchCurricula } from "@/features/programs/api"
+import { fetchPrograms, fetchProgramById, fetchCurricula } from "@/features/programs/api"
 import { Program } from "@/features/programs/types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 import { CompareAdmissions } from "./CompareAdmissions"
@@ -18,31 +18,57 @@ const ProgramComparisonInner = () => {
     const pathname = usePathname()
     const searchParams = useSearchParams()
     const { data: programRes } = useSWR(["programs-list-all"], () => fetchPrograms({ page: 1, pageSize: 200 }))
-    const programsList = programRes?.items || []
+    const programsList = useMemo(() => programRes?.items || [], [programRes])
 
-    const [progId1, setProgId1] = useState<string>("1")
-    const [progId2, setProgId2] = useState<string>("2")
+    const aParam = searchParams.get("a")
+    const bParam = searchParams.get("b")
+
+    // Query ids may point at programs outside the first-200 browse options —
+    // resolve them by direct fetch. resolved.x === null means "does not exist".
+    const { data: resolved, error: queryError } = useSWR(
+        aParam || bParam ? ["compare-query-ids", aParam ?? "", bParam ?? ""] : null,
+        async ([, a, b]) => ({
+            a: a ? await fetchProgramById(a) : undefined,
+            b: b ? await fetchProgramById(b) : undefined,
+        })
+    )
+    const querySettled = !(aParam || bParam) || resolved !== undefined || queryError !== undefined
+
+    // A query-resolved program is merged into the pickers so it shows up as a
+    // real, selectable option even though it is not part of the 200-row list.
+    const optionsList = useMemo(() => {
+        const base = [...programsList]
+        for (const p of [resolved?.a, resolved?.b]) {
+            if (p && !base.some((x) => String(x.id) === String(p.id))) base.push(p)
+        }
+        return base
+    }, [programsList, resolved])
+
+    const [progId1, setProgId1] = useState<string>("")
+    const [progId2, setProgId2] = useState<string>("")
     const [paramsApplied, setParamsApplied] = useState(false)
     const [copied, setCopied] = useState(false)
 
-    // Apply ?a=<id>&b=<id> once the selectable list is loaded.
-    // Unknown/invalid ids are ignored silently.
-    useEffect(() => {
-        if (paramsApplied || programsList.length === 0) return
-        const a = searchParams.get("a")
-        const b = searchParams.get("b")
-        if (a && programsList.some((p) => String(p.id) === a)) setProgId1(a)
-        if (b && programsList.some((p) => String(p.id) === b)) setProgId2(b)
+    // Apply ?a=<id>&b=<id> once the browse list is loaded AND the query ids
+    // have been resolved. A valid id selects that program; an invalid one
+    // leaves the slot empty (honest error state below) — never a silent
+    // substitution with another program. Render-time adjustment (React's
+    // documented alternative to a mount/update effect): the guard converges
+    // after one pass because paramsApplied flips true.
+    if (!paramsApplied && programsList.length > 0 && querySettled) {
+        setProgId1(aParam ? (resolved?.a?.id ?? "") : programsList[0].id)
+        setProgId2(bParam ? (resolved?.b?.id ?? "") : (programsList[1] ?? programsList[0]).id)
         setParamsApplied(true)
-    }, [paramsApplied, programsList, searchParams])
+    }
 
     // Keep the address bar in sync with the current pair (no navigation).
-    // A picker that is empty or holds a non-program value drops its param.
+    // A picker that is empty or holds a non-program value drops its param,
+    // so invalid query ids are removed from the normalized URL.
     useEffect(() => {
-        if (!paramsApplied || programsList.length === 0) return
+        if (!paramsApplied || optionsList.length === 0) return
         const params = new URLSearchParams()
-        if (progId1 && programsList.some((p) => String(p.id) === progId1)) params.set("a", progId1)
-        if (progId2 && programsList.some((p) => String(p.id) === progId2)) params.set("b", progId2)
+        if (progId1 && optionsList.some((p) => String(p.id) === progId1)) params.set("a", progId1)
+        if (progId2 && optionsList.some((p) => String(p.id) === progId2)) params.set("b", progId2)
         const cur = new URLSearchParams(window.location.search)
         if ((cur.get("a") ?? "") === (params.get("a") ?? "") && (cur.get("b") ?? "") === (params.get("b") ?? "")) return
         const next = params.toString()
@@ -52,7 +78,7 @@ const ProgramComparisonInner = () => {
         // page its soft navigation can be dropped entirely, leaving the URL
         // stale while the pickers already changed.
         window.history.replaceState(window.history.state, "", next ? `${pathname}?${next}` : pathname)
-    }, [paramsApplied, progId1, progId2, programsList, pathname])
+    }, [paramsApplied, progId1, progId2, optionsList, pathname])
 
     const handleShare = async () => {
         try {
@@ -64,8 +90,12 @@ const ProgramComparisonInner = () => {
         }
     }
 
-    const p1 = programsList.find(p => String(p.id) === String(progId1)) || programsList[0]
-    const p2 = programsList.find(p => String(p.id) === String(progId2)) || programsList[1] || programsList[0]
+    // No fallback: a slot that resolves to nothing renders an honest error
+    // state instead of silently substituting programsList[0]/[1].
+    const p1 = optionsList.find(p => String(p.id) === String(progId1))
+    const p2 = optionsList.find(p => String(p.id) === String(progId2))
+    const invalid1 = paramsApplied && !!aParam && !p1
+    const invalid2 = paramsApplied && !!bParam && !p2
 
     const { data: c1 } = useSWR(p1 && (p1.courseCount ?? 0) > 0 ? ["curricula-comp", p1.id] : null, () => (p1 ? fetchCurricula(p1.id) : []))
     const { data: c2 } = useSWR(p2 && (p2.courseCount ?? 0) > 0 ? ["curricula-comp", p2.id] : null, () => (p2 ? fetchCurricula(p2.id) : []))
@@ -75,11 +105,8 @@ const ProgramComparisonInner = () => {
 
     // Calculate common courses overlap
     const names1 = new Set(courses1.map(c => (c.courseName || "").toLowerCase().trim()))
-    const names2 = new Set(courses2.map(c => (c.courseName || "").toLowerCase().trim()))
 
     const commonCourses = courses2.filter(c => names1.has((c.courseName || "").toLowerCase().trim()))
-    const uniqueCourses1 = courses1.filter(c => !names2.has((c.courseName || "").toLowerCase().trim()))
-    const uniqueCourses2 = courses2.filter(c => !names1.has((c.courseName || "").toLowerCase().trim()))
 
     const overlapPct = courses1.length > 0 ? Math.round((commonCourses.length / Math.max(courses1.length, courses2.length)) * 100) : 0
 
@@ -142,16 +169,25 @@ const ProgramComparisonInner = () => {
                     </CardHeader>
                     <CardContent>
                         <select
-                            value={String(progId1)}
+                            value={progId1}
                             onChange={(e) => setProgId1(e.target.value)}
                             className="w-full font-medium flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-1 focus:ring-ring"
                         >
-                            {programsList.map(p => (
+                            <option value="" disabled>
+                                {t("compareSelectPlaceholder")}
+                            </option>
+                            {optionsList.map(p => (
                                 <option key={p.id} value={String(p.id)}>
                                     [{p.universityName}] {p.name} ({p.degreeType})
                                 </option>
                             ))}
                         </select>
+                        {invalid1 && (
+                            <p className="mt-2 flex items-center gap-1.5 text-xs text-destructive" data-testid="compare-invalid-1">
+                                <AlertCircle className="h-3.5 w-3.5 shrink-0" />
+                                <span>{t("compareInvalidProgram")}</span>
+                            </p>
+                        )}
                     </CardContent>
                 </Card>
 
@@ -164,21 +200,32 @@ const ProgramComparisonInner = () => {
                     </CardHeader>
                     <CardContent>
                         <select
-                            value={String(progId2)}
+                            value={progId2}
                             onChange={(e) => setProgId2(e.target.value)}
                             className="w-full font-medium flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-1 focus:ring-ring"
                         >
-                            {programsList.map(p => (
+                            <option value="" disabled>
+                                {t("compareSelectPlaceholder")}
+                            </option>
+                            {optionsList.map(p => (
                                 <option key={p.id} value={String(p.id)}>
                                     [{p.universityName}] {p.name} ({p.degreeType})
                                 </option>
                             ))}
                         </select>
+                        {invalid2 && (
+                            <p className="mt-2 flex items-center gap-1.5 text-xs text-destructive" data-testid="compare-invalid-2">
+                                <AlertCircle className="h-3.5 w-3.5 shrink-0" />
+                                <span>{t("compareInvalidProgram")}</span>
+                            </p>
+                        )}
                     </CardContent>
                 </Card>
             </div>
 
-            {/* Overlap Summary Banner */}
+            {/* Overlap Summary Banner — meaningful only when both sides hold
+                a real program; hidden while resolving or when a slot is invalid */}
+            {p1 && p2 && (
             <Card className="bg-gradient-to-r from-primary/10 via-indigo-500/10 to-emerald-500/10 border-primary/20">
                 <CardContent className="p-6 flex flex-col md:flex-row items-center justify-between gap-4">
                     <div className="flex items-center gap-4">
@@ -198,11 +245,14 @@ const ProgramComparisonInner = () => {
                     </div>
                 </CardContent>
             </Card>
+            )}
 
-            {/* Detailed Side-by-Side Cards */}
-            {p1 && p2 && (
+            {/* Detailed Side-by-Side Cards — only once query ids resolved,
+                so a loading state never flashes the wrong fallback programs */}
+            {paramsApplied && (
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     {/* Program 1 Details */}
+                    {p1 ? (
                     <Card className="border-border/60">
                         <CardHeader>
                             <Badge className="w-fit bg-primary/10 text-primary border-primary/20 mb-2">{p1.universityName}</Badge>
@@ -245,8 +295,17 @@ const ProgramComparisonInner = () => {
                             <CompareAdmissions program={p1} />
                         </CardContent>
                     </Card>
+                    ) : (
+                    <Card className="border-destructive/40" data-testid="compare-slot-empty-1">
+                        <CardContent className="flex flex-col items-center justify-center gap-2 py-10 text-center">
+                            <AlertCircle className="h-7 w-7 text-destructive/60" />
+                            <p className="text-sm text-muted-foreground">{t("compareInvalidProgram")}</p>
+                        </CardContent>
+                    </Card>
+                    )}
 
                     {/* Program 2 Details */}
+                    {p2 ? (
                     <Card className="border-border/60">
                         <CardHeader>
                             <Badge className="w-fit bg-indigo-500/10 text-indigo-500 border-indigo-500/20 mb-2">{p2.universityName}</Badge>
@@ -289,7 +348,23 @@ const ProgramComparisonInner = () => {
                             <CompareAdmissions program={p2} />
                         </CardContent>
                     </Card>
+                    ) : (
+                    <Card className="border-destructive/40" data-testid="compare-slot-empty-2">
+                        <CardContent className="flex flex-col items-center justify-center gap-2 py-10 text-center">
+                            <AlertCircle className="h-7 w-7 text-destructive/60" />
+                            <p className="text-sm text-muted-foreground">{t("compareInvalidProgram")}</p>
+                        </CardContent>
+                    </Card>
+                    )}
                 </div>
+            )}
+
+            {!paramsApplied && (
+                <Card>
+                    <CardContent className="p-6 text-sm text-muted-foreground">
+                        {t("loading")}
+                    </CardContent>
+                </Card>
             )}
 
             {/* Common Courses Overlap Breakdown */}

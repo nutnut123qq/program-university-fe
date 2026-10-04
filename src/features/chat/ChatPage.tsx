@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useRef, useEffect, useMemo } from "react"
+import React, { useState, useRef, useEffect, useMemo, useSyncExternalStore } from "react"
 import {
     ArrowLeft,
     Send,
@@ -14,13 +14,20 @@ import {
     PanelLeftClose,
     Trash2,
     MessageSquare,
-    Sparkles,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useChat, ChatSession } from "@/hooks/ChatProvider"
 import { useRouter } from "next/navigation"
 import { useTranslations } from "next-intl"
 import { QUICK_PROMPTS } from "@/features/programs/components/SlmChatAssistant"
+
+const DESKTOP_MQ = "(min-width: 768px)"
+
+const subscribeDesktop = (onChange: () => void) => {
+    const mq = window.matchMedia(DESKTOP_MQ)
+    mq.addEventListener("change", onChange)
+    return () => mq.removeEventListener("change", onChange)
+}
 
 export const ChatPage = () => {
     const {
@@ -37,18 +44,24 @@ export const ChatPage = () => {
 
     const [input, setInput] = useState("")
     const [copiedId, setCopiedId] = useState<string | null>(null)
-    const [isSidebarOpen, setIsSidebarOpen] = useState(true)
+    // Sidebar follows the viewport via a real media-query subscription:
+    // open on md+, closed below md (server snapshot assumes desktop, so the
+    // hydration render is unchanged). An explicit user toggle overrides the
+    // viewport-derived default.
+    const isDesktop = useSyncExternalStore(
+        subscribeDesktop,
+        () => window.matchMedia(DESKTOP_MQ).matches,
+        () => true
+    )
+    const [sidebarOverride, setSidebarOverride] = useState<boolean | null>(null)
+    const isSidebarOpen = sidebarOverride ?? isDesktop
+    const setIsSidebarOpen = (value: React.SetStateAction<boolean>) =>
+        setSidebarOverride((prev) =>
+            typeof value === "function" ? value(prev ?? isDesktop) : value
+        )
     const messagesEndRef = useRef<HTMLDivElement>(null)
     const router = useRouter()
     const t = useTranslations("chat")
-
-    // Sidebar defaults closed on small screens (<md). Runs after hydration to
-    // avoid a server/client markup mismatch; the transition animates it shut.
-    useEffect(() => {
-        if (typeof window !== "undefined" && !window.matchMedia("(min-width: 768px)").matches) {
-            setIsSidebarOpen(false)
-        }
-    }, [])
 
     // Auto scroll to bottom when messages update
     useEffect(() => {
@@ -123,7 +136,7 @@ export const ChatPage = () => {
                 onClick={() => {
                     switchSession(session.id)
                     // On mobile the sidebar is an overlay — close it after picking a session.
-                    if (typeof window !== "undefined" && !window.matchMedia("(min-width: 768px)").matches) {
+                    if (!isDesktop) {
                         setIsSidebarOpen(false)
                     }
                 }}

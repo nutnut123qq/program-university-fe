@@ -1,14 +1,17 @@
 "use client"
 
-import { useCallback, useEffect, useMemo, useState } from "react"
+import { useCallback, useMemo, useState } from "react"
 import useSWR from "swr"
 import useSWRInfinite from "swr/infinite"
 import { motion } from "framer-motion"
 import { GraduationCap, SearchX, Loader2, Heart } from "lucide-react"
 import { useTranslations } from "next-intl"
-import { Skeleton } from "@/components/ui/skeleton"
 import { Button } from "@/components/ui/button"
-import { buildTrendSeries, latestYearDelta } from "@/lib/admissionTrend"
+import {
+    latestYearDelta,
+    pickQualifyingCutoff,
+    type QualifyingCutoff,
+} from "@/lib/admissionTrend"
 import { ProgramCard, type ScoreHint } from "./ProgramCard"
 import { ProgramFilters } from "./ProgramFilters"
 import { ProgramDetailDialog } from "./ProgramDetailDialog"
@@ -36,15 +39,20 @@ type UniversityWithCode = University & { code?: string | null }
 
 /**
  * Per-program admission hint for score-filter result cards only.
- * cutoffYear/cutoff/scale = last point of the picked same-scale
- * (+ same-method, when one is chosen) trend series; delta* = the series'
- * latest year-over-year delta (null when the series has <2 points);
- * quota/quotaYear = newest program-scope quota row (null when none).
+ * cutoffYear/cutoff/scale/method* = the qualifying (scale, method)
+ * series' newest point — the exact row that made the program eligible
+ * (v1.4); delta* = that series' latest year-over-year delta (null when
+ * it has <2 points); quota/quotaYear = newest program-scope quota row
+ * (null when none).
  */
 type AdmissionHint = {
     cutoffYear: number
     cutoff: number
     scale: number
+    /** Raw method code of the qualifying series ("" => null). */
+    method: string | null
+    /** Label of the qualifying row (methodLabel, raw method fallback). */
+    methodLabel: string | null
     delta: number | null
     deltaFromYear: number | null
     deltaToYear: number | null
@@ -114,7 +122,7 @@ export function ProgramList() {
     // cross-scale conversion, no ranking (SPEC-ADMISSION-DATA).
     // ------------------------------------------------------------------
     const [scoreInput, setScoreInput] = useState("")
-    const [scoreScale, setScoreScale] = useState<number | null>(null)
+    const [scoreScaleChoice, setScoreScaleChoice] = useState<number | null>(null)
     const [scoreMethod, setScoreMethod] = useState("") // "" = all methods
 
     const parsedScore = useMemo(() => {
@@ -164,12 +172,13 @@ export function ProgramList() {
         return [...set].sort((a, b) => a - b)
     }, [admissionsByCode])
 
-    // Default to the national-exam 30 scale when present, else first option.
-    useEffect(() => {
-        if (scoreScale == null && scoreScaleOptions.length > 0) {
-            setScoreScale(scoreScaleOptions.includes(30) ? 30 : scoreScaleOptions[0])
-        }
-    }, [scoreScaleOptions, scoreScale])
+    // Default scale is derived (not an effect): the national-exam 30 scale
+    // when present, else the first discovered option — until the user picks
+    // one explicitly.
+    const scoreScale = scoreScaleChoice ?? (
+        scoreScaleOptions.length === 0 ? null :
+        scoreScaleOptions.includes(30) ? 30 : scoreScaleOptions[0]
+    )
 
     // Method options: distinct program-scope cutoff methods that exist at the
     // selected scale (rows the filter can actually match), across all years —
@@ -201,52 +210,23 @@ export function ProgramList() {
     const scoreFilterActive =
         scoreFilterRequested && scoreScale != null && !!admissionsByCode
 
-    // Program ids eligible under the score filter. Each program is compared
-    // on its NEWEST program-scope cutoff row at the selected scale (+method
-    // if chosen): schools publish different scales in different years (e.g.
-    // UEH moved to scale 100 in 2026), so pinning one global year would
-    // silently drop programs whose latest same-scale cutoff is older.
-    // Missing data => excluded. When several rows share a program's newest
-    // year (e.g. per-campus rows), the lowest score decides eligibility.
-    const eligibleProgramIds = useMemo(() => {
-        if (!scoreFilterActive || !admissionsByCode || parsedScore == null || scoreScale == null) {
-            return null
-        }
-        const newest = new Map<string, { year: number; score: number }>()
-        for (const adm of admissionsByCode.values()) {
-            if (!adm) continue
-            for (const s of adm.scores ?? []) {
-                if (s.scope !== "program" || s.kind !== "cutoff") continue
-                if (s.scale !== scoreScale) continue
-                if (scoreMethod && s.method !== scoreMethod) continue
-                if (!s.programId || typeof s.score !== "number") continue
-                const cur = newest.get(s.programId)
-                if (!cur || s.year > cur.year) {
-                    newest.set(s.programId, { year: s.year, score: s.score })
-                } else if (s.year === cur.year && s.score < cur.score) {
-                    cur.score = s.score
-                }
-            }
-        }
-        const ids = new Set<string>()
-        for (const [pid, r] of newest) {
-            if (r.score <= parsedScore) ids.add(pid)
-        }
-        return ids
-    }, [scoreFilterActive, admissionsByCode, parsedScore, scoreScale, scoreMethod])
-
-    // Card hints for score-filtered results: newest cutoff + trend delta
-    // of the same (scale, method-if-chosen) series that decides
-    // eligibility — via the shared trend math (buildTrendSeries +
-    // latestYearDelta), never reimplemented — plus the newest
-    // program-scope quota row. Null in normal browsing so the map is
-    // never built and no hint is rendered there.
-    const admissionHints = useMemo(() => {
+    // Eligibility ↔ hint share ONE per-program qualifying cutoff (v1.4
+    // trust fix): the (scale, method-if-chosen) series+point that decides
+    // eligibility is the exact one the card renders — with its method
+    // label — so a hint can never contradict the threshold that let the
+    // program pass. pickQualifyingCutoff keeps the same-scale-only,
+    // scope=program, kind=cutoff invariants; no cross-scale conversion.
+    // Each program is compared on its NEWEST program-scope cutoff year at
+    // the selected scale (schools publish different scales in different
+    // years — e.g. UEH moved to scale 100 in 2026 — so pinning one global
+    // year would silently drop programs whose latest same-scale cutoff is
+    // older); same-year ties break to the lowest score, which is the row
+    // that qualifies. Missing data => no candidate => excluded.
+    const qualifyingCutoffs = useMemo(() => {
         if (!scoreFilterActive || !admissionsByCode || scoreScale == null) {
             return null
         }
         const scoresByProgram = new Map<string, AdmissionScore[]>()
-        const newestQuota = new Map<string, { year: number; quota: number }>()
         for (const adm of admissionsByCode.values()) {
             if (!adm) continue
             for (const s of adm.scores ?? []) {
@@ -256,6 +236,37 @@ export function ProgramList() {
                 if (rows) rows.push(s)
                 else scoresByProgram.set(s.programId, [s])
             }
+        }
+        const map = new Map<string, QualifyingCutoff>()
+        for (const [pid, rows] of scoresByProgram) {
+            const q = pickQualifyingCutoff(rows, scoreScale, scoreMethod || null)
+            if (q) map.set(pid, q)
+        }
+        return map
+    }, [scoreFilterActive, admissionsByCode, scoreScale, scoreMethod])
+
+    // A program is eligible when its qualifying cutoff <= the user's score.
+    const eligibleProgramIds = useMemo(() => {
+        if (!qualifyingCutoffs || parsedScore == null) return null
+        const ids = new Set<string>()
+        for (const [pid, q] of qualifyingCutoffs) {
+            if (q.point.score <= parsedScore) ids.add(pid)
+        }
+        return ids
+    }, [qualifyingCutoffs, parsedScore])
+
+    // Card hints for score-filtered results: the SAME qualifying
+    // (scale, method) series decides the displayed cutoff, the method
+    // label and the trend delta (latestYearDelta — null => badge hidden),
+    // plus the newest program-scope quota row. Null in normal browsing so
+    // the map is never built and no hint is rendered there.
+    const admissionHints = useMemo(() => {
+        if (!qualifyingCutoffs || !admissionsByCode || scoreScale == null) {
+            return null
+        }
+        const newestQuota = new Map<string, { year: number; quota: number }>()
+        for (const adm of admissionsByCode.values()) {
+            if (!adm) continue
             for (const q of adm.quotas ?? []) {
                 if (q.scope !== "program" || !q.programId) continue
                 if (typeof q.quota !== "number" || typeof q.year !== "number") continue
@@ -266,21 +277,15 @@ export function ProgramList() {
             }
         }
         const hints = new Map<string, AdmissionHint>()
-        for (const [pid, rows] of scoresByProgram) {
-            // buildTrendSeries returns series newest-year-first, so the
-            // first match at the selected scale (and method, if chosen)
-            // is the series whose newest year is latest.
-            const series = buildTrendSeries(rows).find(
-                (s) => s.scale === scoreScale && (!scoreMethod || s.method === scoreMethod)
-            )
-            if (!series || series.points.length === 0) continue
-            const last = series.points[series.points.length - 1]
-            const d = latestYearDelta(series)
+        for (const [pid, q] of qualifyingCutoffs) {
+            const d = latestYearDelta(q.series)
             const quota = newestQuota.get(pid)
             hints.set(pid, {
-                cutoffYear: last.year,
-                cutoff: last.score,
-                scale: series.scale,
+                cutoffYear: q.point.year,
+                cutoff: q.point.score,
+                scale: q.series.scale,
+                method: q.series.method || null,
+                methodLabel: q.methodLabel,
                 delta: d?.delta ?? null,
                 deltaFromYear: d?.fromYear ?? null,
                 deltaToYear: d?.toYear ?? null,
@@ -289,7 +294,7 @@ export function ProgramList() {
             })
         }
         return hints
-    }, [scoreFilterActive, admissionsByCode, scoreScale, scoreMethod])
+    }, [qualifyingCutoffs, admissionsByCode, scoreScale])
 
     // While the score filter is active, fetch the whole catalog (with the
     // same search/filters applied — AND semantics) in one shot so programs
@@ -333,6 +338,8 @@ export function ProgramList() {
             cutoff: h.cutoff,
             year: h.cutoffYear,
             scale: h.scale,
+            method: h.method,
+            methodLabel: h.methodLabel,
             delta: h.delta,
             deltaFromYear: h.deltaFromYear,
             deltaToYear: h.deltaToYear,
@@ -342,7 +349,7 @@ export function ProgramList() {
     }
 
     const handleScoreScaleChange = (scale: number) => {
-        setScoreScale(scale)
+        setScoreScaleChoice(scale)
         setScoreMethod("") // method options are per-scale; reset selection
     }
 

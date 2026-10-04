@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useEffect, useState, useSyncExternalStore } from "react"
+import React, { useState, useSyncExternalStore } from "react"
 import { useTheme } from "next-themes"
 import { useRouter, usePathname, Link } from "@/i18n/navigation"
 import { Button } from "@/components/ui/button"
@@ -22,18 +22,16 @@ export const Navbar = () => {
     const pathname = usePathname()
     const locale = useLocale()
     const t = useTranslations("navbar")
-    const [menuOpen, setMenuOpen] = useState(false)
+    // The mobile menu is "open" only for the path it was opened on — any
+    // route change (link click or programmatic navigation while it is open)
+    // closes it without an effect.
+    const [menuOpenPath, setMenuOpenPath] = useState<string | null>(null)
+    const menuOpen = menuOpenPath === pathname
     const mounted = useSyncExternalStore(
         () => () => {},
         () => true,
         () => false
     )
-
-    // Close the mobile menu whenever the route changes (covers link clicks
-    // and any programmatic navigation while it is open).
-    useEffect(() => {
-        setMenuOpen(false)
-    }, [pathname])
 
     const toggleLocale = () => {
         const next = locale === "vi" ? "en" : "vi"
@@ -89,7 +87,7 @@ export const Navbar = () => {
                         variant="ghost"
                         size="icon"
                         className="md:hidden"
-                        onClick={() => setMenuOpen((prev) => !prev)}
+                        onClick={() => setMenuOpenPath((prev) => (prev === pathname ? null : pathname))}
                         aria-label={menuOpen ? t("close") : t("menu")}
                         aria-expanded={menuOpen}
                         aria-controls="mobile-nav-menu"
@@ -112,7 +110,7 @@ export const Navbar = () => {
                             <Link
                                 key={key}
                                 href={href}
-                                onClick={() => setMenuOpen(false)}
+                                onClick={() => setMenuOpenPath(null)}
                                 className="flex items-center gap-2.5 rounded-md px-3 py-2.5 text-sm text-muted-foreground hover:bg-accent hover:text-foreground transition-colors"
                             >
                                 {Icon && <Icon className="w-4 h-4 text-muted-foreground" />}

@@ -1,6 +1,6 @@
 "use client"
 
-import React, { createContext, useContext, useEffect, useState, useMemo, useCallback } from 'react';
+import React, { createContext, useContext, useEffect, useState, useMemo, useSyncExternalStore } from 'react';
 import { useTranslations } from 'next-intl';
 import { querySlmRag } from '@/lib/slmRagEngine';
 
@@ -58,6 +58,58 @@ const generateNewSession = (title: string, greetingText: string): ChatSession =>
     };
 };
 
+// Read persisted chat state (v2 sessions, then the legacy flat history, then
+// a fresh greeting session). Client-only — callers must gate on mount.
+const loadInitialSessions = (
+    newChatTitle: string,
+    greetingText: string,
+    previousChatTitle: string
+): { sessions: ChatSession[]; currentSessionId: string } => {
+    try {
+        const rawSessions = localStorage.getItem(SESSIONS_STORAGE_KEY);
+        if (rawSessions) {
+            const parsed: ChatSession[] = JSON.parse(rawSessions);
+            if (Array.isArray(parsed) && parsed.length > 0) {
+                return { sessions: parsed, currentSessionId: parsed[0].id };
+            }
+        }
+
+        // Check legacy storage
+        const legacyRaw = localStorage.getItem(LEGACY_STORAGE_KEY);
+        if (legacyRaw) {
+            const legacyMsgs: ChatMessage[] = JSON.parse(legacyRaw);
+            if (Array.isArray(legacyMsgs) && legacyMsgs.length > 0) {
+                const firstUserMsg = legacyMsgs.find(m => m.role === 'user');
+                const title = firstUserMsg ? firstUserMsg.content.slice(0, 35).trim() : previousChatTitle;
+                const legacySession: ChatSession = {
+                    id: `sess-${Date.now()}`,
+                    title,
+                    createdAt: new Date().toISOString(),
+                    updatedAt: new Date().toISOString(),
+                    messages: legacyMsgs,
+                };
+                return { sessions: [legacySession], currentSessionId: legacySession.id };
+            }
+        }
+
+        // Fresh initial session
+        const initialSession = generateNewSession(newChatTitle, greetingText);
+        return { sessions: [initialSession], currentSessionId: initialSession.id };
+    } catch {
+        const fallback = generateNewSession(newChatTitle, greetingText);
+        return { sessions: [fallback], currentSessionId: fallback.id };
+    }
+};
+
+// Hydration-safe mount flag (same pattern as Navbar): false during SSR and
+// the first client render, true afterwards.
+const useMounted = () =>
+    useSyncExternalStore(
+        () => () => {},
+        () => true,
+        () => false
+    );
+
 export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const t = useTranslations('chat');
     const greetingText = t('greeting');
@@ -69,62 +121,26 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
     const [isLoading, setIsLoading] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
     const [isInitialized, setIsInitialized] = useState(false);
+    const mounted = useMounted();
 
-    // Initialize from LocalStorage on mount
-    useEffect(() => {
-        try {
-            const rawSessions = localStorage.getItem(SESSIONS_STORAGE_KEY);
-            if (rawSessions) {
-                const parsed: ChatSession[] = JSON.parse(rawSessions);
-                if (Array.isArray(parsed) && parsed.length > 0) {
-                    setSessions(parsed);
-                    setCurrentSessionId(parsed[0].id);
-                    setIsInitialized(true);
-                    return;
-                }
-            }
-
-            // Check legacy storage
-            const legacyRaw = localStorage.getItem(LEGACY_STORAGE_KEY);
-            if (legacyRaw) {
-                const legacyMsgs: ChatMessage[] = JSON.parse(legacyRaw);
-                if (Array.isArray(legacyMsgs) && legacyMsgs.length > 0) {
-                    const firstUserMsg = legacyMsgs.find(m => m.role === 'user');
-                    const title = firstUserMsg ? firstUserMsg.content.slice(0, 35).trim() : previousChatTitle;
-                    const legacySession: ChatSession = {
-                        id: `sess-${Date.now()}`,
-                        title,
-                        createdAt: new Date().toISOString(),
-                        updatedAt: new Date().toISOString(),
-                        messages: legacyMsgs,
-                    };
-                    setSessions([legacySession]);
-                    setCurrentSessionId(legacySession.id);
-                    setIsInitialized(true);
-                    return;
-                }
-            }
-
-            // Fresh initial session
-            const initialSession = generateNewSession(newChatTitle, greetingText);
-            setSessions([initialSession]);
-            setCurrentSessionId(initialSession.id);
-        } catch (e) {
-            const fallback = generateNewSession(newChatTitle, greetingText);
-            setSessions([fallback]);
-            setCurrentSessionId(fallback.id);
-        } finally {
-            setIsInitialized(true);
-        }
-    }, []);
+    // Initialize from LocalStorage on the first post-hydration render.
+    // Adjusting state during render is React's documented alternative to a
+    // mount effect: SSR and the hydration render stay identical
+    // (isInitialized=false), then the stored sessions land before paint.
+    if (mounted && !isInitialized) {
+        const init = loadInitialSessions(newChatTitle, greetingText, previousChatTitle);
+        setSessions(init.sessions);
+        setCurrentSessionId(init.currentSessionId);
+        setIsInitialized(true);
+    }
 
     // Save to LocalStorage whenever sessions change
     useEffect(() => {
         if (isInitialized && sessions.length > 0) {
             try {
                 localStorage.setItem(SESSIONS_STORAGE_KEY, JSON.stringify(sessions));
-            } catch (e) {
-                console.error('Failed to save chat sessions to localStorage:', e);
+            } catch (error) {
+                console.error('Failed to save chat sessions to localStorage:', error);
             }
         }
     }, [sessions, isInitialized]);
@@ -137,21 +153,21 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
         return currentSession ? currentSession.messages : [];
     }, [currentSession]);
 
-    const createSession = useCallback(() => {
+    const createSession = () => {
         const newSession = generateNewSession(newChatTitle, greetingText);
         setSessions((prev) => [newSession, ...prev]);
         setCurrentSessionId(newSession.id);
         return newSession.id;
-    }, [newChatTitle, greetingText]);
+    };
 
-    const switchSession = useCallback((sessionId: string) => {
+    const switchSession = (sessionId: string) => {
         const exists = sessions.some((s) => s.id === sessionId);
         if (exists) {
             setCurrentSessionId(sessionId);
         }
-    }, [sessions]);
+    };
 
-    const deleteSession = useCallback((sessionId: string) => {
+    const deleteSession = (sessionId: string) => {
         setSessions((prev) => {
             const filtered = prev.filter((s) => s.id !== sessionId);
             if (filtered.length === 0) {
@@ -164,15 +180,15 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
             }
             return filtered;
         });
-    }, [currentSessionId, newChatTitle, greetingText]);
+    };
 
-    const clearAllSessions = useCallback(() => {
+    const clearAllSessions = () => {
         const fresh = generateNewSession(newChatTitle, greetingText);
         setSessions([fresh]);
         setCurrentSessionId(fresh.id);
-    }, [newChatTitle, greetingText]);
+    };
 
-    const clearMessages = useCallback(() => {
+    const clearMessages = () => {
         if (!currentSessionId) return;
         setSessions((prev) =>
             prev.map((s) => {
@@ -187,9 +203,9 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
                 return s;
             })
         );
-    }, [currentSessionId, newChatTitle, greetingText]);
+    };
 
-    const sendMessage = useCallback(async (text: string) => {
+    const sendMessage = async (text: string) => {
         const queryText = text.trim();
         if (!queryText || !currentSessionId) return;
 
@@ -250,7 +266,7 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
                     return s;
                 })
             );
-        } catch (error) {
+        } catch {
             const errorMsg: ChatMessage = {
                 id: `err-${Date.now()}`,
                 role: 'assistant',
@@ -272,7 +288,7 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
         } finally {
             setIsLoading(false);
         }
-    }, [currentSessionId, currentSession, newChatTitle, greetingText, errorText]);
+    };
 
     return (
         <ChatContext.Provider

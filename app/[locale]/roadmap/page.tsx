@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState, useMemo } from "react"
-import { motion, AnimatePresence } from "framer-motion"
+import { motion } from "framer-motion"
 import {
     GitFork,
     Search,
@@ -13,12 +13,10 @@ import {
     CheckCircle2,
     Sparkles,
     GraduationCap,
-    Clock,
     RotateCcw,
     ChevronRight,
     X,
     HelpCircle,
-    ArrowDown,
 } from "lucide-react"
 import useSWR from "swr"
 import { useTranslations } from "next-intl"
