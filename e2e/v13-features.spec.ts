@@ -67,9 +67,11 @@ test.describe("Score trend chart (v1.3)", () => {
     test("all-single-year program still renders chart without fabricated lines", async ({
         page,
     }) => {
+        // Fixture: Kiến trúc đô thị (7580104) — chương trình mới 2026, chỉ có
+        // đúng một năm điểm chuẩn matched trong snapshot (Round 18 data).
         const section = await openProgramDetail(
             page,
-            "Luật (Định hướng Luật kinh tế)",
+            "Kiến trúc đô thị",
             "Tôn Đức Thắng"
         )
         const chart = section.getByTestId("score-trend-chart")
