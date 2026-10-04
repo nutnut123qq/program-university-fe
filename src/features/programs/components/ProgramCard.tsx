@@ -1,5 +1,6 @@
 "use client"
 
+import { Fragment, type ReactNode } from "react"
 import { motion } from "framer-motion"
 import { GraduationCap, Building2, BookOpen, ExternalLink, Clock, Award, Eye, Sparkles } from "lucide-react"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
@@ -7,12 +8,30 @@ import { Badge } from "@/components/ui/badge"
 import { buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { useTranslations } from "next-intl"
+import { WishlistButton } from "@/features/wishlist/WishlistButton"
 import { Program } from "../types"
+
+/**
+ * Optional score-filter hint (v1.3). Rendered only on score-filtered
+ * result cards — normal catalog browsing never passes it. Each fragment
+ * is hidden when its underlying value is null; nothing is invented.
+ */
+export interface ScoreHint {
+    cutoff: number | null
+    year: number | null
+    scale: number | null
+    delta: number | null
+    deltaFromYear: number | null
+    deltaToYear: number | null
+    quota: number | null
+    quotaYear: number | null
+}
 
 interface ProgramCardProps {
     program: Program
     index: number
     onViewDetail?: (program: Program) => void
+    scoreHint?: ScoreHint
 }
 
 function extractCohorts(code?: string | null, name?: string | null): string[] {
@@ -29,10 +48,53 @@ function extractSpecialization(name?: string | null): string | null {
     return null
 }
 
-export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) {
+export function ProgramCard({ program, index, onViewDetail, scoreHint }: ProgramCardProps) {
     const t = useTranslations("programs")
     const cohorts = extractCohorts(program.code, program.name)
     const specialization = extractSpecialization(program.name)
+
+    // Score-filter hint line: cutoff at the selected scale + trend delta +
+    // newest quota. Fragments are joined by "·" and each is omitted when
+    // its data is missing (delta null = no badge, quota null = omitted).
+    const hintParts: ReactNode[] = []
+    if (scoreHint) {
+        if (scoreHint.cutoff != null && scoreHint.year != null && scoreHint.scale != null) {
+            hintParts.push(
+                t("scoreHintCutoff", {
+                    year: scoreHint.year,
+                    cutoff: scoreHint.cutoff,
+                    scale: scoreHint.scale,
+                })
+            )
+        }
+        if (scoreHint.delta != null && scoreHint.deltaFromYear != null) {
+            const delta = scoreHint.delta
+            const arrow = delta > 0 ? "↑" : delta < 0 ? "↓" : "→"
+            const tone =
+                delta > 0
+                    ? "font-semibold text-emerald-600 dark:text-emerald-400"
+                    : delta < 0
+                      ? "font-semibold text-red-600 dark:text-red-400"
+                      : "font-semibold text-muted-foreground"
+            hintParts.push(
+                <span className={tone}>
+                    {arrow}{" "}
+                    {t("scoreHintDelta", {
+                        delta,
+                        fromYear: scoreHint.deltaFromYear,
+                    })}
+                </span>
+            )
+        }
+        if (scoreHint.quota != null && scoreHint.quotaYear != null) {
+            hintParts.push(
+                t("scoreHintQuota", {
+                    year: scoreHint.quotaYear,
+                    quota: scoreHint.quota,
+                })
+            )
+        }
+    }
 
     return (
         <motion.div
@@ -117,6 +179,22 @@ export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) 
                                 </Badge>
                             )}
                         </div>
+
+                        {/* Score-filter hint (filtered results only). Inline
+                            fragments wrap naturally — no overflow at 375px. */}
+                        {hintParts.length > 0 && (
+                            <p
+                                data-testid="score-hint"
+                                className="text-[11px] leading-relaxed text-muted-foreground break-words"
+                            >
+                                {hintParts.map((part, i) => (
+                                    <Fragment key={i}>
+                                        {i > 0 && " · "}
+                                        {part}
+                                    </Fragment>
+                                ))}
+                            </p>
+                        )}
                     </CardContent>
                 </div>
 
@@ -149,6 +227,7 @@ export function ProgramCard({ program, index, onViewDetail }: ProgramCardProps) 
                                 <ExternalLink className="h-3.5 w-3.5 shrink-0" />
                             </a>
                         )}
+                        <WishlistButton programId={program.id} size="sm" />
                     </div>
                 </div>
             </Card>

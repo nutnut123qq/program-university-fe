@@ -4,14 +4,17 @@ import { useCallback, useEffect, useMemo, useState } from "react"
 import useSWR from "swr"
 import useSWRInfinite from "swr/infinite"
 import { motion } from "framer-motion"
-import { GraduationCap, SearchX, Loader2 } from "lucide-react"
+import { GraduationCap, SearchX, Loader2, Heart } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Button } from "@/components/ui/button"
-import { ProgramCard } from "./ProgramCard"
+import { buildTrendSeries, latestYearDelta } from "@/lib/admissionTrend"
+import { ProgramCard, type ScoreHint } from "./ProgramCard"
 import { ProgramFilters } from "./ProgramFilters"
 import { ProgramDetailDialog } from "./ProgramDetailDialog"
 import { ScoreFilter } from "./ScoreFilter"
+import { WishlistDrawer } from "@/features/wishlist/WishlistDrawer"
+import { useWishlist } from "@/features/wishlist/useWishlist"
 import {
     fetchAdmissions,
     fetchDegreeTypes,
@@ -20,6 +23,7 @@ import {
 } from "../api"
 import {
     AdmissionData,
+    AdmissionScore,
     Program,
     ProgramFilters as ProgramFiltersType,
     ProgramsResponse,
@@ -29,6 +33,24 @@ import {
 const PAGE_SIZE = 12
 
 type UniversityWithCode = University & { code?: string | null }
+
+/**
+ * Per-program admission hint for score-filter result cards only.
+ * cutoffYear/cutoff/scale = last point of the picked same-scale
+ * (+ same-method, when one is chosen) trend series; delta* = the series'
+ * latest year-over-year delta (null when the series has <2 points);
+ * quota/quotaYear = newest program-scope quota row (null when none).
+ */
+type AdmissionHint = {
+    cutoffYear: number
+    cutoff: number
+    scale: number
+    delta: number | null
+    deltaFromYear: number | null
+    deltaToYear: number | null
+    quota: number | null
+    quotaYear: number | null
+}
 
 export function ProgramList() {
     const t = useTranslations("programs")
@@ -41,6 +63,8 @@ export function ProgramList() {
     })
     const [selectedProgram, setSelectedProgram] = useState<Program | null>(null)
     const [lastViewedProgram, setLastViewedProgram] = useState<Program | null>(null)
+    const [wishlistOpen, setWishlistOpen] = useState(false)
+    const { mounted: wishlistMounted, ids: wishlistIds } = useWishlist()
 
     const displayProgram = selectedProgram || lastViewedProgram
 
@@ -211,6 +235,62 @@ export function ProgramList() {
         return ids
     }, [scoreFilterActive, admissionsByCode, parsedScore, scoreScale, scoreMethod])
 
+    // Card hints for score-filtered results: newest cutoff + trend delta
+    // of the same (scale, method-if-chosen) series that decides
+    // eligibility — via the shared trend math (buildTrendSeries +
+    // latestYearDelta), never reimplemented — plus the newest
+    // program-scope quota row. Null in normal browsing so the map is
+    // never built and no hint is rendered there.
+    const admissionHints = useMemo(() => {
+        if (!scoreFilterActive || !admissionsByCode || scoreScale == null) {
+            return null
+        }
+        const scoresByProgram = new Map<string, AdmissionScore[]>()
+        const newestQuota = new Map<string, { year: number; quota: number }>()
+        for (const adm of admissionsByCode.values()) {
+            if (!adm) continue
+            for (const s of adm.scores ?? []) {
+                if (s.scope !== "program" || s.kind !== "cutoff") continue
+                if (!s.programId || typeof s.score !== "number") continue
+                const rows = scoresByProgram.get(s.programId)
+                if (rows) rows.push(s)
+                else scoresByProgram.set(s.programId, [s])
+            }
+            for (const q of adm.quotas ?? []) {
+                if (q.scope !== "program" || !q.programId) continue
+                if (typeof q.quota !== "number" || typeof q.year !== "number") continue
+                const cur = newestQuota.get(q.programId)
+                if (!cur || q.year > cur.year) {
+                    newestQuota.set(q.programId, { year: q.year, quota: q.quota })
+                }
+            }
+        }
+        const hints = new Map<string, AdmissionHint>()
+        for (const [pid, rows] of scoresByProgram) {
+            // buildTrendSeries returns series newest-year-first, so the
+            // first match at the selected scale (and method, if chosen)
+            // is the series whose newest year is latest.
+            const series = buildTrendSeries(rows).find(
+                (s) => s.scale === scoreScale && (!scoreMethod || s.method === scoreMethod)
+            )
+            if (!series || series.points.length === 0) continue
+            const last = series.points[series.points.length - 1]
+            const d = latestYearDelta(series)
+            const quota = newestQuota.get(pid)
+            hints.set(pid, {
+                cutoffYear: last.year,
+                cutoff: last.score,
+                scale: series.scale,
+                delta: d?.delta ?? null,
+                deltaFromYear: d?.fromYear ?? null,
+                deltaToYear: d?.toYear ?? null,
+                quota: quota?.quota ?? null,
+                quotaYear: quota?.year ?? null,
+            })
+        }
+        return hints
+    }, [scoreFilterActive, admissionsByCode, scoreScale, scoreMethod])
+
     // While the score filter is active, fetch the whole catalog (with the
     // same search/filters applied — AND semantics) in one shot so programs
     // beyond the currently loaded pages are evaluated too.
@@ -243,6 +323,23 @@ export function ProgramList() {
     // totalCount === 0 means the catalog query itself returned nothing, so
     // the pool fetch is skipped (key null) and must not count as "loading".
     const scorePoolLoading = scoreFilterActive && totalCount > 0 && !scorePool
+
+    // ProgramCard's prop names the cutoff year `year`; the map keeps the
+    // more explicit `cutoffYear`. Missing hint => undefined (card hides it).
+    const scoreHintFor = (programId: string): ScoreHint | undefined => {
+        const h = admissionHints?.get(programId)
+        if (!h) return undefined
+        return {
+            cutoff: h.cutoff,
+            year: h.cutoffYear,
+            scale: h.scale,
+            delta: h.delta,
+            deltaFromYear: h.deltaFromYear,
+            deltaToYear: h.deltaToYear,
+            quota: h.quota,
+            quotaYear: h.quotaYear,
+        }
+    }
 
     const handleScoreScaleChange = (scale: number) => {
         setScoreScale(scale)
@@ -283,6 +380,18 @@ export function ProgramList() {
                 <p className="text-lg text-muted-foreground">
                     {t("subtitle")}
                 </p>
+                <div className="flex justify-center pt-1">
+                    <Button
+                        variant="outline"
+                        size="sm"
+                        onClick={() => setWishlistOpen(true)}
+                        data-testid="wishlist-open"
+                        className="gap-1.5 rounded-xl text-xs font-semibold"
+                    >
+                        <Heart className="h-3.5 w-3.5 text-rose-500" fill={wishlistMounted && wishlistIds.length > 0 ? "currentColor" : "none"} />
+                        {t("wishlistOpen", { count: wishlistMounted ? wishlistIds.length : 0 })}
+                    </Button>
+                </div>
             </motion.section>
 
             {/* Filters */}
@@ -392,6 +501,11 @@ export function ProgramList() {
                             program={program}
                             index={index}
                             onViewDetail={handleSelectProgram}
+                            scoreHint={
+                                // Hints only in score-filter mode — normal
+                                // browsing never computes or renders them.
+                                scoreFilteredPrograms ? scoreHintFor(program.id) : undefined
+                            }
                         />
                     ))}
                 </div>
@@ -423,6 +537,8 @@ export function ProgramList() {
                 open={!!selectedProgram}
                 onClose={() => setSelectedProgram(null)}
             />
+
+            <WishlistDrawer open={wishlistOpen} onOpenChange={setWishlistOpen} />
         </div>
     )
 }

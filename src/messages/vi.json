@@ -215,7 +215,18 @@
     "evalCrit3Title": "3. Phân tầng Khối kiến thức (Knowledge Blocks)",
     "evalCrit3Desc": "Tỷ lệ hợp lý giữa kiến thức Đại cương, Cơ sở ngành, Chuyên ngành và Tốt nghiệp.",
     "evalCrit4Title": "4. Tính Đầy đủ Dữ liệu công bố (Completeness)",
-    "evalCrit4Desc": "Mức độ minh bạch thông tin về mô tả môn, điều kiện tiên quyết và học phí."
+    "evalCrit4Desc": "Mức độ minh bạch thông tin về mô tả môn, điều kiện tiên quyết và học phí.",
+    "scoreHintCutoff": "Chuẩn {year}: {cutoff, number}/{scale, number}",
+    "scoreHintDelta": "{delta, number, ::sign-always} so {fromYear}",
+    "scoreHintQuota": "Chỉ tiêu {year}: {quota, number}",
+    "trendTitle": "Xu hướng điểm chuẩn qua các năm",
+    "trendScaleBadge": "thang {scale}",
+    "trendOnlyYear": "Chỉ có năm {year}",
+    "trendDelta": "{delta} so với {year}",
+    "trendScaleNote": "Mỗi đường là một thang điểm/phương thức riêng — không so sánh trực tiếp giữa các đường.",
+    "sameMajorElsewhereTitle": "Ngành này ở trường khác",
+    "sameMajorElsewhereNoData": "Chưa có dữ liệu điểm chuẩn",
+    "wishlistOpen": "Danh sách yêu thích ({count})"
   },
   "chat": {
     "title": "AI thử nghiệm",
@@ -382,5 +393,14 @@
   "metadata": {
     "title": "Tedo — Tra cứu Chương trình Đào tạo Đại học",
     "description": "Hệ thống tra cứu, chuẩn hóa và so sánh chương trình đào tạo của các trường đại học Việt Nam"
+  },
+  "wishlist": {
+    "wishlistTitle": "Ngành yêu thích",
+    "wishlistAdd": "Thêm vào yêu thích",
+    "wishlistRemove": "Xóa khỏi yêu thích",
+    "wishlistEmpty": "Chưa có ngành nào được lưu. Nhấn vào biểu tượng trái tim trên thẻ ngành để lưu lại.",
+    "clearAll": "Xóa tất cả",
+    "compare": "So sánh",
+    "compareHint": "Chọn đúng 2 ngành để so sánh"
   }
 }

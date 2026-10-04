@@ -9,9 +9,11 @@ interface SheetProps {
     open?: boolean
     onOpenChange?: (open: boolean) => void
     side?: "left" | "right" | "top" | "bottom"
+    /** Extra classes for the panel — e.g. widen the default w-3/4 on mobile. */
+    className?: string
 }
 
-const Sheet = ({ children, open, onOpenChange, side = "right" }: SheetProps) => {
+const Sheet = ({ children, open, onOpenChange, side = "right", className }: SheetProps) => {
     if (!open) return null
 
     const sideClasses = {
@@ -24,7 +26,7 @@ const Sheet = ({ children, open, onOpenChange, side = "right" }: SheetProps) => 
     return (
         <div className="fixed inset-0 z-50 flex">
             <div className="fixed inset-0 bg-black/50" onClick={() => onOpenChange?.(false)} />
-            <div className={cn("fixed z-50 border bg-background p-6 shadow-lg transition ease-in-out", sideClasses[side])}>
+            <div className={cn("fixed z-50 border bg-background p-6 shadow-lg transition ease-in-out", sideClasses[side], className)}>
                 {children}
                 <button
                     onClick={() => onOpenChange?.(false)}

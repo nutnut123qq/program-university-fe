@@ -215,7 +215,18 @@
     "evalCrit3Title": "3. Knowledge-Block Layering",
     "evalCrit3Desc": "Reasonable ratio of General, Foundation, Major, and Graduation knowledge.",
     "evalCrit4Title": "4. Published-Data Completeness",
-    "evalCrit4Desc": "Transparency of course descriptions, prerequisites, and tuition."
+    "evalCrit4Desc": "Transparency of course descriptions, prerequisites, and tuition.",
+    "scoreHintCutoff": "Cutoff {year}: {cutoff, number}/{scale, number}",
+    "scoreHintDelta": "{delta, number, ::sign-always} vs {fromYear}",
+    "scoreHintQuota": "Quota {year}: {quota, number}",
+    "trendTitle": "Cutoff score trend",
+    "trendScaleBadge": "scale {scale}",
+    "trendOnlyYear": "Only {year}",
+    "trendDelta": "{delta} vs {year}",
+    "trendScaleNote": "Each line is a separate scale/method series — not directly comparable.",
+    "sameMajorElsewhereTitle": "This major at other universities",
+    "sameMajorElsewhereNoData": "No cutoff data",
+    "wishlistOpen": "Wishlist ({count})"
   },
   "chat": {
     "title": "Experimental AI",
@@ -382,5 +393,14 @@
   "metadata": {
     "title": "Tedo — University Programs Search",
     "description": "A system to search, standardize and compare training programs of Vietnamese universities"
+  },
+  "wishlist": {
+    "wishlistTitle": "Wishlist",
+    "wishlistAdd": "Add to wishlist",
+    "wishlistRemove": "Remove from wishlist",
+    "wishlistEmpty": "No saved programs yet. Tap the heart icon on a program card to save it.",
+    "clearAll": "Clear all",
+    "compare": "Compare",
+    "compareHint": "Select exactly 2 programs to compare"
   }
 }

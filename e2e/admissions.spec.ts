@@ -49,14 +49,18 @@ test.describe("Admission Data Section (ProgramDetailDialog)", () => {
         // Year-aware method selector: switching to 2025 shows the real
         // 28.19/30 "quy đổi thang 30" cutoff row
         await section.getByRole("button", { name: /· 2025/ }).click()
-        await expect(section.getByText("28.19")).toBeVisible()
+        // Scope to the score-row span — the v1.3 trend chart also renders a
+        // "28.19" point label, so a bare getByText("28.19") is ambiguous.
+        await expect(section.getByText("28.19 /")).toBeVisible()
         await expect(section.getByText(/quy đổi thang 30/i).first()).toBeVisible()
 
         // Real quotas: program 420 (2025) + 460 (2026) + school-wide 4,020
         // labeled by scope — all years render with year badges
         await expect(section.getByText("Chỉ tiêu tuyển sinh")).toBeVisible()
-        await expect(section.getByText(/420/)).toBeVisible()
-        await expect(section.getByText(/460/)).toBeVisible()
+        // exact match — the trend chart's SVG innerText concatenates axis
+        // labels ("…202420252026…") which a bare /420/ regex would also hit
+        await expect(section.getByText("420", { exact: true })).toBeVisible()
+        await expect(section.getByText("460", { exact: true })).toBeVisible()
         await expect(
             section.getByText(/Chỉ tiêu theo nhóm ngành\/trường/i).first()
         ).toBeVisible()

@@ -37,6 +37,10 @@ import { KnowledgeBlockBreakdown } from "./KnowledgeBlockBreakdown"
 import { SyllabusDetailModal } from "./SyllabusDetailModal"
 import { ElectiveGroups } from "./ElectiveGroups"
 import { exportProgramToCsv, exportProgramToJson } from "@/lib/exportUtils"
+import { buildTrendSeries, deltaVsPreviousYear } from "@/lib/admissionTrend"
+import { ScoreTrendChart } from "./ScoreTrendChart"
+import { SameMajorElsewhere } from "./SameMajorElsewhere"
+import { WishlistButton } from "@/features/wishlist/WishlistButton"
 
 interface ProgramDetailDialogProps {
     program: Program | null
@@ -297,6 +301,14 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         }
     }, [admissions, program])
 
+    // v1.3 trend: same-scale + same-method cutoff series, computed once for
+    // the whole program — renderScoreRow only looks its series up, never
+    // rebuilds per row.
+    const scoreTrendSeries = useMemo(
+        () => buildTrendSeries(admissionsView?.programScores ?? []),
+        [admissionsView]
+    )
+
     const activeAdmissionMethod =
         admissionMethod && admissionsView?.methods.some((m) => m.key === admissionMethod)
             ? admissionMethod
@@ -342,6 +354,34 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     const scoreText = (s: AdmissionScore): string =>
         s.score == null ? "—" : Number.isInteger(s.score) ? String(s.score) : s.score.toFixed(2)
 
+    /**
+     * v1.3 delta badge: this row's year vs the closest earlier year in ITS
+     * (scale, method) series. Only rows buildTrendSeries would include can
+     * carry a delta — context/floor/converted rows must never borrow a
+     * program series that happens to share scale+method.
+     */
+    const trendDeltaBadge = (s: AdmissionScore) => {
+        if (s.scope !== "program" || s.kind !== "cutoff") return null
+        const series = scoreTrendSeries.find((v) => v.scale === s.scale && v.method === s.method)
+        const d = series ? deltaVsPreviousYear(series, s.year) : null
+        if (!d) return null
+        const deltaText = `${d.delta > 0 ? "+" : ""}${Number(d.delta.toFixed(2))}`
+        return (
+            <Badge
+                variant="outline"
+                className={`text-[10px] font-mono font-bold ${
+                    d.delta > 0
+                        ? "text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 border-emerald-500/25"
+                        : d.delta < 0
+                          ? "text-red-600 dark:text-red-400 bg-red-500/10 border-red-500/25"
+                          : "text-muted-foreground"
+                }`}
+            >
+                {t("trendDelta", { delta: deltaText, year: d.fromYear })}
+            </Badge>
+        )
+    }
+
     const renderScoreRow = (s: AdmissionScore, i: number) => (
         <div
             key={`${s.method}-${s.scope}-${s.scopeLabel ?? ""}-${s.kind}-${s.score}-${i}`}
@@ -358,6 +398,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                     {kindLabel(s.kind)}
                 </Badge>
                 <span className="text-[11px] font-semibold text-muted-foreground">{s.year}</span>
+                {trendDeltaBadge(s)}
                 {(s.scope !== "program" || s.scopeLabel) && (
                     <Badge variant="secondary" className="text-[10px] font-semibold">
                         {scopeBadgeLabel(s.scope, s.scopeLabel)}
@@ -609,6 +650,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                             </Button>
                                         </>
                                     )}
+                                    <WishlistButton programId={program.id} size="sm" />
                                     <Button variant="ghost" size="icon" onClick={onClose} className="h-8 w-8 rounded-full">
                                         <X className="h-4 w-4" />
                                     </Button>
@@ -781,6 +823,13 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                     </Section>
                                                 )}
 
+                                                {/* ---- Xu hướng điểm chuẩn 3 năm (v1.3) ---- */}
+                                                {admissionsView.programScores.length > 0 && (
+                                                    <Section title={t("trendTitle")}>
+                                                        <ScoreTrendChart scores={admissionsView.programScores} />
+                                                    </Section>
+                                                )}
+
                                                 {/* ---- Chỉ tiêu ---- */}
                                                 {(admissionsView.programQuotas.length > 0 || admissionsView.contextQuotas.length > 0) && (
                                                     <Section title={t("admissionQuotasTitle")}>
@@ -800,6 +849,9 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                         </div>
                                                     </Section>
                                                 )}
+
+                                                {/* ---- Ngành này ở trường khác (v1.3) ---- */}
+                                                <SameMajorElsewhere program={program} />
 
                                                 <p className="text-xs text-muted-foreground italic border-l-2 border-amber-400/70 pl-3">
                                                     {t("admissionsWarning")}
