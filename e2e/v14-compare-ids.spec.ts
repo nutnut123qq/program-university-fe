@@ -37,7 +37,7 @@ async function waitForOptions(page: Page) {
 
 test.describe("Compare page — query ids outside the first-200 options (v1.4)", () => {
     test("?a=&b= resolve the exact programs, not first-200 fallbacks", async ({ page }) => {
-        await page.goto(`/vi/compare?a=${PROG_A}&b=${PROG_B}`, { waitUntil: "networkidle" })
+        await page.goto(`/vi/compare?a=${PROG_A}&b=${PROG_B}`, { waitUntil: "domcontentloaded" })
         const selects = await waitForOptions(page)
 
         await expect(selects.nth(0)).toHaveValue(PROG_A, { timeout: 15000 })
@@ -56,7 +56,7 @@ test.describe("Compare page — query ids outside the first-200 options (v1.4)",
 
     test("share link contains the exact resolved ids", async ({ page, context }) => {
         await context.grantPermissions(["clipboard-read", "clipboard-write"])
-        await page.goto(`/vi/compare?a=${PROG_A}&b=${PROG_B}`, { waitUntil: "networkidle" })
+        await page.goto(`/vi/compare?a=${PROG_A}&b=${PROG_B}`, { waitUntil: "domcontentloaded" })
         const selects = await waitForOptions(page)
         await expect(selects.nth(0)).toHaveValue(PROG_A, { timeout: 15000 })
         await expect(selects.nth(1)).toHaveValue(PROG_B, { timeout: 15000 })
@@ -69,7 +69,7 @@ test.describe("Compare page — query ids outside the first-200 options (v1.4)",
     })
 
     test("invalid id shows an honest error, drops the param, never substitutes", async ({ page }) => {
-        await page.goto(`/vi/compare?a=${BOGUS}&b=${PROG_B}`, { waitUntil: "networkidle" })
+        await page.goto(`/vi/compare?a=${BOGUS}&b=${PROG_B}`, { waitUntil: "domcontentloaded" })
         const selects = await waitForOptions(page)
 
         // Invalid side stays empty — no silent pick of programsList[0].
@@ -86,15 +86,19 @@ test.describe("Compare page — query ids outside the first-200 options (v1.4)",
     })
 
     test("wishlist select-2 → compare preserves the exact ids", async ({ page }) => {
-        await page.goto("/vi", { waitUntil: "networkidle" })
+        await page.goto("/vi", { waitUntil: "domcontentloaded" })
         await page.evaluate(
             ([a, b]) => window.localStorage.setItem("tedo:wishlist", JSON.stringify([a, b])),
             [PROG_A, PROG_B]
         )
-        await page.reload({ waitUntil: "networkidle" })
+        await page.reload({ waitUntil: "domcontentloaded" })
 
         const openBtn = page.getByTestId("wishlist-open")
         await expect(openBtn).toBeVisible()
+        // "(2)" renders only after the wishlist store hydrates and reads
+        // localStorage — waiting on it proves the click will land on a
+        // hydrated handler (domcontentloaded alone races hydration on dev).
+        await expect(openBtn).toContainText("(2)", { timeout: 15000 })
         await openBtn.click()
 
         // The drawer resolves each id via fetchProgramById — the real names
