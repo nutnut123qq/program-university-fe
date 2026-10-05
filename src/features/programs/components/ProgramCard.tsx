@@ -121,7 +121,7 @@ export function ProgramCard({ program, index, onViewDetail, scoreHint }: Program
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: Math.min(index * 0.03, 0.3) }}
-            className="h-full"
+            className="h-full min-w-0"
         >
             <Card data-testid="program-card" className="group h-full flex flex-col justify-between overflow-hidden border border-border bg-card/80 hover:bg-card hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1 rounded-2xl">
                 <div>

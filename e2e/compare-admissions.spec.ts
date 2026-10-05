@@ -87,11 +87,17 @@ test.describe("Compare page — admission block per side", () => {
     test("scores with different scales render raw side by side — no normalization", async ({
         page,
     }) => {
-        const selects = await gotoCompare(page)
         // HUTECH "Thanh nhạc" carries program-scope rows on three scales:
         // ĐGNL ĐHQG-HCM 600/1200, THPT 15/30, học bạ 18/30, V-SAT 225/600.
-        await selects.nth(0).selectOption(PROG_MUSIC)
-        await selects.nth(1).selectOption(PROG_B)
+        // Round 19: 55 new seeds push PROG_MUSIC past the first-200 options —
+        // select it via the shareable ?a=&b= URL contract instead of the
+        // <select> (same resolution path users hit with shared links).
+        await page.goto(`/vi/compare?a=${PROG_MUSIC}&b=${PROG_B}`, {
+            waitUntil: "networkidle",
+        })
+        await expect(page.getByTestId("compare-admissions")).toHaveCount(2, {
+            timeout: 20000,
+        })
 
         const scores = page.getByTestId("compare-admissions-scores").first()
         await expect(scores).toBeVisible()

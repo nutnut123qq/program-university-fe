@@ -1,6 +1,6 @@
 {
   "university": "DTU",
-  "generatedAt": "2026-10-04T18:58:51.907876+00:00",
+  "generatedAt": "2026-10-04T21:29:35.730294+00:00",
   "years": [
     2024,
     2025,
@@ -9,18 +9,18 @@
   "scores": [
     {
       "programId": null,
-      "year": 2026,
+      "year": 2025,
       "method": "dgnl_hcm",
-      "methodLabel": "Xét kết quả kỳ thi Đánh giá năng lực do ĐHQG TP.HCM tổ chức năm 2026",
+      "methodLabel": "Xét kết quả kỳ thi Đánh giá năng lực ĐHQG TP.HCM 2025",
       "scope": "group",
       "scopeLabel": "Các ngành còn lại",
       "score": 600.0,
       "scale": 1200.0,
       "kind": "cutoff",
-      "comboNote": "Kèm ĐK: đạt ngưỡng đầu vào theo quy chế tuyển sinh",
-      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
-      "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.603469+07:00"
+      "comboNote": null,
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
+      "publishedAt": "2025-08-22",
+      "fetchedAt": "2026-10-05T04:25:32.499822+07:00"
     },
     {
       "programId": null,
@@ -35,22 +35,22 @@
       "comboNote": null,
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
       "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.597177+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.610046+07:00"
     },
     {
       "programId": null,
-      "year": 2025,
+      "year": 2026,
       "method": "dgnl_hcm",
-      "methodLabel": "Xét kết quả kỳ thi Đánh giá năng lực ĐHQG TP.HCM 2025",
+      "methodLabel": "Xét kết quả kỳ thi Đánh giá năng lực do ĐHQG TP.HCM tổ chức năm 2026",
       "scope": "group",
       "scopeLabel": "Các ngành còn lại",
       "score": 600.0,
       "scale": 1200.0,
       "kind": "cutoff",
-      "comboNote": null,
-      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
-      "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.525631+07:00"
+      "comboNote": "Kèm ĐK: đạt ngưỡng đầu vào theo quy chế tuyển sinh",
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
+      "publishedAt": "2026-08-12",
+      "fetchedAt": "2026-10-05T04:25:32.617827+07:00"
     },
     {
       "programId": null,
@@ -65,22 +65,7 @@
       "comboNote": null,
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
       "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.598637+07:00"
-    },
-    {
-      "programId": null,
-      "year": 2024,
-      "method": "hocba",
-      "methodLabel": "Xét kết quả Học tập THPT (Học bạ) năm 2024",
-      "scope": "group",
-      "scopeLabel": "Các ngành còn lại",
-      "score": 18.0,
-      "scale": 30.0,
-      "kind": "cutoff",
-      "comboNote": null,
-      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
-      "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.595589+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.611079+07:00"
     },
     {
       "programId": null,
@@ -95,7 +80,22 @@
       "comboNote": "Kèm ĐK: đạt nguồn tuyển theo quy chế tuyển sinh (thí sinh tốt nghiệp THPT năm 2026)",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.601828+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.615917+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "hocba",
+      "methodLabel": "Xét kết quả Học tập THPT (Học bạ) năm 2024",
+      "scope": "group",
+      "scopeLabel": "Các ngành còn lại",
+      "score": 18.0,
+      "scale": 30.0,
+      "kind": "cutoff",
+      "comboNote": null,
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-05T04:25:32.609068+07:00"
     },
     {
       "programId": null,
@@ -110,22 +110,22 @@
       "comboNote": null,
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.525338+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.499469+07:00"
     },
     {
       "programId": null,
-      "year": 2026,
+      "year": 2025,
       "method": "thpt_100",
-      "methodLabel": "Xét kết quả thi Tốt nghiệp THPT năm 2026",
+      "methodLabel": "Xét kết quả thi Tốt nghiệp THPT năm 2025",
       "scope": "group",
       "scopeLabel": "Các ngành còn lại",
       "score": 15.0,
       "scale": 30.0,
       "kind": "cutoff",
-      "comboNote": "Kèm ĐK: đạt nguồn tuyển theo quy chế tuyển sinh (thí sinh tốt nghiệp THPT năm 2026)",
-      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
-      "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.600635+07:00"
+      "comboNote": null,
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
+      "publishedAt": "2025-08-22",
+      "fetchedAt": "2026-10-05T04:25:32.499135+07:00"
     },
     {
       "programId": null,
@@ -140,22 +140,22 @@
       "comboNote": null,
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
       "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.594149+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.607732+07:00"
     },
     {
       "programId": null,
-      "year": 2025,
+      "year": 2026,
       "method": "thpt_100",
-      "methodLabel": "Xét kết quả thi Tốt nghiệp THPT năm 2025",
+      "methodLabel": "Xét kết quả thi Tốt nghiệp THPT năm 2026",
       "scope": "group",
       "scopeLabel": "Các ngành còn lại",
       "score": 15.0,
       "scale": 30.0,
       "kind": "cutoff",
-      "comboNote": null,
-      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
-      "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.525049+07:00"
+      "comboNote": "Kèm ĐK: đạt nguồn tuyển theo quy chế tuyển sinh (thí sinh tốt nghiệp THPT năm 2026)",
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
+      "publishedAt": "2026-08-12",
+      "fetchedAt": "2026-10-05T04:25:32.613881+07:00"
     },
     {
       "programId": null,
@@ -170,7 +170,7 @@
       "comboNote": "Kèm ĐK: đạt ngưỡng đầu vào theo quy chế tuyển sinh",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.604903+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.619880+07:00"
     },
     {
       "programId": null,
@@ -185,7 +185,7 @@
       "comboNote": null,
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.526022+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.500189+07:00"
     },
     {
       "programId": null,
@@ -200,7 +200,7 @@
       "comboNote": "Kèm ĐK: kết quả học tập lớp 12 xếp loại Khá trở lên hoặc điểm xét tốt nghiệp THPT >= 6.5",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
       "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.596364+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.609708+07:00"
     },
     {
       "programId": null,
@@ -215,7 +215,7 @@
       "comboNote": "Kèm ĐK: kết quả học tập lớp 12 xếp loại Khá trở lên hoặc điểm xét tốt nghiệp THPT >= 6.5",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
       "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.598232+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.610683+07:00"
     },
     {
       "programId": null,
@@ -230,7 +230,7 @@
       "comboNote": "Kèm ĐK: kết quả học tập lớp 12 xếp loại Khá trở lên hoặc điểm xét tốt nghiệp THPT >= 6.5",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
       "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.594796+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.608429+07:00"
     },
     {
       "programId": null,
@@ -245,7 +245,7 @@
       "comboNote": null,
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
       "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.593533+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.607056+07:00"
     },
     {
       "programId": null,
@@ -260,7 +260,7 @@
       "comboNote": "Kèm ĐK: đạt ngưỡng đầu vào theo quy chế tuyển sinh",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.603075+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.617394+07:00"
     },
     {
       "programId": null,
@@ -275,7 +275,7 @@
       "comboNote": "Kèm ĐK: đạt ngưỡng đầu vào theo quy chế tuyển sinh",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.601225+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.614874+07:00"
     },
     {
       "programId": null,
@@ -290,7 +290,7 @@
       "comboNote": "Kèm ĐK: đạt ngưỡng đầu vào theo quy chế tuyển sinh",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.600046+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.612806+07:00"
     },
     {
       "programId": null,
@@ -305,7 +305,7 @@
       "comboNote": "Kèm ĐK: đạt ngưỡng đầu vào theo quy chế tuyển sinh",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.604611+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.619179+07:00"
     },
     {
       "programId": null,
@@ -320,7 +320,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Khá trở lên hoặc điểm xét TN THPT >= 6.5",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.523451+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.497553+07:00"
     },
     {
       "programId": null,
@@ -335,7 +335,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Khá trở lên hoặc điểm xét TN THPT >= 6.5",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.523142+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.497167+07:00"
     },
     {
       "programId": null,
@@ -350,7 +350,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Khá trở lên hoặc điểm xét TN THPT >= 6.5",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.522841+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.496811+07:00"
     },
     {
       "programId": null,
@@ -365,7 +365,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Khá trở lên hoặc điểm xét TN THPT >= 6.5",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.523788+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.497938+07:00"
     },
     {
       "programId": null,
@@ -380,7 +380,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.522140+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.496021+07:00"
     },
     {
       "programId": null,
@@ -395,7 +395,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.521769+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.495660+07:00"
     },
     {
       "programId": null,
@@ -410,7 +410,7 @@
       "comboNote": null,
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
       "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.593242+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.606666+07:00"
     },
     {
       "programId": null,
@@ -425,7 +425,7 @@
       "comboNote": "Kèm ĐK: đạt ngưỡng đầu vào theo quy chế tuyển sinh",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.599718+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.612081+07:00"
     },
     {
       "programId": null,
@@ -440,7 +440,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.520990+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.495244+07:00"
     },
     {
       "programId": null,
@@ -455,7 +455,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.522495+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.496427+07:00"
     },
     {
       "programId": null,
@@ -470,7 +470,7 @@
       "comboNote": "Điểm môn Vẽ (năng khiếu) nhân hệ số 2",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
       "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.595294+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.608761+07:00"
     },
     {
       "programId": null,
@@ -485,7 +485,7 @@
       "comboNote": "Điểm môn Vẽ (năng khiếu) nhân hệ số 2",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.524415+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.498761+07:00"
     },
     {
       "programId": null,
@@ -500,7 +500,7 @@
       "comboNote": "Điểm môn Vẽ (năng khiếu) nhân hệ số 2",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
       "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.593835+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.607398+07:00"
     },
     {
       "programId": null,
@@ -515,7 +515,7 @@
       "comboNote": "Điểm môn Vẽ (năng khiếu) nhân hệ số 2",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.524103+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.498350+07:00"
     },
     {
       "programId": null,
@@ -530,7 +530,7 @@
       "comboNote": "Kèm ĐK: điểm Toán >=6 hoặc Văn >=6 (hoặc TB Toán và Văn >=6)",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.602116+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.616502+07:00"
     },
     {
       "programId": null,
@@ -545,7 +545,7 @@
       "comboNote": "Kèm ĐK: điểm Toán >=6 hoặc Văn >=6 (hoặc TB Toán và Văn >=6)",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.601535+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.615416+07:00"
     },
     {
       "programId": null,
@@ -560,7 +560,7 @@
       "comboNote": "Kèm ĐK: đạt ngưỡng đầu vào theo quy chế tuyển sinh",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.600339+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.613377+07:00"
     },
     {
       "programId": null,
@@ -575,7 +575,7 @@
       "comboNote": "Kèm ĐK: điểm Toán >=6 hoặc Văn >=6 (hoặc TB Toán và Văn >=6)",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.603862+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.618187+07:00"
     },
     {
       "programId": null,
@@ -590,7 +590,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.519841+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.494271+07:00"
     },
     {
       "programId": null,
@@ -605,22 +605,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.519252+07:00"
-    },
-    {
-      "programId": null,
-      "year": 2025,
-      "method": "thpt_100",
-      "methodLabel": "Xét kết quả thi Tốt nghiệp THPT năm 2025",
-      "scope": "group",
-      "scopeLabel": "Ngành Y khoa / Răng - Hàm - Mặt",
-      "score": 20.5,
-      "scale": 30.0,
-      "kind": "cutoff",
-      "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
-      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
-      "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.518531+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.493650+07:00"
     },
     {
       "programId": null,
@@ -635,7 +620,7 @@
       "comboNote": "Kèm ĐK: đạt ngưỡng đầu vào theo quy chế tuyển sinh",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.599061+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.611517+07:00"
     },
     {
       "programId": null,
@@ -650,7 +635,22 @@
       "comboNote": null,
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
       "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.592916+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.606242+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2025,
+      "method": "thpt_100",
+      "methodLabel": "Xét kết quả thi Tốt nghiệp THPT năm 2025",
+      "scope": "group",
+      "scopeLabel": "Ngành Y khoa / Răng - Hàm - Mặt",
+      "score": 20.5,
+      "scale": 30.0,
+      "kind": "cutoff",
+      "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
+      "publishedAt": "2025-08-22",
+      "fetchedAt": "2026-10-05T04:25:32.493035+07:00"
     },
     {
       "programId": null,
@@ -665,22 +665,7 @@
       "comboNote": "Học bạ/ĐGNL/V-SAT kèm ĐK: KQ học tập lớp 12 loại Tốt (Giỏi) hoặc điểm xét TN THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1002",
       "publishedAt": "2025-08-22",
-      "fetchedAt": "2026-10-05T01:54:50.520492+07:00"
-    },
-    {
-      "programId": null,
-      "year": 2024,
-      "method": "dgnl_hcm",
-      "methodLabel": "Xét kết quả kỳ thi Đánh giá năng lực do ĐHQG TP.HCM tổ chức năm 2024",
-      "scope": "group",
-      "scopeLabel": "Ngành Y khoa / Răng - Hàm - Mặt / Dược",
-      "score": 750.0,
-      "scale": 1200.0,
-      "kind": "cutoff",
-      "comboNote": "Kèm ĐK: kết quả học tập lớp 12 xếp loại Giỏi hoặc điểm xét tốt nghiệp THPT >= 8.0",
-      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
-      "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.595928+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.494785+07:00"
     },
     {
       "programId": null,
@@ -695,7 +680,22 @@
       "comboNote": "Kèm ĐK: đạt ngưỡng đầu vào theo quy chế tuyển sinh",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.602402+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.616957+07:00"
+    },
+    {
+      "programId": null,
+      "year": 2024,
+      "method": "dgnl_hcm",
+      "methodLabel": "Xét kết quả kỳ thi Đánh giá năng lực do ĐHQG TP.HCM tổ chức năm 2024",
+      "scope": "group",
+      "scopeLabel": "Ngành Y khoa / Răng - Hàm - Mặt / Dược",
+      "score": 750.0,
+      "scale": 1200.0,
+      "kind": "cutoff",
+      "comboNote": "Kèm ĐK: kết quả học tập lớp 12 xếp loại Giỏi hoặc điểm xét tốt nghiệp THPT >= 8.0",
+      "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
+      "publishedAt": "2024-08-17",
+      "fetchedAt": "2026-10-05T04:25:32.609385+07:00"
     },
     {
       "programId": null,
@@ -710,7 +710,7 @@
       "comboNote": "Kèm ĐK: kết quả học tập lớp 12 xếp loại Giỏi hoặc điểm xét tốt nghiệp THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
       "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.597718+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.610363+07:00"
     },
     {
       "programId": null,
@@ -725,7 +725,7 @@
       "comboNote": "Kèm ĐK: đạt ngưỡng đầu vào theo quy chế tuyển sinh",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.600921+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.614355+07:00"
     },
     {
       "programId": null,
@@ -740,7 +740,7 @@
       "comboNote": "Kèm ĐK: kết quả học tập lớp 12 xếp loại Giỏi hoặc điểm xét tốt nghiệp THPT >= 8.0",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=970",
       "publishedAt": "2024-08-17",
-      "fetchedAt": "2026-10-05T01:54:50.594480+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.608085+07:00"
     },
     {
       "programId": null,
@@ -755,7 +755,7 @@
       "comboNote": "Kèm ĐK: đạt ngưỡng đầu vào theo quy chế tuyển sinh",
       "sourceUrl": "https://duytan.edu.vn/tuyen-sinh/Page/EnrollArticleViewDetail.aspx?id=1028",
       "publishedAt": "2026-08-12",
-      "fetchedAt": "2026-10-05T01:54:50.604275+07:00"
+      "fetchedAt": "2026-10-05T04:25:32.618553+07:00"
     }
   ],
   "quotas": [
@@ -800,19 +800,6 @@
     {
       "programId": "96d3fc7d-55f3-4804-ab95-3cbf4e565dc9",
       "academicYear": "2026-2027",
-      "amount": 16560000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "ay Dung Dan Dung & Cong — Co Dien Tir Chuan PNU",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1035000 VND. Mã CN nguồn: 112(PNU). OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "96d3fc7d-55f3-4804-ab95-3cbf4e565dc9",
-      "academicYear": "2026-2027",
       "amount": 1035000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -824,15 +811,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "a5cc9cad-f44e-414d-9fcc-38e50ed55cd7",
+      "programId": "96d3fc7d-55f3-4804-ab95-3cbf4e565dc9",
       "academicYear": "2026-2027",
-      "amount": 644000.0,
+      "amount": 16560000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "ay Dung Dan Dung & Cong — Cong nghe &Ky thuat Moi truong",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 10304000 VND. Mã CN nguồn: 301. OCR — không dấu.",
+      "basis": "per_semester",
+      "appliesTo": "ay Dung Dan Dung & Cong — Co Dien Tir Chuan PNU",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1035000 VND. Mã CN nguồn: 112(PNU). OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -850,15 +837,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "f2328dc9-a585-4256-b88b-59ce32624b81",
+      "programId": "a5cc9cad-f44e-414d-9fcc-38e50ed55cd7",
       "academicYear": "2026-2027",
-      "amount": 1035000.0,
+      "amount": 644000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_credit",
-      "appliesTo": "ay Dung Dan Dung & Cong — Cong Nghe Che Tao May",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 16560000 VND. Mã CN nguồn: 125. OCR — không dấu.",
+      "appliesTo": "ay Dung Dan Dung & Cong — Cong nghe &Ky thuat Moi truong",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 10304000 VND. Mã CN nguồn: 301. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -872,6 +859,19 @@
       "basis": "per_semester",
       "appliesTo": "ay Dung Dan Dung & Cong — Cong Nghe Che Tao May",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1035000 VND. Mã CN nguồn: 125. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "f2328dc9-a585-4256-b88b-59ce32624b81",
+      "academicYear": "2026-2027",
+      "amount": 1035000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "ay Dung Dan Dung & Cong — Cong Nghe Che Tao May",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 16560000 VND. Mã CN nguồn: 125. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -930,19 +930,6 @@
     {
       "programId": "cf1a64cc-1534-428d-98a4-7a30f1d211dc",
       "academicYear": "2026-2027",
-      "amount": 644000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "ay Dung Dan Dung & Cong — Cong Nghe Quan Ly Xay Dung",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 10304000 VND. Mã CN nguồn: 206. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "cf1a64cc-1534-428d-98a4-7a30f1d211dc",
-      "academicYear": "2026-2027",
       "amount": 10304000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -950,6 +937,19 @@
       "basis": "per_semester",
       "appliesTo": "ay Dung Dan Dung & Cong — Cong Nghe Quan Ly Xay Dung",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 644000 VND. Mã CN nguồn: 206. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "cf1a64cc-1534-428d-98a4-7a30f1d211dc",
+      "academicYear": "2026-2027",
+      "amount": 644000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "ay Dung Dan Dung & Cong — Cong Nghe Quan Ly Xay Dung",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 10304000 VND. Mã CN nguồn: 206. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -969,19 +969,6 @@
     {
       "programId": "c9466d8a-316a-46f7-bc03-820448d83e0c",
       "academicYear": "2026-2027",
-      "amount": 875000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "ay Dung Dan Dung & Cong — Cong nghe Thuc pham",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14000000 VND. Mã CN nguồn: 306. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "c9466d8a-316a-46f7-bc03-820448d83e0c",
-      "academicYear": "2026-2027",
       "amount": 14000000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -989,6 +976,19 @@
       "basis": "per_semester",
       "appliesTo": "ay Dung Dan Dung & Cong — Cong nghe Thuc pham",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 875000 VND. Mã CN nguồn: 306. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "c9466d8a-316a-46f7-bc03-820448d83e0c",
+      "academicYear": "2026-2027",
+      "amount": 875000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "ay Dung Dan Dung & Cong — Cong nghe Thuc pham",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14000000 VND. Mã CN nguồn: 306. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -1034,19 +1034,6 @@
     {
       "programId": "949f45a0-6702-455f-9c5b-9952976bc5c2",
       "academicYear": "2026-2027",
-      "amount": 16560000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "ay Dung Dan Dung & Cong — Dien Co O To",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1035000 VND. Mã CN nguồn: 145. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "949f45a0-6702-455f-9c5b-9952976bc5c2",
-      "academicYear": "2026-2027",
       "amount": 1035000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -1054,6 +1041,19 @@
       "basis": "per_credit",
       "appliesTo": "ay Dung Dan Dung & Cong — Dien Co O To",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 16560000 VND. Mã CN nguồn: 145. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "949f45a0-6702-455f-9c5b-9952976bc5c2",
+      "academicYear": "2026-2027",
+      "amount": 16560000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "ay Dung Dan Dung & Cong — Dien Co O To",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1035000 VND. Mã CN nguồn: 145. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -1086,19 +1086,6 @@
     {
       "programId": "0cc11ca4-9f10-416d-af4d-85df636ba938",
       "academicYear": "2026-2027",
-      "amount": 14448000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "ay Dung Dan Dung & Cong — Dien Tu Dong(Datkiem dinh ABET)",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 903000 VND. Mã CN nguồn: 110. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "0cc11ca4-9f10-416d-af4d-85df636ba938",
-      "academicYear": "2026-2027",
       "amount": 903000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -1106,6 +1093,19 @@
       "basis": "per_credit",
       "appliesTo": "ay Dung Dan Dung & Cong — Dien Tu Dong(Datkiem dinh ABET)",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14448000 VND. Mã CN nguồn: 110. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "0cc11ca4-9f10-416d-af4d-85df636ba938",
+      "academicYear": "2026-2027",
+      "amount": 14448000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "ay Dung Dan Dung & Cong — Dien Tu Dong(Datkiem dinh ABET)",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 903000 VND. Mã CN nguồn: 110. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -1138,19 +1138,6 @@
     {
       "programId": "9002dc4d-8af2-4834-978d-fac90e292e7a",
       "academicYear": "2026-2027",
-      "amount": 1035000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "ay Dung Dan Dung & Cong — He thong Thong tin Quan ly chuan",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 16560000 VND. Mã CN nguồn: 410(CMU). OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "9002dc4d-8af2-4834-978d-fac90e292e7a",
-      "academicYear": "2026-2027",
       "amount": 16560000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -1158,6 +1145,19 @@
       "basis": "per_semester",
       "appliesTo": "ay Dung Dan Dung & Cong — He thong Thong tin Quan ly chuan",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1035000 VND. Mã CN nguồn: 410(CMU). OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "9002dc4d-8af2-4834-978d-fac90e292e7a",
+      "academicYear": "2026-2027",
+      "amount": 1035000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "ay Dung Dan Dung & Cong — He thong Thong tin Quan ly chuan",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 16560000 VND. Mã CN nguồn: 410(CMU). OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -1346,19 +1346,6 @@
     {
       "programId": "590b568f-93e4-4dd5-9cf5-566147a7f487",
       "academicYear": "2026-2027",
-      "amount": 10304000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "ay Dung Dan Dung & Cong — Mã CN 105 Nghiep",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 644000 VND. Mã CN nguồn: 105. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "590b568f-93e4-4dd5-9cf5-566147a7f487",
-      "academicYear": "2026-2027",
       "amount": 644000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -1366,6 +1353,19 @@
       "basis": "per_credit",
       "appliesTo": "ay Dung Dan Dung & Cong — Mã CN 105 Nghiep",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 10304000 VND. Mã CN nguồn: 105. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "590b568f-93e4-4dd5-9cf5-566147a7f487",
+      "academicYear": "2026-2027",
+      "amount": 10304000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "ay Dung Dan Dung & Cong — Mã CN 105 Nghiep",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 644000 VND. Mã CN nguồn: 105. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -1450,19 +1450,6 @@
     {
       "programId": "de65c584-f808-4f64-90ee-f69d74e15beb",
       "academicYear": "2026-2027",
-      "amount": 1135000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "ay Dung Dan Dung & Cong — Tai Chinh -Ngan Hang chuan PSU",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 18160000 VND. Mã CN nguồn: 404(PSU). OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "de65c584-f808-4f64-90ee-f69d74e15beb",
-      "academicYear": "2026-2027",
       "amount": 18160000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -1470,6 +1457,19 @@
       "basis": "per_semester",
       "appliesTo": "ay Dung Dan Dung & Cong — Tai Chinh -Ngan Hang chuan PSU",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1135000 VND. Mã CN nguồn: 404(PSU). OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "de65c584-f808-4f64-90ee-f69d74e15beb",
+      "academicYear": "2026-2027",
+      "amount": 1135000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "ay Dung Dan Dung & Cong — Tai Chinh -Ngan Hang chuan PSU",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 18160000 VND. Mã CN nguồn: 404(PSU). OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -1502,19 +1502,6 @@
     {
       "programId": "2febedb7-aed8-49d1-bda1-dc32f72407cd",
       "academicYear": "2026-2027",
-      "amount": 1230000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "ay Dung Dan Dung & Cong — Thiét Ké Do Hoa",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 19680000 VND. Mã CN nguồn: 111. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "2febedb7-aed8-49d1-bda1-dc32f72407cd",
-      "academicYear": "2026-2027",
       "amount": 19680000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -1522,6 +1509,19 @@
       "basis": "per_semester",
       "appliesTo": "ay Dung Dan Dung & Cong — Thiét Ké Do Hoa",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1230000 VND. Mã CN nguồn: 111. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "2febedb7-aed8-49d1-bda1-dc32f72407cd",
+      "academicYear": "2026-2027",
+      "amount": 1230000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "ay Dung Dan Dung & Cong — Thiét Ké Do Hoa",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 19680000 VND. Mã CN nguồn: 111. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -1580,19 +1580,6 @@
     {
       "programId": "f808b2d0-ae35-42f8-a287-7ad51fe9d1b9",
       "academicYear": "2026-2027",
-      "amount": 940000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "ay Dung Dan Dung & Cong — Thiét Ké Thoi Trang",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 15040000 VND. Mã CN nguồn: 119. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "f808b2d0-ae35-42f8-a287-7ad51fe9d1b9",
-      "academicYear": "2026-2027",
       "amount": 15040000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -1604,15 +1591,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "5f908e57-3dec-4c65-810e-c83abe67835e",
+      "programId": "f808b2d0-ae35-42f8-a287-7ad51fe9d1b9",
       "academicYear": "2026-2027",
-      "amount": 1035000.0,
+      "amount": 940000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_credit",
-      "appliesTo": "ay Dung Dan Dung & Cong — Thiet Ké Vi MachBan Dan",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 16560000 VND. Mã CN nguồn: 127. OCR — không dấu.",
+      "appliesTo": "ay Dung Dan Dung & Cong — Thiét Ké Thoi Trang",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 15040000 VND. Mã CN nguồn: 119. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -1626,6 +1613,19 @@
       "basis": "per_semester",
       "appliesTo": "ay Dung Dan Dung & Cong — Thiet Ké Vi MachBan Dan",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1035000 VND. Mã CN nguồn: 127. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "5f908e57-3dec-4c65-810e-c83abe67835e",
+      "academicYear": "2026-2027",
+      "amount": 1035000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "ay Dung Dan Dung & Cong — Thiet Ké Vi MachBan Dan",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 16560000 VND. Mã CN nguồn: 127. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -1658,19 +1658,6 @@
     {
       "programId": "590b568f-93e4-4dd5-9cf5-566147a7f487",
       "academicYear": "2026-2027",
-      "amount": 12880000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "ay Dung Dan Dung & Cong — Xay dungDan dung & Cong nghiep",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 805000 VND. Mã CN nguồn: 105(VJJ). OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "590b568f-93e4-4dd5-9cf5-566147a7f487",
-      "academicYear": "2026-2027",
       "amount": 805000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -1682,17 +1669,17 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "949f45a0-6702-455f-9c5b-9952976bc5c2",
-      "academicYear": "2024-2025",
-      "amount": 1215000.0,
+      "programId": "590b568f-93e4-4dd5-9cf5-566147a7f487",
+      "academicYear": "2026-2027",
+      "amount": 12880000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Công nghệ Kỹ Thuật Ô tô (VJJ)",
-      "notes": "Học phí HK1 2024-2025: 19,440,000; học phí năm học 2024-2025: 38,880,000. Mã CN nguồn: 117(VJJ).",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
+      "basis": "per_semester",
+      "appliesTo": "ay Dung Dan Dung & Cong — Xay dungDan dung & Cong nghiep",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 805000 VND. Mã CN nguồn: 105(VJJ). OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
     },
     {
       "programId": "949f45a0-6702-455f-9c5b-9952976bc5c2",
@@ -1704,6 +1691,19 @@
       "basis": "per_year",
       "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Công nghệ Kỹ Thuật Ô tô (VJJ)",
       "notes": "Đơn giá tín chỉ: 1,215,000; học phí HK1: 19,440,000. Mã CN nguồn: 117(VJJ).",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "949f45a0-6702-455f-9c5b-9952976bc5c2",
+      "academicYear": "2024-2025",
+      "amount": 1215000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Công nghệ Kỹ Thuật Ô tô (VJJ)",
+      "notes": "Học phí HK1 2024-2025: 19,440,000; học phí năm học 2024-2025: 38,880,000. Mã CN nguồn: 117(VJJ).",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -1736,19 +1736,6 @@
     {
       "programId": "fadf8bea-52a3-4740-a03f-facccc6c597a",
       "academicYear": "2024-2025",
-      "amount": 29120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Công Nghệ Thực Phẩm (VJJ)",
-      "notes": "Đơn giá tín chỉ: 910,000; học phí HK1: 14,560,000. Mã CN nguồn: 306(VJJ).",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "fadf8bea-52a3-4740-a03f-facccc6c597a",
-      "academicYear": "2024-2025",
       "amount": 910000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -1756,6 +1743,19 @@
       "basis": "per_credit",
       "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Công Nghệ Thực Phẩm (VJJ)",
       "notes": "Học phí HK1 2024-2025: 14,560,000; học phí năm học 2024-2025: 29,120,000. Mã CN nguồn: 306(VJJ).",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "fadf8bea-52a3-4740-a03f-facccc6c597a",
+      "academicYear": "2024-2025",
+      "amount": 29120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Công Nghệ Thực Phẩm (VJJ)",
+      "notes": "Đơn giá tín chỉ: 910,000; học phí HK1: 14,560,000. Mã CN nguồn: 306(VJJ).",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -1788,19 +1788,6 @@
     {
       "programId": "a4f600d6-7c69-4b2a-9c67-4137fa882ad5",
       "academicYear": "2024-2025",
-      "amount": 26400000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Điều Dưỡng Đa Khoa (VJJ)",
-      "notes": "Đơn giá tín chỉ: 825,000; học phí HK1: 13,200,000. Mã CN nguồn: 302(VJJ).",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "a4f600d6-7c69-4b2a-9c67-4137fa882ad5",
-      "academicYear": "2024-2025",
       "amount": 825000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -1808,6 +1795,19 @@
       "basis": "per_credit",
       "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Điều Dưỡng Đa Khoa (VJJ)",
       "notes": "Học phí HK1 2024-2025: 13,200,000; học phí năm học 2024-2025: 26,400,000. Mã CN nguồn: 302(VJJ).",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "a4f600d6-7c69-4b2a-9c67-4137fa882ad5",
+      "academicYear": "2024-2025",
+      "amount": 26400000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Điều Dưỡng Đa Khoa (VJJ)",
+      "notes": "Đơn giá tín chỉ: 825,000; học phí HK1: 13,200,000. Mã CN nguồn: 302(VJJ).",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -1866,19 +1866,6 @@
     {
       "programId": "56445121-2c6d-4d6d-8150-eb56d65331ac",
       "academicYear": "2024-2025",
-      "amount": 1156750.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Quản trị Nhà hàng Quốc tế",
-      "notes": "Học phí HK1 2024-2025: 18,508,000; học phí năm học 2024-2025: 37,016,000. Mã CN nguồn: 425(VJJ).",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "56445121-2c6d-4d6d-8150-eb56d65331ac",
-      "academicYear": "2024-2025",
       "amount": 37016000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -1886,6 +1873,19 @@
       "basis": "per_year",
       "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Quản trị Nhà hàng Quốc tế",
       "notes": "Đơn giá tín chỉ: 1,156,750; học phí HK1: 18,508,000. Mã CN nguồn: 425(VJJ).",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "56445121-2c6d-4d6d-8150-eb56d65331ac",
+      "academicYear": "2024-2025",
+      "amount": 1156750.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Quản trị Nhà hàng Quốc tế",
+      "notes": "Học phí HK1 2024-2025: 18,508,000; học phí năm học 2024-2025: 37,016,000. Mã CN nguồn: 425(VJJ).",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -1918,19 +1918,6 @@
     {
       "programId": "e4cbae52-8e2c-4937-84bc-d20c80c3ca60",
       "academicYear": "2024-2025",
-      "amount": 31960000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Tiếng Nhật",
-      "notes": "Đơn giá tín chỉ: 998,750; học phí HK1: 15,980,000. Mã CN nguồn: 719(VJJ).",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "e4cbae52-8e2c-4937-84bc-d20c80c3ca60",
-      "academicYear": "2024-2025",
       "amount": 998750.0,
       "minAmount": null,
       "maxAmount": null,
@@ -1938,6 +1925,19 @@
       "basis": "per_credit",
       "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Tiếng Nhật",
       "notes": "Học phí HK1 2024-2025: 15,980,000; học phí năm học 2024-2025: 31,960,000. Mã CN nguồn: 719(VJJ).",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "e4cbae52-8e2c-4937-84bc-d20c80c3ca60",
+      "academicYear": "2024-2025",
+      "amount": 31960000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "CHƯƠNG TRÌNH VIỆT NHẬT (VJJ) — Tiếng Nhật",
+      "notes": "Đơn giá tín chỉ: 998,750; học phí HK1: 15,980,000. Mã CN nguồn: 719(VJJ).",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -1996,19 +1996,6 @@
     {
       "programId": "0c48befa-0e8f-40f4-8fd2-c2e4018d84a0",
       "academicYear": "2026-2027",
-      "amount": 1270000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "KHOADAOTAOQUOCTE — Cong nghe Phan mem chuan CMU",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 20320000 VND. Mã CN nguồn: 102(CMU). OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "0c48befa-0e8f-40f4-8fd2-c2e4018d84a0",
-      "academicYear": "2026-2027",
       "amount": 20320000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -2020,15 +2007,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "855023d8-d80d-4f6a-83c8-6f1d83091b6b",
+      "programId": "0c48befa-0e8f-40f4-8fd2-c2e4018d84a0",
       "academicYear": "2026-2027",
-      "amount": 20000000.0,
+      "amount": 1270000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "KHOAQUANLYNAMKHUE a — Logistics & Quan ly Chuoi cung",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1250000 VND. Mã CN nguồn: 416(HP). OCR — không dấu.",
+      "basis": "per_credit",
+      "appliesTo": "KHOADAOTAOQUOCTE — Cong nghe Phan mem chuan CMU",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 20320000 VND. Mã CN nguồn: 102(CMU). OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -2042,6 +2029,19 @@
       "basis": "per_credit",
       "appliesTo": "KHOAQUANLYNAMKHUE a — Logistics & Quan ly Chuoi cung",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 20000000 VND. Mã CN nguồn: 416(HP). OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "855023d8-d80d-4f6a-83c8-6f1d83091b6b",
+      "academicYear": "2026-2027",
+      "amount": 20000000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "KHOAQUANLYNAMKHUE a — Logistics & Quan ly Chuoi cung",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1250000 VND. Mã CN nguồn: 416(HP). OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -2074,19 +2074,6 @@
     {
       "programId": "a2d22f28-4f83-4063-b92b-9f1e521dda03",
       "academicYear": "2026-2027",
-      "amount": 18160000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "KHOAQUANLYNAMKHUE a — Quan tri Marketing& Chien lugc (HP)",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1135000 VND. Mã CN nguồn: 401(HP). OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "a2d22f28-4f83-4063-b92b-9f1e521dda03",
-      "academicYear": "2026-2027",
       "amount": 1135000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -2094,6 +2081,19 @@
       "basis": "per_credit",
       "appliesTo": "KHOAQUANLYNAMKHUE a — Quan tri Marketing& Chien lugc (HP)",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 18160000 VND. Mã CN nguồn: 401(HP). OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "a2d22f28-4f83-4063-b92b-9f1e521dda03",
+      "academicYear": "2026-2027",
+      "amount": 18160000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "KHOAQUANLYNAMKHUE a — Quan tri Marketing& Chien lugc (HP)",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1135000 VND. Mã CN nguồn: 401(HP). OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -2126,19 +2126,6 @@
     {
       "programId": "96d3fc7d-55f3-4804-ab95-3cbf4e565dc9",
       "academicYear": "2024-2025",
-      "amount": 873750.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Cơ điện tử chuẩn PNU",
-      "notes": "Học phí HK1 2024-2025: 13,980,000; học phí năm học 2024-2025: 27,960,000. Mã CN nguồn: 112(PNU).",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "96d3fc7d-55f3-4804-ab95-3cbf4e565dc9",
-      "academicYear": "2024-2025",
       "amount": 27960000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -2150,15 +2137,15 @@
       "publishedAt": null
     },
     {
-      "programId": "a5cc9cad-f44e-414d-9fcc-38e50ed55cd7",
+      "programId": "96d3fc7d-55f3-4804-ab95-3cbf4e565dc9",
       "academicYear": "2024-2025",
-      "amount": 16256000.0,
+      "amount": 873750.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Công nghệ & Kỹ thuật Môi trường",
-      "notes": "Đơn giá tín chỉ: 508,000; học phí HK1: 8,128,000. Mã CN nguồn: 301.",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Cơ điện tử chuẩn PNU",
+      "notes": "Học phí HK1 2024-2025: 13,980,000; học phí năm học 2024-2025: 27,960,000. Mã CN nguồn: 112(PNU).",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2176,15 +2163,15 @@
       "publishedAt": null
     },
     {
-      "programId": "f2328dc9-a585-4256-b88b-59ce32624b81",
+      "programId": "a5cc9cad-f44e-414d-9fcc-38e50ed55cd7",
       "academicYear": "2024-2025",
-      "amount": 873750.0,
+      "amount": 16256000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Công nghệ Chế tạo máy",
-      "notes": "Học phí HK1 2024-2025: 13,980,000; học phí năm học 2024-2025: 27,960,000. Mã CN nguồn: 125.",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Công nghệ & Kỹ thuật Môi trường",
+      "notes": "Đơn giá tín chỉ: 508,000; học phí HK1: 8,128,000. Mã CN nguồn: 301.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2198,6 +2185,19 @@
       "basis": "per_year",
       "appliesTo": "TRƯỜNG CÔNG NGHỆ — Công nghệ Chế tạo máy",
       "notes": "Đơn giá tín chỉ: 873,750; học phí HK1: 13,980,000. Mã CN nguồn: 125.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "f2328dc9-a585-4256-b88b-59ce32624b81",
+      "academicYear": "2024-2025",
+      "amount": 873750.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Công nghệ Chế tạo máy",
+      "notes": "Học phí HK1 2024-2025: 13,980,000; học phí năm học 2024-2025: 27,960,000. Mã CN nguồn: 125.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2230,19 +2230,6 @@
     {
       "programId": "cf1a64cc-1534-428d-98a4-7a30f1d211dc",
       "academicYear": "2024-2025",
-      "amount": 508000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Công nghệ Quản lý xây dựng",
-      "notes": "Học phí HK1 2024-2025: 8,128,000; học phí năm học 2024-2025: 16,256,000. Mã CN nguồn: 206.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "cf1a64cc-1534-428d-98a4-7a30f1d211dc",
-      "academicYear": "2024-2025",
       "amount": 16256000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -2254,15 +2241,15 @@
       "publishedAt": null
     },
     {
-      "programId": "c9466d8a-316a-46f7-bc03-820448d83e0c",
+      "programId": "cf1a64cc-1534-428d-98a4-7a30f1d211dc",
       "academicYear": "2024-2025",
-      "amount": 25120000.0,
+      "amount": 508000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Công nghệ Thực phẩm",
-      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 306.",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Công nghệ Quản lý xây dựng",
+      "notes": "Học phí HK1 2024-2025: 8,128,000; học phí năm học 2024-2025: 16,256,000. Mã CN nguồn: 206.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2276,6 +2263,19 @@
       "basis": "per_credit",
       "appliesTo": "TRƯỜNG CÔNG NGHỆ — Công nghệ Thực phẩm",
       "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 306.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "c9466d8a-316a-46f7-bc03-820448d83e0c",
+      "academicYear": "2024-2025",
+      "amount": 25120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Công nghệ Thực phẩm",
+      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 306.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2302,6 +2302,19 @@
       "basis": "per_year",
       "appliesTo": "TRƯỜNG CÔNG NGHỆ — Điện cơ ô tô",
       "notes": "Đơn giá tín chỉ: 873,750; học phí HK1: 13,980,000. Mã CN nguồn: 145.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "c1e8ea4e-f148-4aaf-93b4-bd02af46a65a",
+      "academicYear": "2024-2025",
+      "amount": 27960000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Điện tử-Viễn thông",
+      "notes": "Đơn giá tín chỉ: 873,750; học phí HK1: 13,980,000. Mã CN nguồn: 113(PNU).",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2345,15 +2358,15 @@
       "publishedAt": null
     },
     {
-      "programId": "c1e8ea4e-f148-4aaf-93b4-bd02af46a65a",
+      "programId": "0cc11ca4-9f10-416d-af4d-85df636ba938",
       "academicYear": "2024-2025",
-      "amount": 27960000.0,
+      "amount": 785000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Điện tử-Viễn thông",
-      "notes": "Đơn giá tín chỉ: 873,750; học phí HK1: 13,980,000. Mã CN nguồn: 113(PNU).",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Điện Tự động",
+      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 110.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2371,15 +2384,15 @@
       "publishedAt": null
     },
     {
-      "programId": "0cc11ca4-9f10-416d-af4d-85df636ba938",
+      "programId": "2a6c3ca2-9e28-4a46-8d79-b77ee7e1ec61",
       "academicYear": "2024-2025",
-      "amount": 785000.0,
+      "amount": 16256000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Điện Tự động",
-      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 110.",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Kiến trúc công trình",
+      "notes": "Đơn giá tín chỉ: 508,000; học phí HK1: 8,128,000. Mã CN nguồn: 107.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2397,15 +2410,15 @@
       "publishedAt": null
     },
     {
-      "programId": "2a6c3ca2-9e28-4a46-8d79-b77ee7e1ec61",
+      "programId": "c26a816e-004c-458f-9c7d-5b6c47d88ad3",
       "academicYear": "2024-2025",
-      "amount": 16256000.0,
+      "amount": 785000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Kiến trúc công trình",
-      "notes": "Đơn giá tín chỉ: 508,000; học phí HK1: 8,128,000. Mã CN nguồn: 107.",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Kỹ thuật điện",
+      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 150.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2423,15 +2436,15 @@
       "publishedAt": null
     },
     {
-      "programId": "c26a816e-004c-458f-9c7d-5b6c47d88ad3",
+      "programId": "0cc11ca4-9f10-416d-af4d-85df636ba938",
       "academicYear": "2024-2025",
-      "amount": 785000.0,
+      "amount": 873750.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_credit",
-      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Kỹ thuật điện",
-      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 150.",
+      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Kỹ thuật điều khiển và tự động hóa",
+      "notes": "Học phí HK1 2024-2025: 13,980,000; học phí năm học 2024-2025: 27,960,000. Mã CN nguồn: 118.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2449,15 +2462,15 @@
       "publishedAt": null
     },
     {
-      "programId": "0cc11ca4-9f10-416d-af4d-85df636ba938",
+      "programId": "d75c2095-d89c-4237-b40e-3edaebbe7956",
       "academicYear": "2024-2025",
-      "amount": 873750.0,
+      "amount": 16256000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Kỹ thuật điều khiển và tự động hóa",
-      "notes": "Học phí HK1 2024-2025: 13,980,000; học phí năm học 2024-2025: 27,960,000. Mã CN nguồn: 118.",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Quản lý Tài nguyên và Môi trường",
+      "notes": "Đơn giá tín chỉ: 508,000; học phí HK1: 8,128,000. Mã CN nguồn: 307.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2471,19 +2484,6 @@
       "basis": "per_credit",
       "appliesTo": "TRƯỜNG CÔNG NGHỆ — Quản lý Tài nguyên và Môi trường",
       "notes": "Học phí HK1 2024-2025: 8,128,000; học phí năm học 2024-2025: 16,256,000. Mã CN nguồn: 307.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "d75c2095-d89c-4237-b40e-3edaebbe7956",
-      "academicYear": "2024-2025",
-      "amount": 16256000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Quản lý Tài nguyên và Môi trường",
-      "notes": "Đơn giá tín chỉ: 508,000; học phí HK1: 8,128,000. Mã CN nguồn: 307.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2542,19 +2542,6 @@
     {
       "programId": "f808b2d0-ae35-42f8-a287-7ad51fe9d1b9",
       "academicYear": "2024-2025",
-      "amount": 938750.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Thiết kế thời trang",
-      "notes": "Học phí HK1 2024-2025: 15,020,000; học phí năm học 2024-2025: 30,040,000. Mã CN nguồn: 119.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "f808b2d0-ae35-42f8-a287-7ad51fe9d1b9",
-      "academicYear": "2024-2025",
       "amount": 30040000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -2566,15 +2553,15 @@
       "publishedAt": null
     },
     {
-      "programId": "5f908e57-3dec-4c65-810e-c83abe67835e",
+      "programId": "f808b2d0-ae35-42f8-a287-7ad51fe9d1b9",
       "academicYear": "2024-2025",
       "amount": 938750.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_credit",
-      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Thiết kế vi mạch bán dẫn",
-      "notes": "Học phí HK1 2024-2025: 15,020,000; học phí năm học 2024-2025: 30,040,000. Mã CN nguồn: 127.",
+      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Thiết kế thời trang",
+      "notes": "Học phí HK1 2024-2025: 15,020,000; học phí năm học 2024-2025: 30,040,000. Mã CN nguồn: 119.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2588,6 +2575,19 @@
       "basis": "per_year",
       "appliesTo": "TRƯỜNG CÔNG NGHỆ — Thiết kế vi mạch bán dẫn",
       "notes": "Đơn giá tín chỉ: 938,750; học phí HK1: 15,020,000. Mã CN nguồn: 127.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "5f908e57-3dec-4c65-810e-c83abe67835e",
+      "academicYear": "2024-2025",
+      "amount": 938750.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG CÔNG NGHỆ — Thiết kế vi mạch bán dẫn",
+      "notes": "Học phí HK1 2024-2025: 15,020,000; học phí năm học 2024-2025: 30,040,000. Mã CN nguồn: 127.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2646,19 +2646,6 @@
     {
       "programId": "66aada2a-9c20-44bb-95c3-d6cc49dcdfff",
       "academicYear": "2024-2025",
-      "amount": 1100000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG ĐÀO TẠO QUỐC TẾ — An ninh Mạng chuẩn CMU",
-      "notes": "Học phí HK1 2024-2025: 17,600,000; học phí năm học 2024-2025: 35,200,000. Mã CN nguồn: 116(CMU).",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "66aada2a-9c20-44bb-95c3-d6cc49dcdfff",
-      "academicYear": "2024-2025",
       "amount": 35200000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -2670,15 +2657,15 @@
       "publishedAt": null
     },
     {
-      "programId": "0c48befa-0e8f-40f4-8fd2-c2e4018d84a0",
+      "programId": "66aada2a-9c20-44bb-95c3-d6cc49dcdfff",
       "academicYear": "2024-2025",
-      "amount": 1193000.0,
+      "amount": 1100000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_credit",
-      "appliesTo": "TRƯỜNG ĐÀO TẠO QUỐC TẾ — Công nghệ Phần mềm chuẩn CMU (Đạt kiểm định ABET)",
-      "notes": "Học phí HK1 2024-2025: 19,088,000; học phí năm học 2024-2025: 38,176,000. Mã CN nguồn: 102(CMU).",
+      "appliesTo": "TRƯỜNG ĐÀO TẠO QUỐC TẾ — An ninh Mạng chuẩn CMU",
+      "notes": "Học phí HK1 2024-2025: 17,600,000; học phí năm học 2024-2025: 35,200,000. Mã CN nguồn: 116(CMU).",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2692,6 +2679,19 @@
       "basis": "per_year",
       "appliesTo": "TRƯỜNG ĐÀO TẠO QUỐC TẾ — Công nghệ Phần mềm chuẩn CMU (Đạt kiểm định ABET)",
       "notes": "Đơn giá tín chỉ: 1,193,000; học phí HK1: 19,088,000. Mã CN nguồn: 102(CMU).",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "0c48befa-0e8f-40f4-8fd2-c2e4018d84a0",
+      "academicYear": "2024-2025",
+      "amount": 1193000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG ĐÀO TẠO QUỐC TẾ — Công nghệ Phần mềm chuẩn CMU (Đạt kiểm định ABET)",
+      "notes": "Học phí HK1 2024-2025: 19,088,000; học phí năm học 2024-2025: 38,176,000. Mã CN nguồn: 102(CMU).",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2776,19 +2776,6 @@
     {
       "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
       "academicYear": "2024-2025",
-      "amount": 30040000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG ĐÀO TẠO QUỐC TẾ — Quản trị Kinh doanh chuẩn PSU",
-      "notes": "Đơn giá tín chỉ: 938,750; học phí HK1: 15,020,000. Mã CN nguồn: 400(PSU).",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
-      "academicYear": "2024-2025",
       "amount": 938750.0,
       "minAmount": null,
       "maxAmount": null,
@@ -2796,6 +2783,19 @@
       "basis": "per_credit",
       "appliesTo": "TRƯỜNG ĐÀO TẠO QUỐC TẾ — Quản trị Kinh doanh chuẩn PSU",
       "notes": "Học phí HK1 2024-2025: 15,020,000; học phí năm học 2024-2025: 30,040,000. Mã CN nguồn: 400(PSU).",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
+      "academicYear": "2024-2025",
+      "amount": 30040000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG ĐÀO TẠO QUỐC TẾ — Quản trị Kinh doanh chuẩn PSU",
+      "notes": "Đơn giá tín chỉ: 938,750; học phí HK1: 15,020,000. Mã CN nguồn: 400(PSU).",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2880,19 +2880,6 @@
     {
       "programId": "f4b087e3-ed52-410b-b32c-ddf90cdb1884",
       "academicYear": "2024-2025",
-      "amount": 33016000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Công nghệ Phần mềm (Đạt kiểm định ABET)",
-      "notes": "Đơn giá tín chỉ: 1,031,750; học phí HK1: 16,508,000. Mã CN nguồn: 102.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "f4b087e3-ed52-410b-b32c-ddf90cdb1884",
-      "academicYear": "2024-2025",
       "amount": 1031750.0,
       "minAmount": null,
       "maxAmount": null,
@@ -2904,15 +2891,15 @@
       "publishedAt": null
     },
     {
-      "programId": "85131d8e-4a7f-4226-9074-60a3c5b047ae",
+      "programId": "f4b087e3-ed52-410b-b32c-ddf90cdb1884",
       "academicYear": "2024-2025",
-      "amount": 25120000.0,
+      "amount": 33016000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_year",
-      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Hướng dẫn Du lịch quốc tế (tiếng Anh)",
-      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 440.",
+      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Công nghệ Phần mềm (Đạt kiểm định ABET)",
+      "notes": "Đơn giá tín chỉ: 1,031,750; học phí HK1: 16,508,000. Mã CN nguồn: 102.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2932,13 +2919,13 @@
     {
       "programId": "85131d8e-4a7f-4226-9074-60a3c5b047ae",
       "academicYear": "2024-2025",
-      "amount": 785000.0,
+      "amount": 25120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Hướng dẫn Du lịch quốc tế (tiếng Hàn)",
-      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 441.",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Hướng dẫn Du lịch quốc tế (tiếng Anh)",
+      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 440.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2952,6 +2939,19 @@
       "basis": "per_year",
       "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Hướng dẫn Du lịch quốc tế (tiếng Hàn)",
       "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 441.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "85131d8e-4a7f-4226-9074-60a3c5b047ae",
+      "academicYear": "2024-2025",
+      "amount": 785000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Hướng dẫn Du lịch quốc tế (tiếng Hàn)",
+      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 441.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -2984,19 +2984,6 @@
     {
       "programId": "85131d8e-4a7f-4226-9074-60a3c5b047ae",
       "academicYear": "2024-2025",
-      "amount": 40000000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Quản trị Du lịch & Dịch vụ Hàng không",
-      "notes": "Đơn giá tín chỉ: 1,250,000; học phí HK1: 20,000,000. Mã CN nguồn: 444.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "85131d8e-4a7f-4226-9074-60a3c5b047ae",
-      "academicYear": "2024-2025",
       "amount": 1250000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -3008,15 +2995,15 @@
       "publishedAt": null
     },
     {
-      "programId": "2340d2a4-65d7-4e0e-8168-e61cfb39e9de",
+      "programId": "85131d8e-4a7f-4226-9074-60a3c5b047ae",
       "academicYear": "2024-2025",
-      "amount": 938750.0,
+      "amount": 40000000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Quản trị Du lịch & Khách sạn",
-      "notes": "Học phí HK1 2024-2025: 15,020,000; học phí năm học 2024-2025: 30,040,000. Mã CN nguồn: 407.",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Quản trị Du lịch & Dịch vụ Hàng không",
+      "notes": "Đơn giá tín chỉ: 1,250,000; học phí HK1: 20,000,000. Mã CN nguồn: 444.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3034,15 +3021,15 @@
       "publishedAt": null
     },
     {
-      "programId": "85131d8e-4a7f-4226-9074-60a3c5b047ae",
+      "programId": "2340d2a4-65d7-4e0e-8168-e61cfb39e9de",
       "academicYear": "2024-2025",
       "amount": 938750.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_credit",
-      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Quản trị Du lịch & Lữ hành",
-      "notes": "Học phí HK1 2024-2025: 15,020,000; học phí năm học 2024-2025: 30,040,000. Mã CN nguồn: 408.",
+      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Quản trị Du lịch & Khách sạn",
+      "notes": "Học phí HK1 2024-2025: 15,020,000; học phí năm học 2024-2025: 30,040,000. Mã CN nguồn: 407.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3062,13 +3049,13 @@
     {
       "programId": "85131d8e-4a7f-4226-9074-60a3c5b047ae",
       "academicYear": "2024-2025",
-      "amount": 35200000.0,
+      "amount": 938750.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Quản trị Du lịch & Lữ hành chuẩn PSU",
-      "notes": "Đơn giá tín chỉ: 1,100,000; học phí HK1: 17,600,000. Mã CN nguồn: 408(PSU).",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Quản trị Du lịch & Lữ hành",
+      "notes": "Học phí HK1 2024-2025: 15,020,000; học phí năm học 2024-2025: 30,040,000. Mã CN nguồn: 408.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3082,6 +3069,19 @@
       "basis": "per_credit",
       "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Quản trị Du lịch & Lữ hành chuẩn PSU",
       "notes": "Học phí HK1 2024-2025: 17,600,000; học phí năm học 2024-2025: 35,200,000. Mã CN nguồn: 408(PSU).",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "85131d8e-4a7f-4226-9074-60a3c5b047ae",
+      "academicYear": "2024-2025",
+      "amount": 35200000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Quản trị Du lịch & Lữ hành chuẩn PSU",
+      "notes": "Đơn giá tín chỉ: 1,100,000; học phí HK1: 17,600,000. Mã CN nguồn: 408(PSU).",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3114,19 +3114,6 @@
     {
       "programId": "56445121-2c6d-4d6d-8150-eb56d65331ac",
       "academicYear": "2024-2025",
-      "amount": 1031750.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Quản trị Nhà hàng Quốc tế (PSU) (Đạt kiểm định UNWTO.TedQual)",
-      "notes": "Học phí HK1 2024-2025: 16,508,000; học phí năm học 2024-2025: 33,016,000. Mã CN nguồn: 425(PSU).",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "56445121-2c6d-4d6d-8150-eb56d65331ac",
-      "academicYear": "2024-2025",
       "amount": 33016000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -3138,15 +3125,15 @@
       "publishedAt": null
     },
     {
-      "programId": "ffd2f117-f10c-44c4-9c4f-e31c0a07daff",
+      "programId": "56445121-2c6d-4d6d-8150-eb56d65331ac",
       "academicYear": "2024-2025",
-      "amount": 33016000.0,
+      "amount": 1031750.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Quản trị Sự Kiện & Giải Trí",
-      "notes": "Đơn giá tín chỉ: 1,031,750; học phí HK1: 16,508,000. Mã CN nguồn: 413.",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Quản trị Nhà hàng Quốc tế (PSU) (Đạt kiểm định UNWTO.TedQual)",
+      "notes": "Học phí HK1 2024-2025: 16,508,000; học phí năm học 2024-2025: 33,016,000. Mã CN nguồn: 425(PSU).",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3164,15 +3151,15 @@
       "publishedAt": null
     },
     {
-      "programId": "f63601fa-645c-466c-a506-a54d1afa7840",
+      "programId": "ffd2f117-f10c-44c4-9c4f-e31c0a07daff",
       "academicYear": "2024-2025",
-      "amount": 785000.0,
+      "amount": 33016000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Smart Tourism (Du lịch thông minh)",
-      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 445.",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Quản trị Sự Kiện & Giải Trí",
+      "notes": "Đơn giá tín chỉ: 1,031,750; học phí HK1: 16,508,000. Mã CN nguồn: 413.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3190,15 +3177,15 @@
       "publishedAt": null
     },
     {
-      "programId": "74dc707f-68b1-4a0a-a851-c18df5cfdb69",
+      "programId": "f63601fa-645c-466c-a506-a54d1afa7840",
       "academicYear": "2024-2025",
-      "amount": 33016000.0,
+      "amount": 785000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Thiết kế Games và Multimedia",
-      "notes": "Đơn giá tín chỉ: 1,031,750; học phí HK1: 16,508,000. Mã CN nguồn: 122.",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Smart Tourism (Du lịch thông minh)",
+      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 445.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3212,6 +3199,19 @@
       "basis": "per_credit",
       "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Thiết kế Games và Multimedia",
       "notes": "Học phí HK1 2024-2025: 16,508,000; học phí năm học 2024-2025: 33,016,000. Mã CN nguồn: 122.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "74dc707f-68b1-4a0a-a851-c18df5cfdb69",
+      "academicYear": "2024-2025",
+      "amount": 33016000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG KHOA HỌC MÁY TÍNH — Thiết kế Games và Multimedia",
+      "notes": "Đơn giá tín chỉ: 1,031,750; học phí HK1: 16,508,000. Mã CN nguồn: 122.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3244,19 +3244,6 @@
     {
       "programId": "f8367313-3619-4c48-938b-c4fe1a2eca1c",
       "academicYear": "2024-2025",
-      "amount": 813750.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG KINH TẾ — Đầu tư Tài chính",
-      "notes": "Học phí HK1 2024-2025: 13,020,000; học phí năm học 2024-2025: 26,040,000. Mã CN nguồn: 433.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "f8367313-3619-4c48-938b-c4fe1a2eca1c",
-      "academicYear": "2024-2025",
       "amount": 26040000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -3264,6 +3251,19 @@
       "basis": "per_year",
       "appliesTo": "TRƯỜNG KINH TẾ — Đầu tư Tài chính",
       "notes": "Đơn giá tín chỉ: 813,750; học phí HK1: 13,020,000. Mã CN nguồn: 433.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "f8367313-3619-4c48-938b-c4fe1a2eca1c",
+      "academicYear": "2024-2025",
+      "amount": 813750.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG KINH TẾ — Đầu tư Tài chính",
+      "notes": "Học phí HK1 2024-2025: 13,020,000; học phí năm học 2024-2025: 26,040,000. Mã CN nguồn: 433.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3296,19 +3296,6 @@
     {
       "programId": "fef9e381-f4a0-4fe0-b427-bd96a94efd07",
       "academicYear": "2024-2025",
-      "amount": 25120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG KINH TẾ — Kế Toán - Kiểm Toán",
-      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 405.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "fef9e381-f4a0-4fe0-b427-bd96a94efd07",
-      "academicYear": "2024-2025",
       "amount": 785000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -3320,15 +3307,15 @@
       "publishedAt": null
     },
     {
-      "programId": "4879f21c-a4e6-4f07-b481-0c370107c365",
+      "programId": "fef9e381-f4a0-4fe0-b427-bd96a94efd07",
       "academicYear": "2024-2025",
-      "amount": 785000.0,
+      "amount": 25120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG KINH TẾ — Kế toán Doanh nghiệp",
-      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 406.",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG KINH TẾ — Kế Toán - Kiểm Toán",
+      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 405.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3342,6 +3329,19 @@
       "basis": "per_year",
       "appliesTo": "TRƯỜNG KINH TẾ — Kế toán Doanh nghiệp",
       "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 406.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "4879f21c-a4e6-4f07-b481-0c370107c365",
+      "academicYear": "2024-2025",
+      "amount": 785000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG KINH TẾ — Kế toán Doanh nghiệp",
+      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 406.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3374,19 +3374,6 @@
     {
       "programId": "639bb352-77d9-4a04-80bc-db06d4e3acb0",
       "academicYear": "2024-2025",
-      "amount": 25120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG KINH TẾ — Kinh doanh Thương mại",
-      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 412.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "639bb352-77d9-4a04-80bc-db06d4e3acb0",
-      "academicYear": "2024-2025",
       "amount": 785000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -3394,6 +3381,19 @@
       "basis": "per_credit",
       "appliesTo": "TRƯỜNG KINH TẾ — Kinh doanh Thương mại",
       "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 412.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "639bb352-77d9-4a04-80bc-db06d4e3acb0",
+      "academicYear": "2024-2025",
+      "amount": 25120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG KINH TẾ — Kinh doanh Thương mại",
+      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 412.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3452,19 +3452,6 @@
     {
       "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
       "academicYear": "2024-2025",
-      "amount": 785000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG KINH TẾ — Quản trị Kinh doanh Bất động sản",
-      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 415.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
-      "academicYear": "2024-2025",
       "amount": 25120000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -3476,15 +3463,15 @@
       "publishedAt": null
     },
     {
-      "programId": "499596b3-4396-4b63-a1e1-91d3cd90f857",
+      "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
       "academicYear": "2024-2025",
-      "amount": 938750.0,
+      "amount": 785000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_credit",
-      "appliesTo": "TRƯỜNG KINH TẾ — Quản trị Kinh doanh Marketing",
-      "notes": "Học phí HK1 2024-2025: 15,020,000; học phí năm học 2024-2025: 30,040,000. Mã CN nguồn: 401.",
+      "appliesTo": "TRƯỜNG KINH TẾ — Quản trị Kinh doanh Bất động sản",
+      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 415.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3502,15 +3489,15 @@
       "publishedAt": null
     },
     {
-      "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
+      "programId": "499596b3-4396-4b63-a1e1-91d3cd90f857",
       "academicYear": "2024-2025",
-      "amount": 26040000.0,
+      "amount": 938750.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG KINH TẾ — Quản trị Kinh doanh quốc tế (Ngoại thương)",
-      "notes": "Đơn giá tín chỉ: 813,750; học phí HK1: 13,020,000. Mã CN nguồn: 411.",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG KINH TẾ — Quản trị Kinh doanh Marketing",
+      "notes": "Học phí HK1 2024-2025: 15,020,000; học phí năm học 2024-2025: 30,040,000. Mã CN nguồn: 401.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3530,13 +3517,13 @@
     {
       "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
       "academicYear": "2024-2025",
-      "amount": 813750.0,
+      "amount": 26040000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG KINH TẾ — Quản trị Kinh doanh Tổng hợp",
-      "notes": "Học phí HK1 2024-2025: 13,020,000; học phí năm học 2024-2025: 26,040,000. Mã CN nguồn: 400.",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG KINH TẾ — Quản trị Kinh doanh quốc tế (Ngoại thương)",
+      "notes": "Đơn giá tín chỉ: 813,750; học phí HK1: 13,020,000. Mã CN nguồn: 411.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3554,15 +3541,15 @@
       "publishedAt": null
     },
     {
-      "programId": "72fc07ed-3fd0-44d7-9e62-2847af99ab72",
+      "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
       "academicYear": "2024-2025",
-      "amount": 785000.0,
+      "amount": 813750.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_credit",
-      "appliesTo": "TRƯỜNG KINH TẾ — Quản trị Nhân lực",
-      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 417.",
+      "appliesTo": "TRƯỜNG KINH TẾ — Quản trị Kinh doanh Tổng hợp",
+      "notes": "Học phí HK1 2024-2025: 13,020,000; học phí năm học 2024-2025: 26,040,000. Mã CN nguồn: 400.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3576,6 +3563,19 @@
       "basis": "per_year",
       "appliesTo": "TRƯỜNG KINH TẾ — Quản trị Nhân lực",
       "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 417.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "72fc07ed-3fd0-44d7-9e62-2847af99ab72",
+      "academicYear": "2024-2025",
+      "amount": 785000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG KINH TẾ — Quản trị Nhân lực",
+      "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 417.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3660,19 +3660,6 @@
     {
       "programId": "05386c7e-5fdb-44bb-b860-db290dfc065c",
       "academicYear": "2024-2025",
-      "amount": 27960000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Luật Kinh tế",
-      "notes": "Đơn giá tín chỉ: 873,750; học phí HK1: 13,980,000. Mã CN nguồn: 609.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "05386c7e-5fdb-44bb-b860-db290dfc065c",
-      "academicYear": "2024-2025",
       "amount": 873750.0,
       "minAmount": null,
       "maxAmount": null,
@@ -3684,15 +3671,15 @@
       "publishedAt": null
     },
     {
-      "programId": "edcdb0af-eb2c-4bda-a798-ec867e5ab544",
+      "programId": "05386c7e-5fdb-44bb-b860-db290dfc065c",
       "academicYear": "2024-2025",
-      "amount": 1031750.0,
+      "amount": 27960000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Quan hệ Công chúng",
-      "notes": "Học phí HK1 2024-2025: 16,508,000; học phí năm học 2024-2025: 33,016,000. Mã CN nguồn: 610.",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Luật Kinh tế",
+      "notes": "Đơn giá tín chỉ: 873,750; học phí HK1: 13,980,000. Mã CN nguồn: 609.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3710,15 +3697,15 @@
       "publishedAt": null
     },
     {
-      "programId": "49be107f-03eb-40d3-b8c4-937ba5b68835",
+      "programId": "edcdb0af-eb2c-4bda-a798-ec867e5ab544",
       "academicYear": "2024-2025",
-      "amount": 25120000.0,
+      "amount": 1031750.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Quan hệ Quốc tế (Chương trình tiếng Anh)",
-      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 608.",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Quan hệ Công chúng",
+      "notes": "Học phí HK1 2024-2025: 16,508,000; học phí năm học 2024-2025: 33,016,000. Mã CN nguồn: 610.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3736,15 +3723,15 @@
       "publishedAt": null
     },
     {
-      "programId": "4b86e951-5088-408d-ba3e-908712370f75",
+      "programId": "49be107f-03eb-40d3-b8c4-937ba5b68835",
       "academicYear": "2024-2025",
-      "amount": 938750.0,
+      "amount": 25120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Quan hệ quốc tế (HP)",
-      "notes": "Học phí HK1 2024-2025: 15,020,000; học phí năm học 2024-2025: 30,040,000. Mã CN nguồn: 608(HP).",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Quan hệ Quốc tế (Chương trình tiếng Anh)",
+      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 608.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3762,15 +3749,15 @@
       "publishedAt": null
     },
     {
-      "programId": "141e7f01-7363-4ccc-a566-4fe14da662af",
+      "programId": "4b86e951-5088-408d-ba3e-908712370f75",
       "academicYear": "2024-2025",
-      "amount": 27960000.0,
+      "amount": 938750.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Anh Biên-Phiên dịch",
-      "notes": "Đơn giá tín chỉ: 813,750; học phí HK1: 13,980,000. Mã CN nguồn: 701.",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Quan hệ quốc tế (HP)",
+      "notes": "Học phí HK1 2024-2025: 15,020,000; học phí năm học 2024-2025: 30,040,000. Mã CN nguồn: 608(HP).",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3790,13 +3777,13 @@
     {
       "programId": "141e7f01-7363-4ccc-a566-4fe14da662af",
       "academicYear": "2024-2025",
-      "amount": 25120000.0,
+      "amount": 27960000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_year",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Anh Du lịch",
-      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 702.",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Anh Biên-Phiên dịch",
+      "notes": "Đơn giá tín chỉ: 813,750; học phí HK1: 13,980,000. Mã CN nguồn: 701.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3816,13 +3803,13 @@
     {
       "programId": "141e7f01-7363-4ccc-a566-4fe14da662af",
       "academicYear": "2024-2025",
-      "amount": 27960000.0,
+      "amount": 25120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_year",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Anh Thương mại",
-      "notes": "Đơn giá tín chỉ: 873,750; học phí HK1: 13,980,000. Mã CN nguồn: 801.",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Anh Du lịch",
+      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 702.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3840,15 +3827,15 @@
       "publishedAt": null
     },
     {
-      "programId": "aba848a0-1975-403d-b9e5-61ac993aab99",
+      "programId": "141e7f01-7363-4ccc-a566-4fe14da662af",
       "academicYear": "2024-2025",
-      "amount": 873750.0,
+      "amount": 27960000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Hàn Biên-Phiên dịch",
-      "notes": "Học phí HK1 2024-2025: 13,980,000; học phí năm học 2024-2025: 27,960,000. Mã CN nguồn: 705.",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Anh Thương mại",
+      "notes": "Đơn giá tín chỉ: 873,750; học phí HK1: 13,980,000. Mã CN nguồn: 801.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3862,6 +3849,19 @@
       "basis": "per_year",
       "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Hàn Biên-Phiên dịch",
       "notes": "Đơn giá tín chỉ: 873,750; học phí HK1: 13,980,000. Mã CN nguồn: 705.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "aba848a0-1975-403d-b9e5-61ac993aab99",
+      "academicYear": "2024-2025",
+      "amount": 873750.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Hàn Biên-Phiên dịch",
+      "notes": "Học phí HK1 2024-2025: 13,980,000; học phí năm học 2024-2025: 27,960,000. Mã CN nguồn: 705.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3946,19 +3946,6 @@
     {
       "programId": "e4cbae52-8e2c-4937-84bc-d20c80c3ca60",
       "academicYear": "2024-2025",
-      "amount": 25120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Nhật Du lịch",
-      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 708.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "e4cbae52-8e2c-4937-84bc-d20c80c3ca60",
-      "academicYear": "2024-2025",
       "amount": 785000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -3966,6 +3953,19 @@
       "basis": "per_credit",
       "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Nhật Du lịch",
       "notes": "Học phí HK1 2024-2025: 12,560,000; học phí năm học 2024-2025: 25,120,000. Mã CN nguồn: 708.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "e4cbae52-8e2c-4937-84bc-d20c80c3ca60",
+      "academicYear": "2024-2025",
+      "amount": 25120000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Nhật Du lịch",
+      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 708.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -3998,19 +3998,6 @@
     {
       "programId": "8e37b163-5c80-4e89-8cd8-6cc524f24dba",
       "academicYear": "2024-2025",
-      "amount": 27960000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Trung Biên-Phiên dịch",
-      "notes": "Đơn giá tín chỉ: 873,750; học phí HK1: 13,980,000. Mã CN nguồn: 703.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "8e37b163-5c80-4e89-8cd8-6cc524f24dba",
-      "academicYear": "2024-2025",
       "amount": 873750.0,
       "minAmount": null,
       "maxAmount": null,
@@ -4018,6 +4005,19 @@
       "basis": "per_credit",
       "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Trung Biên-Phiên dịch",
       "notes": "Học phí HK1 2024-2025: 13,980,000; học phí năm học 2024-2025: 27,960,000. Mã CN nguồn: 703.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "8e37b163-5c80-4e89-8cd8-6cc524f24dba",
+      "academicYear": "2024-2025",
+      "amount": 27960000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Trung Biên-Phiên dịch",
+      "notes": "Đơn giá tín chỉ: 873,750; học phí HK1: 13,980,000. Mã CN nguồn: 703.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -4050,19 +4050,6 @@
     {
       "programId": "8e37b163-5c80-4e89-8cd8-6cc524f24dba",
       "academicYear": "2024-2025",
-      "amount": 25120000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Trung Thương mại",
-      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 803.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "8e37b163-5c80-4e89-8cd8-6cc524f24dba",
-      "academicYear": "2024-2025",
       "amount": 785000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -4074,15 +4061,15 @@
       "publishedAt": null
     },
     {
-      "programId": "dfd04d31-c354-4b99-95f5-ad6ccaf3ab8b",
+      "programId": "8e37b163-5c80-4e89-8cd8-6cc524f24dba",
       "academicYear": "2024-2025",
-      "amount": 33016000.0,
+      "amount": 25120000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_year",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Truyền thông Đa phương tiện",
-      "notes": "Đơn giá tín chỉ: 1,031,000; học phí HK1: 16,508,000. Mã CN nguồn: 607.",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Tiếng Trung Thương mại",
+      "notes": "Đơn giá tín chỉ: 785,000; học phí HK1: 12,560,000. Mã CN nguồn: 803.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -4100,15 +4087,15 @@
       "publishedAt": null
     },
     {
-      "programId": "419377f8-da50-42ae-b173-6875c2b1bdc2",
+      "programId": "dfd04d31-c354-4b99-95f5-ad6ccaf3ab8b",
       "academicYear": "2024-2025",
-      "amount": 20800000.0,
+      "amount": 33016000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_year",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Văn Báo chí",
-      "notes": "Đơn giá tín chỉ: 650,000; học phí HK1: 10,400,000. Mã CN nguồn: 601.",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Truyền thông Đa phương tiện",
+      "notes": "Đơn giá tín chỉ: 1,031,000; học phí HK1: 16,508,000. Mã CN nguồn: 607.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -4126,15 +4113,15 @@
       "publishedAt": null
     },
     {
-      "programId": "9a2d486d-c510-463c-a71b-b18960934a00",
+      "programId": "419377f8-da50-42ae-b173-6875c2b1bdc2",
       "academicYear": "2024-2025",
       "amount": 20800000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_year",
-      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Việt Nam học",
-      "notes": "Đơn giá tín chỉ: 650,000; học phí HK1: 10,400,000. Mã CN nguồn: 600.",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Văn Báo chí",
+      "notes": "Đơn giá tín chỉ: 650,000; học phí HK1: 10,400,000. Mã CN nguồn: 601.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -4148,6 +4135,19 @@
       "basis": "per_credit",
       "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Việt Nam học",
       "notes": "Học phí HK1 2024-2025: 10,400,000; học phí năm học 2024-2025: 20,800,000. Mã CN nguồn: 600.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "9a2d486d-c510-463c-a71b-b18960934a00",
+      "academicYear": "2024-2025",
+      "amount": 20800000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG NGÔN NGỮ & XÃ HỘI NHÂN VĂN — Việt Nam học",
+      "notes": "Đơn giá tín chỉ: 650,000; học phí HK1: 10,400,000. Mã CN nguồn: 600.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -4206,19 +4206,6 @@
     {
       "programId": "caad37c1-323c-4efb-b56b-5bc9ef0ec47a",
       "academicYear": "2024-2025",
-      "amount": 1028500.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG Y DƯỢC — Công nghệ sinh học",
-      "notes": "Học phí HK1 2024-2025: 16,456,000; học phí năm học 2024-2025: 32,912,000. Mã CN nguồn: 310.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "caad37c1-323c-4efb-b56b-5bc9ef0ec47a",
-      "academicYear": "2024-2025",
       "amount": 32912000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -4226,6 +4213,19 @@
       "basis": "per_year",
       "appliesTo": "TRƯỜNG Y DƯỢC — Công nghệ sinh học",
       "notes": "Đơn giá tín chỉ: 1,028,500; học phí HK1: 16,456,000. Mã CN nguồn: 310.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "caad37c1-323c-4efb-b56b-5bc9ef0ec47a",
+      "academicYear": "2024-2025",
+      "amount": 1028500.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG Y DƯỢC — Công nghệ sinh học",
+      "notes": "Học phí HK1 2024-2025: 16,456,000; học phí năm học 2024-2025: 32,912,000. Mã CN nguồn: 310.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -4284,19 +4284,6 @@
     {
       "programId": "3d3893c6-ee3c-44e9-92a3-1908899e8167",
       "academicYear": "2024-2025",
-      "amount": 720000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRƯỜNG Y DƯỢC — Kỹ thuật y sinh",
-      "notes": "Học phí HK1 2024-2025: 11,520,000; học phí năm học 2024-2025: 23,040,000. Mã CN nguồn: 320.",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "3d3893c6-ee3c-44e9-92a3-1908899e8167",
-      "academicYear": "2024-2025",
       "amount": 23040000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -4308,15 +4295,15 @@
       "publishedAt": null
     },
     {
-      "programId": "4134f748-2f9c-46c2-b08e-4a540efec9f1",
+      "programId": "3d3893c6-ee3c-44e9-92a3-1908899e8167",
       "academicYear": "2024-2025",
-      "amount": 30040000.0,
+      "amount": 720000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "TRƯỜNG Y DƯỢC — Xét nghiệm Y học",
-      "notes": "Đơn giá tín chỉ: 938,750; học phí HK1: 15,020,000. Mã CN nguồn: 330.",
+      "basis": "per_credit",
+      "appliesTo": "TRƯỜNG Y DƯỢC — Kỹ thuật y sinh",
+      "notes": "Học phí HK1 2024-2025: 11,520,000; học phí năm học 2024-2025: 23,040,000. Mã CN nguồn: 320.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -4330,6 +4317,19 @@
       "basis": "per_credit",
       "appliesTo": "TRƯỜNG Y DƯỢC — Xét nghiệm Y học",
       "notes": "Học phí HK1 2024-2025: 15,020,000; học phí năm học 2024-2025: 30,040,000. Mã CN nguồn: 330.",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "4134f748-2f9c-46c2-b08e-4a540efec9f1",
+      "academicYear": "2024-2025",
+      "amount": 30040000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "TRƯỜNG Y DƯỢC — Xét nghiệm Y học",
+      "notes": "Đơn giá tín chỉ: 938,750; học phí HK1: 15,020,000. Mã CN nguồn: 330.",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },
@@ -4414,19 +4414,6 @@
     {
       "programId": "85131d8e-4a7f-4226-9074-60a3c5b047ae",
       "academicYear": "2026-2027",
-      "amount": 900000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRUONGDULICH — Han) Huong dan Du lich Quoc te (tieng",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14400000 VND. Mã CN nguồn: 442. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "85131d8e-4a7f-4226-9074-60a3c5b047ae",
-      "academicYear": "2026-2027",
       "amount": 14400000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -4440,13 +4427,13 @@
     {
       "programId": "85131d8e-4a7f-4226-9074-60a3c5b047ae",
       "academicYear": "2026-2027",
-      "amount": 1135000.0,
+      "amount": 900000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_credit",
-      "appliesTo": "TRUONGDULICH — Quan tri Du lich Lu hanh",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 18160000 VND. Mã CN nguồn: 408. OCR — không dấu.",
+      "appliesTo": "TRUONGDULICH — Han) Huong dan Du lich Quoc te (tieng",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14400000 VND. Mã CN nguồn: 442. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -4460,6 +4447,19 @@
       "basis": "per_semester",
       "appliesTo": "TRUONGDULICH — Quan tri Du lich Lu hanh",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1135000 VND. Mã CN nguồn: 408. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "85131d8e-4a7f-4226-9074-60a3c5b047ae",
+      "academicYear": "2026-2027",
+      "amount": 1135000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRUONGDULICH — Quan tri Du lich Lu hanh",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 18160000 VND. Mã CN nguồn: 408. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -4544,19 +4544,6 @@
     {
       "programId": "ffd2f117-f10c-44c4-9c4f-e31c0a07daff",
       "academicYear": "2026-2027",
-      "amount": 1135000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRUONGDULICH — QuantriSukien&Giai tri",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 18160000 VND. Mã CN nguồn: 413. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "ffd2f117-f10c-44c4-9c4f-e31c0a07daff",
-      "academicYear": "2026-2027",
       "amount": 18160000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -4568,15 +4555,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "f63601fa-645c-466c-a506-a54d1afa7840",
+      "programId": "ffd2f117-f10c-44c4-9c4f-e31c0a07daff",
       "academicYear": "2026-2027",
-      "amount": 14000000.0,
+      "amount": 1135000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGDULICH — Smart Tourism (Du lich thong minh)",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 875000 VND. Mã CN nguồn: 445. OCR — không dấu.",
+      "basis": "per_credit",
+      "appliesTo": "TRUONGDULICH — QuantriSukien&Giai tri",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 18160000 VND. Mã CN nguồn: 413. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -4590,6 +4577,19 @@
       "basis": "per_credit",
       "appliesTo": "TRUONGDULICH — Smart Tourism (Du lich thong minh)",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14000000 VND. Mã CN nguồn: 445. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "f63601fa-645c-466c-a506-a54d1afa7840",
+      "academicYear": "2026-2027",
+      "amount": 14000000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGDULICH — Smart Tourism (Du lich thong minh)",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 875000 VND. Mã CN nguồn: 445. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -4622,19 +4622,6 @@
     {
       "programId": "f4b087e3-ed52-410b-b32c-ddf90cdb1884",
       "academicYear": "2026-2027",
-      "amount": 1135000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — ABET) Cong nghe Phan mem (Dat kiem dinh ABET)",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 18160000 VND. Mã CN nguồn: 102. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "f4b087e3-ed52-410b-b32c-ddf90cdb1884",
-      "academicYear": "2026-2027",
       "amount": 18160000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -4646,15 +4633,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "3e1fb1e1-6b05-4fd7-b7b4-992dfdf495e9",
+      "programId": "f4b087e3-ed52-410b-b32c-ddf90cdb1884",
       "academicYear": "2026-2027",
-      "amount": 1035000.0,
+      "amount": 1135000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_credit",
-      "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — An Toan Thong Tin",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 16560000 VND. Mã CN nguồn: 124. OCR — không dấu.",
+      "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — ABET) Cong nghe Phan mem (Dat kiem dinh ABET)",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 18160000 VND. Mã CN nguồn: 102. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -4668,6 +4655,19 @@
       "basis": "per_semester",
       "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — An Toan Thong Tin",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1035000 VND. Mã CN nguồn: 124. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "3e1fb1e1-6b05-4fd7-b7b4-992dfdf495e9",
+      "academicYear": "2026-2027",
+      "amount": 1035000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — An Toan Thong Tin",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 16560000 VND. Mã CN nguồn: 124. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -4700,19 +4700,6 @@
     {
       "programId": "f4b087e3-ed52-410b-b32c-ddf90cdb1884",
       "academicYear": "2026-2027",
-      "amount": 1260000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — Cong nghe Phan mem",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 20160000 VND. Mã CN nguồn: 102(VJJ). OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "f4b087e3-ed52-410b-b32c-ddf90cdb1884",
-      "academicYear": "2026-2027",
       "amount": 20160000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -4720,6 +4707,19 @@
       "basis": "per_semester",
       "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — Cong nghe Phan mem",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1260000 VND. Mã CN nguồn: 102(VJJ). OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "f4b087e3-ed52-410b-b32c-ddf90cdb1884",
+      "academicYear": "2026-2027",
+      "amount": 1260000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — Cong nghe Phan mem",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 20160000 VND. Mã CN nguồn: 102(VJJ). OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -4752,19 +4752,6 @@
     {
       "programId": "1bf7f296-d575-4b1f-bb3c-dac221eb95ac",
       "academicYear": "2026-2027",
-      "amount": 875000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — Khoa HocDurLieu",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14000000 VND. Mã CN nguồn: 135. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "1bf7f296-d575-4b1f-bb3c-dac221eb95ac",
-      "academicYear": "2026-2027",
       "amount": 14000000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -4776,15 +4763,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "d8cc35b4-90b5-4b47-a887-224596fd2ce0",
+      "programId": "1bf7f296-d575-4b1f-bb3c-dac221eb95ac",
       "academicYear": "2026-2027",
-      "amount": 16560000.0,
+      "amount": 875000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — Ky thuat Mang (Dat kiem dinh D",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1035000 VND. Mã CN nguồn: 101. OCR — không dấu.",
+      "basis": "per_credit",
+      "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — Khoa HocDurLieu",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14000000 VND. Mã CN nguồn: 135. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -4802,15 +4789,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "aa7874c9-8fa9-47b1-b3be-2b394acad4b8",
+      "programId": "d8cc35b4-90b5-4b47-a887-224596fd2ce0",
       "academicYear": "2026-2027",
-      "amount": 15440000.0,
+      "amount": 16560000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — Ky Thuat May Tinh",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 965000 VND. Mã CN nguồn: 128. OCR — không dấu.",
+      "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — Ky thuat Mang (Dat kiem dinh D",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1035000 VND. Mã CN nguồn: 101. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -4828,15 +4815,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "d8cc35b4-90b5-4b47-a887-224596fd2ce0",
+      "programId": "aa7874c9-8fa9-47b1-b3be-2b394acad4b8",
       "academicYear": "2026-2027",
-      "amount": 1270000.0,
+      "amount": 15440000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — MangMay tinh va Truyen thongDur",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 20320000 VND. Mã CN nguồn: 140. OCR — không dấu.",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — Ky Thuat May Tinh",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 965000 VND. Mã CN nguồn: 128. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -4850,6 +4837,19 @@
       "basis": "per_semester",
       "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — MangMay tinh va Truyen thongDur",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1270000 VND. Mã CN nguồn: 140. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "d8cc35b4-90b5-4b47-a887-224596fd2ce0",
+      "academicYear": "2026-2027",
+      "amount": 1270000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRUONGKHOA HOCMAY TINH VA TRI TUENHAN TAO G — MangMay tinh va Truyen thongDur",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 20320000 VND. Mã CN nguồn: 140. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -4934,19 +4934,6 @@
     {
       "programId": "f8367313-3619-4c48-938b-c4fe1a2eca1c",
       "academicYear": "2026-2027",
-      "amount": 14448000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Dau tu tai chinh",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 903000 VND. Mã CN nguồn: 433. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "f8367313-3619-4c48-938b-c4fe1a2eca1c",
-      "academicYear": "2026-2027",
       "amount": 903000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -4958,15 +4945,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "499596b3-4396-4b63-a1e1-91d3cd90f857",
+      "programId": "f8367313-3619-4c48-938b-c4fe1a2eca1c",
       "academicYear": "2026-2027",
-      "amount": 19680000.0,
+      "amount": 14448000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Digital Marketing",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1230000 VND. Mã CN nguồn: 402. OCR — không dấu.",
+      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Dau tu tai chinh",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 903000 VND. Mã CN nguồn: 433. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -4984,15 +4971,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "4879f21c-a4e6-4f07-b481-0c370107c365",
+      "programId": "499596b3-4396-4b63-a1e1-91d3cd90f857",
       "academicYear": "2026-2027",
-      "amount": 14400000.0,
+      "amount": 19680000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Ké toan Doanh nghiep",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 900000 VND. Mã CN nguồn: 406. OCR — không dấu.",
+      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Digital Marketing",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1230000 VND. Mã CN nguồn: 402. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5010,15 +4997,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "fef9e381-f4a0-4fe0-b427-bd96a94efd07",
+      "programId": "4879f21c-a4e6-4f07-b481-0c370107c365",
       "academicYear": "2026-2027",
       "amount": 14400000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Ké toan Kiem toan",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 900000 VND. Mã CN nguồn: 405. OCR — không dấu.",
+      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Ké toan Doanh nghiep",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 900000 VND. Mã CN nguồn: 406. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5032,6 +5019,19 @@
       "basis": "per_credit",
       "appliesTo": "TRUONGKINH TEVAKINHDOANH — Ké toan Kiem toan",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14400000 VND. Mã CN nguồn: 405. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "fef9e381-f4a0-4fe0-b427-bd96a94efd07",
+      "academicYear": "2026-2027",
+      "amount": 14400000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Ké toan Kiem toan",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 900000 VND. Mã CN nguồn: 405. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5064,19 +5064,6 @@
     {
       "programId": "639bb352-77d9-4a04-80bc-db06d4e3acb0",
       "academicYear": "2026-2027",
-      "amount": 14448000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Kinh doanh Thuong mai",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 903000 VND. Mã CN nguồn: 412. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "639bb352-77d9-4a04-80bc-db06d4e3acb0",
-      "academicYear": "2026-2027",
       "amount": 903000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -5088,15 +5075,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "f8367313-3619-4c48-938b-c4fe1a2eca1c",
+      "programId": "639bb352-77d9-4a04-80bc-db06d4e3acb0",
       "academicYear": "2026-2027",
-      "amount": 903000.0,
+      "amount": 14448000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Kinh té Quoc té",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14448000 VND. Mã CN nguồn: 418. OCR — không dấu.",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Kinh doanh Thuong mai",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 903000 VND. Mã CN nguồn: 412. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5110,6 +5097,19 @@
       "basis": "per_semester",
       "appliesTo": "TRUONGKINH TEVAKINHDOANH — Kinh té Quoc té",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 903000 VND. Mã CN nguồn: 418. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "f8367313-3619-4c48-938b-c4fe1a2eca1c",
+      "academicYear": "2026-2027",
+      "amount": 903000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Kinh té Quoc té",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14448000 VND. Mã CN nguồn: 418. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5168,19 +5168,6 @@
     {
       "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
       "academicYear": "2026-2027",
-      "amount": 940000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Ngoai Thuong(Quan tri Kinh doanh Quoc té)",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 15040000 VND. Mã CN nguồn: 411. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
-      "academicYear": "2026-2027",
       "amount": 15040000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -5194,13 +5181,13 @@
     {
       "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
       "academicYear": "2026-2027",
-      "amount": 14400000.0,
+      "amount": 940000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Quan tri Kinh doanh Bat dong san",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 900000 VND. Mã CN nguồn: 415. OCR — không dấu.",
+      "basis": "per_credit",
+      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Ngoai Thuong(Quan tri Kinh doanh Quoc té)",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 15040000 VND. Mã CN nguồn: 411. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5218,15 +5205,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "499596b3-4396-4b63-a1e1-91d3cd90f857",
+      "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
       "academicYear": "2026-2027",
-      "amount": 18160000.0,
+      "amount": 14400000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Quan tri Kinh doanh Marketing",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1135000 VND. Mã CN nguồn: 401. OCR — không dấu.",
+      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Quan tri Kinh doanh Bat dong san",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 900000 VND. Mã CN nguồn: 415. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5244,15 +5231,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
+      "programId": "499596b3-4396-4b63-a1e1-91d3cd90f857",
       "academicYear": "2026-2027",
-      "amount": 965000.0,
+      "amount": 18160000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Quan tri Kinh doanh Tong hop Y",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 15440000 VND. Mã CN nguồn: 400. OCR — không dấu.",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Quan tri Kinh doanh Marketing",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1135000 VND. Mã CN nguồn: 401. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5270,15 +5257,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "72fc07ed-3fd0-44d7-9e62-2847af99ab72",
+      "programId": "69ca4fbf-cad8-4e75-a899-bb0a18ca5aec",
       "academicYear": "2026-2027",
-      "amount": 14400000.0,
+      "amount": 965000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Quan tri Nhan luc",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 900000 VND. Mã CN nguồn: 417. OCR — không dấu.",
+      "basis": "per_credit",
+      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Quan tri Kinh doanh Tong hop Y",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 15440000 VND. Mã CN nguồn: 400. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5292,6 +5279,19 @@
       "basis": "per_credit",
       "appliesTo": "TRUONGKINH TEVAKINHDOANH — Quan tri Nhan luc",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14400000 VND. Mã CN nguồn: 417. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "72fc07ed-3fd0-44d7-9e62-2847af99ab72",
+      "academicYear": "2026-2027",
+      "amount": 14400000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Quan tri Nhan luc",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 900000 VND. Mã CN nguồn: 417. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5324,19 +5324,6 @@
     {
       "programId": "7f0556ca-e209-4615-b4ef-5157194e7267",
       "academicYear": "2026-2027",
-      "amount": 15440000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Thuong mai Dien tur",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 965000 VND. Mã CN nguồn: 422. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "7f0556ca-e209-4615-b4ef-5157194e7267",
-      "academicYear": "2026-2027",
       "amount": 965000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -5344,6 +5331,19 @@
       "basis": "per_credit",
       "appliesTo": "TRUONGKINH TEVAKINHDOANH — Thuong mai Dien tur",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 15440000 VND. Mã CN nguồn: 422. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "7f0556ca-e209-4615-b4ef-5157194e7267",
+      "academicYear": "2026-2027",
+      "amount": 15440000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGKINH TEVAKINHDOANH — Thuong mai Dien tur",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 965000 VND. Mã CN nguồn: 422. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5376,19 +5376,6 @@
     {
       "programId": "b27a3b15-931a-46e4-b528-f0718502f7c6",
       "academicYear": "2026-2027",
-      "amount": 16560000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Luat Kinh doanh (HP)",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1035000 VND. Mã CN nguồn: 609(HP). OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "b27a3b15-931a-46e4-b528-f0718502f7c6",
-      "academicYear": "2026-2027",
       "amount": 1035000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -5396,6 +5383,19 @@
       "basis": "per_credit",
       "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Luat Kinh doanh (HP)",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 16560000 VND. Mã CN nguồn: 609(HP). OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "b27a3b15-931a-46e4-b528-f0718502f7c6",
+      "academicYear": "2026-2027",
+      "amount": 16560000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Luat Kinh doanh (HP)",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1035000 VND. Mã CN nguồn: 609(HP). OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5454,19 +5454,6 @@
     {
       "programId": "49be107f-03eb-40d3-b8c4-937ba5b68835",
       "academicYear": "2026-2027",
-      "amount": 15040000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Quan he quoc te (Chuong trinh tieng Trung)",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 940000 VND. Mã CN nguồn: 603. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "49be107f-03eb-40d3-b8c4-937ba5b68835",
-      "academicYear": "2026-2027",
       "amount": 940000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -5478,15 +5465,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "4b86e951-5088-408d-ba3e-908712370f75",
+      "programId": "49be107f-03eb-40d3-b8c4-937ba5b68835",
       "academicYear": "2026-2027",
-      "amount": 940000.0,
+      "amount": 15040000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Quan he Quoc te (HP)",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 15040000 VND. Mã CN nguồn: 608(HP). OCR — không dấu.",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Quan he quoc te (Chuong trinh tieng Trung)",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 940000 VND. Mã CN nguồn: 603. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5504,15 +5491,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "49be107f-03eb-40d3-b8c4-937ba5b68835",
+      "programId": "4b86e951-5088-408d-ba3e-908712370f75",
       "academicYear": "2026-2027",
-      "amount": 14400000.0,
+      "amount": 940000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Quanhe Quoc te (Chuong trinh Tieng Anh)",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 900000 VND. Mã CN nguồn: 608(TA). OCR — không dấu.",
+      "basis": "per_credit",
+      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Quan he Quoc te (HP)",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 15040000 VND. Mã CN nguồn: 608(HP). OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5530,15 +5517,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "141e7f01-7363-4ccc-a566-4fe14da662af",
+      "programId": "49be107f-03eb-40d3-b8c4-937ba5b68835",
       "academicYear": "2026-2027",
-      "amount": 1035000.0,
+      "amount": 14400000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Tieng Anh Bien - Phien dich S!",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 16560000 VND. Mã CN nguồn: 701. OCR — không dấu.",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Quanhe Quoc te (Chuong trinh Tieng Anh)",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 900000 VND. Mã CN nguồn: 608(TA). OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5558,13 +5545,13 @@
     {
       "programId": "141e7f01-7363-4ccc-a566-4fe14da662af",
       "academicYear": "2026-2027",
-      "amount": 903000.0,
+      "amount": 1035000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_credit",
-      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Tieng Anh Du lich",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14448000 VND. Mã CN nguồn: 702. OCR — không dấu.",
+      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Tieng Anh Bien - Phien dich S!",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 16560000 VND. Mã CN nguồn: 701. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5578,6 +5565,19 @@
       "basis": "per_semester",
       "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Tieng Anh Du lich",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 903000 VND. Mã CN nguồn: 702. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "141e7f01-7363-4ccc-a566-4fe14da662af",
+      "academicYear": "2026-2027",
+      "amount": 903000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Tieng Anh Du lich",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14448000 VND. Mã CN nguồn: 702. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5636,19 +5636,6 @@
     {
       "programId": "aba848a0-1975-403d-b9e5-61ac993aab99",
       "academicYear": "2026-2027",
-      "amount": 14448000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Tieng Han Du lich",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 903000 VND. Mã CN nguồn: 706. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "aba848a0-1975-403d-b9e5-61ac993aab99",
-      "academicYear": "2026-2027",
       "amount": 903000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -5656,6 +5643,19 @@
       "basis": "per_credit",
       "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Tieng Han Du lich",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14448000 VND. Mã CN nguồn: 706. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "aba848a0-1975-403d-b9e5-61ac993aab99",
+      "academicYear": "2026-2027",
+      "amount": 14448000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Tieng Han Du lich",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 903000 VND. Mã CN nguồn: 706. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5740,19 +5740,6 @@
     {
       "programId": "e4cbae52-8e2c-4937-84bc-d20c80c3ca60",
       "academicYear": "2026-2027",
-      "amount": 14448000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Tieng Nhat Thuong Mai",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 903000 VND. Mã CN nguồn: 804. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "e4cbae52-8e2c-4937-84bc-d20c80c3ca60",
-      "academicYear": "2026-2027",
       "amount": 903000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -5760,6 +5747,19 @@
       "basis": "per_credit",
       "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Tieng Nhat Thuong Mai",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 14448000 VND. Mã CN nguồn: 804. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "e4cbae52-8e2c-4937-84bc-d20c80c3ca60",
+      "academicYear": "2026-2027",
+      "amount": 14448000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Tieng Nhat Thuong Mai",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 903000 VND. Mã CN nguồn: 804. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5818,19 +5818,6 @@
     {
       "programId": "8e37b163-5c80-4e89-8cd8-6cc524f24dba",
       "academicYear": "2026-2027",
-      "amount": 16560000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Tieng Trung Thuong mai",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1035000 VND. Mã CN nguồn: 803. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "8e37b163-5c80-4e89-8cd8-6cc524f24dba",
-      "academicYear": "2026-2027",
       "amount": 1035000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -5842,15 +5829,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "dfd04d31-c354-4b99-95f5-ad6ccaf3ab8b",
+      "programId": "8e37b163-5c80-4e89-8cd8-6cc524f24dba",
       "academicYear": "2026-2027",
-      "amount": 1190000.0,
+      "amount": 16560000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Truyen thong Da phuong tien",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 19040000 VND. Mã CN nguồn: 607. OCR — không dấu.",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Tieng Trung Thuong mai",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 1035000 VND. Mã CN nguồn: 803. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5868,15 +5855,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "419377f8-da50-42ae-b173-6875c2b1bdc2",
+      "programId": "dfd04d31-c354-4b99-95f5-ad6ccaf3ab8b",
       "academicYear": "2026-2027",
-      "amount": 12560000.0,
+      "amount": 1190000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Van hoc (Bao chi)",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 785000 VND. Mã CN nguồn: 601. OCR — không dấu.",
+      "basis": "per_credit",
+      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Truyen thong Da phuong tien",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 19040000 VND. Mã CN nguồn: 607. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5894,15 +5881,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "f425cb35-3769-4a03-9631-54339c6a8b15",
+      "programId": "419377f8-da50-42ae-b173-6875c2b1bdc2",
       "academicYear": "2026-2027",
-      "amount": 3245000.0,
+      "amount": 12560000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRUONGYDUQC — Bac si Da khoa",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 51920000 VND. Mã CN nguồn: 305. OCR — không dấu.",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGNGONNGU-XAHQINHANVAN — Van hoc (Bao chi)",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 785000 VND. Mã CN nguồn: 601. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5920,15 +5907,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "8bd9894f-0a5f-4921-9030-5421ce14528e",
+      "programId": "f425cb35-3769-4a03-9631-54339c6a8b15",
       "academicYear": "2026-2027",
-      "amount": 54240000.0,
+      "amount": 3245000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGYDUQC — Bac si Rang-Ham -Mat",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 3390000 VND. Mã CN nguồn: 304. OCR — không dấu.",
+      "basis": "per_credit",
+      "appliesTo": "TRUONGYDUQC — Bac si Da khoa",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 51920000 VND. Mã CN nguồn: 305. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5946,15 +5933,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "caad37c1-323c-4efb-b56b-5bc9ef0ec47a",
+      "programId": "8bd9894f-0a5f-4921-9030-5421ce14528e",
       "academicYear": "2026-2027",
-      "amount": 11520000.0,
+      "amount": 54240000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
-      "appliesTo": "TRUONGYDUQC — Cong nghe Sinh hoc",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 720000 VND. Mã CN nguồn: 310. OCR — không dấu.",
+      "appliesTo": "TRUONGYDUQC — Bac si Rang-Ham -Mat",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 3390000 VND. Mã CN nguồn: 304. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5968,6 +5955,32 @@
       "basis": "per_credit",
       "appliesTo": "TRUONGYDUQC — Cong nghe Sinh hoc",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 11520000 VND. Mã CN nguồn: 310. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "caad37c1-323c-4efb-b56b-5bc9ef0ec47a",
+      "academicYear": "2026-2027",
+      "amount": 11520000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGYDUQC — Cong nghe Sinh hoc",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 720000 VND. Mã CN nguồn: 310. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "36ab3e32-5a4e-420b-8293-4a2bd3a41652",
+      "academicYear": "2026-2027",
+      "amount": 12560000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_semester",
+      "appliesTo": "TRUONGYDUQC — Dieu duong Da khoa",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 785000 VND. Mã CN nguồn: 302. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -5987,19 +6000,6 @@
     {
       "programId": "36ab3e32-5a4e-420b-8293-4a2bd3a41652",
       "academicYear": "2026-2027",
-      "amount": 14560000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_semester",
-      "appliesTo": "TRUONGYDUQC — Dieu duong Da khoa",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 910000 VND. Mã CN nguồn: 302(VJI). OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "36ab3e32-5a4e-420b-8293-4a2bd3a41652",
-      "academicYear": "2026-2027",
       "amount": 785000.0,
       "minAmount": null,
       "maxAmount": null,
@@ -6013,26 +6013,13 @@
     {
       "programId": "36ab3e32-5a4e-420b-8293-4a2bd3a41652",
       "academicYear": "2026-2027",
-      "amount": 12560000.0,
+      "amount": 14560000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_semester",
       "appliesTo": "TRUONGYDUQC — Dieu duong Da khoa",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 785000 VND. Mã CN nguồn: 302. OCR — không dấu.",
-      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
-      "publishedAt": "2026-07-10"
-    },
-    {
-      "programId": "e24944c2-6010-4269-9655-baf978d5b9e3",
-      "academicYear": "2026-2027",
-      "amount": 1155000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_credit",
-      "appliesTo": "TRUONGYDUQC — Duoc (Duoc si)",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 18480000 VND. Mã CN nguồn: 303. OCR — không dấu.",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 910000 VND. Mã CN nguồn: 302(VJI). OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -6050,15 +6037,15 @@
       "publishedAt": "2026-07-10"
     },
     {
-      "programId": "3d3893c6-ee3c-44e9-92a3-1908899e8167",
+      "programId": "e24944c2-6010-4269-9655-baf978d5b9e3",
       "academicYear": "2026-2027",
-      "amount": 720000.0,
+      "amount": 1155000.0,
       "minAmount": null,
       "maxAmount": null,
       "currency": "VND",
       "basis": "per_credit",
-      "appliesTo": "TRUONGYDUQC — Ky thuat Y sinh",
-      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 11520000 VND. Mã CN nguồn: 320. OCR — không dấu.",
+      "appliesTo": "TRUONGYDUQC — Duoc (Duoc si)",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 18480000 VND. Mã CN nguồn: 303. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -6072,6 +6059,19 @@
       "basis": "per_semester",
       "appliesTo": "TRUONGYDUQC — Ky thuat Y sinh",
       "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Đơn giá tín chỉ 2026-2027: 720000 VND. Mã CN nguồn: 320. OCR — không dấu.",
+      "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "programId": "3d3893c6-ee3c-44e9-92a3-1908899e8167",
+      "academicYear": "2026-2027",
+      "amount": 720000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_credit",
+      "appliesTo": "TRUONGYDUQC — Ky thuat Y sinh",
+      "notes": "Khóa K31 (QĐ 2961/QĐ-ĐHDT 10/7/2026). Học phí/học kỳ 2026-2027: 11520000 VND. Mã CN nguồn: 320. OCR — không dấu.",
       "sourceUrl": "https://files01.duytan.edu.vn/svruploads/set-duytan/639202205887407234-2961.hp-k3120262027.pdf",
       "publishedAt": "2026-07-10"
     },
@@ -6156,19 +6156,6 @@
     {
       "programId": "a2d22f28-4f83-4063-b92b-9f1e521dda03",
       "academicYear": "2024-2025",
-      "amount": 33016000.0,
-      "minAmount": null,
-      "maxAmount": null,
-      "currency": "VND",
-      "basis": "per_year",
-      "appliesTo": "VIỆN QUẢN LÝ NAM KHUÊ — Quản Trị Marketing & Chiến Lược (HP)",
-      "notes": "Đơn giá tín chỉ: 1,031,750; học phí HK1: 16,508,000. Mã CN nguồn: 401(HP).",
-      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
-      "publishedAt": null
-    },
-    {
-      "programId": "a2d22f28-4f83-4063-b92b-9f1e521dda03",
-      "academicYear": "2024-2025",
       "amount": 1031750.0,
       "minAmount": null,
       "maxAmount": null,
@@ -6176,6 +6163,19 @@
       "basis": "per_credit",
       "appliesTo": "VIỆN QUẢN LÝ NAM KHUÊ — Quản Trị Marketing & Chiến Lược (HP)",
       "notes": "Học phí HK1 2024-2025: 16,508,000; học phí năm học 2024-2025: 33,016,000. Mã CN nguồn: 401(HP).",
+      "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
+      "publishedAt": null
+    },
+    {
+      "programId": "a2d22f28-4f83-4063-b92b-9f1e521dda03",
+      "academicYear": "2024-2025",
+      "amount": 33016000.0,
+      "minAmount": null,
+      "maxAmount": null,
+      "currency": "VND",
+      "basis": "per_year",
+      "appliesTo": "VIỆN QUẢN LÝ NAM KHUÊ — Quản Trị Marketing & Chiến Lược (HP)",
+      "notes": "Đơn giá tín chỉ: 1,031,750; học phí HK1: 16,508,000. Mã CN nguồn: 401(HP).",
       "sourceUrl": "https://is.duytan.edu.vn/is/tin-tuc-tuyen-sinh/hoc-phi-2024-cua-cac-truong-dai-hoc-duy-tan-d-ok9xc",
       "publishedAt": null
     },

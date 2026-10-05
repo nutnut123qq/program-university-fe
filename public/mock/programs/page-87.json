@@ -1,35 +1,2434 @@
 [
   {
-    "id": "2059305e-fbb3-4a91-a14f-d347338ed758",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
+    "id": "32a66931-938b-44c9-b61b-66d00fa468f7",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
     "universityIsPublic": true,
-    "name": "Kinh tế phát triển (Chương trình Phát triển quốc tế) (7310105)",
-    "code": "7310105",
+    "name": "Kinh doanh quốc tế (Tiếng Anh toàn phần) (1) (2a) (7340120)",
+    "code": "7340120",
     "degreeType": "Cử nhân",
-    "credits": 131,
+    "credits": 195,
     "duration": "4 năm",
     "tuition": "Theo quy định của Nhà nước và Nhà trường",
     "language": "Tiếng Anh",
     "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/kinh-te-phat-trien-7310105?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:40.921658+07:00",
-    "description": "Loại chương trình: Chương trình EP\nChỉ tiêu 2026: 40\nMã xét tuyển: EP25\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kinh tế phát triển (Chương trình Phát triển quốc tế) (7310105), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Kinh tế phát triển (Chương trình Phát triển quốc tế) (7310105) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK52IB&name=Kinh doanh quốc tế",
+    "lastCrawled": "2026-06-25T13:37:03.810157+07:00",
+    "description": "Loại chương trình: Chương trình Tiếng Anh toàn phần\nChỉ tiêu 2026: 250\nMã xét tuyển: 73401201F\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/kinh-doanh-quoc-te-tieng-anh-toan-phan-1-2a/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kinh doanh quốc tế (Tiếng Anh toàn phần) (1) (2a) (7340120), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Kinh doanh quốc tế (Tiếng Anh toàn phần) (1) (2a) (7340120) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
     "learningOutcomes": null,
     "isActive": true,
-    "createdAt": "2026-06-18T15:19:37.298293+07:00",
+    "createdAt": "2026-06-18T15:39:02.660314+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 43
+    "courseCount": 73,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm01 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "BUS503298",
+          "BUS503184"
+        ]
+      },
+      {
+        "groupName": "Nhóm02 (chọn 6/18 tín chỉ)",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "MAR503193",
+          "BUS503185",
+          "BUS503303",
+          "MAR503019",
+          "MAR503204",
+          "TEC550020"
+        ]
+      },
+      {
+        "groupName": "Nhóm03 (chọn 6/21 tín chỉ)",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "BUS503045",
+          "BUS503191",
+          "FIN505022",
+          "BUS503304",
+          "BUS503107",
+          "BUS503013",
+          "INF509008"
+        ]
+      },
+      {
+        "groupName": "Nhóm04 (chọn 10/20 tín chỉ)",
+        "requiredCredits": 10,
+        "courseCodes": [
+          "BUS503355",
+          "BUS503385"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514007",
+          "PHY514001"
+        ]
+      },
+      {
+        "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514020",
+          "PHY514019"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514002",
+          "PHY514008"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514003",
+          "PHY514009"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514010",
+          "PHY514004"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514005",
+          "PHY514011"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514006",
+          "PHY514012"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514013",
+          "PHY514016"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514015",
+          "PHY514018"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514017",
+          "PHY514014"
+        ]
+      }
+    ],
+    "evaluationScore": 6.25,
+    "evalOutcomes": 0,
+    "evalStructure": 4,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
   },
   {
-    "id": "6232f35a-f6f3-45a3-a820-62331e5c0cf5",
+    "id": "a0f5e4df-2f93-4b57-92be-1ebc89036f9e",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Kinh doanh quốc tế (6) (7340120)",
+    "code": "7340120",
+    "degreeType": "Cử nhân",
+    "credits": 195,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK52IB&name=Kinh doanh quốc tế",
+    "lastCrawled": "2026-06-25T13:37:02.138483+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 320\nMã xét tuyển: 7340120_1\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/kinh-doanh-quoc-te/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kinh doanh quốc tế (6) (7340120), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Kinh doanh quốc tế (6) (7340120) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1: Hiểu và giải thích được kiến thức đại cương về triết học, quốc phòng – an ninh, chính trị và pháp luật, kinh tế, khoa học xã hội và phát triển bền vững, với ý thức trách nhiệm xã hội và định hướng công dân toàn cầu.\nPLO2: Vận dụng kiến thức cơ bản về quản lý và điều hành trong kinh doanh quốc tế, bao gồm kinh doanh quốc tế, marketing, quản trị, tài chính, logistics, thương mại để tổ chức và quản lý các hoạt động chuyên môn.\nPLO3: Phân tích và vận dụng sáng tạo kiến thức thực tiễn chuyên sâu về kinh doanh quốc tế, bao gồm quản trị chiến lược đa quốc gia, chuỗi cung ứng toàn cầu, dự án kinh doanh quốc tế, quản trị đa văn hóa; gắn kết với yêu cầu phát triển bền vững và trách nhiệm cộng đồng.\nPLO4: Áp dụng kiến thức công nghệ thông tin (ERP, dữ liệu, mạng truyền thông, internet, phần mềm, hệ thống thông tin, công nghệ AI) để hỗ trợ, phân tích và quản trị các hoạt động kinh doanh quốc tế.\nPLO5: Phân tích và đánh giá môi trường kinh doanh quốc tế và môi trường xã hội quốc tế; vận dụng kỹ năng giải quyết vấn đề sáng tạo để xác định, phân tích và đề xuất giải pháp cho các vấn đề phức tạp trong kinh doanh quốc tế, có cân nhắc đến các yếu tố đạo đức, bền vững và trách nhiệm toàn cầu.\nPLO6: Áp dụng kỹ năng khởi nghiệp để thiết kế và tạo ra cơ hội việc làm cho bản thân và cộng đồng, góp phần phát triển kinh tế – xã hội bền vững.\nPLO7: Sử dụng các phương pháp định tính, định lượng, phương pháp hỗn hợp, cũng như các kỹ thuật phân tích hiện đại như phân tích dữ liệu lớn (Big Data Analytics), trí tuệ nhân tạo (AI), học máy (Machine Learning), mô phỏng và phân tích dự báo để giải quyết vấn đề và ra quyết định hiệu quả trong bối cảnh toàn cầu.\nPLO8: Thể hiện kỹ năng tư duy phản biện và vận dụng tư duy sáng tạo để đổi mới và cải tiến liên tục trong công việc; đánh giá chất lượng công việc, đề xuất giải pháp nâng cao hiệu quả và chất lượng công việc, đồng thời đảm bảo trách nhiệm xã hội và tính bền vững.\nPLO9: Thể hiện kỹ năng làm việc nhóm bằng cách tổ chức, lãnh đạo và hợp tác hiệu quả với các thành viên để xây dựng nhóm làm việc hiệu quả, đa văn hóa và toàn cầu.\nPLO10: Thể hiện kỹ năng giao tiếp và thuyết trình hiệu quả: lắng nghe chủ động, trình bày rõ ràng, giao tiếp tự tin, và thuyết trình thuyết phục trước công chúng và khách hàng quốc tế.\nPLO11: Sử dụng tiếng Anh hiệu quả trong công việc, đạt tối thiểu TOEIC 650 khi tốt nghiệp, đồng thời tìm kiếm, diễn giải và tổng hợp tài liệu học thuật và chuyên môn từ các nguồn quốc tế uy tín.\nPLO12: Làm việc độc lập hoặc theo nhóm và chịu trách nhiệm về các nhiệm vụ được giao trong bối cảnh toàn cầu.\nPLO13: Thể hiện năng lực quản lý và lãnh đạo bằng cách hướng dẫn, giám sát người khác thực hiện nhiệm vụ; vận dụng nguyên tắc đạo đức, công bằng và trách nhiệm xã hội; chủ động tham gia giải quyết các vấn đề đạo đức và phát triển bền vững trong kinh doanh quốc tế.\nPLO14: Tham gia học tập suốt đời thông qua tự nghiên cứu, cập nhật và đổi mới tri thức, vận dụng lý thuyết vào thực tiễn; đánh giá điểm mạnh, điểm yếu của bản thân và môi trường để nâng cao năng lực, tổ chức và lập kế hoạch phát triển nghề nghiệp cá nhân một cách chủ động, phù hợp với chuẩn mực công dân toàn cầu.\nPLO15: Lập kế hoạch, điều phối, quản lý hiệu quả các nguồn lực và lãnh đạo quá trình quản trị sự thay đổi trong môi trường kinh doanh quốc tế, gắn với mục tiêu phát triển bền vững.",
+    "isActive": true,
+    "createdAt": "2026-06-18T15:39:01.657553+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 73,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm01 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "BUS503298",
+          "BUS503184"
+        ]
+      },
+      {
+        "groupName": "Nhóm02 (chọn 6/18 tín chỉ)",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "MAR503019",
+          "MAR503204",
+          "TEC550020",
+          "BUS503185",
+          "MAR503193",
+          "BUS503303"
+        ]
+      },
+      {
+        "groupName": "Nhóm03 (chọn 6/21 tín chỉ)",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "BUS503013",
+          "BUS503304",
+          "BUS503107",
+          "BUS503191",
+          "INF509008",
+          "FIN505022",
+          "BUS503045"
+        ]
+      },
+      {
+        "groupName": "Nhóm04 (chọn 10/20 tín chỉ)",
+        "requiredCredits": 10,
+        "courseCodes": [
+          "BUS503355",
+          "BUS503385"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514001",
+          "PHY514007"
+        ]
+      },
+      {
+        "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514020",
+          "PHY514019"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514008",
+          "PHY514002"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514003",
+          "PHY514009"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514010",
+          "PHY514004"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514005",
+          "PHY514011"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514012",
+          "PHY514006"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514013",
+          "PHY514016"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514015",
+          "PHY514018"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514014",
+          "PHY514017"
+        ]
+      }
+    ],
+    "evaluationScore": 9.25,
+    "evalOutcomes": 5,
+    "evalStructure": 4,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "17e7b050-6b21-458c-84cf-1c9f4b040671",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Marketing (Công nghệ Marketing) (7340115)",
+    "code": "7340115",
+    "degreeType": "Cử nhân",
+    "credits": 160,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK38MA&name=Marketing",
+    "lastCrawled": "2026-06-25T13:36:58.083551+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 70\nMã xét tuyển: 7340115_2\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/marketing-cong-nghe-marketing/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Marketing (Công nghệ Marketing) (7340115), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Marketing (Công nghệ Marketing) (7340115) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": null,
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:59.651393+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 64,
+    "electiveGroups": [
+      {
+        "groupName": "Anh văn 1 (12 tín chỉ) - Chọn 1 trong 2 nhóm [ Anh văn 1; Pháp văn 1]",
+        "requiredCredits": 12,
+        "courseCodes": [
+          "3300109",
+          "3300110",
+          "3300111",
+          "3300112"
+        ]
+      },
+      {
+        "groupName": "Nhóm01 (chọn 2/4 tín chỉ)",
+        "requiredCredits": 2,
+        "courseCodes": [
+          "3030128",
+          "3030329"
+        ]
+      },
+      {
+        "groupName": "Pháp văn 1 (12 tín chỉ) - Chọn 1 trong 2 nhóm [ Anh văn 1; Pháp văn 1]",
+        "requiredCredits": 12,
+        "courseCodes": [
+          "3300209",
+          "3300210",
+          "3300211",
+          "3300212"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (6 tín chỉ) - Chọn 1 trong 3 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3]",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "3310201",
+          "3310204"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (6 tín chỉ) - Chọn 1 trong 3 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3]",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "3310202",
+          "3310205"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (6 tín chỉ) - Chọn 1 trong 3 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3]",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "3310101",
+          "3310203",
+          "3310206"
+        ]
+      }
+    ],
+    "evaluationScore": 7.0,
+    "evalOutcomes": 0,
+    "evalStructure": 5,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "a372be2d-4549-4f17-b6b1-acb4a722ec1a",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Marketing (Tiếng Anh toàn phần) (7340115)",
+    "code": "7340115",
+    "degreeType": "Cử nhân",
+    "credits": 160,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Anh",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK38MA&name=Marketing",
+    "lastCrawled": "2026-06-25T13:36:56.589223+07:00",
+    "description": "Loại chương trình: Chương trình Tiếng Anh toàn phần\nChỉ tiêu 2026: 80\nMã xét tuyển: 73401151F\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/marketing-tieng-anh-toan-phan/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Marketing (Tiếng Anh toàn phần) (7340115), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Marketing (Tiếng Anh toàn phần) (7340115) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1: Hiểu và giải thích được kiến thức đại cương về bối cảnh chính trị – xã hội – pháp luật và phát triển bền vững.\nPLO2: Áp dụng được những kiến thức toàn diện, đa ngành, liên ngành từ kinh tế học tới công nghệ (AI, ERP, dữ liệu lớn, mạng xã hội, phần mềm…) để phân tích vấn đề và đưa ra các quyết định trong marketing, cũng như quản trị và điều hành tổ chức.\nPLO3: Áp dụng kiến thức cơ bản về marketing, quản trị, chiến lược toàn cầu, kinh doanh quốc tế, tâm lý và hành vi để quản lý và điều hành các hoạt động marketing trong tổ chức, đặc biệt là trong môi trường đa văn hoá, đồng thời nhận diện và tích hợp yếu tố phát triển bền vững, đạo đức và trách nhiệm xã hội trong hoạch định và triển khai chiến lược marketing\nPLO4: Phân tích và áp dụng các kiến thức cốt lõi của ngành marketing bao gồm nghiên cứu marketing, marketing mix-4Ps (sản phẩm, giá cả, phân phối và xúc tiến) và mô phỏng kinh doanh để lập kế hoạch, tổ chức thực hiện, lãnh đạo và giám sát hoạt động marketing trong tổ chức.\nPLO5: Phân tích và áp dụng các kiến thức chuyên môn sâu của ngành marketing vào thực tế nhằm quản trị thương hiệu, quản trị quan hệ khách hàng, marketing dịch vụ, xây dựng chiến lược truyền thông marketing, marketing xã hội, và đặc biệt áp dụng được các kiến thức chuyên sâu về marketing kỹ thuật số (ví dụ, ứng dụng trí tuệ nhân tạo trong marketing, marketing thiết bị di động, phân tích dữ liệu lớn và marketing mạng xã hội) để giải quyết các vấn đề chuyên môn sâu trong hoạt động kinh doanh và marketing, đảm bảo cân bằng giữa mục tiêu kinh doanh và các ưu tiên về môi trường – xã hội trong bối cảnh toàn cầu hoá.\nPLO6: Thành thạo các kỹ năng tư duy phản biện, tư duy hệ thống, tư duy sáng tạo để nhận dạng và giải quyết vấn đề trong hoạt động marketing.\nPLO7: Thành thạo kỹ năng thu thập dữ liệu, phân tích môi trường marketing và xử lý thông tin một cách chính xác và hiệu quả nhằm phát hiện nguyên nhân, phân tích và đưa ra giải pháp để giải quyết các vấn đề phức tạp của marketing trong môi trường đa ngành và đa văn hoá.\nPLO8: Áp dụng kỹ năng đổi mới và sáng tạo trong marketing vào khởi nghiệp và áp dụng tinh thần khởi nghiệp và ứng dụng khả năng lãnh đạo, quản trị vào trong hoạt động marketing để tạo ra sự phát triển cho bản thân và sự phát triển bền vững của cộng đồng và xã hội.\nPLO9: Thành thạo các kỹ năng thiết lập mục tiêu khả thi, tổ chức, lãnh đạo, đo lường và đánh giá kết quả các hoạt động marketing, cũng như xử lý các tình huống marketing phát sinh ở cấp độ quản trị viên cơ sở.\nPLO10: Thành thạo các kỹ năng làm việc nhóm bao gồm tổ chức và lãnh đạo nhóm và hợp tác tốt với mọi người để xây dựng một nhóm làm việc hiệu quả, đặc biệt trong môi trường làm việc đa văn hoá.\nPLO11: Thành thạo các kỹ năng giao tiếp và thuyết trình hiệu quả, biết lắng nghe, truyền đạt rõ ràng, sử dụng ngôn từ và phi ngôn từ hiệu quả, thuyết trình thuyết phục trước công chúng và khách hàng.\nPLO12: Giao tiếp bằng ngôn ngữ và phi ngôn ngữ hiệu quả, có kỹ năng thuyết trình, sử dụng máy tính để xử lý văn bản bằng tiếng Việt và tiếng Anh (chương trình tiên tiến-Tối thiểu TOEIC 500, TOEFL iBT 55, IELTS 4.5; chương trình chất lượng cao TOEIC 550, TOEFL iBT 60, IELTS 5.0), và có kỹ năng giao tiếp xuyên văn hoá trong môi trường hội nhập.\nPLO13: Vận dụng được khả năng làm việc độc lập hoặc theo nhóm và chịu trách nhiệm cá nhân, chịu đựng áp lực công việc cao, dễ dàng thích nghi với môi trường làm việc đa ngành và đa văn hoá.\nPLO14: Thể hiện được năng lực quản lý, lãnh đạo, hướng dẫn và giám sát người khác thực hiện và hoàn thành nhiệm vụ. Vận dụng tinh thần đạo đức, công bằng và trách nhiệm với cộng đồng bao gồm nghiêm túc tuân thủ pháp luật của Nhà nước; nội quy và quy chế của tổ chức; giữ chữ tín và cam kết; tham gia giải quyết các vấn đề đạo đức xã hội và có đạo đức nghề nghiệp.\nPLO15: Hiểu được tinh thần học tập suốt đời thông qua việc luôn học tập, nâng cao và đổi mới kiến thức, tự nghiên cứu khoa học, biết cách cập nhật và vận dụng lý thuyết vào thực tiễn vận hành và nâng cao khả năng nhận biết điểm mạnh yếu trong nguồn lực bản thân và bên ngoài giúp tự cải thiện nâng cao năng lực, khả năng hợp tác đa ngành trong môi trường đa văn hoá, cũng như tổ chức và sắp xếp công việc, chủ động lập kế hoạch nghề nghiệp cá nhân.",
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:58.646222+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 64,
+    "electiveGroups": [
+      {
+        "groupName": "Anh văn 1 (12 tín chỉ) - Chọn 1 trong 2 nhóm [ Anh văn 1; Pháp văn 1]",
+        "requiredCredits": 12,
+        "courseCodes": [
+          "3300109",
+          "3300110",
+          "3300111",
+          "3300112"
+        ]
+      },
+      {
+        "groupName": "Nhóm01 (chọn 2/4 tín chỉ)",
+        "requiredCredits": 2,
+        "courseCodes": [
+          "3030128",
+          "3030329"
+        ]
+      },
+      {
+        "groupName": "Pháp văn 1 (12 tín chỉ) - Chọn 1 trong 2 nhóm [ Anh văn 1; Pháp văn 1]",
+        "requiredCredits": 12,
+        "courseCodes": [
+          "3300209",
+          "3300210",
+          "3300211",
+          "3300212"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (6 tín chỉ) - Chọn 1 trong 3 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3]",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "3310201",
+          "3310204"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (6 tín chỉ) - Chọn 1 trong 3 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3]",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "3310202",
+          "3310205"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (6 tín chỉ) - Chọn 1 trong 3 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3]",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "3310101",
+          "3310203",
+          "3310206"
+        ]
+      }
+    ],
+    "evaluationScore": 10.0,
+    "evalOutcomes": 5,
+    "evalStructure": 5,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "ea1928de-d20f-40ed-9542-0f13e73faee8",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Quản trị kinh doanh (Quản trị bền vững doanh nghiệp và môi trường song bằng UEH - Koblenz University of Applied Sciences (Hochschule Koblenz - Đức) (1) (2a) (4) (7340101)",
+    "code": "7340101",
+    "degreeType": "Cử nhân",
+    "credits": 93,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Anh",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK52BA&name=Quản trị kinh doanh",
+    "lastCrawled": "2026-06-25T13:36:53.397444+07:00",
+    "description": "Loại chương trình: Chương trình song bằng quốc tế\nChỉ tiêu 2026: 30\nMã xét tuyển: 73401014D\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/quan-tri-kinh-doanh-quan-tri-ben-vung-doanh-nghiep-va-moi-truong-song-bang-ueh-koblenz-university-of-applied-sciences-hochschule-koblenz-uc-1-2a-4/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản trị kinh doanh (Quản trị bền vững doanh nghiệp và môi trường song bằng UEH - Koblenz University of Applied Sciences (Hochschule Koblenz - Đức) (1) (2a) (4) (7340101), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản trị kinh doanh (Quản trị bền vững doanh nghiệp và môi trường song bằng UEH - Koblenz University of Applied Sciences (Hochschule Koblenz - Đức) (1) (2a) (4) (7340101) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": null,
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:56.615125+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 43,
+    "electiveGroups": [
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514001",
+          "PHY514007"
+        ]
+      },
+      {
+        "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514020",
+          "PHY514019"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514002",
+          "PHY514008"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514009",
+          "PHY514003"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514004",
+          "PHY514010"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514005",
+          "PHY514011"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514012",
+          "PHY514006"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514016",
+          "PHY514013"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514015",
+          "PHY514018"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514017",
+          "PHY514014"
+        ]
+      }
+    ],
+    "evaluationScore": 6.05,
+    "evalOutcomes": 0,
+    "evalStructure": 4,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "afd70cbc-01de-40df-8cbc-1099a269d18f",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Quản trị kinh doanh (Quản trị bền vững doanh nghiệp và môi trường) (7340101)",
+    "code": "7340101",
+    "degreeType": "Cử nhân",
+    "credits": 93,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK52BA&name=Quản trị kinh doanh",
+    "lastCrawled": "2026-06-25T13:36:52.391596+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 50\nMã xét tuyển: 7340101_4\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/quan-tri-kinh-doanh-quan-tri-ben-vung-doanh-nghiep-va-moi-truong/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản trị kinh doanh (Quản trị bền vững doanh nghiệp và môi trường) (7340101), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản trị kinh doanh (Quản trị bền vững doanh nghiệp và môi trường) (7340101) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": null,
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:55.622919+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 43,
+    "electiveGroups": [
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514001",
+          "PHY514007"
+        ]
+      },
+      {
+        "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514019",
+          "PHY514020"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514002",
+          "PHY514008"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514009",
+          "PHY514003"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514004",
+          "PHY514010"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514005",
+          "PHY514011"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514012",
+          "PHY514006"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514013",
+          "PHY514016"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514015",
+          "PHY514018"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514014",
+          "PHY514017"
+        ]
+      }
+    ],
+    "evaluationScore": 6.05,
+    "evalOutcomes": 0,
+    "evalStructure": 4,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "27f5c814-714f-416a-94af-81050da8a99e",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Quản trị kinh doanh (Quản trị bệnh viện) (7340101)",
+    "code": "7340101",
+    "degreeType": "Cử nhân",
+    "credits": 93,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK52BA&name=Quản trị kinh doanh",
+    "lastCrawled": "2026-06-25T13:36:51.357505+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 100\nMã xét tuyển: 7340101_3\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/quan-tri-kinh-doanh-quan-tri-benh-vien/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản trị kinh doanh (Quản trị bệnh viện) (7340101), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản trị kinh doanh (Quản trị bệnh viện) (7340101) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1: Hiểu biết được các ảnh hưởng của thể chế chính sách kinh tế, pháp luật, công nghệ, phát triển bền vững, môi trường toàn cầu và giao tiếp đa văn hóa với các quyết định quản trị bệnh viện và các tổ chức chăm sóc sức khỏe\nPLO2: Có khả năng áp dụng các kiến thức của chiến lược, điều hành, nhân sự, tài chính và truyền thông marketing vào các hoạt động quản trị bệnh viện và các tổ chức chăm sóc sức khỏe\nPLO3: Có khả năng áp dụng được các kiến thức đa ngành, liên ngành, chuyển đổi số và ưu tiên khía cạnh môi trường-xã hội để giải quyết các vấn đề trong quản trị bệnh viện và các tổ chức chăm sóc sức khỏe\nPLO4: Thể hiện được khả năng truyền thông/giao tiếp, kỹ năng lãnh đạo và truyền cảm hứng đa ngành hiệu quả thông qua các báo cáo (nói và viết, trình bày cá nhân/nhóm), chuyển tải các thông điệp liên quan đến ý tưởng kinh doanh, quảng bá sản phẩm dịch vụ, các dự án tại bệnh viện và các tổ chức chăm sóc sức khỏe. Giao tiếp chuyên môn bằng ngoại ngữ đạt yêu cầu cơ bản\nPLO5: Thực hành thành thạo các kỹ năng tìm kiếm, sắp xếp, phân loại, đánh giá, sử dụng và quản trị thông tin (năng lực thông tin); thu thập, phân tích và giải thích số liệu (tư duy định lượng) dựa trên các công cụ kỹ thuật số và AI\nPLO6: Thể hiện khả năng tư duy thích hợp (tư duy phản biện, tư duy thực tiễn, tư duy sáng tạo) để giải quyết vấn đề, đưa ra quyết định hoặc đề xuất ý tưởng mới.\nPLO7: Xác định được tầm quan trong và ưu tiên của giá trị đạo đức và các khía cạnh về môi trường và xã hội trong quá trình giải quyết vấn đề về quản trị bệnh viện và các tổ chức chăm sóc sức khỏe.\nPLO8: Phát triển ý thức và hành động tự chủ, tích cực bản thân của người biết học tập suốt đời (lifelong learner) thông qua quá trình tự cập nhật kiến thức, tự đánh giá bản thân và không ngừng phát triển bản thân hướng đến cộng đồng, trách nhiệm xã hội và bền vững",
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:54.615638+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 43,
+    "electiveGroups": [
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514001",
+          "PHY514007"
+        ]
+      },
+      {
+        "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514020",
+          "PHY514019"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514008",
+          "PHY514002"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514009",
+          "PHY514003"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514004",
+          "PHY514010"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514011",
+          "PHY514005"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514006",
+          "PHY514012"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514013",
+          "PHY514016"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514015",
+          "PHY514018"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514014",
+          "PHY514017"
+        ]
+      }
+    ],
+    "evaluationScore": 9.05,
+    "evalOutcomes": 5,
+    "evalStructure": 4,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "c690c8dd-9d9b-4607-8622-d8ed375160b1",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Quản trị kinh doanh (Kinh doanh số) (7340101)",
+    "code": "7340101",
+    "degreeType": "Cử nhân",
+    "credits": 93,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK52BA&name=Quản trị kinh doanh",
+    "lastCrawled": "2026-06-25T13:36:50.296918+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 70\nMã xét tuyển: 7340101_2\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/quan-tri-kinh-doanh-kinh-doanh-so/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản trị kinh doanh (Kinh doanh số) (7340101), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản trị kinh doanh (Kinh doanh số) (7340101) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1: Hiểu biết cơ bản về bối cảnh chính trị, xã hội, pháp luật quốc gia và phát triển bền vững\nPLO2: Áp dụng được kiến thức toàn diện, đa ngành xác định vai trò và bản chất của hoạt động kinh doanh của doanh nghiệp trong môi trường số.\nPLO3: Áp dụng kiến thức chuyên môn trong việc hoạt động kinh doanh của doanh nghiệp trong môi trường số.\nPLO4: Thể hiện phẩm chất lãnh đạo, hợp tác và khả năng làm việc nhóm hiệu quả trong các dự án mô phỏng hoạt động kinh doanh của doanh nghiệp trong môi trường số.\nPLO5: Thực hành thành thạo các kỹ năng nhận dạng vấn đề trong hoạt động kinh doanh của doanh nghiệp trong môi trường số; thu thập thông tin, xử lý thông tin và giải quyết vấn đề dựa trên các công cụ kỹ thuật số và trí tuệ nhân tạo (AI) trong môi trường số\nPLO6: Thể hiện tư duy phản biện tích cực trong việc phát triển các giải pháp trong vấn đề hoạt động kinh doanh của doanh nghiệp trong môi trường số.\nPLO7: Ưu tiên các khía cạnh về môi trường và xã hội trong việc giải quyết các vấn đề liên quan đến hoạt động kinh doanh của doanh nghiệp trong môi trường số\nPLO8: Phát triển ý thức và hành động cải thiện bản thân liên tục hướng đến cộng đồng, trách nhiệm xã hội và bền vững.",
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:53.619626+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 43,
+    "electiveGroups": [
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514007",
+          "PHY514001"
+        ]
+      },
+      {
+        "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514019",
+          "PHY514020"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514002",
+          "PHY514008"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514009",
+          "PHY514003"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514010",
+          "PHY514004"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514005",
+          "PHY514011"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514012",
+          "PHY514006"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514016",
+          "PHY514013"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514015",
+          "PHY514018"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514014",
+          "PHY514017"
+        ]
+      }
+    ],
+    "evaluationScore": 8.87,
+    "evalOutcomes": 5,
+    "evalStructure": 4,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "ce1462e8-27eb-4f1e-9dfb-3e7b74101992",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Quản trị kinh doanh (Quản trị - Tiếng Anh toàn phần) (1) (2a) (7340101)",
+    "code": "7340101",
+    "degreeType": "Cử nhân",
+    "credits": 93,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Anh",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK52BA&name=Quản trị kinh doanh",
+    "lastCrawled": "2026-06-25T13:36:49.373722+07:00",
+    "description": "Loại chương trình: Chương trình Tiếng Anh toàn phần\nChỉ tiêu 2026: 100\nMã xét tuyển: 73401011F\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/quan-tri-kinh-doanh-quan-tri-tieng-anh-toan-phan-1-2a/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản trị kinh doanh (Quản trị - Tiếng Anh toàn phần) (1) (2a) (7340101), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản trị kinh doanh (Quản trị - Tiếng Anh toàn phần) (1) (2a) (7340101) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": null,
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:52.623438+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 43,
+    "electiveGroups": [
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514001",
+          "PHY514007"
+        ]
+      },
+      {
+        "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514019",
+          "PHY514020"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514002",
+          "PHY514008"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514003",
+          "PHY514009"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514010",
+          "PHY514004"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514011",
+          "PHY514005"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514006",
+          "PHY514012"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514016",
+          "PHY514013"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514015",
+          "PHY514018"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514017",
+          "PHY514014"
+        ]
+      }
+    ],
+    "evaluationScore": 6.05,
+    "evalOutcomes": 0,
+    "evalStructure": 4,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "31fe2f13-99e9-4e89-9372-e21753d8d14c",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Quản trị kinh doanh (Quản trị kinh doanh) (5) (7340101)",
+    "code": "7340101",
+    "degreeType": "Cử nhân",
+    "credits": 93,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK52BA&name=Quản trị kinh doanh",
+    "lastCrawled": "2026-06-25T13:36:48.415874+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 750\nMã xét tuyển: 7340101_1\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/quan-tri-kinh-doanh/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản trị kinh doanh (Quản trị kinh doanh) (5) (7340101), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản trị kinh doanh (Quản trị kinh doanh) (5) (7340101) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1: Hiểu biết cơ bản về môi trường hoạt động của tổ chức về chính trị, xã hội, luật pháp quốc gia/quốc tế, trong bối cảnh công nghệ 4.0, bền vững, toàn cầu hóa và đa văn hóa.\nPLO2: Áp dụng được các kiến thức toàn diện, đa ngành, liên ngành để giải quyết các vấn đề về quản trị.\nPLO3: Áp dụng được lý thuyết về bốn chức năng quản trị trong thực tiễn công việc.\nPLO4: Thể hiện được năng lực tư duy sáng tạo và tư duy phản biện, tư duy đa ngành, kỹ năng lãnh đạo, làm việc nhóm, truyền cảm hứng trong bối cảnh môi trường làm việc toàn cầu hóa, bền vững và công nghệ mới.\nPLO5: Giải quyết được các vấn đề trong tổ chức bằng các phương pháp định lượng và định tính dựa trên công cụ kỹ thuật số và trí tuệ nhân tạo (AI), hiểu biết bối cảnh toàn cầu và định hướng phát triển bền vững.\nPLO6: Sử dụng được ngoại ngữ để giao tiếp cơ bản trong công việc quản trị.\nPLO7: Ưu tiên vấn đề đạo đức, cộng đồng, trách nhiệm xã hội và bền vững khi ra các quyết định.\nPLO8: Phát triển ý thức và hành động cải thiện bản thân liên tục hướng đến cộng đồng, trách nhiệm xã hội và bền vững.",
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:51.610732+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 43,
+    "electiveGroups": [
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514007",
+          "PHY514001"
+        ]
+      },
+      {
+        "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514019",
+          "PHY514020"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514002",
+          "PHY514008"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514009",
+          "PHY514003"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514010",
+          "PHY514004"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514005",
+          "PHY514011"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514012",
+          "PHY514006"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514013",
+          "PHY514016"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514015",
+          "PHY514018"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514014",
+          "PHY514017"
+        ]
+      }
+    ],
+    "evaluationScore": 9.05,
+    "evalOutcomes": 5,
+    "evalStructure": 4,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "5bd084b2-b103-4d5a-9e58-9dce15f5854f",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Công nghệ truyền thông (Truyền thông số và thiết kế đa phương tiện song bằng UEH - Đại học Saint Joseph, Macao) (1) (2a) (4_ (7320106)",
+    "code": "7320106",
+    "degreeType": "Cử nhân",
+    "credits": 189,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Anh",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK52IT&name=Công nghệ truyền thông (4_",
+    "lastCrawled": "2026-06-25T13:36:47.542035+07:00",
+    "description": "Loại chương trình: Chương trình song bằng quốc tế\nChỉ tiêu 2026: 40\nMã xét tuyển: 7320106D\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40, V00\nTrang tuyển sinh: https://trangedu.com/nganh/cong-nghe-truyen-thong-truyen-thong-so-va-thiet-ke-a-phuong-tien-song-bang-ueh-ai-hoc-saint-joseph-macao-1-2a-4/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Công nghệ truyền thông (Truyền thông số và thiết kế đa phương tiện song bằng UEH - Đại học Saint Joseph, Macao) (1) (2a) (4_ (7320106), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Công nghệ truyền thông (Truyền thông số và thiết kế đa phương tiện song bằng UEH - Đại học Saint Joseph, Macao) (1) (2a) (4_ (7320106) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": null,
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:50.604034+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 71,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm01 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "INF509010",
+          "INF509019"
+        ]
+      },
+      {
+        "groupName": "Nhóm02 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "INF509142",
+          "INF509079"
+        ]
+      },
+      {
+        "groupName": "Nhóm03 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "INF509036",
+          "INF509039"
+        ]
+      },
+      {
+        "groupName": "Nhóm04 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "INT547026",
+          "INF509042"
+        ]
+      },
+      {
+        "groupName": "Nhóm05 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "UII550089",
+          "INF509144"
+        ]
+      },
+      {
+        "groupName": "Nhóm06 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "INF509013",
+          "INF509146"
+        ]
+      },
+      {
+        "groupName": "Nhóm07 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "TEC550055",
+          "INT547023"
+        ]
+      },
+      {
+        "groupName": "Nhóm08 (chọn 10/20 tín chỉ)",
+        "requiredCredits": 10,
+        "courseCodes": [
+          "INF509239",
+          "INF509216"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514007",
+          "PHY514001"
+        ]
+      },
+      {
+        "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514019",
+          "PHY514020"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514002",
+          "PHY514008"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514003",
+          "PHY514009"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514004",
+          "PHY514010"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514011",
+          "PHY514005"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514006",
+          "PHY514012"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514013",
+          "PHY514016"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514018",
+          "PHY514015"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514014",
+          "PHY514017"
+        ]
+      }
+    ],
+    "evaluationScore": 6.7,
+    "evalOutcomes": 0,
+    "evalStructure": 5,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "4fbf14c2-a891-49dd-b8f5-bd17aca66a1a",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Công nghệ truyền thông (Truyền thông số và thiết kế đa phương tiện) (6) (7320106)",
+    "code": "7320106",
+    "degreeType": "Cử nhân",
+    "credits": 189,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK52IT&name=Công nghệ truyền thông",
+    "lastCrawled": "2026-06-25T13:36:45.920150+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 60\nMã xét tuyển: 7320106_1\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40, V00\nTrang tuyển sinh: https://trangedu.com/nganh/cong-nghe-truyen-thong/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Công nghệ truyền thông (Truyền thông số và thiết kế đa phương tiện) (6) (7320106), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Công nghệ truyền thông (Truyền thông số và thiết kế đa phương tiện) (6) (7320106) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": null,
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:49.606964+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 71,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm01 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "INF509010",
+          "INF509019"
+        ]
+      },
+      {
+        "groupName": "Nhóm02 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "INF509142",
+          "INF509079"
+        ]
+      },
+      {
+        "groupName": "Nhóm03 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "INF509036",
+          "INF509039"
+        ]
+      },
+      {
+        "groupName": "Nhóm04 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "INF509042",
+          "INT547026"
+        ]
+      },
+      {
+        "groupName": "Nhóm05 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "INF509144",
+          "UII550089"
+        ]
+      },
+      {
+        "groupName": "Nhóm06 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "INF509146",
+          "INF509013"
+        ]
+      },
+      {
+        "groupName": "Nhóm07 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "INT547023",
+          "TEC550055"
+        ]
+      },
+      {
+        "groupName": "Nhóm08 (chọn 10/20 tín chỉ)",
+        "requiredCredits": 10,
+        "courseCodes": [
+          "INF509239",
+          "INF509216"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514001",
+          "PHY514007"
+        ]
+      },
+      {
+        "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514020",
+          "PHY514019"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514002",
+          "PHY514008"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514009",
+          "PHY514003"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514004",
+          "PHY514010"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514005",
+          "PHY514011"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514012",
+          "PHY514006"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514016",
+          "PHY514013"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514015",
+          "PHY514018"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514014",
+          "PHY514017"
+        ]
+      }
+    ],
+    "evaluationScore": 6.7,
+    "evalOutcomes": 0,
+    "evalStructure": 5,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "917fa3f8-454c-4003-87ed-20ba25e8e716",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Toán kinh tế (Phân tích rủi ro và định phí bảo hiểm) (7310108)",
+    "code": "7310108",
+    "degreeType": "Cử nhân",
+    "credits": 76,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK48TO&name=Toán kinh tế",
+    "lastCrawled": "2026-06-25T13:36:44.041323+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 50\nMã xét tuyển: 7310108_2\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/toan-kinh-te-phan-tich-rui-ro-va-inh-phi-bao-hiem/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Toán kinh tế (Phân tích rủi ro và định phí bảo hiểm) (7310108), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Toán kinh tế (Phân tích rủi ro và định phí bảo hiểm) (7310108) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": null,
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:48.585230+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 39,
+    "electiveGroups": [
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514001",
+          "PHY514007"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514002",
+          "PHY514008"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514003",
+          "PHY514009"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514004",
+          "PHY514010"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514011",
+          "PHY514005"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514012",
+          "PHY514006"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514013",
+          "PHY514016"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514015",
+          "PHY514018"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514014",
+          "PHY514017"
+        ]
+      }
+    ],
+    "evaluationScore": 6.05,
+    "evalOutcomes": 0,
+    "evalStructure": 4,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "37b59b0e-3c16-4f1c-a7f5-6eac5bf1be3c",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Toán kinh tế (Toán tài chính) (6) (7310108)",
+    "code": "7310108",
+    "degreeType": "Cử nhân",
+    "credits": 76,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK48TO&name=Toán kinh tế",
+    "lastCrawled": "2026-06-25T13:36:43.065843+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 50\nMã xét tuyển: 7310108_1\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/toan-kinh-te/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Toán kinh tế (Toán tài chính) (6) (7310108), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Toán kinh tế (Toán tài chính) (6) (7310108) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1: Nắm vững kiến thức lý luận chính trị và pháp luật của Nhà nước, kiến thức cơ bản về kinh tế – xã hội.\nPLO2: Nắm vững kiến thức toán, xác suất thống kê, tài chính, tin học, các công cụ định lượng và chuẩn mực học thuật quốc tế.\nPLO3: Hiểu các nguyên lý phát triển bền vững, tài chính xanh, ESG, mô hình kinh tế tuần hoàn và kinh doanh có đạo đức.\nPLO4: Có nền tảng liên ngành kết nối giữa tài chính, công nghệ, xã hội. Có kỹ năng giao tiếp quốc tế để diễn giải các mô hình và kết quả trong Toán tài chính, tạo điều kiện hợp tác quốc tế trong lĩnh vực tài chính.\nPLO5: Hiểu nền tảng công cụ kỹ thuật số, trí tuệ nhân tạo, phân tích dữ liệu lớn trong lĩnh vực tài chính.\nPLO6: Kỹ năng áp dụng các công cụ toán học, tin học, tài chính định lượng và xác suất thống kê vào việc nghiên cứu, đánh giá và thiết kế mô hình tài chính.\nPLO7: Sinh viên có khả năng làm việc nhóm hiệu quả, thể hiện kỹ năng lãnh đạo; biết cách truyền cảm hứng, khơi gợi động lực và định hướng cho các thành viên thông qua việc vận dụng tư duy Toán tài chính để giải quyết vấn đề thực tiễn.\nPLO8: Kỹ năng tư duy phản biện, hệ thống, sáng tạo, phân tích và giải quyết vấn đề một cách khoa học.\nPLO9: Kỹ năng giao tiếp và trao đổi chuyên môn bằng tiếng Anh (đạt năng lực ngoại ngữ bậc 3/6 Khung năng lực ngoại ngữ của Việt Nam; tương đương bậc B1 khung tham chiếu chung Châu Âu)\nPLO10: Kỹ năng thu thập, phân tích, mô phỏng dữ liệu tài chính: xây dựng báo cáo, mô hình, dự báo tài chính và rủi ro trên cơ sở toán – thống kê. Có thể tổng hợp phân tích dữ liệu từ nhiều lĩnh vực để giải quyết các vấn đề phức tạp mang tính toàn cầu.\nPLO11: Sử dụng thành thạo kỹ năng lập trình trên các phần mềm Python, R, Excel, công cụ BI (Power BI, Tableau…), AI/ML trong dự báo và ra quyết định.\nPLO12: Trung thực, khách quan, chịu trách nhiệm cá nhân đối với các vấn đề liên quan đến dữ liệu, nghiên cứu và các đánh giá trong tài chính.\nPLO13: Lập kế hoạch, điều phối, quản lý các nguồn lực. Đánh giá và cải thiện hiệu quả các hoạt động trong tài chính nói riêng và kinh tế – xã hội nói chung.\nPLO14: Sinh viên có khả năng tự học, và học tập suốt đời. Thêm vào đó, sinh viên có tinh thần sáng tạo, và sẵn sàng cập nhật kiến thức mới trong Toán tài chính, công nghệ và thực tiễn thị trường để thích ứng với sự thay đổi và phát triển nghề nghiệp bền vững.",
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:47.563755+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 39,
+    "electiveGroups": [
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514001",
+          "PHY514007"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514002",
+          "PHY514008"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514009",
+          "PHY514003"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514004",
+          "PHY514010"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514011",
+          "PHY514005"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514012",
+          "PHY514006"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514013",
+          "PHY514016"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514015",
+          "PHY514018"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 9 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514014",
+          "PHY514017"
+        ]
+      }
+    ],
+    "evaluationScore": 9.05,
+    "evalOutcomes": 5,
+    "evalStructure": 4,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "fe281ae4-3a61-4737-af4c-c7a323acf0cb",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Kinh tế đầu tư (Thẩm định giá và Quản trị tài sản) (7310104)",
+    "code": "7310104",
+    "degreeType": "Cử nhân",
+    "credits": 177,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK46IE&name=Kinh tế đầu tư",
+    "lastCrawled": "2026-06-25T13:36:40.928035+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 100\nMã xét tuyển: 7310104_2\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/kinh-te-au-tu-tham-inh-gia-va-quan-tri-tai-san/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kinh tế đầu tư (Thẩm định giá và Quản trị tài sản) (7310104), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Kinh tế đầu tư (Thẩm định giá và Quản trị tài sản) (7310104) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1: Hiểu biết rõ bối cảnh kinh tế, pháp luật, xã hội và môi trường phát triển bền vững trong nước và toàn cầu, phục vụ cho hoạt động thẩm định giá và quản trị tài sản.\nPLO2: Vận dụng hiệu quả kiến thức liên ngành để phân tích và giải quyết các vấn đề phát sinh trong thẩm định giá và quản trị tài sản.\nPLO3: Áp dụng vững chắc các lý thuyết và phương pháp chuyên ngành để thẩm định giá và quản trị tài sản hiệu quả , phù hợp với chuẩn mực nghề nghiệp và yêu cầu thực tiễn.\nPLO4: Thể hiện kỹ năng giao tiếp, làm việc nhóm, phối hợp và lãnh đạo hiệu quả trong môi trường đa ngành và đa văn hóa, đặc biệt trong bối cảnh hoạt động thẩm định giá và quản trị tài sản cần phối hợp nhiều bên liên quan và quốc tế hoá cao.\nPLO5: Vận dụng tư duy phản biện và logic để phân tích tình huống, đánh giá rủi ro, và phát triển giải pháp phù hợp cho các vấn đề trong hoạt động thẩm định giá và quản trị tài sản.\nPLO6: Phân tích và xử lý dữ liệu tài chính bằng các phương pháp định lượng, định tính và công cụ công nghệ hiện đại nhằm hỗ trợ hoạt động thẩm định giá và quản trị tài sản.\nPLO7: Hiểu và phân tích tác động của các yếu tố toàn cầu đến hoạt động chuyên môn, từ đó nâng cao ý thức trách nhiệm nghề nghiệp và đóng góp vào phát triển bền vững.\nPLO8: Xác định được tầm quan trọng và tuân thủ các chuẩn mực đạo đức trong thực hành thẩm định giá và quản trị tài sản, xem xét các yếu tố môi trường – xã hội – cộng đồng trong quá trình ra quyết định.\nPLO9: Chủ động học tập suốt đời, cập nhật kiến thức và cải thiện năng lực bản thân, hoạt động nghề nghiệp theo hướng minh bạch, bền vững và có trách nhiệm với xã hội.",
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:45.546864+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 67,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm01 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "BUS503048",
+          "MAN502031"
+        ]
+      },
+      {
+        "groupName": "Nhóm02 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501010",
+          "FIN505005"
+        ]
+      },
+      {
+        "groupName": "Nhóm03 (chọn 3/9 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501103",
+          "ECO501009",
+          "ECO501055"
+        ]
+      },
+      {
+        "groupName": "Nhóm04 (chọn 3/9 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501056",
+          "ECO501198",
+          "ECO501019"
+        ]
+      },
+      {
+        "groupName": "Nhóm05 (chọn 10/20 tín chỉ)",
+        "requiredCredits": 10,
+        "courseCodes": [
+          "ECO501133",
+          "ECO501082"
+        ]
+      },
+      {
+        "groupName": "Nhóm06 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501196",
+          "ECO501012"
+        ]
+      },
+      {
+        "groupName": "Nhóm07 (chọn 3/6 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501088",
+          "ECO501200"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514007",
+          "PHY514001"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514008",
+          "PHY514002"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514009",
+          "PHY514003"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514004",
+          "PHY514010"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514011",
+          "PHY514005"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 6 nhóm [ Thể dục 1; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514006",
+          "PHY514012"
+        ]
+      }
+    ],
+    "evaluationScore": 9.25,
+    "evalOutcomes": 5,
+    "evalStructure": 4,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "b070766f-cec6-4cbf-a8e0-b3e1d7324567",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Kinh tế chính trị (Kinh tế chính trị quốc tế) (7310102)",
+    "code": "7310102",
+    "degreeType": "Cử nhân",
+    "credits": 177,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK52CT&name=Kinh tế chính trị",
+    "lastCrawled": "2026-06-25T13:36:37.315554+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 40\nMã xét tuyển: 7310102_2\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/kinh-te-chinh-tri-kinh-te-chinh-tri-quoc-te/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kinh tế chính trị (Kinh tế chính trị quốc tế) (7310102), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Kinh tế chính trị (Kinh tế chính trị quốc tế) (7310102) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": null,
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:43.515929+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 67,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm01 (chọn 6/9 tín chỉ)",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "POL510047",
+          "HCM510017",
+          "ECO501011"
+        ]
+      },
+      {
+        "groupName": "Nhóm02 (chọn 6/12 tín chỉ)",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "REC510011",
+          "MAN502001",
+          "ECO501010",
+          "MAR503001"
+        ]
+      },
+      {
+        "groupName": "Nhóm03 (chọn 6/9 tín chỉ)",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "PHI510010",
+          "POL510013",
+          "MAN502010"
+        ]
+      },
+      {
+        "groupName": "Nhóm04 (chọn 10/20 tín chỉ)",
+        "requiredCredits": 10,
+        "courseCodes": [
+          "POL510061",
+          "POL510042"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514007",
+          "PHY514001"
+        ]
+      },
+      {
+        "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514019",
+          "PHY514020"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514002",
+          "PHY514008"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514009",
+          "PHY514003"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514004",
+          "PHY514010"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514011",
+          "PHY514005"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514012",
+          "PHY514006"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514016",
+          "PHY514013"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514017",
+          "PHY514014"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514015",
+          "PHY514018"
+        ]
+      }
+    ],
+    "evaluationScore": 6.7,
+    "evalOutcomes": 0,
+    "evalStructure": 5,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "e6a1b32a-b77c-48d9-a597-21914c95c330",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Kinh tế chính trị (*) (7310102)",
+    "code": "7310102",
+    "degreeType": "Cử nhân",
+    "credits": 177,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK52CT&name=Kinh tế chính trị",
+    "lastCrawled": "2026-06-25T13:36:35.851676+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 40\nMã xét tuyển: 7310102_1\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/kinh-te-chinh-tri/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kinh tế chính trị (*) (7310102), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Kinh tế chính trị (*) (7310102) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": "PLO1: Có kiến thức chuyên sâu về khoa học kinh tế chính trị, am hiểu đường lối chính sách phát triển kinh tế – xã hội của Đảng và Nhà nước\nPLO2: Am hiểu được các lý thuyết kinh tế học hiện đại. Có kiến thức về quan hệ kinh tế quốc tế, có khả năng vận dụng để giải quyết những vấn đề của thực tiễn.\nPLO3: Có kiến thức về quản lý nhà nước, quản lý vùng, địa phương và những kiến thức cơ bản về nhà nước và pháp luật\nPLO4: Có kiến thức cơ bản về lĩnh vực chính trị, xã hội, có khả năng tham gia giải quyết các vấn đề trong các tổ chức chính trị, xã hội, truyền thông và tuyên giáo\nPLO5: Có kỹ năng chuyên môn giỏi, có khả năng nghiên cứu khoa học độc lập để giải quyết những vấn đề của thực tiễn.\nPLO6: Có tư duy phản biện độc lập, có kỹ năng giải quyết vấn đề của thực tiễn liên quan đến lĩnh vực kinh tế, xã hội\nPLO7: Biết truyền đạt rõ ràng, dễ hiểu các ý tưởng, quan điểm của mình, thuyết phục được người nghe, biết lắng nghe ý kiến của người khác, tự tin trong giao tiếp.\nPLO8: Có khả năng tổ chức, quản lý và lãnh đạo nhóm, hợp tác tốt với mọi người để xây dựng một nhóm làm việc hiệu quả\nPLO9: Biết trình bày văn bản một cách rõ ràng, súc tích, dễ hiểu, tập trung vào chủ đề chính, tuân thủ các chuẩn mực và quy định trong trích dẫn tài liệu\nPLO10: Chủ động tìm hiểu, thường xuyên theo dõi và phân tích các vấn đề kinh tế – chính trị trong nước và quốc tế. Vận dụng lý luận để giải quyết các vấn đề thực tiễn.\nPLO11: Giữ vững lập trường khoa học, khách quan trong trao đổi, tranh luận, không định kiến và phân biệt đối xử. Thể hiện thái độ cởi mở, tôn trọng sự khác biệt đối với các nền tảng văn hóa, chính trị và kinh tế khác.\nPLO12: Linh hoạt, nhạy bén trong nhận diện và ứng phó với các biến động kinh tế – chính trị. Lan tỏa tinh thần tích cực, truyền cảm hứng và hợp tác xây dựng môi trường học tập, làm việc năng động, sáng tạo.\nPLO13: Ý thức sâu sắc về phát triển bền vững, tích cực tham gia và khuyến khích các hoạt động bảo vệ môi trường và nâng cao sức khỏe cộng đồng.\nPLO14: Chủ động đề xuất giải pháp mới, sáng kiến cải tiến phục vụ phát triển kinh tế – xã hội. Sẵn sàng chịu trách nhiệm cá nhân và tập thể về các quyết định và hành động.",
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:42.506771+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 67,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm01 (chọn 6/9 tín chỉ)",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "ECO501011",
+          "HCM510017",
+          "POL510047"
+        ]
+      },
+      {
+        "groupName": "Nhóm02 (chọn 6/12 tín chỉ)",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "MAR503001",
+          "MAN502001",
+          "ECO501010",
+          "REC510011"
+        ]
+      },
+      {
+        "groupName": "Nhóm03 (chọn 6/9 tín chỉ)",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "POL510013",
+          "MAN502010",
+          "PHI510010"
+        ]
+      },
+      {
+        "groupName": "Nhóm04 (chọn 10/20 tín chỉ)",
+        "requiredCredits": 10,
+        "courseCodes": [
+          "POL510061",
+          "POL510042"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514007",
+          "PHY514001"
+        ]
+      },
+      {
+        "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514019",
+          "PHY514020"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514008",
+          "PHY514002"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514003",
+          "PHY514009"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514010",
+          "PHY514004"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514011",
+          "PHY514005"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514012",
+          "PHY514006"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514013",
+          "PHY514016"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514014",
+          "PHY514017"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514015",
+          "PHY514018"
+        ]
+      }
+    ],
+    "evaluationScore": 9.7,
+    "evalOutcomes": 5,
+    "evalStructure": 5,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "2d826915-ff62-4d06-83cd-1c0ab22d7b45",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Kinh tế (7310101)",
+    "code": "7310101",
+    "degreeType": "Cử nhân",
+    "credits": 195,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK52ECO&name=Kinh tế",
+    "lastCrawled": "2026-06-25T13:36:34.176347+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 110\nMã xét tuyển: 7220201\nTổ hợp xét tuyển: A00, A01, AH3, D26, D27, D28, D29, D30, D01, DD2, D02, D03, D04, D05, D06, D07, AH2, D21, D22, D23, D24, D25, D09, AH5, D36, D37, D38, D39, D40\nTrang tuyển sinh: https://trangedu.com/nganh/kinh-te-hoc/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kinh tế (7310101), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Kinh tế (7310101) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": null,
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:41.506243+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 73,
+    "electiveGroups": [
+      {
+        "groupName": "Nhánh Kinh tế vi mô (9 tín chỉ) - Chọn 1 trong 2 nhóm [ Nhánh Kinh tế vi mô; Nhánh Kinh tế vĩ mô]",
+        "requiredCredits": 9,
+        "courseCodes": [
+          "ECO501070",
+          "ECO501071",
+          "ECO501073"
+        ]
+      },
+      {
+        "groupName": "Nhánh Kinh tế vĩ mô (9 tín chỉ) - Chọn 1 trong 2 nhóm [ Nhánh Kinh tế vi mô; Nhánh Kinh tế vĩ mô]",
+        "requiredCredits": 9,
+        "courseCodes": [
+          "ECO501078",
+          "ECO501077",
+          "ECO501079"
+        ]
+      },
+      {
+        "groupName": "Nhóm01 (chọn 3/15 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501008",
+          "ECO501007",
+          "ECO501009",
+          "ECO501010",
+          "ECO501035"
+        ]
+      },
+      {
+        "groupName": "Nhóm02 (chọn 3/12 tín chỉ)",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "ECO501140",
+          "ECO501186",
+          "ECO501188",
+          "ECO501142"
+        ]
+      },
+      {
+        "groupName": "Nhóm03 (chọn 10/20 tín chỉ)",
+        "requiredCredits": 10,
+        "courseCodes": [
+          "ECO501294",
+          "ECO501269"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514001",
+          "PHY514007"
+        ]
+      },
+      {
+        "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514019",
+          "PHY514020"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514008",
+          "PHY514002"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514009",
+          "PHY514003"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514004",
+          "PHY514010"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514005",
+          "PHY514011"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514012",
+          "PHY514006"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514013",
+          "PHY514016"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514018",
+          "PHY514015"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514017",
+          "PHY514014"
+        ]
+      }
+    ],
+    "evaluationScore": 6.25,
+    "evalOutcomes": 0,
+    "evalStructure": 4,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "0d78ab75-402c-4bf3-83be-ec7e93d36703",
+    "universityId": "1ab00c57-b036-4c5f-8662-9315c8dd9bea",
+    "universityName": "Trường Đại học Kinh tế TP.HCM",
+    "universityIsPublic": true,
+    "name": "Ngôn ngữ Anh (Tiếng Anh thương mại) (7220201)",
+    "code": "7220201",
+    "degreeType": "Cử nhân",
+    "credits": 182,
+    "duration": "4 năm",
+    "tuition": "Theo quy định của Nhà nước và Nhà trường",
+    "language": "Tiếng Việt",
+    "formOfStudy": "Chính quy",
+    "sourceUrl": "https://student.ueh.edu.vn/studyprogram?id=DHCQK51ND&name=Ngôn ngữ Anh",
+    "lastCrawled": "2026-06-25T13:36:32.156117+07:00",
+    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 150\nTổ hợp xét tuyển: D01, D09, D14\nTrang tuyển sinh: https://trangedu.com/nganh/ngon-ngu-anh/",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Ngôn ngữ Anh (Tiếng Anh thương mại) (7220201), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Ngôn ngữ Anh (Tiếng Anh thương mại) (7220201) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "learningOutcomes": null,
+    "isActive": true,
+    "createdAt": "2026-06-18T15:38:41.490956+07:00",
+    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
+    "courseCount": 69,
+    "electiveGroups": [
+      {
+        "groupName": "Nhóm01 (chọn 6/12 tín chỉ)",
+        "requiredCredits": 6,
+        "courseCodes": [
+          "BAN506097",
+          "FIN505015",
+          "ACC507132",
+          "BAN506016"
+        ]
+      },
+      {
+        "groupName": "Nhóm02 (chọn 9/15 tín chỉ)",
+        "requiredCredits": 9,
+        "courseCodes": [
+          "BAN506041",
+          "BAN506100",
+          "BAN506038",
+          "BAN506008",
+          "BAN506101"
+        ]
+      },
+      {
+        "groupName": "Nhóm03 (chọn 10/20 tín chỉ)",
+        "requiredCredits": 10,
+        "courseCodes": [
+          "BAN506133",
+          "BAN506134"
+        ]
+      },
+      {
+        "groupName": "Thể dục 1 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514001",
+          "PHY514007"
+        ]
+      },
+      {
+        "groupName": "Thể dục 10 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514019",
+          "PHY514020"
+        ]
+      },
+      {
+        "groupName": "Thể dục 2 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514008",
+          "PHY514002"
+        ]
+      },
+      {
+        "groupName": "Thể dục 3 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514003",
+          "PHY514009"
+        ]
+      },
+      {
+        "groupName": "Thể dục 4 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514010",
+          "PHY514004"
+        ]
+      },
+      {
+        "groupName": "Thể dục 5 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514011",
+          "PHY514005"
+        ]
+      },
+      {
+        "groupName": "Thể dục 6 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514012",
+          "PHY514006"
+        ]
+      },
+      {
+        "groupName": "Thể dục 7 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514013",
+          "PHY514016"
+        ]
+      },
+      {
+        "groupName": "Thể dục 8 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514015",
+          "PHY514018"
+        ]
+      },
+      {
+        "groupName": "Thể dục 9 (3 tín chỉ) - Chọn 1 trong 10 nhóm [ Thể dục 1; Thể dục 10; Thể dục 2; Thể dục 3; Thể dục 4; Thể dục 5; Thể dục 6; Thể dục 7; Thể dục 8; Thể dục 9]",
+        "requiredCredits": 3,
+        "courseCodes": [
+          "PHY514017",
+          "PHY514014"
+        ]
+      }
+    ],
+    "evaluationScore": 6.7,
+    "evalOutcomes": 0,
+    "evalStructure": 5,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
+  },
+  {
+    "id": "f3b8b888-2e8a-44c6-a969-2d10fd12db1a",
     "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
     "universityName": "Đại học Kinh tế Quốc dân",
     "universityIsPublic": true,
-    "name": "Kinh tế (Chương trình Kinh tế y tế) (7310101)",
-    "code": "7310101",
+    "name": "Quản lý công và Chính sách (E-PMP) (EPMP)",
+    "code": "EPMP",
     "degreeType": "Cử nhân",
     "credits": 185,
     "duration": "4 năm",
@@ -37,446 +2436,19 @@
     "language": "Tiếng Anh",
     "formOfStudy": "Chính quy",
     "sourceUrl": "https://courses.neu.edu.vn/curriculum/kinh-te-7310101?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:38.888534+07:00",
-    "description": "Loại chương trình: Chương trình EP\nChỉ tiêu 2026: 40\nMã xét tuyển: EP24\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kinh tế (Chương trình Kinh tế y tế) (7310101), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Kinh tế (Chương trình Kinh tế y tế) (7310101) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
+    "lastCrawled": "2026-06-22T15:08:47.810809+07:00",
+    "description": "Loại chương trình: Chương trình EP\nChỉ tiêu 2026: 70\nTổ hợp xét tuyển: A00, A01, D01, D07",
+    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản lý công và Chính sách (E-PMP) (EPMP), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
+    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản lý công và Chính sách (E-PMP) (EPMP) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
     "learningOutcomes": "Chuẩn đầu ra chương trình\nCơ hội việc làm và khả năng học tập nâng cao\nQuy trình đào tạo\nĐiều kiện tốt nghiệp\nChương trình đào tạo\nPhương pháp giảng dạy và đánh giá\nChương trình đào tạo tham khảo\nTiêu chuẩn đội ngũ giảng viên\nCơ sở vật chất, công nghệ và học liệu\nHướng dẫn thực hiện\nThông tin chung\nThông tin chung\nNgành/Chương trình\nQuản lý công và chính sách\nTên tiếng Anh\nPublic Management and Policy (E-PMP)\nMã tuyển sinh\nKinh tế (7310101)\nNgôn ngữ đào tạo\nKhoá - Năm\nK68 - 2026\nKhoa Khoa học quản lý\nChỉ tiêu tuyển sinh\nĐiểm chuẩn xét tuyển\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục\nKiến tạo con đường thông minh để mỗi người trở thành phiên bản tốt nhất của chính mình, mang lại giá trị cho cộng đồng.\nMục tiêu đào tạo\n- Mục tiêu chung:",
     "isActive": true,
-    "createdAt": "2026-06-18T15:19:36.294870+07:00",
+    "createdAt": "2026-06-18T15:20:13.655685+07:00",
     "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 60
-  },
-  {
-    "id": "ae93605c-2164-4762-8485-72f1c6310d1b",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Kiểm toán (Chương trình Kiểm toán nội bộ) (7340302)",
-    "code": "7340302",
-    "degreeType": "Cử nhân",
-    "credits": 142,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Anh",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/kiem-toan-7340302?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:34.995166+07:00",
-    "description": "Loại chương trình: Chương trình EP\nChỉ tiêu 2026: 50\nMã xét tuyển: EP21\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Kiểm toán (Chương trình Kiểm toán nội bộ) (7340302), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Kiểm toán (Chương trình Kiểm toán nội bộ) (7340302) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": "Chuẩn đầu ra chương trình\nCơ hội việc làm và khả năng học tập nâng cao\nQuy trình đào tạo\nĐiều kiện tốt nghiệp\nChương trình đào tạo\nPhương pháp giảng dạy và đánh giá\nChương trình đào tạo tham khảo\nTiêu chuẩn đội ngũ giảng viên\nCơ sở vật chất, công nghệ và học liệu\nHướng dẫn thực hiện\nThông tin chung\nThông tin chung\nNgành/Chương trình\nTên tiếng Anh\nMã tuyển sinh\nKiểm toán (7340302)\nNgôn ngữ đào tạo\nTiếng Việt\nKhoá - Năm\nK68 - 2026\nViện Kế toán - Kiểm toán\nChỉ tiêu tuyển sinh\nĐiểm chuẩn xét tuyển\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục\nKiến tạo con đường thông minh để mỗi người trở thành phiên bản tốt nhất của chính mình, mang lại giá trị cho cộng đồng.\nMục tiêu đào tạo\n- Mục tiêu chung:\nCTĐT ngành Kiểm toán đào tạo về các loại hình kiểm toán, kế toán, kiểm soát và phân tích nhằm nâng cao năng lực hành nghề kiểm toán đạt chuẩn quốc gia và quốc tế. CTĐT trang bị cho sinh viên kiến thức ngành cũng như kiến thức nền tảng rộng, các kĩ năng và thái độ cần thiết nhằm cung cấp nguồn nhân lực kiểm toán chất lượng cao đáp ứng nhu cầu phát triển bền vững của đất nước. CTĐT rèn luyện sinh viên những phẩm chất chính trị, đạo đức nghề nghiệp, sức khỏe tốt và nắm vững kiến thức chuyên môn toàn diện về kiểm toán, kỹ năng thực hành cơ bản, khả năng làm việc độc lập, sáng tạo và giải quyết những vấn đề thuộc ngành kiểm toán. CTĐT cũng chuẩn bị cho sinh viên làm việc trong lĩnh vực kiểm toán yêu cầu kiến thức nâng cao về nghiên cứu và quản lý nhà nước, có năng lực học tập suốt đời",
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:34.281335+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 46
-  },
-  {
-    "id": "63538fee-f2ba-4d12-994d-bcffae1d6ab2",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Marketing (Chương trình Công nghệ Marketing) (7340115)",
-    "code": "7340115",
-    "degreeType": "Cử nhân",
-    "credits": 143,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Anh",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/marketing-7340115?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:32.232831+07:00",
-    "description": "Loại chương trình: Chương trình EP\nChỉ tiêu 2026: 50\nMã xét tuyển: EP19\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Marketing (Chương trình Công nghệ Marketing) (7340115), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Marketing (Chương trình Công nghệ Marketing) (7340115) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": "Chuẩn đầu ra chương trình\nQuy trình đào tạo\nĐiều kiện tốt nghiệp\nChương trình đào tạo\nPhương pháp giảng dạy và đánh giá\nChương trình đào tạo tham khảo\nTiêu chuẩn đội ngũ giảng viên\nCơ sở vật chất, công nghệ và học liệu\nHướng dẫn thực hiện\nThông tin chung\nThông tin chung\nNgành/Chương trình\nTên tiếng Anh\nMã tuyển sinh\nMarketing (7340115)\nNgôn ngữ đào tạo\nTiếng Việt\nKhoá - Năm\nK68 - 2026\nKhoa Marketing\nTrường Kinh doanh\nChỉ tiêu tuyển sinh\nĐiểm chuẩn xét tuyển\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục\nKiến tạo con đường thông minh để mỗi người trở thành phiên bản tốt nhất của chính mình, mang lại giá trị cho cộng đồng.\nMục tiêu đào tạo\nMục tiêu chung:\nChương trình được xây dựng với mục tiêu đào tạo cử nhân ngành Marketing có đủ kiến thức để phân tích, dự báo, đánh giá, lập kế hoạch và thực thi các công việc thuộc chức năng marketing trong bối cảnh toàn cầu hóa và CMCN4.0; sử dụng máy tính thành thạo để thực hiện các công việc văn phòng và chuyên môn marketing; có thể đọc hiểu các tài liệu bằng tiếng Anh; có kỹ năng làm việc nhóm và có khả năng giao tiếp tốt với người khác; đồng thời, có đủ năng lực tự chủ, tự chịu trách nhiệm với các công việc mình đảm trách trong khuôn khổ tuân thủ các quy định, quy tắc và định hướng chung.",
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:32.257927+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 46
-  },
-  {
-    "id": "7ee6f5ce-345a-4535-b080-a88f2020df65",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Nhóm ngành Tài chính doanh nghiệp; Marketing số; Quản trị Marketing; Quản trị kinh doanh quốc tế; Kinh tế quốc tế; Logistics và quản lý chuỗi cung ứng; Thương mại điện tử; Kiểm toán tích hợp chứng chỉ ACCA (Chương trình CLC) (CLC3)",
-    "code": "CLC3",
-    "degreeType": "Cử nhân",
-    "credits": 142,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/kinh-doanh-quoc-te-7340120?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:30.411596+07:00",
-    "description": "Loại chương trình: Chương trình Chất lượng cao\nChỉ tiêu 2026: 1575\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Nhóm ngành Tài chính doanh nghiệp; Marketing số; Quản trị Marketing; Quản trị kinh doanh quốc tế; Kinh tế quốc tế; Logistics và quản lý chuỗi cung ứng; Thương mại điện tử; Kiểm toán tích hợp chứng chỉ ACCA (Chương trình CLC) (CLC3), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Nhóm ngành Tài chính doanh nghiệp; Marketing số; Quản trị Marketing; Quản trị kinh doanh quốc tế; Kinh tế quốc tế; Logistics và quản lý chuỗi cung ứng; Thương mại điện tử; Kiểm toán tích hợp chứng chỉ ACCA (Chương trình CLC) (CLC3) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": "Chuẩn đầu ra chương trình\nCơ hội việc làm và khả năng học tập nâng cao\nQuy trình đào tạo\nĐiều kiện tốt nghiệp\nChương trình đào tạo\nPhương pháp giảng dạy và đánh giá\nChương trình đào tạo tham khảo\nTiêu chuẩn đội ngũ giảng viên\nCơ sở vật chất, công nghệ và học liệu\nHướng dẫn thực hiện\nThông tin chung\nThông tin chung\nNgành/Chương trình\nKinh doanh quốc tế\nTên tiếng Anh\nInternational Business\nMã tuyển sinh\nKinh doanh quốc tế (7340120)\nNgôn ngữ đào tạo\nTiếng Việt\nKhoá - Năm\nK68 - 2026\nViện Thương mại và Kinh tế quốc tế\nTrường Kinh doanh\nChỉ tiêu tuyển sinh\nĐiểm chuẩn xét tuyển\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục\nKiến tạo con đường thông minh để mỗi người trở thành phiên bản tốt nhất của chính mình, mang lại giá trị cho cộng đồng.",
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:31.257359+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 46
-  },
-  {
-    "id": "bfef476a-290f-4780-a3f9-1fcd7dc7fa4a",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Nhóm ngành Kinh tế đầu tư; Quản trị nhân lực; Quản trị kinh doanh; Quan hệ công chúng (Chương trình CLC) (CLC2)",
-    "code": "CLC2",
-    "degreeType": "Cử nhân",
-    "credits": 135,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/kinh-te-dau-tu-7310104?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:29.087652+07:00",
-    "description": "Loại chương trình: Chương trình Chất lượng cao\nChỉ tiêu 2026: 585\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Nhóm ngành Kinh tế đầu tư; Quản trị nhân lực; Quản trị kinh doanh; Quan hệ công chúng (Chương trình CLC) (CLC2), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Nhóm ngành Kinh tế đầu tư; Quản trị nhân lực; Quản trị kinh doanh; Quan hệ công chúng (Chương trình CLC) (CLC2) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:30.242531+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 44
-  },
-  {
-    "id": "25ae342f-170e-40e3-95ca-853d8508b3a6",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Nhóm ngành Kinh tế phát triển; Ngân hàng; Công nghệ thông tin và chuyển đổi số; Bảo hiểm tích hợp chứng chỉ ANZIF (Chương trình CLC) (CLC1)",
-    "code": "CLC1",
-    "degreeType": "Cử nhân",
-    "credits": 131,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/kinh-te-phat-trien-7310105?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:27.339978+07:00",
-    "description": "Loại chương trình: Chương trình Chất lượng cao\nChỉ tiêu 2026: 220\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Nhóm ngành Kinh tế phát triển; Ngân hàng; Công nghệ thông tin và chuyển đổi số; Bảo hiểm tích hợp chứng chỉ ANZIF (Chương trình CLC) (CLC1), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Nhóm ngành Kinh tế phát triển; Ngân hàng; Công nghệ thông tin và chuyển đổi số; Bảo hiểm tích hợp chứng chỉ ANZIF (Chương trình CLC) (CLC1) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:29.226754+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 43
-  },
-  {
-    "id": "7cb24a6a-3895-4f6e-b6d8-72dc1b918928",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Nhóm ngành Tài chính; Kinh doanh quốc tế (Chương trình tiên tiến) (TT2)",
-    "code": "TT2",
-    "degreeType": "Cử nhân",
-    "credits": 142,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Anh",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/kinh-doanh-quoc-te-7340120?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:25.179539+07:00",
-    "description": "Loại chương trình: Chương trình Tiên tiến\nChỉ tiêu 2026: 330\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Nhóm ngành Tài chính; Kinh doanh quốc tế (Chương trình tiên tiến) (TT2), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Nhóm ngành Tài chính; Kinh doanh quốc tế (Chương trình tiên tiến) (TT2) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": "Chuẩn đầu ra chương trình\nCơ hội việc làm và khả năng học tập nâng cao\nQuy trình đào tạo\nĐiều kiện tốt nghiệp\nChương trình đào tạo\nPhương pháp giảng dạy và đánh giá\nChương trình đào tạo tham khảo\nTiêu chuẩn đội ngũ giảng viên\nCơ sở vật chất, công nghệ và học liệu\nHướng dẫn thực hiện\nThông tin chung\nThông tin chung\nNgành/Chương trình\nKinh doanh quốc tế\nTên tiếng Anh\nInternational Business\nMã tuyển sinh\nKinh doanh quốc tế (7340120)\nNgôn ngữ đào tạo\nTiếng Việt\nKhoá - Năm\nK68 - 2026\nViện Thương mại và Kinh tế quốc tế\nTrường Kinh doanh\nChỉ tiêu tuyển sinh\nĐiểm chuẩn xét tuyển\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục\nKiến tạo con đường thông minh để mỗi người trở thành phiên bản tốt nhất của chính mình, mang lại giá trị cho cộng đồng.",
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:28.213039+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 46
-  },
-  {
-    "id": "c6761799-7e49-4e2d-af98-e345dbec9aba",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Nhóm ngành Kế toán; Kế hoạch tài chính; Quản trị kinh doanh (Chương trình tiên tiến) (TT1)",
-    "code": "TT1",
-    "degreeType": "Cử nhân",
-    "credits": 142,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Anh",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/ke-toan-7340301?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:23.556633+07:00",
-    "description": "Loại chương trình: Chương trình Tiên tiến\nChỉ tiêu 2026: 165\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Nhóm ngành Kế toán; Kế hoạch tài chính; Quản trị kinh doanh (Chương trình tiên tiến) (TT1), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Nhóm ngành Kế toán; Kế hoạch tài chính; Quản trị kinh doanh (Chương trình tiên tiến) (TT1) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": "Chuẩn đầu ra chương trình\nCơ hội việc làm và khả năng học tập nâng cao\nQuy trình đào tạo\nĐiều kiện tốt nghiệp\nChương trình đào tạo\nPhương pháp giảng dạy và đánh giá\nChương trình đào tạo tham khảo\nTiêu chuẩn đội ngũ giảng viên\nCơ sở vật chất, công nghệ và học liệu\nHướng dẫn thực hiện\nThông tin chung\nThông tin chung\nNgành/Chương trình\nTên tiếng Anh\nAccounting\nMã tuyển sinh\nKế toán (7340301)\nNgôn ngữ đào tạo\nTiếng Việt\nKhoá - Năm\nK68 - 2026\nViện Kế toán - Kiểm toán\nChỉ tiêu tuyển sinh\nĐiểm chuẩn xét tuyển\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục\nKiến tạo con đường thông minh để mỗi người trở thành phiên bản tốt nhất của chính mình, mang lại giá trị cho cộng đồng.\nMục tiêu đào tạo\n- Mục tiêu chung:",
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:27.197226+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 46
-  },
-  {
-    "id": "652d0206-6840-42be-8dfa-303f18d5ee0c",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Toán kinh tế (7310108)",
-    "code": "7310108",
-    "degreeType": "Cử nhân",
-    "credits": 138,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/toan-kinh-te-7310108?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:21.507462+07:00",
-    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 50\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Toán kinh tế (7310108), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Toán kinh tế (7310108) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": "Chuẩn đầu ra chương trình\nQuy trình đào tạo\nĐiều kiện tốt nghiệp\nChương trình đào tạo\nPhương pháp giảng dạy và đánh giá\nChương trình đào tạo tham khảo\nTiêu chuẩn đội ngũ giảng viên\nCơ sở vật chất, công nghệ và học liệu\nHướng dẫn thực hiện\nThông tin chung\nThông tin chung\nNgành/Chương trình\nToán kinh tế\nTên tiếng Anh\nMathematical Economics\nMã tuyển sinh\nToán kinh tế (7310108)\nNgôn ngữ đào tạo\nTiếng Việt\nKhoá - Năm\nK68 - 2026\nKhoa Toán kinh tế\nTrường Công nghệ\nChỉ tiêu tuyển sinh\nĐiểm chuẩn xét tuyển\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục\nKiến tạo con đường thông minh để mỗi người trở thành phiên bản tốt nhất của chính mình, mang lại giá trị cho cộng đồng.\nMục tiêu đào tạo\nMục tiêu chung: Đào tạo cử nhân Toán kinh tế (2 định hướng chuyên sâu Toán kinh tế và Toán tài chính) có phẩm chất chính trị, đạo đức và sức khỏe tốt; nắm vững kiến thức cơ bản về kinh tế - xã hội, quản lý, tài chính và quản trị kinh doanh; có kiến thức chuyên sâu về các phương pháp toán học ứng dụng trong kinh tế, quản lý, tài chính và quản trị kinh doanh; có tư duy nghiên cứu độc lập; có năng lực tự học tập bổ sung kiến thức, nâng cao trình độ chuyên môn thích nghi với sự thay đổi của môi trường và yêu cầu của công việc.",
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:26.190839+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 47
-  },
-  {
-    "id": "2db28f36-2174-43b2-ad38-8a8b4833e685",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Thương mại điện tử (7340122)",
-    "code": "7340122",
-    "degreeType": "Cử nhân",
-    "credits": 133,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/thuong-mai-dien-tu-7340122?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:19.574287+07:00",
-    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 50\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Thương mại điện tử (7340122), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Thương mại điện tử (7340122) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:25.184469+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 44
-  },
-  {
-    "id": "7645559b-b4ee-4a19-badb-d1d85e30da38",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Thống kê kinh tế (7310107)",
-    "code": "7310107",
-    "degreeType": "Cử nhân",
-    "credits": 143,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/thong-ke-kinh-te-7310107?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:17.809703+07:00",
-    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 50\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Thống kê kinh tế (7310107), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Thống kê kinh tế (7310107) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": "Chuẩn đầu ra chương trình\nCơ hội việc làm và khả năng học tập nâng cao\nQuy trình đào tạo\nĐiều kiện tốt nghiệp\nChương trình đào tạo\nPhương pháp giảng dạy và đánh giá\nChương trình đào tạo tham khảo\nTiêu chuẩn đội ngũ giảng viên\nCơ sở vật chất, công nghệ và học liệu\nHướng dẫn thực hiện\nThông tin chung\nThông tin chung\nNgành/Chương trình\nThống kê kinh tế\nTên tiếng Anh\nEconomic Statistics\nMã tuyển sinh\nThống kê kinh tế (7310107)\nNgôn ngữ đào tạo\nTiếng Việt\nKhoá - Năm\nK68 - 2026\nKhoa Thống kê\nTrường Công nghệ\nChỉ tiêu tuyển sinh\nĐiểm chuẩn xét tuyển\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục\nKiến tạo con đường thông minh để mỗi người trở thành phiên bản tốt nhất của chính mình, mang lại giá trị cho cộng đồng.",
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:24.171886+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 46
-  },
-  {
-    "id": "7b95ba90-07db-4367-aca9-da7e0c2a646c",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Tài chính - Ngân hàng (7340201)",
-    "code": "7340201",
-    "degreeType": "Cử nhân",
-    "credits": 142,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/tai-chinh-ngan-hang-7340201?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:15.629669+07:00",
-    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 230\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Tài chính - Ngân hàng (7340201), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Tài chính - Ngân hàng (7340201) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": "Chuẩn đầu ra chương trình\nCơ hội việc làm và khả năng học tập nâng cao\nQuy trình đào tạo\nĐiều kiện tốt nghiệp\nChương trình đào tạo\nPhương pháp giảng dạy và đánh giá\nTiêu chuẩn đội ngũ giảng viên\nCơ sở vật chất, công nghệ và học liệu\nHướng dẫn thực hiện\nThông tin chung\nThông tin chung\nNgành/Chương trình\nTài chính - Ngân hàng\nTên tiếng Anh\nFinance and Banking\nMã tuyển sinh\nTài chính - Ngân hàng (7340201)\nNgôn ngữ đào tạo\nTiếng Việt\nKhoá - Năm\nK68 - 2026\nViện Ngân hàng - Tài chính\nChỉ tiêu tuyển sinh\nĐiểm chuẩn xét tuyển\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nMỤC TIÊU ĐÀO TẠO\nVÀ ĐỊNH HƯỚNG NƠI LÀM VIỆC SAU TỐT NGHIỆP\nKiến tạo con đường thông minh để mỗi người trở thành phiên bản tốt nhất của chính mình, mang lại giá trị cho cộng đồng.\nMục tiêu đào tạo\n- Mục tiêu chung:",
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:23.162426+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 46
-  },
-  {
-    "id": "46fb85a3-1bb1-4aad-8287-9e460f926b2b",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Quản trị nhân lực (7340404)",
-    "code": "7340404",
-    "degreeType": "Cử nhân",
-    "credits": 133,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/quan-tri-nhan-luc-7340404?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:12.466050+07:00",
-    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 70\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản trị nhân lực (7340404), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản trị nhân lực (7340404) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:22.170004+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 44
-  },
-  {
-    "id": "9dcc166c-44f8-46aa-87f8-b5bddcd5f17f",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Quản trị kinh doanh (7340101)",
-    "code": "7340101",
-    "degreeType": "Cử nhân",
-    "credits": 142,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/quan-tri-kinh-doanh-7340101?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:10.193596+07:00",
-    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 180\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản trị kinh doanh (7340101), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản trị kinh doanh (7340101) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": "Chuẩn đầu ra chương trình\nCơ hội việc làm và khả năng học tập nâng cao\nQuy trình đào tạo\nĐiều kiện tốt nghiệp\nChương trình đào tạo\nPhương pháp giảng dạy và đánh giá\nChương trình đào tạo tham khảo\nTiêu chuẩn đội ngũ giảng viên\nCơ sở vật chất, công nghệ và học liệu\nHướng dẫn thực hiện\nThông tin chung\nThông tin chung\nNgành/Chương trình\nQuản trị kinh doanh\nTên tiếng Anh\nBusiness Management\nMã tuyển sinh\nQuản trị kinh doanh (7340101)\nNgôn ngữ đào tạo\nTiếng Việt\nKhoá - Năm\nK68 - 2026\nKhoa Quản trị kinh doanh\nTrường Kinh doanh\nChỉ tiêu tuyển sinh\nĐiểm chuẩn xét tuyển\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\n2.1. Triết lý giáo dục\nKiến tạo con đường thông minh để mỗi người trở thành phiên bản tốt nhất của chính mình, mang lại giá trị cho cộng đồng.",
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:21.158537+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 46
-  },
-  {
-    "id": "e1ac60bf-9e10-4ead-a94c-f82bce93cbfe",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Quản trị khách sạn (7810201)",
-    "code": "7810201",
-    "degreeType": "Cử nhân",
-    "credits": 145,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/quan-tri-khach-san-7810201?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:06.912946+07:00",
-    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 50\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản trị khách sạn (7810201), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản trị khách sạn (7810201) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": "Chuẩn đầu ra chương trình\nCơ hội việc làm và khả năng học tập nâng cao\nQuy trình đào tạo\nĐiều kiện tốt nghiệp\nChương trình đào tạo\nPhương pháp giảng dạy và đánh giá\nChương trình đào tạo tham khảo\nTiêu chuẩn đội ngũ giảng viên\nCơ sở vật chất, công nghệ và học liệu\nHướng dẫn thực hiện\nThông tin chung\nThông tin chung\nNgành/Chương trình\nQuản trị khách sạn\nTên tiếng Anh\nHotel Management\nMã tuyển sinh\nQuản trị khách sạn (7810201)\nNgôn ngữ đào tạo\nTiếng Việt\nKhoá - Năm\nK68 - 2026\nKhoa Du lịch và Khách sạn\nTrường Kinh doanh\nChỉ tiêu tuyển sinh\nĐiểm chuẩn xét tuyển\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nMỤC TIÊU ĐÀO TẠO\nVÀ ĐỊNH HƯỚNG NƠI LÀM VIỆC SAU TỐT NGHIỆP",
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:20.152624+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 47
-  },
-  {
-    "id": "eb450ff1-fa52-44ca-ae54-7cc3fb2f2509",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Quản trị dịch vụ du lịch và lữ hành (7810103)",
-    "code": "7810103",
-    "degreeType": "Cử nhân",
-    "credits": 145,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/quan-tri-dich-vu-du-lich-va-lu-hanh-7810103?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:04.154364+07:00",
-    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 60\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản trị dịch vụ du lịch và lữ hành (7810103), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản trị dịch vụ du lịch và lữ hành (7810103) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": "Chuẩn đầu ra chương trình\nQuy trình đào tạo\nĐiều kiện tốt nghiệp\nChương trình đào tạo\nPhương pháp giảng dạy và đánh giá\nChương trình đào tạo tham khảo\nTiêu chuẩn đội ngũ giảng viên\nCơ sở vật chất, công nghệ và học liệu\nHướng dẫn thực hiện\nThông tin chung\nThông tin chung\nNgành/Chương trình\nQuản trị dịch vụ du lịch và lữ hành\nTên tiếng Anh\nTravel and Tourism Service Management\nMã tuyển sinh\nQuản trị dịch vụ du lịch và lữ hành (7810103)\nNgôn ngữ đào tạo\nTiếng Việt\nKhoá - Năm\nK68 - 2026\nKhoa Du lịch và Khách sạn\nTrường Kinh doanh\nChỉ tiêu tuyển sinh\nĐiểm chuẩn xét tuyển\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục\nKiến tạo con đường thông minh để mỗi người trở thành phiên bản tốt nhất của chính mình, mang lại giá trị cho cộng đồng.\nMục tiêu đào tạo\n- Mục tiêu chung: Đào tạo cử nhân đại học ngành Quản trị dịch vụ du lịch và lữ hành có phẩm chất đạo đức, nhận thức chính trị vững vàng, sức khỏe tốt; có kiến thức cơ bản về chính trị, xã hội, pháp luật; có kiến thức và năng lực chuyên môn ngành kinh tế, chuyên sâu vào ngành quản trị kinh doanh, cụ thể là quản trị dịch vụ du lịch và lữ hành đáp ứng yêu cầu phát triển của ngành nghề, xã hội và hội nhập quốc tế; có năng lực tự chủ và tự chịu trách nhiệm, thích nghi và đáp ứng với yêu cầu phát triển cá nhân trong tương lai.",
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:19.146414+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 47
-  },
-  {
-    "id": "40d6d683-8292-4786-aa9e-fa4e2f9f64ca",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Quản lý tài nguyên và môi trường (7850101)",
-    "code": "7850101",
-    "degreeType": "Cử nhân",
-    "credits": 145,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/quan-ly-tai-nguyen-va-moi-truong-7850101?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:15:01.423359+07:00",
-    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 50\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản lý tài nguyên và môi trường (7850101), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản lý tài nguyên và môi trường (7850101) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": "Chuẩn đầu ra chương trình\nCơ hội việc làm và khả năng học tập nâng cao\nQuy trình đào tạo\nĐiều kiện tốt nghiệp\nChương trình đào tạo\nPhương pháp giảng dạy và đánh giá\nChương trình đào tạo tham khảo\nTiêu chuẩn đội ngũ giảng viên\nCơ sở vật chất, công nghệ và học liệu\nHướng dẫn thực hiện\nThông tin chung\nThông tin chung\nNgành/Chương trình\nQuản lý tài nguyên và môi trường\nTên tiếng Anh\nNatural Resources and Environmental Management\nMã tuyển sinh\nQuản lý tài nguyên và môi trường (7850101)\nNgôn ngữ đào tạo\nTiếng Việt\nKhoá - Năm\nK68 - 2026\nKhoa Môi trường, Biến đổi khí hậu và Đô thị\nTrường Kinh tế và Quản lý công\nChỉ tiêu tuyển sinh\nĐiểm chuẩn xét tuyển\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nMỤC TIÊU ĐÀO TẠO\nVÀ ĐỊNH HƯỚNG NƠI LÀM VIỆC SAU TỐT NGHIỆP",
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:18.131219+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 47
-  },
-  {
-    "id": "6facb9c4-b63a-4c80-88ae-c5c92096da6a",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Quản lý dự án (7340409)",
-    "code": "7340409",
-    "degreeType": "Cử nhân",
-    "credits": 145,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/quan-ly-du-an-7340409?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:14:58.759042+07:00",
-    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 50\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản lý dự án (7340409), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản lý dự án (7340409) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": null,
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:17.116391+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 47
-  },
-  {
-    "id": "1d5b3990-91b6-41e6-b92d-2602eab323b2",
-    "universityId": "dbcd3b48-4d9d-43cd-91f0-8dd079ad07e9",
-    "universityName": "Đại học Kinh tế Quốc dân",
-    "universityIsPublic": true,
-    "name": "Quản lý đất đai (7850103)",
-    "code": "7850103",
-    "degreeType": "Cử nhân",
-    "credits": 145,
-    "duration": "4 năm",
-    "tuition": "Theo quy định của Nhà nước và Nhà trường",
-    "language": "Tiếng Việt",
-    "formOfStudy": "Chính quy",
-    "sourceUrl": "https://courses.neu.edu.vn/curriculum/quan-ly-dat-dai-7850103?year=K68%20-%202026",
-    "lastCrawled": "2026-06-22T15:14:56.203727+07:00",
-    "description": "Loại chương trình: Chương trình Chuẩn\nChỉ tiêu 2026: 50\nTổ hợp xét tuyển: A00, A01, D01, D07",
-    "goals": "Đào tạo nguồn nhân lực chất lượng cao ngành Quản lý đất đai (7850103), trang bị đầy đủ kiến thức lý thuyết chuyên sâu và kỹ năng thực hành nghề nghiệp đáp ứng nhu cầu xã hội.",
-    "careerOutlook": "Sinh viên tốt nghiệp ngành Quản lý đất đai (7850103) có thể đảm nhận các vị trí chuyên viên, kỹ sư, quản lý tại các doanh nghiệp, tập đoàn trong và ngoài nước, các viện nghiên cứu hoặc cơ sở giáo dục.",
-    "learningOutcomes": "Chuẩn đầu ra chương trình\nQuy trình đào tạo\nĐiều kiện tốt nghiệp\nChương trình đào tạo\nPhương pháp giảng dạy và đánh giá\nChương trình đào tạo tham khảo\nTiêu chuẩn đội ngũ giảng viên\nCơ sở vật chất, công nghệ và học liệu\nHướng dẫn thực hiện\nThông tin chung\nThông tin chung\nNgành/Chương trình\nQuản lý đất đai\nTên tiếng Anh\nLand Administration\nMã tuyển sinh\nQuản lý đất đai (7850103)\nNgôn ngữ đào tạo\nTiếng Việt\nKhoá - Năm\nK68 - 2026\nKhoa Bất động sản và Kinh tế Tài nguyên\nTrường Kinh doanh\nChỉ tiêu tuyển sinh\nĐiểm chuẩn xét tuyển\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục, mục tiêu đào tạo và định hướng nơi làm việc sau tốt nghiệp\nTriết lý giáo dục\nKiến tạo con đường thông minh để mỗi người trở thành phiên bản tốt nhất của chính mình, mang lại giá trị cho cộng đồng.\nMục tiêu đào tạo\n- Mục tiêu chung: Chương trình đào tạo cử nhân Quản lý đất đai nhằm đào tạo cử nhân có phẩm chất chính trị, đạo đức và sức khỏe tốt, có trách nhiệm với xã hội; nắm vững các kiến thức cơ bản về kinh tế - xã hội, chính trị, an ninh quốc phòng và kiến thức nền tảng về kinh tế và quản trị kinh doanh; có các kiến thức chuyên sâu về quản lý đất đai và cập nhật với tình hình kinh tế xã hội trong nước và quốc tế, đồng bộ và đa ngành, có bản lĩnh nghề nghiệp vững vàng và khả năng làm việc độc lập; có kỹ năng thực hiện việc phân tích, tổng hợp, khái quát để giải quyết các vấn đề trong quản lý, sử dụng và phát triển đất đai; có tư duy nghiên cứu độc lập, có năng lực tự bổ sung kiến thức và tiếp tục học tập nâng cao trình độ để đáp ứng yêu cầu của công việc; có kỹ năng tin học, tiếng anh giao tiếp và chuyên môn thành thạo.",
-    "isActive": true,
-    "createdAt": "2026-06-18T15:19:16.100142+07:00",
-    "updatedAt": "2026-08-14T13:46:27.680970+07:00",
-    "courseCount": 47
+    "courseCount": 60,
+    "evaluationScore": 8.41,
+    "evalOutcomes": 4,
+    "evalStructure": 3,
+    "evalKnowledgeBlocks": 5,
+    "evalCompleteness": 5
   }
 ]
