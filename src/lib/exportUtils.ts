@@ -110,14 +110,14 @@ export function exportAnalyticsDatasetToJson(uniStats: AnalyticsUniStat[], distr
             totalUniversities: uniStats.length,
             programsWithoutCourses: 120,
         },
-        // SLM quality metrics — evaluated REFERENCE set covering the earlier
-        // 1,840-program catalog (slm_strict_v2); not recomputed for the newer
-        // programs, so these are not current-catalog figures.
+        // SLM quality metrics — slm_strict_v3b evaluated set covering ALL
+        // 1,956 active programs (rescore 2026-10-06; the evaluated set now
+        // equals the current catalog).
         slmReference: {
-            evaluatedPrograms: 1840,
-            meanQualityScore: 6.76,
-            goldRatio: "8.6%",
-            satisfactoryRatio: "67.3%",
+            evaluatedPrograms: 1956,
+            meanQualityScore: 6.90,
+            goldRatio: "8.0%",
+            satisfactoryRatio: "80.3%",
         },
         universityRankings: uniStats,
         scoreDistributions: distributions,

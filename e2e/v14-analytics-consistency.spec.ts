@@ -6,9 +6,9 @@ import { test, expect } from "@playwright/test"
  * Snapshot ground truth (public/mock/index.json + programs/page-*.json,
  * generatedAt 2026-10-04): 1,956 programs / 105,602 courses / 17 universities.
  *
- * SLM quality metrics (6.76/10, 67.3%, 8.6%, distribution counts) are an
- * evaluated REFERENCE set of 1,840 programs — they may only appear labeled as
- * such, never as current catalog totals.
+ * SLM quality metrics (6.90/10, 80.3%, 8.0%, distribution counts) are the
+ * slm_strict_v3b evaluated set covering ALL 1,956 active programs (rescore
+ * 2026-10-06) — labeled as an evaluated set, never merged with catalog totals.
  */
 
 test.describe("v1.4 — analytics/copy consistency", () => {
