@@ -10,44 +10,44 @@ import { useTranslations } from "next-intl"
 import { exportAnalyticsDatasetToCsv, exportAnalyticsDatasetToJson } from "@/lib/exportUtils"
 
 // Catalog totals derived from the current public snapshot
-// (public/mock/index.json + programs/page-*.json, generatedAt 2026-10-03):
-// 1,901 programs / 105,602 courses / 17 universities; 65 programs have
-// courseCount === 0. Kept as a static constant — fetching all 96 program
+// (public/mock/index.json + programs/page-*.json, generatedAt 2026-10-04):
+// 1,956 programs / 105,602 courses / 17 universities; 120 programs have
+// courseCount === 0. Kept as a static constant — fetching all 98 program
 // chunks just for this page is intentionally avoided.
 const CATALOG_SNAPSHOT = {
-    totalPrograms: 1901,
+    totalPrograms: 1956,
     totalCourses: 105602,
     totalUniversities: 17,
 } as const
 
-// `count` = programs per university in the current snapshot (sums to 1,901).
+// `count` = programs per university in the current snapshot (sums to 1,956).
 // `score` = mean SLM "slm_strict_v2" score — an evaluated REFERENCE set covering
-// the earlier 1,840-program catalog; it was NOT recomputed for the 61 programs
+// the earlier 1,840-program catalog; it was NOT recomputed for the 116 programs
 // added since, so score/status are reference-set metrics, not current totals.
 // Status bands mirror the score distribution below.
 const UNI_STATS = [
     { code: "UIT", name: "ĐH CNTT ĐHQG-HCM", count: 20, score: 8.70, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
-    { code: "NEU", name: "ĐH Kinh tế Quốc dân", count: 86, score: 8.62, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
-    { code: "VNU", name: "ĐHQG Hà Nội", count: 137, score: 8.42, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "NEU", name: "ĐH Kinh tế Quốc dân", count: 87, score: 8.62, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "VNU", name: "ĐHQG Hà Nội", count: 169, score: 8.42, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
     { code: "FPT", name: "ĐH FPT", count: 497, score: 8.22, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
     { code: "UET", name: "ĐH Công nghệ ĐHQGHN", count: 20, score: 7.89, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
-    { code: "FTU", name: "ĐH Ngoại thương", count: 47, score: 7.88, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "FTU", name: "ĐH Ngoại thương", count: 49, score: 7.88, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
     { code: "PTIT", name: "HV CN Bưu chính Viễn thông", count: 39, score: 7.77, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
-    { code: "UEH", name: "ĐH Kinh tế TP.HCM", count: 81, score: 7.61, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "UEH", name: "ĐH Kinh tế TP.HCM", count: 84, score: 7.61, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
     { code: "HCMUS", name: "ĐH KHTN ĐHQG-HCM", count: 38, score: 7.57, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
     { code: "HCMUT", name: "ĐH Bách khoa ĐHQG-HCM", count: 371, score: 6.28, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
-    { code: "HUST", name: "ĐH Bách khoa Hà Nội", count: 64, score: 5.93, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
+    { code: "HUST", name: "ĐH Bách khoa Hà Nội", count: 73, score: 5.93, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
     { code: "TDTU", name: "ĐH Tôn Đức Thắng", count: 149, score: 5.69, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
     { code: "DTU", name: "ĐH Duy Tân", count: 100, score: 5.59, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
     { code: "UEL", name: "ĐH Luật TP.HCM", count: 21, score: 4.01, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
     { code: "HUTECH", name: "ĐH Công nghệ TP.HCM", count: 64, score: 3.73, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
-    { code: "HCMUTE", name: "ĐH SP Kỹ thuật TP.HCM", count: 54, score: 2.95, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
-    { code: "CTU", name: "ĐH Cần Thơ", count: 113, score: 2.95, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
+    { code: "HCMUTE", name: "ĐH SP Kỹ thuật TP.HCM", count: 59, score: 2.95, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
+    { code: "CTU", name: "ĐH Cần Thơ", count: 116, score: 2.95, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
 ]
 
 // Distribution of the SLM evaluated reference set (1,840 programs); counts and
 // percentages are internally consistent within that evaluated set, not computed
-// over the current 1,901-program catalog.
+// over the current 1,956-program catalog.
 const DISTRIBUTIONS = [
     { range: "9.0 - 10.0", labelKey: "distGold", label: "9.0 - 10.0 (Xuất sắc AUN-QA Gold)", count: 158, pct: "8.6%", color: "text-emerald-500 border-emerald-500/20 bg-emerald-500/10" },
     { range: "7.5 - 8.9", labelKey: "distGood", label: "7.5 - 8.9 (Tốt / Standard)", count: 687, pct: "37.3%", color: "text-blue-500 border-blue-500/20 bg-blue-500/10" },

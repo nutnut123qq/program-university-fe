@@ -4,7 +4,7 @@ import { test, expect } from "@playwright/test"
  * v1.4 UC-V14-03 — analytics/copy consistency with the current public snapshot.
  *
  * Snapshot ground truth (public/mock/index.json + programs/page-*.json,
- * generatedAt 2026-10-03): 1,901 programs / 105,602 courses / 17 universities.
+ * generatedAt 2026-10-04): 1,956 programs / 105,602 courses / 17 universities.
  *
  * SLM quality metrics (6.76/10, 67.3%, 8.6%, distribution counts) are an
  * evaluated REFERENCE set of 1,840 programs — they may only appear labeled as
@@ -19,9 +19,9 @@ test.describe("v1.4 — analytics/copy consistency", () => {
 
         // Current snapshot-derived catalog numbers
         await expect(page.getByRole("heading", { name: /17 Trường/i })).toBeVisible({ timeout: 30_000 })
-        await expect(body).toContainText("1,901")
+        await expect(body).toContainText("1,956")
         await expect(body).toContainText("105,602")
-        await expect(body).toContainText("1.901")
+        await expect(body).toContainText("1.956")
 
         // Stale catalog claims must be gone
         await expect(body).not.toContainText(/105[.,]408/)
@@ -39,7 +39,7 @@ test.describe("v1.4 — analytics/copy consistency", () => {
         const body = page.locator("body")
 
         await expect(page.getByRole("heading", { name: /17 Universities/i })).toBeVisible({ timeout: 30_000 })
-        await expect(body).toContainText("1,901")
+        await expect(body).toContainText("1,956")
         await expect(body).toContainText("105,602")
 
         await expect(body).not.toContainText(/105[.,]408/)
@@ -52,7 +52,7 @@ test.describe("v1.4 — analytics/copy consistency", () => {
         await page.goto("/vi/programs", { waitUntil: "domcontentloaded" })
 
         const body = page.locator("body")
-        await expect(body).toContainText("1.901")
+        await expect(body).toContainText("1.956")
         await expect(body).not.toContainText("1.840")
     })
 })

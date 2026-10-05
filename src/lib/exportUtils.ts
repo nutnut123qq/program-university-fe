@@ -103,12 +103,12 @@ export function exportAnalyticsDatasetToCsv(uniStats: AnalyticsUniStat[]) {
 export function exportAnalyticsDatasetToJson(uniStats: AnalyticsUniStat[], distributions: AnalyticsDistribution[]) {
     const data = {
         // Catalog totals derived from the current public snapshot
-        // (public/mock/index.json + programs/page-*.json, generatedAt 2026-10-03).
+        // (public/mock/index.json + programs/page-*.json, generatedAt 2026-10-04).
         catalog: {
             totalPrograms: uniStats.reduce((sum, u) => sum + (u.count || 0), 0),
             totalCourses: 105602,
             totalUniversities: uniStats.length,
-            programsWithoutCourses: 65,
+            programsWithoutCourses: 120,
         },
         // SLM quality metrics — evaluated REFERENCE set covering the earlier
         // 1,840-program catalog (slm_strict_v2); not recomputed for the newer
