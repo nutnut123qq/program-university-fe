@@ -56,6 +56,7 @@ interface Program {
     sourceUrl?: string | null;
     courseCount?: number | null;
     evaluationScore?: number | null;
+    dataSufficiency?: string | null;
 }
 
 interface CurriculumCourse {
@@ -272,7 +273,8 @@ function describeProgram(p: Program): string {
     if (p.formOfStudy) parts.push(`Hình thức: ${p.formOfStudy}`);
     if (p.language) parts.push(`Ngôn ngữ: ${p.language}`);
     parts.push(`Học phí: ${p.tuition ? p.tuition : "không có trong dữ liệu"}`);
-    if (typeof p.evaluationScore === "number") parts.push(`Điểm SLM tham khảo (đánh giá tự động, chưa hiệu chuẩn chuyên gia): ${p.evaluationScore}`);
+    if (p.dataSufficiency === "insufficient") parts.push("Đánh giá SLM: chưa đủ dữ liệu chuẩn đầu ra (PLO) — điểm số không phản ánh chất lượng");
+    else if (typeof p.evaluationScore === "number") parts.push(`Điểm SLM tham khảo (đánh giá tự động, chưa hiệu chuẩn chuyên gia): ${p.evaluationScore}`);
     return `- Chương trình "${p.name}" (${p.universityName ?? "không rõ trường"}). ${parts.join("; ")}.\n  Nguồn: ${sourceOf(p)}`;
 }
 

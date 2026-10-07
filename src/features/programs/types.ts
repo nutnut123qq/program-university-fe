@@ -43,6 +43,7 @@ export interface Program {
     evalStructure?: number
     evalKnowledgeBlocks?: number
     evalCompleteness?: number
+    dataSufficiency?: string | null
     electiveGroups?: ElectiveGroup[]
 }
 

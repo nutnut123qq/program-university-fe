@@ -275,7 +275,11 @@ const ProgramComparisonInner = () => {
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
                                     <span className="text-muted-foreground block text-[11px]">{t("slmRefScore")}</span>
-                                    <span className="font-extrabold text-sm text-emerald-500">{typeof p1.evaluationScore === "number" ? `${p1.evaluationScore.toFixed(1)} / 10.0` : "N/A"}</span>
+                                    {p1.dataSufficiency === "insufficient" ? (
+                                        <span className="font-bold text-sm text-amber-600" title={t("evalInsufficientNote")}>{t("evalInsufficientBadge")}</span>
+                                    ) : (
+                                        <span className="font-extrabold text-sm text-emerald-500">{typeof p1.evaluationScore === "number" ? `${p1.evaluationScore.toFixed(1)} / 10.0` : "N/A"}</span>
+                                    )}
                                     <span className="block text-[10px] font-normal text-muted-foreground leading-tight">{t("slmRefScoreNote")}</span>
                                 </div>
                             </div>
@@ -328,7 +332,11 @@ const ProgramComparisonInner = () => {
                                 </div>
                                 <div className="p-2.5 rounded-lg border bg-muted/20">
                                     <span className="text-muted-foreground block text-[11px]">{t("slmRefScore")}</span>
-                                    <span className="font-extrabold text-sm text-emerald-500">{typeof p2.evaluationScore === "number" ? `${p2.evaluationScore.toFixed(1)} / 10.0` : "N/A"}</span>
+                                    {p2.dataSufficiency === "insufficient" ? (
+                                        <span className="font-bold text-sm text-amber-600" title={t("evalInsufficientNote")}>{t("evalInsufficientBadge")}</span>
+                                    ) : (
+                                        <span className="font-extrabold text-sm text-emerald-500">{typeof p2.evaluationScore === "number" ? `${p2.evaluationScore.toFixed(1)} / 10.0` : "N/A"}</span>
+                                    )}
                                     <span className="block text-[10px] font-normal text-muted-foreground leading-tight">{t("slmRefScoreNote")}</span>
                                 </div>
                             </div>

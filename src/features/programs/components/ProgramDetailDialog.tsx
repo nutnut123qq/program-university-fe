@@ -1125,7 +1125,11 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 <h3 className="font-bold text-base">{t("evalTitle")}</h3>
                                                 <p className="text-xs text-muted-foreground">{t("evalModelDesc")} — {t("slmRefScoreNote")}</p>
                                             </div>
-                                            {program.evaluationScore && (
+                                            {program.dataSufficiency === "insufficient" ? (
+                                                <Badge variant="outline" className="text-sm font-extrabold px-3 py-1 bg-amber-500/10 text-amber-600 border-amber-500/30" title={t("evalInsufficientNote")}>
+                                                    {t("evalInsufficientBadge")}
+                                                </Badge>
+                                            ) : program.evaluationScore && (
                                                 <Badge variant="outline" className="text-sm font-extrabold px-3 py-1 bg-primary/10 text-primary border-primary/20" title={t("slmRefScoreNote")}>
                                                     {t("slmRefScore")}: {program.evaluationScore.toFixed(1)} / 10.0
                                                 </Badge>
