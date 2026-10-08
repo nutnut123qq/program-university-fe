@@ -4,9 +4,9 @@ import { test, expect } from "@playwright/test"
  * v1.4 UC-V14-03 — analytics/copy consistency with the current public snapshot.
  *
  * Snapshot ground truth (public/mock/index.json + programs/page-*.json,
- * generatedAt 2026-10-04): 1,956 programs / 105,602 courses / 17 universities.
+ * generatedAt 2026-10-08): 1,956 programs / 105,602 courses / 17 universities.
  *
- * SLM quality metrics (6.90/10, 80.3%, 8.0%, distribution counts) are the
+ * SLM quality metrics (7.13/10, 81.4%, 8.9%, distribution counts) are the
  * slm_strict_v3b evaluated set covering ALL 1,956 active programs (rescore
  * 2026-10-06) — labeled as an evaluated set, never merged with catalog totals.
  */
