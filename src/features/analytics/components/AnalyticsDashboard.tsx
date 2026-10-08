@@ -21,38 +21,38 @@ const CATALOG_SNAPSHOT = {
 } as const
 
 // `count` = programs per university in the current snapshot (sums to 1,956).
-// `score` = mean SLM "slm_strict_v3b" score, recomputed 2026-10-08 over ALL
+// `score` = mean SLM "slm_strict_v3b" score, recomputed 2026-10-09 over ALL
 // 1,956 active programs (v3b rescore closed the old 116-program gap, so the
 // evaluated set now IS the full catalog — no longer a reference subset).
 // Status bands mirror the score distribution below.
 const UNI_STATS = [
-    { code: "NEU", name: "ĐH Kinh tế Quốc dân", count: 87, score: 8.73, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "UEH", name: "ĐH Kinh tế TP.HCM", count: 84, score: 8.86, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "NEU", name: "ĐH Kinh tế Quốc dân", count: 87, score: 8.74, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
     { code: "UIT", name: "ĐH CNTT ĐHQG-HCM", count: 20, score: 8.70, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
-    { code: "FPT", name: "ĐH FPT", count: 497, score: 8.23, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "FPT", name: "ĐH FPT", count: 497, score: 8.24, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "UET", name: "ĐH Công nghệ ĐHQGHN", count: 20, score: 8.03, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
     { code: "PTIT", name: "HV CN Bưu chính Viễn thông", count: 39, score: 7.77, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
-    { code: "UEH", name: "ĐH Kinh tế TP.HCM", count: 84, score: 7.74, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
-    { code: "UET", name: "ĐH Công nghệ ĐHQGHN", count: 20, score: 7.67, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
     { code: "HCMUS", name: "ĐH KHTN ĐHQG-HCM", count: 38, score: 7.57, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
-    { code: "VNU", name: "ĐHQG Hà Nội", count: 169, score: 7.25, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
+    { code: "VNU", name: "ĐHQG Hà Nội", count: 169, score: 7.27, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
     { code: "HCMUT", name: "ĐH Bách khoa ĐHQG-HCM", count: 371, score: 7.01, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
     { code: "TDTU", name: "ĐH Tôn Đức Thắng", count: 149, score: 6.98, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
-    { code: "UEL", name: "ĐH Luật TP.HCM", count: 21, score: 6.72, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
-    { code: "HUST", name: "ĐH Bách khoa Hà Nội", count: 73, score: 6.39, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
-    { code: "FTU", name: "ĐH Ngoại thương", count: 49, score: 6.00, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
-    { code: "CTU", name: "ĐH Cần Thơ", count: 116, score: 5.52, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
-    { code: "DTU", name: "ĐH Duy Tân", count: 100, score: 5.47, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
+    { code: "UEL", name: "ĐH Luật TP.HCM", count: 21, score: 6.78, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
+    { code: "HUST", name: "ĐH Bách khoa Hà Nội", count: 73, score: 6.70, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
+    { code: "FTU", name: "ĐH Ngoại thương", count: 49, score: 6.61, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
+    { code: "DTU", name: "ĐH Duy Tân", count: 100, score: 5.71, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
+    { code: "CTU", name: "ĐH Cần Thơ", count: 116, score: 5.54, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
     { code: "HUTECH", name: "ĐH Công nghệ TP.HCM", count: 64, score: 5.33, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
-    { code: "HCMUTE", name: "ĐH SP Kỹ thuật TP.HCM", count: 59, score: 3.83, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
+    { code: "HCMUTE", name: "ĐH SP Kỹ thuật TP.HCM", count: 59, score: 5.27, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
 ]
 
 // Distribution of the SLM evaluated set — now all 1,956 active programs
-// (slm_strict_v3b, recomputed 2026-10-08).
+// (slm_strict_v3b, recomputed 2026-10-09).
 const DISTRIBUTIONS = [
-    { range: "9.0 - 10.0", labelKey: "distGold", label: "9.0 - 10.0 (Xuất sắc AUN-QA Gold)", count: 174, pct: "8.9%", color: "text-emerald-500 border-emerald-500/20 bg-emerald-500/10" },
-    { range: "7.5 - 8.9", labelKey: "distGood", label: "7.5 - 8.9 (Tốt / Standard)", count: 845, pct: "43.2%", color: "text-blue-500 border-blue-500/20 bg-blue-500/10" },
-    { range: "6.0 - 7.4", labelKey: "distPass", label: "6.0 - 7.4 (Đạt yêu cầu)", count: 573, pct: "29.3%", color: "text-indigo-500 border-indigo-500/20 bg-indigo-500/10" },
-    { range: "4.0 - 5.9", labelKey: "distNeedsImprovement", label: "4.0 - 5.9 (Cần cải thiện)", count: 220, pct: "11.2%", color: "text-amber-500 border-amber-500/20 bg-amber-500/10" },
-    { range: "1.0 - 3.9", labelKey: "distPloPenalty", label: "1.0 - 3.9 (Phạt gắt thiếu PLO)", count: 144, pct: "7.4%", color: "text-rose-500 border-rose-500/20 bg-rose-500/10" },
+    { range: "9.0 - 10.0", labelKey: "distGold", label: "9.0 - 10.0 (Xuất sắc AUN-QA Gold)", count: 211, pct: "10.8%", color: "text-emerald-500 border-emerald-500/20 bg-emerald-500/10" },
+    { range: "7.5 - 8.9", labelKey: "distGood", label: "7.5 - 8.9 (Tốt / Standard)", count: 884, pct: "45.2%", color: "text-blue-500 border-blue-500/20 bg-blue-500/10" },
+    { range: "6.0 - 7.4", labelKey: "distPass", label: "6.0 - 7.4 (Đạt yêu cầu)", count: 506, pct: "25.9%", color: "text-indigo-500 border-indigo-500/20 bg-indigo-500/10" },
+    { range: "4.0 - 5.9", labelKey: "distNeedsImprovement", label: "4.0 - 5.9 (Cần cải thiện)", count: 251, pct: "12.8%", color: "text-amber-500 border-amber-500/20 bg-amber-500/10" },
+    { range: "1.0 - 3.9", labelKey: "distPloPenalty", label: "1.0 - 3.9 (Phạt gắt thiếu PLO)", count: 104, pct: "5.3%", color: "text-rose-500 border-rose-500/20 bg-rose-500/10" },
 ]
 
 export const AnalyticsDashboard = () => {
@@ -71,7 +71,7 @@ export const AnalyticsDashboard = () => {
                         </Badge>
                         <Badge variant="outline" className="bg-emerald-500/10 text-emerald-500 border-emerald-500/20 gap-1">
                             <ShieldCheck className="w-3.5 h-3.5" />
-                            <span>7.13/10.0 {t("slmRefScore")}</span>
+                            <span>7.27/10.0 {t("slmRefScore")}</span>
                         </Badge>
                     </div>
                     <h1 className="text-3xl font-extrabold tracking-tight">{ta("title")}</h1>
@@ -133,8 +133,8 @@ export const AnalyticsDashboard = () => {
                         <TrendingUp className="w-4 h-4 text-indigo-500" />
                     </CardHeader>
                     <CardContent>
-                        <div className="text-2xl font-bold text-indigo-500">7.13 / 10.0</div>
-                        <p className="text-[11px] text-muted-foreground mt-1">7.13/10.0 — {t("slmRefScoreNote")}</p>
+                        <div className="text-2xl font-bold text-indigo-500">7.27 / 10.0</div>
+                        <p className="text-[11px] text-muted-foreground mt-1">7.27/10.0 — {t("slmRefScoreNote")}</p>
                     </CardContent>
                 </Card>
 
@@ -144,8 +144,8 @@ export const AnalyticsDashboard = () => {
                         <Award className="w-4 h-4 text-emerald-500" />
                     </CardHeader>
                     <CardContent>
-                        <div className="text-2xl font-bold text-emerald-500">{ta("passRateValue", { count: "1,592" })}</div>
-                        <p className="text-[11px] text-emerald-500 font-medium mt-1">{ta("passRateNote", { count: 174, pct: "8.9%" })}</p>
+                        <div className="text-2xl font-bold text-emerald-500">{ta("passRateValue", { count: "1,601" })}</div>
+                        <p className="text-[11px] text-emerald-500 font-medium mt-1">{ta("passRateNote", { count: 211, pct: "10.8%" })}</p>
                     </CardContent>
                 </Card>
             </div>
