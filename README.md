@@ -1,8 +1,8 @@
 # Tedo Frontend - Next.js
 
-Frontend for **Tedo**, a demo site for browsing and comparing university training programs (CTDT) from 12 Vietnamese universities. Next.js 16 (App Router) + React 19 + TypeScript + Tailwind 4 + next-intl (vi/en).
+Frontend for **Tedo**, a demo site for browsing and comparing university training programs (CTDT) from 17 Vietnamese universities. Next.js 16 (App Router) + React 19 + TypeScript + Tailwind 4 + next-intl (vi/en).
 
-> **Demo mode:** the app runs on a static data snapshot (`public/mock/`, exported from the PostgreSQL database). It does not require the backend to be running. SLM evaluation scores shown in the UI are automated reference scores — not expert-calibrated (Pearson vs expert labels = 0.131).
+> **Demo mode:** the app runs on a static data snapshot (`public/mock/`, exported from the PostgreSQL database). It does not require the backend to be running. SLM evaluation scores shown in the UI are automated reference scores — not expert-calibrated (Pearson vs expert labels = 0.146).
 
 ## Prerequisites
 
