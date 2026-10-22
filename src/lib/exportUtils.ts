@@ -103,7 +103,7 @@ export function exportAnalyticsDatasetToCsv(uniStats: AnalyticsUniStat[]) {
 export function exportAnalyticsDatasetToJson(uniStats: AnalyticsUniStat[], distributions: AnalyticsDistribution[]) {
     const data = {
         // Catalog totals derived from the current public snapshot
-        // (public/mock/index.json + programs/page-*.json, generatedAt 2026-10-08).
+        // (public/mock/index.json + programs/page-*.json, generatedAt 2026-10-22).
         catalog: {
             totalPrograms: uniStats.reduce((sum, u) => sum + (u.count || 0), 0),
             totalCourses: 105602,
@@ -111,13 +111,13 @@ export function exportAnalyticsDatasetToJson(uniStats: AnalyticsUniStat[], distr
             programsWithoutCourses: 120,
         },
         // SLM quality metrics — slm_strict_v3b evaluated set covering ALL
-        // 1,956 active programs (rescore 2026-10-09; the evaluated set now
+        // 1,956 active programs (re-export 2026-10-22; the evaluated set now
         // equals the current catalog).
         slmReference: {
             evaluatedPrograms: 1956,
-            meanQualityScore: 7.27,
-            goldRatio: "10.8%",
-            satisfactoryRatio: "81.9%",
+            meanQualityScore: 7.49,
+            goldRatio: "15.2%",
+            satisfactoryRatio: "82.7%",
         },
         universityRankings: uniStats,
         scoreDistributions: distributions,
