@@ -38,7 +38,7 @@ export interface Program {
     createdAt: string
     updatedAt: string
     courseCount: number
-    evaluationScore?: number
+    evaluationScore?: number | null
     evalOutcomes?: number
     evalStructure?: number
     evalKnowledgeBlocks?: number

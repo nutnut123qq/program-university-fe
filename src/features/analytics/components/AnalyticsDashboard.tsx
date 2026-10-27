@@ -10,49 +10,54 @@ import { useTranslations } from "next-intl"
 import { exportAnalyticsDatasetToCsv, exportAnalyticsDatasetToJson } from "@/lib/exportUtils"
 
 // Catalog totals derived from the current public snapshot
-// (public/mock/index.json + programs/page-*.json, generatedAt 2026-10-26):
-// 1,956 programs / 105,690 courses / 17 universities; 120 programs have
-// courseCount === 0. Kept as a static constant — fetching all 98 program
-// chunks just for this page is intentionally avoided.
+// (public/mock/index.json + programs/page-*.json; recomputed v2.44 by a
+// coordinator script outside this repo: count programs, sum courseCount, count
+// courseCount === 0): 1,956 programs / 102,108 courses / 17 universities; 317
+// programs have courseCount === 0 (120 without a course list + 197 whose
+// generated template list is quarantined by the exporter).
+// Kept as a static constant — fetching all 98 program chunks just for this
+// page is intentionally avoided.
 const CATALOG_SNAPSHOT = {
     totalPrograms: 1956,
-    totalCourses: 105690,
+    totalCourses: 102108,
     totalUniversities: 17,
 } as const
 
 // `count` = programs per university in the current snapshot (sums to 1,956).
-// `score` = mean SLM "slm_strict_v3b" score, recomputed 2026-10-22 over ALL
-// 1,956 active programs (v3b rescore closed the old 116-program gap, so the
-// evaluated set now IS the full catalog — no longer a reference subset).
-// Status bands mirror the score distribution below.
+// `score` = mean SLM "slm_strict_v3b" score over that university's programs
+// that carry a score AND have a course list (courseCount > 0): a program with
+// no course data gets 0 for structure and knowledge blocks, so its score says
+// nothing about quality (v2.44). `score: null` = no such program — shown as "not enough
+// data", unranked, after the ranked rows. Status bands mirror the score
+// distribution below. Recomputed v2.44 from the snapshot.
 const UNI_STATS = [
-    { code: "UEH", name: "ĐH Kinh tế TP.HCM", count: 84, score: 9.06, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
-    { code: "NEU", name: "ĐH Kinh tế Quốc dân", count: 87, score: 8.75, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
-    { code: "UIT", name: "ĐH CNTT ĐHQG-HCM", count: 20, score: 8.70, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "UEH", name: "ĐH Kinh tế TP.HCM", count: 84, score: 9.29, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "VNU", name: "ĐHQG Hà Nội", count: 169, score: 8.83, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "NEU", name: "ĐH Kinh tế Quốc dân", count: 87, score: 8.81, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "FTU", name: "ĐH Ngoại thương", count: 49, score: 8.72, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "UIT", name: "ĐH CNTT ĐHQG-HCM", count: 20, score: 8.71, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "HUST", name: "ĐH Bách khoa Hà Nội", count: 73, score: 8.28, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
     { code: "FPT", name: "ĐH FPT", count: 497, score: 8.24, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "TDTU", name: "ĐH Tôn Đức Thắng", count: 149, score: 8.13, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
     { code: "UET", name: "ĐH Công nghệ ĐHQGHN", count: 20, score: 8.03, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
     { code: "PTIT", name: "HV CN Bưu chính Viễn thông", count: 39, score: 7.77, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
-    { code: "VNU", name: "ĐHQG Hà Nội", count: 169, score: 7.74, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
-    { code: "HCMUT", name: "ĐH Bách khoa ĐHQG-HCM", count: 371, score: 7.63, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
-    { code: "HCMUS", name: "ĐH KHTN ĐHQG-HCM", count: 38, score: 7.57, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
-    { code: "HUST", name: "ĐH Bách khoa Hà Nội", count: 73, score: 7.14, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
-    { code: "FTU", name: "ĐH Ngoại thương", count: 49, score: 7.09, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
-    { code: "TDTU", name: "ĐH Tôn Đức Thắng", count: 149, score: 6.98, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
-    { code: "UEL", name: "ĐH Luật TP.HCM", count: 21, score: 6.78, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
-    { code: "DTU", name: "ĐH Duy Tân", count: 100, score: 6.13, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
-    { code: "CTU", name: "ĐH Cần Thơ", count: 116, score: 5.54, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
+    { code: "HCMUT", name: "ĐH Bách khoa ĐHQG-HCM", count: 371, score: 7.70, status: "Tốt", statusKey: "statusGood", color: "bg-emerald-500 text-white" },
+    { code: "UEL", name: "ĐH Luật TP.HCM", count: 21, score: 7.24, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
+    { code: "HCMUS", name: "ĐH KHTN ĐHQG-HCM", count: 38, score: 7.09, status: "Đạt", statusKey: "statusPass", color: "bg-blue-500 text-white" },
+    { code: "CTU", name: "ĐH Cần Thơ", count: 116, score: 5.62, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
+    { code: "HCMUTE", name: "ĐH SP Kỹ thuật TP.HCM", count: 59, score: 5.60, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
     { code: "HUTECH", name: "ĐH Công nghệ TP.HCM", count: 64, score: 5.53, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
-    { code: "HCMUTE", name: "ĐH SP Kỹ thuật TP.HCM", count: 59, score: 5.44, status: "Cần cải thiện", statusKey: "statusNeedsImprovement", color: "bg-amber-500 text-white" },
+    { code: "DTU", name: "ĐH Duy Tân", count: 100, score: null, status: "Chưa đủ dữ liệu", statusKey: "statusNoData", color: "" },
 ]
 
-// Distribution of the SLM evaluated set — now all 1,956 active programs
-// (slm_strict_v3b, recomputed 2026-10-22).
+// Distribution of the SLM evaluated set — the 1,759 programs that carry a
+// score in the snapshot (slm_strict_v3b; recomputed v2.44).
 const DISTRIBUTIONS = [
-    { range: "9.0 - 10.0", labelKey: "distGold", label: "9.0 - 10.0 (Xuất sắc AUN-QA Gold)", count: 297, pct: "15.2%", color: "text-emerald-500 border-emerald-500/20 bg-emerald-500/10" },
-    { range: "7.5 - 8.9", labelKey: "distGood", label: "7.5 - 8.9 (Tốt / Standard)", count: 940, pct: "48.1%", color: "text-blue-500 border-blue-500/20 bg-blue-500/10" },
-    { range: "6.0 - 7.4", labelKey: "distPass", label: "6.0 - 7.4 (Đạt yêu cầu)", count: 381, pct: "19.5%", color: "text-indigo-500 border-indigo-500/20 bg-indigo-500/10" },
-    { range: "4.0 - 5.9", labelKey: "distNeedsImprovement", label: "4.0 - 5.9 (Cần cải thiện)", count: 240, pct: "12.3%", color: "text-amber-500 border-amber-500/20 bg-amber-500/10" },
-    { range: "1.0 - 3.9", labelKey: "distPloPenalty", label: "1.0 - 3.9 (Phạt gắt thiếu PLO)", count: 98, pct: "5.0%", color: "text-rose-500 border-rose-500/20 bg-rose-500/10" },
+    { range: "9.0 - 10.0", labelKey: "distGold", label: "9.0 - 10.0 (Xuất sắc AUN-QA Gold)", count: 297, pct: "16.9%", color: "text-emerald-500 border-emerald-500/20 bg-emerald-500/10" },
+    { range: "7.5 - 8.9", labelKey: "distGood", label: "7.5 - 8.9 (Tốt / Standard)", count: 824, pct: "46.8%", color: "text-blue-500 border-blue-500/20 bg-blue-500/10" },
+    { range: "6.0 - 7.4", labelKey: "distPass", label: "6.0 - 7.4 (Đạt yêu cầu)", count: 300, pct: "17.1%", color: "text-indigo-500 border-indigo-500/20 bg-indigo-500/10" },
+    { range: "4.0 - 5.9", labelKey: "distNeedsImprovement", label: "4.0 - 5.9 (Cần cải thiện)", count: 240, pct: "13.6%", color: "text-amber-500 border-amber-500/20 bg-amber-500/10" },
+    { range: "1.0 - 3.9", labelKey: "distPloPenalty", label: "1.0 - 3.9 (Phạt gắt thiếu PLO)", count: 98, pct: "5.6%", color: "text-rose-500 border-rose-500/20 bg-rose-500/10" },
 ]
 
 export const AnalyticsDashboard = () => {
@@ -71,7 +76,7 @@ export const AnalyticsDashboard = () => {
                         </Badge>
                         <Badge variant="outline" className="bg-emerald-500/10 text-emerald-500 border-emerald-500/20 gap-1">
                             <ShieldCheck className="w-3.5 h-3.5" />
-                            <span>7.49/10.0 {t("slmRefScore")}</span>
+                            <span>7.52/10.0 {t("slmRefScore")}</span>
                         </Badge>
                     </div>
                     <h1 className="text-3xl font-extrabold tracking-tight">{ta("title")}</h1>
@@ -133,8 +138,8 @@ export const AnalyticsDashboard = () => {
                         <TrendingUp className="w-4 h-4 text-indigo-500" />
                     </CardHeader>
                     <CardContent>
-                        <div className="text-2xl font-bold text-indigo-500">7.49 / 10.0</div>
-                        <p className="text-[11px] text-muted-foreground mt-1">7.49/10.0 — {t("slmRefScoreNote")}</p>
+                        <div className="text-2xl font-bold text-indigo-500">7.52 / 10.0</div>
+                        <p className="text-[11px] text-muted-foreground mt-1">7.52/10.0 — {t("slmRefScoreNote")}</p>
                     </CardContent>
                 </Card>
 
@@ -144,8 +149,8 @@ export const AnalyticsDashboard = () => {
                         <Award className="w-4 h-4 text-emerald-500" />
                     </CardHeader>
                     <CardContent>
-                        <div className="text-2xl font-bold text-emerald-500">{ta("passRateValue", { count: "1,618" })}</div>
-                        <p className="text-[11px] text-emerald-500 font-medium mt-1">{ta("passRateNote", { count: 297, pct: "15.2%" })}</p>
+                        <div className="text-2xl font-bold text-emerald-500">{ta("passRateValue", { count: "1,421" })}</div>
+                        <p className="text-[11px] text-emerald-500 font-medium mt-1">{ta("passRateNote", { count: 297, pct: "16.9%" })}</p>
                     </CardContent>
                 </Card>
             </div>
@@ -167,17 +172,21 @@ export const AnalyticsDashboard = () => {
                             <div key={u.code} className="p-3 rounded-xl border bg-muted/20 space-y-2 hover:bg-muted/40 transition-colors">
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-2">
-                                        <span className="font-bold text-xs w-6 text-muted-foreground">#{i + 1}</span>
+                                        <span className="font-bold text-xs w-6 text-muted-foreground">{u.score === null ? "" : `#${i + 1}`}</span>
                                         <Badge variant="outline" className="font-mono text-xs font-semibold">{u.code}</Badge>
                                         <span className="font-medium text-xs hidden sm:inline">{u.name}</span>
                                         <span className="text-[11px] text-muted-foreground">({ta("programsCount", { count: u.count })})</span>
                                     </div>
-                                    <div className="flex items-center gap-2">
-                                        <span className="font-extrabold text-sm">{u.score.toFixed(2)} / 10.0</span>
-                                        <Badge className={`text-[10px] ${u.color}`}>{ta(u.statusKey)}</Badge>
-                                    </div>
+                                    {u.score === null ? (
+                                        <span className="text-xs font-semibold text-muted-foreground">{ta(u.statusKey)}</span>
+                                    ) : (
+                                        <div className="flex items-center gap-2">
+                                            <span className="font-extrabold text-sm">{u.score.toFixed(2)} / 10.0</span>
+                                            <Badge className={`text-[10px] ${u.color}`}>{ta(u.statusKey)}</Badge>
+                                        </div>
+                                    )}
                                 </div>
-                                <Progress value={(u.score / 10) * 100} className="h-2" />
+                                {u.score !== null && <Progress value={(u.score / 10) * 100} className="h-2" />}
                             </div>
                         ))}
                     </CardContent>

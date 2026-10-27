@@ -10,7 +10,7 @@ export interface AnalyticsUniStat {
     code: string
     name: string
     count: number
-    score: number
+    score: number | null // null = not enough data (no scored program with a course list)
     status: string
     statusKey?: string
     color?: string
@@ -103,21 +103,21 @@ export function exportAnalyticsDatasetToCsv(uniStats: AnalyticsUniStat[]) {
 export function exportAnalyticsDatasetToJson(uniStats: AnalyticsUniStat[], distributions: AnalyticsDistribution[]) {
     const data = {
         // Catalog totals derived from the current public snapshot
-        // (public/mock/index.json + programs/page-*.json, generatedAt 2026-10-26).
+        // (public/mock/index.json + programs/page-*.json; recomputed v2.44).
         catalog: {
             totalPrograms: uniStats.reduce((sum, u) => sum + (u.count || 0), 0),
-            totalCourses: 105690,
+            totalCourses: 102108,
             totalUniversities: uniStats.length,
-            programsWithoutCourses: 120,
+            programsWithoutCourses: 317,
         },
-        // SLM quality metrics — slm_strict_v3b evaluated set covering ALL
-        // 1,956 active programs (re-export 2026-10-22; the evaluated set now
-        // equals the current catalog).
+        // SLM quality metrics — slm_strict_v3b evaluated set = the 1,759 programs
+        // that carry a score in the snapshot (v2.44: the 197 programs with a
+        // quarantined template course list have their score hidden).
         slmReference: {
-            evaluatedPrograms: 1956,
-            meanQualityScore: 7.49,
-            goldRatio: "15.2%",
-            satisfactoryRatio: "82.7%",
+            evaluatedPrograms: 1759,
+            meanQualityScore: 7.52,
+            goldRatio: "16.9%",
+            satisfactoryRatio: "80.8%",
         },
         universityRankings: uniStats,
         scoreDistributions: distributions,
