@@ -42,13 +42,16 @@ export function WishlistDrawer({ open, onOpenChange }: WishlistDrawerProps) {
     const selectedIds = selected.filter((id) => ids.includes(id))
 
     const toggleSelect = (id: string) => {
-        setSelected((prev) =>
-            prev.includes(id)
-                ? prev.filter((x) => x !== id)
-                : prev.length < MAX_COMPARE
-                  ? [...prev, id]
-                  : prev
-        )
+        setSelected((prev) => {
+            // Cap on the same live set the checkboxes show — stale ids of
+            // removed programs must not hold a compare slot.
+            const live = prev.filter((x) => ids.includes(x))
+            return live.includes(id)
+                ? live.filter((x) => x !== id)
+                : live.length < MAX_COMPARE
+                  ? [...live, id]
+                  : live
+        })
     }
 
     const handleCompare = () => {

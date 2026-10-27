@@ -94,6 +94,9 @@ const ProgramComparisonInner = () => {
         // bar without an RSC navigation. router.replace proved unreliable here
         // — on this SSG page its soft navigation can be dropped entirely,
         // leaving the URL stale while the pickers already changed.
+        // Pass Next's own history.state: its __NA flag makes Next's patched
+        // replaceState skip the router sync, so useSearchParams (queryIds) keeps
+        // the link's ids; any other state would re-sync it on every slot change.
         window.history.replaceState(window.history.state, "", next ? `${pathname}?${next}` : pathname)
     }, [paramsApplied, progIds, optionsList, pathname])
 
@@ -238,7 +241,7 @@ const ProgramComparisonInner = () => {
             {/* Overlap Summary Banner — meaningful only when at least two slots
                 hold a real program; hidden while resolving or when slots are invalid */}
             {filled.length >= 2 && (
-            <Card className="bg-gradient-to-r from-primary/10 via-indigo-500/10 to-emerald-500/10 border-primary/20">
+            <Card className="bg-gradient-to-r from-primary/10 via-indigo-500/10 to-emerald-500/10 border-primary/20" data-testid="compare-overlap">
                 <CardContent className="p-6 flex flex-col md:flex-row items-center justify-between gap-4">
                     <div className="flex items-center gap-4">
                         <div className="p-3 bg-primary/20 text-primary rounded-2xl">
