@@ -6,7 +6,8 @@ import useSWR from "swr"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Scale, GraduationCap, ArrowRightLeft, CheckCircle2, AlertCircle, Share2, Check, Plus, X } from "lucide-react"
+import { Input } from "@/components/ui/input"
+import { Scale, GraduationCap, ArrowRightLeft, CheckCircle2, AlertCircle, Share2, Check, Plus, X, Search } from "lucide-react"
 import { fetchPrograms, fetchProgramById, fetchCurricula } from "@/features/programs/api"
 import { Program } from "@/features/programs/types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
@@ -27,6 +28,75 @@ const curriculaKey = (p?: Program) => (p && (p.courseCount ?? 0) > 0 ? ["curricu
 const fetchCurriculaByKey = ([, id]: string[]) => fetchCurricula(id)
 const normName = (name?: string | null) => (name || "").toLowerCase().trim()
 
+type SlotPickerProps = {
+    slot: number
+    label: string
+    value: string | null
+    options: Program[]
+    catalogTotal: number
+    onPick: (p: Program) => void
+}
+
+// One slot's native select. While the search box has text it lists every
+// program matching it (so programs outside the first-200 browse options can be
+// picked); otherwise the browse options. The slot's current program is always
+// kept as an option, so the select keeps showing it whatever the search text.
+const SlotPicker = ({ slot, label, value, options, catalogTotal, onPick }: SlotPickerProps) => {
+    const t = useTranslations("programs")
+    const [query, setQuery] = useState("")
+    const q = query.trim()
+    const { data: found } = useSWR(
+        q && catalogTotal > 0 ? ["compare-search", q, catalogTotal] : null,
+        // Page size = whole catalog: every match is listed, none cut off.
+        () => fetchPrograms({ search: q, page: 1, pageSize: catalogTotal }),
+        { keepPreviousData: true }
+    )
+    const current = options.find((p) => String(p.id) === value)
+    const shown =
+        q && found
+            ? [...(current && !found.items.some((p) => String(p.id) === String(current.id)) ? [current] : []), ...found.items]
+            : options
+
+    return (
+        <>
+            <div className="relative mb-2">
+                <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+                <Input
+                    type="search"
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                    placeholder={t("compareSearchPlaceholder")}
+                    aria-label={t("compareSearchLabel", { slot: label })}
+                    className="h-10 pl-9"
+                    data-testid={`compare-search-${slot + 1}`}
+                />
+            </div>
+            <select
+                value={value ?? ""}
+                onChange={(e) => {
+                    const p = shown.find((x) => String(x.id) === e.target.value)
+                    if (p) onPick(p)
+                }}
+                className="w-full font-medium flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-1 focus:ring-ring"
+            >
+                <option value="" disabled>
+                    {t("compareSelectPlaceholder")}
+                </option>
+                {shown.map(p => (
+                    <option key={p.id} value={String(p.id)}>
+                        [{p.universityName}] {p.name} ({p.degreeType})
+                    </option>
+                ))}
+            </select>
+            {q && found && found.items.length === 0 && (
+                <p className="mt-2 text-xs text-muted-foreground" role="status" data-testid={`compare-search-empty-${slot + 1}`}>
+                    {t("compareSearchEmpty")}
+                </p>
+            )}
+        </>
+    )
+}
+
 const ProgramComparisonInner = () => {
     const t = useTranslations("programs")
     const pathname = usePathname()
@@ -45,15 +115,19 @@ const ProgramComparisonInner = () => {
     )
     const querySettled = !hasQuery || resolved !== undefined || queryError !== undefined
 
-    // A query-resolved program is merged into the pickers so it shows up as a
-    // real, selectable option even though it is not part of the 200-row list.
+    // Programs picked through a slot's search (outside the 200-row list).
+    const [searchPicks, setSearchPicks] = useState<Program[]>([])
+
+    // A query-resolved or search-picked program is merged into the pickers so
+    // it shows up as a real, selectable option even though it is not part of
+    // the 200-row list — the URL sync and the detail cards look ids up here.
     const optionsList = useMemo(() => {
         const base = [...programsList]
-        for (const p of resolved ?? []) {
+        for (const p of [...(resolved ?? []), ...searchPicks]) {
             if (p && !base.some((x) => String(x.id) === String(p.id))) base.push(p)
         }
         return base
-    }, [programsList, resolved])
+    }, [programsList, resolved, searchPicks])
 
     // One entry per slot (2 or 3). "" = nothing picked yet; null = the link
     // named an id that does not resolve (honest error state for that slot).
@@ -111,6 +185,10 @@ const ProgramComparisonInner = () => {
     }
 
     const setSlot = (i: number, id: string) => setProgIds((prev) => prev.map((x, j) => (j === i ? id : x)))
+    const pickProgram = (i: number, p: Program) => {
+        if (!optionsList.some((x) => String(x.id) === String(p.id))) setSearchPicks((prev) => [...prev, p])
+        setSlot(i, String(p.id))
+    }
 
     // No fallback: a slot that resolves to nothing renders an honest error
     // state instead of silently substituting programsList[0]/[1].
@@ -213,20 +291,14 @@ const ProgramComparisonInner = () => {
                             )}
                         </CardHeader>
                         <CardContent>
-                            <select
-                                value={id ?? ""}
-                                onChange={(e) => setSlot(i, e.target.value)}
-                                className="w-full font-medium flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-1 focus:ring-ring"
-                            >
-                                <option value="" disabled>
-                                    {t("compareSelectPlaceholder")}
-                                </option>
-                                {optionsList.map(p => (
-                                    <option key={p.id} value={String(p.id)}>
-                                        [{p.universityName}] {p.name} ({p.degreeType})
-                                    </option>
-                                ))}
-                            </select>
+                            <SlotPicker
+                                slot={i}
+                                label={slotLabels[i]}
+                                value={id}
+                                options={optionsList}
+                                catalogTotal={programRes?.totalCount ?? 0}
+                                onPick={(p) => pickProgram(i, p)}
+                            />
                             {id === null && (
                                 <p className="mt-2 flex items-center gap-1.5 text-xs text-destructive" data-testid={`compare-invalid-${i + 1}`}>
                                     <AlertCircle className="h-3.5 w-3.5 shrink-0" />

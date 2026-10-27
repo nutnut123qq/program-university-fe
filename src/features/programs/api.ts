@@ -67,7 +67,9 @@ async function loadMockProgramsChunk(chunkNumber: number): Promise<Program[]> {
 
 async function loadMockProgramById(id: string): Promise<Program | null> {
     if (mockProgramByIdCache.has(id)) return mockProgramByIdCache.get(id)!
-    const res = await fetch(`/mock/programs-by-id/${id}.json`)
+    // Ids can come straight from a URL (?a=/b=/c=): encode so "/", "?", "#"
+    // stay inside this one path segment instead of reaching another file.
+    const res = await fetch(`/mock/programs-by-id/${encodeURIComponent(id)}.json`)
     if (!res.ok) {
         if (res.status === 404) return null
         throw new Error(`Failed to load mock program ${id}: ${res.status}`)
@@ -343,7 +345,7 @@ export async function fetchProgramById(id: string): Promise<Program | null> {
         return loadMockProgramById(id)
     }
 
-    const res = await fetch(`${API_BASE_URL}/programs/${id}`)
+    const res = await fetch(`${API_BASE_URL}/programs/${encodeURIComponent(id)}`)
     if (!res.ok) {
         if (res.status === 404) return null
         throw new Error(`Failed to fetch program ${id}: ${res.status}`)
