@@ -4,7 +4,7 @@ import { test, expect } from "@playwright/test"
  * v1.4 UC-V14-03 — analytics/copy consistency with the current public snapshot.
  *
  * Snapshot ground truth (public/mock/index.json + programs/page-*.json,
- * generatedAt 2026-10-22): 1,956 programs / 105,602 courses / 17 universities.
+ * generatedAt 2026-10-26): 1,956 programs / 105,690 courses / 17 universities.
  *
  * SLM quality metrics (7.49/10, 82.7%, 15.2%, distribution counts) are the
  * slm_strict_v3b evaluated set covering ALL 1,956 active programs (re-export
@@ -20,11 +20,12 @@ test.describe("v1.4 — analytics/copy consistency", () => {
         // Current snapshot-derived catalog numbers
         await expect(page.getByRole("heading", { name: /17 Trường/i })).toBeVisible({ timeout: 30_000 })
         await expect(body).toContainText("1,956")
-        await expect(body).toContainText("105,602")
+        await expect(body).toContainText("105,690")
         await expect(body).toContainText("1.956")
 
         // Stale catalog claims must be gone
         await expect(body).not.toContainText(/105[.,]408/)
+        await expect(body).not.toContainText(/105[.,]602/)
         await expect(body).not.toContainText(/12 Trường/i)
 
         // 1,840 may only appear as the labeled evaluated reference set,
@@ -40,9 +41,10 @@ test.describe("v1.4 — analytics/copy consistency", () => {
 
         await expect(page.getByRole("heading", { name: /17 Universities/i })).toBeVisible({ timeout: 30_000 })
         await expect(body).toContainText("1,956")
-        await expect(body).toContainText("105,602")
+        await expect(body).toContainText("105,690")
 
         await expect(body).not.toContainText(/105[.,]408/)
+        await expect(body).not.toContainText(/105[.,]602/)
         await expect(body).not.toContainText(/12 Universities/i)
         await expect(body).not.toContainText(/1,840 (academic|training) programs/i)
         await expect(body).toContainText(/evaluated (reference )?set/i)

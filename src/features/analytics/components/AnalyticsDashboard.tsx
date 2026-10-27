@@ -10,13 +10,13 @@ import { useTranslations } from "next-intl"
 import { exportAnalyticsDatasetToCsv, exportAnalyticsDatasetToJson } from "@/lib/exportUtils"
 
 // Catalog totals derived from the current public snapshot
-// (public/mock/index.json + programs/page-*.json, generatedAt 2026-10-22):
-// 1,956 programs / 105,602 courses / 17 universities; 120 programs have
+// (public/mock/index.json + programs/page-*.json, generatedAt 2026-10-26):
+// 1,956 programs / 105,690 courses / 17 universities; 120 programs have
 // courseCount === 0. Kept as a static constant — fetching all 98 program
 // chunks just for this page is intentionally avoided.
 const CATALOG_SNAPSHOT = {
     totalPrograms: 1956,
-    totalCourses: 105602,
+    totalCourses: 105690,
     totalUniversities: 17,
 } as const
 

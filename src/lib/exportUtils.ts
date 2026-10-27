@@ -103,10 +103,10 @@ export function exportAnalyticsDatasetToCsv(uniStats: AnalyticsUniStat[]) {
 export function exportAnalyticsDatasetToJson(uniStats: AnalyticsUniStat[], distributions: AnalyticsDistribution[]) {
     const data = {
         // Catalog totals derived from the current public snapshot
-        // (public/mock/index.json + programs/page-*.json, generatedAt 2026-10-22).
+        // (public/mock/index.json + programs/page-*.json, generatedAt 2026-10-26).
         catalog: {
             totalPrograms: uniStats.reduce((sum, u) => sum + (u.count || 0), 0),
-            totalCourses: 105602,
+            totalCourses: 105690,
             totalUniversities: uniStats.length,
             programsWithoutCourses: 120,
         },
