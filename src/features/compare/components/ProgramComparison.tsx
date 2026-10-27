@@ -6,12 +6,26 @@ import useSWR from "swr"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Scale, GraduationCap, ArrowRightLeft, CheckCircle2, AlertCircle, Share2, Check } from "lucide-react"
+import { Scale, GraduationCap, ArrowRightLeft, CheckCircle2, AlertCircle, Share2, Check, Plus, X } from "lucide-react"
 import { fetchPrograms, fetchProgramById, fetchCurricula } from "@/features/programs/api"
 import { Program } from "@/features/programs/types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
+import { cn } from "@/lib/utils"
 import { CompareAdmissions } from "./CompareAdmissions"
 import { useTranslations } from "next-intl"
+
+// Query keys of the compare slots, in slot order (?a=&b= keeps working; c is optional).
+const SLOT_KEYS = ["a", "b", "c"] as const
+// Per-slot accent classes — full literals so Tailwind keeps them.
+const SLOT_STYLES = [
+    { card: "border-primary/30", text: "text-primary", badge: "bg-primary/10 text-primary border-primary/20" },
+    { card: "border-indigo-500/30", text: "text-indigo-500", badge: "bg-indigo-500/10 text-indigo-500 border-indigo-500/20" },
+    { card: "border-emerald-500/30", text: "text-emerald-500", badge: "bg-emerald-500/10 text-emerald-500 border-emerald-500/20" },
+]
+
+const curriculaKey = (p?: Program) => (p && (p.courseCount ?? 0) > 0 ? ["curricula-comp", p.id] : null)
+const fetchCurriculaByKey = ([, id]: string[]) => fetchCurricula(id)
+const normName = (name?: string | null) => (name || "").toLowerCase().trim()
 
 const ProgramComparisonInner = () => {
     const t = useTranslations("programs")
@@ -20,65 +34,68 @@ const ProgramComparisonInner = () => {
     const { data: programRes } = useSWR(["programs-list-all"], () => fetchPrograms({ page: 1, pageSize: 200 }))
     const programsList = useMemo(() => programRes?.items || [], [programRes])
 
-    const aParam = searchParams.get("a")
-    const bParam = searchParams.get("b")
+    const queryIds = SLOT_KEYS.map((k) => searchParams.get(k) ?? "")
+    const hasQuery = queryIds.some(Boolean)
 
     // Query ids may point at programs outside the first-200 browse options —
-    // resolve them by direct fetch. resolved.x === null means "does not exist".
+    // resolve them by direct fetch. resolved[i] === null means "does not exist".
     const { data: resolved, error: queryError } = useSWR(
-        aParam || bParam ? ["compare-query-ids", aParam ?? "", bParam ?? ""] : null,
-        async ([, a, b]) => ({
-            a: a ? await fetchProgramById(a) : undefined,
-            b: b ? await fetchProgramById(b) : undefined,
-        })
+        hasQuery ? ["compare-query-ids", ...queryIds] : null,
+        ([, ...ids]: string[]) => Promise.all(ids.map((id) => (id ? fetchProgramById(id) : undefined)))
     )
-    const querySettled = !(aParam || bParam) || resolved !== undefined || queryError !== undefined
+    const querySettled = !hasQuery || resolved !== undefined || queryError !== undefined
 
     // A query-resolved program is merged into the pickers so it shows up as a
     // real, selectable option even though it is not part of the 200-row list.
     const optionsList = useMemo(() => {
         const base = [...programsList]
-        for (const p of [resolved?.a, resolved?.b]) {
+        for (const p of resolved ?? []) {
             if (p && !base.some((x) => String(x.id) === String(p.id))) base.push(p)
         }
         return base
     }, [programsList, resolved])
 
-    const [progId1, setProgId1] = useState<string>("")
-    const [progId2, setProgId2] = useState<string>("")
+    // One entry per slot (2 or 3). "" = nothing picked yet; null = the link
+    // named an id that does not resolve (honest error state for that slot).
+    const [progIds, setProgIds] = useState<(string | null)[]>(["", ""])
     const [paramsApplied, setParamsApplied] = useState(false)
     const [copied, setCopied] = useState(false)
 
-    // Apply ?a=<id>&b=<id> once the browse list is loaded AND the query ids
-    // have been resolved. A valid id selects that program; an invalid one
-    // leaves the slot empty (honest error state below) — never a silent
-    // substitution with another program. Render-time adjustment (React's
-    // documented alternative to a mount/update effect): the guard converges
-    // after one pass because paramsApplied flips true.
+    // Apply ?a=<id>&b=<id>[&c=<id>] once the browse list is loaded AND the
+    // query ids have been resolved. A valid id selects that program; an
+    // invalid one leaves the slot empty (honest error state below) — never a
+    // silent substitution with another program. The 3rd slot exists only when
+    // the link asks for it. Render-time adjustment (React's documented
+    // alternative to a mount/update effect): the guard converges after one
+    // pass because paramsApplied flips true.
     if (!paramsApplied && programsList.length > 0 && querySettled) {
-        setProgId1(aParam ? (resolved?.a?.id ?? "") : programsList[0].id)
-        setProgId2(bParam ? (resolved?.b?.id ?? "") : (programsList[1] ?? programsList[0]).id)
+        const [aParam, bParam, cParam] = queryIds
+        setProgIds([
+            aParam ? (resolved?.[0]?.id ?? null) : programsList[0].id,
+            bParam ? (resolved?.[1]?.id ?? null) : (programsList[1] ?? programsList[0]).id,
+            ...(cParam ? [resolved?.[2]?.id ?? null] : []),
+        ])
         setParamsApplied(true)
     }
 
-    // Keep the address bar in sync with the current pair (no navigation).
+    // Keep the address bar in sync with the current slots (no navigation).
     // A picker that is empty or holds a non-program value drops its param,
-    // so invalid query ids are removed from the normalized URL.
+    // so invalid query ids (and a removed 3rd slot) leave the normalized URL.
     useEffect(() => {
         if (!paramsApplied || optionsList.length === 0) return
         const params = new URLSearchParams()
-        if (progId1 && optionsList.some((p) => String(p.id) === progId1)) params.set("a", progId1)
-        if (progId2 && optionsList.some((p) => String(p.id) === progId2)) params.set("b", progId2)
+        progIds.forEach((id, i) => {
+            if (id && optionsList.some((p) => String(p.id) === id)) params.set(SLOT_KEYS[i], id)
+        })
         const cur = new URLSearchParams(window.location.search)
-        if ((cur.get("a") ?? "") === (params.get("a") ?? "") && (cur.get("b") ?? "") === (params.get("b") ?? "")) return
+        if (SLOT_KEYS.every((k) => (cur.get(k) ?? "") === (params.get(k) ?? ""))) return
         const next = params.toString()
         // In-place URL update only: history.replaceState rewrites the address
-        // bar without an RSC navigation and keeps Next's pathname/searchParams
-        // hooks in sync. router.replace proved unreliable here — on this SSG
-        // page its soft navigation can be dropped entirely, leaving the URL
-        // stale while the pickers already changed.
+        // bar without an RSC navigation. router.replace proved unreliable here
+        // — on this SSG page its soft navigation can be dropped entirely,
+        // leaving the URL stale while the pickers already changed.
         window.history.replaceState(window.history.state, "", next ? `${pathname}?${next}` : pathname)
-    }, [paramsApplied, progId1, progId2, optionsList, pathname])
+    }, [paramsApplied, progIds, optionsList, pathname])
 
     const handleShare = async () => {
         try {
@@ -90,25 +107,24 @@ const ProgramComparisonInner = () => {
         }
     }
 
+    const setSlot = (i: number, id: string) => setProgIds((prev) => prev.map((x, j) => (j === i ? id : x)))
+
     // No fallback: a slot that resolves to nothing renders an honest error
     // state instead of silently substituting programsList[0]/[1].
-    const p1 = optionsList.find(p => String(p.id) === String(progId1))
-    const p2 = optionsList.find(p => String(p.id) === String(progId2))
-    const invalid1 = paramsApplied && !!aParam && !p1
-    const invalid2 = paramsApplied && !!bParam && !p2
+    const progs = progIds.map((id) => optionsList.find((p) => String(p.id) === String(id)))
 
-    const { data: c1 } = useSWR(p1 && (p1.courseCount ?? 0) > 0 ? ["curricula-comp", p1.id] : null, () => (p1 ? fetchCurricula(p1.id) : []))
-    const { data: c2 } = useSWR(p2 && (p2.courseCount ?? 0) > 0 ? ["curricula-comp", p2.id] : null, () => (p2 ? fetchCurricula(p2.id) : []))
+    const { data: c1 } = useSWR(curriculaKey(progs[0]), fetchCurriculaByKey)
+    const { data: c2 } = useSWR(curriculaKey(progs[1]), fetchCurriculaByKey)
+    const { data: c3 } = useSWR(curriculaKey(progs[2]), fetchCurriculaByKey)
+    const curricula = [c1, c2, c3]
 
-    const courses1 = c1 || []
-    const courses2 = c2 || []
+    // Courses shared by every selected program, listed in the 2nd selected
+    // program's order. With two programs this is the original pairwise overlap.
+    const filled = progs.flatMap((p, i) => (p ? [curricula[i] || []] : []))
+    const nameSets = filled.map((cs) => new Set(cs.map((c) => normName(c.courseName))))
+    const commonCourses = filled.length >= 2 ? filled[1].filter((c) => nameSets.every((s) => s.has(normName(c.courseName)))) : []
 
-    // Calculate common courses overlap
-    const names1 = new Set(courses1.map(c => (c.courseName || "").toLowerCase().trim()))
-
-    const commonCourses = courses2.filter(c => names1.has((c.courseName || "").toLowerCase().trim()))
-
-    const overlapPct = courses1.length > 0 ? Math.round((commonCourses.length / Math.max(courses1.length, courses2.length)) * 100) : 0
+    const overlapPct = filled.length >= 2 && filled[0].length > 0 ? Math.round((commonCourses.length / Math.max(...filled.map((cs) => cs.length))) * 100) : 0
 
     const getRadarScores = (prog?: Program): AunCriterionScore[] => {
         if (!prog) return []
@@ -125,8 +141,8 @@ const ProgramComparisonInner = () => {
             : []
     }
 
-    const radarScores1 = getRadarScores(p1)
-    const radarScores2 = getRadarScores(p2)
+    const slotLabels = [t("compareProgram1"), t("compareProgram2"), t("compareProgram3")]
+    const three = progIds.length === 3
 
     return (
         <div className="container mx-auto py-8 px-4 space-y-8 animate-in fade-in duration-500">
@@ -144,8 +160,20 @@ const ProgramComparisonInner = () => {
                 </p>
             </div>
 
-            {/* Share */}
-            <div className="flex justify-end">
+            {/* Add 3rd program + Share */}
+            <div className="flex flex-wrap justify-end gap-2">
+                {paramsApplied && !three && (
+                    <Button
+                        type="button"
+                        variant="outline"
+                        size="sm"
+                        onClick={() => setProgIds((prev) => [...prev, ""])}
+                        data-testid="compare-add-program"
+                    >
+                        <Plus className="w-4 h-4" />
+                        <span>{t("compareAddProgram")}</span>
+                    </Button>
+                )}
                 <Button
                     type="button"
                     variant="outline"
@@ -159,73 +187,57 @@ const ProgramComparisonInner = () => {
             </div>
 
             {/* Program Selectors */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Card className="border-primary/30 bg-card/60">
-                    <CardHeader className="pb-3">
-                        <CardTitle className="text-sm font-semibold text-primary uppercase flex items-center gap-2">
-                            <GraduationCap className="w-4 h-4" />
-                            <span>{t("compareProgram1")}</span>
-                        </CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                        <select
-                            value={progId1}
-                            onChange={(e) => setProgId1(e.target.value)}
-                            className="w-full font-medium flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-1 focus:ring-ring"
-                        >
-                            <option value="" disabled>
-                                {t("compareSelectPlaceholder")}
-                            </option>
-                            {optionsList.map(p => (
-                                <option key={p.id} value={String(p.id)}>
-                                    [{p.universityName}] {p.name} ({p.degreeType})
+            <div className={cn("grid grid-cols-1 gap-6", three ? "md:grid-cols-3" : "md:grid-cols-2")}>
+                {progIds.map((id, i) => (
+                    <Card key={i} className={cn(SLOT_STYLES[i].card, "bg-card/60")}>
+                        <CardHeader className={cn("pb-3", i === 2 && "flex-row items-center justify-between space-y-0")}>
+                            <CardTitle className={cn("text-sm font-semibold uppercase flex items-center gap-2", SLOT_STYLES[i].text)}>
+                                <GraduationCap className="w-4 h-4" />
+                                <span>{slotLabels[i]}</span>
+                            </CardTitle>
+                            {i === 2 && (
+                                <Button
+                                    type="button"
+                                    variant="ghost"
+                                    size="icon"
+                                    className="h-7 w-7 shrink-0 text-muted-foreground hover:text-destructive"
+                                    aria-label={t("compareRemoveProgram")}
+                                    onClick={() => setProgIds((prev) => prev.slice(0, 2))}
+                                    data-testid="compare-remove-3"
+                                >
+                                    <X className="h-4 w-4" />
+                                </Button>
+                            )}
+                        </CardHeader>
+                        <CardContent>
+                            <select
+                                value={id ?? ""}
+                                onChange={(e) => setSlot(i, e.target.value)}
+                                className="w-full font-medium flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-1 focus:ring-ring"
+                            >
+                                <option value="" disabled>
+                                    {t("compareSelectPlaceholder")}
                                 </option>
-                            ))}
-                        </select>
-                        {invalid1 && (
-                            <p className="mt-2 flex items-center gap-1.5 text-xs text-destructive" data-testid="compare-invalid-1">
-                                <AlertCircle className="h-3.5 w-3.5 shrink-0" />
-                                <span>{t("compareInvalidProgram")}</span>
-                            </p>
-                        )}
-                    </CardContent>
-                </Card>
-
-                <Card className="border-indigo-500/30 bg-card/60">
-                    <CardHeader className="pb-3">
-                        <CardTitle className="text-sm font-semibold text-indigo-500 uppercase flex items-center gap-2">
-                            <GraduationCap className="w-4 h-4" />
-                            <span>{t("compareProgram2")}</span>
-                        </CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                        <select
-                            value={progId2}
-                            onChange={(e) => setProgId2(e.target.value)}
-                            className="w-full font-medium flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm shadow-sm focus:outline-none focus:ring-1 focus:ring-ring"
-                        >
-                            <option value="" disabled>
-                                {t("compareSelectPlaceholder")}
-                            </option>
-                            {optionsList.map(p => (
-                                <option key={p.id} value={String(p.id)}>
-                                    [{p.universityName}] {p.name} ({p.degreeType})
-                                </option>
-                            ))}
-                        </select>
-                        {invalid2 && (
-                            <p className="mt-2 flex items-center gap-1.5 text-xs text-destructive" data-testid="compare-invalid-2">
-                                <AlertCircle className="h-3.5 w-3.5 shrink-0" />
-                                <span>{t("compareInvalidProgram")}</span>
-                            </p>
-                        )}
-                    </CardContent>
-                </Card>
+                                {optionsList.map(p => (
+                                    <option key={p.id} value={String(p.id)}>
+                                        [{p.universityName}] {p.name} ({p.degreeType})
+                                    </option>
+                                ))}
+                            </select>
+                            {id === null && (
+                                <p className="mt-2 flex items-center gap-1.5 text-xs text-destructive" data-testid={`compare-invalid-${i + 1}`}>
+                                    <AlertCircle className="h-3.5 w-3.5 shrink-0" />
+                                    <span>{t("compareInvalidProgram")}</span>
+                                </p>
+                            )}
+                        </CardContent>
+                    </Card>
+                ))}
             </div>
 
-            {/* Overlap Summary Banner — meaningful only when both sides hold
-                a real program; hidden while resolving or when a slot is invalid */}
-            {p1 && p2 && (
+            {/* Overlap Summary Banner — meaningful only when at least two slots
+                hold a real program; hidden while resolving or when slots are invalid */}
+            {filled.length >= 2 && (
             <Card className="bg-gradient-to-r from-primary/10 via-indigo-500/10 to-emerald-500/10 border-primary/20">
                 <CardContent className="p-6 flex flex-col md:flex-row items-center justify-between gap-4">
                     <div className="flex items-center gap-4">
@@ -250,120 +262,75 @@ const ProgramComparisonInner = () => {
             {/* Detailed Side-by-Side Cards — only once query ids resolved,
                 so a loading state never flashes the wrong fallback programs */}
             {paramsApplied && (
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                    {/* Program 1 Details */}
-                    {p1 ? (
-                    <Card className="border-border/60">
-                        <CardHeader>
-                            <Badge className="w-fit bg-primary/10 text-primary border-primary/20 mb-2">{p1.universityName}</Badge>
-                            <CardTitle className="text-xl font-bold">{p1.name}</CardTitle>
-                            <CardDescription className="text-xs">{t("compareProgramCode", { code: p1.code || "N/A" })}</CardDescription>
-                        </CardHeader>
-                        <CardContent className="space-y-4">
-                            <div className="grid grid-cols-2 gap-3 text-xs">
-                                <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">{t("compareDegreeLevel")}</span>
-                                    <span className="font-semibold text-sm">{p1.degreeType || "N/A"}</span>
-                                </div>
-                                <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">{t("compareTotalCredits")}</span>
-                                    <span className="font-semibold text-sm text-primary">{p1.credits != null ? t("creditsShort", { count: p1.credits }) : "N/A"}</span>
-                                </div>
-                                <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">{t("duration")}</span>
-                                    <span className="font-semibold">{p1.duration || "N/A"}</span>
-                                </div>
-                                <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">{t("slmRefScore")}</span>
-                                    {p1.dataSufficiency === "insufficient" ? (
-                                        <span className="font-bold text-sm text-amber-600" title={t("evalInsufficientNote")}>{t("evalInsufficientBadge")}</span>
-                                    ) : (
-                                        <span className="font-extrabold text-sm text-emerald-500">{typeof p1.evaluationScore === "number" ? `${p1.evaluationScore.toFixed(1)} / 10.0` : "N/A"}</span>
-                                    )}
-                                    <span className="block text-[10px] font-normal text-muted-foreground leading-tight">{t("slmRefScoreNote")}</span>
-                                </div>
-                            </div>
-
-                            <div className="pt-2 border-t flex flex-col items-center">
-                                <span className="text-xs font-semibold mb-2">{t("compareRadarTitle")}</span>
-                                {radarScores1.length > 0 ? (
-                                    <AunRadarChart scores={radarScores1} size={220} />
-                                ) : (
-                                    <div className="flex flex-col items-center justify-center gap-2 py-8 text-center">
-                                        <AlertCircle className="h-7 w-7 text-muted-foreground/50" />
-                                        <p className="text-xs text-muted-foreground">{t("compareNoEval")}</p>
+                <div className={cn("grid grid-cols-1 gap-6", three ? "lg:grid-cols-3" : "lg:grid-cols-2")}>
+                    {progs.map((p, i) => {
+                        if (!p) {
+                            return progIds[i] === null ? (
+                                <Card key={i} className="border-destructive/40" data-testid={`compare-slot-empty-${i + 1}`}>
+                                    <CardContent className="flex flex-col items-center justify-center gap-2 py-10 text-center">
+                                        <AlertCircle className="h-7 w-7 text-destructive/60" />
+                                        <p className="text-sm text-muted-foreground">{t("compareInvalidProgram")}</p>
+                                    </CardContent>
+                                </Card>
+                            ) : (
+                                <Card key={i} className="border-dashed" data-testid={`compare-slot-placeholder-${i + 1}`}>
+                                    <CardContent className="flex flex-col items-center justify-center gap-2 py-10 text-center">
+                                        <GraduationCap className="h-7 w-7 text-muted-foreground/50" />
+                                        <p className="text-sm text-muted-foreground">{t("compareSelectPlaceholder")}</p>
+                                    </CardContent>
+                                </Card>
+                            )
+                        }
+                        const radarScores = getRadarScores(p)
+                        return (
+                            <Card key={i} className="border-border/60" data-testid={`compare-card-${i + 1}`}>
+                                <CardHeader>
+                                    <Badge className={cn("w-fit mb-2", SLOT_STYLES[i].badge)}>{p.universityName}</Badge>
+                                    <CardTitle className="text-xl font-bold">{p.name}</CardTitle>
+                                    <CardDescription className="text-xs">{t("compareProgramCode", { code: p.code || "N/A" })}</CardDescription>
+                                </CardHeader>
+                                <CardContent className="space-y-4">
+                                    <div className="grid grid-cols-2 gap-3 text-xs">
+                                        <div className="p-2.5 rounded-lg border bg-muted/20">
+                                            <span className="text-muted-foreground block text-[11px]">{t("compareDegreeLevel")}</span>
+                                            <span className="font-semibold text-sm">{p.degreeType || "N/A"}</span>
+                                        </div>
+                                        <div className="p-2.5 rounded-lg border bg-muted/20">
+                                            <span className="text-muted-foreground block text-[11px]">{t("compareTotalCredits")}</span>
+                                            <span className={cn("font-semibold text-sm", SLOT_STYLES[i].text)}>{p.credits != null ? t("creditsShort", { count: p.credits }) : "N/A"}</span>
+                                        </div>
+                                        <div className="p-2.5 rounded-lg border bg-muted/20">
+                                            <span className="text-muted-foreground block text-[11px]">{t("duration")}</span>
+                                            <span className="font-semibold">{p.duration || "N/A"}</span>
+                                        </div>
+                                        <div className="p-2.5 rounded-lg border bg-muted/20">
+                                            <span className="text-muted-foreground block text-[11px]">{t("slmRefScore")}</span>
+                                            {p.dataSufficiency === "insufficient" ? (
+                                                <span className="font-bold text-sm text-amber-600" title={t("evalInsufficientNote")}>{t("evalInsufficientBadge")}</span>
+                                            ) : (
+                                                <span className="font-extrabold text-sm text-emerald-500">{typeof p.evaluationScore === "number" ? `${p.evaluationScore.toFixed(1)} / 10.0` : "N/A"}</span>
+                                            )}
+                                            <span className="block text-[10px] font-normal text-muted-foreground leading-tight">{t("slmRefScoreNote")}</span>
+                                        </div>
                                     </div>
-                                )}
-                            </div>
 
-                            <CompareAdmissions program={p1} />
-                        </CardContent>
-                    </Card>
-                    ) : (
-                    <Card className="border-destructive/40" data-testid="compare-slot-empty-1">
-                        <CardContent className="flex flex-col items-center justify-center gap-2 py-10 text-center">
-                            <AlertCircle className="h-7 w-7 text-destructive/60" />
-                            <p className="text-sm text-muted-foreground">{t("compareInvalidProgram")}</p>
-                        </CardContent>
-                    </Card>
-                    )}
-
-                    {/* Program 2 Details */}
-                    {p2 ? (
-                    <Card className="border-border/60">
-                        <CardHeader>
-                            <Badge className="w-fit bg-indigo-500/10 text-indigo-500 border-indigo-500/20 mb-2">{p2.universityName}</Badge>
-                            <CardTitle className="text-xl font-bold">{p2.name}</CardTitle>
-                            <CardDescription className="text-xs">{t("compareProgramCode", { code: p2.code || "N/A" })}</CardDescription>
-                        </CardHeader>
-                        <CardContent className="space-y-4">
-                            <div className="grid grid-cols-2 gap-3 text-xs">
-                                <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">{t("compareDegreeLevel")}</span>
-                                    <span className="font-semibold text-sm">{p2.degreeType || "N/A"}</span>
-                                </div>
-                                <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">{t("compareTotalCredits")}</span>
-                                    <span className="font-semibold text-sm text-indigo-500">{p2.credits != null ? t("creditsShort", { count: p2.credits }) : "N/A"}</span>
-                                </div>
-                                <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">{t("duration")}</span>
-                                    <span className="font-semibold">{p2.duration || "N/A"}</span>
-                                </div>
-                                <div className="p-2.5 rounded-lg border bg-muted/20">
-                                    <span className="text-muted-foreground block text-[11px]">{t("slmRefScore")}</span>
-                                    {p2.dataSufficiency === "insufficient" ? (
-                                        <span className="font-bold text-sm text-amber-600" title={t("evalInsufficientNote")}>{t("evalInsufficientBadge")}</span>
-                                    ) : (
-                                        <span className="font-extrabold text-sm text-emerald-500">{typeof p2.evaluationScore === "number" ? `${p2.evaluationScore.toFixed(1)} / 10.0` : "N/A"}</span>
-                                    )}
-                                    <span className="block text-[10px] font-normal text-muted-foreground leading-tight">{t("slmRefScoreNote")}</span>
-                                </div>
-                            </div>
-
-                            <div className="pt-2 border-t flex flex-col items-center">
-                                <span className="text-xs font-semibold mb-2">{t("compareRadarTitle")}</span>
-                                {radarScores2.length > 0 ? (
-                                    <AunRadarChart scores={radarScores2} size={220} />
-                                ) : (
-                                    <div className="flex flex-col items-center justify-center gap-2 py-8 text-center">
-                                        <AlertCircle className="h-7 w-7 text-muted-foreground/50" />
-                                        <p className="text-xs text-muted-foreground">{t("compareNoEval")}</p>
+                                    <div className="pt-2 border-t flex flex-col items-center">
+                                        <span className="text-xs font-semibold mb-2">{t("compareRadarTitle")}</span>
+                                        {radarScores.length > 0 ? (
+                                            <AunRadarChart scores={radarScores} size={220} />
+                                        ) : (
+                                            <div className="flex flex-col items-center justify-center gap-2 py-8 text-center">
+                                                <AlertCircle className="h-7 w-7 text-muted-foreground/50" />
+                                                <p className="text-xs text-muted-foreground">{t("compareNoEval")}</p>
+                                            </div>
+                                        )}
                                     </div>
-                                )}
-                            </div>
 
-                            <CompareAdmissions program={p2} />
-                        </CardContent>
-                    </Card>
-                    ) : (
-                    <Card className="border-destructive/40" data-testid="compare-slot-empty-2">
-                        <CardContent className="flex flex-col items-center justify-center gap-2 py-10 text-center">
-                            <AlertCircle className="h-7 w-7 text-destructive/60" />
-                            <p className="text-sm text-muted-foreground">{t("compareInvalidProgram")}</p>
-                        </CardContent>
-                    </Card>
-                    )}
+                                    <CompareAdmissions program={p} />
+                                </CardContent>
+                            </Card>
+                        )
+                    })}
                 </div>
             )}
 

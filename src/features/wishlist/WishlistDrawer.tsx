@@ -17,7 +17,10 @@ export interface WishlistDrawerProps {
     onOpenChange: (open: boolean) => void
 }
 
-const MAX_COMPARE = 2
+const MIN_COMPARE = 2
+const MAX_COMPARE = 3
+// Compare page query keys, in slot order.
+const COMPARE_KEYS = ["a", "b", "c"]
 
 export function WishlistDrawer({ open, onOpenChange }: WishlistDrawerProps) {
     const t = useTranslations("wishlist")
@@ -49,9 +52,10 @@ export function WishlistDrawer({ open, onOpenChange }: WishlistDrawerProps) {
     }
 
     const handleCompare = () => {
-        if (selectedIds.length !== MAX_COMPARE) return
+        if (selectedIds.length < MIN_COMPARE) return
         onOpenChange(false)
-        router.push(`/compare?a=${encodeURIComponent(selectedIds[0])}&b=${encodeURIComponent(selectedIds[1])}`)
+        const query = selectedIds.map((id, i) => `${COMPARE_KEYS[i]}=${encodeURIComponent(id)}`).join("&")
+        router.push(`/compare?${query}`)
     }
 
     const hasItems = mounted && ids.length > 0
@@ -133,13 +137,13 @@ export function WishlistDrawer({ open, onOpenChange }: WishlistDrawerProps) {
                     </ul>
                 )}
 
-                {/* Footer: compare needs exactly 2 selections. */}
+                {/* Footer: compare needs 2–3 selections. */}
                 {hasItems && !showSkeleton && (
                     <div className="shrink-0 space-y-2 border-t border-border pt-3">
                         <p className="text-xs text-muted-foreground">
                             {t("compareHint")} ({selectedIds.length}/{MAX_COMPARE})
                         </p>
-                        <Button className="w-full" disabled={selectedIds.length !== MAX_COMPARE} onClick={handleCompare}>
+                        <Button className="w-full" disabled={selectedIds.length < MIN_COMPARE} onClick={handleCompare}>
                             <GitCompare className="h-4 w-4" aria-hidden />
                             {t("compare")}
                         </Button>
