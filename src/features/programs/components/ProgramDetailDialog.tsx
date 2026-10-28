@@ -749,7 +749,9 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                         <div className="flex items-center gap-2">
                                             <GraduationCap className="h-4 w-4 text-primary" />
                                             <h3 className="font-semibold">
-                                                {t("admissionsTitle", { year: Math.max(...(admissions?.years ?? [2025])) })}
+                                                {admissions?.years?.length
+                                                    ? t("admissionsTitle", { year: Math.max(...admissions.years) })
+                                                    : t("admissionsTitleNoYear")}
                                             </h3>
                                         </div>
 
@@ -1009,6 +1011,10 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                         {isLoading ? (
                                             <div className="flex items-center justify-center py-12">
                                                 <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
+                                            </div>
+                                        ) : error ? (
+                                            <div className="rounded-lg border border-destructive/20 bg-destructive/5 p-4 text-sm text-destructive">
+                                                {t("curriculumError")}
                                             </div>
                                         ) : (
                                             <GpaPlanner courses={courses || []} />

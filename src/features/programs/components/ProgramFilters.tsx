@@ -1,6 +1,5 @@
 "use client"
 
-import * as React from "react"
 import { Search, X, RotateCcw } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
@@ -27,17 +26,12 @@ export function ProgramFilters({
 }: ProgramFiltersProps) {
     const t = useTranslations("programs")
 
-    const visibleUniversities = React.useMemo(() => {
-        if (filters.universityType === "all") return universities
-        const isPublic = filters.universityType === "public"
-        return universities.filter((u) => u.isPublic === isPublic)
-    }, [universities, filters.universityType])
-
+    // No public/private filter (v2.45): the snapshot marks every university
+    // isPublic=true (FPT, DTU, HUTECH are private) — restore it once the data is right.
     const hasActiveFilters =
         filters.search ||
         filters.degreeType !== "all" ||
         filters.universityId ||
-        filters.universityType !== "all" ||
         (filters.cohort && filters.cohort !== "all")
 
     const handleClear = () => {
@@ -45,24 +39,9 @@ export function ProgramFilters({
             search: "",
             degreeType: "all",
             universityId: "",
-            universityType: "all",
             sortBy: "newest",
             cohort: "all",
         })
-    }
-
-    const handleTypeChange = (value: ProgramFiltersType["universityType"]) => {
-        const newFilters: ProgramFiltersType = { ...filters, universityType: value }
-        if (filters.universityId) {
-            const isPublic = value === "public"
-            const stillVisible =
-                value === "all" ||
-                universities.some((u) => u.id === filters.universityId && u.isPublic === isPublic)
-            if (!stillVisible) {
-                newFilters.universityId = ""
-            }
-        }
-        onChange(newFilters)
     }
 
     return (
@@ -89,7 +68,7 @@ export function ProgramFilters({
                     )}
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
                     <Select
                         value={filters.universityId}
                         onValueChange={(value) =>
@@ -99,24 +78,11 @@ export function ProgramFilters({
                         aria-label={t("allUniversities")}
                     >
                         <SelectItem value="">{t("allUniversities")}</SelectItem>
-                        {visibleUniversities.map((uni) => (
+                        {universities.map((uni) => (
                             <SelectItem key={uni.id} value={uni.id}>
                                 {uni.name}
                             </SelectItem>
                         ))}
-                    </Select>
-
-                    <Select
-                        value={filters.universityType}
-                        onValueChange={(value) =>
-                            handleTypeChange(value as ProgramFiltersType["universityType"])
-                        }
-                        placeholder={t("allUniversityTypes")}
-                        aria-label={t("allUniversityTypes")}
-                    >
-                        <SelectItem value="all">{t("allUniversityTypes")}</SelectItem>
-                        <SelectItem value="public">{t("publicUniversity")}</SelectItem>
-                        <SelectItem value="private">{t("privateUniversity")}</SelectItem>
                     </Select>
 
                     <Select

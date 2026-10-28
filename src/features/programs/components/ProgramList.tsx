@@ -66,7 +66,6 @@ export function ProgramList() {
         search: "",
         degreeType: "all",
         universityId: "",
-        universityType: "all",
         sortBy: "newest",
     })
     const [selectedProgram, setSelectedProgram] = useState<Program | null>(null)
@@ -100,7 +99,6 @@ export function ProgramList() {
                 search: currentFilters.search || undefined,
                 degreeType: currentFilters.degreeType === "all" ? undefined : currentFilters.degreeType,
                 universityId: currentFilters.universityId || undefined,
-                universityType: currentFilters.universityType,
                 cohort: currentFilters.cohort === "all" ? undefined : currentFilters.cohort,
                 sortBy: currentFilters.sortBy === "newest" ? "createdAt" : currentFilters.sortBy,
                 sortDesc: currentFilters.sortBy === "newest" || currentFilters.sortBy === "credits",
@@ -310,7 +308,6 @@ export function ProgramList() {
                 search: f.search || undefined,
                 degreeType: f.degreeType === "all" ? undefined : f.degreeType,
                 universityId: f.universityId || undefined,
-                universityType: f.universityType,
                 cohort: f.cohort === "all" ? undefined : f.cohort,
                 sortBy: f.sortBy === "newest" ? "createdAt" : f.sortBy,
                 sortDesc: f.sortBy === "newest" || f.sortBy === "credits",

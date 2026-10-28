@@ -337,7 +337,9 @@ export function CompareAdmissions({ program }: { program: Program }) {
             <div className="flex items-center gap-2">
                 <GraduationCap className="h-4 w-4 text-primary" />
                 <h3 className="text-sm font-semibold">
-                    {t("admissionsTitle", { year: Math.max(...(admissions?.years ?? [2025])) })}
+                    {admissions?.years?.length
+                        ? t("admissionsTitle", { year: Math.max(...admissions.years) })
+                        : t("admissionsTitleNoYear")}
                 </h3>
             </div>
 

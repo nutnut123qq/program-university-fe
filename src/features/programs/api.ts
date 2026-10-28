@@ -171,11 +171,6 @@ function applyFiltersAndSort(
         result = result.filter((p) => p.universityId === params.universityId)
     }
 
-    if (params?.universityType && params.universityType !== "all") {
-        const isPublic = params.universityType === "public"
-        result = result.filter((p) => p.universityIsPublic === isPublic)
-    }
-
     if (params?.cohort && params.cohort !== "all") {
         const c = params.cohort.toLowerCase()
         result = result.filter(
@@ -231,7 +226,6 @@ export async function fetchPrograms(params?: {
     search?: string
     degreeType?: string
     universityId?: string
-    universityType?: string
     cohort?: string
     sortBy?: string
     sortDesc?: boolean
@@ -241,7 +235,6 @@ export async function fetchPrograms(params?: {
             params?.search ||
             params?.degreeType ||
             params?.universityId ||
-            (params?.universityType && params.universityType !== "all") ||
             (params?.cohort && params.cohort !== "all")
         )
 
@@ -295,9 +288,6 @@ export async function fetchPrograms(params?: {
     if (params?.search) query.set("search", params.search)
     if (params?.degreeType) query.set("degreeType", params.degreeType)
     if (params?.universityId) query.set("universityId", params.universityId)
-    if (params?.universityType && params.universityType !== "all") {
-        query.set("isPublic", params.universityType === "public" ? "true" : "false")
-    }
 
     if (params?.sortBy) {
         query.set("sortBy", params.sortBy)

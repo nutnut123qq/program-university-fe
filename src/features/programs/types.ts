@@ -100,7 +100,6 @@ export interface ProgramFilters {
     search: string
     degreeType: string
     universityId: string
-    universityType: "all" | "public" | "private"
     sortBy: "newest" | "name" | "credits"
     cohort?: string
 }
