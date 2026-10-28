@@ -59,7 +59,7 @@ test.describe("Bottom Sheet & Interactive Modals E2E Suite", () => {
         await expect(detailModal).toBeVisible()
 
         // 3. Navigate to Curriculum (Khung chương trình) tab
-        const curriculumTab = detailModal.getByRole("button", { name: /Khung chương trình/i })
+        const curriculumTab = detailModal.getByRole("tab", { name: /Khung chương trình/i })
         await curriculumTab.click()
 
         // 4. Verify curriculum table exists and is inside an overflow-x-auto container

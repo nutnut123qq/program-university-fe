@@ -24,7 +24,7 @@ async function openProgramDetail(page: Page, programName: string, universityName
         .first()
     await expect(card).toBeVisible({ timeout: 15000 })
     await card.getByRole("button", { name: /Xem chi tiết/i }).click()
-    await page.getByRole("button", { name: /^Tuyển sinh$/ }).click()
+    await page.getByRole("tab", { name: /^Tuyển sinh$/ }).click()
     return page.getByTestId("admissions-section")
 }
 

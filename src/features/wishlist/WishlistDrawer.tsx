@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useId, useState } from "react"
 import useSWR from "swr"
 import { GitCompare, Heart, Trash2 } from "lucide-react"
 import { useTranslations } from "next-intl"
@@ -31,6 +31,7 @@ export function WishlistDrawer({ open, onOpenChange, onOpenProgram }: WishlistDr
     const router = useRouter()
     const { mounted, ids, remove, clear } = useWishlist()
     const [selected, setSelected] = useState<string[]>([])
+    const titleId = useId()
 
     // Batch-fetch every saved program. Keyed on the joined id list so any
     // mutation (toggle/remove/clear, this tab or another) refetches exactly
@@ -71,14 +72,14 @@ export function WishlistDrawer({ open, onOpenChange, onOpenProgram }: WishlistDr
     const showSkeleton = !mounted || (hasItems && fetched === undefined && !error && isLoading)
 
     return (
-        <Sheet open={open} onOpenChange={onOpenChange} side="right" className="w-[85%] sm:max-w-sm">
+        <Sheet open={open} onOpenChange={onOpenChange} side="right" className="w-[85%] sm:max-w-sm" aria-labelledby={titleId}>
             <SheetContent>
                 {/* Header: title + count + clear-all. pr-8 keeps clear of the
                     built-in close X in the top-right corner of the sheet. */}
                 <div className="flex items-center justify-between gap-2 pr-8">
                     <div className="flex min-w-0 items-center gap-2">
                         <Heart className="h-5 w-5 shrink-0 text-rose-500" fill="currentColor" aria-hidden />
-                        <h2 className="truncate text-base font-bold">{t("wishlistTitle")}</h2>
+                        <h2 id={titleId} className="truncate text-base font-bold">{t("wishlistTitle")}</h2>
                         {hasItems && (
                             <Badge variant="secondary" className="shrink-0">
                                 {ids.length}
@@ -131,6 +132,7 @@ export function WishlistDrawer({ open, onOpenChange, onOpenProgram }: WishlistDr
                                             <button
                                                 type="button"
                                                 data-testid="wishlist-open-detail"
+                                                aria-label={`${tp("viewDetail")}: ${program.name}`}
                                                 onClick={() => {
                                                     onOpenChange(false)
                                                     onOpenProgram(program)

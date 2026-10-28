@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useId, useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import {
     BookOpen,
@@ -28,6 +28,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 import { fetchSyllabus, fetchRoadmap, fetchUniversityCode } from "../api"
 import { Curriculum } from "../types"
+import { useModalFocus } from "@/hooks/useModalFocus"
 
 interface SyllabusDetailModalProps {
     course: Curriculum | null
@@ -85,6 +86,9 @@ export function SyllabusDetailModal({
         () => fetchRoadmap(universityCode || "", subjectCode)
     )
 
+    const boxRef = useModalFocus<HTMLDivElement>(open && !!course, onClose)
+    const titleId = useId()
+
     if (!open || !course) return null
 
     const info = syllabus?.info
@@ -103,11 +107,16 @@ export function SyllabusDetailModal({
         <AnimatePresence>
             <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/70 backdrop-blur-md transition-all">
                 <motion.div
+                    ref={boxRef}
+                    role="dialog"
+                    aria-modal="true"
+                    aria-labelledby={titleId}
+                    tabIndex={-1}
                     initial={{ opacity: 0, scale: 0.96, y: 30 }}
                     animate={{ opacity: 1, scale: 1, y: 0 }}
                     exit={{ opacity: 0, scale: 0.96, y: 30 }}
                     transition={{ duration: 0.22, ease: "easeOut" }}
-                    className="relative w-full max-w-4xl max-h-[94vh] sm:max-h-[90vh] bg-background border border-border rounded-t-3xl sm:rounded-2xl shadow-2xl flex flex-col overflow-hidden"
+                    className="relative w-full max-w-4xl max-h-[94vh] sm:max-h-[90vh] bg-background border border-border rounded-t-3xl sm:rounded-2xl shadow-2xl flex flex-col overflow-hidden outline-none"
                 >
                     {/* Top Sticky Header */}
                     <div className="sticky top-0 z-20 px-5 sm:px-6 py-4 border-b border-border bg-background/95 backdrop-blur-md flex items-start justify-between gap-4">
@@ -132,7 +141,7 @@ export function SyllabusDetailModal({
                                     </Badge>
                                 )}
                             </div>
-                            <h2 className="text-lg sm:text-xl font-extrabold tracking-tight text-foreground truncate">
+                            <h2 id={titleId} className="text-lg sm:text-xl font-extrabold tracking-tight text-foreground truncate">
                                 {info?.syllabusName || course.courseName}
                             </h2>
                             {info?.syllabusEnglish && (

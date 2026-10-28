@@ -72,6 +72,7 @@ const SlotPicker = ({ slot, label, value, options, catalogTotal, onPick }: SlotP
                 />
             </div>
             <select
+                aria-label={label}
                 value={value ?? ""}
                 onChange={(e) => {
                     const p = shown.find((x) => String(x.id) === e.target.value)

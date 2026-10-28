@@ -3,6 +3,7 @@
 import * as React from "react"
 import { cn } from "@/lib/utils"
 import { X } from "lucide-react"
+import { useModalFocus } from "@/hooks/useModalFocus"
 
 interface SheetProps {
     children: React.ReactNode
@@ -11,9 +12,12 @@ interface SheetProps {
     side?: "left" | "right" | "top" | "bottom"
     /** Extra classes for the panel — e.g. widen the default w-3/4 on mobile. */
     className?: string
+    /** Id of the sheet's visible title — the dialog's accessible name. */
+    "aria-labelledby"?: string
 }
 
-const Sheet = ({ children, open, onOpenChange, side = "right", className }: SheetProps) => {
+const Sheet = ({ children, open, onOpenChange, side = "right", className, "aria-labelledby": labelledBy }: SheetProps) => {
+    const panelRef = useModalFocus<HTMLDivElement>(!!open, () => onOpenChange?.(false))
     if (!open) return null
 
     const sideClasses = {
@@ -26,7 +30,14 @@ const Sheet = ({ children, open, onOpenChange, side = "right", className }: Shee
     return (
         <div className="fixed inset-0 z-50 flex">
             <div className="fixed inset-0 bg-black/50" onClick={() => onOpenChange?.(false)} />
-            <div className={cn("fixed z-50 border bg-background p-6 shadow-lg transition ease-in-out", sideClasses[side], className)}>
+            <div
+                ref={panelRef}
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby={labelledBy}
+                tabIndex={-1}
+                className={cn("fixed z-50 border bg-background p-6 shadow-lg transition ease-in-out outline-none", sideClasses[side], className)}
+            >
                 {children}
                 <button
                     onClick={() => onOpenChange?.(false)}

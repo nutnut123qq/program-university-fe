@@ -1,6 +1,7 @@
 "use client"
 
-import { useState, useMemo } from "react"
+import { useId, useMemo, useState } from "react"
+import type { KeyboardEvent } from "react"
 import dayjs from "dayjs"
 import {
     BookOpen,
@@ -42,6 +43,7 @@ import { ScoreTrendChart } from "./ScoreTrendChart"
 import { SameMajorElsewhere } from "./SameMajorElsewhere"
 import { WishlistButton } from "@/features/wishlist/WishlistButton"
 import { programLinkUrl } from "../programLink"
+import { useModalFocus } from "@/hooks/useModalFocus"
 
 interface ProgramDetailDialogProps {
     program: Program | null
@@ -209,6 +211,12 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     const [semesterFilter, setSemesterFilter] = useState<string>("all")
     const [selectedCourseForSyllabus, setSelectedCourseForSyllabus] = useState<Curriculum | null>(null)
     const [linkCopied, setLinkCopied] = useState(false)
+    // Escape runs onClose — the X button's path (v2.48: history.back() on an own entry).
+    const boxRef = useModalFocus<HTMLDivElement>(open && !!program, onClose)
+    const baseId = useId()
+    const titleId = `${baseId}-title`
+    const panelId = `${baseId}-panel`
+    const tabId = (key: TabKey) => `${baseId}-tab-${key}`
 
     const copyLink = async () => {
         if (!program) return
@@ -548,6 +556,21 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         { key: "eval", label: t("evalTab") },
     ]
 
+    // APG tabs: arrows (wrapping), Home and End move focus and select.
+    const onTabKeyDown = (e: KeyboardEvent, index: number) => {
+        const last = tabs.length - 1
+        const next =
+            e.key === "ArrowRight" ? (index === last ? 0 : index + 1)
+            : e.key === "ArrowLeft" ? (index === 0 ? last : index - 1)
+            : e.key === "Home" ? 0
+            : e.key === "End" ? last
+            : -1
+        if (next < 0) return
+        e.preventDefault()
+        setActiveTab(tabs[next].key)
+        document.getElementById(tabId(tabs[next].key))?.focus()
+    }
+
     const evalComponents: { id: string; name: string; score: number | undefined }[] = program ? [
         { id: "outcomes", name: t("evalOutcomeName"), score: program.evalOutcomes },
         { id: "structure", name: t("evalStructureName"), score: program.evalStructure },
@@ -577,10 +600,18 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                         transition={{ duration: 0.2 }}
                         className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 pointer-events-none"
                     >
-                        <div className="w-full max-w-5xl max-h-[94vh] sm:max-h-[90vh] bg-card border border-border rounded-t-3xl sm:rounded-2xl shadow-2xl pointer-events-auto flex flex-col overflow-hidden">
-                            <div className="flex items-start justify-between p-5 sm:p-6 border-b border-border">
-                                <div className="space-y-1.5 min-w-0 flex-1 pr-2">
-                                    <h2 className="text-xl sm:text-2xl font-black text-foreground truncate">{program.name}</h2>
+                        <div
+                            ref={boxRef}
+                            role="dialog"
+                            aria-modal="true"
+                            aria-labelledby={titleId}
+                            tabIndex={-1}
+                            className="w-full max-w-5xl max-h-[94vh] sm:max-h-[90vh] bg-card border border-border rounded-t-3xl sm:rounded-2xl shadow-2xl pointer-events-auto flex flex-col overflow-hidden outline-none"
+                        >
+                            {/* Below sm the buttons take their own row, so a long name gets the full width. */}
+                            <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between p-5 sm:p-6 border-b border-border">
+                                <div className="space-y-1.5 min-w-0 sm:flex-1 sm:pr-2">
+                                    <h2 id={titleId} className="text-xl sm:text-2xl font-black text-foreground break-words">{program.name}</h2>
                                     <p className="text-xs sm:text-sm text-muted-foreground font-medium">{program.universityName}</p>
                                     <div className="flex flex-wrap items-center gap-1.5 pt-1.5">
                                         {program.degreeType && (
@@ -631,11 +662,12 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                         </p>
                                     )}
                                 </div>
-                                <div className="flex items-center gap-1.5 shrink-0">
+                                <div className="flex items-center gap-1.5 shrink-0 self-end sm:self-auto">
                                     <Button
                                         size="sm"
                                         variant="outline"
                                         onClick={() => window.print()}
+                                        aria-label={t("printPdf")}
                                         className="gap-1.5 text-xs h-8 rounded-lg"
                                     >
                                         <Printer className="w-3.5 h-3.5 text-indigo-500" />
@@ -647,6 +679,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 size="sm"
                                                 variant="outline"
                                                 onClick={() => exportProgramToCsv(program, courses)}
+                                                aria-label={t("exportExcel")}
                                                 className="gap-1.5 text-xs h-8 rounded-lg"
                                             >
                                                 <FileSpreadsheet className="w-3.5 h-3.5 text-emerald-500" />
@@ -656,6 +689,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 size="sm"
                                                 variant="outline"
                                                 onClick={() => exportProgramToJson(program, courses)}
+                                                aria-label={t("exportJson")}
                                                 className="gap-1.5 text-xs h-8 rounded-lg"
                                             >
                                                 <FileJson className="w-3.5 h-3.5 text-blue-500" />
@@ -679,18 +713,25 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                         <span className="hidden sm:inline">{linkCopied ? t("compareShareCopied") : t("copyLink")}</span>
                                     </Button>
                                     <WishlistButton programId={program.id} size="sm" />
-                                    <Button variant="ghost" size="icon" onClick={onClose} className="h-8 w-8 rounded-full">
-                                        <X className="h-4 w-4" />
+                                    <Button variant="ghost" size="icon" onClick={onClose} aria-label={t("close")} className="h-8 w-8 rounded-full">
+                                        <X className="h-4 w-4" aria-hidden />
                                     </Button>
                                 </div>
                             </div>
 
                             <div className="border-b border-border px-4 sm:px-6 pt-2 bg-muted/20 shrink-0">
-                                <div className="flex gap-1 sm:gap-2 -mb-px overflow-x-auto no-scrollbar">
-                                    {tabs.map((tab) => (
+                                <div role="tablist" className="flex gap-1 sm:gap-2 -mb-px overflow-x-auto no-scrollbar">
+                                    {tabs.map((tab, i) => (
                                         <button
                                             key={tab.key}
+                                            type="button"
+                                            role="tab"
+                                            id={tabId(tab.key)}
+                                            aria-selected={activeTab === tab.key}
+                                            aria-controls={activeTab === tab.key ? panelId : undefined}
+                                            tabIndex={activeTab === tab.key ? 0 : -1}
                                             onClick={() => setActiveTab(tab.key)}
+                                            onKeyDown={(e) => onTabKeyDown(e, i)}
                                             className={`px-3 sm:px-4 py-2 text-xs sm:text-sm font-bold border-b-2 transition-all whitespace-nowrap ${
                                                 activeTab === tab.key
                                                     ? "border-primary text-primary"
@@ -703,7 +744,13 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                 </div>
                             </div>
 
-                            <div className="flex-1 p-4 sm:p-6 overflow-y-auto space-y-6">
+                            <div
+                                id={panelId}
+                                role="tabpanel"
+                                aria-labelledby={tabId(activeTab)}
+                                tabIndex={0}
+                                className="flex-1 p-4 sm:p-6 overflow-y-auto space-y-6"
+                            >
                                 {activeTab === "info" && (
                                     <div className="space-y-6">
                                         <Card>

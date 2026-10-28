@@ -133,7 +133,7 @@ test.describe("v2.45 — misleading UI quick fixes", () => {
 
     test("GPA tab of a law program: no career tracks, one grade row per course", async ({ page }) => {
         const dialog = await openProgram(page, law.p)
-        await dialog.getByRole("button", { name: vi.programs.gpaTab, exact: true }).click()
+        await dialog.getByRole("tab", { name: vi.programs.gpaTab, exact: true }).click()
         const rows = dialog.locator("select")
         await expect(rows.first()).toBeVisible({ timeout: 15000 })
         await expect(dialog).not.toContainText(OLD_TRACKS)
@@ -146,14 +146,14 @@ test.describe("v2.45 — misleading UI quick fixes", () => {
         await expect(dialog.getByTestId("gpa-group").getByRole("heading")).toHaveCount(0)
 
         // Reference-evaluation tab, no AUN-QA label.
-        await expect(dialog.getByRole("button", { name: vi.programs.evalTab, exact: true })).toBeVisible()
+        await expect(dialog.getByRole("tab", { name: vi.programs.evalTab, exact: true })).toBeVisible()
         await expect(dialog.getByRole("button", { name: /AUN-QA/ })).toHaveCount(0)
 
         // Admissions title: the snapshot's newest year (neutral when it has none).
         const uni = universities.find((u) => u.id === law.p.universityId)!
         const admFile = path.join(MOCK, "admissions", `${uni.code}.json`)
         const years: number[] = existsSync(admFile) ? readJson(admFile).years ?? [] : []
-        await dialog.getByRole("button", { name: vi.programs.admissionsTab, exact: true }).click()
+        await dialog.getByRole("tab", { name: vi.programs.admissionsTab, exact: true }).click()
         await expect(dialog.getByTestId("admissions-section").locator("h3").first()).toHaveText(
             years.length ? vi.programs.admissionsTitle.replace("{year}", String(Math.max(...years))) : vi.programs.admissionsTitleNoYear,
             { timeout: 15000 }
@@ -163,7 +163,7 @@ test.describe("v2.45 — misleading UI quick fixes", () => {
     test("GPA tab groups the grade rows by semester as in the snapshot", async ({ page }) => {
         for (const f of semesterFixtures) {
             const dialog = await openProgram(page, f.p)
-            await dialog.getByRole("button", { name: vi.programs.gpaTab, exact: true }).click()
+            await dialog.getByRole("tab", { name: vi.programs.gpaTab, exact: true }).click()
             const sems = [...new Set(f.courses.map((c) => c.semester))].sort((a, b) =>
                 a == null ? 1 : b == null ? -1 : a - b
             )
@@ -183,7 +183,7 @@ test.describe("v2.45 — misleading UI quick fixes", () => {
 
     test("GPA tab of a program without courses: honest empty state, no calculator", async ({ page }) => {
         const dialog = await openProgram(page, empty)
-        await dialog.getByRole("button", { name: vi.programs.gpaTab, exact: true }).click()
+        await dialog.getByRole("tab", { name: vi.programs.gpaTab, exact: true }).click()
         await expect(dialog.getByText(vi.programs.noCurriculum)).toBeVisible({ timeout: 15000 })
         await expect(dialog.locator("select")).toHaveCount(0)
         await expect(dialog).not.toContainText(OLD_TRACKS)
@@ -201,7 +201,7 @@ test.describe("v2.45 — misleading UI quick fixes", () => {
         await expect(noData).toHaveText(vi.programs.scoreFilterNoData)
 
         const dialog = await openProgram(page, law.p)
-        await dialog.getByRole("button", { name: vi.programs.admissionsTab, exact: true }).click()
+        await dialog.getByRole("tab", { name: vi.programs.admissionsTab, exact: true }).click()
         const title = dialog.getByTestId("admissions-section").locator("h3").first()
         await expect(title).toBeVisible({ timeout: 15000 })
         await expect(title).not.toContainText(/\d{4}/)

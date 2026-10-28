@@ -23,7 +23,7 @@ async function openProgramDetail(page: Page, programName: string, universityName
     await card.getByRole("button", { name: /Xem chi tiết/i }).click()
 
     // Switch to the "Tuyển sinh" tab inside the dialog
-    await page.getByRole("button", { name: /^Tuyển sinh$/ }).click()
+    await page.getByRole("tab", { name: /^Tuyển sinh$/ }).click()
     return page.getByTestId("admissions-section")
 }
 

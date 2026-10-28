@@ -87,13 +87,13 @@ test.describe("v2.44 — quarantined fabricated content", () => {
         await expect(dialog).not.toContainText(CAREER_TEMPLATE)
 
         // Curriculum tab: the honest empty state, none of the template courses
-        await dialog.getByRole("button", { name: vi.programs.curriculumTab, exact: true }).click()
+        await dialog.getByRole("tab", { name: vi.programs.curriculumTab, exact: true }).click()
         await expect(dialog.getByText(vi.programs.noCurriculum)).toBeVisible({ timeout: 15000 })
         for (const course of TEMPLATE_COURSES) await expect(dialog).not.toContainText(course)
         await expect(dialog).not.toContainText("HCMUS-CSC")
 
         // Evaluation tab: no SLM score (it was computed on the fake course list)
-        await dialog.getByRole("button", { name: vi.programs.evalTab, exact: true }).click()
+        await dialog.getByRole("tab", { name: vi.programs.evalTab, exact: true }).click()
         await expect(dialog.getByText(vi.programs.evalEmpty)).toBeVisible()
         await expect(dialog).not.toContainText(`${vi.programs.slmRefScore}:`)
     })

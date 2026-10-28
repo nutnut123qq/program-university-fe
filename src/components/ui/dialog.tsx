@@ -3,13 +3,23 @@
 import * as React from "react"
 import { cn } from "@/lib/utils"
 import { X } from "lucide-react"
+import { useModalFocus } from "@/hooks/useModalFocus"
 
-const Dialog = ({ children, open, onOpenChange }: { children: React.ReactNode; open?: boolean; onOpenChange?: (open: boolean) => void }) => {
+// "aria-labelledby" = id of the DialogTitle inside: the dialog's accessible name.
+const Dialog = ({ children, open, onOpenChange, "aria-labelledby": labelledBy }: { children: React.ReactNode; open?: boolean; onOpenChange?: (open: boolean) => void; "aria-labelledby"?: string }) => {
+    const boxRef = useModalFocus<HTMLDivElement>(!!open, () => onOpenChange?.(false))
     if (!open) return null
     return (
         <div className="fixed inset-0 z-50 flex items-center justify-center">
             <div className="fixed inset-0 bg-black/50" onClick={() => onOpenChange?.(false)} />
-            <div className="relative z-50 w-full max-w-lg rounded-xl border bg-card p-6 shadow-lg">
+            <div
+                ref={boxRef}
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby={labelledBy}
+                tabIndex={-1}
+                className="relative z-50 w-full max-w-lg rounded-xl border bg-card p-6 shadow-lg outline-none"
+            >
                 {children}
             </div>
         </div>
