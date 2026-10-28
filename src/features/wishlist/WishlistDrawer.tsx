@@ -10,11 +10,14 @@ import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent } from "@/components/ui/sheet"
 import { Skeleton } from "@/components/ui/skeleton"
 import { fetchProgramById } from "@/features/programs/api"
+import type { Program } from "@/features/programs/types"
 import { useWishlist } from "./useWishlist"
 
 export interface WishlistDrawerProps {
     open: boolean
     onOpenChange: (open: boolean) => void
+    /** Opens a saved program's detail (the drawer closes first). */
+    onOpenProgram: (program: Program) => void
 }
 
 const MIN_COMPARE = 2
@@ -22,8 +25,9 @@ const MAX_COMPARE = 3
 // Compare page query keys, in slot order.
 const COMPARE_KEYS = ["a", "b", "c"]
 
-export function WishlistDrawer({ open, onOpenChange }: WishlistDrawerProps) {
+export function WishlistDrawer({ open, onOpenChange, onOpenProgram }: WishlistDrawerProps) {
     const t = useTranslations("wishlist")
+    const tp = useTranslations("programs")
     const router = useRouter()
     const { mounted, ids, remove, clear } = useWishlist()
     const [selected, setSelected] = useState<string[]>([])
@@ -123,6 +127,19 @@ export function WishlistDrawer({ open, onOpenChange }: WishlistDrawerProps) {
                                         <p className="break-words text-xs text-muted-foreground">
                                             {program?.universityName ?? ""}
                                         </p>
+                                        {program && (
+                                            <button
+                                                type="button"
+                                                data-testid="wishlist-open-detail"
+                                                onClick={() => {
+                                                    onOpenChange(false)
+                                                    onOpenProgram(program)
+                                                }}
+                                                className="mt-1 text-xs font-semibold text-primary hover:underline"
+                                            >
+                                                {tp("viewDetail")}
+                                            </button>
+                                        )}
                                     </div>
                                     <Button
                                         type="button"

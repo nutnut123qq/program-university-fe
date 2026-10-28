@@ -295,7 +295,7 @@ test.describe("Compare page — up to 3 programs (v2.41)", () => {
         await expect(box(NAME_OV_C)).toBeDisabled()
 
         // Drop a selected program from the wishlist itself (its row's trash button).
-        await page.getByRole("listitem").filter({ has: box(NAME_C) }).getByRole("button").click()
+        await page.getByRole("listitem").filter({ has: box(NAME_C) }).getByRole("button", { name: /Xóa khỏi yêu thích/ }).click()
         await expect(box(NAME_C)).toHaveCount(0)
         await expect(page.getByText("(2/3)")).toBeVisible()
 

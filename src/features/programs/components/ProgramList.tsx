@@ -1,6 +1,6 @@
 "use client"
 
-import { useCallback, useMemo, useState } from "react"
+import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import useSWR from "swr"
 import useSWRInfinite from "swr/infinite"
 import { motion } from "framer-motion"
@@ -22,9 +22,11 @@ import { useWishlist } from "@/features/wishlist/useWishlist"
 import {
     fetchAdmissions,
     fetchDegreeTypes,
+    fetchProgramById,
     fetchPrograms,
     fetchUniversities,
 } from "../api"
+import { isProgramId, setProgramParam, stackProgramLanding, useProgramParam } from "../programLink"
 import {
     AdmissionData,
     AdmissionScore,
@@ -36,6 +38,13 @@ import {
 import analyticsSnapshot from "@/lib/analytics-snapshot.json"
 
 const PAGE_SIZE = 12
+
+// Notice copy per reason a ?program= link cannot open (v2.48).
+const LINK_NOTICE = {
+    invalid: "programLinkInvalid",
+    notFound: "programLinkNotFound",
+    error: "programLinkError",
+} as const
 
 type UniversityWithCode = University & { code?: string | null }
 
@@ -70,18 +79,51 @@ export function ProgramList() {
         universityId: "",
         sortBy: "newest",
     })
-    const [selectedProgram, setSelectedProgram] = useState<Program | null>(null)
     const [lastViewedProgram, setLastViewedProgram] = useState<Program | null>(null)
     const [wishlistOpen, setWishlistOpen] = useState(false)
     const { mounted: wishlistMounted, ids: wishlistIds } = useWishlist()
 
-    const displayProgram = selectedProgram || lastViewedProgram
+    // The open program is the URL's ?program=<id> (v2.48): shareable, and
+    // browser Back closes the dialog. The param is untrusted input — only a
+    // GUID-shaped id is fetched; a card or wishlist click hands over the
+    // Program it already has.
+    const linkParam = useProgramParam()
+    const linkId = linkParam !== null && isProgramId(linkParam) ? linkParam.toLowerCase() : null
+    const knownProgram = lastViewedProgram?.id === linkId ? lastViewedProgram : null
+    const { data: fetchedProgram, error: linkError } = useSWR(
+        linkId && !knownProgram ? ["program-detail", linkId] : null,
+        ([, id]) => fetchProgramById(id)
+    )
+    // A payload for another id is not this program (v2.43: check what a URL id returns).
+    const linkedProgram = knownProgram ?? (fetchedProgram?.id === linkId ? fetchedProgram : null)
+    const linkNotice: keyof typeof LINK_NOTICE | null =
+        linkParam === null || linkedProgram
+            ? null
+            : !linkId
+              ? "invalid"
+              : linkError
+                ? "error"
+                : fetchedProgram !== undefined
+                  ? "notFound"
+                  : null // still loading
 
-    const handleSelectProgram = (program: Program | null) => {
-        if (program) {
-            setLastViewedProgram(program)
-        }
-        setSelectedProgram(program)
+    // True once this page put a ?program= entry on top of a plain list
+    // entry (a click, or a landing link), so closing goes Back instead of
+    // adding a history entry.
+    const ownLinkEntry = useRef(false)
+    useEffect(() => {
+        if (!ownLinkEntry.current) ownLinkEntry.current = stackProgramLanding()
+    }, [])
+
+    const openProgram = (program: Program) => {
+        setLastViewedProgram(program)
+        setProgramParam(program.id, "push")
+        ownLinkEntry.current = true
+    }
+
+    const closeProgram = () => {
+        if (ownLinkEntry.current) window.history.back()
+        else setProgramParam(null, "replace")
     }
 
     const getKey = useCallback(
@@ -398,6 +440,21 @@ export function ProgramList() {
 
     return (
         <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8 max-w-7xl space-y-8">
+            {linkNotice && (
+                <div
+                    role="alert"
+                    data-testid="program-link-notice"
+                    data-reason={linkNotice}
+                    className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-destructive/20 bg-destructive/5 p-4"
+                >
+                    <p className="min-w-0 flex-1 text-sm font-medium text-destructive">{t(LINK_NOTICE[linkNotice])}</p>
+                    {/* Replace, never Back: the entry below may be another site. */}
+                    <Button variant="outline" size="sm" className="shrink-0" onClick={() => setProgramParam(null, "replace")}>
+                        {t("programLinkDismiss")}
+                    </Button>
+                </div>
+            )}
+
             {/* Hero */}
             <motion.section
                 initial={{ opacity: 0, y: 20 }}
@@ -542,7 +599,7 @@ export function ProgramList() {
                             key={program.id}
                             program={program}
                             index={index}
-                            onViewDetail={handleSelectProgram}
+                            onViewDetail={openProgram}
                             scoreHint={
                                 // Hints only in score-filter mode — normal
                                 // browsing never computes or renders them.
@@ -575,12 +632,12 @@ export function ProgramList() {
             )}
 
             <ProgramDetailDialog
-                program={displayProgram}
-                open={!!selectedProgram}
-                onClose={() => setSelectedProgram(null)}
+                program={linkedProgram ?? lastViewedProgram}
+                open={!!linkedProgram}
+                onClose={closeProgram}
             />
 
-            <WishlistDrawer open={wishlistOpen} onOpenChange={setWishlistOpen} />
+            <WishlistDrawer open={wishlistOpen} onOpenChange={setWishlistOpen} onOpenProgram={openProgram} />
         </div>
     )
 }

@@ -4,6 +4,7 @@ import { useState, useMemo } from "react"
 import dayjs from "dayjs"
 import {
     BookOpen,
+    Check,
     Loader2,
     X,
     Calendar,
@@ -40,6 +41,7 @@ import { buildTrendSeries, deltaVsPreviousYear } from "@/lib/admissionTrend"
 import { ScoreTrendChart } from "./ScoreTrendChart"
 import { SameMajorElsewhere } from "./SameMajorElsewhere"
 import { WishlistButton } from "@/features/wishlist/WishlistButton"
+import { programLinkUrl } from "../programLink"
 
 interface ProgramDetailDialogProps {
     program: Program | null
@@ -206,6 +208,18 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     const [courseSearch, setCourseSearch] = useState("")
     const [semesterFilter, setSemesterFilter] = useState<string>("all")
     const [selectedCourseForSyllabus, setSelectedCourseForSyllabus] = useState<Curriculum | null>(null)
+    const [linkCopied, setLinkCopied] = useState(false)
+
+    const copyLink = async () => {
+        if (!program) return
+        try {
+            await navigator.clipboard.writeText(programLinkUrl(program.id))
+            setLinkCopied(true)
+            window.setTimeout(() => setLinkCopied(false), 2000)
+        } catch {
+            // Clipboard unavailable (permissions/non-secure context): the label never claims a copy.
+        }
+    }
 
     const { data: courses, error, isLoading } = useSWR(
         program ? ["curricula", program.id] : null,
@@ -649,6 +663,21 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                             </Button>
                                         </>
                                     )}
+                                    <Button
+                                        size="sm"
+                                        variant="outline"
+                                        onClick={copyLink}
+                                        data-testid="program-copy-link"
+                                        aria-label={linkCopied ? t("compareShareCopied") : t("copyLink")}
+                                        className="gap-1.5 text-xs h-8 rounded-lg"
+                                    >
+                                        {linkCopied ? (
+                                            <Check className="w-3.5 h-3.5 text-emerald-500" />
+                                        ) : (
+                                            <LinkIcon className="w-3.5 h-3.5 text-primary" />
+                                        )}
+                                        <span className="hidden sm:inline">{linkCopied ? t("compareShareCopied") : t("copyLink")}</span>
+                                    </Button>
                                     <WishlistButton programId={program.id} size="sm" />
                                     <Button variant="ghost" size="icon" onClick={onClose} className="h-8 w-8 rounded-full">
                                         <X className="h-4 w-4" />
