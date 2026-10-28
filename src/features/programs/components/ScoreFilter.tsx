@@ -1,5 +1,6 @@
 "use client"
 
+import type { ReactNode } from "react"
 import { Loader2, RotateCcw, Target } from "lucide-react"
 import { useTranslations } from "next-intl"
 import { Input } from "@/components/ui/input"
@@ -29,7 +30,14 @@ interface ScoreFilterProps {
     dataLoaded: boolean
     /** Filtered program count while active; null while still computing. */
     resultCount: number | null
+    /**
+     * Programs in the current list the filter can test (covered) out of all
+     * listed (total); null while inactive.
+     */
+    coverage: { covered: number; total: number } | null
     onClear: () => void
+    /** Rendered at the end of the block (school/group thresholds). */
+    children?: ReactNode
 }
 
 /**
@@ -51,7 +59,9 @@ export function ScoreFilter({
     loading,
     dataLoaded,
     resultCount,
+    coverage,
     onClear,
+    children,
 }: ScoreFilterProps) {
     const t = useTranslations("programs")
     const hasInput = score.trim() !== ""
@@ -159,6 +169,23 @@ export function ScoreFilter({
                     })}
                 </p>
             )}
+
+            {resultCount != null && coverage && scale != null && (
+                <p
+                    data-testid="score-filter-coverage"
+                    className="text-xs text-muted-foreground"
+                >
+                    {t("scoreFilterCoverage", {
+                        count: resultCount,
+                        covered: coverage.covered,
+                        scale,
+                        method: method ? "chosen" : "all",
+                        uncovered: coverage.total - coverage.covered,
+                    })}
+                </p>
+            )}
+
+            {children}
         </section>
     )
 }

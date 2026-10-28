@@ -16,6 +16,7 @@ import { ProgramCard, type ScoreHint } from "./ProgramCard"
 import { ProgramFilters } from "./ProgramFilters"
 import { ProgramDetailDialog } from "./ProgramDetailDialog"
 import { ScoreFilter } from "./ScoreFilter"
+import { ScoreThresholds, schoolThresholds, type UniversityThresholds } from "./ScoreThresholds"
 import { WishlistDrawer } from "@/features/wishlist/WishlistDrawer"
 import { useWishlist } from "@/features/wishlist/useWishlist"
 import {
@@ -321,6 +322,34 @@ export function ProgramList() {
         return scorePool.items.filter((p) => eligibleProgramIds.has(p.id))
     }, [scoreFilterActive, scorePool, eligibleProgramIds])
 
+    // Coverage (v2.46): M = programs in the current list that the
+    // eligibility map can test at this scale (and method, when chosen) —
+    // the same map N comes from, so N <= M always holds.
+    const scoreCoverage = useMemo(() => {
+        if (!scoreFilteredPrograms || !scorePool || !qualifyingCutoffs) return null
+        return {
+            covered: scorePool.items.filter((p) => qualifyingCutoffs.has(p.id)).length,
+            total: scorePool.items.length,
+        }
+    }, [scoreFilteredPrograms, scorePool, qualifyingCutoffs])
+
+    // School/group thresholds (programId-null aggregate rows) at the selected
+    // scale, for universities with a program in the current list. Information
+    // only: qualifyingCutoffs never reads these rows.
+    const scoreThresholds = useMemo(() => {
+        if (!scoreFilteredPrograms || !scorePool || !admissionsByCode || scoreScale == null) {
+            return null
+        }
+        const listed = new Set(scorePool.items.map((p) => p.universityId))
+        const out: UniversityThresholds[] = []
+        for (const u of (universities ?? []) as UniversityWithCode[]) {
+            if (!u.code || !listed.has(u.id)) continue
+            const entries = schoolThresholds(admissionsByCode.get(u.code)?.scores ?? [], scoreScale)
+            if (entries.length > 0) out.push({ code: u.code, name: u.name, entries })
+        }
+        return out
+    }, [scoreFilteredPrograms, scorePool, admissionsByCode, scoreScale, universities])
+
     const displayedPrograms = scoreFilteredPrograms ?? allPrograms
     // totalCount === 0 means the catalog query itself returned nothing, so
     // the pool fetch is skipped (key null) and must not count as "loading".
@@ -421,8 +450,13 @@ export function ProgramList() {
                 loading={scoreFilterRequested && admissionsLoading}
                 dataLoaded={!!admissionsByCode}
                 resultCount={scoreFilteredPrograms?.length ?? null}
+                coverage={scoreCoverage}
                 onClear={handleScoreClear}
-            />
+            >
+                {scoreThresholds && scoreScale != null && (
+                    <ScoreThresholds scale={scoreScale} universities={scoreThresholds} />
+                )}
+            </ScoreFilter>
 
             {/* Loading */}
             {((isLoading && allPrograms.length === 0) || scorePoolLoading) && (
