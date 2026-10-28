@@ -5,25 +5,21 @@
 
 import { Program, Curriculum } from "@/features/programs/types"
 
-/** Row shape produced by the analytics dashboard (UNI_STATS / DISTRIBUTIONS). */
-export interface AnalyticsUniStat {
-    code: string
-    name: string
-    count: number
-    score: number | null // null = not enough data (no scored program with a course list)
-    status: string
-    statusKey?: string
-    color?: string
+/** Shape of src/lib/analytics-snapshot.json (written by scripts/build-analytics.mjs). */
+export interface AnalyticsSnapshot {
+    catalog: { programs: number; courses: number; universities: number; programsWithoutCourses: number }
+    scoredPrograms: number
+    /** Programs with enough data: SLM score + course list + not "insufficient". */
+    basis: { programs: number; mean: number; atLeast6: number }
+    /** High → low; counts over the basis. */
+    bands: { range: string; count: number }[]
+    /** Ranked by mean, then the n = 0 universities (mean null) by code. */
+    universities: { code: string; name: string; programs: number; n: number; mean: number | null }[]
 }
 
-export interface AnalyticsDistribution {
-    range: string
-    labelKey: string
-    label: string
-    count: number
-    pct: string
-    color: string
-}
+const BASIS_RULE = 'evaluationScore is a number && courseCount > 0 && dataSufficiency !== "insufficient"'
+
+export const sharePct = (count: number, total: number) => `${((100 * count) / total).toFixed(1)}%`
 
 export function downloadFile(content: string, filename: string, type: string) {
     const blob = new Blob([content], { type: `${type};charset=utf-8;` })
@@ -86,43 +82,53 @@ export function exportProgramToJson(program: Program, courses: Curriculum[]) {
     downloadFile(JSON.stringify(data, null, 2), filename, "application/json")
 }
 
-export function exportAnalyticsDatasetToCsv(uniStats: AnalyticsUniStat[]) {
-    const headers = ["Mã trường", "Tên trường Đại học", "Số lượng ngành", "Điểm SLM tham khảo TB (thang 10)", "Xếp loại"]
-    const rows = uniStats.map(u => [
+const analyticsFileName = (s: AnalyticsSnapshot, ext: string) =>
+    `Tedo_Analytics_Benchmark_Dataset_${s.catalog.universities}_Universities.${ext}`
+
+export function exportAnalyticsDatasetToCsv(s: AnalyticsSnapshot) {
+    const headers = ["Mã trường", "Tên trường Đại học", "Số lượng ngành", "Số ngành đủ dữ liệu (n)", "Điểm SLM tham khảo TB (thang 10)"]
+    const rows = s.universities.map(u => [
         u.code,
         `"${u.name.replace(/"/g, '""')}"`,
-        u.count,
-        u.score,
-        `"${u.status.replace(/"/g, '""')}"`,
+        u.programs,
+        u.n,
+        u.mean ?? "", // n = 0: no mean
     ])
 
     const csvContent = "\uFEFF" + [headers.join(","), ...rows.map(r => r.join(","))].join("\n")
-    downloadFile(csvContent, "Tedo_Analytics_Benchmark_Dataset_17_Universities.csv", "text/csv")
+    downloadFile(csvContent, analyticsFileName(s, "csv"), "text/csv")
 }
 
-export function exportAnalyticsDatasetToJson(uniStats: AnalyticsUniStat[], distributions: AnalyticsDistribution[]) {
+export function exportAnalyticsDatasetToJson(s: AnalyticsSnapshot) {
+    const share = (k: number) => sharePct(k, s.basis.programs)
     const data = {
-        // Catalog totals derived from the current public snapshot
-        // (public/mock/index.json + programs/page-*.json; recomputed v2.44).
+        // Averages, shares, bands and n count only the programs matching this rule.
+        basisRule: BASIS_RULE,
         catalog: {
-            totalPrograms: uniStats.reduce((sum, u) => sum + (u.count || 0), 0),
-            totalCourses: 102108,
-            totalUniversities: uniStats.length,
-            programsWithoutCourses: 317,
+            totalPrograms: s.catalog.programs,
+            totalCourses: s.catalog.courses,
+            totalUniversities: s.catalog.universities,
+            programsWithoutCourses: s.catalog.programsWithoutCourses,
         },
-        // SLM quality metrics — slm_strict_v3b evaluated set = the 1,759 programs
-        // that carry a score in the snapshot (v2.44: the 197 programs with a
-        // quarantined template course list have their score hidden).
+        // Automatic SLM reference score, not an accreditation.
         slmReference: {
-            evaluatedPrograms: 1759,
-            meanQualityScore: 7.52,
-            goldRatio: "16.9%",
-            satisfactoryRatio: "80.8%",
+            scoredPrograms: s.scoredPrograms,
+            evaluatedPrograms: s.basis.programs,
+            meanScore: s.basis.mean,
+            shareAtLeast6: share(s.basis.atLeast6),
+            shareTopBand: share(s.bands[0].count),
         },
-        universityRankings: uniStats,
-        scoreDistributions: distributions,
+        universityRankings: s.universities.map((u, i) => ({
+            rank: u.mean === null ? null : i + 1,
+            code: u.code,
+            name: u.name,
+            programs: u.programs,
+            n: u.n,
+            meanScore: u.mean,
+        })),
+        scoreDistributions: s.bands.map(b => ({ range: b.range, count: b.count, share: share(b.count) })),
         exportedAt: new Date().toISOString(),
     }
 
-    downloadFile(JSON.stringify(data, null, 2), "Tedo_Analytics_Benchmark_Dataset_17_Universities.json", "application/json")
+    downloadFile(JSON.stringify(data, null, 2), analyticsFileName(s, "json"), "application/json")
 }

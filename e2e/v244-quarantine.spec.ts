@@ -36,6 +36,7 @@ type MockProgram = {
     tuition: string | null
     careerOutlook: string | null
     evaluationScore?: number | null
+    dataSufficiency?: string | null
 }
 
 function snapshotPrograms(): MockProgram[] {
@@ -103,7 +104,10 @@ test.describe("v2.44 — quarantined fabricated content", () => {
             readJson(path.join(MOCK, "universities.json")).map((u: { id: string; code: string }) => [u.id, u.code])
         )
         const scored = programs.filter((p) => typeof p.evaluationScore === "number")
-        const scores = scored.map((p) => p.evaluationScore as number)
+        // v2.47: page-wide numbers and university means count only programs with
+        // enough data — a course list and not "insufficient" (e2e/v247-honest-analytics).
+        const enough = scored.filter((p) => p.courseCount > 0 && p.dataSufficiency !== "insufficient")
+        const scores = enough.map((p) => p.evaluationScore as number)
         const n = scores.length
         const mean = (xs: number[]) => xs.reduce((a, b) => a + b, 0) / xs.length
         const pct = (k: number) => `${((100 * k) / n).toFixed(1)}%`
@@ -117,8 +121,9 @@ test.describe("v2.44 — quarantined fabricated content", () => {
             scores.filter((s) => s < 4.0).length,
         ]
         // Per-university mean: only scored programs WITH a course list — a
-        // program without course data gets 0 for structure/knowledge blocks. A
-        // university left with none is "not enough data": unranked, after the ranked rows.
+        // program without course data gets 0 for structure/knowledge blocks — and
+        // not "insufficient" (v2.47). A university left with none is "not enough
+        // data": unranked, after the ranked rows.
         const byUni = new Map<string, number[]>()
         const allByUni = new Map<string, number[]>()
         for (const p of programs) {
@@ -126,14 +131,14 @@ test.describe("v2.44 — quarantined fabricated content", () => {
             if (!byUni.has(code)) byUni.set(code, [])
             if (typeof p.evaluationScore !== "number") continue
             allByUni.set(code, [...(allByUni.get(code) ?? []), p.evaluationScore])
-            if (p.courseCount > 0) byUni.get(code)!.push(p.evaluationScore)
+            if (p.courseCount > 0 && p.dataSufficiency !== "insufficient") byUni.get(code)!.push(p.evaluationScore)
         }
         const ranking = [...byUni.entries()]
             .filter(([, xs]) => xs.length > 0)
             .map(([code, xs]) => ({ code, score: mean(xs) }))
             .sort((a, b) => b.score - a.score)
         const noData = [...byUni.entries()].filter(([, xs]) => xs.length === 0).map(([code]) => code)
-        expect(n).toBeLessThan(programs.length) // quarantined programs carry no score
+        expect(scored.length).toBeLessThan(programs.length) // quarantined programs carry no score
         expect(ranking.length + noData.length).toBe(17)
         // DTU: every program still scored has no course list (its template list is quarantined).
         expect(noData).toContain("DTU")
@@ -150,8 +155,8 @@ test.describe("v2.44 — quarantined fabricated content", () => {
         await expect(body).toContainText(`${avg}/10.0`)
         await expect(body).toContainText(`${avg} / 10.0`)
         await expect(body).toContainText(`tập đánh giá ${group(n, ".")} CTĐT`)
-        await expect(body).toContainText(`${pct(pass)} (${group(pass, ",")} Ngành)`)
-        await expect(body).toContainText(`${gold} Ngành (${pct(gold)})`)
+        await expect(body).toContainText(`${pct(pass)} (${group(pass, ".")} ngành)`)
+        await expect(body).toContainText(`${group(gold, ".")} ngành (${pct(gold)})`)
         for (const k of bands) await expect(body).toContainText(vi.analytics.distProgramCount.replace("{count}", String(k)))
         for (const k of bands) await expect(body).toContainText(pct(k))
 
@@ -161,19 +166,18 @@ test.describe("v2.44 — quarantined fabricated content", () => {
             const row = rowOf(u.code)
             await expect(row).toContainText(`#${i + 1}`)
             await expect(row).toContainText(`${u.score.toFixed(2)} / 10.0`)
-            const status = u.score >= 7.5 ? "statusGood" : u.score >= 6.0 ? "statusPass" : "statusNeedsImprovement"
-            await expect(row).toContainText(vi.analytics[status])
+            // v2.47: no verdict label on a university.
+            for (const word of ["Tốt", "Đạt", "Cần cải thiện"]) await expect(row).not.toContainText(word)
         }
         await expect(rowOf("HUST")).toContainText(`${hust.score.toFixed(2)} / 10.0`)
         const used = [...byUni.values()].reduce((sum, xs) => sum + xs.length, 0)
-        await expect(body).toContainText(`${group(used, ".")} CTĐT có danh mục môn học`)
+        await expect(body).toContainText(`chỉ tính ${group(used, ".")} CTĐT đủ dữ liệu`)
         for (const code of noData) {
             const row = rowOf(code)
             await expect(row).toContainText(vi.analytics.statusNoData)
             await expect(row).not.toContainText("#")
             await expect(row).not.toContainText("/ 10.0")
-            for (const k of ["statusGood", "statusPass", "statusNeedsImprovement"] as const)
-                await expect(row).not.toContainText(vi.analytics[k])
+            for (const word of ["Tốt", "Đạt", "Cần cải thiện"]) await expect(row).not.toContainText(word)
         }
         // Unranked rows come after every ranked row.
         const codesInOrder = await page.locator("div.space-y-2 .font-mono").allInnerTexts()

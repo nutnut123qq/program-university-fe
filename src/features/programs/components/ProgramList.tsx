@@ -33,6 +33,7 @@ import {
     ProgramsResponse,
     University,
 } from "../types"
+import analyticsSnapshot from "@/lib/analytics-snapshot.json"
 
 const PAGE_SIZE = 12
 
@@ -411,7 +412,10 @@ export function ProgramList() {
                     {t("title")}
                 </h1>
                 <p className="text-lg text-muted-foreground">
-                    {t("subtitle")}
+                    {t("subtitle", {
+                        programs: analyticsSnapshot.catalog.programs,
+                        universities: analyticsSnapshot.catalog.universities,
+                    })}
                 </p>
                 <div className="flex justify-center pt-1">
                     <Button

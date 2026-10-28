@@ -1,0 +1,157 @@
+{
+  "catalog": {
+    "programs": 1956,
+    "courses": 102108,
+    "universities": 17,
+    "programsWithoutCourses": 317
+  },
+  "scoredPrograms": 1759,
+  "basis": {
+    "programs": 1362,
+    "mean": 8.11,
+    "atLeast6": 1171
+  },
+  "bands": [
+    {
+      "range": "9.0 - 10.0",
+      "count": 297
+    },
+    {
+      "range": "7.5 - 8.9",
+      "count": 807
+    },
+    {
+      "range": "6.0 - 7.4",
+      "count": 67
+    },
+    {
+      "range": "4.0 - 5.9",
+      "count": 191
+    },
+    {
+      "range": "1.0 - 3.9",
+      "count": 0
+    }
+  ],
+  "universities": [
+    {
+      "code": "UEH",
+      "name": "Trường Đại học Kinh tế TP.HCM",
+      "programs": 84,
+      "n": 79,
+      "mean": 9.36
+    },
+    {
+      "code": "HCMUT",
+      "name": "Trường Đại học Bách khoa - ĐHQG-HCM",
+      "programs": 371,
+      "n": 122,
+      "mean": 9.2
+    },
+    {
+      "code": "VNU",
+      "name": "Đại học Quốc gia Hà Nội",
+      "programs": 169,
+      "n": 131,
+      "mean": 8.96
+    },
+    {
+      "code": "NEU",
+      "name": "Đại học Kinh tế Quốc dân",
+      "programs": 87,
+      "n": 84,
+      "mean": 8.86
+    },
+    {
+      "code": "FTU",
+      "name": "Trường Đại học Ngoại thương",
+      "programs": 49,
+      "n": 30,
+      "mean": 8.72
+    },
+    {
+      "code": "UIT",
+      "name": "Trường Đại học Công nghệ Thông tin - ĐHQG-HCM",
+      "programs": 20,
+      "n": 19,
+      "mean": 8.71
+    },
+    {
+      "code": "HUST",
+      "name": "Trường Đại học Bách khoa Hà Nội",
+      "programs": 73,
+      "n": 16,
+      "mean": 8.66
+    },
+    {
+      "code": "TDTU",
+      "name": "Trường Đại học Tôn Đức Thắng",
+      "programs": 149,
+      "n": 89,
+      "mean": 8.38
+    },
+    {
+      "code": "FPT",
+      "name": "Trường Đại học FPT",
+      "programs": 497,
+      "n": 488,
+      "mean": 8.3
+    },
+    {
+      "code": "UET",
+      "name": "Trường Đại học Công nghệ - ĐHQGHN",
+      "programs": 20,
+      "n": 20,
+      "mean": 8.03
+    },
+    {
+      "code": "PTIT",
+      "name": "Học viện Công nghệ Bưu chính Viễn thông",
+      "programs": 39,
+      "n": 39,
+      "mean": 7.77
+    },
+    {
+      "code": "UEL",
+      "name": "Trường Đại học Luật TP.HCM",
+      "programs": 21,
+      "n": 18,
+      "mean": 7.24
+    },
+    {
+      "code": "HCMUS",
+      "name": "Trường Đại học Khoa học Tự nhiên - ĐHQG-HCM",
+      "programs": 38,
+      "n": 14,
+      "mean": 7.09
+    },
+    {
+      "code": "HUTECH",
+      "name": "Trường Đại học Công nghệ TP.HCM",
+      "programs": 64,
+      "n": 49,
+      "mean": 5.88
+    },
+    {
+      "code": "HCMUTE",
+      "name": "Trường Đại học Sư phạm Kỹ thuật TP.HCM",
+      "programs": 59,
+      "n": 51,
+      "mean": 5.67
+    },
+    {
+      "code": "CTU",
+      "name": "Trường Đại học Cần Thơ",
+      "programs": 116,
+      "n": 113,
+      "mean": 5.62
+    },
+    {
+      "code": "DTU",
+      "name": "Trường Đại học Duy Tân",
+      "programs": 100,
+      "n": 0,
+      "mean": null
+    }
+  ]
+}
