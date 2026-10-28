@@ -1,4 +1,7 @@
 import { useSyncExternalStore } from "react"
+import { isProgramId } from "./programId"
+
+export { isProgramId }
 
 /**
  * `?program=<id>` on the list page opens that program's detail dialog
@@ -9,11 +12,6 @@ import { useSyncExternalStore } from "react"
 const PROGRAM_PARAM = "program"
 
 const CHANGED_EVENT = "tedo:program-link-changed"
-// Program ids are GUIDs (every mock file name, the API's Guid route). The
-// param is untrusted input: nothing else may reach a fetch path.
-const PROGRAM_ID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i
-
-export const isProgramId = (value: string) => PROGRAM_ID.test(value)
 
 const readParam = () => new URLSearchParams(window.location.search).get(PROGRAM_PARAM)
 

@@ -395,7 +395,18 @@
   },
   "metadata": {
     "title": "Tedo — University Programs Search",
-    "description": "A system to search, standardize and compare training programs of Vietnamese universities"
+    "description": "A system to search, standardize and compare training programs of Vietnamese universities",
+    "programsTitle": "Program catalog",
+    "analyticsTitle": "University analytics",
+    "compareTitle": "Compare programs",
+    "roadmapTitle": "Course roadmap",
+    "materialsTitle": "Materials library",
+    "chatTitle": "Experimental AI assistant"
+  },
+  "programPage": {
+    "title": "{name} — {university}",
+    "snapshotDate": "Snapshot date",
+    "openInList": "See this program's admissions, reference evaluation and documents"
   },
   "wishlist": {
     "wishlistTitle": "Wishlist",

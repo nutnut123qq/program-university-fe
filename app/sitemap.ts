@@ -1,7 +1,6 @@
 import type { MetadataRoute } from "next"
-
-const SITE_URL =
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://program-university-fe.vercel.app"
+import { listProgramIds, snapshotGeneratedAt } from "@/lib/program-snapshot"
+import { SITE_URL } from "@/lib/seo"
 
 const LOCALES = ["vi", "en"]
 const PAGES = [
@@ -14,8 +13,9 @@ const PAGES = [
     "/analytics",
 ]
 
-export default function sitemap(): MetadataRoute.Sitemap {
-    return LOCALES.flatMap((locale) =>
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+    const [ids, generatedAt] = await Promise.all([listProgramIds(), snapshotGeneratedAt()])
+    const pages = LOCALES.flatMap((locale) =>
         PAGES.map((page) => ({
             url: `${SITE_URL}/${locale}${page}`,
             lastModified: new Date(),
@@ -23,4 +23,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: page === "" ? 1 : 0.8,
         }))
     )
+    // One page per snapshot program (v2.52); it changes only with the snapshot.
+    const programs = LOCALES.flatMap((locale) =>
+        ids.map((id) => ({
+            url: `${SITE_URL}/${locale}/programs/${id}`,
+            ...(generatedAt ? { lastModified: new Date(generatedAt) } : {}),
+            changeFrequency: "weekly" as const,
+            priority: 0.6,
+        }))
+    )
+    return [...pages, ...programs]
 }

@@ -4,6 +4,8 @@ import { getTranslations } from "next-intl/server"
 import "./globals.css"
 import React, { PropsWithChildren } from "react"
 import { cn } from "@/lib/utils"
+import { routing } from "@/i18n/routing"
+import { SITE_URL } from "@/lib/seo"
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -13,8 +15,11 @@ const figtree = Figtree({
 })
 
 export async function generateMetadata(): Promise<Metadata> {
-    const t = await getTranslations("metadata")
+    // Explicit locale, no request headers: an on-demand static render (a program
+    // page's 404) must not turn dynamic. [locale]/layout sets the locale's own.
+    const t = await getTranslations({ locale: routing.defaultLocale, namespace: "metadata" })
     return {
+        metadataBase: new URL(SITE_URL),
         title: t("title"),
         description: t("description"),
     }
