@@ -2,6 +2,7 @@ import {
     AdmissionData,
     Curriculum,
     Program,
+    ProgramSummary,
     ProgramsResponse,
     University,
     PagedResult,
@@ -28,6 +29,8 @@ const mockRawDocumentsCache = new Map<string, RawDocument[]>()
 const mockSyllabusesCache = new Map<string, SyllabusDetail | null>()
 const mockRoadmapsCache = new Map<string, SubjectRoadmap | null>()
 const mockAdmissionsCache = new Map<string, AdmissionData | null>()
+// One shared promise: every keystroke of a first search waits on the same request.
+let mockSearchIndexPromise: Promise<ProgramSummary[]> | null = null
 
 async function loadMockIndex() {
     if (mockProgramsIndexCache) return mockProgramsIndexCache
@@ -139,6 +142,29 @@ async function loadMockRawDocuments(programId: string): Promise<RawDocument[]> {
     return data
 }
 
+// Compact list index (v2.50, scripts/build-search-index.mjs): one row per program in
+// chunk order with only the fields the list reads; `values[field]` decodes the
+// dictionary-coded columns. ~0.9 MB in one request instead of every chunk.
+function loadMockSearchIndex(): Promise<ProgramSummary[]> {
+    mockSearchIndexPromise ??= fetch("/mock/search-index.json")
+        .then(async (res) => {
+            if (!res.ok) throw new Error(`Failed to load mock search index: ${res.status}`)
+            const { fields, values, rows }: { fields: string[]; values: Record<string, unknown[]>; rows: unknown[][] } =
+                await res.json()
+            return rows.map(
+                (row) =>
+                    Object.fromEntries(
+                        fields.map((f, i) => [f, values[f] ? values[f][row[i] as number] : row[i]])
+                    ) as ProgramSummary
+            )
+        })
+        .catch((e) => {
+            mockSearchIndexPromise = null // the next search retries
+            throw e
+        })
+    return mockSearchIndexPromise
+}
+
 async function loadAllMockPrograms(): Promise<Program[]> {
     const index = await loadMockIndex()
     const chunks: Program[][] = await Promise.all(
@@ -147,10 +173,10 @@ async function loadAllMockPrograms(): Promise<Program[]> {
     return chunks.flat()
 }
 
-function applyFiltersAndSort(
-    items: Program[],
-    params?: Parameters<typeof fetchPrograms>[0]
-): ProgramsResponse {
+function applyFiltersAndSort<T extends ProgramSummary>(
+    items: T[],
+    params?: FetchProgramsParams
+): PagedResult<T> {
     let result = [...items]
 
     if (params?.search) {
@@ -220,7 +246,7 @@ function applyFiltersAndSort(
     }
 }
 
-export async function fetchPrograms(params?: {
+type FetchProgramsParams = {
     page?: number
     pageSize?: number
     search?: string
@@ -229,16 +255,35 @@ export async function fetchPrograms(params?: {
     cohort?: string
     sortBy?: string
     sortDesc?: boolean
-}): Promise<ProgramsResponse> {
-    if (USE_MOCK) {
-        const needsAll = !!(
-            params?.search ||
-            params?.degreeType ||
-            params?.universityId ||
-            (params?.cohort && params.cohort !== "all")
-        )
+}
 
-        if (!needsAll) {
+// A search or filter needs every program; plain paging reads only its chunk(s).
+const needsAllPrograms = (params?: FetchProgramsParams) =>
+    !!(
+        params?.search ||
+        params?.degreeType ||
+        params?.universityId ||
+        (params?.cohort && params.cohort !== "all")
+    )
+
+/** Index rows lack the detail fields; chunk, by-id and API programs carry them. */
+export const isFullProgram = (p: ProgramSummary): p is Program => "learningOutcomes" in p
+
+/**
+ * The program list's fetcher (v2.50). In mock mode a search/filter runs the same
+ * filter/sort over the compact search index instead of every chunk, so its items
+ * are ProgramSummary rows; everything else (plain paging, API mode) is
+ * fetchPrograms unchanged. The compare page keeps fetchPrograms: its search picks
+ * feed its detail cards.
+ */
+export async function fetchProgramList(params?: FetchProgramsParams): Promise<PagedResult<ProgramSummary>> {
+    if (USE_MOCK && needsAllPrograms(params)) return applyFiltersAndSort(await loadMockSearchIndex(), params)
+    return fetchPrograms(params)
+}
+
+export async function fetchPrograms(params?: FetchProgramsParams): Promise<ProgramsResponse> {
+    if (USE_MOCK) {
+        if (!needsAllPrograms(params)) {
             // Simple pagination/sort: load only the chunk(s) covering the requested page
             const page = params?.page ?? 1
             const pageSize = params?.pageSize ?? 20

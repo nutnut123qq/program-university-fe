@@ -23,16 +23,18 @@ import {
     fetchAdmissions,
     fetchDegreeTypes,
     fetchProgramById,
-    fetchPrograms,
+    fetchProgramList,
     fetchUniversities,
+    isFullProgram,
 } from "../api"
 import { isProgramId, setProgramParam, stackProgramLanding, useProgramParam } from "../programLink"
 import {
     AdmissionData,
     AdmissionScore,
+    PagedResult,
     Program,
     ProgramFilters as ProgramFiltersType,
-    ProgramsResponse,
+    ProgramSummary,
     University,
 } from "../types"
 import analyticsSnapshot from "@/lib/analytics-snapshot.json"
@@ -115,8 +117,10 @@ export function ProgramList() {
         if (!ownLinkEntry.current) ownLinkEntry.current = stackProgramLanding()
     }, [])
 
-    const openProgram = (program: Program) => {
-        setLastViewedProgram(program)
+    // A search-index row (v2.50) has no detail fields: hand over nothing, the
+    // ?program= fetch above loads the full program (programs-by-id).
+    const openProgram = (program: ProgramSummary) => {
+        setLastViewedProgram(isFullProgram(program) ? program : null)
         setProgramParam(program.id, "push")
         ownLinkEntry.current = true
     }
@@ -127,7 +131,7 @@ export function ProgramList() {
     }
 
     const getKey = useCallback(
-        (pageIndex: number, previousPageData: ProgramsResponse | null) => {
+        (pageIndex: number, previousPageData: PagedResult<ProgramSummary> | null) => {
             if (previousPageData && !previousPageData.hasNextPage) return null
             return ["programs", filters, pageIndex + 1] as const
         },
@@ -137,7 +141,7 @@ export function ProgramList() {
     const { data, error, isLoading, isValidating, size, setSize } = useSWRInfinite(
         getKey,
         ([, currentFilters, page]) =>
-            fetchPrograms({
+            fetchProgramList({
                 page,
                 pageSize: PAGE_SIZE,
                 search: currentFilters.search || undefined,
@@ -346,7 +350,7 @@ export function ProgramList() {
             ? ["programs-score-pool", filters, totalCount]
             : null,
         ([, f, count]) =>
-            fetchPrograms({
+            fetchProgramList({
                 page: 1,
                 pageSize: Math.max(Number(count) || PAGE_SIZE, PAGE_SIZE),
                 search: f.search || undefined,

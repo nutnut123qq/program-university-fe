@@ -47,6 +47,28 @@ export interface Program {
     electiveGroups?: ElectiveGroup[]
 }
 
+/**
+ * A program-list row (v2.50): only what the list's search/filters/sort and
+ * ProgramCard read — in mock mode a row of /mock/search-index.json, whose
+ * description may be cut for the card. The detail dialog loads the full Program.
+ */
+export type ProgramSummary = Pick<
+    Program,
+    | "id"
+    | "universityId"
+    | "universityName"
+    | "name"
+    | "code"
+    | "degreeType"
+    | "credits"
+    | "duration"
+    | "language"
+    | "sourceUrl"
+    | "description"
+    | "courseCount"
+    | "createdAt"
+>
+
 export interface Curriculum {
     id: string
     programId: string

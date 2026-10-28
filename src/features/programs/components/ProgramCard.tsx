@@ -9,7 +9,7 @@ import { buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { useTranslations } from "next-intl"
 import { WishlistButton } from "@/features/wishlist/WishlistButton"
-import { Program } from "../types"
+import { ProgramSummary } from "../types"
 
 /**
  * Optional score-filter hint (v1.3). Rendered only on score-filtered
@@ -35,9 +35,9 @@ export interface ScoreHint {
 }
 
 interface ProgramCardProps {
-    program: Program
+    program: ProgramSummary
     index: number
-    onViewDetail?: (program: Program) => void
+    onViewDetail?: (program: ProgramSummary) => void
     scoreHint?: ScoreHint
 }
 
