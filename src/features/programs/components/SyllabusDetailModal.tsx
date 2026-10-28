@@ -27,6 +27,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 import { fetchSyllabus, fetchRoadmap, fetchUniversityCode } from "../api"
+import { ROADMAP_UNIVERSITIES } from "../roadmapUniversities"
 import { Curriculum } from "../types"
 import { useModalFocus } from "@/hooks/useModalFocus"
 
@@ -97,6 +98,8 @@ export function SyllabusDetailModal({
     const sessions = syllabus?.sessions || []
     const materials = syllabus?.materials || []
 
+    // Only FPT's roadmap files carry the whole graph; elsewhere an empty list means "not recorded".
+    const fullGraph = !!(universityCode && ROADMAP_UNIVERSITIES.get(universityCode)?.fullGraph)
     const directPrereqs = roadmap?.directPrereqs || []
     const unlocks = roadmap?.unlocks || []
     const names = roadmap?.names || {}
@@ -514,7 +517,7 @@ export function SyllabusDetailModal({
 
                                                     {directPrereqs.length === 0 ? (
                                                         <div className="p-4 rounded-xl border border-dashed border-border bg-muted/20 text-xs text-muted-foreground text-center">
-                                                            {t("noPrereq")}
+                                                            {t(fullGraph ? "noPrereq" : "noPrereqRecorded")}
                                                         </div>
                                                     ) : (
                                                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
@@ -556,7 +559,7 @@ export function SyllabusDetailModal({
 
                                                     {unlocks.length === 0 ? (
                                                         <div className="p-4 rounded-xl border border-dashed border-border bg-muted/20 text-xs text-muted-foreground text-center">
-                                                            {t("noUnlocks")}
+                                                            {t(fullGraph ? "noUnlocks" : "noUnlocksRecorded")}
                                                         </div>
                                                     ) : (
                                                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">

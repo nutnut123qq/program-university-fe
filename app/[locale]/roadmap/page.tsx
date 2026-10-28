@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useMemo } from "react"
+import React, { useState, useMemo, useId } from "react"
 import { motion } from "framer-motion"
 import {
     GitFork,
@@ -24,9 +24,10 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
-import { fetchRoadmap, fetchRoadmapsIndex, fetchSyllabus } from "@/features/programs/api"
+import { fetchRoadmap, fetchRoadmapsIndex, fetchSyllabus, fetchUniversities } from "@/features/programs/api"
 import { SyllabusDetailModal } from "@/features/programs/components/SyllabusDetailModal"
-import { Curriculum } from "@/features/programs/types"
+import { DEFAULT_ROADMAP_UNIVERSITY, ROADMAP_UNIVERSITIES } from "@/features/programs/roadmapUniversities"
+import { Curriculum, University } from "@/features/programs/types"
 
 const POPULAR_SUBJECTS = [
     "SWE201c",
@@ -43,27 +44,61 @@ const POPULAR_SUBJECTS = [
     "NWC203c",
 ]
 
+const DEFAULT_CODE = "SWE201c"
+
 export default function RoadmapPage() {
     const t = useTranslations("roadmap")
     const tp = useTranslations("programs")
+    const pickerId = useId()
+    const [university, setUniversity] = useState(DEFAULT_ROADMAP_UNIVERSITY)
     const [searchQuery, setSearchQuery] = useState("")
-    const [selectedCode, setSelectedCode] = useState("SWE201c")
+    // null = the first code of the university's index (FPT keeps its curated default).
+    const [pickedCode, setPickedCode] = useState<string | null>(DEFAULT_CODE)
     const [syllabusModalCourse, setSyllabusModalCourse] = useState<Curriculum | null>(null)
 
-    // This explorer is scoped to the FPT crawl (popular subjects + index are FPT codes).
+    const { data: universities } = useSWR("universities", fetchUniversities)
+    // Picker options: universities with roadmap data first; the fixed list alone until universities.json loads.
+    const options = useMemo(() => {
+        const listed = (universities as Array<University & { code?: string | null }> | undefined)
+            ?.filter((u) => u.code)
+            .map((u) => ({ code: u.code as string, name: u.name }))
+        const all = listed?.length ? listed : [...ROADMAP_UNIVERSITIES.keys()].map((code) => ({ code, name: code }))
+        return {
+            withData: all.filter((u) => ROADMAP_UNIVERSITIES.has(u.code)),
+            withoutData: all.filter((u) => !ROADMAP_UNIVERSITIES.has(u.code)),
+        }
+    }, [universities])
+    // undefined = no roadmap data for this university: no roadmap/syllabus path is ever built for it.
+    const uniData = ROADMAP_UNIVERSITIES.get(university)
+    const isDefaultUni = university === DEFAULT_ROADMAP_UNIVERSITY
+    const universityName =
+        [...options.withData, ...options.withoutData].find((u) => u.code === university)?.name ?? university
+    const describeRelations = !uniData?.fullGraph
+
     const { data: indexList } = useSWR(
-        ["roadmaps-index", "FPT"],
-        () => fetchRoadmapsIndex("FPT")
+        uniData ? ["roadmaps-index", university] : null,
+        () => fetchRoadmapsIndex(university)
     )
+    const selectedCode = pickedCode ?? indexList?.[0] ?? ""
     const { data: currentRoadmap, isLoading: isRoadmapLoading } = useSWR(
-        selectedCode ? ["roadmap", "FPT", selectedCode] : null,
-        () => fetchRoadmap("FPT", selectedCode)
+        uniData && selectedCode ? ["roadmap", university, selectedCode] : null,
+        () => fetchRoadmap(university, selectedCode)
     )
     const { data: currentSyllabus } = useSWR(
-        // Roadmaps come from the FPT crawl, so their syllabi live under FPT.
-        selectedCode ? ["syllabus", "FPT", selectedCode] : null,
-        () => fetchSyllabus("FPT", selectedCode)
+        // Syllabi exist only for some universities; never request one that does not exist.
+        uniData?.syllabus && selectedCode ? ["syllabus", university, selectedCode] : null,
+        () => fetchSyllabus(university, selectedCode)
     )
+    const hasSyllabus = !!uniData?.syllabus
+    const isFlowLoading = isRoadmapLoading || (!!uniData && !selectedCode && indexList === undefined)
+
+    const selectUniversity = (code: string) => {
+        // Only a code the picker offers; ROADMAP_UNIVERSITIES then decides whether any path is built.
+        if (![...options.withData, ...options.withoutData].some((u) => u.code === code)) return
+        setUniversity(code)
+        setPickedCode(code === DEFAULT_ROADMAP_UNIVERSITY ? DEFAULT_CODE : null)
+        setSearchQuery("")
+    }
 
     // Autocomplete suggestions
     const suggestions = useMemo(() => {
@@ -73,7 +108,7 @@ export default function RoadmapPage() {
     }, [searchQuery, indexList])
 
     const handleSelectCode = (code: string) => {
-        setSelectedCode(code)
+        setPickedCode(code)
         setSearchQuery("")
     }
 
@@ -81,7 +116,7 @@ export default function RoadmapPage() {
         setSyllabusModalCourse({
             id: code,
             programId: "roadmap",
-            programName: "FPT Roadmap",
+            programName: `${university} Roadmap`,
             year: 2026,
             courseName: name || currentRoadmap?.names?.[code] || code,
             courseCode: code,
@@ -122,12 +157,42 @@ export default function RoadmapPage() {
                 </p>
             </motion.section>
 
-            {/* Search and Popular Subject Chips */}
+            {/* University picker, search and popular subject chips */}
             <div className="max-w-2xl mx-auto space-y-3">
+                <div className="flex items-center gap-2">
+                    <label htmlFor={pickerId} className="text-xs font-semibold text-muted-foreground shrink-0">
+                        {t("universityLabel")}
+                    </label>
+                    <select
+                        id={pickerId}
+                        value={university}
+                        onChange={(e) => selectUniversity(e.target.value)}
+                        className="flex-1 min-w-0 h-10 rounded-xl border border-border bg-card px-3 text-sm font-medium shadow-sm focus:outline-none focus:ring-1 focus:ring-primary"
+                    >
+                        <optgroup label={t("universitiesWithData")}>
+                            {options.withData.map((u) => (
+                                <option key={u.code} value={u.code}>
+                                    {u.name === u.code ? u.code : `${u.name} (${u.code})`}
+                                </option>
+                            ))}
+                        </optgroup>
+                        {options.withoutData.length > 0 && (
+                            <optgroup label={t("universitiesWithoutData")}>
+                                {options.withoutData.map((u) => (
+                                    <option key={u.code} value={u.code}>
+                                        {`${u.name} (${u.code})`}
+                                    </option>
+                                ))}
+                            </optgroup>
+                        )}
+                    </select>
+                </div>
+
+                {uniData && (
                 <div className="relative">
                     <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                     <Input
-                        placeholder={t("searchPlaceholder")}
+                        placeholder={isDefaultUni ? t("searchPlaceholder") : t("searchPlaceholderCode")}
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
                         className="pl-10 pr-10 h-12 text-sm bg-card border-border shadow-sm rounded-2xl focus-visible:ring-1 focus-visible:ring-primary"
@@ -159,8 +224,10 @@ export default function RoadmapPage() {
                         </div>
                     )}
                 </div>
+                )}
 
-                {/* Popular chips */}
+                {/* Popular chips: a hand-picked FPT list, so only for FPT */}
+                {isDefaultUni && (
                 <div className="flex flex-wrap items-center justify-center gap-1.5 text-xs">
                     <span className="text-muted-foreground font-medium mr-1">{t("popularSubjects")}</span>
                     {POPULAR_SUBJECTS.map((code) => (
@@ -177,8 +244,21 @@ export default function RoadmapPage() {
                         </button>
                     ))}
                 </div>
+                )}
             </div>
 
+            {!uniData ? (
+                <div className="p-12 rounded-3xl border border-dashed border-border text-center space-y-3 bg-muted/10">
+                    <HelpCircle className="w-10 h-10 text-muted-foreground/50 mx-auto" />
+                    <h2 className="font-bold text-base text-foreground">
+                        {t("noDataTitle", { university: universityName })}
+                    </h2>
+                    <p className="text-xs text-muted-foreground max-w-sm mx-auto">
+                        {t("noDataHint", { list: options.withData.map((u) => u.code).join(", ") })}
+                    </p>
+                </div>
+            ) : (
+            <>
             {/* Target Subject Active Banner */}
             <Card className="border-border bg-card/80 backdrop-blur-sm shadow-sm overflow-hidden rounded-2xl">
                 <CardContent className="p-6">
@@ -209,6 +289,7 @@ export default function RoadmapPage() {
                             )}
                         </div>
 
+                        {hasSyllabus ? (
                         <div className="flex items-center gap-2 shrink-0">
                             <Button
                                 onClick={() => openSyllabusFor(selectedCode, currentRoadmap?.subjectName)}
@@ -218,6 +299,11 @@ export default function RoadmapPage() {
                                 <span>{t("viewSyllabus")}</span>
                             </Button>
                         </div>
+                        ) : (
+                            <p className="text-xs text-muted-foreground md:max-w-[16rem] md:text-right">
+                                {t("noSyllabusNote", { university: universityName })}
+                            </p>
+                        )}
                     </div>
                 </CardContent>
             </Card>
@@ -230,16 +316,16 @@ export default function RoadmapPage() {
                         <span>{t("flowTitle")}</span>
                     </h3>
                     <span className="text-xs text-muted-foreground font-mono font-medium">
-                        {t("flowStats", { prereqs: directPrereqs.length, unlocks: unlocks.length })}
+                        {t(describeRelations ? "flowStatsData" : "flowStats", { prereqs: directPrereqs.length, unlocks: unlocks.length })}
                     </span>
                 </div>
 
-                {isRoadmapLoading ? (
+                {isFlowLoading ? (
                     <div className="flex flex-col items-center justify-center py-20 text-muted-foreground gap-3">
                         <Loader2 className="w-8 h-8 animate-spin text-primary" />
                         <p className="text-sm font-medium">{t("loading")}</p>
                     </div>
-                ) : !currentRoadmap && !isRoadmapLoading ? (
+                ) : !currentRoadmap ? (
                     <div className="p-12 rounded-3xl border border-dashed border-border text-center space-y-3 bg-muted/10">
                         <HelpCircle className="w-10 h-10 text-muted-foreground/50 mx-auto" />
                         <h4 className="font-bold text-base text-foreground">{t("emptyTitle")}</h4>
@@ -250,7 +336,7 @@ export default function RoadmapPage() {
                 ) : (
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
                         {/* 1. Môn Tiên Quyết (Prerequisites) */}
-                        <div className="space-y-3 flex flex-col h-full">
+                        <div className="space-y-3 flex flex-col h-full" data-testid="roadmap-prereqs">
                             <div className="flex items-center gap-2 pb-2.5 border-b border-border">
                                 <ArrowLeft className="w-4 h-4 text-amber-500 shrink-0" />
                                 <h4 className="font-bold text-sm text-foreground">
@@ -264,8 +350,10 @@ export default function RoadmapPage() {
                             {directPrereqs.length === 0 ? (
                                 <div className="p-6 rounded-2xl border border-dashed border-border bg-muted/20 text-center text-xs text-muted-foreground space-y-1.5 flex-1 flex flex-col items-center justify-center">
                                     <Sparkles className="w-5 h-5 text-muted-foreground/50 mx-auto" />
-                                    <p className="font-bold text-foreground">{t("noPrereqTitle")}</p>
-                                    <p className="leading-relaxed">{t("noPrereqHint")}</p>
+                                    <p className="font-bold text-foreground">{t(describeRelations ? "prereqNotRecordedTitle" : "noPrereqTitle")}</p>
+                                    <p className="leading-relaxed">
+                                        {describeRelations ? t("prereqNotRecordedHint", { university: universityName }) : t("noPrereqHint")}
+                                    </p>
                                 </div>
                             ) : (
                                 <div className="space-y-2.5 flex-1">
@@ -296,6 +384,7 @@ export default function RoadmapPage() {
                                                         <RotateCcw className="w-3 h-3" />
                                                         {t("changeFocus")}
                                                     </Button>
+                                                    {hasSyllabus && (
                                                     <Button
                                                         variant="outline"
                                                         size="sm"
@@ -304,6 +393,7 @@ export default function RoadmapPage() {
                                                     >
                                                         {t("syllabus")} <ChevronRight className="w-3 h-3" />
                                                     </Button>
+                                                    )}
                                                 </div>
                                             </CardContent>
                                         </Card>
@@ -341,6 +431,7 @@ export default function RoadmapPage() {
                                         </p>
                                     )}
 
+                                    {hasSyllabus && (
                                     <Button
                                         onClick={() => openSyllabusFor(selectedCode, currentRoadmap?.subjectName)}
                                         className="w-full gap-2 rounded-xl text-xs font-bold h-10 shadow-sm"
@@ -348,12 +439,13 @@ export default function RoadmapPage() {
                                         <BookOpen className="w-4 h-4" />
                                         <span>{t("viewScores")}</span>
                                     </Button>
+                                    )}
                                 </CardContent>
                             </Card>
                         </div>
 
                         {/* 3. Môn Được Mở Khóa Tiếp Theo (Unlocks) */}
-                        <div className="space-y-3 flex flex-col h-full">
+                        <div className="space-y-3 flex flex-col h-full" data-testid="roadmap-unlocks">
                             <div className="flex items-center gap-2 pb-2.5 border-b border-border">
                                 <ArrowRight className="w-4 h-4 text-emerald-500 shrink-0" />
                                 <h4 className="font-bold text-sm text-foreground">
@@ -367,8 +459,10 @@ export default function RoadmapPage() {
                             {unlocks.length === 0 ? (
                                 <div className="p-6 rounded-2xl border border-dashed border-border bg-muted/20 text-center text-xs text-muted-foreground space-y-1.5 flex-1 flex flex-col items-center justify-center">
                                     <GraduationCap className="w-5 h-5 text-muted-foreground/50 mx-auto" />
-                                    <p className="font-bold text-foreground">{t("terminalTitle")}</p>
-                                    <p className="leading-relaxed">{t("terminalHint")}</p>
+                                    <p className="font-bold text-foreground">{t(describeRelations ? "unlockNotRecordedTitle" : "terminalTitle")}</p>
+                                    <p className="leading-relaxed">
+                                        {describeRelations ? t("unlockNotRecordedHint", { university: universityName }) : t("terminalHint")}
+                                    </p>
                                 </div>
                             ) : (
                                 <div className="space-y-2.5 max-h-[600px] overflow-y-auto pr-1 flex-1">
@@ -399,6 +493,7 @@ export default function RoadmapPage() {
                                                         <RotateCcw className="w-3 h-3" />
                                                         {t("changeFocus")}
                                                     </Button>
+                                                    {hasSyllabus && (
                                                     <Button
                                                         variant="outline"
                                                         size="sm"
@@ -407,6 +502,7 @@ export default function RoadmapPage() {
                                                     >
                                                         {t("syllabus")} <ChevronRight className="w-3 h-3" />
                                                     </Button>
+                                                    )}
                                                 </div>
                                             </CardContent>
                                         </Card>
@@ -417,11 +513,13 @@ export default function RoadmapPage() {
                     </div>
                 )}
             </div>
+            </>
+            )}
 
             {/* Syllabus Modal */}
             <SyllabusDetailModal
                 course={syllabusModalCourse}
-                universityCode="FPT"
+                universityCode={university}
                 open={!!syllabusModalCourse}
                 onClose={() => setSyllabusModalCourse(null)}
                 onSelectCourseCode={(code) => {
