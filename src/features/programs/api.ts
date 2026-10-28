@@ -11,8 +11,11 @@ import {
     SubjectRoadmap,
     SubjectMaterialSummary,
 } from "./types"
+import { isProgramId } from "./programLink"
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001/api"
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5100/api"
+// The API's ProgramFilterDto.PageSize is [Range(1, 1000)]: a larger ask is served page by page.
+const API_MAX_PAGE_SIZE = 1000
 const isProduction = process.env.NODE_ENV === "production"
 const USE_MOCK = isProduction
     ? process.env.NEXT_PUBLIC_USE_MOCK === "true"
@@ -326,6 +329,37 @@ export async function fetchPrograms(params?: FetchProgramsParams): Promise<Progr
         return applyFiltersAndSort(all, params)
     }
 
+    const page = params?.page ?? 1
+    const pageSize = params?.pageSize ?? 20
+    if (pageSize <= API_MAX_PAGE_SIZE) return fetchApiPrograms(params)
+
+    // The score-filter pool and the compare search ask for the whole catalog:
+    // assemble the asked page from API pages of the largest allowed size.
+    const start = (page - 1) * pageSize
+    let apiPage = Math.floor(start / API_MAX_PAGE_SIZE) + 1
+    const skip = start - (apiPage - 1) * API_MAX_PAGE_SIZE
+    const rows: Program[] = []
+    let totalCount = 0
+    for (;;) {
+        const res = await fetchApiPrograms({ ...params, page: apiPage, pageSize: API_MAX_PAGE_SIZE })
+        totalCount = res.totalCount
+        rows.push(...res.items)
+        if (rows.length >= skip + pageSize || !res.hasNextPage || res.items.length === 0) break
+        apiPage++
+    }
+    const totalPages = Math.max(1, Math.ceil(totalCount / pageSize))
+    return {
+        items: rows.slice(skip, skip + pageSize),
+        totalCount,
+        page,
+        pageSize,
+        totalPages,
+        hasNextPage: page < totalPages,
+        hasPreviousPage: page > 1,
+    }
+}
+
+async function fetchApiPrograms(params?: FetchProgramsParams): Promise<ProgramsResponse> {
     const query = new URLSearchParams()
 
     if (params?.page) query.set("page", String(params.page))
@@ -333,6 +367,9 @@ export async function fetchPrograms(params?: FetchProgramsParams): Promise<Progr
     if (params?.search) query.set("search", params.search)
     if (params?.degreeType) query.set("degreeType", params.degreeType)
     if (params?.universityId) query.set("universityId", params.universityId)
+    if (params?.cohort && params.cohort !== "all") query.set("cohort", params.cohort)
+    // The catalog is the active programs (the mock export holds only those).
+    query.set("isActive", "true")
 
     if (params?.sortBy) {
         query.set("sortBy", params.sortBy)
@@ -380,6 +417,9 @@ export async function fetchProgramById(id: string): Promise<Program | null> {
         return loadMockProgramById(id)
     }
 
+    // Ids can come from a URL or localStorage: only a GUID may reach the API —
+    // "." or "degree-types" would hit other routes (v2.43 cold-check).
+    if (!isProgramId(id)) return null
     const res = await fetch(`${API_BASE_URL}/programs/${encodeURIComponent(id)}`)
     if (!res.ok) {
         if (res.status === 404) return null
@@ -394,6 +434,7 @@ export async function fetchCurricula(programId: string): Promise<Curriculum[]> {
         return [...courses].sort((a, b) => a.courseName.localeCompare(b.courseName))
     }
 
+    if (!isProgramId(programId)) return []
     const res = await fetch(`${API_BASE_URL}/curricula/program/${programId}`)
     if (!res.ok) {
         throw new Error(`Failed to fetch curricula: ${res.status}`)
@@ -406,6 +447,7 @@ export async function fetchRawDocuments(programId: string): Promise<RawDocument[
         return loadMockRawDocuments(programId)
     }
 
+    if (!isProgramId(programId)) return []
     const res = await fetch(`${API_BASE_URL}/rawdocuments?programId=${programId}&pageSize=1000`)
     if (!res.ok) {
         throw new Error(`Failed to fetch raw documents: ${res.status}`)
@@ -428,6 +470,8 @@ export async function fetchRawDocumentText(documentId: string): Promise<string> 
         return "[Mock] Nội dung văn bản thô không có sẵn trong chế độ tĩnh (mock)."
     }
 
+    // Document ids are GUIDs too.
+    if (!isProgramId(documentId)) throw new Error("Invalid raw document id")
     const res = await fetch(`${API_BASE_URL}/rawdocuments/${documentId}/text`)
     if (!res.ok) {
         throw new Error(`Failed to fetch raw document text: ${res.status}`)

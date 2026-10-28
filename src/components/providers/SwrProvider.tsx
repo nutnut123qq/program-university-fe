@@ -3,7 +3,7 @@
 import { SWRConfig } from "swr"
 import { ReactNode } from "react"
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5001/api"
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5100/api"
 
 export function SwrProvider({ children }: { children: ReactNode }) {
     return (
