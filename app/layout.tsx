@@ -6,6 +6,7 @@ import React, { PropsWithChildren } from "react"
 import { cn } from "@/lib/utils"
 import { routing } from "@/i18n/routing"
 import { SITE_URL } from "@/lib/seo"
+import { LocaleHtml } from "./LocaleHtml"
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -27,11 +28,11 @@ export async function generateMetadata(): Promise<Metadata> {
 
 const Layout = ({ children }: PropsWithChildren) => {
     return (
-        <html suppressHydrationWarning className={cn("font-sans", geist.variable)}>
+        <LocaleHtml suppressHydrationWarning className={cn("font-sans", geist.variable)}>
             <body className={`${figtree.className} antialiased`}>
                 {children}
             </body>
-        </html>
+        </LocaleHtml>
     )
 }
 

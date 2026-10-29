@@ -2,7 +2,7 @@
  * Server-side reads of the published snapshot (public/mock) for the program
  * page and the sitemap (v2.52). Same data the client reads in mock mode.
  */
-import { readdir, readFile } from "fs/promises"
+import { readFile } from "fs/promises"
 import path from "path"
 import { cache } from "react"
 import { isProgramId } from "@/features/programs/programId"
@@ -43,17 +43,20 @@ export async function snapshotGeneratedAt(): Promise<string | null> {
     return index?.generatedAt ?? null
 }
 
-/** Every program id that has a snapshot file, sorted. */
-export async function listProgramIds(): Promise<string[]> {
-    const files = await readdir(BY_ID_DIR)
-    return files
-        .filter((f) => f.endsWith(".json") && isProgramId(f.slice(0, -5)))
-        .map((f) => f.slice(0, -5))
-        .sort()
-}
+const VN_DATE = new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Asia/Ho_Chi_Minh",
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+})
 
-/** DD/MM/YYYY from the date part of an ISO timestamp (no time-zone shift on the server). */
+/**
+ * DD/MM/YYYY in Asia/Ho_Chi_Minh, so the crawl date (+07:00) and the snapshot date
+ * (UTC) are in one zone (v2.54); a timestamp without an offset is taken as written.
+ */
 export function isoDate(value: string | null | undefined): string | null {
     const m = value?.match(/^(\d{4})-(\d{2})-(\d{2})/)
-    return m ? `${m[3]}/${m[2]}/${m[1]}` : null
+    if (!value || !m) return null
+    const instant = /(Z|[+-]\d{2}:?\d{2})$/i.test(value) ? new Date(value) : null
+    return instant && !Number.isNaN(instant.getTime()) ? VN_DATE.format(instant) : `${m[3]}/${m[2]}/${m[1]}`
 }

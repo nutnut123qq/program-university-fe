@@ -5,9 +5,10 @@ import path from "path"
 /**
  * v2.45 — UI that misled students (audit V2: G3 temporary, G4, G13).
  *
- * - G3: every university carries isPublic=true in the snapshot (FPT, Duy Tân,
- *   HUTECH are private), so the public/private filter is removed until the
- *   data is right; a stale URL/state must not filter.
+ * - G3: every university carried isPublic=true in the snapshot (FPT, Duy Tân,
+ *   HUTECH are private), so the public/private filter was removed until the
+ *   data was right; v2.54 sourced the data and brought the filter back
+ *   (its counts: v254-data-policy.spec.ts). A stale URL param must not filter.
  * - G4: the GPA tab suggested AI/Fullstack/Cyber "tracks" by substring match
  *   for every program (law included) and let a student grade only 15 courses.
  *   Now: no tracks, one grade row per course, grouped by semester.
@@ -30,8 +31,8 @@ const en = readJson(path.join(ROOT, "src", "messages", "en.json"))
 // The removed career-track titles ("Kỹ sư Trí tuệ Nhân tạo (AI / …)",
 // "Lập trình viên Fullstack", "Cybersecurity Specialist").
 const OLD_TRACKS = /\bAI\b|Fullstack|Cyber/
-// Labels of the removed university-type select (keys deleted in v2.45).
-const OLD_TYPE_LABELS = ["Tất cả loại hình", "Trường Công lập", "Trường Tư thục"]
+// Options of the university-type select (removed in v2.45, back in v2.54), "all" first.
+const TYPE_LABELS: string[] = [vi.programs.allUniversityTypes, vi.programs.publicUniversity, vi.programs.privateUniversity]
 
 type MockProgram = {
     id: string
@@ -115,10 +116,17 @@ test.describe("v2.45 — misleading UI quick fixes", () => {
         expect(empty).toBeTruthy()
     })
 
-    test("catalog filters: no university-type select, a stale type param does not filter", async ({ page }) => {
+    test("catalog filters: the university-type select starts at all types, a stale type param does not filter", async ({ page }) => {
         await page.goto("/vi?universityType=private&isPublic=false&type=private", { waitUntil: "domcontentloaded" })
         await expect(page.getByRole("button", { name: /Xem chi tiết/i }).first()).toBeVisible({ timeout: 30000 })
-        for (const label of OLD_TYPE_LABELS) await expect(page.getByRole("combobox", { name: label })).toHaveCount(0)
+        expect(TYPE_LABELS.every((l) => typeof l === "string" && l.length > 0)).toBe(true)
+        const typeSelect = page.getByRole("combobox", { name: TYPE_LABELS[0] })
+        await expect(typeSelect).toHaveCount(1)
+        await expect(typeSelect).toHaveText(TYPE_LABELS[0])
+        await typeSelect.click()
+        await expect(page.getByRole("listbox").getByRole("option")).toHaveText(TYPE_LABELS)
+        await page.keyboard.press("Escape")
+        await expect(page.getByRole("listbox")).toHaveCount(0)
         // The whole catalog is listed: "Hiển thị N / <total> chương trình đào tạo".
         const total = index.totalCount as number
         await expect(page.locator("text=/Hiển thị/i").first()).toContainText(

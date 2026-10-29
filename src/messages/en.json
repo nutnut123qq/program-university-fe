@@ -53,10 +53,6 @@
     "rawDocumentsTitle": "Raw Storage Snapshots",
     "rawDocumentsError": "Failed to load raw documents.",
     "noRawDocuments": "No raw documents found.",
-    "viewText": "View Text",
-    "hideText": "Hide Text",
-    "textError": "Failed to read document text.",
-    "emptyText": "Document text is empty.",
     "emptyTitle": "No programs found",
     "emptyDescription": "Try a different keyword or adjust the filters.",
     "loading": "Loading...",
@@ -236,7 +232,15 @@
     "trendScaleNote": "Each line is a separate scale/method series — not directly comparable.",
     "sameMajorElsewhereTitle": "This major at other universities",
     "sameMajorElsewhereNoData": "No cutoff data",
-    "wishlistOpen": "Wishlist ({count})"
+    "wishlistOpen": "Wishlist ({count})",
+    "notVerified": "Not verified",
+    "creditsNotVerified": "Credits: not verified",
+    "rawDocExcerptLabel": "Short excerpt — not the full text",
+    "rawDocSourceLink": "Original at the source: {domain}",
+    "rawDocNoPublicLink": "No public link to the original.",
+    "allUniversityTypes": "All Types",
+    "publicUniversity": "Public Universities",
+    "privateUniversity": "Private Universities"
   },
   "chat": {
     "title": "Experimental AI",
@@ -420,7 +424,8 @@
   "programPage": {
     "title": "{name} — {university}",
     "snapshotDate": "Snapshot date",
-    "openInList": "See this program's admissions, reference evaluation and documents"
+    "openInList": "See this program's admissions, reference evaluation and documents",
+    "notVerified": "Not verified"
   },
   "wishlist": {
     "wishlistTitle": "Wishlist",

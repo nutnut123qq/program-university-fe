@@ -32,6 +32,7 @@ type MockProgram = {
     id: string
     universityId: string
     universityName: string
+    universityIsPublic: boolean
     name: string
     code: string | null
     degreeType: string | null
@@ -48,9 +49,9 @@ const all: MockProgram[] = chunks.flatMap((c) => readJson(path.join(MOCK, "progr
 const universities: { id: string; name: string }[] = readJson(path.join(MOCK, "universities.json"))
 const degreeTypes: string[] = readJson(path.join(MOCK, "degree-types.json"))
 
-// What the list path reads (api.ts applyFiltersAndSort + ProgramCard).
+// What the list path reads (api.ts applyFiltersAndSort + ProgramCard; universityIsPublic = the type filter, back in v2.54).
 const LIST_FIELDS = [
-    "id", "universityId", "universityName", "name", "code", "degreeType", "credits",
+    "id", "universityId", "universityName", "universityIsPublic", "name", "code", "degreeType", "credits",
     "duration", "language", "sourceUrl", "description", "courseCount", "createdAt",
 ] as const
 const BUDGET_REQUESTS = 3

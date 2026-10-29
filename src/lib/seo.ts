@@ -5,11 +5,14 @@ import { routing } from "@/i18n/routing"
 export const SITE_URL =
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://program-university-fe.vercel.app"
 
-/** canonical = this locale's URL of `path`, hreflang = every locale's (resolved against the root metadataBase). */
+/** canonical = this locale's URL of `path`, hreflang = every locale's + x-default = the default locale's (resolved against the root metadataBase). */
 export function alternates(locale: string, path: string): Metadata["alternates"] {
     return {
         canonical: `/${locale}${path}`,
-        languages: Object.fromEntries(routing.locales.map((l) => [l, `/${l}${path}`])),
+        languages: {
+            ...Object.fromEntries(routing.locales.map((l) => [l, `/${l}${path}`])),
+            "x-default": `/${routing.defaultLocale}${path}`,
+        },
     }
 }
 

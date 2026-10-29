@@ -34,10 +34,10 @@ const MOCK = path.join(ROOT, "public", "mock")
 const OUT = path.join(MOCK, "search-index.json")
 
 const FIELDS = [
-    "id", "universityId", "universityName", "name", "code", "degreeType", "credits",
+    "id", "universityId", "universityName", "universityIsPublic", "name", "code", "degreeType", "credits",
     "duration", "language", "sourceUrl", "description", "courseCount", "createdAt",
 ]
-const DICTIONARY = ["universityId", "universityName", "degreeType", "duration", "language"]
+const DICTIONARY = ["universityId", "universityName", "universityIsPublic", "degreeType", "duration", "language"]
 const DESCRIPTION_CUT = 250
 
 // Cut at the first whitespace at or after DESCRIPTION_CUT, so the kept text ends with

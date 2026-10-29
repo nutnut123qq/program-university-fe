@@ -27,7 +27,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 import { fetchSyllabus, fetchRoadmap, fetchUniversityCode } from "../api"
-import { ROADMAP_UNIVERSITIES } from "../roadmapUniversities"
+import { ROADMAP_UNIVERSITIES, relationCodes, withoutFiller } from "../roadmapUniversities"
 import { Curriculum } from "../types"
 import { useModalFocus } from "@/hooks/useModalFocus"
 
@@ -92,15 +92,17 @@ export function SyllabusDetailModal({
 
     if (!open || !course) return null
 
-    const info = syllabus?.info
-    const clos = syllabus?.clos || []
-    const assessments = syllabus?.assessments || []
-    const sessions = syllabus?.sessions || []
-    const materials = syllabus?.materials || []
+    // Fields with one value in every file of the university are filler, not data (blanked for display).
+    const shown = withoutFiller(universityCode, syllabus)
+    const info = shown?.info
+    const clos = shown?.clos || []
+    const assessments = shown?.assessments || []
+    const sessions = shown?.sessions || []
+    const materials = shown?.materials || []
 
     // Only FPT's roadmap files carry the whole graph; elsewhere an empty list means "not recorded".
     const fullGraph = !!(universityCode && ROADMAP_UNIVERSITIES.get(universityCode)?.fullGraph)
-    const directPrereqs = roadmap?.directPrereqs || []
+    const directPrereqs = relationCodes(roadmap?.directPrereqs)
     const unlocks = roadmap?.unlocks || []
     const names = roadmap?.names || {}
 
@@ -272,9 +274,11 @@ export function SyllabusDetailModal({
                                                     {t("totalWeight")} <strong className="text-foreground">{assessments.length > 0 ? `${totalWeight}%` : "N/A"}</strong>
                                                 </p>
                                             </div>
-                                            <Badge variant="outline" className="font-mono text-xs w-fit">
-                                                {t("scoringScale", { scale: info?.scoringScale || "10.0" })}
-                                            </Badge>
+                                            {info?.scoringScale && (
+                                                <Badge variant="outline" className="font-mono text-xs w-fit">
+                                                    {t("scoringScale", { scale: info.scoringScale })}
+                                                </Badge>
+                                            )}
                                         </div>
 
                                         {assessments.length === 0 ? (
@@ -418,6 +422,7 @@ export function SyllabusDetailModal({
                                                             <span className="font-mono font-extrabold text-xs text-primary px-2 py-0.5 rounded bg-primary/10">
                                                                 {t("sessionNo", { n: s.sessionNo })}
                                                             </span>
+                                                            {s.learningTeachingType && (
                                                             <Badge
                                                                 variant="outline"
                                                                 className={`text-[10px] font-mono ${
@@ -428,6 +433,7 @@ export function SyllabusDetailModal({
                                                             >
                                                                 {s.learningTeachingType}
                                                             </Badge>
+                                                            )}
                                                         </div>
                                                         <p className="text-xs font-semibold text-foreground whitespace-pre-line leading-snug">
                                                             {s.topic}

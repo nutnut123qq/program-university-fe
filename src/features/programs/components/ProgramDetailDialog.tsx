@@ -12,8 +12,6 @@ import {
     Link as LinkIcon,
     FileText,
     AlertCircle,
-    Eye,
-    EyeOff,
     ExternalLink,
     FileSpreadsheet,
     FileJson,
@@ -29,7 +27,7 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 
-import { fetchAdmissions, fetchCurricula, fetchProgramById, fetchRawDocuments, fetchRawDocumentText, fetchUniversityCode } from "../api"
+import { fetchAdmissions, fetchCurricula, fetchProgramById, fetchRawDocuments, fetchUniversityCode } from "../api"
 import { AdmissionQuota, AdmissionScore, Curriculum, Program, RawDocument, TuitionRecord } from "../types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 import { PrerequisiteGraph } from "./PrerequisiteGraph"
@@ -93,6 +91,29 @@ function hostnameOf(url: string | null | undefined): string | null {
         return new URL(url).hostname.replace(/^www\./, "")
     } catch {
         return url
+    }
+}
+
+// v2.54: raw documents are shown as a short excerpt, never in full. The snapshot already
+// cuts extractedText to this; a longer value (older mock, API mode) is cut here the same way.
+const RAW_EXCERPT_MAX = 300
+
+function rawExcerpt(text: string | null | undefined): string | null {
+    const t = (text ?? "").replace(/\s+/g, " ").trim()
+    if (!t) return null
+    if (t.replace(/…$/, "").length <= RAW_EXCERPT_MAX) return t
+    const cut = t.slice(0, RAW_EXCERPT_MAX)
+    const end = cut.search(/\s\S*$/) // last word boundary inside the limit
+    return `${(end > 0 ? cut.slice(0, end) : cut).trimEnd()}…`
+}
+
+// Only http(s) links are rendered (no javascript:/data:/relative hrefs from the data).
+function httpUrl(url: string | null | undefined): URL | null {
+    try {
+        const u = new URL(url ?? "")
+        return u.protocol === "http:" || u.protocol === "https:" ? u : null
+    } catch {
+        return null
     }
 }
 
@@ -206,7 +227,6 @@ function CriterionItem({ title, score, description }: { title: string; score: nu
 export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDialogProps) {
     const t = useTranslations("programs")
     const [activeTab, setActiveTab] = useState<TabKey>("info")
-    const [viewingDocId, setViewingDocId] = useState<string | null>(null)
     const [courseSearch, setCourseSearch] = useState("")
     const [semesterFilter, setSemesterFilter] = useState<string>("all")
     const [selectedCourseForSyllabus, setSelectedCourseForSyllabus] = useState<Curriculum | null>(null)
@@ -246,11 +266,6 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     const { data: rawDocs, error: rawError, isLoading: rawLoading } = useSWR(
         program ? ["raw-documents", program.id] : null,
         () => (program ? fetchRawDocuments(program.id) : [])
-    )
-
-    const { data: docText, error: textError, isLoading: textLoading } = useSWR(
-        viewingDocId ? ["raw-document-text", viewingDocId] : null,
-        () => (viewingDocId ? fetchRawDocumentText(viewingDocId) : null)
     )
 
     // Admission snapshot (SPEC-ADMISSION-DATA §4): lazy fetch when the dialog
@@ -627,11 +642,10 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 CN: {specialization}
                                             </Badge>
                                         )}
-                                        {program.credits && (
-                                            <Badge variant="outline" className="text-xs font-semibold">
-                                                {t("credits", { count: program.credits })}
-                                            </Badge>
-                                        )}
+                                        {/* null credits (missing or implausible for the degree, v2.54) = honest text, never "0" */}
+                                        <Badge variant="outline" className={`text-xs ${program.credits ? "font-semibold" : "font-normal text-muted-foreground"}`}>
+                                            {program.credits ? t("credits", { count: program.credits }) : t("creditsNotVerified")}
+                                        </Badge>
                                         {program.courseCount > 0 && (
                                             <Badge variant="outline" className="text-xs font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 border-emerald-500/20">
                                                 {t("courses", { count: program.courseCount })}
@@ -759,7 +773,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                     {program.code}
                                                 </MetadataItem>
                                                 <MetadataItem label={t("duration")}>
-                                                    {program.duration}
+                                                    {program.duration?.trim() || t("notVerified")}
                                                 </MetadataItem>
                                                 <MetadataItem label={t("tuition")}>
                                                     {program.tuition}
@@ -1126,75 +1140,56 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
 
                                         {rawDocs && rawDocs.length > 0 && (
                                             <div className="space-y-3">
-                                                {rawDocs.map((doc: RawDocument) => (
-                                                    <Card key={doc.id} className="overflow-hidden">
-                                                        <CardContent className="p-4 space-y-3">
-                                                            <div className="flex flex-wrap items-center gap-2">
-                                                                <Badge variant="secondary">{doc.docType}</Badge>
-                                                                {doc.status && (
-                                                                    <Badge variant="outline">{doc.status}</Badge>
-                                                                )}
-                                                                {doc.extractedTextLength !== null && (
-                                                                    <span className="text-xs text-muted-foreground">
-                                                                        {formatBytes(doc.extractedTextLength)} text
-                                                                    </span>
-                                                                )}
-                                                            </div>
-                                                            <a
-                                                                href={doc.url}
-                                                                target="_blank"
-                                                                rel="noopener noreferrer"
-                                                                className="text-sm text-primary hover:underline break-all flex items-center gap-1"
-                                                            >
-                                                                <LinkIcon className="h-3.5 w-3.5 shrink-0" />
-                                                                {doc.url}
-                                                            </a>
-                                                            <div className="pt-2 border-t flex justify-end">
-                                                                <Button
-                                                                    size="sm"
-                                                                    variant="outline"
-                                                                    onClick={() =>
-                                                                        setViewingDocId(
-                                                                            viewingDocId === doc.id ? null : doc.id
-                                                                        )
-                                                                    }
-                                                                    className="gap-1.5 text-xs"
-                                                                >
-                                                                    {viewingDocId === doc.id ? (
-                                                                        <>
-                                                                            <EyeOff className="h-3.5 w-3.5" />
-                                                                            {t("hideText")}
-                                                                        </>
-                                                                    ) : (
-                                                                        <>
-                                                                            <Eye className="h-3.5 w-3.5" />
-                                                                            {t("viewText")}
-                                                                        </>
+                                                {rawDocs.map((doc: RawDocument) => {
+                                                    const excerpt = rawExcerpt(doc.extractedText)
+                                                    const link = httpUrl(doc.url)
+                                                    return (
+                                                        <Card key={doc.id} data-testid="raw-doc" className="overflow-hidden">
+                                                            <CardContent className="p-4 space-y-3">
+                                                                <div className="flex flex-wrap items-center gap-2">
+                                                                    <Badge variant="secondary">{doc.docType}</Badge>
+                                                                    {doc.status && (
+                                                                        <Badge variant="outline">{doc.status}</Badge>
                                                                     )}
-                                                                </Button>
-                                                            </div>
-                                                            {viewingDocId === doc.id && (
-                                                                <div className="pt-3 border-t">
-                                                                    {textLoading && (
-                                                                        <div className="flex items-center justify-center py-6">
-                                                                            <Loader2 className="h-4 w-4 animate-spin text-muted-foreground" />
-                                                                        </div>
-                                                                    )}
-                                                                    {textError && (
-                                                                        <p className="text-xs text-destructive">
-                                                                            {t("textError")}
-                                                                        </p>
-                                                                    )}
-                                                                    {docText !== undefined && docText !== null && (
-                                                                        <div className="max-h-60 overflow-y-auto rounded bg-muted/50 p-3 text-xs font-mono whitespace-pre-wrap">
-                                                                            {docText || t("emptyText")}
-                                                                        </div>
+                                                                    {doc.extractedTextLength !== null && (
+                                                                        <span className="text-xs text-muted-foreground">
+                                                                            {formatBytes(doc.extractedTextLength)} text
+                                                                        </span>
                                                                     )}
                                                                 </div>
-                                                            )}
-                                                        </CardContent>
-                                                    </Card>
-                                                ))}
+                                                                {excerpt && (
+                                                                    <figure className="space-y-1">
+                                                                        <figcaption className="text-[11px] font-semibold text-muted-foreground">
+                                                                            {t("rawDocExcerptLabel")}
+                                                                        </figcaption>
+                                                                        <blockquote
+                                                                            data-testid="raw-doc-excerpt"
+                                                                            className="rounded bg-muted/50 p-3 text-xs wrap-anywhere"
+                                                                        >
+                                                                            {excerpt}
+                                                                        </blockquote>
+                                                                    </figure>
+                                                                )}
+                                                                {link ? (
+                                                                    <a
+                                                                        href={doc.url}
+                                                                        target="_blank"
+                                                                        rel="noopener noreferrer"
+                                                                        className="text-sm text-primary hover:underline break-all flex items-center gap-1"
+                                                                    >
+                                                                        <LinkIcon className="h-3.5 w-3.5 shrink-0" />
+                                                                        {t("rawDocSourceLink", { domain: link.hostname.replace(/^www\./, "") })}
+                                                                        <ExternalLink className="h-3 w-3 shrink-0" />
+                                                                    </a>
+                                                                ) : (
+                                                                    <p className="text-xs text-muted-foreground italic">
+                                                                        {t("rawDocNoPublicLink")}
+                                                                    </p>
+                                                                )}
+                                                            </CardContent>
+                                                        </Card>
+                                                    )
+                                                })}
                                             </div>
                                         )}
                                     </div>

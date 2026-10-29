@@ -26,7 +26,7 @@ import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import { fetchRoadmap, fetchRoadmapsIndex, fetchSyllabus, fetchUniversities } from "@/features/programs/api"
 import { SyllabusDetailModal } from "@/features/programs/components/SyllabusDetailModal"
-import { DEFAULT_ROADMAP_UNIVERSITY, ROADMAP_UNIVERSITIES } from "@/features/programs/roadmapUniversities"
+import { DEFAULT_ROADMAP_UNIVERSITY, ROADMAP_UNIVERSITIES, relationCodes, withoutFiller } from "@/features/programs/roadmapUniversities"
 import { Curriculum, University } from "@/features/programs/types"
 
 const POPULAR_SUBJECTS = [
@@ -84,11 +84,12 @@ export default function RoadmapPage() {
         uniData && selectedCode ? ["roadmap", university, selectedCode] : null,
         () => fetchRoadmap(university, selectedCode)
     )
-    const { data: currentSyllabus } = useSWR(
+    const { data: syllabusFile } = useSWR(
         // Syllabi exist only for some universities; never request one that does not exist.
         uniData?.syllabus && selectedCode ? ["syllabus", university, selectedCode] : null,
         () => fetchSyllabus(university, selectedCode)
     )
+    const currentSyllabus = withoutFiller(university, syllabusFile)
     const hasSyllabus = !!uniData?.syllabus
     const isFlowLoading = isRoadmapLoading || (!!uniData && !selectedCode && indexList === undefined)
 
@@ -120,9 +121,10 @@ export default function RoadmapPage() {
             year: 2026,
             courseName: name || currentRoadmap?.names?.[code] || code,
             courseCode: code,
-            credits: 3,
+            // Not known here (a fixed number would be shown as every course's credits/semester).
+            credits: null,
             mandatory: true,
-            semester: 1,
+            semester: null,
             hoursTheory: null,
             hoursPractice: null,
             description: null,
@@ -132,7 +134,7 @@ export default function RoadmapPage() {
         })
     }
 
-    const directPrereqs = currentRoadmap?.directPrereqs || []
+    const directPrereqs = relationCodes(currentRoadmap?.directPrereqs)
     const unlocks = currentRoadmap?.unlocks || []
     const names = currentRoadmap?.names || {}
 

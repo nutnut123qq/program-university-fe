@@ -373,11 +373,11 @@ const ProgramComparisonInner = () => {
                                         </div>
                                         <div className="p-2.5 rounded-lg border bg-muted/20">
                                             <span className="text-muted-foreground block text-[11px]">{t("compareTotalCredits")}</span>
-                                            <span className={cn("font-semibold text-sm", SLOT_STYLES[i].text)}>{p.credits != null ? t("creditsShort", { count: p.credits }) : "N/A"}</span>
+                                            <span className={cn("font-semibold text-sm", SLOT_STYLES[i].text)}>{p.credits ? t("creditsShort", { count: p.credits }) : t("notVerified")}</span>
                                         </div>
                                         <div className="p-2.5 rounded-lg border bg-muted/20">
                                             <span className="text-muted-foreground block text-[11px]">{t("duration")}</span>
-                                            <span className="font-semibold">{p.duration || "N/A"}</span>
+                                            <span className="font-semibold">{p.duration?.trim() || t("notVerified")}</span>
                                         </div>
                                         <div className="p-2.5 rounded-lg border bg-muted/20">
                                             <span className="text-muted-foreground block text-[11px]">{t("slmRefScore")}</span>

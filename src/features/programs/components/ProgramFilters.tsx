@@ -1,11 +1,14 @@
 "use client"
 
+import * as React from "react"
 import { Search, X, RotateCcw } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Select, SelectItem } from "@/components/ui/select"
 import { useTranslations } from "next-intl"
 import { ProgramFilters as ProgramFiltersType, University } from "../types"
+
+type UniversityType = NonNullable<ProgramFiltersType["universityType"]>
 
 interface ProgramFiltersProps {
     filters: ProgramFiltersType
@@ -26,12 +29,21 @@ export function ProgramFilters({
 }: ProgramFiltersProps) {
     const t = useTranslations("programs")
 
-    // No public/private filter (v2.45): the snapshot marks every university
-    // isPublic=true (FPT, DTU, HUTECH are private) — restore it once the data is right.
+    // Public/private filter (back in v2.54): universities.json isPublic is sourced
+    // (FPT, DTU, HUTECH private — docs/_coord/round89/is_public_sources.md).
+    const universityType: UniversityType = filters.universityType ?? "all"
+
+    const visibleUniversities = React.useMemo(() => {
+        if (universityType === "all") return universities
+        const isPublic = universityType === "public"
+        return universities.filter((u) => u.isPublic === isPublic)
+    }, [universities, universityType])
+
     const hasActiveFilters =
         filters.search ||
         filters.degreeType !== "all" ||
         filters.universityId ||
+        universityType !== "all" ||
         (filters.cohort && filters.cohort !== "all")
 
     const handleClear = () => {
@@ -39,9 +51,23 @@ export function ProgramFilters({
             search: "",
             degreeType: "all",
             universityId: "",
+            universityType: "all",
             sortBy: "newest",
             cohort: "all",
         })
+    }
+
+    // A selected university of the other type is dropped, so the two filters never contradict.
+    const handleTypeChange = (value: UniversityType) => {
+        const next: ProgramFiltersType = { ...filters, universityType: value }
+        if (
+            filters.universityId &&
+            value !== "all" &&
+            !universities.some((u) => u.id === filters.universityId && u.isPublic === (value === "public"))
+        ) {
+            next.universityId = ""
+        }
+        onChange(next)
     }
 
     return (
@@ -68,7 +94,7 @@ export function ProgramFilters({
                     )}
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5">
                     <Select
                         value={filters.universityId}
                         onValueChange={(value) =>
@@ -78,11 +104,22 @@ export function ProgramFilters({
                         aria-label={t("allUniversities")}
                     >
                         <SelectItem value="">{t("allUniversities")}</SelectItem>
-                        {universities.map((uni) => (
+                        {visibleUniversities.map((uni) => (
                             <SelectItem key={uni.id} value={uni.id}>
                                 {uni.name}
                             </SelectItem>
                         ))}
+                    </Select>
+
+                    <Select
+                        value={universityType}
+                        onValueChange={(value) => handleTypeChange(value as UniversityType)}
+                        placeholder={t("allUniversityTypes")}
+                        aria-label={t("allUniversityTypes")}
+                    >
+                        <SelectItem value="all">{t("allUniversityTypes")}</SelectItem>
+                        <SelectItem value="public">{t("publicUniversity")}</SelectItem>
+                        <SelectItem value="private">{t("privateUniversity")}</SelectItem>
                     </Select>
 
                     <Select

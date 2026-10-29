@@ -57,6 +57,7 @@ export type ProgramSummary = Pick<
     | "id"
     | "universityId"
     | "universityName"
+    | "universityIsPublic"
     | "name"
     | "code"
     | "degreeType"
@@ -115,6 +116,7 @@ export interface RawDocument {
     crawledAt: string
     createdAt: string
     updatedAt: string
+    /** Published snapshot: a short excerpt (≤ ~300 chars + "…", v2.54), not the full text. */
     extractedText?: string | null
 }
 
@@ -122,6 +124,7 @@ export interface ProgramFilters {
     search: string
     degreeType: string
     universityId: string
+    universityType?: "all" | "public" | "private"
     sortBy: "newest" | "name" | "credits"
     cohort?: string
 }

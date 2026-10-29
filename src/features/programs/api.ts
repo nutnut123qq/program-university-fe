@@ -176,7 +176,8 @@ async function loadAllMockPrograms(): Promise<Program[]> {
     return chunks.flat()
 }
 
-function applyFiltersAndSort<T extends ProgramSummary>(
+// Exported for e2e/v254-documents-and-nulls.spec.ts (sort order checked on the mock rows).
+export function applyFiltersAndSort<T extends ProgramSummary>(
     items: T[],
     params?: FetchProgramsParams
 ): PagedResult<T> {
@@ -200,6 +201,11 @@ function applyFiltersAndSort<T extends ProgramSummary>(
         result = result.filter((p) => p.universityId === params.universityId)
     }
 
+    if (params?.universityType && params.universityType !== "all") {
+        const isPublic = params.universityType === "public"
+        result = result.filter((p) => p.universityIsPublic === isPublic)
+    }
+
     if (params?.cohort && params.cohort !== "all") {
         const c = params.cohort.toLowerCase()
         result = result.filter(
@@ -219,9 +225,9 @@ function applyFiltersAndSort<T extends ProgramSummary>(
                     ? b.name.localeCompare(a.name)
                     : a.name.localeCompare(b.name)
             case "credits":
-                return sortDesc
-                    ? (b.credits ?? 0) - (a.credits ?? 0)
-                    : (a.credits ?? 0) - (b.credits ?? 0)
+                // Null (missing / implausible, v2.54) sorts last in both directions — never as "0 credits".
+                if (a.credits == null || b.credits == null) return Number(a.credits == null) - Number(b.credits == null)
+                return sortDesc ? b.credits - a.credits : a.credits - b.credits
             case "createdat":
                 return sortDesc
                     ? new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
@@ -255,18 +261,22 @@ type FetchProgramsParams = {
     search?: string
     degreeType?: string
     universityId?: string
+    universityType?: string
     cohort?: string
     sortBy?: string
     sortDesc?: boolean
 }
 
-// A search or filter needs every program; plain paging reads only its chunk(s).
+// A search, filter or sort other than the chunks' own newest-first order needs every
+// program; plain newest-first paging reads only its chunk(s).
 const needsAllPrograms = (params?: FetchProgramsParams) =>
     !!(
         params?.search ||
         params?.degreeType ||
         params?.universityId ||
-        (params?.cohort && params.cohort !== "all")
+        (params?.universityType && params.universityType !== "all") ||
+        (params?.cohort && params.cohort !== "all") ||
+        (params?.sortBy && !(params.sortBy.toLowerCase() === "createdat" && params.sortDesc))
     )
 
 /** Index rows lack the detail fields; chunk, by-id and API programs carry them. */
@@ -367,6 +377,9 @@ async function fetchApiPrograms(params?: FetchProgramsParams): Promise<ProgramsR
     if (params?.search) query.set("search", params.search)
     if (params?.degreeType) query.set("degreeType", params.degreeType)
     if (params?.universityId) query.set("universityId", params.universityId)
+    if (params?.universityType && params.universityType !== "all") {
+        query.set("isPublic", params.universityType === "public" ? "true" : "false")
+    }
     if (params?.cohort && params.cohort !== "all") query.set("cohort", params.cohort)
     // The catalog is the active programs (the mock export holds only those).
     query.set("isActive", "true")
@@ -454,29 +467,6 @@ export async function fetchRawDocuments(programId: string): Promise<RawDocument[
     }
     const data: PagedResult<RawDocument> = await res.json()
     return data.items
-}
-
-export async function fetchRawDocumentText(documentId: string): Promise<string> {
-    if (USE_MOCK) {
-        for (const docs of mockRawDocumentsCache.values()) {
-            const doc = docs.find((d) => d.id === documentId)
-            if (doc) {
-                if (doc.extractedText) {
-                    return doc.extractedText
-                }
-                return "[Mock] Nội dung văn bản thô chưa được trích xuất cho tài liệu này."
-            }
-        }
-        return "[Mock] Nội dung văn bản thô không có sẵn trong chế độ tĩnh (mock)."
-    }
-
-    // Document ids are GUIDs too.
-    if (!isProgramId(documentId)) throw new Error("Invalid raw document id")
-    const res = await fetch(`${API_BASE_URL}/rawdocuments/${documentId}/text`)
-    if (!res.ok) {
-        throw new Error(`Failed to fetch raw document text: ${res.status}`)
-    }
-    return res.text()
 }
 
 /**

@@ -13,7 +13,8 @@ import { alternates } from "@/lib/seo"
 type Props = { params: Promise<{ locale: string; id: string }> }
 
 // On-demand ISR: nothing is built ahead; each URL is rendered once, on its
-// first request, as a complete static page, then served from the cache.
+// first request, as a complete static page, then served from the cache. Only ids
+// of src/lib/program-ids.json get here: proxy.ts answers every other path (v2.54).
 export function generateStaticParams() {
     return []
 }
@@ -56,8 +57,9 @@ export default async function ProgramPage({ params }: Props) {
     const fields: [string, string | null][] = [
         [t("programCode"), program.code],
         [t("degreeType"), program.degreeType],
-        [t("duration"), program.duration],
-        [t("courseCredits"), program.credits ? String(program.credits) : null],
+        // Null when the snapshot has no plausible value (v2.54): said, never left out or shown as 0.
+        [t("duration"), program.duration || tp("notVerified")],
+        [t("courseCredits"), program.credits ? String(program.credits) : tp("notVerified")],
         [t("curriculumTab"), program.courseCount > 0 ? t("courses", { count: program.courseCount }) : null],
     ]
     const source = program.sourceUrl && /^https?:\/\//i.test(program.sourceUrl) ? program.sourceUrl : null

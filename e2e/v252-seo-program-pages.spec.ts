@@ -121,9 +121,12 @@ const sectionOf = (html: string, attr: string) => {
 }
 const fmt = (s: string, values: Record<string, string | number>, locale: Locale) =>
     s.replace(/\{(\w+)\}/g, (_, k) => (typeof values[k] === "number" ? new Intl.NumberFormat(locale).format(values[k] as number) : String(values[k])))
+// v2.54: every date on the page in Asia/Ho_Chi_Minh (src/lib/program-snapshot.ts isoDate).
+const VN_DATE = new Intl.DateTimeFormat("en-GB", { timeZone: "Asia/Ho_Chi_Minh", day: "2-digit", month: "2-digit", year: "numeric" })
 const isoDate = (v: string | null) => {
     const m = v?.match(/^(\d{4})-(\d{2})-(\d{2})/)
-    return m ? `${m[3]}/${m[2]}/${m[1]}` : "—"
+    if (!v || !m) return "—"
+    return /(Z|[+-]\d{2}:?\d{2})$/i.test(v) ? VN_DATE.format(new Date(v)) : `${m[3]}/${m[2]}/${m[1]}`
 }
 
 async function getHtml(request: APIRequestContext, url: string, status = 200) {
@@ -179,7 +182,11 @@ test.describe("v2.52 — SEO program pages", () => {
                 ]
                 expect(metaContent(html, "description")).toEqual([[name, ...facts].filter(Boolean).join(" · ")])
                 expect(canonicalOf(html)).toEqual([`${origin}${pathname}`])
-                expect(hreflangOf(html)).toEqual({ vi: `${origin}/vi/programs/${p.id}`, en: `${origin}/en/programs/${p.id}` })
+                expect(hreflangOf(html)).toEqual({
+                    vi: `${origin}/vi/programs/${p.id}`,
+                    en: `${origin}/en/programs/${p.id}`,
+                    "x-default": `${origin}/vi/programs/${p.id}`,
+                })
                 expect(metaContent(html, "robots")).toEqual([])
 
                 // Attribution: source university, official source, crawl date, snapshot date.
@@ -277,7 +284,11 @@ test.describe("v2.52 — SEO program pages", () => {
                 const title = titleOf(html)
                 expect(title, `/${locale}${route}`).toBe(key ? `${meta[key]} · Tedo` : meta.title)
                 expect(canonicalOf(html), `/${locale}${route}`).toEqual([`${origin}/${locale}${route}`])
-                expect(hreflangOf(html), `/${locale}${route}`).toEqual({ vi: `${origin}/vi${route}`, en: `${origin}/en${route}` })
+                expect(hreflangOf(html), `/${locale}${route}`).toEqual({
+                    vi: `${origin}/vi${route}`,
+                    en: `${origin}/en${route}`,
+                    "x-default": `${origin}/vi${route}`,
+                })
                 seen.push(title)
             }
         }
