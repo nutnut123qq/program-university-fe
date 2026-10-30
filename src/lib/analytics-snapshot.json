@@ -5,24 +5,24 @@
     "universities": 17,
     "programsWithoutCourses": 317
   },
-  "scoredPrograms": 1759,
+  "scoredPrograms": 1713,
   "basis": {
-    "programs": 1362,
-    "mean": 8.11,
-    "atLeast6": 1171
+    "programs": 1316,
+    "mean": 8.1,
+    "atLeast6": 1125
   },
   "bands": [
     {
       "range": "9.0 - 10.0",
-      "count": 297
+      "count": 294
     },
     {
       "range": "7.5 - 8.9",
-      "count": 807
+      "count": 765
     },
     {
       "range": "6.0 - 7.4",
-      "count": 67
+      "count": 66
     },
     {
       "range": "4.0 - 5.9",
@@ -49,6 +49,13 @@
       "mean": 9.2
     },
     {
+      "code": "NEU",
+      "name": "Đại học Kinh tế Quốc dân",
+      "programs": 87,
+      "n": 54,
+      "mean": 9
+    },
+    {
       "code": "VNU",
       "name": "Đại học Quốc gia Hà Nội",
       "programs": 169,
@@ -56,11 +63,11 @@
       "mean": 8.96
     },
     {
-      "code": "NEU",
-      "name": "Đại học Kinh tế Quốc dân",
-      "programs": 87,
-      "n": 84,
-      "mean": 8.86
+      "code": "HUST",
+      "name": "Trường Đại học Bách khoa Hà Nội",
+      "programs": 73,
+      "n": 15,
+      "mean": 8.76
     },
     {
       "code": "FTU",
@@ -77,11 +84,11 @@
       "mean": 8.71
     },
     {
-      "code": "HUST",
-      "name": "Trường Đại học Bách khoa Hà Nội",
-      "programs": 73,
-      "n": 16,
-      "mean": 8.66
+      "code": "UET",
+      "name": "Trường Đại học Công nghệ - ĐHQGHN",
+      "programs": 20,
+      "n": 5,
+      "mean": 8.65
     },
     {
       "code": "TDTU",
@@ -96,13 +103,6 @@
       "programs": 497,
       "n": 488,
       "mean": 8.3
-    },
-    {
-      "code": "UET",
-      "name": "Trường Đại học Công nghệ - ĐHQGHN",
-      "programs": 20,
-      "n": 20,
-      "mean": 8.03
     },
     {
       "code": "PTIT",

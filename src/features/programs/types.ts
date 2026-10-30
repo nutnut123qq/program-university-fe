@@ -106,13 +106,14 @@ export interface RawDocument {
     programId: string | null
     url: string
     docType: string
-    storagePath: string
+    /** Crawler storage fields: API mode only — the published snapshot leaves them out (v2.55). */
+    storagePath?: string
     fileSize: number
-    textPath: string | null
-    contentHash: string | null
+    textPath?: string | null
+    contentHash?: string | null
     extractedTextLength: number | null
     status: string
-    errorMessage: string | null
+    errorMessage?: string | null
     crawledAt: string
     createdAt: string
     updatedAt: string
