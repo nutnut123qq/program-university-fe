@@ -10,7 +10,6 @@
     "prerequisite": "MAS291, MAE101",
     "description": "In this course, student will build and train neural network, and you will learn the best practices to train and develop test sets and analyze bias/variance for building deep learning applications; be able to use standard neural network techniques such as initialization, L2 and dropout regularization, hyperparameter tuning, batch normalization, and gradient checking; implement and apply a variety of optimization algorithms, such as mini-batch gradient descent, Momentum, RMSprop and Adam, and check for their convergence; and implement a neural network in TensorFlow. Student make extensive use of tools from Linear Algebra, Calculus, Optimization.",
     "studentTasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n\n- Use laptop in class only for learning purpose\n\n- Promptly access to the https://flm.fpt.edu.vn/ for up-to-date course information",
-    "tools": "- Jupyter notebook",
     "scoringScale": "10",
     "decisionNo": "1286/QĐ-ĐHFPT dated 11/22/2024",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 2320,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 2321,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 2322,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 2323,
@@ -90,8 +85,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 2324,
@@ -104,8 +98,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "Project 1"
+      "isOnline": 1
     },
     {
       "id": 2325,
@@ -118,8 +111,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "Project 2"
+      "isOnline": 1
     },
     {
       "id": 2326,
@@ -132,8 +124,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "Project 3"
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -182,11 +173,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide, Videos of Systems of Linear equations",
-      "sDownload": "AIL304m",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/10192/S/1_AIL304m.zip",
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20652,
@@ -196,11 +183,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide, Videos of Systems of Linear equations",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20653,
@@ -210,11 +193,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide, Videos of Solving systems of Linear Equations",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20654,
@@ -224,11 +203,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide, Videos of Solving systems of Linear Equations",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20655,
@@ -238,11 +213,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide, Videos of Vectors and Linear Transformations",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20656,
@@ -252,11 +223,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide, Videos of Vectors and Linear Transformations",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20657,
@@ -266,11 +233,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "U",
-      "studentMaterials": "Exercise 1 file",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Exercise 1",
-      "urls": null
+      "studentTasks": "Do Exercise 1"
     },
     {
       "id": 20658,
@@ -280,11 +243,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide, Videos of Determinants and Eigenvectors",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20659,
@@ -294,11 +253,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "U",
-      "studentMaterials": "Exercise 2 file",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Exercise 2",
-      "urls": null
+      "studentTasks": "Do Exercise 2"
     },
     {
       "id": 20660,
@@ -308,11 +263,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide, Videos of Functions of one variable: Derivative and optimization",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20661,
@@ -322,11 +273,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide, Videos of Functions of one variable: Derivative and optimization",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20662,
@@ -336,11 +283,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "U",
-      "studentMaterials": "Exercise 3 file",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Exercise 3",
-      "urls": null
+      "studentTasks": "Do Exercise 3"
     },
     {
       "id": 20663,
@@ -350,11 +293,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide, Videos of Functions of two or more variables: Gradients and gradient descent",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20664,
@@ -364,11 +303,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide, Videos of Functions of two or more variables: Gradients and gradient descent",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20665,
@@ -378,11 +313,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide, Videos of Functions of two or more variables: Gradients and gradient descent",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20666,
@@ -392,11 +323,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "U",
-      "studentMaterials": "Lab 1 file",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Lab 1",
-      "urls": null
+      "studentTasks": "Do Lab 1"
     },
     {
       "id": 20667,
@@ -406,11 +333,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "U",
-      "studentMaterials": "Lab 1 file",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 20668,
@@ -420,11 +343,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "U",
-      "studentMaterials": "- Content Module 1.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do progress test 1",
-      "urls": null
+      "studentTasks": "Do progress test 1"
     },
     {
       "id": 20669,
@@ -434,11 +353,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "IT",
-      "studentMaterials": "Slide , Videos of Introduction to Artificial Intelligence and Machine Learning",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20670,
@@ -448,11 +363,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Neural Networks Basics",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20671,
@@ -462,11 +373,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Neural Networks Basics",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20672,
@@ -476,11 +383,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Neural Networks Basics",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20673,
@@ -490,11 +393,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "U",
-      "studentMaterials": "Exercise 4 file",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Exercise 4 file",
-      "urls": null
+      "studentTasks": "Do Exercise 4 file"
     },
     {
       "id": 20674,
@@ -504,11 +403,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Shallow neural networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20675,
@@ -518,11 +413,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "0",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20676,
@@ -532,11 +423,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "U",
-      "studentMaterials": "Exercise 5 file",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Exercise 5",
-      "urls": null
+      "studentTasks": "Do Exercise 5"
     },
     {
       "id": 20677,
@@ -546,11 +433,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4,CLO5",
       "itu": "U",
-      "studentMaterials": "Link in the Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 20678,
@@ -560,11 +443,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4,CLO5",
       "itu": "U",
-      "studentMaterials": "Link in the Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 20679,
@@ -574,11 +453,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4,CLO5",
       "itu": "U",
-      "studentMaterials": "Link in the Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 20680,
@@ -588,11 +463,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20681,
@@ -602,11 +473,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20682,
@@ -616,11 +483,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20683,
@@ -630,11 +493,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "U",
-      "studentMaterials": "Link in the Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 20684,
@@ -644,11 +503,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20685,
@@ -658,11 +513,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20686,
@@ -672,11 +523,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20687,
@@ -686,11 +533,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Link in the Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 20688,
@@ -700,11 +543,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Link in the Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 20689,
@@ -714,11 +553,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Link in the Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 20690,
@@ -728,11 +563,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "U",
-      "studentMaterials": "Lab 2 file",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Lab 2",
-      "urls": null
+      "studentTasks": "Do Lab 2"
     },
     {
       "id": 20691,
@@ -742,11 +573,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "U",
-      "studentMaterials": "Lab 2 file",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Lab 2",
-      "urls": null
+      "studentTasks": "Do Lab 2"
     },
     {
       "id": 20692,
@@ -756,11 +583,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "U",
-      "studentMaterials": "Lab 2 file",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Lab 2",
-      "urls": null
+      "studentTasks": "Do Lab 2"
     },
     {
       "id": 20693,
@@ -770,11 +593,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO,3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Practical aspects of Deep Learning",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20694,
@@ -784,11 +603,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Practical aspects of Deep Learning",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20695,
@@ -798,11 +613,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Optimization algorithms",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20696,
@@ -812,11 +623,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Optimization algorithms",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20697,
@@ -826,11 +633,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Optimization algorithms",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20698,
@@ -840,11 +643,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "U",
-      "studentMaterials": "Lab 2 file",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 20699,
@@ -854,11 +653,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Link in the Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 20700,
@@ -868,11 +663,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Hyperparameter tuning, Batch Normalization and Programming Frameworks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20701,
@@ -882,11 +673,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Hyperparameter tuning, Batch Normalization and Programming Frameworks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20702,
@@ -896,11 +683,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Hyperparameter tuning, Batch Normalization and Programming Frameworks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20703,
@@ -910,11 +693,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Hyperparameter tuning, Batch Normalization and Programming Frameworks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20704,
@@ -924,11 +703,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "U",
-      "studentMaterials": "- Content Module 2 and 3.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Progress test 2",
-      "urls": null
+      "studentTasks": "Do Progress test 2"
     },
     {
       "id": 20705,
@@ -938,11 +713,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of ML Strategy 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20706,
@@ -952,11 +723,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of ML Strategy 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20707,
@@ -966,11 +733,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of ML Strategy 1 and ML Strategy 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 20708,
@@ -980,11 +743,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Link in the Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 20709,
@@ -994,11 +753,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Link in the Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 20710,
@@ -1008,11 +763,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Link in the Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     }
   ],
   "assessments": [
@@ -1079,13 +830,6 @@
       "knowledgeSkill": "all studied modules",
       "gradingGuide": "by exam board,\n\nusing computer",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
-    }
-  ],
-  "files": [
-    {
-      "label": "AIL304m",
-      "sessionNo": "1",
-      "kind": "file"
     }
   ]
 }

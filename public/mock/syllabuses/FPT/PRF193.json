@@ -10,7 +10,6 @@
     "prerequisite": null,
     "description": "This course equips students with knowledge of the C/C++ programming language from basic to advanced,\n*) Basics\n- C/C++ Keywords, C/C++ Variable Types, Lvalues and Rvalues, Operators in C/C++, Strings, Arrrays, Pointerts, C/C++ References, C/C++ Basic Input/Output ...\n- OOP\n*) Advance:\nC/C++ Standard Template Libaries, Files/streaming ,Exception, template, multithread, smartpointer, etc.\n*) Skill:\nProblem-solving thinking skills, logical thinking and technical communication skills in the direction of Computational Thinking (CT).",
     "studentTasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Students apply Computational Thinking (CT) to analyze, model, and present solutions to problems\n- Use laptop in class only for learning purpose\n- Promptly access to the FU FLM at https://flm.fpt.edu.vn/ for up-to-date course information",
-    "tools": "- Internet\n- C language utility:\n+ DevC++ 6.3 for campus PE testing on student machines\n+ VS Code (no AI extension integrated) for campus PE exam on USB\n- AI tools (ChatGPT/Copilot/Gamma…), Snyk and other simulation software if deemed appropriate.",
     "scoringScale": "10",
     "decisionNo": "932/QĐ-ĐHFPT dated 08/22/2025",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://intro2c.sdds.ca/"
+      "isOnline": 1
     },
     {
       "id": 3113,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://intro2oop.sdds.ca/"
+      "isOnline": 1
     },
     {
       "id": 3114,
@@ -62,8 +59,7 @@
       "isbn": "978-0131103627",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 3115,
@@ -76,8 +72,7 @@
       "isbn": "978-0321714114",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 3116,
@@ -90,8 +85,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://librarycarpentry.github.io/lc-computational-thinking/instructor/aio.html"
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -147,11 +141,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": "PRF193",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13190/S/1_PRF193.zip",
-      "studentTasks": "- Read textbook, implement basic structure\n- Use ChatGPT to explore content more extensively than in the textbook",
-      "urls": null
+      "studentTasks": "- Read textbook, implement basic structure\n- Use ChatGPT to explore content more extensively than in the textbook"
     },
     {
       "id": 27439,
@@ -161,11 +151,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": "PRF193",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13190/S/2_PRF193.zip",
-      "studentTasks": "Practice string and character literals",
-      "urls": null
+      "studentTasks": "Practice string and character literals"
     },
     {
       "id": 27440,
@@ -175,11 +161,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice I/O functions using printf",
-      "urls": null
+      "studentTasks": "Practice I/O functions using printf"
     },
     {
       "id": 27441,
@@ -189,11 +171,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Understand data types",
-      "urls": null
+      "studentTasks": "Understand data types"
     },
     {
       "id": 27442,
@@ -203,11 +181,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice variable declaration",
-      "urls": null
+      "studentTasks": "Practice variable declaration"
     },
     {
       "id": 27443,
@@ -217,11 +191,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice constant handling",
-      "urls": null
+      "studentTasks": "Practice constant handling"
     },
     {
       "id": 27444,
@@ -231,11 +201,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice operators",
-      "urls": null
+      "studentTasks": "Practice operators"
     },
     {
       "id": 27445,
@@ -245,11 +211,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice relational/logical operators",
-      "urls": null
+      "studentTasks": "Practice relational/logical operators"
     },
     {
       "id": 27446,
@@ -259,11 +221,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement conditional statements",
-      "urls": null
+      "studentTasks": "Implement conditional statements"
     },
     {
       "id": 27447,
@@ -273,11 +231,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO6",
       "itu": "U",
-      "studentMaterials": "Complete analysis of project functions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Analyze project functions",
-      "urls": null
+      "studentTasks": "Analyze project functions"
     },
     {
       "id": 27448,
@@ -287,11 +241,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO6",
       "itu": "U",
-      "studentMaterials": "Complete analysis of project functions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Analyze project functions",
-      "urls": null
+      "studentTasks": "Analyze project functions"
     },
     {
       "id": 27449,
@@ -301,11 +251,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO6",
       "itu": "U",
-      "studentMaterials": "Complete analysis of project functions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Analyze project functions",
-      "urls": null
+      "studentTasks": "Analyze project functions"
     },
     {
       "id": 27450,
@@ -315,11 +261,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Implement if-else, switch\n- Participate in drawing conditional diagrams → pseudocode",
-      "urls": null
+      "studentTasks": "- Implement if-else, switch\n- Participate in drawing conditional diagrams → pseudocode"
     },
     {
       "id": 27451,
@@ -329,11 +271,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "U",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Participate in workshop",
-      "urls": null
+      "studentTasks": "Participate in workshop"
     },
     {
       "id": 27452,
@@ -343,11 +281,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "U",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Solve decision-making problems",
-      "urls": null
+      "studentTasks": "Solve decision-making problems"
     },
     {
       "id": 27453,
@@ -357,11 +291,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Practice for drawing loop diagrams → pseudocode\n- Practice for loops",
-      "urls": null
+      "studentTasks": "- Practice for drawing loop diagrams → pseudocode\n- Practice for loops"
     },
     {
       "id": 27454,
@@ -371,11 +301,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice while loops",
-      "urls": null
+      "studentTasks": "Practice while loops"
     },
     {
       "id": 27455,
@@ -385,11 +311,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice do-while loops",
-      "urls": null
+      "studentTasks": "Practice do-while loops"
     },
     {
       "id": 27456,
@@ -399,11 +321,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "I",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Implement 1D arrays\n- Practice for drawing array structure diagram → iterate each element → find max/min",
-      "urls": null
+      "studentTasks": "- Implement 1D arrays\n- Practice for drawing array structure diagram → iterate each element → find max/min"
     },
     {
       "id": 27457,
@@ -413,11 +331,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Solve basic array operations, struct",
-      "urls": null
+      "studentTasks": "Solve basic array operations, struct"
     },
     {
       "id": 27458,
@@ -427,11 +341,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "U",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Solve array-related problems",
-      "urls": null
+      "studentTasks": "Solve array-related problems"
     },
     {
       "id": 27459,
@@ -441,11 +351,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO6",
       "itu": "U",
-      "studentMaterials": "Complete design functions by flow chart",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Design the project functions in flow chart",
-      "urls": null
+      "studentTasks": "Design the project functions in flow chart"
     },
     {
       "id": 27460,
@@ -455,11 +361,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO6",
       "itu": "U",
-      "studentMaterials": "Complete design functions by flow chart",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Design the project functions in flow chart",
-      "urls": null
+      "studentTasks": "Design the project functions in flow chart"
     },
     {
       "id": 27461,
@@ -469,11 +371,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO6",
       "itu": "U",
-      "studentMaterials": "Complete design functions by flow chart",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Design the project functions in flow chart",
-      "urls": null
+      "studentTasks": "Design the project functions in flow chart"
     },
     {
       "id": 27462,
@@ -483,11 +381,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "-Practice for dividing computer problems into multiple functions\nImplement basic functions",
-      "urls": null
+      "studentTasks": "-Practice for dividing computer problems into multiple functions\nImplement basic functions"
     },
     {
       "id": 27463,
@@ -497,11 +391,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice function overloading",
-      "urls": null
+      "studentTasks": "Practice function overloading"
     },
     {
       "id": 27464,
@@ -511,11 +401,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement function templates",
-      "urls": null
+      "studentTasks": "Implement function templates"
     },
     {
       "id": 27465,
@@ -525,11 +411,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "I",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Practice for drawing memory cell → explain pointer\n- Implement pointers for memory management",
-      "urls": null
+      "studentTasks": "- Practice for drawing memory cell → explain pointer\n- Implement pointers for memory management"
     },
     {
       "id": 27466,
@@ -539,11 +421,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Practice types of parameters\n- Use references in C++",
-      "urls": null
+      "studentTasks": "- Practice types of parameters\n- Use references in C++"
     },
     {
       "id": 27467,
@@ -553,11 +431,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Analyze, implement dynamic memory allocation",
-      "urls": null
+      "studentTasks": "Analyze, implement dynamic memory allocation"
     },
     {
       "id": 27468,
@@ -567,11 +441,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO6",
       "itu": "U",
-      "studentMaterials": "Complete project functions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Write code the project functions",
-      "urls": null
+      "studentTasks": "Write code the project functions"
     },
     {
       "id": 27469,
@@ -581,11 +451,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO6",
       "itu": "U",
-      "studentMaterials": "Complete project functions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Write code the project functions",
-      "urls": null
+      "studentTasks": "Write code the project functions"
     },
     {
       "id": 27470,
@@ -595,11 +461,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1-CLO3",
       "itu": "U",
-      "studentMaterials": "Test Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Progress Test 1",
-      "urls": null
+      "studentTasks": "Complete Progress Test 1"
     },
     {
       "id": 27471,
@@ -609,11 +471,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Create and use classes",
-      "urls": null
+      "studentTasks": "Create and use classes"
     },
     {
       "id": 27472,
@@ -623,11 +481,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement encapsulation in C++",
-      "urls": null
+      "studentTasks": "Implement encapsulation in C++"
     },
     {
       "id": 27473,
@@ -637,11 +491,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement const objects in classes",
-      "urls": null
+      "studentTasks": "Implement const objects in classes"
     },
     {
       "id": 27474,
@@ -651,11 +501,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Split classes into separate files",
-      "urls": null
+      "studentTasks": "Split classes into separate files"
     },
     {
       "id": 27475,
@@ -665,11 +511,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement constructors and destructors",
-      "urls": null
+      "studentTasks": "Implement constructors and destructors"
     },
     {
       "id": 27476,
@@ -679,11 +521,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement scope control in classes",
-      "urls": null
+      "studentTasks": "Implement scope control in classes"
     },
     {
       "id": 27477,
@@ -693,11 +531,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement inheritance in classes",
-      "urls": null
+      "studentTasks": "Implement inheritance in classes"
     },
     {
       "id": 27478,
@@ -707,11 +541,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement constructors and destructors",
-      "urls": null
+      "studentTasks": "Implement constructors and destructors"
     },
     {
       "id": 27479,
@@ -721,11 +551,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement scope control in classes",
-      "urls": null
+      "studentTasks": "Implement scope control in classes"
     },
     {
       "id": 27480,
@@ -735,11 +561,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement inheritance in classes",
-      "urls": null
+      "studentTasks": "Implement inheritance in classes"
     },
     {
       "id": 27481,
@@ -749,11 +571,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement STL-Map, Set",
-      "urls": null
+      "studentTasks": "Implement STL-Map, Set"
     },
     {
       "id": 27482,
@@ -763,11 +581,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement Multithread",
-      "urls": null
+      "studentTasks": "Implement Multithread"
     },
     {
       "id": 27483,
@@ -777,11 +591,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO6",
       "itu": "U",
-      "studentMaterials": "Complete testing functions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Write code the project functions",
-      "urls": null
+      "studentTasks": "Write code the project functions"
     },
     {
       "id": 27484,
@@ -791,11 +601,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO6",
       "itu": "U",
-      "studentMaterials": "Complete project functions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Write code the project functions",
-      "urls": null
+      "studentTasks": "Write code the project functions"
     },
     {
       "id": 27485,
@@ -805,11 +611,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO6",
       "itu": "U",
-      "studentMaterials": "Complete project functions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Write code the project functions",
-      "urls": null
+      "studentTasks": "Write code the project functions"
     },
     {
       "id": 27486,
@@ -819,11 +621,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "I",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement basic file I/O",
-      "urls": null
+      "studentTasks": "Implement basic file I/O"
     },
     {
       "id": 27487,
@@ -833,11 +631,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Practice drawing a flowchart to read and write data on file\n- Process files using streams",
-      "urls": null
+      "studentTasks": "- Practice drawing a flowchart to read and write data on file\n- Process files using streams"
     },
     {
       "id": 27488,
@@ -847,11 +641,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement string processing with file I/O",
-      "urls": null
+      "studentTasks": "Implement string processing with file I/O"
     },
     {
       "id": 27489,
@@ -861,11 +651,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2-CLO6",
       "itu": "U",
-      "studentMaterials": "Complete testing functions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Testing the project functions",
-      "urls": null
+      "studentTasks": "Testing the project functions"
     },
     {
       "id": 27490,
@@ -875,11 +661,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2-CLO6",
       "itu": "U",
-      "studentMaterials": "Complete testing functions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Testing the project functions",
-      "urls": null
+      "studentTasks": "Testing the project functions"
     },
     {
       "id": 27491,
@@ -889,11 +671,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2-CLO6",
       "itu": "U",
-      "studentMaterials": "Complete testing functions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Testing the project functions",
-      "urls": null
+      "studentTasks": "Testing the project functions"
     },
     {
       "id": 27492,
@@ -903,11 +681,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "U",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review OOP concepts and file handling",
-      "urls": null
+      "studentTasks": "Review OOP concepts and file handling"
     },
     {
       "id": 27493,
@@ -917,11 +691,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Textbook, Slides\nAI Tools",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review complex OOP concepts and files",
-      "urls": null
+      "studentTasks": "Review complex OOP concepts and files"
     },
     {
       "id": 27494,
@@ -931,11 +701,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1-CLO5",
       "itu": "U",
-      "studentMaterials": "Test Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Progress Test 2",
-      "urls": null
+      "studentTasks": "Complete Progress Test 2"
     },
     {
       "id": 27495,
@@ -945,11 +711,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1-CLO5",
       "itu": "U",
-      "studentMaterials": "Textbook, Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Prepare for final exam",
-      "urls": null
+      "studentTasks": "Prepare for final exam"
     },
     {
       "id": 27496,
@@ -959,11 +721,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1-CLO5",
       "itu": "U",
-      "studentMaterials": "Textbook, Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Continue exam preparation",
-      "urls": null
+      "studentTasks": "Continue exam preparation"
     },
     {
       "id": 27497,
@@ -973,11 +731,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1-CLO5",
       "itu": "U",
-      "studentMaterials": "Textbook, Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Final preparations for exam",
-      "urls": null
+      "studentTasks": "Final preparations for exam"
     }
   ],
   "assessments": [
@@ -1060,18 +814,6 @@
       "knowledgeSkill": "CLO1-CLO5\nMore than 70% new questions (for the current semester);",
       "gradingGuide": "supervised by proctor(s) sent by exam board",
       "note": null
-    }
-  ],
-  "files": [
-    {
-      "label": "PRF193",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "PRF193",
-      "sessionNo": "2",
-      "kind": "file"
     }
   ]
 }

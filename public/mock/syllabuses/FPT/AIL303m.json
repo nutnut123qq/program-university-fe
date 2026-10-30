@@ -10,7 +10,6 @@
     "prerequisite": "MAS291, MAI391, PFP191",
     "description": "The course provides an introduction to Exploratory Data Analysis for Machine Learning (common techniques to retrieve your data, clean it, apply feature engineering, and have it ready for preliminary analysis and hypothesis testing), Supervised Machine Learning (how to train models to predict outcomes and how to use error metrics to compare across different supervised models), , Unsupervised Machine Learning (how to find insights from data sets that do not have a target or labeled variable. Learners will learn several clustering and dimension reduction algorithms for unsupervised learning as well as how to select the algorithm that best suits your data).",
     "studentTasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n\n- Use laptop in class only for learning purpose\n\n- Promptly access to the FU LMS at https://flm.fpt.edu.vn/ for up-to-date course information",
-    "tools": "- jupyterlite\n\n- JupyterLab",
     "scoringScale": "10",
     "decisionNo": "358/QĐ-ĐHFPT dated 04/03/2024",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 1743,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 1744,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 1745,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 1746,
@@ -90,8 +85,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -175,11 +169,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide , Videos of Introduction to Artificial Intelligence and Machine Learning",
-      "sDownload": "mat1",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/9315/S/1_mat1.zip",
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13395,
@@ -189,11 +179,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Modern AI: Applications and the Machine Learning Workflow",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13396,
@@ -203,11 +189,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Retrieving Data and Cleaning Data",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13397,
@@ -217,11 +199,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Exploratory Data Analysis",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13398,
@@ -231,11 +209,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Exploratory Data Analysis",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13399,
@@ -245,11 +219,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Feature Engineering and Variable\n\nTransformation",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13400,
@@ -259,11 +229,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Feature Engineering and Variable\n\nTransformation",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13401,
@@ -273,11 +239,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Estimation and Inference, and Hypothesis Testing",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13402,
@@ -287,11 +249,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Hypothesis Testing",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13403,
@@ -301,11 +259,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "- Content 1 - 9.\n\n- Progress test 1.\n\n- The mini capstone (.docx file)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review Content 1 - 9\n\n- Do Progress test 1",
-      "urls": null
+      "studentTasks": "- Review Content 1 - 9\n\n- Do Progress test 1"
     },
     {
       "id": 13404,
@@ -315,11 +269,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Introduction to Supervised Machine Learning\n\n'Slide, Videos of Training and Test Splits",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13405,
@@ -329,11 +279,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Training and Test Splits",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13406,
@@ -343,11 +289,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Cross Validation",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13407,
@@ -357,11 +299,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Linear Regression",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13408,
@@ -371,11 +309,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Polynomial Regression\n\n'Slide, Videos of Regularization Techniques",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 13409,
@@ -385,11 +319,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Regularization Techniques",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13410,
@@ -399,11 +329,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Polynomial Features and Regularization Demo",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13411,
@@ -413,11 +339,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Details of Regularization",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13412,
@@ -427,11 +349,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": "U",
-      "studentMaterials": "- Content 11 - 19.\n\n- Progress test 2\n\n- Student's lab",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review Content 11 - 19\n\n- Do Progress test 2",
-      "urls": null
+      "studentTasks": "- Review Content 11 - 19\n\n- Do Progress test 2"
     },
     {
       "id": 13413,
@@ -441,11 +359,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": "U",
-      "studentMaterials": "Student's lab",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Presentation",
-      "urls": null
+      "studentTasks": "Presentation"
     },
     {
       "id": 13414,
@@ -455,11 +369,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Student's capstone",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Presentation",
-      "urls": null
+      "studentTasks": "Presentation"
     },
     {
       "id": 13415,
@@ -469,11 +379,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Logistic Regression: Introduction to Classification and Error Metrics",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13416,
@@ -483,11 +389,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Error Metrics\n\n'Slide, Videos of Logistic Regression Labs",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13417,
@@ -497,11 +399,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Logistic Regression Labs",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13418,
@@ -511,11 +409,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of K Nearest Neighbors",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Presentation",
-      "urls": null
+      "studentTasks": "Presentation"
     },
     {
       "id": 13419,
@@ -525,11 +419,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of K Nearest Neighbors",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13420,
@@ -539,11 +429,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of K Nearest Neighbors Labs",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13421,
@@ -553,11 +439,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of K Nearest Neighbors Labs",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13422,
@@ -567,11 +449,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": "U",
-      "studentMaterials": "Student's lab 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Presentation",
-      "urls": null
+      "studentTasks": "Presentation"
     },
     {
       "id": 13423,
@@ -581,11 +459,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Student's capstone",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Presentation",
-      "urls": null
+      "studentTasks": "Presentation"
     },
     {
       "id": 13424,
@@ -595,11 +469,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Support Vector Machines",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13425,
@@ -609,11 +479,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Support Vector Machines Kernels",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13426,
@@ -623,11 +489,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Support Vector Machines Labs",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13427,
@@ -637,11 +499,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Support Vector Machines Labs",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13428,
@@ -651,11 +509,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Decision Trees",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13429,
@@ -665,11 +519,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Decision Trees Labs",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13430,
@@ -679,11 +529,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Ensemble Based Methods and Bagging",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13431,
@@ -693,11 +539,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Random Forest",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13432,
@@ -707,11 +549,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Bagging Labs",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13433,
@@ -721,11 +559,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Bagging Labs",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13434,
@@ -735,11 +569,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Boosting and Stacking",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13435,
@@ -749,11 +579,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Boosting and Stacking Labs",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13436,
@@ -763,11 +589,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Model Interpretability",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13437,
@@ -777,11 +599,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Modeling Unbalanced Classes",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13438,
@@ -791,11 +609,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "- Content 24 - 30 and 34 - 47.\n\n- Progress test 3\n\n- Student's capstone",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review Content 24 - 30 and 34 - 47\n\n- Do Progress test 3\n\n-",
-      "urls": null
+      "studentTasks": "- Review Content 24 - 30 and 34 - 47\n\n- Do Progress test 3\n\n-"
     },
     {
       "id": 13439,
@@ -805,11 +619,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Student's capstone",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Presentation",
-      "urls": null
+      "studentTasks": "Presentation"
     },
     {
       "id": 13440,
@@ -819,11 +629,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7, CLO8",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Introduction to Unsupervised Learning, K Means Clustering",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13441,
@@ -833,11 +639,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of K Means Clustering",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13442,
@@ -847,11 +649,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8, CLO9",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Computational hurdles of clustering algorithms",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13443,
@@ -861,11 +659,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8, CLO9",
       "itu": "T",
-      "studentMaterials": "Slide , Videos of Common clustering algorithms",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13444,
@@ -875,11 +669,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8, CLO9",
       "itu": "T",
-      "studentMaterials": "Slide, Video of Compare clustering algorithms",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13445,
@@ -889,11 +679,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8, CLO9",
       "itu": "T",
-      "studentMaterials": "Slide, Video of Compare clustering algorithms",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13446,
@@ -903,11 +689,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8, CLO9",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Dimensionality Reduction",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13447,
@@ -917,11 +699,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8, CLO9",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Principal Component Analysis and Matrix Factorization",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13448,
@@ -931,11 +709,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8, CLO9",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Principal Component Analysis and Matrix Factorization",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 13449,
@@ -945,11 +719,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "- Content 50 - 58.\n\n- Progress test 4\n\n- Student's projects and ppt.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review Content 50 - 58.\n\n- Do Progress test 4\n\n-",
-      "urls": null
+      "studentTasks": "- Review Content 50 - 58.\n\n- Do Progress test 4\n\n-"
     },
     {
       "id": 13450,
@@ -959,11 +729,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Student's capstone and ppt.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Presentation",
-      "urls": null
+      "studentTasks": "Presentation"
     },
     {
       "id": 13451,
@@ -973,11 +739,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Student's capstone and ppt.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Presentation",
-      "urls": null
+      "studentTasks": "Presentation"
     },
     {
       "id": 13452,
@@ -987,11 +749,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": "U",
-      "studentMaterials": "All Slides",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Review Slide",
-      "urls": null
+      "studentTasks": "Review Slide"
     },
     {
       "id": 13453,
@@ -1001,11 +759,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": "U",
-      "studentMaterials": "All Slides",
-      "sDownload": "FLM and Coursera",
-      "downloadUrls": null,
-      "studentTasks": "Review Slide",
-      "urls": null
+      "studentTasks": "Review Slide"
     }
   ],
   "assessments": [
@@ -1136,13 +890,6 @@
       "knowledgeSkill": "all studied modules",
       "gradingGuide": "by exam board,\n\nusing computer",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
-    }
-  ],
-  "files": [
-    {
-      "label": "mat1",
-      "sessionNo": "1",
-      "kind": "file"
     }
   ]
 }

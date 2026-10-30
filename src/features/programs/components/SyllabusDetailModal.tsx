@@ -30,6 +30,7 @@ import { fetchSyllabus, fetchRoadmap, fetchUniversityCode } from "../api"
 import { ROADMAP_UNIVERSITIES, relationCodes, withoutFiller } from "../roadmapUniversities"
 import { Curriculum } from "../types"
 import { useModalFocus } from "@/hooks/useModalFocus"
+import { DataAttribution } from "./DataAttribution"
 
 interface SyllabusDetailModalProps {
     course: Curriculum | null
@@ -638,6 +639,10 @@ export function SyllabusDetailModal({
                                     </div>
                                 )}
                             </>
+                        )}
+                        {/* Source + collection date of the shown data (AGENTS.md §9); FPT syllabi carry `lastSeenAt`. */}
+                        {!isSyllabusLoading && (syllabus || roadmap) && (
+                            <DataAttribution universityCode={universityCode} collectedAt={syllabus?.info?.lastSeenAt} />
                         )}
                     </div>
 

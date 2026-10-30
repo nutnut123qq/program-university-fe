@@ -10,7 +10,6 @@
     "prerequisite": "ITE303 or ITE302c, OSP201",
     "description": "This course is an introduction to the fundamentals of ethical hacking.\n\nStudents will learn how hackers attack computers and networks, and how to protect Windows and Linux systems.\n\nLegal restrictions and ethical guidelines will be taught and enforced.\n\nStudents will perform many hands-on labs, both attacking and defending, using port scans, footprinting, buffer overflow exploits, SQL injection, privilege escalation, Trojans, and backdoors.",
     "studentTasks": "Students must attend at least 80% of contact sessions in order to be accepted to the final examination.\n\n- Students are responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n\n- Use laptop in class only for learning purpose\n\n- Promptly access to the https://flm.fpt.edu.vn/ for up-to-date course information",
-    "tools": "Internet, basic tools for ethical hacking (VMWare, Kali Linux, Wireshark, Nmap, …)",
     "scoringScale": "10",
     "decisionNo": "358/QĐ-ĐHFPT dated 04/03/2024",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 1867,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 1868,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 1869,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 1870,
@@ -90,8 +85,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 1871,
@@ -104,8 +98,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     }
   ],
   "clos": [
@@ -161,11 +154,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "I\n\nT",
-      "studentMaterials": "Syllabus, textbook, resources\n\nChapter 1, chapter slides,",
-      "sDownload": "mat",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/10033/S/1_mat.zip",
-      "studentTasks": "Introduce the course, teaching and learning materials\n\nGive an overview of Ethical Hacking\n\nRead, explore the chapter and Review the lesson",
-      "urls": null
+      "studentTasks": "Introduce the course, teaching and learning materials\n\nGive an overview of Ethical Hacking\n\nRead, explore the chapter and Review the lesson"
     },
     {
       "id": 15055,
@@ -175,11 +164,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "I\n\nT",
-      "studentMaterials": "Syllabus, textbook, resources\n\nChapter 1, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Introduce the course, teaching and learning materials\n\nGive an overview of Ethical Hacking\n\nRead, explore the chapter and Review the lesson",
-      "urls": null
+      "studentTasks": "Introduce the course, teaching and learning materials\n\nGive an overview of Ethical Hacking\n\nRead, explore the chapter and Review the lesson"
     },
     {
       "id": 15056,
@@ -189,11 +174,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "T",
-      "studentMaterials": "Chapter 2, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review TCP/IP concepts\n\nRead, explore the chapter and Review the lesson",
-      "urls": null
+      "studentTasks": "Review TCP/IP concepts\n\nRead, explore the chapter and Review the lesson"
     },
     {
       "id": 15057,
@@ -203,11 +184,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "T",
-      "studentMaterials": "Chapter 2, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review TCP/IP concepts\n\nRead, explore the chapter and Review the lesson",
-      "urls": null
+      "studentTasks": "Review TCP/IP concepts\n\nRead, explore the chapter and Review the lesson"
     },
     {
       "id": 15058,
@@ -217,11 +194,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "T",
-      "studentMaterials": "Chapter 3, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss about Network and Computer Attacks\n\nRead, explore the chapter and Review Lecture 3",
-      "urls": null
+      "studentTasks": "Discuss about Network and Computer Attacks\n\nRead, explore the chapter and Review Lecture 3"
     },
     {
       "id": 15059,
@@ -231,11 +204,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "T",
-      "studentMaterials": "Chapter 3, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss about Network and Computer Attacks\n\nRead, explore the chapter and Review Lecture 3",
-      "urls": null
+      "studentTasks": "Discuss about Network and Computer Attacks\n\nRead, explore the chapter and Review Lecture 3"
     },
     {
       "id": 15060,
@@ -245,11 +214,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "TU",
-      "studentMaterials": "Chapter 4, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Introduce Footprinting and Social Engineering\n\nRead the chapter, pracice and Review the lesson",
-      "urls": null
+      "studentTasks": "Introduce Footprinting and Social Engineering\n\nRead the chapter, pracice and Review the lesson"
     },
     {
       "id": 15061,
@@ -259,11 +224,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "TU",
-      "studentMaterials": "Chapter 4, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Introduce Footprinting and Social Engineering\n\nRead the chapter, pracice and Review the lesson",
-      "urls": null
+      "studentTasks": "Introduce Footprinting and Social Engineering\n\nRead the chapter, pracice and Review the lesson"
     },
     {
       "id": 15062,
@@ -273,11 +234,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 1",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 1"
     },
     {
       "id": 15063,
@@ -287,11 +244,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 1",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 1"
     },
     {
       "id": 15064,
@@ -301,11 +254,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 2",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 2"
     },
     {
       "id": 15065,
@@ -315,11 +264,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 2",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 2"
     },
     {
       "id": 15066,
@@ -329,11 +274,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "TU",
-      "studentMaterials": "Chapter 5, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Introduce Footprinting and Social Engineering\n\nRead the chapter,Practice and Review the lesson",
-      "urls": null
+      "studentTasks": "Introduce Footprinting and Social Engineering\n\nRead the chapter,Practice and Review the lesson"
     },
     {
       "id": 15067,
@@ -343,11 +284,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "TU",
-      "studentMaterials": "Chapter 5, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Introduce Footprinting and Social Engineering\n\nRead the chapter,Practice and Review the lesson",
-      "urls": null
+      "studentTasks": "Introduce Footprinting and Social Engineering\n\nRead the chapter,Practice and Review the lesson"
     },
     {
       "id": 15068,
@@ -357,11 +294,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 3",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 3"
     },
     {
       "id": 15069,
@@ -371,11 +304,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 3",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 3"
     },
     {
       "id": 15070,
@@ -385,11 +314,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "T",
-      "studentMaterials": "Chapter 6, chapter slides,",
-      "sDownload": "Ch6_10",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/964/S/9_Ch6_10.zip",
-      "studentTasks": "Explain how to Enumerate Windows and Linux vulnerabilities\n\nRead the chapter\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Explain how to Enumerate Windows and Linux vulnerabilities\n\nRead the chapter\n\nReview the lesson"
     },
     {
       "id": 15071,
@@ -399,11 +324,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "T",
-      "studentMaterials": "Chapter 6, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Explain how to Enumerate Windows and Linux vulnerabilities\n\nRead the chapter\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Explain how to Enumerate Windows and Linux vulnerabilities\n\nRead the chapter\n\nReview the lesson"
     },
     {
       "id": 15072,
@@ -413,11 +334,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 4",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 4"
     },
     {
       "id": 15073,
@@ -427,11 +344,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 4",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 4"
     },
     {
       "id": 15074,
@@ -441,11 +354,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 5",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 5"
     },
     {
       "id": 15075,
@@ -455,11 +364,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 5",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 5"
     },
     {
       "id": 15076,
@@ -469,11 +374,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "TU",
-      "studentMaterials": "Chapter 7, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review programming concepts to be used by Security Professionals\n\nRead the chapter\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Review programming concepts to be used by Security Professionals\n\nRead the chapter\n\nReview the lesson"
     },
     {
       "id": 15077,
@@ -483,11 +384,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "TU",
-      "studentMaterials": "Chapter 7, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review programming concepts to be used by Security Professionals\n\nRead the chapter\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Review programming concepts to be used by Security Professionals\n\nRead the chapter\n\nReview the lesson"
     },
     {
       "id": 15078,
@@ -497,11 +394,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 6",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 6"
     },
     {
       "id": 15079,
@@ -511,11 +404,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 6",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 6"
     },
     {
       "id": 15080,
@@ -525,11 +414,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 7",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 7"
     },
     {
       "id": 15081,
@@ -539,11 +424,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 7",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 7"
     },
     {
       "id": 15082,
@@ -553,11 +434,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3",
       "itu": null,
-      "studentMaterials": "Chapters 1-7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review, discuss, Q&A",
-      "urls": null
+      "studentTasks": "Review, discuss, Q&A"
     },
     {
       "id": 15083,
@@ -567,11 +444,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3",
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 15084,
@@ -581,11 +454,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "T",
-      "studentMaterials": "Chapter 8, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Classify Desktop and Server OS Vulnerabilities\n\nRead the chapter\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Classify Desktop and Server OS Vulnerabilities\n\nRead the chapter\n\nReview the lesson"
     },
     {
       "id": 15085,
@@ -595,11 +464,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "T",
-      "studentMaterials": "Chapter 8, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Classify Desktop and Server OS Vulnerabilities\n\nRead the chapter\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Classify Desktop and Server OS Vulnerabilities\n\nRead the chapter\n\nReview the lesson"
     },
     {
       "id": 15086,
@@ -609,11 +474,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 8",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 8"
     },
     {
       "id": 15087,
@@ -623,11 +484,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 8",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 8"
     },
     {
       "id": 15088,
@@ -637,11 +494,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "T",
-      "studentMaterials": "Chapter 9, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss Threat and Vulnerabilities Embedded Oss\n\nRead the chapter\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Discuss Threat and Vulnerabilities Embedded Oss\n\nRead the chapter\n\nReview the lesson"
     },
     {
       "id": 15089,
@@ -651,11 +504,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "T",
-      "studentMaterials": "Chapter 9, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss Threat and Vulnerabilities Embedded Oss\n\nRead the chapter\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Discuss Threat and Vulnerabilities Embedded Oss\n\nRead the chapter\n\nReview the lesson"
     },
     {
       "id": 15090,
@@ -665,11 +514,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "T",
-      "studentMaterials": "Chapter 10, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Give lecture on Hacking Web Servers\n\nRead the chapter\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Give lecture on Hacking Web Servers\n\nRead the chapter\n\nReview the lesson"
     },
     {
       "id": 15091,
@@ -679,11 +524,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "T",
-      "studentMaterials": "Chapter 10, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Give lecture on Hacking Web Servers\n\nRead the chapter\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Give lecture on Hacking Web Servers\n\nRead the chapter\n\nReview the lesson"
     },
     {
       "id": 15092,
@@ -693,11 +534,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 9",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 9"
     },
     {
       "id": 15093,
@@ -707,11 +544,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 9",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 9"
     },
     {
       "id": 15094,
@@ -721,11 +554,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 10",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 10"
     },
     {
       "id": 15095,
@@ -735,11 +564,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 10",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 10"
     },
     {
       "id": 15096,
@@ -749,11 +574,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "T",
-      "studentMaterials": "Chapter 11, chapter slides,",
-      "sDownload": "Ch11_13",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/964/S/22_Ch11_13.zip",
-      "studentTasks": "Give lecture on Hacking Wireless Networks\n\nRead the chapter\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Give lecture on Hacking Wireless Networks\n\nRead the chapter\n\nReview the lesson"
     },
     {
       "id": 15097,
@@ -763,11 +584,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "T",
-      "studentMaterials": "Chapter 11, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Give lecture on Hacking Wireless Networks\n\nRead the chapter\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Give lecture on Hacking Wireless Networks\n\nRead the chapter\n\nReview the lesson"
     },
     {
       "id": 15098,
@@ -777,11 +594,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 11",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 11"
     },
     {
       "id": 15099,
@@ -791,11 +604,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 11",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 11"
     },
     {
       "id": 15100,
@@ -805,11 +614,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 12",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 12"
     },
     {
       "id": 15101,
@@ -819,11 +624,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 12",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 12"
     },
     {
       "id": 15102,
@@ -833,11 +634,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T",
-      "studentMaterials": "Chapter 12, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Cryptography basics and explain Cryptography Attacks\n\nRead the chapter\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Review Cryptography basics and explain Cryptography Attacks\n\nRead the chapter\n\nReview the lesson"
     },
     {
       "id": 15103,
@@ -847,11 +644,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T",
-      "studentMaterials": "Chapter 12, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Cryptography basics and explain Cryptography Attacks\n\nRead the chapter\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Review Cryptography basics and explain Cryptography Attacks\n\nRead the chapter\n\nReview the lesson"
     },
     {
       "id": 15104,
@@ -861,11 +654,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "TU",
-      "studentMaterials": "Chapter 13, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Explain some Network. Protection Systems\n\nRead the chapter, discuss, Q&A\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Explain some Network. Protection Systems\n\nRead the chapter, discuss, Q&A\n\nReview the lesson"
     },
     {
       "id": 15105,
@@ -875,11 +664,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "TU",
-      "studentMaterials": "Chapter 13, chapter slides,",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Explain some Network. Protection Systems\n\nRead the chapter, discuss, Q&A\n\nReview the lesson",
-      "urls": null
+      "studentTasks": "Explain some Network. Protection Systems\n\nRead the chapter, discuss, Q&A\n\nReview the lesson"
     },
     {
       "id": 15106,
@@ -889,11 +674,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 13",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 13"
     },
     {
       "id": 15107,
@@ -903,11 +684,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 13",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 13"
     },
     {
       "id": 15108,
@@ -917,11 +694,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 14",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 14"
     },
     {
       "id": 15109,
@@ -931,11 +704,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 14",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 14"
     },
     {
       "id": 15110,
@@ -945,11 +714,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 15",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 15"
     },
     {
       "id": 15111,
@@ -959,11 +724,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "U",
-      "studentMaterials": "Chapter Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice and Review Lab 15",
-      "urls": null
+      "studentTasks": "Practice and Review Lab 15"
     },
     {
       "id": 15112,
@@ -973,11 +734,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1 - LO6",
       "itu": null,
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "review and prepare to FE",
-      "urls": null
+      "studentTasks": "review and prepare to FE"
     },
     {
       "id": 15113,
@@ -987,11 +744,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1 - LO6",
       "itu": null,
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "review and prepare to FE",
-      "urls": null
+      "studentTasks": "review and prepare to FE"
     },
     {
       "id": 15114,
@@ -1001,11 +754,7 @@
       "learningTeachingType": null,
       "lo": "LO1, LO2, LO3, LO4, LO5, LO6",
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     }
   ],
   "assessments": [
@@ -1072,23 +821,6 @@
       "knowledgeSkill": "concepts, algorithms; all studied Chapters",
       "gradingGuide": "by exam board,",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
-    }
-  ],
-  "files": [
-    {
-      "label": "mat",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "Ch11_13",
-      "sessionNo": "43",
-      "kind": "file"
-    },
-    {
-      "label": "Ch6_10",
-      "sessionNo": "17",
-      "kind": "file"
     }
   ]
 }

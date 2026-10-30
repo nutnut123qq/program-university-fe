@@ -10,7 +10,6 @@
     "prerequisite": null,
     "description": "- Knowledge about database systems has become an essential part of an education in computer science because database management has evolved from a specialized computer application to a central component of a modern computing environment.\n\n- The content of this course includes aspects of database management basic concepts, database design, database languages, and database-system implementation. Basing on these contents, the course emphasizes on how to organize, maintain and retrieve efficiently data and information from a DBMS.",
     "studentTasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n\n- Student is responsible to do all exercises given by instructor in class or at home and submit on time\n\n- Promptly access to the https://flm.fpt.edu.vn/ for up-to-date course information",
-    "tools": "Microsoft SQL Server",
     "scoringScale": "10",
     "decisionNo": "1286/QĐ-ĐHFPT dated 11/22/2024",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": "9781292025827 or 9780136006374",
       "isMainMaterial": 1,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 2354,
@@ -48,8 +46,7 @@
       "isbn": "978-8131769591",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 2355,
@@ -62,8 +59,7 @@
       "isbn": "9788121932455",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 2356,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 2357,
@@ -90,8 +85,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     }
   ],
   "clos": [
@@ -154,11 +148,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "I",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": "DBI202",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/6453/S/1_DBI202.zip",
-      "studentTasks": "Read chapter 1 in text book, focus on 1.1 and 1.2",
-      "urls": null
+      "studentTasks": "Read chapter 1 in text book, focus on 1.1 and 1.2"
     },
     {
       "id": 20966,
@@ -168,11 +158,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "I",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": "DBI202",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/6453/S/2_DBI202.zip",
-      "studentTasks": "Read chapter 1 in text book, focus on 1.1 and 1.2",
-      "urls": null
+      "studentTasks": "Read chapter 1 in text book, focus on 1.1 and 1.2"
     },
     {
       "id": 20967,
@@ -182,11 +168,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "IT",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 2 in text book, focus on 2.1 and 2.2",
-      "urls": null
+      "studentTasks": "Read chapter 2 in text book, focus on 2.1 and 2.2"
     },
     {
       "id": 20968,
@@ -196,11 +178,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "I,T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 2 in text book, focus on 2.1 and 2.2",
-      "urls": null
+      "studentTasks": "Read chapter 2 in text book, focus on 2.1 and 2.2"
     },
     {
       "id": 20969,
@@ -210,11 +188,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "I,T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 2 in text book, focus on 2.4",
-      "urls": null
+      "studentTasks": "Read chapter 2 in text book, focus on 2.4"
     },
     {
       "id": 20970,
@@ -224,11 +198,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "I,T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 2 in text book, focus on 2.4",
-      "urls": null
+      "studentTasks": "Read chapter 2 in text book, focus on 2.4"
     },
     {
       "id": 20971,
@@ -238,11 +208,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "U",
-      "studentMaterials": "Textbook, slides, lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do lab 1 as homework",
-      "urls": null
+      "studentTasks": "Do lab 1 as homework"
     },
     {
       "id": 20972,
@@ -252,11 +218,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "U",
-      "studentMaterials": "Textbook, slides, lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do lab 1 as homework",
-      "urls": null
+      "studentTasks": "Do lab 1 as homework"
     },
     {
       "id": 20973,
@@ -266,11 +228,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "I, T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 3 in text book, focus on 3.1 and 3.2",
-      "urls": null
+      "studentTasks": "Read chapter 3 in text book, focus on 3.1 and 3.2"
     },
     {
       "id": 20974,
@@ -280,11 +238,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "I, T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 3 in text book, focus on 3.1 and 3.2",
-      "urls": null
+      "studentTasks": "Read chapter 3 in text book, focus on 3.1 and 3.2"
     },
     {
       "id": 20975,
@@ -294,11 +248,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "I, T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 3 in text book, focus on 3.3",
-      "urls": null
+      "studentTasks": "Read chapter 3 in text book, focus on 3.3"
     },
     {
       "id": 20976,
@@ -308,11 +258,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "I, T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 3 in text book, focus on 3.3",
-      "urls": null
+      "studentTasks": "Read chapter 3 in text book, focus on 3.3"
     },
     {
       "id": 20977,
@@ -322,11 +268,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "I, T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 3 in text book, focus on 3.5",
-      "urls": null
+      "studentTasks": "Read chapter 3 in text book, focus on 3.5"
     },
     {
       "id": 20978,
@@ -336,11 +278,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "I, T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 3 in text book, focus on 3.5",
-      "urls": null
+      "studentTasks": "Read chapter 3 in text book, focus on 3.5"
     },
     {
       "id": 20979,
@@ -350,11 +288,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "U",
-      "studentMaterials": "'Textbook, slides, lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do lab 2 as homework",
-      "urls": null
+      "studentTasks": "Do lab 2 as homework"
     },
     {
       "id": 20980,
@@ -364,11 +298,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "U",
-      "studentMaterials": "'Textbook, slides, lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do lab 2 as homework",
-      "urls": null
+      "studentTasks": "Do lab 2 as homework"
     },
     {
       "id": 20981,
@@ -378,11 +308,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3",
       "itu": "I, U",
-      "studentMaterials": "Textbook, slides,assignment's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do assignment as homework",
-      "urls": null
+      "studentTasks": "Do assignment as homework"
     },
     {
       "id": 20982,
@@ -392,11 +318,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3",
       "itu": "I, U",
-      "studentMaterials": "Textbook, slides,assignment's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do assignment as homework",
-      "urls": null
+      "studentTasks": "Do assignment as homework"
     },
     {
       "id": 20983,
@@ -406,11 +328,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "I, T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 4 in text book, focus on 4.1, 4.2 and 4.3",
-      "urls": null
+      "studentTasks": "Read chapter 4 in text book, focus on 4.1, 4.2 and 4.3"
     },
     {
       "id": 20984,
@@ -420,11 +338,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "I, T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 4 in text book, focus on 4.1, 4.2 and 4.3",
-      "urls": null
+      "studentTasks": "Read chapter 4 in text book, focus on 4.1, 4.2 and 4.3"
     },
     {
       "id": 20985,
@@ -434,11 +348,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "I, T, U",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 4 in text book, focus on 4.4, 4.5 and 4.6",
-      "urls": null
+      "studentTasks": "Read chapter 4 in text book, focus on 4.4, 4.5 and 4.6"
     },
     {
       "id": 20986,
@@ -448,11 +358,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "I, T, U",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 4 in text book, focus on 4.4, 4.5 and 4.6",
-      "urls": null
+      "studentTasks": "Read chapter 4 in text book, focus on 4.4, 4.5 and 4.6"
     },
     {
       "id": 20987,
@@ -462,11 +368,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "U",
-      "studentMaterials": "Textbook, slides, lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do lab 3 as homework",
-      "urls": null
+      "studentTasks": "Do lab 3 as homework"
     },
     {
       "id": 20988,
@@ -476,11 +378,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "U",
-      "studentMaterials": "Textbook, slides, lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do lab 3 as homework",
-      "urls": null
+      "studentTasks": "Do lab 3 as homework"
     },
     {
       "id": 20989,
@@ -490,11 +388,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3, LO4",
       "itu": "U",
-      "studentMaterials": "Textbook, slides,assignment's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do assignment as homework",
-      "urls": null
+      "studentTasks": "Do assignment as homework"
     },
     {
       "id": 20990,
@@ -504,11 +398,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3, LO4",
       "itu": "U",
-      "studentMaterials": "Textbook, slides,assignment's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do assignment as homework",
-      "urls": null
+      "studentTasks": "Do assignment as homework"
     },
     {
       "id": 20991,
@@ -518,11 +408,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "I,T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book, focus on 6.1 and 6.2",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book, focus on 6.1 and 6.2"
     },
     {
       "id": 20992,
@@ -532,11 +418,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "I,T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book, focus on 6.1 and 6.2",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book, focus on 6.1 and 6.2"
     },
     {
       "id": 20993,
@@ -546,11 +428,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "I,T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 7 in text book, focus on 7.1 and 7.2",
-      "urls": null
+      "studentTasks": "Read chapter 7 in text book, focus on 7.1 and 7.2"
     },
     {
       "id": 20994,
@@ -560,11 +438,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "I,T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 7 in text book, focus on 7.1 and 7.2",
-      "urls": null
+      "studentTasks": "Read chapter 7 in text book, focus on 7.1 and 7.2"
     },
     {
       "id": 20995,
@@ -574,11 +448,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "I,T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book"
     },
     {
       "id": 20996,
@@ -588,11 +458,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "I,T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book"
     },
     {
       "id": 20997,
@@ -602,11 +468,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "I,T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book"
     },
     {
       "id": 20998,
@@ -616,11 +478,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "I,T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book"
     },
     {
       "id": 20999,
@@ -630,11 +488,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T,U",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book"
     },
     {
       "id": 21000,
@@ -644,11 +498,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T,U",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book"
     },
     {
       "id": 21001,
@@ -658,11 +508,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T,U",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book"
     },
     {
       "id": 21002,
@@ -672,11 +518,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T,U",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book"
     },
     {
       "id": 21003,
@@ -686,11 +528,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T,U",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book"
     },
     {
       "id": 21004,
@@ -700,11 +538,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T,U",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book"
     },
     {
       "id": 21005,
@@ -714,11 +548,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "I,T, U",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book"
     },
     {
       "id": 21006,
@@ -728,11 +558,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "I,T, U",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book"
     },
     {
       "id": 21007,
@@ -742,11 +568,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6, LO7",
       "itu": "I,T, U",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book"
     },
     {
       "id": 21008,
@@ -756,11 +578,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6, LO7",
       "itu": "I,T, U",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 6 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 6 in text book"
     },
     {
       "id": 21009,
@@ -770,11 +588,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5, LO6, LO7",
       "itu": "U",
-      "studentMaterials": "Textbook, slides, lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do lab 4 as homework",
-      "urls": null
+      "studentTasks": "Do lab 4 as homework"
     },
     {
       "id": 21010,
@@ -784,11 +598,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5, LO6, LO7",
       "itu": "U",
-      "studentMaterials": "Textbook, slides, lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do lab 4 as homework",
-      "urls": null
+      "studentTasks": "Do lab 4 as homework"
     },
     {
       "id": 21011,
@@ -798,11 +608,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3, LO4, LO5, LO7",
       "itu": "U",
-      "studentMaterials": "'Textbook, slides,assignment's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do assignment as homework",
-      "urls": null
+      "studentTasks": "Do assignment as homework"
     },
     {
       "id": 21012,
@@ -812,11 +618,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3, LO4, LO5, LO7",
       "itu": "U",
-      "studentMaterials": "'Textbook, slides,assignment's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do assignment as homework",
-      "urls": null
+      "studentTasks": "Do assignment as homework"
     },
     {
       "id": 21013,
@@ -826,11 +628,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "T,U",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 7 in text book, focus on 7.5",
-      "urls": null
+      "studentTasks": "Read chapter 7 in text book, focus on 7.5"
     },
     {
       "id": 21014,
@@ -840,11 +638,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "T,U",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 7 in text book, focus on 7.5",
-      "urls": null
+      "studentTasks": "Read chapter 7 in text book, focus on 7.5"
     },
     {
       "id": 21015,
@@ -854,11 +648,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 7 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 7 in text book"
     },
     {
       "id": 21016,
@@ -868,11 +658,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 7 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 7 in text book"
     },
     {
       "id": 21017,
@@ -882,11 +668,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 9 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 9 in text book"
     },
     {
       "id": 21018,
@@ -896,11 +678,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "T",
-      "studentMaterials": "Textbook, slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 9 in text book",
-      "urls": null
+      "studentTasks": "Read chapter 9 in text book"
     },
     {
       "id": 21019,
@@ -910,11 +688,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4, LO5, LO6, LO7",
       "itu": "U",
-      "studentMaterials": "Textbook, slides, lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do lab 5 as homework",
-      "urls": null
+      "studentTasks": "Do lab 5 as homework"
     },
     {
       "id": 21020,
@@ -924,11 +698,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4, LO5, LO6, LO7",
       "itu": "U",
-      "studentMaterials": "Textbook, slides, lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do lab 5 as homework",
-      "urls": null
+      "studentTasks": "Do lab 5 as homework"
     },
     {
       "id": 21021,
@@ -938,11 +708,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3, LO4, LO5, LO6, LO7",
       "itu": "U",
-      "studentMaterials": "'Textbook, slides,assignment's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do assignment as homework",
-      "urls": null
+      "studentTasks": "Do assignment as homework"
     },
     {
       "id": 21022,
@@ -952,11 +718,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3, LO4, LO5, LO6, LO7",
       "itu": "U",
-      "studentMaterials": "'Textbook, slides,assignment's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do assignment as homework",
-      "urls": null
+      "studentTasks": "Do assignment as homework"
     },
     {
       "id": 21023,
@@ -966,11 +728,7 @@
       "learningTeachingType": "Offline",
       "lo": "All LOs",
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 21024,
@@ -980,11 +738,7 @@
       "learningTeachingType": "Offline",
       "lo": "All LOs",
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     }
   ],
   "assessments": [
@@ -1067,18 +821,6 @@
       "knowledgeSkill": "All subjects in syllabus",
       "gradingGuide": "Exam room",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
-    }
-  ],
-  "files": [
-    {
-      "label": "DBI202",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "DBI202",
-      "sessionNo": "2",
-      "kind": "file"
     }
   ]
 }

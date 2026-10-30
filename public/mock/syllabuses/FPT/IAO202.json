@@ -10,7 +10,6 @@
     "prerequisite": "Students should have the following skills and knowledge:\n- PC and internet navigation skills\n- Basic Windows and Linux system concepts\n- Basic understanding of computer networks\n- Binary and Hexadecimal understanding\n- Familiarity with Cisco Packet Tracer",
     "description": "This course is designed based on the Cisco CyberOps Associate course.\nThe CyberOps Associate course is designed for Cisco Networking Academy® students who are seeking career-oriented, entry-level security analyst skills. Target students include individuals enrolled in technology degree programs at institutions of higher education and IT professionals who want to pursue a career in the Security Operation Center (SOC). Learners in this course are exposed to all of the foundational knowledge required to detect, analyze, and escalate basic cybersecurity threats using common open-source tools. This course aligns with the Cisco Certified CyberOps Associate (CBROPS) certification. Candidates need to pass the 200-201 CBROPS exam to achieve the Cisco Certified CyberOps Associate certification.",
     "studentTasks": "- Students must attend more than 80% of contact sessions in order to be accepted to the final examination.\n- Students are responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Promptly access to the http://cms.fpt.edu.vn for up-to-date course information\n- Students must complete all assignments on the Cisco Networking Academy (https://www.netacad.com/) with a result of at least 75%.",
-    "tools": "Baseline Equipment Bundle:\n- PCs\n- Internet connection for lab and student PCs\nStudent PC Software:\n- Oracle VM VirtualBox Manager (version 6.1 or later)\n- CyberOps Workstation VM\n+ Downloadable from the Course\n+ Requires 1 GB RAM, 20 GB Disk Space\n- Security Onion VM\n+ Downloadable from the Course\n+ Requires 4 GB RAM (minimum), 8GB RAM (highly recommended), 20 GB Disk Space",
     "scoringScale": "10",
     "decisionNo": "932/QĐ-ĐHFPT dated 08/22/2025",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 3279,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 3280,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 3281,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 3282,
@@ -90,8 +85,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -182,11 +176,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "TU",
-      "studentMaterials": "Course Syllabus, Module 1\n1.1.5 Lab Manual\n1.1.6 Lab Manual\n1.2.3 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 1\npractice Lab 1",
-      "urls": null
+      "studentTasks": "Read Module 1\npractice Lab 1"
     },
     {
       "id": 29845,
@@ -196,11 +186,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "TU",
-      "studentMaterials": "Course Syllabus, Module 1\n1.1.5 Lab Manual\n1.1.6 Lab Manual\n1.2.3 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 1\npractice Lab 1",
-      "urls": null
+      "studentTasks": "Read Module 1\npractice Lab 1"
     },
     {
       "id": 29846,
@@ -210,11 +196,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "TU",
-      "studentMaterials": "Module 2\n2.2.5 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 2\npractice Lab 2",
-      "urls": null
+      "studentTasks": "Read Module 2\npractice Lab 2"
     },
     {
       "id": 29847,
@@ -224,11 +206,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "TU",
-      "studentMaterials": "Module 2\n2.2.5 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 2\npractice Lab 2",
-      "urls": null
+      "studentTasks": "Read Module 2\npractice Lab 2"
     },
     {
       "id": 29848,
@@ -238,11 +216,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Module 3\n3.0.3 Lab Manual\n3.2.11 Lab Manual\n3.3.10 Lab Manual\n3.3.11 Lab Manual\n3.3.12 Lab Manual\n3.3.13 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 3\npractice Lab 3",
-      "urls": null
+      "studentTasks": "Read Module 3\npractice Lab 3"
     },
     {
       "id": 29849,
@@ -252,11 +226,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Module 3\n3.0.3 Lab Manual\n3.2.11 Lab Manual\n3.3.10 Lab Manual\n3.3.11 Lab Manual\n3.3.12 Lab Manual\n3.3.13 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 3\npractice Lab 3",
-      "urls": null
+      "studentTasks": "Read Module 3\npractice Lab 3"
     },
     {
       "id": 29850,
@@ -266,11 +236,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Module 4\n4.2.6 Lab Manual\n4.2.7 Lab Manual\n4.3.4 Lab Manual\n4.4.4 Lab Manual\n4.5.4 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 4\npractice Lab 4",
-      "urls": null
+      "studentTasks": "Read Module 4\npractice Lab 4"
     },
     {
       "id": 29851,
@@ -280,11 +246,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Module 4\n4.2.6 Lab Manual\n4.2.7 Lab Manual\n4.3.4 Lab Manual\n4.4.4 Lab Manual\n4.5.4 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 4\npractice Lab 4",
-      "urls": null
+      "studentTasks": "Read Module 4\npractice Lab 4"
     },
     {
       "id": 29852,
@@ -294,11 +256,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3, LO4",
       "itu": "TU",
-      "studentMaterials": "Module 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 5\npractice Lab 5",
-      "urls": null
+      "studentTasks": "Read Module 5\npractice Lab 5"
     },
     {
       "id": 29853,
@@ -308,11 +266,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3, LO4",
       "itu": "TU",
-      "studentMaterials": "Module 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 5\npractice Lab 5",
-      "urls": null
+      "studentTasks": "Read Module 5\npractice Lab 5"
     },
     {
       "id": 29854,
@@ -322,11 +276,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3, LO4",
       "itu": "TU",
-      "studentMaterials": "Module 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 6",
-      "urls": null
+      "studentTasks": "Read Module 6"
     },
     {
       "id": 29855,
@@ -336,11 +286,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3, LO4",
       "itu": "TU",
-      "studentMaterials": "Module 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 6",
-      "urls": null
+      "studentTasks": "Read Module 6"
     },
     {
       "id": 29856,
@@ -350,11 +296,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "TU",
-      "studentMaterials": "Module 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 7",
-      "urls": null
+      "studentTasks": "Read Module 7"
     },
     {
       "id": 29857,
@@ -364,11 +306,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "TU",
-      "studentMaterials": "Module 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 7",
-      "urls": null
+      "studentTasks": "Read Module 7"
     },
     {
       "id": 29858,
@@ -378,11 +316,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "TU",
-      "studentMaterials": "Module 8\n8.2.8 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 8\npractice Lab 6",
-      "urls": null
+      "studentTasks": "Read Module 8\npractice Lab 6"
     },
     {
       "id": 29859,
@@ -392,11 +326,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "TU",
-      "studentMaterials": "Module 8\n8.2.8 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 8\npractice Lab 6",
-      "urls": null
+      "studentTasks": "Read Module 8\npractice Lab 6"
     },
     {
       "id": 29860,
@@ -406,11 +336,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "TU",
-      "studentMaterials": "Module 9\n9.2.6 Lab Manual\n9.3.8 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 9\npractice Lab 7",
-      "urls": null
+      "studentTasks": "Read Module 9\npractice Lab 7"
     },
     {
       "id": 29861,
@@ -420,11 +346,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "TU",
-      "studentMaterials": "Module 9\n9.2.6 Lab Manual\n9.3.8 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 9\npractice Lab 7",
-      "urls": null
+      "studentTasks": "Read Module 9\npractice Lab 7"
     },
     {
       "id": 29862,
@@ -434,11 +356,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "TU",
-      "studentMaterials": "Module 10\n10.2.7 Lab Manual\n10.4.3 Lab Manual\n10.6.7 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 10\npractice Lab 8",
-      "urls": null
+      "studentTasks": "Read Module 10\npractice Lab 8"
     },
     {
       "id": 29863,
@@ -448,11 +366,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "TU",
-      "studentMaterials": "Module 10\n10.2.7 Lab Manual\n10.4.3 Lab Manual\n10.6.7 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 10\npractice Lab 8",
-      "urls": null
+      "studentTasks": "Read Module 10\npractice Lab 8"
     },
     {
       "id": 29864,
@@ -462,11 +376,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5,\nLO6",
       "itu": "TU",
-      "studentMaterials": "Module 11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 11",
-      "urls": null
+      "studentTasks": "Read Module 11"
     },
     {
       "id": 29865,
@@ -476,11 +386,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5,\nLO6",
       "itu": "TU",
-      "studentMaterials": "Module 11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 11",
-      "urls": null
+      "studentTasks": "Read Module 11"
     },
     {
       "id": 29866,
@@ -490,11 +396,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1-6",
       "itu": "TU",
-      "studentMaterials": "Module 1-11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review\nDo progress test 1",
-      "urls": null
+      "studentTasks": "Review\nDo progress test 1"
     },
     {
       "id": 29867,
@@ -504,11 +406,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1-6",
       "itu": "TU",
-      "studentMaterials": "Module 1-11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review\nDo progress test 1",
-      "urls": null
+      "studentTasks": "Review\nDo progress test 1"
     },
     {
       "id": 29868,
@@ -518,11 +416,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "TU",
-      "studentMaterials": "Module 12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 12",
-      "urls": null
+      "studentTasks": "Read Module 12"
     },
     {
       "id": 29869,
@@ -532,11 +426,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "TU",
-      "studentMaterials": "Module 12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 12",
-      "urls": null
+      "studentTasks": "Read Module 12"
     },
     {
       "id": 29870,
@@ -546,11 +436,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "TU",
-      "studentMaterials": "Module 13",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 13",
-      "urls": null
+      "studentTasks": "Read Module 13"
     },
     {
       "id": 29871,
@@ -560,11 +446,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "TU",
-      "studentMaterials": "Module 13",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 13",
-      "urls": null
+      "studentTasks": "Read Module 13"
     },
     {
       "id": 29872,
@@ -574,11 +456,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "TU",
-      "studentMaterials": "Module 14\n14.1.11 Lab Manual\n14.28 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 14\npractice Lab 9",
-      "urls": null
+      "studentTasks": "Read Module 14\npractice Lab 9"
     },
     {
       "id": 29873,
@@ -588,11 +466,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "TU",
-      "studentMaterials": "Module 14\n14.1.11 Lab Manual\n14.28 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 14\npractice Lab 9",
-      "urls": null
+      "studentTasks": "Read Module 14\npractice Lab 9"
     },
     {
       "id": 29874,
@@ -602,11 +476,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO8",
       "itu": "TU",
-      "studentMaterials": "Module 15\n15.0.3 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 15\npractice Lab 10",
-      "urls": null
+      "studentTasks": "Read Module 15\npractice Lab 10"
     },
     {
       "id": 29875,
@@ -616,11 +486,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO8",
       "itu": "TU",
-      "studentMaterials": "Module 15\n15.0.3 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 15\npractice Lab 10",
-      "urls": null
+      "studentTasks": "Read Module 15\npractice Lab 10"
     },
     {
       "id": 29876,
@@ -630,11 +496,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "TU",
-      "studentMaterials": "Module 16",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 16",
-      "urls": null
+      "studentTasks": "Read Module 16"
     },
     {
       "id": 29877,
@@ -644,11 +506,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "TU",
-      "studentMaterials": "Module 16",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 16",
-      "urls": null
+      "studentTasks": "Read Module 16"
     },
     {
       "id": 29878,
@@ -658,11 +516,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "TU",
-      "studentMaterials": "Module 17\n17.1.7 Lab Manual\n17.2.6 Lab Manual\n17.2.7 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 17\npractice Lab 11",
-      "urls": null
+      "studentTasks": "Read Module 17\npractice Lab 11"
     },
     {
       "id": 29879,
@@ -672,11 +526,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "TU",
-      "studentMaterials": "Module 17\n17.1.7 Lab Manual\n17.2.6 Lab Manual\n17.2.7 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 17\npractice Lab 11",
-      "urls": null
+      "studentTasks": "Read Module 17\npractice Lab 11"
     },
     {
       "id": 29880,
@@ -686,11 +536,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO8",
       "itu": "TU",
-      "studentMaterials": "Module 18",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 18",
-      "urls": null
+      "studentTasks": "Read Module 18"
     },
     {
       "id": 29881,
@@ -700,11 +546,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO8",
       "itu": "TU",
-      "studentMaterials": "Module 18",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 18",
-      "urls": null
+      "studentTasks": "Read Module 18"
     },
     {
       "id": 29882,
@@ -714,11 +556,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO8",
       "itu": "TU",
-      "studentMaterials": "Module 19",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 19",
-      "urls": null
+      "studentTasks": "Read Module 19"
     },
     {
       "id": 29883,
@@ -728,11 +566,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO8",
       "itu": "TU",
-      "studentMaterials": "Module 19",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 19",
-      "urls": null
+      "studentTasks": "Read Module 19"
     },
     {
       "id": 29884,
@@ -742,11 +576,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Module 20",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 20",
-      "urls": null
+      "studentTasks": "Read Module 20"
     },
     {
       "id": 29885,
@@ -756,11 +586,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Module 20",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 20",
-      "urls": null
+      "studentTasks": "Read Module 20"
     },
     {
       "id": 29886,
@@ -770,11 +596,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO10",
       "itu": "TU",
-      "studentMaterials": "Module 21\n21.0.3 Lab Manual\n21.1.6 Lab Manual\n21.2.10 Lab Manual\n21.2.11 Lab Manual\n21.2.12 Lab Manual\n21.4.7 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 21\npractice Lab 12",
-      "urls": null
+      "studentTasks": "Read Module 21\npractice Lab 12"
     },
     {
       "id": 29887,
@@ -784,11 +606,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO10",
       "itu": "TU",
-      "studentMaterials": "Module 21\n21.0.3 Lab Manual\n21.1.6 Lab Manual\n21.2.10 Lab Manual\n21.2.11 Lab Manual\n21.2.12 Lab Manual\n21.4.7 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 21\npractice Lab 12",
-      "urls": null
+      "studentTasks": "Read Module 21\npractice Lab 12"
     },
     {
       "id": 29888,
@@ -798,11 +616,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO10",
       "itu": "TU",
-      "studentMaterials": "Module 22",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 22",
-      "urls": null
+      "studentTasks": "Read Module 22"
     },
     {
       "id": 29889,
@@ -812,11 +626,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO10",
       "itu": "TU",
-      "studentMaterials": "Module 22",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 22",
-      "urls": null
+      "studentTasks": "Read Module 22"
     },
     {
       "id": 29890,
@@ -826,11 +636,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO10",
       "itu": "TU",
-      "studentMaterials": "Module 23",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 23",
-      "urls": null
+      "studentTasks": "Read Module 23"
     },
     {
       "id": 29891,
@@ -840,11 +646,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO10",
       "itu": "TU",
-      "studentMaterials": "Module 23",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 23",
-      "urls": null
+      "studentTasks": "Read Module 23"
     },
     {
       "id": 29892,
@@ -854,11 +656,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO11",
       "itu": "TU",
-      "studentMaterials": "Module 24",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 24",
-      "urls": null
+      "studentTasks": "Read Module 24"
     },
     {
       "id": 29893,
@@ -868,11 +666,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO11",
       "itu": "TU",
-      "studentMaterials": "Module 24",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 24",
-      "urls": null
+      "studentTasks": "Read Module 24"
     },
     {
       "id": 29894,
@@ -882,11 +676,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO11",
       "itu": "TU",
-      "studentMaterials": "Module 25",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 25",
-      "urls": null
+      "studentTasks": "Read Module 25"
     },
     {
       "id": 29895,
@@ -896,11 +686,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO11",
       "itu": "TU",
-      "studentMaterials": "Module 25",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 25",
-      "urls": null
+      "studentTasks": "Read Module 25"
     },
     {
       "id": 29896,
@@ -910,11 +696,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO10,\nLO11",
       "itu": "TU",
-      "studentMaterials": "Module 26\n26.1.7 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 26\npractice Lab 13",
-      "urls": null
+      "studentTasks": "Read Module 26\npractice Lab 13"
     },
     {
       "id": 29897,
@@ -924,11 +706,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO10,\nLO11",
       "itu": "TU",
-      "studentMaterials": "Module 26\n26.1.7 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 26\npractice Lab 13",
-      "urls": null
+      "studentTasks": "Read Module 26\npractice Lab 13"
     },
     {
       "id": 29898,
@@ -938,11 +716,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7-11",
       "itu": "TU",
-      "studentMaterials": "Module 12-26",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review\nDo progress test 2",
-      "urls": null
+      "studentTasks": "Review\nDo progress test 2"
     },
     {
       "id": 29899,
@@ -952,11 +726,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7-11",
       "itu": "TU",
-      "studentMaterials": "Module 12-26",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review\nDo progress test 2",
-      "urls": null
+      "studentTasks": "Review\nDo progress test 2"
     },
     {
       "id": 29900,
@@ -966,11 +736,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9,\nLO10",
       "itu": "TU",
-      "studentMaterials": "Module 27\n27.1.5 Lab Manual\n27.2.9 Lab Manual\n27.2.10 Lab Manual\n27.2.12 Lab Manual\n27.2.14 Lab Manual\n27.2.15 Lab Manual\n27.2.16 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 27\npractice Lab 14",
-      "urls": null
+      "studentTasks": "Read Module 27\npractice Lab 14"
     },
     {
       "id": 29901,
@@ -980,11 +746,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9,\nLO10",
       "itu": "TU",
-      "studentMaterials": "Module 27\n27.1.5 Lab Manual\n27.2.9 Lab Manual\n27.2.10 Lab Manual\n27.2.12 Lab Manual\n27.2.14 Lab Manual\n27.2.15 Lab Manual\n27.2.16 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 27\npractice Lab 14",
-      "urls": null
+      "studentTasks": "Read Module 27\npractice Lab 14"
     },
     {
       "id": 29902,
@@ -994,11 +756,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO11",
       "itu": "TU",
-      "studentMaterials": "Module 28\n28.4.13 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 28\npractice Lab 15",
-      "urls": null
+      "studentTasks": "Read Module 28\npractice Lab 15"
     },
     {
       "id": 29903,
@@ -1008,11 +766,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO11",
       "itu": "TU",
-      "studentMaterials": "Module 28\n28.4.13 Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Module 28\npractice Lab 15",
-      "urls": null
+      "studentTasks": "Read Module 28\npractice Lab 15"
     }
   ],
   "assessments": [
@@ -1080,6 +834,5 @@
       "gradingGuide": "Exam room",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
     }
-  ],
-  "files": []
+  ]
 }

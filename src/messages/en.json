@@ -238,6 +238,7 @@
     "rawDocExcerptLabel": "Short excerpt — not the full text",
     "rawDocSourceLink": "Original at the source: {domain}",
     "rawDocNoPublicLink": "No public link to the original.",
+    "rawDocTextLength": "Extracted text: {count, plural, one {# character} other {# characters}}",
     "allUniversityTypes": "All Types",
     "publicUniversity": "Public Universities",
     "privateUniversity": "Private Universities"
@@ -435,5 +436,11 @@
     "clearAll": "Clear all",
     "compare": "Compare",
     "compareHint": "Select 2–3 programs to compare"
+  },
+  "dataSource": {
+    "source": "Source: {university} — {host}",
+    "sourceVia": "Source: {university} — {host}, collected via {via} (an unofficial mirror)",
+    "collected": "Collected {date}",
+    "collectedNotRecorded": "Collected: not recorded"
   }
 }

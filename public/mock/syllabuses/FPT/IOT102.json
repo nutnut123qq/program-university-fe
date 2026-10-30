@@ -10,7 +10,6 @@
     "prerequisite": null,
     "description": "This is a 3-credit course. This course has two parts: online and offline.\n\nThe content includes basic concepts and applications of IoT and practical exercises on learning KIT.\n\nStudents are taught how to learn online and practice some parts at home. Q&A sessions, Guidance for important issues, and performance assessments will be conducted in the classroom.",
     "studentTasks": "- Students must attend at least 80% of contact sessions in order to be accepted to the final examination.\n\n- Student is responsible to learn all VIDEOs (theory) online given by instructor on Syllabus at home.\n\n- Student is responsible to do all LABs given by instructor on Syllabus at home.\n\n- Constantly follow https://flm.fpt.edu.vn/ for up-to-date course information.",
-    "tools": null,
     "scoringScale": "10",
     "decisionNo": "1363/QĐ-ĐHFPT dated 12/06/2024",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home"
+      "isOnline": 1
     },
     {
       "id": 2520,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://learning.edx.org/course/course-v1:CurtinX+IOT2x+2T2018/home"
+      "isOnline": 1
     },
     {
       "id": 2521,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": "soft copy"
+      "isOnline": 0
     },
     {
       "id": 2522,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "http://www.introtoarduino.com"
+      "isOnline": 1
     },
     {
       "id": 2523,
@@ -90,8 +85,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.arduino.cc/"
+      "isOnline": 1
     },
     {
       "id": 2524,
@@ -104,8 +98,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": "soft copy"
+      "isOnline": 0
     },
     {
       "id": 2525,
@@ -118,8 +111,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": "soft copy"
+      "isOnline": 0
     }
   ],
   "clos": [
@@ -224,11 +216,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO01",
       "itu": null,
-      "studentMaterials": "Slide\nVideo\nGUIDE Of Create an Account_Explore Courses_Quiz on edX.pdf",
-      "sDownload": "IOT102",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/12225/S/1_IOT102.zip",
-      "studentTasks": "Borrow theLearning KIT at the library.\nEnroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home",
-      "urls": null
+      "studentTasks": "Borrow theLearning KIT at the library.\nEnroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home"
     },
     {
       "id": 22776,
@@ -238,11 +226,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO01",
       "itu": null,
-      "studentMaterials": "Slide\nVideo\nGUIDE Of Create an Account_Explore Courses_Quiz on edX.pdf",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Borrow theLearning KIT at the library.\nEnroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home",
-      "urls": null
+      "studentTasks": "Borrow theLearning KIT at the library.\nEnroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home"
     },
     {
       "id": 22777,
@@ -252,11 +236,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10, CLO12",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22778,
@@ -266,11 +246,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO02",
       "itu": null,
-      "studentMaterials": "Slide\nVideo",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home\nFollow the lessons online",
-      "urls": null
+      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home\nFollow the lessons online"
     },
     {
       "id": 22779,
@@ -280,11 +256,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO03",
       "itu": null,
-      "studentMaterials": "Slide\nVideo",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home\nFollow the lessons online",
-      "urls": null
+      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home\nFollow the lessons online"
     },
     {
       "id": 22780,
@@ -294,11 +266,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO03",
       "itu": null,
-      "studentMaterials": "Slide\nVideo",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home\nFollow the lessons online",
-      "urls": null
+      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home\nFollow the lessons online"
     },
     {
       "id": 22781,
@@ -308,11 +276,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10, CLO12",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22782,
@@ -322,11 +286,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO06, CLO07",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22783,
@@ -336,11 +296,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO06, CLO07",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22784,
@@ -350,11 +306,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO01",
       "itu": null,
-      "studentMaterials": "Slide\nVideo",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home\nFollow the lessons online",
-      "urls": null
+      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home\nFollow the lessons online"
     },
     {
       "id": 22785,
@@ -364,11 +316,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO01",
       "itu": null,
-      "studentMaterials": "Slide\nVideo",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home\nFollow the lessons online",
-      "urls": null
+      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home\nFollow the lessons online"
     },
     {
       "id": 22786,
@@ -378,11 +326,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO06",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the practice guide",
-      "urls": null
+      "studentTasks": "Follow the practice guide"
     },
     {
       "id": 22787,
@@ -392,11 +336,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO06, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22788,
@@ -406,11 +346,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO06, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22789,
@@ -420,11 +356,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO05, CLO06, CLO08, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22790,
@@ -434,11 +366,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO04",
       "itu": null,
-      "studentMaterials": "Slide\nVideo",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home\nFollow the lessons online",
-      "urls": null
+      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home\nFollow the lessons online"
     },
     {
       "id": 22791,
@@ -448,11 +376,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO04",
       "itu": null,
-      "studentMaterials": "Slide\nVideo",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home\nFollow the lessons online",
-      "urls": null
+      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT1x+2T2018/home\nFollow the lessons online"
     },
     {
       "id": 22792,
@@ -462,11 +386,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO05, CLO06, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the practice guide",
-      "urls": null
+      "studentTasks": "Follow the practice guide"
     },
     {
       "id": 22793,
@@ -476,11 +396,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO05, CLO06, CLO08, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22794,
@@ -490,11 +406,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO05, CLO06, CLO08, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22795,
@@ -504,11 +416,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO06, CLO07, CLO08",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22796,
@@ -518,11 +426,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO05",
       "itu": null,
-      "studentMaterials": "Slide\nVideo",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT2x+2T2018/home\nFollow the lessons online",
-      "urls": null
+      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT2x+2T2018/home\nFollow the lessons online"
     },
     {
       "id": 22797,
@@ -532,11 +436,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO05",
       "itu": null,
-      "studentMaterials": "Slide\nVideo",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT2x+2T2018/home\nFollow the lessons online",
-      "urls": null
+      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT2x+2T2018/home\nFollow the lessons online"
     },
     {
       "id": 22798,
@@ -546,11 +446,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO05, CLO10",
       "itu": null,
-      "studentMaterials": "Slide\nVideo",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT2x+2T2018/home\nFollow the lesson online",
-      "urls": null
+      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT2x+2T2018/home\nFollow the lesson online"
     },
     {
       "id": 22799,
@@ -560,11 +456,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO05, CLO10",
       "itu": null,
-      "studentMaterials": "Slide\nVideo",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT2x+2T2018/home\nFollow the lesson online",
-      "urls": null
+      "studentTasks": "Enroll course:\nhttps://learning.edx.org/course/course-v1:CurtinX+IOT2x+2T2018/home\nFollow the lesson online"
     },
     {
       "id": 22800,
@@ -574,11 +466,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO01, CLO02, CLO03, CLO04, CLO05, CLO10",
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Presentation about Final Project Planning",
-      "urls": null
+      "studentTasks": "Presentation about Final Project Planning"
     },
     {
       "id": 22801,
@@ -588,11 +476,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO01, CLO02, CLO03, CLO04, CLO05, CLO10",
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Presentation about Final Project Planning",
-      "urls": null
+      "studentTasks": "Presentation about Final Project Planning"
     },
     {
       "id": 22802,
@@ -602,11 +486,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO06, CLO07, CLO08",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22803,
@@ -616,11 +496,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO05, CLO06, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the practice guide",
-      "urls": null
+      "studentTasks": "Follow the practice guide"
     },
     {
       "id": 22804,
@@ -630,11 +506,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO06, CLO07, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the practice guide",
-      "urls": null
+      "studentTasks": "Follow the practice guide"
     },
     {
       "id": 22805,
@@ -644,11 +516,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO05, CLO06, CLO07, CLO08, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT, Advanced components",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the Advanced Lab guide",
-      "urls": null
+      "studentTasks": "Follow the Advanced Lab guide"
     },
     {
       "id": 22806,
@@ -658,11 +526,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO05, CLO06",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22807,
@@ -672,11 +536,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO05, CLO07, CLO08, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22808,
@@ -686,11 +546,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO05, CLO06, CLO07, CLO08, CLO09",
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 22809,
@@ -700,11 +556,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO06, CLO07, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the practice guide",
-      "urls": null
+      "studentTasks": "Follow the practice guide"
     },
     {
       "id": 22810,
@@ -714,11 +566,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO07, CLO09, CLO12",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the practice guide",
-      "urls": null
+      "studentTasks": "Follow the practice guide"
     },
     {
       "id": 22811,
@@ -728,11 +576,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO05, CLO06, CLO07, CLO08, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT, Advanced components",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the Advanced Lab guide",
-      "urls": null
+      "studentTasks": "Follow the Advanced Lab guide"
     },
     {
       "id": 22812,
@@ -742,11 +586,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO05, CLO07, CLO08, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22813,
@@ -756,11 +596,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO13",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22814,
@@ -770,11 +606,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO13",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22815,
@@ -784,11 +616,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO06",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the practice guide",
-      "urls": null
+      "studentTasks": "Follow the practice guide"
     },
     {
       "id": 22816,
@@ -798,11 +626,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the practice guide",
-      "urls": null
+      "studentTasks": "Follow the practice guide"
     },
     {
       "id": 22817,
@@ -812,11 +636,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO05, CLO06, CLO07, CLO08, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT, Advanced components",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the Advanced Lab guide",
-      "urls": null
+      "studentTasks": "Follow the Advanced Lab guide"
     },
     {
       "id": 22818,
@@ -826,11 +646,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO05, CLO06, CLO07, CLO08, CLO09, CLO10, CLO12",
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Draw block diagram\nCreate circuit schematic/Hardware inferace/wiring diagram\nDraw flowchart",
-      "urls": null
+      "studentTasks": "Draw block diagram\nCreate circuit schematic/Hardware inferace/wiring diagram\nDraw flowchart"
     },
     {
       "id": 22819,
@@ -840,11 +656,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO13",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22820,
@@ -854,11 +666,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO05, CLO06, CLO07, CLO08, CLO09, CLO10, CLO12",
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present Block diagram, Flowchart",
-      "urls": null
+      "studentTasks": "Present Block diagram, Flowchart"
     },
     {
       "id": 22821,
@@ -868,11 +676,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO05, CLO06, CLO07, CLO08, CLO09, CLO10, CLO12",
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present Block diagram, Flowchart",
-      "urls": null
+      "studentTasks": "Present Block diagram, Flowchart"
     },
     {
       "id": 22822,
@@ -882,11 +686,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the practice guide",
-      "urls": null
+      "studentTasks": "Follow the practice guide"
     },
     {
       "id": 22823,
@@ -896,11 +696,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO06",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the practice guide",
-      "urls": null
+      "studentTasks": "Follow the practice guide"
     },
     {
       "id": 22824,
@@ -910,11 +706,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO06, CLO09, CLO11",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22825,
@@ -924,11 +716,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO06, CLO09, CLO11",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22826,
@@ -938,11 +726,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO01-13",
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 22827,
@@ -952,11 +736,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO05, CLO06, CLO07, CLO08, CLO09",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT, Advanced components",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the Advanced Lab guide",
-      "urls": null
+      "studentTasks": "Follow the Advanced Lab guide"
     },
     {
       "id": 22828,
@@ -966,11 +746,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO05, CLO06, CLO07, CLO08, CLO09, CLO12",
       "itu": null,
-      "studentMaterials": "Latex/Overleaf Tutorial online or\nReport template and guildeline provided by instructor",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Prepare Final Report using Latex/Overleaf or\nDiscuss with your instructor for the guidance",
-      "urls": null
+      "studentTasks": "Prepare Final Report using Latex/Overleaf or\nDiscuss with your instructor for the guidance"
     },
     {
       "id": 22829,
@@ -980,11 +756,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO06, CLO07",
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson.",
-      "urls": null
+      "studentTasks": "Discuss with your instructor the lessons learned online and the new lesson."
     },
     {
       "id": 22830,
@@ -994,11 +766,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO10",
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Prepare for final project presentation",
-      "urls": null
+      "studentTasks": "Prepare for final project presentation"
     },
     {
       "id": 22831,
@@ -1008,11 +776,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO10",
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Prepare for final project presentation",
-      "urls": null
+      "studentTasks": "Prepare for final project presentation"
     },
     {
       "id": 22832,
@@ -1022,11 +786,7 @@
       "learningTeachingType": "Online",
       "lo": null,
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the practice guide",
-      "urls": null
+      "studentTasks": "Follow the practice guide"
     },
     {
       "id": 22833,
@@ -1036,11 +796,7 @@
       "learningTeachingType": "Online",
       "lo": null,
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the practice guide",
-      "urls": null
+      "studentTasks": "Follow the practice guide"
     },
     {
       "id": 22834,
@@ -1050,11 +806,7 @@
       "learningTeachingType": "Online",
       "lo": null,
       "itu": null,
-      "studentMaterials": "Tutorial\nLearning KIT",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Follow the practice guide",
-      "urls": null
+      "studentTasks": "Follow the practice guide"
     }
   ],
   "assessments": [
@@ -1153,13 +905,6 @@
       "knowledgeSkill": "All chapters; knowledge and skills",
       "gradingGuide": "by Exam board",
       "note": null
-    }
-  ],
-  "files": [
-    {
-      "label": "IOT102",
-      "sessionNo": "1",
-      "kind": "file"
     }
   ]
 }

@@ -10,7 +10,6 @@
     "prerequisite": "NWC204",
     "description": "The Cisco Networking Academy® CCNAv7 curriculum is designed for participants who are seeking entry-level jobs in the ICT industry or hope to fulfill prerequisites to pursue more specialized ICT skills. The CCNAv7 curriculum is presented in three courses: Introduction to Networks (ITN), Switching, Routing and Wireless Essentials (SRWE), and Enterprise Networking, Security, and Automation (ENSA). These three courses provide integrated and comprehensive coverage of networking topics including: IP routing and switching fundamentals, network security and services, and network programmability and automation, while providing learners extensive opportunities for hands-on practical experience and career skills development.\n\nThe Switching, Routing and Wireless Essentials (SRWE) course in the CCNA curriculum focuses on switching technologies and router operations that support small-to-medium business networks and includes wireless local area networks (WLANs) and security concepts. Students learn key switching and routing concepts. They can perform basic network configuration and troubleshooting, identify and mitigate LAN security threats, and configure and secure a basic WLAN.",
     "studentTasks": "Students must attend at least 80% of contact sessions in order to be accepted to the final examination.\n\n- Students are responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n\n- Use laptop in class only for learning purpose\n\n- Promptly access to the http://cms.fpt.edu.vn for up-to-date course information\n\n- Students must complete all assignments on the Cisco Networking Academy (https://www.netacad.com/) with a result of at least 75%.",
-    "tools": "Tools:\n\nBaseline Equipment Bundle:\n\n- 2 x ISR4221/K9 Routers\n\n- 2 x WS-C2960+24TC-L Catalyst switches\n\n- 1 wireless router (generic brand) with WPA2 support\n\n- Ethernet patch cables\n\n- PCs\n\n- Internet connection for lab and student PCs\n\n- Optional equipment for connecting to a WLAN\n\n+ 1 printer or integrated printer/scanner/copier for the class to share\n\n+ Smartphones and tablets are desirable for use with the labs\n\nStudent PC Software:\n\n- Packet Tracer\n\n- Open-source server software:\n\n+ For various services and protocols, such as Telnet, SSH, HTTP, DHCP, FTP, TFTP, etc.\n\n- Tera Term source SSH client software for lab PCs.\n\n- Oracle VirtualBox, most recent version.\n\n- Wireshark version 2.5 or higher.",
     "scoringScale": "10",
     "decisionNo": "358/QĐ-ĐHFPT dated 04/03/2024",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 1873,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 1874,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -168,11 +164,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO 1",
       "itu": "T",
-      "studentMaterials": "Module: Basic Device Configuration",
-      "sDownload": "NWC303_1",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Basic Device Configuration",
-      "urls": null
+      "studentTasks": "Read Chapter: Basic Device Configuration"
     },
     {
       "id": 15116,
@@ -182,11 +174,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO 1",
       "itu": "T",
-      "studentMaterials": "Module: Basic Device Configuration",
-      "sDownload": "NWC303_2",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Basic Device Configuration",
-      "urls": null
+      "studentTasks": "Read Chapter: Basic Device Configuration"
     },
     {
       "id": 15117,
@@ -196,11 +184,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO 1",
       "itu": "T",
-      "studentMaterials": "Module: Basic Device Configuration",
-      "sDownload": "NWC303_3",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Basic Device Configuration",
-      "urls": null
+      "studentTasks": "Read Chapter: Basic Device Configuration"
     },
     {
       "id": 15118,
@@ -210,11 +194,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO 1",
       "itu": "U",
-      "studentMaterials": "1.1.7 Lab - Basic Switch Configuration - ILM\n\n1.6.2 Lab - Configure Basic Router Settings - ILM",
-      "sDownload": "NWC303_4",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15119,
@@ -224,11 +204,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO 1",
       "itu": "U",
-      "studentMaterials": "1.1.7 Lab - Basic Switch Configuration - ILM\n\n1.6.2 Lab - Configure Basic Router Settings - ILM",
-      "sDownload": "NWC303_5",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15120,
@@ -238,11 +214,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO 1",
       "itu": "U",
-      "studentMaterials": "1.1.7 Lab - Basic Switch Configuration - ILM\n\n1.6.2 Lab - Configure Basic Router Settings - ILM",
-      "sDownload": "NWC303_6",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15121,
@@ -252,11 +224,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO 2, CLO3",
       "itu": "T",
-      "studentMaterials": "Module: Switching Concepts and VLANs",
-      "sDownload": "NWC303_7",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Switching Concepts and VLANs",
-      "urls": null
+      "studentTasks": "Read Chapter: Switching Concepts and VLANs"
     },
     {
       "id": 15122,
@@ -266,11 +234,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO 2, CLO3",
       "itu": "T",
-      "studentMaterials": "Module: Switching Concepts and VLANs",
-      "sDownload": "NWC303_8",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Switching Concepts and VLANs",
-      "urls": null
+      "studentTasks": "Read Chapter: Switching Concepts and VLANs"
     },
     {
       "id": 15123,
@@ -280,11 +244,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO 2, CLO3",
       "itu": "T",
-      "studentMaterials": "Module: Switching Concepts and VLANs",
-      "sDownload": "NWC303_9",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Switching Concepts and VLANs",
-      "urls": null
+      "studentTasks": "Read Chapter: Switching Concepts and VLANs"
     },
     {
       "id": 15124,
@@ -294,11 +254,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO 2, CLO3",
       "itu": "U",
-      "studentMaterials": "3.4.6 Lab - Configure VLANs and Trunking - ILM\n\n3.6.2 Lab - Implement VLANs and Trunking - ILM",
-      "sDownload": "NWC303_10",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15125,
@@ -308,11 +264,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO 2, CLO3",
       "itu": "U",
-      "studentMaterials": "3.4.6 Lab - Configure VLANs and Trunking - ILM\n\n3.6.2 Lab - Implement VLANs and Trunking - ILM",
-      "sDownload": "NWC303_11",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15126,
@@ -322,11 +274,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO 2, CLO3",
       "itu": "U",
-      "studentMaterials": "3.4.6 Lab - Configure VLANs and Trunking - ILM\n\n3.6.2 Lab - Implement VLANs and Trunking - ILM",
-      "sDownload": "NWC303_12",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15127,
@@ -336,11 +284,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Module: STP",
-      "sDownload": "NWC303_13",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: STP",
-      "urls": null
+      "studentTasks": "Read Chapter: STP"
     },
     {
       "id": 15128,
@@ -350,11 +294,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Module: STP",
-      "sDownload": "NWC303_14",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: STP",
-      "urls": null
+      "studentTasks": "Read Chapter: STP"
     },
     {
       "id": 15129,
@@ -364,11 +304,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T,U",
-      "studentMaterials": "Module: STP\n\nActivity - 5.1.9 Packet Tracer - Investigate STP Loop Prevention",
-      "sDownload": "NWC303_15",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: STP",
-      "urls": null
+      "studentTasks": "Read Chapter: STP"
     },
     {
       "id": 15130,
@@ -378,11 +314,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Module: DHCPv4",
-      "sDownload": "NWC303_16",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: DHCPv4",
-      "urls": null
+      "studentTasks": "Read Chapter: DHCPv4"
     },
     {
       "id": 15131,
@@ -392,11 +324,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "7.4.2 Lab - Implement DHCPv4 - ILM",
-      "sDownload": "NWC303_17",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15132,
@@ -406,11 +334,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "7.4.2 Lab - Implement DHCPv4 - ILM",
-      "sDownload": "NWC303_18",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15133,
@@ -420,11 +344,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "Module: SLAAC and DHCPv6 Concepts",
-      "sDownload": "NWC303_19",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: SLAAC and DHCPv6 Concepts",
-      "urls": null
+      "studentTasks": "Read Chapter: SLAAC and DHCPv6 Concepts"
     },
     {
       "id": 15134,
@@ -434,11 +354,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "Module: SLAAC and DHCPv6 Concepts",
-      "sDownload": "NWC303_20",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: SLAAC and DHCPv6 Concepts",
-      "urls": null
+      "studentTasks": "Read Chapter: SLAAC and DHCPv6 Concepts"
     },
     {
       "id": 15135,
@@ -448,11 +364,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1 - CLO5",
       "itu": "U",
-      "studentMaterials": "Progress test 1",
-      "sDownload": "NWC303_21",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Progress test 1",
-      "urls": null
+      "studentTasks": "Do Progress test 1"
     },
     {
       "id": 15136,
@@ -462,11 +374,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "8.5.1 Lab - Configure DHCPv6 - ILM",
-      "sDownload": "NWC303_22",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15137,
@@ -476,11 +384,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "8.5.1 Lab - Configure DHCPv6 - ILM",
-      "sDownload": "NWC303_23",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15138,
@@ -490,11 +394,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "8.5.1 Lab - Configure DHCPv6 - ILM",
-      "sDownload": "NWC303_24",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15139,
@@ -504,11 +404,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Module: LAN Security Concepts",
-      "sDownload": "NWC303_25",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: LAN Security Concepts",
-      "urls": null
+      "studentTasks": "Read Chapter: LAN Security Concepts"
     },
     {
       "id": 15140,
@@ -518,11 +414,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Module: LAN Security Concepts",
-      "sDownload": "NWC303_26",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: LAN Security Concepts",
-      "urls": null
+      "studentTasks": "Read Chapter: LAN Security Concepts"
     },
     {
       "id": 15141,
@@ -532,11 +424,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Module: LAN Security Concepts",
-      "sDownload": "NWC303_27",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: LAN Security Concepts",
-      "urls": null
+      "studentTasks": "Read Chapter: LAN Security Concepts"
     },
     {
       "id": 15142,
@@ -546,11 +434,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "Module: Switch Security Configuration",
-      "sDownload": "NWC303_28",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Switch Security Configuration",
-      "urls": null
+      "studentTasks": "Read Chapter: Switch Security Configuration"
     },
     {
       "id": 15143,
@@ -560,11 +444,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "Module: Switch Security Configuration",
-      "sDownload": "NWC303_29",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Switch Security Configuration",
-      "urls": null
+      "studentTasks": "Read Chapter: Switch Security Configuration"
     },
     {
       "id": 15144,
@@ -574,11 +454,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "Module: Switch Security Configuration\n\nActivity - 11.6.1 Packet Tracer - Switch Security Configuration",
-      "sDownload": "NWC303_30",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Switch Security Configuration",
-      "urls": null
+      "studentTasks": "Read Chapter: Switch Security Configuration"
     },
     {
       "id": 15145,
@@ -588,11 +464,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "11.6.2 Lab - Switch Security Configuration - ILM",
-      "sDownload": "NWC303_31",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15146,
@@ -602,11 +474,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "11.6.2 Lab - Switch Security Configuration - ILM",
-      "sDownload": "NWC303_32",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15147,
@@ -616,11 +484,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "11.6.2 Lab - Switch Security Configuration - ILM",
-      "sDownload": "NWC303_33",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15148,
@@ -630,11 +494,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "Module: WLAN Concepts",
-      "sDownload": "NWC303_34",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: WLAN Concepts",
-      "urls": null
+      "studentTasks": "Read Chapter: WLAN Concepts"
     },
     {
       "id": 15149,
@@ -644,11 +504,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "Module: WLAN Concepts",
-      "sDownload": "NWC303_35",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: WLAN Concepts",
-      "urls": null
+      "studentTasks": "Read Chapter: WLAN Concepts"
     },
     {
       "id": 15150,
@@ -658,11 +514,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "Module: WLAN Concepts",
-      "sDownload": "NWC303_36",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: WLAN Concepts",
-      "urls": null
+      "studentTasks": "Read Chapter: WLAN Concepts"
     },
     {
       "id": 15151,
@@ -672,11 +524,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "T",
-      "studentMaterials": "Module: WLAN Configuration\n\nActivity: 13.1.10 Packet Tracer - Configure a Wireless Network",
-      "sDownload": "NWC303_37",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: WLAN Configuration",
-      "urls": null
+      "studentTasks": "Read Chapter: WLAN Configuration"
     },
     {
       "id": 15152,
@@ -686,11 +534,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "T",
-      "studentMaterials": "Module: WLAN Configuration\n\nActivity: 13.2.7 Packet Tracer - Configure a Basic WLAN on the WLC",
-      "sDownload": "NWC303_38",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: WLAN Configuration",
-      "urls": null
+      "studentTasks": "Read Chapter: WLAN Configuration"
     },
     {
       "id": 15153,
@@ -700,11 +544,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "T",
-      "studentMaterials": "Module: WLAN Configuration\n\nActivity: 13.4.5 Packet Tracer - Troubleshoot WLAN Issues",
-      "sDownload": "NWC303_39",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: WLAN Configuration",
-      "urls": null
+      "studentTasks": "Read Chapter: WLAN Configuration"
     },
     {
       "id": 15154,
@@ -714,11 +554,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "13.1.11 Lab - Configure a Wireless Network - ILM",
-      "sDownload": "NWC303_40",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15155,
@@ -728,11 +564,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "13.1.11 Lab - Configure a Wireless Network - ILM",
-      "sDownload": "NWC303_41",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15156,
@@ -742,11 +574,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "13.1.11 Lab - Configure a Wireless Network - ILM",
-      "sDownload": "NWC303_42",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15157,
@@ -756,11 +584,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO11",
       "itu": "T",
-      "studentMaterials": "Module: Routing Concepts",
-      "sDownload": "NWC303_43",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Routing Concepts",
-      "urls": null
+      "studentTasks": "Read Chapter: Routing Concepts"
     },
     {
       "id": 15158,
@@ -770,11 +594,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO11",
       "itu": "T",
-      "studentMaterials": "Module: Routing Concepts",
-      "sDownload": "NWC303_44",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Routing Concepts",
-      "urls": null
+      "studentTasks": "Read Chapter: Routing Concepts"
     },
     {
       "id": 15159,
@@ -784,11 +604,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO11",
       "itu": "T",
-      "studentMaterials": "Module: Routing Concepts\n\nActivity: 14.3.5 Packet Tracer - Basic Router Configuration Review",
-      "sDownload": "NWC303_45",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Routing Concepts",
-      "urls": null
+      "studentTasks": "Read Chapter: Routing Concepts"
     },
     {
       "id": 15160,
@@ -798,11 +614,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO12",
       "itu": "T",
-      "studentMaterials": "Module: IP Static Routing",
-      "sDownload": "NWC303_46",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: IP Static Routing",
-      "urls": null
+      "studentTasks": "Read Chapter: IP Static Routing"
     },
     {
       "id": 15161,
@@ -812,11 +624,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO12",
       "itu": "T",
-      "studentMaterials": "Module: IP Static Routing",
-      "sDownload": "NWC303_47",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: IP Static Routing",
-      "urls": null
+      "studentTasks": "Read Chapter: IP Static Routing"
     },
     {
       "id": 15162,
@@ -826,11 +634,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6 - CL11",
       "itu": "U",
-      "studentMaterials": "Progress test 2",
-      "sDownload": "NWC303_48",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Progress test 2",
-      "urls": null
+      "studentTasks": "Progress test 2"
     },
     {
       "id": 15163,
@@ -840,11 +644,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO11, CLO12",
       "itu": "U",
-      "studentMaterials": "15.6.2 Lab - Configure IPv4 and IPv6 Static and Default Routes - ILM",
-      "sDownload": "NWC303_49",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15164,
@@ -854,11 +654,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO11, CLO12",
       "itu": "U",
-      "studentMaterials": "15.6.2 Lab - Configure IPv4 and IPv6 Static and Default Routes - ILM",
-      "sDownload": "NWC303_50",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15165,
@@ -868,11 +664,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO11, CLO12",
       "itu": "U",
-      "studentMaterials": "15.6.2 Lab - Configure IPv4 and IPv6 Static and Default Routes - ILM",
-      "sDownload": "NWC303_51",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15166,
@@ -882,11 +674,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO13",
       "itu": "T",
-      "studentMaterials": "Module: Troubleshoot Static and Default Routes",
-      "sDownload": "NWC303_52",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Troubleshoot Static and Default Routes",
-      "urls": null
+      "studentTasks": "Read Chapter: Troubleshoot Static and Default Routes"
     },
     {
       "id": 15167,
@@ -896,11 +684,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO13",
       "itu": "T",
-      "studentMaterials": "Module: Troubleshoot Static and Default Routes",
-      "sDownload": "NWC303_53",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Troubleshoot Static and Default Routes",
-      "urls": null
+      "studentTasks": "Read Chapter: Troubleshoot Static and Default Routes"
     },
     {
       "id": 15168,
@@ -910,11 +694,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO13",
       "itu": "T",
-      "studentMaterials": "Module: Troubleshoot Static and Default Routes",
-      "sDownload": "NWC303_54",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Read Chapter: Troubleshoot Static and Default Routes",
-      "urls": null
+      "studentTasks": "Read Chapter: Troubleshoot Static and Default Routes"
     },
     {
       "id": 15169,
@@ -924,11 +704,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO13",
       "itu": "U",
-      "studentMaterials": "16.3.2 Lab - Troubleshoot IPv4 and IPv6 Static and Default Routes - ILM",
-      "sDownload": "NWC303_55",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15170,
@@ -938,11 +714,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO13",
       "itu": "U",
-      "studentMaterials": "16.3.2 Lab - Troubleshoot IPv4 and IPv6 Static and Default Routes - ILM",
-      "sDownload": "NWC303_56",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15171,
@@ -952,11 +724,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO13",
       "itu": "U",
-      "studentMaterials": "16.3.2 Lab - Troubleshoot IPv4 and IPv6 Static and Default Routes - ILM",
-      "sDownload": "NWC303_57",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Do Lab",
-      "urls": null
+      "studentTasks": "Do Lab"
     },
     {
       "id": 15172,
@@ -966,11 +734,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1-13",
       "itu": "T,U",
-      "studentMaterials": "Review",
-      "sDownload": "NWC303_58",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Review",
-      "urls": null
+      "studentTasks": "Review"
     },
     {
       "id": 15173,
@@ -980,11 +744,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1-13",
       "itu": "T,U",
-      "studentMaterials": "Review",
-      "sDownload": "NWC303_59",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Review",
-      "urls": null
+      "studentTasks": "Review"
     },
     {
       "id": 15174,
@@ -994,11 +754,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1-13",
       "itu": "T,U",
-      "studentMaterials": "Review",
-      "sDownload": "NWC303_60",
-      "downloadUrls": "https://www.netacad.com/",
-      "studentTasks": "Review",
-      "urls": null
+      "studentTasks": "Review"
     }
   ],
   "assessments": [
@@ -1081,13 +837,6 @@
       "knowledgeSkill": "concepts, algorithms;\n\nall studied chapters",
       "gradingGuide": "by exam board,\n\nusing computer",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
-    }
-  ],
-  "files": [
-    {
-      "label": "NWC303_1",
-      "sessionNo": "1",
-      "kind": "external"
     }
   ]
 }

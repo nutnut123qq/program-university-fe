@@ -10,7 +10,6 @@
     "prerequisite": "IOT102",
     "description": "This course is based on the \"An Introduction to Programming the Internet of Things (IoT)\" Specialization at https://www.coursera.org/specializations/iot.\n\nThe course covers embedded systems, the Raspberry Pi Platform and the Arduino environment for building devices that can control the physical world. Unlike traditional computer-based systems, IoT devices are “embedded” within other devices in order to provide enhanced functionality without exposing the user to the complexities of a computer. In terms of programming, Arduino - an open-source computer hardware/software platform for building digital devices and interactive objects, is a great choice for controlling small devices, whereas the Raspberry Pi - a small single-board computer, is useful for designing and developing practical IoT devices.\n\nStudents must complete the IOT102 course before participating in this course. Students will start with a detailed introduction to the internet of things and embedded systems, then work with Arduino and program in C, then work with Raspberry Pi and program in Python, and finally produce a group project. In this final project, students will apply the skills learned by designing, building and testing a microcontroller-based embedded system, completing a unique final project that can be listed as an achievement in their CVs.",
     "studentTasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n\n- Students are responsible to do all exercises, assignments and labs given by the instructor in class or at home and submit everything on time.\n\n- Students should use laptops in class only for learning purpose.\n\n- Students must frequently go to https://flm.fpt.edu.vn/ for up-to-date course information.\n\n- Labs are done in groups at Lab rooms (2-3 students/group); Final Projects are built and reported at Lab rooms in the same groups of students. Each group works with a standard set of devices** which is used for both labs and Final Project. Students can buy extra devices if wanted.",
-    "tools": "- Internet\n\n- Arduino environment\n\n- Basic IoT kit\n\n- Arduino Ethernet Shield and Arduino Wifi Shield\n\n- Raspberry Pi board\n\n- Python Shell",
     "scoringScale": "10",
     "decisionNo": "1205/QĐ-ĐHFPT dated 11/22/2023",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 1711,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 1712,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 1713,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 1714,
@@ -90,8 +85,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 1715,
@@ -104,8 +98,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -168,11 +161,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "I",
-      "studentMaterials": "Slides, Videos\n\n(Course 1, Course 2, Course 3 Week 1, 2, 3)",
-      "sDownload": "mat1",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/5704/S/1_mat1.zip",
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12963,
@@ -182,11 +171,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "I",
-      "studentMaterials": "Slides, Videos\n\n(Course 1, Course 2, Course 3 Week 1, 2, 3)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12964,
@@ -196,11 +181,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos\n\n(Course 3, Week 4)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12965,
@@ -210,11 +191,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos\n\n(Course 3, Week 4)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12966,
@@ -224,11 +201,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "I, T, U",
-      "studentMaterials": "Slides, Videos\n\n(Course 3, Week 4)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12967,
@@ -238,11 +211,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "I, T, U",
-      "studentMaterials": "Slides, Videos\n\n(Course 3, Week 4)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12968,
@@ -252,11 +221,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "I, T, U",
-      "studentMaterials": "Slides, Videos\n\n(Course 3, Week 4)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12969,
@@ -266,11 +231,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "I, T, U",
-      "studentMaterials": "Slides, Videos\n\n(Course 3, Week 4)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12970,
@@ -280,11 +241,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "I, U",
-      "studentMaterials": "Basic IoT Kit, Shields",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)\n\nFinish Lab 1",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)\n\nFinish Lab 1"
     },
     {
       "id": 12971,
@@ -294,11 +251,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "I, U",
-      "studentMaterials": "Basic IoT Kit, Shields",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)\n\nFinish Lab 1",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)\n\nFinish Lab 1"
     },
     {
       "id": 12972,
@@ -308,11 +261,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Quiz 1\n\nFinish Lab 2",
-      "urls": null
+      "studentTasks": "Finish Quiz 1\n\nFinish Lab 2"
     },
     {
       "id": 12973,
@@ -322,11 +271,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Quiz 1\n\nFinish Lab 2",
-      "urls": null
+      "studentTasks": "Finish Quiz 1\n\nFinish Lab 2"
     },
     {
       "id": 12974,
@@ -336,11 +281,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T, U",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 4, Week 1)\n\nProposals for Final Project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12975,
@@ -350,11 +291,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T, U",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 4, Week 1)\n\nProposals for Final Project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12976,
@@ -364,11 +301,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 4, Week 1)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12977,
@@ -378,11 +311,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 4, Week 1)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12978,
@@ -392,11 +321,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos\n\n(Course 4, Week 2)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12979,
@@ -406,11 +331,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos\n\n(Course 4, Week 2)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12980,
@@ -420,11 +341,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos\n\n(Course 4, Week 2)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12981,
@@ -434,11 +351,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos\n\n(Course 4, Week 2)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12982,
@@ -448,11 +361,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos\n\n(Course 4, Week 3)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12983,
@@ -462,11 +371,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos\n\n(Course 4, Week 3)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12984,
@@ -476,11 +381,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos\n\n(Course 4, Week 3)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12985,
@@ -490,11 +391,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos\n\n(Course 4, Week 3)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12986,
@@ -504,11 +401,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T, U",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 4, Week 4)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12987,
@@ -518,11 +411,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T, U",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 4, Week 4)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12988,
@@ -532,11 +421,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T, U",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 4, Week 4)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12989,
@@ -546,11 +431,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T, U",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 4, Week 4)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12990,
@@ -560,11 +441,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "U",
-      "studentMaterials": "Final Project's current state",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Lab 3\n\nPresentation\n\nFinish Quiz 2",
-      "urls": null
+      "studentTasks": "Do Lab 3\n\nPresentation\n\nFinish Quiz 2"
     },
     {
       "id": 12991,
@@ -574,11 +451,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "U",
-      "studentMaterials": "Final Project's current state",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Lab 3\n\nPresentation\n\nFinish Quiz 2",
-      "urls": null
+      "studentTasks": "Do Lab 3\n\nPresentation\n\nFinish Quiz 2"
     },
     {
       "id": 12992,
@@ -588,11 +461,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "U",
-      "studentMaterials": "Raspberry Pi board",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Lab 3",
-      "urls": null
+      "studentTasks": "Finish Lab 3"
     },
     {
       "id": 12993,
@@ -602,11 +471,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "U",
-      "studentMaterials": "Raspberry Pi board",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Lab 3",
-      "urls": null
+      "studentTasks": "Finish Lab 3"
     },
     {
       "id": 12994,
@@ -616,11 +481,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 1)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12995,
@@ -630,11 +491,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 1)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12996,
@@ -644,11 +501,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 1)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12997,
@@ -658,11 +511,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 1)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12998,
@@ -672,11 +521,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "I,T",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 2)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 12999,
@@ -686,11 +531,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "I,T",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 2)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 13000,
@@ -700,11 +541,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 2)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 13001,
@@ -714,11 +551,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "I, T",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 2)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 13002,
@@ -728,11 +561,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Raspberry Pi board\n\nFinal Project's current state",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Lab 4\n\nPresentation",
-      "urls": null
+      "studentTasks": "Finish Lab 4\n\nPresentation"
     },
     {
       "id": 13003,
@@ -742,11 +571,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Raspberry Pi board\n\nFinal Project's current state",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Lab 4\n\nPresentation",
-      "urls": null
+      "studentTasks": "Finish Lab 4\n\nPresentation"
     },
     {
       "id": 13004,
@@ -756,11 +581,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "I, T, U",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 3)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 13005,
@@ -770,11 +591,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "I, T, U",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 3)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 13006,
@@ -784,11 +601,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "I, T, U",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 3)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 13007,
@@ -798,11 +611,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "I, T, U",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 3)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 13008,
@@ -812,11 +621,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 4)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 13009,
@@ -826,11 +631,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 4)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 13010,
@@ -840,11 +641,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 4)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 13011,
@@ -854,11 +651,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "Slides, Videos, Raspberry Pi board\n\n(Course 5, Week 4)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)",
-      "urls": null
+      "studentTasks": "Read Slides\n\nWatch Videos\n\nDo exercises and assignments (if any)"
     },
     {
       "id": 13012,
@@ -868,11 +661,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "Raspberry Pi board\n\nFinal Project's current state",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Lab 5\n\nPresentation",
-      "urls": null
+      "studentTasks": "Do Lab 5\n\nPresentation"
     },
     {
       "id": 13013,
@@ -882,11 +671,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "Raspberry Pi board\n\nFinal Project's current state",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Lab 5\n\nPresentation",
-      "urls": null
+      "studentTasks": "Do Lab 5\n\nPresentation"
     },
     {
       "id": 13014,
@@ -896,11 +681,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "Raspberry Pi board",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Lab 5",
-      "urls": null
+      "studentTasks": "Finish Lab 5"
     },
     {
       "id": 13015,
@@ -910,11 +691,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "Raspberry Pi board",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Lab 5",
-      "urls": null
+      "studentTasks": "Finish Lab 5"
     },
     {
       "id": 13016,
@@ -924,11 +701,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
       "itu": "T, U",
-      "studentMaterials": "Completed product",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish quiz 3\n\nDemo\n\nPresentation",
-      "urls": null
+      "studentTasks": "Finish quiz 3\n\nDemo\n\nPresentation"
     },
     {
       "id": 13017,
@@ -938,11 +711,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
       "itu": "T, U",
-      "studentMaterials": "Completed product",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish quiz 3\n\nDemo\n\nPresentation",
-      "urls": null
+      "studentTasks": "Finish quiz 3\n\nDemo\n\nPresentation"
     },
     {
       "id": 13018,
@@ -952,11 +721,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "U",
-      "studentMaterials": "Completed product",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Demo\n\nPresentation",
-      "urls": null
+      "studentTasks": "Demo\n\nPresentation"
     },
     {
       "id": 13019,
@@ -966,11 +731,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "U",
-      "studentMaterials": "Completed product",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Demo\n\nPresentation",
-      "urls": null
+      "studentTasks": "Demo\n\nPresentation"
     },
     {
       "id": 13020,
@@ -980,11 +741,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "U",
-      "studentMaterials": "Completed product",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Demo\n\nPresentation",
-      "urls": null
+      "studentTasks": "Demo\n\nPresentation"
     },
     {
       "id": 13021,
@@ -994,11 +751,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "U",
-      "studentMaterials": "Completed product",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Demo\n\nPresentation",
-      "urls": null
+      "studentTasks": "Demo\n\nPresentation"
     }
   ],
   "assessments": [
@@ -1065,13 +818,6 @@
       "knowledgeSkill": "concepts, programming;\n\nall studied chapters",
       "gradingGuide": "by exam board,\n\nusing computer",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
-    }
-  ],
-  "files": [
-    {
-      "label": "mat1",
-      "sessionNo": "1",
-      "kind": "file"
     }
   ]
 }

@@ -20,6 +20,7 @@ import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import { fetchMaterials } from "@/features/programs/api"
 import { SyllabusDetailModal } from "@/features/programs/components/SyllabusDetailModal"
+import { DataAttribution } from "@/features/programs/components/DataAttribution"
 import { Curriculum, SubjectMaterialSummary } from "@/features/programs/types"
 
 type FilterType = "all" | "coursera" | "textbook"
@@ -144,6 +145,8 @@ export default function MaterialsPage() {
                 <p className="text-sm text-muted-foreground leading-relaxed">
                     {t("subtitle")}
                 </p>
+                {/* Source of the FPT library (AGENTS.md §9); materials/FPT.json carries no collection date. */}
+                <DataAttribution universityCode="FPT" />
             </motion.section>
 
             {/* Filter Bar & Search */}

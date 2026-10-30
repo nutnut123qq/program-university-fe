@@ -10,7 +10,6 @@
     "prerequisite": "EEI101 và PCP291",
     "description": "This comprehensive course on Embedded Systems with the S32K144 microcontroller offers a structured journey from foundational concepts to advanced practical applications, tailored for students, engineers, and enthusiasts interested in automotive and real-time embedded technologies. Spanning 20 sessions, the program begins with an overview of embedded systems history, classification, and the S32K144's architecture (based on ARM Cortex-M4), emphasizing its role in automotive applications like ECUs, body control, and powertrain systems. It progresses through key topics such as memory organization, clock management, GPIO, timers, interrupts, pin configuration, debugging, and optimization for performance and power efficiency. Theoretical sessions are complemented by hands-on practical labs, where students implement concepts using tools like S32 Design Studio and SDK. The course culminates in a group project presentation, fostering teamwork and real-world problem-solving skills. By the end, participants will be equipped to design, develop, and optimize embedded systems for constrained environments, with a strong focus on automotive standards, energy efficiency, and reliability.",
     "studentTasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time.\n- Use laptop in class only for learning purpose.\nPromptly access to the FU FLM at https://flm.fpt.edu.vn/ for up-to-date course information.",
-    "tools": "- S32 Design Studio IDE\n- KIT S32K144(M4)",
     "scoringScale": "10",
     "decisionNo": "932/QĐ-ĐHFPT dated 08/22/2025",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "Link sẽ được update sau"
+      "isOnline": 1
     },
     {
       "id": 3069,
@@ -48,8 +46,7 @@
       "isbn": "Document Number S32K1XX",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.alldatasheet.com/datasheet-pdf/pdf/2167307/NXP/S32K1XX.html"
+      "isOnline": 1
     },
     {
       "id": 3070,
@@ -62,8 +59,7 @@
       "isbn": "Document Number: S32K1XXRM.",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://community.nxp.com/pwmxy87654/attachments/pwmxy87654/S32K/32215/1/S32K-RM.pdf"
+      "isOnline": 1
     },
     {
       "id": 3071,
@@ -76,8 +72,7 @@
       "isbn": "Document Number: AN5413",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.nxp.com/docs/en/application-note/AN5413.pdf"
+      "isOnline": 1
     },
     {
       "id": 3072,
@@ -90,8 +85,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "Getting Started with the S32K144EVB | NXP Semiconductors"
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -147,11 +141,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 1, Reference manual, Course syllabus.",
-      "sDownload": "EBS211_slides",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13159/S/1_EBS211_slides.zip",
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26939,
@@ -161,11 +151,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 1, Reference manual, Course syllabus.",
-      "sDownload": "EBS211_S",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13159/S/2_EBS211_S.zip",
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26940,
@@ -175,11 +161,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 1, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26941,
@@ -189,11 +171,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26942,
@@ -203,11 +181,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26943,
@@ -217,11 +191,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26944,
@@ -231,11 +201,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the assignment.",
-      "urls": null
+      "studentTasks": "Complete the assignment."
     },
     {
       "id": 26945,
@@ -245,11 +211,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the assignment.",
-      "urls": null
+      "studentTasks": "Complete the assignment."
     },
     {
       "id": 26946,
@@ -259,11 +221,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the assignment.",
-      "urls": null
+      "studentTasks": "Complete the assignment."
     },
     {
       "id": 26947,
@@ -273,11 +231,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide chapter 2, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26948,
@@ -287,11 +241,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide chapter 2, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26949,
@@ -301,11 +251,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide chapter 2, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26950,
@@ -315,11 +261,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 3, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26951,
@@ -329,11 +271,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 3, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26952,
@@ -343,11 +281,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 3, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26953,
@@ -357,11 +291,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "U",
-      "studentMaterials": "Slide, Reference manual, Progress test 1.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the quiz",
-      "urls": null
+      "studentTasks": "Complete the quiz"
     },
     {
       "id": 26954,
@@ -371,11 +301,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 4, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26955,
@@ -385,11 +311,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 4, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26956,
@@ -399,11 +321,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 5, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26957,
@@ -413,11 +331,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 5, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26958,
@@ -427,11 +341,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 5, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26959,
@@ -441,11 +351,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26960,
@@ -455,11 +361,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26961,
@@ -469,11 +371,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the lab exercises",
-      "urls": null
+      "studentTasks": "Complete the lab exercises"
     },
     {
       "id": 26962,
@@ -483,11 +381,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26963,
@@ -497,11 +391,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 6, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26964,
@@ -511,11 +401,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 6, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26965,
@@ -525,11 +411,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26966,
@@ -539,11 +421,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26967,
@@ -553,11 +431,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the lab exercises",
-      "urls": null
+      "studentTasks": "Complete the lab exercises"
     },
     {
       "id": 26968,
@@ -567,11 +441,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Progress test 2.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the quiz",
-      "urls": null
+      "studentTasks": "Complete the quiz"
     },
     {
       "id": 26969,
@@ -581,11 +451,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 7, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26970,
@@ -595,11 +461,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 7, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26971,
@@ -609,11 +471,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26972,
@@ -623,11 +481,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26973,
@@ -637,11 +491,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26974,
@@ -651,11 +501,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 8, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26975,
@@ -665,11 +511,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 8, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26976,
@@ -679,11 +521,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 8, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26977,
@@ -693,11 +531,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26978,
@@ -707,11 +541,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26979,
@@ -721,11 +551,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26980,
@@ -735,11 +561,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 9, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26981,
@@ -749,11 +571,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 9, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26982,
@@ -763,11 +581,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 9, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read & Review materials",
-      "urls": null
+      "studentTasks": "Read & Review materials"
     },
     {
       "id": 26983,
@@ -777,11 +591,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26984,
@@ -791,11 +601,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26985,
@@ -805,11 +611,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file..",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the lab exercises",
-      "urls": null
+      "studentTasks": "Complete the lab exercises"
     },
     {
       "id": 26986,
@@ -819,11 +621,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 7, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26987,
@@ -833,11 +631,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 7, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26988,
@@ -847,11 +641,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 7, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical exercise.",
-      "urls": null
+      "studentTasks": "Complete the practical exercise."
     },
     {
       "id": 26989,
@@ -861,11 +651,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Progress test 3.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the quiz",
-      "urls": null
+      "studentTasks": "Complete the quiz"
     },
     {
       "id": 26990,
@@ -875,11 +661,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Project Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Form groups; brainstorm designs; submit proposal.",
-      "urls": null
+      "studentTasks": "Form groups; brainstorm designs; submit proposal."
     },
     {
       "id": 26991,
@@ -889,11 +671,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Project Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Form groups; brainstorm designs; submit proposal.",
-      "urls": null
+      "studentTasks": "Form groups; brainstorm designs; submit proposal."
     },
     {
       "id": 26992,
@@ -903,11 +681,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Project Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Develop code; build prototype; test features.",
-      "urls": null
+      "studentTasks": "Develop code; build prototype; test features."
     },
     {
       "id": 26993,
@@ -917,11 +691,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Project Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Develop code; build prototype; test features.",
-      "urls": null
+      "studentTasks": "Develop code; build prototype; test features."
     },
     {
       "id": 26994,
@@ -931,11 +701,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Project Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Develop code; build prototype; test features.",
-      "urls": null
+      "studentTasks": "Develop code; build prototype; test features."
     },
     {
       "id": 26995,
@@ -945,11 +711,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Project Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Prepare/present project; include demo and report.",
-      "urls": null
+      "studentTasks": "Prepare/present project; include demo and report."
     },
     {
       "id": 26996,
@@ -959,11 +721,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Q&A",
-      "urls": null
+      "studentTasks": "Q&A"
     },
     {
       "id": 26997,
@@ -973,11 +731,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Q&A",
-      "urls": null
+      "studentTasks": "Q&A"
     }
   ],
   "assessments": [
@@ -1124,18 +878,6 @@
       "knowledgeSkill": "All chapters.",
       "gradingGuide": "by exam board,\nusing computer",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
-    }
-  ],
-  "files": [
-    {
-      "label": "EBS211_slides",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "EBS211_S",
-      "sessionNo": "2",
-      "kind": "file"
     }
   ]
 }

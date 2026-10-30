@@ -10,7 +10,6 @@
     "prerequisite": "PFP191, MAE101",
     "description": "This course provides foundational knowledge of machine learning (ML) and AI techniques for solving cybersecurity problems. The content focuses on modeling security challenges as machine learning problems, processing and representing cybersecurity data (system logs, network traffic, security events, endpoint telemetry), and building and evaluating models. This ultimately supports the tracking, monitoring, detection, and prevention of cyber threats to protect data and systems.\n\nThe module combines theoretical foundations (basic concepts of supervised/unsupervised learning, classification, regression, anomaly detection, model evaluation, overfitting, and ML pipelines) with hands-on Python labs using popular libraries in the cybersecurity domain (such as scikit-learn and introductory deep learning modules). Students will work with real-world cybersecurity datasets applied to tasks such as Intrusion Detection Systems (IDS), malware classification, phishing URL/email detection, and user/system behavior anomaly detection.\n\nUpon completion of this course, students will be able to:\n\n1. Understand and explain the fundamental concepts of machine learning and how to map them to cybersecurity problems.\n\n2. Design and deploy simple, end-to-end machine learning pipelines: data collection, preprocessing, feature extraction/engineering, training, evaluation, and model improvement for cybersecurity tasks.\n\n3. Apply machine learning techniques to predict attack behaviors, detect vulnerabilities/anomalous activities, and support decision-making in secure system operations.\n\n4. Build a solid foundation for advanced courses in malware analysis, threat hunting, SOC engineering, and AI system security, while gaining practical experience in developing machine learning solutions for digital security.",
     "studentTasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n\n- Use laptop in class only for learning purpose\n\n- Promptly access to the FU FLM at https://flm.fpt.edu.vn/ for up-to-date course information",
-    "tools": "- Language: Python 3.11+\n\n- Jupyter notebook\n\n- Google Colab\n\n- Scikit-learn, Numpy, Pandas, Pytorch,…",
     "scoringScale": "10",
     "decisionNo": "377/QĐ-ĐHFPT dated 04/09/2026",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": "978-1491979907",
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": "[Chio2018]"
+      "isOnline": 0
     },
     {
       "id": 4596,
@@ -48,8 +46,7 @@
       "isbn": "978-0262043793",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": "[Alpaydin2020]"
+      "isOnline": 0
     },
     {
       "id": 4597,
@@ -62,8 +59,7 @@
       "isbn": "978-1805124047",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": "[Bodungen2023]"
+      "isOnline": 0
     },
     {
       "id": 4598,
@@ -76,8 +72,7 @@
       "isbn": "978-1789614671",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": "[Tsukerman2019]"
+      "isOnline": 0
     },
     {
       "id": 4599,
@@ -90,8 +85,7 @@
       "isbn": "978-1788992282",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": "[Halder2018]"
+      "isOnline": 0
     }
   ],
   "clos": [
@@ -175,11 +169,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I, T",
-      "studentMaterials": "[Chio2018] Chapter 1: Why Machine Learning and Security?\nCyber Threat Landscape; What Is Machine Learning?; What Machine Learning Is Not; Real-World Uses of Machine Learning in Security; Limitations of Machine Learning in Security.\n\n[Alpaydin2020] 1 Introduction\n1.1 What Is Machine Learning?; 1.2 Examples of Machine Learning Applications (Classification/Regression/Unsupervised); 1.4 Related Topics (Data Privacy and Security; Model Interpretability and Trust).",
-      "sDownload": "AIC211",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/14144/S/1_AIC211.zip",
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46785,
@@ -189,11 +179,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 1: Why Machine Learning and Security?\nCyber Threat Landscape; What Is Machine Learning?; What Machine Learning Is Not; Real-World Uses of Machine Learning in Security; Limitations of Machine Learning in Security.\n\n[Alpaydin2020] 1 Introduction\n1.1 What Is Machine Learning?; 1.2 Examples of Machine Learning Applications (Classification/Regression/Unsupervised); 1.4 Related Topics (Data Privacy and Security; Model Interpretability and Trust).",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46786,
@@ -203,11 +189,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 1: Why Machine Learning and Security?\nCyber Threat Landscape; What Is Machine Learning?; What Machine Learning Is Not; Real-World Uses of Machine Learning in Security; Limitations of Machine Learning in Security.\n\n[Alpaydin2020] 1 Introduction\n1.1 What Is Machine Learning?; 1.2 Examples of Machine Learning Applications (Classification/Regression/Unsupervised); 1.4 Related Topics (Data Privacy and Security; Model Interpretability and Trust).",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46787,
@@ -217,11 +199,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] Appendix A: Probability\nA.1.1 Axioms of Probability; A.1.2 Conditional Probability\nA.2.1 Probability Distribution and Density Functions; A.2.2 Joint Distribution…; A.2.3 Conditional Distributions; A.2.4 Bayes’ Rule; A.2.5 Expectation; A.2.6 Variance; A.2.7 Weak Law of Large Numbers\nA.3.1 Bernoulli; A.3.2 Binomial; A.3.3 Multinomial; A.3.5 Normal (Gaussian)\n\n[Alpaydin2020] 3 Bayesian Decision Theory: 3.2 Classification; 3.3 Losses and Risks; 3.4 Discriminant Functions.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46788,
@@ -231,11 +209,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] Appendix A: Probability\nA.1.1 Axioms of Probability; A.1.2 Conditional Probability\nA.2.1 Probability Distribution and Density Functions; A.2.2 Joint Distribution…; A.2.3 Conditional Distributions; A.2.4 Bayes’ Rule; A.2.5 Expectation; A.2.6 Variance; A.2.7 Weak Law of Large Numbers\nA.3.1 Bernoulli; A.3.2 Binomial; A.3.3 Multinomial; A.3.5 Normal (Gaussian)\n\n[Alpaydin2020] 3 Bayesian Decision Theory: 3.2 Classification; 3.3 Losses and Risks; 3.4 Discriminant Functions.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46789,
@@ -245,11 +219,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] Appendix A: Probability\nA.1.1 Axioms of Probability; A.1.2 Conditional Probability\nA.2.1 Probability Distribution and Density Functions; A.2.2 Joint Distribution…; A.2.3 Conditional Distributions; A.2.4 Bayes’ Rule; A.2.5 Expectation; A.2.6 Variance; A.2.7 Weak Law of Large Numbers\nA.3.1 Bernoulli; A.3.2 Binomial; A.3.3 Multinomial; A.3.5 Normal (Gaussian)\n\n[Alpaydin2020] 3 Bayesian Decision Theory: 3.2 Classification; 3.3 Losses and Risks; 3.4 Discriminant Functions.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46790,
@@ -259,11 +229,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO7",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] 4 Parametric Methods\n4.2 Maximum Likelihood Estimation; 4.3 Evaluating an Estimator: Bias and Variance; 4.7 Tuning Model Complexity: Bias/Variance Dilemma; 4.8 Model Selection Procedures.\n\n[Alpaydin2020] 20 Design and Analysis of Machine Learning Experiments\n20.6 Cross-Validation and Resampling Methods (20.6.1 K-Fold; 20.6.3 Bootstrapping)\n20.7 Measuring Classifier Performance; 20.8 Interval Estimation; 20.9 Hypothesis Testing\n20.11 Comparing Two Classification Algorithms (20.11.1 McNemar; 20.11.2 Paired t-test; 20.11.3 5×2cv paired t-test).\n\n[Chio2018] Chapter 2 → Practical Considerations in Classification: Choosing Thresholds and Comparing Models.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46791,
@@ -273,11 +239,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO7",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] 4 Parametric Methods\n4.2 Maximum Likelihood Estimation; 4.3 Evaluating an Estimator: Bias and Variance; 4.7 Tuning Model Complexity: Bias/Variance Dilemma; 4.8 Model Selection Procedures.\n\n[Alpaydin2020] 20 Design and Analysis of Machine Learning Experiments\n20.6 Cross-Validation and Resampling Methods (20.6.1 K-Fold; 20.6.3 Bootstrapping)\n20.7 Measuring Classifier Performance; 20.8 Interval Estimation; 20.9 Hypothesis Testing\n20.11 Comparing Two Classification Algorithms (20.11.1 McNemar; 20.11.2 Paired t-test; 20.11.3 5×2cv paired t-test).\n\n[Chio2018] Chapter 2 → Practical Considerations in Classification: Choosing Thresholds and Comparing Models.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46792,
@@ -287,11 +249,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO7",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] 4 Parametric Methods\n4.2 Maximum Likelihood Estimation; 4.3 Evaluating an Estimator: Bias and Variance; 4.7 Tuning Model Complexity: Bias/Variance Dilemma; 4.8 Model Selection Procedures.\n\n[Alpaydin2020] 20 Design and Analysis of Machine Learning Experiments\n20.6 Cross-Validation and Resampling Methods (20.6.1 K-Fold; 20.6.3 Bootstrapping)\n20.7 Measuring Classifier Performance; 20.8 Interval Estimation; 20.9 Hypothesis Testing\n20.11 Comparing Two Classification Algorithms (20.11.1 McNemar; 20.11.2 Paired t-test; 20.11.3 5×2cv paired t-test).\n\n[Chio2018] Chapter 2 → Practical Considerations in Classification: Choosing Thresholds and Comparing Models.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46793,
@@ -301,11 +259,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T, U",
-      "studentMaterials": "Python docs – The Python Tutorial: An Informal Introduction to Python; More Control Flow Tools; Data Structures; Modules.\n\nNumPy docs – Quickstart: The Basics; Array attributes / indexing / broadcasting (các mục cùng trang Quickstart).\n\npandas docs: 10 minutes to pandas; Intro to data structures (Series/DataFrame); Indexing/Selection.\n\nscikit-learn docs: Getting Started; Preprocessing data; Model selection and evaluation.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46794,
@@ -315,11 +269,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T, U",
-      "studentMaterials": "Python docs – The Python Tutorial: An Informal Introduction to Python; More Control Flow Tools; Data Structures; Modules.\n\nNumPy docs – Quickstart: The Basics; Array attributes / indexing / broadcasting (các mục cùng trang Quickstart).\n\npandas docs: 10 minutes to pandas; Intro to data structures (Series/DataFrame); Indexing/Selection.\n\nscikit-learn docs: Getting Started; Preprocessing data; Model selection and evaluation.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46795,
@@ -329,11 +279,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T, U",
-      "studentMaterials": "Python docs – The Python Tutorial: An Informal Introduction to Python; More Control Flow Tools; Data Structures; Modules.\n\nNumPy docs – Quickstart: The Basics; Array attributes / indexing / broadcasting (các mục cùng trang Quickstart).\n\npandas docs: 10 minutes to pandas; Intro to data structures (Series/DataFrame); Indexing/Selection.\n\nscikit-learn docs: Getting Started; Preprocessing data; Model selection and evaluation.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46796,
@@ -343,11 +289,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 2: Classifying and Clustering\nMachine Learning: Problems and Approaches; Machine Learning in Practice: A Worked Example\nTraining Algorithms to Learn → (Model Families; Loss Functions; Optimization)\nPractical Considerations in Classification → (Training Data Construction; Feature Selection; Overfitting and Underfitting; Choosing Thresholds and Comparing Models).\n\n[Alpaydin2020] 2 Supervised Learning\n2.1 Learning a Class from Examples; 2.4 Noise; 2.5 Learning Multiple Classes; 2.7 Model Selection and Generalization.\n\n[Alpaydin2020] 20.7 Measuring Classifier Performance.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46797,
@@ -357,11 +299,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 2: Classifying and Clustering\nMachine Learning: Problems and Approaches; Machine Learning in Practice: A Worked Example\nTraining Algorithms to Learn → (Model Families; Loss Functions; Optimization)\nPractical Considerations in Classification → (Training Data Construction; Feature Selection; Overfitting and Underfitting; Choosing Thresholds and Comparing Models).\n\n[Alpaydin2020] 2 Supervised Learning\n2.1 Learning a Class from Examples; 2.4 Noise; 2.5 Learning Multiple Classes; 2.7 Model Selection and Generalization.\n\n[Alpaydin2020] 20.7 Measuring Classifier Performance.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46798,
@@ -371,11 +309,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 2 → Supervised Classification Algorithms\nLogistic Regression; Decision Trees; Decision Forests; Support Vector Machines; Naive Bayes; k-Nearest Neighbors; Neural Networks.\n\n[Alpaydin2020] 10 Linear Discrimination: 10.6 Gradient Descent; 10.7 Logistic Discrimination (10.7.1 Two classes; 10.7.2 Multiple classes).\n\n[Alpaydin2020] 9 Decision Trees: 9.2 Univariate Trees (9.2.1 Classification Trees); 9.3 Pruning.\n\n[Alpaydin2020] 14 Kernel Machines: 14.2 Optimal Separating Hyperplane; 14.3 Soft Margin; 14.5 Kernel Trick.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46799,
@@ -385,11 +319,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 2 → Supervised Classification Algorithms\nLogistic Regression; Decision Trees; Decision Forests; Support Vector Machines; Naive Bayes; k-Nearest Neighbors; Neural Networks.\n\n[Alpaydin2020] 10 Linear Discrimination: 10.6 Gradient Descent; 10.7 Logistic Discrimination (10.7.1 Two classes; 10.7.2 Multiple classes).\n\n[Alpaydin2020] 9 Decision Trees: 9.2 Univariate Trees (9.2.1 Classification Trees); 9.3 Pruning.\n\n[Alpaydin2020] 14 Kernel Machines: 14.2 Optimal Separating Hyperplane; 14.3 Soft Margin; 14.5 Kernel Trick.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46800,
@@ -399,11 +329,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] 2.7 Model Selection and Generalization.\n\n[Alpaydin2020] 4.7 Tuning Model Complexity: Bias/Variance Dilemma; 4.8 Model Selection Procedures.\n\n[Alpaydin2020] 20.6 Cross-Validation and Resampling Methods (20.6.1 K-Fold; 20.6.2 5×2cv).\n\n[Chio2018] Chapter 2 → Practical Considerations in Classification: Overfitting and Underfitting; Selecting a Model Family.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46801,
@@ -413,11 +339,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] 2.7 Model Selection and Generalization.\n\n[Alpaydin2020] 4.7 Tuning Model Complexity: Bias/Variance Dilemma; 4.8 Model Selection Procedures.\n\n[Alpaydin2020] 20.6 Cross-Validation and Resampling Methods (20.6.1 K-Fold; 20.6.2 5×2cv).\n\n[Chio2018] Chapter 2 → Practical Considerations in Classification: Overfitting and Underfitting; Selecting a Model Family.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46802,
@@ -427,11 +349,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] 7 Clustering: 7.1 Introduction; 7.3 k-Means Clustering; 7.8 Hierarchical Clustering; 7.9 Choosing the Number of Clusters.\n\n[Chio2018] Chapter 2 → Clustering: Clustering Algorithms; Evaluating Clustering Results.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46803,
@@ -441,11 +359,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] 7 Clustering: 7.1 Introduction; 7.3 k-Means Clustering; 7.8 Hierarchical Clustering; 7.9 Choosing the Number of Clusters.\n\n[Chio2018] Chapter 2 → Clustering: Clustering Algorithms; Evaluating Clustering Results.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46804,
@@ -455,11 +369,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] 6 Dimensionality Reduction\n6.3 Principal Component Analysis; 6.6 Singular Value Decomposition and Matrix Factorization; 6.13 t-Distributed Stochastic Neighbor Embedding.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46805,
@@ -469,11 +379,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] 6 Dimensionality Reduction\n6.3 Principal Component Analysis; 6.6 Singular Value Decomposition and Matrix Factorization; 6.13 t-Distributed Stochastic Neighbor Embedding.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46806,
@@ -483,11 +389,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 3: Anomaly Detection\nWhen to Use Anomaly Detection Versus Supervised Learning; Feature Engineering for Anomaly Detection (Host/Network/Web)\nAnomaly Detection with Data and Algorithms → (Statistical Metrics; Goodness-of-Fit; Unsupervised Machine Learning Algorithms; Density-Based Methods)\nPractical System Design Concerns → (Optimizing for Explainability; Maintainability…; Integrating Human Feedback; Mitigating Adversarial Effects).\n\n[Alpaydin2020] 8 Nonparametric Methods: 8.7 Outlier Detection.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46807,
@@ -497,11 +399,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 3: Anomaly Detection\nWhen to Use Anomaly Detection Versus Supervised Learning; Feature Engineering for Anomaly Detection (Host/Network/Web)\nAnomaly Detection with Data and Algorithms → (Statistical Metrics; Goodness-of-Fit; Unsupervised Machine Learning Algorithms; Density-Based Methods)\nPractical System Design Concerns → (Optimizing for Explainability; Maintainability…; Integrating Human Feedback; Mitigating Adversarial Effects).\n\n[Alpaydin2020] 8 Nonparametric Methods: 8.7 Outlier Detection.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46808,
@@ -511,11 +409,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4, CLO5, CLO7",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46809,
@@ -525,11 +419,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4, CLO5, CLO8",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46810,
@@ -539,11 +429,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4, CLO5, CLO9",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46811,
@@ -553,11 +439,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 5: Network Traffic Analysis\nFrom Captures to Features; Exploring the Data; Data Preparation.\n\n[Chio2018] Chapter 2 → Practical Considerations: Training Data Construction; Feature Selection.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46812,
@@ -567,11 +449,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 5: Network Traffic Analysis\nFrom Captures to Features; Exploring the Data; Data Preparation.\n\n[Chio2018] Chapter 2 → Practical Considerations: Training Data Construction; Feature Selection.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46813,
@@ -581,11 +459,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 5: Network Traffic Analysis\nFrom Captures to Features; Exploring the Data; Data Preparation.\n\n[Chio2018] Chapter 2 → Practical Considerations: Training Data Construction; Feature Selection.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46814,
@@ -595,11 +469,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 7: Production Systems\nDefining Machine Learning System Maturity and Scalability\nData Quality → (Bias in Datasets; Label Inaccuracy; Missing Data + Solutions)\nModel Quality → (Hyperparameter Optimization; Feedback Loops, A/B Testing of Models; Repeatable and Explainable Results)\nMaintainability → (Checkpointing, Versioning, and Deploying Models)\nMonitoring and Alerting; Security and Reliability.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46815,
@@ -609,11 +479,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 1: Real-World Uses of Machine Learning in Security; Limitations of Machine Learning in Security.\n\nOptional\n\n[Chio2018] Chapter 4: Understanding Malware; Feature Generation; From Features to Classification.\n\n[Chio2018] Chapter 5: Building a Predictive Model to Classify Network Attacks (để chọn đề tài IDS).\n\n[Tsukerman2019] Chapter 6: Phishing URL detection; Botnet traffic detection; Detecting DDoS; Insider threat detection.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46816,
@@ -623,11 +489,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Take the test as required by the instructor.",
-      "urls": null
+      "studentTasks": "Take the test as required by the instructor."
     },
     {
       "id": 46817,
@@ -637,11 +499,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7, CLO8",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] Chapter 20\n20.7 Measuring Classifier Performance; 20.8 Interval Estimation\n20.10 Assessing a Classification Algorithm’s Performance (20.10.1 Binomial Test; 20.10.2 Approx Normal Test; 20.10.3 t Test)\n20.11 Comparing Two Classification Algorithms (20.11.1 McNemar; 20.11.2 K-Fold CV paired t test).\n\n[Chio2018] Chapter 2 → Practical Considerations: Choosing Thresholds and Comparing Models.\n\n[Halder2018] Chapter 10\nImbalanced data; Handling imbalanced datasets (Under/Over-sampling; SMOTE…);\nInvestigating precision-recall curve and area; Predictions… confusion matrix.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46818,
@@ -651,11 +509,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7, CLO8",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] Chapter 20\n20.7 Measuring Classifier Performance; 20.8 Interval Estimation\n20.10 Assessing a Classification Algorithm’s Performance (20.10.1 Binomial Test; 20.10.2 Approx Normal Test; 20.10.3 t Test)\n20.11 Comparing Two Classification Algorithms (20.11.1 McNemar; 20.11.2 K-Fold CV paired t test).\n\n[Chio2018] Chapter 2 → Practical Considerations: Choosing Thresholds and Comparing Models.\n\n[Halder2018] Chapter 10\nImbalanced data; Handling imbalanced datasets (Under/Over-sampling; SMOTE…);\nInvestigating precision-recall curve and area; Predictions… confusion matrix.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46819,
@@ -665,11 +519,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7, CLO8",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] Chapter 20\n20.7 Measuring Classifier Performance; 20.8 Interval Estimation\n20.10 Assessing a Classification Algorithm’s Performance (20.10.1 Binomial Test; 20.10.2 Approx Normal Test; 20.10.3 t Test)\n20.11 Comparing Two Classification Algorithms (20.11.1 McNemar; 20.11.2 K-Fold CV paired t test).\n\n[Chio2018] Chapter 2 → Practical Considerations: Choosing Thresholds and Comparing Models.\n\n[Halder2018] Chapter 10\nImbalanced data; Handling imbalanced datasets (Under/Over-sampling; SMOTE…);\nInvestigating precision-recall curve and area; Predictions… confusion matrix.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46820,
@@ -679,11 +529,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO5, CLO7",
       "itu": "T,U",
-      "studentMaterials": "[Chio2018] Chapter 5 → Building a Predictive Model to Classify Network Attacks\nExploring the Data; Data Preparation; Classification; Supervised Learning; Semi-Supervised Learning; Unsupervised Learning; Advanced Ensembling.\n\nOptional\n\n[Chio2018] Chapter 3: Response and Mitigation; Practical System Design Concerns.\n\n[Halder2018] Chapter 6: Model evaluation; Choosing k for k-means; Normalizing features (nếu có so sánh anomaly-based IDS).",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46821,
@@ -693,11 +539,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO5, CLO7",
       "itu": "T,U",
-      "studentMaterials": "[Chio2018] Chapter 5 → Building a Predictive Model to Classify Network Attacks\nExploring the Data; Data Preparation; Classification; Supervised Learning; Semi-Supervised Learning; Unsupervised Learning; Advanced Ensembling.\n\nOptional\n\n[Chio2018] Chapter 3: Response and Mitigation; Practical System Design Concerns.\n\n[Halder2018] Chapter 6: Model evaluation; Choosing k for k-means; Normalizing features (nếu có so sánh anomaly-based IDS).",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46822,
@@ -707,11 +549,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO5, CLO7",
       "itu": "T,U",
-      "studentMaterials": "[Chio2018] Chapter 5 → Building a Predictive Model to Classify Network Attacks\nExploring the Data; Data Preparation; Classification; Supervised Learning; Semi-Supervised Learning; Unsupervised Learning; Advanced Ensembling.\n\nOptional\n\n[Chio2018] Chapter 3: Response and Mitigation; Practical System Design Concerns.\n\n[Halder2018] Chapter 6: Model evaluation; Choosing k for k-means; Normalizing features (nếu có so sánh anomaly-based IDS).",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46823,
@@ -721,11 +559,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO8",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46824,
@@ -735,11 +569,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO8",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46825,
@@ -749,11 +579,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO8",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46826,
@@ -763,11 +589,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] 12 Deep Learning\n12.2 How to Train Multiple Hidden Layers (ReLU; Initialization; Backprop…)\n12.4 Regularization (Weight Decay; Dropout)\n12.5 Convolutional Layers (The Idea; Formalization)\n12.7 Learning Sequences (Recurrent Networks; LSTM; GRU).\n\n[Halder2018] Chapter 5\nFeaturization techniques… (TF-IDF; N-grams; Tokenization)\nUsing the Naive Bayes theorem to detect spam; Logistic regression spam filters.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46827,
@@ -777,11 +599,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] 12 Deep Learning\n12.2 How to Train Multiple Hidden Layers (ReLU; Initialization; Backprop…)\n12.4 Regularization (Weight Decay; Dropout)\n12.5 Convolutional Layers (The Idea; Formalization)\n12.7 Learning Sequences (Recurrent Networks; LSTM; GRU).\n\n[Halder2018] Chapter 5\nFeaturization techniques… (TF-IDF; N-grams; Tokenization)\nUsing the Naive Bayes theorem to detect spam; Logistic regression spam filters.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46828,
@@ -791,11 +609,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "T",
-      "studentMaterials": "[Alpaydin2020] 12 Deep Learning\n12.2 How to Train Multiple Hidden Layers (ReLU; Initialization; Backprop…)\n12.4 Regularization (Weight Decay; Dropout)\n12.5 Convolutional Layers (The Idea; Formalization)\n12.7 Learning Sequences (Recurrent Networks; LSTM; GRU).\n\n[Halder2018] Chapter 5\nFeaturization techniques… (TF-IDF; N-grams; Tokenization)\nUsing the Naive Bayes theorem to detect spam; Logistic regression spam filters.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46829,
@@ -805,11 +619,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO9",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 8: Adversarial Machine Learning\nTerminology; Security Vulnerabilities in Machine Learning Algorithms; Attack Transferability\nAttack Technique: Model Poisoning (Example; Attacker Knowledge; Defense…)\nAttack Technique: Evasion Attack (Example; Defense…).\n\nOptional\n[Tsukerman2019] Chapter 8: Secure and Private AI\nTesting the adversarial robustness of neural networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46830,
@@ -819,11 +629,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO9",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 8: Adversarial Machine Learning\nTerminology; Security Vulnerabilities in Machine Learning Algorithms; Attack Transferability\nAttack Technique: Model Poisoning (Example; Attacker Knowledge; Defense…)\nAttack Technique: Evasion Attack (Example; Defense…).\n\nOptional\n[Tsukerman2019] Chapter 8: Secure and Private AI\nTesting the adversarial robustness of neural networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46831,
@@ -833,11 +639,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO9",
       "itu": "T",
-      "studentMaterials": "[Chio2018] Chapter 8: Adversarial Machine Learning\nTerminology; Security Vulnerabilities in Machine Learning Algorithms; Attack Transferability\nAttack Technique: Model Poisoning (Example; Attacker Knowledge; Defense…)\nAttack Technique: Evasion Attack (Example; Defense…).\n\nOptional\n[Tsukerman2019] Chapter 8: Secure and Private AI\nTesting the adversarial robustness of neural networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46832,
@@ -847,11 +649,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "[Bodungen2023] Chapter 1\nCreating an API Key and interacting with OpenAI; Basic Prompting…; Applying ChatGPT Roles…;\nEnhancing Output with Templates…; Sending API Requests and Handling Responses with Python; Using Prompt Variables….\n\n[Bodungen2023] Chapter 7: Threat Monitoring and Detection\nThreat Intelligence Analysis; Real-Time Log Analysis; Building Custom Threat Detection Rules;\nNetwork Traffic Analysis and Anomaly Detection with PCAP Analyzer.\n\nOptional (Agentic / automation / IR use-cases)\n\n[Bodungen2023] Chapter 8: Incident Response\nChatGPT-assisted incident analysis and triage; Generating incident response playbooks;\nAutomated briefing reports and incident timeline reconstruction (+ Notes of caution).\n\n[Bodungen2023] Chapter 9\nLocal threat hunting with Open Interpreter; Implementing local AI models… with LMStudio; Reviewing IR Plans with PrivateGPT.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46833,
@@ -861,11 +659,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "[Bodungen2023] Chapter 1\nCreating an API Key and interacting with OpenAI; Basic Prompting…; Applying ChatGPT Roles…;\nEnhancing Output with Templates…; Sending API Requests and Handling Responses with Python; Using Prompt Variables….\n\n[Bodungen2023] Chapter 7: Threat Monitoring and Detection\nThreat Intelligence Analysis; Real-Time Log Analysis; Building Custom Threat Detection Rules;\nNetwork Traffic Analysis and Anomaly Detection with PCAP Analyzer.\n\nOptional (Agentic / automation / IR use-cases)\n\n[Bodungen2023] Chapter 8: Incident Response\nChatGPT-assisted incident analysis and triage; Generating incident response playbooks;\nAutomated briefing reports and incident timeline reconstruction (+ Notes of caution).\n\n[Bodungen2023] Chapter 9\nLocal threat hunting with Open Interpreter; Implementing local AI models… with LMStudio; Reviewing IR Plans with PrivateGPT.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46834,
@@ -875,11 +669,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "[Bodungen2023] Chapter 1\nCreating an API Key and interacting with OpenAI; Basic Prompting…; Applying ChatGPT Roles…;\nEnhancing Output with Templates…; Sending API Requests and Handling Responses with Python; Using Prompt Variables….\n\n[Bodungen2023] Chapter 7: Threat Monitoring and Detection\nThreat Intelligence Analysis; Real-Time Log Analysis; Building Custom Threat Detection Rules;\nNetwork Traffic Analysis and Anomaly Detection with PCAP Analyzer.\n\nOptional (Agentic / automation / IR use-cases)\n\n[Bodungen2023] Chapter 8: Incident Response\nChatGPT-assisted incident analysis and triage; Generating incident response playbooks;\nAutomated briefing reports and incident timeline reconstruction (+ Notes of caution).\n\n[Bodungen2023] Chapter 9\nLocal threat hunting with Open Interpreter; Implementing local AI models… with LMStudio; Reviewing IR Plans with PrivateGPT.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46835,
@@ -889,11 +679,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "[Bodungen2023] Chapter 1\nCreating an API Key and interacting with OpenAI; Basic Prompting…; Applying ChatGPT Roles…;\nEnhancing Output with Templates…; Sending API Requests and Handling Responses with Python; Using Prompt Variables….\n\n[Bodungen2023] Chapter 7: Threat Monitoring and Detection\nThreat Intelligence Analysis; Real-Time Log Analysis; Building Custom Threat Detection Rules;\nNetwork Traffic Analysis and Anomaly Detection with PCAP Analyzer.\n\nOptional (Agentic / automation / IR use-cases)\n\n[Bodungen2023] Chapter 8: Incident Response\nChatGPT-assisted incident analysis and triage; Generating incident response playbooks;\nAutomated briefing reports and incident timeline reconstruction (+ Notes of caution).\n\n[Bodungen2023] Chapter 9\nLocal threat hunting with Open Interpreter; Implementing local AI models… with LMStudio; Reviewing IR Plans with PrivateGPT.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46836,
@@ -903,11 +689,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "[Bodungen2023] Chapter 1\nCreating an API Key and interacting with OpenAI; Basic Prompting…; Applying ChatGPT Roles…;\nEnhancing Output with Templates…; Sending API Requests and Handling Responses with Python; Using Prompt Variables….\n\n[Bodungen2023] Chapter 7: Threat Monitoring and Detection\nThreat Intelligence Analysis; Real-Time Log Analysis; Building Custom Threat Detection Rules;\nNetwork Traffic Analysis and Anomaly Detection with PCAP Analyzer.\n\nOptional (Agentic / automation / IR use-cases)\n\n[Bodungen2023] Chapter 8: Incident Response\nChatGPT-assisted incident analysis and triage; Generating incident response playbooks;\nAutomated briefing reports and incident timeline reconstruction (+ Notes of caution).\n\n[Bodungen2023] Chapter 9\nLocal threat hunting with Open Interpreter; Implementing local AI models… with LMStudio; Reviewing IR Plans with PrivateGPT.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements.",
-      "urls": null
+      "studentTasks": "Read the materials beforehand, attend classes, and fulfill the instructor's requirements."
     },
     {
       "id": 46837,
@@ -917,11 +699,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7, CLO8, CLO9",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Take the test as required by the instructor.",
-      "urls": null
+      "studentTasks": "Take the test as required by the instructor."
     },
     {
       "id": 46838,
@@ -931,11 +709,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present the project according to the requirements and answer the questions.",
-      "urls": null
+      "studentTasks": "Present the project according to the requirements and answer the questions."
     },
     {
       "id": 46839,
@@ -945,11 +719,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present the project according to the requirements and answer the questions.",
-      "urls": null
+      "studentTasks": "Present the project according to the requirements and answer the questions."
     },
     {
       "id": 46840,
@@ -959,11 +729,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present the project according to the requirements and answer the questions.",
-      "urls": null
+      "studentTasks": "Present the project according to the requirements and answer the questions."
     },
     {
       "id": 46841,
@@ -973,11 +739,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present the project according to the requirements and answer the questions.",
-      "urls": null
+      "studentTasks": "Present the project according to the requirements and answer the questions."
     },
     {
       "id": 46842,
@@ -987,11 +749,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present the project according to the requirements and answer the questions.",
-      "urls": null
+      "studentTasks": "Present the project according to the requirements and answer the questions."
     },
     {
       "id": 46843,
@@ -1001,11 +759,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present the project according to the requirements and answer the questions.",
-      "urls": null
+      "studentTasks": "Present the project according to the requirements and answer the questions."
     }
   ],
   "assessments": [
@@ -1072,13 +826,6 @@
       "knowledgeSkill": "All subjects in syllabus",
       "gradingGuide": "Exam room",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
-    }
-  ],
-  "files": [
-    {
-      "label": "AIC211",
-      "sessionNo": "1",
-      "kind": "file"
     }
   ]
 }

@@ -141,7 +141,6 @@ export interface SyllabusInfo {
     prerequisite?: string | null
     description?: string | null
     studentTasks?: string | null
-    tools?: string | null
     scoringScale?: string | null
     decisionNo?: string | null
     isApproved?: number | boolean | null
@@ -149,6 +148,8 @@ export interface SyllabusInfo {
     minAvgToPass?: string | number | null
     isActive?: number | boolean | null
     approvedDate?: string | null
+    /** FPT only: when the source mirror last saw the syllabus (ISO); shown as the collection date (v2.56). */
+    lastSeenAt?: string | null
 }
 
 export interface SyllabusClo {
@@ -173,15 +174,18 @@ export interface SyllabusAssessment {
     gradinGuide?: string | null
 }
 
+/**
+ * Not published (v2.56, no page reads them and they carry links to course files): sessions' downloadUrls,
+ * urls, sDownload and studentMaterials, materials' note, info.tools and the top-level files list —
+ * pinned by e2e/v256-attribution-and-unread-links.spec.ts.
+ */
 export interface SyllabusSession {
     id: number
     sylid?: number
     sessionNo: string | number
     topic: string
     learningTeachingType: string
-    studentMaterials?: string | null
     studentTasks?: string | null
-    urls?: string | null
 }
 
 export interface SyllabusMaterial {
@@ -200,7 +204,6 @@ export interface SyllabusDetail {
     assessments: SyllabusAssessment[]
     sessions: SyllabusSession[]
     materials: SyllabusMaterial[]
-    files?: unknown[]
 }
 
 export interface SubjectRoadmap {

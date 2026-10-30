@@ -10,7 +10,6 @@
     "prerequisite": "PRF193",
     "description": "Learn how to implement real-world embedded system projects on a simulated microcontroller using the Mbed API.\n\nModify skeleton code to implement functionality for multiple applications: an audio wave generator, an audio player, and controlling peripherals using analog and digital I/O interfaces, interrupts, timers, and pulse width modulation.\n\nLearn key features of Arm processors and architectures and how a modern API\n\nLearn key serial communication protocols used in the embedded environment including SPI, UARTs and I2C; evaluating their benefits and limitations.\n\nLearn the features of a Real-time Operating System (RTOS) and how it facilitates multitasking in an microcontroller.\n\nDevelop working embedded prototypes using the Arm Mbed API, microcontroller on the ST Nucleo F401RE board and low cost parts. Learn hardware and software theory, immediately applied in practice.\n\nApply your knowledge to create a user interface, temperature sensing system, and music player - with ideas to develop each further.\n\nApply threads, mutex, semaphores and interrupts to write a fully-functioning multitasking program.\n\nLearn deeper programming skills with C/C++, applying these to use of the powerful Mbed API.\n\nLearn staged circuit development and troubleshooting skills.",
     "studentTasks": "\"- Students must attend at least 80% of contact sessions in order to be accepted to the final examination.\n\n'- Student is responsible to do all exercises and practical given by instructor in class or at home and submit on time. Do quizzes during class.\n\n- Constantly follow announcements on intranet/CMS at http://cms.fpt.edu.vn for up-to-date course information.\"",
-    "tools": "Specific Tools:\n\n1) Lab equipments/ Training Kits\n\n1.1. Keil Studio Cloud IDE (online free - https://studio.keil.arm.com/ - Main material)\n\n1.2. Mbed Studio (offline free)\n\n1.3. KIT Nucleo-F401RE (STM32F401RE)\n\n2) Simulation software (free)\n\n- Docker desktop\n\n- Arm Education: Mbed_sim ( Arm Cortex-M4 )",
     "scoringScale": "10",
     "decisionNo": "377/QĐ-ĐHFPT dated 04/09/2026",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "1. Embedded Systems Essentials with Arm: Getting Started\nhttps://learning.edx.org/course/course-v1:ArmEducation+EDARMXES1.6x+3T2020/home"
+      "isOnline": 1
     },
     {
       "id": 4376,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "2. Embedded Systems Essentials with Arm: Get Practical with Hardware\nhttps://learning.edx.org/course/course-v1:ArmEducationX+EDARMXES2.4x+1T2021/home"
+      "isOnline": 1
     },
     {
       "id": 4377,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.udemy.com/course/stm32cubemx-complete-training/learn/lecture/9606338#overview"
+      "isOnline": 1
     },
     {
       "id": 4378,
@@ -76,8 +72,7 @@
       "isbn": "978-1-911531-41-8",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.arm.com/resources/education/books/designing-embedded-systems"
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -161,11 +156,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide Chapter 1",
-      "sDownload": "MCP201",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13162/S/1_MCP201.zip",
-      "studentTasks": "Read Slide Chapter 1",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 1"
     },
     {
       "id": 44568,
@@ -175,11 +166,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 1",
-      "sDownload": "MCP201",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13162/S/2_MCP201.zip",
-      "studentTasks": "Read Slide Chapter 2",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 2"
     },
     {
       "id": 44569,
@@ -189,11 +176,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 3",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 3"
     },
     {
       "id": 44570,
@@ -203,11 +186,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 2",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 2"
     },
     {
       "id": 44571,
@@ -217,11 +196,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 3",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 3"
     },
     {
       "id": 44572,
@@ -231,11 +206,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 4",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 4"
     },
     {
       "id": 44573,
@@ -245,11 +216,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "TU",
-      "studentMaterials": "Lab0 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab0 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab0 Tutorial"
     },
     {
       "id": 44574,
@@ -259,11 +226,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "TU",
-      "studentMaterials": "Lab0 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab0 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab0 Tutorial"
     },
     {
       "id": 44575,
@@ -273,11 +236,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "TU",
-      "studentMaterials": "Lab0 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab0 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab0 Tutorial"
     },
     {
       "id": 44576,
@@ -287,11 +246,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 3",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 3"
     },
     {
       "id": 44577,
@@ -301,11 +256,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 3",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 3"
     },
     {
       "id": 44578,
@@ -315,11 +266,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 3",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 3"
     },
     {
       "id": 44579,
@@ -329,11 +276,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Lab00 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab00 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab00 Tutorial"
     },
     {
       "id": 44580,
@@ -343,11 +286,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Lab00 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab00 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab00 Tutorial"
     },
     {
       "id": 44581,
@@ -357,11 +296,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Lab00 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab00 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab00 Tutorial"
     },
     {
       "id": 44582,
@@ -371,11 +306,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 4",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 4"
     },
     {
       "id": 44583,
@@ -385,11 +316,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 4",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 4"
     },
     {
       "id": 44584,
@@ -399,11 +326,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 4",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 4"
     },
     {
       "id": 44585,
@@ -413,11 +336,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 5",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 5"
     },
     {
       "id": 44586,
@@ -427,11 +346,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 5",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 5"
     },
     {
       "id": 44587,
@@ -441,11 +356,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 5",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 5"
     },
     {
       "id": 44588,
@@ -455,11 +366,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "TU",
-      "studentMaterials": "Lab01 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab01 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab01 Tutorial"
     },
     {
       "id": 44589,
@@ -469,11 +376,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "TU",
-      "studentMaterials": "Lab01 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab01 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab01 Tutorial"
     },
     {
       "id": 44590,
@@ -483,11 +386,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "TU",
-      "studentMaterials": "Lab01 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab01 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab01 Tutorial"
     },
     {
       "id": 44591,
@@ -497,11 +396,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": "U",
-      "studentMaterials": "ProccessTest1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "ProccessTest1",
-      "urls": null
+      "studentTasks": "ProccessTest1"
     },
     {
       "id": 44592,
@@ -511,11 +406,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 6",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 6"
     },
     {
       "id": 44593,
@@ -525,11 +416,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 6",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 6"
     },
     {
       "id": 44594,
@@ -539,11 +426,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Lab02 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab02 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab02 Tutorial"
     },
     {
       "id": 44595,
@@ -553,11 +436,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Lab02 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab02 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab02 Tutorial"
     },
     {
       "id": 44596,
@@ -567,11 +446,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Lab02 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab02 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab02 Tutorial"
     },
     {
       "id": 44597,
@@ -581,11 +456,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 7",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 7"
     },
     {
       "id": 44598,
@@ -595,11 +466,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 7",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 7"
     },
     {
       "id": 44599,
@@ -609,11 +476,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 7",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 7"
     },
     {
       "id": 44600,
@@ -623,11 +486,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "TU",
-      "studentMaterials": "Lab03 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab03 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab03 Tutorial"
     },
     {
       "id": 44601,
@@ -637,11 +496,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "TU",
-      "studentMaterials": "Lab03 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab03 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab03 Tutorial"
     },
     {
       "id": 44602,
@@ -651,11 +506,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "TU",
-      "studentMaterials": "Lab03 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab03 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab03 Tutorial"
     },
     {
       "id": 44603,
@@ -665,11 +516,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 8",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 8"
     },
     {
       "id": 44604,
@@ -679,11 +526,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 8",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 8"
     },
     {
       "id": 44605,
@@ -693,11 +536,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 8",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 8"
     },
     {
       "id": 44606,
@@ -707,11 +546,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "TU",
-      "studentMaterials": "Lab04 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab04 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab04 Tutorial"
     },
     {
       "id": 44607,
@@ -721,11 +556,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "TU",
-      "studentMaterials": "Lab04 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab04 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab04 Tutorial"
     },
     {
       "id": 44608,
@@ -735,11 +566,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "TU",
-      "studentMaterials": "Lab04 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab04 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab04 Tutorial"
     },
     {
       "id": 44609,
@@ -749,11 +576,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 9",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 9"
     },
     {
       "id": 44610,
@@ -763,11 +586,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 9",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 9"
     },
     {
       "id": 44611,
@@ -777,11 +596,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 9",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 9"
     },
     {
       "id": 44612,
@@ -791,11 +606,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "TU",
-      "studentMaterials": "Lab05 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab05 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab05 Tutorial"
     },
     {
       "id": 44613,
@@ -805,11 +616,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "TU",
-      "studentMaterials": "Lab05 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab05 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab05 Tutorial"
     },
     {
       "id": 44614,
@@ -819,11 +626,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "TU",
-      "studentMaterials": "Lab05 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab05 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab05 Tutorial"
     },
     {
       "id": 44615,
@@ -833,11 +636,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "TU",
-      "studentMaterials": "Slide Chapter 10",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 10",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 10"
     },
     {
       "id": 44616,
@@ -847,11 +646,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 10",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 10",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 10"
     },
     {
       "id": 44617,
@@ -861,11 +656,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "Slide Chapter 10",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide Chapter 10",
-      "urls": null
+      "studentTasks": "Read Slide Chapter 10"
     },
     {
       "id": 44618,
@@ -875,11 +666,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": "U",
-      "studentMaterials": "ProccessTest2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "ProccessTest2",
-      "urls": null
+      "studentTasks": "ProccessTest2"
     },
     {
       "id": 44619,
@@ -889,11 +676,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "TU",
-      "studentMaterials": "Lab06 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab06 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab06 Tutorial"
     },
     {
       "id": 44620,
@@ -903,11 +686,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "TU",
-      "studentMaterials": "Lab06 Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab06 Tutorial",
-      "urls": null
+      "studentTasks": "Read Lab06 Tutorial"
     },
     {
       "id": 44621,
@@ -917,11 +696,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Project Review",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Project Review",
-      "urls": null
+      "studentTasks": "Project Review"
     },
     {
       "id": 44622,
@@ -931,11 +706,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Project Review",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Project Review",
-      "urls": null
+      "studentTasks": "Project Review"
     },
     {
       "id": 44623,
@@ -945,11 +716,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Project Review",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Project Review",
-      "urls": null
+      "studentTasks": "Project Review"
     },
     {
       "id": 44624,
@@ -959,11 +726,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Project Review",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Project Review",
-      "urls": null
+      "studentTasks": "Project Review"
     },
     {
       "id": 44625,
@@ -973,11 +736,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Project Review",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Project Review",
-      "urls": null
+      "studentTasks": "Project Review"
     },
     {
       "id": 44626,
@@ -987,11 +746,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Project Review",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Project Review",
-      "urls": null
+      "studentTasks": "Project Review"
     }
   ],
   "assessments": [
@@ -1074,18 +829,6 @@
       "knowledgeSkill": "All chapters; knowledge and skills",
       "gradingGuide": "by Exam board",
       "note": null
-    }
-  ],
-  "files": [
-    {
-      "label": "MCP201",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "MCP201",
-      "sessionNo": "2",
-      "kind": "file"
     }
   ]
 }

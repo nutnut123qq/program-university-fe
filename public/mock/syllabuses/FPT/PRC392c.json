@@ -10,7 +10,6 @@
     "prerequisite": null,
     "description": "This professional certificate provides the knowledge and skills you need to start building your career in cloud architecture and helps you prepare for the AWS Certified Solutions Architect - Associate exam. You will start by learning key AWS Services for compute, storage, database, networking, monitoring, and security, then dive into how to design architectural solutions, how to create and operate a data lake, and how to prepare for the certification exam.\n\nIn Cloud Technical Essentials course, you’ll design a 3-tier architecture using services like Amazon VPC, Amazon EC2, Amazon RDS with high availability and Elastic Load Balancing following AWS best practices. You’ll upload an architecture diagram laying out your design including the networking layer.\n\nIn Architecting Solutions on AWS course, you’ll use Amazon API Gateway, AWS Lambda, Amazon SQS, Amazon DynamoDB, and Amazon SNS to build a serverless web backend.\n\nIn Introduction to Designing Data Lakes course, you’ll use Amazon S3, Amazon OpenSearch Service, AWS Lambda and Amazon API Gateway to create an Amazon OpenSearch Service Cluster. You’ll also use Amazon S3, Amazon EC2, Amazon Kinesis Data Firehose, Amazon Kinesis Data Analytics, Amazon Elasticsearch Service to create a data ingestion pipeline with the use of high-scale AWS Managed services.\n\nFinally, we present content on all four knowledge domains that are covered in the exam. It's important to understand that on the exam, questions from all domains are presented in random order.",
     "studentTasks": "Complete the online courses and get all course certifications to be allowed to take Final Exam",
-    "tools": null,
     "scoringScale": "10",
     "decisionNo": "359/QĐ-ĐHFPT dated 04/09/2025",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/aws-cloud-technical-essentials"
+      "isOnline": 1
     },
     {
       "id": 2684,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/architecting-solutions-on-aws"
+      "isOnline": 1
     },
     {
       "id": 2685,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/introduction-to-designing-data-lakes-in-aws/"
+      "isOnline": 1
     },
     {
       "id": 2686,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/aws-certified-solutions-architect-associate"
+      "isOnline": 1
     },
     {
       "id": 2687,
@@ -90,8 +85,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.support/s/article/208280036-Coursera-Code-of-Conduct?language=en_US"
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -133,11 +127,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO 1",
       "itu": "I",
-      "studentMaterials": "Associated Coursera links",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Week 1 of the course AWS Cloud Technical Essentials",
-      "urls": null
+      "studentTasks": "Complete Week 1 of the course AWS Cloud Technical Essentials"
     },
     {
       "id": 23650,
@@ -147,11 +137,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO 1",
       "itu": null,
-      "studentMaterials": "Associated Coursera links",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Week 2 of the course AWS Cloud Technical Essentials",
-      "urls": null
+      "studentTasks": "Complete Week 2 of the course AWS Cloud Technical Essentials"
     },
     {
       "id": 23651,
@@ -161,11 +147,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO 1",
       "itu": "IT",
-      "studentMaterials": "Associated Coursera links",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Week 3 of the course AWS Cloud Technical Essentials",
-      "urls": null
+      "studentTasks": "Complete Week 3 of the course AWS Cloud Technical Essentials"
     },
     {
       "id": 23652,
@@ -175,11 +157,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO 1",
       "itu": null,
-      "studentMaterials": "Associated Coursera links",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Week 4 of the course AWS Cloud Technical Essentials",
-      "urls": null
+      "studentTasks": "Complete Week 4 of the course AWS Cloud Technical Essentials"
     },
     {
       "id": 23653,
@@ -189,11 +167,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO 2",
       "itu": "IT",
-      "studentMaterials": "Associated Coursera links",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Week 1 of the course Architecting Solutions on AWS",
-      "urls": null
+      "studentTasks": "Complete Week 1 of the course Architecting Solutions on AWS"
     },
     {
       "id": 23654,
@@ -203,11 +177,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO 2",
       "itu": null,
-      "studentMaterials": "Associated Coursera links",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Week 2 of the course Architecting Solutions on AWS",
-      "urls": null
+      "studentTasks": "Complete Week 2 of the course Architecting Solutions on AWS"
     },
     {
       "id": 23655,
@@ -217,11 +187,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO 2",
       "itu": "IT",
-      "studentMaterials": "Associated Coursera links",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Week 3 of the course Architecting Solutions on AWS",
-      "urls": null
+      "studentTasks": "Complete Week 3 of the course Architecting Solutions on AWS"
     },
     {
       "id": 23656,
@@ -231,11 +197,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO 2",
       "itu": null,
-      "studentMaterials": "Associated Coursera links",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Week 4 of the course Architecting Solutions on AWS",
-      "urls": null
+      "studentTasks": "Complete Week 4 of the course Architecting Solutions on AWS"
     },
     {
       "id": 23657,
@@ -245,11 +207,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO 3",
       "itu": "IT",
-      "studentMaterials": "Associated Coursera links",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Week 1,2 of the course Introduction to Designing Data Lakes on AWS",
-      "urls": null
+      "studentTasks": "Complete Week 1,2 of the course Introduction to Designing Data Lakes on AWS"
     },
     {
       "id": 23658,
@@ -259,11 +217,7 @@
       "learningTeachingType": "Online",
       "lo": "CLO 3",
       "itu": null,
-      "studentMaterials": "Associated Coursera links",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Week 3,4 of the course Introduction to Designing Data Lakes on AWS",
-      "urls": null
+      "studentTasks": "Complete Week 3,4 of the course Introduction to Designing Data Lakes on AWS"
     },
     {
       "id": 23659,
@@ -273,11 +227,7 @@
       "learningTeachingType": "Online",
       "lo": "All CLOs",
       "itu": null,
-      "studentMaterials": "Associated Coursera links",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Week 1,2,3 of the course Exam Prep: AWS Certified Solutions Architect - Associate",
-      "urls": null
+      "studentTasks": "Complete Week 1,2,3 of the course Exam Prep: AWS Certified Solutions Architect - Associate"
     },
     {
       "id": 23660,
@@ -287,11 +237,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "TU",
-      "studentMaterials": "Associated Coursera links",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Week 4,5,6 of the course Exam Prep: AWS Certified Solutions Architect - Associate\n\nDeadline of Coursera Completion: End of Friday of the week.\n\nAll Students should participate in review slot (if any question)",
-      "urls": null
+      "studentTasks": "Complete Week 4,5,6 of the course Exam Prep: AWS Certified Solutions Architect - Associate\n\nDeadline of Coursera Completion: End of Friday of the week.\n\nAll Students should participate in review slot (if any question)"
     }
   ],
   "assessments": [
@@ -311,6 +257,5 @@
       "gradingGuide": "by exam board,\n\nusing computer",
       "note": "Customized from the quizzes of this specialization.\n\n1st Evaluation: For students who completed & got Coursera's specialization certificates (Option at week 9);\n\n2nd Evaluation: For students who completed & got Coursera's specialization certificates) at week 13;\n\n3rd Evaluation: For students who completed & got Coursera's specialization certificates) at week 14."
     }
-  ],
-  "files": []
+  ]
 }

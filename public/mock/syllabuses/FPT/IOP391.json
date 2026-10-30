@@ -10,7 +10,6 @@
     "prerequisite": "IoT102",
     "description": "This course is aimed to give you the basics you need to start working with IoT. Students are required to carry out projects in laboratories as assigned by teachers (mentors), through sample tutorials, students can do IoT applications in practice, training students the basic skills of practicing technical professions in the field of control through the Internet to connect things. Group size is limited to 1-2 students, appointed by the faculty (mentor)",
     "studentTasks": "- Register for the programming language to be used C and Arduino software\n\n'- Get group allocation and assignment(s) as arranged by the teacher (mentor)\n\n'- Select team leader & create a Git environment ( use account @ fpt.edu.vn)\n\n'- Split and schedule work with other team members within repeat binding (see Appendix 1)\n\n'- Attend at least 80% of exposure slots to accept the final result\n\n'- Students are responsible for following the Regulations of the Lab\n\n'- Only use student laptops for all practice/study purposes\n\n'- Report on work status, present work results according to the provisions of Appendix 1",
-    "tools": "• Arduino IDE 1.8.10 or higher\n\n• Tinkercad\n\n• Web server application:\n\n+ Blynk cloud server\n\n• Electronic devices used in the project (for a group of Students).\n\n+ 01 Boad ESP8266 NodeMCU Lua CP2102 or (Module Wifi RF Bluetooth ESP32 NodeMCU)\n\n+ 01 Boad Temperature and humidity sensor DHT11\n\n+ 01 Breadboard\n\n+ Cable 40 male - female 10 cm\n\n+ 01 Boad I2c\n\n+ 01 Boad LCD 16x2\n\n+ 01 DC5V 3A Power Supply Adapter\n\n+ 01 Jack DC Female 5.5x2.1 mm DC-017\n\n+ 01 Buzzer 3V\n\n+ 01 Mobile phone",
     "scoringScale": "10",
     "decisionNo": "703/QĐ-ĐH-FPT dated 08/17/2022",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 1338,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 1339,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     }
   ],
   "clos": [
@@ -126,11 +122,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I",
-      "studentMaterials": "- Review Introduction of IoP 391 Course\n\n- Read Chapter 1 Getting Started, Introduction to Arduino, by Alan G. Smith",
-      "sDownload": "mat1",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/5705/S/1_mat1.zip",
-      "studentTasks": "Review Introduction of IoP 391 Course",
-      "urls": null
+      "studentTasks": "Review Introduction of IoP 391 Course"
     },
     {
       "id": 8697,
@@ -140,11 +132,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I",
-      "studentMaterials": "- Review Introduction of IoP 391 Course\n\n- Read Chapter 1 Getting Started, Introduction to Arduino, by Alan G. Smith",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Introduction of IoP 391 Course",
-      "urls": null
+      "studentTasks": "Review Introduction of IoP 391 Course"
     },
     {
       "id": 8698,
@@ -154,11 +142,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I",
-      "studentMaterials": "- Read slide 1\n\n- Read Chapter 1 Getting Started, Introduction to Arduino, by Alan G. Smith",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 8699,
@@ -168,11 +152,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I",
-      "studentMaterials": "- Read slide 1\n\n- Read Chapter 1 Getting Started, Introduction to Arduino, by Alan G. Smith",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 8700,
@@ -182,11 +162,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I, T",
-      "studentMaterials": "- Read slide 1\n\n- Read Chapter 1 Getting Started, Introduction to Arduino, by Alan G. Smith",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 8701,
@@ -196,11 +172,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I, T",
-      "studentMaterials": "- Read slide 1\n\n- Read Chapter 1 Getting Started, Introduction to Arduino, by Alan G. Smith",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 8702,
@@ -210,11 +182,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "I, T",
-      "studentMaterials": "- Review slide1\n\n- Read Chapter 5 Getting Started, Introduction to Arduino, by Alan G. Smith",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Report 1",
-      "urls": null
+      "studentTasks": "Report 1"
     },
     {
       "id": 8703,
@@ -224,11 +192,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "I, T",
-      "studentMaterials": "- Review slide1\n\n- Read Chapter 5 Getting Started, Introduction to Arduino, by Alan G. Smith",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Report 1",
-      "urls": null
+      "studentTasks": "Report 1"
     },
     {
       "id": 8704,
@@ -238,11 +202,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "I, T",
-      "studentMaterials": "- Read slides: 2\n\n- Read Chapter 5 Getting Started, Introduction to Arduino, by Alan G. Smith",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Slides: 2",
-      "urls": null
+      "studentTasks": "Review Slides: 2"
     },
     {
       "id": 8705,
@@ -252,11 +212,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "I, T",
-      "studentMaterials": "- Read slides: 2\n\n- Read Chapter 5 Getting Started, Introduction to Arduino, by Alan G. Smith",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Slides: 2",
-      "urls": null
+      "studentTasks": "Review Slides: 2"
     },
     {
       "id": 8706,
@@ -266,11 +222,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "I, T",
-      "studentMaterials": "- Read slides: 2\n\n- Read Chapter 5 Getting Started, Introduction to Arduino, by Alan G. Smith",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review Slides: 2\n\n- Report the project progress & status",
-      "urls": null
+      "studentTasks": "- Review Slides: 2\n\n- Report the project progress & status"
     },
     {
       "id": 8707,
@@ -280,11 +232,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "I, T",
-      "studentMaterials": "- Read slides: 2\n\n- Read Chapter 5 Getting Started, Introduction to Arduino, by Alan G. Smith",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review Slides: 2\n\n- Report the project progress & status",
-      "urls": null
+      "studentTasks": "- Review Slides: 2\n\n- Report the project progress & status"
     },
     {
       "id": 8708,
@@ -294,11 +242,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "T, U",
-      "studentMaterials": "Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Design Template\n\n- Report 1",
-      "urls": null
+      "studentTasks": "- Design Template\n\n- Report 1"
     },
     {
       "id": 8709,
@@ -308,11 +252,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "T, U",
-      "studentMaterials": "Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Design Template\n\n- Report 1",
-      "urls": null
+      "studentTasks": "- Design Template\n\n- Report 1"
     },
     {
       "id": 8710,
@@ -322,11 +262,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "T, U",
-      "studentMaterials": "Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Design Template\n\n- Report 1",
-      "urls": null
+      "studentTasks": "- Design Template\n\n- Report 1"
     },
     {
       "id": 8711,
@@ -336,11 +272,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "T, U",
-      "studentMaterials": "Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Design Template\n\n- Report 1",
-      "urls": null
+      "studentTasks": "- Design Template\n\n- Report 1"
     },
     {
       "id": 8712,
@@ -350,11 +282,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2, LO3, LO7",
       "itu": "U",
-      "studentMaterials": "- Read Chapter 5 Getting Started, Introduction to Arduino, by Alan G. Smith\n\n- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Design Template\n\n- Report the project progress & status",
-      "urls": null
+      "studentTasks": "- Design Template\n\n- Report the project progress & status"
     },
     {
       "id": 8713,
@@ -364,11 +292,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2, LO3, LO7",
       "itu": "U",
-      "studentMaterials": "- Read Chapter 5 Getting Started, Introduction to Arduino, by Alan G. Smith\n\n- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Design Template\n\n- Report the project progress & status",
-      "urls": null
+      "studentTasks": "- Design Template\n\n- Report the project progress & status"
     },
     {
       "id": 8714,
@@ -378,11 +302,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO7",
       "itu": "U",
-      "studentMaterials": "- Read Chapter 5 Getting Started, Introduction to Arduino, by Alan G. Smith\n\n- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 1",
-      "urls": null
+      "studentTasks": "Review Lab 1"
     },
     {
       "id": 8715,
@@ -392,11 +312,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO7",
       "itu": "U",
-      "studentMaterials": "- Read Chapter 5 Getting Started, Introduction to Arduino, by Alan G. Smith\n\n- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 1",
-      "urls": null
+      "studentTasks": "Review Lab 1"
     },
     {
       "id": 8716,
@@ -406,11 +322,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO7",
       "itu": "U",
-      "studentMaterials": "- Read Chapter 5 Getting Started, Introduction to Arduino, by Alan G. Smith\n\n- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 1",
-      "urls": null
+      "studentTasks": "Review Lab 1"
     },
     {
       "id": 8717,
@@ -420,11 +332,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO7",
       "itu": "U",
-      "studentMaterials": "- Read Chapter 5 Getting Started, Introduction to Arduino, by Alan G. Smith\n\n- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 1",
-      "urls": null
+      "studentTasks": "Review Lab 1"
     },
     {
       "id": 8718,
@@ -434,11 +342,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "- Read Chapter 5 Getting Started, Introduction to Arduino, by Alan G. Smith\n\n- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review Lab 1\n\n- Report the project progress & status",
-      "urls": null
+      "studentTasks": "- Review Lab 1\n\n- Report the project progress & status"
     },
     {
       "id": 8719,
@@ -448,11 +352,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "- Read Chapter 5 Getting Started, Introduction to Arduino, by Alan G. Smith\n\n- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review Lab 1\n\n- Report the project progress & status",
-      "urls": null
+      "studentTasks": "- Review Lab 1\n\n- Report the project progress & status"
     },
     {
       "id": 8720,
@@ -462,11 +362,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I, T",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 2",
-      "urls": null
+      "studentTasks": "Review Lab 2"
     },
     {
       "id": 8721,
@@ -476,11 +372,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I, T",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 2",
-      "urls": null
+      "studentTasks": "Review Lab 2"
     },
     {
       "id": 8722,
@@ -490,11 +382,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T, U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 2",
-      "urls": null
+      "studentTasks": "Review Lab 2"
     },
     {
       "id": 8723,
@@ -504,11 +392,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T, U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 2",
-      "urls": null
+      "studentTasks": "Review Lab 2"
     },
     {
       "id": 8724,
@@ -518,11 +402,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 2",
-      "urls": null
+      "studentTasks": "Review Lab 2"
     },
     {
       "id": 8725,
@@ -532,11 +412,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 2",
-      "urls": null
+      "studentTasks": "Review Lab 2"
     },
     {
       "id": 8726,
@@ -546,11 +422,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO3",
       "itu": "U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 2",
-      "urls": null
+      "studentTasks": "Review Lab 2"
     },
     {
       "id": 8727,
@@ -560,11 +432,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO3",
       "itu": "U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 2",
-      "urls": null
+      "studentTasks": "Review Lab 2"
     },
     {
       "id": 8728,
@@ -574,11 +442,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review Lab 2\n\n-Report the project progress & status",
-      "urls": null
+      "studentTasks": "- Review Lab 2\n\n-Report the project progress & status"
     },
     {
       "id": 8729,
@@ -588,11 +452,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review Lab 2\n\n-Report the project progress & status",
-      "urls": null
+      "studentTasks": "- Review Lab 2\n\n-Report the project progress & status"
     },
     {
       "id": 8730,
@@ -602,11 +462,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO6",
       "itu": "T, U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 2",
-      "urls": null
+      "studentTasks": "Review Lab 2"
     },
     {
       "id": 8731,
@@ -616,11 +472,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO6",
       "itu": "T, U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 2",
-      "urls": null
+      "studentTasks": "Review Lab 2"
     },
     {
       "id": 8732,
@@ -630,11 +482,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I, T",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 3",
-      "urls": null
+      "studentTasks": "Review Lab 3"
     },
     {
       "id": 8733,
@@ -644,11 +492,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I, T",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 3",
-      "urls": null
+      "studentTasks": "Review Lab 3"
     },
     {
       "id": 8734,
@@ -658,11 +502,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "I, T",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 3",
-      "urls": null
+      "studentTasks": "Review Lab 3"
     },
     {
       "id": 8735,
@@ -672,11 +512,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "I, T",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 3",
-      "urls": null
+      "studentTasks": "Review Lab 3"
     },
     {
       "id": 8736,
@@ -686,11 +522,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3",
       "itu": "T, U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 3",
-      "urls": null
+      "studentTasks": "Review Lab 3"
     },
     {
       "id": 8737,
@@ -700,11 +532,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3",
       "itu": "T, U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 3",
-      "urls": null
+      "studentTasks": "Review Lab 3"
     },
     {
       "id": 8738,
@@ -714,11 +542,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 3",
-      "urls": null
+      "studentTasks": "Review Lab 3"
     },
     {
       "id": 8739,
@@ -728,11 +552,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 3",
-      "urls": null
+      "studentTasks": "Review Lab 3"
     },
     {
       "id": 8740,
@@ -742,11 +562,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 3",
-      "urls": null
+      "studentTasks": "Review Lab 3"
     },
     {
       "id": 8741,
@@ -756,11 +572,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 3",
-      "urls": null
+      "studentTasks": "Review Lab 3"
     },
     {
       "id": 8742,
@@ -770,11 +582,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review Lab 3\n\n- Report the project progress & status",
-      "urls": null
+      "studentTasks": "- Review Lab 3\n\n- Report the project progress & status"
     },
     {
       "id": 8743,
@@ -784,11 +592,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "- Read slides: 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review Lab 3\n\n- Report the project progress & status",
-      "urls": null
+      "studentTasks": "- Review Lab 3\n\n- Report the project progress & status"
     },
     {
       "id": 8744,
@@ -798,11 +602,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T, U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Final Report",
-      "urls": null
+      "studentTasks": "Final Report"
     },
     {
       "id": 8745,
@@ -812,11 +612,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T, U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Final Report",
-      "urls": null
+      "studentTasks": "Final Report"
     },
     {
       "id": 8746,
@@ -826,11 +622,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "T, U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Final Report",
-      "urls": null
+      "studentTasks": "Final Report"
     },
     {
       "id": 8747,
@@ -840,11 +632,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "T, U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Final Report",
-      "urls": null
+      "studentTasks": "Final Report"
     },
     {
       "id": 8748,
@@ -854,11 +642,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "T, U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Final Report",
-      "urls": null
+      "studentTasks": "Final Report"
     },
     {
       "id": 8749,
@@ -868,11 +652,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "T, U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Final Report",
-      "urls": null
+      "studentTasks": "Final Report"
     },
     {
       "id": 8750,
@@ -882,11 +662,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4, CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Preparation for Presentation\n\n- Prepare/conduct the demo",
-      "urls": null
+      "studentTasks": "- Preparation for Presentation\n\n- Prepare/conduct the demo"
     },
     {
       "id": 8751,
@@ -896,11 +672,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4, CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Preparation for Presentation\n\n- Prepare/conduct the demo",
-      "urls": null
+      "studentTasks": "- Preparation for Presentation\n\n- Prepare/conduct the demo"
     },
     {
       "id": 8752,
@@ -910,11 +682,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4, CLO5, CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Preparation for Presentation\n\n- Prepare/conduct the demo",
-      "urls": null
+      "studentTasks": "- Preparation for Presentation\n\n- Prepare/conduct the demo"
     },
     {
       "id": 8753,
@@ -924,11 +692,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4, CLO5, CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Preparation for Presentation\n\n- Prepare/conduct the demo",
-      "urls": null
+      "studentTasks": "- Preparation for Presentation\n\n- Prepare/conduct the demo"
     },
     {
       "id": 8754,
@@ -938,11 +702,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Preparation for Presentation\n\n- Prepare/conduct the demo",
-      "urls": null
+      "studentTasks": "- Preparation for Presentation\n\n- Prepare/conduct the demo"
     },
     {
       "id": 8755,
@@ -952,11 +712,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Preparation for Presentation\n\n- Prepare/conduct the demo",
-      "urls": null
+      "studentTasks": "- Preparation for Presentation\n\n- Prepare/conduct the demo"
     }
   ],
   "assessments": [
@@ -991,13 +747,6 @@
       "knowledgeSkill": "Analyzing, Designing, Coding, Testing",
       "gradingGuide": "Individual & Team Evaluation (see \"Assessment Details\" in the \"Assessment Matrix\" sheet",
       "note": "The exam is organized by Academic Organization and Management Department. Must have at least 2 teachers for grading Final Project Presentation (This part includes the report slide + report book (Template_IoT391) + project product.)\n\nKhảo thí tổ chức và phải có ít nhất 2 GV đánh giá cho mỗi nhóm vì phần này gồm Slide báo cáo + Cuốn báo cáo (Template_IoT391) + sản phẩm của dự án."
-    }
-  ],
-  "files": [
-    {
-      "label": "mat1",
-      "sessionNo": "1",
-      "kind": "file"
     }
   ]
 }

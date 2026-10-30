@@ -10,7 +10,6 @@
     "prerequisite": null,
     "description": "- This course introduces the key steps involved in the data mining pipeline, including data understanding, data preprocessing, data warehousing, data modeling, interpretation and evaluation, and real-world applications.\n\n- Students will learn the general concepts of data mining along with basic methodologies and applications. Then dive into one subfield in data mining: pattern discovery. Learn in-depth concepts, methods, and applications of pattern discovery in data mining. This courser will introduce methods for pattern-based classification and some interesting applications of pattern discovery. It also provides you the opportunity to learn skills and content to practice and engage in scalable pattern discovery methods on massive transactional data, discuss pattern evaluation measures, and study methods for mining diverse kinds of patterns, sequential patterns, and sub-graph patterns.",
     "studentTasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n\n- Use laptop in class only for learning purpose\n\n- Promptly access to the FU FLM at https://flm.fpt.edu.vn/ for up-to-date course information",
-    "tools": "Jupyter Notebooks, RStudio IDE",
     "scoringScale": "10",
     "decisionNo": "358/QĐ-ĐHFPT dated 04/03/2024",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/data-mining-pipeline?specialization=data-mining-foundations-practice"
+      "isOnline": 1
     },
     {
       "id": 1943,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/datavisualization?specialization=data-mining"
+      "isOnline": 1
     },
     {
       "id": 1944,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/data-patterns?specialization=data-mining"
+      "isOnline": 1
     },
     {
       "id": 1945,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/cluster-analysis?specialization=data-mining"
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -119,11 +114,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "- Slides: Introduction\n'- Slides: Chapter 1.1, 1.2",
-      "sDownload": "mat1",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/10572/S/1_mat1.zip",
-      "studentTasks": "Read slide introduction\nSyllabus Syllabus DSR301m\nRead Chapter 1.1, 1.2",
-      "urls": null
+      "studentTasks": "Read slide introduction\nSyllabus Syllabus DSR301m\nRead Chapter 1.1, 1.2"
     },
     {
       "id": 15957,
@@ -133,11 +124,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "- slide chapter 1.3, 1.4",
-      "sDownload": "mat2",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/10572/S/2_mat2.zip",
-      "studentTasks": "Read Chapter 1.3, 1.4",
-      "urls": null
+      "studentTasks": "Read Chapter 1.3, 1.4"
     },
     {
       "id": 15958,
@@ -147,11 +134,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "- slide chapter 1.5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 1.5",
-      "urls": null
+      "studentTasks": "Read chapter 1.5"
     },
     {
       "id": 15959,
@@ -161,11 +144,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "- slide chapter 1.6, 1.7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 1.6, 1.7",
-      "urls": null
+      "studentTasks": "Read Chapter 1.6, 1.7"
     },
     {
       "id": 15960,
@@ -175,11 +154,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.1",
-      "urls": null
+      "studentTasks": "Read Chapter 2.1"
     },
     {
       "id": 15961,
@@ -189,11 +164,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.2",
-      "urls": null
+      "studentTasks": "Read Chapter 2.2"
     },
     {
       "id": 15962,
@@ -203,11 +174,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.3",
-      "urls": null
+      "studentTasks": "Read Chapter 2.3"
     },
     {
       "id": 15963,
@@ -217,11 +184,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.4",
-      "urls": null
+      "studentTasks": "Read Chapter 2.4"
     },
     {
       "id": 15964,
@@ -231,11 +194,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T U",
-      "studentMaterials": "- slide chapter 2, lab 2.1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 2, lab 2.1",
-      "urls": null
+      "studentTasks": "Read chapter 2, lab 2.1"
     },
     {
       "id": 15965,
@@ -245,11 +204,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T U",
-      "studentMaterials": "- slide chapter 2, lab 2.2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 2, lab 2.2",
-      "urls": null
+      "studentTasks": "Read chapter 2, lab 2.2"
     },
     {
       "id": 15966,
@@ -259,11 +214,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.1",
-      "urls": null
+      "studentTasks": "Read Chapter 3.1"
     },
     {
       "id": 15967,
@@ -273,11 +224,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.1",
-      "urls": null
+      "studentTasks": "Read Chapter 3.1"
     },
     {
       "id": 15968,
@@ -287,11 +234,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.2",
-      "urls": null
+      "studentTasks": "Read Chapter 3.2"
     },
     {
       "id": 15969,
@@ -301,11 +244,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.3",
-      "urls": null
+      "studentTasks": "Read Chapter 3.3"
     },
     {
       "id": 15970,
@@ -315,11 +254,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.4",
-      "urls": null
+      "studentTasks": "Read Chapter 3.4"
     },
     {
       "id": 15971,
@@ -329,11 +264,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.5",
-      "urls": null
+      "studentTasks": "Read Chapter 3.5"
     },
     {
       "id": 15972,
@@ -343,11 +274,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.6",
-      "urls": null
+      "studentTasks": "Read Chapter 3.6"
     },
     {
       "id": 15973,
@@ -357,11 +284,7 @@
       "learningTeachingType": null,
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "- slide chapter 3, lab 3.1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 3, lab 3.1",
-      "urls": null
+      "studentTasks": "Read chapter 3, lab 3.1"
     },
     {
       "id": 15974,
@@ -371,11 +294,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.7",
-      "urls": null
+      "studentTasks": "Read Chapter 3.7"
     },
     {
       "id": 15975,
@@ -385,11 +304,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.7",
-      "urls": null
+      "studentTasks": "Read Chapter 3.7"
     },
     {
       "id": 15976,
@@ -399,11 +314,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.8",
-      "urls": null
+      "studentTasks": "Read Chapter 3.8"
     },
     {
       "id": 15977,
@@ -413,11 +324,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.8",
-      "urls": null
+      "studentTasks": "Read Chapter 3.8"
     },
     {
       "id": 15978,
@@ -427,11 +334,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "- slide chapter 3, lab 3.2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 3, lab 3.2",
-      "urls": null
+      "studentTasks": "Read chapter 3, lab 3.2"
     },
     {
       "id": 15979,
@@ -441,11 +344,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.9",
-      "urls": null
+      "studentTasks": "Read Chapter 3.9"
     },
     {
       "id": 15980,
@@ -455,11 +354,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.9",
-      "urls": null
+      "studentTasks": "Read Chapter 3.9"
     },
     {
       "id": 15981,
@@ -469,11 +364,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.10",
-      "sDownload": "flm.fpt.edu.vn",
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.10",
-      "urls": null
+      "studentTasks": "Read Chapter 3.10"
     },
     {
       "id": 15982,
@@ -483,11 +374,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.10",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.10",
-      "urls": null
+      "studentTasks": "Read Chapter 3.10"
     },
     {
       "id": 15983,
@@ -497,11 +384,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "- slide chapter 3, lab 3.3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 3, lab 3.3",
-      "urls": null
+      "studentTasks": "Read chapter 3, lab 3.3"
     },
     {
       "id": 15984,
@@ -511,11 +394,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.11",
-      "urls": null
+      "studentTasks": "Read Chapter 3.11"
     },
     {
       "id": 15985,
@@ -525,11 +404,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.11",
-      "urls": null
+      "studentTasks": "Read Chapter 3.11"
     },
     {
       "id": 15986,
@@ -539,11 +414,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.12",
-      "urls": null
+      "studentTasks": "Read Chapter 3.12"
     },
     {
       "id": 15987,
@@ -553,11 +424,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- Slide chapter 3.12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.12",
-      "urls": null
+      "studentTasks": "Read Chapter 3.12"
     },
     {
       "id": 15988,
@@ -567,11 +434,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "- slide chapter 3, lab 3.4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 3, lab 3.4",
-      "urls": null
+      "studentTasks": "Read chapter 3, lab 3.4"
     },
     {
       "id": 15989,
@@ -581,11 +444,7 @@
       "learningTeachingType": null,
       "lo": null,
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 15990,
@@ -595,11 +454,7 @@
       "learningTeachingType": null,
       "lo": "CLO1, CLO2, CLO3",
       "itu": "I",
-      "studentMaterials": "- Slide chapter 1, 2, 3",
-      "sDownload": "flm.fpt.edu.vn",
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 1, 2, 3",
-      "urls": null
+      "studentTasks": "Read Chapter 1, 2, 3"
     },
     {
       "id": 15991,
@@ -609,11 +464,7 @@
       "learningTeachingType": null,
       "lo": "CLO1, CLO2, CLO3",
       "itu": "U",
-      "studentMaterials": "- Slide chapter 1, 2, 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Slide chapter 1, 2,3",
-      "urls": null
+      "studentTasks": "- Slide chapter 1, 2,3"
     },
     {
       "id": 15992,
@@ -623,11 +474,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.1",
-      "urls": null
+      "studentTasks": "Read Chapter 4.1"
     },
     {
       "id": 15993,
@@ -637,11 +484,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.1",
-      "urls": null
+      "studentTasks": "Read Chapter 4.1"
     },
     {
       "id": 15994,
@@ -651,11 +494,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.2",
-      "urls": null
+      "studentTasks": "Read Chapter 4.2"
     },
     {
       "id": 15995,
@@ -665,11 +504,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.2",
-      "urls": null
+      "studentTasks": "Read Chapter 4.2"
     },
     {
       "id": 15996,
@@ -679,11 +514,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "- slide chapter 4, lab 4.1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 4, lab 4.1",
-      "urls": null
+      "studentTasks": "Read chapter 4, lab 4.1"
     },
     {
       "id": 15997,
@@ -693,11 +524,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.3",
-      "urls": null
+      "studentTasks": "Read Chapter 4.3"
     },
     {
       "id": 15998,
@@ -707,11 +534,7 @@
       "learningTeachingType": null,
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.3",
-      "urls": null
+      "studentTasks": "Read Chapter 4.3"
     },
     {
       "id": 15999,
@@ -721,11 +544,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.3",
-      "urls": null
+      "studentTasks": "Read Chapter 4.3"
     },
     {
       "id": 16000,
@@ -735,11 +554,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.4",
-      "urls": null
+      "studentTasks": "Read Chapter 4.4"
     },
     {
       "id": 16001,
@@ -749,11 +564,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.4",
-      "urls": null
+      "studentTasks": "Read Chapter 4.4"
     },
     {
       "id": 16002,
@@ -763,11 +574,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "- slide chapter 4, lab 4.2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 4, lab 4.2",
-      "urls": null
+      "studentTasks": "Read chapter 4, lab 4.2"
     },
     {
       "id": 16003,
@@ -777,11 +584,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.4",
-      "sDownload": "flm.fpt.edu.vn",
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.4",
-      "urls": null
+      "studentTasks": "Read Chapter 4.4"
     },
     {
       "id": 16004,
@@ -791,11 +594,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.4",
-      "sDownload": "flm.fpt.edu.vn",
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.4",
-      "urls": null
+      "studentTasks": "Read Chapter 4.4"
     },
     {
       "id": 16005,
@@ -805,11 +604,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.5",
-      "urls": null
+      "studentTasks": "Read Chapter 4.5"
     },
     {
       "id": 16006,
@@ -819,11 +614,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.5",
-      "urls": null
+      "studentTasks": "Read Chapter 4.5"
     },
     {
       "id": 16007,
@@ -833,11 +624,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.5",
-      "urls": null
+      "studentTasks": "Read Chapter 4.5"
     },
     {
       "id": 16008,
@@ -847,11 +634,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "- slide chapter 4, lab 4.3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 4, lab 4.3",
-      "urls": null
+      "studentTasks": "Read chapter 4, lab 4.3"
     },
     {
       "id": 16009,
@@ -861,11 +644,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.6",
-      "urls": null
+      "studentTasks": "Read Chapter 4.6"
     },
     {
       "id": 16010,
@@ -875,11 +654,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.6",
-      "urls": null
+      "studentTasks": "Read Chapter 4.6"
     },
     {
       "id": 16011,
@@ -889,11 +664,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.6",
-      "urls": null
+      "studentTasks": "Read Chapter 4.6"
     },
     {
       "id": 16012,
@@ -903,11 +674,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 4.6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.6",
-      "urls": null
+      "studentTasks": "Read Chapter 4.6"
     },
     {
       "id": 16013,
@@ -917,11 +684,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "- slide chapter 4, lab 4.4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 4, lab 4.4",
-      "urls": null
+      "studentTasks": "Read chapter 4, lab 4.4"
     },
     {
       "id": 16014,
@@ -931,11 +694,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "- slide chapter 4, lab 4.1, 4.2, 4.3, 4.4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 4, lab 4.1, 4.2, 4.3, 4.4",
-      "urls": null
+      "studentTasks": "Read chapter 4, lab 4.1, 4.2, 4.3, 4.4"
     },
     {
       "id": 16015,
@@ -945,11 +704,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4",
       "itu": "I",
-      "studentMaterials": "All Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Slide",
-      "urls": null
+      "studentTasks": "Review Slide"
     }
   ],
   "assessments": [
@@ -1032,18 +787,6 @@
       "knowledgeSkill": "- cover chapter 1, 2, 3, 4",
       "gradingGuide": "by exam board,\nusing computer",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
-    }
-  ],
-  "files": [
-    {
-      "label": "mat1",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "mat2",
-      "sessionNo": "2",
-      "kind": "file"
     }
   ]
 }

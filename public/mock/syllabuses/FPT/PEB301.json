@@ -10,7 +10,6 @@
     "prerequisite": "EBS211, NWC204",
     "description": "- This practical module emphasizes hands-on experience with embedded systems by assembling, wiring, and interfacing hardware components with microcontroller boards. Students will practice programming and operating electrical, electronic, and microcontroller devices, reinforcing the theoretical knowledge acquired from embedded system modules. Through guided lab sessions, learners will configure and test peripherals such as GPIO, ADC, timers, communication interfaces (SPI, I2C, UART), and integrate them into functional applications.\n\n- The course highlights real-world practices, including debugging, measurement, documentation of experiments, and the use of development tools such as S32 Design Studio and SDK. By the end of the module, students will gain practical skills in setting up embedded systems, verifying their operation, and applying learned theories to build and demonstrate complete embedded applications.",
     "studentTasks": "- Attend at least 80% of lab sessions to be eligible for final assessment.\n\n- Prepare before each lab by reviewing related theories and instructions provided by the instructor.\n\n- Complete all assigned lab tasks, exercises, and reports on time, both individually and in groups.\n\n- Use laptops, development boards, and lab equipment strictly for learning and project purposes.\n\n- Maintain a lab notebook documenting circuit assembly, wiring diagrams, code, measurements, and observations.\n\n- Actively participate in assembling, connecting, and programming microcontroller-based systems, testing functionality of peripherals (GPIO, ADC, timers, SPI, I2C, UART).\n\n- Collaborate in team-based lab projects, demonstrating the integration of hardware and software into a complete embedded system.\n\n- Apply theories from embedded system courses into practice, and seek feedback from instructors to improve performance and understanding.",
-    "tools": "- S32 Design Studio IDE\n\n- KIT S32K144(M4)",
     "scoringScale": "10",
     "decisionNo": "1402/QĐ-ĐHFPT dated 12/12/2025",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "Link và tài khoản sẽ được cấp cho sinh viên bởi giảng viên."
+      "isOnline": 1
     },
     {
       "id": 4076,
@@ -48,8 +46,7 @@
       "isbn": "Document Number S32K1XX",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.alldatasheet.com/datasheet-pdf/pdf/2167307/NXP/S32K1XX.html"
+      "isOnline": 1
     },
     {
       "id": 4077,
@@ -62,8 +59,7 @@
       "isbn": "Document Number: S32K1XXRM.",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://community.nxp.com/pwmxy87654/attachments/pwmxy87654/S32K/32215/1/S32K-RM.pdf"
+      "isOnline": 1
     },
     {
       "id": 4078,
@@ -76,8 +72,7 @@
       "isbn": "Document Number: AN5413",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.nxp.com/docs/en/application-note/AN5413.pdf"
+      "isOnline": 1
     },
     {
       "id": 4079,
@@ -90,8 +85,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "Getting Started with the S32K144EVB | NXP Semiconductors"
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -147,11 +141,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": "PEB301",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13807/S/1_PEB301.zip",
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40251,
@@ -161,11 +151,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": "PEB301",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13807/S/2_PEB301.zip",
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40252,
@@ -175,11 +161,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40253,
@@ -189,11 +171,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40254,
@@ -203,11 +181,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40255,
@@ -217,11 +191,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40256,
@@ -231,11 +201,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40257,
@@ -245,11 +211,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40258,
@@ -259,11 +221,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40259,
@@ -273,11 +231,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40260,
@@ -287,11 +241,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40261,
@@ -301,11 +251,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40262,
@@ -315,11 +261,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40263,
@@ -329,11 +271,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40264,
@@ -343,11 +281,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40265,
@@ -357,11 +291,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40266,
@@ -371,11 +301,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40267,
@@ -385,11 +311,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40268,
@@ -399,11 +321,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40269,
@@ -413,11 +331,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40270,
@@ -427,11 +341,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40271,
@@ -441,11 +351,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40272,
@@ -455,11 +361,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40273,
@@ -469,11 +371,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40274,
@@ -483,11 +381,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40275,
@@ -497,11 +391,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40276,
@@ -511,11 +401,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40277,
@@ -525,11 +411,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40278,
@@ -539,11 +421,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40279,
@@ -553,11 +431,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40280,
@@ -567,11 +441,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40281,
@@ -581,11 +451,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40282,
@@ -595,11 +461,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40283,
@@ -609,11 +471,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40284,
@@ -623,11 +481,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40285,
@@ -637,11 +491,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40286,
@@ -651,11 +501,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40287,
@@ -665,11 +511,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40288,
@@ -679,11 +521,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40289,
@@ -693,11 +531,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40290,
@@ -707,11 +541,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40291,
@@ -721,11 +551,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40292,
@@ -735,11 +561,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40293,
@@ -749,11 +571,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40294,
@@ -763,11 +581,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40295,
@@ -777,11 +591,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40296,
@@ -791,11 +601,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40297,
@@ -805,11 +611,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40298,
@@ -819,11 +621,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40299,
@@ -833,11 +631,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40300,
@@ -847,11 +641,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40301,
@@ -861,11 +651,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40302,
@@ -875,11 +661,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40303,
@@ -889,11 +671,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40304,
@@ -903,11 +681,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40305,
@@ -917,11 +691,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40306,
@@ -931,11 +701,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40307,
@@ -945,11 +711,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40308,
@@ -959,11 +721,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the LAB and Assignment.",
-      "urls": null
+      "studentTasks": "Complete the LAB and Assignment."
     },
     {
       "id": 40309,
@@ -973,11 +731,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO6",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Q&A",
-      "urls": null
+      "studentTasks": "- Q&A"
     }
   ],
   "assessments": [
@@ -1156,18 +910,6 @@
       "knowledgeSkill": "All Module.",
       "gradingGuide": "Using computer",
       "note": "Code on Codelearn and Test by Embedded Farm"
-    }
-  ],
-  "files": [
-    {
-      "label": "PEB301",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "PEB301",
-      "sessionNo": "2",
-      "kind": "file"
     }
   ]
 }

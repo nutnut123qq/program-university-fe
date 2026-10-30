@@ -65,14 +65,6 @@ function extractSpecialization(name?: string | null): string | null {
     return null
 }
 
-function formatBytes(bytes: number): string {
-    if (bytes === 0) return "0 B"
-    const k = 1024
-    const sizes = ["B", "KB", "MB", "GB"]
-    const i = Math.floor(Math.log(bytes) / Math.log(k))
-    return `${parseFloat((bytes / Math.pow(k, i)).toFixed(2))} ${sizes[i]}`
-}
-
 function formatDate(value: string | null): string | null {
     if (!value) return null
     const d = dayjs(value)
@@ -1151,9 +1143,10 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                                     {doc.status && (
                                                                         <Badge variant="outline">{doc.status}</Badge>
                                                                     )}
-                                                                    {doc.extractedTextLength !== null && (
-                                                                        <span className="text-xs text-muted-foreground">
-                                                                            {formatBytes(doc.extractedTextLength)} text
+                                                                    {/* A character count of the source's extracted text (not bytes, v2.56). */}
+                                                                    {doc.extractedTextLength != null && (
+                                                                        <span data-testid="raw-doc-text-length" className="text-xs text-muted-foreground">
+                                                                            {t("rawDocTextLength", { count: doc.extractedTextLength })}
                                                                         </span>
                                                                     )}
                                                                 </div>

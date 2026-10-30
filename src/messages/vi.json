@@ -238,6 +238,7 @@
     "rawDocExcerptLabel": "Trích đoạn ngắn — không phải toàn văn",
     "rawDocSourceLink": "Bản gốc tại nguồn: {domain}",
     "rawDocNoPublicLink": "Không có liên kết công khai tới bản gốc.",
+    "rawDocTextLength": "Văn bản trích xuất: {count, number} ký tự",
     "allUniversityTypes": "Tất cả loại hình",
     "publicUniversity": "Trường Công lập",
     "privateUniversity": "Trường Tư thục"
@@ -435,5 +436,11 @@
     "clearAll": "Xóa tất cả",
     "compare": "So sánh",
     "compareHint": "Chọn 2–3 ngành để so sánh"
+  },
+  "dataSource": {
+    "source": "Nguồn: {university} — {host}",
+    "sourceVia": "Nguồn: {university} — {host}, thu thập qua {via} (bản sao không chính thức)",
+    "collected": "Thu thập ngày {date}",
+    "collectedNotRecorded": "Ngày thu thập: không ghi nhận"
   }
 }

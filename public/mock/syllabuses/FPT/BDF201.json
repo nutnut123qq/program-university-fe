@@ -10,7 +10,6 @@
     "prerequisite": "none",
     "description": "This course introduces blockchain technology and its applications in cryptocurrencies and decentralized finance (DeFi). It covers cryptographic primitives (hash functions, digital signatures), blockchain data structures (blocks, Merkle trees), network architecture (nodes, mempool), consensus mechanisms and security (PoW/PoS, forks, double spending, 51% attack), and the evolution from Bitcoin to smart-contract platforms. The DeFi part focuses on financial primitives and protocols such as stablecoins, decentralized exchanges and automated market makers (AMMs), liquidity pools, tokenization and NFTs, governance via DAOs, and key issues in risk management, security, and regulation. Students will practice using wallets, block explorers, and smart-contract sandboxes; analyze real-world DeFi cases and on-chain data; and propose a DeFi/FinTech solution with clear assumptions, risks, and compliance considerations.",
     "studentTasks": "Students must attend at least 80% of contact sessions to be eligible for the final assessment. - Complete required readings and pre-class preparation; actively participate in discussions, case analyses, and in-class exercises. Complete and submit all quizzes/assignments/labs/projects on time; contribute fairly and professionally in group work. Follow academic integrity rules (no plagiarism, proper citation, no unauthorized collaboration); use AI tools responsibly and transparently when allowed by the instructor. - Use laptops/tablets in class strictly for learning activities. For hands-on blockchain labs: use testnets/sandbox accounts unless explicitly instructed; do NOT share private keys/seed phrases; follow security best practices.",
-    "tools": null,
     "scoringScale": "10",
     "decisionNo": "377/QĐ-ĐHFPT dated 04/09/2026",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": "978-1-119-83601-8",
       "isMainMaterial": 1,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 4197,
@@ -48,8 +46,7 @@
       "isbn": "978-1-394-27589-2",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     }
   ],
   "clos": [
@@ -126,11 +123,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I, T",
-      "studentMaterials": "Read Course Syllabus",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Syllabus",
-      "urls": null
+      "studentTasks": "Review Syllabus"
     },
     {
       "id": 41852,
@@ -140,11 +133,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 1",
-      "urls": null
+      "studentTasks": "Review Chapter 1"
     },
     {
       "id": 41853,
@@ -154,11 +143,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Read Chapter 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Consensus\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Review Consensus\nSelf-study after class: 5.2h"
     },
     {
       "id": 41854,
@@ -168,11 +153,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "U",
-      "studentMaterials": "Review Chapter 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do problems at the end of chapter 1",
-      "urls": null
+      "studentTasks": "Do problems at the end of chapter 1"
     },
     {
       "id": 41855,
@@ -182,11 +163,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 2",
-      "urls": null
+      "studentTasks": "Review Chapter 2"
     },
     {
       "id": 41856,
@@ -196,11 +173,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Read Chapter 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Oracles\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Review Oracles\nSelf-study after class: 5.2h"
     },
     {
       "id": 41857,
@@ -210,11 +183,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T, U",
-      "studentMaterials": "Read Lab 1 Guide",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Setup Wallet safely",
-      "urls": null
+      "studentTasks": "Setup Wallet safely"
     },
     {
       "id": 41858,
@@ -224,11 +193,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "U",
-      "studentMaterials": "Read Lab 2 Guide",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Deploy Contract",
-      "urls": null
+      "studentTasks": "Deploy Contract"
     },
     {
       "id": 41859,
@@ -238,11 +203,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "U",
-      "studentMaterials": "Review Chapter 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do problems at the end of chapter 2\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Do problems at the end of chapter 2\nSelf-study after class: 5.2h"
     },
     {
       "id": 41860,
@@ -252,11 +213,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 3",
-      "urls": null
+      "studentTasks": "Review Chapter 3"
     },
     {
       "id": 41861,
@@ -266,11 +223,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Read Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Compare L1/L2",
-      "urls": null
+      "studentTasks": "Compare L1/L2"
     },
     {
       "id": 41862,
@@ -280,11 +233,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 4\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Review Chapter 4\nSelf-study after class: 5.2h"
     },
     {
       "id": 41863,
@@ -294,11 +243,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T, U",
-      "studentMaterials": "Read Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Analyze Risks",
-      "urls": null
+      "studentTasks": "Analyze Risks"
     },
     {
       "id": 41864,
@@ -308,11 +253,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Review Chapters 3, 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do problems at the end of chapters 3, 4",
-      "urls": null
+      "studentTasks": "Do problems at the end of chapters 3, 4"
     },
     {
       "id": 41865,
@@ -322,11 +263,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Review Chapters 1-4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Quiz 1\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Do Quiz 1\nSelf-study after class: 5.2h"
     },
     {
       "id": 41866,
@@ -336,11 +273,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 5",
-      "urls": null
+      "studentTasks": "Review Chapter 5"
     },
     {
       "id": 41867,
@@ -350,11 +283,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO5",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 6",
-      "urls": null
+      "studentTasks": "Review Chapter 6"
     },
     {
       "id": 41868,
@@ -364,11 +293,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO5",
       "itu": "T, U",
-      "studentMaterials": "Read Chapter 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Analyze Voting\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Analyze Voting\nSelf-study after class: 5.2h"
     },
     {
       "id": 41869,
@@ -378,11 +303,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "U",
-      "studentMaterials": "Read Lab 3 Guide",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Vote on Snapshot",
-      "urls": null
+      "studentTasks": "Vote on Snapshot"
     },
     {
       "id": 41870,
@@ -392,11 +313,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "U",
-      "studentMaterials": "Review Chapters 5, 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do problems at the end of chapters 5, 6",
-      "urls": null
+      "studentTasks": "Do problems at the end of chapters 5, 6"
     },
     {
       "id": 41871,
@@ -406,11 +323,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 7\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Review Chapter 7\nSelf-study after class: 5.2h"
     },
     {
       "id": 41872,
@@ -420,11 +333,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T, U",
-      "studentMaterials": "Read Chapter 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Calculate Slippage",
-      "urls": null
+      "studentTasks": "Calculate Slippage"
     },
     {
       "id": 41873,
@@ -434,11 +343,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "U",
-      "studentMaterials": "Read Lab 4 Guide",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Perform DEX Swap",
-      "urls": null
+      "studentTasks": "Perform DEX Swap"
     },
     {
       "id": 41874,
@@ -448,11 +353,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 8\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Review Chapter 8\nSelf-study after class: 5.2h"
     },
     {
       "id": 41875,
@@ -462,11 +363,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "Read Chapter 8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Analyze IL",
-      "urls": null
+      "studentTasks": "Analyze IL"
     },
     {
       "id": 41876,
@@ -476,11 +373,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "Read Lab 5 Guide",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Add Liquidity",
-      "urls": null
+      "studentTasks": "Add Liquidity"
     },
     {
       "id": 41877,
@@ -490,11 +383,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "Review Chapters 7, 8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do problems at the end of chapters 7, 8\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Do problems at the end of chapters 7, 8\nSelf-study after class: 5.2h"
     },
     {
       "id": 41878,
@@ -504,11 +393,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 9",
-      "urls": null
+      "studentTasks": "Review Chapter 9"
     },
     {
       "id": 41879,
@@ -518,11 +403,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "Read Chapter 9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss RWAs",
-      "urls": null
+      "studentTasks": "Discuss RWAs"
     },
     {
       "id": 41880,
@@ -532,11 +413,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 10",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 10\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Review Chapter 10\nSelf-study after class: 5.2h"
     },
     {
       "id": 41881,
@@ -546,11 +423,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO8",
       "itu": "U",
-      "studentMaterials": "Read Lab 6 Guide",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Mint Testnet NFT",
-      "urls": null
+      "studentTasks": "Mint Testnet NFT"
     },
     {
       "id": 41882,
@@ -560,11 +433,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "Review Chapters 9, 10",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do problems at the end of chapters 9, 10",
-      "urls": null
+      "studentTasks": "Do problems at the end of chapters 9, 10"
     },
     {
       "id": 41883,
@@ -574,11 +443,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "Review Chapters 6-10",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Quiz 2\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Do Quiz 2\nSelf-study after class: 5.2h"
     },
     {
       "id": 41884,
@@ -588,11 +453,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 11",
-      "urls": null
+      "studentTasks": "Review Chapter 11"
     },
     {
       "id": 41885,
@@ -602,11 +463,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO6, CLO7",
       "itu": "T, U",
-      "studentMaterials": "Read Chapter 11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss Compliance",
-      "urls": null
+      "studentTasks": "Discuss Compliance"
     },
     {
       "id": 41886,
@@ -616,11 +473,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO6, CLO7",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 12\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Review Chapter 12\nSelf-study after class: 5.2h"
     },
     {
       "id": 41887,
@@ -630,11 +483,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T, U",
-      "studentMaterials": "Read Chapter 12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Analyze Strategies",
-      "urls": null
+      "studentTasks": "Analyze Strategies"
     },
     {
       "id": 41888,
@@ -644,11 +493,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "I, T, U",
-      "studentMaterials": "Read Lab 7 Guide",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice Data Fetching",
-      "urls": null
+      "studentTasks": "Practice Data Fetching"
     },
     {
       "id": 41889,
@@ -658,11 +503,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "Review Chapters 11, 12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do problems at the end of chapters 11, 12\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Do problems at the end of chapters 11, 12\nSelf-study after class: 5.2h"
     },
     {
       "id": 41890,
@@ -672,11 +513,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 13",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 13",
-      "urls": null
+      "studentTasks": "Review Chapter 13"
     },
     {
       "id": 41891,
@@ -686,11 +523,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T, U",
-      "studentMaterials": "Read Chapter 13",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss TradFi/DeFi",
-      "urls": null
+      "studentTasks": "Discuss TradFi/DeFi"
     },
     {
       "id": 41892,
@@ -700,11 +533,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 14",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 14",
-      "urls": null
+      "studentTasks": "Review Chapter 14"
     },
     {
       "id": 41893,
@@ -714,11 +543,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T, U",
-      "studentMaterials": "Read Chapter 14",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Analyze Community\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Analyze Community\nSelf-study after class: 5.2h"
     },
     {
       "id": 41894,
@@ -728,11 +553,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "I, T",
-      "studentMaterials": "Read Chapter 15",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Chapter 15",
-      "urls": null
+      "studentTasks": "Review Chapter 15"
     },
     {
       "id": 41895,
@@ -742,11 +563,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T, U",
-      "studentMaterials": "Read Chapter 15",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Brainstorm Scenarios",
-      "urls": null
+      "studentTasks": "Brainstorm Scenarios"
     },
     {
       "id": 41896,
@@ -756,11 +573,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "Review Chapters 13-15",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do problems at the end of chapters 13-15\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Do problems at the end of chapters 13-15\nSelf-study after class: 5.2h"
     },
     {
       "id": 41897,
@@ -770,11 +583,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7, CLO8",
       "itu": "U",
-      "studentMaterials": "Project Brief",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Form Groups",
-      "urls": null
+      "studentTasks": "Form Groups"
     },
     {
       "id": 41898,
@@ -784,11 +593,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "Draft Project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Refine Design",
-      "urls": null
+      "studentTasks": "Refine Design"
     },
     {
       "id": 41899,
@@ -798,11 +603,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7, CLO8",
       "itu": "U",
-      "studentMaterials": "Draft Project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Refine Risks\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Refine Risks\nSelf-study after class: 5.2h"
     },
     {
       "id": 41900,
@@ -812,11 +613,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7, CLO8",
       "itu": "I, T, U",
-      "studentMaterials": "Read Duke Paper",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Analyze MakerDAO",
-      "urls": null
+      "studentTasks": "Analyze MakerDAO"
     },
     {
       "id": 41901,
@@ -826,11 +623,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7, CLO8",
       "itu": "I, T, U",
-      "studentMaterials": "Read Duke Paper",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Analyze Uniswap",
-      "urls": null
+      "studentTasks": "Analyze Uniswap"
     },
     {
       "id": 41902,
@@ -840,11 +633,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7, CLO8",
       "itu": "U",
-      "studentMaterials": "Review Security Docs",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Identify Vulnerabilities\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Identify Vulnerabilities\nSelf-study after class: 5.2h"
     },
     {
       "id": 41903,
@@ -854,11 +643,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7, CLO8",
       "itu": "U",
-      "studentMaterials": "Final Draft",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finalize Report",
-      "urls": null
+      "studentTasks": "Finalize Report"
     },
     {
       "id": 41904,
@@ -868,11 +653,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7, CLO8",
       "itu": "U",
-      "studentMaterials": "Review All Chapters",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Synthesize Concepts",
-      "urls": null
+      "studentTasks": "Synthesize Concepts"
     },
     {
       "id": 41905,
@@ -882,11 +663,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "I, U",
-      "studentMaterials": "N/A",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss Careers\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Discuss Careers\nSelf-study after class: 5.2h"
     },
     {
       "id": 41906,
@@ -896,11 +673,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "U",
-      "studentMaterials": "Presentation Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Rehearse Presentation",
-      "urls": null
+      "studentTasks": "Rehearse Presentation"
     },
     {
       "id": 41907,
@@ -910,11 +683,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "U",
-      "studentMaterials": "Final Report & Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present Project",
-      "urls": null
+      "studentTasks": "Present Project"
     },
     {
       "id": 41908,
@@ -924,11 +693,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "U",
-      "studentMaterials": "Final Report & Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present Project\nSelf-study after class: 5.2h",
-      "urls": null
+      "studentTasks": "Present Project\nSelf-study after class: 5.2h"
     },
     {
       "id": 41909,
@@ -938,11 +703,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "U",
-      "studentMaterials": "N/A",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review knowledge",
-      "urls": null
+      "studentTasks": "Review knowledge"
     },
     {
       "id": 41910,
@@ -952,11 +713,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "U",
-      "studentMaterials": "N/A",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review knowledge",
-      "urls": null
+      "studentTasks": "Review knowledge"
     }
   ],
   "assessments": [
@@ -1056,6 +813,5 @@
       "gradingGuide": "by exam board,\nusing computer",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
     }
-  ],
-  "files": []
+  ]
 }

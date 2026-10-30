@@ -10,7 +10,6 @@
     "prerequisite": "DBI202, PRO192",
     "description": "By the end of this course Students will be able to:\n\na) Knowledge: (what will students know?)\n\n• Understand the core technologies of Java web programming:\n\n- Servlet and JSP\n\n- Scope of sharing state (session, application, request,page)\n\n• Know how to develop and deploy your own websites using Java\n\n• Understand and be able to apply MVC architecture for the web\n\n- Learning how to apply JPA in websites using Java\n\n• Learning how to apply AI in your own website using Java\n\nb) Skills: (what will students be able to do?)\n\n• Basic Web application development applying MVC Design Pattern using Servlet/Filter as Controller\n\n• Creating a simple Web Application demo using JPA",
     "studentTasks": "- Attend at least 80% of contact hours in order to be accepted to the final examination\n\n- Actively participate in class activities\n\n- Fulfil tasks given by intructor after class\n\n- Use their own laptop in class only for learning purpose\n\n- Read the textbook in advance\n\n- Promptly access to the https://flm.fpt.edu.vn/ for up-to-date course information",
-    "tools": "Web server application :Tomcat 9 or higher\n\nIDE: Netbeans 13 or higher (as defined by the subject leader)\n\nJava EE: 1.8 or higher\n\nMS SQL Server 2019 or higher",
     "scoringScale": "10",
     "decisionNo": "932/QĐ-ĐHFPT dated 08/22/2025",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": "978-1118656464",
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "http://library.books24x7.com/toc.aspx?bookid=62587"
+      "isOnline": 1
     },
     {
       "id": 3095,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 3096,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 3097,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 3098,
@@ -90,8 +85,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 3099,
@@ -104,8 +98,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     }
   ],
   "clos": [
@@ -182,11 +175,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "IT",
-      "studentMaterials": "Textbook: Chapter 1 & 2",
-      "sDownload": "PRJ301",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/12674/S/1_PRJ301.zip",
-      "studentTasks": "Read textbook, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, do exercise"
     },
     {
       "id": 27299,
@@ -196,11 +185,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 1 & 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, do exercise"
     },
     {
       "id": 27300,
@@ -210,11 +195,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1; LO08",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 1 & 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, do exercise\nStudents learn how to use prompt engineering, which is essential when integrating AI-driven solutions into Java Web applications. When using large language models (LLMs) like OpenAI’s models, a well-structured prompt can significantly improve the accuracy and relevance of AI-generated responses\n- Do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, do exercise\nStudents learn how to use prompt engineering, which is essential when integrating AI-driven solutions into Java Web applications. When using large language models (LLMs) like OpenAI’s models, a well-structured prompt can significantly improve the accuracy and relevance of AI-generated responses\n- Do exercise"
     },
     {
       "id": 27301,
@@ -224,11 +205,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 1 & 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, do exercise"
     },
     {
       "id": 27302,
@@ -238,11 +215,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, do exercise"
     },
     {
       "id": 27303,
@@ -252,11 +225,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, do exercise"
     },
     {
       "id": 27304,
@@ -266,11 +235,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, do exercise"
     },
     {
       "id": 27305,
@@ -280,11 +245,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Students will study how to use Jeddict AI assisstant in Netbeans",
-      "urls": null
+      "studentTasks": "Students will study how to use Jeddict AI assisstant in Netbeans"
     },
     {
       "id": 27306,
@@ -294,11 +255,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, do exercise"
     },
     {
       "id": 27307,
@@ -308,11 +265,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, do exercise"
     },
     {
       "id": 27308,
@@ -322,11 +275,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "IT",
-      "studentMaterials": "http://docs.oracle.com/javase/tutorial/jdbc/index.html",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork and Workshop 1",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork and Workshop 1"
     },
     {
       "id": 27309,
@@ -336,11 +285,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "TU",
-      "studentMaterials": "http://docs.oracle.com/javase/tutorial/jdbc/index.html",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork and Workshop 1",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork and Workshop 1"
     },
     {
       "id": 27310,
@@ -350,11 +295,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "TU",
-      "studentMaterials": "http://docs.oracle.com/javase/tutorial/jdbc/index.html",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork and Workshop 1",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork and Workshop 1"
     },
     {
       "id": 27311,
@@ -364,11 +305,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "TU",
-      "studentMaterials": "http://docs.oracle.com/javase/tutorial/jdbc/index.html",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork and Workshop 1",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork and Workshop 1"
     },
     {
       "id": 27312,
@@ -378,11 +315,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3; LO08",
       "itu": "TU",
-      "studentMaterials": "http://docs.oracle.com/javase/tutorial/jdbc/index.html",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 27313,
@@ -392,11 +325,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "TU",
-      "studentMaterials": "http://docs.oracle.com/javase/tutorial/jdbc/index.html",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork and Workshop 1",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork and Workshop 1"
     },
     {
       "id": 27314,
@@ -406,11 +335,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "TU",
-      "studentMaterials": "http://docs.oracle.com/javase/tutorial/jdbc/index.html",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork and Workshop 1",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork and Workshop 1"
     },
     {
       "id": 27315,
@@ -420,11 +345,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "TU",
-      "studentMaterials": "http://docs.oracle.com/javase/tutorial/jdbc/index.html",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork and Workshop 1",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork and Workshop 1"
     },
     {
       "id": 27316,
@@ -434,11 +355,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "TU",
-      "studentMaterials": "http://docs.oracle.com/javase/tutorial/jdbc/index.html",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork and Workshop 1",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork and Workshop 1"
     },
     {
       "id": 27317,
@@ -448,11 +365,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "TU",
-      "studentMaterials": "http://docs.oracle.com/javase/tutorial/jdbc/index.html",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork and Workshop 1",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork and Workshop 1"
     },
     {
       "id": 27318,
@@ -462,11 +375,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook,\ndo exercise",
-      "urls": null
+      "studentTasks": "Read textbook,\ndo exercise"
     },
     {
       "id": 27319,
@@ -476,11 +385,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook,\ndo exercise",
-      "urls": null
+      "studentTasks": "Read textbook,\ndo exercise"
     },
     {
       "id": 27320,
@@ -490,11 +395,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook,\ndo exercise",
-      "urls": null
+      "studentTasks": "Read textbook,\ndo exercise"
     },
     {
       "id": 27321,
@@ -504,11 +405,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook,\ndo exercise",
-      "urls": null
+      "studentTasks": "Read textbook,\ndo exercise"
     },
     {
       "id": 27322,
@@ -518,11 +415,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook,\ndo exercise",
-      "urls": null
+      "studentTasks": "Read textbook,\ndo exercise"
     },
     {
       "id": 27323,
@@ -532,11 +425,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook,\ndo exercise",
-      "urls": null
+      "studentTasks": "Read textbook,\ndo exercise"
     },
     {
       "id": 27324,
@@ -546,11 +435,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "IT",
-      "studentMaterials": "Textbook: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read article 2, complete classwork",
-      "urls": null
+      "studentTasks": "Read article 2, complete classwork"
     },
     {
       "id": 27325,
@@ -560,11 +445,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "IT",
-      "studentMaterials": "Textbook: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read article 2, complete classwork",
-      "urls": null
+      "studentTasks": "Read article 2, complete classwork"
     },
     {
       "id": 27326,
@@ -574,11 +455,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read article 2, complete classwork",
-      "urls": null
+      "studentTasks": "Read article 2, complete classwork"
     },
     {
       "id": 27327,
@@ -588,11 +465,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read article 2, complete classwork",
-      "urls": null
+      "studentTasks": "Read article 2, complete classwork"
     },
     {
       "id": 27328,
@@ -602,11 +475,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read article 2, complete classwork",
-      "urls": null
+      "studentTasks": "Read article 2, complete classwork"
     },
     {
       "id": 27329,
@@ -616,11 +485,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read article 2, complete classwork",
-      "urls": null
+      "studentTasks": "Read article 2, complete classwork"
     },
     {
       "id": 27330,
@@ -630,11 +495,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27331,
@@ -644,11 +505,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27332,
@@ -658,11 +515,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27333,
@@ -672,11 +525,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27334,
@@ -686,11 +535,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27335,
@@ -700,11 +545,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27336,
@@ -714,11 +555,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27337,
@@ -728,11 +565,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27338,
@@ -742,11 +575,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 19",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27339,
@@ -756,11 +585,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 19",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27340,
@@ -770,11 +595,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 19",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27341,
@@ -784,11 +605,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 19",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27342,
@@ -798,11 +615,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27343,
@@ -812,11 +625,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27344,
@@ -826,11 +635,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5; LO8",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork and Workshop 1\nStudents are responsible for learning, implementing and experimenting with AI-driven database queries.",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork and Workshop 1\nStudents are responsible for learning, implementing and experimenting with AI-driven database queries."
     },
     {
       "id": 27345,
@@ -840,11 +645,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "TU",
-      "studentMaterials": "Textbook: Chapter 9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27346,
@@ -854,11 +655,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "TU",
-      "studentMaterials": "https://docs.oracle.com/cd/B14099_19/web.1012/b14017/filters.htm",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27347,
@@ -868,11 +665,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "TU",
-      "studentMaterials": "https://docs.oracle.com/cd/B14099_19/web.1012/b14017/filters.htm",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read textbook, complete classwork, do exercise",
-      "urls": null
+      "studentTasks": "Read textbook, complete classwork, do exercise"
     },
     {
       "id": 27348,
@@ -882,11 +675,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3, LO4, LO5,LO6,LO7",
       "itu": "TU",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 27349,
@@ -896,11 +685,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3, LO4, LO5,LO6,LO7",
       "itu": "TU",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 27350,
@@ -910,11 +695,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3, LO4, LO5,LO6,LO7",
       "itu": "TU",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 27351,
@@ -924,11 +705,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3, LO4, LO5,LO6,LO7",
       "itu": "TU",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 27352,
@@ -938,11 +715,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3, LO4, LO5,LO6,LO7",
       "itu": "TU",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 27353,
@@ -952,11 +725,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2, LO3, LO4, LO5,LO6,LO7",
       "itu": "TU",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     }
   ],
   "assessments": [
@@ -1071,13 +840,6 @@
       "knowledgeSkill": "Basic features of Java Web",
       "gradingGuide": null,
       "note": null
-    }
-  ],
-  "files": [
-    {
-      "label": "PRJ301",
-      "sessionNo": "1",
-      "kind": "file"
     }
   ]
 }

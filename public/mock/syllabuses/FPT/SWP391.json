@@ -10,7 +10,6 @@
     "prerequisite": "PRJ301, SWE201c or SWE202c, pass LAB211",
     "description": "This course guides students through the full Software Development Life Cycle (SDLC) by working on a real-world team project, with an emphasis on applying AI responsibly in requirement analysis, design, implementation, and testing. Students will practice user story writing, system design, coding using MVC and OOP, workflow development, testing, and reporting. AI tools are integrated into each phase to enhance productivity and quality.",
     "studentTasks": "- Join the team as arranged by the teacher\n\n- Select the project topic & technology stack and get approval from teacher before implementing\n\n- Attend at least 80% of contact slots in order to be accepted to the final presentation.\n\n- Analyze requirements, write user requirements, and create system diagrams with AI-assisted tools.\n\n- Design system architecture, database schema, and UI/UX wireframes using MVC, OOP, and AI suggestions.\n\n- Implement core features with AI-supported coding, apply coding standards, and manage source code in Git.\n\n- Develop and run unit/integration tests, using AI to suggest and refine test cases.\n\n- Deploy the application to staging, verify functionality, and prepare for final delivery.\n\n- Manage project progress, present milestones, and prepare high-quality reports with AI support.",
-    "tools": "- Requirement & Design: Miro, Lucidchart, Figma, Draw.io, ChatGPT, Gemini\n\n- Coding & Debugging: IntelliJ IDEA / VS Code / Visual Studio, GitHub Copilot, Tabnine\n\n- Database: MySQL Workbench, SQL Server Management Studio, pgAdmin\n\n-Testing: JUnit, NUnit, Postman, Selenium, AI-powered test case generators\n\n- Project Management: Jira, Trello, Notion, Git/GitHub\n\n- Deployment: Docker, Heroku, AWS / Azure / GCP, Vercel",
     "scoringScale": "10",
     "decisionNo": "377/QĐ-ĐHFPT dated 04/09/2026",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.deeplearning.ai/short-courses/prompt-engineering/"
+      "isOnline": 1
     },
     {
       "id": 4341,
@@ -48,8 +46,7 @@
       "isbn": "978-0133943030",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": "https://www.amazon.com/dp/0133943038"
+      "isOnline": 0
     },
     {
       "id": 4342,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/packt-spring-mvc-with-spring-boot-all-modules-and-project-xlnjc"
+      "isOnline": 1
     },
     {
       "id": 4343,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/packt-asp-net-core-mvc-fundamentals-crud-asd1a?specialization=packt-asp-net-core-mvc-net-8-the-complete-guide"
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -133,11 +128,7 @@
       "learningTeachingType": "Lecture, Discussion",
       "lo": "CLO1, CLO4",
       "itu": "AI literacy, Collaboration",
-      "studentMaterials": "Course outline, IDE",
-      "sDownload": "SWP391",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13273/S/1_SWP391.zip",
-      "studentTasks": "Listen to course overview, join teams",
-      "urls": null
+      "studentTasks": "Listen to course overview, join teams"
     },
     {
       "id": 44058,
@@ -147,11 +138,7 @@
       "learningTeachingType": "Lecture, Discussion",
       "lo": "CLO1, CLO4",
       "itu": "AI literacy, Collaboration",
-      "studentMaterials": "Course outline, IDE",
-      "sDownload": "SWP391",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13273/S/2_SWP391.zip",
-      "studentTasks": "Listen to course overview, join teams",
-      "urls": null
+      "studentTasks": "Listen to course overview, join teams"
     },
     {
       "id": 44059,
@@ -161,11 +148,7 @@
       "learningTeachingType": "Lecture, Discussion",
       "lo": "CLO1, CLO4",
       "itu": "AI literacy, Collaboration",
-      "studentMaterials": "Reading file, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Learn SDLC concept, note AI examples",
-      "urls": null
+      "studentTasks": "Learn SDLC concept, note AI examples"
     },
     {
       "id": 44060,
@@ -175,11 +158,7 @@
       "learningTeachingType": "Lecture, Lab,Discussion",
       "lo": "CLO1, CLO4",
       "itu": "AI literacy, Problem solving",
-      "studentMaterials": "Requirement doc, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice requirement elicitation, draft simple requirement document",
-      "urls": null
+      "studentTasks": "Practice requirement elicitation, draft simple requirement document"
     },
     {
       "id": 44061,
@@ -189,11 +168,7 @@
       "learningTeachingType": "Lecture, Lab,Discussion",
       "lo": "CLO1, CLO4",
       "itu": "AI literacy, Problem solving",
-      "studentMaterials": "Requirement doc, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice requirement elicitation, draft simple requirement document",
-      "urls": null
+      "studentTasks": "Practice requirement elicitation, draft simple requirement document"
     },
     {
       "id": 44062,
@@ -203,11 +178,7 @@
       "learningTeachingType": "Lecture, Lab,Discussion",
       "lo": "CLO1, CLO4",
       "itu": "AI literacy, Problem solving",
-      "studentMaterials": "Requirement doc, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice requirement elicitation, draft simple requirement document",
-      "urls": null
+      "studentTasks": "Practice requirement elicitation, draft simple requirement document"
     },
     {
       "id": 44063,
@@ -217,11 +188,7 @@
       "learningTeachingType": "Lecture, Lab,Discussion",
       "lo": "CLO1, CLO4",
       "itu": "AI literacy, Problem solving",
-      "studentMaterials": "ERD tool, diagrams",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Sketch ER diagram, refine with relationships, validate with data",
-      "urls": null
+      "studentTasks": "Sketch ER diagram, refine with relationships, validate with data"
     },
     {
       "id": 44064,
@@ -231,11 +198,7 @@
       "learningTeachingType": "Lecture, Lab,Discussion",
       "lo": "CLO1, CLO4",
       "itu": "AI literacy, Problem solving",
-      "studentMaterials": "ERD tool, diagrams",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Sketch ER diagram, refine with relationships, validate with data",
-      "urls": null
+      "studentTasks": "Sketch ER diagram, refine with relationships, validate with data"
     },
     {
       "id": 44065,
@@ -245,11 +208,7 @@
       "learningTeachingType": "Lecture, Lab,Discussion",
       "lo": "CLO1, CLO4",
       "itu": "AI literacy, Problem solving",
-      "studentMaterials": "ERD tool, diagrams",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Sketch ER diagram, refine with relationships, validate with data",
-      "urls": null
+      "studentTasks": "Sketch ER diagram, refine with relationships, validate with data"
     },
     {
       "id": 44066,
@@ -259,11 +218,7 @@
       "learningTeachingType": "Lecture, Discussion",
       "lo": "CLO1, CLO2",
       "itu": "Critical thinking, AI literacy",
-      "studentMaterials": "SQL scripts, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Map ERD to tables, add keys/constraints, run sample DDL",
-      "urls": null
+      "studentTasks": "Map ERD to tables, add keys/constraints, run sample DDL"
     },
     {
       "id": 44067,
@@ -273,11 +228,7 @@
       "learningTeachingType": "Lecture, Discussion",
       "lo": "CLO1, CLO2",
       "itu": "Critical thinking, AI literacy",
-      "studentMaterials": "SQL scripts, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Map ERD to tables, add keys/constraints, run sample DDL",
-      "urls": null
+      "studentTasks": "Map ERD to tables, add keys/constraints, run sample DDL"
     },
     {
       "id": 44068,
@@ -287,11 +238,7 @@
       "learningTeachingType": "Lecture, Discussion",
       "lo": "CLO1, CLO2",
       "itu": "Critical thinking, AI literacy",
-      "studentMaterials": "SQL scripts, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Map ERD to tables, add keys/constraints, run sample DDL",
-      "urls": null
+      "studentTasks": "Map ERD to tables, add keys/constraints, run sample DDL"
     },
     {
       "id": 44069,
@@ -301,11 +248,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO2",
       "itu": "Creativity, AI literacy",
-      "studentMaterials": "MVC design doc, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Sketch MVC design, define controllers/views, present diagram",
-      "urls": null
+      "studentTasks": "Sketch MVC design, define controllers/views, present diagram"
     },
     {
       "id": 44070,
@@ -315,11 +258,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO2",
       "itu": "Creativity, AI literacy",
-      "studentMaterials": "MVC design doc, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Sketch MVC design, define controllers/views, present diagram",
-      "urls": null
+      "studentTasks": "Sketch MVC design, define controllers/views, present diagram"
     },
     {
       "id": 44071,
@@ -329,11 +268,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO2",
       "itu": "Creativity, AI literacy",
-      "studentMaterials": "MVC design doc, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Sketch MVC design, define controllers/views, present diagram",
-      "urls": null
+      "studentTasks": "Sketch MVC design, define controllers/views, present diagram"
     },
     {
       "id": 44072,
@@ -343,11 +278,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO2",
       "itu": "Creativity, AI literacy",
-      "studentMaterials": "Prototyping tool, UI mockups",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Draw wireframes, build prototype, present to peers",
-      "urls": null
+      "studentTasks": "Draw wireframes, build prototype, present to peers"
     },
     {
       "id": 44073,
@@ -357,11 +288,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO2",
       "itu": "Creativity, AI literacy",
-      "studentMaterials": "Prototyping tool, UI mockups",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Draw wireframes, build prototype, present to peers",
-      "urls": null
+      "studentTasks": "Draw wireframes, build prototype, present to peers"
     },
     {
       "id": 44074,
@@ -371,11 +298,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO2",
       "itu": "Creativity, AI literacy",
-      "studentMaterials": "Prototyping tool, UI mockups",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Draw wireframes, build prototype, present to peers",
-      "urls": null
+      "studentTasks": "Draw wireframes, build prototype, present to peers"
     },
     {
       "id": 44075,
@@ -385,11 +308,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO1, CLO2",
       "itu": "Communication, Critical thinking",
-      "studentMaterials": "Presentation slides, report",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present milestone, receive feedback",
-      "urls": null
+      "studentTasks": "Present milestone, receive feedback"
     },
     {
       "id": 44076,
@@ -399,11 +318,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO1, CLO2",
       "itu": "Communication, Critical thinking",
-      "studentMaterials": "Presentation slides, report",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present milestone, receive feedback",
-      "urls": null
+      "studentTasks": "Present milestone, receive feedback"
     },
     {
       "id": 44077,
@@ -413,11 +328,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO1, CLO2",
       "itu": "Communication, Critical thinking",
-      "studentMaterials": "Presentation slides, report",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present milestone, receive feedback",
-      "urls": null
+      "studentTasks": "Present milestone, receive feedback"
     },
     {
       "id": 44078,
@@ -427,11 +338,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO2, CLO2",
       "itu": "AI literacy, Problem solving",
-      "studentMaterials": "Planning doc, chart",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Make phase plan, assign tasks, confirm timeline",
-      "urls": null
+      "studentTasks": "Make phase plan, assign tasks, confirm timeline"
     },
     {
       "id": 44079,
@@ -441,11 +348,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO2, CLO3",
       "itu": "AI literacy, Problem solving",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Install IDE & Git, configure environment, practice commit/push",
-      "urls": null
+      "studentTasks": "Install IDE & Git, configure environment, practice commit/push"
     },
     {
       "id": 44080,
@@ -455,11 +358,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO2, CLO3",
       "itu": "AI literacy, Problem solving",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Install IDE & Git, configure environment, practice commit/push",
-      "urls": null
+      "studentTasks": "Install IDE & Git, configure environment, practice commit/push"
     },
     {
       "id": 44081,
@@ -469,11 +368,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO6",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Write sample repository/service code, commit and test",
-      "urls": null
+      "studentTasks": "Write sample repository/service code, commit and test"
     },
     {
       "id": 44082,
@@ -483,11 +378,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO5",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Write sample repository/service code, commit and test",
-      "urls": null
+      "studentTasks": "Write sample repository/service code, commit and test"
     },
     {
       "id": 44083,
@@ -497,11 +388,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO4",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Write sample repository/service code, commit and test",
-      "urls": null
+      "studentTasks": "Write sample repository/service code, commit and test"
     },
     {
       "id": 44084,
@@ -511,11 +398,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO0",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement login form, add validation, connect DB",
-      "urls": null
+      "studentTasks": "Implement login form, add validation, connect DB"
     },
     {
       "id": 44085,
@@ -525,11 +408,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO1",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement login form, add validation, connect DB",
-      "urls": null
+      "studentTasks": "Implement login form, add validation, connect DB"
     },
     {
       "id": 44086,
@@ -539,11 +418,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO2",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement login form, add validation, connect DB",
-      "urls": null
+      "studentTasks": "Implement login form, add validation, connect DB"
     },
     {
       "id": 44087,
@@ -553,11 +428,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO3",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Create CRUD forms, insert/update/test records",
-      "urls": null
+      "studentTasks": "Create CRUD forms, insert/update/test records"
     },
     {
       "id": 44088,
@@ -567,11 +438,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO3",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Create CRUD forms, insert/update/test records",
-      "urls": null
+      "studentTasks": "Create CRUD forms, insert/update/test records"
     },
     {
       "id": 44089,
@@ -581,11 +448,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO3",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Create CRUD forms, insert/update/test records",
-      "urls": null
+      "studentTasks": "Create CRUD forms, insert/update/test records"
     },
     {
       "id": 44090,
@@ -595,11 +458,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO3",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Draw transaction flow, code success path, run tests",
-      "urls": null
+      "studentTasks": "Draw transaction flow, code success path, run tests"
     },
     {
       "id": 44091,
@@ -609,11 +468,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO3",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Draw transaction flow, code success path, run tests",
-      "urls": null
+      "studentTasks": "Draw transaction flow, code success path, run tests"
     },
     {
       "id": 44092,
@@ -623,11 +478,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO3",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Draw transaction flow, code success path, run tests",
-      "urls": null
+      "studentTasks": "Draw transaction flow, code success path, run tests"
     },
     {
       "id": 44093,
@@ -637,11 +488,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO3",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Draw transaction flow, code exception path, run tests",
-      "urls": null
+      "studentTasks": "Draw transaction flow, code exception path, run tests"
     },
     {
       "id": 44094,
@@ -651,11 +498,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO3",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Draw transaction flow, code exception path, run tests",
-      "urls": null
+      "studentTasks": "Draw transaction flow, code exception path, run tests"
     },
     {
       "id": 44095,
@@ -665,11 +508,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO3",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Git client, IDE",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Draw transaction flow, code exception path, run tests",
-      "urls": null
+      "studentTasks": "Draw transaction flow, code exception path, run tests"
     },
     {
       "id": 44096,
@@ -679,11 +518,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO2, CLO3",
       "itu": "Communication, Critical thinking",
-      "studentMaterials": "Test cases, AI tool",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Try AI tool for test cases, run scripts, adjust test scripts",
-      "urls": null
+      "studentTasks": "Try AI tool for test cases, run scripts, adjust test scripts"
     },
     {
       "id": 44097,
@@ -693,11 +528,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO2, CLO3",
       "itu": "Communication, Critical thinking",
-      "studentMaterials": "Test cases, AI tool",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Try AI tool for test cases, run scripts, adjust test scripts",
-      "urls": null
+      "studentTasks": "Try AI tool for test cases, run scripts, adjust test scripts"
     },
     {
       "id": 44098,
@@ -707,11 +538,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO2, CLO3",
       "itu": "Communication, Critical thinking",
-      "studentMaterials": "Test cases, AI tool",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Try AI tool for test cases, run scripts, adjust test scripts",
-      "urls": null
+      "studentTasks": "Try AI tool for test cases, run scripts, adjust test scripts"
     },
     {
       "id": 44099,
@@ -721,11 +548,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO2, CLO3",
       "itu": "Communication, Critical thinking",
-      "studentMaterials": "Presentation slides, report",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present milestone, receive feedback",
-      "urls": null
+      "studentTasks": "Present milestone, receive feedback"
     },
     {
       "id": 44100,
@@ -735,11 +558,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO2, CLO3",
       "itu": "Communication, Critical thinking",
-      "studentMaterials": "Presentation slides, report",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present milestone, receive feedback",
-      "urls": null
+      "studentTasks": "Present milestone, receive feedback"
     },
     {
       "id": 44101,
@@ -749,11 +568,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO2, CLO3",
       "itu": "Communication, Critical thinking",
-      "studentMaterials": "Presentation slides, report",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present milestone, receive feedback",
-      "urls": null
+      "studentTasks": "Present milestone, receive feedback"
     },
     {
       "id": 44102,
@@ -763,11 +578,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO3",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Dashboard mockup, KPI sheet",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Identify KPIs, build charts, present dashboard",
-      "urls": null
+      "studentTasks": "Identify KPIs, build charts, present dashboard"
     },
     {
       "id": 44103,
@@ -777,11 +588,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO3",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Dashboard mockup, KPI sheet",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Identify KPIs, build charts, present dashboard",
-      "urls": null
+      "studentTasks": "Identify KPIs, build charts, present dashboard"
     },
     {
       "id": 44104,
@@ -791,11 +598,7 @@
       "learningTeachingType": "Lecture, Lab",
       "lo": "CLO3",
       "itu": "Problem solving, AI literacy",
-      "studentMaterials": "Dashboard mockup, KPI sheet",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Identify KPIs, build charts, present dashboard",
-      "urls": null
+      "studentTasks": "Identify KPIs, build charts, present dashboard"
     },
     {
       "id": 44105,
@@ -805,11 +608,7 @@
       "learningTeachingType": "Lecture, Discussion",
       "lo": "CLO4, CLO5",
       "itu": "AI literacy, Communication",
-      "studentMaterials": "Deployment script",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice deployment steps, seed sample data, run demo",
-      "urls": null
+      "studentTasks": "Practice deployment steps, seed sample data, run demo"
     },
     {
       "id": 44106,
@@ -819,11 +618,7 @@
       "learningTeachingType": "Lecture, Discussion",
       "lo": "CLO4, CLO5",
       "itu": "AI literacy, Communication",
-      "studentMaterials": "Deployment script",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice deployment steps, seed sample data, run demo",
-      "urls": null
+      "studentTasks": "Practice deployment steps, seed sample data, run demo"
     },
     {
       "id": 44107,
@@ -833,11 +628,7 @@
       "learningTeachingType": "Lecture, Discussion",
       "lo": "CLO4, CLO5",
       "itu": "AI literacy, Communication",
-      "studentMaterials": "Deployment script",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice deployment steps, seed sample data, run demo",
-      "urls": null
+      "studentTasks": "Practice deployment steps, seed sample data, run demo"
     },
     {
       "id": 44108,
@@ -847,11 +638,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO5",
       "itu": "Communication, Collaboration",
-      "studentMaterials": "UAT report, defect log",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Join UAT, fix small defects, re-test improvements",
-      "urls": null
+      "studentTasks": "Join UAT, fix small defects, re-test improvements"
     },
     {
       "id": 44109,
@@ -861,11 +648,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO5",
       "itu": "Communication, Collaboration",
-      "studentMaterials": "UAT report, defect log",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Join UAT, fix small defects, re-test improvements",
-      "urls": null
+      "studentTasks": "Join UAT, fix small defects, re-test improvements"
     },
     {
       "id": 44110,
@@ -875,11 +658,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO5",
       "itu": "Communication, Collaboration",
-      "studentMaterials": "UAT report, defect log",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Join UAT, fix small defects, re-test improvements",
-      "urls": null
+      "studentTasks": "Join UAT, fix small defects, re-test improvements"
     },
     {
       "id": 44111,
@@ -889,11 +668,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO5",
       "itu": "Communication, Collaboration",
-      "studentMaterials": "Presentation slides, report",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present milestone, receive feedback",
-      "urls": null
+      "studentTasks": "Present milestone, receive feedback"
     },
     {
       "id": 44112,
@@ -903,11 +678,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO5",
       "itu": "Communication, Collaboration",
-      "studentMaterials": "Presentation slides, report",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present milestone, receive feedback",
-      "urls": null
+      "studentTasks": "Present milestone, receive feedback"
     },
     {
       "id": 44113,
@@ -917,11 +688,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO5",
       "itu": "Communication, Collaboration",
-      "studentMaterials": "Presentation slides, report",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present milestone, receive feedback",
-      "urls": null
+      "studentTasks": "Present milestone, receive feedback"
     },
     {
       "id": 44114,
@@ -931,11 +698,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO3, CLO4, CLO5",
       "itu": "Communication, Critical thinking",
-      "studentMaterials": "Retrospective notes, repo archive",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Join retrospective, clean up repo, share lessons learned",
-      "urls": null
+      "studentTasks": "Join retrospective, clean up repo, share lessons learned"
     },
     {
       "id": 44115,
@@ -945,11 +708,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO3, CLO4, CLO5",
       "itu": "Communication, Critical thinking",
-      "studentMaterials": "Retrospective notes, repo archive",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Join retrospective, clean up repo, share lessons learned",
-      "urls": null
+      "studentTasks": "Join retrospective, clean up repo, share lessons learned"
     },
     {
       "id": 44116,
@@ -959,11 +718,7 @@
       "learningTeachingType": "Presentation, Q&A",
       "lo": "CLO3, CLO4, CLO5",
       "itu": "Communication, Critical thinking",
-      "studentMaterials": "Retrospective notes, repo archive",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Join retrospective, clean up repo, share lessons learned",
-      "urls": null
+      "studentTasks": "Join retrospective, clean up repo, share lessons learned"
     }
   ],
   "assessments": [
@@ -1030,18 +785,6 @@
       "knowledgeSkill": "Requirement analysing, designing, coding, testing, integrating, AI usage",
       "gradingGuide": "Final Evaluation\n\nThe final exam is organized by the Exam Board, with at least two lecturers grading independently.\n\nEach team has 60 minutes for presentation and Q&A.\n\nScores from both lecturers will be averaged.\n\nEvaluation focuses on:\n\n- Requirement Analysis (20%) – Quality of SRS, with AI-assisted requirement elicitation and validation.\n\n- System Design (20%) – ERD, state diagrams, architecture, and UI workflows, supported by AI in modeling and refinement.\n\n- Software Implementation (40%) – Completeness of workflows, structured codebase, and database design, with AI support in coding and debugging.\n\n- AI Usage and Professionalism (20%) – Transparency and responsibility in AI usage (logs, reports, validation of AI outputs), teamwork, and presentation quality.",
       "note": "1. Average on-going ≥ 5/10 to qualify for final\n\n2. Finish 2 main workflows: Data Initiation and core functions\n\n3. Fail if cheating detected (no resit)\n\n4. Responsible use of AI tools\n\n5. Member with active contribution score ≥ 80% — based on peer review, task tracking, and code contribution records."
-    }
-  ],
-  "files": [
-    {
-      "label": "SWP391",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "SWP391",
-      "sessionNo": "2",
-      "kind": "file"
     }
   ]
 }

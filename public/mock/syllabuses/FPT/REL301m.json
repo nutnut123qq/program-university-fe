@@ -10,7 +10,6 @@
     "prerequisite": "AIL303m, DPL302m",
     "description": "This course helps students understand the concepts of Reinforcement Learning including the space of RL algorithms (Temporal- Difference learning, Monte Carlo, Sarsa, Q-learning, Policy Gradients, Dyna, and more). Students will understand how to formalize these tasks as a Reinforcement Learning problem. Students will learn how RL fits under the broader umbrella of machine learning, and how it complements deep learning, supervised and unsupervised learning. Students can implement a complete RL solution and understand how to apply AI tools to solve real-world problems.",
     "studentTasks": "'- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n\n- Use laptop in class only for learning purpose\n\n- Promptly access to the FU FLM at https://flm.fpt.edu.vn/ for up-to-date course information",
-    "tools": "Jupyter Notebooks, google Colab,",
     "scoringScale": "10",
     "decisionNo": "358/QĐ-ĐHFPT dated 04/03/2024",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/fundamentals-of-reinforcement-learning"
+      "isOnline": 1
     },
     {
       "id": 1970,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/sample-based-learning-methods"
+      "isOnline": 1
     },
     {
       "id": 1971,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/prediction-control-function-approximation"
+      "isOnline": 1
     },
     {
       "id": 1972,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/complete-reinforcement-learning-system"
+      "isOnline": 1
     },
     {
       "id": 1973,
@@ -90,8 +85,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/projects/tic-tac-toe-game-python"
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -154,11 +148,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "- slides: Introduction",
-      "sDownload": "mat1",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/11256/S/1_mat1.zip",
-      "studentTasks": "Read slide introduction\nSyllabus REL301m",
-      "urls": null
+      "studentTasks": "Read slide introduction\nSyllabus REL301m"
     },
     {
       "id": 16197,
@@ -168,11 +158,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "- slides: chapter 1.1",
-      "sDownload": "mat2",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/11256/S/2_mat2.zip",
-      "studentTasks": "Read Chapter 1.1",
-      "urls": null
+      "studentTasks": "Read Chapter 1.1"
     },
     {
       "id": 16198,
@@ -182,11 +168,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "- slides: chapter 1.2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 1.2",
-      "urls": null
+      "studentTasks": "Read Chapter 1.2"
     },
     {
       "id": 16199,
@@ -196,11 +178,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "- slide chapter 1.3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 1.3",
-      "urls": null
+      "studentTasks": "Read chapter 1.3"
     },
     {
       "id": 16200,
@@ -210,11 +188,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "- slide chapter 1.4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 1.4",
-      "urls": null
+      "studentTasks": "Read Chapter 1.4"
     },
     {
       "id": 16201,
@@ -224,11 +198,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "- slide chapter 1.5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 1.5",
-      "urls": null
+      "studentTasks": "Read Chapter 1.5"
     },
     {
       "id": 16202,
@@ -238,11 +208,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "- slide chapter 1.6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 1.6",
-      "urls": null
+      "studentTasks": "Read Chapter 1.6"
     },
     {
       "id": 16203,
@@ -252,11 +218,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "'- slide chapter 1.7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 1.7",
-      "urls": null
+      "studentTasks": "Read Chapter 1.7"
     },
     {
       "id": 16204,
@@ -266,11 +228,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "'- slide chapter 1.8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 1.8",
-      "urls": null
+      "studentTasks": "Read Chapter 1.8"
     },
     {
       "id": 16205,
@@ -280,11 +238,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "'- slide chapter 1.9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 1.9",
-      "urls": null
+      "studentTasks": "Read Chapter 1.9"
     },
     {
       "id": 16206,
@@ -294,11 +248,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "'- slide chapter 1.10",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 1.10",
-      "urls": null
+      "studentTasks": "Read Chapter 1.10"
     },
     {
       "id": 16207,
@@ -308,11 +258,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "'- slide chapter 1.11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 1.11",
-      "urls": null
+      "studentTasks": "Read Chapter 1.11"
     },
     {
       "id": 16208,
@@ -322,11 +268,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "'- slide chapter 1.12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 1.12",
-      "urls": null
+      "studentTasks": "Read Chapter 1.12"
     },
     {
       "id": 16209,
@@ -336,11 +278,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "U",
-      "studentMaterials": "- slide lab 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab 1",
-      "urls": null
+      "studentTasks": "Read Lab 1"
     },
     {
       "id": 16210,
@@ -350,11 +288,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "U",
-      "studentMaterials": "- slide lab 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab 1",
-      "urls": null
+      "studentTasks": "Read Lab 1"
     },
     {
       "id": 16211,
@@ -364,11 +298,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "U",
-      "studentMaterials": "- slide lab 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab 1",
-      "urls": null
+      "studentTasks": "Read Lab 1"
     },
     {
       "id": 16212,
@@ -378,11 +308,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "U",
-      "studentMaterials": "- slide lab 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Lab 1",
-      "urls": null
+      "studentTasks": "Read Lab 1"
     },
     {
       "id": 16213,
@@ -392,11 +318,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": null,
-      "studentMaterials": "- slide chapter 4.1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.1",
-      "urls": null
+      "studentTasks": "Read Chapter 4.1"
     },
     {
       "id": 16214,
@@ -406,11 +328,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.1",
-      "urls": null
+      "studentTasks": "Read Chapter 2.1"
     },
     {
       "id": 16215,
@@ -420,11 +338,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.2",
-      "urls": null
+      "studentTasks": "Read Chapter 2.2"
     },
     {
       "id": 16216,
@@ -434,11 +348,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.3",
-      "urls": null
+      "studentTasks": "Read Chapter 2.3"
     },
     {
       "id": 16217,
@@ -448,11 +358,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.4",
-      "urls": null
+      "studentTasks": "Read Chapter 2.4"
     },
     {
       "id": 16218,
@@ -462,11 +368,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.5",
-      "urls": null
+      "studentTasks": "Read Chapter 2.5"
     },
     {
       "id": 16219,
@@ -476,11 +378,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.6",
-      "urls": null
+      "studentTasks": "Read Chapter 2.6"
     },
     {
       "id": 16220,
@@ -490,11 +388,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.7",
-      "urls": null
+      "studentTasks": "Read Chapter 2.7"
     },
     {
       "id": 16221,
@@ -504,11 +398,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.8",
-      "urls": null
+      "studentTasks": "Read Chapter 2.8"
     },
     {
       "id": 16222,
@@ -518,11 +408,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.9",
-      "urls": null
+      "studentTasks": "Read Chapter 2.9"
     },
     {
       "id": 16223,
@@ -532,11 +418,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.10",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.10",
-      "urls": null
+      "studentTasks": "Read Chapter 2.10"
     },
     {
       "id": 16224,
@@ -546,11 +428,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.11",
-      "urls": null
+      "studentTasks": "Read Chapter 2.11"
     },
     {
       "id": 16225,
@@ -560,11 +438,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.12",
-      "urls": null
+      "studentTasks": "Read Chapter 2.12"
     },
     {
       "id": 16226,
@@ -574,11 +448,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- slide chapter 2.13",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 2.13",
-      "urls": null
+      "studentTasks": "Read Chapter 2.13"
     },
     {
       "id": 16227,
@@ -588,11 +458,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "U",
-      "studentMaterials": "- slide chapter 2, lab 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 2, lab 2",
-      "urls": null
+      "studentTasks": "Read chapter 2, lab 2"
     },
     {
       "id": 16228,
@@ -602,11 +468,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "U",
-      "studentMaterials": "- slide chapter 2, lab 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 2, lab 2",
-      "urls": null
+      "studentTasks": "Read chapter 2, lab 2"
     },
     {
       "id": 16229,
@@ -616,11 +478,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "U",
-      "studentMaterials": "- slide chapter 2, lab 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 2, lab 2",
-      "urls": null
+      "studentTasks": "Read chapter 2, lab 2"
     },
     {
       "id": 16230,
@@ -630,11 +488,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4",
       "itu": "U",
-      "studentMaterials": "- slide chapter 2, lab 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 2, lab 2",
-      "urls": null
+      "studentTasks": "Read chapter 2, lab 2"
     },
     {
       "id": 16231,
@@ -644,11 +498,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": null,
-      "studentMaterials": "- slide chapter 4.2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.2",
-      "urls": null
+      "studentTasks": "Read Chapter 4.2"
     },
     {
       "id": 16232,
@@ -658,11 +508,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "- slide chapter 3.1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.1",
-      "urls": null
+      "studentTasks": "Read Chapter 3.1"
     },
     {
       "id": 16233,
@@ -672,11 +518,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "- slide chapter 3.2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.2",
-      "urls": null
+      "studentTasks": "Read Chapter 3.2"
     },
     {
       "id": 16234,
@@ -686,11 +528,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "- slide chapter 3.3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.3",
-      "urls": null
+      "studentTasks": "Read Chapter 3.3"
     },
     {
       "id": 16235,
@@ -700,11 +538,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "- slide chapter 3.4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.4",
-      "urls": null
+      "studentTasks": "Read Chapter 3.4"
     },
     {
       "id": 16236,
@@ -714,11 +548,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "- slide chapter 3.5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.5",
-      "urls": null
+      "studentTasks": "Read Chapter 3.5"
     },
     {
       "id": 16237,
@@ -728,11 +558,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "- slide chapter 3.6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.6",
-      "urls": null
+      "studentTasks": "Read Chapter 3.6"
     },
     {
       "id": 16238,
@@ -742,11 +568,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "- slide chapter 3.7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.7",
-      "urls": null
+      "studentTasks": "Read Chapter 3.7"
     },
     {
       "id": 16239,
@@ -756,11 +578,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "- slide chapter 3.8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.8",
-      "urls": null
+      "studentTasks": "Read Chapter 3.8"
     },
     {
       "id": 16240,
@@ -770,11 +588,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "- slide chapter 3.9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.9",
-      "urls": null
+      "studentTasks": "Read Chapter 3.9"
     },
     {
       "id": 16241,
@@ -784,11 +598,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "- slide chapter 3.10",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.10",
-      "urls": null
+      "studentTasks": "Read Chapter 3.10"
     },
     {
       "id": 16242,
@@ -798,11 +608,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "- slide chapter 3.11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.11",
-      "urls": null
+      "studentTasks": "Read Chapter 3.11"
     },
     {
       "id": 16243,
@@ -812,11 +618,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "- slide chapter 3.12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 3.12",
-      "urls": null
+      "studentTasks": "Read Chapter 3.12"
     },
     {
       "id": 16244,
@@ -826,11 +628,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO6",
       "itu": "U",
-      "studentMaterials": "- slide chapter 3, lab 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 3, lab 3",
-      "urls": null
+      "studentTasks": "Read chapter 3, lab 3"
     },
     {
       "id": 16245,
@@ -840,11 +638,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO6",
       "itu": "U",
-      "studentMaterials": "- slide chapter 3, lab 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 3, lab 3",
-      "urls": null
+      "studentTasks": "Read chapter 3, lab 3"
     },
     {
       "id": 16246,
@@ -854,11 +648,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO6",
       "itu": "U",
-      "studentMaterials": "- slide chapter 3, lab 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 3, lab 3",
-      "urls": null
+      "studentTasks": "Read chapter 3, lab 3"
     },
     {
       "id": 16247,
@@ -868,11 +658,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO6",
       "itu": "U",
-      "studentMaterials": "- slide chapter 3, lab 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read chapter 3, lab 3",
-      "urls": null
+      "studentTasks": "Read chapter 3, lab 3"
     },
     {
       "id": 16248,
@@ -882,11 +668,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": null,
-      "studentMaterials": "- slide chapter 4.3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Chapter 4.3",
-      "urls": null
+      "studentTasks": "Read Chapter 4.3"
     },
     {
       "id": 16249,
@@ -896,11 +678,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6",
       "itu": "U",
-      "studentMaterials": "Link in the Materials: https://www.coursera.org/projects/tic-tac-toe-game-python",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Guided Project",
-      "urls": null
+      "studentTasks": "Do Guided Project"
     },
     {
       "id": 16250,
@@ -910,11 +688,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6",
       "itu": "U",
-      "studentMaterials": "Link in the Materials: https://www.coursera.org/projects/tic-tac-toe-game-python",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do Guided Project",
-      "urls": null
+      "studentTasks": "Do Guided Project"
     },
     {
       "id": 16251,
@@ -924,11 +698,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6",
       "itu": "T",
-      "studentMaterials": "- slide chapter 1, 2,3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- slide chapter 1, 2,3",
-      "urls": null
+      "studentTasks": "- slide chapter 1, 2,3"
     },
     {
       "id": 16252,
@@ -938,11 +708,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "- slide chapter 1, 2, 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review chapter 1, 2, 3\n- Do assignment",
-      "urls": null
+      "studentTasks": "- Review chapter 1, 2, 3\n- Do assignment"
     },
     {
       "id": 16253,
@@ -952,11 +718,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "- slide chapter 1, 2, 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review chapter 1, 2, 3\n- Do assignment",
-      "urls": null
+      "studentTasks": "- Review chapter 1, 2, 3\n- Do assignment"
     },
     {
       "id": 16254,
@@ -966,11 +728,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "- slide chapter 1, 2, 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review chapter 1, 2, 3\n- Do assignment",
-      "urls": null
+      "studentTasks": "- Review chapter 1, 2, 3\n- Do assignment"
     },
     {
       "id": 16255,
@@ -980,11 +738,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Syllabus REL301m\nSlide chapter 1,2,3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Syllabus REL301m\nSlide chapter 1,2,3",
-      "urls": null
+      "studentTasks": "Syllabus REL301m\nSlide chapter 1,2,3"
     }
   ],
   "assessments": [
@@ -1083,18 +837,6 @@
       "knowledgeSkill": "- cover chapter 1, 2, 3",
       "gradingGuide": "by exam board,\nusing computer",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
-    }
-  ],
-  "files": [
-    {
-      "label": "mat1",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "mat2",
-      "sessionNo": "2",
-      "kind": "file"
     }
   ]
 }

@@ -26,6 +26,7 @@ import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import { fetchRoadmap, fetchRoadmapsIndex, fetchSyllabus, fetchUniversities } from "@/features/programs/api"
 import { SyllabusDetailModal } from "@/features/programs/components/SyllabusDetailModal"
+import { DataAttribution } from "@/features/programs/components/DataAttribution"
 import { DEFAULT_ROADMAP_UNIVERSITY, ROADMAP_UNIVERSITIES, relationCodes, withoutFiller } from "@/features/programs/roadmapUniversities"
 import { Curriculum, University } from "@/features/programs/types"
 
@@ -309,6 +310,9 @@ export default function RoadmapPage() {
                     </div>
                 </CardContent>
             </Card>
+
+            {/* Source + collection date of this university's course data (AGENTS.md §9); roadmap files carry no date. */}
+            <DataAttribution universityCode={university} className="-mt-4 px-1" />
 
             {/* 3-Column Visual Roadmap Flow */}
             <div className="space-y-4">

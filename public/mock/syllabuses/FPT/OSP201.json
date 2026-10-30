@@ -10,7 +10,6 @@
     "prerequisite": null,
     "description": "This course is an introduction to open source client/server networking, basic information security and assurance concepts. Focusing on Linux as a platform and server operating system, the course introduces various concepts related to the security of Linux platforms and applications. It identifies and examines methods to secure Linux platforms and applications. It also explains how these methods can be implemented.\n\nThe course covers threats to Linux operating systems and other open source applications and mitigation of risks. It explains user account management and software management plans. The course also focuses on the various components of the Linux kernel and highlights several ways to address security breaches.",
     "studentTasks": "- Students must attend at least 80% of contact sessions in order to be accepted to the final examination.\n\n- Students are responsible to do all exercises, assignments and labs given by instructor in class or at home and submit in time\n\n- Use laptop in class only for learning purpose\n\n- Promptly access to the FU FLM at https://flm.fpt.edu.vn/ for up-to-date course information",
-    "tools": "Internet, Oracle VM Virtual Box, CentOS Linux, vi Editor, Apache Web Server, MySQL, Sendmail, md5sum, Python, RPM Package Manager, Rootkit Hunter, Tripwire.",
     "scoringScale": "10",
     "decisionNo": "358/QĐ-ĐHFPT dated 04/03/2024",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": "9780763791896",
       "isMainMaterial": 1,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 1879,
@@ -48,8 +46,7 @@
       "isbn": "978-1111035303",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 1880,
@@ -62,8 +59,7 @@
       "isbn": "978-0072262575",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "Books24x7"
+      "isOnline": 1
     },
     {
       "id": 1881,
@@ -76,8 +72,7 @@
       "isbn": "978-0071492478",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "Books24x7"
+      "isOnline": 1
     },
     {
       "id": 1882,
@@ -90,8 +85,7 @@
       "isbn": "978-0134173269",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 1883,
@@ -104,8 +98,7 @@
       "isbn": "978-1931841993",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     }
   ],
   "clos": [
@@ -189,11 +182,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I",
-      "studentMaterials": "Read Chapter 1",
-      "sDownload": "mat1",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/10537/S/1_mat1.zip",
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15236,
@@ -203,11 +192,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I",
-      "studentMaterials": "Read Chapter 2",
-      "sDownload": "mat2",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/10537/S/2_mat2.zip",
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15237,
@@ -217,11 +202,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Lab Manual",
-      "sDownload": "mat3",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/10537/S/3_mat3.zip",
-      "studentTasks": "Practice an review lab 1",
-      "urls": null
+      "studentTasks": "Practice an review lab 1"
     },
     {
       "id": 15238,
@@ -231,11 +212,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 1",
-      "urls": null
+      "studentTasks": "Practice an review lab 1"
     },
     {
       "id": 15239,
@@ -245,11 +222,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Read Chapter 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15240,
@@ -259,11 +232,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Read Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15241,
@@ -273,11 +242,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Read Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15242,
@@ -287,11 +252,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Read Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15243,
@@ -301,11 +262,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "U",
-      "studentMaterials": "Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 2",
-      "urls": null
+      "studentTasks": "Practice an review lab 2"
     },
     {
       "id": 15244,
@@ -315,11 +272,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "U",
-      "studentMaterials": "Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 2",
-      "urls": null
+      "studentTasks": "Practice an review lab 2"
     },
     {
       "id": 15245,
@@ -329,11 +282,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Read Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15246,
@@ -343,11 +292,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Read Chapter 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15247,
@@ -357,11 +302,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "U",
-      "studentMaterials": "Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 3",
-      "urls": null
+      "studentTasks": "Practice an review lab 3"
     },
     {
       "id": 15248,
@@ -371,11 +312,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "U",
-      "studentMaterials": "Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 3",
-      "urls": null
+      "studentTasks": "Practice an review lab 3"
     },
     {
       "id": 15249,
@@ -385,11 +322,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Read Chapter 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15250,
@@ -399,11 +332,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Read Chapter 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15251,
@@ -413,11 +342,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15252,
@@ -427,11 +352,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15253,
@@ -441,11 +362,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "U",
-      "studentMaterials": "Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 4",
-      "urls": null
+      "studentTasks": "Practice an review lab 4"
     },
     {
       "id": 15254,
@@ -455,11 +372,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "U",
-      "studentMaterials": "Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 4",
-      "urls": null
+      "studentTasks": "Practice an review lab 4"
     },
     {
       "id": 15255,
@@ -469,11 +382,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Read Chapter 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15256,
@@ -483,11 +392,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Read Chapter 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15257,
@@ -497,11 +402,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15258,
@@ -511,11 +412,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15259,
@@ -525,11 +422,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15260,
@@ -539,11 +432,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15261,
@@ -553,11 +442,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 5",
-      "urls": null
+      "studentTasks": "Practice an review lab 5"
     },
     {
       "id": 15262,
@@ -567,11 +452,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 5",
-      "urls": null
+      "studentTasks": "Practice an review lab 5"
     },
     {
       "id": 15263,
@@ -581,11 +462,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "Read Chapter 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15264,
@@ -595,11 +472,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "Read Chapter 8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15265,
@@ -609,11 +482,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15266,
@@ -623,11 +492,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15267,
@@ -637,11 +502,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "Lecture Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 6",
-      "urls": null
+      "studentTasks": "Practice an review lab 6"
     },
     {
       "id": 15268,
@@ -651,11 +512,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "Lecture Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 6",
-      "urls": null
+      "studentTasks": "Practice an review lab 6"
     },
     {
       "id": 15269,
@@ -665,11 +522,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6",
       "itu": "T",
-      "studentMaterials": "Review Lectures 1-6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15270,
@@ -679,11 +532,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6",
       "itu": null,
-      "studentMaterials": "Review Lectures 1-7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 15271,
@@ -693,11 +542,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Read Chapter 10",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15272,
@@ -707,11 +552,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Read Chapter 11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15273,
@@ -721,11 +562,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15274,
@@ -735,11 +572,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15275,
@@ -749,11 +582,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "U",
-      "studentMaterials": "Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 7",
-      "urls": null
+      "studentTasks": "Practice an review lab 7"
     },
     {
       "id": 15276,
@@ -763,11 +592,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "U",
-      "studentMaterials": "Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 7",
-      "urls": null
+      "studentTasks": "Practice an review lab 7"
     },
     {
       "id": 15277,
@@ -777,11 +602,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "Read Chapter 11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15278,
@@ -791,11 +612,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "Read Chapter 12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15279,
@@ -805,11 +622,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15280,
@@ -819,11 +632,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15281,
@@ -833,11 +642,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "Lecture Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 8",
-      "urls": null
+      "studentTasks": "Practice an review lab 8"
     },
     {
       "id": 15282,
@@ -847,11 +652,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "Lecture Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 8",
-      "urls": null
+      "studentTasks": "Practice an review lab 8"
     },
     {
       "id": 15283,
@@ -861,11 +662,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "Read Chapter 12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15284,
@@ -875,11 +672,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "Read Chapter 13",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15285,
@@ -889,11 +682,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15286,
@@ -903,11 +692,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15287,
@@ -917,11 +702,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "U",
-      "studentMaterials": "Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 9",
-      "urls": null
+      "studentTasks": "Practice an review lab 9"
     },
     {
       "id": 15288,
@@ -931,11 +712,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "U",
-      "studentMaterials": "Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 9",
-      "urls": null
+      "studentTasks": "Practice an review lab 9"
     },
     {
       "id": 15289,
@@ -945,11 +722,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "T",
-      "studentMaterials": "Read Chapter 14",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15290,
@@ -959,11 +732,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "T",
-      "studentMaterials": "Read Chapter 15",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15291,
@@ -973,11 +742,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Lecture Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 10",
-      "urls": null
+      "studentTasks": "Practice an review lab 10"
     },
     {
       "id": 15292,
@@ -987,11 +752,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Lecture Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice an review lab 10",
-      "urls": null
+      "studentTasks": "Practice an review lab 10"
     },
     {
       "id": 15293,
@@ -1001,11 +762,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": "T",
-      "studentMaterials": "All Lecture Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     },
     {
       "id": 15294,
@@ -1015,11 +772,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": null,
-      "studentMaterials": "All Lecture Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preview lecture note",
-      "urls": null
+      "studentTasks": "Preview lecture note"
     }
   ],
   "assessments": [
@@ -1086,23 +839,6 @@
       "knowledgeSkill": "concepts, algorithms; all studied chapters",
       "gradingGuide": "by exam board,\n\nusing computer",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
-    }
-  ],
-  "files": [
-    {
-      "label": "mat1",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "mat2",
-      "sessionNo": "2",
-      "kind": "file"
-    },
-    {
-      "label": "mat3",
-      "sessionNo": "3",
-      "kind": "file"
     }
   ]
 }

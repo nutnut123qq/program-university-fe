@@ -10,7 +10,6 @@
     "prerequisite": "ITE303 or ITE302c, OSP201",
     "description": "The digital landscape is evolving at an unprecedented rate with unknown threats lurking around every corner. Cybersecurity resilience in the modern world cannot be just an addon - it's a necessity. Organizations must build cybersecurity resilience, and offensive security professionals like Ethical Hackers and Penetration Testers can help proactively discover unknown threats and address them before cybercriminals do.\nTarget Audience This course is designed to prepare learners with the Ethical Hacker skillset. Learners will become proficient in the art of scoping, executing, and reporting on vulnerability assessments, while recommending mitigation strategies. By using an engaging gamified narrative throughout the course, with real-world inspired hands-on practice labs, learners develop essential workforce readiness skills to lay a solid foundation in offensive security.\nAfter completing this course, learners can enter cybersecurity careers, either on the offensive security side as ethical hackers or penetration testers, or on the defensive security side by understanding the mindset and tactics of threat actors, while implementing security controls and monitoring, analyzing, and responding to current security threats.",
     "studentTasks": "- Students must attend at least 80% of contact sessions in order to be accepted to the final examination.\n- Students are responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Promptly access to the http://flm.fpt.edu.vn for up-to-date course information\n- Students must complete all assignments on the Cisco Networking Academy (https://skillsforall.com/) with a result of at least 75%.",
-    "tools": "Internet, basic tools for ethical hacking (VMWare, Kali Linux, Wireshark, Nmap, …)",
     "scoringScale": "10",
     "decisionNo": "932/QĐ-ĐHFPT dated 08/22/2025",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": "978-1394186921",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 3261,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 3262,
@@ -62,8 +59,7 @@
       "isbn": "978-0071780285",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 3263,
@@ -76,8 +72,7 @@
       "isbn": "978-0357509753",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     }
   ],
   "clos": [
@@ -161,11 +156,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Syllabus, textbook, resources, Slide module 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29683,
@@ -175,11 +166,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Slide module 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29684,
@@ -189,11 +176,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 1",
-      "urls": null
+      "studentTasks": "Review Lab 1"
     },
     {
       "id": 29685,
@@ -203,11 +186,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 1",
-      "urls": null
+      "studentTasks": "Review Lab 1"
     },
     {
       "id": 29686,
@@ -217,11 +196,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion,",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion,"
     },
     {
       "id": 29687,
@@ -231,11 +206,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29688,
@@ -245,11 +216,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29689,
@@ -259,11 +226,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 2",
-      "urls": null
+      "studentTasks": "Review Lab 2"
     },
     {
       "id": 29690,
@@ -273,11 +236,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29691,
@@ -287,11 +246,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29692,
@@ -301,11 +256,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 3",
-      "urls": null
+      "studentTasks": "Review Lab 3"
     },
     {
       "id": 29693,
@@ -315,11 +266,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 3",
-      "urls": null
+      "studentTasks": "Review Lab 3"
     },
     {
       "id": 29694,
@@ -329,11 +276,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion,",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion,"
     },
     {
       "id": 29695,
@@ -343,11 +286,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 4",
-      "urls": null
+      "studentTasks": "Review Lab 4"
     },
     {
       "id": 29696,
@@ -357,11 +296,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 5",
-      "urls": null
+      "studentTasks": "Review Lab 5"
     },
     {
       "id": 29697,
@@ -371,11 +306,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 5",
-      "urls": null
+      "studentTasks": "Review Lab 5"
     },
     {
       "id": 29698,
@@ -385,11 +316,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29699,
@@ -399,11 +326,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "TU",
-      "studentMaterials": "textbook, resources, Slide module 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29700,
@@ -413,11 +336,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29701,
@@ -427,11 +346,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 6",
-      "urls": null
+      "studentTasks": "Review Lab 6"
     },
     {
       "id": 29702,
@@ -441,11 +356,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 6",
-      "urls": null
+      "studentTasks": "Review Lab 6"
     },
     {
       "id": 29703,
@@ -455,11 +366,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29704,
@@ -469,11 +376,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29705,
@@ -483,11 +386,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 7",
-      "urls": null
+      "studentTasks": "Review Lab 7"
     },
     {
       "id": 29706,
@@ -497,11 +396,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion,",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion,"
     },
     {
       "id": 29707,
@@ -511,11 +406,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29708,
@@ -525,11 +416,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29709,
@@ -539,11 +426,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29710,
@@ -553,11 +436,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29711,
@@ -567,11 +446,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29712,
@@ -581,11 +456,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29713,
@@ -595,11 +466,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29714,
@@ -609,11 +476,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29715,
@@ -623,11 +486,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 8",
-      "urls": null
+      "studentTasks": "Review Lab 8"
     },
     {
       "id": 29716,
@@ -637,11 +496,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 9",
-      "urls": null
+      "studentTasks": "Review Lab 9"
     },
     {
       "id": 29717,
@@ -651,11 +506,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 9",
-      "urls": null
+      "studentTasks": "Review Lab 9"
     },
     {
       "id": 29718,
@@ -665,11 +516,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion,",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion,"
     },
     {
       "id": 29719,
@@ -679,11 +526,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29720,
@@ -693,11 +536,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29721,
@@ -707,11 +546,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29722,
@@ -721,11 +556,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29723,
@@ -735,11 +566,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29724,
@@ -749,11 +576,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 9",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29725,
@@ -763,11 +586,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 10",
-      "urls": null
+      "studentTasks": "Review Lab 10"
     },
     {
       "id": 29726,
@@ -777,11 +596,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion,",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion,"
     },
     {
       "id": 29727,
@@ -791,11 +606,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 10",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29728,
@@ -805,11 +616,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 10",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29729,
@@ -819,11 +626,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 11",
-      "urls": null
+      "studentTasks": "Review Lab 11"
     },
     {
       "id": 29730,
@@ -833,11 +636,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 11",
-      "urls": null
+      "studentTasks": "Review Lab 11"
     },
     {
       "id": 29731,
@@ -847,11 +646,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29732,
@@ -861,11 +656,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 11",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29733,
@@ -875,11 +666,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 12",
-      "urls": null
+      "studentTasks": "Review Lab 12"
     },
     {
       "id": 29734,
@@ -889,11 +676,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion"
     },
     {
       "id": 29735,
@@ -903,11 +686,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29736,
@@ -917,11 +696,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "IT",
-      "studentMaterials": "textbook, resources, Slide module 12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion, Review Lecture",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion, Review Lecture"
     },
     {
       "id": 29737,
@@ -931,11 +706,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion"
     },
     {
       "id": 29738,
@@ -945,11 +716,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Materials, Discussion",
-      "urls": null
+      "studentTasks": "Read Materials, Discussion"
     },
     {
       "id": 29739,
@@ -959,11 +726,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO10",
       "itu": "U",
-      "studentMaterials": "Module Slides, Lab Manual",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Lab 15",
-      "urls": null
+      "studentTasks": "Review Lab 15"
     },
     {
       "id": 29740,
@@ -973,11 +736,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1-CLO10",
       "itu": "U",
-      "studentMaterials": "Project report and demo",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Groups present their topics",
-      "urls": null
+      "studentTasks": "Groups present their topics"
     },
     {
       "id": 29741,
@@ -987,11 +746,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1-CLO10",
       "itu": null,
-      "studentMaterials": "Module 1-12",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "review and prepare to FE",
-      "urls": null
+      "studentTasks": "review and prepare to FE"
     }
   ],
   "assessments": [
@@ -1075,6 +830,5 @@
       "gradingGuide": "Studied all of course's Material",
       "note": null
     }
-  ],
-  "files": []
+  ]
 }

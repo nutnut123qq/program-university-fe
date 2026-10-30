@@ -10,7 +10,6 @@
     "prerequisite": "PRF192",
     "description": "This course equips students with knowledge of the C++ programming language from basic to advanced,\n*) Basics\n- C++ Keywords, C++ Variable Types, Lvalues and Rvalues, Operators in C++, Strings, Arrrays, Pointerts, C++ References, C++ Basic Input/Output ...\n- OOP\n*) Advance:\nC/C++ Standard Template Libaries, Files/streaming ,Exception, template, multithread, smartpointer, etc.",
     "studentTasks": "- Students must attend at least 80% of contact sessions in order to be accepted to the final examination.\n- Student is responsible to do all assigned exercises given by instructor in class or at home and submit on time.\n- Use laptop in class only for learning purpose.\n- Promptly access to the https://flm.fpt.edu.vn/ for up-to-date course information.",
-    "tools": "Tools:\n- Dev-CPP (version 6.3)",
     "scoringScale": "10",
     "decisionNo": "359/QĐ-ĐHFPT dated 04/09/2025",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": "N/A",
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://intro2oop.sdds.ca/"
+      "isOnline": 1
     },
     {
       "id": 2814,
@@ -48,8 +46,7 @@
       "isbn": "978-0321714114",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 2815,
@@ -62,8 +59,7 @@
       "isbn": "978-1787124943",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     }
   ],
   "clos": [
@@ -112,11 +108,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slides - Slot 1 - Introduction to C++ and Basic Syntax",
-      "sDownload": "PCP291",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/12658/S/1_PCP291.zip",
-      "studentTasks": "Hands-on exercises:\n- Write a “Hello, World!” program.\n- Modify the program to print user-inputted text.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Write a “Hello, World!” program.\n- Modify the program to print user-inputted text."
     },
     {
       "id": 24090,
@@ -126,11 +118,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 1 - Introduction to C++ and Basic Syntax",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Debug and fix syntax errors in a provided C++ program.\n- Use cout and cin for basic input/output operations.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Debug and fix syntax errors in a provided C++ program.\n- Use cout and cin for basic input/output operations."
     },
     {
       "id": 24091,
@@ -140,11 +128,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 1 - Introduction to C++ and Basic Syntax",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Declare variables and perform basic arithmetic operations.\n- Use constants to store fixed values.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Declare variables and perform basic arithmetic operations.\n- Use constants to store fixed values."
     },
     {
       "id": 24092,
@@ -154,11 +138,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 2 - Operators, Expressions, and Basic I/O",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Write a program to calculate the area of a rectangle.\n- Implement logical expressions for simple decision-making.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Write a program to calculate the area of a rectangle.\n- Implement logical expressions for simple decision-making."
     },
     {
       "id": 24093,
@@ -168,11 +148,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 2 - Operators, Expressions, and Basic I/O",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Predict and fix unexpected results due to operator precedence.\n- Implement explicit type conversion using static_cast<>.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Predict and fix unexpected results due to operator precedence.\n- Implement explicit type conversion using static_cast<>."
     },
     {
       "id": 24094,
@@ -182,11 +158,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 2 - Operators, Expressions, and Basic I/O",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Create a basic calculator using arithmetic operators.\n- Read and print user information (name, age, and city).",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Create a basic calculator using arithmetic operators.\n- Read and print user information (name, age, and city)."
     },
     {
       "id": 24095,
@@ -196,11 +168,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 3 - Control Structures - Decision Making and Loops",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Write a program to check if a number is even or odd.\n- Implement a grading system using switch-case.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Write a program to check if a number is even or odd.\n- Implement a grading system using switch-case."
     },
     {
       "id": 24096,
@@ -210,11 +178,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 3 - Control Structures – Decision Making and Loops",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Write a program to print the first N Fibonacci numbers.\n- Implement a countdown timer using loops.\n- Implement a simple multiplication table generator.\n- Write a program to print a pyramid pattern using *.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Write a program to print the first N Fibonacci numbers.\n- Implement a countdown timer using loops.\n- Implement a simple multiplication table generator.\n- Write a program to print a pyramid pattern using *."
     },
     {
       "id": 24097,
@@ -224,11 +188,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": null,
-      "studentMaterials": "Lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 24098,
@@ -238,11 +198,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 4 - Arrays and Pointer Fundamentals",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Find the maximum and minimum values in an array.\n- Reverse an array.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Find the maximum and minimum values in an array.\n- Reverse an array."
     },
     {
       "id": 24099,
@@ -252,11 +208,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "IT",
-      "studentMaterials": "Slides - Slot 4 - Arrays and Pointer Fundamentals",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Swap two numbers using pointers.\n- Implement a function to reverse an array using pointers.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Swap two numbers using pointers.\n- Implement a function to reverse an array using pointers."
     },
     {
       "id": 24100,
@@ -266,11 +218,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 4 - Arrays and Pointer Fundamentals",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement a function that returns a pointer to the largest element in an array.\n- Demonstrate pointer-based iteration through a two-dimensional array.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement a function that returns a pointer to the largest element in an array.\n- Demonstrate pointer-based iteration through a two-dimensional array."
     },
     {
       "id": 24101,
@@ -280,11 +228,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 5 - Dynamic Memory Allocation & Advanced Pointer Usage",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Create a dynamic array and fill it with user input.\n- Implement a simple dynamic list with manual memory allocation.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Create a dynamic array and fill it with user input.\n- Implement a simple dynamic list with manual memory allocation."
     },
     {
       "id": 24102,
@@ -294,11 +238,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 5 - Dynamic Memory Allocation & Advanced Pointer Usage",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Demonstrate a scenario where a memory leak occurs, then fix it.\n- Implement a function that safely reallocates an array.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Demonstrate a scenario where a memory leak occurs, then fix it.\n- Implement a function that safely reallocates an array."
     },
     {
       "id": 24103,
@@ -308,11 +248,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 5 - Dynamic Memory Allocation & Advanced Pointer Usage",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement a dynamically allocated matrix and perform basic operations.\n- Develop a simple memory-efficient data storage system.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement a dynamically allocated matrix and perform basic operations.\n- Develop a simple memory-efficient data storage system."
     },
     {
       "id": 24104,
@@ -322,11 +258,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 6 - Structs, Unions, and Complex Data Organization",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Define a Student struct and store multiple students' information.\n- Sort an array of structs based on GPA.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Define a Student struct and store multiple students' information.\n- Sort an array of structs based on GPA."
     },
     {
       "id": 24105,
@@ -336,11 +268,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 6 - Structs, Unions, and Complex Data Organization",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement a union to store either an integer or a float in minimal memory.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement a union to store either an integer or a float in minimal memory."
     },
     {
       "id": 24106,
@@ -350,11 +278,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 6 - Structs, Unions, and Complex Data Organization",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Define a Library struct where each book has multiple authors.\n- Write and read struct data from a file.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Define a Library struct where each book has multiple authors.\n- Write and read struct data from a file."
     },
     {
       "id": 24107,
@@ -364,11 +288,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 7 - Memory Management and Performance Optimization",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement a program that dynamically allocates and deallocates memory efficiently.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement a program that dynamically allocates and deallocates memory efficiently."
     },
     {
       "id": 24108,
@@ -378,11 +298,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "IT",
-      "studentMaterials": "Slides - Slot 7 - Memory Management and Performance Optimization",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Convert a raw pointer-based program to use smart pointers.\n- Analyze and optimize a sample C++ program for better memory efficiency.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Convert a raw pointer-based program to use smart pointers.\n- Analyze and optimize a sample C++ program for better memory efficiency."
     },
     {
       "id": 24109,
@@ -392,11 +308,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": null,
-      "studentMaterials": "Lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 24110,
@@ -406,11 +318,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 8 - Functions, Overloading, and Template Programming",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement a function to calculate the factorial of a number.\n- Create a function to find the greatest common divisor (GCD) using recursion.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement a function to calculate the factorial of a number.\n- Create a function to find the greatest common divisor (GCD) using recursion."
     },
     {
       "id": 24111,
@@ -420,11 +328,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 8 - Functions, Overloading, and Template Programming",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement an overloaded function for calculating areas of different shapes.\n- Use default parameters for flexible function behavior.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement an overloaded function for calculating areas of different shapes.\n- Use default parameters for flexible function behavior."
     },
     {
       "id": 24112,
@@ -434,11 +338,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 8 - Functions, Overloading, and Template Programming",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement a function template for finding the maximum of two values.\n- Create a simple class template for handling an array of any data type.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement a function template for finding the maximum of two values.\n- Create a simple class template for handling an array of any data type."
     },
     {
       "id": 24113,
@@ -448,11 +348,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 9 - Scope, Namespaces, and Visibility Rules",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Demonstrate variable scope using static and global variables.\n- Implement a program that manages variables across multiple files.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Demonstrate variable scope using static and global variables.\n- Implement a program that manages variables across multiple files."
     },
     {
       "id": 24114,
@@ -462,11 +358,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "IT",
-      "studentMaterials": "Slides - Slot 9 - Scope, Namespaces, and Visibility Rules",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement a program using multiple namespaces for different modules.\n- Use namespace to organize a library system.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement a program using multiple namespaces for different modules.\n- Use namespace to organize a library system."
     },
     {
       "id": 24115,
@@ -476,11 +368,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "I",
-      "studentMaterials": "Slides - Slot 9 - Scope, Namespaces, and Visibility Rules",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement encapsulation in a C++ class with getter/setter functions.\n- Control access to class members in a real-world scenario.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement encapsulation in a C++ class with getter/setter functions.\n- Control access to class members in a real-world scenario."
     },
     {
       "id": 24116,
@@ -490,11 +378,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "IT",
-      "studentMaterials": "Slides - Slot 10 - Introduction to STL Containers & Algorithms",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement a dynamic list using std::vector.\n- Store and retrieve key-value pairs using std::map.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement a dynamic list using std::vector.\n- Store and retrieve key-value pairs using std::map."
     },
     {
       "id": 24117,
@@ -504,11 +388,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "IT",
-      "studentMaterials": "Slides - Slot 10 - Introduction to STL Containers & Algorithms",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Sort and search elements in a std::vector.\n- Implement a simple contact management system using std::map.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Sort and search elements in a std::vector.\n- Implement a simple contact management system using std::map."
     },
     {
       "id": 24118,
@@ -518,11 +398,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "IT",
-      "studentMaterials": "Slides - Slot 10 - Introduction to STL Containers & Algorithms",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement a task manager using std::queue.\n- Demonstrate stack-based undo functionality.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement a task manager using std::queue.\n- Demonstrate stack-based undo functionality."
     },
     {
       "id": 24119,
@@ -532,11 +408,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "IT",
-      "studentMaterials": "Slides - Slot 11 - Introduction to STL Features & Optimization",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Use lambda functions to apply transformations on a std::vector.\n- Implement custom sorting criteria using lambdas.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Use lambda functions to apply transformations on a std::vector.\n- Implement custom sorting criteria using lambdas."
     },
     {
       "id": 24120,
@@ -546,11 +418,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "IT",
-      "studentMaterials": "Slides - Slot 11 - Introduction to STL Features & Optimization",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Optimize an existing program by choosing the right STL container.\n- Implement a high-performance data processing application using STL.\n- Develop a student record system using map, vector, and STL algorithms.\n- Implement a real-time event processing system using queue and priority_queue.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Optimize an existing program by choosing the right STL container.\n- Implement a high-performance data processing application using STL.\n- Develop a student record system using map, vector, and STL algorithms.\n- Implement a real-time event processing system using queue and priority_queue."
     },
     {
       "id": 24121,
@@ -560,11 +428,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1; 2; 3",
       "itu": null,
-      "studentMaterials": "Lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 24122,
@@ -574,11 +438,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I",
-      "studentMaterials": "Slides - Slot 12 - Introduction to Object-Oriented Programming (OOP) & Encapsulation",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Define a Car class with attributes (brand, model, year).\n- Create and manipulate objects from the class.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Define a Car class with attributes (brand, model, year).\n- Create and manipulate objects from the class."
     },
     {
       "id": 24123,
@@ -588,11 +448,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 12 - Introduction to Object-Oriented Programming (OOP) & Encapsulation",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement encapsulation in a BankAccount class with private balance.\n- Use constructors to initialize object values.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement encapsulation in a BankAccount class with private balance.\n- Use constructors to initialize object values."
     },
     {
       "id": 24124,
@@ -602,11 +458,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 12 - Introduction to Object-Oriented Programming (OOP) & Encapsulation",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Create a Student class with static member to count students.\n- Implement a method to update object attributes dynamically.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Create a Student class with static member to count students.\n- Implement a method to update object attributes dynamically."
     },
     {
       "id": 24125,
@@ -616,11 +468,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "IT",
-      "studentMaterials": "Slides - Slot 13 - Inheritance - Code Reusability & Hierarchical Design",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Create a Person class and inherit Student and Teacher from it.\n- Demonstrate different access levels in inheritance.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Create a Person class and inherit Student and Teacher from it.\n- Demonstrate different access levels in inheritance."
     },
     {
       "id": 24126,
@@ -630,11 +478,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 13 - Inheritance - Code Reusability & Hierarchical Design",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement multi-level inheritance (Animal → Mammal → Dog).\n- Use constructor chaining to initialize derived class attributes.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement multi-level inheritance (Animal → Mammal → Dog).\n- Use constructor chaining to initialize derived class attributes."
     },
     {
       "id": 24127,
@@ -644,11 +488,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 13 - Inheritance - Code Reusability & Hierarchical Design",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Create a Shape class with draw() method and override it in Circle and Rectangle.\n- Implement runtime polymorphism using pointers to base class.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Create a Shape class with draw() method and override it in Circle and Rectangle.\n- Implement runtime polymorphism using pointers to base class."
     },
     {
       "id": 24128,
@@ -658,11 +498,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 14 - Polymorphism & Special Member Functions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Overload + operator to add two Complex numbers.\n- Implement << and >> operators for easy input/output.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Overload + operator to add two Complex numbers.\n- Implement << and >> operators for easy input/output."
     },
     {
       "id": 24129,
@@ -672,11 +508,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I",
-      "studentMaterials": "Slides - Slot 14 - Polymorphism & Special Member Functions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Demonstrate object copying with copy constructor.\n- Optimize memory using move constructor.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Demonstrate object copying with copy constructor.\n- Optimize memory using move constructor."
     },
     {
       "id": 24130,
@@ -686,11 +518,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 14 - Polymorphism & Special Member Functions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Demonstrate object destruction in polymorphic class hierarchy.\n- Convert raw pointer-based code to use unique_ptr.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Demonstrate object destruction in polymorphic class hierarchy.\n- Convert raw pointer-based code to use unique_ptr."
     },
     {
       "id": 24131,
@@ -700,11 +528,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 15 - Exception Handling & Robust Application Design",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement division by zero exception handling.\n- Handle invalid user input in a number conversion program.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement division by zero exception handling.\n- Handle invalid user input in a number conversion program."
     },
     {
       "id": 24132,
@@ -714,11 +538,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 15 - Exception Handling & Robust Application Design",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement exception handling for array index out of bounds.\n- Create a BankTransaction class with a custom exception for insufficient balance.\n- Use RAII for managing dynamic memory safely.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement exception handling for array index out of bounds.\n- Create a BankTransaction class with a custom exception for insufficient balance.\n- Use RAII for managing dynamic memory safely."
     },
     {
       "id": 24133,
@@ -728,11 +548,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": null,
-      "studentMaterials": "Lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 24134,
@@ -742,11 +558,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 16 - Text File Handling & Basic File Operations",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Write a program to store and retrieve student records from a text file.\n- Implement a simple logging system that appends messages to a file.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Write a program to store and retrieve student records from a text file.\n- Implement a simple logging system that appends messages to a file."
     },
     {
       "id": 24135,
@@ -756,11 +568,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 16 - Text File Handling & Basic File Operations",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Develop a contact book where users can add and search contacts.\n- Implement a CSV parser to read structured text data.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Develop a contact book where users can add and search contacts.\n- Implement a CSV parser to read structured text data."
     },
     {
       "id": 24136,
@@ -770,11 +578,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 16 - Text File Handling & Basic File Operations",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Optimize file reading operations for better efficiency.\n- Identify and fix common file handling errors in sample code.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Optimize file reading operations for better efficiency.\n- Identify and fix common file handling errors in sample code."
     },
     {
       "id": 24137,
@@ -784,11 +588,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 17 - Binary File Handling & File Processing",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement a program to store and retrieve employee records in binary format.\n- Demonstrate random access file operations (seekg, seekp, tellg, tellp).",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement a program to store and retrieve employee records in binary format.\n- Demonstrate random access file operations (seekg, seekp, tellg, tellp)."
     },
     {
       "id": 24138,
@@ -798,11 +598,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 17 - Binary File Handling & File Processing",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement a basic student management system that allows adding, updating, and deleting records.\n- Create a binary-based inventory system that maintains product details.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement a basic student management system that allows adding, updating, and deleting records.\n- Create a binary-based inventory system that maintains product details."
     },
     {
       "id": 24139,
@@ -812,11 +608,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 17 - Binary File Handling & File Processing",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement a file-based caching system to reduce read/write overhead.\n- Optimize an existing file handling program for better performance.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement a file-based caching system to reduce read/write overhead.\n- Optimize an existing file handling program for better performance."
     },
     {
       "id": 24140,
@@ -826,11 +618,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "IT",
-      "studentMaterials": "Slides - Slot 18 - Preprocessor Directives & Type Conversions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement header guards to prevent multiple inclusions.\n- Use #define macros for constant expressions and debugging.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement header guards to prevent multiple inclusions.\n- Use #define macros for constant expressions and debugging."
     },
     {
       "id": 24141,
@@ -840,11 +628,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 18 - Preprocessor Directives & Type Conversions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement custom type conversion for a Temperature class (Celsius ↔ Fahrenheit).\n- Use dynamic_cast for safe downcasting in an OOP hierarchy.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement custom type conversion for a Temperature class (Celsius ↔ Fahrenheit).\n- Use dynamic_cast for safe downcasting in an OOP hierarchy."
     },
     {
       "id": 24142,
@@ -854,11 +638,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "I",
-      "studentMaterials": "Slides - Slot 18 - Preprocessor Directives & Type Conversions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Optimize memory usage by choosing appropriate data types for calculations.\n- Debug a program with incorrect type conversions and apply correct casting.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Optimize memory usage by choosing appropriate data types for calculations.\n- Debug a program with incorrect type conversions and apply correct casting."
     },
     {
       "id": 24143,
@@ -868,11 +648,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "IT",
-      "studentMaterials": "Slides - Slot 19 - Smart Pointers, Multithreading, and Lambda Expressions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Convert raw pointer-based memory management to smart pointers.\n- Demonstrate circular reference issues and solve them using weak_ptr.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Convert raw pointer-based memory management to smart pointers.\n- Demonstrate circular reference issues and solve them using weak_ptr."
     },
     {
       "id": 24144,
@@ -882,11 +658,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "I",
-      "studentMaterials": "Slides - Slot 19 - Smart Pointers, Multithreading, and Lambda Expressions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Implement multithreading to execute multiple tasks in parallel.\n- Use mutex to prevent race conditions in shared data.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Implement multithreading to execute multiple tasks in parallel.\n- Use mutex to prevent race conditions in shared data."
     },
     {
       "id": 24145,
@@ -896,11 +668,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "ITU",
-      "studentMaterials": "Slides - Slot 19 - Smart Pointers, Multithreading, and Lambda Expressions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Hands-on exercises:\n- Use lambda functions for dynamic sorting and filtering.\n- Implement a callback mechanism using function pointers and lambdas.",
-      "urls": null
+      "studentTasks": "Hands-on exercises:\n- Use lambda functions for dynamic sorting and filtering.\n- Implement a callback mechanism using function pointers and lambdas."
     },
     {
       "id": 24146,
@@ -910,11 +678,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": null,
-      "studentMaterials": "Lab's questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 24147,
@@ -924,11 +688,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 24148,
@@ -938,11 +698,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": null,
-      "studentMaterials": null,
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     }
   ],
   "assessments": [
@@ -1025,13 +781,6 @@
       "knowledgeSkill": "questions distribution: CLO1: 2 - 3; CLO2: 5 - 10; CLO3: 8 - 10; CLO4: 8 - 10; CLO5: 8 - 10. More than 70% new questions (for the current semester);",
       "gradingGuide": "supervised by proctor(s) sent by exam board",
       "note": null
-    }
-  ],
-  "files": [
-    {
-      "label": "PCP291",
-      "sessionNo": "1",
-      "kind": "file"
     }
   ]
 }

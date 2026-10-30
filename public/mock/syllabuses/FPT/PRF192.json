@@ -10,7 +10,6 @@
     "prerequisite": "None",
     "description": "Understand basics computer system and methods of software development, focus on function-oriented programming design, coding, testing and discipline in programming.\n\nExplain basic concepts of programming, function-oriented programming design, modularity, understand and coding programs using C language.\n\nUpon completing the course, student should have:\n\n1. Knowledge: (ABET e)\n\n- Explain the way to solve a real problem using computer.\n\n- Understand the basic concepts computer system, and software development.\n\n- Understand the basic concepts of programming, focus on procedure programming, testing and debugging, unit testing.\n\n2. Skills in programming: (ABET k)\n\n- Read and understand the simple C programs;\n\n- Solve real problems using C.\n\n3. Apply learning methods effectively: (ABET i)\n\n- Academic reading.\n\n- Individual and team work behaviors.",
     "studentTasks": "- Students must attend at least 80% of contact sessions in order to be accepted to the final examination.\n\n- Student is responsible to do all assigned exercises given by instructor in class or at home and submit on time.\n\n- Use laptop in class only for learning purpose.\n\n- Promptly access to the https://flm.fpt.edu.vn/ for up-to-date course information.",
-    "tools": "Tools:\n\n- Internet\n\n- C language utility (ex.DevC++ 6.3)",
     "scoringScale": "10",
     "decisionNo": "1286/QĐ-ĐHFPT dated 11/22/2024",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 2421,
@@ -48,8 +46,7 @@
       "isbn": "978-0131103627",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 2422,
@@ -62,8 +59,7 @@
       "isbn": "N/A",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://intro2c.sdds.ca/"
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -140,11 +136,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I",
-      "studentMaterials": "Textbook",
-      "sDownload": "PRF192_Slides_1",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/12223/S/1_PRF192_Slides_1.zip",
-      "studentTasks": "Read Textbook, install tools",
-      "urls": null
+      "studentTasks": "Read Textbook, install tools"
     },
     {
       "id": 21746,
@@ -154,11 +146,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": "PRF192_Slides_2",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/12223/S/2_PRF192_Slides_2.zip",
-      "studentTasks": "Read Textbook",
-      "urls": null
+      "studentTasks": "Read Textbook"
     },
     {
       "id": 21747,
@@ -168,11 +156,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": "PRF192_Slides_3",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/12223/S/3_PRF192_Slides_3.zip",
-      "studentTasks": "Practice a simple C program",
-      "urls": null
+      "studentTasks": "Practice a simple C program"
     },
     {
       "id": 21748,
@@ -182,11 +166,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice declaration variable and constant",
-      "urls": null
+      "studentTasks": "Practice declaration variable and constant"
     },
     {
       "id": 21749,
@@ -196,11 +176,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Textbook",
-      "urls": null
+      "studentTasks": "Read Textbook"
     },
     {
       "id": 21750,
@@ -210,11 +186,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Textbook\nPractice basic input/ ouput",
-      "urls": null
+      "studentTasks": "Read Textbook\nPractice basic input/ ouput"
     },
     {
       "id": 21751,
@@ -224,11 +196,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement operators",
-      "urls": null
+      "studentTasks": "Implement operators"
     },
     {
       "id": 21752,
@@ -238,11 +206,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice Mixing data types and Casting",
-      "urls": null
+      "studentTasks": "Practice Mixing data types and Casting"
     },
     {
       "id": 21753,
@@ -252,11 +216,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement if-else, switch-case",
-      "urls": null
+      "studentTasks": "Implement if-else, switch-case"
     },
     {
       "id": 21754,
@@ -266,11 +226,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "I",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement for, while, do-while",
-      "urls": null
+      "studentTasks": "Implement for, while, do-while"
     },
     {
       "id": 21755,
@@ -280,11 +236,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Answer the Instructor's questions and practice the requirements",
-      "urls": null
+      "studentTasks": "Answer the Instructor's questions and practice the requirements"
     },
     {
       "id": 21756,
@@ -294,11 +246,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Answer the Instructor's questions and practice the requirements",
-      "urls": null
+      "studentTasks": "Answer the Instructor's questions and practice the requirements"
     },
     {
       "id": 21757,
@@ -308,11 +256,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3",
       "itu": "U",
-      "studentMaterials": "Completed Workshop",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Workshop 1",
-      "urls": null
+      "studentTasks": "Complete Workshop 1"
     },
     {
       "id": 21758,
@@ -322,11 +266,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3",
       "itu": "U",
-      "studentMaterials": "Completed Workshop",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Workshop 1",
-      "urls": null
+      "studentTasks": "Complete Workshop 1"
     },
     {
       "id": 21759,
@@ -336,11 +276,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3",
       "itu": "U",
-      "studentMaterials": "Completed Workshop",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Workshop 1",
-      "urls": null
+      "studentTasks": "Complete Workshop 1"
     },
     {
       "id": 21760,
@@ -350,11 +286,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Textbook",
-      "urls": null
+      "studentTasks": "Read Textbook"
     },
     {
       "id": 21761,
@@ -364,11 +296,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Textbook",
-      "urls": null
+      "studentTasks": "Read Textbook"
     },
     {
       "id": 21762,
@@ -378,11 +306,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "I",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Textbook",
-      "urls": null
+      "studentTasks": "Read Textbook"
     },
     {
       "id": 21763,
@@ -392,11 +316,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice function definitions",
-      "urls": null
+      "studentTasks": "Practice function definitions"
     },
     {
       "id": 21764,
@@ -406,11 +326,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice use a function",
-      "urls": null
+      "studentTasks": "Practice use a function"
     },
     {
       "id": 21765,
@@ -420,11 +336,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Textbook",
-      "urls": null
+      "studentTasks": "Read Textbook"
     },
     {
       "id": 21766,
@@ -434,11 +346,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement scope of variable",
-      "urls": null
+      "studentTasks": "Implement scope of variable"
     },
     {
       "id": 21767,
@@ -448,11 +356,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Answer the Instructor's questions and practice the requirements",
-      "urls": null
+      "studentTasks": "Answer the Instructor's questions and practice the requirements"
     },
     {
       "id": 21768,
@@ -462,11 +366,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Answer the Instructor's questions and practice the requirements",
-      "urls": null
+      "studentTasks": "Answer the Instructor's questions and practice the requirements"
     },
     {
       "id": 21769,
@@ -476,11 +376,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "U",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Workshop 2",
-      "urls": null
+      "studentTasks": "Complete Workshop 2"
     },
     {
       "id": 21770,
@@ -490,11 +386,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "U",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Workshop 2",
-      "urls": null
+      "studentTasks": "Complete Workshop 2"
     },
     {
       "id": 21771,
@@ -504,11 +396,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "U",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Workshop 2",
-      "urls": null
+      "studentTasks": "Complete Workshop 2"
     },
     {
       "id": 21772,
@@ -518,11 +406,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "I",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Textbook",
-      "urls": null
+      "studentTasks": "Read Textbook"
     },
     {
       "id": 21773,
@@ -532,11 +416,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice pointer declarations and Implement pointer operators",
-      "urls": null
+      "studentTasks": "Practice pointer declarations and Implement pointer operators"
     },
     {
       "id": 21774,
@@ -546,11 +426,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice pass by reference to parameters of a function",
-      "urls": null
+      "studentTasks": "Practice pass by reference to parameters of a function"
     },
     {
       "id": 21775,
@@ -560,11 +436,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice dynamic allocated data",
-      "urls": null
+      "studentTasks": "Practice dynamic allocated data"
     },
     {
       "id": 21776,
@@ -574,11 +446,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "I",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Textbook",
-      "urls": null
+      "studentTasks": "Read Textbook"
     },
     {
       "id": 21777,
@@ -588,11 +456,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Textbook",
-      "urls": null
+      "studentTasks": "Read Textbook"
     },
     {
       "id": 21778,
@@ -602,11 +466,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement input and formatted output",
-      "urls": null
+      "studentTasks": "Implement input and formatted output"
     },
     {
       "id": 21779,
@@ -616,11 +476,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO6",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Answer the Instructor's questions and practice the requirements",
-      "urls": null
+      "studentTasks": "Answer the Instructor's questions and practice the requirements"
     },
     {
       "id": 21780,
@@ -630,11 +486,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6",
       "itu": "U",
-      "studentMaterials": "Study Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Progress Test 1",
-      "urls": null
+      "studentTasks": "Complete Progress Test 1"
     },
     {
       "id": 21781,
@@ -644,11 +496,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice one-demensional array declarations and basic operations on array: input/ output",
-      "urls": null
+      "studentTasks": "Practice one-demensional array declarations and basic operations on array: input/ output"
     },
     {
       "id": 21782,
@@ -658,11 +506,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice two-demensional array declarations, input/output, operations",
-      "urls": null
+      "studentTasks": "Practice two-demensional array declarations, input/output, operations"
     },
     {
       "id": 21783,
@@ -672,11 +516,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice: Search, Sort",
-      "urls": null
+      "studentTasks": "Practice: Search, Sort"
     },
     {
       "id": 21784,
@@ -686,11 +526,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice declaration, use Struct",
-      "urls": null
+      "studentTasks": "Practice declaration, use Struct"
     },
     {
       "id": 21785,
@@ -700,11 +536,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Answer the Instructor's questions and practice the requirements",
-      "urls": null
+      "studentTasks": "Answer the Instructor's questions and practice the requirements"
     },
     {
       "id": 21786,
@@ -714,11 +546,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice case study",
-      "urls": null
+      "studentTasks": "Practice case study"
     },
     {
       "id": 21787,
@@ -728,11 +556,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "U",
-      "studentMaterials": "Completed Workshop",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Workshop 3",
-      "urls": null
+      "studentTasks": "Complete Workshop 3"
     },
     {
       "id": 21788,
@@ -742,11 +566,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Completed Workshop",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Workshop 3",
-      "urls": null
+      "studentTasks": "Complete Workshop 3"
     },
     {
       "id": 21789,
@@ -756,11 +576,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "U",
-      "studentMaterials": "Completed Workshop",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Workshop 3",
-      "urls": null
+      "studentTasks": "Complete Workshop 3"
     },
     {
       "id": 21790,
@@ -770,11 +586,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice declare/ initialize String",
-      "urls": null
+      "studentTasks": "Practice declare/ initialize String"
     },
     {
       "id": 21791,
@@ -784,11 +596,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice input/ output and operations string",
-      "urls": null
+      "studentTasks": "Practice input/ output and operations string"
     },
     {
       "id": 21792,
@@ -798,11 +606,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement Array of string",
-      "urls": null
+      "studentTasks": "Implement Array of string"
     },
     {
       "id": 21793,
@@ -812,11 +616,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Answer the Instructor's questions and practice the requirements",
-      "urls": null
+      "studentTasks": "Answer the Instructor's questions and practice the requirements"
     },
     {
       "id": 21794,
@@ -826,11 +626,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Answer the Instructor's questions and practice the requirements",
-      "urls": null
+      "studentTasks": "Answer the Instructor's questions and practice the requirements"
     },
     {
       "id": 21795,
@@ -840,11 +636,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7, CLO8",
       "itu": "U",
-      "studentMaterials": "Completed Workshop",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Workshop 4",
-      "urls": null
+      "studentTasks": "Complete Workshop 4"
     },
     {
       "id": 21796,
@@ -854,11 +646,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "I",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Textbook",
-      "urls": null
+      "studentTasks": "Read Textbook"
     },
     {
       "id": 21797,
@@ -868,11 +656,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Textbook",
-      "urls": null
+      "studentTasks": "Read Textbook"
     },
     {
       "id": 21798,
@@ -882,11 +666,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement acessing files",
-      "urls": null
+      "studentTasks": "Implement acessing files"
     },
     {
       "id": 21799,
@@ -896,11 +676,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice file functions",
-      "urls": null
+      "studentTasks": "Practice file functions"
     },
     {
       "id": 21800,
@@ -910,11 +686,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "T",
-      "studentMaterials": "Textbook",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Answer the Instructor's questions and practice the requirements",
-      "urls": null
+      "studentTasks": "Answer the Instructor's questions and practice the requirements"
     },
     {
       "id": 21801,
@@ -924,11 +696,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO9",
       "itu": "U",
-      "studentMaterials": "Completed Workshop",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Workshop 5",
-      "urls": null
+      "studentTasks": "Complete Workshop 5"
     },
     {
       "id": 21802,
@@ -938,11 +706,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7, CLO8, CLO9",
       "itu": "U",
-      "studentMaterials": "Study Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Progress Test 2",
-      "urls": null
+      "studentTasks": "Complete Progress Test 2"
     },
     {
       "id": 21803,
@@ -952,11 +716,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1 - CLO9",
       "itu": "U",
-      "studentMaterials": "Completed Assignment",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete Assignment",
-      "urls": null
+      "studentTasks": "Complete Assignment"
     },
     {
       "id": 21804,
@@ -966,11 +726,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1 - CLO9",
       "itu": "U",
-      "studentMaterials": "Study Materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Continue exam preparation",
-      "urls": null
+      "studentTasks": "Continue exam preparation"
     }
   ],
   "assessments": [
@@ -1053,23 +809,6 @@
       "knowledgeSkill": "questions distribution:CLO1: 2 - 3; CLO2: 5 - 10; CLO3: 8 - 10; CLO4: 8 - 10; CLO5: 5 - 8; CLO6: 5 - 8; CLO7: 5 - 8; CLO8: 2 - 4. More than 70% new questions (for the current semester);",
       "gradingGuide": "supervised by proctor(s) sent by exam board",
       "note": null
-    }
-  ],
-  "files": [
-    {
-      "label": "PRF192_Slides_1",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "PRF192_Slides_2",
-      "sessionNo": "2",
-      "kind": "file"
-    },
-    {
-      "label": "PRF192_Slides_3",
-      "sessionNo": "3",
-      "kind": "file"
     }
   ]
 }

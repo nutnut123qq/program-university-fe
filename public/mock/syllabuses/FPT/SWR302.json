@@ -10,7 +10,6 @@
     "prerequisite": "SWE102 or SWE201c or SWE202c",
     "description": "This course is a model-based introduction to RE, providing the conceptual background and terminology on RE, addressing a variety of techniques for requirements development including Analysis and Requirements Elicitation; Requirements Evaluation; Requirements Specification and Documentation; Requirements Quality Assurance. To implement these frameworks, student will be learnt how to find appropriate customer representatives, elicit requirements from them, and document user requirements, business rules, functional requirements, data requirements, and nonfunctional requirements.\n\nThe numerous visual models that will be represented to illustrate the requirements from various perspectives to supplement natural-language text. Other contents recommend the most effective requirements approaches for various specific classes of projects: agile projects developing products of any type, enhancement and replacement projects, projects that incorporate packaged solutions, outsourced projects, business process automation projects, business analytics projects, and embedded and other real-time systems.",
     "studentTasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n\n- Student is responsible to do all exercises given by instructor in class or at home and submit on time\n\n- Promptly access to the https://flm.fpt.edu.vn/ for up-to-date course information",
-    "tools": "- Microsoft office for documents and presentation.\n\n- https://www.visual-paradigm.com/download/community.jsp students must install visual-paradigm for drawing UML (offline) before taking Final Practical Exam\n\n- BOUML (http://bouml.free.fr/) : UML Drawing software",
     "scoringScale": "10",
     "decisionNo": "377/QĐ-ĐHFPT dated 04/09/2026",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": "978-0-7356-7966-5",
       "isMainMaterial": 1,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 4337,
@@ -48,8 +46,7 @@
       "isbn": "978-0-7356-2267-8",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 4338,
@@ -62,8 +59,7 @@
       "isbn": "978-1-57681-060-6",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 4339,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/specializations/requirements-engineering-secure-software"
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -154,11 +149,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "I",
-      "studentMaterials": "Chapter 1 + Slides",
-      "sDownload": "SWR302",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/10020/S/1_SWR302.zip",
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 43998,
@@ -168,11 +159,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "I",
-      "studentMaterials": "Chapter 1 + Slides",
-      "sDownload": "SWR302",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/10020/S/2_SWR302.zip",
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 43999,
@@ -182,11 +169,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "I,T",
-      "studentMaterials": "Chapter 2\n\n+ Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 44000,
@@ -196,11 +179,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "I,T",
-      "studentMaterials": "Chapter 2\n\n+ Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "do homework",
-      "urls": null
+      "studentTasks": "do homework"
     },
     {
       "id": 44001,
@@ -210,11 +189,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "I,T",
-      "studentMaterials": "Chapter 3\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 44002,
@@ -224,11 +199,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, LO2",
       "itu": "I,T",
-      "studentMaterials": "Chapter 3\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "do homework",
-      "urls": null
+      "studentTasks": "do homework"
     },
     {
       "id": 44003,
@@ -238,11 +209,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2, LO4, LO5",
       "itu": null,
-      "studentMaterials": "Chapter 4+ Business Analyst Job Description.docx + Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss what students have to do in their Assignment",
-      "urls": null
+      "studentTasks": "Discuss what students have to do in their Assignment"
     },
     {
       "id": 44004,
@@ -252,11 +219,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2, LO4, LO5",
       "itu": null,
-      "studentMaterials": "Chapter 4+ Business Analyst Job Description.docx + Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss what students have to do in their Assignment",
-      "urls": null
+      "studentTasks": "Discuss what students have to do in their Assignment"
     },
     {
       "id": 44005,
@@ -266,11 +229,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2, LO4, LO5",
       "itu": "I,T, U",
-      "studentMaterials": "Chapter 4+ Business Analyst Job Description.docx + Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Write Vision and Scope for Assignment",
-      "urls": null
+      "studentTasks": "Write Vision and Scope for Assignment"
     },
     {
       "id": 44006,
@@ -280,11 +239,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2, LO4, LO5",
       "itu": "I,T, U",
-      "studentMaterials": "Chapter 5 + Vision and Scope Template.docx + Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Write Vision and Scope for Assignment",
-      "urls": null
+      "studentTasks": "Write Vision and Scope for Assignment"
     },
     {
       "id": 44007,
@@ -294,11 +249,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2, LO4, LO5",
       "itu": null,
-      "studentMaterials": "Chapter 5 + Vision and Scope Template.docx + Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice on first half of Assignment",
-      "urls": null
+      "studentTasks": "Practice on first half of Assignment"
     },
     {
       "id": 44008,
@@ -308,11 +259,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2, LO4, LO5",
       "itu": null,
-      "studentMaterials": "Chapter 6 + Product Champion Responsibilities.docx + Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Practice on first half of Assignment",
-      "urls": null
+      "studentTasks": "Practice on first half of Assignment"
     },
     {
       "id": 44009,
@@ -322,11 +269,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2, LO3",
       "itu": "I,T, U",
-      "studentMaterials": "1. Use Case Template.docx\n\n2. Chapter 7 + 8\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Use Case document",
-      "urls": null
+      "studentTasks": "Finish Use Case document"
     },
     {
       "id": 44010,
@@ -336,11 +279,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2, LO3",
       "itu": "I,T, U",
-      "studentMaterials": "1. Use Case Template.docx\n\n2. Chapter 7 + 8\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Use Case document",
-      "urls": null
+      "studentTasks": "Finish Use Case document"
     },
     {
       "id": 44011,
@@ -350,11 +289,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5, LO6",
       "itu": "T,U",
-      "studentMaterials": "1. Use Case Template.docx\n\n2. Chapter 7 + 8\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Use Case document",
-      "urls": null
+      "studentTasks": "Finish Use Case document"
     },
     {
       "id": 44012,
@@ -364,11 +299,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5, LO6",
       "itu": "T,U",
-      "studentMaterials": "1. Use Case Template.docx\n\n2. Chapter 7 + 8\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Use Case document",
-      "urls": null
+      "studentTasks": "Finish Use Case document"
     },
     {
       "id": 44013,
@@ -378,11 +309,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4, LO5",
       "itu": "T,U",
-      "studentMaterials": "1.Software Requirements Specification Template.docx\n\n2. Chapter 9 + 10\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preparing the structure of SRS document (based on student's assignment)",
-      "urls": null
+      "studentTasks": "Preparing the structure of SRS document (based on student's assignment)"
     },
     {
       "id": 44014,
@@ -392,11 +319,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1,LO2,LO3,LO4,LO5,LO6",
       "itu": null,
-      "studentMaterials": "LSM questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Quiz test",
-      "urls": null
+      "studentTasks": "Quiz test"
     },
     {
       "id": 44015,
@@ -406,11 +329,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "T,U",
-      "studentMaterials": "1.Software Requirements Specification Template.docx",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preparing the structure of SRS document (based on student's assignment)",
-      "urls": null
+      "studentTasks": "Preparing the structure of SRS document (based on student's assignment)"
     },
     {
       "id": 44016,
@@ -420,11 +339,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "T,U",
-      "studentMaterials": "2. Chapter 9 + 10\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Preparing the structure of SRS document (based on student's assignment)",
-      "urls": null
+      "studentTasks": "Preparing the structure of SRS document (based on student's assignment)"
     },
     {
       "id": 44017,
@@ -434,11 +349,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T,U",
-      "studentMaterials": "Chapter 11\n\n+ Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Write SRS document based on guidelines",
-      "urls": null
+      "studentTasks": "Write SRS document based on guidelines"
     },
     {
       "id": 44018,
@@ -448,11 +359,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T,U",
-      "studentMaterials": "Chapter 12\n\n+ Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Write SRS document based on guidelines",
-      "urls": null
+      "studentTasks": "Write SRS document based on guidelines"
     },
     {
       "id": 44019,
@@ -462,11 +369,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T,U",
-      "studentMaterials": "Chapter 12\n\n+ Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Write SRS document based on guidelines",
-      "urls": null
+      "studentTasks": "Write SRS document based on guidelines"
     },
     {
       "id": 44020,
@@ -476,11 +379,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T,U",
-      "studentMaterials": "Chapter 12\n\n+ Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Write SRS document based on guidelines",
-      "urls": null
+      "studentTasks": "Write SRS document based on guidelines"
     },
     {
       "id": 44021,
@@ -490,11 +389,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T,U",
-      "studentMaterials": "1.Guidance for Data Dictionaries.docx\n\n2.Chapter 13\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Data Dictionaries of Assignment",
-      "urls": null
+      "studentTasks": "Finish Data Dictionaries of Assignment"
     },
     {
       "id": 44022,
@@ -504,11 +399,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T,U",
-      "studentMaterials": "1.Guidance for Data Dictionaries.docx\n\n2.Chapter 13\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Data Dictionaries of Assignment",
-      "urls": null
+      "studentTasks": "Finish Data Dictionaries of Assignment"
     },
     {
       "id": 44023,
@@ -518,11 +409,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T,U",
-      "studentMaterials": "Chapter 14 + Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Data Dictionaries of Assignment",
-      "urls": null
+      "studentTasks": "Finish Data Dictionaries of Assignment"
     },
     {
       "id": 44024,
@@ -532,11 +419,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T,U",
-      "studentMaterials": "Chapter 14 + Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Data Dictionaries of Assignment",
-      "urls": null
+      "studentTasks": "Finish Data Dictionaries of Assignment"
     },
     {
       "id": 44025,
@@ -546,11 +429,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO8",
       "itu": "T,U",
-      "studentMaterials": "Chapter 15 + Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Requirements Prioritization worksheet",
-      "urls": null
+      "studentTasks": "Finish Requirements Prioritization worksheet"
     },
     {
       "id": 44026,
@@ -560,11 +439,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO8",
       "itu": "T,U",
-      "studentMaterials": "Chapter 15 + Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Requirements Prioritization worksheet",
-      "urls": null
+      "studentTasks": "Finish Requirements Prioritization worksheet"
     },
     {
       "id": 44027,
@@ -574,11 +449,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "T,U",
-      "studentMaterials": "1. Requirements Prioritization Spreadsheet.docx\n\n2. Chapter 16\n\n+ Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Requirements Prioritization worksheet",
-      "urls": null
+      "studentTasks": "Finish Requirements Prioritization worksheet"
     },
     {
       "id": 44028,
@@ -588,11 +459,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "T,U",
-      "studentMaterials": "1. Requirements Prioritization Spreadsheet.docx\n\n2. Chapter 16\n\n+ Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish Requirements Prioritization worksheet",
-      "urls": null
+      "studentTasks": "Finish Requirements Prioritization worksheet"
     },
     {
       "id": 44029,
@@ -602,11 +469,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "T",
-      "studentMaterials": "1. Requirements Review Checklist.docx\n\n2. Chapter 17\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Check progress of Assignment's requirements",
-      "urls": null
+      "studentTasks": "Check progress of Assignment's requirements"
     },
     {
       "id": 44030,
@@ -616,11 +479,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "T",
-      "studentMaterials": "1. Requirements Review Checklist.docx\n\n2. Chapter 17\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Check progress of Assignment's requirements",
-      "urls": null
+      "studentTasks": "Check progress of Assignment's requirements"
     },
     {
       "id": 44031,
@@ -630,11 +489,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3, LO5",
       "itu": "I,T,U",
-      "studentMaterials": "1. Chapter 18 + 19\n\n2. Requirements Estimation Tool.xlsx\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do requirements estimation",
-      "urls": null
+      "studentTasks": "Do requirements estimation"
     },
     {
       "id": 44032,
@@ -644,11 +499,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3, LO5",
       "itu": "I,T,U",
-      "studentMaterials": "1. Chapter 18 + 19\n\n2. Requirements Estimation Tool.xlsx\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do requirements estimation",
-      "urls": null
+      "studentTasks": "Do requirements estimation"
     },
     {
       "id": 44033,
@@ -658,11 +509,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": null,
-      "studentMaterials": "1. Chapter 18\n\n2. Requirements Estimation Tool.xlsx\n\n+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 44034,
@@ -672,11 +519,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2,LO3,LO5,LO7,LO8",
       "itu": null,
-      "studentMaterials": "1. Chapter 189\n\nAssignment documents",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Oral test",
-      "urls": null
+      "studentTasks": "Oral test"
     },
     {
       "id": 44035,
@@ -686,11 +529,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2,LO3,LO5,LO7,LO8",
       "itu": null,
-      "studentMaterials": "Assignment documents\n\nAssignment document templates",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Oral test",
-      "urls": null
+      "studentTasks": "Oral test"
     },
     {
       "id": 44036,
@@ -700,11 +539,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2,LO3,LO5,LO7,LO8",
       "itu": null,
-      "studentMaterials": "LSM questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Quiz test",
-      "urls": null
+      "studentTasks": "Quiz test"
     },
     {
       "id": 44037,
@@ -714,11 +549,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "I,T,U",
-      "studentMaterials": "Chapter 20+Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 44038,
@@ -728,11 +559,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "I,T,U",
-      "studentMaterials": "Chapter 21 +Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 44039,
@@ -742,11 +569,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "I,T,U",
-      "studentMaterials": "1. Chapter 22\n\n2. Request for Proposal Template.docx\n\n3. Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read and understand the proposal template ( what are contents and the purpose of these ones)",
-      "urls": null
+      "studentTasks": "Read and understand the proposal template ( what are contents and the purpose of these ones)"
     },
     {
       "id": 44040,
@@ -756,11 +579,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "I,T,U",
-      "studentMaterials": "1. Chapter 23\n\n2. Request for Proposal Template.docx\n\n3. Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read and understand the proposal template ( what are contents and the purpose of these ones)",
-      "urls": null
+      "studentTasks": "Read and understand the proposal template ( what are contents and the purpose of these ones)"
     },
     {
       "id": 44041,
@@ -770,11 +589,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": null,
-      "studentMaterials": "1. Chapter 24 + 25 + Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read and understand the proposal template ( what are contents and the purpose of these ones)",
-      "urls": null
+      "studentTasks": "Read and understand the proposal template ( what are contents and the purpose of these ones)"
     },
     {
       "id": 44042,
@@ -784,11 +599,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": null,
-      "studentMaterials": "1. Chapter 24 + 25 + Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read and understand the proposal template ( what are contents and the purpose of these ones)",
-      "urls": null
+      "studentTasks": "Read and understand the proposal template ( what are contents and the purpose of these ones)"
     },
     {
       "id": 44043,
@@ -798,11 +609,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": null,
-      "studentMaterials": "1. Chapter 26 + Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Checking SRS document",
-      "urls": null
+      "studentTasks": "Checking SRS document"
     },
     {
       "id": 44044,
@@ -812,11 +619,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": null,
-      "studentMaterials": "1. Chapter 26 + Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Checking SRS document",
-      "urls": null
+      "studentTasks": "Checking SRS document"
     },
     {
       "id": 44045,
@@ -826,11 +629,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "I,T,U",
-      "studentMaterials": "1. Chapter 25 + 26 + 27\n\n2. a. CCB Charter Template.docx\n\nb. Change Control Process.docx\n\nc. Impact Analysis Checklist.docx\n\n3. Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do assignment - based on guidelines",
-      "urls": null
+      "studentTasks": "Do assignment - based on guidelines"
     },
     {
       "id": 44046,
@@ -840,11 +639,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "I,T,U",
-      "studentMaterials": "1. Chapter 25 + 26 + 27\n\n2. a. CCB Charter Template.docx\n\nb. Change Control Process.docx\n\nc. Impact Analysis Checklist.docx\n\n3. Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do assignment - based on guidelines",
-      "urls": null
+      "studentTasks": "Do assignment - based on guidelines"
     },
     {
       "id": 44047,
@@ -854,11 +649,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "I,T,U",
-      "studentMaterials": "1. Chapter 25 + 26 + 27\n\n2. a. CCB Charter Template.docx\n\nb. Change Control Process.docx\n\nc. Impact Analysis Checklist.docx\n\n3. Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do assignment - based on guidelines",
-      "urls": null
+      "studentTasks": "Do assignment - based on guidelines"
     },
     {
       "id": 44048,
@@ -868,11 +659,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "I,T,U",
-      "studentMaterials": "1. Chapter 25 + 26 + 27\n\n2. a. CCB Charter Template.docx\n\nb. Change Control Process.docx\n\nc. Impact Analysis Checklist.docx\n\n3. Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do assignment - based on guidelines",
-      "urls": null
+      "studentTasks": "Do assignment - based on guidelines"
     },
     {
       "id": 44049,
@@ -882,11 +669,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "I,T,U",
-      "studentMaterials": "1. Chapter 25 + 26 + 27\n\n2. a. CCB Charter Template.docx\n\nb. Change Control Process.docx\n\nc. Impact Analysis Checklist.docx\n\n3. Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do assignment - based on guidelines",
-      "urls": null
+      "studentTasks": "Do assignment - based on guidelines"
     },
     {
       "id": 44050,
@@ -896,11 +679,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "I,T,U",
-      "studentMaterials": "1. Chapter 25 + 26 + 27\n\n2. a. CCB Charter Template.docx\n\nb. Change Control Process.docx\n\nc. Impact Analysis Checklist.docx\n\n3. Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Do assignment - based on guidelines",
-      "urls": null
+      "studentTasks": "Do assignment - based on guidelines"
     },
     {
       "id": 44051,
@@ -910,11 +689,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO8, LO9",
       "itu": "ITU",
-      "studentMaterials": "1. Chapter 31\n\n2. Action Plan Template.docx\n\n3. Risk Management Plan Template.docx\n\n4. Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish assignment's documents",
-      "urls": null
+      "studentTasks": "Finish assignment's documents"
     },
     {
       "id": 44052,
@@ -924,11 +699,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO8, LO9",
       "itu": "ITU",
-      "studentMaterials": "1. Chapter 32\n\n2. Action Plan Template.docx\n\n3. Risk Management Plan Template.docx\n\n4. Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Finish assignment 's documents",
-      "urls": null
+      "studentTasks": "Finish assignment 's documents"
     },
     {
       "id": 44053,
@@ -938,11 +709,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4,LO8,LO9",
       "itu": null,
-      "studentMaterials": "LSM questions",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Quiz test",
-      "urls": null
+      "studentTasks": "Quiz test"
     },
     {
       "id": 44054,
@@ -952,11 +719,7 @@
       "learningTeachingType": "Offline",
       "lo": "All LOs",
       "itu": null,
-      "studentMaterials": "Assignment documents",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Oral test",
-      "urls": null
+      "studentTasks": "Oral test"
     },
     {
       "id": 44055,
@@ -966,11 +729,7 @@
       "learningTeachingType": "Offline",
       "lo": "All LOs",
       "itu": null,
-      "studentMaterials": "Assignment documents",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Oral test",
-      "urls": null
+      "studentTasks": "Oral test"
     },
     {
       "id": 44056,
@@ -980,11 +739,7 @@
       "learningTeachingType": "Offline",
       "lo": "All LOs",
       "itu": null,
-      "studentMaterials": "Assignment documents",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Oral test",
-      "urls": null
+      "studentTasks": "Oral test"
     }
   ],
   "assessments": [
@@ -1083,18 +838,6 @@
       "knowledgeSkill": "All subjects in syllabus",
       "gradingGuide": "LSM system",
       "note": null
-    }
-  ],
-  "files": [
-    {
-      "label": "SWR302",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "SWR302",
-      "sessionNo": "2",
-      "kind": "file"
     }
   ]
 }

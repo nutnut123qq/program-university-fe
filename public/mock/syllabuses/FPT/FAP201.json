@@ -10,7 +10,6 @@
     "prerequisite": "DIC201",
     "description": "- Introduction to FPGA, comparison of FPGA with other technologies such as microcontrollers and ASICs, FPGA programming languages: Verilog and VHDL, and common applications of FPGA.\n\n- Approach models and terms such as: entity, architecture, process statements, behavioral modeling, sequential processing, parallel processing...\n\n- Explore and utilize FPGA programming instructions: libraries, entity descriptions, architecture descriptions, data objects, data types, data conversion, operators, data attributes, signal attributes, subprograms and packages, sequential processing instructions, parallel processing instructions...\n\n- Use hardware and software tools to execute the design process: testing (testbench), synthesis, place and route, run simulation, waveform analysis, debugging...\n\n- Execute design projects such as: combinational logic circuits, flip-flop, counters, registers, shifters, shift registers, encoding and decoding, demultiplexers and multiplexers, memory, state machine, communication...",
     "studentTasks": "- Students must attend at least 80% of contact sessions in order to be accepted to the final examination.\n\n- Student is responsible to do all exercises given by instructor in class or at home and submit on time.\n\n- Use laptop in class only for learning purpose\n\n- Promptly access to the https://flm.fpt.edu.vn/ for up-to-date course information.",
-    "tools": "- Intenet\n\n- Textbook\n\n- FPGA Tools, Kit and Simulator software",
     "scoringScale": "10",
     "decisionNo": "1402/QĐ-ĐHFPT dated 12/12/2025",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": "978-1-7185-0294-9",
       "isMainMaterial": 1,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 3997,
@@ -48,8 +46,7 @@
       "isbn": "978-0471720928",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 3998,
@@ -62,8 +59,7 @@
       "isbn": "978-0071409544",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     }
   ],
   "clos": [
@@ -147,11 +143,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 1\n- Exercises and sample practical examples",
-      "sDownload": "FAP201",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13853/S/1_FAP201.zip",
-      "studentTasks": "- Read documents, slides: Chapter 1",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 1"
     },
     {
       "id": 38973,
@@ -161,11 +153,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 1\n- Exercises and sample practical examples",
-      "sDownload": "FAP201",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13853/S/2_FAP201.zip",
-      "studentTasks": "- Read documents, slides: Chapter 1",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 1"
     },
     {
       "id": 38974,
@@ -175,11 +163,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 1\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 1",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 1"
     },
     {
       "id": 38975,
@@ -189,11 +173,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 2\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 2\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 2\n- Complete exercises and self-assess."
     },
     {
       "id": 38976,
@@ -203,11 +183,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Lab01",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab01",
-      "urls": null
+      "studentTasks": "Lab01"
     },
     {
       "id": 38977,
@@ -217,11 +193,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Lab01",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab01",
-      "urls": null
+      "studentTasks": "Lab01"
     },
     {
       "id": 38978,
@@ -231,11 +203,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 3\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 3\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 3\n- Complete exercises and self-assess."
     },
     {
       "id": 38979,
@@ -245,11 +213,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Lab02",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab02",
-      "urls": null
+      "studentTasks": "Lab02"
     },
     {
       "id": 38980,
@@ -259,11 +223,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Lab02",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab02",
-      "urls": null
+      "studentTasks": "Lab02"
     },
     {
       "id": 38981,
@@ -273,11 +233,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO3",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 4\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 4\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 4\n- Complete exercises and self-assess."
     },
     {
       "id": 38982,
@@ -287,11 +243,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO3",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 4\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 4\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 4\n- Complete exercises and self-assess."
     },
     {
       "id": 38983,
@@ -301,11 +253,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO3",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 4\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 4\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 4\n- Complete exercises and self-assess."
     },
     {
       "id": 38984,
@@ -315,11 +263,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3",
       "itu": "TU",
-      "studentMaterials": "Lab03",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab03",
-      "urls": null
+      "studentTasks": "Lab03"
     },
     {
       "id": 38985,
@@ -329,11 +273,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO3",
       "itu": "TU",
-      "studentMaterials": "Lab03",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab03",
-      "urls": null
+      "studentTasks": "Lab03"
     },
     {
       "id": 38986,
@@ -343,11 +283,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO3",
       "itu": "TU",
-      "studentMaterials": "Lab03",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab03",
-      "urls": null
+      "studentTasks": "Lab03"
     },
     {
       "id": 38987,
@@ -357,11 +293,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO4",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 5\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 5\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 5\n- Complete exercises and self-assess."
     },
     {
       "id": 38988,
@@ -371,11 +303,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO4",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 5\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 5\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 5\n- Complete exercises and self-assess."
     },
     {
       "id": 38989,
@@ -385,11 +313,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO4",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 5\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 5\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 5\n- Complete exercises and self-assess."
     },
     {
       "id": 38990,
@@ -399,11 +323,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Lab04",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab04",
-      "urls": null
+      "studentTasks": "Lab04"
     },
     {
       "id": 38991,
@@ -413,11 +333,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO4",
       "itu": "TU",
-      "studentMaterials": "Lab04",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab04",
-      "urls": null
+      "studentTasks": "Lab04"
     },
     {
       "id": 38992,
@@ -427,11 +343,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO4",
       "itu": "TU",
-      "studentMaterials": "Lab04",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab04",
-      "urls": null
+      "studentTasks": "Lab04"
     },
     {
       "id": 38993,
@@ -441,11 +353,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 6\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 6\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 6\n- Complete exercises and self-assess."
     },
     {
       "id": 38994,
@@ -455,11 +363,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 6\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 6\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 6\n- Complete exercises and self-assess."
     },
     {
       "id": 38995,
@@ -469,11 +373,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 6\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 6\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 6\n- Complete exercises and self-assess."
     },
     {
       "id": 38996,
@@ -483,11 +383,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Lab05",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab05",
-      "urls": null
+      "studentTasks": "Lab05"
     },
     {
       "id": 38997,
@@ -497,11 +393,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5",
       "itu": "TU",
-      "studentMaterials": "Lab05",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab05",
-      "urls": null
+      "studentTasks": "Lab05"
     },
     {
       "id": 38998,
@@ -511,11 +403,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5",
       "itu": "TU",
-      "studentMaterials": "Lab05",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab05",
-      "urls": null
+      "studentTasks": "Lab05"
     },
     {
       "id": 38999,
@@ -525,11 +413,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 6\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 6\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 6\n- Complete exercises and self-assess."
     },
     {
       "id": 39000,
@@ -539,11 +423,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 6\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 6\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 6\n- Complete exercises and self-assess."
     },
     {
       "id": 39001,
@@ -553,11 +433,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5",
       "itu": "U",
-      "studentMaterials": "Progress Test 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress Test 1",
-      "urls": null
+      "studentTasks": "Progress Test 1"
     },
     {
       "id": 39002,
@@ -567,11 +443,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO6",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 7\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 7\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 7\n- Complete exercises and self-assess."
     },
     {
       "id": 39003,
@@ -581,11 +453,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO6",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 7\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 7\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 7\n- Complete exercises and self-assess."
     },
     {
       "id": 39004,
@@ -595,11 +463,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO6",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 7\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 7\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 7\n- Complete exercises and self-assess."
     },
     {
       "id": 39005,
@@ -609,11 +473,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 8\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 8\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 8\n- Complete exercises and self-assess."
     },
     {
       "id": 39006,
@@ -623,11 +483,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 8\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 8\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 8\n- Complete exercises and self-assess."
     },
     {
       "id": 39007,
@@ -637,11 +493,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 8\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 8\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 8\n- Complete exercises and self-assess."
     },
     {
       "id": 39008,
@@ -651,11 +503,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5, CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Lab06",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab06",
-      "urls": null
+      "studentTasks": "Lab06"
     },
     {
       "id": 39009,
@@ -665,11 +513,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5, CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Lab06",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab06",
-      "urls": null
+      "studentTasks": "Lab06"
     },
     {
       "id": 39010,
@@ -679,11 +523,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5, CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Lab06",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab06",
-      "urls": null
+      "studentTasks": "Lab06"
     },
     {
       "id": 39011,
@@ -693,11 +533,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO8",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 9\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 9\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 9\n- Complete exercises and self-assess."
     },
     {
       "id": 39012,
@@ -707,11 +543,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO8",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 9\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 9\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 9\n- Complete exercises and self-assess."
     },
     {
       "id": 39013,
@@ -721,11 +553,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO8",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 9\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 9\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 9\n- Complete exercises and self-assess."
     },
     {
       "id": 39014,
@@ -735,11 +563,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO8",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 9\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 9\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 9\n- Complete exercises and self-assess."
     },
     {
       "id": 39015,
@@ -749,11 +573,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO8",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 9\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 9\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 9\n- Complete exercises and self-assess."
     },
     {
       "id": 39016,
@@ -763,11 +583,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO8",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 9\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 9\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 9\n- Complete exercises and self-assess."
     },
     {
       "id": 39017,
@@ -777,11 +593,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO9",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 10\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 10\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 10\n- Complete exercises and self-assess."
     },
     {
       "id": 39018,
@@ -791,11 +603,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO9",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 10\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 10\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 10\n- Complete exercises and self-assess."
     },
     {
       "id": 39019,
@@ -805,11 +613,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO9",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 10\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 10\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 10\n- Complete exercises and self-assess."
     },
     {
       "id": 39020,
@@ -819,11 +623,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5, CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Lab06",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab06",
-      "urls": null
+      "studentTasks": "Lab06"
     },
     {
       "id": 39021,
@@ -833,11 +633,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5, CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Lab06",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab06",
-      "urls": null
+      "studentTasks": "Lab06"
     },
     {
       "id": 39022,
@@ -847,11 +643,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5, CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Lab06",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Lab06",
-      "urls": null
+      "studentTasks": "Lab06"
     },
     {
       "id": 39023,
@@ -861,11 +653,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO10",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 11\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 11\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 11\n- Complete exercises and self-assess."
     },
     {
       "id": 39024,
@@ -875,11 +663,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO10",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 11\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 11\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 11\n- Complete exercises and self-assess."
     },
     {
       "id": 39025,
@@ -889,11 +673,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO10",
       "itu": "T",
-      "studentMaterials": "Course Implementation:\n- Text book, Slides: chapter 11\n- Exercises and sample practical examples",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read documents, slides: Chapter 11\n- Complete exercises and self-assess.",
-      "urls": null
+      "studentTasks": "- Read documents, slides: Chapter 11\n- Complete exercises and self-assess."
     },
     {
       "id": 39026,
@@ -903,11 +683,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO6, CLO7, CLO8, CLO9, CLO10",
       "itu": "U",
-      "studentMaterials": "Progress Test 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress Test 2",
-      "urls": null
+      "studentTasks": "Progress Test 2"
     },
     {
       "id": 39027,
@@ -917,11 +693,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10",
       "itu": "TU",
-      "studentMaterials": "All Labs",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Answer lecturer's questions",
-      "urls": null
+      "studentTasks": "Answer lecturer's questions"
     },
     {
       "id": 39028,
@@ -931,11 +703,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10",
       "itu": "TU",
-      "studentMaterials": "All Labs",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Answer lecturer's questions",
-      "urls": null
+      "studentTasks": "Answer lecturer's questions"
     },
     {
       "id": 39029,
@@ -945,11 +713,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10",
       "itu": "TU",
-      "studentMaterials": "All Labs",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Answer lecturer's questions",
-      "urls": null
+      "studentTasks": "Answer lecturer's questions"
     },
     {
       "id": 39030,
@@ -959,11 +723,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10",
       "itu": "TU",
-      "studentMaterials": "All Labs",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Answer lecturer's questions",
-      "urls": null
+      "studentTasks": "Answer lecturer's questions"
     },
     {
       "id": 39031,
@@ -973,11 +733,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5, CLO6, CLO7, CLO8, CLO9, CLO10",
       "itu": "TU",
-      "studentMaterials": "All Labs",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Answer lecturer's questions",
-      "urls": null
+      "studentTasks": "Answer lecturer's questions"
     }
   ],
   "assessments": [
@@ -1060,18 +816,6 @@
       "knowledgeSkill": "Concepts, technologies, structures, data structures, algorithms, design models... All studied slides.",
       "gradingGuide": "- By exam board.\n- Using computer",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
-    }
-  ],
-  "files": [
-    {
-      "label": "FAP201",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "FAP201",
-      "sessionNo": "2",
-      "kind": "file"
     }
   ]
 }

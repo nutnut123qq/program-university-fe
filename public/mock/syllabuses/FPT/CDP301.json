@@ -10,7 +10,6 @@
     "prerequisite": "MCP201",
     "description": "The Circuit Design Project course aims to provide students with both theoretical understanding and practical experience in modern electronic circuit design. By the end of the course, students will be able to:\n\n- Understand and apply the modern electronic circuit design process — from requirement analysis, schematic design, and PCB layout to to manufacturing and hardware validation.\n\n- Demonstrate proficiency in Electronic Design Automation (EDA) tools such as KiCad, Altium or Cadence OrCAD (optional), capable of designing and verifying single-layer and double-layer PCBs.\n\n- Integrate hardware and firmware (using MCU STM32/Nucleo; ESP32/ESP8266, Arduino...) to test and validate their hardware designs and circuit functionality.\n\n- Develop key engineering competencies including teamwork, communication, documentation, and project management aligned with industry practice.\n\n- Cultivate creativity and innovation by designing functional and application-oriented electronic products, with potential extensions in IoT, sensing, control, or embedded systems.",
     "studentTasks": "Students are expected to:\n\n- Students must attend at least 80% of contact sessions in order to be accepted to the final examination.\n\n- Attend and participate actively in lectures, labs, and discussions according to the weekly schedule\n\n- Complete all project milestones, including:\n\n- Collaborate effectively in teams, including task allocation, maintaining project logs, and performing peer reviews of other teams’ designs\n\n- Engage in self-directed learning by exploring components, IoT modules, and best practices in EMC/EMI and layout optimization\n\n- Deliver and present the Final Project, including a functional PCB prototype, working firmware, a comprehensive technical report, and a live or recorded demonstration",
-    "tools": "- KiCAD (open-source EDA tool)\n\n- Devkit Nucleo F401Rx or Microcontroller unit\n\n- Components of MCP201 subject.",
     "scoringScale": "10",
     "decisionNo": "377/QĐ-ĐHFPT dated 04/09/2026",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.udemy.com/course/kicad-like-a-pro-3e/?couponCode=CP251120G2V2"
+      "isOnline": 1
     },
     {
       "id": 4355,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.udemy.com/course/design-with-kicad-6/?couponCode=CP251120G2V2"
+      "isOnline": 1
     },
     {
       "id": 4356,
@@ -62,8 +59,7 @@
       "isbn": "978-1-68489-093-4",
       "isMainMaterial": 1,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     }
   ],
   "clos": [
@@ -119,11 +115,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "ITU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": "CDP301",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13767/S/1_CDP301.zip",
-      "studentTasks": "Install KiCad, create a new project, configure libraries, and review PCB design workflow (schematic → layout → fabrication).",
-      "urls": null
+      "studentTasks": "Install KiCad, create a new project, configure libraries, and review PCB design workflow (schematic → layout → fabrication)."
     },
     {
       "id": 44298,
@@ -133,11 +125,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Install KiCad, create a new project, configure libraries, and review PCB design workflow (schematic → layout → fabrication).",
-      "urls": null
+      "studentTasks": "Install KiCad, create a new project, configure libraries, and review PCB design workflow (schematic → layout → fabrication)."
     },
     {
       "id": 44299,
@@ -147,11 +135,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Install KiCad, create a new project, configure libraries, and review PCB design workflow (schematic → layout → fabrication).",
-      "urls": null
+      "studentTasks": "Install KiCad, create a new project, configure libraries, and review PCB design workflow (schematic → layout → fabrication)."
     },
     {
       "id": 44300,
@@ -161,11 +145,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Draw a simple schematic using passive components (resistors, capacitors, LEDs, connectors); define power symbols and net labels.\n- Run Electrical Rules Check (ERC) to identify schematic errors and apply corrections; ensure connectivity integrity.",
-      "urls": null
+      "studentTasks": "- Draw a simple schematic using passive components (resistors, capacitors, LEDs, connectors); define power symbols and net labels.\n- Run Electrical Rules Check (ERC) to identify schematic errors and apply corrections; ensure connectivity integrity."
     },
     {
       "id": 44301,
@@ -175,11 +155,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Draw a simple schematic using passive components (resistors, capacitors, LEDs, connectors); define power symbols and net labels.\n- Run Electrical Rules Check (ERC) to identify schematic errors and apply corrections; ensure connectivity integrity.",
-      "urls": null
+      "studentTasks": "- Draw a simple schematic using passive components (resistors, capacitors, LEDs, connectors); define power symbols and net labels.\n- Run Electrical Rules Check (ERC) to identify schematic errors and apply corrections; ensure connectivity integrity."
     },
     {
       "id": 44302,
@@ -189,11 +165,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Draw a simple schematic using passive components (resistors, capacitors, LEDs, connectors); define power symbols and net labels.\n- Run Electrical Rules Check (ERC) to identify schematic errors and apply corrections; ensure connectivity integrity.",
-      "urls": null
+      "studentTasks": "- Draw a simple schematic using passive components (resistors, capacitors, LEDs, connectors); define power symbols and net labels.\n- Run Electrical Rules Check (ERC) to identify schematic errors and apply corrections; ensure connectivity integrity."
     },
     {
       "id": 44303,
@@ -203,11 +175,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Assign footprints to schematic components; review footprint dimensions and mechanical compatibility.",
-      "urls": null
+      "studentTasks": "Assign footprints to schematic components; review footprint dimensions and mechanical compatibility."
     },
     {
       "id": 44304,
@@ -217,11 +185,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "BOM file exported.",
-      "urls": null
+      "studentTasks": "BOM file exported."
     },
     {
       "id": 44305,
@@ -231,11 +195,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Board outline ready.",
-      "urls": null
+      "studentTasks": "Board outline ready."
     },
     {
       "id": 44306,
@@ -245,11 +205,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Board outline ready.",
-      "urls": null
+      "studentTasks": "Board outline ready."
     },
     {
       "id": 44307,
@@ -259,11 +215,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Define board outline, place components, route single-layer traces, and apply design rules (clearance, track width).",
-      "urls": null
+      "studentTasks": "Define board outline, place components, route single-layer traces, and apply design rules (clearance, track width)."
     },
     {
       "id": 44308,
@@ -273,11 +225,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Define board outline, place components, route single-layer traces, and apply design rules (clearance, track width).",
-      "urls": null
+      "studentTasks": "Define board outline, place components, route single-layer traces, and apply design rules (clearance, track width)."
     },
     {
       "id": 44309,
@@ -287,11 +235,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Run Design Rules Check (DRC), fix violations, and generate Gerber/drill files for fabrication.\n3D preview\n- Run Design Rules Check (DRC), fix violations, and generate Gerber/drill files for fabrication.\n- Prepare the complete 1-layer shield board; review layout design, create BOM, and present schematic + layout to class.",
-      "urls": null
+      "studentTasks": "- Run Design Rules Check (DRC), fix violations, and generate Gerber/drill files for fabrication.\n3D preview\n- Run Design Rules Check (DRC), fix violations, and generate Gerber/drill files for fabrication.\n- Prepare the complete 1-layer shield board; review layout design, create BOM, and present schematic + layout to class."
     },
     {
       "id": 44310,
@@ -301,11 +245,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Run Design Rules Check (DRC), fix violations, and generate Gerber/drill files for fabrication.\n3D preview\n- Run Design Rules Check (DRC), fix violations, and generate Gerber/drill files for fabrication.\n- Prepare the complete 1-layer shield board; review layout design, create BOM, and present schematic + layout to class.",
-      "urls": null
+      "studentTasks": "- Run Design Rules Check (DRC), fix violations, and generate Gerber/drill files for fabrication.\n3D preview\n- Run Design Rules Check (DRC), fix violations, and generate Gerber/drill files for fabrication.\n- Prepare the complete 1-layer shield board; review layout design, create BOM, and present schematic + layout to class."
     },
     {
       "id": 44311,
@@ -315,11 +255,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Run Design Rules Check (DRC), fix violations, and generate Gerber/drill files for fabrication.\n3D preview\n- Run Design Rules Check (DRC), fix violations, and generate Gerber/drill files for fabrication.\n- Prepare the complete 1-layer shield board; review layout design, create BOM, and present schematic + layout to class.",
-      "urls": null
+      "studentTasks": "- Run Design Rules Check (DRC), fix violations, and generate Gerber/drill files for fabrication.\n3D preview\n- Run Design Rules Check (DRC), fix violations, and generate Gerber/drill files for fabrication.\n- Prepare the complete 1-layer shield board; review layout design, create BOM, and present schematic + layout to class."
     },
     {
       "id": 44312,
@@ -329,11 +265,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Print the top copper layer of their Lab 1 shield board using toner-transfer method; correctly align and apply heat.\n- Perform etching with FeCl₃, monitor copper removal, and ensure the traces remain intact after cleaning.\n- Drill through-hole pads, clean the board, and apply protective coating (flux or clear varnish).\n- Inspect trace width/spacing manually and compare with KiCad DRC rules to understand real-world constraints.",
-      "urls": null
+      "studentTasks": "- Print the top copper layer of their Lab 1 shield board using toner-transfer method; correctly align and apply heat.\n- Perform etching with FeCl₃, monitor copper removal, and ensure the traces remain intact after cleaning.\n- Drill through-hole pads, clean the board, and apply protective coating (flux or clear varnish).\n- Inspect trace width/spacing manually and compare with KiCad DRC rules to understand real-world constraints."
     },
     {
       "id": 44313,
@@ -343,11 +275,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Solder resistors/caps/LEDs onto the hand-made board and test continuity.\n- Write a short reflection: differences between manual PCB and factory PCB, sources of errors, lessons learned.",
-      "urls": null
+      "studentTasks": "- Solder resistors/caps/LEDs onto the hand-made board and test continuity.\n- Write a short reflection: differences between manual PCB and factory PCB, sources of errors, lessons learned."
     },
     {
       "id": 44314,
@@ -357,11 +285,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Ruberics",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical Milestone 1 (Lab 1)\nMilestone 1 submission: 1-layer PCB + BOM + Gerbers.",
-      "urls": null
+      "studentTasks": "Complete the practical Milestone 1 (Lab 1)\nMilestone 1 submission: 1-layer PCB + BOM + Gerbers."
     },
     {
       "id": 44315,
@@ -371,11 +295,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review previous schematic and correct ERC issues.\n- Configure KiCad for 2-layer PCB design (board stack-up, grid, via rules).\n- Identify design constraints for high-current and signal lines.",
-      "urls": null
+      "studentTasks": "- Review previous schematic and correct ERC issues.\n- Configure KiCad for 2-layer PCB design (board stack-up, grid, via rules).\n- Identify design constraints for high-current and signal lines."
     },
     {
       "id": 44316,
@@ -385,11 +305,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Review previous schematic and correct ERC issues.\n- Configure KiCad for 2-layer PCB design (board stack-up, grid, via rules).\n- Identify design constraints for high-current and signal lines.",
-      "urls": null
+      "studentTasks": "- Review previous schematic and correct ERC issues.\n- Configure KiCad for 2-layer PCB design (board stack-up, grid, via rules).\n- Identify design constraints for high-current and signal lines."
     },
     {
       "id": 44317,
@@ -399,11 +315,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read ESP32 or STM32 Nucleo devkit datasheet to define pinout and functional blocks.\n- Draw schematic for core MCU circuits: VDD, VSS, VCAP, NRST, OSC, SWD, with jumper wire or header and programming header.",
-      "urls": null
+      "studentTasks": "- Read ESP32 or STM32 Nucleo devkit datasheet to define pinout and functional blocks.\n- Draw schematic for core MCU circuits: VDD, VSS, VCAP, NRST, OSC, SWD, with jumper wire or header and programming header."
     },
     {
       "id": 44318,
@@ -413,11 +325,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read ESP32 or STM32 Nucleo devkit datasheet to define pinout and functional blocks.\n- Draw schematic for core MCU circuits: VDD, VSS, VCAP, NRST, OSC, SWD, with jumper wire or header and programming header.",
-      "urls": null
+      "studentTasks": "- Read ESP32 or STM32 Nucleo devkit datasheet to define pinout and functional blocks.\n- Draw schematic for core MCU circuits: VDD, VSS, VCAP, NRST, OSC, SWD, with jumper wire or header and programming header."
     },
     {
       "id": 44319,
@@ -427,11 +335,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Read ESP32 or STM32 Nucleo devkit datasheet to define pinout and functional blocks.\n- Draw schematic for core MCU circuits: VDD, VSS, VCAP, NRST, OSC, SWD, with jumper wire or header and programming header.",
-      "urls": null
+      "studentTasks": "- Read ESP32 or STM32 Nucleo devkit datasheet to define pinout and functional blocks.\n- Draw schematic for core MCU circuits: VDD, VSS, VCAP, NRST, OSC, SWD, with jumper wire or header and programming header."
     },
     {
       "id": 44320,
@@ -441,11 +345,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Add external peripheral connectors and I/O headers; define signal naming conventions and test points, for debugging and firmware validation.",
-      "urls": null
+      "studentTasks": "Add external peripheral connectors and I/O headers; define signal naming conventions and test points, for debugging and firmware validation."
     },
     {
       "id": 44321,
@@ -455,11 +355,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Add external peripheral connectors and I/O headers; define signal naming conventions and test points, for debugging and firmware validation.",
-      "urls": null
+      "studentTasks": "Add external peripheral connectors and I/O headers; define signal naming conventions and test points, for debugging and firmware validation."
     },
     {
       "id": 44322,
@@ -469,11 +365,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Add external peripheral connectors and I/O headers; define signal naming conventions and test points, for debugging and firmware validation.",
-      "urls": null
+      "studentTasks": "Add external peripheral connectors and I/O headers; define signal naming conventions and test points, for debugging and firmware validation."
     },
     {
       "id": 44323,
@@ -483,11 +375,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Assign footprints to all schematic symbols and perform logical component placement considering routing feasibility.\n- Route traces on both layers, define GND/VCC copper planes, and ensure EMC-safe routing.\n- Place components logically: MCU center, power near edges, connectors grouped by function; prepare for clean routing.",
-      "urls": null
+      "studentTasks": "- Assign footprints to all schematic symbols and perform logical component placement considering routing feasibility.\n- Route traces on both layers, define GND/VCC copper planes, and ensure EMC-safe routing.\n- Place components logically: MCU center, power near edges, connectors grouped by function; prepare for clean routing."
     },
     {
       "id": 44324,
@@ -497,11 +385,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Assign footprints to all schematic symbols and perform logical component placement considering routing feasibility.\n- Route traces on both layers, define GND/VCC copper planes, and ensure EMC-safe routing.\n- Place components logically: MCU center, power near edges, connectors grouped by function; prepare for clean routing.",
-      "urls": null
+      "studentTasks": "- Assign footprints to all schematic symbols and perform logical component placement considering routing feasibility.\n- Route traces on both layers, define GND/VCC copper planes, and ensure EMC-safe routing.\n- Place components logically: MCU center, power near edges, connectors grouped by function; prepare for clean routing."
     },
     {
       "id": 44325,
@@ -511,11 +395,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, LAB Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Assign footprints to all schematic symbols and perform logical component placement considering routing feasibility.\n- Route traces on both layers, define GND/VCC copper planes, and ensure EMC-safe routing.\n- Place components logically: MCU center, power near edges, connectors grouped by function; prepare for clean routing.",
-      "urls": null
+      "studentTasks": "- Assign footprints to all schematic symbols and perform logical component placement considering routing feasibility.\n- Route traces on both layers, define GND/VCC copper planes, and ensure EMC-safe routing.\n- Place components logically: MCU center, power near edges, connectors grouped by function; prepare for clean routing."
     },
     {
       "id": 44326,
@@ -525,11 +405,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Assignment Guide File.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Perform DRC checks, fix design errors, adjust via size and clearance, and finalize silkscreen details.\n- Export Gerber, drill, and fabrication files; prepare complete BOM and assembly documentation.\n- Develop and upload simple firmware (LED Blink, UART echo) to verify board functionality.",
-      "urls": null
+      "studentTasks": "- Perform DRC checks, fix design errors, adjust via size and clearance, and finalize silkscreen details.\n- Export Gerber, drill, and fabrication files; prepare complete BOM and assembly documentation.\n- Develop and upload simple firmware (LED Blink, UART echo) to verify board functionality."
     },
     {
       "id": 44327,
@@ -539,11 +415,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Progress test 2.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Perform DRC checks, fix design errors, adjust via size and clearance, and finalize silkscreen details.\n- Export Gerber, drill, and fabrication files; prepare complete BOM and assembly documentation.\n- Develop and upload simple firmware (LED Blink, UART echo) to verify board functionality.",
-      "urls": null
+      "studentTasks": "- Perform DRC checks, fix design errors, adjust via size and clearance, and finalize silkscreen details.\n- Export Gerber, drill, and fabrication files; prepare complete BOM and assembly documentation.\n- Develop and upload simple firmware (LED Blink, UART echo) to verify board functionality."
     },
     {
       "id": 44328,
@@ -553,11 +425,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Perform DRC checks, fix design errors, adjust via size and clearance, and finalize silkscreen details.\n- Export Gerber, drill, and fabrication files; prepare complete BOM and assembly documentation.\n- Develop and upload simple firmware (LED Blink, UART echo) to verify board functionality.",
-      "urls": null
+      "studentTasks": "- Perform DRC checks, fix design errors, adjust via size and clearance, and finalize silkscreen details.\n- Export Gerber, drill, and fabrication files; prepare complete BOM and assembly documentation.\n- Develop and upload simple firmware (LED Blink, UART echo) to verify board functionality."
     },
     {
       "id": 44329,
@@ -567,11 +435,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Test voltage levels, signal outputs, and communication interfaces; present design results and lessons learned.",
-      "urls": null
+      "studentTasks": "Test voltage levels, signal outputs, and communication interfaces; present design results and lessons learned."
     },
     {
       "id": 44330,
@@ -581,11 +445,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Test voltage levels, signal outputs, and communication interfaces; present design results and lessons learned.",
-      "urls": null
+      "studentTasks": "Test voltage levels, signal outputs, and communication interfaces; present design results and lessons learned."
     },
     {
       "id": 44331,
@@ -595,11 +455,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Test voltage levels, signal outputs, and communication interfaces; present design results and lessons learned.",
-      "urls": null
+      "studentTasks": "Test voltage levels, signal outputs, and communication interfaces; present design results and lessons learned."
     },
     {
       "id": 44332,
@@ -609,11 +465,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3, CLO4",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Complete the practical Milestone 2 (Lab 2)\nMilestone 2 submission: 2-layer PCB + BOM + Gerbers + firrmware",
-      "urls": null
+      "studentTasks": "Complete the practical Milestone 2 (Lab 2)\nMilestone 2 submission: 2-layer PCB + BOM + Gerbers + firrmware"
     },
     {
       "id": 44333,
@@ -623,11 +475,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Choose one IoT/peripheral module (WiFi ESP8266/ESP32, Bluetooth HC-05, sensor module, UART/SPI/I²C device). Define electrical and communication requirements.",
-      "urls": null
+      "studentTasks": "Choose one IoT/peripheral module (WiFi ESP8266/ESP32, Bluetooth HC-05, sensor module, UART/SPI/I²C device). Define electrical and communication requirements."
     },
     {
       "id": 44334,
@@ -637,11 +485,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Design the interface schematic: connectors, level shifting (if needed), pull-up resistors, filtering, power supply paths.",
-      "urls": null
+      "studentTasks": "Design the interface schematic: connectors, level shifting (if needed), pull-up resistors, filtering, power supply paths."
     },
     {
       "id": 44335,
@@ -651,11 +495,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Design the interface schematic: connectors, level shifting (if needed), pull-up resistors, filtering, power supply paths.",
-      "urls": null
+      "studentTasks": "Design the interface schematic: connectors, level shifting (if needed), pull-up resistors, filtering, power supply paths."
     },
     {
       "id": 44336,
@@ -665,11 +505,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Assign footprints, place module or connector, route communication lines (SPI/I²C/UART) following best practices for noise reduction.\n- Integrating Sensors on PCB (temperature, humidity, moisture, etc).\n- Configure STM32CubeIDE, or ESP32: initialize UART/SPI/I²C drivers, create HAL-based communication functions, using library for ESP32, prepare debug UART logs.",
-      "urls": null
+      "studentTasks": "- Assign footprints, place module or connector, route communication lines (SPI/I²C/UART) following best practices for noise reduction.\n- Integrating Sensors on PCB (temperature, humidity, moisture, etc).\n- Configure STM32CubeIDE, or ESP32: initialize UART/SPI/I²C drivers, create HAL-based communication functions, using library for ESP32, prepare debug UART logs."
     },
     {
       "id": 44337,
@@ -679,11 +515,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Route digital communication lines following best practices: short traces, minimal crosstalk, proper spacing.",
-      "urls": null
+      "studentTasks": "Route digital communication lines following best practices: short traces, minimal crosstalk, proper spacing."
     },
     {
       "id": 44338,
@@ -693,11 +525,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Run DRC after integrating the new module, solve all violations, verify clearance, trace width, via rules. Optimize silkscreen and copper fill.",
-      "urls": null
+      "studentTasks": "Run DRC after integrating the new module, solve all violations, verify clearance, trace width, via rules. Optimize silkscreen and copper fill."
     },
     {
       "id": 44339,
@@ -707,11 +535,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Test module responses (AT commands for WiFi/Bluetooth, sensor readouts, data polling). Verify timing and signal stability.",
-      "urls": null
+      "studentTasks": "Test module responses (AT commands for WiFi/Bluetooth, sensor readouts, data polling). Verify timing and signal stability."
     },
     {
       "id": 44340,
@@ -721,11 +545,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Configure STM32CubeIDE, ESP32's libraries, initialize UART/SPI/I²C drivers, create communication functions, prepare debug logs.",
-      "urls": null
+      "studentTasks": "Configure STM32CubeIDE, ESP32's libraries, initialize UART/SPI/I²C drivers, create communication functions, prepare debug logs."
     },
     {
       "id": 44341,
@@ -735,11 +555,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement a simple IoT application (MQTT publish, HTTP request, Bluetooth data exchange, sensor monitoring).",
-      "urls": null
+      "studentTasks": "Implement a simple IoT application (MQTT publish, HTTP request, Bluetooth data exchange, sensor monitoring)."
     },
     {
       "id": 44342,
@@ -749,11 +565,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Implement a simple IoT application (MQTT publish, HTTP request, Bluetooth data exchange, sensor monitoring).",
-      "urls": null
+      "studentTasks": "Implement a simple IoT application (MQTT publish, HTTP request, Bluetooth data exchange, sensor monitoring)."
     },
     {
       "id": 44343,
@@ -763,11 +575,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Debugging\nVerify system-level behavior: power consumption, communication robustness, UART logging, error handling.",
-      "urls": null
+      "studentTasks": "Debugging\nVerify system-level behavior: power consumption, communication robustness, UART logging, error handling."
     },
     {
       "id": 44344,
@@ -777,11 +585,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4, CLO5",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Milestone 3 submission: 2-layer PCB +BOM + Gerbers file + firrmware",
-      "urls": null
+      "studentTasks": "Milestone 3 submission: 2-layer PCB +BOM + Gerbers file + firrmware"
     },
     {
       "id": 44345,
@@ -791,11 +595,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 44346,
@@ -805,11 +605,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Integration plan.",
-      "urls": null
+      "studentTasks": "Integration plan."
     },
     {
       "id": 44347,
@@ -819,11 +615,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Unified schematic.",
-      "urls": null
+      "studentTasks": "Unified schematic."
     },
     {
       "id": 44348,
@@ -833,11 +625,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Power review log.",
-      "urls": null
+      "studentTasks": "Power review log."
     },
     {
       "id": 44349,
@@ -847,11 +635,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Final PCB.",
-      "urls": null
+      "studentTasks": "Final PCB."
     },
     {
       "id": 44350,
@@ -861,11 +645,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Fab-ready package.",
-      "urls": null
+      "studentTasks": "Fab-ready package."
     },
     {
       "id": 44351,
@@ -875,11 +655,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Practical Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Firmware v1.0.",
-      "urls": null
+      "studentTasks": "Firmware v1.0."
     },
     {
       "id": 44352,
@@ -889,11 +665,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Progress test 3.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Test log.",
-      "urls": null
+      "studentTasks": "Test log."
     },
     {
       "id": 44353,
@@ -903,11 +675,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Project Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Debug notes.",
-      "urls": null
+      "studentTasks": "Debug notes."
     },
     {
       "id": 44354,
@@ -917,11 +685,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Project Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Measurement log.",
-      "urls": null
+      "studentTasks": "Measurement log."
     },
     {
       "id": 44355,
@@ -931,11 +695,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Project Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Report draft.",
-      "urls": null
+      "studentTasks": "Report draft."
     },
     {
       "id": 44356,
@@ -945,11 +705,7 @@
       "learningTeachingType": "Offline",
       "lo": "All CLOs",
       "itu": "TU",
-      "studentMaterials": "Slide, Reference manual, Course syllabus, Project Guide file.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Final Project submission (PCB + firmware + report).",
-      "urls": null
+      "studentTasks": "Final Project submission (PCB + firmware + report)."
     }
   ],
   "assessments": [
@@ -1064,13 +820,6 @@
       "knowledgeSkill": "- Knowledge: IoT communication (WiFi, BLE, LoRa), sensors, and EMI/EMC design principles.\n\n- Skills: Integrate IoT or sensor modules, develop firmware for data exchange and system testing.",
       "gradingGuide": "Team work, guided by instructor, submission by a given deadline",
       "note": "Instructor has resposibility to guide and review the lab practice for students."
-    }
-  ],
-  "files": [
-    {
-      "label": "CDP301",
-      "sessionNo": "1",
-      "kind": "file"
     }
   ]
 }

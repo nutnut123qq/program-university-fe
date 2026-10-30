@@ -10,7 +10,6 @@
     "prerequisite": "AIL303m",
     "description": "In this course, student will build and train neural network architectures such as Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, Transformers, and learn how to make them better with strategies such as Dropout, BatchNorm, Xavier/He initialization, and more. Get ready to master theoretical concepts and their industry applications using Python and TensorFlow and tackle real-world cases such as speech recognition, music synthesis, chatbots, machine translation, natural language processing, and more.",
     "studentTasks": "- Students must attend at least 80% of contact slots in order to be accepted to the final examination.\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n- Use laptop in class only for learning purpose\n- Promptly access to the FU LMS at http://flm.fpt.edu.vn for up-to-date course information",
-    "tools": "- Jupyter notebook\n- Cloud server: 72 hours/project",
     "scoringScale": "10",
     "decisionNo": "932/QĐ-ĐHFPT dated 08/22/2025",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning"
+      "isOnline": 1
     },
     {
       "id": 3319,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/specializations/deep-learning"
+      "isOnline": 1
     },
     {
       "id": 3320,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/projects/diabetes-disease-detection-with-xg-boost-and-neural-networks"
+      "isOnline": 1
     },
     {
       "id": 3321,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/projects/keras-tuner"
+      "isOnline": 1
     },
     {
       "id": 3322,
@@ -90,8 +85,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/projects/object-localization-tensorflow"
+      "isOnline": 1
     },
     {
       "id": 3323,
@@ -104,8 +98,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/projects/twitter-sentiment-analysis"
+      "isOnline": 1
     },
     {
       "id": 3324,
@@ -118,8 +111,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning"
+      "isOnline": 1
     },
     {
       "id": 3325,
@@ -132,8 +124,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning"
+      "isOnline": 1
     },
     {
       "id": 3326,
@@ -146,8 +137,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/nlp-sequence-models?specialization=deep-learning"
+      "isOnline": 1
     },
     {
       "id": 3327,
@@ -160,8 +150,7 @@
       "isbn": null,
       "isMainMaterial": 1,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/learn/machine-learning-projects?specialization=deep-learning"
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -224,11 +213,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "IT",
-      "studentMaterials": "Slide , Videos of Introduction to Artificial Intelligence and Machine Learning",
-      "sDownload": "mat1",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13339/S/1_mat1.zip",
-      "studentTasks": "Attend lecture, participate in discussions on course intro",
-      "urls": null
+      "studentTasks": "Attend lecture, participate in discussions on course intro"
     },
     {
       "id": 30199,
@@ -238,11 +223,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Neural Networks Basics",
-      "sDownload": "mat2",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13339/S/2_mat2.zip",
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30200,
@@ -252,11 +233,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Neural Networks Basics",
-      "sDownload": "mat3",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13339/S/3_mat3.zip",
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30201,
@@ -266,11 +243,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Neural Networks Basics",
-      "sDownload": "mat4",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13339/S/4_mat4.zip",
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30202,
@@ -280,11 +253,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Shallow neural networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30203,
@@ -294,11 +263,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Shallow neural networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30204,
@@ -308,11 +273,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Shallow neural networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30205,
@@ -322,11 +283,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Attend lecture, engage in course objectives & structure intro.",
-      "urls": null
+      "studentTasks": "Attend lecture, engage in course objectives & structure intro."
     },
     {
       "id": 30206,
@@ -336,11 +293,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Collaborate to form project teams or groups.",
-      "urls": null
+      "studentTasks": "Collaborate to form project teams or groups."
     },
     {
       "id": 30207,
@@ -350,11 +303,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss and select suitable project topics.",
-      "urls": null
+      "studentTasks": "Discuss and select suitable project topics."
     },
     {
       "id": 30208,
@@ -364,11 +313,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Project Template",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 30209,
@@ -378,11 +323,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Project Template",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 30210,
@@ -392,11 +333,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 30211,
@@ -406,11 +343,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 30212,
@@ -420,11 +353,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 30213,
@@ -434,11 +363,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30214,
@@ -448,11 +373,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30215,
@@ -462,11 +383,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30216,
@@ -476,11 +393,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "View in the link",
-      "urls": null
+      "studentTasks": "View in the link"
     },
     {
       "id": 30217,
@@ -490,11 +403,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30218,
@@ -504,11 +413,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30219,
@@ -518,11 +423,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30220,
@@ -532,11 +433,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30221,
@@ -546,11 +443,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30222,
@@ -560,11 +453,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Practical aspects of Deep Learning",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30223,
@@ -574,11 +463,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Practical aspects of Deep Learning",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30224,
@@ -588,11 +473,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Practical aspects of Deep Learning",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30225,
@@ -602,11 +483,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30226,
@@ -616,11 +493,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30227,
@@ -630,11 +503,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30228,
@@ -644,11 +513,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30229,
@@ -658,11 +523,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30230,
@@ -672,11 +533,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30231,
@@ -686,11 +543,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Optimization algorithms",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30232,
@@ -700,11 +553,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Optimization algorithms",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30233,
@@ -714,11 +563,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Optimization algorithms",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30234,
@@ -728,11 +573,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30235,
@@ -742,11 +583,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30236,
@@ -756,11 +593,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30237,
@@ -770,11 +603,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Hyperparameter tuning, Batch Normalization and Programming Frameworks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30238,
@@ -784,11 +613,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Hyperparameter tuning, Batch Normalization and Programming Frameworks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30239,
@@ -798,11 +623,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Hyperparameter tuning, Batch Normalization and Programming Frameworks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30240,
@@ -812,11 +633,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30241,
@@ -826,11 +643,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30242,
@@ -840,11 +653,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30243,
@@ -854,11 +663,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Hyperparameter tuning, Batch Normalization and Programming Frameworks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30244,
@@ -868,11 +673,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of ML Strategy 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30245,
@@ -882,11 +683,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of ML Strategy 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30246,
@@ -896,11 +693,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of ML Strategy 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30247,
@@ -910,11 +703,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of ML Strategy 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30248,
@@ -924,11 +713,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of ML Strategy 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30249,
@@ -938,11 +723,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Foundations of CNNs",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30250,
@@ -952,11 +733,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Foundations of CNNs",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30251,
@@ -966,11 +743,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Foundations of CNNs",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30252,
@@ -980,11 +753,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30253,
@@ -994,11 +763,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30254,
@@ -1008,11 +773,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30255,
@@ -1022,11 +783,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30256,
@@ -1036,11 +793,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30257,
@@ -1050,11 +803,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30258,
@@ -1064,11 +813,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep convolutional models: case studies",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30259,
@@ -1078,11 +823,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep convolutional models: case studies",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30260,
@@ -1092,11 +833,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep convolutional models: case studies",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30261,
@@ -1106,11 +843,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30262,
@@ -1120,11 +853,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30263,
@@ -1134,11 +863,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30264,
@@ -1148,11 +873,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30265,
@@ -1162,11 +883,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30266,
@@ -1176,11 +893,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30267,
@@ -1190,11 +903,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep convolutional models: case studies",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30268,
@@ -1204,11 +913,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep convolutional models: case studies",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30269,
@@ -1218,11 +923,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Deep convolutional models: case studies",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30270,
@@ -1232,11 +933,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Object detection",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30271,
@@ -1246,11 +943,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Object detection",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30272,
@@ -1260,11 +953,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Object detection",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30273,
@@ -1274,11 +963,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30274,
@@ -1288,11 +973,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30275,
@@ -1302,11 +983,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30276,
@@ -1316,11 +993,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Object detection",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30277,
@@ -1330,11 +1003,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Object detection",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30278,
@@ -1344,11 +1013,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Object detection",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30279,
@@ -1358,11 +1023,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Object detection",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30280,
@@ -1372,11 +1033,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30281,
@@ -1386,11 +1043,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30282,
@@ -1400,11 +1053,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Special applications: Face recognition and Neural style transfer",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30283,
@@ -1414,11 +1063,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Special applications: Face recognition and Neural style transfer",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30284,
@@ -1428,11 +1073,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Special applications: Face recognition and Neural style transfer",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30285,
@@ -1442,11 +1083,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Special applications: Face recognition and Neural style transfer",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30286,
@@ -1456,11 +1093,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Recurrent Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30287,
@@ -1470,11 +1103,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30288,
@@ -1484,11 +1113,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30289,
@@ -1498,11 +1123,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30290,
@@ -1512,11 +1133,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Recurrent Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30291,
@@ -1526,11 +1143,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Recurrent Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30292,
@@ -1540,11 +1153,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Recurrent Neural Networks",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30293,
@@ -1554,11 +1163,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30294,
@@ -1568,11 +1173,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30295,
@@ -1582,11 +1183,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30296,
@@ -1596,11 +1193,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4",
       "itu": "T",
-      "studentMaterials": "Content module 1, 2, 3 and 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review module 1, 2, 3 and 4\nDo progress test",
-      "urls": null
+      "studentTasks": "Review module 1, 2, 3 and 4\nDo progress test"
     },
     {
       "id": 30297,
@@ -1610,11 +1203,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Natural Language Processing and Word Embeddings",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30298,
@@ -1624,11 +1213,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Natural Language Processing and Word Embeddings",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30299,
@@ -1638,11 +1223,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Sequence models and Attention mechanism",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30300,
@@ -1652,11 +1233,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30301,
@@ -1666,11 +1243,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30302,
@@ -1680,11 +1253,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress report and participate in discussions",
-      "urls": null
+      "studentTasks": "Progress report and participate in discussions"
     },
     {
       "id": 30303,
@@ -1694,11 +1263,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Transformer Network",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30304,
@@ -1708,11 +1273,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Transformer Network",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30305,
@@ -1722,11 +1283,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Transformer Network",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30306,
@@ -1736,11 +1293,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO7",
       "itu": "T",
-      "studentMaterials": "Slide, Videos of Transformer Network",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Read Slide and Watch Video",
-      "urls": null
+      "studentTasks": "Read Slide and Watch Video"
     },
     {
       "id": 30307,
@@ -1750,11 +1303,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30308,
@@ -1764,11 +1313,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30309,
@@ -1778,11 +1323,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6, CLO7",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": null,
-      "urls": null
+      "studentTasks": null
     },
     {
       "id": 30310,
@@ -1792,11 +1333,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Presentation",
-      "urls": null
+      "studentTasks": "Presentation"
     },
     {
       "id": 30311,
@@ -1806,11 +1343,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Presentation",
-      "urls": null
+      "studentTasks": "Presentation"
     },
     {
       "id": 30312,
@@ -1820,11 +1353,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Presentation",
-      "urls": null
+      "studentTasks": "Presentation"
     },
     {
       "id": 30313,
@@ -1834,11 +1363,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Presentation",
-      "urls": null
+      "studentTasks": "Presentation"
     },
     {
       "id": 30314,
@@ -1848,11 +1373,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Presentation",
-      "urls": null
+      "studentTasks": "Presentation"
     },
     {
       "id": 30315,
@@ -1862,11 +1383,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "TU",
-      "studentMaterials": "Student's project",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Presentation",
-      "urls": null
+      "studentTasks": "Presentation"
     },
     {
       "id": 30316,
@@ -1876,11 +1393,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3, CLO4, CLO5",
       "itu": "T",
-      "studentMaterials": "All Slides",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review Slide",
-      "urls": null
+      "studentTasks": "Review Slide"
     }
   ],
   "assessments": [
@@ -1979,28 +1492,6 @@
       "knowledgeSkill": "- cover chapter 1, 2, 3, 4",
       "gradingGuide": "by exam board,\nusing computer",
       "note": "The exam questions must be updated or different at least 70% to the previous ones."
-    }
-  ],
-  "files": [
-    {
-      "label": "mat1",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "mat2",
-      "sessionNo": "2",
-      "kind": "file"
-    },
-    {
-      "label": "mat3",
-      "sessionNo": "3",
-      "kind": "file"
-    },
-    {
-      "label": "mat4",
-      "sessionNo": "4",
-      "kind": "file"
     }
   ]
 }

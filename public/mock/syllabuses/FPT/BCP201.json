@@ -10,7 +10,6 @@
     "prerequisite": "None",
     "description": "1. Course Objectives:\n\nThis course provides students with the essential computing foundation for Fintech. The course focuses on developing basic programming skills in Python, SQL to analyze data, manage databases, and perform statistical computing, equipping students with the fundamental tools to solve problems and succeed in the fast-growing FinTech industry. By the end of this course, students will gain the technical proficiency needed to support roles in data-driven financial analysis, algorithmic trading, and financial application development.\n\n2. Course Content:\n\nKey topics include: Fundamentals of Programming and Data Analysis in Business; Fundamentals of Python programming; Fundamentals of R programming; Foundation of SQL for data management; Integrating Python and SQL.\n\n3. Activities and Teaching Methodology:\n\nLectures, hands-on coding sessions, and individual and group projects to practice the application of programming techniques using Python, SQL enabling them to apply their skills in practical, job-oriented scenarios.",
     "studentTasks": "- Students must attend more than 80% of contact slots in order to be accepted to the final examination.\n\n- Student is responsible to do all exercises, assignments and labs given by instructor in class or at home and submit on time\n\n- Use laptop in class only for learning purpose\n\n- Promptly access to the http://flm.fpt.edu.vn for up-to-date course information",
-    "tools": "- Internet\n\n- Personal Laptop",
     "scoringScale": "10",
     "decisionNo": "377/QĐ-ĐHFPT dated 04/09/2026",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": "9781484295311",
       "isMainMaterial": 1,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 4563,
@@ -48,8 +46,7 @@
       "isbn": "9781789807356",
       "isMainMaterial": 1,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 4564,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     }
   ],
   "clos": [
@@ -140,11 +136,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I, T",
-      "studentMaterials": "- [Nelli]: Review Chapter 1 (Data Analysis)\n- [Nelli]: Read Chapter 2 (Intro - pp. 15-25)\n- Laptop required",
-      "sDownload": "SS01-20_BCP201",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/14087/S/1_SS01-20_BCP201.zip",
-      "studentTasks": "- Setup development environment\n'- Execute first Python scripts",
-      "urls": null
+      "studentTasks": "- Setup development environment\n'- Execute first Python scripts"
     },
     {
       "id": 46521,
@@ -154,11 +146,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I, T",
-      "studentMaterials": "- [Nelli]: Review Chapter 1 (Data Analysis)\n- [Nelli]: Read Chapter 2 (Intro - pp. 15-25)\n- Laptop required",
-      "sDownload": "SS21-40_BCP201",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/14087/S/2_SS21-40_BCP201.zip",
-      "studentTasks": "- Setup development environment\n'- Execute first Python scripts",
-      "urls": null
+      "studentTasks": "- Setup development environment\n'- Execute first Python scripts"
     },
     {
       "id": 46522,
@@ -168,11 +156,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "I, T",
-      "studentMaterials": "- [Nelli]: Review Chapter 1 (Data Analysis)\n- [Nelli]: Read Chapter 2 (Intro - pp. 15-25)\n- Laptop required",
-      "sDownload": "SS41-60_BCP201",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/14087/S/3_SS41-60_BCP201.zip",
-      "studentTasks": "- Setup development environment\n'- Execute first Python scripts",
-      "urls": null
+      "studentTasks": "- Setup development environment\n'- Execute first Python scripts"
     },
     {
       "id": 46523,
@@ -182,11 +166,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 2 (Data Structures)\n- Review slides: Chapter 2 (Part 1)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Implement data structures to represent products, customers, or transactions",
-      "urls": null
+      "studentTasks": "- Implement data structures to represent products, customers, or transactions"
     },
     {
       "id": 46524,
@@ -196,11 +176,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 2 (Data Structures)\n- Review slides: Chapter 2 (Part 1)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Implement data structures to represent products, customers, or transactions",
-      "urls": null
+      "studentTasks": "- Implement data structures to represent products, customers, or transactions"
     },
     {
       "id": 46525,
@@ -210,11 +186,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 2 (Data Structures)\n- Review slides: Chapter 2 (Part 1)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Implement data structures to represent products, customers, or transactions",
-      "urls": null
+      "studentTasks": "- Implement data structures to represent products, customers, or transactions"
     },
     {
       "id": 46526,
@@ -224,11 +196,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 2 (Control Flow)\n- Review logic gates",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Construct simple business rules and repetitive calculations",
-      "urls": null
+      "studentTasks": "- Construct simple business rules and repetitive calculations"
     },
     {
       "id": 46527,
@@ -238,11 +206,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 2 (Control Flow)\n- Review logic gates",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Construct simple business rules and repetitive calculations",
-      "urls": null
+      "studentTasks": "- Construct simple business rules and repetitive calculations"
     },
     {
       "id": 46528,
@@ -252,11 +216,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 2 (Control Flow)\n- Review logic gates",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Construct simple business rules and repetitive calculations",
-      "urls": null
+      "studentTasks": "- Construct simple business rules and repetitive calculations"
     },
     {
       "id": 46529,
@@ -266,11 +226,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T, U",
-      "studentMaterials": "- [Nelli]: Read Chapter 2 (Functions)\n- Review slides: Chapter 2 (Part 3)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Develop reusable scripts for tax, discount, or interest calculations",
-      "urls": null
+      "studentTasks": "- Develop reusable scripts for tax, discount, or interest calculations"
     },
     {
       "id": 46530,
@@ -280,11 +236,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T, U",
-      "studentMaterials": "- [Nelli]: Read Chapter 2 (Functions)\n- Review slides: Chapter 2 (Part 3)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Develop reusable scripts for tax, discount, or interest calculations",
-      "urls": null
+      "studentTasks": "- Develop reusable scripts for tax, discount, or interest calculations"
     },
     {
       "id": 46531,
@@ -294,11 +246,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO4",
       "itu": "T, U",
-      "studentMaterials": "- [Nelli]: Read Chapter 2 (Functions)\n- Review slides: Chapter 2 (Part 3)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Develop reusable scripts for tax, discount, or interest calculations",
-      "urls": null
+      "studentTasks": "- Develop reusable scripts for tax, discount, or interest calculations"
     },
     {
       "id": 46532,
@@ -308,11 +256,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "I, T",
-      "studentMaterials": "- [Nelli]: Read Chapter 3 (The NumPy Library)\n'- Review matrix concepts\n- Review Sessions 1-5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Perform vectorized operations on sample business datasets\n'- Complete Quiz 1 (MCQ) covering Python foundations and NumPy basics",
-      "urls": null
+      "studentTasks": "- Perform vectorized operations on sample business datasets\n'- Complete Quiz 1 (MCQ) covering Python foundations and NumPy basics"
     },
     {
       "id": 46533,
@@ -322,11 +266,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "I, T",
-      "studentMaterials": "- [Nelli]: Read Chapter 3 (The NumPy Library)\n'- Review matrix concepts\n- Review Sessions 1-5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Perform vectorized operations on sample business datasets",
-      "urls": null
+      "studentTasks": "- Perform vectorized operations on sample business datasets"
     },
     {
       "id": 46534,
@@ -336,11 +276,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "I, T",
-      "studentMaterials": "- [Nelli]: Read Chapter 3 (The NumPy Library)\n'- Review matrix concepts\n- Review Sessions 1-5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Perform vectorized operations on sample business datasets",
-      "urls": null
+      "studentTasks": "- Perform vectorized operations on sample business datasets"
     },
     {
       "id": 46535,
@@ -350,11 +286,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO6",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 4 (Pandas Intro) & Ch 5 (I/O)\n- Dataset: corporate_finance.csv",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Import raw business data\n- Assess data schema & structure",
-      "urls": null
+      "studentTasks": "- Import raw business data\n- Assess data schema & structure"
     },
     {
       "id": 46536,
@@ -364,11 +296,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO6",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 4 (Pandas Intro) & Ch 5 (I/O)\n- Dataset: corporate_finance.csv",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Import raw business data\n- Assess data schema & structure",
-      "urls": null
+      "studentTasks": "- Import raw business data\n- Assess data schema & structure"
     },
     {
       "id": 46537,
@@ -378,11 +306,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO6",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 4 (Pandas Intro) & Ch 5 (I/O)\n- Dataset: corporate_finance.csv",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Import raw business data\n- Assess data schema & structure",
-      "urls": null
+      "studentTasks": "- Import raw business data\n- Assess data schema & structure"
     },
     {
       "id": 46538,
@@ -392,11 +316,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 6 (Data Manipulation)\n- Review Set Theory",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Extract specific business segments (e.g., High Net Worth Individuals)",
-      "urls": null
+      "studentTasks": "- Extract specific business segments (e.g., High Net Worth Individuals)"
     },
     {
       "id": 46539,
@@ -406,11 +326,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 6 (Data Manipulation)\n- Review Set Theory",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Extract specific business segments (e.g., High Net Worth Individuals)",
-      "urls": null
+      "studentTasks": "- Extract specific business segments (e.g., High Net Worth Individuals)"
     },
     {
       "id": 46540,
@@ -420,11 +336,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 6 (Data Manipulation)\n- Review Set Theory",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Extract specific business segments (e.g., High Net Worth Individuals)",
-      "urls": null
+      "studentTasks": "- Extract specific business segments (e.g., High Net Worth Individuals)"
     },
     {
       "id": 46541,
@@ -434,11 +346,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "- [Nelli]: Read Chapter 6 (Data Manipulation Cont.)\n- Review Financial Formulas",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Create calculated columns and simple business KPIs",
-      "urls": null
+      "studentTasks": "- Create calculated columns and simple business KPIs"
     },
     {
       "id": 46542,
@@ -448,11 +356,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "- [Nelli]: Read Chapter 6 (Data Manipulation Cont.)\n- Review Financial Formulas",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Create calculated columns and simple business KPIs",
-      "urls": null
+      "studentTasks": "- Create calculated columns and simple business KPIs"
     },
     {
       "id": 46543,
@@ -462,11 +366,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "- [Nelli]: Read Chapter 6 (Data Manipulation Cont.)\n- Review Financial Formulas",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Create calculated columns and simple business KPIs",
-      "urls": null
+      "studentTasks": "- Create calculated columns and simple business KPIs"
     },
     {
       "id": 46544,
@@ -476,11 +376,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "- [Nelli]: Read Chapter 6 (Data Cleaning)\n- Dataset: raw_transactions.xlsx",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Implement a basic data cleaning workflow\n- Validate Data Quality",
-      "urls": null
+      "studentTasks": "- Implement a basic data cleaning workflow\n- Validate Data Quality"
     },
     {
       "id": 46545,
@@ -490,11 +386,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "- [Nelli]: Read Chapter 6 (Data Cleaning)\n- Dataset: raw_transactions.xlsx",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Implement a basic data cleaning workflow\n- Validate Data Quality",
-      "urls": null
+      "studentTasks": "- Implement a basic data cleaning workflow\n- Validate Data Quality"
     },
     {
       "id": 46546,
@@ -504,11 +396,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "T, U",
-      "studentMaterials": "- [Nelli]: Read Chapter 6 (Data Cleaning)\n- Dataset: raw_transactions.xlsx",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Implement a basic data cleaning workflow\n- Validate Data Quality",
-      "urls": null
+      "studentTasks": "- Implement a basic data cleaning workflow\n- Validate Data Quality"
     },
     {
       "id": 46547,
@@ -518,11 +406,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "- [Nelli]: Read Chapter 6 (Aggregation)\n- Review Excel Pivot Logic",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Generate summary statistics by business dimensions",
-      "urls": null
+      "studentTasks": "- Generate summary statistics by business dimensions"
     },
     {
       "id": 46548,
@@ -532,11 +416,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "- [Nelli]: Read Chapter 6 (Aggregation)\n- Review Excel Pivot Logic",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Generate summary statistics by business dimensions",
-      "urls": null
+      "studentTasks": "- Generate summary statistics by business dimensions"
     },
     {
       "id": 46549,
@@ -546,11 +426,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO6",
       "itu": "U",
-      "studentMaterials": "- [Nelli]: Read Chapter 6 (Aggregation)\n- Review Excel Pivot Logic",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Generate summary statistics by business dimensions",
-      "urls": null
+      "studentTasks": "- Generate summary statistics by business dimensions"
     },
     {
       "id": 46550,
@@ -560,11 +436,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2,CLO3,CLO6",
       "itu": "T, U",
-      "studentMaterials": "- Review Sessions 1-10\n'- Review previous datasets",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Complete a mini workflow: load -> clean -> analyze",
-      "urls": null
+      "studentTasks": "- Complete a mini workflow: load -> clean -> analyze"
     },
     {
       "id": 46551,
@@ -574,11 +446,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2,CLO3,CLO6",
       "itu": "T, U",
-      "studentMaterials": "- Review Sessions 1-10\n'- Review previous datasets",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Complete a mini workflow: load -> clean -> analyze",
-      "urls": null
+      "studentTasks": "- Complete a mini workflow: load -> clean -> analyze"
     },
     {
       "id": 46552,
@@ -588,11 +456,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2,CLO3,CLO6",
       "itu": "T, U",
-      "studentMaterials": "- Review Sessions 1-10\n'- Review previous datasets",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Complete a mini workflow: load -> clean -> analyze",
-      "urls": null
+      "studentTasks": "- Complete a mini workflow: load -> clean -> analyze"
     },
     {
       "id": 46553,
@@ -602,11 +466,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": "U",
-      "studentMaterials": "- Review Sessions 1-11\n- Laptop with Environment ready",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Solve an applied coding problem",
-      "urls": null
+      "studentTasks": "- Solve an applied coding problem"
     },
     {
       "id": 46554,
@@ -616,11 +476,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": "U",
-      "studentMaterials": "- Review Sessions 1-11\n- Laptop with Environment ready",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Solve an applied coding problem",
-      "urls": null
+      "studentTasks": "- Solve an applied coding problem"
     },
     {
       "id": 46555,
@@ -630,11 +486,7 @@
       "learningTeachingType": "Offline",
       "lo": null,
       "itu": "U",
-      "studentMaterials": "- Review Sessions 1-11\n- Laptop with Environment ready",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Solve an applied coding problem",
-      "urls": null
+      "studentTasks": "- Solve an applied coding problem"
     },
     {
       "id": 46556,
@@ -644,11 +496,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 7 (Visualization)\n- Review Chart Types",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Visualize trends and category comparisons",
-      "urls": null
+      "studentTasks": "- Visualize trends and category comparisons"
     },
     {
       "id": 46557,
@@ -658,11 +506,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 7 (Visualization)\n- Review Chart Types",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Visualize trends and category comparisons",
-      "urls": null
+      "studentTasks": "- Visualize trends and category comparisons"
     },
     {
       "id": 46558,
@@ -672,11 +516,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "T",
-      "studentMaterials": "- [Nelli]: Read Chapter 7 (Visualization)\n- Review Chart Types",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Visualize trends and category comparisons",
-      "urls": null
+      "studentTasks": "- Visualize trends and category comparisons"
     },
     {
       "id": 46559,
@@ -686,11 +526,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "- [Nelli]: Read Chapter 7 (Advanced)\n- Presentation Template\n'- Review Sessions 6-14",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Construct a simple dashboard/story for business reporting\n- Complete Quiz 2 (MCQ) covering Pandas, data cleaning, aggregation, and visualization basics",
-      "urls": null
+      "studentTasks": "- Construct a simple dashboard/story for business reporting\n- Complete Quiz 2 (MCQ) covering Pandas, data cleaning, aggregation, and visualization basics"
     },
     {
       "id": 46560,
@@ -700,11 +536,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "- [Nelli]: Read Chapter 7 (Advanced)\n- Presentation Template\n'- Review Sessions 6-14",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Construct a simple dashboard/story for business reporting",
-      "urls": null
+      "studentTasks": "- Construct a simple dashboard/story for business reporting"
     },
     {
       "id": 46561,
@@ -714,11 +546,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO8",
       "itu": "U",
-      "studentMaterials": "- [Nelli]: Read Chapter 7 (Advanced)\n- Presentation Template\n'- Review Sessions 6-14",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Construct a simple dashboard/story for business reporting",
-      "urls": null
+      "studentTasks": "- Construct a simple dashboard/story for business reporting"
     },
     {
       "id": 46562,
@@ -728,11 +556,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5",
       "itu": "I, T",
-      "studentMaterials": "- [Malik]: Read Chapter 1, 2, 5\n- Install DB Browser for SQLite",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Retrieve basic data from a sample database\n- Execute basic retrieval queries",
-      "urls": null
+      "studentTasks": "- Retrieve basic data from a sample database\n- Execute basic retrieval queries"
     },
     {
       "id": 46563,
@@ -742,11 +566,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5",
       "itu": "I, T",
-      "studentMaterials": "- [Malik]: Read Chapter 1, 2, 5\n- Install DB Browser for SQLite",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Retrieve basic data from a sample database\n- Execute basic retrieval queries",
-      "urls": null
+      "studentTasks": "- Retrieve basic data from a sample database\n- Execute basic retrieval queries"
     },
     {
       "id": 46564,
@@ -756,11 +576,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5",
       "itu": "I, T",
-      "studentMaterials": "- [Malik]: Read Chapter 1, 2, 5\n- Install DB Browser for SQLite",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Retrieve basic data from a sample database\n- Execute basic retrieval queries",
-      "urls": null
+      "studentTasks": "- Retrieve basic data from a sample database\n- Execute basic retrieval queries"
     },
     {
       "id": 46565,
@@ -770,11 +586,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "- [Malik]: Read Chapter 6\n- Review Logic Operators",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Query datasets based on complex business rules",
-      "urls": null
+      "studentTasks": "- Query datasets based on complex business rules"
     },
     {
       "id": 46566,
@@ -784,11 +596,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "- [Malik]: Read Chapter 6\n- Review Logic Operators",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Query datasets based on complex business rules",
-      "urls": null
+      "studentTasks": "- Query datasets based on complex business rules"
     },
     {
       "id": 46567,
@@ -798,11 +606,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "T",
-      "studentMaterials": "- [Malik]: Read Chapter 6\n- Review Logic Operators",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Query datasets based on complex business rules",
-      "urls": null
+      "studentTasks": "- Query datasets based on complex business rules"
     },
     {
       "id": 46568,
@@ -812,11 +616,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T, U",
-      "studentMaterials": "- [Malik]: Read Chapter 8\n- Review Aggregation Logic",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Compute Key Performance Indicators directly in SQL",
-      "urls": null
+      "studentTasks": "- Compute Key Performance Indicators directly in SQL"
     },
     {
       "id": 46569,
@@ -826,11 +626,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T, U",
-      "studentMaterials": "- [Malik]: Read Chapter 8\n- Review Aggregation Logic",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Compute Key Performance Indicators directly in SQL",
-      "urls": null
+      "studentTasks": "- Compute Key Performance Indicators directly in SQL"
     },
     {
       "id": 46570,
@@ -840,11 +636,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "T, U",
-      "studentMaterials": "- [Malik]: Read Chapter 8\n- Review Aggregation Logic",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Compute Key Performance Indicators directly in SQL",
-      "urls": null
+      "studentTasks": "- Compute Key Performance Indicators directly in SQL"
     },
     {
       "id": 46571,
@@ -854,11 +646,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO9",
       "itu": "U",
-      "studentMaterials": "- [Malik]: Read Chapter 4 & 7\n- Review Connectivity Code",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Implement a simple end-to-end pipeline: DB -> DataFrame -> report output",
-      "urls": null
+      "studentTasks": "- Implement a simple end-to-end pipeline: DB -> DataFrame -> report output"
     },
     {
       "id": 46572,
@@ -868,11 +656,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO9",
       "itu": "U",
-      "studentMaterials": "- [Malik]: Read Chapter 4 & 7\n- Review Connectivity Code",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Implement a simple end-to-end pipeline: DB -> DataFrame -> report output",
-      "urls": null
+      "studentTasks": "- Implement a simple end-to-end pipeline: DB -> DataFrame -> report output"
     },
     {
       "id": 46573,
@@ -882,11 +666,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO9",
       "itu": "U",
-      "studentMaterials": "- [Malik]: Read Chapter 4 & 7\n- Review Connectivity Code",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Implement a simple end-to-end pipeline: DB -> DataFrame -> report output",
-      "urls": null
+      "studentTasks": "- Implement a simple end-to-end pipeline: DB -> DataFrame -> report output"
     },
     {
       "id": 46574,
@@ -896,11 +676,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO8, CLO9",
       "itu": "I",
-      "studentMaterials": "- Review Python and SQL integration materials\n'- Access to previous class materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Refine project workflow and rehearse presentation\n'- Revisit weak areas and debug code",
-      "urls": null
+      "studentTasks": "- Refine project workflow and rehearse presentation\n'- Revisit weak areas and debug code"
     },
     {
       "id": 46575,
@@ -910,11 +686,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO8, CLO9",
       "itu": "I",
-      "studentMaterials": "- Review Python and SQL integration materials\n'- Access to previous class materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Refine project workflow and rehearse presentation\n'- Revisit weak areas and debug code",
-      "urls": null
+      "studentTasks": "- Refine project workflow and rehearse presentation\n'- Revisit weak areas and debug code"
     },
     {
       "id": 46576,
@@ -924,11 +696,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO8, CLO9",
       "itu": "I",
-      "studentMaterials": "- Review Python and SQL integration materials\n'- Access to previous class materials",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Refine project workflow and rehearse presentation\n'- Revisit weak areas and debug code",
-      "urls": null
+      "studentTasks": "- Refine project workflow and rehearse presentation\n'- Revisit weak areas and debug code"
     },
     {
       "id": 46577,
@@ -938,11 +706,7 @@
       "learningTeachingType": "Offline",
       "lo": "All",
       "itu": "U",
-      "studentMaterials": "- Final Project Deliverables (Code + Deck)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Present findings to \"Board of Directors\" (Class/Instructor)",
-      "urls": null
+      "studentTasks": "- Present findings to \"Board of Directors\" (Class/Instructor)"
     },
     {
       "id": 46578,
@@ -952,11 +716,7 @@
       "learningTeachingType": "Offline",
       "lo": "All",
       "itu": "U",
-      "studentMaterials": "- Final Project Deliverables (Code + Deck)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Present findings to \"Board of Directors\" (Class/Instructor)",
-      "urls": null
+      "studentTasks": "- Present findings to \"Board of Directors\" (Class/Instructor)"
     },
     {
       "id": 46579,
@@ -966,11 +726,7 @@
       "learningTeachingType": "Offline",
       "lo": "All",
       "itu": "U",
-      "studentMaterials": "- Final Project Deliverables (Code + Deck)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "- Present findings to \"Board of Directors\" (Class/Instructor)",
-      "urls": null
+      "studentTasks": "- Present findings to \"Board of Directors\" (Class/Instructor)"
     }
   ],
   "assessments": [
@@ -1053,23 +809,6 @@
       "knowledgeSkill": "Comprehensive coverage of Python (Pandas, Matplotlib) and SQL (Select, Group By).",
       "gradingGuide": "Individual exam. No internet access allowed (except documentation).",
       "note": "Format: Given a Dataset (Excel/DB), students must write code to answer specific business questions."
-    }
-  ],
-  "files": [
-    {
-      "label": "SS01-20_BCP201",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "SS21-40_BCP201",
-      "sessionNo": "2",
-      "kind": "file"
-    },
-    {
-      "label": "SS41-60_BCP201",
-      "sessionNo": "3",
-      "kind": "file"
     }
   ]
 }

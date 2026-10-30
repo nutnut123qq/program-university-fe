@@ -10,7 +10,6 @@
     "prerequisite": null,
     "description": "By the end of the course, students will be able to:\n\n* Describe the concept of ERP and the ERP model; define key terms; explain the transition from MRP to ERP; identify the levels of ERP maturity.\n\n* Explain how ERP is used to integrate business processes; define and analyze a process; create a process map and improve and/or simplify the process; apply the result to an ERP implementation.\n\n* Setup an open source ERP system and implement one main module (M/S, SCM, A/F, H/R)\n\n* Describe the elements of a value chain, and explain how core processes relate; identify how the organizational infrastructure supports core business processes; explain the effect of a new product launch on the three core business processes.\n\n* Identify the international issues that impact a worldwide implementation of ERP; identify the key technological considerations and infrastructure concerns in ERP implementation; describe the strategic use of technology for ERP.\n\n* Explain how the key elements of organizational change management apply to an ERP implementation; define change readiness; describe a learning requirements plan; explain the use of assessment tools to identify the readiness of an organization to change; identify the methods of implementing and sustaining the change.\n\n* Describe project organizational considerations; define the project management tools and resources needed to implement an ERP system; describe the roles and responsibilities of the key organization players; describe the tactics, tools, and methodologies available to implement ERP; evaluate the success of the implementation.\n\n* Describe how the knowledge management capability of an ERP system can be used to sustain competitive advantage; describe how to use ERP to communicate effectively with customers and suppliers.",
     "studentTasks": "- Students must attend at least 80% of contact sessions in order to be accepted to the final examination.\n\n'- Student is responsible to do all exercises and practical given by instructor in class or at home and submit on time.\n\n- Constantly follow announcements on intranet/CMS at http://cms.fpt.edu.vn for up-to-date course information.",
-    "tools": "- Open source ERP software: Odoo\n\n- Postgres SQL RDBMS and pgAdmin",
     "scoringScale": "10",
     "decisionNo": "1077/QĐ-ĐHFPT dated 11/24/2022",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "Community online training course"
+      "isOnline": 1
     },
     {
       "id": 1422,
@@ -48,8 +46,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": "Community version"
+      "isOnline": 0
     },
     {
       "id": 1423,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 0,
-      "note": "Community version"
+      "isOnline": 0
     },
     {
       "id": 1424,
@@ -76,8 +72,7 @@
       "isbn": "978-1800200319",
       "isMainMaterial": 0,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 1425,
@@ -90,8 +85,7 @@
       "isbn": "9781111820398",
       "isMainMaterial": 1,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     }
   ],
   "clos": [
@@ -168,11 +162,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 1",
-      "sDownload": "ISM302",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/9097/S/1_ISM302.zip",
-      "studentTasks": "text book1: Chapter 1",
-      "urls": null
+      "studentTasks": "text book1: Chapter 1"
     },
     {
       "id": 9577,
@@ -182,11 +172,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 1",
-      "sDownload": "ISM302",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/9097/S/2_ISM302.zip",
-      "studentTasks": "text book1: Chapter 1",
-      "urls": null
+      "studentTasks": "text book1: Chapter 1"
     },
     {
       "id": 9578,
@@ -196,11 +182,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 1",
-      "urls": null
+      "studentTasks": "text book1: Chapter 1"
     },
     {
       "id": 9579,
@@ -210,11 +192,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 1",
-      "urls": null
+      "studentTasks": "text book1: Chapter 1"
     },
     {
       "id": 9580,
@@ -224,11 +202,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 3",
-      "urls": null
+      "studentTasks": "text book1: Chapter 3"
     },
     {
       "id": 9581,
@@ -238,11 +212,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 3",
-      "urls": null
+      "studentTasks": "text book1: Chapter 3"
     },
     {
       "id": 9582,
@@ -252,11 +222,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 2",
-      "urls": null
+      "studentTasks": "text book1: Chapter 2"
     },
     {
       "id": 9583,
@@ -266,11 +232,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 2",
-      "urls": null
+      "studentTasks": "text book1: Chapter 2"
     },
     {
       "id": 9584,
@@ -280,11 +242,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 2",
-      "urls": null
+      "studentTasks": "text book1: Chapter 2"
     },
     {
       "id": 9585,
@@ -294,11 +252,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 2",
-      "urls": null
+      "studentTasks": "text book1: Chapter 2"
     },
     {
       "id": 9586,
@@ -308,11 +262,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 2",
-      "urls": null
+      "studentTasks": "text book1: Chapter 2"
     },
     {
       "id": 9587,
@@ -322,11 +272,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO2",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 2",
-      "urls": null
+      "studentTasks": "text book1: Chapter 2"
     },
     {
       "id": 9588,
@@ -336,11 +282,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 3",
-      "urls": null
+      "studentTasks": "text book1: Chapter 3"
     },
     {
       "id": 9589,
@@ -350,11 +292,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 3",
-      "urls": null
+      "studentTasks": "text book1: Chapter 3"
     },
     {
       "id": 9590,
@@ -364,11 +302,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 3",
-      "urls": null
+      "studentTasks": "text book1: Chapter 3"
     },
     {
       "id": 9591,
@@ -378,11 +312,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 3",
-      "urls": null
+      "studentTasks": "text book1: Chapter 3"
     },
     {
       "id": 9592,
@@ -392,11 +322,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 3",
-      "urls": null
+      "studentTasks": "text book1: Chapter 3"
     },
     {
       "id": 9593,
@@ -406,11 +332,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO3",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 3",
-      "urls": null
+      "studentTasks": "text book1: Chapter 3"
     },
     {
       "id": 9594,
@@ -420,11 +342,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 4",
-      "urls": null
+      "studentTasks": "text book1: Chapter 4"
     },
     {
       "id": 9595,
@@ -434,11 +352,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 4",
-      "urls": null
+      "studentTasks": "text book1: Chapter 4"
     },
     {
       "id": 9596,
@@ -448,11 +362,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 4",
-      "urls": null
+      "studentTasks": "text book1: Chapter 4"
     },
     {
       "id": 9597,
@@ -462,11 +372,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 4",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 4",
-      "urls": null
+      "studentTasks": "text book1: Chapter 4"
     },
     {
       "id": 9598,
@@ -476,11 +382,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 4",
-      "urls": null
+      "studentTasks": "text book1: Chapter 4"
     },
     {
       "id": 9599,
@@ -490,11 +392,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO4",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 4",
-      "urls": null
+      "studentTasks": "text book1: Chapter 4"
     },
     {
       "id": 9600,
@@ -504,11 +402,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 5",
-      "urls": null
+      "studentTasks": "text book1: Chapter 5"
     },
     {
       "id": 9601,
@@ -518,11 +412,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 5",
-      "urls": null
+      "studentTasks": "text book1: Chapter 5"
     },
     {
       "id": 9602,
@@ -532,11 +422,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 5",
-      "urls": null
+      "studentTasks": "text book1: Chapter 5"
     },
     {
       "id": 9603,
@@ -546,11 +432,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 5",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 5",
-      "urls": null
+      "studentTasks": "text book1: Chapter 5"
     },
     {
       "id": 9604,
@@ -560,11 +442,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 5",
-      "urls": null
+      "studentTasks": "text book1: Chapter 5"
     },
     {
       "id": 9605,
@@ -574,11 +452,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO5",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 5",
-      "urls": null
+      "studentTasks": "text book1: Chapter 5"
     },
     {
       "id": 9606,
@@ -588,11 +462,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 6",
-      "urls": null
+      "studentTasks": "text book1: Chapter 6"
     },
     {
       "id": 9607,
@@ -602,11 +472,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 6",
-      "urls": null
+      "studentTasks": "text book1: Chapter 6"
     },
     {
       "id": 9608,
@@ -616,11 +482,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 6",
-      "urls": null
+      "studentTasks": "text book1: Chapter 6"
     },
     {
       "id": 9609,
@@ -630,11 +492,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 6",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 6",
-      "urls": null
+      "studentTasks": "text book1: Chapter 6"
     },
     {
       "id": 9610,
@@ -644,11 +502,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 6",
-      "urls": null
+      "studentTasks": "text book1: Chapter 6"
     },
     {
       "id": 9611,
@@ -658,11 +512,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO6",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 6",
-      "urls": null
+      "studentTasks": "text book1: Chapter 6"
     },
     {
       "id": 9612,
@@ -672,11 +522,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 7",
-      "urls": null
+      "studentTasks": "text book1: Chapter 7"
     },
     {
       "id": 9613,
@@ -686,11 +532,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 7",
-      "urls": null
+      "studentTasks": "text book1: Chapter 7"
     },
     {
       "id": 9614,
@@ -700,11 +542,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 7",
-      "urls": null
+      "studentTasks": "text book1: Chapter 7"
     },
     {
       "id": 9615,
@@ -714,11 +552,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 7",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 7",
-      "urls": null
+      "studentTasks": "text book1: Chapter 7"
     },
     {
       "id": 9616,
@@ -728,11 +562,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "T",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 7",
-      "urls": null
+      "studentTasks": "text book1: Chapter 7"
     },
     {
       "id": 9617,
@@ -742,11 +572,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO7",
       "itu": "T",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 7",
-      "urls": null
+      "studentTasks": "text book1: Chapter 7"
     },
     {
       "id": 9618,
@@ -756,11 +582,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO8",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 8",
-      "urls": null
+      "studentTasks": "text book1: Chapter 8"
     },
     {
       "id": 9619,
@@ -770,11 +592,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO8",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 8",
-      "urls": null
+      "studentTasks": "text book1: Chapter 8"
     },
     {
       "id": 9620,
@@ -784,11 +602,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO8",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 8",
-      "urls": null
+      "studentTasks": "text book1: Chapter 8"
     },
     {
       "id": 9621,
@@ -798,11 +612,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO8",
       "itu": "T",
-      "studentMaterials": "text book1: Chapter 8",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "text book1: Chapter 8",
-      "urls": null
+      "studentTasks": "text book1: Chapter 8"
     },
     {
       "id": 9622,
@@ -812,11 +622,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition",
-      "urls": null
+      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition"
     },
     {
       "id": 9623,
@@ -826,11 +632,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition",
-      "urls": null
+      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition"
     },
     {
       "id": 9624,
@@ -840,11 +642,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition",
-      "urls": null
+      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition"
     },
     {
       "id": 9625,
@@ -854,11 +652,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition",
-      "urls": null
+      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition"
     },
     {
       "id": 9626,
@@ -868,11 +662,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition",
-      "urls": null
+      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition"
     },
     {
       "id": 9627,
@@ -882,11 +672,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition",
-      "urls": null
+      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition"
     },
     {
       "id": 9628,
@@ -896,11 +682,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition",
-      "urls": null
+      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition"
     },
     {
       "id": 9629,
@@ -910,11 +692,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Tutorial",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition",
-      "urls": null
+      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition"
     },
     {
       "id": 9630,
@@ -924,11 +702,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Presentation",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition",
-      "urls": null
+      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition"
     },
     {
       "id": 9631,
@@ -938,11 +712,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Presentation",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition",
-      "urls": null
+      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition"
     },
     {
       "id": 9632,
@@ -952,11 +722,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Presentation",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition",
-      "urls": null
+      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition"
     },
     {
       "id": 9633,
@@ -966,11 +732,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Presentation",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition",
-      "urls": null
+      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition"
     },
     {
       "id": 9634,
@@ -980,11 +742,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Presentation",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition",
-      "urls": null
+      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition"
     },
     {
       "id": 9635,
@@ -994,11 +752,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO9",
       "itu": "TU",
-      "studentMaterials": "Presentation",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition",
-      "urls": null
+      "studentTasks": "Odoo_14_Development_Cookbook_Fourth.Edition"
     }
   ],
   "assessments": [
@@ -1065,18 +819,6 @@
       "knowledgeSkill": "All subjects in syllabus",
       "gradingGuide": "by exam board",
       "note": null
-    }
-  ],
-  "files": [
-    {
-      "label": "ISM302",
-      "sessionNo": "1",
-      "kind": "file"
-    },
-    {
-      "label": "ISM302",
-      "sessionNo": "2",
-      "kind": "file"
     }
   ]
 }

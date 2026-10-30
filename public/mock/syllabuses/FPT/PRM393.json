@@ -10,7 +10,6 @@
     "prerequisite": "PRO192",
     "description": "1. Understand the fundamental concepts of mobile programming with Flutter and Dart.\n\n2. Experience using popular widgets and plugins to build cross-platform user interfaces.\n\n3. Knowledge of state management, form handling, and navigation between screens in mobile applications.\n\n4. Learn and apply asynchronous programming techniques with Future and async/await.\n\n5. Ability to integrate RESTful APIs to exchange data between mobile applications and servers, as well as store data locally using SharedPreferences and SQLite.\n\n6. Proficient in using Dart libraries and command-line tools to optimize the application development process.\n\n7. Knowledge of implementing mobile notification systems, including local and push notifications.",
     "studentTasks": "- Students must attend more than 80% of contact sessions in order to be accepted to the final examination.\n\n- Student is responsible to do all assigned exercises given by instructor in class or at home and submit on time\n\n- Use laptop in class only for learning purpose\n\n- Promptly access to the FU LMS at http://lms.fpt.edu.vn for up-to-date course information",
-    "tools": "- Android Studio + Flutter SDK + Dart SDK (Latest Version)\n\n- Virtual device attached android studio (or other virtual device), android mobile (only for learning, not for exam - optional)\n\n- Laptop: 16GB RAM, 25GB free space before installing studio\n\nNote:\n\n- Install all neccessary tools before the first slot of the course",
     "scoringScale": "10",
     "decisionNo": "1402/QĐ-ĐHFPT dated 12/12/2025",
     "isApproved": 1,
@@ -34,8 +33,7 @@
       "isbn": "9789365899177",
       "isMainMaterial": 1,
       "isHardCopy": 1,
-      "isOnline": 0,
-      "note": null
+      "isOnline": 0
     },
     {
       "id": 3937,
@@ -48,8 +46,7 @@
       "isbn": "9781484251805",
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": null
+      "isOnline": 1
     },
     {
       "id": 3938,
@@ -62,8 +59,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://www.coursera.org/specializations/developing-mobile-apps-with-flutter"
+      "isOnline": 1
     },
     {
       "id": 3939,
@@ -76,8 +72,7 @@
       "isbn": null,
       "isMainMaterial": 0,
       "isHardCopy": 0,
-      "isOnline": 1,
-      "note": "https://flutter.dev\nhttps://docs.flutter.dev\nhttps://dart.dev/guides/language/language-tour\nhttps://github.com/flutter/samples"
+      "isOnline": 1
     }
   ],
   "clos": [
@@ -140,11 +135,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "ITU",
-      "studentMaterials": "M1 – Introduction to Flutter. Reference: Ch.1 Getting Started, tooling, project structure.",
-      "sDownload": "PRM393",
-      "downloadUrls": "https://flm.fpt.edu.vn/download/13822/S/1_PRM393.zip",
-      "studentTasks": "Verify setups; troubleshoot common install issues; walk-through run configurations.",
-      "urls": null
+      "studentTasks": "Verify setups; troubleshoot common install issues; walk-through run configurations."
     },
     {
       "id": 38203,
@@ -154,11 +145,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO6",
       "itu": "TU",
-      "studentMaterials": "M1 – Introduction to Flutter. Reference: Ch.1 Getting Started, tooling, project structure",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Explain folder structure; demonstrate build flavors; answer Q&A.",
-      "urls": null
+      "studentTasks": "Explain folder structure; demonstrate build flavors; answer Q&A."
     },
     {
       "id": 38204,
@@ -168,11 +155,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO6",
       "itu": "TU",
-      "studentMaterials": "M1 – Introduction to Flutter. Reference: Ch.1 Getting Started, tooling, project structure.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Demo hot reload/hot restart; show DevTools widget inspector.",
-      "urls": null
+      "studentTasks": "Demo hot reload/hot restart; show DevTools widget inspector."
     },
     {
       "id": 38205,
@@ -182,11 +165,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO6",
       "itu": "TU",
-      "studentMaterials": "M1 – Introduction to Flutter. Reference: Ch.1 Getting Started, tooling, project structure.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Live-code scaffold customization; review students’ changes.",
-      "urls": null
+      "studentTasks": "Live-code scaffold customization; review students’ changes."
     },
     {
       "id": 38206,
@@ -196,11 +175,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO6",
       "itu": "TU",
-      "studentMaterials": "M1 – Introduction to Flutter. Reference: Ch.1 Getting Started, tooling, project structure.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Summarize pitfalls; collect environment reports; set expectations.",
-      "urls": null
+      "studentTasks": "Summarize pitfalls; collect environment reports; set expectations."
     },
     {
       "id": 38207,
@@ -210,11 +185,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO4",
       "itu": "TU",
-      "studentMaterials": "M2 – Dart Essentials. Reference: Ch.2–3 Dart syntax, types, functions, classes.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review type system & null safety; address common errors.",
-      "urls": null
+      "studentTasks": "Review type system & null safety; address common errors."
     },
     {
       "id": 38208,
@@ -224,11 +195,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M2 – Dart Essentials. Reference: Ch.2–3 Dart syntax, types, functions, classes.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Demonstrate function patterns; code review live.",
-      "urls": null
+      "studentTasks": "Demonstrate function patterns; code review live."
     },
     {
       "id": 38209,
@@ -238,11 +205,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "M2 – Dart Essentials. Reference: Ch.2–3 Dart syntax, types, functions, classes.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Explain class design; refactor student solutions.",
-      "urls": null
+      "studentTasks": "Explain class design; refactor student solutions."
     },
     {
       "id": 38210,
@@ -252,11 +215,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "M2 – Dart Essentials. Reference: Ch.2–3 Dart syntax, types, functions, classes.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Show idiomatic collection usage; performance tips.",
-      "urls": null
+      "studentTasks": "Show idiomatic collection usage; performance tips."
     },
     {
       "id": 38211,
@@ -266,11 +225,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO3",
       "itu": "TU",
-      "studentMaterials": "M2 – Dart Essentials. Reference: Ch.2–3 Dart syntax, types, functions, classes.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Introduce async model; clarify event loop concepts.",
-      "urls": null
+      "studentTasks": "Introduce async model; clarify event loop concepts."
     },
     {
       "id": 38212,
@@ -280,11 +235,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO3",
       "itu": "TU",
-      "studentMaterials": "M3 – OOP & Asynchronous. Reference: Ch.3–4 OOP patterns, Futures, Streams, async/await.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Explain Future scheduling; demonstrate error propagation.",
-      "urls": null
+      "studentTasks": "Explain Future scheduling; demonstrate error propagation."
     },
     {
       "id": 38213,
@@ -294,11 +245,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO3",
       "itu": "TU",
-      "studentMaterials": "M3 – OOP & Asynchronous. Reference: Ch.3–4 OOP patterns, Futures, Streams, async/await.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Show StreamController patterns; memory-safety notes.",
-      "urls": null
+      "studentTasks": "Show StreamController patterns; memory-safety notes."
     },
     {
       "id": 38214,
@@ -308,11 +255,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M3 – OOP & Asynchronous. Reference: Ch.3–4 OOP patterns, Futures, Streams, async/await.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Live-code StreamBuilder; discuss rebuild behavior.",
-      "urls": null
+      "studentTasks": "Live-code StreamBuilder; discuss rebuild behavior."
     },
     {
       "id": 38215,
@@ -322,11 +265,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "M3 – OOP & Asynchronous. Reference: Ch.3–4 OOP patterns, Futures, Streams, async/await.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present repository abstraction; layering guidance.",
-      "urls": null
+      "studentTasks": "Present repository abstraction; layering guidance."
     },
     {
       "id": 38216,
@@ -336,11 +275,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "M3 – OOP & Asynchronous. Reference: Ch.3–4 OOP patterns, Futures, Streams, async/await.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss reactive patterns; pitfalls and best practices.",
-      "urls": null
+      "studentTasks": "Discuss reactive patterns; pitfalls and best practices."
     },
     {
       "id": 38217,
@@ -350,11 +285,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2, CLO3",
       "itu": "U",
-      "studentMaterials": "Progress Test 1",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress Test 1",
-      "urls": null
+      "studentTasks": "Progress Test 1"
     },
     {
       "id": 38218,
@@ -364,11 +295,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M4 – UI Fundamentals. Reference: Ch.4 Widgets, Layouts, MaterialApp, lists & pickers.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Demonstrate composition; spacing best practices.\nCode-along list patterns; performance considerations.",
-      "urls": null
+      "studentTasks": "Demonstrate composition; spacing best practices.\nCode-along list patterns; performance considerations."
     },
     {
       "id": 38219,
@@ -378,11 +305,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO3",
       "itu": "TU",
-      "studentMaterials": "M4 – UI Fundamentals. Reference: Ch.4 Widgets, Layouts, MaterialApp, lists & pickers.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Handle onChanged; explain ephemeral vs app state.",
-      "urls": null
+      "studentTasks": "Handle onChanged; explain ephemeral vs app state."
     },
     {
       "id": 38220,
@@ -392,11 +315,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "M4 – UI Fundamentals. Reference: Ch.4 Widgets, Layouts, MaterialApp, lists & pickers.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Show pickers & result handling; UX guidance.",
-      "urls": null
+      "studentTasks": "Show pickers & result handling; UX guidance."
     },
     {
       "id": 38221,
@@ -406,11 +325,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "M4 – UI Fundamentals. Reference: Ch.4 Widgets, Layouts, MaterialApp, lists & pickers.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review theming knobs; show common polish tips.",
-      "urls": null
+      "studentTasks": "Review theming knobs; show common polish tips."
     },
     {
       "id": 38222,
@@ -420,11 +335,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M5 – Navigation & State Management. Reference: Ch.8 Navigator 1.0/2.0, named routes, deep links, basic state. Session focus: Part 1.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Explain Navigator stack; demo simple flow.",
-      "urls": null
+      "studentTasks": "Explain Navigator stack; demo simple flow."
     },
     {
       "id": 38223,
@@ -434,11 +345,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO6",
       "itu": "TU",
-      "studentMaterials": "M5 – Navigation & State Management. Reference: Ch.8 Navigator 1.0/2.0, named routes, deep links, basic state.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Show RouteSettings & argument handling patterns.",
-      "urls": null
+      "studentTasks": "Show RouteSettings & argument handling patterns."
     },
     {
       "id": 38224,
@@ -448,11 +355,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "TU",
-      "studentMaterials": "M5 – Navigation & State Management. Reference: Ch.8 Navigator 1.0/2.0, named routes, deep links, basic state.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Present RouterDelegate/RouteInformationParser overview.",
-      "urls": null
+      "studentTasks": "Present RouterDelegate/RouteInformationParser overview."
     },
     {
       "id": 38225,
@@ -462,11 +365,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5",
       "itu": "TU",
-      "studentMaterials": "M5 – Navigation & State Management. Reference: Ch.8 Navigator 1.0/2.0, named routes, deep links, basic state.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Walk-through manifest intent-filters; test live.",
-      "urls": null
+      "studentTasks": "Walk-through manifest intent-filters; test live."
     },
     {
       "id": 38226,
@@ -476,11 +375,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M5 – Navigation & State Management. Reference: Ch.8 Navigator 1.0/2.0, named routes, deep links, basic state.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Guide Info.plist & associated domains; QA routing.\nAssign and confirm project topics",
-      "urls": null
+      "studentTasks": "Guide Info.plist & associated domains; QA routing.\nAssign and confirm project topics"
     },
     {
       "id": 38227,
@@ -490,11 +385,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO3",
       "itu": "TU",
-      "studentMaterials": "M6 – Layout & Responsive Design. Reference: Ch.5–6 Advanced layouts (Grid/Stack/Flex), responsive patterns.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Explain constraints; demonstrate Flex factors.",
-      "urls": null
+      "studentTasks": "Explain constraints; demonstrate Flex factors."
     },
     {
       "id": 38228,
@@ -504,11 +395,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO3",
       "itu": "TU",
-      "studentMaterials": "M6 – Layout & Responsive Design. Reference: Ch.5–6 Advanced layouts (Grid/Stack/Flex), responsive patterns.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Show grid/stack patterns; layering tips.",
-      "urls": null
+      "studentTasks": "Show grid/stack patterns; layering tips."
     },
     {
       "id": 38229,
@@ -518,11 +405,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5",
       "itu": "TU",
-      "studentMaterials": "M6 – Layout & Responsive Design. Reference: Ch.5–6 Advanced layouts (Grid/Stack/Flex), responsive patterns.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Introduce breakpoints; compute layout decisions.",
-      "urls": null
+      "studentTasks": "Introduce breakpoints; compute layout decisions."
     },
     {
       "id": 38230,
@@ -532,11 +415,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7, CLO2",
       "itu": "TU",
-      "studentMaterials": "M6 – Layout & Responsive Design. Reference: Ch.5–6 Advanced layouts (Grid/Stack/Flex), responsive patterns.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Critique responsive solutions; UX considerations.",
-      "urls": null
+      "studentTasks": "Critique responsive solutions; UX considerations."
     },
     {
       "id": 38231,
@@ -546,11 +425,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO5",
       "itu": "TU",
-      "studentMaterials": "M6 – Layout & Responsive Design. Reference: Ch.5–6 Advanced layouts (Grid/Stack/Flex), responsive patterns.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Refactor example; code review and feedback.",
-      "urls": null
+      "studentTasks": "Refactor example; code review and feedback."
     },
     {
       "id": 38232,
@@ -560,11 +435,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO4, CLO5",
       "itu": "U",
-      "studentMaterials": "Progress Test 2",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress Test 2",
-      "urls": null
+      "studentTasks": "Progress Test 2"
     },
     {
       "id": 38233,
@@ -574,11 +445,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M7 – Forms & Validation. Reference: Chapter 4 (Basic Widgets) & Chapter 14 (User Input)\nChapter 4 (Form Widgets) & Chapter 14 (Validation UX)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Explain controllers lifecycle; disposal rules.\nDemonstrate validation patterns; UX for errors.",
-      "urls": null
+      "studentTasks": "Explain controllers lifecycle; disposal rules.\nDemonstrate validation patterns; UX for errors."
     },
     {
       "id": 38234,
@@ -588,11 +455,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M7 – Forms & Validation. Reference: Chapter 14 (Input Flow), Chapter 6 (State Concepts)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Show submit flow; data handling & confirmation.",
-      "urls": null
+      "studentTasks": "Show submit flow; data handling & confirmation."
     },
     {
       "id": 38235,
@@ -602,11 +465,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M7 – Forms & Validation. Reference: Chapter 6 (State Basics) & Chapter 14 (Input Events)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss draft-saving approaches; data model notes.",
-      "urls": null
+      "studentTasks": "Discuss draft-saving approaches; data model notes."
     },
     {
       "id": 38236,
@@ -616,11 +475,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO7",
       "itu": "TU",
-      "studentMaterials": "M7 – Forms & Validation. Reference: Chapter 14 (Focus, Keyboard Actions)",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Show focus traversal; accessibility considerations.",
-      "urls": null
+      "studentTasks": "Show focus traversal; accessibility considerations."
     },
     {
       "id": 38237,
@@ -630,11 +485,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2, CLO7",
       "itu": "TU",
-      "studentMaterials": "M8 – Networking & JSON API. Reference: Ch.9 HTTP/REST, JSON parsing, FutureBuilder.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Explain HTTP basics; JSON to model mapping.",
-      "urls": null
+      "studentTasks": "Explain HTTP basics; JSON to model mapping."
     },
     {
       "id": 38238,
@@ -644,11 +495,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "M8 – Networking & JSON API. Reference: Ch.9 HTTP/REST, JSON parsing, FutureBuilder.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Live-code FutureBuilder; list rendering tips.",
-      "urls": null
+      "studentTasks": "Live-code FutureBuilder; list rendering tips."
     },
     {
       "id": 38239,
@@ -658,11 +505,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "M8 – Networking & JSON API. Reference: Ch.9 HTTP/REST, JSON parsing, FutureBuilder.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Error/empty/loading design; UX standards.",
-      "urls": null
+      "studentTasks": "Error/empty/loading design; UX standards."
     },
     {
       "id": 38240,
@@ -672,11 +515,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO6",
       "itu": "TU",
-      "studentMaterials": "M8 – Networking & JSON API. Reference: Ch.9 HTTP/REST, JSON parsing, FutureBuilder.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Route to detail by ID; data flow sanity checks.",
-      "urls": null
+      "studentTasks": "Route to detail by ID; data flow sanity checks."
     },
     {
       "id": 38241,
@@ -686,11 +525,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M8 – Networking & JSON API. Reference: Ch.9 HTTP/REST, JSON parsing, FutureBuilde",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss caching layers; avoiding redundant calls.",
-      "urls": null
+      "studentTasks": "Discuss caching layers; avoiding redundant calls."
     },
     {
       "id": 38242,
@@ -700,11 +535,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M9 – Local Storage & Persistence. Reference: Ch.10 SharedPreferences, SQLite/Hive, caching..",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Contrast prefs vs database; data lifecycle.",
-      "urls": null
+      "studentTasks": "Contrast prefs vs database; data lifecycle."
     },
     {
       "id": 38243,
@@ -714,11 +545,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M9 – Local Storage & Persistence. Reference: Ch.10 SharedPreferences, SQLite/Hive, caching.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Schema modeling; CRUD operations overview.",
-      "urls": null
+      "studentTasks": "Schema modeling; CRUD operations overview."
     },
     {
       "id": 38244,
@@ -728,11 +555,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3, CLO5",
       "itu": "TU",
-      "studentMaterials": "M9 – Local Storage & Persistence. Reference: Ch.10 SharedPreferences, SQLite/Hive, caching.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Render persisted data; integrity checks.",
-      "urls": null
+      "studentTasks": "Render persisted data; integrity checks."
     },
     {
       "id": 38245,
@@ -742,11 +565,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M9 – Local Storage & Persistence. Reference: Ch.10 SharedPreferences, SQLite/Hive, caching.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Discuss sync patterns; conflict resolution basics.",
-      "urls": null
+      "studentTasks": "Discuss sync patterns; conflict resolution basics."
     },
     {
       "id": 38246,
@@ -756,11 +575,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M9 – Local Storage & Persistence. Reference: Ch.10 SharedPreferences, SQLite/Hive, caching.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Show export concept; data portability discussion.",
-      "urls": null
+      "studentTasks": "Show export concept; data portability discussion."
     },
     {
       "id": 38247,
@@ -770,11 +585,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "M10 – Authentication & User Management. Reference: Ch.11 Auth basics, session, guarded routes.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Explain auth concepts; security caveats.",
-      "urls": null
+      "studentTasks": "Explain auth concepts; security caveats."
     },
     {
       "id": 38248,
@@ -784,11 +595,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO3",
       "itu": "TU",
-      "studentMaterials": "M10 – Authentication & User Management. Reference: Ch.11 Auth basics, session, guarded routes.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Session/state handling; update UI accordingly.",
-      "urls": null
+      "studentTasks": "Session/state handling; update UI accordingly."
     },
     {
       "id": 38249,
@@ -798,11 +605,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO2",
       "itu": "TU",
-      "studentMaterials": "M10 – Authentication & User Management. Reference: Ch.11 Auth basics, session, guarded routes.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Route guarding patterns; navigation decisions.",
-      "urls": null
+      "studentTasks": "Route guarding patterns; navigation decisions."
     },
     {
       "id": 38250,
@@ -812,11 +615,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M10 – Authentication & User Management. Reference: Ch.11 Auth basics, session, guarded routes.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Persist token mock; discuss security limits.",
-      "urls": null
+      "studentTasks": "Persist token mock; discuss security limits."
     },
     {
       "id": 38251,
@@ -826,11 +625,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M10 – Authentication & User Management. Reference: Ch.11 Auth basics, session, guarded routes. Session focus: Part 5.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "End-to-end demo; troubleshooting common issues.",
-      "urls": null
+      "studentTasks": "End-to-end demo; troubleshooting common issues."
     },
     {
       "id": 38252,
@@ -840,11 +635,7 @@
       "learningTeachingType": "Offline",
       "lo": "LO1, CLO2",
       "itu": "TU",
-      "studentMaterials": "M11 – Testing & Debugging. Core concepts from Ch.12.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Explain testing setup in project context; assist integration.",
-      "urls": null
+      "studentTasks": "Explain testing setup in project context; assist integration."
     },
     {
       "id": 38253,
@@ -854,11 +645,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO7",
       "itu": "TU",
-      "studentMaterials": "M11 – Testing & Debugging. Core debugging tools.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Review test coverage; show debugging techniques.",
-      "urls": null
+      "studentTasks": "Review test coverage; show debugging techniques."
     },
     {
       "id": 38254,
@@ -868,11 +655,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO5, CLO6, CLO7",
       "itu": "U",
-      "studentMaterials": "Progress Test 3",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Progress Test 3",
-      "urls": null
+      "studentTasks": "Progress Test 3"
     },
     {
       "id": 38255,
@@ -882,11 +665,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1, CLO6",
       "itu": "TU",
-      "studentMaterials": "Project Work – Sprint 3 Review.\nProject Work – Polishing & Refactoring.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Conduct sprint review; give improvement feedback.\nProvide code review session; guide refactoring priorities.",
-      "urls": null
+      "studentTasks": "Conduct sprint review; give improvement feedback.\nProvide code review session; guide refactoring priorities."
     },
     {
       "id": 38256,
@@ -896,11 +675,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Project Work – User Testing.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Supervise test execution; monitor report documentation.",
-      "urls": null
+      "studentTasks": "Supervise test execution; monitor report documentation."
     },
     {
       "id": 38257,
@@ -910,11 +685,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "M12 – Build & Release. Ch.13 (condensed).",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Demonstrate build process (debug/release).",
-      "urls": null
+      "studentTasks": "Demonstrate build process (debug/release)."
     },
     {
       "id": 38258,
@@ -924,11 +695,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Project Work – Packaging.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Guide deployment process; validate final artifacts.",
-      "urls": null
+      "studentTasks": "Guide deployment process; validate final artifacts."
     },
     {
       "id": 38259,
@@ -938,11 +705,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Project Work – Presentation Rehearsal.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Mentor on presentation skills; storytelling & flow.",
-      "urls": null
+      "studentTasks": "Mentor on presentation skills; storytelling & flow."
     },
     {
       "id": 38260,
@@ -952,11 +715,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "TU",
-      "studentMaterials": "Final Evaluation – Mock Defense.",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Act as evaluator; simulate defense Q&A.",
-      "urls": null
+      "studentTasks": "Act as evaluator; simulate defense Q&A."
     },
     {
       "id": 38261,
@@ -966,11 +725,7 @@
       "learningTeachingType": "Offline",
       "lo": "CLO1",
       "itu": "U",
-      "studentMaterials": "Final Project Presentation",
-      "sDownload": null,
-      "downloadUrls": null,
-      "studentTasks": "Grade presentation; summarize learning outcomes.",
-      "urls": null
+      "studentTasks": "Grade presentation; summarize learning outcomes."
     }
   ],
   "assessments": [
@@ -1037,13 +792,6 @@
       "knowledgeSkill": "All chapters; knowledge and skills of mobile programming",
       "gradingGuide": "by exam board",
       "note": null
-    }
-  ],
-  "files": [
-    {
-      "label": "PRM393",
-      "sessionNo": "1",
-      "kind": "file"
     }
   ]
 }
