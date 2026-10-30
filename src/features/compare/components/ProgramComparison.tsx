@@ -12,6 +12,7 @@ import { fetchPrograms, fetchProgramById, fetchCurricula } from "@/features/prog
 import { Program } from "@/features/programs/types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 import { cn } from "@/lib/utils"
+import { hasEnoughData } from "@/lib/score-basis"
 import { CompareAdmissions } from "./CompareAdmissions"
 import { useTranslations } from "next-intl"
 
@@ -100,6 +101,7 @@ const SlotPicker = ({ slot, label, value, options, catalogTotal, onPick }: SlotP
 
 const ProgramComparisonInner = () => {
     const t = useTranslations("programs")
+    const ta = useTranslations("analytics")
     const pathname = usePathname()
     const searchParams = useSearchParams()
     const { data: programRes } = useSWR(["programs-list-all"], () => fetchPrograms({ page: 1, pageSize: 200 }))
@@ -209,7 +211,7 @@ const ProgramComparisonInner = () => {
     const overlapPct = filled.length >= 2 && filled[0].length > 0 ? Math.round((commonCourses.length / Math.max(...filled.map((cs) => cs.length))) * 100) : 0
 
     const getRadarScores = (prog?: Program): AunCriterionScore[] => {
-        if (!prog) return []
+        if (!prog || !hasEnoughData(prog)) return []
         // Real per-criterion evaluation scores (1-5). All four must be present —
         // no interpolation from the aggregate evaluationScore.
         const evalComponents = [
@@ -358,6 +360,10 @@ const ProgramComparisonInner = () => {
                             )
                         }
                         const radarScores = getRadarScores(p)
+                        // A score the enough-data rule hides: say why instead of showing it.
+                        const hiddenScoreNote = !hasEnoughData(p) && typeof p.evaluationScore === "number"
+                            ? t(p.dataSufficiency === "insufficient" ? "evalInsufficientNote" : "evalNoCoursesNote")
+                            : null
                         return (
                             <Card key={i} className="border-border/60" data-testid={`compare-card-${i + 1}`}>
                                 <CardHeader>
@@ -383,8 +389,12 @@ const ProgramComparisonInner = () => {
                                             <span className="text-muted-foreground block text-[11px]">{t("slmRefScore")}</span>
                                             {p.dataSufficiency === "insufficient" ? (
                                                 <span className="font-bold text-sm text-amber-600" title={t("evalInsufficientNote")}>{t("evalInsufficientBadge")}</span>
+                                            ) : hasEnoughData(p) ? (
+                                                <span className="font-extrabold text-sm text-emerald-500">{`${p.evaluationScore.toFixed(1)} / 10.0`}</span>
+                                            ) : hiddenScoreNote ? (
+                                                <span className="font-bold text-sm text-amber-600" title={hiddenScoreNote}>{ta("statusNoData")}</span>
                                             ) : (
-                                                <span className="font-extrabold text-sm text-emerald-500">{typeof p.evaluationScore === "number" ? `${p.evaluationScore.toFixed(1)} / 10.0` : "N/A"}</span>
+                                                <span className="font-extrabold text-sm text-emerald-500">N/A</span>
                                             )}
                                             <span className="block text-[10px] font-normal text-muted-foreground leading-tight">{t("slmRefScoreNote")}</span>
                                         </div>
@@ -397,7 +407,7 @@ const ProgramComparisonInner = () => {
                                         ) : (
                                             <div className="flex flex-col items-center justify-center gap-2 py-8 text-center">
                                                 <AlertCircle className="h-7 w-7 text-muted-foreground/50" />
-                                                <p className="text-xs text-muted-foreground">{t("compareNoEval")}</p>
+                                                <p className="text-xs text-muted-foreground">{hiddenScoreNote ?? t("compareNoEval")}</p>
                                             </div>
                                         )}
                                     </div>

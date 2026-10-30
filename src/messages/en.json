@@ -33,6 +33,7 @@
     "slmRefScoreNote": "Automated evaluation, not expert-calibrated",
     "evalInsufficientBadge": "Insufficient PLO data",
     "evalInsufficientNote": "Learning-outcome data incomplete — score does not reflect program quality",
+    "evalNoCoursesNote": "No course list yet — structure and knowledge blocks cannot be scored, so the score does not reflect program quality",
     "programCode": "Program Code",
     "duration": "Duration",
     "tuition": "Tuition Fee",
@@ -333,7 +334,6 @@
     "pageIndicator": "Page {page} of {total}"
   },
   "analytics": {
-    "officialDataBadge": "Standardized data from official published sources",
     "title": "Analytics & Comparison Dashboard — {universities, number} Universities",
     "subtitle": "Statistics for {programs, number} training programs & {courses, number} courses across {universities, number} universities; SLM Strict Rubric quality scores (10.0 scale) are computed only on the evaluated set of {basis, number} programs with enough data ({note}).",
     "exportCsv": "Download Dataset (CSV)",
@@ -353,8 +353,8 @@
     "distDesc": "Share of score bands from 1.0 to 10.0 — evaluated set of {basis, number} programs with enough data",
     "distProgramCount": "{count} training programs",
     "qualityTitle": "Program Data Standardization",
-    "qualityNote1": "🟢 **Semester & credit distribution**: Most courses already have semester and credit data; the remainder is being filled in.",
-    "qualityNote2": "🟢 **Knowledge-block tiering**: Courses are auto-classified into 4 groups: General, Foundation, Major and Graduation.",
+    "qualityNote1": "Semester & credit distribution: Most courses already have semester and credit data; the remainder is being filled in.",
+    "qualityNote2": "Knowledge-block tiering: Courses are auto-classified into 4 groups: General, Foundation, Major and Graduation.",
     "statusNoData": "Not enough data"
   },
   "syllabus": {

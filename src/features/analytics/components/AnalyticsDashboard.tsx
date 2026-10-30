@@ -5,9 +5,9 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { Button } from "@/components/ui/button"
-import { Award, BookOpen, GraduationCap, Building2, TrendingUp, CheckCircle2, ShieldCheck, Sparkles, FileSpreadsheet, FileJson } from "lucide-react"
-import { useTranslations } from "next-intl"
-import { exportAnalyticsDatasetToCsv, exportAnalyticsDatasetToJson, sharePct, type AnalyticsSnapshot } from "@/lib/exportUtils"
+import { BookOpen, GraduationCap, Building2, TrendingUp, CheckCircle2, Percent, FileSpreadsheet, FileJson } from "lucide-react"
+import { useLocale, useTranslations } from "next-intl"
+import { exportAnalyticsDatasetToCsv, exportAnalyticsDatasetToJson, type AnalyticsSnapshot } from "@/lib/exportUtils"
 import snapshot from "@/lib/analytics-snapshot.json"
 
 // Every number on this page comes from src/lib/analytics-snapshot.json, built
@@ -18,11 +18,14 @@ import snapshot from "@/lib/analytics-snapshot.json"
 const S: AnalyticsSnapshot = snapshot
 const avg = S.basis.mean.toFixed(2)
 const topBand = S.bands[0] // bands run high → low
-const pct = (k: number) => sharePct(k, S.basis.programs)
 
 export const AnalyticsDashboard = () => {
     const t = useTranslations("programs")
     const ta = useTranslations("analytics")
+    // Counts and shares in the page locale (vi "1.956", "85,5%"); the downloads keep sharePct's "85.5%".
+    const locale = useLocale()
+    const num = (n: number) => n.toLocaleString(locale)
+    const pct = (k: number) => `${((100 * k) / S.basis.programs).toLocaleString(locale, { minimumFractionDigits: 1, maximumFractionDigits: 1 })}%`
 
     return (
         <div className="container mx-auto py-8 px-4 space-y-8 animate-in fade-in duration-500">
@@ -30,12 +33,7 @@ export const AnalyticsDashboard = () => {
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b pb-6">
                 <div>
                     <div className="flex items-center gap-2 mb-1">
-                        <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20 gap-1">
-                            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-                            <span>{ta("officialDataBadge")}</span>
-                        </Badge>
                         <Badge variant="outline" className="bg-emerald-500/10 text-emerald-500 border-emerald-500/20 gap-1">
-                            <ShieldCheck className="w-3.5 h-3.5" />
                             <span>{avg}/10.0 {t("slmRefScore")}</span>
                         </Badge>
                     </div>
@@ -82,7 +80,7 @@ export const AnalyticsDashboard = () => {
                         <GraduationCap className="w-4 h-4 text-primary" />
                     </CardHeader>
                     <CardContent>
-                        <div className="text-2xl font-bold">{S.catalog.programs.toLocaleString("en-US")}</div>
+                        <div className="text-2xl font-bold">{num(S.catalog.programs)}</div>
                         <p className="text-[11px] text-emerald-500 font-medium mt-1">{ta("totalProgramsNote", { noCourses: S.catalog.programsWithoutCourses, programs: S.catalog.programs })}</p>
                     </CardContent>
                 </Card>
@@ -93,7 +91,7 @@ export const AnalyticsDashboard = () => {
                         <BookOpen className="w-4 h-4 text-blue-500" />
                     </CardHeader>
                     <CardContent>
-                        <div className="text-2xl font-bold text-blue-500">{S.catalog.courses.toLocaleString("en-US")}</div>
+                        <div className="text-2xl font-bold text-blue-500">{num(S.catalog.courses)}</div>
                         <p className="text-[11px] text-muted-foreground mt-1">{ta("totalCoursesNote")}</p>
                     </CardContent>
                 </Card>
@@ -112,7 +110,7 @@ export const AnalyticsDashboard = () => {
                 <Card className="bg-card/50 backdrop-blur border-emerald-500/20 shadow-sm">
                     <CardHeader className="flex flex-row items-center justify-between pb-2">
                         <CardTitle className="text-xs font-semibold text-muted-foreground uppercase">{ta("passRate")}</CardTitle>
-                        <Award className="w-4 h-4 text-emerald-500" />
+                        <Percent className="w-4 h-4 text-emerald-500" />
                     </CardHeader>
                     <CardContent>
                         <div className="text-2xl font-bold text-emerald-500">{ta("passRateValue", { pct: pct(S.basis.atLeast6), count: S.basis.atLeast6 })}</div>

@@ -38,8 +38,8 @@ test.describe("v1.4 — analytics/copy consistency", () => {
 
         // Current snapshot-derived catalog numbers
         await expect(page.getByRole("heading", { name: /17 Trường/i })).toBeVisible({ timeout: 30_000 })
-        await expect(body).toContainText(group(t.programs, ","))
-        await expect(body).toContainText(group(t.courses, ","))
+        await expect(body).not.toContainText(group(t.programs, ","))
+        await expect(body).not.toContainText(group(t.courses, ","))
         await expect(body).toContainText(group(t.programs, "."))
         await expect(body).toContainText(`${group(t.courses, ".")} môn học`)
         await expect(body).toContainText(`${t.noCourses}/${group(t.programs, ".")} ngành chưa có danh mục môn học`)

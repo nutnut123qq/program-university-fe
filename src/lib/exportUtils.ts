@@ -83,7 +83,7 @@ export function exportProgramToJson(program: Program, courses: Curriculum[]) {
 }
 
 const analyticsFileName = (s: AnalyticsSnapshot, ext: string) =>
-    `Tedo_Analytics_Benchmark_Dataset_${s.catalog.universities}_Universities.${ext}`
+    `Tedo_Analytics_Dataset_${s.catalog.universities}_Universities.${ext}`
 
 export function exportAnalyticsDatasetToCsv(s: AnalyticsSnapshot) {
     const headers = ["Mã trường", "Tên trường Đại học", "Số lượng ngành", "Số ngành đủ dữ liệu (n)", "Điểm SLM tham khảo TB (thang 10)"]

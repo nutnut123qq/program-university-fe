@@ -110,7 +110,7 @@ test.describe("v2.44 — quarantined fabricated content", () => {
         const scores = enough.map((p) => p.evaluationScore as number)
         const n = scores.length
         const mean = (xs: number[]) => xs.reduce((a, b) => a + b, 0) / xs.length
-        const pct = (k: number) => `${((100 * k) / n).toFixed(1)}%`
+        const pct = (k: number) => `${((100 * k) / n).toFixed(1).replace(".", ",")}%` // vi page (v2.57)
         const gold = scores.filter((s) => s >= 9.0).length
         const pass = scores.filter((s) => s >= 6.0).length
         const bands = [
@@ -136,10 +136,10 @@ test.describe("v2.44 — quarantined fabricated content", () => {
         const ranking = [...byUni.entries()]
             .filter(([, xs]) => xs.length > 0)
             .map(([code, xs]) => ({ code, score: mean(xs) }))
-            .sort((a, b) => b.score - a.score)
+            .sort((a, b) => b.score - a.score || (a.code < b.code ? -1 : 1)) // the snapshot's tie-break
         const noData = [...byUni.entries()].filter(([, xs]) => xs.length === 0).map(([code]) => code)
         expect(scored.length).toBeLessThan(programs.length) // quarantined programs carry no score
-        expect(ranking.length + noData.length).toBe(17)
+        const universities = ranking.length + noData.length // every university with a program in the snapshot
         // DTU: every program still scored has no course list (its template list is quarantined).
         expect(noData).toContain("DTU")
         expect(allByUni.get("DTU")?.length ?? 0).toBeGreaterThan(0)
@@ -149,7 +149,7 @@ test.describe("v2.44 — quarantined fabricated content", () => {
 
         await page.goto("/vi/analytics", { waitUntil: "domcontentloaded" })
         const body = page.locator("body")
-        await expect(page.getByRole("heading", { name: /17 Trường/i })).toBeVisible({ timeout: 30000 })
+        await expect(page.getByRole("heading", { name: new RegExp(`${universities} Trường`, "i") })).toBeVisible({ timeout: 30000 })
 
         const avg = mean(scores).toFixed(2)
         await expect(body).toContainText(`${avg}/10.0`)

@@ -35,14 +35,17 @@ const OUT = path.join(ROOT, "src", "lib", "analytics-snapshot.json")
 const readJson = (p) => JSON.parse(readFileSync(p, "utf8"))
 
 // Score bands, high → low: a score belongs to the first band whose minimum it reaches.
+// The labels are closed two-decimal ranges: they hold every score of its band only while
+// scores lie in 1–10 with at most 2 decimals — buildAnalytics() refuses anything else.
 const BANDS = [
-    [9, "9.0 - 10.0"],
-    [7.5, "7.5 - 8.9"],
-    [6, "6.0 - 7.4"],
-    [4, "4.0 - 5.9"],
-    [-Infinity, "1.0 - 3.9"],
+    [9, "9.00 - 10.00"],
+    [7.5, "7.50 - 8.99"],
+    [6, "6.00 - 7.49"],
+    [4, "4.00 - 5.99"],
+    [-Infinity, "1.00 - 3.99"],
 ]
 
+// Same rule as src/lib/score-basis.ts hasEnoughData (dialog, compare, chat context).
 const enough = (p) => typeof p.evaluationScore === "number" && p.courseCount > 0 && p.dataSufficiency !== "insufficient"
 const mean = (xs) => xs.reduce((a, b) => a + b, 0) / xs.length
 const r2 = (x) => Number(x.toFixed(2))
@@ -51,6 +54,8 @@ function buildAnalytics() {
     const programs = readJson(path.join(MOCK, "index.json")).chunks.flatMap((f) => readJson(path.join(MOCK, "programs", f)))
     const basis = programs.filter(enough).map((p) => p.evaluationScore)
     if (basis.length === 0) throw new Error("no program with enough data — nothing to show on the analytics page")
+    const offLabel = basis.filter((s) => s < 1 || s > 10 || Math.abs(s * 100 - Math.round(s * 100)) > 1e-6)
+    if (offLabel.length) throw new Error(`scores outside 1–10 or with > 2 decimals (${offLabel.slice(0, 5).join(", ")}): the band labels would not hold them`)
 
     const rows = readJson(path.join(MOCK, "universities.json"))
         .map((u) => {

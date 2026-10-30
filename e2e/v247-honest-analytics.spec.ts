@@ -36,11 +36,11 @@ type Row = { code: string; name: string; programs: number; n: number; raw: numbe
 
 // Score bands, high → low: a score belongs to the first band whose minimum it reaches.
 const BANDS: [number, string][] = [
-    [9, "9.0 - 10.0"],
-    [7.5, "7.5 - 8.9"],
-    [6, "6.0 - 7.4"],
-    [4, "4.0 - 5.9"],
-    [-Infinity, "1.0 - 3.9"],
+    [9, "9.00 - 10.00"],
+    [7.5, "7.50 - 8.99"],
+    [6, "6.00 - 7.49"],
+    [4, "4.00 - 5.99"],
+    [-Infinity, "1.00 - 3.99"],
 ]
 
 function expected() {
@@ -81,6 +81,7 @@ function expected() {
 
 const E = expected()
 const pct = (k: number) => `${((100 * k) / E.basis.programs).toFixed(1)}%`
+const pctVi = (k: number) => pct(k).replace(".", ",") // vi page (v2.57); en page and downloads keep "."
 const group = (n: number, sep: string) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, sep)
 const FORBIDDEN_VI = /AUN-QA|Gold|Phạt gắt|Xuất sắc|Cần cải thiện|Đạt yêu cầu|Tốt \/ Standard/
 const FORBIDDEN_EN = /AUN-QA|Gold|Heavy penalty|Excellent|Meets requirements|Needs improvement|Good \/ Standard/i
@@ -120,9 +121,9 @@ test.describe("v2.47 — honest analytics", () => {
         await expect(body).toContainText(`${avg} / 10.0`)
         await expect(body).toContainText(`tập đánh giá ${group(b.programs, ".")} CTĐT đủ dữ liệu`)
         await expect(body).toContainText(`chỉ tính ${group(b.programs, ".")} CTĐT đủ dữ liệu`)
-        await expect(body).toContainText(`${pct(b.atLeast6)} (${group(b.atLeast6, ".")} ngành)`)
+        await expect(body).toContainText(`${pctVi(b.atLeast6)} (${group(b.atLeast6, ".")} ngành)`)
         const top = E.bands[0].count
-        await expect(body).toContainText(`${group(top, ".")} ngành (${pct(top)}) có điểm tham khảo 9.0-10.0`)
+        await expect(body).toContainText(`${group(top, ".")} ngành (${pctVi(top)}) có điểm tham khảo 9.0-10.0`)
 
         const bands = page.getByTestId("score-band")
         await expect(bands).toHaveCount(E.bands.length)
@@ -130,7 +131,7 @@ test.describe("v2.47 — honest analytics", () => {
             const el = bands.nth(i)
             await expect(el).toHaveAttribute("data-range", band.range)
             await expect(el).toContainText(vi.analytics.distProgramCount.replace("{count}", String(band.count)))
-            await expect(el).toContainText(pct(band.count))
+            await expect(el).toContainText(pctVi(band.count))
         }
 
         const rows = page.getByTestId("uni-row")
@@ -186,7 +187,7 @@ test.describe("v2.47 — honest analytics", () => {
             }).toPass({ timeout: 20_000 })
             return { name: d!.suggestedFilename(), text: readFileSync(await d!.path(), "utf8") }
         }
-        const file = `Tedo_Analytics_Benchmark_Dataset_${E.catalog.universities}_Universities`
+        const file = `Tedo_Analytics_Dataset_${E.catalog.universities}_Universities`
 
         const json = await download(vi.analytics.exportJson)
         expect(json.name).toBe(`${file}.json`)

@@ -36,6 +36,7 @@ import { KnowledgeBlockBreakdown } from "./KnowledgeBlockBreakdown"
 import { SyllabusDetailModal } from "./SyllabusDetailModal"
 import { ElectiveGroups } from "./ElectiveGroups"
 import { exportProgramToCsv, exportProgramToJson } from "@/lib/exportUtils"
+import { hasEnoughData } from "@/lib/score-basis"
 import { buildTrendSeries, deltaVsPreviousYear } from "@/lib/admissionTrend"
 import { ScoreTrendChart } from "./ScoreTrendChart"
 import { SameMajorElsewhere } from "./SameMajorElsewhere"
@@ -218,6 +219,7 @@ function CriterionItem({ title, score, description }: { title: string; score: nu
 
 export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDialogProps) {
     const t = useTranslations("programs")
+    const ta = useTranslations("analytics")
     const [activeTab, setActiveTab] = useState<TabKey>("info")
     const [courseSearch, setCourseSearch] = useState("")
     const [semesterFilter, setSemesterFilter] = useState<string>("all")
@@ -584,7 +586,12 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         { id: "blocks", name: t("evalBlocksName"), score: program.evalKnowledgeBlocks },
         { id: "completeness", name: t("evalCompletenessName"), score: program.evalCompleteness },
     ] : []
-    const hasEvalComponents = evalComponents.every((c) => typeof c.score === "number")
+    const enoughData = !!program && hasEnoughData(program)
+    // A score the enough-data rule hides: say why instead of showing it.
+    const hiddenScoreNote = program && !enoughData && typeof program.evaluationScore === "number"
+        ? t(program.dataSufficiency === "insufficient" ? "evalInsufficientNote" : "evalNoCoursesNote")
+        : null
+    const hasEvalComponents = enoughData && evalComponents.every((c) => typeof c.score === "number")
     const evalRadarScores: AunCriterionScore[] = hasEvalComponents
         ? evalComponents.map((c) => ({ id: c.id, name: c.name, score: c.score as number }))
         : []
@@ -1199,9 +1206,13 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 <Badge variant="outline" className="text-sm font-extrabold px-3 py-1 bg-amber-500/10 text-amber-600 border-amber-500/30" title={t("evalInsufficientNote")}>
                                                     {t("evalInsufficientBadge")}
                                                 </Badge>
-                                            ) : program.evaluationScore && (
+                                            ) : hasEnoughData(program) ? (
                                                 <Badge variant="outline" className="text-sm font-extrabold px-3 py-1 bg-primary/10 text-primary border-primary/20" title={t("slmRefScoreNote")}>
                                                     {t("slmRefScore")}: {program.evaluationScore.toFixed(1)} / 10.0
+                                                </Badge>
+                                            ) : hiddenScoreNote && (
+                                                <Badge variant="outline" className="text-sm font-extrabold px-3 py-1 bg-amber-500/10 text-amber-600 border-amber-500/30" title={hiddenScoreNote}>
+                                                    {ta("statusNoData")}
                                                 </Badge>
                                             )}
                                         </div>
@@ -1210,7 +1221,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                             <div className="flex flex-col items-center justify-center gap-2 py-10 text-center">
                                                 <AlertCircle className="h-8 w-8 text-muted-foreground/50" />
                                                 <p className="text-sm text-muted-foreground">
-                                                    {t("evalEmpty")}
+                                                    {hiddenScoreNote ?? t("evalEmpty")}
                                                 </p>
                                             </div>
                                         ) : (

@@ -16,6 +16,7 @@ import {
     formatTuitionLine,
     normalizeText,
 } from "./chat-admissions";
+import { hasEnoughData } from "./score-basis";
 
 export { normalizeText };
 
@@ -274,7 +275,8 @@ function describeProgram(p: Program): string {
     if (p.language) parts.push(`Ngôn ngữ: ${p.language}`);
     parts.push(`Học phí: ${p.tuition ? p.tuition : "không có trong dữ liệu"}`);
     if (p.dataSufficiency === "insufficient") parts.push("Đánh giá SLM: chưa đủ dữ liệu chuẩn đầu ra (PLO) — điểm số không phản ánh chất lượng");
-    else if (typeof p.evaluationScore === "number") parts.push(`Điểm SLM tham khảo (đánh giá tự động, chưa hiệu chuẩn chuyên gia): ${p.evaluationScore}`);
+    else if (hasEnoughData(p)) parts.push(`Điểm SLM tham khảo (đánh giá tự động, chưa hiệu chuẩn chuyên gia): ${p.evaluationScore}`);
+    else if (typeof p.evaluationScore === "number") parts.push("Đánh giá SLM: chưa đủ dữ liệu (chưa có danh mục môn học) — điểm số không phản ánh chất lượng");
     return `- Chương trình "${p.name}" (${p.universityName ?? "không rõ trường"}). ${parts.join("; ")}.\n  Nguồn: ${sourceOf(p)}`;
 }
 
