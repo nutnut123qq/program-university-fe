@@ -7,7 +7,9 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
+import { formatAdmissionNumber } from "@/lib/admissions-display"
+import { safeHttpUrl } from "@/lib/safe-url"
 import { WishlistButton } from "@/features/wishlist/WishlistButton"
 import { ProgramSummary } from "../types"
 
@@ -57,6 +59,9 @@ function extractSpecialization(name?: string | null): string | null {
 
 export function ProgramCard({ program, index, onViewDetail, scoreHint }: ProgramCardProps) {
     const t = useTranslations("programs")
+    const locale = useLocale()
+    const num = (n: number, signed = false) => formatAdmissionNumber(n, locale, signed)
+    const sourceHref = safeHttpUrl(program.sourceUrl)
     const cohorts = extractCohorts(program.code, program.name)
     const specialization = extractSpecialization(program.name)
 
@@ -69,8 +74,8 @@ export function ProgramCard({ program, index, onViewDetail, scoreHint }: Program
             hintParts.push(
                 t("scoreHintCutoff", {
                     year: scoreHint.year,
-                    cutoff: scoreHint.cutoff,
-                    scale: scoreHint.scale,
+                    cutoff: num(scoreHint.cutoff),
+                    scale: num(scoreHint.scale),
                 })
             )
         }
@@ -100,7 +105,7 @@ export function ProgramCard({ program, index, onViewDetail, scoreHint }: Program
                 <span className={tone}>
                     {arrow}{" "}
                     {t("scoreHintDelta", {
-                        delta,
+                        delta: num(delta, true),
                         fromYear: scoreHint.deltaFromYear,
                     })}
                 </span>
@@ -110,7 +115,7 @@ export function ProgramCard({ program, index, onViewDetail, scoreHint }: Program
             hintParts.push(
                 t("scoreHintQuota", {
                     year: scoreHint.quotaYear,
-                    quota: scoreHint.quota,
+                    quota: num(scoreHint.quota),
                 })
             )
         }
@@ -232,9 +237,9 @@ export function ProgramCard({ program, index, onViewDetail, scoreHint }: Program
                                 <span className="truncate">{t("viewDetail")}</span>
                             </button>
                         )}
-                        {program.sourceUrl && (
+                        {sourceHref && (
                             <a
-                                href={program.sourceUrl}
+                                href={sourceHref}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={cn(

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { isoDate, loadCourses, loadProgram, snapshotGeneratedAt } from "@/lib/program-snapshot"
 import { alternates } from "@/lib/seo"
+import { safeHttpUrl } from "@/lib/safe-url"
 
 /**
  * Program page for search engines (v2.52, audit V9): server-rendered from the
@@ -62,7 +63,7 @@ export default async function ProgramPage({ params }: Props) {
         [t("courseCredits"), program.credits ? String(program.credits) : tp("notVerified")],
         [t("curriculumTab"), program.courseCount > 0 ? t("courses", { count: program.courseCount }) : null],
     ]
-    const source = program.sourceUrl && /^https?:\/\//i.test(program.sourceUrl) ? program.sourceUrl : null
+    const source = safeHttpUrl(program.sourceUrl)
 
     return (
         <article className="mx-auto max-w-4xl px-4 py-8 space-y-6">

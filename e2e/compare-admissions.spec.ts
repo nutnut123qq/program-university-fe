@@ -71,8 +71,8 @@ test.describe("Compare page — admission block per side", () => {
         // Real per-program values from CTU.json (2026):
         //   Sư phạm Vật lý: cutoff 27.62/30, quota 51, tuition 27.380.000đ/năm
         //   Kỹ thuật ô tô:  cutoff 23.2/30,  quota 80, tuition 33.400.000đ/năm
-        await expect(blocks.nth(0).getByText("27.62").first()).toBeVisible()
-        await expect(blocks.nth(1).getByText("23.2").first()).toBeVisible()
+        await expect(blocks.nth(0).getByText("27,62").first()).toBeVisible()
+        await expect(blocks.nth(1).getByText("23,2").first()).toBeVisible()
         await expect(
             blocks.nth(0).getByTestId("compare-admissions-quotas").getByText("51").first()
         ).toBeVisible()
@@ -103,7 +103,7 @@ test.describe("Compare page — admission block per side", () => {
         await expect(scores).toBeVisible()
 
         // Each scale keeps its own label verbatim — no normalization.
-        await expect(scores.getByText("/ 1200").first()).toBeVisible()
+        await expect(scores.getByText("/ 1.200").first()).toBeVisible()
         await expect(scores.getByText("/ 600").first()).toBeVisible()
         await expect(scores.getByText("/ 30").first()).toBeVisible()
         await expect(scores.getByText("600").first()).toBeVisible()

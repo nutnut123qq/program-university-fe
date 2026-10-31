@@ -2,7 +2,8 @@
 
 import type { ReactNode } from "react"
 import { Loader2, RotateCcw, Target } from "lucide-react"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
+import { formatAdmissionNumber } from "@/lib/admissions-display"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Select, SelectItem } from "@/components/ui/select"
@@ -64,6 +65,8 @@ export function ScoreFilter({
     children,
 }: ScoreFilterProps) {
     const t = useTranslations("programs")
+    const locale = useLocale()
+    const num = (n: number) => formatAdmissionNumber(n, locale)
     const hasInput = score.trim() !== ""
 
     return (
@@ -164,8 +167,9 @@ export function ScoreFilter({
                     className="text-sm font-medium"
                 >
                     {t("scoreFilterResult", {
-                        count: resultCount,
-                        score: score.trim(),
+                        count: num(resultCount),
+                        // The student's own number in the locale's notation, never rounded: the filter compares this exact value.
+                        score: new Intl.NumberFormat(locale, { maximumFractionDigits: 20 }).format(Number(score.trim())),
                     })}
                 </p>
             )}
@@ -176,9 +180,9 @@ export function ScoreFilter({
                     className="text-xs text-muted-foreground"
                 >
                     {t("scoreFilterCoverage", {
-                        count: resultCount,
-                        covered: coverage.covered,
-                        scale,
+                        count: num(resultCount),
+                        covered: num(coverage.covered),
+                        scale: num(scale),
                         method: method ? "chosen" : "all",
                         uncovered: coverage.total - coverage.covered,
                     })}

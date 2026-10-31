@@ -30,6 +30,7 @@ import { fetchSyllabus, fetchRoadmap, fetchUniversityCode } from "../api"
 import { ROADMAP_UNIVERSITIES, relationCodes, withoutFiller } from "../roadmapUniversities"
 import { Curriculum } from "../types"
 import { useModalFocus } from "@/hooks/useModalFocus"
+import { safeHttpUrl } from "@/lib/safe-url"
 import { DataAttribution } from "./DataAttribution"
 
 interface SyllabusDetailModalProps {
@@ -464,15 +465,15 @@ export function SyllabusDetailModal({
                                         ) : (
                                             <div className="space-y-3">
                                                 {materials.map((m, idx) => {
-                                                    const isUrl = m.materialDescription.startsWith("http")
+                                                    const href = safeHttpUrl(m.materialDescription)
                                                     return (
                                                         <div
                                                             key={idx}
                                                             className="p-4 rounded-xl border border-border bg-card space-y-2 shadow-sm"
                                                         >
-                                                            {isUrl ? (
+                                                            {href ? (
                                                                 <a
-                                                                    href={m.materialDescription}
+                                                                    href={href}
                                                                     target="_blank"
                                                                     rel="noopener noreferrer"
                                                                     className="text-xs text-primary font-bold hover:underline inline-flex items-center gap-1.5 break-all"

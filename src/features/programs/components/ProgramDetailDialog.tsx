@@ -21,7 +21,7 @@ import {
     GraduationCap,
 } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import useSWR from "swr"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -37,6 +37,8 @@ import { SyllabusDetailModal } from "./SyllabusDetailModal"
 import { ElectiveGroups } from "./ElectiveGroups"
 import { exportProgramToCsv, exportProgramToJson } from "@/lib/exportUtils"
 import { hasEnoughData } from "@/lib/score-basis"
+import { formatAdmissionNumber } from "@/lib/admissions-display"
+import { safeHttpUrl, urlHost } from "@/lib/safe-url"
 import { buildTrendSeries, deltaVsPreviousYear } from "@/lib/admissionTrend"
 import { ScoreTrendChart } from "./ScoreTrendChart"
 import { SameMajorElsewhere } from "./SameMajorElsewhere"
@@ -78,15 +80,6 @@ function formatDateOnly(value: string | null | undefined): string | null {
     return d.isValid() ? d.format("DD/MM/YYYY") : value
 }
 
-function hostnameOf(url: string | null | undefined): string | null {
-    if (!url) return null
-    try {
-        return new URL(url).hostname.replace(/^www\./, "")
-    } catch {
-        return url
-    }
-}
-
 // v2.54: raw documents are shown as a short excerpt, never in full. The snapshot already
 // cuts extractedText to this; a longer value (older mock, API mode) is cut here the same way.
 const RAW_EXCERPT_MAX = 300
@@ -98,16 +91,6 @@ function rawExcerpt(text: string | null | undefined): string | null {
     const cut = t.slice(0, RAW_EXCERPT_MAX)
     const end = cut.search(/\s\S*$/) // last word boundary inside the limit
     return `${(end > 0 ? cut.slice(0, end) : cut).trimEnd()}…`
-}
-
-// Only http(s) links are rendered (no javascript:/data:/relative hrefs from the data).
-function httpUrl(url: string | null | undefined): URL | null {
-    try {
-        const u = new URL(url ?? "")
-        return u.protocol === "http:" || u.protocol === "https:" ? u : null
-    } catch {
-        return null
-    }
 }
 
 function formatMoney(amount: number | null | undefined, currency: string): string | null {
@@ -134,22 +117,22 @@ function RecordProvenance({
     fetchedAt?: string | null
 }) {
     const t = useTranslations("programs")
-    const domain = hostnameOf(sourceUrl)
+    const href = safeHttpUrl(sourceUrl)
     const publishedText = formatDateOnly(publishedAt)
     const fetchedText = formatDate(fetchedAt ?? null)
     return (
         <p className="flex flex-wrap items-center gap-x-3 gap-y-0.5 text-[11px] text-muted-foreground">
-            {sourceUrl && domain ? (
+            {href ? (
                 <span className="inline-flex items-center gap-1">
                     {t("admissionSourceLabel")}:{" "}
                     <a
-                        href={sourceUrl}
+                        href={href}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-0.5 text-primary hover:underline"
                         data-testid="admissions-source-link"
                     >
-                        {domain}
+                        {urlHost(href)}
                         <ExternalLink className="h-2.5 w-2.5" />
                     </a>
                 </span>
@@ -220,6 +203,8 @@ function CriterionItem({ title, score, description }: { title: string; score: nu
 export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDialogProps) {
     const t = useTranslations("programs")
     const ta = useTranslations("analytics")
+    const locale = useLocale()
+    const num = (n: number, signed = false) => formatAdmissionNumber(n, locale, signed)
     const [activeTab, setActiveTab] = useState<TabKey>("info")
     const [courseSearch, setCourseSearch] = useState("")
     const [semesterFilter, setSemesterFilter] = useState<string>("all")
@@ -382,7 +367,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         admissionsView?.methods.find((m) => m.key === methodKey)?.label || methodKey
 
     const scoreText = (s: AdmissionScore): string =>
-        s.score == null ? "—" : Number.isInteger(s.score) ? String(s.score) : s.score.toFixed(2)
+        s.score == null ? "—" : num(s.score)
 
     /**
      * v1.3 delta badge: this row's year vs the closest earlier year in ITS
@@ -395,7 +380,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         const series = scoreTrendSeries.find((v) => v.scale === s.scale && v.method === s.method)
         const d = series ? deltaVsPreviousYear(series, s.year) : null
         if (!d) return null
-        const deltaText = `${d.delta > 0 ? "+" : ""}${Number(d.delta.toFixed(2))}`
+        const deltaText = num(d.delta, true)
         return (
             <Badge
                 variant="outline"
@@ -421,7 +406,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                 <span className="text-base font-black font-mono text-primary">
                     {scoreText(s)}
                     {s.scale != null && (
-                        <span className="text-xs font-semibold text-muted-foreground"> / {s.scale}</span>
+                        <span className="text-xs font-semibold text-muted-foreground"> / {num(s.scale)}</span>
                     )}
                 </span>
                 <Badge variant="outline" className="text-[10px] font-semibold">
@@ -452,7 +437,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         >
             <div className="flex flex-wrap items-center gap-2">
                 <span className="text-base font-black font-mono text-foreground">
-                    {q.quota != null ? q.quota.toLocaleString("vi-VN") : "—"}
+                    {q.quota != null ? num(q.quota) : "—"}
                 </span>
                 <span className="text-xs text-muted-foreground">{t("admissionQuotaUnit")}</span>
                 <Badge
@@ -529,15 +514,8 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     const cohorts = useMemo(() => extractCohorts(program?.code, program?.name), [program])
     const specialization = useMemo(() => extractSpecialization(program?.name), [program])
 
-    // Provenance: display only the domain from the real sourceUrl (no fabricated fallback)
-    const sourceDomain = useMemo(() => {
-        if (!program?.sourceUrl) return null
-        try {
-            return new URL(program.sourceUrl).hostname.replace(/^www\./, "")
-        } catch {
-            return program.sourceUrl
-        }
-    }, [program])
+    // Provenance: an http(s) sourceUrl only, its domain as the link text (no fabricated fallback)
+    const sourceHref = safeHttpUrl(program?.sourceUrl)
     const lastCrawledText = program ? formatDate(program.lastCrawled) : null
 
     // Instant Course Search & Semester Filter
@@ -655,14 +633,14 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                         <p className="flex flex-wrap items-center gap-x-3 gap-y-0.5 pt-0.5 text-[11px] text-muted-foreground">
                                             <span className="inline-flex items-center gap-1">
                                                 {t("sourceLabel")}{" "}
-                                                {program.sourceUrl ? (
+                                                {sourceHref ? (
                                                     <a
-                                                        href={program.sourceUrl}
+                                                        href={sourceHref}
                                                         target="_blank"
                                                         rel="noopener noreferrer"
                                                         className="inline-flex items-center gap-0.5 text-primary hover:underline"
                                                     >
-                                                        {sourceDomain}
+                                                        {urlHost(sourceHref)}
                                                         <ExternalLink className="h-2.5 w-2.5" />
                                                     </a>
                                                 ) : (
@@ -794,16 +772,16 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                             </CardContent>
                                         </Card>
 
-                                        {program.sourceUrl && (
+                                        {sourceHref && (
                                             <Section title={t("sourceUrl")}>
                                                 <a
-                                                    href={program.sourceUrl}
+                                                    href={sourceHref}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     className="inline-flex items-center gap-1.5 text-sm text-primary hover:underline break-all"
                                                 >
                                                     <LinkIcon className="h-3.5 w-3.5 shrink-0" />
-                                                    {program.sourceUrl}
+                                                    {sourceHref}
                                                     <ExternalLink className="h-3 w-3 shrink-0" />
                                                 </a>
                                             </Section>
@@ -1141,7 +1119,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                             <div className="space-y-3">
                                                 {rawDocs.map((doc: RawDocument) => {
                                                     const excerpt = rawExcerpt(doc.extractedText)
-                                                    const link = httpUrl(doc.url)
+                                                    const link = safeHttpUrl(doc.url)
                                                     return (
                                                         <Card key={doc.id} data-testid="raw-doc" className="overflow-hidden">
                                                             <CardContent className="p-4 space-y-3">
@@ -1172,13 +1150,13 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                                 )}
                                                                 {link ? (
                                                                     <a
-                                                                        href={doc.url}
+                                                                        href={link}
                                                                         target="_blank"
                                                                         rel="noopener noreferrer"
                                                                         className="text-sm text-primary hover:underline break-all flex items-center gap-1"
                                                                     >
                                                                         <LinkIcon className="h-3.5 w-3.5 shrink-0" />
-                                                                        {t("rawDocSourceLink", { domain: link.hostname.replace(/^www\./, "") })}
+                                                                        {t("rawDocSourceLink", { domain: urlHost(link) ?? "" })}
                                                                         <ExternalLink className="h-3 w-3 shrink-0" />
                                                                     </a>
                                                                 ) : (

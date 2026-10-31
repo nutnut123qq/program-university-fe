@@ -1,9 +1,10 @@
 "use client"
 
 import { useMemo } from "react"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import { Badge } from "@/components/ui/badge"
 import { buildTrendSeries } from "@/lib/admissionTrend"
+import { formatAdmissionNumber } from "@/lib/admissions-display"
 import { AdmissionScore } from "../types"
 
 /**
@@ -27,10 +28,6 @@ const PLOT_W = WIDTH - PAD_LEFT - PAD_RIGHT
 const PLOT_H = HEIGHT - PAD_TOP - PAD_BOTTOM
 const GRID_RATIOS = [0, 0.25, 0.5, 0.75, 1]
 
-function formatScore(value: number): string {
-    return Number.isInteger(value) ? String(value) : value.toFixed(2)
-}
-
 /** Drop a trailing "(thang N)"/"(scale N)" from the raw label — the legend
  *  shows the scale as a separate badge instead. */
 function legendLabel(methodLabel: string | null, method: string): string {
@@ -39,6 +36,8 @@ function legendLabel(methodLabel: string | null, method: string): string {
 
 export function ScoreTrendChart({ scores }: { scores: AdmissionScore[] }) {
     const t = useTranslations("programs")
+    const locale = useLocale()
+    const formatScore = (value: number) => formatAdmissionNumber(value, locale)
     const series = useMemo(() => buildTrendSeries(scores ?? []), [scores])
     const years = useMemo(
         () => [...new Set(series.flatMap((s) => s.points.map((p) => p.year)))].sort((a, b) => a - b),

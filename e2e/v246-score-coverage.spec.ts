@@ -57,6 +57,7 @@ const scoresByUni = new Map<string, Score[]>(
 
 const SCALE = 30
 const SCORE = 25
+const listedIds = new Set(programs.map((p) => p.id))
 
 // Qualifying cutoff per program at a scale (only `method`'s rows when given).
 function qualifyingAt(scale: number, method?: string) {
@@ -105,15 +106,19 @@ const pickedMethod = [...methodLabels]
 type Scope = { label: string | null; notes: string[] }
 type Entry = { method: string; year: number; kind: string; scope: string; score: number; scopes: Scope[]; sources: string[]; methodLabel: string | null }
 function thresholdsOf(code: string, scale: number): Entry[] {
-    const rows = (scoresByUni.get(code) ?? []).filter(
-        (s) => s.programId == null && s.scope !== "program" && typeof s.score === "number" && s.scale === scale
+    const all = scoresByUni.get(code) ?? []
+    // v2.58: + group/campus rows of listed programs with no program-scope cutoff at the scale; the newest year per method code without a "_<its year>" suffix.
+    const tested = new Set(all.filter((s) => s.scope === "program" && s.kind === "cutoff" && s.programId && typeof s.score === "number" && s.scale === scale).map((s) => s.programId))
+    const rows = all.filter(
+        (s) => (s.programId == null || (listedIds.has(s.programId) && !tested.has(s.programId))) && s.scope !== "program" && typeof s.score === "number" && s.scale === scale
     )
+    const mkey = (s: Score) => (s.method ?? "").replace(new RegExp(`_${s.year}$`), "")
     const newest = new Map<string, number>()
-    for (const s of rows) newest.set(s.method ?? "", Math.max(newest.get(s.method ?? "") ?? -Infinity, s.year))
+    for (const s of rows) newest.set(mkey(s), Math.max(newest.get(mkey(s)) ?? -Infinity, s.year))
     const entries = new Map<string, Entry>()
     for (const s of rows) {
         const method = s.method ?? ""
-        if (s.year !== newest.get(method)) continue
+        if (s.year !== newest.get(mkey(s))) continue
         const key = [method, s.year, s.kind, s.scope, s.score].join("|")
         const e = entries.get(key) ?? { method, year: s.year, kind: s.kind, scope: s.scope, score: s.score, scopes: [], sources: [], methodLabel: s.methodLabel }
         const label = s.scopeLabel || null
@@ -191,7 +196,7 @@ test.describe("v2.46 — score filter states its coverage (/vi)", () => {
         const coverage = page.getByTestId("score-filter-coverage")
         await expect(coverage).toBeVisible({ timeout: 30000 })
         await expect(coverage).toContainText(`${eligible} / ${covered} ngành có điểm chuẩn theo ngành ở thang ${SCALE}`)
-        await expect(coverage).toContainText(`${programs.length - covered} ngành khác`)
+        await expect(coverage).toContainText(`${(programs.length - covered).toLocaleString("vi")} ngành khác`)
     })
 
     test(`${SCORE}/${SCALE} with a method picked: coverage counts that method only`, async ({ page }) => {
@@ -206,7 +211,7 @@ test.describe("v2.46 — score filter states its coverage (/vi)", () => {
         await expect(coverage).toContainText(
             `${pickedMethod.eligible} / ${pickedMethod.covered} ngành có điểm chuẩn theo ngành ở thang ${SCALE} theo phương thức đã chọn`
         )
-        await expect(coverage).toContainText(`${programs.length - pickedMethod.covered} ngành khác`)
+        await expect(coverage).toContainText(`${(programs.length - pickedMethod.covered).toLocaleString("vi")} ngành khác`)
     })
 
     test("school/group thresholds: listed per university, FPT shows 21/30 học bạ with its source", async ({ page }) => {

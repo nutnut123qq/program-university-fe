@@ -3,11 +3,13 @@
 import { useMemo } from "react"
 import useSWR from "swr"
 import dayjs from "dayjs"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import { AlertCircle, ExternalLink, GraduationCap } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { fetchAdmissions, fetchUniversityCode } from "@/features/programs/api"
 import { AdmissionQuota, AdmissionScore, Program, TuitionRecord } from "@/features/programs/types"
+import { formatAdmissionNumber } from "@/lib/admissions-display"
+import { safeHttpUrl, urlHost } from "@/lib/safe-url"
 
 /**
  * Admission snapshot block rendered inside each side of ProgramComparison.
@@ -18,15 +20,6 @@ import { AdmissionQuota, AdmissionScore, Program, TuitionRecord } from "@/featur
  * per-program data. Scores keep their native scale ("score / scale") and
  * kind label; nothing is normalized or ranked across the two sides.
  */
-
-function hostnameOf(url: string | null | undefined): string | null {
-    if (!url) return null
-    try {
-        return new URL(url).hostname.replace(/^www\./, "")
-    } catch {
-        return url
-    }
-}
 
 function formatDateOnly(value: string | null | undefined): string | null {
     if (!value) return null
@@ -59,22 +52,22 @@ function RecordProvenance({
     fetchedAt?: string | null
 }) {
     const t = useTranslations("programs")
-    const domain = hostnameOf(sourceUrl)
+    const href = safeHttpUrl(sourceUrl)
     const publishedText = formatDateOnly(publishedAt)
     const fetchedText = formatDateTime(fetchedAt ?? null)
     return (
         <p className="flex flex-wrap items-center gap-x-3 gap-y-0.5 text-[11px] text-muted-foreground">
-            {sourceUrl && domain ? (
+            {href ? (
                 <span className="inline-flex items-center gap-1">
                     {t("admissionSourceLabel")}:{" "}
                     <a
-                        href={sourceUrl}
+                        href={href}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-0.5 text-primary hover:underline"
                         data-testid="admissions-source-link"
                     >
-                        {domain}
+                        {urlHost(href)}
                         <ExternalLink className="h-2.5 w-2.5" />
                     </a>
                 </span>
@@ -124,6 +117,8 @@ function BlockSection({
 
 export function CompareAdmissions({ program }: { program: Program }) {
     const t = useTranslations("programs")
+    const locale = useLocale()
+    const num = (n: number) => formatAdmissionNumber(n, locale)
 
     // Program → universityId → universities.code → /mock/admissions/<CODE>.json
     const { data: uniCode, isLoading: codeLoading } = useSWR(
@@ -216,7 +211,7 @@ export function CompareAdmissions({ program }: { program: Program }) {
     }
 
     const scoreText = (s: AdmissionScore): string =>
-        s.score == null ? "—" : Number.isInteger(s.score) ? String(s.score) : s.score.toFixed(2)
+        s.score == null ? "—" : num(s.score)
 
 
     const renderScoreRow = (s: AdmissionScore, i: number) => (
@@ -228,7 +223,7 @@ export function CompareAdmissions({ program }: { program: Program }) {
                 <span className="text-base font-black font-mono text-primary">
                     {scoreText(s)}
                     {s.scale != null && (
-                        <span className="text-xs font-semibold text-muted-foreground"> / {s.scale}</span>
+                        <span className="text-xs font-semibold text-muted-foreground"> / {num(s.scale)}</span>
                     )}
                 </span>
                 <Badge variant="outline" className="text-[10px] font-semibold">
@@ -258,7 +253,7 @@ export function CompareAdmissions({ program }: { program: Program }) {
         >
             <div className="flex flex-wrap items-center gap-2">
                 <span className="text-base font-black font-mono text-foreground">
-                    {q.quota != null ? q.quota.toLocaleString("vi-VN") : "—"}
+                    {q.quota != null ? num(q.quota) : "—"}
                 </span>
                 <span className="text-xs text-muted-foreground">{t("admissionQuotaUnit")}</span>
                 <Badge

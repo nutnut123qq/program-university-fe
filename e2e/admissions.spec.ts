@@ -51,7 +51,7 @@ test.describe("Admission Data Section (ProgramDetailDialog)", () => {
         await section.getByRole("button", { name: /· 2025/ }).click()
         // Scope to the score-row span — the v1.3 trend chart also renders a
         // "28.19" point label, so a bare getByText("28.19") is ambiguous.
-        await expect(section.getByText("28.19 /")).toBeVisible()
+        await expect(section.getByText("28,19 /")).toBeVisible()
         await expect(section.getByText(/quy đổi thang 30/i).first()).toBeVisible()
 
         // Real quotas: program 420 (2025) + 460 (2026) + school-wide 4,020
@@ -96,11 +96,11 @@ test.describe("Admission Data Section (ProgramDetailDialog)", () => {
         await expect(section).toBeVisible()
         // Default method view = newest year: 2026 "tích hợp" rows on thang
         // 100 (KSA 83.40/100) render first
-        await expect(section.getByText("83.40")).toBeVisible()
+        await expect(section.getByText("83,4")).toBeVisible()
         // Switch to the 2025 method via the year-aware selector: real
         // campus rows KSA 24.5 + KSV 17.0 (scale 30)
         await section.getByRole("button", { name: /· 2025/ }).click()
-        await expect(section.getByText("24.5")).toBeVisible()
+        await expect(section.getByText("24,5")).toBeVisible()
         // "17" bare also matches provenance dates (Công bố: 17/08/2024) —
         // pin to the score "17 / 30" instead.
         await expect(section.getByText(/^17\s*\/\s*30/)).toBeVisible()

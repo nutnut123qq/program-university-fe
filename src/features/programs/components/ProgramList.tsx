@@ -383,18 +383,20 @@ export function ProgramList() {
         }
     }, [scoreFilteredPrograms, scorePool, qualifyingCutoffs])
 
-    // School/group thresholds (programId-null aggregate rows) at the selected
-    // scale, for universities with a program in the current list. Information
-    // only: qualifyingCutoffs never reads these rows.
+    // School/group/campus thresholds at the selected scale (programId-null
+    // aggregate rows + group/campus rows of listed programs the filter cannot
+    // test, v2.58), for universities with a program in the current list.
+    // Information only: qualifyingCutoffs never reads these rows.
     const scoreThresholds = useMemo(() => {
         if (!scoreFilteredPrograms || !scorePool || !admissionsByCode || scoreScale == null) {
             return null
         }
         const listed = new Set(scorePool.items.map((p) => p.universityId))
+        const listedPrograms = new Map(scorePool.items.map((p) => [p.id, p.name]))
         const out: UniversityThresholds[] = []
         for (const u of (universities ?? []) as UniversityWithCode[]) {
             if (!u.code || !listed.has(u.id)) continue
-            const entries = schoolThresholds(admissionsByCode.get(u.code)?.scores ?? [], scoreScale)
+            const entries = schoolThresholds(admissionsByCode.get(u.code)?.scores ?? [], scoreScale, listedPrograms)
             if (entries.length > 0) out.push({ code: u.code, name: u.name, entries })
         }
         return out

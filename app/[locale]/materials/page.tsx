@@ -22,6 +22,7 @@ import { fetchMaterials } from "@/features/programs/api"
 import { SyllabusDetailModal } from "@/features/programs/components/SyllabusDetailModal"
 import { DataAttribution } from "@/features/programs/components/DataAttribution"
 import { Curriculum, SubjectMaterialSummary } from "@/features/programs/types"
+import { safeHttpUrl } from "@/lib/safe-url"
 
 type FilterType = "all" | "coursera" | "textbook"
 
@@ -301,14 +302,15 @@ export default function MaterialsPage() {
                                 {/* Materials Items List */}
                                 <div className="pt-2 border-t border-border/50 space-y-2.5">
                                     {item.materials.slice(0, 3).map((m, idx) => {
+                                        const href = safeHttpUrl(m.materialDescription)
                                         return (
                                             <div
                                                 key={idx}
                                                 className="p-3 rounded-xl bg-muted/40 border border-border/50 text-xs space-y-1.5 hover:bg-muted/60 transition-colors"
                                             >
-                                                {m.isUrl ? (
+                                                {href ? (
                                                     <a
-                                                        href={m.materialDescription}
+                                                        href={href}
                                                         target="_blank"
                                                         rel="noopener noreferrer"
                                                         className="text-primary font-bold hover:underline inline-flex items-center gap-1.5 break-all"

@@ -2,7 +2,9 @@
 
 import { useMemo } from "react"
 import { ExternalLink, School } from "lucide-react"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
+import { formatAdmissionNumber } from "@/lib/admissions-display"
+import { safeHttpUrl, urlHost } from "@/lib/safe-url"
 import { Program } from "../types"
 import majorGroupsData from "@/lib/major-groups.json"
 
@@ -33,18 +35,6 @@ interface MajorGroup {
 /** Build artifact of scripts/build-major-groups.mjs — static, no fetch. */
 const groups = (majorGroupsData as { generatedAt: string; groups: MajorGroup[] }).groups
 
-function hostnameOf(url: string | null | undefined): string | null {
-    if (!url) return null
-    try {
-        return new URL(url).hostname.replace(/^www\./, "")
-    } catch {
-        return url
-    }
-}
-
-const scoreText = (score: number): string =>
-    Number.isInteger(score) ? String(score) : score.toFixed(2)
-
 interface SameMajorElsewhereProps {
     program: Program
 }
@@ -57,6 +47,7 @@ interface SameMajorElsewhereProps {
  */
 export function SameMajorElsewhere({ program }: SameMajorElsewhereProps) {
     const t = useTranslations("programs")
+    const locale = useLocale()
 
     const others = useMemo(() => {
         const group = groups.find((g) => g.members.some((m) => m.programId === program.id))
@@ -80,7 +71,7 @@ export function SameMajorElsewhere({ program }: SameMajorElsewhereProps) {
             <ul className="space-y-2">
                 {others.map((m) => {
                     const c = m.newestCutoff
-                    const domain = hostnameOf(m.sourceUrl)
+                    const href = safeHttpUrl(m.sourceUrl)
                     return (
                         <li
                             key={m.programId}
@@ -96,10 +87,10 @@ export function SameMajorElsewhere({ program }: SameMajorElsewhereProps) {
                                 {c && typeof c.score === "number" ? (
                                     <span className="inline-flex flex-wrap items-baseline gap-x-1.5">
                                         <span className="font-mono font-bold text-sm text-primary">
-                                            {scoreText(c.score)}
+                                            {formatAdmissionNumber(c.score, locale)}
                                         </span>
                                         {typeof c.scale === "number" && (
-                                            <span className="font-mono">/ {c.scale}</span>
+                                            <span className="font-mono">/ {formatAdmissionNumber(c.scale, locale)}</span>
                                         )}
                                         <span>
                                             · {c.year}
@@ -109,14 +100,14 @@ export function SameMajorElsewhere({ program }: SameMajorElsewhereProps) {
                                 ) : (
                                     <span className="italic">{t("sameMajorElsewhereNoData")}</span>
                                 )}
-                                {m.sourceUrl && domain && (
+                                {href && (
                                     <a
-                                        href={m.sourceUrl}
+                                        href={href}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center gap-0.5 text-primary hover:underline break-all"
                                     >
-                                        {domain}
+                                        {urlHost(href)}
                                         <ExternalLink className="h-2.5 w-2.5 shrink-0" />
                                     </a>
                                 )}
