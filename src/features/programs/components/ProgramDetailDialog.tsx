@@ -38,13 +38,20 @@ import { compareSemesters, semesterKey, semesterLabel } from "../semester"
 import { ElectiveGroups } from "./ElectiveGroups"
 import { exportProgramToCsv, exportProgramToJson } from "@/lib/exportUtils"
 import { hasEnoughData } from "@/lib/score-basis"
-import { formatAdmissionNumber } from "@/lib/admissions-display"
+import {
+    admissionKindText,
+    admissionScopeText,
+    admissionsForProgram,
+    formatAdmissionNumber,
+    tuitionAmountText,
+    tuitionBasisText,
+} from "@/lib/admissions-display"
 import { safeHttpUrl, urlHost } from "@/lib/safe-url"
 import { buildTrendSeries, deltaVsPreviousYear } from "@/lib/admissionTrend"
 import { ScoreTrendChart } from "./ScoreTrendChart"
 import { SameMajorElsewhere } from "./SameMajorElsewhere"
 import { WishlistButton } from "@/features/wishlist/WishlistButton"
-import { programLinkUrl } from "../programLink"
+import { programLinkUrl, programPagePath } from "../programLink"
 import { useModalFocus } from "@/hooks/useModalFocus"
 
 interface ProgramDetailDialogProps {
@@ -92,15 +99,6 @@ function rawExcerpt(text: string | null | undefined): string | null {
     const cut = t.slice(0, RAW_EXCERPT_MAX)
     const end = cut.search(/\s\S*$/) // last word boundary inside the limit
     return `${(end > 0 ? cut.slice(0, end) : cut).trimEnd()}…`
-}
-
-function formatMoney(amount: number | null | undefined, currency: string): string | null {
-    if (amount == null) return null
-    try {
-        return new Intl.NumberFormat("vi-VN", { style: "currency", currency }).format(amount)
-    } catch {
-        return `${amount.toLocaleString("vi-VN")} ${currency}`
-    }
 }
 
 /**
@@ -221,7 +219,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     const copyLink = async () => {
         if (!program) return
         try {
-            await navigator.clipboard.writeText(programLinkUrl(program.id))
+            await navigator.clipboard.writeText(programLinkUrl(locale, program.id))
             setLinkCopied(true)
             window.setTimeout(() => setLinkCopied(false), 2000)
         } catch {
@@ -267,28 +265,10 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
 
     const admissionsView = useMemo(() => {
         if (!admissions || !program) return null
-        const pid = program.id
-        // Rows bound to this program by programId (any scope, e.g. per-campus
-        // rows still carry the programId and render as program-level data).
-        const programScores = admissions.scores
-            .filter((s) => s.programId === pid)
-            .sort((a, b) => b.year - a.year)
-        const programQuotas = admissions.quotas
-            .filter((q) => q.programId === pid)
-            .sort((a, b) => b.year - a.year)
-        const programTuitions = admissions.tuitions.filter((x) => x.programId === pid)
-        // Context rows: never tied to a specific program (programId null per
-        // spec — group/school scopes are not fanned out); shown separately and
-        // labeled by scope so they are never read as per-program data.
-        const contextScores = admissions.scores
-            .filter((s) => s.programId === null && s.scope !== "program")
-            .sort((a, b) => b.year - a.year)
-        const contextQuotas = admissions.quotas
-            .filter((q) => q.programId === null && q.scope !== "program")
-            .sort((a, b) => b.year - a.year)
-        const contextTuitions = admissions.tuitions.filter((x) => x.programId === null)
+        // Own rows + context rows (school/group/campus), one rule with the program page (v2.60).
+        const rows = admissionsForProgram(admissions, program.id)
         const methods: { key: string; label: string }[] = []
-        for (const s of [...programScores, ...contextScores]) {
+        for (const s of [...rows.programScores, ...rows.contextScores]) {
             // Key carries year: the same method_code exists in both 2024 and
             // 2025 snapshots and must not merge into one selector entry.
             // Year-first keeps the newest year as the default selection.
@@ -298,23 +278,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
             }
         }
         methods.sort((a, b) => b.key.localeCompare(a.key))
-        const isEmpty =
-            programScores.length === 0 &&
-            contextScores.length === 0 &&
-            programQuotas.length === 0 &&
-            contextQuotas.length === 0 &&
-            programTuitions.length === 0 &&
-            contextTuitions.length === 0
-        return {
-            programScores,
-            contextScores,
-            programQuotas,
-            contextQuotas,
-            programTuitions,
-            contextTuitions,
-            methods,
-            isEmpty,
-        }
+        return { ...rows, methods }
     }, [admissions, program])
 
     // v1.3 trend: same-scale + same-method cutoff series, computed once for
@@ -329,40 +293,6 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         admissionMethod && admissionsView?.methods.some((m) => m.key === admissionMethod)
             ? admissionMethod
             : (admissionsView?.methods[0]?.key ?? null)
-
-    const kindLabel = (kind: string): string =>
-        kind === "floor"
-            ? t("admissionKindFloor")
-            : kind === "converted"
-                ? t("admissionKindConverted")
-                : t("admissionKindCutoff")
-
-    const scopeBadgeLabel = (scope: string, scopeLabel: string | null): string => {
-        const base =
-            scope === "campus"
-                ? t("admissionScopeCampus")
-                : scope === "group"
-                    ? t("admissionScopeGroup")
-                    : scope === "school"
-                        ? t("admissionScopeSchool")
-                        : t("admissionScopeProgram")
-        if (!scopeLabel) return base
-        // Avoid duplication like "Toàn trường: Toàn trường" when the label
-        // already spells out the scope.
-        if (scopeLabel.trim().toLowerCase() === base.trim().toLowerCase()) return scopeLabel
-        return scope === "campus" ? `${base} ${scopeLabel}` : `${base}: ${scopeLabel}`
-    }
-
-    const basisLabel = (basis: string): string =>
-        basis === "per_credit"
-            ? t("tuitionBasisPerCredit")
-            : basis === "per_semester"
-                ? t("tuitionBasisPerSemester")
-                : basis === "per_year"
-                    ? t("tuitionBasisPerYear")
-                    : basis === "per_program"
-                        ? t("tuitionBasisPerProgram")
-                        : basis
 
     const methodLabelFor = (methodKey: string): string =>
         admissionsView?.methods.find((m) => m.key === methodKey)?.label || methodKey
@@ -411,13 +341,13 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                     )}
                 </span>
                 <Badge variant="outline" className="text-[10px] font-semibold">
-                    {kindLabel(s.kind)}
+                    {admissionKindText(t, s.kind)}
                 </Badge>
                 <span className="text-[11px] font-semibold text-muted-foreground">{s.year}</span>
                 {trendDeltaBadge(s)}
                 {(s.scope !== "program" || s.scopeLabel) && (
                     <Badge variant="secondary" className="text-[10px] font-semibold">
-                        {scopeBadgeLabel(s.scope, s.scopeLabel)}
+                        {admissionScopeText(t, s.scope, s.scopeLabel)}
                     </Badge>
                 )}
                 {s.methodLabel && (
@@ -445,7 +375,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                     variant={q.scope === "program" ? "outline" : "secondary"}
                     className="text-[10px] font-semibold"
                 >
-                    {scopeBadgeLabel(q.scope, q.scopeLabel)}
+                    {admissionScopeText(t, q.scope, q.scopeLabel)}
                 </Badge>
                 <span className="text-[11px] text-muted-foreground">{q.year}</span>
             </div>
@@ -466,16 +396,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     )
 
     const renderTuitionRow = (x: TuitionRecord, i: number) => {
-        const amountText =
-            x.amount != null
-                ? formatMoney(x.amount, x.currency)
-                : x.minAmount != null && x.maxAmount != null
-                    ? `${formatMoney(x.minAmount, x.currency)} – ${formatMoney(x.maxAmount, x.currency)}`
-                    : x.minAmount != null
-                        ? `≥ ${formatMoney(x.minAmount, x.currency)}`
-                        : x.maxAmount != null
-                            ? `≤ ${formatMoney(x.maxAmount, x.currency)}`
-                            : null
+        const amountText = tuitionAmountText(x)
         return (
             <div
                 key={`${x.academicYear ?? ""}-${x.basis}-${x.appliesTo ?? ""}-${i}`}
@@ -485,7 +406,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                     <span className="text-base font-black text-foreground">
                         {amountText ?? "—"}
                         {amountText && x.basis && (
-                            <span className="text-xs font-semibold text-muted-foreground"> {basisLabel(x.basis)}</span>
+                            <span className="text-xs font-semibold text-muted-foreground"> {tuitionBasisText(t, x.basis)}</span>
                         )}
                     </span>
                     {x.academicYear && (
@@ -659,6 +580,12 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                             </span>
                                         </p>
                                     )}
+                                    {/* The program's own page (v2.60): server-rendered, shareable, the copy-link target. */}
+                                    <p className="pt-0.5 text-xs">
+                                        <a href={programPagePath(locale, program.id)} className="font-semibold text-primary hover:underline">
+                                            {t("programPageLink")}
+                                        </a>
+                                    </p>
                                 </div>
                                 <div className="flex items-center gap-1.5 shrink-0 self-end sm:self-auto">
                                     <Button

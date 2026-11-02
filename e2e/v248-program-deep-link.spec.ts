@@ -8,7 +8,7 @@ import path from "path"
  * The program detail dialog lives in the URL: `?program=<id>` opens it (also
  * for a program outside the first listing page), closing it removes the
  * param, browser Back closes it and stays on the list, a wishlist entry opens
- * it, and the dialog copies a link to itself. The param is untrusted input:
+ * it, and the dialog copies a link to the program's page (v2.60). The param is untrusted input:
  * anything that is not a program id (GUID) shows an honest notice and never
  * reaches a fetch path.
  *
@@ -172,11 +172,11 @@ test.describe("v2.48 — program deep link ?program=<id>", () => {
         // The copied state lasts 2 s; its accessible name is the signal.
         await expect(copy).toHaveAccessibleName(vi.compareShareCopied!)
         const clip = await page.evaluate(() => navigator.clipboard.readText())
-        expect(clip).toBe(`${new URL(page.url()).origin}/vi?program=${last.id}`)
+        expect(clip).toBe(`${new URL(page.url()).origin}/vi/programs/${last.id}`)
 
         const other = await context.newPage()
         await other.goto(clip, { waitUntil: "domcontentloaded" })
-        await expect(dialogHeading(other, last.name)).toBeVisible({ timeout: 30000 })
+        await expect(other.getByRole("heading", { level: 1, name: last.name, exact: true })).toBeVisible({ timeout: 30000 })
     })
 
     test("an invalid, unknown or unloadable id shows an honest notice, fetches nothing unsafe and does not crash", async ({ page }) => {

@@ -3,7 +3,7 @@ import { NextIntlClientProvider } from "next-intl"
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server"
 import { notFound } from "next/navigation"
 import { routing } from "@/i18n/routing"
-import { alternates } from "@/lib/seo"
+import { SITE_OPEN_GRAPH, alternates } from "@/lib/seo"
 import { InnerLayout } from "../InnerLayout"
 
 export function generateStaticParams() {
@@ -18,6 +18,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         title: { default: t("title"), template: "%s · Tedo" },
         description: t("description"),
         alternates: alternates(locale, ""),
+        openGraph: SITE_OPEN_GRAPH,
+        twitter: { card: "summary" },
     }
 }
 

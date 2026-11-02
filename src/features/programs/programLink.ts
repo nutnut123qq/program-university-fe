@@ -5,9 +5,9 @@ export { isProgramId }
 
 /**
  * `?program=<id>` on the list page opens that program's detail dialog
- * (v2.48, audit V5). The URL is the source of truth, so a detail can be
- * shared and browser Back closes it. Everything about the param lives here —
- * V9's program route can later take over `programLinkUrl`.
+ * (v2.48, audit V5). The URL is the source of truth, so browser Back closes
+ * it. Everything about the param lives here. The link a user shares is the
+ * program's own page (v2.60, audit V6): `programLinkUrl`.
  */
 const PROGRAM_PARAM = "program"
 
@@ -65,9 +65,12 @@ export function stackProgramLanding(): boolean {
     return true
 }
 
-/** Shareable link to a program's detail on the current list page. */
-export function programLinkUrl(id: string) {
-    const url = new URL(window.location.pathname, window.location.origin)
-    url.searchParams.set(PROGRAM_PARAM, id)
-    return url.toString()
+/** Path of a program's own server-rendered page (v2.52). */
+export function programPagePath(locale: string, id: string) {
+    return `/${locale}/programs/${encodeURIComponent(id)}`
+}
+
+/** Shareable link to a program: its own page on this origin (v2.60). */
+export function programLinkUrl(locale: string, id: string) {
+    return new URL(programPagePath(locale, id), window.location.origin).toString()
 }

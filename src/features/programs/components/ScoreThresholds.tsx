@@ -3,7 +3,7 @@
 import { ExternalLink } from "lucide-react"
 import { useLocale, useTranslations } from "next-intl"
 import { Badge } from "@/components/ui/badge"
-import { displayMethod, formatAdmissionNumber } from "@/lib/admissions-display"
+import { formatAdmissionNumber, newestPerMethod } from "@/lib/admissions-display"
 import { urlHost } from "@/lib/safe-url"
 import type { AdmissionScore } from "../types"
 
@@ -62,14 +62,8 @@ export function schoolThresholds(
             s.scale === scale &&
             (s.programId == null || (listed.has(s.programId) && !tested.has(s.programId)))
     )
-    const newest = new Map<string, number>()
-    for (const s of rows) {
-        const method = displayMethod(s)
-        newest.set(method, Math.max(newest.get(method) ?? -Infinity, s.year))
-    }
     const entries = new Map<string, ThresholdEntry>()
-    for (const s of rows) {
-        if (s.year !== newest.get(displayMethod(s))) continue
+    for (const s of newestPerMethod(rows)) {
         const method = s.method ?? ""
         const key = [method, s.year, s.kind, s.scope, s.score].join("|")
         let e = entries.get(key)

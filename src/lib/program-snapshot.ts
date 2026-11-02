@@ -6,13 +6,15 @@ import { readFile } from "fs/promises"
 import path from "path"
 import { cache } from "react"
 import { isProgramId } from "@/features/programs/programId"
-import type { Curriculum, Program } from "@/features/programs/types"
+import type { AdmissionData, Curriculum, Program } from "@/features/programs/types"
 
 // One literal join per path: a shared `public/mock` base makes the file tracer
 // ship all of public/mock with the route (12,442 files, chat-retrieval's warning).
 const BY_ID_DIR = path.join(process.cwd(), "public", "mock", "programs-by-id")
 const CURRICULA_DIR = path.join(process.cwd(), "public", "mock", "curricula")
 const INDEX_FILE = path.join(process.cwd(), "public", "mock", "index.json")
+const UNIVERSITIES_FILE = path.join(process.cwd(), "public", "mock", "universities.json")
+const ADMISSIONS_DIR = path.join(process.cwd(), "public", "mock", "admissions")
 
 const readJson = async <T>(file: string): Promise<T | null> => {
     try {
@@ -35,6 +37,17 @@ export async function loadCourses(id: string): Promise<Curriculum[]> {
     if (!isProgramId(id)) return []
     const rows = await readJson<unknown>(path.join(CURRICULA_DIR, `${id}.json`))
     return Array.isArray(rows) ? (rows as Curriculum[]) : []
+}
+
+/**
+ * Admissions snapshot of a program's university (v2.60): universities.json id → code → admissions/<CODE>.json,
+ * the file the dialog fetches; null when there is none. The code is data: sanitised as `fetchAdmissions` does.
+ */
+export async function loadAdmissions(universityId: string): Promise<AdmissionData | null> {
+    const universities = await readJson<{ id: string; code?: string | null }[]>(UNIVERSITIES_FILE)
+    const code = Array.isArray(universities) ? universities.find((u) => u.id === universityId)?.code : null
+    if (!code) return null
+    return readJson<AdmissionData>(path.join(ADMISSIONS_DIR, `${code.replace(/[^a-zA-Z0-9_\-]/g, "_")}.json`))
 }
 
 /** `generatedAt` of the snapshot (index.json), or null. */

@@ -5,6 +5,12 @@ import { routing } from "@/i18n/routing"
 export const SITE_URL =
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://program-university-fe.vercel.app"
 
+/**
+ * Share preview of every route (v2.60): no title or description here on purpose — Next fills og:title,
+ * og:description and twitter:* from each route's own resolved title/description. Program pages add og:url.
+ */
+export const SITE_OPEN_GRAPH = { siteName: "Tedo", type: "website" } as const
+
 /** canonical = this locale's URL of `path`, hreflang = every locale's + x-default = the default locale's (resolved against the root metadataBase). */
 export function alternates(locale: string, path: string): Metadata["alternates"] {
     return {
