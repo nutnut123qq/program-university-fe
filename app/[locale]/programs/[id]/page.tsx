@@ -130,7 +130,7 @@ export default async function ProgramPage({ params }: Props) {
                                         <td className="p-2 font-mono text-xs">{c.courseCode ?? "—"}</td>
                                         <td className="p-2">{c.courseName || "—"}</td>
                                         <td className="p-2">{c.credits ?? "—"}</td>
-                                        <td className="p-2">{c.semester ?? "—"}</td>
+                                        <td className="p-2">{c.semester == null ? "—" : c.semester <= 0 ? t("semesterPrep", { n: c.semester }) : c.semester}</td>
                                     </tr>
                                 ))}
                             </tbody>

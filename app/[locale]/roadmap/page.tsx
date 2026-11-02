@@ -27,7 +27,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { fetchRoadmap, fetchRoadmapsIndex, fetchSyllabus, fetchUniversities } from "@/features/programs/api"
 import { SyllabusDetailModal } from "@/features/programs/components/SyllabusDetailModal"
 import { DataAttribution } from "@/features/programs/components/DataAttribution"
-import { DEFAULT_ROADMAP_UNIVERSITY, ROADMAP_UNIVERSITIES, relationCodes, withoutFiller } from "@/features/programs/roadmapUniversities"
+import { DEFAULT_ROADMAP_UNIVERSITY, ROADMAP_UNIVERSITIES, relationCodes, sameName, withoutFiller } from "@/features/programs/roadmapUniversities"
 import { Curriculum, University } from "@/features/programs/types"
 
 const POPULAR_SUBJECTS = [
@@ -91,6 +91,7 @@ export default function RoadmapPage() {
         () => fetchSyllabus(university, selectedCode)
     )
     const currentSyllabus = withoutFiller(university, syllabusFile)
+    const bannerTitle = currentRoadmap?.subjectName || currentSyllabus?.info?.syllabusName || selectedCode
     const hasSyllabus = !!uniData?.syllabus
     const isFlowLoading = isRoadmapLoading || (!!uniData && !selectedCode && indexList === undefined)
 
@@ -283,9 +284,9 @@ export default function RoadmapPage() {
                                 )}
                             </div>
                             <h2 className="text-xl sm:text-2xl font-black tracking-tight text-foreground truncate">
-                                {currentRoadmap?.subjectName || currentSyllabus?.info?.syllabusName || selectedCode}
+                                {bannerTitle}
                             </h2>
-                            {currentSyllabus?.info?.syllabusEnglish && (
+                            {currentSyllabus?.info?.syllabusEnglish && !sameName(currentSyllabus.info.syllabusEnglish, bannerTitle) && (
                                 <p className="text-xs text-muted-foreground italic truncate">
                                     {currentSyllabus.info.syllabusEnglish}
                                 </p>

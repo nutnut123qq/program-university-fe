@@ -23,6 +23,7 @@ import { SyllabusDetailModal } from "@/features/programs/components/SyllabusDeta
 import { DataAttribution } from "@/features/programs/components/DataAttribution"
 import { Curriculum, SubjectMaterialSummary } from "@/features/programs/types"
 import { safeHttpUrl } from "@/lib/safe-url"
+import { isZeroValue, sameName } from "@/features/programs/roadmapUniversities"
 
 type FilterType = "all" | "coursera" | "textbook"
 
@@ -115,7 +116,7 @@ export default function MaterialsPage() {
             year: null,
             courseName: item.subjectName,
             courseCode: item.subjectCode,
-            credits: Number.isFinite(Number(item.credits)) ? Number(item.credits) : null,
+            credits: Number.isFinite(Number(item.credits)) && !isZeroValue(item.credits) ? Number(item.credits) : null,
             mandatory: true,
             semester: null,
             hoursTheory: null,
@@ -269,9 +270,11 @@ export default function MaterialsPage() {
                                             <Badge className="font-mono text-xs font-black px-2.5 py-0.5 bg-primary/10 text-primary border-primary/20">
                                                 <HighlightText text={item.subjectCode} query={searchQuery} />
                                             </Badge>
-                                            <Badge variant="outline" className="font-mono text-[10px] font-bold">
-                                                {tp("creditsShort", { count: item.credits })}
-                                            </Badge>
+                                            {!isZeroValue(item.credits) && (
+                                                <Badge variant="outline" className="font-mono text-[10px] font-bold">
+                                                    {tp("creditsShort", { count: item.credits })}
+                                                </Badge>
+                                            )}
                                             {item.hasCoursera && (
                                                 <Badge className="text-[10px] bg-blue-500/10 text-blue-600 dark:text-blue-400 border-blue-500/20 gap-1 font-bold">
                                                     <Sparkles className="w-2.5 h-2.5" />
@@ -282,7 +285,7 @@ export default function MaterialsPage() {
                                         <h3 className="font-extrabold text-sm text-foreground line-clamp-2 leading-snug">
                                             <HighlightText text={item.subjectName} query={searchQuery} />
                                         </h3>
-                                        {item.subjectEnglish && (
+                                        {item.subjectEnglish && !sameName(item.subjectEnglish, item.subjectName) && (
                                             <p className="text-xs text-muted-foreground italic truncate">
                                                 <HighlightText text={item.subjectEnglish} query={searchQuery} />
                                             </p>

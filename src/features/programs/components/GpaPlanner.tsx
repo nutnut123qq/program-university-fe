@@ -6,6 +6,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 import { Curriculum } from "../types"
 import { useTranslations } from "next-intl"
 import { Calculator } from "lucide-react"
+import { compareSemesters, semesterLabel } from "../semester"
 
 interface GpaPlannerProps {
     courses: Curriculum[]
@@ -34,7 +35,7 @@ export const GpaPlanner: React.FC<GpaPlannerProps> = ({ courses }) => {
             if (list) list.push(c)
             else bySemester.set(c.semester, [c])
         }
-        return [...bySemester.entries()].sort(([a], [b]) => (a == null ? 1 : b == null ? -1 : a - b))
+        return [...bySemester.entries()].sort(([a], [b]) => compareSemesters(a, b))
     }, [courses])
     const hasSemesters = groups.some(([semester]) => semester != null)
 
@@ -93,7 +94,7 @@ export const GpaPlanner: React.FC<GpaPlannerProps> = ({ courses }) => {
                         <div key={semester ?? "none"} data-testid="gpa-group" data-semester={semester ?? "none"} className="divide-y">
                             {hasSemesters && (
                                 <h4 className="sticky top-0 z-10 px-3 py-1.5 text-[11px] font-bold text-muted-foreground bg-muted">
-                                    {semester == null ? t("gpaSemesterUnknown") : t("semesterN", { n: semester })}
+                                    {semesterLabel(t, semester)}
                                 </h4>
                             )}
                             {items.map((c) => (
@@ -105,13 +106,20 @@ export const GpaPlanner: React.FC<GpaPlannerProps> = ({ courses }) => {
                                         </span>
                                     </div>
                                     <select
+                                        aria-label={t("gpaGradeFor", { course: c.courseCode ? `${c.courseName} (${c.courseCode})` : c.courseName })}
                                         onChange={(e) => {
-                                            const val = parseFloat(e.target.value)
-                                            setCourseGrades((prev) => ({ ...prev, [c.id]: val }))
+                                            const val = e.target.value
+                                            // "Not graded" removes the course from both sums (it used to count as 0 with its credits).
+                                            setCourseGrades((prev) => {
+                                                const next = { ...prev }
+                                                if (val === "") delete next[c.id]
+                                                else next[c.id] = parseFloat(val)
+                                                return next
+                                            })
                                         }}
                                         className="text-xs font-medium border rounded-lg px-2 py-1 bg-background focus:ring-1 focus:ring-primary"
                                     >
-                                        <option value="0">{t("gpaNotGraded")}</option>
+                                        <option value="">{t("gpaNotGraded")}</option>
                                         {GRADE_SCALE.map((g) => (
                                             <option key={g.key} value={g.score}>
                                                 {t(g.key)}

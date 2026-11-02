@@ -25,12 +25,35 @@ const SYLLABUS_FILLER: ReadonlyMap<string, { info: (keyof SyllabusInfo)[]; sessi
     ["TDTU", { info: ["decisionNo", "minAvgToPass", "scoringScale"], sessions: ["learningTeachingType", "studentTasks"] }],
 ])
 
-/** The syllabus as displayed: its university's filler fields blanked (every reader skips an empty value). */
+/**
+ * A stored value that is a number equal to 0 ("0", "0.0"). A zero credit count, pass score or failing criterion says
+ * nothing (v2.59, measured: TDTU 39 / FPT 6 zero-credit syllabi, FPT 2 pass scores, TDTU 4,165 criteria): a 0 does not
+ * tell a non-credit course from one not recorded.
+ */
+export const isZeroValue = (v: unknown) => {
+    const s = String(v ?? "").trim()
+    return s !== "" && Number(s) === 0
+}
+
+const foldName = (s: string | null | undefined) => (s ?? "").normalize("NFC").trim().replace(/\s+/g, " ").toLowerCase()
+/** Two names that read the same (NFC, spaces and letter case folded): an English line equal to its title is not shown (v2.59). */
+export const sameName = (a: string | null | undefined, b: string | null | undefined) => foldName(a) === foldName(b)
+
+/**
+ * The syllabus as displayed: its university's filler fields and its zero credits / pass score / failing criteria blanked
+ * (every reader skips an empty value; an empty criterion reads "not specified").
+ */
 export function withoutFiller(universityCode: string | null | undefined, syllabus: SyllabusDetail | null | undefined) {
+    if (!syllabus) return syllabus
     const filler = SYLLABUS_FILLER.get(universityCode ?? "")
-    if (!syllabus || !filler) return syllabus
     const blank = <R extends object>(row: R, keys: (keyof R)[]): R => ({ ...row, ...Object.fromEntries(keys.map((k) => [k, ""])) })
-    return { ...syllabus, info: blank(syllabus.info, filler.info), sessions: syllabus.sessions?.map((s) => blank(s, filler.sessions)) }
+    const zeros = <R extends object>(row: R, keys: (keyof R)[]) => keys.filter((k) => isZeroValue(row[k]))
+    return {
+        ...syllabus,
+        info: syllabus.info && blank(syllabus.info, [...(filler?.info ?? []), ...zeros(syllabus.info, ["credits", "minAvgToPass"])]),
+        assessments: syllabus.assessments?.map((a) => blank(a, zeros(a, ["completionCriteria"]))),
+        sessions: filler ? syllabus.sessions?.map((s) => blank(s, filler.sessions)) : syllabus.sessions,
+    }
 }
 
 /** A relation entry stored as a comma-joined list ("A, B" — 13 NEU prerequisites) shown as separate codes; data unchanged. */

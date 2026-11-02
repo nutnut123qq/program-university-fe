@@ -27,7 +27,8 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 import { fetchSyllabus, fetchRoadmap, fetchUniversityCode } from "../api"
-import { ROADMAP_UNIVERSITIES, relationCodes, withoutFiller } from "../roadmapUniversities"
+import { ROADMAP_UNIVERSITIES, relationCodes, sameName, withoutFiller } from "../roadmapUniversities"
+import { semesterLabel } from "../semester"
 import { Curriculum } from "../types"
 import { useModalFocus } from "@/hooks/useModalFocus"
 import { safeHttpUrl } from "@/lib/safe-url"
@@ -134,7 +135,7 @@ export function SyllabusDetailModal({
                                 </Badge>
                                 {course.semester !== null && (
                                     <Badge variant="outline" className="font-mono text-xs">
-                                        {t("semesterBadge", { n: course.semester })}
+                                        {course.semester <= 0 ? semesterLabel(tp, course.semester) : t("semesterBadge", { n: course.semester })}
                                     </Badge>
                                 )}
                                 {course.credits != null && (
@@ -151,7 +152,7 @@ export function SyllabusDetailModal({
                             <h2 id={titleId} className="text-lg sm:text-xl font-extrabold tracking-tight text-foreground truncate">
                                 {info?.syllabusName || course.courseName}
                             </h2>
-                            {info?.syllabusEnglish && (
+                            {info?.syllabusEnglish && !sameName(info.syllabusEnglish, info.syllabusName || course.courseName) && (
                                 <p className="text-xs text-muted-foreground italic truncate">
                                     {info.syllabusEnglish}
                                 </p>
@@ -249,7 +250,7 @@ export function SyllabusDetailModal({
                                         meta: (() => {
                                             const parts = [
                                                 course.semester !== null && course.semester !== undefined
-                                                    ? t("emptyMetaSemester", { n: course.semester })
+                                                    ? t(course.semester <= 0 ? "emptyMetaPrep" : "emptyMetaSemester", { n: course.semester })
                                                     : null,
                                                 course.credits !== null && course.credits !== undefined
                                                     ? t("emptyMetaCredits", { count: course.credits })

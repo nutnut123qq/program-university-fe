@@ -34,6 +34,7 @@ import { PrerequisiteGraph } from "./PrerequisiteGraph"
 import { GpaPlanner } from "./GpaPlanner"
 import { KnowledgeBlockBreakdown } from "./KnowledgeBlockBreakdown"
 import { SyllabusDetailModal } from "./SyllabusDetailModal"
+import { compareSemesters, semesterKey, semesterLabel } from "../semester"
 import { ElectiveGroups } from "./ElectiveGroups"
 import { exportProgramToCsv, exportProgramToJson } from "@/lib/exportUtils"
 import { hasEnoughData } from "@/lib/score-basis"
@@ -518,7 +519,13 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     const sourceHref = safeHttpUrl(program?.sourceUrl)
     const lastCrawledText = program ? formatDate(program.lastCrawled) : null
 
-    // Instant Course Search & Semester Filter
+    // Instant Course Search & Semester Filter: the options are the program's own semesters ("none" = not specified).
+    const semesterOptions = useMemo(
+        () => [...new Set((courses ?? []).map((c) => c.semester))].sort(compareSemesters),
+        [courses]
+    )
+    // A choice made for another program falls back to "all" instead of an empty table under a hidden option.
+    const semesterChoice = semesterOptions.some((s) => semesterKey(s) === semesterFilter) ? semesterFilter : "all"
     const filteredCourses = useMemo(() => {
         if (!courses) return []
         return courses.filter((c) => {
@@ -527,11 +534,11 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                 (c.courseName || "").toLowerCase().includes(courseSearch.toLowerCase()) ||
                 (c.courseCode || "").toLowerCase().includes(courseSearch.toLowerCase())
 
-            const matchesSem = semesterFilter === "all" || String(c.semester) === semesterFilter
+            const matchesSem = semesterChoice === "all" || semesterKey(c.semester) === semesterChoice
 
             return matchesQuery && matchesSem
         })
-    }, [courses, courseSearch, semesterFilter])
+    }, [courses, courseSearch, semesterChoice])
 
     const tabs: { key: TabKey; label: string }[] = [
         { key: "info", label: t("infoTab") },
@@ -948,8 +955,8 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                 )}
                                             </div>
 
-                                            {/* Search Input & Semester Select */}
-                                            <div className="flex items-center gap-2">
+                                            {/* Search Input & Semester Select (wraps on phones: preparatory labels are long) */}
+                                            <div className="flex flex-wrap items-center gap-2">
                                                 <div className="relative">
                                                     <Search className="w-3.5 h-3.5 text-muted-foreground absolute left-2.5 top-2.5" />
                                                     <input
@@ -961,13 +968,14 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                     />
                                                 </div>
                                                 <select
-                                                    value={semesterFilter}
+                                                    aria-label={t("semester")}
+                                                    value={semesterChoice}
                                                     onChange={(e) => setSemesterFilter(e.target.value)}
                                                     className="py-1.5 px-2 text-xs border rounded-lg bg-background font-medium focus:ring-1 focus:ring-primary focus:outline-none"
                                                 >
                                                     <option value="all">{t("allSemesters")}</option>
-                                                    {[1, 2, 3, 4, 5, 6, 7, 8].map((s) => (
-                                                        <option key={s} value={String(s)}>{t("semesterN", { n: s })}</option>
+                                                    {semesterOptions.map((s) => (
+                                                        <option key={semesterKey(s)} value={semesterKey(s)}>{semesterLabel(t, s)}</option>
                                                     ))}
                                                 </select>
                                             </div>
@@ -1035,7 +1043,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                                     )}
                                                                 </td>
                                                                 <td className="px-4 py-3 text-center font-mono text-xs font-bold text-muted-foreground">
-                                                                    {course.semester != null ? `HK${course.semester}` : "N/A"}
+                                                                    {course.semester == null ? "N/A" : course.semester <= 0 ? semesterLabel(t, course.semester) : `HK${course.semester}`}
                                                                 </td>
                                                                 <td className="px-4 py-3">
                                                                     <Badge variant="outline" className="text-[10px] font-mono font-medium">
