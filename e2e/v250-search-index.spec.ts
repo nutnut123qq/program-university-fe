@@ -19,7 +19,7 @@ import path from "path"
  * browser, for queries/filters/sorts derived from public/mock at test time; every
  * cut description still needs more than two lines at the widest card, so the
  * visible card is unchanged; a search-result card opens the full program; plain
- * browsing and the compare page keep the chunk path. Nothing named is pinned.
+ * browsing and the compare browse options keep the chunk path (the compare search reads the index since v2.61). Nothing named is pinned.
  * domcontentloaded, not networkidle (AGENTS.md §12).
  */
 const ROOT = path.join(__dirname, "..")
@@ -455,7 +455,7 @@ test.describe("v2.50 — compact search index", () => {
         await expect.poll(() => dialog.locator("div.whitespace-pre-line").allTextContents()).toContain(p.description)
     })
 
-    test("plain browsing and the compare page keep the chunk path and never load the index", async ({ page }) => {
+    test("plain browsing and the compare browse options keep the chunk path and never load the index", async ({ page }) => {
         const indexRequests: string[] = []
         page.on("request", (r) => {
             if (new URL(r.url()).pathname === "/mock/search-index.json") indexRequests.push(r.url())
@@ -471,10 +471,6 @@ test.describe("v2.50 — compact search index", () => {
         // Its browse options (the first 200 programs) are loaded = the page is hydrated.
         const select = page.getByRole("combobox", { name: vi.compareProgram1, exact: true })
         await expect.poll(() => select.locator("option").count(), { timeout: 30000 }).toBeGreaterThan(1)
-        const lastChunk = page.waitForResponse((r) => new URL(r.url()).pathname === `/mock/programs/${chunks[chunks.length - 1]}`, { timeout: 60000 })
-        const box = page.getByRole("searchbox", { name: vi.compareSearchLabel.replace("{slot}", vi.compareProgram1), exact: true })
-        await box.fill(diacriticWord!)
-        await lastChunk
         expect(indexRequests).toEqual([])
     })
 })

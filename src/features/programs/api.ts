@@ -1,5 +1,7 @@
 import {
     AdmissionData,
+    AdmissionQuota,
+    AdmissionScore,
     Curriculum,
     Program,
     ProgramSummary,
@@ -145,21 +147,18 @@ async function loadMockRawDocuments(programId: string): Promise<RawDocument[]> {
     return data
 }
 
+// A derived columnar file (search-index.json, score-index.json): `values[field]` decodes the dictionary-coded columns.
+type Columns = { fields: string[]; values: Record<string, unknown[]>; rows: unknown[][] }
+const decodeColumns = <T>({ fields, values, rows }: Columns): T[] =>
+    rows.map((row) => Object.fromEntries(fields.map((f, i) => [f, values[f] ? values[f][row[i] as number] : row[i]])) as T)
+
 // Compact list index (v2.50, scripts/build-search-index.mjs): one row per program in
-// chunk order with only the fields the list reads; `values[field]` decodes the
-// dictionary-coded columns. ~0.9 MB in one request instead of every chunk.
+// chunk order with only the fields the list reads. ~0.9 MB in one request instead of every chunk.
 function loadMockSearchIndex(): Promise<ProgramSummary[]> {
     mockSearchIndexPromise ??= fetch("/mock/search-index.json")
         .then(async (res) => {
             if (!res.ok) throw new Error(`Failed to load mock search index: ${res.status}`)
-            const { fields, values, rows }: { fields: string[]; values: Record<string, unknown[]>; rows: unknown[][] } =
-                await res.json()
-            return rows.map(
-                (row) =>
-                    Object.fromEntries(
-                        fields.map((f, i) => [f, values[f] ? values[f][row[i] as number] : row[i]])
-                    ) as ProgramSummary
-            )
+            return decodeColumns<ProgramSummary>(await res.json())
         })
         .catch((e) => {
             mockSearchIndexPromise = null // the next search retries
@@ -283,15 +282,24 @@ const needsAllPrograms = (params?: FetchProgramsParams) =>
 export const isFullProgram = (p: ProgramSummary): p is Program => "learningOutcomes" in p
 
 /**
- * The program list's fetcher (v2.50). In mock mode a search/filter runs the same
- * filter/sort over the compact search index instead of every chunk, so its items
- * are ProgramSummary rows; everything else (plain paging, API mode) is
- * fetchPrograms unchanged. The compare page keeps fetchPrograms: its search picks
- * feed its detail cards.
+ * The program list's fetcher (v2.50), also the compare slot search (v2.61). In mock mode a search/filter runs the
+ * same filter/sort over the compact search index instead of every chunk, so its items are ProgramSummary rows;
+ * everything else (plain paging, API mode) is fetchPrograms unchanged.
  */
 export async function fetchProgramList(params?: FetchProgramsParams): Promise<PagedResult<ProgramSummary>> {
     if (USE_MOCK && needsAllPrograms(params)) return applyFiltersAndSort(await loadMockSearchIndex(), params)
     return fetchPrograms(params)
+}
+
+/**
+ * The score filter's pool (v2.61): every program of the list's current filters, in list order. Mock mode reads only
+ * the search index: the plain newest-first list is its rows as stored (chunk order — what paging the chunks gives),
+ * anything else is fetchProgramList's index path. API mode pages through the API as before.
+ */
+export async function fetchProgramPool(params: FetchProgramsParams): Promise<PagedResult<ProgramSummary>> {
+    if (!USE_MOCK || needsAllPrograms(params)) return fetchProgramList(params)
+    const items = await loadMockSearchIndex()
+    return { items, totalCount: items.length, page: 1, pageSize: items.length, totalPages: 1, hasNextPage: false, hasPreviousPage: false }
 }
 
 export async function fetchPrograms(params?: FetchProgramsParams): Promise<ProgramsResponse> {
@@ -589,6 +597,30 @@ export async function fetchMaterials(universityCode: string): Promise<SubjectMat
         console.warn(`Could not load materials for ${universityCode}:`, e)
     }
     return []
+}
+
+/** The admissions rows the score filter reads, per university code. */
+export type ScoreFilterRows = Pick<AdmissionData, "scores" | "quotas">
+
+/**
+ * The score filter's admissions rows (v2.61, scripts/build-score-index.mjs): every score and quota row of every
+ * university with only the fields the filter reads, grouped by university code in universities.json order — one
+ * ~0.5 MB file instead of every admissions file. Read from /mock in both modes, as the admissions files are. A
+ * missing or unreadable file gives an empty map: no data, never fabricated (as a missing admissions file did).
+ */
+export async function fetchScoreIndex(): Promise<Map<string, ScoreFilterRows>> {
+    const byCode = new Map<string, ScoreFilterRows>()
+    try {
+        const res = await fetch("/mock/score-index.json")
+        if (!res.ok) return byCode
+        const { scores, quotas }: { scores: Columns; quotas: Columns } = await res.json()
+        const of = (code: string) => byCode.get(code) ?? byCode.set(code, { scores: [], quotas: [] }).get(code)!
+        for (const s of decodeColumns<AdmissionScore & { university: string }>(scores)) of(s.university).scores.push(s)
+        for (const q of decodeColumns<AdmissionQuota & { university: string }>(quotas)) of(q.university).quotas.push(q)
+    } catch {
+        byCode.clear()
+    }
+    return byCode
 }
 
 /**

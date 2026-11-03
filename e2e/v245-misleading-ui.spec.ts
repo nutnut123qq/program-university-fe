@@ -200,6 +200,7 @@ test.describe("v2.45 — misleading UI quick fixes", () => {
 
     test("no admissions data: titles and the score-filter line carry no hard-coded year", async ({ page }) => {
         await page.route("**/mock/admissions/*.json", (route) => route.fulfill({ status: 404, body: "" }))
+        await page.route("**/mock/score-index.json", (route) => route.fulfill({ status: 404, body: "" })) // the score filter's rows (v2.61)
         await page.goto("/vi", { waitUntil: "domcontentloaded" })
         await expect(page.getByRole("button", { name: /Xem chi tiết/i }).first()).toBeVisible({ timeout: 30000 })
         await page.getByTestId("score-filter-input").fill("25")

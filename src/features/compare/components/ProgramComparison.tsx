@@ -1,6 +1,6 @@
 "use client"
 
-import React, { Suspense, useEffect, useMemo, useState } from "react"
+import React, { Suspense, useEffect, useMemo, useRef, useState } from "react"
 import { usePathname, useSearchParams } from "next/navigation"
 import useSWR from "swr"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
@@ -8,8 +8,8 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Scale, GraduationCap, ArrowRightLeft, CheckCircle2, AlertCircle, Share2, Check, Plus, X, Search } from "lucide-react"
-import { fetchPrograms, fetchProgramById, fetchCurricula } from "@/features/programs/api"
-import { Program } from "@/features/programs/types"
+import { fetchPrograms, fetchProgramById, fetchProgramList, fetchCurricula, isFullProgram } from "@/features/programs/api"
+import { Program, ProgramSummary } from "@/features/programs/types"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 import { cn } from "@/lib/utils"
 import { hasEnoughData } from "@/lib/score-basis"
@@ -35,13 +35,14 @@ type SlotPickerProps = {
     value: string | null
     options: Program[]
     catalogTotal: number
-    onPick: (p: Program) => void
+    onPick: (p: ProgramSummary) => void
 }
 
 // One slot's native select. While the search box has text it lists every
 // program matching it (so programs outside the first-200 browse options can be
 // picked); otherwise the browse options. The slot's current program is always
 // kept as an option, so the select keeps showing it whatever the search text.
+// In mock mode the matches are search-index rows (v2.61), not every chunk.
 const SlotPicker = ({ slot, label, value, options, catalogTotal, onPick }: SlotPickerProps) => {
     const t = useTranslations("programs")
     const [query, setQuery] = useState("")
@@ -49,7 +50,7 @@ const SlotPicker = ({ slot, label, value, options, catalogTotal, onPick }: SlotP
     const { data: found } = useSWR(
         q && catalogTotal > 0 ? ["compare-search", q, catalogTotal] : null,
         // Page size = whole catalog: every match is listed, none cut off.
-        () => fetchPrograms({ search: q, page: 1, pageSize: catalogTotal }),
+        () => fetchProgramList({ search: q, page: 1, pageSize: catalogTotal }),
         { keepPreviousData: true }
     )
     const current = options.find((p) => String(p.id) === value)
@@ -187,8 +188,15 @@ const ProgramComparisonInner = () => {
         }
     }
 
-    const setSlot = (i: number, id: string) => setProgIds((prev) => prev.map((x, j) => (j === i ? id : x)))
-    const pickProgram = (i: number, p: Program) => {
+    const setSlot = (i: number, id: string | null) => setProgIds((prev) => prev.map((x, j) => (j === i ? id : x)))
+    // The id each slot was last asked for: a pick still loading loses to a newer one.
+    const lastPick = useRef<string[]>([])
+    const pickProgram = async (i: number, picked: ProgramSummary) => {
+        lastPick.current[i] = picked.id
+        // A search-index row (v2.61) lacks the detail fields the cards read: load the full program by id.
+        const p = isFullProgram(picked) ? picked : await fetchProgramById(picked.id).catch(() => null)
+        if (lastPick.current[i] !== picked.id) return
+        if (!p) return setSlot(i, null) // honest "invalid program" state, never another program
         if (!optionsList.some((x) => String(x.id) === String(p.id))) setSearchPicks((prev) => [...prev, p])
         setSlot(i, String(p.id))
     }

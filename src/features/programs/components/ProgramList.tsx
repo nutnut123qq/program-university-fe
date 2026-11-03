@@ -20,16 +20,16 @@ import { ScoreThresholds, schoolThresholds, type UniversityThresholds } from "./
 import { WishlistDrawer } from "@/features/wishlist/WishlistDrawer"
 import { useWishlist } from "@/features/wishlist/useWishlist"
 import {
-    fetchAdmissions,
     fetchDegreeTypes,
     fetchProgramById,
     fetchProgramList,
+    fetchProgramPool,
+    fetchScoreIndex,
     fetchUniversities,
     isFullProgram,
 } from "../api"
 import { isProgramId, setProgramParam, stackProgramLanding, useProgramParam } from "../programLink"
 import {
-    AdmissionData,
     AdmissionScore,
     PagedResult,
     Program,
@@ -181,27 +181,15 @@ export function ProgramList() {
     }, [scoreInput])
     const scoreFilterRequested = parsedScore != null
 
-    // Lazily load every university's admission snapshot the first time the
-    // user engages the score filter. A missing/404 file resolves to null and
-    // simply contributes nothing — never fabricated.
+    // Lazily load every university's admission rows the first time the user
+    // engages the score filter: one compact file (v2.61, score-index.json)
+    // instead of each admissions file. A missing file contributes nothing —
+    // never fabricated.
     const { data: admissionsByCode, isLoading: admissionsLoading } = useSWR(
         scoreFilterRequested && (universities?.length ?? 0) > 0
             ? "admissions-score-filter-all"
             : null,
-        async () => {
-            const map = new Map<string, AdmissionData | null>()
-            await Promise.all(
-                ((universities ?? []) as UniversityWithCode[]).map(async (u) => {
-                    if (!u.code) return
-                    try {
-                        map.set(u.code, await fetchAdmissions(u.code))
-                    } catch {
-                        map.set(u.code, null)
-                    }
-                })
-            )
-            return map
-        }
+        fetchScoreIndex
     )
 
     // Scale options are discovered from the data (all score rows, any
@@ -346,13 +334,14 @@ export function ProgramList() {
 
     // While the score filter is active, fetch the whole catalog (with the
     // same search/filters applied — AND semantics) in one shot so programs
-    // beyond the currently loaded pages are evaluated too.
+    // beyond the currently loaded pages are evaluated too (mock mode: the
+    // search index, never every chunk — v2.61).
     const { data: scorePool } = useSWR(
         scoreFilterActive && totalCount > 0
             ? ["programs-score-pool", filters, totalCount]
             : null,
         ([, f, count]) =>
-            fetchProgramList({
+            fetchProgramPool({
                 page: 1,
                 pageSize: Math.max(Number(count) || PAGE_SIZE, PAGE_SIZE),
                 search: f.search || undefined,

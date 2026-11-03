@@ -319,6 +319,7 @@ test.describe("v2.46 — score filter states its coverage (/vi)", () => {
 
     test("no admissions data: no coverage line, no threshold block, no crash", async ({ page }) => {
         await page.route("**/mock/admissions/*.json", (route) => route.fulfill({ status: 404, body: "" }))
+        await page.route("**/mock/score-index.json", (route) => route.fulfill({ status: 404, body: "" })) // the score filter's rows (v2.61)
         await page.goto("/vi", { waitUntil: "domcontentloaded" })
         await expect(page.getByRole("button", { name: /Xem chi tiết/i }).first()).toBeVisible({ timeout: 30000 })
         await page.getByTestId("score-filter-input").fill(String(SCORE))
