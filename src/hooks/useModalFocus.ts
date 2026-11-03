@@ -1,10 +1,29 @@
 "use client"
 
-import { useEffect, useEffectEvent, useRef } from "react"
+import { useEffect, useEffectEvent, useRef, useSyncExternalStore } from "react"
 
 // Open overlays, innermost last: only the top one answers Escape and Tab
 // (the syllabus modal opens on top of the program detail dialog).
 const openStack: HTMLElement[] = []
+// useModalOpen subscribers (v2.62): told whenever an overlay opens or closes.
+const stackListeners = new Set<() => void>()
+const stackChanged = () => stackListeners.forEach((listener) => listener())
+const subscribeStack = (listener: () => void) => {
+    stackListeners.add(listener)
+    return () => {
+        stackListeners.delete(listener)
+    }
+}
+
+/**
+ * True while any overlay of useModalFocus is open (v2.62, audit V8). Content
+ * outside every overlay that stays interactive on its own (the floating chat
+ * button) uses it to go inert under the overlay. The server render and the
+ * first client render see no overlay.
+ */
+export function useModalOpen(): boolean {
+    return useSyncExternalStore(subscribeStack, () => openStack.length > 0, () => false)
+}
 
 const TABBABLE =
     'a[href], button:not([disabled]), input:not([disabled]):not([type="hidden"]), select:not([disabled]), textarea:not([disabled]), summary, iframe, [contenteditable="true"], [tabindex]'
@@ -30,6 +49,7 @@ export function useModalFocus<T extends HTMLElement>(open: boolean, onClose: () 
         if (!open || !box) return
         const opener = document.activeElement
         openStack.push(box)
+        stackChanged()
         box.focus({ preventScroll: true })
 
         const onKeyDown = (e: KeyboardEvent) => {
@@ -61,6 +81,7 @@ export function useModalFocus<T extends HTMLElement>(open: boolean, onClose: () 
         return () => {
             document.removeEventListener("keydown", onKeyDown)
             openStack.splice(openStack.indexOf(box), 1)
+            stackChanged()
             if (opener instanceof HTMLElement && opener.isConnected) opener.focus({ preventScroll: true })
         }
     }, [open])

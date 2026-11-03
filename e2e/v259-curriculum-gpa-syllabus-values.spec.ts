@@ -422,7 +422,7 @@ test.describe("v2.59 — curriculum, GPA and syllabus values that are right", ()
         for (const label of [msg("syllabus", "decisionNo"), msg("syllabus", "passScore")]) await expect(modal.getByText(label, { exact: true }), label).toHaveCount(0)
         await expect(modal.getByText(new RegExp(`^${esc(msg("syllabus", "scoringScale").split("{")[0].trim())}`))).toHaveCount(0)
         for (const f of filler.filter((x) => x.startsWith("info."))) await expect(modal.getByText(String(syl.info[f.slice(5)]), { exact: true }), f).toHaveCount(0)
-        await modal.getByRole("button", { name: new RegExp(`^${esc(msg("syllabus", "tabSessions"))}`) }).click()
+        await modal.getByRole("tab", { name: new RegExp(`^${esc(msg("syllabus", "tabSessions"))}`) }).click()
         await expect(modal.getByText(fill(msg("syllabus", "sessionNo"), { n: String(syl.sessions![0].sessionNo) }), { exact: true }).first()).toBeVisible({ timeout: 15000 })
         for (const f of filler.filter((x) => x.startsWith("sessions."))) {
             for (const v of new Set(syl.sessions!.map((s) => String(s[f.slice(9)])))) await expect(modal.getByText(v, { exact: true }), f).toHaveCount(0)

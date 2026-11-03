@@ -22,7 +22,7 @@ test.describe("Bottom Sheet & Interactive Modals E2E Suite", () => {
         await expect(modalContainer.getByText(/SWE201c|Nhập môn Kỹ thuật Phần mềm/i).first()).toBeVisible()
 
         // 3. Verify Assessments tab (Cấu trúc điểm thi) is loaded by default
-        const assessmentsTab = modalContainer.getByRole("button", { name: /Cấu trúc điểm thi/i })
+        const assessmentsTab = modalContainer.getByRole("tab", { name: /Cấu trúc điểm thi/i })
         await expect(assessmentsTab).toBeVisible()
 
         // Verify progress bars are present
@@ -34,7 +34,7 @@ test.describe("Bottom Sheet & Interactive Modals E2E Suite", () => {
         await expect(thresholdWarning).toBeVisible()
 
         // 5. Switch to Sessions / Schedule tab
-        const scheduleTab = modalContainer.getByRole("button", { name: /Kế hoạch bài giảng/i })
+        const scheduleTab = modalContainer.getByRole("tab", { name: /Kế hoạch bài giảng/i })
         if (await scheduleTab.isVisible()) {
             await scheduleTab.click()
             await page.waitForTimeout(200)

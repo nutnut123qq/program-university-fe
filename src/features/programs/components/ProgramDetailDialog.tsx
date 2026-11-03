@@ -53,6 +53,7 @@ import { SameMajorElsewhere } from "./SameMajorElsewhere"
 import { WishlistButton } from "@/features/wishlist/WishlistButton"
 import { programLinkUrl, programPagePath } from "../programLink"
 import { useModalFocus } from "@/hooks/useModalFocus"
+import { tabKeyTarget } from "@/lib/tab-keys"
 
 interface ProgramDetailDialogProps {
     program: Program | null
@@ -471,15 +472,9 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         { key: "eval", label: t("evalTab") },
     ]
 
-    // APG tabs: arrows (wrapping), Home and End move focus and select.
+    // APG tabs: arrows (wrapping), Home and End move focus and select (one rule with the syllabus modal).
     const onTabKeyDown = (e: KeyboardEvent, index: number) => {
-        const last = tabs.length - 1
-        const next =
-            e.key === "ArrowRight" ? (index === last ? 0 : index + 1)
-            : e.key === "ArrowLeft" ? (index === 0 ? last : index - 1)
-            : e.key === "Home" ? 0
-            : e.key === "End" ? last
-            : -1
+        const next = tabKeyTarget(e.key, index, tabs.length)
         if (next < 0) return
         e.preventDefault()
         setActiveTab(tabs[next].key)
@@ -645,7 +640,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                             </div>
 
                             <div className="border-b border-border px-4 sm:px-6 pt-2 bg-muted/20 shrink-0">
-                                <div role="tablist" className="flex gap-1 sm:gap-2 -mb-px overflow-x-auto no-scrollbar">
+                                <div role="tablist" aria-label={t("detailTabsLabel")} className="flex gap-1 sm:gap-2 -mb-px overflow-x-auto no-scrollbar">
                                     {tabs.map((tab, i) => (
                                         <button
                                             key={tab.key}
@@ -959,9 +954,21 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                                                 <td className="px-4 py-3 font-semibold">
                                                                     <div className="flex items-center justify-between gap-2">
                                                                         <span className="text-foreground">{course.courseName}</span>
-                                                                        <span className="opacity-0 group-hover:opacity-100 text-[11px] text-primary flex items-center font-bold transition-opacity shrink-0">
+                                                                        {/* The row's keyboard path to its syllabus (v2.62): a hover hint for the mouse,
+                                                                            shown while it has keyboard focus; the row click stays for the mouse. */}
+                                                                        <button
+                                                                            type="button"
+                                                                            onClick={(e) => {
+                                                                                e.stopPropagation()
+                                                                                setSelectedCourseForSyllabus(course)
+                                                                            }}
+                                                                            aria-label={t("syllabusFor", {
+                                                                                course: course.courseCode ? `${course.courseCode} ${course.courseName}` : course.courseName,
+                                                                            })}
+                                                                            className="opacity-0 group-hover:opacity-100 focus-visible:opacity-100 text-[11px] text-primary flex items-center font-bold transition-opacity shrink-0 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                                                                        >
                                                                             {t("syllabusLink")} <ChevronRight className="w-3 h-3 ml-0.5" />
-                                                                        </span>
+                                                                        </button>
                                                                     </div>
                                                                     {course.prerequisites && (
                                                                         <div className="text-[11px] text-muted-foreground font-mono mt-0.5 font-normal">

@@ -448,7 +448,7 @@ test.describe("v2.50 — compact search index", () => {
 
         // The dialog is fed by the full program (programs-by-id), not the index row.
         const byId = page.waitForResponse((r) => new URL(r.url()).pathname === `/mock/programs-by-id/${p.id}.json`)
-        await card.getByRole("button", { name: vi.viewDetail, exact: true }).click()
+        await card.getByRole("button", { name: vi.viewDetailFor.replace("{name}", () => p.name).replace("{university}", () => p.universityName), exact: true }).click()
         await byId
         const dialog = page.getByRole("dialog", { name: p.name, exact: true })
         await expect(dialog).toBeVisible({ timeout: 15000 })

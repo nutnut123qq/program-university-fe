@@ -228,6 +228,9 @@ export function ProgramCard({ program, index, onViewDetail, scoreHint }: Program
                         {onViewDetail && (
                             <button
                                 onClick={() => onViewDetail(program)}
+                                // One name per card (v2.62): the visible label + the program + its university
+                                // (program names repeat across universities).
+                                aria-label={t("viewDetailFor", { name: program.name, university: program.universityName })}
                                 className={cn(
                                     buttonVariants({ variant: "default", size: "sm" }),
                                     "flex-1 h-10 sm:h-9 text-xs font-bold rounded-xl flex items-center justify-center gap-1.5 shadow-sm min-w-0"
@@ -248,7 +251,8 @@ export function ProgramCard({ program, index, onViewDetail, scoreHint }: Program
                                 )}
                                 title={t("sourceLinkTitle")}
                             >
-                                <span className="hidden sm:inline">{t("admissionSourceLabel")}</span>
+                                {/* Visually hidden below sm, still the link's name there (v2.62; the title is only a tooltip). */}
+                                <span className="sr-only sm:not-sr-only">{t("admissionSourceLabel")}</span>
                                 <ExternalLink className="h-3.5 w-3.5 shrink-0" />
                             </a>
                         )}

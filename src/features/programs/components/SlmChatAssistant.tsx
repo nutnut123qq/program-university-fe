@@ -5,6 +5,7 @@ import { MessageSquare, X, Send, Bot, User, Copy, Check, Loader2, Maximize2, Plu
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 import { useChat } from "@/hooks/ChatProvider"
+import { useModalOpen } from "@/hooks/useModalFocus"
 import { useRouter } from "next/navigation"
 import { useLocale, useTranslations } from "next-intl"
 
@@ -24,6 +25,8 @@ export const SlmChatAssistant = () => {
     const router = useRouter()
     const locale = useLocale()
     const t = useTranslations("chat")
+    // A modal (detail dialog, syllabus, wishlist sheet) is open: the widget is inert under it (v2.62).
+    const modalOpen = useModalOpen()
 
     useEffect(() => {
         if (messagesEndRef.current) {
@@ -51,7 +54,9 @@ export const SlmChatAssistant = () => {
     }
 
     return (
-        <div className="fixed bottom-6 right-6 z-50">
+        // z-40, below the overlays' z-50 layer: an open modal's backdrop paints over the widget whatever the DOM
+        // order (it renders after <main>); inert while one is open — no pointer, no focus, out of the a11y tree.
+        <div className="fixed bottom-6 right-6 z-40" inert={modalOpen}>
             {/* Toggle Button */}
             {!isOpen && (
                 <Button

@@ -47,7 +47,14 @@ const pathAndQuery = (page: Page) => {
     return u.pathname + u.search
 }
 
-/** More Tab presses than the box has controls, then Shift+Tab: focus never leaves it. */
+// useModalFocus.ts's tabbable rule, restated: this selector, tabIndex >= 0, rendered (has client rects).
+const TABBABLE =
+    'a[href], button:not([disabled]), input:not([disabled]):not([type="hidden"]), select:not([disabled]), textarea:not([disabled]), summary, iframe, [contenteditable="true"], [tabindex]'
+
+/**
+ * More Tab presses than the box has controls, then Shift+Tab: focus never leaves it. Then the trap's two wrap
+ * points (v2.62, audit V8): Shift+Tab on the first tabbable lands on the last, Tab on the last on the first.
+ */
 async function expectFocusTrapped(page: Page, box: Locator) {
     const controls = await box.evaluate(
         (el) => el.querySelectorAll("a[href], button, input, select, textarea, summary, [tabindex]").length
@@ -60,7 +67,27 @@ async function expectFocusTrapped(page: Page, box: Locator) {
         await page.keyboard.press("Shift+Tab")
         expect(await focusInside(box), `focus inside after Shift+Tab #${i}`).toBe(true)
     }
+    // Focus the first or last tabbable (focus: null = only report), and report where focus is.
+    const edges = (focus: "first" | "last" | null) =>
+        box.evaluate(
+            (el, { sel, focus }) => {
+                const items = Array.from(el.querySelectorAll<HTMLElement>(sel)).filter((x) => x.tabIndex >= 0 && x.getClientRects().length > 0)
+                if (focus) items[focus === "first" ? 0 : items.length - 1].focus()
+                return { count: items.length, onFirst: document.activeElement === items[0], onLast: document.activeElement === items[items.length - 1] }
+            },
+            { sel: TABBABLE, focus }
+        )
+    expect((await edges("first")).count, "tabbables in the box").toBeGreaterThan(1)
+    await page.keyboard.press("Shift+Tab")
+    expect((await edges(null)).onLast, "Shift+Tab on the first tabbable lands on the last").toBe(true)
+    await edges("last")
+    await page.keyboard.press("Tab")
+    expect((await edges(null)).onFirst, "Tab on the last tabbable lands on the first").toBe(true)
 }
+
+/** A detail button's name since v2.62: the visible label + the program + its university (programs.viewDetailFor). */
+const detailName = (p: MockProgram) =>
+    vi.programs.viewDetailFor!.replace("{name}", () => p.name).replace("{university}", () => p.universityName)
 
 /** First card = first program of the first chunk; returns its "Xem chi tiết" button once the list is hydrated. */
 async function firstCardButton(page: Page) {
@@ -68,7 +95,7 @@ async function firstCardButton(page: Page) {
     const card = page.getByTestId("program-card").first()
     await expect(card).toBeVisible({ timeout: 30000 })
     await expect(card.getByRole("heading", { name: first.name, exact: true })).toBeVisible()
-    return card.getByRole("button", { name: vi.programs.viewDetail, exact: true })
+    return card.getByRole("button", { name: detailName(first), exact: true })
 }
 
 test.describe("v2.49 — a11y modals + tabs", () => {
@@ -90,7 +117,7 @@ test.describe("v2.49 — a11y modals + tabs", () => {
     test("messages: every label the spec relies on exists in vi and en", () => {
         for (const locale of ["vi", "en"] as const) {
             const m = messages(locale)
-            for (const key of ["close", "printPdf", "exportExcel", "exportJson", "copyLink", "viewDetail", ...TAB_KEYS]) {
+            for (const key of ["close", "printPdf", "exportExcel", "exportJson", "copyLink", "viewDetail", "viewDetailFor", ...TAB_KEYS]) {
                 expect(m.programs[key], `${locale}.programs.${key}`).toBeTruthy()
             }
             for (const key of ["compareProgram1", "compareProgram2"]) expect(m.programs[key]).toBeTruthy()
@@ -216,7 +243,7 @@ test.describe("v2.49 — a11y modals + tabs", () => {
         await expect(sheet).toHaveAttribute("aria-modal", "true")
         await expect.poll(() => focusInside(sheet)).toBe(true)
         for (const p of [first, last]) {
-            await expect(sheet.getByRole("button", { name: `${vi.programs.viewDetail}: ${p.name}`, exact: true })).toBeVisible({ timeout: 15000 })
+            await expect(sheet.getByRole("button", { name: detailName(p), exact: true })).toBeVisible({ timeout: 15000 })
         }
         await expectFocusTrapped(page, sheet)
         await page.keyboard.press("Escape")
@@ -227,7 +254,7 @@ test.describe("v2.49 — a11y modals + tabs", () => {
         // Escape closes it and focus lands back on the wishlist button.
         await page.keyboard.press("Enter")
         await expect(sheet).toBeVisible()
-        const row = sheet.getByRole("button", { name: `${vi.programs.viewDetail}: ${last.name}`, exact: true })
+        const row = sheet.getByRole("button", { name: detailName(last), exact: true })
         await row.focus()
         await page.keyboard.press("Enter")
         const dialog = dialogNamed(page, last.name)

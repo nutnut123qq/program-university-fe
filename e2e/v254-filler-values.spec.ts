@@ -180,7 +180,7 @@ test.describe("v2.54 filler values are not shown as data", () => {
         await expect(dialog.getByText(fill(vp.credits, { count: roadmapCredits }), { exact: true })).toHaveCount(0)
 
         const sessions = syl.sessions!
-        await dialog.getByRole("button", { name: new RegExp(`^${esc(vs.tabSessions)}`) }).click()
+        await dialog.getByRole("tab", { name: new RegExp(`^${esc(vs.tabSessions)}`) }).click()
         await expect(dialog.getByText(fill(vs.sessionsTitle, { count: String(sessions.length) }), { exact: true })).toBeVisible()
         await expect(dialog.getByText(fill(vs.sessionNo, { n: String(sessions[0].sessionNo) }), { exact: true }).first()).toBeVisible()
         for (const f of filler.filter((x) => x.startsWith("sessions."))) {
@@ -210,7 +210,7 @@ test.describe("v2.54 filler values are not shown as data", () => {
         await expect(dialog.getByText(vs.passScore, { exact: true })).toBeVisible()
         await expect(dialog.getByText(`≥ ${info("minAvgToPass")} / 10`, { exact: true })).toBeVisible()
         await expect(dialog.getByText(fill(vs.scoringScale, { scale: info("scoringScale") }), { exact: true })).toBeVisible()
-        await dialog.getByRole("button", { name: new RegExp(`^${esc(vs.tabSessions)}`) }).click()
+        await dialog.getByRole("tab", { name: new RegExp(`^${esc(vs.tabSessions)}`) }).click()
         await expect(dialog.getByText(String(syl.sessions![0].learningTeachingType), { exact: true }).first()).toBeVisible()
     })
 

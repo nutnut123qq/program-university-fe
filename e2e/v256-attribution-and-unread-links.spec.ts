@@ -381,7 +381,7 @@ test.describe("v2.56 — attribution on every data surface + publish only what t
         const dumpDir = process.env.V256_TEXT_DUMP
         if (dumpDir) mkdirSync(dumpDir, { recursive: true })
         for (const tab of tabs) {
-            await dialog.getByRole("button", { name: new RegExp(`^${esc(tab.label)}`) }).click()
+            await dialog.getByRole("tab", { name: new RegExp(`^${esc(tab.label)}`) }).click()
             const heading = dialog.getByRole("heading", { level: 4, name: tab.heading, exact: true })
             await expect(heading).toBeVisible({ timeout: 15000 })
             // The modal body (the scrolling panel holding the tab), without the attribution line.

@@ -72,7 +72,7 @@ export function WishlistDrawer({ open, onOpenChange, onOpenProgram }: WishlistDr
     const showSkeleton = !mounted || (hasItems && fetched === undefined && !error && isLoading)
 
     return (
-        <Sheet open={open} onOpenChange={onOpenChange} side="right" className="w-[85%] sm:max-w-sm" aria-labelledby={titleId}>
+        <Sheet open={open} onOpenChange={onOpenChange} side="right" className="w-[85%] sm:max-w-sm" aria-labelledby={titleId} closeLabel={tp("close")}>
             <SheetContent>
                 {/* Header: title + count + clear-all. pr-8 keeps clear of the
                     built-in close X in the top-right corner of the sheet. */}
@@ -132,7 +132,8 @@ export function WishlistDrawer({ open, onOpenChange, onOpenProgram }: WishlistDr
                                             <button
                                                 type="button"
                                                 data-testid="wishlist-open-detail"
-                                                aria-label={`${tp("viewDetail")}: ${program.name}`}
+                                                // Program + university: names repeat across universities (v2.62).
+                                                aria-label={tp("viewDetailFor", { name: program.name, university: program.universityName })}
                                                 onClick={() => {
                                                     onOpenChange(false)
                                                     onOpenProgram(program)
@@ -148,7 +149,11 @@ export function WishlistDrawer({ open, onOpenChange, onOpenProgram }: WishlistDr
                                         variant="ghost"
                                         size="icon"
                                         className="h-8 w-8 shrink-0 text-muted-foreground hover:text-destructive"
-                                        aria-label={t("wishlistRemove")}
+                                        aria-label={
+                                            program
+                                                ? t("wishlistRemoveFor", { name: program.name, university: program.universityName })
+                                                : t("wishlistRemoveId", { id })
+                                        }
                                         onClick={() => remove(id)}
                                     >
                                         <Trash2 className="h-4 w-4" aria-hidden />

@@ -1,6 +1,7 @@
 "use client"
 
 import { useId, useState } from "react"
+import type { KeyboardEvent } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import {
     BookOpen,
@@ -32,6 +33,7 @@ import { semesterLabel } from "../semester"
 import { Curriculum } from "../types"
 import { useModalFocus } from "@/hooks/useModalFocus"
 import { safeHttpUrl } from "@/lib/safe-url"
+import { tabKeyTarget } from "@/lib/tab-keys"
 import { DataAttribution } from "./DataAttribution"
 
 interface SyllabusDetailModalProps {
@@ -92,6 +94,9 @@ export function SyllabusDetailModal({
 
     const boxRef = useModalFocus<HTMLDivElement>(open && !!course, onClose)
     const titleId = useId()
+    const tabsId = useId()
+    const panelId = `${tabsId}-panel`
+    const tabId = (key: TabKey) => `${tabsId}-tab-${key}`
 
     if (!open || !course) return null
 
@@ -110,6 +115,23 @@ export function SyllabusDetailModal({
     const names = roadmap?.names || {}
 
     const totalWeight = assessments.reduce((acc, curr) => acc + parseWeightNumber(curr.weight), 0)
+
+    const tabs: { id: TabKey; label: string; icon: typeof Percent; count?: number }[] = [
+        { id: "assessments", label: t("tabAssessments"), icon: Percent, count: assessments.length },
+        { id: "clos", label: t("tabClos"), icon: CheckCircle2, count: clos.length },
+        { id: "sessions", label: t("tabSessions"), icon: ListChecks, count: sessions.length },
+        { id: "materials", label: t("tabMaterials"), icon: BookOpen, count: materials.length },
+        { id: "roadmap", label: t("tabRoadmap"), icon: GitFork, count: directPrereqs.length + unlocks.length },
+        { id: "rules", label: t("tabRules"), icon: Clock },
+    ]
+    // APG tabs (v2.62, the detail dialog's rule): arrows (wrapping), Home and End move focus and select.
+    const onTabKeyDown = (e: KeyboardEvent, index: number) => {
+        const next = tabKeyTarget(e.key, index, tabs.length)
+        if (next < 0) return
+        e.preventDefault()
+        setActiveTab(tabs[next].id)
+        document.getElementById(tabId(tabs[next].id))?.focus()
+    }
 
     return (
         <AnimatePresence>
@@ -149,11 +171,12 @@ export function SyllabusDetailModal({
                                     </Badge>
                                 )}
                             </div>
-                            <h2 id={titleId} className="text-lg sm:text-xl font-extrabold tracking-tight text-foreground truncate">
+                            {/* The title and its English line wrap: names reach 170 characters (v2.62). */}
+                            <h2 id={titleId} className="text-lg sm:text-xl font-extrabold tracking-tight text-foreground break-words">
                                 {info?.syllabusName || course.courseName}
                             </h2>
                             {info?.syllabusEnglish && !sameName(info.syllabusEnglish, info.syllabusName || course.courseName) && (
-                                <p className="text-xs text-muted-foreground italic truncate">
+                                <p className="text-xs text-muted-foreground italic break-words">
                                     {info.syllabusEnglish}
                                 </p>
                             )}
@@ -194,22 +217,22 @@ export function SyllabusDetailModal({
                         </div>
                     )}
 
-                    {/* Tabs Navigation */}
-                    <div className="px-4 sm:px-6 border-b border-border bg-muted/10 flex overflow-x-auto gap-1 sm:gap-2 no-scrollbar">
-                        {[
-                            { id: "assessments", label: t("tabAssessments"), icon: Percent, count: assessments.length },
-                            { id: "clos", label: t("tabClos"), icon: CheckCircle2, count: clos.length },
-                            { id: "sessions", label: t("tabSessions"), icon: ListChecks, count: sessions.length },
-                            { id: "materials", label: t("tabMaterials"), icon: BookOpen, count: materials.length },
-                            { id: "roadmap", label: t("tabRoadmap"), icon: GitFork, count: directPrereqs.length + unlocks.length },
-                            { id: "rules", label: t("tabRules"), icon: Clock },
-                        ].map((tab) => {
+                    {/* Tabs Navigation: an APG tablist (roving tabindex, one tabpanel below) */}
+                    <div role="tablist" aria-label={t("tabsLabel")} className="px-4 sm:px-6 border-b border-border bg-muted/10 flex overflow-x-auto gap-1 sm:gap-2 no-scrollbar">
+                        {tabs.map((tab, i) => {
                             const Icon = tab.icon
                             const isActive = activeTab === tab.id
                             return (
                                 <button
                                     key={tab.id}
-                                    onClick={() => setActiveTab(tab.id as TabKey)}
+                                    type="button"
+                                    role="tab"
+                                    id={tabId(tab.id)}
+                                    aria-selected={isActive}
+                                    aria-controls={isActive ? panelId : undefined}
+                                    tabIndex={isActive ? 0 : -1}
+                                    onClick={() => setActiveTab(tab.id)}
+                                    onKeyDown={(e) => onTabKeyDown(e, i)}
                                     className={`relative flex items-center gap-1.5 py-3 px-3 border-b-2 text-xs font-semibold whitespace-nowrap transition-all ${
                                         isActive
                                             ? "border-primary text-primary"
@@ -230,8 +253,14 @@ export function SyllabusDetailModal({
                         })}
                     </div>
 
-                    {/* Main Modal Body */}
-                    <div className="flex-1 p-4 sm:p-6 overflow-y-auto space-y-6">
+                    {/* Main Modal Body = the selected tab's panel */}
+                    <div
+                        id={panelId}
+                        role="tabpanel"
+                        aria-labelledby={tabId(activeTab)}
+                        tabIndex={0}
+                        className="flex-1 p-4 sm:p-6 overflow-y-auto space-y-6"
+                    >
                         {isSyllabusLoading ? (
                             <div className="flex flex-col items-center justify-center py-20 text-muted-foreground gap-3">
                                 <Loader2 className="h-7 w-7 animate-spin text-primary" />

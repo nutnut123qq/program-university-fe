@@ -222,7 +222,7 @@ test.describe("v2.53 roadmap for every university with data", () => {
         const dialog = page.getByRole("dialog")
         await expect(dialog).toBeVisible()
         await expect.poll(() => reads).toContain(`/mock/syllabuses/${uni!.code}/${fileName(code)}.json`)
-        await dialog.getByRole("button", { name: new RegExp(`^${esc(messages.vi.syllabus.tabRoadmap)}`) }).click()
+        await dialog.getByRole("tab", { name: new RegExp(`^${esc(messages.vi.syllabus.tabRoadmap)}`) }).click()
         const r = fileOf(uni!.code, code)!
         if (!prereqsOf(r).length) await expect(dialog.getByText(messages.vi.syllabus.noPrereqRecorded, { exact: true })).toBeVisible()
         if (!unlocksOf(r).length) await expect(dialog.getByText(messages.vi.syllabus.noUnlocksRecorded, { exact: true })).toBeVisible()
