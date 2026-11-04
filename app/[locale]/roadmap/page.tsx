@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useMemo, useId } from "react"
+import React, { useState, useMemo, useId, useRef, useEffect } from "react"
 import { motion } from "framer-motion"
 import {
     GitFork,
@@ -17,6 +17,7 @@ import {
     ChevronRight,
     X,
     HelpCircle,
+    AlertTriangle,
 } from "lucide-react"
 import useSWR from "swr"
 import { useTranslations } from "next-intl"
@@ -24,10 +25,20 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
-import { fetchRoadmap, fetchRoadmapsIndex, fetchSyllabus, fetchUniversities } from "@/features/programs/api"
+import { fetchRoadmapFile, fetchRoadmapNames, fetchRoadmapsIndex, fetchSyllabus, fetchUniversities } from "@/features/programs/api"
 import { SyllabusDetailModal } from "@/features/programs/components/SyllabusDetailModal"
 import { DataAttribution } from "@/features/programs/components/DataAttribution"
-import { DEFAULT_ROADMAP_UNIVERSITY, ROADMAP_UNIVERSITIES, relationCodes, sameName, withoutFiller } from "@/features/programs/roadmapUniversities"
+import {
+    DEFAULT_ROADMAP_UNIVERSITY,
+    ROADMAP_UNIVERSITIES,
+    foldSearch,
+    relationCodes,
+    roadmapFileKey,
+    roadmapSuggestions,
+    sameName,
+    withoutFiller,
+} from "@/features/programs/roadmapUniversities"
+import { pushRoadmapUniParam, useRoadmapUniParam } from "@/features/programs/roadmapLink"
 import { Curriculum, University } from "@/features/programs/types"
 
 const POPULAR_SUBJECTS = [
@@ -51,11 +62,15 @@ export default function RoadmapPage() {
     const t = useTranslations("roadmap")
     const tp = useTranslations("programs")
     const pickerId = useId()
-    const [university, setUniversity] = useState(DEFAULT_ROADMAP_UNIVERSITY)
     const [searchQuery, setSearchQuery] = useState("")
     // null = the first code of the university's index (FPT keeps its curated default).
     const [pickedCode, setPickedCode] = useState<string | null>(DEFAULT_CODE)
     const [syllabusModalCourse, setSyllabusModalCourse] = useState<Curriculum | null>(null)
+    // Universities whose search box was used: their names file stays wanted (the name search).
+    const [searchedUnis, setSearchedUnis] = useState<ReadonlySet<string>>(() => new Set())
+    // Moves focus to the banner title after a focus change from a control that leaves the page (v2.63).
+    const bannerTitleRef = useRef<HTMLHeadingElement>(null)
+    const [focusRequest, setFocusRequest] = useState(0)
 
     const { data: universities } = useSWR("universities", fetchUniversities)
     // Picker options: universities with roadmap data first; the fixed list alone until universities.json loads.
@@ -69,6 +84,23 @@ export default function RoadmapPage() {
             withoutData: all.filter((u) => !ROADMAP_UNIVERSITIES.has(u.code)),
         }
     }, [universities])
+    const offered = useMemo(() => new Set([...options.withData, ...options.withoutData].map((u) => u.code)), [options])
+    // `?uni=` (v2.63): the URL holds the pick. A value counts only when the picker offers it — the 4 codes with data at
+    // once, another university of universities.json once that has loaded; anything else is the FPT default.
+    const uniParam = useRoadmapUniParam()
+    const university = uniParam !== null && offered.has(uniParam) ? uniParam : DEFAULT_ROADMAP_UNIVERSITY
+    // Every university change (picker, Back/Forward, a `?uni=` link) opens that university's default course. The initial
+    // state above (SWE201c, an empty search) is the default university's, so the shown university starts as the default
+    // too: a mount on another university's URL — the hydration's post-commit re-read, or the first render of a client
+    // remount such as Back into a `?uni=` entry — goes through this reset (v2.63 fix r1: starting at the URL's university
+    // skipped the reset on a remount and kept SWE201c under NEU).
+    const [shownUniversity, setShownUniversity] = useState(DEFAULT_ROADMAP_UNIVERSITY)
+    if (shownUniversity !== university) {
+        setShownUniversity(university)
+        setPickedCode(university === DEFAULT_ROADMAP_UNIVERSITY ? DEFAULT_CODE : null)
+        setSearchQuery("")
+        setSyllabusModalCourse(null)
+    }
     // undefined = no roadmap data for this university: no roadmap/syllabus path is ever built for it.
     const uniData = ROADMAP_UNIVERSITIES.get(university)
     const isDefaultUni = university === DEFAULT_ROADMAP_UNIVERSITY
@@ -76,44 +108,110 @@ export default function RoadmapPage() {
         [...options.withData, ...options.withoutData].find((u) => u.code === university)?.name ?? university
     const describeRelations = !uniData?.fullGraph
 
-    const { data: indexList } = useSWR(
+    // The index lists the codes that have a roadmap file; a failed load is an error with a retry button, never "no courses".
+    const { data: indexList, error: indexError, mutate: retryIndex } = useSWR(
         uniData ? ["roadmaps-index", university] : null,
-        () => fetchRoadmapsIndex(university)
+        () => fetchRoadmapsIndex(university),
+        { shouldRetryOnError: false }
     )
+    const indexFiles = useMemo(() => (indexList ? new Set(indexList.map(roadmapFileKey)) : null), [indexList])
+    // undefined = not known yet (the index is still loading or failed).
+    const hasFile = (code: string) => (indexFiles ? indexFiles.has(roadmapFileKey(code)) : undefined)
     const selectedCode = pickedCode ?? indexList?.[0] ?? ""
-    const { data: currentRoadmap, isLoading: isRoadmapLoading } = useSWR(
-        uniData && selectedCode ? ["roadmap", university, selectedCode] : null,
-        () => fetchRoadmap(university, selectedCode)
+    const selectedHasFile = selectedCode ? hasFile(selectedCode) : undefined
+    const { data: roadmapFile, error: roadmapError, mutate: retryRoadmap } = useSWR(
+        // No request for a code the loaded index does not hold.
+        uniData && selectedCode && selectedHasFile !== false ? ["roadmap-file", university, selectedCode] : null,
+        () => fetchRoadmapFile(university, selectedCode),
+        // A failed file stays failed until its retry button (no background retry under the user's eyes).
+        { shouldRetryOnError: false }
     )
+    // No roadmap file for the focus: not in the loaded index, or a 404 before the index was known.
+    const noFile = !!selectedCode && (selectedHasFile === false || roadmapFile === null)
+    const currentRoadmap = roadmapFile ?? undefined
     const { data: syllabusFile } = useSWR(
-        // Syllabi exist only for some universities; never request one that does not exist.
-        uniData?.syllabus && selectedCode ? ["syllabus", university, selectedCode] : null,
+        // Syllabi exist only for some universities; never request one that does not exist — nor for a code without a
+        // roadmap file (none of the codes reachable that way has a syllabus file: v2.63 measure, pinned by its e2e).
+        uniData?.syllabus && selectedCode && !noFile ? ["syllabus", university, selectedCode] : null,
         () => fetchSyllabus(university, selectedCode)
     )
     const currentSyllabus = withoutFiller(university, syllabusFile)
     const bannerTitle = currentRoadmap?.subjectName || currentSyllabus?.info?.syllabusName || selectedCode
-    const hasSyllabus = !!uniData?.syllabus
-    const isFlowLoading = isRoadmapLoading || (!!uniData && !selectedCode && indexList === undefined)
+    const hasSyllabus = !!uniData?.syllabus && !noFile
+    const flow = !selectedCode
+        ? indexError
+            ? "indexFailed"
+            : "loading"
+        : noFile
+          ? "noFile"
+          : roadmapError
+            ? "failed"
+            : currentRoadmap
+              ? "ready"
+              : "loading"
+
+    const directPrereqs = relationCodes(currentRoadmap?.directPrereqs)
+    const unlocks = currentRoadmap?.unlocks || []
+    const mapNames = currentRoadmap?.names || {}
+    // A neighbour without a name in the course file (NEU/TDTU/UIT files carry no names map) takes the name of its own
+    // file from the university's names file, read once (v2.63); a neighbour without a roadmap file needs none.
+    const neighboursNeedNames = [...directPrereqs, ...unlocks].some((code) => !mapNames[code] && hasFile(code) === true)
+    const wantNames = !!uniData && (searchedUnis.has(university) || neighboursNeedNames)
+    const { data: courseNames, error: namesError } = useSWR(
+        wantNames ? ["roadmap-names", university] : null,
+        () => fetchRoadmapNames(university)
+    )
+    const namesPending = wantNames && !courseNames && !namesError
+    const namesByFile = useMemo(
+        () => (courseNames ? new Map(Object.entries(courseNames).map(([code, name]) => [roadmapFileKey(code), name])) : null),
+        [courseNames]
+    )
+    const foldedNames = useMemo(
+        () => (courseNames ? Object.fromEntries(Object.entries(courseNames).map(([code, name]) => [code, foldSearch(name)])) : undefined),
+        [courseNames]
+    )
+
+    /** A neighbour card's name line: the course file's names map (FPT), else the name in the neighbour's own file. */
+    const neighbourName = (code: string): { text: string; known: boolean } => {
+        if (mapNames[code]) return { text: mapNames[code], known: true }
+        const file = hasFile(code)
+        if (file === false) return { text: t("noFileShort"), known: false }
+        if (file && courseNames) {
+            const name = namesByFile?.get(roadmapFileKey(code))?.trim()
+            return name ? { text: name, known: true } : { text: "—", known: false }
+        }
+        if (file && namesError) return { text: t("nameFailed"), known: false }
+        return { text: t("nameLoading"), known: false }
+    }
 
     const selectUniversity = (code: string) => {
         // Only a code the picker offers; ROADMAP_UNIVERSITIES then decides whether any path is built.
-        if (![...options.withData, ...options.withoutData].some((u) => u.code === code)) return
-        setUniversity(code)
-        setPickedCode(code === DEFAULT_ROADMAP_UNIVERSITY ? DEFAULT_CODE : null)
-        setSearchQuery("")
+        if (!offered.has(code)) return
+        // v2.63: a pick is a history entry (Back returns to the previous university); FPT = the URL without `uni`.
+        pushRoadmapUniParam(code === DEFAULT_ROADMAP_UNIVERSITY ? null : code)
     }
 
-    // Autocomplete suggestions
-    const suggestions = useMemo(() => {
-        if (!searchQuery.trim() || !indexList) return []
-        const q = searchQuery.toLowerCase()
-        return indexList.filter((code) => code.toLowerCase().includes(q)).slice(0, 8)
-    }, [searchQuery, indexList])
+    const onSearchChange = (value: string) => {
+        setSearchQuery(value)
+        if (value.trim() && uniData && !searchedUnis.has(university)) setSearchedUnis(new Set([...searchedUnis, university]))
+    }
 
-    const handleSelectCode = (code: string) => {
+    // Autocomplete suggestions: codes as at Base, then course names (v2.63)
+    const suggestions = useMemo(
+        () => (indexList ? roadmapSuggestions(indexList, foldedNames, searchQuery) : []),
+        [indexList, foldedNames, searchQuery]
+    )
+
+    // moveFocus: the clicked control leaves the page (a suggestion, a neighbour card's button), so focus goes to the
+    // banner title, which names the focus in every state (loading, no file, failed, loaded).
+    const handleSelectCode = (code: string, moveFocus = false) => {
         setPickedCode(code)
         setSearchQuery("")
+        if (moveFocus) setFocusRequest((n) => n + 1)
     }
+    useEffect(() => {
+        if (focusRequest > 0) bannerTitleRef.current?.focus()
+    }, [focusRequest])
 
     const openSyllabusFor = (code: string, name?: string) => {
         setSyllabusModalCourse({
@@ -135,10 +233,6 @@ export default function RoadmapPage() {
             updatedAt: "",
         })
     }
-
-    const directPrereqs = relationCodes(currentRoadmap?.directPrereqs)
-    const unlocks = currentRoadmap?.unlocks || []
-    const names = currentRoadmap?.names || {}
 
     return (
         <div className="container mx-auto py-8 px-4 sm:px-6 space-y-8 max-w-6xl">
@@ -198,7 +292,7 @@ export default function RoadmapPage() {
                     <Input
                         placeholder={isDefaultUni ? t("searchPlaceholder") : t("searchPlaceholderCode")}
                         value={searchQuery}
-                        onChange={(e) => setSearchQuery(e.target.value)}
+                        onChange={(e) => onSearchChange(e.target.value)}
                         className="pl-10 pr-10 h-12 text-sm bg-card border-border shadow-sm rounded-2xl focus-visible:ring-1 focus-visible:ring-primary"
                     />
                     {searchQuery && (
@@ -211,20 +305,31 @@ export default function RoadmapPage() {
                         </button>
                     )}
 
-                    {searchQuery && suggestions.length > 0 && (
+                    {/* No list for a whitespace-only query: no suggestion, no names status row (v2.63 fix r1). */}
+                    {searchQuery.trim() && (suggestions.length > 0 || namesPending || !!namesError) && (
                         <div className="absolute top-full mt-1.5 left-0 right-0 z-30 bg-card border border-border rounded-2xl shadow-xl overflow-hidden divide-y divide-border">
                             {suggestions.map((code) => (
                                 <button
                                     key={code}
-                                    onClick={() => handleSelectCode(code)}
-                                    className="w-full px-4 py-3 text-left text-sm font-mono hover:bg-muted transition-colors flex items-center justify-between group"
+                                    onClick={() => handleSelectCode(code, true)}
+                                    className="w-full px-4 py-3 text-left text-sm hover:bg-muted transition-colors flex items-center justify-between gap-3 group"
                                 >
-                                    <span className="font-bold text-foreground group-hover:text-primary transition-colors">{code}</span>
-                                    <span className="text-xs text-muted-foreground group-hover:text-primary transition-colors flex items-center gap-1 font-sans">
+                                    <span className="min-w-0 flex-1">
+                                        <span className="block font-mono font-bold text-foreground group-hover:text-primary transition-colors">{code}</span>
+                                        {courseNames?.[code] && (
+                                            <span className="block text-xs text-muted-foreground truncate">{courseNames[code]}</span>
+                                        )}
+                                    </span>
+                                    <span className="text-xs text-muted-foreground group-hover:text-primary transition-colors flex items-center gap-1 shrink-0">
                                         {t("viewRoadmap")} <ArrowRight className="w-3.5 h-3.5" />
                                     </span>
                                 </button>
                             ))}
+                            {(namesPending || !!namesError) && (
+                                <p role="status" className="px-4 py-2.5 text-xs text-muted-foreground">
+                                    {t(namesError ? "namesFailed" : "namesLoading")}
+                                </p>
+                            )}
                         </div>
                     )}
                 </div>
@@ -263,7 +368,8 @@ export default function RoadmapPage() {
                 </div>
             ) : (
             <>
-            {/* Target Subject Active Banner */}
+            {/* Target Subject Active Banner — only with a focus (none while a university's index loads: v2.63) */}
+            {selectedCode && (
             <Card className="border-border bg-card/80 backdrop-blur-sm shadow-sm overflow-hidden rounded-2xl">
                 <CardContent className="p-6">
                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
@@ -283,7 +389,11 @@ export default function RoadmapPage() {
                                     </Badge>
                                 )}
                             </div>
-                            <h2 className="text-xl sm:text-2xl font-black tracking-tight text-foreground truncate">
+                            <h2
+                                ref={bannerTitleRef}
+                                tabIndex={-1}
+                                className="text-xl sm:text-2xl font-black tracking-tight text-foreground truncate focus:outline-none"
+                            >
                                 {bannerTitle}
                             </h2>
                             {currentSyllabus?.info?.syllabusEnglish && !sameName(currentSyllabus.info.syllabusEnglish, bannerTitle) && (
@@ -303,17 +413,18 @@ export default function RoadmapPage() {
                                 <span>{t("viewSyllabus")}</span>
                             </Button>
                         </div>
-                        ) : (
+                        ) : !uniData.syllabus ? (
                             <p className="text-xs text-muted-foreground md:max-w-[16rem] md:text-right">
                                 {t("noSyllabusNote", { university: universityName })}
                             </p>
-                        )}
+                        ) : null}
                     </div>
                 </CardContent>
             </Card>
+            )}
 
             {/* Source + collection date of this university's course data (AGENTS.md §9); roadmap files carry no date. */}
-            <DataAttribution universityCode={university} className="-mt-4 px-1" />
+            <DataAttribution universityCode={university} className={selectedCode ? "-mt-4 px-1" : "px-1"} />
 
             {/* 3-Column Visual Roadmap Flow */}
             <div className="space-y-4">
@@ -322,23 +433,38 @@ export default function RoadmapPage() {
                         <Layers className="w-4 h-4 text-primary" />
                         <span>{t("flowTitle")}</span>
                     </h3>
+                    {/* Counts only for a loaded file (none while loading, for a code without a file or a failed load). */}
+                    {flow === "ready" && (
                     <span className="text-xs text-muted-foreground font-mono font-medium">
                         {t(describeRelations ? "flowStatsData" : "flowStats", { prereqs: directPrereqs.length, unlocks: unlocks.length })}
                     </span>
+                    )}
                 </div>
 
-                {isFlowLoading ? (
+                {flow === "loading" ? (
                     <div className="flex flex-col items-center justify-center py-20 text-muted-foreground gap-3">
                         <Loader2 className="w-8 h-8 animate-spin text-primary" />
                         <p className="text-sm font-medium">{t("loading")}</p>
                     </div>
-                ) : !currentRoadmap ? (
-                    <div className="p-12 rounded-3xl border border-dashed border-border text-center space-y-3 bg-muted/10">
+                ) : flow === "noFile" ? (
+                    <div data-testid="roadmap-no-file" className="p-12 rounded-3xl border border-dashed border-border text-center space-y-3 bg-muted/10">
                         <HelpCircle className="w-10 h-10 text-muted-foreground/50 mx-auto" />
-                        <h4 className="font-bold text-base text-foreground">{t("emptyTitle")}</h4>
+                        <h4 className="font-bold text-base text-foreground">{t("missingTitle", { code: selectedCode })}</h4>
                         <p className="text-xs text-muted-foreground max-w-sm mx-auto">
-                            {t("emptyHint")}
+                            {t("missingHint", { university: universityName })}
                         </p>
+                    </div>
+                ) : flow === "failed" || flow === "indexFailed" ? (
+                    <div data-testid="roadmap-load-failed" className="p-12 rounded-3xl border border-dashed border-amber-500/40 text-center space-y-3 bg-amber-500/5">
+                        <AlertTriangle className="w-10 h-10 text-amber-500/70 mx-auto" />
+                        <h4 className="font-bold text-base text-foreground">{t("loadFailedTitle")}</h4>
+                        <p className="text-xs text-muted-foreground max-w-sm mx-auto">
+                            {flow === "failed" ? t("loadFailedHint", { code: selectedCode }) : t("indexFailedHint", { university: universityName })}
+                        </p>
+                        <Button variant="outline" size="sm" className="gap-1.5 rounded-xl" onClick={() => (flow === "failed" ? retryRoadmap() : retryIndex())}>
+                            <RotateCcw className="w-3.5 h-3.5" />
+                            {t("retry")}
+                        </Button>
                     </div>
                 ) : (
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
@@ -364,7 +490,9 @@ export default function RoadmapPage() {
                                 </div>
                             ) : (
                                 <div className="space-y-2.5 flex-1">
-                                    {directPrereqs.map((code) => (
+                                    {directPrereqs.map((code) => {
+                                        const name = neighbourName(code)
+                                        return (
                                         <Card
                                             key={code}
                                             className="border-border bg-card/80 hover:bg-card hover:border-amber-500/50 transition-all duration-200 shadow-sm hover:shadow-md group rounded-xl"
@@ -378,14 +506,14 @@ export default function RoadmapPage() {
                                                         {t("requiredFirst")}
                                                     </Badge>
                                                 </div>
-                                                <p className="text-xs font-bold text-foreground line-clamp-2 leading-snug">
-                                                    {names[code] || "—"}
+                                                <p className={`text-xs line-clamp-2 leading-snug ${name.known ? "font-bold text-foreground" : "font-medium italic text-muted-foreground"}`}>
+                                                    {name.text}
                                                 </p>
                                                 <div className="pt-2 border-t border-border/50 flex items-center justify-between gap-2">
                                                     <Button
                                                         variant="ghost"
                                                         size="sm"
-                                                        onClick={() => handleSelectCode(code)}
+                                                        onClick={() => handleSelectCode(code, true)}
                                                         className="h-7 px-2.5 text-[11px] font-semibold text-muted-foreground hover:text-primary gap-1 rounded-lg"
                                                     >
                                                         <RotateCcw className="w-3 h-3" />
@@ -404,7 +532,8 @@ export default function RoadmapPage() {
                                                 </div>
                                             </CardContent>
                                         </Card>
-                                    ))}
+                                        )
+                                    })}
                                 </div>
                             )}
                         </div>
@@ -473,7 +602,9 @@ export default function RoadmapPage() {
                                 </div>
                             ) : (
                                 <div className="space-y-2.5 max-h-[600px] overflow-y-auto pr-1 flex-1">
-                                    {unlocks.map((code) => (
+                                    {unlocks.map((code) => {
+                                        const name = neighbourName(code)
+                                        return (
                                         <Card
                                             key={code}
                                             className="border-border bg-card/80 hover:bg-card hover:border-emerald-500/50 transition-all duration-200 shadow-sm hover:shadow-md group rounded-xl"
@@ -487,14 +618,14 @@ export default function RoadmapPage() {
                                                         {t("unlockedBadge")}
                                                     </Badge>
                                                 </div>
-                                                <p className="text-xs font-bold text-foreground line-clamp-2 leading-snug">
-                                                    {names[code] || "—"}
+                                                <p className={`text-xs line-clamp-2 leading-snug ${name.known ? "font-bold text-foreground" : "font-medium italic text-muted-foreground"}`}>
+                                                    {name.text}
                                                 </p>
                                                 <div className="pt-2 border-t border-border/50 flex items-center justify-between gap-2">
                                                     <Button
                                                         variant="ghost"
                                                         size="sm"
-                                                        onClick={() => handleSelectCode(code)}
+                                                        onClick={() => handleSelectCode(code, true)}
                                                         className="h-7 px-2.5 text-[11px] font-semibold text-muted-foreground hover:text-primary gap-1 rounded-lg"
                                                     >
                                                         <RotateCcw className="w-3 h-3" />
@@ -513,7 +644,8 @@ export default function RoadmapPage() {
                                                 </div>
                                             </CardContent>
                                         </Card>
-                                    ))}
+                                        )
+                                    })}
                                 </div>
                             )}
                         </div>

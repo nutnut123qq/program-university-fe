@@ -519,6 +519,19 @@ export async function fetchSyllabus(
     return null
 }
 
+/** A roadmap file as stored: FPT files use `code`/`directPrereqs`/`edges`/`names`; TDTU/NEU/UIT `subjectCode`/`prerequisites`. */
+type RoadmapFileJson = Partial<SubjectRoadmap> & { subjectCode?: string; prerequisites?: string[] }
+
+/** Roadmap files differ per university crawl; normalize to SubjectRoadmap (extra info fields kept). */
+const toSubjectRoadmap = (raw: RoadmapFileJson, subjectCode: string): SubjectRoadmap => ({
+    ...raw,
+    code: raw.code ?? raw.subjectCode ?? subjectCode,
+    directPrereqs: raw.directPrereqs ?? raw.prerequisites ?? [],
+    unlocks: raw.unlocks ?? [],
+    edges: raw.edges ?? [],
+    names: raw.names ?? {},
+})
+
 export async function fetchRoadmap(
     universityCode: string,
     subjectCode: string
@@ -534,18 +547,7 @@ export async function fetchRoadmap(
     try {
         const res = await fetch(`/mock/roadmaps/${safeUni}/${safeCode}.json`)
         if (res.ok) {
-            const raw = await res.json()
-            // Roadmap files differ per university crawl; normalize to SubjectRoadmap.
-            // FPT files use `code`/`directPrereqs`/`edges`/`names`; TDTU/NEU/UIT use
-            // `subjectCode`/`prerequisites` and carry extra info fields.
-            const data: SubjectRoadmap = {
-                ...raw,
-                code: raw.code ?? raw.subjectCode ?? subjectCode,
-                directPrereqs: raw.directPrereqs ?? raw.prerequisites ?? [],
-                unlocks: raw.unlocks ?? [],
-                edges: raw.edges ?? [],
-                names: raw.names ?? {},
-            }
+            const data = toSubjectRoadmap(await res.json(), subjectCode)
             mockRoadmapsCache.set(cacheKey, data)
             return data
         }
@@ -557,25 +559,63 @@ export async function fetchRoadmap(
     return null
 }
 
+/**
+ * /roadmap's read of one course file (v2.63, audit V9): null = no such file (HTTP 404); a network error or any other
+ * HTTP status throws, so the page tells "no roadmap data for this code" from "the file failed to load". Only a loaded
+ * file is cached (shared with fetchRoadmap, whose cached null is never trusted here).
+ */
+export async function fetchRoadmapFile(universityCode: string, subjectCode: string): Promise<SubjectRoadmap | null> {
+    if (!universityCode || !subjectCode) return null
+    const safeUni = universityCode.replace(/[^a-zA-Z0-9_\-]/g, "_")
+    const safeCode = subjectCode.replace(/[^a-zA-Z0-9_\-]/g, "_")
+    const cacheKey = `${safeUni}/${safeCode}`
+    const cached = mockRoadmapsCache.get(cacheKey)
+    if (cached) return cached
+    const res = await fetch(`/mock/roadmaps/${safeUni}/${safeCode}.json`)
+    if (res.status === 404) return null
+    if (!res.ok) throw new Error(`Roadmap ${universityCode}/${subjectCode}: HTTP ${res.status}`)
+    const data = toSubjectRoadmap(await res.json(), subjectCode)
+    mockRoadmapsCache.set(cacheKey, data)
+    return data
+}
+
 const mockRoadmapsIndexCache = new Map<string, string[]>()
+/**
+ * A university's roadmap index (the codes of its course files). A failed or malformed load throws (v2.63): /roadmap
+ * shows a failed state with a retry, never "no courses" — the index also tells which codes have no roadmap file.
+ */
 export async function fetchRoadmapsIndex(universityCode: string): Promise<string[]> {
     if (!universityCode) return []
     const safeUni = universityCode.replace(/[^a-zA-Z0-9_\-]/g, "_")
     const cached = mockRoadmapsIndexCache.get(safeUni)
     if (cached) return cached
-    try {
-        const res = await fetch(`/mock/roadmaps/${safeUni}/index.json`)
-        if (res.ok) {
-            const data = await res.json()
-            if (Array.isArray(data)) {
-                mockRoadmapsIndexCache.set(safeUni, data)
-                return data
-            }
-        }
-    } catch {
-        // Fallback
-    }
-    return []
+    const res = await fetch(`/mock/roadmaps/${safeUni}/index.json`)
+    if (!res.ok) throw new Error(`Roadmap index ${universityCode}: HTTP ${res.status}`)
+    const data: unknown = await res.json()
+    if (!Array.isArray(data) || !data.every((c) => typeof c === "string")) throw new Error(`Roadmap index ${universityCode}: not a list of codes`)
+    mockRoadmapsIndexCache.set(safeUni, data)
+    return data
+}
+
+const roadmapNamesCache = new Map<string, Record<string, string>>()
+/**
+ * Course names of one university's roadmap files (v2.63, scripts/build-roadmap-names.mjs: each index code → the
+ * subjectName of its own file): one read per university serves /roadmap's name search and its neighbour cards, never
+ * every course file. A failed or malformed load throws; only a loaded file is cached.
+ */
+export async function fetchRoadmapNames(universityCode: string): Promise<Record<string, string>> {
+    if (!universityCode) return {}
+    const safeUni = universityCode.replace(/[^a-zA-Z0-9_\-]/g, "_")
+    const cached = roadmapNamesCache.get(safeUni)
+    if (cached) return cached
+    const res = await fetch(`/mock/roadmap-names/${safeUni}.json`)
+    if (!res.ok) throw new Error(`Roadmap names ${universityCode}: HTTP ${res.status}`)
+    const data: unknown = await res.json()
+    if (!data || typeof data !== "object" || Array.isArray(data) || !Object.values(data).every((n) => typeof n === "string"))
+        throw new Error(`Roadmap names ${universityCode}: not a map of names`)
+    const names = data as Record<string, string>
+    roadmapNamesCache.set(safeUni, names)
+    return names
 }
 
 const mockMaterialsCache = new Map<string, SubjectMaterialSummary[]>()
