@@ -18,6 +18,14 @@ import path from "path"
  * is sent; the default base is http://localhost:5100/api; a non-GUID id (compare ?a=/b=/c=,
  * ?program=, wishlist) sends no request while a GUID still resolves. Cases are derived from
  * public/mock at test time; nothing named is pinned. domcontentloaded, not networkidle (§12).
+ *
+ * v2.64 (audit V10): the stand-in restates the be's v2.64 rules — every program sort ends on Id (PostgreSQL's uuid
+ * order = the order of the lowercase id strings), the credits sort puts NULL credits last in both directions (the
+ * snapshot is already the published view: the be's bounds rule nulls nothing more here, 0 values outside the bounds),
+ * and universities are paged like UniversityFilterDto (20 by default, CreatedAt descending, then Id) over
+ * universities.json plus 8 stand-in universities (fixtures, not data), so the API holds more than one default page.
+ * The v2.64 block checks the credits order across list pages, the university filter reading every page, and one list
+ * request per typed query after the API-mode debounce (the list and the compare slot search).
  */
 const API_BUILD = process.env.NEXT_PUBLIC_USE_MOCK === "false"
 const SKIP_REASON =
@@ -48,7 +56,19 @@ type MockProgram = {
 const all: MockProgram[] = (readJson(path.join(MOCK, "index.json")).chunks as string[]).flatMap((c) =>
     readJson(path.join(MOCK, "programs", c))
 )
-const universities: unknown[] = readJson(path.join(MOCK, "universities.json"))
+type MockUniversity = { id: string; name: string; createdAt: string }
+// v2.64: + 8 stand-in universities (fixtures, not data; older than every real one) — more than the API's default page.
+const universities: MockUniversity[] = [
+    ...readJson(path.join(MOCK, "universities.json")),
+    ...Array.from({ length: 8 }, (_, i) => ({
+        id: `00000000-0000-4000-8000-${String(i + 1).padStart(12, "0")}`,
+        name: `Trường thử nghiệm ${i + 1}`,
+        code: `ZZ${i + 1}`,
+        region: null,
+        isPublic: true,
+        createdAt: "2026-01-01T00:00:00+07:00",
+    })),
+]
 const degreeTypes: string[] = readJson(path.join(MOCK, "degree-types.json"))
 const mockFile = (dir: string, id: string) => {
     const f = path.join(MOCK, dir, `${id}.json`)
@@ -57,6 +77,7 @@ const mockFile = (dir: string, id: string) => {
 
 // ---- the stand-in API (the .NET API's ProgramService rules over the snapshot) --------------------
 const lower = (s: string | null | undefined) => (s ?? "").toLowerCase()
+const byId = (a: { id: string }, b: { id: string }) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0)
 const createdMs = (p: MockProgram) => new Date(p.createdAt).getTime()
 
 function listPrograms(q: URLSearchParams): [number, unknown] {
@@ -77,13 +98,44 @@ function listPrograms(q: URLSearchParams): [number, unknown] {
     )
     const desc = q.get("sortDesc") === "true"
     const key = lower(q.get("sortBy"))
+    const dir = (n: number) => (desc ? -n : n)
+    // ProgramService: the key in the asked direction (no sortBy: CreatedAt descending), then Id (v2.54); credits sorts
+    // NULL last in both directions (v2.64).
     const cmp =
         key === "name"
-            ? (a: MockProgram, b: MockProgram) => (a.name < b.name ? -1 : a.name > b.name ? 1 : 0)
+            ? (a: MockProgram, b: MockProgram) => dir(a.name < b.name ? -1 : a.name > b.name ? 1 : 0)
             : key === "credits"
-              ? (a: MockProgram, b: MockProgram) => (a.credits ?? 0) - (b.credits ?? 0)
-              : (a: MockProgram, b: MockProgram) => createdMs(a) - createdMs(b)
-    rows = [...rows].sort(key === "" ? (a, b) => createdMs(b) - createdMs(a) : desc ? (a, b) => cmp(b, a) : cmp)
+              ? (a: MockProgram, b: MockProgram) =>
+                    a.credits == null || b.credits == null
+                        ? Number(a.credits == null) - Number(b.credits == null)
+                        : dir(a.credits - b.credits)
+              : key === ""
+                ? (a: MockProgram, b: MockProgram) => createdMs(b) - createdMs(a)
+                : (a: MockProgram, b: MockProgram) => dir(createdMs(a) - createdMs(b))
+    rows = [...rows].sort((a, b) => cmp(a, b) || byId(a, b))
+    const totalPages = Math.ceil(rows.length / pageSize)
+    return [
+        200,
+        {
+            items: rows.slice((page - 1) * pageSize, page * pageSize),
+            totalCount: rows.length,
+            page,
+            pageSize,
+            totalPages,
+            hasNextPage: totalPages > 0 && page < totalPages,
+            hasPreviousPage: page > 1,
+        },
+    ]
+}
+
+// UniversitiesController (UniversityFilterDto: page ≥ 1, pageSize 1–1000, default 20; CreatedAt descending, then Id — v2.64).
+function listUniversities(q: URLSearchParams): [number, unknown] {
+    const page = Number(q.get("page") ?? 1)
+    const pageSize = Number(q.get("pageSize") ?? 20)
+    if (!(page >= 1) || !(pageSize >= 1 && pageSize <= API_MAX_PAGE_SIZE)) {
+        return [400, { title: "One or more validation errors occurred.", status: 400 }]
+    }
+    const rows = [...universities].sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime() || byId(a, b))
     const totalPages = Math.ceil(rows.length / pageSize)
     return [
         200,
@@ -102,8 +154,7 @@ function listPrograms(q: URLSearchParams): [number, unknown] {
 function answer(route: string, q: URLSearchParams): [number, unknown] {
     if (route === "programs") return listPrograms(q)
     if (route === "programs/degree-types") return [200, degreeTypes]
-    if (route === "universities")
-        return [200, { items: universities, totalCount: universities.length, page: 1, pageSize: 20, totalPages: 1, hasNextPage: false, hasPreviousPage: false }]
+    if (route === "universities") return listUniversities(q)
     let m = /^programs\/([^/]+)$/.exec(route)
     if (m) {
         const p = mockFile("programs-by-id", m[1])
@@ -315,5 +366,154 @@ test.describe("v2.51 — API mode", () => {
         await open.click()
         await expect(page.getByRole("checkbox", { name: farProgram.name, exact: true })).toBeVisible({ timeout: 15000 })
         expect(byIdPaths(rec).filter((p) => p !== "/api/programs/degree-types")).toEqual([far])
+    })
+})
+
+// ---- v2.64 — ordering and publication parity (audit V10) --------------------------------------------------------------
+// The API-mode debounce of a search box (src/features/programs/useSearchQuery.ts SEARCH_DEBOUNCE_MS).
+const SEARCH_DEBOUNCE_MS = 300
+const LIST_PAGE_SIZE = 12
+const pageOf = <T>(r: [number, unknown]) => r[1] as { items: T[]; totalCount: number }
+// Every row of a stand-in list, all pages.
+function wholeList(params: Record<string, string>): MockProgram[] {
+    const out: MockProgram[] = []
+    for (let p = 1; ; p++) {
+        const r = pageOf<MockProgram>(listPrograms(new URLSearchParams({ ...params, page: String(p), pageSize: String(API_MAX_PAGE_SIZE) })))
+        out.push(...r.items)
+        if (out.length >= r.totalCount || r.items.length === 0) return out
+    }
+}
+// The stand-in's university order (the be's: CreatedAt descending, then Id), every row.
+const universityOrder = pageOf<MockUniversity>(listUniversities(new URLSearchParams({ pageSize: String(API_MAX_PAGE_SIZE) }))).items
+// The credits case: the university with the fewest active programs that still fills two list pages (> 12) and has
+// NULL credits and two different values (then by id) — sorted by credits, its NULL rows are on the last list page.
+const creditsCase = universityOrder
+    .map((u) => ({ u, n: all.filter((p) => p.universityId === u.id && p.isActive) }))
+    .filter(({ n }) => n.length > LIST_PAGE_SIZE && n.some((p) => p.credits == null) && new Set(n.filter((p) => p.credits != null).map((p) => p.credits)).size >= 2)
+    .sort((a, b) => a.n.length - b.n.length || byId(a.u, b.u))[0]
+const creditsList = creditsCase
+    ? wholeList({ universityId: creditsCase.u.id, isActive: "true", sortBy: "credits", sortDesc: "true" })
+    : []
+// The typed query: the most frequent 4-letter ASCII word of the program names (then code-point order).
+const typedQuery = [
+    ...all
+        .flatMap((p) => p.name.toLowerCase().split(/\s+/))
+        .filter((w) => /^[a-z]{4}$/.test(w))
+        .reduce((m, w) => m.set(w, (m.get(w) ?? 0) + 1), new Map<string, number>()),
+].sort((a, b) => b[1] - a[1] || (a[0] < b[0] ? -1 : 1))[0]?.[0] ?? ""
+const typedFirstPage = pageOf<MockProgram>(
+    listPrograms(new URLSearchParams({ search: typedQuery, isActive: "true", sortBy: "createdAt", sortDesc: "true", page: "1", pageSize: String(LIST_PAGE_SIZE) }))
+).items
+const LOAD_MORE = new RegExp("^" + esc(vi.loadMore).replace(esc("{loaded}"), "\\d+").replace(esc("{total}"), "\\d+") + "$")
+const CREDITS = new RegExp("^" + esc(vi.credits).replace(esc("{count}"), "(\\d+)") + "$")
+const since = (rec: Recorder, from: number): Recorder => ({ ...rec, api: rec.api.slice(from) })
+
+test.describe("v2.64 — API mode: ordering and publication parity", () => {
+    test.skip(!API_BUILD, SKIP_REASON)
+    test.describe.configure({ timeout: 120000 })
+
+    test("fixtures: the stand-in's credits order (both directions) and the cases", () => {
+        for (const desc of [false, true]) {
+            const rows = wholeList({ isActive: "true", sortBy: "credits", sortDesc: String(desc) })
+            const firstNull = rows.findIndex((p) => p.credits == null)
+            expect(rows.length).toBe(all.filter((p) => p.isActive).length)
+            expect(firstNull, `${desc ? "desc" : "asc"}: some NULL credits`).toBeGreaterThan(0)
+            expect(rows.slice(firstNull).every((p) => p.credits == null), `${desc ? "desc" : "asc"}: NULL credits last`).toBe(true)
+            for (let i = 1; i < rows.length; i++) {
+                const [a, b] = [rows[i - 1], rows[i]]
+                if (a.credits != null && b.credits != null && a.credits !== b.credits) expect(desc ? a.credits > b.credits : a.credits < b.credits).toBe(true)
+                else if (a.credits === b.credits) expect(a.id < b.id, `ties on Id at ${i}`).toBe(true)
+            }
+            console.log(`[v264 ${test.info().project.name}] credits ${desc ? "desc" : "asc"}: ${firstNull} values, then ${rows.length - firstNull} NULL`)
+        }
+        expect(universities.length).toBeGreaterThan(20)
+        expect(creditsCase, "a university for the credits case").toBeTruthy()
+        expect(creditsList.some((p) => p.credits == null) && creditsList[creditsList.length - 1].credits == null).toBe(true)
+        expect(typedQuery).toMatch(/^[a-z]{4}$/)
+        expect(typedFirstPage.length).toBeGreaterThan(0)
+        expect(vi.loadMore && vi.credits && vi.sort && vi.sortCredits && vi.allUniversities && vi.searchPlaceholder).toBeTruthy()
+        console.log(
+            `[v264 ${test.info().project.name}] ${universities.length} universities; credits case ${creditsCase?.u.name} ` +
+                `(${creditsList.length} programs, ${creditsList.filter((p) => p.credits == null).length} NULL); typed query "${typedQuery}"`
+        )
+    })
+
+    test("credits sort: NULL credits last, in the API's order across list pages", async ({ page, baseURL }) => {
+        const rec = await useApi(page, baseURL)
+        await openList(page)
+        const uni = creditsCase!.u
+        await page.getByRole("combobox", { name: vi.allUniversities, exact: true }).click()
+        await page.getByRole("option", { name: uni.name, exact: true }).click()
+        await expect.poll(() => listTotal(page), { timeout: 20000 }).toBe(creditsList.length)
+        await page.getByRole("combobox", { name: vi.sort, exact: true }).click()
+        await page.getByRole("option", { name: vi.sortCredits, exact: true }).click()
+        await expect
+            .poll(() => lists(rec).some((u) => u.searchParams.get("sortBy") === "credits" && u.searchParams.get("universityId") === uni.id), { timeout: 20000 })
+            .toBe(true)
+        const cards = page.getByTestId("program-card")
+        await expect(cards.first().locator("h3")).toHaveText(creditsList[0].name, { timeout: 20000 })
+        for (let n = 0; (await cards.count()) < creditsList.length && n < 10; n++) {
+            const before = await cards.count()
+            await page.getByRole("button", { name: LOAD_MORE }).click()
+            await expect.poll(() => cards.count(), { timeout: 20000 }).toBeGreaterThan(before)
+        }
+        const shown: string[] = []
+        for (let i = 0; i < (await cards.count()); i++) {
+            const badge = cards.nth(i).getByText(CREDITS)
+            const credits = (await badge.count()) ? CREDITS.exec((await badge.first().textContent())!.trim())![1] : "null"
+            shown.push(`${(await cards.nth(i).locator("h3").textContent())!.trim()}: ${credits}`)
+        }
+        expect(shown).toEqual(creditsList.map((p) => `${p.name}: ${p.credits ?? "null"}`))
+        const pages = lists(rec).filter((u) => u.searchParams.get("sortBy") === "credits" && u.searchParams.get("universityId") === uni.id)
+        expect(pages.every((u) => u.searchParams.get("sortDesc") === "true" && u.searchParams.get("pageSize") === String(LIST_PAGE_SIZE))).toBe(true)
+        console.log(`[v264 ${test.info().project.name}] credits: ${uni.name} ${shown.length} cards over ${pages.length} list requests; last ${shown[shown.length - 1]}`)
+    })
+
+    test("university filter: every university of the API, from all its pages", async ({ page, baseURL }) => {
+        const rec = await useApi(page, baseURL)
+        await openList(page)
+        await page.getByRole("combobox", { name: vi.allUniversities, exact: true }).click()
+        await expect
+            .poll(async () => (await page.getByRole("option").allTextContents()).map((t) => t.trim()), { timeout: 20000 })
+            .toEqual([vi.allUniversities, ...universityOrder.map((u) => u.name)])
+        const asked = [...new Set(rec.api.filter((u) => /\/api\/universities\/?$/.test(u.pathname)).map((u) => u.pathname + u.search))].sort()
+        expect(asked).toEqual(["/api/universities?page=1&pageSize=20", "/api/universities?page=2&pageSize=20"])
+    })
+
+    test("list search: one list request per typed query, after the debounce", async ({ page, baseURL }) => {
+        const rec = await useApi(page, baseURL)
+        await openList(page)
+        await page.waitForTimeout(1000)
+        const from = rec.api.length
+        const box = page.getByPlaceholder(vi.searchPlaceholder)
+        await box.click()
+        await box.pressSequentially(typedQuery, { delay: 40 })
+        await expect.poll(() => lists(since(rec, from)).some((u) => u.searchParams.get("search") === typedQuery), { timeout: 20000 }).toBe(true)
+        await page.waitForTimeout(SEARCH_DEBOUNCE_MS + 1000)
+        expect(lists(since(rec, from)).map((u) => `${u.searchParams.get("search")}#${u.searchParams.get("page")}`), "list requests while typing").toEqual([
+            `${typedQuery}#1`,
+        ])
+        await expect
+            .poll(() => page.getByTestId("program-card").locator("h3").allTextContents(), { timeout: 20000 })
+            .toEqual(typedFirstPage.map((p) => p.name))
+    })
+
+    test("compare slot search: one search per typed query, after the debounce", async ({ page, baseURL }) => {
+        const rec = await useApi(page, baseURL)
+        await page.goto("/vi/compare", { waitUntil: "domcontentloaded" })
+        await compareSelects(page)
+        await page.waitForTimeout(1000)
+        const from = rec.api.length
+        const box = page.getByTestId("compare-search-1")
+        await box.click()
+        await box.pressSequentially(typedQuery, { delay: 40 })
+        await expect.poll(() => lists(since(rec, from)).some((u) => u.searchParams.get("search") === typedQuery), { timeout: 30000 }).toBe(true)
+        await page.waitForTimeout(SEARCH_DEBOUNCE_MS + 1000)
+        const searches = lists(since(rec, from))
+        expect(searches.map((u) => u.searchParams.get("search")).filter((q) => q !== typedQuery), "requests for a prefix of the query").toEqual([])
+        const pages = Math.max(1, Math.ceil(listMatches(typedQuery) / API_MAX_PAGE_SIZE))
+        expect(searches.map((u) => Number(u.searchParams.get("page"))).sort(), "the query's API pages").toEqual(
+            Array.from({ length: pages }, (_, i) => i + 1)
+        )
     })
 })

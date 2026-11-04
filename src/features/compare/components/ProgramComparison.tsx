@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Scale, GraduationCap, ArrowRightLeft, CheckCircle2, AlertCircle, Share2, Check, Plus, X, Search } from "lucide-react"
 import { fetchPrograms, fetchProgramById, fetchProgramList, fetchCurricula, isFullProgram } from "@/features/programs/api"
 import { Program, ProgramSummary } from "@/features/programs/types"
+import { useSearchQuery } from "@/features/programs/useSearchQuery"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 import { cn } from "@/lib/utils"
 import { hasEnoughData } from "@/lib/score-basis"
@@ -46,7 +47,8 @@ type SlotPickerProps = {
 const SlotPicker = ({ slot, label, value, options, catalogTotal, onPick }: SlotPickerProps) => {
     const t = useTranslations("programs")
     const [query, setQuery] = useState("")
-    const q = query.trim()
+    // API mode: the whole-catalog search runs once typing pauses (v2.64); mock mode: on every change, as before.
+    const q = useSearchQuery(query).trim()
     const { data: found } = useSWR(
         q && catalogTotal > 0 ? ["compare-search", q, catalogTotal] : null,
         // Page size = whole catalog: every match is listed, none cut off.

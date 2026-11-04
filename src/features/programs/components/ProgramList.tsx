@@ -29,6 +29,7 @@ import {
     isFullProgram,
 } from "../api"
 import { isProgramId, setProgramParam, stackProgramLanding, useProgramParam } from "../programLink"
+import { useSearchQuery } from "../useSearchQuery"
 import {
     AdmissionScore,
     PagedResult,
@@ -82,6 +83,12 @@ export function ProgramList() {
         universityType: "all",
         sortBy: "newest",
     })
+    // What the list requests use: in API mode the search text once typing pauses (v2.64), in mock mode `filters` itself.
+    const searchQuery = useSearchQuery(filters.search)
+    const queryFilters = useMemo(
+        () => (searchQuery === filters.search ? filters : { ...filters, search: searchQuery }),
+        [filters, searchQuery]
+    )
     const [lastViewedProgram, setLastViewedProgram] = useState<Program | null>(null)
     const [wishlistOpen, setWishlistOpen] = useState(false)
     const { mounted: wishlistMounted, ids: wishlistIds } = useWishlist()
@@ -134,9 +141,9 @@ export function ProgramList() {
     const getKey = useCallback(
         (pageIndex: number, previousPageData: PagedResult<ProgramSummary> | null) => {
             if (previousPageData && !previousPageData.hasNextPage) return null
-            return ["programs", filters, pageIndex + 1] as const
+            return ["programs", queryFilters, pageIndex + 1] as const
         },
-        [filters]
+        [queryFilters]
     )
 
     const { data, error, isLoading, isValidating, size, setSize } = useSWRInfinite(
@@ -338,7 +345,7 @@ export function ProgramList() {
     // search index, never every chunk — v2.61).
     const { data: scorePool } = useSWR(
         scoreFilterActive && totalCount > 0
-            ? ["programs-score-pool", filters, totalCount]
+            ? ["programs-score-pool", queryFilters, totalCount]
             : null,
         ([, f, count]) =>
             fetchProgramPool({

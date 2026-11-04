@@ -481,7 +481,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
         document.getElementById(tabId(tabs[next].key))?.focus()
     }
 
-    const evalComponents: { id: string; name: string; score: number | undefined }[] = program ? [
+    const evalComponents: { id: string; name: string; score: number | null | undefined }[] = program ? [
         { id: "outcomes", name: t("evalOutcomeName"), score: program.evalOutcomes },
         { id: "structure", name: t("evalStructureName"), score: program.evalStructure },
         { id: "blocks", name: t("evalBlocksName"), score: program.evalKnowledgeBlocks },

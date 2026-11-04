@@ -18,10 +18,15 @@ import { isProgramId } from "./programLink"
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5100/api"
 // The API's ProgramFilterDto.PageSize is [Range(1, 1000)]: a larger ask is served page by page.
 const API_MAX_PAGE_SIZE = 1000
+// The API's university list (UniversityFilterDto): pages of its default size, at most 50 pages (1,000 universities).
+const UNIVERSITY_PAGE_SIZE = 20
+const UNIVERSITY_MAX_PAGES = 50
 const isProduction = process.env.NODE_ENV === "production"
 const USE_MOCK = isProduction
     ? process.env.NEXT_PUBLIC_USE_MOCK === "true"
     : process.env.NEXT_PUBLIC_USE_MOCK !== "false"
+// API mode (NEXT_PUBLIC_USE_MOCK=false at build time): read by the API-mode-only search debounce (useSearchQuery.ts).
+export const API_MODE = !USE_MOCK
 
 // Mock data caches
 let mockUniversitiesCache: University[] | null = null
@@ -412,13 +417,28 @@ export async function fetchUniversities(): Promise<University[]> {
         return loadMockUniversities()
     }
 
-    const res = await fetch(`${API_BASE_URL}/universities`)
-    if (!res.ok) {
-        throw new Error(`Failed to fetch universities: ${res.status}`)
+    // The API pages universities (20 per page by default): read every page in order while it reports a next one
+    // (v2.64; before, only the first 20 reached the filter). Bounded by the first page's totalPages and
+    // UNIVERSITY_MAX_PAGES; a university repeated across pages is kept once.
+    const universities: University[] = []
+    const seen = new Set<string>()
+    let lastPage = UNIVERSITY_MAX_PAGES
+    for (let page = 1; page <= lastPage; page++) {
+        const res = await fetch(`${API_BASE_URL}/universities?page=${page}&pageSize=${UNIVERSITY_PAGE_SIZE}`)
+        if (!res.ok) {
+            throw new Error(`Failed to fetch universities: ${res.status}`)
+        }
+        const data: PagedResult<University> | University[] = await res.json()
+        if (Array.isArray(data)) return data // an unpaged answer is the whole list
+        for (const university of data.items) {
+            if (seen.has(university.id)) continue
+            seen.add(university.id)
+            universities.push(university)
+        }
+        if (!data.hasNextPage || data.items.length === 0) break
+        lastPage = Math.min(UNIVERSITY_MAX_PAGES, data.totalPages || UNIVERSITY_MAX_PAGES)
     }
-    const data: PagedResult<University> | University[] = await res.json()
-    const items = Array.isArray(data) ? data : data.items
-    return items
+    return universities
 }
 
 export async function fetchDegreeTypes(): Promise<string[]> {

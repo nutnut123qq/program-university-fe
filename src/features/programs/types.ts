@@ -39,10 +39,12 @@ export interface Program {
     updatedAt: string
     courseCount: number
     evaluationScore?: number | null
-    evalOutcomes?: number
-    evalStructure?: number
-    evalKnowledgeBlocks?: number
-    evalCompleteness?: number
+    // The 4 slm_strict_v3b component scores (1-5): left out of the snapshot when absent, null from the API (v2.51 DTO).
+    // Every reader counts only typeof === "number" (ProgramDetailDialog, ProgramComparison).
+    evalOutcomes?: number | null
+    evalStructure?: number | null
+    evalKnowledgeBlocks?: number | null
+    evalCompleteness?: number | null
     dataSufficiency?: string | null
     electiveGroups?: ElectiveGroup[]
 }
