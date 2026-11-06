@@ -270,7 +270,8 @@ export interface AdmissionQuota {
     scope: AdmissionScope
     scopeLabel: string | null
     quota: number
-    methodSplit: Record<string, number> | null
+    /** Any JSON as published (descriptions, codes, combos, a whole string, numbers): read only through quotaMethodSplitText (v2.67). */
+    methodSplit: unknown
     sourceUrl: string | null
     publishedAt: string | null
     fetchedAt?: string | null

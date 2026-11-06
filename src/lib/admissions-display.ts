@@ -26,6 +26,28 @@ export function displayMethod(row: { method: string | null; year: number }): str
     return method.endsWith(suffix) ? method.slice(0, -suffix.length) : method
 }
 
+/**
+ * A quota's split by method as "<key>: <share>%" entries joined by " · ", or null when nothing is printable (v2.67, audit
+ * 2026-11-05 M1) — the one reader of `methodSplit` for the program dialog and compare. The field holds many shapes (method
+ * descriptions, program codes, combo lists, URLs, a whole string, nested objects, seat counts, fractions); an entry is
+ * printed only when its unit follows from the row itself: two or more numeric entries whose sum is 1 (fractions), 100
+ * (percents) or the row's quota (seat counts). Every other entry, and every entry of a split whose numbers do not add up
+ * to one of those wholes, is not printed. Keys are printed as stored.
+ * shortcut: the wholes are tried in the order 1, 100, quota, so a sum within 0.01 of 1 reads as fractions (even a percent
+ * split totalling 1 %) and a sum within 1 of 100 reads as percents (even seat counts whose quota is that sum, e.g. 99 or
+ * 101 seats); 0 such rows today (round102 S2_methodsplit_numbers.log) — try the quota first if such data appears.
+ */
+export function quotaMethodSplitText(q: { quota: number | null; methodSplit: unknown }, locale: string): string | null {
+    const ms = q.methodSplit
+    if (!ms || typeof ms !== "object" || Array.isArray(ms)) return null
+    const nums = Object.entries(ms).filter((e): e is [string, number] => typeof e[1] === "number" && Number.isFinite(e[1]) && e[1] >= 0)
+    if (nums.length < 2) return null
+    const sum = nums.reduce((s, [, v]) => s + v, 0)
+    const whole = Math.abs(sum - 1) <= 0.01 ? 1 : Math.abs(sum - 100) <= 1 ? 100 : q.quota != null && q.quota > 0 && sum === q.quota ? q.quota : null
+    if (whole === null) return null
+    return nums.map(([k, v]) => `${k}: ${formatAdmissionNumber((v / whole) * 100, locale)}%`).join(" · ")
+}
+
 /** Rows whose year is the newest of their method (`displayMethod`): the v2.58 threshold rule, shared with the program page (v2.60). */
 export function newestPerMethod<R extends { method: string | null; year: number }>(rows: R[]): R[] {
     const newest = new Map<string, number>()

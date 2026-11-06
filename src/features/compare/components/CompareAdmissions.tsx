@@ -8,7 +8,7 @@ import { AlertCircle, ExternalLink, GraduationCap } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { fetchAdmissions, fetchUniversityCode } from "@/features/programs/api"
 import { AdmissionQuota, AdmissionScore, Program, TuitionRecord } from "@/features/programs/types"
-import { formatAdmissionNumber } from "@/lib/admissions-display"
+import { formatAdmissionNumber, quotaMethodSplitText } from "@/lib/admissions-display"
 import { safeHttpUrl, urlHost } from "@/lib/safe-url"
 
 /**
@@ -205,11 +205,6 @@ export function CompareAdmissions({ program }: { program: Program }) {
                         ? t("tuitionBasisPerProgram")
                         : basis
 
-    const methodLabelFor = (methodKey: string): string => {
-        const all = [...(view?.programScores ?? []), ...(view?.contextScores ?? [])]
-        return all.find((s) => s.method === methodKey)?.methodLabel || methodKey
-    }
-
     const scoreText = (s: AdmissionScore): string =>
         s.score == null ? "—" : num(s.score)
 
@@ -269,12 +264,8 @@ export function CompareAdmissions({ program }: { program: Program }) {
                     {t("admissionQuotaScopedNote")}
                 </p>
             )}
-            {q.methodSplit && Object.keys(q.methodSplit).length > 0 && (
-                <p className="text-[11px] text-muted-foreground">
-                    {Object.entries(q.methodSplit)
-                        .map(([k, v]) => `${methodLabelFor(k)}: ${v}%`)
-                        .join(" · ")}
-                </p>
+            {quotaMethodSplitText(q, locale) && (
+                <p className="text-[11px] text-muted-foreground">{quotaMethodSplitText(q, locale)}</p>
             )}
             <RecordProvenance sourceUrl={q.sourceUrl} publishedAt={q.publishedAt} fetchedAt={q.fetchedAt} />
         </div>

@@ -27,7 +27,7 @@ export interface AdmissionQuota {
     scope: string;
     scopeLabel: string | null;
     quota: number;
-    methodSplit: Record<string, number> | null;
+    methodSplit: unknown; // not read by the chat context (v2.67: any JSON, see quotaMethodSplitText)
     sourceUrl: string | null;
     publishedAt: string | null;
 }

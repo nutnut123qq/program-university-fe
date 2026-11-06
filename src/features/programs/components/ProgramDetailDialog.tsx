@@ -43,6 +43,7 @@ import {
     admissionScopeText,
     admissionsForProgram,
     formatAdmissionNumber,
+    quotaMethodSplitText,
     tuitionAmountText,
     tuitionBasisText,
 } from "@/lib/admissions-display"
@@ -295,9 +296,6 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
             ? admissionMethod
             : (admissionsView?.methods[0]?.key ?? null)
 
-    const methodLabelFor = (methodKey: string): string =>
-        admissionsView?.methods.find((m) => m.key === methodKey)?.label || methodKey
-
     const scoreText = (s: AdmissionScore): string =>
         s.score == null ? "—" : num(s.score)
 
@@ -385,12 +383,8 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                     {t("admissionQuotaScopedNote")}
                 </p>
             )}
-            {q.methodSplit && Object.keys(q.methodSplit).length > 0 && (
-                <p className="text-[11px] text-muted-foreground">
-                    {Object.entries(q.methodSplit)
-                        .map(([k, v]) => `${methodLabelFor(k)}: ${v}%`)
-                        .join(" · ")}
-                </p>
+            {quotaMethodSplitText(q, locale) && (
+                <p className="text-[11px] text-muted-foreground">{quotaMethodSplitText(q, locale)}</p>
             )}
             <RecordProvenance sourceUrl={q.sourceUrl} publishedAt={q.publishedAt} fetchedAt={q.fetchedAt} />
         </div>
@@ -862,7 +856,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                     <div className="space-y-4">
                                         {/* Knowledge Block Percentages Chart Component */}
                                         {courses && courses.length > 0 && (
-                                            <KnowledgeBlockBreakdown courses={courses} totalCredits={program.credits || undefined} />
+                                            <KnowledgeBlockBreakdown courses={courses} />
                                         )}
 
                                         {/* Search & Filter Header Bar */}

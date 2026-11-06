@@ -4,12 +4,12 @@ import React, { useMemo } from "react"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { Curriculum } from "../types"
+import { knowledgeBlockShares } from "@/lib/knowledge-blocks"
 import { useTranslations } from "next-intl"
 import { PieChart, CheckCircle2, AlertTriangle } from "lucide-react"
 
 interface KnowledgeBlockBreakdownProps {
     courses: Curriculum[]
-    totalCredits?: number
 }
 
 const MOET_GUIDELINES = [
@@ -19,55 +19,15 @@ const MOET_GUIDELINES = [
     { id: "graduation", labelKey: "kbBlockGraduation", minPct: 5, maxPct: 15, color: "bg-emerald-500", border: "border-emerald-500/30", text: "text-emerald-500" },
 ]
 
-export const KnowledgeBlockBreakdown: React.FC<KnowledgeBlockBreakdownProps> = ({ courses, totalCredits }) => {
+export const KnowledgeBlockBreakdown: React.FC<KnowledgeBlockBreakdownProps> = ({ courses }) => {
     const t = useTranslations("programs")
-    const stats = useMemo(() => {
-        const counts: Record<string, { courses: number; credits: number }> = {
-            general: { courses: 0, credits: 0 },
-            foundation: { courses: 0, credits: 0 },
-            major: { courses: 0, credits: 0 },
-            graduation: { courses: 0, credits: 0 },
-        }
-
-        let calculatedSumCredits = 0
-
-        courses.forEach((c) => {
-            // `knowledgeBlock` is stored in Vietnamese — the matching below is data, not UI text.
-            const kb = (c.knowledgeBlock || "").toLowerCase()
-            const cr = c.credits ?? 0
-            calculatedSumCredits += cr
-
-            if (kb.includes("đại cương")) {
-                counts.general.courses += 1
-                counts.general.credits += cr
-            } else if (kb.includes("cơ sở")) {
-                counts.foundation.courses += 1
-                counts.foundation.credits += cr
-            } else if (kb.includes("tốt nghiệp") || kb.includes("thực tập") || kb.includes("đồ án")) {
-                counts.graduation.courses += 1
-                counts.graduation.credits += cr
-            } else {
-                counts.major.courses += 1
-                counts.major.credits += cr
-            }
-        })
-
-        const totalSum = totalCredits || calculatedSumCredits || 1
-
-        return MOET_GUIDELINES.map((g) => {
-            const data = counts[g.id] || { courses: 0, credits: 0 }
-            const pct = Math.round((data.credits / totalSum) * 100)
-            const isBalanced = pct >= g.minPct && pct <= g.maxPct
-
-            return {
-                ...g,
-                courseCount: data.courses,
-                credits: data.credits,
-                pct,
-                isBalanced,
-            }
-        })
-    }, [courses, totalCredits])
+    // v2.67: shares of the credits of the listed courses that record a block (src/lib/knowledge-blocks.ts).
+    const shares = useMemo(() => knowledgeBlockShares(courses), [courses])
+    const stats = MOET_GUIDELINES.map((g) => {
+        const b = shares.blocks.find((x) => x.id === g.id)!
+        const pct = b.percent ?? 0
+        return { ...g, courseCount: b.courses, credits: b.credits, pct, isBalanced: pct >= g.minPct && pct <= g.maxPct }
+    })
 
     return (
         <Card className="border-border/60 bg-muted/20">
@@ -82,7 +42,14 @@ export const KnowledgeBlockBreakdown: React.FC<KnowledgeBlockBreakdownProps> = (
                     </Badge>
                 </div>
 
+                {shares.classified.credits > 0 && (
+                    <p className="text-[11px] text-muted-foreground">
+                        {t("kbBasis", { credits: shares.classified.credits, count: shares.classified.courses })}
+                    </p>
+                )}
+
                 {/* Progress Bars Breakdown */}
+                {shares.classified.credits > 0 && (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
                     {stats.map((s) => (
                         <div key={s.id} className={`p-3 rounded-xl border bg-background space-y-2 ${s.border}`}>
@@ -108,6 +75,16 @@ export const KnowledgeBlockBreakdown: React.FC<KnowledgeBlockBreakdownProps> = (
                         </div>
                     ))}
                 </div>
+                )}
+
+                {shares.unclassified.courses > 0 && (
+                    <p className="text-[11px] text-muted-foreground">
+                        {/* v2.67 r1: a credit total only when every course here has known credits (no unknown counted as 0). */}
+                        {shares.unclassified.noCredits === 0
+                            ? t("kbUnclassified", { count: shares.unclassified.courses, credits: shares.unclassified.credits })
+                            : t("kbUnclassifiedCount", { count: shares.unclassified.courses })}
+                    </p>
+                )}
             </CardContent>
         </Card>
     )
