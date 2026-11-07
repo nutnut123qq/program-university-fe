@@ -23,6 +23,7 @@ import { SyllabusDetailModal } from "@/features/programs/components/SyllabusDeta
 import { DataAttribution } from "@/features/programs/components/DataAttribution"
 import { Curriculum, SubjectMaterialSummary } from "@/features/programs/types"
 import { safeHttpUrl } from "@/lib/safe-url"
+import { searchMatcher } from "@/lib/search-text"
 import { isZeroValue, sameName } from "@/features/programs/roadmapUniversities"
 
 type FilterType = "all" | "coursera" | "textbook"
@@ -74,19 +75,12 @@ export default function MaterialsPage() {
         }
 
         if (searchQuery.trim()) {
-            const q = searchQuery.toLowerCase()
+            const found = searchMatcher(searchQuery)
             result = result.filter((item) => {
-                const matchesSubject =
-                    item.subjectCode.toLowerCase().includes(q) ||
-                    item.subjectName.toLowerCase().includes(q) ||
-                    (item.subjectEnglish && item.subjectEnglish.toLowerCase().includes(q))
+                const matchesSubject = found(item.subjectCode) || found(item.subjectName) || found(item.subjectEnglish)
 
                 const matchesMaterials = item.materials.some(
-                    (m) =>
-                        m.materialDescription.toLowerCase().includes(q) ||
-                        (m.author && m.author.toLowerCase().includes(q)) ||
-                        (m.publisher && m.publisher.toLowerCase().includes(q)) ||
-                        (m.isbn && m.isbn.toLowerCase().includes(q))
+                    (m) => found(m.materialDescription) || found(m.author) || found(m.publisher) || found(m.isbn)
                 )
 
                 return matchesSubject || matchesMaterials

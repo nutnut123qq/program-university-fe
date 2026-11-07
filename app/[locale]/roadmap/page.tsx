@@ -31,7 +31,6 @@ import { DataAttribution } from "@/features/programs/components/DataAttribution"
 import {
     DEFAULT_ROADMAP_UNIVERSITY,
     ROADMAP_UNIVERSITIES,
-    foldSearch,
     relationCodes,
     roadmapFileKey,
     roadmapSuggestions,
@@ -166,10 +165,6 @@ export default function RoadmapPage() {
         () => (courseNames ? new Map(Object.entries(courseNames).map(([code, name]) => [roadmapFileKey(code), name])) : null),
         [courseNames]
     )
-    const foldedNames = useMemo(
-        () => (courseNames ? Object.fromEntries(Object.entries(courseNames).map(([code, name]) => [code, foldSearch(name)])) : undefined),
-        [courseNames]
-    )
 
     /** A neighbour card's name line: the course file's names map (FPT), else the name in the neighbour's own file. */
     const neighbourName = (code: string): { text: string; known: boolean } => {
@@ -196,10 +191,10 @@ export default function RoadmapPage() {
         if (value.trim() && uniData && !searchedUnis.has(university)) setSearchedUnis(new Set([...searchedUnis, university]))
     }
 
-    // Autocomplete suggestions: codes as at Base, then course names (v2.63)
+    // Autocomplete suggestions: codes as at Base, then course names (v2.63), as typed first (v2.68)
     const suggestions = useMemo(
-        () => (indexList ? roadmapSuggestions(indexList, foldedNames, searchQuery) : []),
-        [indexList, foldedNames, searchQuery]
+        () => (indexList ? roadmapSuggestions(indexList, courseNames, searchQuery) : []),
+        [indexList, courseNames, searchQuery]
     )
 
     // moveFocus: the clicked control leaves the page (a suggestion, a neighbour card's button), so focus goes to the

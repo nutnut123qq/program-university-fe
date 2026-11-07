@@ -80,10 +80,15 @@ function searchParts(uni: string, query: string): { byCode: string[]; byName: st
         byName: f ? idx.filter((c) => !c.toLowerCase().includes(q) && foldedNamesOf(uni).get(c)!.includes(f)) : [],
     }
 }
-/** The search rule, restated: the code matches first, then the name matches, at most 8. */
+/** The search rule, restated: the code matches first, then the name matches, at most 8 — v2.68: for a query typed with
+ *  diacritics, the names containing it as typed (NFC, case, "_"/spaces tidied) before the names matching only folded. */
+const tidy = (s: string) => s.normalize("NFC").toLowerCase().replace(/_/g, " ").replace(/\s+/g, " ").trim()
 function searchRule(uni: string, query: string): string[] {
     const { byCode, byName } = searchParts(uni, query)
-    return [...byCode, ...byName].slice(0, CAP)
+    const t = tidy(query)
+    const asTyped = (c: string) => tidy(nameOf(uni, c)).includes(t)
+    const ranked = fold(query) !== t ? [...byName.filter(asTyped), ...byName.filter((c) => !asTyped(c))] : byName
+    return [...byCode, ...ranked].slice(0, CAP)
 }
 /** ICU `{n, plural, one {…} other {…}}` (with `#`) and plain `{x}` — the forms these messages use — via Intl.PluralRules. */
 function icu(s: string, vars: Record<string, number>, locale: Locale) {

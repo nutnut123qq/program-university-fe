@@ -1,3 +1,4 @@
+import { exactMatcher, foldSearch, hasDiacritics } from "@/lib/search-text"
 import type { SyllabusDetail, SyllabusInfo, SyllabusSession } from "./types"
 
 /**
@@ -62,27 +63,37 @@ export const relationCodes = (codes: string[] | undefined) => (codes ?? []).flat
 /** A course's file name under `public/mock/roadmaps/<university>/` (the fetchers' rule in api.ts: `[^a-zA-Z0-9_-]` → `_`). */
 export const roadmapFileKey = (code: string) => code.replace(/[^a-zA-Z0-9_\-]/g, "_")
 
-/**
- * The /roadmap search fold (v2.63): Vietnamese diacritics (NFD marks, đ) and letter case dropped; "_" (FPT's
- * "English_Vietnamese" names) and runs of whitespace read as one space. Other punctuation stays: a query matches as typed.
- */
-export const foldSearch = (s: string) =>
-    s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/g, "d").replace(/Đ/g, "D").toLowerCase().replace(/_/g, " ").replace(/\s+/g, " ").trim()
-
 /** At most this many /roadmap search suggestions (as at Base). */
 export const ROADMAP_SUGGESTION_CAP = 8
 
+/** code → foldSearch(name), folded once per names object (one per university's names file; v2.68 fix r1). */
+const FOLDED_NAMES = new WeakMap<Readonly<Record<string, string>>, Record<string, string>>()
+function foldedNamesOf(names: Readonly<Record<string, string>>): Record<string, string> {
+    let folded = FOLDED_NAMES.get(names)
+    if (folded === undefined) {
+        folded = Object.fromEntries(Object.entries(names).map(([code, name]) => [code, foldSearch(name)]))
+        FOLDED_NAMES.set(names, folded)
+    }
+    return folded
+}
+
 /**
  * The /roadmap search (v2.63, audit V9): the codes containing the query (letter case ignored — the Base rule), in index
- * order, then the courses whose folded name contains the folded query, in index order; at most ROADMAP_SUGGESTION_CAP.
- * Both halves read the trimmed query (fix r1): "PRO " lists the PRO codes first, as "PRO" does.
- * `foldedNames` = code → foldSearch(name) from the university's names file; without it (loading or failed) only codes match.
+ * order, then the courses whose folded name contains the folded query (search-text.ts foldSearch — a suggestion list
+ * shows near matches too); at most ROADMAP_SUGGESTION_CAP. A query typed with diacritics lists first the names that
+ * contain it as typed, then the names that match only once folded (v2.68, audit M18: "kinh tế vi mô" before "Kinh tế
+ * vĩ mô"); each part in index order, so a query without diacritics keeps the index order. Both halves read the
+ * trimmed query (fix r1): "PRO " lists the PRO codes first.
+ * `names` = code → name from the university's names file; without it (loading or failed) only codes match.
  */
-export function roadmapSuggestions(index: readonly string[], foldedNames: Readonly<Record<string, string>> | undefined, query: string): string[] {
+export function roadmapSuggestions(index: readonly string[], names: Readonly<Record<string, string>> | undefined, query: string): string[] {
     const q = query.trim().toLowerCase()
     if (!q) return []
     const byCode = index.filter((code) => code.toLowerCase().includes(q))
     const f = foldSearch(query)
-    const byName = foldedNames && f ? index.filter((code) => !code.toLowerCase().includes(q) && (foldedNames[code] ?? "").includes(f)) : []
-    return [...byCode, ...byName].slice(0, ROADMAP_SUGGESTION_CAP)
+    const folded = names && foldedNamesOf(names)
+    const byName = folded && f ? index.filter((code) => !code.toLowerCase().includes(q) && (folded[code] ?? "").includes(f)) : []
+    const exact = exactMatcher(query)
+    const ranked = names && hasDiacritics(query) ? [...byName.filter((c) => exact(names[c])), ...byName.filter((c) => !exact(names[c]))] : byName
+    return [...byCode, ...ranked].slice(0, ROADMAP_SUGGESTION_CAP)
 }

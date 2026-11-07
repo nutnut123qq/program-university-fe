@@ -55,6 +55,7 @@ import { WishlistButton } from "@/features/wishlist/WishlistButton"
 import { programLinkUrl, programPagePath } from "../programLink"
 import { useModalFocus } from "@/hooks/useModalFocus"
 import { tabKeyTarget } from "@/lib/tab-keys"
+import { searchMatcher } from "@/lib/search-text"
 
 interface ProgramDetailDialogProps {
     program: Program | null
@@ -444,11 +445,9 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
     const semesterChoice = semesterOptions.some((s) => semesterKey(s) === semesterFilter) ? semesterFilter : "all"
     const filteredCourses = useMemo(() => {
         if (!courses) return []
+        const found = searchMatcher(courseSearch)
         return courses.filter((c) => {
-            const matchesQuery =
-                !courseSearch ||
-                (c.courseName || "").toLowerCase().includes(courseSearch.toLowerCase()) ||
-                (c.courseCode || "").toLowerCase().includes(courseSearch.toLowerCase())
+            const matchesQuery = !courseSearch || found(c.courseName) || found(c.courseCode)
 
             const matchesSem = semesterChoice === "all" || semesterKey(c.semester) === semesterChoice
 

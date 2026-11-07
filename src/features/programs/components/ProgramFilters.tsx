@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Select, SelectItem } from "@/components/ui/select"
 import { useTranslations } from "next-intl"
 import { ProgramFilters as ProgramFiltersType, University } from "../types"
+import cohortOptions from "@/lib/cohort-options.json"
 
 type UniversityType = NonNullable<ProgramFiltersType["universityType"]>
 
@@ -122,24 +123,21 @@ export function ProgramFilters({
                         <SelectItem value="private">{t("privateUniversity")}</SelectItem>
                     </Select>
 
+                    {/* Only the cohorts in the data the filter reads (v2.68, scripts/build-cohort-options.mjs). */}
                     <Select
                         value={filters.cohort && filters.cohort !== "all" ? filters.cohort : ""}
                         onValueChange={(value) =>
                             onChange({ ...filters, cohort: value || "all" })
                         }
-                        placeholder={t("cohortPlaceholder")}
+                        placeholder={t("cohortAll")}
                         aria-label={t("cohortAria")}
                     >
                         <SelectItem value="">{t("cohortAll")}</SelectItem>
-                        <SelectItem value="K23">{t("cohortBadge", { id: "K23" })} (2023 - {t("cohortNow")})</SelectItem>
-                        <SelectItem value="K22">{t("cohortBadge", { id: "K22" })} (2022)</SelectItem>
-                        <SelectItem value="K21">{t("cohortBadge", { id: "K21" })} (2021)</SelectItem>
-                        <SelectItem value="K20">{t("cohortBadge", { id: "K20" })} (2020)</SelectItem>
-                        <SelectItem value="K19">{t("cohortBadge", { id: "K19" })} (2019)</SelectItem>
-                        <SelectItem value="K18">{t("cohortBadge", { id: "K18" })} (2018)</SelectItem>
-                        <SelectItem value="K17">{t("cohortBadge", { id: "K17" })} (2017)</SelectItem>
-                        <SelectItem value="K16">{t("cohortBadge", { id: "K16" })} (2016)</SelectItem>
-                        <SelectItem value="K15">{t("cohortBadge", { id: "K15" })} (2015)</SelectItem>
+                        {cohortOptions.cohorts.map((c) => (
+                            <SelectItem key={c.id} value={c.id}>
+                                {t("cohortBadge", { id: c.id })} ({t("cohortOptionDetail", { universities: c.universities.join(", "), count: c.programs })})
+                            </SelectItem>
+                        ))}
                     </Select>
 
                     <Select
@@ -174,6 +172,18 @@ export function ProgramFilters({
                         <SelectItem value="credits">{t("sortCredits")}</SelectItem>
                     </Select>
                 </div>
+
+                {/* A chosen cohort hides every program without a cohort code: say so, with the counts (v2.68). */}
+                {filters.cohort && filters.cohort !== "all" && (
+                    <p role="status" data-testid="cohort-notice" className="text-xs sm:text-sm text-muted-foreground px-0.5">
+                        {t("cohortNotice", {
+                            withCohort: cohortOptions.withCohort,
+                            total: cohortOptions.programs,
+                            without: cohortOptions.programs - cohortOptions.withCohort,
+                            universities: cohortOptions.universities.join(", "),
+                        })}
+                    </p>
+                )}
             </div>
 
             <div className="flex items-center justify-between text-xs sm:text-sm text-muted-foreground px-0.5">

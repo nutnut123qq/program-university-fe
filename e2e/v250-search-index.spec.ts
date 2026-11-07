@@ -1,5 +1,6 @@
 import { test, expect, Page, Request } from "@playwright/test"
 import { execFileSync } from "child_process"
+import { cohortsOfCode } from "./cohort-shapes"
 import { readFileSync, statSync } from "fs"
 import path from "path"
 
@@ -79,7 +80,7 @@ function decodeIndex(): Record<string, unknown>[] {
 // ---- cases derived from the snapshot ------------------------------------------------
 type Sort = "newest" | "name" | "credits"
 type Case = { label: string; typed?: string; universityId?: string; degreeType?: string; cohort?: string; sort: Sort }
-type Params = { search?: string; universityId?: string; degreeType?: string; cohort?: string; sortBy: string; sortDesc: boolean }
+type Params = { search?: string; universityId?: string; degreeType?: string; cohort?: string; cohortCodes?: string[]; sortBy: string; sortDesc: boolean }
 
 // The params ProgramList sends for a filter state.
 const paramsOf = (c: Case): Params => ({
@@ -87,6 +88,8 @@ const paramsOf = (c: Case): Params => ({
     universityId: c.universityId,
     degreeType: c.degreeType,
     cohort: c.cohort,
+    // v2.68 fix r1: the codes that record this cohort (e2e/cohort-shapes.ts — "K21D22A" records K21 and K22).
+    cohortCodes: c.cohort ? [...new Set(all.filter((p) => cohortsOfCode(p.code).includes(c.cohort!)).map((p) => p.code!))] : undefined,
     sortBy: c.sort === "newest" ? "createdAt" : c.sort,
     sortDesc: c.sort === "newest" || c.sort === "credits",
 })
@@ -99,10 +102,7 @@ function matches(p: MockProgram, prm: Params): boolean {
     }
     if (prm.degreeType && p.degreeType !== prm.degreeType) return false
     if (prm.universityId && p.universityId !== prm.universityId) return false
-    if (prm.cohort) {
-        const c = prm.cohort.toLowerCase()
-        if (!((p.code && p.code.toLowerCase().includes(c)) || p.name.toLowerCase().includes(c))) return false
-    }
+    if (prm.cohort && !cohortsOfCode(p.code).includes(prm.cohort.toUpperCase())) return false // v2.68 fix r1: the code's cohorts
     return true
 }
 const countOf = (c: Omit<Case, "label">) => all.filter((p) => matches(p, paramsOf({ label: "", ...c }))).length
@@ -258,8 +258,8 @@ const oldResults = (page: Page, cases: Params[]): Promise<Sig[][]> =>
             if (params.degreeType) result = result.filter((p) => p.degreeType === params.degreeType)
             if (params.universityId) result = result.filter((p) => p.universityId === params.universityId)
             if (params.cohort && params.cohort !== "all") {
-                const c = params.cohort.toLowerCase()
-                result = result.filter((p) => (p.code && p.code.toLowerCase().includes(c)) || p.name.toLowerCase().includes(c))
+                const codes = params.cohortCodes ?? [] // v2.68 fix r1: read in node (e2e/cohort-shapes.ts)
+                result = result.filter((p) => p.code !== null && codes.includes(p.code))
             }
             const sortBy = params.sortBy?.toLowerCase()
             const sortDesc = params.sortDesc ?? false

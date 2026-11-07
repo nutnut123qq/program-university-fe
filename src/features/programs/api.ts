@@ -14,6 +14,8 @@ import {
     SubjectMaterialSummary,
 } from "./types"
 import { isProgramId } from "./programLink"
+import { cohortsOf } from "@/lib/cohorts"
+import { searchMatcher } from "@/lib/search-text"
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5100/api"
 // The API's ProgramFilterDto.PageSize is [Range(1, 1000)]: a larger ask is served page by page.
@@ -188,13 +190,9 @@ export function applyFiltersAndSort<T extends ProgramSummary>(
     let result = [...items]
 
     if (params?.search) {
-        const search = params.search.toLowerCase()
-        result = result.filter(
-            (p) =>
-                p.name.toLowerCase().includes(search) ||
-                (p.code?.toLowerCase().includes(search) ?? false) ||
-                p.universityName.toLowerCase().includes(search)
-        )
+        // Letter by letter, diacritics optional (v2.68, search-text.ts): a bare query finds what the accented one finds.
+        const found = searchMatcher(params.search)
+        result = result.filter((p) => found(p.name) || found(p.code) || found(p.universityName))
     }
 
     if (params?.degreeType) {
@@ -211,12 +209,8 @@ export function applyFiltersAndSort<T extends ProgramSummary>(
     }
 
     if (params?.cohort && params.cohort !== "all") {
-        const c = params.cohort.toLowerCase()
-        result = result.filter(
-            (p) =>
-                (p.code && p.code.toLowerCase().includes(c)) ||
-                p.name.toLowerCase().includes(c)
-        )
+        const c = params.cohort.toUpperCase()
+        result = result.filter((p) => cohortsOf(p.code, p.name).includes(c))
     }
 
     const sortBy = params?.sortBy?.toLowerCase()
