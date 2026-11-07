@@ -71,18 +71,17 @@ export const Navbar = () => {
                     </div>
                 </div>
                 <div className="flex items-center gap-2">
-                    <Button variant="ghost" size="icon" onClick={toggleLocale} title="Switch language">
+                    <Button variant="ghost" size="icon" onClick={toggleLocale} title={t("switchLanguage")}>
                         <Globe className="h-4 w-4" />
                     </Button>
                     <Button
                         variant="ghost"
                         size="icon"
                         onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-                        title="Toggle theme"
+                        title={t("toggleTheme")}
                     >
                         {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
                     </Button>
-                    <Button variant="default" size="sm">{t("login")}</Button>
                     <Button
                         variant="ghost"
                         size="icon"

@@ -1,6 +1,7 @@
 import { test, expect, type APIRequestContext } from "@playwright/test"
 import { existsSync, readdirSync, readFileSync } from "fs"
 import path from "path"
+import { isOwnLink } from "./source-domains"
 
 /**
  * v2.52 — SEO program pages (audit V9, gap G11).
@@ -34,6 +35,7 @@ const messages = Object.fromEntries(LOCALES.map((l) => [l, readJson(path.join(RO
 type MockProgram = {
     id: string
     name: string
+    universityId: string
     universityName: string
     code: string | null
     degreeType: string | null
@@ -197,7 +199,8 @@ test.describe("v2.52 — SEO program pages", () => {
                 expect(said).toContain(`${m.programPage.snapshotDate}: ${isoDate(index.generatedAt)}`)
                 if (p.sourceUrl) {
                     expect(attrsOf(attribution, "a").map((a) => a.href)).toEqual([p.sourceUrl])
-                    expect(said).toContain(`${m.programs.sourceUrl}: ${p.sourceUrl}`)
+                    // v2.69: "official" only for a link on the program's own university's domain (e2e/source-domains.ts).
+                    expect(said).toContain(`${isOwnLink(p) ? m.programs.sourceUrl : m.programs.sourceUrlCollected}: ${p.sourceUrl}`)
                 }
                 // The full detail (admissions, reference score, documents) is the v2.48 dialog.
                 const toDialog = attrsOf(html, "a").filter((a) => a.href === `/${locale}?program=${p.id}`)

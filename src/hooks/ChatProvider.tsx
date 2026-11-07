@@ -47,11 +47,13 @@ const createDefaultGreeting = (greetingText: string): ChatMessage => ({
     timestamp: new Date().toISOString(),
 });
 
-const generateNewSession = (title: string, greetingText: string): ChatSession => {
+// A new session has no title (""): the readers show the CURRENT locale's fallback (ChatPage list: newChat, header:
+// title) until the first question names it (v2.69: a stored "Cuộc trò chuyện mới" showed on /en).
+const generateNewSession = (greetingText: string): ChatSession => {
     const now = new Date().toISOString();
     return {
         id: `sess-${Date.now()}-${Math.random().toString(36).substring(2, 7)}`,
-        title,
+        title: '',
         createdAt: now,
         updatedAt: now,
         messages: [createDefaultGreeting(greetingText)],
@@ -61,7 +63,6 @@ const generateNewSession = (title: string, greetingText: string): ChatSession =>
 // Read persisted chat state (v2 sessions, then the legacy flat history, then
 // a fresh greeting session). Client-only — callers must gate on mount.
 const loadInitialSessions = (
-    newChatTitle: string,
     greetingText: string,
     previousChatTitle: string
 ): { sessions: ChatSession[]; currentSessionId: string } => {
@@ -93,10 +94,10 @@ const loadInitialSessions = (
         }
 
         // Fresh initial session
-        const initialSession = generateNewSession(newChatTitle, greetingText);
+        const initialSession = generateNewSession(greetingText);
         return { sessions: [initialSession], currentSessionId: initialSession.id };
     } catch {
-        const fallback = generateNewSession(newChatTitle, greetingText);
+        const fallback = generateNewSession(greetingText);
         return { sessions: [fallback], currentSessionId: fallback.id };
     }
 };
@@ -128,7 +129,7 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
     // mount effect: SSR and the hydration render stay identical
     // (isInitialized=false), then the stored sessions land before paint.
     if (mounted && !isInitialized) {
-        const init = loadInitialSessions(newChatTitle, greetingText, previousChatTitle);
+        const init = loadInitialSessions(greetingText, previousChatTitle);
         setSessions(init.sessions);
         setCurrentSessionId(init.currentSessionId);
         setIsInitialized(true);
@@ -154,7 +155,7 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }, [currentSession]);
 
     const createSession = () => {
-        const newSession = generateNewSession(newChatTitle, greetingText);
+        const newSession = generateNewSession(greetingText);
         setSessions((prev) => [newSession, ...prev]);
         setCurrentSessionId(newSession.id);
         return newSession.id;
@@ -171,7 +172,7 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
         setSessions((prev) => {
             const filtered = prev.filter((s) => s.id !== sessionId);
             if (filtered.length === 0) {
-                const fresh = generateNewSession(newChatTitle, greetingText);
+                const fresh = generateNewSession(greetingText);
                 setCurrentSessionId(fresh.id);
                 return [fresh];
             }
@@ -183,7 +184,7 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
     };
 
     const clearAllSessions = () => {
-        const fresh = generateNewSession(newChatTitle, greetingText);
+        const fresh = generateNewSession(greetingText);
         setSessions([fresh]);
         setCurrentSessionId(fresh.id);
     };
@@ -195,7 +196,7 @@ export const ChatProvider: React.FC<{ children: React.ReactNode }> = ({ children
                 if (s.id === currentSessionId) {
                     return {
                         ...s,
-                        title: newChatTitle,
+                        title: '',
                         updatedAt: new Date().toISOString(),
                         messages: [createDefaultGreeting(greetingText)],
                     };

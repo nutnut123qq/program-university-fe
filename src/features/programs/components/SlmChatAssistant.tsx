@@ -75,7 +75,7 @@ export const SlmChatAssistant = () => {
                         <div className="flex items-center gap-2">
                             <Bot className="w-4 h-4 text-primary shrink-0" />
                             <div className="min-w-0">
-                                <CardTitle className="text-sm font-semibold leading-tight">{t("title")}</CardTitle>
+                                <CardTitle as="h2" className="text-sm font-semibold leading-tight">{t("title")}</CardTitle>
                                 <p className="text-[10px] text-muted-foreground leading-tight">{t("subtitle")}</p>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ export const SlmChatAssistant = () => {
                             <Button variant="ghost" size="icon" onClick={handleExpand} className="h-7 w-7 text-muted-foreground hover:text-foreground" title={t("expand")}>
                                 <Maximize2 className="w-4 h-4" />
                             </Button>
-                            <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)} className="h-7 w-7">
+                            <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)} className="h-7 w-7" aria-label={t("close")}>
                                 <X className="w-4 h-4" />
                             </Button>
                         </div>
@@ -107,7 +107,7 @@ export const SlmChatAssistant = () => {
                                     <button
                                         onClick={() => copyText(m.content, m.id)}
                                         className="opacity-0 group-hover:opacity-100 absolute top-1 right-1 p-1 bg-background/80 rounded text-muted-foreground hover:text-foreground transition-opacity"
-                                        title="Copy"
+                                        title={t("copy")}
                                     >
                                         {copiedId === m.id ? <Check className="w-3 h-3 text-emerald-500" /> : <Copy className="w-3 h-3" />}
                                     </button>
@@ -146,6 +146,7 @@ export const SlmChatAssistant = () => {
                             onChange={(e) => setInput(e.target.value)}
                             onKeyDown={(e) => e.key === "Enter" && handleSend()}
                             placeholder={t("placeholder")}
+                            aria-label={t("inputLabel")}
                             className="flex-1 bg-muted/40 border rounded-lg px-3 py-1.5 text-xs focus:outline-none focus:ring-1 focus:ring-primary"
                         />
                         <Button
@@ -153,6 +154,7 @@ export const SlmChatAssistant = () => {
                             onClick={() => handleSend()}
                             disabled={isLoading}
                             className="h-7 w-7 rounded-lg shrink-0"
+                            aria-label={t("send")}
                         >
                             <Send className="w-3.5 h-3.5" />
                         </Button>

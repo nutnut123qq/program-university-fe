@@ -5,7 +5,8 @@
     "materials": "Materials",
     "analytics": "Analytics",
     "compare": "Compare",
-    "login": "Sign In",
+    "switchLanguage": "Switch language",
+    "toggleTheme": "Toggle theme",
     "menu": "Menu",
     "close": "Close"
   },
@@ -42,6 +43,7 @@
     "formOfStudy": "Study Mode",
     "lastCrawled": "Last Harvested",
     "sourceUrl": "Official Source URL",
+    "sourceUrlCollected": "Data Collection Source",
     "description": "Program Description",
     "goals": "Educational Goals",
     "careerOutlook": "Career Outlook",
@@ -131,6 +133,7 @@
     "cohortNotice": "The cohort filter keeps only programs that record a cohort code: {withCohort, number} of {total, number}, at {universities}; the other {without, number} record none and are not shown.",
     "showingCount": "Showing <strong>{shown}</strong> of <strong>{total}</strong> programs",
     "sourceLinkTitle": "Open the university's official website",
+    "sourceLinkTitleCollected": "Open the page the data was collected from",
     "graphNoData": "No course data available to build the prerequisite tree.",
     "graphTitle": "Course Prerequisite Tree (DAG Graph)",
     "graphHint": "Click any course to see its required prerequisites and the courses it unlocks.",
@@ -277,7 +280,11 @@
     "quickPrompt2": "How many years and credits does the Information Technology program take?",
     "quickPrompt3": "How does the course prerequisite tree work?",
     "quickPrompt4": "How do foundation and major knowledge blocks differ?",
-    "previousChat": "Earlier conversation"
+    "previousChat": "Earlier conversation",
+    "inputLabel": "Your question",
+    "send": "Send question",
+    "copy": "Copy the message",
+    "close": "Close the assistant"
   },
   "roadmap": {
     "badge": "Prerequisite & Course Unlock Map",

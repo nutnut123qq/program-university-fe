@@ -71,7 +71,7 @@ export default function RoadmapPage() {
     const bannerTitleRef = useRef<HTMLHeadingElement>(null)
     const [focusRequest, setFocusRequest] = useState(0)
 
-    const { data: universities } = useSWR("universities", fetchUniversities)
+    const { data: universities, error: universitiesError } = useSWR("universities", fetchUniversities)
     // Picker options: universities with roadmap data first; the fixed list alone until universities.json loads.
     const options = useMemo(() => {
         const listed = (universities as Array<University & { code?: string | null }> | undefined)
@@ -87,7 +87,14 @@ export default function RoadmapPage() {
     // `?uni=` (v2.63): the URL holds the pick. A value counts only when the picker offers it — the 4 codes with data at
     // once, another university of universities.json once that has loaded; anything else is the FPT default.
     const uniParam = useRoadmapUniParam()
-    const university = uniParam !== null && offered.has(uniParam) ? uniParam : DEFAULT_ROADMAP_UNIVERSITY
+    // v2.69 (audit M17): the university is decided once the URL is read (undefined in the static HTML and the hydration
+    // render) and, for a value outside the 4 roadmap universities, once universities.json has loaded or failed (whether
+    // the picker offers it). Until then nothing is requested and the university part stays invisible (the static HTML
+    // keeps its FPT markup under it): `?uni=NEU` never fetches or paints FPT first; `/roadmap` shows FPT after hydration.
+    const decided =
+        uniParam !== undefined &&
+        (uniParam === null || ROADMAP_UNIVERSITIES.has(uniParam) || universities !== undefined || !!universitiesError)
+    const university = uniParam != null && offered.has(uniParam) ? uniParam : DEFAULT_ROADMAP_UNIVERSITY
     // Every university change (picker, Back/Forward, a `?uni=` link) opens that university's default course. The initial
     // state above (SWE201c, an empty search) is the default university's, so the shown university starts as the default
     // too: a mount on another university's URL — the hydration's post-commit re-read, or the first render of a client
@@ -102,6 +109,8 @@ export default function RoadmapPage() {
     }
     // undefined = no roadmap data for this university: no roadmap/syllabus path is ever built for it.
     const uniData = ROADMAP_UNIVERSITIES.get(university)
+    // The data part of the SWR keys: none before the university is decided.
+    const fetchData = decided ? uniData : undefined
     const isDefaultUni = university === DEFAULT_ROADMAP_UNIVERSITY
     const universityName =
         [...options.withData, ...options.withoutData].find((u) => u.code === university)?.name ?? university
@@ -109,8 +118,9 @@ export default function RoadmapPage() {
 
     // The index lists the codes that have a roadmap file; a failed load is an error with a retry button, never "no courses".
     const { data: indexList, error: indexError, mutate: retryIndex } = useSWR(
-        uniData ? ["roadmaps-index", university] : null,
-        () => fetchRoadmapsIndex(university),
+        fetchData ? ["roadmaps-index", university] : null,
+        // Parameters from the key, never a closure (§12 v2.63 (a)): a deferred revalidation of an old key runs the newest fetcher.
+        ([, uni]: string[]) => fetchRoadmapsIndex(uni),
         { shouldRetryOnError: false }
     )
     const indexFiles = useMemo(() => (indexList ? new Set(indexList.map(roadmapFileKey)) : null), [indexList])
@@ -120,8 +130,8 @@ export default function RoadmapPage() {
     const selectedHasFile = selectedCode ? hasFile(selectedCode) : undefined
     const { data: roadmapFile, error: roadmapError, mutate: retryRoadmap } = useSWR(
         // No request for a code the loaded index does not hold.
-        uniData && selectedCode && selectedHasFile !== false ? ["roadmap-file", university, selectedCode] : null,
-        () => fetchRoadmapFile(university, selectedCode),
+        fetchData && selectedCode && selectedHasFile !== false ? ["roadmap-file", university, selectedCode] : null,
+        ([, uni, code]: string[]) => fetchRoadmapFile(uni, code),
         // A failed file stays failed until its retry button (no background retry under the user's eyes).
         { shouldRetryOnError: false }
     )
@@ -131,8 +141,8 @@ export default function RoadmapPage() {
     const { data: syllabusFile } = useSWR(
         // Syllabi exist only for some universities; never request one that does not exist — nor for a code without a
         // roadmap file (none of the codes reachable that way has a syllabus file: v2.63 measure, pinned by its e2e).
-        uniData?.syllabus && selectedCode && !noFile ? ["syllabus", university, selectedCode] : null,
-        () => fetchSyllabus(university, selectedCode)
+        fetchData?.syllabus && selectedCode && !noFile ? ["syllabus", university, selectedCode] : null,
+        ([, uni, code]: string[]) => fetchSyllabus(uni, code)
     )
     const currentSyllabus = withoutFiller(university, syllabusFile)
     const bannerTitle = currentRoadmap?.subjectName || currentSyllabus?.info?.syllabusName || selectedCode
@@ -155,10 +165,10 @@ export default function RoadmapPage() {
     // A neighbour without a name in the course file (NEU/TDTU/UIT files carry no names map) takes the name of its own
     // file from the university's names file, read once (v2.63); a neighbour without a roadmap file needs none.
     const neighboursNeedNames = [...directPrereqs, ...unlocks].some((code) => !mapNames[code] && hasFile(code) === true)
-    const wantNames = !!uniData && (searchedUnis.has(university) || neighboursNeedNames)
+    const wantNames = !!fetchData && (searchedUnis.has(university) || neighboursNeedNames)
     const { data: courseNames, error: namesError } = useSWR(
         wantNames ? ["roadmap-names", university] : null,
-        () => fetchRoadmapNames(university)
+        ([, uni]: string[]) => fetchRoadmapNames(uni)
     )
     const namesPending = wantNames && !courseNames && !namesError
     const namesByFile = useMemo(
@@ -250,6 +260,10 @@ export default function RoadmapPage() {
                 </p>
             </motion.section>
 
+            {/* The university part: invisible (space kept) until the university is decided (v2.69, see `decided`). Without
+                JavaScript the URL is never read: the noscript rule shows it as the static HTML has it (the FPT default, as at Base). */}
+            <noscript dangerouslySetInnerHTML={{ __html: '<style>[data-testid="roadmap-university"]{visibility:visible!important}</style>' }} />
+            <div data-testid="roadmap-university" className={decided ? "space-y-8" : "space-y-8 invisible"}>
             {/* University picker, search and popular subject chips */}
             <div className="max-w-2xl mx-auto space-y-3">
                 <div className="flex items-center gap-2">
@@ -649,6 +663,7 @@ export default function RoadmapPage() {
             </div>
             </>
             )}
+            </div>
 
             {/* Syllabus Modal */}
             <SyllabusDetailModal

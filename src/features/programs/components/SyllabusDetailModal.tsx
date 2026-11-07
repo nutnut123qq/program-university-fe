@@ -77,19 +77,20 @@ export function SyllabusDetailModal({
     // Course codes collide across universities, so syllabi are resolved per university.
     const { data: resolvedUniversityCode, isLoading: isUniversityLoading } = useSWR(
         open && !universityCodeProp && universityId ? ["university-code", universityId] : null,
-        () => fetchUniversityCode(universityId || "")
+        // Parameters from the key, never a closure (v2.69, §12 v2.63 (a)).
+        ([, id]: string[]) => fetchUniversityCode(id)
     )
     const universityCode = universityCodeProp || resolvedUniversityCode
     const { data: syllabus, isLoading: isSyllabusFetching } = useSWR(
         open && subjectCode && universityCode ? ["syllabus", universityCode, subjectCode] : null,
-        () => fetchSyllabus(universityCode || "", subjectCode)
+        ([, uni, code]: string[]) => fetchSyllabus(uni, code)
     )
     const isSyllabusLoading = isUniversityLoading || isSyllabusFetching
 
     // Roadmaps are also stored per university (course codes collide across schools).
     const { data: roadmap, isLoading: isRoadmapLoading } = useSWR(
         open && subjectCode && universityCode ? ["roadmap", universityCode, subjectCode] : null,
-        () => fetchRoadmap(universityCode || "", subjectCode)
+        ([, uni, code]: string[]) => fetchRoadmap(uni, code)
     )
 
     const boxRef = useModalFocus<HTMLDivElement>(open && !!course, onClose)
@@ -126,7 +127,7 @@ export function SyllabusDetailModal({
     ]
     // APG tabs (v2.62, the detail dialog's rule): arrows (wrapping), Home and End move focus and select.
     const onTabKeyDown = (e: KeyboardEvent, index: number) => {
-        const next = tabKeyTarget(e.key, index, tabs.length)
+        const next = tabKeyTarget(e, index, tabs.length)
         if (next < 0) return
         e.preventDefault()
         setActiveTab(tabs[next].id)
@@ -298,10 +299,10 @@ export function SyllabusDetailModal({
                                     <div className="space-y-4">
                                         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                                             <div>
-                                                <h4 className="text-sm font-bold flex items-center gap-1.5">
+                                                <h3 className="text-sm font-bold flex items-center gap-1.5">
                                                     <Percent className="h-4 w-4 text-primary" />
                                                     {t("assessmentsTitle")}
-                                                </h4>
+                                                </h3>
                                                 <p className="text-xs text-muted-foreground mt-0.5">
                                                     {t("totalWeight")} <strong className="text-foreground">{assessments.length > 0 ? `${totalWeight}%` : "N/A"}</strong>
                                                 </p>
@@ -328,9 +329,9 @@ export function SyllabusDetailModal({
                                                                         <Badge variant="secondary" className="text-[10px] font-mono font-semibold">
                                                                             {a.category}
                                                                         </Badge>
-                                                                        <h5 className="font-bold text-sm text-foreground leading-snug">
+                                                                        <h4 className="font-bold text-sm text-foreground leading-snug">
                                                                             {a.type} {a.part ? `(${t("part", { part: a.part })})` : ""}
-                                                                        </h5>
+                                                                        </h4>
                                                                     </div>
                                                                     <div className="text-right shrink-0">
                                                                         <span className="text-base font-black font-mono text-primary px-2.5 py-1 rounded-lg bg-primary/10 inline-block">
@@ -401,10 +402,10 @@ export function SyllabusDetailModal({
                                 {activeTab === "clos" && (
                                     <div className="space-y-3.5">
                                         <div className="flex items-center justify-between">
-                                            <h4 className="text-sm font-bold flex items-center gap-1.5">
+                                            <h3 className="text-sm font-bold flex items-center gap-1.5">
                                                 <CheckCircle2 className="h-4 w-4 text-emerald-500" />
                                                 {t("closTitle")}
-                                            </h4>
+                                            </h3>
                                             <span className="text-xs text-muted-foreground font-mono">
                                                 {t("closCount", { count: clos.length })}
                                             </span>
@@ -435,10 +436,10 @@ export function SyllabusDetailModal({
                                 {activeTab === "sessions" && (
                                     <div className="space-y-3.5">
                                         <div className="flex items-center justify-between">
-                                            <h4 className="text-sm font-bold flex items-center gap-1.5">
+                                            <h3 className="text-sm font-bold flex items-center gap-1.5">
                                                 <ListChecks className="h-4 w-4 text-primary" />
                                                 {t("sessionsTitle", { count: sessions.length })}
-                                            </h4>
+                                            </h3>
                                         </div>
 
                                         {sessions.length === 0 ? (
@@ -486,10 +487,10 @@ export function SyllabusDetailModal({
                                 {/* Tab: Materials (Giáo trình & Coursera) */}
                                 {activeTab === "materials" && (
                                     <div className="space-y-3.5">
-                                        <h4 className="text-sm font-bold flex items-center gap-1.5">
+                                        <h3 className="text-sm font-bold flex items-center gap-1.5">
                                             <BookOpen className="h-4 w-4 text-primary" />
                                             {t("materialsTitle")}
-                                        </h4>
+                                        </h3>
                                         {materials.length === 0 ? (
                                             <p className="text-sm text-muted-foreground italic py-4">{t("noMaterials")}</p>
                                         ) : (
@@ -545,9 +546,9 @@ export function SyllabusDetailModal({
                                                 <div className="space-y-3">
                                                     <div className="flex items-center gap-2">
                                                         <ArrowLeft className="h-4 w-4 text-amber-500" />
-                                                        <h4 className="text-sm font-bold">
+                                                        <h3 className="text-sm font-bold">
                                                             {t("prereqTitle")}
-                                                        </h4>
+                                                        </h3>
                                                         <Badge variant="outline" className="font-mono text-xs ml-auto">
                                                             {t("courseCount", { count: directPrereqs.length })}
                                                         </Badge>
@@ -587,9 +588,9 @@ export function SyllabusDetailModal({
                                                 <div className="space-y-3 pt-4 border-t border-border/60">
                                                     <div className="flex items-center gap-2">
                                                         <ArrowRight className="h-4 w-4 text-emerald-500" />
-                                                        <h4 className="text-sm font-bold">
+                                                        <h3 className="text-sm font-bold">
                                                             {t("unlockTitle")}
-                                                        </h4>
+                                                        </h3>
                                                         <Badge variant="outline" className="font-mono text-xs text-emerald-600 bg-emerald-500/10 ml-auto">
                                                             {t("courseCount", { count: unlocks.length })}
                                                         </Badge>
@@ -634,10 +635,10 @@ export function SyllabusDetailModal({
                                     <div className="space-y-4">
                                         {info?.timeAllocation && (
                                             <div className="space-y-2">
-                                                <h4 className="text-sm font-bold flex items-center gap-1.5">
+                                                <h3 className="text-sm font-bold flex items-center gap-1.5">
                                                     <Clock className="h-4 w-4 text-primary" />
                                                     {t("timeAllocation")}
-                                                </h4>
+                                                </h3>
                                                 <div className="p-3.5 rounded-xl border border-border bg-muted/30 text-xs text-foreground font-mono leading-relaxed">
                                                     {info.timeAllocation}
                                                 </div>
@@ -646,10 +647,10 @@ export function SyllabusDetailModal({
 
                                         {info?.studentTasks && (
                                             <div className="space-y-2">
-                                                <h4 className="text-sm font-bold flex items-center gap-1.5">
+                                                <h3 className="text-sm font-bold flex items-center gap-1.5">
                                                     <GraduationCap className="h-4 w-4 text-primary" />
                                                     {t("studentRequirements")}
-                                                </h4>
+                                                </h3>
                                                 <div className="p-3.5 rounded-xl border border-border bg-muted/30 text-xs text-foreground whitespace-pre-line leading-relaxed">
                                                     {info.studentTasks}
                                                 </div>
@@ -658,10 +659,10 @@ export function SyllabusDetailModal({
 
                                         {info?.description && (
                                             <div className="space-y-2">
-                                                <h4 className="text-sm font-bold flex items-center gap-1.5">
+                                                <h3 className="text-sm font-bold flex items-center gap-1.5">
                                                     <FileText className="h-4 w-4 text-primary" />
                                                     {t("overviewTitle")}
-                                                </h4>
+                                                </h3>
                                                 <div className="p-3.5 rounded-xl border border-border bg-muted/30 text-xs text-foreground whitespace-pre-line leading-relaxed">
                                                     {info.description}
                                                 </div>

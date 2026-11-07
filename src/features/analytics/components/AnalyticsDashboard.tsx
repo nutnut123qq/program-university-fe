@@ -76,7 +76,7 @@ export const AnalyticsDashboard = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 <Card className="bg-card/50 backdrop-blur border-primary/20 shadow-sm">
                     <CardHeader className="flex flex-row items-center justify-between pb-2">
-                        <CardTitle className="text-xs font-semibold text-muted-foreground uppercase">{ta("totalPrograms")}</CardTitle>
+                        <CardTitle as="h2" className="text-xs font-semibold text-muted-foreground uppercase">{ta("totalPrograms")}</CardTitle>
                         <GraduationCap className="w-4 h-4 text-primary" />
                     </CardHeader>
                     <CardContent>
@@ -87,7 +87,7 @@ export const AnalyticsDashboard = () => {
 
                 <Card className="bg-card/50 backdrop-blur border-blue-500/20 shadow-sm">
                     <CardHeader className="flex flex-row items-center justify-between pb-2">
-                        <CardTitle className="text-xs font-semibold text-muted-foreground uppercase">{ta("totalCourses")}</CardTitle>
+                        <CardTitle as="h2" className="text-xs font-semibold text-muted-foreground uppercase">{ta("totalCourses")}</CardTitle>
                         <BookOpen className="w-4 h-4 text-blue-500" />
                     </CardHeader>
                     <CardContent>
@@ -98,7 +98,7 @@ export const AnalyticsDashboard = () => {
 
                 <Card className="bg-card/50 backdrop-blur border-indigo-500/20 shadow-sm">
                     <CardHeader className="flex flex-row items-center justify-between pb-2">
-                        <CardTitle className="text-xs font-semibold text-muted-foreground uppercase">{ta("avgLabel", { name: t("slmRefScore"), basis: S.basis.programs })}</CardTitle>
+                        <CardTitle as="h2" className="text-xs font-semibold text-muted-foreground uppercase">{ta("avgLabel", { name: t("slmRefScore"), basis: S.basis.programs })}</CardTitle>
                         <TrendingUp className="w-4 h-4 text-indigo-500" />
                     </CardHeader>
                     <CardContent>
@@ -109,7 +109,7 @@ export const AnalyticsDashboard = () => {
 
                 <Card className="bg-card/50 backdrop-blur border-emerald-500/20 shadow-sm">
                     <CardHeader className="flex flex-row items-center justify-between pb-2">
-                        <CardTitle className="text-xs font-semibold text-muted-foreground uppercase">{ta("passRate")}</CardTitle>
+                        <CardTitle as="h2" className="text-xs font-semibold text-muted-foreground uppercase">{ta("passRate")}</CardTitle>
                         <Percent className="w-4 h-4 text-emerald-500" />
                     </CardHeader>
                     <CardContent>
@@ -126,7 +126,7 @@ export const AnalyticsDashboard = () => {
                         <div className="flex items-center gap-2">
                             <Building2 className="w-5 h-5 text-primary" />
                             <div>
-                                <CardTitle className="text-lg">{ta("rankingTitle", { name: t("slmRefScore") })}</CardTitle>
+                                <CardTitle as="h2" className="text-lg">{ta("rankingTitle", { name: t("slmRefScore") })}</CardTitle>
                                 <CardDescription className="text-xs">{ta("rankingDesc", { basis: S.basis.programs })}</CardDescription>
                             </div>
                         </div>
@@ -158,7 +158,7 @@ export const AnalyticsDashboard = () => {
                 <div className="space-y-6">
                     <Card className="border-border/60">
                         <CardHeader>
-                            <CardTitle className="text-lg">{ta("distTitle", { name: t("slmRefScore") })}</CardTitle>
+                            <CardTitle as="h2" className="text-lg">{ta("distTitle", { name: t("slmRefScore") })}</CardTitle>
                             <CardDescription className="text-xs">{ta("distDesc", { basis: S.basis.programs })}</CardDescription>
                         </CardHeader>
                         <CardContent className="space-y-3">
@@ -177,7 +177,7 @@ export const AnalyticsDashboard = () => {
                     {/* Highlights */}
                     <Card className="border-border/60 bg-gradient-to-br from-card via-card to-primary/5">
                         <CardHeader>
-                            <CardTitle className="text-sm flex items-center gap-2">
+                            <CardTitle as="h2" className="text-sm flex items-center gap-2">
                                 <CheckCircle2 className="w-4 h-4 text-emerald-500" />
                                 <span>{ta("qualityTitle")}</span>
                             </CardTitle>

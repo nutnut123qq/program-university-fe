@@ -264,13 +264,13 @@ export const ChatPage = () => {
                         >
                             <ArrowLeft className="w-4 h-4" />
                         </Button>
-                        <span className="font-semibold text-sm sm:text-base flex items-center gap-2 truncate">
+                        <h1 className="font-semibold text-sm sm:text-base flex items-center gap-2 truncate">
                             <Bot className="w-4 h-4 text-primary shrink-0" />
                             <span className="truncate">{currentSession?.title || t("title")}</span>
                             <span className="hidden md:inline text-[11px] font-normal text-muted-foreground shrink-0">
                                 — {t("subtitle")}
                             </span>
-                        </span>
+                        </h1>
                     </div>
 
                     <Button
@@ -278,6 +278,8 @@ export const ChatPage = () => {
                         size="sm"
                         onClick={() => createSession()}
                         className="gap-1.5 h-8 text-xs font-medium shrink-0"
+                        // Below sm its text is hidden (display: none): the name must not depend on it (v2.69).
+                        aria-label={t("newChat")}
                     >
                         <Plus className="w-3.5 h-3.5" />
                         <span className="hidden sm:inline">{t("newChat")}</span>
@@ -320,7 +322,7 @@ export const ChatPage = () => {
                                     className={`opacity-0 group-hover:opacity-100 absolute top-2 ${
                                         m.role === "user" ? "left-2 -translate-x-full" : "right-2 translate-x-full"
                                     } p-1.5 bg-background border shadow-sm rounded-md text-muted-foreground hover:text-foreground transition-all z-10 mx-2`}
-                                    title="Copy"
+                                    title={t("copy")}
                                 >
                                     {copiedId === m.id ? (
                                         <Check className="w-3.5 h-3.5 text-emerald-500" />
@@ -373,6 +375,7 @@ export const ChatPage = () => {
                                     }
                                 }}
                                 placeholder={t("placeholder")}
+                                aria-label={t("inputLabel")}
                                 className="flex-1 bg-transparent resize-none border-0 outline-none min-h-[40px] max-h-32 py-2 px-2 text-xs sm:text-sm scrollbar-none"
                                 rows={1}
                             />
@@ -381,6 +384,7 @@ export const ChatPage = () => {
                                 onClick={() => handleSend()}
                                 disabled={isLoading || !input.trim()}
                                 className="h-8 w-8 shrink-0 rounded-xl mb-0.5 mr-0.5"
+                                aria-label={t("send")}
                             >
                                 <Send className="w-3.5 h-3.5" />
                             </Button>

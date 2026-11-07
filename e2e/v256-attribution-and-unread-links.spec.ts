@@ -382,11 +382,11 @@ test.describe("v2.56 — attribution on every data surface + publish only what t
         if (dumpDir) mkdirSync(dumpDir, { recursive: true })
         for (const tab of tabs) {
             await dialog.getByRole("tab", { name: new RegExp(`^${esc(tab.label)}`) }).click()
-            const heading = dialog.getByRole("heading", { level: 4, name: tab.heading, exact: true })
+            const heading = dialog.getByRole("heading", { level: 3, name: tab.heading, exact: true }) // v2.69: the syllabus modal's tab sections are h3 under its h2 title
             await expect(heading).toBeVisible({ timeout: 15000 })
             // The modal body (the scrolling panel holding the tab), without the attribution line.
             // `has` is matched inside each candidate div, so the inner locator must start from `page`, not from `dialog`.
-            const body = dialog.locator("div.overflow-y-auto").filter({ has: page.getByRole("heading", { level: 4, name: tab.heading, exact: true }) })
+            const body = dialog.locator("div.overflow-y-auto").filter({ has: page.getByRole("heading", { level: 3, name: tab.heading, exact: true }) })
             await expect(body).toHaveCount(1)
             let text = await body.innerText()
             const attribution = body.getByTestId("data-attribution")

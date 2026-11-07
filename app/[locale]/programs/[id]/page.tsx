@@ -14,6 +14,7 @@ import {
 import { isoDate, loadAdmissions, loadCourses, loadProgram, snapshotGeneratedAt } from "@/lib/program-snapshot"
 import { SITE_OPEN_GRAPH, SITE_URL, alternates } from "@/lib/seo"
 import { safeHttpUrl, urlHost } from "@/lib/safe-url"
+import { isUniversitySource } from "@/lib/source-label"
 
 /**
  * Program page for search engines and sharing (v2.52, audit V9; v2.60, audit V6): server-rendered from the
@@ -200,7 +201,7 @@ export default async function ProgramPage({ params }: Props) {
                 </p>
                 {source && (
                     <p>
-                        {t("sourceUrl")}:{" "}
+                        {t(isUniversitySource(source, program.universityId) ? "sourceUrl" : "sourceUrlCollected")}:{" "}
                         <a href={source} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline break-all">
                             {source}
                         </a>

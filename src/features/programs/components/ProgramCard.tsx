@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils"
 import { useLocale, useTranslations } from "next-intl"
 import { formatAdmissionNumber } from "@/lib/admissions-display"
 import { safeHttpUrl } from "@/lib/safe-url"
+import { isUniversitySource } from "@/lib/source-label"
 import { WishlistButton } from "@/features/wishlist/WishlistButton"
 import { ProgramSummary } from "../types"
 
@@ -249,7 +250,7 @@ export function ProgramCard({ program, index, onViewDetail, scoreHint }: Program
                                     buttonVariants({ variant: "outline", size: "sm" }),
                                     "h-10 sm:h-9 text-xs font-semibold rounded-xl flex items-center justify-center gap-1 px-3 shrink-0"
                                 )}
-                                title={t("sourceLinkTitle")}
+                                title={t(isUniversitySource(sourceHref, program.universityId) ? "sourceLinkTitle" : "sourceLinkTitleCollected")}
                             >
                                 {/* Visually hidden below sm, still the link's name there (v2.62; the title is only a tooltip). */}
                                 <span className="sr-only sm:not-sr-only">{t("admissionSourceLabel")}</span>

@@ -52,7 +52,7 @@ test.describe("Mobile navigation drawer", () => {
         await page.setViewportSize({ width: 375, height: 800 })
         await page.goto("/vi", { waitUntil: "networkidle" })
 
-        const toggle = page.getByRole("button", { name: "Menu" })
+        const toggle = page.getByRole("button", { name: "Trình đơn" }) // v2.69: navbar.menu in Vietnamese
         await expect(toggle).toBeVisible()
         await toggle.click()
 

@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import { cn } from "@/lib/utils"
+import { browserShortcut } from "@/lib/tab-keys"
 import { ChevronDown } from "lucide-react"
 
 interface SelectItemProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -110,7 +111,23 @@ const Select = ({
         [onValueChange]
     )
 
+    // Alt+ArrowDown / Alt+ArrowUp are the combobox's own keys (WAI-ARIA APG select-only combobox), not a browser shortcut:
+    // Alt+ArrowDown opens without moving the highlight, Alt+ArrowUp selects the highlighted option and closes (v2.69 fix r1).
+    const altArrow = (e: React.KeyboardEvent) => {
+        if (!e.altKey || e.ctrlKey || e.metaKey || (e.key !== "ArrowDown" && e.key !== "ArrowUp")) return false
+        e.preventDefault()
+        if (e.key === "ArrowDown") {
+            if (!open) openListbox()
+        } else if (open) {
+            const item = items[highlightedIndex]
+            if (item) selectItem(item)
+        }
+        return true
+    }
+
     const handleTriggerKeyDown = (e: React.KeyboardEvent<HTMLButtonElement>) => {
+        // Any other key with Alt/Ctrl/Meta is the browser's (v2.69): no preventDefault, no open/move.
+        if (altArrow(e) || browserShortcut(e)) return
         const maxIndex = items.length - 1
         if (maxIndex < 0) return
 
@@ -161,6 +178,7 @@ const Select = ({
     }
 
     const handleListboxKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
+        if (altArrow(e) || browserShortcut(e)) return
         const maxIndex = items.length - 1
         if (maxIndex < 0) return
 

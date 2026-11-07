@@ -35,7 +35,7 @@ export const KnowledgeBlockBreakdown: React.FC<KnowledgeBlockBreakdownProps> = (
                 <div className="flex items-center justify-between border-b pb-3">
                     <div className="flex items-center gap-2">
                         <PieChart className="w-4 h-4 text-primary" />
-                        <h4 className="font-bold text-xs uppercase tracking-wider">{t("kbTitle")}</h4>
+                        <h3 className="font-bold text-xs uppercase tracking-wider">{t("kbTitle")}</h3>
                     </div>
                     <Badge variant="outline" className="font-mono text-[10px] bg-primary/10 text-primary border-primary/20">
                         {t("courseCount", { count: courses.length })}

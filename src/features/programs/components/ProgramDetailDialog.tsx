@@ -56,6 +56,7 @@ import { programLinkUrl, programPagePath } from "../programLink"
 import { useModalFocus } from "@/hooks/useModalFocus"
 import { tabKeyTarget } from "@/lib/tab-keys"
 import { searchMatcher } from "@/lib/search-text"
+import { isUniversitySource } from "@/lib/source-label"
 
 interface ProgramDetailDialogProps {
     program: Program | null
@@ -158,7 +159,7 @@ function RecordProvenance({
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
     return (
         <div className="space-y-2">
-            <h4 className="text-sm font-semibold text-foreground">{title}</h4>
+            <h3 className="text-sm font-semibold text-foreground">{title}</h3>
             {children}
         </div>
     )
@@ -467,7 +468,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
 
     // APG tabs: arrows (wrapping), Home and End move focus and select (one rule with the syllabus modal).
     const onTabKeyDown = (e: KeyboardEvent, index: number) => {
-        const next = tabKeyTarget(e.key, index, tabs.length)
+        const next = tabKeyTarget(e, index, tabs.length)
         if (next < 0) return
         e.preventDefault()
         setActiveTab(tabs[next].key)
@@ -695,7 +696,7 @@ export function ProgramDetailDialog({ program, open, onClose }: ProgramDetailDia
                                         </Card>
 
                                         {sourceHref && (
-                                            <Section title={t("sourceUrl")}>
+                                            <Section title={t(isUniversitySource(sourceHref, program.universityId) ? "sourceUrl" : "sourceUrlCollected")}>
                                                 <a
                                                     href={sourceHref}
                                                     target="_blank"

@@ -285,7 +285,7 @@ const ProgramComparisonInner = () => {
                 {progIds.map((id, i) => (
                     <Card key={i} className={cn(SLOT_STYLES[i].card, "bg-card/60")}>
                         <CardHeader className={cn("pb-3", i === 2 && "flex-row items-center justify-between space-y-0")}>
-                            <CardTitle className={cn("text-sm font-semibold uppercase flex items-center gap-2", SLOT_STYLES[i].text)}>
+                            <CardTitle as="h2" className={cn("text-sm font-semibold uppercase flex items-center gap-2", SLOT_STYLES[i].text)}>
                                 <GraduationCap className="w-4 h-4" />
                                 <span>{slotLabels[i]}</span>
                             </CardTitle>

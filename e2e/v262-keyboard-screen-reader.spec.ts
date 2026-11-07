@@ -1,6 +1,7 @@
 import { test, expect, Locator, Page } from "@playwright/test"
 import { existsSync, readFileSync } from "fs"
 import path from "path"
+import { isOwnLink } from "./source-domains"
 
 /**
  * v2.62 — keyboard and screen-reader residuals (audit 2026-10-30 §3 V8).
@@ -374,7 +375,7 @@ test.describe("v2.62 — keyboard and screen-reader residuals", () => {
             await expectSelected(0)
             await page.keyboard.press("ArrowRight")
             await expectSelected(1)
-            await expect(panel.getByRole("heading", { level: 4, name: msg(l, "syllabus", "closTitle"), exact: true })).toBeVisible()
+            await expect(panel.getByRole("heading", { level: 3, name: msg(l, "syllabus", "closTitle"), exact: true })).toBeVisible() // v2.69: h3 under the modal's h2
             await page.keyboard.press("ArrowLeft")
             await expectSelected(0)
             await page.keyboard.press("ArrowLeft") // wraps to the last tab
@@ -476,7 +477,8 @@ test.describe("v2.62 — keyboard and screen-reader residuals", () => {
 
     test("cards: the source link keeps its visible label as its name at phone width (412 px) as on desktop", async ({ page }) => {
         const label = msg("vi", "programs", "admissionSourceLabel")
-        const tooltip = msg("vi", "programs", "sourceLinkTitle")
+        // v2.69: the tooltip says "official" only for a link on the program's own university's domain (e2e/source-domains.ts).
+        const tooltip = (p: Program) => msg("vi", "programs", isOwnLink(p) ? "sourceLinkTitle" : "sourceLinkTitleCollected")
         const cards = page.getByTestId("program-card")
         for (const width of [412, 1280]) {
             await page.setViewportSize({ width, height: width === 412 ? 915 : 800 })
@@ -486,7 +488,7 @@ test.describe("v2.62 — keyboard and screen-reader residuals", () => {
                 const link = cards.nth(i).locator(`a[href="${listed[i].sourceUrl}"]`)
                 await expect(link).toHaveCount(1)
                 expect(await accName(link), `${width} px: card ${i + 1}'s source link name`).toBe(label)
-                await expect(link).toHaveAttribute("title", tooltip)
+                await expect(link).toHaveAttribute("title", tooltip(listed[i]))
             }
         }
     })

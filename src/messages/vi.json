@@ -5,8 +5,9 @@
     "materials": "Tài liệu",
     "analytics": "Thống kê",
     "compare": "So sánh Ngành",
-    "login": "Đăng nhập",
-    "menu": "Menu",
+    "switchLanguage": "Chuyển ngôn ngữ",
+    "toggleTheme": "Đổi giao diện sáng/tối",
+    "menu": "Trình đơn",
     "close": "Đóng"
   },
   "programs": {
@@ -42,6 +43,7 @@
     "formOfStudy": "Hình thức đào tạo",
     "lastCrawled": "Cập nhật lần cuối",
     "sourceUrl": "Nguồn công bố chính thức",
+    "sourceUrlCollected": "Nguồn thu thập dữ liệu",
     "description": "Mô tả ngành học",
     "goals": "Mục tiêu đào tạo",
     "careerOutlook": "Cơ hội nghề nghiệp",
@@ -131,6 +133,7 @@
     "cohortNotice": "Lọc theo khóa chỉ giữ các chương trình có ghi mã khóa: {withCohort, number} / {total, number}, của {universities}; {without, number} chương trình khác không ghi khóa nên không hiển thị.",
     "showingCount": "Hiển thị <strong>{shown}</strong> / <strong>{total}</strong> chương trình đào tạo",
     "sourceLinkTitle": "Mở trang web chính thức của trường",
+    "sourceLinkTitleCollected": "Mở trang nguồn dữ liệu đã thu thập",
     "graphNoData": "Không có dữ liệu môn học để dựng Sơ đồ Cây Tiên quyết.",
     "graphTitle": "Sơ đồ Cây Môn học Tiên quyết (DAG Graph)",
     "graphHint": "Nhấp vào môn bất kỳ để xem các môn bắt buộc học trước và môn được mở khóa sau.",
@@ -277,7 +280,11 @@
     "quickPrompt2": "Ngành Công nghệ Thông tin học mấy năm và bao nhiêu tín chỉ?",
     "quickPrompt3": "Sơ đồ cây môn học tiên quyết hoạt động như thế nào?",
     "quickPrompt4": "Khối kiến thức cơ sở ngành và chuyên ngành khác nhau thế nào?",
-    "previousChat": "Cuộc trò chuyện trước"
+    "previousChat": "Cuộc trò chuyện trước",
+    "inputLabel": "Câu hỏi của bạn",
+    "send": "Gửi câu hỏi",
+    "copy": "Sao chép tin nhắn",
+    "close": "Đóng trợ lý"
   },
   "roadmap": {
     "badge": "Sơ đồ Tiên quyết & Mở khóa Môn học",

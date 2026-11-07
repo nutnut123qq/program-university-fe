@@ -244,7 +244,7 @@ export default function MaterialsPage() {
             ) : pagedItems.length === 0 ? (
                 <div className="p-14 rounded-3xl border border-dashed border-border text-center text-muted-foreground space-y-3 bg-muted/10">
                     <Library className="w-10 h-10 mx-auto text-muted-foreground/50" />
-                    <h3 className="font-bold text-base text-foreground">{t("emptyTitle")}</h3>
+                    <h2 className="font-bold text-base text-foreground">{t("emptyTitle")}</h2>
                     <p className="text-xs max-w-sm mx-auto leading-relaxed">
                         {t("emptyHint")}
                     </p>
@@ -276,9 +276,9 @@ export default function MaterialsPage() {
                                                 </Badge>
                                             )}
                                         </div>
-                                        <h3 className="font-extrabold text-sm text-foreground line-clamp-2 leading-snug">
+                                        <h2 className="font-extrabold text-sm text-foreground line-clamp-2 leading-snug">
                                             <HighlightText text={item.subjectName} query={searchQuery} />
-                                        </h3>
+                                        </h2>
                                         {item.subjectEnglish && !sameName(item.subjectEnglish, item.subjectName) && (
                                             <p className="text-xs text-muted-foreground italic truncate">
                                                 <HighlightText text={item.subjectEnglish} query={searchQuery} />
