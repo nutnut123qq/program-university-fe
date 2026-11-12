@@ -320,6 +320,8 @@
     "noDataTitle": "Chưa có dữ liệu lộ trình môn học cho {university}",
     "noDataHint": "Dữ liệu hiện chỉ có lộ trình môn học của: {list}.",
     "noSyllabusNote": "Dữ liệu chưa có đề cương chi tiết cho các môn của {university}.",
+    "attributionRoadmap": "Lộ trình môn học",
+    "attributionSyllabus": "Đề cương {code}",
     "flowStatsData": "Theo dữ liệu: {prereqs} môn tiên quyết · {unlocks} môn mở khóa",
     "prereqNotRecordedTitle": "Dữ liệu không ghi môn tiên quyết",
     "prereqNotRecordedHint": "Dữ liệu đã thu thập của {university} không ghi môn tiên quyết cho môn này. Điều đó không có nghĩa là môn không có điều kiện — hãy đối chiếu chương trình đào tạo chính thức của trường.",
@@ -381,7 +383,8 @@
     "qualityTitle": "Chuẩn hóa Dữ liệu Chương trình",
     "qualityNote1": "Phân bổ Học kỳ & Tín chỉ: Đa số môn học đã có đủ thông tin học kỳ và số tín chỉ; phần còn lại đang được bổ sung.",
     "qualityNote2": "Chuẩn hóa Phân tầng Khối kiến thức: Các môn học được phân loại tự động theo 4 nhóm: Đại cương, Cơ sở ngành, Chuyên ngành và Tốt nghiệp.",
-    "statusNoData": "Chưa đủ dữ liệu"
+    "statusNoData": "Chưa đủ dữ liệu",
+    "collectedRange": "Dữ liệu chương trình thu thập từ {from} đến {to} (nguồn và ngày thu thập ghi theo từng chương trình, nếu có); {missing, number}/{programs, number} chương trình không ghi nhận ngày thu thập."
   },
   "syllabus": {
     "courseBadge": "MÔN HỌC",
@@ -471,6 +474,9 @@
     "source": "Nguồn: {university} — {host}",
     "sourceVia": "Nguồn: {university} — {host}, thu thập qua {via} (bản sao không chính thức)",
     "collected": "Thu thập ngày {date}",
-    "collectedNotRecorded": "Ngày thu thập: không ghi nhận"
+    "collectedNotRecorded": "Ngày thu thập: không ghi nhận",
+    "collectedFor": "{what}: thu thập ngày {date}",
+    "collectedForNotRecorded": "{what}: ngày thu thập không ghi nhận",
+    "programInfo": "Thông tin ngành"
   }
 }

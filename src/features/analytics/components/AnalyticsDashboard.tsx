@@ -9,6 +9,7 @@ import { BookOpen, GraduationCap, Building2, TrendingUp, CheckCircle2, Percent, 
 import { useLocale, useTranslations } from "next-intl"
 import { exportAnalyticsDatasetToCsv, exportAnalyticsDatasetToJson, type AnalyticsSnapshot } from "@/lib/exportUtils"
 import snapshot from "@/lib/analytics-snapshot.json"
+import { collectedDay } from "@/lib/crawl-date"
 
 // Every number on this page comes from src/lib/analytics-snapshot.json, built
 // by scripts/build-analytics.mjs from public/mock (no fetch of the 98 program
@@ -22,10 +23,14 @@ const topBand = S.bands[0] // bands run high → low
 export const AnalyticsDashboard = () => {
     const t = useTranslations("programs")
     const ta = useTranslations("analytics")
+    const tSource = useTranslations("dataSource")
     // Counts and shares in the page locale (vi "1.956", "85,5%"); the downloads keep sharePct's "85.5%".
     const locale = useLocale()
     const num = (n: number) => n.toLocaleString(locale)
     const pct = (k: number) => `${((100 * k) / S.basis.programs).toLocaleString(locale, { minimumFractionDigits: 1, maximumFractionDigits: 1 })}%`
+    // When the program data behind these numbers was collected (AGENTS.md §9, v2.73): the snapshot's day range.
+    const collectedFrom = collectedDay(S.collected.first, locale)
+    const collectedTo = collectedDay(S.collected.last, locale)
 
     return (
         <div className="container mx-auto py-8 px-4 space-y-8 animate-in fade-in duration-500">
@@ -46,6 +51,11 @@ export const AnalyticsDashboard = () => {
                             basis: S.basis.programs,
                             note: t("slmRefScoreNote"),
                         })}
+                    </p>
+                    <p data-testid="analytics-collected" className="text-muted-foreground text-xs mt-1">
+                        {collectedFrom && collectedTo
+                            ? ta("collectedRange", { from: collectedFrom, to: collectedTo, missing: S.collected.missing, programs: S.catalog.programs })
+                            : tSource("collectedNotRecorded")}
                     </p>
                 </div>
 

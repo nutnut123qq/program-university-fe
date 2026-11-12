@@ -12,7 +12,8 @@
  * One row per program, in chunk order (the old path's input order, so stable-sort
  * tie-breaks stay the same), with only the fields the program list reads: its
  * search/filters/sort (api.ts applyFiltersAndSort) and ProgramCard. Columns with
- * few distinct values are stored as an index into `values[field]`. The card shows
+ * few distinct values are stored as an index into `values[field]`; lastCrawled
+ * holds only its day (v2.73, the card's collection date). The card shows
  * the description under line-clamp-2, so a long one is cut after the word that
  * reaches DESCRIPTION_CUT characters + "…" (e2e/v250-search-index.spec.ts measures
  * that every kept text still needs more than two lines at the widest card, so the
@@ -28,6 +29,7 @@
 import { readFileSync, writeFileSync } from "node:fs"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
+import { crawlDay } from "./crawl-day.mjs"
 
 const ROOT = path.resolve(fileURLToPath(new URL("..", import.meta.url)))
 const MOCK = path.join(ROOT, "public", "mock")
@@ -35,10 +37,14 @@ const OUT = path.join(MOCK, "search-index.json")
 
 const FIELDS = [
     "id", "universityId", "universityName", "universityIsPublic", "name", "code", "degreeType", "credits",
-    "duration", "language", "sourceUrl", "description", "courseCount", "createdAt",
+    "duration", "language", "sourceUrl", "lastCrawled", "description", "courseCount", "createdAt",
 ]
-const DICTIONARY = ["universityId", "universityName", "universityIsPublic", "degreeType", "duration", "language"]
+const DICTIONARY = ["universityId", "universityName", "universityIsPublic", "degreeType", "duration", "language", "lastCrawled"]
 const DESCRIPTION_CUT = 250
+
+// The card prints only the collection day (v2.73, src/lib/crawl-date.ts), so the index keeps the day as written
+// ("YYYY-MM-DD", ~10 distinct values, dictionary-coded) instead of the full timestamp — through crawl-day.mjs, which
+// accepts only +07:00 timestamps (their written day is the Vietnam day the helper prints) and stops on anything else.
 
 // Cut at the first whitespace at or after DESCRIPTION_CUT, so the kept text ends with
 // a whole word and is never shorter than the cut; no whitespace after it → kept whole.
@@ -51,7 +57,9 @@ const cutDescription = (d) => {
 const readJson = (p) => JSON.parse(readFileSync(p, "utf8"))
 
 function buildIndex() {
-    const programs = readJson(path.join(MOCK, "index.json")).chunks.flatMap((f) => readJson(path.join(MOCK, "programs", f)))
+    const programs = readJson(path.join(MOCK, "index.json"))
+        .chunks.flatMap((f) => readJson(path.join(MOCK, "programs", f)))
+        .map((p) => ({ ...p, lastCrawled: crawlDay(p.lastCrawled ?? null) }))
     if (programs.length === 0) throw new Error("no programs in public/mock — nothing to index")
     const values = Object.fromEntries(DICTIONARY.map((f) => [f, [...new Set(programs.map((p) => p[f] ?? null))]]))
     const rows = programs.map((p) =>

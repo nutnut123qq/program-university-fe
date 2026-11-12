@@ -9,6 +9,7 @@ import { buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { useLocale, useTranslations } from "next-intl"
 import { formatAdmissionNumber } from "@/lib/admissions-display"
+import { collectedDay } from "@/lib/crawl-date"
 import { safeHttpUrl } from "@/lib/safe-url"
 import { isUniversitySource } from "@/lib/source-label"
 import { WishlistButton } from "@/features/wishlist/WishlistButton"
@@ -60,7 +61,12 @@ function extractSpecialization(name?: string | null): string | null {
 
 export function ProgramCard({ program, index, onViewDetail, scoreHint }: ProgramCardProps) {
     const t = useTranslations("programs")
+    const tSource = useTranslations("dataSource")
     const locale = useLocale()
+    // The day this program's data was collected (AGENTS.md §9, v2.73), named as such: on a score-filter result the line sits
+    // under the cutoff hint, whose rows were fetched on other days (FIX r1). Missing → "not recorded".
+    const collected = collectedDay(program.lastCrawled, locale)
+    const collectedWhat = tSource("programInfo")
     const num = (n: number, signed = false) => formatAdmissionNumber(n, locale, signed)
     const sourceHref = safeHttpUrl(program.sourceUrl)
     const cohorts = extractCohorts(program.code, program.name)
@@ -221,6 +227,12 @@ export function ProgramCard({ program, index, onViewDetail, scoreHint }: Program
                                 ))}
                             </p>
                         )}
+
+                        <p data-testid="program-card-collected" className="text-[11px] leading-relaxed text-muted-foreground">
+                            {collected
+                                ? tSource("collectedFor", { what: collectedWhat, date: collected })
+                                : tSource("collectedForNotRecorded", { what: collectedWhat })}
+                        </p>
                     </CardContent>
                 </div>
 

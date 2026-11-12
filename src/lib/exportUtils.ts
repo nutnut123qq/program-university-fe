@@ -4,17 +4,26 @@
  */
 
 import { Program, Curriculum } from "@/features/programs/types"
+import { collectedIsoDay } from "@/lib/crawl-date"
+
+/** Earliest / latest collection timestamp (lastCrawled, as written) of some programs + how many have none (v2.73). */
+export interface Collected {
+    first: string | null
+    last: string | null
+    missing: number
+}
 
 /** Shape of src/lib/analytics-snapshot.json (written by scripts/build-analytics.mjs). */
 export interface AnalyticsSnapshot {
     catalog: { programs: number; courses: number; universities: number; programsWithoutCourses: number }
+    collected: Collected
     scoredPrograms: number
     /** Programs with enough data: SLM score + course list + not "insufficient". */
     basis: { programs: number; mean: number; atLeast6: number }
     /** High → low; counts over the basis. */
     bands: { range: string; count: number }[]
     /** Ranked by mean, then the n = 0 universities (mean null) by code. */
-    universities: { code: string; name: string; programs: number; n: number; mean: number | null }[]
+    universities: { code: string; name: string; programs: number; n: number; mean: number | null; collected: Collected }[]
 }
 
 const BASIS_RULE = 'evaluationScore is a number && courseCount > 0 && dataSufficiency !== "insufficient"'
@@ -86,13 +95,20 @@ const analyticsFileName = (s: AnalyticsSnapshot, ext: string) =>
     `Tedo_Analytics_Dataset_${s.catalog.universities}_Universities.${ext}`
 
 export function exportAnalyticsDatasetToCsv(s: AnalyticsSnapshot) {
-    const headers = ["Mã trường", "Tên trường Đại học", "Số lượng ngành", "Số ngành đủ dữ liệu (n)", "Điểm SLM tham khảo TB (thang 10)"]
+    const headers = [
+        "Mã trường", "Tên trường Đại học", "Số lượng ngành", "Số ngành đủ dữ liệu (n)", "Điểm SLM tham khảo TB (thang 10)",
+        // v2.73: the collection days of the university's programs (lastCrawled, Vietnam day), not the export time.
+        "Thu thập từ ngày", "Thu thập đến ngày", "Số ngành không ghi nhận ngày thu thập",
+    ]
     const rows = s.universities.map(u => [
         u.code,
         `"${u.name.replace(/"/g, '""')}"`,
         u.programs,
         u.n,
         u.mean ?? "", // n = 0: no mean
+        collectedIsoDay(u.collected.first) ?? "",
+        collectedIsoDay(u.collected.last) ?? "",
+        u.collected.missing,
     ])
 
     const csvContent = "\uFEFF" + [headers.join(","), ...rows.map(r => r.join(","))].join("\n")
@@ -110,6 +126,12 @@ export function exportAnalyticsDatasetToJson(s: AnalyticsSnapshot) {
             totalUniversities: s.catalog.universities,
             programsWithoutCourses: s.catalog.programsWithoutCourses,
         },
+        // When the program data was collected (lastCrawled, Vietnam day; v2.73) — exportedAt below is the download time.
+        dataCollected: {
+            from: collectedIsoDay(s.collected.first),
+            to: collectedIsoDay(s.collected.last),
+            programsWithoutDate: s.collected.missing,
+        },
         // Automatic SLM reference score, not an accreditation.
         slmReference: {
             scoredPrograms: s.scoredPrograms,
@@ -125,6 +147,9 @@ export function exportAnalyticsDatasetToJson(s: AnalyticsSnapshot) {
             programs: u.programs,
             n: u.n,
             meanScore: u.mean,
+            collectedFrom: collectedIsoDay(u.collected.first),
+            collectedTo: collectedIsoDay(u.collected.last),
+            programsWithoutCollectedDate: u.collected.missing,
         })),
         scoreDistributions: s.bands.map(b => ({ range: b.range, count: b.count, share: share(b.count) })),
         exportedAt: new Date().toISOString(),

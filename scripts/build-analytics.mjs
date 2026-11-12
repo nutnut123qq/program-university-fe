@@ -4,7 +4,7 @@
  *
  * Reads (READ-ONLY):
  *   public/mock/index.json         → chunk list
- *   public/mock/programs/<chunk>   → Program rows (courseCount, evaluationScore, dataSufficiency)
+ *   public/mock/programs/<chunk>   → Program rows (courseCount, evaluationScore, dataSufficiency, lastCrawled)
  *   public/mock/universities.json  → universityId → code, name
  *
  * Writes:
@@ -27,6 +27,7 @@
 import { readFileSync, writeFileSync } from "node:fs"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
+import { crawlDay } from "./crawl-day.mjs"
 
 const ROOT = path.resolve(fileURLToPath(new URL("..", import.meta.url)))
 const MOCK = path.join(ROOT, "public", "mock")
@@ -49,6 +50,15 @@ const BANDS = [
 const enough = (p) => typeof p.evaluationScore === "number" && p.courseCount > 0 && p.dataSufficiency !== "insufficient"
 const mean = (xs) => xs.reduce((a, b) => a + b, 0) / xs.length
 const r2 = (x) => Number(x.toFixed(2))
+// Collection timestamps (lastCrawled) of some programs (v2.73): the earliest and the latest, compared as instants and
+// kept as written, and how many programs have none. The page and the downloads print their days through
+// src/lib/crawl-date.ts; here a value counts as dated only through crawl-day.mjs (FIX r1: +07:00 timestamps, one instant
+// each, no build-machine zone; any other value stops the build), so no second day rule.
+const collectedOf = (ps) => {
+    const dated = ps.map((p) => p.lastCrawled ?? null).filter((v) => crawlDay(v) !== null)
+    const sorted = [...dated].sort((a, b) => Date.parse(a) - Date.parse(b))
+    return { first: sorted[0] ?? null, last: sorted.at(-1) ?? null, missing: ps.length - dated.length }
+}
 
 function buildAnalytics() {
     const programs = readJson(path.join(MOCK, "index.json")).chunks.flatMap((f) => readJson(path.join(MOCK, "programs", f)))
@@ -61,7 +71,7 @@ function buildAnalytics() {
         .map((u) => {
             const mine = programs.filter((p) => p.universityId === u.id)
             const xs = mine.filter(enough).map((p) => p.evaluationScore)
-            return { code: u.code, name: u.name, programs: mine.length, n: xs.length, raw: xs.length ? mean(xs) : null }
+            return { code: u.code, name: u.name, programs: mine.length, n: xs.length, raw: xs.length ? mean(xs) : null, collected: collectedOf(mine) }
         })
         .filter((u) => u.programs > 0)
     const byCode = (a, b) => (a.code < b.code ? -1 : 1)
@@ -75,13 +85,14 @@ function buildAnalytics() {
             universities: rows.length,
             programsWithoutCourses: programs.filter((p) => p.courseCount === 0).length,
         },
+        collected: collectedOf(programs),
         scoredPrograms: programs.filter((p) => typeof p.evaluationScore === "number").length,
         basis: { programs: basis.length, mean: r2(mean(basis)), atLeast6: basis.filter((s) => s >= 6).length },
         bands: BANDS.map(([min, range], i) => ({
             range,
             count: basis.filter((s) => s >= min && (i === 0 || s < BANDS[i - 1][0])).length,
         })),
-        universities: [...ranked, ...noData].map(({ raw, ...u }) => ({ ...u, mean: raw === null ? null : r2(raw) })),
+        universities: [...ranked, ...noData].map(({ raw, collected, ...u }) => ({ ...u, mean: raw === null ? null : r2(raw), collected })),
     }
 }
 

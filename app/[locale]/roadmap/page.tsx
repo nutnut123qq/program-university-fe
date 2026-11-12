@@ -432,8 +432,16 @@ export default function RoadmapPage() {
             </Card>
             )}
 
-            {/* Source + collection date of this university's course data (AGENTS.md §9); roadmap files carry no date. */}
-            <DataAttribution universityCode={university} className={selectedCode ? "-mt-4 px-1" : "px-1"} />
+            {/* Source + collection date of this university's course data (AGENTS.md §9), one date per file shown (v2.73):
+                roadmap files carry none; the focus course's syllabus file its own (FPT `info.lastSeenAt`, TDTU none). */}
+            <DataAttribution
+                universityCode={university}
+                dates={[
+                    { what: t("attributionRoadmap"), at: null },
+                    ...(currentSyllabus ? [{ what: t("attributionSyllabus", { code: selectedCode }), at: currentSyllabus.info?.lastSeenAt }] : []),
+                ]}
+                className={selectedCode ? "-mt-4 px-1" : "px-1"}
+            />
 
             {/* 3-Column Visual Roadmap Flow */}
             <div className="space-y-4">

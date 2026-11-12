@@ -51,8 +51,12 @@ export interface Program {
 
 /**
  * A program-list row (v2.50): only what the list's search/filters/sort and
- * ProgramCard read — in mock mode a row of /mock/search-index.json, whose
- * description may be cut for the card. The detail dialog loads the full Program.
+ * ProgramCard read — in mock mode a row of /mock/search-index.json (a search,
+ * a filter or the score filter), whose description may be cut for the card and
+ * whose lastCrawled is only the day ("YYYY-MM-DD", v2.73); a chunk row (the
+ * plain list) or an API row carries the full timestamp. Print lastCrawled only
+ * through `collectedDay` (src/lib/crawl-date.ts), which reads both. The detail
+ * dialog loads the full Program.
  */
 export type ProgramSummary = Pick<
     Program,
@@ -67,6 +71,7 @@ export type ProgramSummary = Pick<
     | "duration"
     | "language"
     | "sourceUrl"
+    | "lastCrawled"
     | "description"
     | "courseCount"
     | "createdAt"

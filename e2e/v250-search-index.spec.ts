@@ -41,6 +41,7 @@ type MockProgram = {
     duration: string | null
     language: string | null
     sourceUrl: string | null
+    lastCrawled: string | null
     description: string | null
     courseCount: number
     createdAt: string
@@ -50,10 +51,11 @@ const all: MockProgram[] = chunks.flatMap((c) => readJson(path.join(MOCK, "progr
 const universities: { id: string; name: string }[] = readJson(path.join(MOCK, "universities.json"))
 const degreeTypes: string[] = readJson(path.join(MOCK, "degree-types.json"))
 
-// What the list path reads (api.ts applyFiltersAndSort + ProgramCard; universityIsPublic = the type filter, back in v2.54).
+// What the list path reads (api.ts applyFiltersAndSort + ProgramCard; universityIsPublic = the type filter, back in v2.54;
+// lastCrawled = the card's collection date since v2.73, stored as its written day).
 const LIST_FIELDS = [
     "id", "universityId", "universityName", "universityIsPublic", "name", "code", "degreeType", "credits",
-    "duration", "language", "sourceUrl", "description", "courseCount", "createdAt",
+    "duration", "language", "sourceUrl", "lastCrawled", "description", "courseCount", "createdAt",
 ] as const
 const BUDGET_REQUESTS = 3
 const BUDGET_BYTES = 1_000_000
@@ -346,7 +348,12 @@ test.describe("v2.50 — compact search index", () => {
         const { fields } = readJson(INDEX_FILE)
         expect(fields).toEqual([...LIST_FIELDS])
         const want = all.map((p) =>
-            Object.fromEntries(LIST_FIELDS.map((f) => [f, f === "description" ? cardDescription(p.description) : (p[f] ?? null)]))
+            Object.fromEntries(
+                LIST_FIELDS.map((f) => [
+                    f,
+                    f === "description" ? cardDescription(p.description) : f === "lastCrawled" ? (p.lastCrawled?.slice(0, 10) ?? null) : (p[f] ?? null),
+                ])
+            )
         )
         expect(decodeIndex()).toEqual(want)
     })

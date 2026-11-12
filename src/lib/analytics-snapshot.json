@@ -5,6 +5,11 @@
     "universities": 17,
     "programsWithoutCourses": 317
   },
+  "collected": {
+    "first": "2026-06-19T23:29:32.856395+07:00",
+    "last": "2026-10-03T13:22:51.463081+07:00",
+    "missing": 116
+  },
   "scoredPrograms": 1713,
   "basis": {
     "programs": 1316,
@@ -39,119 +44,204 @@
       "name": "Trường Đại học Kinh tế TP.HCM",
       "programs": 84,
       "n": 79,
-      "mean": 9.36
+      "mean": 9.36,
+      "collected": {
+        "first": "2026-06-25T13:36:32.156117+07:00",
+        "last": "2026-06-25T13:38:39.366178+07:00",
+        "missing": 3
+      }
     },
     {
       "code": "HCMUT",
       "name": "Trường Đại học Bách khoa - ĐHQG-HCM",
       "programs": 371,
       "n": 122,
-      "mean": 9.2
+      "mean": 9.2,
+      "collected": {
+        "first": "2026-06-22T14:19:27.888731+07:00",
+        "last": "2026-06-24T23:25:04.601394+07:00",
+        "missing": 0
+      }
     },
     {
       "code": "NEU",
       "name": "Đại học Kinh tế Quốc dân",
       "programs": 87,
       "n": 54,
-      "mean": 9
+      "mean": 9,
+      "collected": {
+        "first": "2026-06-22T15:08:43.057283+07:00",
+        "last": "2026-06-22T15:16:44.369301+07:00",
+        "missing": 1
+      }
     },
     {
       "code": "VNU",
       "name": "Đại học Quốc gia Hà Nội",
       "programs": 169,
       "n": 131,
-      "mean": 8.96
+      "mean": 8.96,
+      "collected": {
+        "first": "2026-06-19T23:29:32.856395+07:00",
+        "last": "2026-06-20T21:21:59.919960+07:00",
+        "missing": 32
+      }
     },
     {
       "code": "HUST",
       "name": "Trường Đại học Bách khoa Hà Nội",
       "programs": 73,
       "n": 15,
-      "mean": 8.76
+      "mean": 8.76,
+      "collected": {
+        "first": "2026-06-29T01:01:41.317998+07:00",
+        "last": "2026-06-29T01:04:00.689706+07:00",
+        "missing": 9
+      }
     },
     {
       "code": "FTU",
       "name": "Trường Đại học Ngoại thương",
       "programs": 49,
       "n": 30,
-      "mean": 8.72
+      "mean": 8.72,
+      "collected": {
+        "first": "2026-06-25T21:59:33.110419+07:00",
+        "last": "2026-06-25T22:04:46.553130+07:00",
+        "missing": 16
+      }
     },
     {
       "code": "UIT",
       "name": "Trường Đại học Công nghệ Thông tin - ĐHQG-HCM",
       "programs": 20,
       "n": 19,
-      "mean": 8.71
+      "mean": 8.71,
+      "collected": {
+        "first": "2026-06-25T13:33:37.569497+07:00",
+        "last": "2026-06-25T13:34:00.864334+07:00",
+        "missing": 0
+      }
     },
     {
       "code": "UET",
       "name": "Trường Đại học Công nghệ - ĐHQGHN",
       "programs": 20,
       "n": 5,
-      "mean": 8.65
+      "mean": 8.65,
+      "collected": {
+        "first": "2026-06-25T13:34:39.062040+07:00",
+        "last": "2026-06-25T13:35:44.278863+07:00",
+        "missing": 0
+      }
     },
     {
       "code": "TDTU",
       "name": "Trường Đại học Tôn Đức Thắng",
       "programs": 149,
       "n": 89,
-      "mean": 8.38
+      "mean": 8.38,
+      "collected": {
+        "first": "2026-06-22T14:25:58.885065+07:00",
+        "last": "2026-06-25T13:40:40.441785+07:00",
+        "missing": 29
+      }
     },
     {
       "code": "FPT",
       "name": "Trường Đại học FPT",
       "programs": 497,
       "n": 488,
-      "mean": 8.3
+      "mean": 8.3,
+      "collected": {
+        "first": "2026-06-25T17:46:07.102801+07:00",
+        "last": "2026-08-20T10:22:09.145102+07:00",
+        "missing": 0
+      }
     },
     {
       "code": "PTIT",
       "name": "Học viện Công nghệ Bưu chính Viễn thông",
       "programs": 39,
       "n": 39,
-      "mean": 7.77
+      "mean": 7.77,
+      "collected": {
+        "first": "2026-10-03T13:22:39.826050+07:00",
+        "last": "2026-10-03T13:22:41.492092+07:00",
+        "missing": 0
+      }
     },
     {
       "code": "UEL",
       "name": "Trường Đại học Luật TP.HCM",
       "programs": 21,
       "n": 18,
-      "mean": 7.24
+      "mean": 7.24,
+      "collected": {
+        "first": "2026-10-03T13:22:43.482415+07:00",
+        "last": "2026-10-03T13:22:44.139947+07:00",
+        "missing": 0
+      }
     },
     {
       "code": "HCMUS",
       "name": "Trường Đại học Khoa học Tự nhiên - ĐHQG-HCM",
       "programs": 38,
       "n": 14,
-      "mean": 7.09
+      "mean": 7.09,
+      "collected": {
+        "first": "2026-06-25T17:36:33.220633+07:00",
+        "last": "2026-06-29T00:40:31.411376+07:00",
+        "missing": 0
+      }
     },
     {
       "code": "HUTECH",
       "name": "Trường Đại học Công nghệ TP.HCM",
       "programs": 64,
       "n": 49,
-      "mean": 5.88
+      "mean": 5.88,
+      "collected": {
+        "first": "2026-10-03T13:22:44.202462+07:00",
+        "last": "2026-10-03T13:22:46.623443+07:00",
+        "missing": 0
+      }
     },
     {
       "code": "HCMUTE",
       "name": "Trường Đại học Sư phạm Kỹ thuật TP.HCM",
       "programs": 59,
       "n": 51,
-      "mean": 5.67
+      "mean": 5.67,
+      "collected": {
+        "first": "2026-10-03T13:22:41.581312+07:00",
+        "last": "2026-10-03T13:22:43.440505+07:00",
+        "missing": 5
+      }
     },
     {
       "code": "CTU",
       "name": "Trường Đại học Cần Thơ",
       "programs": 116,
       "n": 113,
-      "mean": 5.62
+      "mean": 5.62,
+      "collected": {
+        "first": "2026-10-03T13:22:46.930550+07:00",
+        "last": "2026-10-03T13:22:51.463081+07:00",
+        "missing": 3
+      }
     },
     {
       "code": "DTU",
       "name": "Trường Đại học Duy Tân",
       "programs": 100,
       "n": 0,
-      "mean": null
+      "mean": null,
+      "collected": {
+        "first": "2026-06-25T13:36:17.863736+07:00",
+        "last": "2026-06-25T13:43:07.573689+07:00",
+        "missing": 18
+      }
     }
   ]
 }

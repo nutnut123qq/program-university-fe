@@ -320,6 +320,8 @@
     "noDataTitle": "No course roadmap data for {university} yet",
     "noDataHint": "Course roadmaps are currently available only for: {list}.",
     "noSyllabusNote": "The data has no detailed syllabi for {university} courses yet.",
+    "attributionRoadmap": "Course roadmap",
+    "attributionSyllabus": "Syllabus {code}",
     "flowStatsData": "Per the data: {prereqs, plural, one {# prerequisite} other {# prerequisites}} · {unlocks} unlocked",
     "prereqNotRecordedTitle": "No prerequisites recorded in the data",
     "prereqNotRecordedHint": "The data collected for {university} records no prerequisite for this course. That does not mean it has none — check the university's official curriculum.",
@@ -381,7 +383,8 @@
     "qualityTitle": "Program Data Standardization",
     "qualityNote1": "Semester & credit distribution: Most courses already have semester and credit data; the remainder is being filled in.",
     "qualityNote2": "Knowledge-block tiering: Courses are auto-classified into 4 groups: General, Foundation, Major and Graduation.",
-    "statusNoData": "Not enough data"
+    "statusNoData": "Not enough data",
+    "collectedRange": "Program data collected from {from} to {to} (each program's source and collection date are shown with it, where recorded); {missing, number} of {programs, number} programs have no recorded collection date."
   },
   "syllabus": {
     "courseBadge": "COURSE",
@@ -471,6 +474,9 @@
     "source": "Source: {university} — {host}",
     "sourceVia": "Source: {university} — {host}, collected via {via} (an unofficial mirror)",
     "collected": "Collected {date}",
-    "collectedNotRecorded": "Collected: not recorded"
+    "collectedNotRecorded": "Collected: not recorded",
+    "collectedFor": "{what}: collected {date}",
+    "collectedForNotRecorded": "{what}: collection date not recorded",
+    "programInfo": "Program info"
   }
 }

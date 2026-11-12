@@ -22,6 +22,8 @@ import path from "path"
 const ROOT = path.join(__dirname, "..")
 const MOCK = path.join(ROOT, "public", "mock")
 const readJson = (file: string) => JSON.parse(readFileSync(file, "utf8"))
+// v2.73: the collection-date fields are checked by e2e/v273-crawl-date-surfaces.spec.ts, not here.
+const omit = (o: Record<string, unknown>, keys: string[]) => Object.fromEntries(Object.entries(o).filter(([k]) => !keys.includes(k)))
 const vi = readJson(path.join(ROOT, "src", "messages", "vi.json"))
 const en = readJson(path.join(ROOT, "src", "messages", "en.json"))
 
@@ -110,7 +112,10 @@ test.describe("v2.47 — honest analytics", () => {
         expect(E.basis.programs).toBeGreaterThan(0)
         const file = path.join(ROOT, "src", "lib", "analytics-snapshot.json")
         expect(existsSync(file), "missing — run: node scripts/build-analytics.mjs").toBe(true)
-        expect(readJson(file), "stale — run: node scripts/build-analytics.mjs").toEqual(E)
+        // The collection timestamps (v2.73) are recomputed by e2e/v273-crawl-date-surfaces.spec.ts.
+        const scores = omit(readJson(file), ["collected"])
+        scores.universities = (scores.universities as Record<string, unknown>[]).map((u) => omit(u, ["collected"]))
+        expect(scores, "stale — run: node scripts/build-analytics.mjs").toEqual(E)
     })
 
     test("vi page: numbers on the enough-data basis, n per university, no verdict label", async ({ page }) => {
@@ -208,7 +213,10 @@ test.describe("v2.47 — honest analytics", () => {
             shareAtLeast6: pct(E.basis.atLeast6),
             shareTopBand: pct(E.bands[0].count),
         })
-        expect(j.universityRankings).toEqual(
+        // The collection-date fields (v2.73) are checked by e2e/v273-crawl-date-surfaces.spec.ts.
+        expect(
+            j.universityRankings.map((u: Record<string, unknown>) => omit(u, ["collectedFrom", "collectedTo", "programsWithoutCollectedDate"]))
+        ).toEqual(
             E.universities.map((u, i) => ({
                 rank: u.mean === null ? null : i + 1,
                 code: u.code,
@@ -225,7 +233,8 @@ test.describe("v2.47 — honest analytics", () => {
         expect(csv.text).not.toMatch(FORBIDDEN_EXPORT)
         const lines = csv.text.replace(/^﻿/, "").split("\n")
         expect(lines[0]).toContain("(n)")
-        expect(lines.slice(1)).toEqual(
+        // The first 5 columns; the 3 collection-date columns (v2.73) are checked by e2e/v273-crawl-date-surfaces.spec.ts.
+        expect(lines.slice(1).map((l) => l.split(",").slice(0, 5).join(","))).toEqual(
             E.universities.map((u) => [u.code, `"${u.name}"`, u.programs, u.n, u.mean ?? ""].join(","))
         )
     })

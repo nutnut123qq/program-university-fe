@@ -115,7 +115,8 @@ test.describe("v2.54 — data policy of the snapshot", () => {
         rows.forEach((row, i) => {
             fields.forEach((f, j) => {
                 const v = values[f] ? values[f][row[j] as number] : row[j]
-                const want = programs[i][f] ?? null
+                // lastCrawled is stored as its written day since v2.73 (the card's collection date, build-search-index.mjs)
+                const want = f === "lastCrawled" ? ((programs[i].lastCrawled as string | null)?.slice(0, 10) ?? null) : (programs[i][f] ?? null)
                 // the description is stored cut for the card (build-search-index.mjs)
                 if (f === "description" && typeof v === "string" && typeof want === "string") {
                     if (!(v === want || (v.endsWith("…") && want.startsWith(v.slice(0, -1))))) mismatches.push(`${i}.${f}`)

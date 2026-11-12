@@ -14,8 +14,11 @@ import { useSearchQuery } from "@/features/programs/useSearchQuery"
 import { AunRadarChart, AunCriterionScore } from "@/components/common/AunRadarChart"
 import { cn } from "@/lib/utils"
 import { hasEnoughData } from "@/lib/score-basis"
+import { collectedDay } from "@/lib/crawl-date"
+import { safeHttpUrl, urlHost } from "@/lib/safe-url"
+import { isUniversitySource } from "@/lib/source-label"
 import { CompareAdmissions } from "./CompareAdmissions"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 
 // Query keys of the compare slots, in slot order (?a=&b= keeps working; c is optional).
 const SLOT_KEYS = ["a", "b", "c"] as const
@@ -105,6 +108,8 @@ const SlotPicker = ({ slot, label, value, options, catalogTotal, onPick }: SlotP
 const ProgramComparisonInner = () => {
     const t = useTranslations("programs")
     const ta = useTranslations("analytics")
+    const tSource = useTranslations("dataSource")
+    const locale = useLocale()
     const pathname = usePathname()
     const searchParams = useSearchParams()
     const { data: programRes } = useSWR(["programs-list-all"], () => fetchPrograms({ page: 1, pageSize: 200 }))
@@ -374,12 +379,33 @@ const ProgramComparisonInner = () => {
                         const hiddenScoreNote = !hasEnoughData(p) && typeof p.evaluationScore === "number"
                             ? t(p.dataSufficiency === "insufficient" ? "evalInsufficientNote" : "evalNoCoursesNote")
                             : null
+                        // Source + collection day of this program's data (AGENTS.md §9, v2.73), as the dialog labels them.
+                        const sourceHref = safeHttpUrl(p.sourceUrl)
+                        const collected = collectedDay(p.lastCrawled, locale)
                         return (
                             <Card key={i} className="border-border/60" data-testid={`compare-card-${i + 1}`}>
                                 <CardHeader>
                                     <Badge className={cn("w-fit mb-2", SLOT_STYLES[i].badge)}>{p.universityName}</Badge>
                                     <CardTitle className="text-xl font-bold">{p.name}</CardTitle>
                                     <CardDescription className="text-xs">{t("compareProgramCode", { code: p.code || "N/A" })}</CardDescription>
+                                    <p data-testid={`compare-attribution-${i + 1}`} className="text-[11px] leading-relaxed text-muted-foreground wrap-anywhere">
+                                        {sourceHref ? (
+                                            <>
+                                                {t(isUniversitySource(sourceHref, p.universityId) ? "sourceUrl" : "sourceUrlCollected")}:{" "}
+                                                {/* Underlined: in muted text the link color alone is not enough (WCAG 1.4.1 / F73; FIX r1). */}
+                                                <a href={sourceHref} target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">
+                                                    {urlHost(sourceHref)}
+                                                </a>
+                                            </>
+                                        ) : (
+                                            // No http(s) link: say so, as the dialog does ("Nguồn: —").
+                                            `${t("sourceLabel")} —`
+                                        )}
+                                        {" · "}
+                                        {collected
+                                            ? tSource("collectedFor", { what: tSource("programInfo"), date: collected })
+                                            : tSource("collectedForNotRecorded", { what: tSource("programInfo") })}
+                                    </p>
                                 </CardHeader>
                                 <CardContent className="space-y-4">
                                     <div className="grid grid-cols-2 gap-3 text-xs">

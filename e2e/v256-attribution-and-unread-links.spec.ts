@@ -1,6 +1,7 @@
 import { test, expect, type Locator, type Page } from "@playwright/test"
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "fs"
 import path from "path"
+import { shownDay, snapshotDay } from "./crawl-date-cases"
 
 /**
  * v2.56 — attribution on every data surface + publish only what the UI shows (audit 2026-10-30 V2, AGENTS.md §9).
@@ -105,19 +106,35 @@ const sourceText = (locale: Locale, uni: string) => {
     const s = SOURCES[uni]
     return fill(msg(locale, "dataSource", s.via ? "sourceVia" : "source"), { university: uniByCode(uni).name, host: s.host, via: s.via ?? "" })
 }
-/** The date part of the ISO timestamp as written: vi DD/MM/YYYY, en YYYY-MM-DD; none → "not recorded". */
+/** The Vietnam day of the timestamp (v2.73 FIX r1: e2e/crawl-date-cases.ts): vi DD/MM/YYYY, en YYYY-MM-DD; none → "not recorded". */
 const dateText = (locale: Locale, iso: unknown) => {
-    const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(typeof iso === "string" ? iso : "")
-    if (!m) return msg(locale, "dataSource", "collectedNotRecorded")
-    return fill(msg(locale, "dataSource", "collected"), { date: locale === "vi" ? `${m[3]}/${m[2]}/${m[1]}` : `${m[1]}-${m[2]}-${m[3]}` })
+    const day = snapshotDay(iso)
+    if (!day) return msg(locale, "dataSource", "collectedNotRecorded")
+    return fill(msg(locale, "dataSource", "collected"), { date: shownDay(locale, day) })
 }
 
-async function expectAttribution(scope: Page | Locator, locale: Locale, uni: string, collectedAt: unknown) {
+/**
+ * /roadmap since v2.73: one labelled date per file shown — the roadmap files (no date), then the focus course's
+ * syllabus file when its university has syllabi and the file exists (the Vietnam day of its lastSeenAt).
+ */
+const roadmapDateText = (locale: Locale, uni: string, code: string) => {
+    const what = (k: string, vars: Record<string, string> = {}) => fill(msg(locale, "roadmap", k), vars)
+    const part = (w: string, iso: unknown) => {
+        const day = snapshotDay(iso)
+        if (!day) return fill(msg(locale, "dataSource", "collectedForNotRecorded"), { what: w })
+        return fill(msg(locale, "dataSource", "collectedFor"), { what: w, date: shownDay(locale, day) })
+    }
+    const parts = [part(what("attributionRoadmap"), null)]
+    if (syllabusUnis.includes(uni) && existsSync(syllabusPath(uni, code))) parts.push(part(what("attributionSyllabus", { code }), syllabusOf(uni, code).info.lastSeenAt))
+    return parts.join(" · ")
+}
+
+async function expectAttribution(scope: Page | Locator, locale: Locale, uni: string, collectedAt: unknown, roadmapCode?: string) {
     const box = scope.getByTestId("data-attribution")
     await expect(box).toHaveCount(1, { timeout: 20000 })
     // The university name arrives with universities.json: wait for the full text.
     await expect(box.getByTestId("data-attribution-source")).toHaveText(sourceText(locale, uni), { timeout: 20000 })
-    await expect(box.getByTestId("data-attribution-date")).toHaveText(dateText(locale, collectedAt))
+    await expect(box.getByTestId("data-attribution-date")).toHaveText(roadmapCode === undefined ? dateText(locale, collectedAt) : roadmapDateText(locale, uni, roadmapCode))
     await expect(box).toBeVisible()
 }
 
@@ -301,13 +318,13 @@ test.describe("v2.56 — attribution on every data surface + publish only what t
         }
     })
 
-    test("/roadmap: every university with roadmap data names its source, no date is recorded; a university without data names none", async ({ page }) => {
+    test("/roadmap: every university with roadmap data names its source, the roadmap files record no date (v2.73: + the focus syllabus's own); a university without data names none", async ({ page }) => {
         await openRoadmap(page, DEFAULT_UNI)
-        await expectAttribution(page, "vi", DEFAULT_UNI, null)
+        await expectAttribution(page, "vi", DEFAULT_UNI, null, DEFAULT_CODE)
         for (const uni of roadmapUnis.filter((u) => u !== DEFAULT_UNI)) {
             await picker(page, "vi").selectOption(uni)
             await expect(bannerTitle(page, roadmapOf(uni, indexOf(uni)[0]).subjectName!)).toBeVisible({ timeout: 20000 })
-            await expectAttribution(page, "vi", uni, null)
+            await expectAttribution(page, "vi", uni, null, indexOf(uni)[0])
         }
         const without = universities.find((u) => !roadmapUnis.includes(u.code))!
         await picker(page, "vi").selectOption(without.code)
@@ -337,7 +354,7 @@ test.describe("v2.56 — attribution on every data surface + publish only what t
     test("en: /roadmap and the FPT syllabus modal name the source in English, date as YYYY-MM-DD", async ({ page }) => {
         const syl = syllabusOf(DEFAULT_UNI, DEFAULT_CODE)
         await openRoadmap(page, DEFAULT_UNI, "en")
-        await expectAttribution(page, "en", DEFAULT_UNI, null)
+        await expectAttribution(page, "en", DEFAULT_UNI, null, DEFAULT_CODE)
         const dialog = await openSyllabusModal(page, syl, "en")
         await expectAttribution(dialog, "en", DEFAULT_UNI, syl.info.lastSeenAt)
     })
