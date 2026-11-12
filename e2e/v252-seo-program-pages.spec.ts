@@ -302,7 +302,7 @@ test.describe("v2.52 — SEO program pages", () => {
         const file = path.join(ROOT, ".next", "server", "app", "vi.html")
         expect(existsSync(file)).toBe(true)
         const html = readFileSync(file, "utf8")
-        expect(html.match(/BAILOUT_TO_CLIENT_SIDE_RENDERING/g) ?? []).toEqual([])
+        expect(html.match(/<!--\$!-->|BAILOUT_TO_CLIENT_SIDE_RENDERING/g) ?? []).toEqual([])  // the client-render boundary <!--$!--> (Next 16.4 writes it with an empty digest; 16.2 also wrote BAILOUT_…)
         expect(h1sOf(html)).toContain(messages.vi.programs.title)
     })
 })

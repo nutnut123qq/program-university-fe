@@ -11,10 +11,10 @@ import path from "path"
  * Someday). proxy.ts lets through only the ids of src/lib/program-ids.json (built
  * from public/mock/programs-by-id by scripts/build-program-ids.mjs) and answers
  * every other `/<locale>/programs/<x>` itself: 404, noindex, `cache-control:
- * no-store`, before routing — so no bad path writes an entry under
- * .next/server/app/<locale>/programs/ (the `next start` file cache; the v2.52 spec
- * reads .next/server/app/vi.html the same way). A snapshot id still renders once
- * and is then a cache HIT.
+ * no-store`, before routing — so no bad path writes an entry in the `next start`
+ * file cache (next 16.2: .next/server/app/<locale>/programs/; next 16.4:
+ * .next/server/route-cache/APP_PAGE/<sha256 of the source route>/$/<locale>/programs/,
+ * v2.70). A snapshot id still renders once and is then a cache HIT.
  *
  * M2: `<html lang>` is the page locale, hreflang has x-default (the default
  * locale), the crawl date and the snapshot date are both shown in
@@ -131,11 +131,16 @@ const vnDate = (v: string | null) => {
     return /(Z|[+-]\d{2}:?\d{2})$/i.test(v) ? VN_DATE.format(new Date(v)) : `${m[3]}/${m[2]}/${m[1]}`
 }
 
-// Cache entries Next writes for a rendered program path (seen under .next/server/app/vi/programs/).
+// Cache entries Next writes for a rendered program path: next 16.2 under .next/server/app/vi/programs/, next 16.4 under
+// .next/server/route-cache/APP_PAGE/<sha256 of the source route>/$/vi/programs/ (v2.70, server/lib/route-cache-key.js) — both read.
 const ENTRY = /^([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\.(html|meta|rsc|segments)$/
+const ROUTE_CACHE = path.join(ROOT, ".next", "server", "route-cache", "APP_PAGE")
 const cacheEntries = (locale: Locale) => {
-    const dir = path.join(APP, locale, "programs")
-    return existsSync(dir) ? readdirSync(dir) : []
+    const dirs = [
+        path.join(APP, locale, "programs"),
+        ...(existsSync(ROUTE_CACHE) ? readdirSync(ROUTE_CACHE).map((hash) => path.join(ROUTE_CACHE, hash, "$", locale, "programs")) : []),
+    ]
+    return dirs.flatMap((dir) => (existsSync(dir) ? readdirSync(dir) : []))
 }
 
 async function getHtml(request: APIRequestContext, url: string, status = 200) {
@@ -196,7 +201,7 @@ test.describe("v2.54 — ISR guard + SEO NITs", () => {
                 const m = ENTRY.exec(name)
                 return !m || !known.has(m[1])
             })
-            expect(stray, `.next/server/app/${locale}/programs/`).toEqual([])
+            expect(stray, `${locale}: the program ISR cache`).toEqual([])
             expect(cacheEntries(locale), `${locale}: the real id is still cached`).toContain(`${real.id}.html`)
         }
     })
@@ -275,6 +280,6 @@ test.describe("v2.54 — ISR guard + SEO NITs", () => {
     test("/vi keeps its static HTML", () => {
         const file = path.join(APP, "vi.html")
         expect(existsSync(file)).toBe(true)
-        expect(readFileSync(file, "utf8").match(/BAILOUT_TO_CLIENT_SIDE_RENDERING/g) ?? []).toEqual([])
+        expect(readFileSync(file, "utf8").match(/<!--\$!-->|BAILOUT_TO_CLIENT_SIDE_RENDERING/g) ?? []).toEqual([])  // the client-render boundary <!--$!--> (Next 16.4 writes it with an empty digest; 16.2 also wrote BAILOUT_…)
     })
 })

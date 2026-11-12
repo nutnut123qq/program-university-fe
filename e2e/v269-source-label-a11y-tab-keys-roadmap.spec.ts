@@ -553,7 +553,7 @@ test.describe("v2.69 source label, login button, a11y, tab keys, roadmap fetch",
         // The static HTML (one file for every ?uni=): no client-side bailout, the Base FPT markup kept under an invisible wrapper.
         for (const l of ["vi", "en"]) {
             const html = readFileSync(path.join(ROOT, ".next", "server", "app", l, "roadmap.html"), "utf8")
-            expect(html.match(/BAILOUT_TO_CLIENT_SIDE_RENDERING/g) ?? [], `${l}: bailout`).toEqual([])
+            expect(html.match(/<!--\$!-->|BAILOUT_TO_CLIENT_SIDE_RENDERING/g) ?? [], `${l}: bailout`).toEqual([])  // the client-render boundary <!--$!--> (Next 16.4 writes it with an empty digest; 16.2 also wrote BAILOUT_…)
             expect(html, `${l}: the university part is invisible until the URL is read`).toMatch(/data-testid="roadmap-university" class="[^"]*\binvisible\b/)
             expect(html).toMatch(new RegExp(`<option value="${DEFAULT_UNI}" selected=""`))
         }
@@ -585,7 +585,9 @@ test.describe("v2.69 source label, login button, a11y, tab keys, roadmap fetch",
         const rec2 = recorder(page)
         await clickNavLink(page, "roadmap")
         await expect.poll(() => new URL(page.url()).pathname).toBe("/vi/roadmap")
-        // The university of the URL Next leaves (16.2.1 reopens the cached `?uni=` URL — v2.63; the default when it has none).
+        // The university of the URL Next leaves (16.2.1 reopened the cached `?uni=` URL — v2.63; the default when it has none).
+        // 16.4.6 leaves the bare /roadmap (the default) — v2.70: this path no longer renders /roadmap?uni= while `location`
+        // still names /vi/compare; the next test reaches that render through Next's client router.
         await expect.poll(() => page.locator("main select").inputValue(), { timeout: 30000 }).not.toBe("")
         const v = new URL(page.url()).searchParams.get("uni")
         const shown = v !== null && ROADMAP_UNIS.includes(v) ? v : DEFAULT_UNI
@@ -597,5 +599,33 @@ test.describe("v2.69 source label, login button, a11y, tab keys, roadmap fetch",
         expect(painted.courses, "another university's course shown on the way").toEqual([])
         expect(painted.pickers, "the picker shown on another university on the way").toEqual([])
         console.log(`[v269] navbar back to /roadmap from /vi/compare after ?uni=${uni}: URL ${new URL(page.url()).pathname}${new URL(page.url()).search} → ${shown}; files read ${rec2.data().length}; paint states ${painted.samples.length}`)
+    })
+
+    test("/roadmap?uni= through Next's client router from another page: no file or course of another university before the URL is read", async ({ page }) => {
+        // v2.70: next 16.4 no longer reopens the first-load `?uni=` URL for the navbar's bare /roadmap link (the test above now
+        // lands on the default) and no app link carries `?uni=`. Next's own client router (`window.next.router`, the instance
+        // the Link component drives; a production build exposes it) navigates to /roadmap?uni=X while `location` still names
+        // the page left — the render the v2.69 "not read yet" guard exists for.
+        const uni = ROADMAP_UNIS.find((u) => u !== DEFAULT_UNI)!
+        const rec1 = recorder(page)
+        await page.goto(`/vi/roadmap?uni=${uni}`, { waitUntil: "domcontentloaded" })
+        await expect(page.locator("main").getByText(indexOf(uni)[0], { exact: true }).first()).toBeVisible({ timeout: 30000 })
+        await rec1.quiet()
+        const before = rec1.data()
+        await clickNavLink(page, "compare")
+        await expect.poll(() => new URL(page.url()).pathname).toBe("/vi/compare")
+        await expect(page.locator("main").getByRole("heading", { level: 1 }).first()).toBeVisible({ timeout: 30000 })
+        await page.evaluate(installSampler)
+        const rec2 = recorder(page)
+        await page.evaluate((href) => (window as unknown as { next: { router: { push(h: string): void } } }).next.router.push(href), `/vi/roadmap?uni=${uni}`)
+        await expect.poll(() => new URL(page.url()).pathname + new URL(page.url()).search).toBe(`/vi/roadmap?uni=${uni}`)
+        await expect(page.locator("main").getByText(indexOf(uni)[0], { exact: true }).first()).toBeVisible({ timeout: 30000 })
+        await rec2.quiet(1500)
+        // The page's fetchers cache what they read: none of the URL's university's files is read again, and no other's.
+        expect(rec2.data(), `router.push to /vi/roadmap?uni=${uni}: the roadmap files read`).toEqual(roadmapSet(uni).filter((f) => !before.includes(f)))
+        const painted = await paintedOther(page, uni)
+        expect(painted.courses, "another university's course shown on the way").toEqual([])
+        expect(painted.pickers, "the picker shown on another university on the way").toEqual([])
+        console.log(`[v269] router.push to /vi/roadmap?uni=${uni} from /vi/compare: files read ${rec2.data().length}; paint states ${painted.samples.length}`)
     })
 })

@@ -265,7 +265,7 @@ test.describe("v2.53 roadmap for every university with data", () => {
 
     test("/vi/roadmap keeps its static HTML with the picker on the FPT default", () => {
         const html = readFileSync(path.join(ROOT, ".next", "server", "app", "vi", "roadmap.html"), "utf8")
-        expect(html.match(/BAILOUT_TO_CLIENT_SIDE_RENDERING/g) ?? []).toEqual([])
+        expect(html.match(/<!--\$!-->|BAILOUT_TO_CLIENT_SIDE_RENDERING/g) ?? []).toEqual([])  // the client-render boundary <!--$!--> (Next 16.4 writes it with an empty digest; 16.2 also wrote BAILOUT_…)
         expect(html).toMatch(new RegExp(`<select[^>]*id="[^"]+"`))
         expect(html).toMatch(new RegExp(`<option value="${DEFAULT_UNI}" selected=""`))
         expect(html).toContain(vi.popularSubjects)

@@ -583,8 +583,9 @@ test.describe("v2.63 roadmap for the 4 universities, completed", () => {
         await expect(picker(page, "vi")).toHaveValue(a)
         await expect(bannerTitle(page, nameOf(a, indexOf(a)[0]))).toBeVisible({ timeout: 20000 })
         await expect(searchBox(page, a)).toHaveValue("")
-        // (2) `?uni=` loaded with the page: whatever URL Next leaves after the link (16.2.1 keeps `?uni=` there — the loaded
-        // route's canonical URL), the page shows the university that URL names, and the next keystroke keeps it.
+        // (2) `?uni=` loaded with the page: whatever URL Next leaves after the link (16.2.1 kept `?uni=` there — the loaded
+        // route's canonical URL; 16.4.6 keys the first-load route entry by its real search and leaves the bare /roadmap — v2.70),
+        // the page shows the university that URL names, and the next keystroke keeps it.
         await openRoadmap(page, `/vi/roadmap?uni=${a}`)
         await expect(bannerTitle(page, nameOf(a, indexOf(a)[0]))).toBeVisible({ timeout: 20000 })
         const rec = recorder(page)
@@ -799,7 +800,7 @@ test.describe("v2.63 roadmap for the 4 universities, completed", () => {
             const html = readFileSync(path.join(ROOT, ".next", "server", "app", l, "roadmap.html"), "utf8")
             const counts = html.match(/<span class="text-xs text-muted-foreground font-mono font-medium">[^<]*<\/span>/g) ?? []
             expect(counts, `${l}: no count rendered while loading`).toEqual([])
-            expect(html.match(/BAILOUT_TO_CLIENT_SIDE_RENDERING/g) ?? [], `${l}: bailout`).toEqual([])
+            expect(html.match(/<!--\$!-->|BAILOUT_TO_CLIENT_SIDE_RENDERING/g) ?? [], `${l}: bailout`).toEqual([])  // the client-render boundary <!--$!--> (Next 16.4 writes it with an empty digest; 16.2 also wrote BAILOUT_…)
             expect(html).toMatch(/<select[^>]*id="[^"]+"/)
             expect(html).toMatch(new RegExp(`<option value="${DEFAULT_UNI}" selected=""`))
             expect(html).toContain(msg(l, "roadmap", "popularSubjects"))
